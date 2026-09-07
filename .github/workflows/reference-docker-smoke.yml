@@ -1,0 +1,88 @@
+# ## Executive summary (read this first)
+# Temporary, branch-scoped smoke test for the unmodified Track 2 reference Docker image.
+# It builds the repository Dockerfile, runs the worked exemplar fully offline, and checks g0-g3.
+# This workflow is intentionally limited to task/reference-docker-smoke and is not for main.
+
+name: Reference Docker Smoke
+
+on:
+  push:
+    branches: ["task/reference-docker-smoke"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reference-docker-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - name: Show immutable source revision
+        run: |
+          git rev-parse HEAD
+          git status --short
+
+      - name: Build unmodified reference image
+        run: docker build --pull -t t2-reference:smoke .
+
+      - name: Verify forecast verb is on PATH
+        run: docker run --rm --network=none t2-reference:smoke forecast --help
+
+      - name: Run worked exemplar fully offline
+        run: |
+          rm -rf .smoke-out
+          mkdir -p .smoke-out
+          docker run --rm --network=none \
+            -v "$PWD/units/t2-EXAMPLE-ust-curve-1m:/input:ro" \
+            -v "$PWD/.smoke-out:/output" \
+            t2-reference:smoke \
+            forecast \
+              --panels /input/panels/ \
+              --text /input/text/ \
+              --asof 2024-06-28 \
+              --out /output/forecast.parquet
+
+      - name: Verify all three deliverables exist and are non-empty
+        run: |
+          test -s .smoke-out/forecast.parquet
+          test -s .smoke-out/forecast_meta.json
+          test -s .smoke-out/forecast_rationale.md
+          ls -lh .smoke-out
+          cat .smoke-out/forecast_meta.json
+          sed -n '1,80p' .smoke-out/forecast_rationale.md
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned scorer dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install .
+
+      - name: Inspect forecast shape
+        run: |
+          python - <<'PY'
+          import pandas as pd
+          p = '.smoke-out/forecast.parquet'
+          df = pd.read_parquet(p)
+          print(df.dtypes)
+          print('rows', len(df))
+          print('draws', df['draw'].nunique())
+          print('assets', sorted(df['asset'].unique().tolist()))
+          print('horizons', sorted(df['horizon'].unique().tolist()))
+          assert list(df.columns) == ['draw', 'asset', 'horizon', 'value']
+          assert len(df) == 500 * 4 * 1
+          assert df['draw'].nunique() == 500
+          assert set(df['asset']) == {'UST_2Y', 'UST_5Y', 'UST_10Y', 'UST_30Y'}
+          assert set(df['horizon']) == {21}
+          PY
+
+      - name: Run official local admissibility gates
+        run: |
+          python scoring/scoring.py score \
+            --card units/t2-EXAMPLE-ust-curve-1m/card.toml \
+            --forecast .smoke-out/forecast.parquet
