@@ -34,6 +34,10 @@ jobs:
         run: |
           rm -rf .smoke-out
           mkdir -p .smoke-out
+          # The reference image deliberately runs as uid 1000. GitHub-hosted runner bind mounts
+          # inherit host ownership, so make this test output directory writable by the container,
+          # matching the submission contract's writable /output mount.
+          chmod 0777 .smoke-out
           docker run --rm --network=none \
             -v "$PWD/units/t2-EXAMPLE-ust-curve-1m:/input:ro" \
             -v "$PWD/.smoke-out:/output" \
