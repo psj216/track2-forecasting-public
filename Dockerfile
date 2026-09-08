@@ -1,4 +1,4 @@
-# QFBench 2.0 Track-2 Numeric v1 submission image.
+# QFBench 2.0 Track-2 Numeric v2 submission image.
 #
 # Follows the shape the other tracks already use on the shared dev box: the verb is an
 # executable on PATH, CMD is the verb plus --help so `docker run <img>` is self-describing,

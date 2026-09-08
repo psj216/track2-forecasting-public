@@ -433,9 +433,9 @@ def main(argv: list[str] | None = None) -> int:
                 "rationale": {
                     "file": "forecast_rationale.md",
                     "method": (
-                        "numeric v1 joint bootstrap + model-supplied drift_bp/vol_scale"
+                        "numeric v2 joint bootstrap + model-supplied drift_bp/vol_scale"
                         if reasoning_applied
-                        else "numeric v1 joint bootstrap, unadjusted (reasoning skipped)"
+                        else "numeric v2 joint bootstrap, unadjusted (reasoning skipped)"
                     ),
                     "documents_read": len(docs),
                     "documents_excluded_by_cutoff": excluded,
@@ -455,7 +455,7 @@ def main(argv: list[str] | None = None) -> int:
                 "",
                 "## Statistical half",
                 "",
-                "Regime-aware joint block bootstrap from",
+                "Regime-matched joint block bootstrap from",
                 "`qfbench2_track_forecasting.cli._draw`: historical blocks contain all assets",
                 "and all horizons come from one path, preserving joint and temporal structure.",
                 "",

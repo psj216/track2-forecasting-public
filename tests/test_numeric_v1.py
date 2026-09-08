@@ -11,6 +11,7 @@ import pandas as pd
 
 from qfbench2_track_forecasting.cli import _draw
 from qfbench2_track_forecasting.numeric_v1 import forecast_numeric_v1
+from qfbench2_track_forecasting.numeric_v2 import V2_CONFIG, forecast_numeric_v2
 
 
 def _dated(values: np.ndarray) -> pd.Series:
@@ -84,3 +85,18 @@ def test_cli_draw_ignores_rows_after_asof() -> None:
     )[0]
 
     np.testing.assert_array_equal(with_future, without_future)
+
+
+def test_v2_adds_state_matched_pool_without_changing_shape() -> None:
+    rng = np.random.default_rng(41)
+    daily = rng.normal(0.0, 0.01, 900)
+    result = forecast_numeric_v2(
+        {"MKT": _dated(daily)}, ["MKT"], [21, 63], "log_return", 300, seed=43
+    )
+
+    assert result.samples.shape == (300, 1, 2)
+    assert result.metadata["model"] == V2_CONFIG.name
+    sampling = result.metadata["sampling"]
+    assert sampling["configured_state_match_share"] == 0.75
+    assert 0.0 < sampling["effective_state_match_share"] < 0.75
+    assert sampling["state_matched_block_count"] >= 20
