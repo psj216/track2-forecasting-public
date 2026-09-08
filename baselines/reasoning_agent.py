@@ -371,7 +371,9 @@ def main(argv: list[str] | None = None) -> int:
     n_draws = max(a.n_draws, _MIN_DRAWS)
     if n_draws != a.n_draws:
         print(f"note: --n-draws {a.n_draws} raised to the contract floor {_MIN_DRAWS}")
-    samples, draw_meta = _draw(panels, assets, horizons, a.asof, n_draws, a.seed)
+    samples, draw_meta = _draw(
+        panels, assets, horizons, a.asof, n_draws, a.seed, target_type=t["target_type"]
+    )
     last = {x: float(draw_meta["last"][x]) for x in assets}
     # sd of the forecast at the LONGEST horizon: sqrt(h) x the daily sd the statistical half fit.
     # This is the scale the drift is stated against and clamped on, and it goes in the prompt.
@@ -431,9 +433,9 @@ def main(argv: list[str] | None = None) -> int:
                 "rationale": {
                     "file": "forecast_rationale.md",
                     "method": (
-                        "joint gaussian random walk + model-supplied drift_bp/vol_scale"
+                        "numeric v1 joint bootstrap + model-supplied drift_bp/vol_scale"
                         if reasoning_applied
-                        else "joint gaussian random walk, unadjusted (reasoning skipped)"
+                        else "numeric v1 joint bootstrap, unadjusted (reasoning skipped)"
                     ),
                     "documents_read": len(docs),
                     "documents_excluded_by_cutoff": excluded,
@@ -453,9 +455,9 @@ def main(argv: list[str] | None = None) -> int:
                 "",
                 "## Statistical half",
                 "",
-                "Joint Gaussian random walk from `qfbench2_track_forecasting.cli._draw`:",
-                "innovations are drawn from the empirical correlation of daily changes, so curve",
-                "shape is preserved rather than assembled from independent marginals.",
+                "Regime-aware joint block bootstrap from",
+                "`qfbench2_track_forecasting.cli._draw`: historical blocks contain all assets",
+                "and all horizons come from one path, preserving joint and temporal structure.",
                 "",
                 "## Reasoning half",
                 "",

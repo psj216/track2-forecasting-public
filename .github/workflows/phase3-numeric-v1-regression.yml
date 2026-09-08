@@ -1,0 +1,151 @@
+# ## Executive summary (read this first)
+# Build Numeric v1 and the unchanged organizer reference, run both fully offline on F1-F4, and
+# require the Numeric v1 outputs to pass the official local admissibility gates.
+
+name: Phase 3 Numeric v1 Regression
+
+on:
+  push:
+    branches: ["track2/numeric-baseline-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numeric-v1-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Numeric v1 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          path: numeric
+
+      - name: Check out unchanged fork main as reference
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          ref: main
+          path: reference-main
+
+      - name: Show immutable revisions
+        run: |
+          git -C numeric rev-parse HEAD
+          git -C reference-main rev-parse HEAD
+          git -C numeric status --short
+          git -C reference-main status --short
+
+      - name: Build Numeric v1 and reference images
+        run: |
+          docker build --pull -t t2-numeric:v1 numeric
+          docker build --pull -t t2-reference:main reference-main
+
+      - name: Run F1-F4 forecasts fully offline
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/numeric/units/$unit"
+            numeric_out="$GITHUB_WORKSPACE/outputs/$unit/numeric"
+            reference_out="$GITHUB_WORKSPACE/outputs/$unit/reference"
+            mkdir -p "$numeric_out" "$reference_out"
+            chmod 0777 "$numeric_out" "$reference_out"
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$numeric_out:/output" \
+              t2-numeric:v1 \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$reference_out:/output" \
+              t2-reference:main \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+
+            test -s "$numeric_out/forecast.parquet"
+            test -s "$numeric_out/forecast_meta.json"
+            test -s "$numeric_out/forecast_rationale.md"
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned scorer and Numeric v1 package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install ./numeric
+
+      - name: Run official g0-g3 gates on all Numeric v1 outputs
+        run: |
+          for unit in \
+            t2-F1-greater-confidence-2024 \
+            t2-F2-eur-parity-2022 \
+            t2-F3-brexit-joint-2016 \
+            t2-F4-short-vol-2018
+          do
+            qfbench2-smoke \
+              "$GITHUB_WORKSPACE/numeric/units/$unit" \
+              "$GITHUB_WORKSPACE/outputs/$unit/numeric" \
+              --track forecasting
+          done
+
+      - name: Compare Numeric v1 with organizer reference distributions
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          root = Path("outputs")
+          units = [
+              "t2-F1-greater-confidence-2024",
+              "t2-F2-eur-parity-2022",
+              "t2-F3-brexit-joint-2016",
+              "t2-F4-short-vol-2018",
+          ]
+          quantiles = [0.01, 0.05, 0.50, 0.95, 0.99]
+          for unit in units:
+              print(f"\n===== {unit} =====")
+              numeric = pd.read_parquet(root / unit / "numeric" / "forecast.parquet")
+              reference = pd.read_parquet(root / unit / "reference" / "forecast.parquet")
+              meta = json.loads((root / unit / "numeric" / "forecast_meta.json").read_text())
+
+              assert list(numeric.columns) == ["draw", "asset", "horizon", "value"]
+              assert not numeric.duplicated(["draw", "asset", "horizon"]).any()
+              assert numeric["value"].notna().all()
+              assert numeric["draw"].nunique() == meta["n_draws"]
+              assert meta["rationale"]["method"] == (
+                  "regime-aware joint block bootstrap v1, no text"
+              )
+
+              for name, frame in (("numeric_v1", numeric), ("reference", reference)):
+                  grouped = frame.groupby(["asset", "horizon"])["value"]
+                  summary = grouped.agg(["mean", "std", "skew"])
+                  tails = grouped.quantile(quantiles).unstack()
+                  print(name)
+                  print(summary.join(tails, rsuffix="_q"))
+
+              if numeric["asset"].nunique() > 1:
+                  for horizon in sorted(numeric["horizon"].unique()):
+                      joint = numeric[numeric["horizon"] == horizon].pivot(
+                          index="draw", columns="asset", values="value"
+                      )
+                      print(f"numeric joint correlation, {horizon} BD")
+                      print(joint.corr())
+
+              if numeric["horizon"].nunique() > 1:
+                  first_asset = str(numeric["asset"].iloc[0])
+                  temporal = numeric[numeric["asset"] == first_asset].pivot(
+                      index="draw", columns="horizon", values="value"
+                  )
+                  print(f"numeric horizon correlation, {first_asset}")
+                  print(temporal.corr())
+          PY

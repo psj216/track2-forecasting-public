@@ -1,4 +1,4 @@
-"""Track-2 reference submission CLI.
+"""Track-2 Numeric v1 submission CLI.
 
 Implements the `forecast` verb from the shared submission contract:
 
@@ -11,13 +11,11 @@ and writes the three deliverables the contract requires next to `--out`:
     forecast_meta.json       the sidecar g1_schema validates
     forecast_rationale.md    required, NEVER scored — the derivation, for human review
 
-This is the statistical floor, not a worked example of using text. It reads the panels and
-ignores `--text` entirely, which is stated plainly in the rationale it writes: a submission that
-does this is doing the thing Track 2 exists to measure agents beating. It is here so that a
-participant has something that provably builds, runs offline and passes g0-g3, and can be edited
-into a real agent one step at a time.
+This Phase 3 implementation is the numeric-only anchor for later text ablation. It separates level
+and log-return targets, blends recent and long history, detects regime fragility, and samples
+joint historical blocks along one coherent path. It reads no text yet and says so in its sidecar.
 
-Run offline. No network, no model weights, numpy + pandas only.
+Run offline. No network and no model weights.
 """
 
 from __future__ import annotations
@@ -32,6 +30,7 @@ import numpy as np
 import pandas as pd
 
 from .limits import ParseLimits
+from .numeric_v1 import forecast_numeric_v1
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
@@ -60,24 +59,6 @@ _ASSET_COLS = ("asset", "asset_id")
 
 def _asset_col(df: pd.DataFrame) -> str | None:
     return next((c for c in _ASSET_COLS if c in df.columns), None)
-
-
-def _diff_without_gaps(s: pd.Series) -> pd.Series:
-    """First differences, with any difference that spans a hole in the data dropped.
-
-    A transfer card ships its target asset as an early window plus a single row at the as-of
-    date, with the years between deliberately withheld (the card says so, and says not to
-    difference across it). Differenced naively, that hole reads as one day in which the asset
-    moved a decade's worth -- on the CNY card it inflated the 5-95% band from under a percent
-    to +-7%. The threshold adapts to the panel's own spacing (10x its typical step), so daily
-    and monthly panels are both handled and a gapless panel is untouched.
-    """
-    d = s.diff()
-    when = pd.to_datetime(pd.Series(s.index, index=s.index), errors="coerce")
-    step = when.diff().dt.days
-    if step.notna().sum() == 0:
-        return d
-    return d.where(step <= max(float(step.median()) * 10.0, 5.0))
 
 
 def _series(panels: dict[str, pd.DataFrame], asset: str, asof: str) -> pd.Series:
@@ -116,39 +97,15 @@ def _draw(
     asof: str,
     n_draws: int,
     seed: int,
+    target_type: str = "level",
 ) -> tuple[np.ndarray, dict[str, Any]]:
-    """Joint Gaussian random walk, correlated ACROSS ASSETS via their historical daily changes.
-
-    Drawing each asset independently would score badly on purpose: the composite puts 0.3 on the
-    joint variogram term precisely to catch marginals that were stapled together. So the shared
-    innovation is drawn from the empirical correlation of daily changes and scaled by sqrt(h).
-    """
-    rng = np.random.default_rng(seed)
+    """Target-aware joint block bootstrap with regime diagnostics and coherent horizons."""
     hist = {a: _series(panels, a, asof) for a in assets}
-    diffs = pd.DataFrame({a: _diff_without_gaps(s) for a, s in hist.items()}).dropna()
-    if len(diffs) < 30:
-        raise SystemExit(f"not enough history to estimate covariance ({len(diffs)} rows)")
-
-    last = np.array([hist[a].iloc[-1] for a in assets], dtype=float)
-    sd = diffs.std().to_numpy(dtype=float)
-    corr = diffs.corr().to_numpy(dtype=float)
-    corr = np.nan_to_num(corr, nan=0.0)
-    np.fill_diagonal(corr, 1.0)
-    # Nearest-PSD nudge: an empirical correlation can be indefinite after nan_to_num.
-    w, v = np.linalg.eigh(corr)
-    corr = v @ np.diag(np.clip(w, 1e-8, None)) @ v.T
-    chol = np.linalg.cholesky(corr)
-
-    out = np.empty((n_draws, len(assets), len(horizons)), dtype=float)
-    for hi, h in enumerate(horizons):
-        z = rng.standard_normal((n_draws, len(assets))) @ chol.T
-        out[:, :, hi] = last + z * (sd * np.sqrt(h))
-    meta = {
-        "last": {a: float(last[i]) for i, a in enumerate(assets)},
-        "daily_sd": {a: float(sd[i]) for i, a in enumerate(assets)},
-        "n_history_rows": int(len(diffs)),
-    }
-    return out, meta
+    try:
+        result = forecast_numeric_v1(hist, assets, horizons, target_type, n_draws, seed)
+    except ValueError as exc:
+        raise SystemExit(str(exc)) from exc
+    return result.samples, result.metadata
 
 
 def _rationale(
@@ -162,7 +119,7 @@ def _rationale(
 ) -> str:
     n_docs = len(list(text_dir.glob("*.txt"))) if text_dir.is_dir() else 0
     ladder = "\n".join(
-        f"| {a} | {stats['last'][a]:.4f} | {stats['daily_sd'][a]:.4f} | "
+        f"| {a} | {stats['anchor'][a]:.4f} | {stats['daily_sd'][a]:.4f} | "
         f"{stats['daily_sd'][a] * np.sqrt(h):.4f} | {h} |"
         for a in assets
         for h in horizons
@@ -172,51 +129,52 @@ def _rationale(
 As of **{asof}**, joint distribution over {", ".join(assets)} at horizon(s)
 {", ".join(str(h) for h in horizons)} business days. {n_draws} draws.
 
-## Anchor
+## Target and anchor
 
-The last observed value of each series at the as-of, taken from the shipped panels
-({stats["n_history_rows"]} rows of overlapping daily history used for the covariance).
+Target type: **{stats["target_type"]}**. Level forecasts start from the last observed level.
+Return forecasts start from zero and accumulate daily returns. The engine used
+{stats["n_history_rows"]} overlapping rows dated no later than the as-of.
 
 ## Adjustments
 
-**None.** This is a driftless random walk: the centre is the anchor, unadjusted. Every
-adjustment is zero and is listed as such rather than omitted, so the ledger below sums.
+The centre uses a strongly shrunk blend of 20, 60, 120 and long-window daily drift. It is capped
+relative to forecast uncertainty so a short trend cannot dominate a long horizon.
 
 ## Scale and shape
 
-Per-asset daily standard deviation of first differences, scaled by sqrt(horizon). Gaussian
-shape — deliberately not fat-tailed, since nothing here justifies a tail view.
+Five-day historical blocks are sampled from a blend of recent and full history. This preserves
+observed non-Gaussian tails and volatility clustering. Current fragility is
+**{stats['regime']['fragility']:.3f}**; recent-history weight is
+**{stats['regime']['recent_weight']:.3f}** and uncertainty scale is
+**{stats['regime']['uncertainty_scale']:.3f}**.
 
-The draws are **joint**: a single innovation vector is drawn per draw from the empirical
-correlation of daily changes across assets, so cross-asset structure is preserved rather than
-assembled from independent marginals. The composite's variogram term scores exactly that.
+The draws are **joint**: each sampled block contains every asset. Each draw is also one path
+through time, and every requested horizon is read from that same path.
 
 ## Adjustment ledger
 
-| asset | anchor | daily sd | sd at horizon | horizon (BD) |
+| asset | model anchor | effective daily sd | sd at horizon | horizon (BD) |
 |---|---|---|---|---|
 {ladder}
 
-Centre = anchor + 0 for every asset and horizon.
+Daily drift: {stats['daily_drift']}.
 
 ## What the text corpus contributed
 
-**Nothing.** {n_docs} document(s) were present at the text path and none was read. This is the
-statistical floor a reasoning agent has to beat, not an example of using text — the whole point
-of Track 2 is the gap between this and an agent that reads the corpus. A real submission would
-use the documents to move the centre, skew the distribution, or widen the tails, and would say
-here which document drove which adjustment and by how much.
+**Nothing.** {n_docs} document(s) were present and none was read. This Phase 3 model is the
+numeric-only anchor for the later reasoning ablation.
 
 ## What would change this forecast
 
-Any evidence at all. It currently uses none beyond the panel's own volatility.
+New numeric observations that change momentum, volatility, correlation or fragility. Text
+evidence is intentionally deferred to the reasoning layer.
 """
 
 
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(
         prog="forecast",
-        description="QFBench 2.0 Track-2 reference submission (statistical floor).",
+        description="QFBench 2.0 Track-2 Numeric v1 submission.",
     )
     p.add_argument("--panels", type=pathlib.Path, required=True)
     p.add_argument("--text", type=pathlib.Path, required=True)
@@ -272,7 +230,10 @@ def main(argv: list[str] | None = None) -> int:
         )
 
     panels = _read_panels(a.panels)
-    samples, stats = _draw(panels, assets, horizons, a.asof, n_draws, a.seed)
+    target_type = str(tgt.get("target_type", "level"))
+    samples, stats = _draw(
+        panels, assets, horizons, a.asof, n_draws, a.seed, target_type=target_type
+    )
 
     out_dir = a.out.parent
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -294,10 +255,10 @@ def main(argv: list[str] | None = None) -> int:
                 "asset_ids": assets,
                 "horizons": horizons,
                 "n_draws": n_draws,
-                "target": tgt.get("target_type", "level"),
+                "target": target_type,
                 "rationale": {
                     "file": _RATIONALE_NAME,
-                    "method": "joint gaussian random walk, no text",
+                    "method": "regime-aware joint block bootstrap v1, no text",
                 },
             },
             indent=2,
