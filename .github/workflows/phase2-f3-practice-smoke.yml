@@ -1,0 +1,119 @@
+# ## Executive summary (read this first)
+# Branch-scoped Phase 2 smoke test on a real F3 multi-asset joint practice unit.
+# It leaves the reference forecaster unchanged and verifies complete joint draws across assets and horizons.
+
+name: Phase 2 F3 Practice Smoke
+
+on:
+  push:
+    branches: ["task/reference-docker-smoke"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  f3-practice-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - name: Show immutable source revision
+        run: |
+          git rev-parse HEAD
+          git status --short
+
+      - name: Build unmodified reference image
+        run: docker build --pull -t t2-reference:phase2-f3 .
+
+      - name: Run real F3 joint unit fully offline
+        run: |
+          rm -rf .phase2-f3-out
+          mkdir -p .phase2-f3-out
+          # The image runs as uid 1000; reproduce the harness contract where /output is writable.
+          chmod 0777 .phase2-f3-out
+          docker run --rm --network=none \
+            -v "$PWD/units/t2-F3-brexit-joint-2016:/input:ro" \
+            -v "$PWD/.phase2-f3-out:/output" \
+            t2-reference:phase2-f3 \
+            forecast \
+              --panels /input/panels/ \
+              --text /input/text/ \
+              --asof 2016-06-17 \
+              --out /output/forecast.parquet
+
+      - name: Verify required deliverables
+        run: |
+          test -s .phase2-f3-out/forecast.parquet
+          test -s .phase2-f3-out/forecast_meta.json
+          test -s .phase2-f3-out/forecast_rationale.md
+          ls -lh .phase2-f3-out
+          cat .phase2-f3-out/forecast_meta.json
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned scorer dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install .
+
+      - name: Inspect F3 joint forecast contract
+        run: |
+          python - <<'PY'
+          import json
+          import pandas as pd
+
+          df = pd.read_parquet('.phase2-f3-out/forecast.parquet')
+          meta = json.load(open('.phase2-f3-out/forecast_meta.json'))
+
+          print(df.dtypes)
+          print('rows', len(df))
+          print('draws', df['draw'].nunique())
+          print('assets', sorted(df['asset'].unique().tolist()))
+          print('horizons', sorted(df['horizon'].unique().tolist()))
+          print('value summary')
+          print(df.groupby(['asset', 'horizon'])['value'].agg(['mean', 'std', 'min', 'max']))
+
+          expected_assets = {'GBP', 'EUR', 'CHF', 'JPY'}
+          expected_horizons = {21, 63}
+
+          assert list(df.columns) == ['draw', 'asset', 'horizon', 'value']
+          assert len(df) == 500 * 4 * 2
+          assert df['draw'].nunique() == 500
+          assert set(df['asset']) == expected_assets
+          assert set(df['horizon']) == expected_horizons
+          assert df['value'].notna().all()
+          assert not df.duplicated(['draw', 'asset', 'horizon']).any()
+
+          # Every Monte Carlo draw must contain the full 4-asset x 2-horizon joint state.
+          cells_per_draw = df.groupby('draw').size()
+          assert (cells_per_draw == 8).all()
+          for draw, group in df.groupby('draw'):
+              assert set(group['asset']) == expected_assets
+              assert set(group['horizon']) == expected_horizons
+              assert len(group[['asset', 'horizon']].drop_duplicates()) == 8
+
+          # Print empirical cross-asset dependence to prove draws are not being treated as separate files.
+          h21 = df[df['horizon'] == 21].pivot(index='draw', columns='asset', values='value')
+          h63 = df[df['horizon'] == 63].pivot(index='draw', columns='asset', values='value')
+          print('h21 correlation')
+          print(h21.corr())
+          print('h63 correlation')
+          print(h63.corr())
+
+          assert meta['unit_id'] == 't2-F3-brexit-joint-2016'
+          assert meta['asof'] == '2016-06-17'
+          assert set(meta['asset_ids']) == expected_assets
+          assert meta['horizons'] == [21, 63]
+          assert meta['n_draws'] == 500
+          assert meta['target'] == 'level'
+          PY
+
+      - name: Run official local admissibility gates
+        run: |
+          python scoring/scoring.py score \
+            --card units/t2-F3-brexit-joint-2016/card.toml \
+            --forecast .phase2-f3-out/forecast.parquet
