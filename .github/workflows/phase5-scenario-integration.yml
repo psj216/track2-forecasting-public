@@ -1,0 +1,134 @@
+# ## Executive summary (read this first)
+# Validate Phase 5's scenario sampler, family routes, exact Numeric-v3 fallback, and official
+# submission gates. The workflow uses no external model and therefore makes no score-uplift claim.
+
+name: Phase 5 Scenario Integration
+
+on:
+  push:
+    branches: ["track2/scenario-integration-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  scenario-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Phase 5 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          path: phase5
+
+      - name: Check out frozen Phase 4 fallback
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          ref: track2/text-evidence-v1
+          path: phase4
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned toolkit and Phase 5 package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install -e './phase5[test,dev]'
+
+      - name: Run static checks and all unit tests
+        working-directory: phase5
+        run: |
+          ruff check qfbench2_track_forecasting tests
+          mypy --strict --ignore-missing-imports \
+            qfbench2_track_forecasting \
+            tests/test_text_evidence.py \
+            tests/test_scenario_integration.py \
+            tests/test_scenario_cli.py
+          python -m pytest
+
+      - name: Assert every public unit is safe
+        working-directory: phase5
+        run: |
+          fail=0
+          for unit in units/*/; do
+            qfbench2 manifest assert-public-safe "$unit" || fail=1
+          done
+          exit "$fail"
+
+      - name: Build Phase 5 and frozen Phase 4 images
+        run: |
+          docker build --pull -t t2-phase5:scenario phase5
+          docker build --pull -t t2-phase4:evidence phase4
+
+      - name: Run F1-F4 with no model endpoint
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/phase5/units/$unit"
+            phase5_out="$GITHUB_WORKSPACE/outputs/$unit/phase5"
+            phase4_out="$GITHUB_WORKSPACE/outputs/$unit/phase4"
+            mkdir -p "$phase5_out" "$phase4_out"
+            chmod 0777 "$phase5_out" "$phase4_out"
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$phase5_out:/output" \
+              t2-phase5:scenario \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$phase4_out:/output" \
+              t2-phase4:evidence \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+
+      - name: Require exact fallback and labelled integration state
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          units = (
+              "t2-F1-greater-confidence-2024",
+              "t2-F2-eur-parity-2022",
+              "t2-F3-brexit-joint-2016",
+              "t2-F4-short-vol-2018",
+          )
+          root = Path("outputs")
+          for unit in units:
+              phase5 = pd.read_parquet(root / unit / "phase5/forecast.parquet")
+              phase4 = pd.read_parquet(root / unit / "phase4/forecast.parquet")
+              pd.testing.assert_frame_equal(phase5, phase4, check_exact=True)
+
+              meta = json.loads((root / unit / "phase5/forecast_meta.json").read_text())
+              assert meta["reasoning_applied"] is False
+              assert meta["forecast_adjustment_applied"] is False
+              integration = meta["rationale"]["scenario_integration"]
+              assert integration["numeric_fallback_exact"] is True
+              assert integration["reason"] == "MODEL_ENDPOINT is unset"
+          PY
+
+      - name: Run official g0-g3 gates on Phase 5 fallback outputs
+        run: |
+          for unit in \
+            t2-F1-greater-confidence-2024 \
+            t2-F2-eur-parity-2022 \
+            t2-F3-brexit-joint-2016 \
+            t2-F4-short-vol-2018
+          do
+            qfbench2-smoke \
+              "$GITHUB_WORKSPACE/phase5/units/$unit" \
+              "$GITHUB_WORKSPACE/outputs/$unit/phase5" \
+              --track forecasting
+          done

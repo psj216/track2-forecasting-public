@@ -4,7 +4,8 @@ This module turns the frozen, dated text corpus into auditable evidence without 
 model to forecast prices or assign scenario probabilities.  It enforces the as-of cutoff before
 opening a document, asks the configured house model for a strict evidence schema, validates every
 citation and asset reference, and lets deterministic Python convert scenario support into a
-probability ledger.  Phase 4 runs this ledger in shadow mode: Numeric v3 draws are not changed.
+probability ledger.  The caller decides whether the validated ledger stays in shadow mode or enters
+the bounded Phase-5 integration layer.
 """
 
 from __future__ import annotations
@@ -136,9 +137,11 @@ class ReasoningResult:
     corpus: CorpusResult
     model_name: str
 
-    def metadata(self) -> dict[str, Any]:
+    def metadata(
+        self, *, mode: str = "shadow", forecast_adjustment_applied: bool = False
+    ) -> dict[str, Any]:
         return {
-            "mode": "shadow",
+            "mode": mode,
             "reasoning_applied": self.applied,
             "reasoning_skipped_reason": self.skipped_reason,
             "model_name": self.model_name,
@@ -150,7 +153,7 @@ class ReasoningResult:
             "prompt_chars": self.corpus.prompt_chars,
             "scenario_probabilities": self.scenario_probabilities,
             "evidence": self.evidence,
-            "forecast_adjustment_applied": False,
+            "forecast_adjustment_applied": forecast_adjustment_applied,
         }
 
 

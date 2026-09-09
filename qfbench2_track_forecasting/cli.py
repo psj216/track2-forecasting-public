@@ -1,4 +1,4 @@
-"""Track-2 Numeric v3 plus Phase-4 text-evidence submission CLI.
+"""Track-2 Numeric v3 plus Phase-5 scenario-integration submission CLI.
 
 Implements the `forecast` verb from the shared submission contract:
 
@@ -14,9 +14,9 @@ and writes the three deliverables the contract requires next to `--out`:
 The numeric implementation separates level and log-return targets, respects the panel observation
 frequency, detects regime fragility, and samples joint paths from recent, full-history and
 state-matched historical blocks. F3 cards add a calibrated latent-factor transmission layer that
-changes joint draw pairing without changing marginal distributions. The Phase-4 layer reads the
-frozen corpus and extracts grounded competing views and scenario evidence. It runs in shadow mode:
-no uncalibrated text judgment is allowed to change a forecast draw yet.
+changes joint draw pairing without changing marginal distributions. The text layer reads the
+frozen corpus and extracts grounded competing views and scenario evidence. Phase 5 converts that
+validated evidence into bounded family-specific scenario worlds in deterministic Python.
 
 It runs offline as an explicitly labelled Numeric v3 fallback. In evaluated reasoning runs, its
 only network call is the organizer-compatible model endpoint configured by the environment.
@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import pathlib
 import sys
 from typing import Any
@@ -35,6 +36,7 @@ import pandas as pd
 
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
+from .scenario_integration import IntegrationResult, integrate_scenario_worlds
 from .text_evidence import ReasoningResult, interpret_text_evidence
 
 DEFAULT_DRAWS = 500
@@ -133,6 +135,7 @@ def _rationale(
     stats: dict[str, Any],
     text_dir: pathlib.Path,
     reasoning: ReasoningResult,
+    integration: IntegrationResult,
 ) -> str:
     # Document accounting comes from the cutoff-safe corpus reader, not a directory glob.
     del text_dir
@@ -173,10 +176,23 @@ def _rationale(
         skeptic_challenge = (
             str(reasoning.evidence["skeptic"]["challenge"]).replace("|", "/").replace(chr(10), " ")
         )
+        integration_meta = integration.metadata
+        if integration_meta["applied"]:
+            integration_note = (
+                f"Phase 5 applied **{integration_meta['config']}**. "
+                f"Marginals preserved exactly: "
+                f"**{integration_meta.get('marginals_preserved_exactly', False)}**. "
+                f"Shock draws: **{integration_meta.get('shock_draw_count', 0)}**."
+            )
+        else:
+            integration_note = (
+                "The evidence remained shadow-only and Numeric v3 was retained exactly: "
+                f"**{integration_meta['reason']}**."
+            )
         text_section = f"""The evidence interpreter read **{document_count}** dated document(s).
 It classified the market state as **{state['label']}** with evidence confidence
 **{state['confidence']:.2f}**. The model supplied evidence scores, not forecast probabilities.
-Python converted those scores into this shadow probability ledger:
+Python converted those scores into this probability ledger:
 
 | scenario | Python probability |
 |---|---:|
@@ -188,8 +204,7 @@ Python converted those scores into this shadow probability ledger:
 
 Skeptic challenge: {skeptic_challenge}
 
-**Shadow-mode rule:** this ledger did not change any Numeric v3 draw. It must first pass a
-pseudo-as-of calibration gate in Phase 5."""
+{integration_note}"""
     else:
         text_section = f"""No text interpretation was applied: **{reasoning.skipped_reason}**.
 The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s) from
@@ -354,6 +369,32 @@ def main(argv: list[str] | None = None) -> int:
         panel_context=panel_context,
         numeric_context=numeric_context,
     )
+    integration_setting = os.environ.get("TEXT_INTEGRATION", "on").strip().lower()
+    if integration_setting not in {"1", "true", "on", "0", "false", "off"}:
+        raise SystemExit("TEXT_INTEGRATION must be one of on/off, true/false, or 1/0")
+    integration_enabled = integration_setting in {"1", "true", "on"}
+    try:
+        integration = integrate_scenario_worlds(
+            samples,
+            reasoning,
+            assets,
+            horizons,
+            family,
+            a.seed,
+            enabled=integration_enabled,
+        )
+    except ValueError as exc:
+        integration = IntegrationResult(
+            samples=samples.copy(),
+            metadata={
+                "enabled": integration_enabled,
+                "family": family,
+                "applied": False,
+                "numeric_fallback_exact": True,
+                "reason": f"integration rejected: {exc}",
+            },
+        )
+    samples = integration.samples
 
     out_dir = a.out.parent
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -378,14 +419,19 @@ def main(argv: list[str] | None = None) -> int:
                 "target": target_type,
                 "reasoning_applied": reasoning.applied,
                 "reasoning_skipped_reason": reasoning.skipped_reason,
+                "forecast_adjustment_applied": integration.metadata["applied"],
                 "rationale": {
                     "file": _RATIONALE_NAME,
                     "method": (
-                        "Numeric v3 + validated text evidence (shadow mode)"
-                        if reasoning.applied
-                        else "Numeric v3 + text evidence skipped (shadow mode)"
+                        f"Numeric v3 + {integration.metadata['config']}"
+                        if integration.metadata["applied"]
+                        else "Numeric v3 + explicit text-integration fallback"
                     ),
-                    "text_evidence": reasoning.metadata(),
+                    "text_evidence": reasoning.metadata(
+                        mode="integrated" if integration.metadata["applied"] else "shadow",
+                        forecast_adjustment_applied=bool(integration.metadata["applied"]),
+                    ),
+                    "scenario_integration": integration.metadata,
                 },
             },
             indent=2,
@@ -394,7 +440,17 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     (out_dir / _RATIONALE_NAME).write_text(
-        _rationale(unit_id, a.asof, assets, horizons, n_draws, stats, a.text, reasoning)
+        _rationale(
+            unit_id,
+            a.asof,
+            assets,
+            horizons,
+            n_draws,
+            stats,
+            a.text,
+            reasoning,
+            integration,
+        )
     )
 
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
@@ -403,6 +459,14 @@ def main(argv: list[str] | None = None) -> int:
         f"  text evidence: applied={reasoning.applied}, "
         f"documents={len(reasoning.corpus.documents)}"
         + (f", skipped={reasoning.skipped_reason}" if not reasoning.applied else "")
+    )
+    print(
+        f"  scenario integration: applied={integration.metadata['applied']}"
+        + (
+            f", fallback={integration.metadata['reason']}"
+            if not integration.metadata["applied"]
+            else ""
+        )
     )
     return 0
 
