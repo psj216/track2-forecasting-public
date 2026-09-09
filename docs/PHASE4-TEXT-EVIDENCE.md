@@ -61,6 +61,9 @@ one-percent floor for each scenario and renormalizes the remaining mass.
 These are shadow probabilities in Phase 4.  They are recorded for inspection but do not alter
 `forecast.parquet`.
 
+The Phase-4 CI enforces that claim by comparing every F1-F4 shadow forecast with the frozen
+Numeric v3 output using the same seed and requiring exact equality.
+
 ## Failure behavior
 
 If the endpoint is absent, the request fails, or the reply violates the schema, the program still
