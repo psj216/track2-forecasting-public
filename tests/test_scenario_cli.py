@@ -94,12 +94,14 @@ def _reasoning() -> ReasoningResult:
     )
 
 
+@pytest.mark.parametrize("forecast_mode", ["full", "f4-only"])
 def test_cli_applies_evidence_and_kill_switch_restores_v3(
-    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch, forecast_mode: str
 ) -> None:
     root = pathlib.Path(__file__).parents[1]
     unit = root / "units/t2-F4-short-vol-2018"
     monkeypatch.setattr(forecast_cli, "interpret_text_evidence", lambda **kwargs: _reasoning())
+    monkeypatch.setenv("FORECAST_MODE", forecast_mode)
 
     integrated = tmp_path / "integrated/forecast.parquet"
     fallback = tmp_path / "fallback/forecast.parquet"
@@ -131,3 +133,93 @@ def test_cli_applies_evidence_and_kill_switch_restores_v3(
     assert integrated_meta["rationale"]["scenario_integration"]["shock_draw_count"] == 35
     assert fallback_meta["forecast_adjustment_applied"] is False
     assert fallback_meta["rationale"]["scenario_integration"]["numeric_fallback_exact"] is True
+
+
+def test_numeric_mode_never_reads_text_or_calls_the_model(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = pathlib.Path(__file__).parents[1]
+    unit = root / "units/t2-F4-short-vol-2018"
+
+    def forbidden_interpreter(**kwargs: object) -> ReasoningResult:
+        raise AssertionError(f"numeric control called the evidence interpreter: {kwargs}")
+
+    monkeypatch.setattr(forecast_cli, "interpret_text_evidence", forbidden_interpreter)
+    monkeypatch.setenv("FORECAST_MODE", "numeric")
+    output = tmp_path / "numeric/forecast.parquet"
+
+    assert (
+        forecast_cli.main(
+            [
+                "--panels",
+                str(unit / "panels"),
+                "--text",
+                str(unit / "text"),
+                "--asof",
+                "2018-01-26",
+                "--n-draws",
+                "500",
+                "--seed",
+                "29",
+                "--out",
+                str(output),
+            ]
+        )
+        == 0
+    )
+
+    meta = json.loads((output.parent / "forecast_meta.json").read_text())
+    assert meta["forecast_mode"] == "numeric"
+    assert meta["reasoning_applied"] is False
+    assert meta["forecast_adjustment_applied"] is False
+    assert meta["reasoning_skipped_reason"] == (
+        "FORECAST_MODE=numeric disables reasoning for T2-F4"
+    )
+
+
+def test_f4_only_mode_bypasses_the_endpoint_on_other_families(
+    tmp_path: pathlib.Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    root = pathlib.Path(__file__).parents[1]
+    unit = root / "units/t2-F1-greater-confidence-2024"
+
+    def forbidden_interpreter(**kwargs: object) -> ReasoningResult:
+        raise AssertionError(f"F4-only control called the model on F1: {kwargs}")
+
+    monkeypatch.setattr(forecast_cli, "interpret_text_evidence", forbidden_interpreter)
+    monkeypatch.setenv("FORECAST_MODE", "f4-only")
+    output = tmp_path / "f4-only/forecast.parquet"
+
+    assert (
+        forecast_cli.main(
+            [
+                "--panels",
+                str(unit / "panels"),
+                "--text",
+                str(unit / "text"),
+                "--asof",
+                "2024-01-31",
+                "--n-draws",
+                "500",
+                "--seed",
+                "29",
+                "--out",
+                str(output),
+            ]
+        )
+        == 0
+    )
+
+    meta = json.loads((output.parent / "forecast_meta.json").read_text())
+    assert meta["forecast_mode"] == "f4-only"
+    assert meta["reasoning_applied"] is False
+    assert meta["reasoning_skipped_reason"] == (
+        "FORECAST_MODE=f4-only disables reasoning for T2-F1"
+    )
+
+
+def test_invalid_forecast_mode_fails_before_model_use(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setenv("FORECAST_MODE", "maybe")
+
+    with pytest.raises(SystemExit, match="FORECAST_MODE must be one of"):
+        forecast_cli._forecast_mode()

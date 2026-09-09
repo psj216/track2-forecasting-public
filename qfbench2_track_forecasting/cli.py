@@ -37,10 +37,36 @@ import pandas as pd
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
 from .scenario_integration import IntegrationResult, integrate_scenario_worlds
-from .text_evidence import ReasoningResult, interpret_text_evidence
+from .text_evidence import (
+    CorpusResult,
+    ReasoningResult,
+    interpret_text_evidence,
+    scenario_probability_ledger,
+)
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
+_FORECAST_MODES = {"numeric", "f4-only", "full"}
+
+
+def _forecast_mode() -> str:
+    """Return the baked Development experiment mode or reject an ambiguous image."""
+    mode = os.environ.get("FORECAST_MODE", "full").strip().lower()
+    if mode not in _FORECAST_MODES:
+        raise SystemExit(f"FORECAST_MODE must be one of {sorted(_FORECAST_MODES)}, got {mode!r}")
+    return mode
+
+
+def _numeric_reasoning(family: str, reason: str) -> ReasoningResult:
+    """Create an explicit text-ablated ledger without reading text or calling the endpoint."""
+    return ReasoningResult(
+        applied=False,
+        skipped_reason=reason,
+        evidence=None,
+        scenario_probabilities=scenario_probability_ledger(None, family),
+        corpus=CorpusResult((), 0, 0, 0, 0, 0),
+        model_name="",
+    )
 
 
 def _read_panels(panels_dir: pathlib.Path) -> dict[str, pd.DataFrame]:
@@ -357,18 +383,27 @@ def main(argv: list[str] | None = None) -> int:
         "daily_sd": {key: float(value) for key, value in stats["daily_sd"].items()},
         "anchor": {key: float(value) for key, value in stats["anchor"].items()},
     }
-    reasoning = interpret_text_evidence(
-        text_dir=a.text,
-        unit_id=unit_id,
-        family=family,
-        asof=a.asof,
-        assets=assets,
-        horizons=horizons,
-        target_type=target_type,
-        target_frequency=target_frequency,
-        panel_context=panel_context,
-        numeric_context=numeric_context,
+    forecast_mode = _forecast_mode()
+    reasoning_enabled = forecast_mode == "full" or (
+        forecast_mode == "f4-only" and family == "T2-F4"
     )
+    if reasoning_enabled:
+        reasoning = interpret_text_evidence(
+            text_dir=a.text,
+            unit_id=unit_id,
+            family=family,
+            asof=a.asof,
+            assets=assets,
+            horizons=horizons,
+            target_type=target_type,
+            target_frequency=target_frequency,
+            panel_context=panel_context,
+            numeric_context=numeric_context,
+        )
+    else:
+        reasoning = _numeric_reasoning(
+            family, f"FORECAST_MODE={forecast_mode} disables reasoning for {family}"
+        )
     integration_setting = os.environ.get("TEXT_INTEGRATION", "on").strip().lower()
     if integration_setting not in {"1", "true", "on", "0", "false", "off"}:
         raise SystemExit("TEXT_INTEGRATION must be one of on/off, true/false, or 1/0")
@@ -417,6 +452,7 @@ def main(argv: list[str] | None = None) -> int:
                 "horizons": horizons,
                 "n_draws": n_draws,
                 "target": target_type,
+                "forecast_mode": forecast_mode,
                 "reasoning_applied": reasoning.applied,
                 "reasoning_skipped_reason": reasoning.skipped_reason,
                 "forecast_adjustment_applied": integration.metadata["applied"],
@@ -455,6 +491,7 @@ def main(argv: list[str] | None = None) -> int:
 
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
     print(f"  {len(assets)} asset(s) x {len(horizons)} horizon(s), {n_draws} draws")
+    print(f"  forecast mode: {forecast_mode}")
     print(
         f"  text evidence: applied={reasoning.applied}, "
         f"documents={len(reasoning.corpus.documents)}"

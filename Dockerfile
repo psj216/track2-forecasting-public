@@ -18,13 +18,17 @@
 # unnoticed because nothing ever installed the package into the image.
 FROM python:3.13-slim-bookworm
 
+ARG FORECAST_MODE=full
+
 LABEL qfbench2.interface_version=2.0
 LABEL qfbench2.track=forecasting
 LABEL qfbench2.verb=forecast
+LABEL qfbench2.forecast_mode=${FORECAST_MODE}
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
-    PIP_NO_CACHE_DIR=1
+    PIP_NO_CACHE_DIR=1 \
+    FORECAST_MODE=${FORECAST_MODE}
 
 # Pinned. The scorer's own CI was red for a week because a pinned type checker met an unpinned
 # numpy; a submission image that floats its deps has the same failure mode with worse timing.

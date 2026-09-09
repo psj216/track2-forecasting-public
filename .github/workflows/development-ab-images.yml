@@ -1,0 +1,95 @@
+# ## Executive summary (read this first)
+# Build the Numeric, F4-only, and Full Development candidates from one tree. Fully offline outputs
+# must be identical, while metadata and image labels must preserve the intended experiment mode.
+
+name: Development A-B Images
+
+on:
+  push:
+    branches: ["track2/development-ab-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  development-images:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out experiment revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned toolkit and package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install -e '.[test,dev]'
+
+      - name: Run static checks and all tests
+        run: |
+          ruff check qfbench2_track_forecasting backtesting tests
+          ruff format --check qfbench2_track_forecasting backtesting tests
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting tests/test_scenario_cli.py
+          python -m pytest
+
+      - name: Build the three immutable experiment modes
+        run: |
+          docker build --pull --build-arg FORECAST_MODE=numeric -t t2-dev:numeric .
+          docker build --build-arg FORECAST_MODE=f4-only -t t2-dev:f4-only .
+          docker build --build-arg FORECAST_MODE=full -t t2-dev:full .
+
+      - name: Verify image labels
+        run: |
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.forecast_mode" }}' t2-dev:numeric)" = numeric
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.forecast_mode" }}' t2-dev:f4-only)" = f4-only
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.forecast_mode" }}' t2-dev:full)" = full
+
+      - name: Run F1-F4 fully offline in every mode
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/units/$unit"
+            for mode in numeric f4-only full; do
+              output_dir="$GITHUB_WORKSPACE/outputs/$unit/$mode"
+              mkdir -p "$output_dir"
+              chmod 0777 "$output_dir"
+              docker run --rm --network=none \
+                -v "$unit_dir:/input:ro" \
+                -v "$output_dir:/output" \
+                "t2-dev:$mode" \
+                forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                  --out /output/forecast.parquet
+              qfbench2-smoke "$unit_dir" "$output_dir" --track forecasting
+            done
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+
+      - name: Require exact offline parity and labelled modes
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          root = Path("outputs")
+          for unit in sorted(path.name for path in root.iterdir()):
+              numeric = pd.read_parquet(root / unit / "numeric/forecast.parquet")
+              for mode in ("numeric", "f4-only", "full"):
+                  frame = pd.read_parquet(root / unit / mode / "forecast.parquet")
+                  pd.testing.assert_frame_equal(frame, numeric, check_exact=True)
+                  meta = json.loads((root / unit / mode / "forecast_meta.json").read_text())
+                  assert meta["forecast_mode"] == mode
+                  assert meta["forecast_adjustment_applied"] is False
+              numeric_meta = json.loads(
+                  (root / unit / "numeric/forecast_meta.json").read_text()
+              )
+              assert numeric_meta["reasoning_skipped_reason"].startswith("FORECAST_MODE=numeric")
+          PY
