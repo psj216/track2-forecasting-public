@@ -41,7 +41,8 @@ jobs:
         working-directory: phase4
         run: |
           ruff check qfbench2_track_forecasting tests
-          mypy qfbench2_track_forecasting tests/test_text_evidence.py
+          mypy --strict --ignore-missing-imports \
+            qfbench2_track_forecasting tests/test_text_evidence.py
           python -m pytest
 
       - name: Assert every public unit is safe
