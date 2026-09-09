@@ -1,0 +1,131 @@
+# ## Executive summary (read this first)
+# Validate Phase 4's text firewall and shadow-mode contract. Offline forecasts must remain exactly
+# equal to frozen Numeric v3, every official gate must pass, and malformed evidence must fail closed.
+
+name: Phase 4 Text Evidence
+
+on:
+  push:
+    branches: ["track2/text-evidence-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  text-evidence-shadow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Phase 4 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          path: phase4
+
+      - name: Check out frozen Numeric v3 comparison
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          ref: track2/numeric-baseline-v3-transmission
+          path: numeric-v3
+
+      - uses: actions/setup-python@0b93645e9fea7318eca2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned toolkit and Phase 4 package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install -e './phase4[test,dev]'
+
+      - name: Run static checks and all unit tests
+        working-directory: phase4
+        run: |
+          ruff check qfbench2_track_forecasting tests
+          mypy qfbench2_track_forecasting tests/test_text_evidence.py
+          python -m pytest
+
+      - name: Assert every public unit is safe
+        working-directory: phase4
+        run: |
+          fail=0
+          for unit in units/*/; do
+            qfbench2 manifest assert-public-safe "$unit" || fail=1
+          done
+          exit "$fail"
+
+      - name: Build Phase 4 and frozen Numeric v3 images
+        run: |
+          docker build --pull -t t2-phase4:text-evidence phase4
+          docker build --pull -t t2-numeric:v3 numeric-v3
+
+      - name: Run F1-F4 fully offline
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/phase4/units/$unit"
+            phase4_out="$GITHUB_WORKSPACE/outputs/$unit/phase4"
+            v3_out="$GITHUB_WORKSPACE/outputs/$unit/numeric-v3"
+            mkdir -p "$phase4_out" "$v3_out"
+            chmod 0777 "$phase4_out" "$v3_out"
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$phase4_out:/output" \
+              t2-phase4:text-evidence \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$v3_out:/output" \
+              t2-numeric:v3 \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+
+      - name: Require exact shadow-mode forecasts and labelled fallback
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          units = (
+              "t2-F1-greater-confidence-2024",
+              "t2-F2-eur-parity-2022",
+              "t2-F3-brexit-joint-2016",
+              "t2-F4-short-vol-2018",
+          )
+          root = Path("outputs")
+          for unit in units:
+              phase4 = pd.read_parquet(root / unit / "phase4/forecast.parquet")
+              v3 = pd.read_parquet(root / unit / "numeric-v3/forecast.parquet")
+              pd.testing.assert_frame_equal(phase4, v3, check_exact=True)
+
+              meta = json.loads((root / unit / "phase4/forecast_meta.json").read_text())
+              assert meta["reasoning_applied"] is False
+              assert meta["reasoning_skipped_reason"] == "MODEL_ENDPOINT is unset"
+              evidence = meta["rationale"]["text_evidence"]
+              assert evidence["mode"] == "shadow"
+              assert evidence["documents_read"] > 0
+              assert evidence["forecast_adjustment_applied"] is False
+          PY
+
+      - name: Run official g0-g3 gates on all Phase 4 outputs
+        run: |
+          for unit in \
+            t2-F1-greater-confidence-2024 \
+            t2-F2-eur-parity-2022 \
+            t2-F3-brexit-joint-2016 \
+            t2-F4-short-vol-2018
+          do
+            qfbench2-smoke \
+              "$GITHUB_WORKSPACE/phase4/units/$unit" \
+              "$GITHUB_WORKSPACE/outputs/$unit/phase4" \
+              --track forecasting
+          done

@@ -1,4 +1,4 @@
-"""Track-2 Numeric v3 submission CLI.
+"""Track-2 Numeric v3 plus Phase-4 text-evidence submission CLI.
 
 Implements the `forecast` verb from the shared submission contract:
 
@@ -11,12 +11,15 @@ and writes the three deliverables the contract requires next to `--out`:
     forecast_meta.json       the sidecar g1_schema validates
     forecast_rationale.md    required, NEVER scored — the derivation, for human review
 
-This Phase 3 implementation separates level and log-return targets, respects the panel observation
+The numeric implementation separates level and log-return targets, respects the panel observation
 frequency, detects regime fragility, and samples joint paths from recent, full-history and
 state-matched historical blocks. F3 cards add a calibrated latent-factor transmission layer that
-changes joint draw pairing without changing marginal distributions. It reads no text yet.
+changes joint draw pairing without changing marginal distributions. The Phase-4 layer reads the
+frozen corpus and extracts grounded competing views and scenario evidence. It runs in shadow mode:
+no uncalibrated text judgment is allowed to change a forecast draw yet.
 
-Run offline. No network and no model weights.
+It runs offline as an explicitly labelled Numeric v3 fallback. In evaluated reasoning runs, its
+only network call is the organizer-compatible model endpoint configured by the environment.
 """
 
 from __future__ import annotations
@@ -32,6 +35,7 @@ import pandas as pd
 
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
+from .text_evidence import ReasoningResult, interpret_text_evidence
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
@@ -128,8 +132,10 @@ def _rationale(
     n_draws: int,
     stats: dict[str, Any],
     text_dir: pathlib.Path,
+    reasoning: ReasoningResult,
 ) -> str:
-    n_docs = len(list(text_dir.glob("*.txt"))) if text_dir.is_dir() else 0
+    # Document accounting comes from the cutoff-safe corpus reader, not a directory glob.
+    del text_dir
     transmission = stats.get("transmission")
     if transmission:
         transmission_note = (
@@ -150,6 +156,45 @@ def _rationale(
         for a in assets
         for h in horizons
     )
+    if reasoning.applied and reasoning.evidence:
+        state = reasoning.evidence["market_state"]
+        scenario_rows = "\n".join(
+            f"| {name} | {probability:.3f} |"
+            for name, probability in sorted(
+                reasoning.scenario_probabilities.items(), key=lambda item: item[1], reverse=True
+            )
+        )
+        view_rows = "\n".join(
+            f"| {name} | {str(view['thesis']).replace('|', '/').replace(chr(10), ' ')} | "
+            f"{view['confidence']:.2f} |"
+            for name, view in reasoning.evidence["views"].items()
+        )
+        document_count = len(reasoning.corpus.documents)
+        skeptic_challenge = (
+            str(reasoning.evidence["skeptic"]["challenge"]).replace("|", "/").replace(chr(10), " ")
+        )
+        text_section = f"""The evidence interpreter read **{document_count}** dated document(s).
+It classified the market state as **{state['label']}** with evidence confidence
+**{state['confidence']:.2f}**. The model supplied evidence scores, not forecast probabilities.
+Python converted those scores into this shadow probability ledger:
+
+| scenario | Python probability |
+|---|---:|
+{scenario_rows}
+
+| competing view | thesis | evidence confidence |
+|---|---|---:|
+{view_rows}
+
+Skeptic challenge: {skeptic_challenge}
+
+**Shadow-mode rule:** this ledger did not change any Numeric v3 draw. It must first pass a
+pseudo-as-of calibration gate in Phase 5."""
+    else:
+        text_section = f"""No text interpretation was applied: **{reasoning.skipped_reason}**.
+The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s) from
+{reasoning.corpus.indexed_count} indexed entries. Numeric v3 was retained exactly."""
+
     return f"""# Forecast rationale — {unit_id}
 
 As of **{asof}**, joint distribution over {", ".join(assets)} at horizon(s)
@@ -194,13 +239,12 @@ Daily drift: {stats['daily_drift']}.
 
 ## What the text corpus contributed
 
-**Nothing.** {n_docs} document(s) were present and none was read. This Numeric v3 model is the
-numeric-only anchor for the later reasoning ablation.
+{text_section}
 
 ## What would change this forecast
 
-New numeric observations that change momentum, volatility, correlation or fragility. Text
-evidence is intentionally deferred to the reasoning layer.
+New numeric observations that change momentum, volatility, correlation or fragility, or a dated
+document that contradicts the cited evidence. Post-as-of information is never eligible.
 """
 
 
@@ -278,6 +322,39 @@ def main(argv: list[str] | None = None) -> int:
         family=family,
     )
 
+    panel_context = {
+        "value_unit": str(tgt.get("value_unit", "unspecified")),
+        "panels": {
+            panel_id: {
+                "series": panel.get("series", []),
+                "asset_ids": panel.get("asset_ids", []),
+                "frequency": panel.get("frequency", ""),
+            }
+            for panel_id, panel in card.get("panels", {}).items()
+            if isinstance(panel, dict)
+        },
+    }
+    numeric_context = {
+        "fragility": float(stats["regime"]["fragility"]),
+        "recent_weight": float(stats["regime"]["recent_weight"]),
+        "uncertainty_scale": float(stats["regime"]["uncertainty_scale"]),
+        "daily_drift": {key: float(value) for key, value in stats["daily_drift"].items()},
+        "daily_sd": {key: float(value) for key, value in stats["daily_sd"].items()},
+        "anchor": {key: float(value) for key, value in stats["anchor"].items()},
+    }
+    reasoning = interpret_text_evidence(
+        text_dir=a.text,
+        unit_id=unit_id,
+        family=family,
+        asof=a.asof,
+        assets=assets,
+        horizons=horizons,
+        target_type=target_type,
+        target_frequency=target_frequency,
+        panel_context=panel_context,
+        numeric_context=numeric_context,
+    )
+
     out_dir = a.out.parent
     out_dir.mkdir(parents=True, exist_ok=True)
     pd.DataFrame(
@@ -299,9 +376,16 @@ def main(argv: list[str] | None = None) -> int:
                 "horizons": horizons,
                 "n_draws": n_draws,
                 "target": target_type,
+                "reasoning_applied": reasoning.applied,
+                "reasoning_skipped_reason": reasoning.skipped_reason,
                 "rationale": {
                     "file": _RATIONALE_NAME,
-                    "method": ("F3-routed dynamic latent-factor transmission v3, no text"),
+                    "method": (
+                        "Numeric v3 + validated text evidence (shadow mode)"
+                        if reasoning.applied
+                        else "Numeric v3 + text evidence skipped (shadow mode)"
+                    ),
+                    "text_evidence": reasoning.metadata(),
                 },
             },
             indent=2,
@@ -310,11 +394,16 @@ def main(argv: list[str] | None = None) -> int:
     )
 
     (out_dir / _RATIONALE_NAME).write_text(
-        _rationale(unit_id, a.asof, assets, horizons, n_draws, stats, a.text)
+        _rationale(unit_id, a.asof, assets, horizons, n_draws, stats, a.text, reasoning)
     )
 
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
     print(f"  {len(assets)} asset(s) x {len(horizons)} horizon(s), {n_draws} draws")
+    print(
+        f"  text evidence: applied={reasoning.applied}, "
+        f"documents={len(reasoning.corpus.documents)}"
+        + (f", skipped={reasoning.skipped_reason}" if not reasoning.applied else "")
+    )
     return 0
 
 
