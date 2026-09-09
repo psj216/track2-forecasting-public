@@ -347,9 +347,10 @@ def integrate_scenario_worlds(
     seed: int,
     *,
     enabled: bool = True,
+    config_override: IntegrationConfig | None = None,
 ) -> IntegrationResult:
     """Integrate validated evidence, or return an exact copy with a machine-readable reason."""
-    config = FAMILY_CONFIGS.get(family)
+    config = config_override or FAMILY_CONFIGS.get(family)
     base_metadata: dict[str, Any] = {
         "enabled": enabled,
         "family": family,
@@ -398,6 +399,14 @@ def integrate_scenario_worlds(
     metadata = {
         **base_metadata,
         "config": config.name,
+        "config_values": {
+            "mean_shift_sd": config.mean_shift_sd,
+            "volatility_scale": config.volatility_scale,
+            "tail_fraction": config.tail_fraction,
+            "tail_scale_sd": config.tail_scale_sd,
+            "rank_strength": config.rank_strength,
+            "max_change_sd": config.max_change_sd,
+        },
         "applied": changed,
         "numeric_fallback_exact": not changed,
         "reason": "" if changed else details.get("reason", "integration made no numerical change"),

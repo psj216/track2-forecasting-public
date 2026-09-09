@@ -26,6 +26,8 @@ env/
 # Local scratch
 *.log
 /out/
+/phase6_outputs/
+*.evidence-replay.jsonl
 # run_example.sh writes a per-unit output/ dir (forecast.parquet + meta)
 units/*/output/
 

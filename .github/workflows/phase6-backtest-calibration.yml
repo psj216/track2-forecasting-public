@@ -1,0 +1,113 @@
+# ## Executive summary (read this first)
+# Validate Phase 6's replay firewall, chronological calibration split, rejection gates, Docker
+# fallback, and official submission gates. No model endpoint or private outcome is used in CI.
+
+name: Phase 6 Backtest Calibration
+
+on:
+  push:
+    branches: ["track2/calibration-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  backtest-calibration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Phase 6 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned toolkit and package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install -e '.[test,dev]'
+
+      - name: Run Phase 6 static checks and all tests
+        run: |
+          ruff check qfbench2_track_forecasting backtesting tests
+          ruff format --check qfbench2_track_forecasting backtesting tests
+          mypy --strict --ignore-missing-imports \
+            qfbench2_track_forecasting \
+            backtesting/scenario_backtest.py \
+            backtesting/build_evidence_replay.py \
+            tests/test_scenario_backtest.py
+          python -m pytest
+
+      - name: Inventory cutoff-safe replay opportunities
+        run: |
+          python - <<'PY'
+          from collections import Counter
+          from pathlib import Path
+
+          from backtesting.universe_backtest import cutoff_dates, load_universe
+          from qfbench2_track_forecasting.text_evidence import read_frozen_corpus
+
+          root = Path(".")
+          counts = Counter()
+          for case in load_universe(root):
+              for cutoff in cutoff_dates(case, 5):
+                  corpus = read_frozen_corpus(root / "units" / case.unit_id / "text", cutoff)
+                  if corpus.documents:
+                      counts[case.family] += 1
+          print(dict(sorted(counts.items())))
+          if sum(counts.values()) == 0:
+              raise SystemExit("no cutoff-safe evidence replay opportunity remains")
+          if counts["T2-F4"] < 8:
+              raise SystemExit("F4 no longer has the minimum train/holdout opportunity count")
+          PY
+
+      - name: Prove missing endpoint fails closed
+        env:
+          MODEL_ENDPOINT: ""
+          MODEL_API_KEY: ""
+        run: |
+          if python -m backtesting.build_evidence_replay \
+            --root . \
+            --output phase6_outputs/should-not-exist.evidence-replay.jsonl \
+            --cutoffs 1 \
+            --n-draws 200 \
+            --family T2-F4
+          then
+            echo "replay builder succeeded without a model endpoint" >&2
+            exit 1
+          fi
+          test ! -e phase6_outputs/should-not-exist.evidence-replay.jsonl
+
+      - name: Assert every public unit is safe
+        run: |
+          fail=0
+          for unit in units/*/; do
+            qfbench2 manifest assert-public-safe "$unit" || fail=1
+          done
+          exit "$fail"
+
+      - name: Build Phase 6 image
+        run: docker build --pull -t t2-phase6:calibration .
+
+      - name: Run F1-F4 offline and require official gates
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/units/$unit"
+            output_dir="$GITHUB_WORKSPACE/outputs/$unit"
+            mkdir -p "$output_dir"
+            chmod 0777 "$output_dir"
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$output_dir:/output" \
+              t2-phase6:calibration \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+            qfbench2-smoke "$unit_dir" "$output_dir" --track forecasting
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS

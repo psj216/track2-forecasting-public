@@ -20,6 +20,8 @@ from dataclasses import dataclass
 from datetime import date
 from typing import Any
 
+INTERPRETER_SCHEMA_VERSION = "1.0.0"
+
 SHOCKS = (
     "POLICY",
     "INFLATION",
