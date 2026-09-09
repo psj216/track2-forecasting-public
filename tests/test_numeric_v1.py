@@ -12,6 +12,7 @@ import pandas as pd
 from qfbench2_track_forecasting.cli import _draw
 from qfbench2_track_forecasting.numeric_v1 import forecast_numeric_v1
 from qfbench2_track_forecasting.numeric_v2 import V2_CONFIG, forecast_numeric_v2
+from qfbench2_track_forecasting.numeric_v21 import V21_CONFIG, forecast_numeric_v21
 
 
 def _dated(values: np.ndarray) -> pd.Series:
@@ -100,3 +101,32 @@ def test_v2_adds_state_matched_pool_without_changing_shape() -> None:
     assert sampling["configured_state_match_share"] == 0.75
     assert 0.0 < sampling["effective_state_match_share"] < 0.75
     assert sampling["state_matched_block_count"] >= 20
+
+
+def test_v21_maps_monthly_observations_to_business_day_horizons() -> None:
+    rng = np.random.default_rng(47)
+    monthly_steps = rng.normal(0.0, 1.0, 240)
+    dates = pd.date_range("2000-01-01", periods=240, freq="MS").astype(str)
+    levels = pd.Series(100.0 + np.cumsum(monthly_steps), index=dates)
+
+    result = forecast_numeric_v21(
+        {"CPI": levels}, ["CPI"], [21, 63], "level", "monthly", 400, seed=53
+    )
+
+    assert result.metadata["model"] == V21_CONFIG.name
+    assert 20 <= result.metadata["observation_period_business_days"] <= 23
+    assert result.metadata["observation_horizons"] == [1, 3]
+    short = result.samples[:, 0, 0] - levels.iloc[-1]
+    long = result.samples[:, 0, 1] - levels.iloc[-1]
+    assert long.std(ddof=1) > short.std(ddof=1)
+
+
+def test_v21_is_identical_to_v2_for_daily_panels() -> None:
+    rng = np.random.default_rng(59)
+    daily = rng.normal(0.0, 0.01, 900)
+    history = {"MKT": _dated(daily)}
+
+    v2 = forecast_numeric_v2(history, ["MKT"], [21, 63], "log_return", 300, seed=61)
+    v21 = forecast_numeric_v21(history, ["MKT"], [21, 63], "log_return", "daily", 300, seed=61)
+
+    np.testing.assert_array_equal(v21.samples, v2.samples)

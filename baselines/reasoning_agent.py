@@ -433,9 +433,9 @@ def main(argv: list[str] | None = None) -> int:
                 "rationale": {
                     "file": "forecast_rationale.md",
                     "method": (
-                        "numeric v2 joint bootstrap + model-supplied drift_bp/vol_scale"
+                        "numeric v2.1 joint bootstrap + model-supplied drift_bp/vol_scale"
                         if reasoning_applied
-                        else "numeric v2 joint bootstrap, unadjusted (reasoning skipped)"
+                        else "numeric v2.1 joint bootstrap, unadjusted (reasoning skipped)"
                     ),
                     "documents_read": len(docs),
                     "documents_excluded_by_cutoff": excluded,

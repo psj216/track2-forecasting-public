@@ -1,4 +1,4 @@
-"""Track-2 Numeric v2 submission CLI.
+"""Track-2 Numeric v2.1 submission CLI.
 
 Implements the `forecast` verb from the shared submission contract:
 
@@ -11,9 +11,10 @@ and writes the three deliverables the contract requires next to `--out`:
     forecast_meta.json       the sidecar g1_schema validates
     forecast_rationale.md    required, NEVER scored — the derivation, for human review
 
-This Phase 3 implementation separates level and log-return targets, detects regime fragility, and
-samples joint paths from recent, full-history and state-matched historical blocks. It reads no
-text yet and remains the numeric-only anchor for later text ablation.
+This Phase 3 implementation separates level and log-return targets, respects the panel observation
+frequency, detects regime fragility, and samples joint paths from recent, full-history and
+state-matched historical blocks. It reads no text yet and remains the numeric-only anchor for
+later text ablation.
 
 Run offline. No network and no model weights.
 """
@@ -30,7 +31,7 @@ import numpy as np
 import pandas as pd
 
 from .limits import ParseLimits
-from .numeric_v2 import forecast_numeric_v2
+from .numeric_v21 import forecast_numeric_v21
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
@@ -98,11 +99,14 @@ def _draw(
     n_draws: int,
     seed: int,
     target_type: str = "level",
+    target_frequency: str = "daily",
 ) -> tuple[np.ndarray, dict[str, Any]]:
     """Target-aware joint block bootstrap with regime diagnostics and coherent horizons."""
     hist = {a: _series(panels, a, asof) for a in assets}
     try:
-        result = forecast_numeric_v2(hist, assets, horizons, target_type, n_draws, seed)
+        result = forecast_numeric_v21(
+            hist, assets, horizons, target_type, target_frequency, n_draws, seed
+        )
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
     return result.samples, result.metadata
@@ -142,7 +146,10 @@ relative to forecast uncertainty so a short trend cannot dominate a long horizon
 
 ## Scale and shape
 
-Five-day historical blocks are sampled from recent, full-history and state-matched pools. A
+Five-observation historical blocks are sampled from recent, full-history and state-matched pools.
+A requested business-day horizon is mapped to the panel's observation frequency before sampling;
+this panel represents approximately {stats['observation_period_business_days']} business day(s)
+per observation. A
 matched block had a similar prior 20/120-day volatility ratio and momentum, using no future
 information. {stats['sampling']['state_matched_block_count']} historical blocks qualified.
 Current fragility is
@@ -163,7 +170,7 @@ Daily drift: {stats['daily_drift']}.
 
 ## What the text corpus contributed
 
-**Nothing.** {n_docs} document(s) were present and none was read. This Numeric v2 model is the
+**Nothing.** {n_docs} document(s) were present and none was read. This Numeric v2.1 model is the
 numeric-only anchor for the later reasoning ablation.
 
 ## What would change this forecast
@@ -176,7 +183,7 @@ evidence is intentionally deferred to the reasoning layer.
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(
         prog="forecast",
-        description="QFBench 2.0 Track-2 Numeric v2 submission.",
+        description="QFBench 2.0 Track-2 Numeric v2.1 submission.",
     )
     p.add_argument("--panels", type=pathlib.Path, required=True)
     p.add_argument("--text", type=pathlib.Path, required=True)
@@ -233,8 +240,16 @@ def main(argv: list[str] | None = None) -> int:
 
     panels = _read_panels(a.panels)
     target_type = str(tgt.get("target_type", "level"))
+    target_frequency = str(tgt.get("target_frequency", "daily"))
     samples, stats = _draw(
-        panels, assets, horizons, a.asof, n_draws, a.seed, target_type=target_type
+        panels,
+        assets,
+        horizons,
+        a.asof,
+        n_draws,
+        a.seed,
+        target_type=target_type,
+        target_frequency=target_frequency,
     )
 
     out_dir = a.out.parent
@@ -260,7 +275,9 @@ def main(argv: list[str] | None = None) -> int:
                 "target": target_type,
                 "rationale": {
                     "file": _RATIONALE_NAME,
-                    "method": "regime-matched joint block bootstrap v2, no text",
+                    "method": (
+                        "frequency-aware regime-matched joint block bootstrap v2.1, no text"
+                    ),
                 },
             },
             indent=2,

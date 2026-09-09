@@ -1,0 +1,144 @@
+# ## Executive summary (read this first)
+# Verify Numeric v2.1 on all public target grids and on every monthly-frequency card. Daily-card
+# samples must remain identical to frozen V2, and all candidate outputs must pass official gates.
+
+name: Phase 3 Numeric v2.1 Robustness
+
+on:
+  push:
+    branches: ["track2/numeric-baseline-v2-robustness"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numeric-v21-robustness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Numeric v2.1 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          path: numeric-v21
+
+      - name: Check out frozen Numeric v2 comparison
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          ref: track2/numeric-baseline-v2
+          path: numeric-v2
+
+      - name: Show immutable revisions
+        run: |
+          git -C numeric-v21 rev-parse HEAD
+          git -C numeric-v2 rev-parse HEAD
+          git -C numeric-v21 status --short
+          git -C numeric-v2 status --short
+
+      - name: Build Numeric v2.1 and frozen V2 images
+        run: |
+          docker build --pull -t t2-numeric:v21 numeric-v21
+          docker build --pull -t t2-numeric:v2 numeric-v2
+
+      - name: Run representative and monthly cards fully offline
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/numeric-v21/units/$unit"
+            output_dir="$GITHUB_WORKSPACE/outputs/$unit/numeric-v21"
+            mkdir -p "$output_dir"
+            chmod 0777 "$output_dir"
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$output_dir:/output" \
+              t2-numeric:v21 \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          t2-EXAMPLE-ust-curve-1m|2024-06-28
+          t2-F1-cpi-glidepath-2023|2023-07-12
+          t2-F1-sahm-watch-2024|2024-08-02
+          t2-F4-covid-nfp-2020|2020-03-31
+          t2-F4-cpi-vintage-2022|2022-05-31
+          UNITS
+
+      - name: Run frozen V2 on one daily card
+        run: |
+          unit=t2-F4-short-vol-2018
+          unit_dir="$GITHUB_WORKSPACE/numeric-v2/units/$unit"
+          output_dir="$GITHUB_WORKSPACE/outputs/$unit/numeric-v2"
+          mkdir -p "$output_dir"
+          chmod 0777 "$output_dir"
+          docker run --rm --network=none \
+            -v "$unit_dir:/input:ro" \
+            -v "$output_dir:/output" \
+            t2-numeric:v2 \
+            forecast --panels /input/panels/ --text /input/text/ --asof 2018-01-26 \
+              --out /output/forecast.parquet
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned scorer and Numeric v2.1 package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install ./numeric-v21
+
+      - name: Require V2.1 to improve the all-card paired diagnostic
+        working-directory: numeric-v21
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          from backtesting.universe_backtest import run_universe_backtest
+          from qfbench2_track_forecasting.numeric_v1 import V1_CONFIG
+          from qfbench2_track_forecasting.numeric_v2 import V2_CONFIG
+          from qfbench2_track_forecasting.numeric_v21 import V21_CONFIG
+
+          detail, summary = run_universe_backtest(
+              Path("."),
+              cutoff_count=3,
+              n_draws=300,
+              configs=(V1_CONFIG, V2_CONFIG, V21_CONFIG),
+              seed_salt="ci-v21-universe",
+          )
+          print(summary.to_string())
+          if detail["unit_id"].nunique() != 104:
+              raise SystemExit("the robustness gate did not cover all 104 public cards")
+          v2 = float(summary.loc[V2_CONFIG.name, "geometric_mean_ratio"])
+          v21 = float(summary.loc[V21_CONFIG.name, "geometric_mean_ratio"])
+          if v21 >= v2:
+              raise SystemExit(f"Numeric v2.1 did not improve V2: v21={v21:.6f}, v2={v2:.6f}")
+          PY
+
+      - name: Run official g0-g3 gates on every candidate output
+        run: |
+          for unit_dir in "$GITHUB_WORKSPACE"/outputs/*; do
+            unit="$(basename "$unit_dir")"
+            qfbench2-smoke \
+              "$GITHUB_WORKSPACE/numeric-v21/units/$unit" \
+              "$unit_dir/numeric-v21" \
+              --track forecasting
+          done
+
+      - name: Require daily samples to remain identical to V2
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import pandas as pd
+
+          root = Path("outputs/t2-F4-short-vol-2018")
+          v21 = pd.read_parquet(root / "numeric-v21/forecast.parquet")
+          v2 = pd.read_parquet(root / "numeric-v2/forecast.parquet")
+          pd.testing.assert_frame_equal(v21, v2)
+          meta = json.loads((root / "numeric-v21/forecast_meta.json").read_text())
+          assert meta["rationale"]["method"] == (
+              "frequency-aware regime-matched joint block bootstrap v2.1, no text"
+          )
+          PY

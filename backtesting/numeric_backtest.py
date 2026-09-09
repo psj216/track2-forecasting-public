@@ -215,7 +215,11 @@ def run_backtest(
     detail = pd.DataFrame(rows)
     totals = detail.groupby("candidate")[["marginal", "joint", "tail"]].sum()
     baseline = totals.loc[V1_CONFIG.name]
-    ratios = totals.div(baseline.where(baseline > 0.0, 1.0))
+    baseline_values = baseline.to_numpy(dtype=float)
+    denominator = pd.Series(
+        np.where(baseline_values > 0.0, baseline_values, 1.0), index=baseline.index
+    )
+    ratios = totals.div(denominator)
     ratios["historical_composite_ratio"] = (
         0.5 * ratios["marginal"] + 0.3 * ratios["joint"] + 0.2 * ratios["tail"]
     )

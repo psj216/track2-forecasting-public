@@ -46,6 +46,7 @@ class NumericConfig:
     drift_horizon_cap: float = 0.75
     state_match_share: float = 0.0
     state_neighborhood_fraction: float = 0.20
+    frequency_aware: bool = False
 
 
 V1_CONFIG = NumericConfig(name="regime-aware joint block bootstrap v1")
@@ -59,7 +60,7 @@ def _diff_without_gaps(series: pd.Series) -> pd.Series:
     if spacing.notna().sum() == 0:
         return diff
     limit = max(float(spacing.median()) * 10.0, 5.0)
-    return diff.where(spacing <= limit)
+    return diff.where(spacing.astype(float) <= limit)
 
 
 def _safe_std(frame: pd.DataFrame) -> pd.Series:
@@ -216,7 +217,8 @@ def _state_matched_starts(
 
     vol20 = steps.rolling(20).std()
     vol120 = steps.rolling(120).std().clip(lower=_VOL_FLOOR)
-    log_vol_ratio = np.log(vol20.clip(lower=_VOL_FLOOR) / vol120)
+    vol_ratio = vol20.clip(lower=_VOL_FLOOR) / vol120
+    log_vol_ratio = vol_ratio.apply(lambda column: np.log(column))
     momentum20 = steps.rolling(20).sum() / (vol120 * np.sqrt(20.0))
     features = pd.concat(
         [
@@ -242,6 +244,19 @@ def _state_matched_starts(
     return [eligible[int(position)] for position in nearest_positions]
 
 
+def _observation_period_business_days(steps: pd.DataFrame) -> int:
+    """Infer how many business days one panel observation represents."""
+    dates = pd.to_datetime(pd.Index(steps.index), errors="coerce")
+    if dates.isna().any() or len(dates) < 2:
+        return 1
+    day_values = dates.to_numpy(dtype="datetime64[D]")
+    gaps = np.busday_count(day_values[:-1], day_values[1:])
+    positive = gaps[gaps > 0]
+    if not positive.size:
+        return 1
+    return max(1, int(np.rint(np.median(positive))))
+
+
 def forecast_numeric(
     histories: dict[str, pd.Series],
     assets: list[str],
@@ -250,6 +265,7 @@ def forecast_numeric(
     n_draws: int,
     seed: int,
     config: NumericConfig,
+    target_frequency: str = "daily",
 ) -> NumericForecast:
     """Generate target-aware, regime-aware, joint samples under an explicit configuration."""
     if not assets or not horizons:
@@ -275,7 +291,15 @@ def forecast_numeric(
     if len(steps) < 10:
         raise ValueError(f"not enough overlapping history to forecast ({len(steps)} rows)")
 
-    max_horizon = max(horizons)
+    observation_period = (
+        _observation_period_business_days(steps)
+        if config.frequency_aware and target_frequency != "daily"
+        else 1
+    )
+    observation_horizons = [
+        max(1, int(np.ceil(horizon / observation_period))) for horizon in horizons
+    ]
+    max_horizon = max(observation_horizons)
     regime = _regime_diagnostics(steps, config)
     daily_drift = _drift(steps, max_horizon, config)
     effective_state_match_share = float(
@@ -296,14 +320,17 @@ def forecast_numeric(
     anchor_vector = np.array([anchors[a] for a in assets], dtype=float)
 
     samples = np.empty((n_draws, len(assets), len(horizons)), dtype=float)
-    for horizon_index, horizon in enumerate(horizons):
-        samples[:, :, horizon_index] = anchor_vector + cumulative[:, horizon - 1, :]
+    for horizon_index, observation_horizon in enumerate(observation_horizons):
+        samples[:, :, horizon_index] = anchor_vector + cumulative[:, observation_horizon - 1, :]
 
     if not np.isfinite(samples).all():
         raise ValueError("numeric forecast produced non-finite samples")
 
-    longest_index = horizons.index(max_horizon)
-    effective_daily_sd = samples[:, :, longest_index].std(axis=0, ddof=1) / np.sqrt(max_horizon)
+    longest_index = observation_horizons.index(max_horizon)
+    requested_longest_horizon = horizons[longest_index]
+    effective_daily_sd = samples[:, :, longest_index].std(axis=0, ddof=1) / np.sqrt(
+        requested_longest_horizon
+    )
     metadata: dict[str, Any] = {
         "model": config.name,
         "target_type": target_type,
@@ -325,7 +352,11 @@ def forecast_numeric(
             "drift_horizon_cap": config.drift_horizon_cap,
             "state_match_share": config.state_match_share,
             "state_neighborhood_fraction": config.state_neighborhood_fraction,
+            "frequency_aware": config.frequency_aware,
         },
+        "target_frequency": target_frequency,
+        "observation_period_business_days": observation_period,
+        "observation_horizons": observation_horizons,
         "regime": regime,
         "sampling": sampling,
     }
