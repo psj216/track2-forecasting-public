@@ -1,0 +1,167 @@
+# ## Executive summary (read this first)
+# Build the F3-routed Numeric v3 fully offline. It must improve the frozen multi-card joint
+# diagnostic, preserve every marginal and tail score, and bypass non-F3 cards exactly.
+
+name: Phase 3 Numeric v3 Transmission
+
+on:
+  push:
+    branches: ["track2/numeric-baseline-v3-transmission"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  numeric-v3-transmission:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out Numeric v3 revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          path: numeric-v3
+
+      - name: Check out frozen Numeric v2.1 comparison
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+        with:
+          ref: track2/numeric-baseline-v2-robustness
+          path: numeric-v21
+
+      - name: Show immutable revisions
+        run: |
+          git -C numeric-v3 rev-parse HEAD
+          git -C numeric-v21 rev-parse HEAD
+          git -C numeric-v3 status --short
+          git -C numeric-v21 status --short
+
+      - name: Build Numeric v3 and frozen V2.1 images
+        run: |
+          docker build --pull -t t2-numeric:v3 numeric-v3
+          docker build --pull -t t2-numeric:v21 numeric-v21
+
+      - name: Run F1-F4 with both images fully offline
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/numeric-v3/units/$unit"
+            v3_out="$GITHUB_WORKSPACE/outputs/$unit/numeric-v3"
+            v21_out="$GITHUB_WORKSPACE/outputs/$unit/numeric-v21"
+            mkdir -p "$v3_out" "$v21_out"
+            chmod 0777 "$v3_out" "$v21_out"
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$v3_out:/output" \
+              t2-numeric:v3 \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$v21_out:/output" \
+              t2-numeric:v21 \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned scorer and Numeric v3 package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install ./numeric-v3
+
+      - name: Require F3 joint improvement with invariant marginal and tail scores
+        working-directory: numeric-v3
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          from backtesting.transmission_backtest import run_transmission_backtest
+          from backtesting.universe_backtest import summarize_paired
+          from qfbench2_track_forecasting.numeric_v21 import V21_CONFIG
+          from qfbench2_track_forecasting.numeric_v3 import V3_CONFIG
+
+          detail, _ = run_transmission_backtest(
+              Path("."),
+              cutoff_count=3,
+              n_draws=1000,
+              configs=(V3_CONFIG,),
+              seed_salt="ci-v3-transmission",
+          )
+          f3 = detail[detail["family"] == "T2-F3"]
+          summary = summarize_paired(f3, V21_CONFIG.name)
+          print(summary.to_string())
+          if f3["unit_id"].nunique() != 23:
+              raise SystemExit("the transmission gate did not cover all 23 F3 cards")
+          ratio = float(summary.loc[V3_CONFIG.name, "geometric_mean_ratio"])
+          if ratio >= 1.0:
+              raise SystemExit(f"Numeric v3 did not improve V2.1 on F3: ratio={ratio:.6f}")
+
+          keys = ["unit_id", "family", "cutoff"]
+          baseline = f3[f3["candidate"] == V21_CONFIG.name].set_index(keys)
+          candidate = f3[f3["candidate"] == V3_CONFIG.name].set_index(keys)
+          marginal_delta = float((candidate["marginal"] - baseline["marginal"]).abs().max())
+          tail_delta = float((candidate["tail"] - baseline["tail"]).abs().max())
+          print("max marginal delta", marginal_delta)
+          print("max tail delta", tail_delta)
+          if marginal_delta > 1e-10 or tail_delta > 1e-10:
+              raise SystemExit("transmission changed a protected marginal distribution")
+          PY
+
+      - name: Run official g0-g3 gates on all Numeric v3 outputs
+        run: |
+          for unit in \
+            t2-F1-greater-confidence-2024 \
+            t2-F2-eur-parity-2022 \
+            t2-F3-brexit-joint-2016 \
+            t2-F4-short-vol-2018
+          do
+            qfbench2-smoke \
+              "$GITHUB_WORKSPACE/numeric-v3/units/$unit" \
+              "$GITHUB_WORKSPACE/outputs/$unit/numeric-v3" \
+              --track forecasting
+          done
+
+      - name: Verify the family router and exact marginal preservation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          import numpy as np
+          import pandas as pd
+
+          root = Path("outputs")
+          units = [
+              "t2-F1-greater-confidence-2024",
+              "t2-F2-eur-parity-2022",
+              "t2-F3-brexit-joint-2016",
+              "t2-F4-short-vol-2018",
+          ]
+          for unit in units:
+              v3 = pd.read_parquet(root / unit / "numeric-v3/forecast.parquet")
+              v21 = pd.read_parquet(root / unit / "numeric-v21/forecast.parquet")
+              meta = json.loads((root / unit / "numeric-v3/forecast_meta.json").read_text())
+              assert meta["rationale"]["method"] == (
+                  "F3-routed dynamic latent-factor transmission v3, no text"
+              )
+              if unit != "t2-F3-brexit-joint-2016":
+                  pd.testing.assert_frame_equal(v3, v21)
+                  continue
+              assert not v3.equals(v21)
+              for key, values in v3.groupby(["asset", "horizon"])["value"]:
+                  baseline = v21[
+                      (v21["asset"] == key[0]) & (v21["horizon"] == key[1])
+                  ]["value"]
+                  np.testing.assert_array_equal(
+                      np.sort(values.to_numpy()), np.sort(baseline.to_numpy())
+                  )
+          PY

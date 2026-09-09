@@ -1,4 +1,4 @@
-"""Track-2 Numeric v2.1 submission CLI.
+"""Track-2 Numeric v3 submission CLI.
 
 Implements the `forecast` verb from the shared submission contract:
 
@@ -13,8 +13,8 @@ and writes the three deliverables the contract requires next to `--out`:
 
 This Phase 3 implementation separates level and log-return targets, respects the panel observation
 frequency, detects regime fragility, and samples joint paths from recent, full-history and
-state-matched historical blocks. It reads no text yet and remains the numeric-only anchor for
-later text ablation.
+state-matched historical blocks. F3 cards add a calibrated latent-factor transmission layer that
+changes joint draw pairing without changing marginal distributions. It reads no text yet.
 
 Run offline. No network and no model weights.
 """
@@ -31,7 +31,7 @@ import numpy as np
 import pandas as pd
 
 from .limits import ParseLimits
-from .numeric_v21 import forecast_numeric_v21
+from .numeric_v3 import forecast_numeric_v3
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
@@ -100,12 +100,20 @@ def _draw(
     seed: int,
     target_type: str = "level",
     target_frequency: str = "daily",
+    family: str = "T2-F1",
 ) -> tuple[np.ndarray, dict[str, Any]]:
     """Target-aware joint block bootstrap with regime diagnostics and coherent horizons."""
     hist = {a: _series(panels, a, asof) for a in assets}
     try:
-        result = forecast_numeric_v21(
-            hist, assets, horizons, target_type, target_frequency, n_draws, seed
+        result = forecast_numeric_v3(
+            hist,
+            assets,
+            horizons,
+            target_type,
+            target_frequency,
+            n_draws,
+            seed,
+            family,
         )
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
@@ -122,6 +130,20 @@ def _rationale(
     text_dir: pathlib.Path,
 ) -> str:
     n_docs = len(list(text_dir.glob("*.txt"))) if text_dir.is_dir() else 0
+    transmission = stats.get("transmission")
+    if transmission:
+        transmission_note = (
+            "F3 routing applied dynamic latent-factor transmission at strength "
+            f"{transmission['strength']:.2f}. The first latent factor explains "
+            f"{transmission['first_factor_variance_share']:.1%} of the target correlation "
+            "structure. Marginal draw values were rank-preserved exactly; only their joint "
+            "pairing changed."
+        )
+    else:
+        transmission_note = (
+            "The family router did not apply cross-asset transmission. The V2.1 joint paths "
+            "were retained exactly."
+        )
     ladder = "\n".join(
         f"| {a} | {stats['anchor'][a]:.4f} | {stats['daily_sd'][a]:.4f} | "
         f"{stats['daily_sd'][a] * np.sqrt(h):.4f} | {h} |"
@@ -160,6 +182,8 @@ Current fragility is
 The draws are **joint**: each sampled block contains every asset. Each draw is also one path
 through time, and every requested horizon is read from that same path.
 
+{transmission_note}
+
 ## Adjustment ledger
 
 | asset | model anchor | effective daily sd | sd at horizon | horizon (BD) |
@@ -170,7 +194,7 @@ Daily drift: {stats['daily_drift']}.
 
 ## What the text corpus contributed
 
-**Nothing.** {n_docs} document(s) were present and none was read. This Numeric v2.1 model is the
+**Nothing.** {n_docs} document(s) were present and none was read. This Numeric v3 model is the
 numeric-only anchor for the later reasoning ablation.
 
 ## What would change this forecast
@@ -183,7 +207,7 @@ evidence is intentionally deferred to the reasoning layer.
 def main(argv: list[str] | None = None) -> int:
     p = argparse.ArgumentParser(
         prog="forecast",
-        description="QFBench 2.0 Track-2 Numeric v2.1 submission.",
+        description="QFBench 2.0 Track-2 Numeric v3 submission.",
     )
     p.add_argument("--panels", type=pathlib.Path, required=True)
     p.add_argument("--text", type=pathlib.Path, required=True)
@@ -224,6 +248,7 @@ def main(argv: list[str] | None = None) -> int:
     assets = list(tgt["asset_ids"])
     horizons = [int(h) for h in tgt["horizons"]]
     unit_id = card["task"]["id"]
+    family = str(card["metadata"]["category"])
     # The card's `n_draws_min` is AUTHORITATIVE and was previously advisory: the reference
     # producer read it, the scorer never did, and the scorer instead compared the submission
     # against the participant's own declared `n_draws`. It is now a floor on both sides — this
@@ -250,6 +275,7 @@ def main(argv: list[str] | None = None) -> int:
         a.seed,
         target_type=target_type,
         target_frequency=target_frequency,
+        family=family,
     )
 
     out_dir = a.out.parent
@@ -275,9 +301,7 @@ def main(argv: list[str] | None = None) -> int:
                 "target": target_type,
                 "rationale": {
                     "file": _RATIONALE_NAME,
-                    "method": (
-                        "frequency-aware regime-matched joint block bootstrap v2.1, no text"
-                    ),
+                    "method": ("F3-routed dynamic latent-factor transmission v3, no text"),
                 },
             },
             indent=2,
