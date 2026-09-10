@@ -27,6 +27,7 @@ env/
 *.log
 /out/
 /phase6_outputs/
+/calibration_outputs/
 *.evidence-replay.jsonl
 # run_example.sh writes a per-unit output/ dir (forecast.parquet + meta)
 units/*/output/

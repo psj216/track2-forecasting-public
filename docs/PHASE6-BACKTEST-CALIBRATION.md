@@ -5,15 +5,18 @@ does not assume that reasoning helps.  Evidence is generated once, validated aga
 and evaluated with older cases for candidate selection and newer cases for approval.  A family
 that lacks data or fails any risk guard remains rejected.
 
-No Phase-5 family is approved by this document.  The current execution environment has no
-organizer model endpoint, so it cannot produce the real evidence replay required for a defensible
-decision.  Synthetic tests validate the machinery, not forecast skill.
+No Phase-5 family is approved by this document.  The current execution environment has no model
+endpoint credential, so it cannot produce the real evidence replay required for a defensible
+decision.  Synthetic tests validate the machinery, not forecast skill.  The follow-on
+Public-Nemotron experiment is documented in `PUBLIC-NEMOTRON-F4-CALIBRATION.md` and must not be
+described as an organizer-endpoint result.
 
 ## Evaluation flow
 
 1. Choose historical cutoffs with later public panel observations.
 2. Keep only cutoffs that already had at least one frozen text document.
-3. Ask the organizer-compatible model for the strict Phase-4 evidence schema.
+3. Ask an explicitly configured OpenAI-compatible calibration model for the strict Phase-4
+   evidence schema.
 4. Store the validated response in a local JSONL replay.
 5. Revalidate every citation and cutoff when loading the replay.
 6. Generate one Numeric-v3 sample tensor per case.
@@ -27,14 +30,17 @@ ratios are therefore model-selection diagnostics, not an official leaderboard sc
 
 ## Commands
 
-With the organizer endpoint configured, build a local evidence replay:
+With a development-only calibration endpoint configured, build an F4 replay:
 
 ```bash
+export CALIBRATION_MODEL_ENDPOINT="https://provider.example/v1"
+export CALIBRATION_MODEL_NAME="nvidia/nemotron-3.5-lightning-30b-a3b"
 python -m backtesting.build_evidence_replay \
   --root . \
-  --output phase6_outputs/public.evidence-replay.jsonl \
-  --cutoffs 12 \
-  --n-draws 300
+  --output calibration_outputs/f4-public.evidence-replay.jsonl \
+  --cutoffs 5 \
+  --n-draws 1000 \
+  --family T2-F4
 ```
 
 Then run calibration with enough draws to represent the F4 tail:
@@ -42,15 +48,16 @@ Then run calibration with enough draws to represent the F4 tail:
 ```bash
 python -m backtesting.scenario_backtest \
   --root . \
-  --replay phase6_outputs/public.evidence-replay.jsonl \
-  --output-dir phase6_outputs/results \
+  --replay calibration_outputs/f4-public.evidence-replay.jsonl \
+  --output-dir calibration_outputs/f4-public \
   --n-draws 1000
 ```
 
 The replay and results are ignored by Git.  They are reproducible calibration artifacts, not
 submission inputs.  Deployment requires a separate reviewed code change after the holdout result.
-The replay pins interpreter schema version `1.0.0`, and each family decision rejects mixed model
-names.  A prompt, schema, or model change therefore requires a fresh replay.
+The replay pins prompt version `1.0.0`, interpreter schema version `1.0.0`, and replay format
+version `2.0.0`.  Loading rejects mixed model names.  A prompt, schema, model, or replay-format
+change therefore requires a fresh replay.
 
 ## Candidate grid
 

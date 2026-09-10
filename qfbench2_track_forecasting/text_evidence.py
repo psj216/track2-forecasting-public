@@ -16,11 +16,15 @@ import os
 import pathlib
 import urllib.error
 import urllib.request
+from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import date
 from typing import Any
 
 INTERPRETER_SCHEMA_VERSION = "1.0.0"
+INTERPRETER_PROMPT_VERSION = "1.0.0"
+
+EvidenceModelCaller = Callable[[str], tuple[Any | None, str, str]]
 
 SHOCKS = (
     "POLICY",
@@ -659,19 +663,22 @@ def _extract_json_object(content: str) -> Any:
     return value
 
 
-def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
-    """Call the organizer-compatible chat endpoint and return parsed JSON or a labelled failure."""
-    endpoint = os.environ.get("MODEL_ENDPOINT", "").strip()
-    model = os.environ.get("MODEL_NAME", "").strip()
+def call_openai_compatible_evidence_model(
+    prompt: str,
+    *,
+    endpoint: str,
+    model: str,
+    api_key: str = "",
+    max_tokens: int = _MAX_MODEL_TOKENS_DEFAULT,
+    thinking: bool = False,
+    timeout_seconds: int = _MODEL_TIMEOUT_SECONDS,
+) -> tuple[Any | None, str, str]:
+    """Call one explicit OpenAI-compatible endpoint without reading environment variables."""
     if not endpoint:
-        return None, "MODEL_ENDPOINT is unset", model
+        return None, "model endpoint is unset", model
     if not model:
-        return None, "MODEL_NAME is unset", model
-    try:
-        max_tokens = max(500, int(os.environ.get("MODEL_MAX_TOKENS", _MAX_MODEL_TOKENS_DEFAULT)))
-    except ValueError:
-        return None, "MODEL_MAX_TOKENS is not an integer", model
-    thinking = os.environ.get("MODEL_THINKING", "off").strip().lower() in {"1", "on", "true"}
+        return None, "model name is unset", model
+    max_tokens = max(500, max_tokens)
     request_body = {
         "model": model,
         "messages": [
@@ -688,17 +695,19 @@ def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
         "max_tokens": max_tokens,
         "chat_template_kwargs": {"enable_thinking": thinking},
     }
+    request_url = endpoint.rstrip("/")
+    if not request_url.endswith("/chat/completions"):
+        request_url += "/chat/completions"
     request = urllib.request.Request(
-        endpoint.rstrip("/") + "/chat/completions",
+        request_url,
         data=json.dumps(request_body).encode("utf-8"),
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    api_key = os.environ.get("MODEL_API_KEY", "").strip()
     if api_key:
         request.add_header("Authorization", f"Bearer {api_key}")
     try:
-        with urllib.request.urlopen(request, timeout=_MODEL_TIMEOUT_SECONDS) as response:
+        with urllib.request.urlopen(request, timeout=timeout_seconds) as response:
             payload = json.loads(response.read().decode("utf-8"))
         choice = payload["choices"][0]
         content = choice["message"]["content"]
@@ -717,6 +726,29 @@ def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
         return None, f"{type(exc).__name__}: {exc}", model
 
 
+def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
+    """Call the organizer endpoint using only the official submission environment contract."""
+    endpoint = os.environ.get("MODEL_ENDPOINT", "").strip()
+    model = os.environ.get("MODEL_NAME", "").strip()
+    if not endpoint:
+        return None, "MODEL_ENDPOINT is unset", model
+    if not model:
+        return None, "MODEL_NAME is unset", model
+    try:
+        max_tokens = int(os.environ.get("MODEL_MAX_TOKENS", _MAX_MODEL_TOKENS_DEFAULT))
+    except ValueError:
+        return None, "MODEL_MAX_TOKENS is not an integer", model
+    thinking = os.environ.get("MODEL_THINKING", "off").strip().lower() in {"1", "on", "true"}
+    return call_openai_compatible_evidence_model(
+        prompt,
+        endpoint=endpoint,
+        model=model,
+        api_key=os.environ.get("MODEL_API_KEY", "").strip(),
+        max_tokens=max_tokens,
+        thinking=thinking,
+    )
+
+
 def interpret_text_evidence(
     *,
     text_dir: pathlib.Path,
@@ -729,6 +761,8 @@ def interpret_text_evidence(
     target_frequency: str,
     panel_context: dict[str, Any],
     numeric_context: dict[str, Any],
+    model_caller: EvidenceModelCaller | None = None,
+    model_name_hint: str = "",
 ) -> ReasoningResult:
     """Run the Phase-4 evidence interpreter; all failures degrade explicitly to prior odds."""
     try:
@@ -745,7 +779,7 @@ def interpret_text_evidence(
             None,
             scenario_probability_ledger(None, family),
             corpus,
-            os.environ.get("MODEL_NAME", "").strip(),
+            model_name_hint or os.environ.get("MODEL_NAME", "").strip(),
         )
     prompt = build_evidence_prompt(
         unit_id=unit_id,
@@ -759,7 +793,7 @@ def interpret_text_evidence(
         numeric_context=numeric_context,
         documents=corpus.documents,
     )
-    raw, failure, model = call_evidence_model(prompt)
+    raw, failure, model = (model_caller or call_evidence_model)(prompt)
     if raw is None:
         return ReasoningResult(
             False, failure, None, scenario_probability_ledger(None, family), corpus, model

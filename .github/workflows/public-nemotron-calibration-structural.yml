@@ -1,0 +1,131 @@
+# ## Executive summary (read this first)
+# Verify Public-Nemotron proxy calibration structure without calling an external model. The job
+# pins replay provenance, F4 opportunity counts, grouped holdout isolation, and official gates.
+
+name: Public Nemotron Calibration Structural CI
+
+on:
+  push:
+    branches: ["track2/public-nemotron-f4-calibration"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  structural-calibration:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out proxy calibration revision
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683  # v4.2.2
+
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b  # v5.3.0
+        with:
+          python-version: "3.13"
+
+      - name: Install pinned toolkit and package
+        run: |
+          python -m pip install --upgrade pip
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+          pip install -e '.[test,dev]'
+
+      - name: Run static checks and all tests
+        run: |
+          ruff check qfbench2_track_forecasting backtesting tests
+          ruff format --check qfbench2_track_forecasting backtesting tests
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting backtesting
+          python -m pytest
+
+      - name: Freeze F4 opportunities and grouped split
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          import pandas as pd
+
+          from backtesting.build_evidence_replay import _selected_cutoffs
+          from backtesting.scenario_backtest import _split_case_keys
+          from backtesting.universe_backtest import load_universe
+
+          root = Path(".")
+          cases = []
+          for case in load_universe(root):
+              if case.family != "T2-F4":
+                  continue
+              cutoffs = _selected_cutoffs(case, root, 5, True)
+              if cutoffs:
+                  cases.append((case.unit_id, cutoffs[0]))
+          if len(cases) != 24:
+              raise SystemExit(f"expected 24 F4 replay cases, found {len(cases)}")
+          frame = pd.DataFrame(
+              [
+                  {
+                      "unit_id": unit_id,
+                      "family": "T2-F4",
+                      "cutoff": cutoff,
+                      "candidate": candidate,
+                  }
+                  for unit_id, cutoff in cases
+                  for candidate in ("Numeric v3", "candidate")
+              ]
+          )
+          train, holdout = _split_case_keys(frame)
+          if (len(train), len(holdout)) != (14, 10):
+              raise SystemExit(f"expected grouped split 14/10, found {len(train)}/{len(holdout)}")
+          if {cutoff for _, cutoff in train} & {cutoff for _, cutoff in holdout}:
+              raise SystemExit("one event date crossed the train/holdout boundary")
+          print("F4 replay cases: 24; grouped split: 14/10")
+          PY
+
+      - name: Prove missing calibration endpoint fails closed
+        env:
+          CALIBRATION_MODEL_ENDPOINT: ""
+          CALIBRATION_MODEL_NAME: "nvidia/nemotron-3.5-lightning-30b-a3b"
+          CALIBRATION_MODEL_API_KEY: ""
+        run: |
+          if python -m backtesting.build_evidence_replay \
+            --root . \
+            --output calibration_outputs/should-not-exist.evidence-replay.jsonl \
+            --cutoffs 5 \
+            --n-draws 200 \
+            --family T2-F4
+          then
+            echo "replay builder succeeded without calibration endpoint" >&2
+            exit 1
+          fi
+          test ! -e calibration_outputs/should-not-exist.evidence-replay.jsonl
+
+      - name: Assert every public unit is safe
+        run: |
+          fail=0
+          count=0
+          for unit in units/*/; do
+            qfbench2 manifest assert-public-safe "$unit" || fail=1
+            count=$((count + 1))
+          done
+          test "$count" -eq 104 || fail=1
+          exit "$fail"
+
+      - name: Build structural calibration image
+        run: docker build --pull --build-arg FORECAST_MODE=f4-only -t t2-proxy:structural .
+
+      - name: Run F1-F4 offline and require official gates
+        run: |
+          while IFS='|' read -r unit asof; do
+            unit_dir="$GITHUB_WORKSPACE/units/$unit"
+            output_dir="$GITHUB_WORKSPACE/outputs/$unit"
+            mkdir -p "$output_dir"
+            chmod 0777 "$output_dir"
+            docker run --rm --network=none \
+              -v "$unit_dir:/input:ro" \
+              -v "$output_dir:/output" \
+              t2-proxy:structural \
+              forecast --panels /input/panels/ --text /input/text/ --asof "$asof" \
+                --out /output/forecast.parquet
+            qfbench2-smoke "$unit_dir" "$output_dir" --track forecasting
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS

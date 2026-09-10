@@ -5,9 +5,10 @@ strict Phase-4 interpreter used by the submission, but only when a cutoff has bo
 and at least one frozen document already published.  It writes validated evidence, never forecast
 outcomes.  The resulting JSONL is a calibration input and must not be mistaken for a score report.
 
-The organizer-compatible model endpoint must be configured explicitly.  If it is unavailable or
-rejects every case, the command fails instead of manufacturing evidence or silently approving the
-Phase-5 integration.
+A development-only OpenAI-compatible endpoint must be configured through ``CALIBRATION_MODEL_*``.
+The official ``MODEL_ENDPOINT`` variables are never read here.  If the proxy is unavailable or
+rejects a selected case, the strict command fails instead of manufacturing evidence or silently
+approving the Phase-5 integration.
 """
 
 from __future__ import annotations
@@ -16,16 +17,42 @@ import argparse
 import json
 import os
 import pathlib
+import tempfile
 import tomllib
 
 from qfbench2_track_forecasting.numeric_v3 import forecast_numeric_v3
 from qfbench2_track_forecasting.text_evidence import (
+    INTERPRETER_PROMPT_VERSION,
     INTERPRETER_SCHEMA_VERSION,
     interpret_text_evidence,
     read_frozen_corpus,
 )
 
-from .universe_backtest import _seed, cutoff_dates, future_observations, load_universe
+from .calibration_model import CalibrationModelClient
+from .universe_backtest import (
+    UniverseCase,
+    calibration_seed,
+    cutoff_dates,
+    future_observations,
+    load_universe,
+)
+
+REPLAY_FORMAT_VERSION = "2.0.0"
+CALIBRATION_KIND = "public_nemotron_proxy"
+
+
+def _selected_cutoffs(
+    case: UniverseCase, root: pathlib.Path, cutoff_count: int, one_case_per_unit: bool
+) -> list[str]:
+    candidates = cutoff_dates(case, cutoff_count)
+    if not one_case_per_unit:
+        return candidates
+    safe = [
+        cutoff
+        for cutoff in candidates
+        if read_frozen_corpus(root / "units" / case.unit_id / "text", cutoff).documents
+    ]
+    return safe[-1:]
 
 
 def build_evidence_replay(
@@ -36,10 +63,12 @@ def build_evidence_replay(
     *,
     seed_salt: str = "phase6-evidence-v1",
     families: set[str] | None = None,
+    model_client: CalibrationModelClient | None = None,
+    strict_model_failures: bool = False,
+    one_case_per_unit: bool = False,
 ) -> tuple[int, int]:
     """Materialize validated evidence and return ``(written, skipped)`` case counts."""
-    if not os.environ.get("MODEL_ENDPOINT", "").strip():
-        raise RuntimeError("MODEL_ENDPOINT is unset; refusing to manufacture an evidence replay")
+    client = model_client or CalibrationModelClient.from_environment()
     if output.exists():
         raise ValueError(f"refusing to overwrite existing evidence replay: {output}")
     records: list[dict[str, object]] = []
@@ -50,7 +79,7 @@ def build_evidence_replay(
         unit = root / "units" / case.unit_id
         card = tomllib.loads((unit / "card.toml").read_text(encoding="utf-8"))
         target = card["targets"]
-        for cutoff in cutoff_dates(case, cutoff_count):
+        for cutoff in _selected_cutoffs(case, root, cutoff_count, one_case_per_unit):
             corpus = read_frozen_corpus(unit / "text", cutoff)
             if not corpus.documents:
                 skipped += 1
@@ -61,7 +90,7 @@ def build_evidence_replay(
                 asset: series[series.index.astype(str).str.slice(0, 10) <= cutoff]
                 for asset, series in case.histories.items()
             }
-            seed = _seed(case.unit_id, cutoff, seed_salt)
+            seed = calibration_seed(case.unit_id, cutoff, case.family, n_draws, seed_salt)
             numeric = forecast_numeric_v3(
                 histories,
                 case.assets,
@@ -104,40 +133,67 @@ def build_evidence_replay(
                 target_frequency=case.target_frequency,
                 panel_context=panel_context,
                 numeric_context=numeric_context,
+                model_caller=client.call,
+                model_name_hint=client.model_name,
             )
             if not reasoning.applied or reasoning.evidence is None:
+                if strict_model_failures:
+                    raise RuntimeError(
+                        f"proxy evidence failed for {case.unit_id}|{cutoff}: "
+                        f"{reasoning.skipped_reason}"
+                    )
                 skipped += 1
                 continue
+            if reasoning.model_name != client.model_name:
+                raise RuntimeError(
+                    f"proxy returned model name {reasoning.model_name!r}, expected "
+                    f"{client.model_name!r}; refusing a mixed or redirected replay"
+                )
             records.append(
                 {
+                    "calibration_kind": CALIBRATION_KIND,
                     "unit_id": case.unit_id,
                     "cutoff": cutoff,
                     "model_name": reasoning.model_name,
+                    "interpreter_prompt_version": INTERPRETER_PROMPT_VERSION,
                     "interpreter_schema_version": INTERPRETER_SCHEMA_VERSION,
+                    "replay_format_version": REPLAY_FORMAT_VERSION,
                     "evidence": reasoning.evidence,
                 }
             )
     if not records:
         raise RuntimeError(
-            "no evidence replay cases were produced; configure the organizer MODEL_ENDPOINT and "
-            "check that selected cutoffs have frozen documents"
+            "no evidence replay cases were produced; configure CALIBRATION_MODEL_* and check "
+            "that selected cutoffs have frozen documents"
         )
     output.parent.mkdir(parents=True, exist_ok=True)
-    output.write_text(
-        "\n".join(json.dumps(record, sort_keys=True) for record in records) + "\n",
-        encoding="utf-8",
-    )
+    payload = "\n".join(json.dumps(record, sort_keys=True) for record in records) + "\n"
+    temporary_name = ""
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w", encoding="utf-8", dir=output.parent, prefix=".replay-", delete=False
+        ) as temporary:
+            temporary.write(payload)
+            temporary.flush()
+            os.fsync(temporary.fileno())
+            temporary_name = temporary.name
+        os.link(temporary_name, output)
+    except FileExistsError as exc:
+        raise ValueError(f"refusing to overwrite existing evidence replay: {output}") from exc
+    finally:
+        if temporary_name:
+            pathlib.Path(temporary_name).unlink(missing_ok=True)
     return len(records), skipped
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Build cutoff-safe Phase-6 evidence replay")
+    parser = argparse.ArgumentParser(description="Build cutoff-safe public-model evidence replay")
     parser.add_argument("--root", type=pathlib.Path, default=pathlib.Path("."))
     parser.add_argument("--output", type=pathlib.Path, required=True)
-    parser.add_argument("--cutoffs", type=int, default=12)
+    parser.add_argument("--cutoffs", type=int, default=5)
     parser.add_argument("--n-draws", type=int, default=300)
     parser.add_argument("--seed-salt", default="phase6-evidence-v1")
-    parser.add_argument("--family", action="append", choices=("T2-F1", "T2-F2", "T2-F3", "T2-F4"))
+    parser.add_argument("--family", action="append", choices=("T2-F4",), default=["T2-F4"])
     args = parser.parse_args()
     try:
         written, skipped = build_evidence_replay(
@@ -147,6 +203,8 @@ def main() -> int:
             args.n_draws,
             seed_salt=args.seed_salt,
             families=set(args.family) if args.family else None,
+            strict_model_failures=True,
+            one_case_per_unit=True,
         )
     except (RuntimeError, ValueError) as exc:
         parser.error(str(exc))

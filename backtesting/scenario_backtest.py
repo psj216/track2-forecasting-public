@@ -15,8 +15,10 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import pathlib
 from dataclasses import asdict, dataclass
+from datetime import date
 from typing import Any
 
 import numpy as np
@@ -29,6 +31,7 @@ from qfbench2_track_forecasting.scenario_integration import (
     integrate_scenario_worlds,
 )
 from qfbench2_track_forecasting.text_evidence import (
+    INTERPRETER_PROMPT_VERSION,
     INTERPRETER_SCHEMA_VERSION,
     ReasoningResult,
     read_frozen_corpus,
@@ -36,10 +39,11 @@ from qfbench2_track_forecasting.text_evidence import (
     validate_evidence_response,
 )
 
+from .build_evidence_replay import CALIBRATION_KIND, REPLAY_FORMAT_VERSION
 from .universe_backtest import (
     UniverseCase,
     _components,
-    _seed,
+    calibration_seed,
     future_observations,
     load_universe,
     summarize_paired,
@@ -68,6 +72,7 @@ class CalibrationDecision:
     approved: bool
     candidate: str
     train_cases: int
+    train_geometric_mean_ratio: float | None
     holdout_cases: int
     holdout_geometric_mean_ratio: float | None
     holdout_median_ratio: float | None
@@ -108,7 +113,9 @@ def _as_float(value: Any) -> float:
     return float(value)
 
 
-def load_replay(path: pathlib.Path, root: pathlib.Path) -> list[ReplayRecord]:
+def load_replay(
+    path: pathlib.Path, root: pathlib.Path, expected_model_name: str | None = None
+) -> list[ReplayRecord]:
     """Load JSONL model responses and fail closed on stale, duplicate, or uncited evidence."""
     if not path.is_file():
         raise ValueError(f"evidence replay does not exist: {path}")
@@ -125,24 +132,43 @@ def load_replay(path: pathlib.Path, root: pathlib.Path) -> list[ReplayRecord]:
         except json.JSONDecodeError as exc:
             raise ValueError(f"replay line {line_number} is not valid JSON") from exc
         expected = {
+            "calibration_kind",
             "unit_id",
             "cutoff",
             "model_name",
+            "interpreter_prompt_version",
             "interpreter_schema_version",
+            "replay_format_version",
             "evidence",
         }
         if not isinstance(raw, dict) or set(raw) != expected:
             raise ValueError(f"replay line {line_number} must contain exactly {sorted(expected)}")
         unit_id = str(raw["unit_id"])
-        cutoff = str(raw["cutoff"])[:10]
+        cutoff = str(raw["cutoff"])
+        try:
+            cutoff = date.fromisoformat(cutoff).isoformat()
+        except ValueError as exc:
+            raise ValueError(f"replay line {line_number} has an invalid cutoff") from exc
         if unit_id not in universe:
             raise ValueError(f"replay line {line_number} names unknown unit {unit_id!r}")
         if not isinstance(raw["model_name"], str) or not raw["model_name"].strip():
             raise ValueError(f"replay line {line_number} has an empty model name")
+        if raw["calibration_kind"] != CALIBRATION_KIND:
+            raise ValueError(f"replay line {line_number} is not a {CALIBRATION_KIND!r} calibration")
+        if raw["interpreter_prompt_version"] != INTERPRETER_PROMPT_VERSION:
+            raise ValueError(
+                f"replay line {line_number} uses interpreter prompt "
+                f"{raw['interpreter_prompt_version']!r}, expected {INTERPRETER_PROMPT_VERSION!r}"
+            )
         if raw["interpreter_schema_version"] != INTERPRETER_SCHEMA_VERSION:
             raise ValueError(
                 f"replay line {line_number} uses interpreter schema "
                 f"{raw['interpreter_schema_version']!r}, expected {INTERPRETER_SCHEMA_VERSION!r}"
+            )
+        if raw["replay_format_version"] != REPLAY_FORMAT_VERSION:
+            raise ValueError(
+                f"replay line {line_number} uses replay format "
+                f"{raw['replay_format_version']!r}, expected {REPLAY_FORMAT_VERSION!r}"
             )
         key = (unit_id, cutoff)
         if key in seen:
@@ -169,6 +195,15 @@ def load_replay(path: pathlib.Path, root: pathlib.Path) -> list[ReplayRecord]:
         records.append(ReplayRecord(unit_id, cutoff, reasoning))
     if not records:
         raise ValueError("evidence replay contains no cases")
+    model_names = {record.reasoning.model_name for record in records}
+    if len(model_names) != 1:
+        raise ValueError("an evidence replay must use exactly one model name")
+    actual_model_name = next(iter(model_names))
+    if expected_model_name is not None and actual_model_name != expected_model_name:
+        raise ValueError(
+            f"evidence replay model {actual_model_name!r} does not match expected model "
+            f"{expected_model_name!r}"
+        )
     return sorted(records, key=lambda record: (record.cutoff, record.unit_id))
 
 
@@ -194,7 +229,7 @@ def run_scenario_backtest(
         case = universe[record.unit_id]
         histories = _histories_at(case, record.cutoff)
         observed = future_observations(case, record.cutoff)
-        seed = _seed(case.unit_id, record.cutoff, seed_salt)
+        seed = calibration_seed(case.unit_id, record.cutoff, case.family, n_draws, seed_salt)
         numeric = forecast_numeric_v3(
             histories,
             case.assets,
@@ -211,11 +246,12 @@ def run_scenario_backtest(
             "cutoff": record.cutoff,
             "model_name": record.reasoning.model_name,
         }
+        base_samples = numeric.samples.copy()
         rows.append(
             {
                 **common,
                 "candidate": _BASELINE,
-                **_components(numeric.samples.reshape(n_draws, -1), observed),
+                **_components(base_samples.reshape(n_draws, -1), observed),
             }
         )
         candidates = (
@@ -225,7 +261,7 @@ def run_scenario_backtest(
         )
         for config in candidates:
             integrated = integrate_scenario_worlds(
-                numeric.samples,
+                base_samples.copy(),
                 record.reasoning,
                 case.assets,
                 case.horizons,
@@ -302,6 +338,7 @@ def calibrate(detail: pd.DataFrame) -> tuple[pd.DataFrame, list[CalibrationDecis
                     approved=False,
                     candidate="",
                     train_cases=0,
+                    train_geometric_mean_ratio=None,
                     holdout_cases=0,
                     holdout_geometric_mean_ratio=None,
                     holdout_median_ratio=None,
@@ -320,6 +357,7 @@ def calibrate(detail: pd.DataFrame) -> tuple[pd.DataFrame, list[CalibrationDecis
                     approved=False,
                     candidate="",
                     train_cases=len(train_keys),
+                    train_geometric_mean_ratio=None,
                     holdout_cases=len(holdout_keys),
                     holdout_geometric_mean_ratio=None,
                     holdout_median_ratio=None,
@@ -335,10 +373,13 @@ def calibrate(detail: pd.DataFrame) -> tuple[pd.DataFrame, list[CalibrationDecis
         train_summary = summarize_paired(train, _BASELINE)
         candidates = train_summary.drop(index=_BASELINE, errors="ignore")
         winner = str(candidates["geometric_mean_ratio"].idxmin())
+        train_ratio = _as_float(train_summary.loc[winner, "geometric_mean_ratio"])
         holdout_summary = summarize_paired(holdout, _BASELINE)
         row = holdout_summary.loc[winner]
         component_ratios = _component_geometric_ratios(holdout, winner)
         reasons: list[str] = []
+        if family != "T2-F4":
+            reasons.append("only F4 has enough independent public proxy cases for approval")
         if _as_float(row["geometric_mean_ratio"]) >= 1.0:
             reasons.append("holdout geometric mean did not beat Numeric v3")
         if _as_float(row["median_ratio"]) > 1.02:
@@ -361,6 +402,7 @@ def calibrate(detail: pd.DataFrame) -> tuple[pd.DataFrame, list[CalibrationDecis
             approved=not reasons,
             candidate=winner,
             train_cases=len(train_keys),
+            train_geometric_mean_ratio=train_ratio,
             holdout_cases=len(holdout_keys),
             holdout_geometric_mean_ratio=_as_float(row["geometric_mean_ratio"]),
             holdout_median_ratio=_as_float(row["median_ratio"]),
@@ -370,10 +412,15 @@ def calibrate(detail: pd.DataFrame) -> tuple[pd.DataFrame, list[CalibrationDecis
             reasons=reasons,
         )
         decisions.append(decision)
+        train_labelled = train_summary.copy()
+        train_labelled.insert(0, "family", family)
+        train_labelled.insert(1, "split", "candidate_selection")
+        train_labelled.insert(2, "selected_on_train", train_labelled.index == winner)
         labelled = holdout_summary.copy()
         labelled.insert(0, "family", family)
-        labelled.insert(1, "selected_on_train", labelled.index == winner)
-        summaries.append(labelled)
+        labelled.insert(1, "split", "untouched_holdout")
+        labelled.insert(2, "selected_on_train", labelled.index == winner)
+        summaries.extend((train_labelled, labelled))
     combined = pd.concat(summaries) if summaries else pd.DataFrame()
     return combined, decisions
 
@@ -387,9 +434,18 @@ def write_results(
     """Write diagnostics only; deployment still requires an explicit reviewed code change."""
     output_dir.mkdir(parents=True, exist_ok=True)
     detail.to_parquet(output_dir / "scenario_backtest_detail.parquet", index=False)
-    summary.to_csv(output_dir / "scenario_holdout_summary.csv")
+    summary.to_csv(output_dir / "scenario_candidate_summary.csv")
+    if not summary.empty:
+        summary[summary["split"] == "untouched_holdout"].to_csv(
+            output_dir / "scenario_holdout_summary.csv"
+        )
     payload = {
-        "status": "diagnostic_not_official_score",
+        "status": "public_nemotron_proxy_diagnostic_not_official_score",
+        "calibration_kind": CALIBRATION_KIND,
+        "interpreter_prompt_version": INTERPRETER_PROMPT_VERSION,
+        "interpreter_schema_version": INTERPRETER_SCHEMA_VERSION,
+        "replay_format_version": REPLAY_FORMAT_VERSION,
+        "model_name": (str(detail["model_name"].iloc[0]) if not detail.empty else ""),
         "deployment_changed": False,
         "decisions": [asdict(decision) for decision in decisions],
     }
@@ -405,8 +461,15 @@ def main() -> int:
     parser.add_argument("--output-dir", type=pathlib.Path, required=True)
     parser.add_argument("--n-draws", type=int, default=1000)
     parser.add_argument("--seed-salt", default="phase6-v1")
+    parser.add_argument(
+        "--expected-model-name",
+        default=os.environ.get("CALIBRATION_MODEL_NAME", "").strip(),
+        help="must match every replay record; defaults to CALIBRATION_MODEL_NAME",
+    )
     args = parser.parse_args()
-    records = load_replay(args.replay, args.root)
+    if not args.expected_model_name:
+        parser.error("--expected-model-name or CALIBRATION_MODEL_NAME is required")
+    records = load_replay(args.replay, args.root, args.expected_model_name)
     detail = run_scenario_backtest(args.root, records, args.n_draws, seed_salt=args.seed_salt)
     summary, decisions = calibrate(detail)
     write_results(args.output_dir, detail, summary, decisions)

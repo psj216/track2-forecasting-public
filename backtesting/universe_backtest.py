@@ -135,6 +135,11 @@ def _seed(unit_id: str, cutoff: str, seed_salt: str) -> int:
     return int.from_bytes(digest[:4], "big")
 
 
+def calibration_seed(unit_id: str, cutoff: str, family: str, n_draws: int, seed_salt: str) -> int:
+    """Bind proxy A/B randomness to the complete public case and draw configuration."""
+    return _seed(unit_id, cutoff, f"{family}|{n_draws}|{seed_salt}")
+
+
 def _components(samples: np.ndarray, observed: np.ndarray) -> dict[str, float]:
     return {
         "marginal": crps_marginal(samples, observed),

@@ -6,7 +6,9 @@ name: Development A-B Images
 
 on:
   push:
-    branches: ["track2/development-ab-v1"]
+    branches:
+      - "track2/development-ab-v1"
+      - "track2/public-nemotron-f4-calibration"
   workflow_dispatch:
 
 permissions:
