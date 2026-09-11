@@ -81,6 +81,7 @@ class CalibrationModelClient:
             api_key=self.api_key,
             max_tokens=self.max_tokens,
             thinking=self.thinking,
+            json_mode=True,
             timeout_seconds=self.timeout_seconds,
         )
 

@@ -30,7 +30,7 @@ validation.
 | Expected grouped counts | 14 training cases and 10 holdout cases |
 | Candidate multipliers | `0.50`, `0.75`, `1.00` |
 | Final draws | 1,000 |
-| Prompt version | `1.0.0` |
+| Prompt version | `1.0.3` |
 | Evidence schema version | `1.0.0` |
 | Replay format version | `2.0.0` |
 | Seed inputs | unit id, cutoff, family, draw count, fixed salt |

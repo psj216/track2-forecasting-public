@@ -153,7 +153,7 @@ def _write_replay(root: pathlib.Path, cutoff: str, doc_timestamp: str) -> pathli
                 "unit_id": "public-test-unit",
                 "cutoff": cutoff,
                 "model_name": "test-model",
-                "interpreter_prompt_version": "1.0.0",
+                "interpreter_prompt_version": "1.0.3",
                 "interpreter_schema_version": "1.0.0",
                 "replay_format_version": "2.0.0",
                 "evidence": _evidence(),
@@ -592,6 +592,6 @@ frequency = "daily"
     assert "proxy.invalid" not in payload
     assert record["calibration_kind"] == "public_nemotron_proxy"
     assert record["model_name"] == "test-model"
-    assert record["interpreter_prompt_version"] == "1.0.0"
+    assert record["interpreter_prompt_version"] == "1.0.3"
     assert record["interpreter_schema_version"] == "1.0.0"
     assert record["replay_format_version"] == "2.0.0"

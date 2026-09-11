@@ -22,7 +22,7 @@ from datetime import date
 from typing import Any
 
 INTERPRETER_SCHEMA_VERSION = "1.0.0"
-INTERPRETER_PROMPT_VERSION = "1.0.0"
+INTERPRETER_PROMPT_VERSION = "1.0.3"
 
 EvidenceModelCaller = Callable[[str], tuple[Any | None, str, str]]
 
@@ -344,6 +344,15 @@ Hard boundary:
   scenario probabilities. Python owns every probability and every forecast transformation.
 - Scores below describe evidence quality only. They are not probabilities.
 - Cite only supplied doc_id values. If evidence is weak, say so with low scores.
+- Every item in scenarios MUST use a different scenario name. Never repeat a scenario label.
+- Before returning JSON, verify that all scenario names are unique and come from the allowed scenario labels.
+- The evidence array MUST contain 2 to 8 items. Never return fewer than 2 or more than 8.
+- Every evidence item MUST have a unique id and cite at least one supplied doc_id.
+- The scenarios array MUST contain at least 3 items with unique allowed scenario names.
+- Every evidence_id must refer to an evidence item that exists in this response.
+- Use exactly the requested JSON keys. Do not omit required keys and do not add extra keys.
+- Every score, confidence, relevance, strength, contradiction, support, and intensity must be a numeric value from 0 to 1.
+- Before returning, check the complete JSON against all of these requirements.
 - Direction means the target value in its declared native quote/unit, not generic bullishness.
 
 Task context:
@@ -671,6 +680,7 @@ def call_openai_compatible_evidence_model(
     api_key: str = "",
     max_tokens: int = _MAX_MODEL_TOKENS_DEFAULT,
     thinking: bool = False,
+    json_mode: bool = False,
     timeout_seconds: int = _MODEL_TIMEOUT_SECONDS,
 ) -> tuple[Any | None, str, str]:
     """Call one explicit OpenAI-compatible endpoint without reading environment variables."""
@@ -695,6 +705,8 @@ def call_openai_compatible_evidence_model(
         "max_tokens": max_tokens,
         "chat_template_kwargs": {"enable_thinking": thinking},
     }
+    if json_mode:
+        request_body["response_format"] = {"type": "json_object"}
     request_url = endpoint.rstrip("/")
     if not request_url.endswith("/chat/completions"):
         request_url += "/chat/completions"
