@@ -132,7 +132,9 @@ def test_cli_applies_evidence_and_kill_switch_restores_v3(
     assert integrated_meta["forecast_adjustment_applied"] is True
     assert integrated_meta["rationale"]["text_evidence"]["mode"] == "integrated"
     expected_shocks = int(round(APPROVED_F4_CONFIG.tail_fraction * 500))
-    assert integrated_meta["rationale"]["scenario_integration"]["shock_draw_count"] == expected_shocks
+    assert (
+        integrated_meta["rationale"]["scenario_integration"]["shock_draw_count"] == expected_shocks
+    )
     assert fallback_meta["forecast_adjustment_applied"] is False
     assert fallback_meta["rationale"]["scenario_integration"]["numeric_fallback_exact"] is True
 

@@ -415,11 +415,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # Public Nemotron F4 calibration approved the frozen half-strength route.
     # Numeric mode and F1-F3 remain unchanged.
-    approved_config = (
-        APPROVED_F4_CONFIG
-        if reasoning_enabled and family == "T2-F4"
-        else None
-    )
+    approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
     try:
         integration = integrate_scenario_worlds(
