@@ -82,6 +82,19 @@ FAMILY_CONFIGS = {
     ),
 }
 
+# Frozen deployment config selected by the public Nemotron F4 calibration.
+# Do not derive this dynamically from FAMILY_CONFIGS: the exact values below are
+# part of the approved experiment provenance.
+APPROVED_F4_CONFIG = IntegrationConfig(
+    name="F4 asymmetric shock branch x0.50",
+    mean_shift_sd=0.05,
+    volatility_scale=0.05,
+    tail_fraction=0.035,
+    tail_scale_sd=0.70,
+    rank_strength=0.00,
+    max_change_sd=1.75,
+)
+
 
 @dataclass(frozen=True)
 class ScenarioProfiles:

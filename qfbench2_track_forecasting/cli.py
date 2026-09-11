@@ -36,7 +36,11 @@ import pandas as pd
 
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
-from .scenario_integration import IntegrationResult, integrate_scenario_worlds
+from .scenario_integration import (
+    APPROVED_F4_CONFIG,
+    IntegrationResult,
+    integrate_scenario_worlds,
+)
 from .text_evidence import (
     CorpusResult,
     ReasoningResult,
@@ -408,6 +412,15 @@ def main(argv: list[str] | None = None) -> int:
     if integration_setting not in {"1", "true", "on", "0", "false", "off"}:
         raise SystemExit("TEXT_INTEGRATION must be one of on/off, true/false, or 1/0")
     integration_enabled = integration_setting in {"1", "true", "on"}
+
+    # Public Nemotron F4 calibration approved the frozen half-strength route.
+    # Numeric mode and F1-F3 remain unchanged.
+    approved_config = (
+        APPROVED_F4_CONFIG
+        if reasoning_enabled and family == "T2-F4"
+        else None
+    )
+
     try:
         integration = integrate_scenario_worlds(
             samples,
@@ -417,6 +430,7 @@ def main(argv: list[str] | None = None) -> int:
             family,
             a.seed,
             enabled=integration_enabled,
+            config_override=approved_config,
         )
     except ValueError as exc:
         integration = IntegrationResult(

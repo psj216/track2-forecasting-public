@@ -14,6 +14,7 @@ import pandas as pd
 import pytest
 
 import qfbench2_track_forecasting.cli as forecast_cli
+from qfbench2_track_forecasting.scenario_integration import APPROVED_F4_CONFIG
 from qfbench2_track_forecasting.text_evidence import SCENARIOS, CorpusResult, ReasoningResult
 
 
@@ -130,7 +131,8 @@ def test_cli_applies_evidence_and_kill_switch_restores_v3(
     fallback_meta = json.loads((fallback.parent / "forecast_meta.json").read_text())
     assert integrated_meta["forecast_adjustment_applied"] is True
     assert integrated_meta["rationale"]["text_evidence"]["mode"] == "integrated"
-    assert integrated_meta["rationale"]["scenario_integration"]["shock_draw_count"] == 35
+    expected_shocks = int(round(APPROVED_F4_CONFIG.tail_fraction * 500))
+    assert integrated_meta["rationale"]["scenario_integration"]["shock_draw_count"] == expected_shocks
     assert fallback_meta["forecast_adjustment_applied"] is False
     assert fallback_meta["rationale"]["scenario_integration"]["numeric_fallback_exact"] is True
 

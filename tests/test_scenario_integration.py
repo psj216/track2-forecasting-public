@@ -9,7 +9,11 @@ from __future__ import annotations
 
 import numpy as np
 
-from qfbench2_track_forecasting.scenario_integration import integrate_scenario_worlds
+from qfbench2_track_forecasting.scenario_integration import (
+    APPROVED_F4_CONFIG,
+    FAMILY_CONFIGS,
+    integrate_scenario_worlds,
+)
 from qfbench2_track_forecasting.text_evidence import (
     SCENARIOS,
     CorpusResult,
@@ -184,3 +188,15 @@ def test_world_sampling_is_deterministic_and_counts_one_world_per_draw() -> None
     np.testing.assert_array_equal(first.samples, second.samples)
     assert first.metadata == second.metadata
     assert sum(first.metadata["scenario_draw_counts"].values()) == samples.shape[0]
+
+
+def test_approved_f4_config_is_frozen_half_strength_route() -> None:
+    base = FAMILY_CONFIGS["T2-F4"]
+
+    assert APPROVED_F4_CONFIG.name == "F4 asymmetric shock branch x0.50"
+    assert APPROVED_F4_CONFIG.mean_shift_sd == base.mean_shift_sd * 0.50
+    assert APPROVED_F4_CONFIG.volatility_scale == base.volatility_scale * 0.50
+    assert APPROVED_F4_CONFIG.tail_fraction == base.tail_fraction * 0.50
+    assert APPROVED_F4_CONFIG.tail_scale_sd == base.tail_scale_sd * 0.50
+    assert APPROVED_F4_CONFIG.rank_strength == base.rank_strength
+    assert APPROVED_F4_CONFIG.max_change_sd == base.max_change_sd * 0.50
