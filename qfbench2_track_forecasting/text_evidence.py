@@ -345,13 +345,15 @@ Hard boundary:
 - Scores below describe evidence quality only. They are not probabilities.
 - Cite only supplied doc_id values. If evidence is weak, say so with low scores.
 - Every item in scenarios MUST use a different scenario name. Never repeat a scenario label.
-- Before returning JSON, verify that all scenario names are unique and come from the allowed scenario labels.
+- Before returning JSON, verify that all scenario names are unique and come from the allowed \
+scenario labels.
 - The evidence array MUST contain 2 to 8 items. Never return fewer than 2 or more than 8.
 - Every evidence item MUST have a unique id and cite at least one supplied doc_id.
 - The scenarios array MUST contain at least 3 items with unique allowed scenario names.
 - Every evidence_id must refer to an evidence item that exists in this response.
 - Use exactly the requested JSON keys. Do not omit required keys and do not add extra keys.
-- Every score, confidence, relevance, strength, contradiction, support, and intensity must be a numeric value from 0 to 1.
+- Every score, confidence, relevance, strength, contradiction, support, and intensity must be a \
+numeric value from 0 to 1.
 - Before returning, check the complete JSON against all of these requirements.
 - Direction means the target value in its declared native quote/unit, not generic bullishness.
 
