@@ -12,6 +12,7 @@ dist/
 
 # Virtualenvs
 .venv/
+.venv-pack/
 venv/
 env/
 
@@ -28,6 +29,10 @@ env/
 /out/
 /phase6_outputs/
 /calibration_outputs/
+/submission-artifacts/
+submission.zip
+team-claim.json
+*.team-key
 *.evidence-replay.jsonl
 # run_example.sh writes a per-unit output/ dir (forecast.parquet + meta)
 units/*/output/

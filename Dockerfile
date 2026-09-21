@@ -18,7 +18,7 @@
 # unnoticed because nothing ever installed the package into the image.
 FROM python:3.13-slim-bookworm
 
-ARG FORECAST_MODE=full
+ARG FORECAST_MODE=f4-only
 
 LABEL qfbench2.interface_version=2.0
 LABEL qfbench2.track=forecasting
@@ -47,10 +47,11 @@ RUN pip install --no-cache-dir \
         "pandas==2.2.3" \
         "pyarrow==18.1.0" \
         "jsonschema==4.23.0" \
-        "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.3.1.tar.gz#subdirectory=common"
+        "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.4.2.tar.gz#subdirectory=common"
 
 WORKDIR /work
 COPY qfbench2_track_forecasting /opt/qfbench2_track_forecasting
+COPY LICENSE THIRD-PARTY-NOTICES.md /opt/licenses/
 ENV PYTHONPATH=/opt
 
 # The verb, as an executable on PATH.

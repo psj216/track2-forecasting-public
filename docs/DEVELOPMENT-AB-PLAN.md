@@ -6,9 +6,12 @@ control, an F4-only text candidate, and the full Phase-5 candidate.  The modes d
 whether the evidence interpreter is allowed to run.  Numeric parameters, seeds, output schema,
 and Docker dependencies remain identical.
 
-The current official reasoning example records a real run against
-`nvidia/nemotron-3.5-lightning-30b-a3b`.  Runtime code must still use the injected `MODEL_NAME`
-rather than hardcoding that string, because the organizer owns the final pin.
+The 2026-09-21 House guide declares `nvidia/nemotron-3-super-120b-a12b`, snapshot
+`rl-030326-fp8`, training cutoff `unpublished`. Earlier 30B proxy experiments do not validate
+this House deployment. Runtime code uses injected `MODEL_NAME`, not the disclosure name.
+The current first-submission decision is **f4-only x0.50**; see
+[DEVELOPMENT-SUBMISSION.md](DEVELOPMENT-SUBMISSION.md) for the current packaging procedure.
+The Numeric-first sequence below remains the original A/B design, not the first-upload choice.
 
 ## Why three images
 

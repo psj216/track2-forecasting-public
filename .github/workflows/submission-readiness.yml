@@ -1,0 +1,77 @@
+# ## Executive summary (read this first)
+# Validate House routing and official v2.4.3 packaging, then build the v2.4.2 F4-only runtime.
+# Run F1-F4 offline in a read-only container. This workflow never publishes or submits an image.
+name: Submission Readiness
+
+on:
+  push:
+    branches: ["track2/submission-dev-v1"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install official packaging toolkit
+        run: |
+          pip install "qfbench2-common @ https://github.com/Agenthon-2026/Agenthon2026-public/archive/refs/tags/v2.4.3.tar.gz#subdirectory=common"
+          pip install -e '.[test,dev]'
+      - name: Test runtime and packaging without external model calls
+        run: |
+          ruff check qfbench2_track_forecasting tests scripts/prepare_dev_descriptor.py
+          ruff format --check qfbench2_track_forecasting tests scripts/prepare_dev_descriptor.py
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting
+          python -m pytest
+      - name: Build immutable experiment modes
+        run: |
+          docker build --pull --build-arg FORECAST_MODE=f4-only -t t2-submit:f4-only .
+          docker build --build-arg FORECAST_MODE=numeric -t t2-submit:numeric .
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.interface_version" }}' t2-submit:f4-only)" = 2.0
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.forecast_mode" }}' t2-submit:f4-only)" = f4-only
+          docker run --rm --network=none t2-submit:f4-only python -c \
+            "from importlib.metadata import version; assert version('qfbench2-common') == '2.4.2'"
+      - name: Offline F1-F4 gates with read-only runtime
+        run: |
+          while IFS='|' read -r unit asof; do
+            for mode in numeric f4-only; do
+              output_dir="$RUNNER_TEMP/submission-smoke/$unit/$mode"
+              mkdir -p "$output_dir"
+              chmod 0777 "$output_dir"
+              docker run --rm --network=none --read-only --tmpfs /tmp \
+                -v "$GITHUB_WORKSPACE/units/$unit:/input:ro" -v "$output_dir:/output" \
+                "t2-submit:$mode" forecast --panels /input/panels --text /input/text \
+                --asof "$asof" --out /output/forecast.parquet
+              qfbench2-smoke "units/$unit" "$output_dir" --track forecasting
+            done
+          done <<'UNITS'
+          t2-F1-greater-confidence-2024|2024-01-31
+          t2-F2-eur-parity-2022|2022-06-30
+          t2-F3-brexit-joint-2016|2016-06-17
+          t2-F4-short-vol-2018|2018-01-26
+          UNITS
+      - name: Verify exact Numeric fallback and unchanged F4 configuration
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          import pandas as pd
+          from qfbench2_track_forecasting.scenario_integration import APPROVED_F4_CONFIG
+
+          assert APPROVED_F4_CONFIG.name == 'F4 asymmetric shock branch x0.50'
+          root = Path(os.environ['RUNNER_TEMP']) / 'submission-smoke'
+          for unit in root.iterdir():
+              numeric = pd.read_parquet(unit / 'numeric/forecast.parquet')
+              candidate = pd.read_parquet(unit / 'f4-only/forecast.parquet')
+              pd.testing.assert_frame_equal(numeric, candidate, check_exact=True)
+              meta = json.loads((unit / 'f4-only/forecast_meta.json').read_text())
+              assert meta['forecast_mode'] == 'f4-only'
+              assert meta['forecast_adjustment_applied'] is False
+          PY

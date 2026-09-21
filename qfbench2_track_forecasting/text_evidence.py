@@ -15,6 +15,7 @@ import math
 import os
 import pathlib
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections.abc import Callable
 from dataclasses import dataclass
@@ -748,6 +749,25 @@ def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
         return None, "MODEL_ENDPOINT is unset", model
     if not model:
         return None, "MODEL_NAME is unset", model
+    token = os.environ.get("MODEL_TOKEN", "")
+    if not token:
+        return None, "MODEL_TOKEN is unset", model
+    try:
+        origin = urllib.parse.urlsplit(endpoint)
+        valid_origin = (
+            origin.scheme in {"http", "https"}
+            and bool(origin.hostname)
+            and origin.username is None
+            and origin.password is None
+            and origin.path in {"", "/"}
+            and not origin.query
+            and not origin.fragment
+        )
+        _ = origin.port  # Validate malformed ports without exposing the URL in diagnostics.
+    except ValueError:
+        valid_origin = False
+    if not valid_origin:
+        return None, "MODEL_ENDPOINT must be an HTTP(S) origin without credentials or path", model
     try:
         max_tokens = int(os.environ.get("MODEL_MAX_TOKENS", _MAX_MODEL_TOKENS_DEFAULT))
     except ValueError:
@@ -755,9 +775,9 @@ def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
     thinking = os.environ.get("MODEL_THINKING", "off").strip().lower() in {"1", "on", "true"}
     return call_openai_compatible_evidence_model(
         prompt,
-        endpoint=endpoint,
+        endpoint=endpoint.rstrip("/") + "/v1",
         model=model,
-        api_key=os.environ.get("MODEL_API_KEY", "").strip(),
+        api_key=token,
         max_tokens=max_tokens,
         thinking=thinking,
     )
