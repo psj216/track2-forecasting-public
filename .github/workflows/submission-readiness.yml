@@ -1,20 +1,41 @@
 # ## Executive summary (read this first)
 # Validate House routing and official v2.4.3 packaging, then build the v2.4.2 F4-only runtime.
-# Run F1-F4 offline in a read-only container. This workflow never publishes or submits an image.
+# Run F1-F4 offline. An explicit publish request pushes that same tested image to the user's Hub.
+# It prepares a descriptor draft but never receives a Team Key or submits to CodaBench.
 name: Submission Readiness
 
 on:
   push:
     branches: ["track2/submission-dev-v1"]
   workflow_dispatch:
+    inputs:
+      publish:
+        description: Publish the tested F4-only image to jotj216/track2-f4-approved
+        type: boolean
+        required: false
+        default: false
 
 permissions:
   contents: read
+
+env:
+  PUBLISH_IMAGE: ${{ (github.event_name == 'push' && startsWith(github.event.head_commit.message, 'publish:')) || (github.event_name == 'workflow_dispatch' && inputs.publish) }}
 
 jobs:
   readiness:
     runs-on: ubuntu-latest
     steps:
+      - name: Require Docker Hub credential for publication
+        if: env.PUBLISH_IMAGE == 'true'
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          test "$GITHUB_REPOSITORY" = psj216/track2-forecasting-public
+          test "$GITHUB_REF_NAME" = track2/submission-dev-v1
+          if [ -z "$DOCKERHUB_TOKEN" ]; then
+            echo '::error::Add repository Actions secret DOCKERHUB_TOKEN (Docker Hub Read & Write token for jotj216), then rerun this job. No image was pushed.'
+            exit 1
+          fi
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
         with:
@@ -75,3 +96,42 @@ jobs:
               assert meta['forecast_mode'] == 'f4-only'
               assert meta['forecast_adjustment_applied'] is False
           PY
+      - name: Publish tested image and verify anonymous digest pull
+        if: env.PUBLISH_IMAGE == 'true'
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          registry_config=$(mktemp -d)
+          anon_config=$(mktemp -d)
+          trap 'rm -rf -- "$registry_config" "$anon_config"' EXIT
+          printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$registry_config" login docker.io \
+            --username jotj216 --password-stdin
+          unset DOCKERHUB_TOKEN
+          tag="docker.io/jotj216/track2-f4-approved:dev-f4-${GITHUB_SHA}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          tested_id=$(docker image inspect t2-submit:f4-only --format '{{.Id}}')
+          docker tag t2-submit:f4-only "$tag"
+          docker --config "$registry_config" push "$tag"
+          published_ref=$(docker image inspect "$tag" --format '{{json .RepoDigests}}' | \
+            jq -er '.[] | select(startswith("jotj216/track2-f4-approved@") or startswith("docker.io/jotj216/track2-f4-approved@"))' | head -n 1)
+          digest="${published_ref##*@}"
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          image_ref="docker.io/jotj216/track2-f4-approved@$digest"
+          docker --config "$anon_config" pull "$image_ref"
+          test "$(docker image inspect "$image_ref" --format '{{.Id}}')" = "$tested_id"
+          mkdir -p submission-artifacts
+          printf '%s\n' "$image_ref" > submission-artifacts/image-reference.txt
+          printf '%s\n' "$GITHUB_SHA" > submission-artifacts/source-commit.txt
+          python scripts/prepare_dev_descriptor.py \
+            --registry docker.io --repository jotj216/track2-f4-approved \
+            --digest "$digest" --out submission-artifacts/submission-draft.json
+          printf 'Published and anonymously pulled: `%s`\n\nTeam claim and submission.zip still require local packing.\n' \
+            "$image_ref" >> "$GITHUB_STEP_SUMMARY"
+      - name: Save public descriptor draft and image provenance
+        if: env.PUBLISH_IMAGE == 'true'
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: development-image-descriptor-${{ github.run_id }}-${{ github.run_attempt }}
+          path: submission-artifacts/
+          if-no-files-found: error
+          retention-days: 30

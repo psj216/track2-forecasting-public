@@ -2,8 +2,9 @@
 
 First submit **f4-only**, retaining the approved F4 x0.50 route and evidence prompt v1.0.3.
 Upload **submission.zip**, not this repository, a Docker tarball, or forecast.parquet.
-The image must already be publicly pullable by its immutable digest. No actual registry target
-or team credentials are committed here; a draft is not a completed submission.
+The confirmed image destination is **docker.io/jotj216/track2-f4-approved**.
+The source repository is **psj216/track2-forecasting-public**; these are separate accounts.
+The image must be anonymously pullable by its digest. A draft is not a completed submission.
 
 Runtime uses qfbench2-common **v2.4.2**. Local packaging uses **v2.4.3**.
 The official House disclosure checked on 2026-09-21 is
@@ -16,16 +17,30 @@ https://github.com/Agenthon-2026/Agenthon2026-public/blob/main/docs/HOUSE-MODEL.
 
 ## 1. Test and publish the image
 
-Use Docker on a supported host and the submission branch. Replace YOUR_NAMESPACE with the public
-repository you control. Authenticate using your registry's normal secure login; never send a token
-in chat or commit it. This command publishes publicly, so confirm the destination first.
+The Submission Readiness workflow can publish the same image it tested, without a second build.
+Create a Docker Hub personal access token for `jotj216` with Read & Write access, then put it in
+the GitHub repository's **Settings → Secrets and variables → Actions → New repository secret**
+as **DOCKERHUB_TOKEN**. No username secret is needed; the confirmed username is fixed in the workflow.
+Do not share the token in chat. Keep the Docker Hub repository Public.
+
+Publishing runs only for a push whose commit message starts `publish:`, or a manual dispatch
+with `publish=true`, on `track2/submission-dev-v1` in the confirmed source repository. Ordinary
+commits run validation only. If the credential preflight fails, add the secret and rerun the
+failed job; the rerun retains the original publish request. No merge to main is needed for this
+push-triggered route. The GitHub Run workflow button may not expose a workflow absent from main.
+
+After publication, the run artifact contains `submission-draft.json`, `image-reference.txt` and
+`source-commit.txt`. That Actions artifact ZIP is **not** the CodaBench submission ZIP. Extract it,
+then follow step 3 to create the team-bound submission.zip with the official packer.
+
+For a local Docker host, the equivalent target is:
 
 ```bash
 docker build --platform linux/amd64 --build-arg FORECAST_MODE=f4-only \
-  -t docker.io/YOUR_NAMESPACE/t2-forecaster:dev-f4-v1 .
+  -t docker.io/jotj216/track2-f4-approved:dev-f4-v1 .
 docker inspect -f '{{ index .Config.Labels "qfbench2.interface_version" }}' \
-  docker.io/YOUR_NAMESPACE/t2-forecaster:dev-f4-v1
-docker push docker.io/YOUR_NAMESPACE/t2-forecaster:dev-f4-v1
+  docker.io/jotj216/track2-f4-approved:dev-f4-v1
+docker push docker.io/jotj216/track2-f4-approved:dev-f4-v1
 ```
 
 The label must print `2.0`. Record the registry manifest digest from push, **not** the local image
@@ -38,7 +53,7 @@ Verify anonymous access using a fresh empty Docker configuration and that exact 
 ```bash
 ANON_DOCKER_CONFIG=$(mktemp -d)
 docker --config "$ANON_DOCKER_CONFIG" pull \
-  docker.io/YOUR_NAMESPACE/t2-forecaster@sha256:ACTUAL_64_HEX_DIGEST
+  docker.io/jotj216/track2-f4-approved@sha256:ACTUAL_64_HEX_DIGEST
 ```
 
 Do not log out or erase your usual Docker configuration. Keep the published digest available for
@@ -52,7 +67,7 @@ python3.13 -m venv .venv-pack
   "qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.3#subdirectory=common"
 mkdir -p submission-artifacts
 .venv-pack/bin/python scripts/prepare_dev_descriptor.py \
-  --repository YOUR_NAMESPACE/t2-forecaster \
+  --repository jotj216/track2-f4-approved \
   --digest sha256:ACTUAL_64_HEX_DIGEST \
   --out submission-artifacts/submission-draft.json
 ```
@@ -105,4 +120,5 @@ reasoning metadata after the run: a Numeric fallback score does not validate the
   `--seed` remains the local override. No numeric coefficients are changed.
 - The public Nemotron calibration client, replay code, coefficients and prompt are unchanged.
 - The image copies the forecasting runtime and license notices only, not backtesting or keys.
-- No registry has been selected or public push implied by merely creating these files.
+- The destination is confirmed. Actual publication requires a successful workflow push and
+  anonymous digest pull; creating these files alone does not establish either.
