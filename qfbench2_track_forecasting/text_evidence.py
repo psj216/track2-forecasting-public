@@ -753,11 +753,24 @@ def call_evidence_model(prompt: str) -> tuple[Any | None, str, str]:
     except ValueError:
         return None, "MODEL_MAX_TOKENS is not an integer", model
     thinking = os.environ.get("MODEL_THINKING", "off").strip().lower() in {"1", "on", "true"}
+    # Official Agenthon House route:
+    # MODEL_ENDPOINT is the origin, the API lives under /v1,
+    # and MODEL_TOKEN is the per-unit Bearer credential.
+    house = "MODEL_TOKEN" in os.environ
+    if house:
+        max_tokens = min(max_tokens, 4_000)
+        base = endpoint.rstrip("/")
+        endpoint = base if base.endswith("/v1") else base + "/v1"
+        api_key = os.environ.get("MODEL_TOKEN", "").strip()
+    else:
+        # Retain the legacy/local path for calibration and local experiments.
+        api_key = os.environ.get("MODEL_API_KEY", "").strip()
+
     return call_openai_compatible_evidence_model(
         prompt,
         endpoint=endpoint,
         model=model,
-        api_key=os.environ.get("MODEL_API_KEY", "").strip(),
+        api_key=api_key,
         max_tokens=max_tokens,
         thinking=thinking,
     )

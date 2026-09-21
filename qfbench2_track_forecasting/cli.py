@@ -332,7 +332,7 @@ def main(argv: list[str] | None = None) -> int:
         )
     import tomllib
 
-    card = tomllib.loads(card_path.read_text())
+    card = tomllib.loads(card_path.read_text(encoding="utf-8"))
     tgt = card["targets"]
     assets = list(tgt["asset_ids"])
     horizons = [int(h) for h in tgt["horizons"]]
