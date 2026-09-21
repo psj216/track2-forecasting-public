@@ -314,7 +314,7 @@ def main(argv: list[str] | None = None) -> int:
         help="card.toml; defaults to <panels>/../card.toml. Supplies assets/horizons.",
     )
     p.add_argument("--n-draws", type=int, default=None)
-    p.add_argument("--seed", type=int, default=0)
+    p.add_argument("--seed", type=int, default=os.environ.get("QFBENCH_SEED", "0"))
     a = p.parse_args(argv)
 
     # --panels names the unit root (contract) but a card may still keep a panels/ subdir, so look

@@ -101,6 +101,8 @@ reasoning metadata after the run: a Numeric fallback score does not validate the
 
 - The official wrapper uses MODEL_ENDPOINT origin + `/v1/chat/completions`, MODEL_TOKEN and
   MODEL_NAME. Proxy environment variables remain untouched.
+- Sampling defaults to the harness-injected QFBENCH_SEED, then zero if absent; an explicit
+  `--seed` remains the local override. No numeric coefficients are changed.
 - The public Nemotron calibration client, replay code, coefficients and prompt are unchanged.
 - The image copies the forecasting runtime and license notices only, not backtesting or keys.
 - No registry has been selected or public push implied by merely creating these files.
