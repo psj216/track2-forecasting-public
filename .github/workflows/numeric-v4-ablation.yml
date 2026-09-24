@@ -1,0 +1,148 @@
+# ## Executive summary (read this first)
+# Validate opt-in V4 candidates offline. Publish ONLY the frozen 31224ef Numeric
+# control, with 500 draws unchanged, to isolate text contribution in Development.
+# Public historical fit results are not uploaded into this public workflow.
+name: Numeric V4 Safety and Frozen Control
+
+on:
+  push:
+    branches: ["track2/numeric-v4-ablation"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  safety:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install pinned runtime and tools
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'ruff==0.4.7' 'mypy==1.19.1' pytest
+          pip install --no-deps -e .
+      - name: Check runtime and tests
+        run: |
+          ruff check qfbench2_track_forecasting/numeric_v4.py backtesting/v4_ablation.py tests/test_numeric_v4.py tests/test_v4_ablation.py
+          ruff format --check qfbench2_track_forecasting/numeric_v4.py backtesting/v4_ablation.py tests/test_numeric_v4.py tests/test_v4_ablation.py
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting
+          python -m pytest -q
+          python .github/validate_units.py forecasting --stdlib-only
+      - name: Build experimental numeric image
+        run: docker build --build-arg FORECAST_MODE=numeric -t t2-v4:experimental .
+      - name: Exercise F1-F4 and monthly panels offline with official gates
+        run: |
+          set -euo pipefail
+          python - <<'PY' > "$RUNNER_TEMP/units.txt"
+          import pathlib, tomllib
+          for unit in ('t2-F1-greater-confidence-2024','t2-F2-eur-parity-2022',
+                       't2-F3-brexit-joint-2016','t2-F4-short-vol-2018','t2-F4-cpi-vintage-2022'):
+              card = tomllib.loads((pathlib.Path('units')/unit/'card.toml').read_text())
+              print(unit + '|' + card['provenance']['data_cutoff'])
+          PY
+          while IFS='|' read -r unit asof; do
+            for variant in v3 v4-a v4-b v4-ab; do
+              out="$RUNNER_TEMP/v4-smoke/$unit/$variant"
+              mkdir -p "$out"
+              chmod 0777 "$out"
+              docker run --rm --network=none --read-only --tmpfs /tmp \
+                -e NUMERIC_VARIANT="$variant" -v "$PWD/units/$unit:/input:ro" \
+                -v "$out:/output" t2-v4:experimental forecast --panels /input \
+                --text /input/text --asof "$asof" --n-draws 2000 --out /output/forecast.parquet
+              qfbench2-smoke "units/$unit" "$out" --track forecasting
+            done
+          done < "$RUNNER_TEMP/units.txt"
+          python - <<'PY'
+          import os, pathlib, pandas as pd
+          root = pathlib.Path(os.environ['RUNNER_TEMP'])/'v4-smoke/t2-F3-brexit-joint-2016'
+          baseline = pd.read_parquet(root/'v3/forecast.parquet')
+          for variant in ('v4-a','v4-b','v4-ab'):
+              pd.testing.assert_frame_equal(baseline, pd.read_parquet(root/variant/'forecast.parquet'), check_exact=True)
+          PY
+
+  frozen-numeric-control:
+    needs: safety
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: 31224eff97f9f06808dd52b7f2ee5457594cb387
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install official packer and scorer
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.3#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0'
+          pip install --no-deps -e .
+      - name: Build frozen control and check parity with submitted mode
+        run: |
+          set -euo pipefail
+          docker build --build-arg FORECAST_MODE=numeric -t t2-control:numeric .
+          docker build --build-arg FORECAST_MODE=f4-only -t t2-control:f4-only .
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.interface_version" }}' t2-control:numeric)" = 2.0
+          test "$(docker inspect -f '{{ index .Config.Labels "qfbench2.forecast_mode" }}' t2-control:numeric)" = numeric
+          for mode in numeric f4-only; do
+            out="$RUNNER_TEMP/control/$mode"
+            mkdir -p "$out"
+            chmod 0777 "$out"
+            docker run --rm --network=none --read-only --tmpfs /tmp \
+              -v "$PWD/units/t2-F4-short-vol-2018:/input:ro" -v "$out:/output" \
+              "t2-control:$mode" forecast --panels /input --text /input/text \
+              --asof 2018-01-26 --out /output/forecast.parquet
+            qfbench2-smoke units/t2-F4-short-vol-2018 "$out" --track forecasting
+          done
+          python - <<'PY'
+          import os, pathlib, pandas as pd
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'control'
+          pd.testing.assert_frame_equal(pd.read_parquet(root/'numeric/forecast.parquet'),
+                                        pd.read_parquet(root/'f4-only/forecast.parquet'), check_exact=True)
+          PY
+      - name: Publish frozen numeric control and verify anonymous access
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$DOCKERHUB_TOKEN"
+          registry_config=$(mktemp -d)
+          anon_config=$(mktemp -d)
+          trap 'rm -rf -- "$registry_config" "$anon_config"' EXIT
+          printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$registry_config" login docker.io --username jotj216 --password-stdin
+          unset DOCKERHUB_TOKEN
+          tag="docker.io/jotj216/track2-f4-approved:numeric-31224ef-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          tested_id=$(docker inspect -f '{{.Id}}' t2-control:numeric)
+          docker tag t2-control:numeric "$tag"
+          docker --config "$registry_config" push "$tag"
+          published=$(docker inspect "$tag" --format '{{json .RepoDigests}}' | jq -er '.[0]')
+          digest="${published##*@}"
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          image_ref="docker.io/jotj216/track2-f4-approved@$digest"
+          docker --config "$anon_config" pull "$image_ref"
+          test "$(docker inspect -f '{{.Id}}' "$image_ref")" = "$tested_id"
+          mkdir -p control-artifacts
+          printf '%s\n' "$image_ref" > control-artifacts/image-reference.txt
+          printf '%s\n' 31224eff97f9f06808dd52b7f2ee5457594cb387 > control-artifacts/source-commit.txt
+          IMAGE_DIGEST="$digest" python - <<'PY'
+          import json, os, pathlib
+          from qfbench2_common.contracts.descriptor import SubmissionDescriptor, seal_descriptor_digest
+          body = dict(schema_version='1.0.0', interface_version='2.0',
+            competition_id='agenthon2026-forecasting-dev', track='forecasting', phase='dev', category='api',
+            image=dict(registry='docker.io',repository='jotj216/track2-f4-approved',digest=os.environ['IMAGE_DIGEST']),
+            image_access='public', models=[dict(name='nvidia/nemotron-3-super-120b-a12b',
+            version='rl-030326-fp8', revision='rl-030326-fp8', training_cutoff='unpublished',access='api')],license='MIT')
+          SubmissionDescriptor.from_mapping(seal_descriptor_digest(dict(body,team_id='team-validation-only')))
+          pathlib.Path('control-artifacts/submission-draft.json').write_text(json.dumps(body,indent=2)+'\n')
+          pathlib.Path('control-artifacts/README.txt').write_text(
+            'Frozen numeric-only control, 31224ef, 500 draws. House model is declared for API category; no model calls occur.\n'
+            'Pack locally with qfbench2 submission pack; this archive is NOT the final submission.zip.\n')
+          PY
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: frozen-numeric-control-${{ github.run_id }}-${{ github.run_attempt }}
+          path: control-artifacts/
+          if-no-files-found: error
+          retention-days: 30

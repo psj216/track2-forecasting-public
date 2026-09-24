@@ -33,9 +33,11 @@ from typing import Any
 
 import numpy as np
 import pandas as pd
+from numpy.typing import NDArray
 
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
+from .numeric_v4 import V4_A, V4_AB, V4_B, forecast_numeric_v4
 from .scenario_integration import (
     APPROVED_F4_CONFIG,
     IntegrationResult,
@@ -137,9 +139,17 @@ def _draw(
     target_type: str = "level",
     target_frequency: str = "daily",
     family: str = "T2-F1",
-) -> tuple[np.ndarray, dict[str, Any]]:
+) -> tuple[NDArray[np.float64], dict[str, Any]]:
     """Target-aware joint block bootstrap with regime diagnostics and coherent horizons."""
     hist = {a: _series(panels, a, asof) for a in assets}
+    variant = os.environ.get("NUMERIC_VARIANT", "v3").strip().lower()
+    candidates = {"v4-a": V4_A, "v4-b": V4_B, "v4-ab": V4_AB}
+    if variant not in {"v3", *candidates}:
+        raise SystemExit("NUMERIC_VARIANT must be v3, v4-a, v4-b, or v4-ab")
+    if variant != "v3" and _forecast_mode() != "numeric":
+        raise SystemExit(
+            "V4 experiments require FORECAST_MODE=numeric until text routing is validated"
+        )
     try:
         result = forecast_numeric_v3(
             hist,
@@ -151,6 +161,19 @@ def _draw(
             seed,
             family,
         )
+        if variant != "v3":
+            result = forecast_numeric_v4(
+                hist,
+                assets,
+                horizons,
+                target_type,
+                target_frequency,
+                n_draws,
+                seed,
+                family,
+                candidates[variant],
+                result,
+            )
     except ValueError as exc:
         raise SystemExit(str(exc)) from exc
     return result.samples, result.metadata
@@ -240,6 +263,18 @@ Skeptic challenge: {skeptic_challenge}
 The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s) from
 {reasoning.corpus.indexed_count} indexed entries. Numeric v3 was retained exactly."""
 
+    experiment_note = ""
+    if "v4" in stats:
+        diagnostics = stats["v4"]
+        experiment_note = (
+            "\n## Experimental numeric override\n\n"
+            f"Model: {stats['model']}. This overrides the legacy sampling description above. "
+            "A uses six causal state features and distance-weighted historical analogues. "
+            "B standardizes historical shocks by lagged EWM volatility and rescales them "
+            "with the current 20/120-observation volatility blend. "
+            f"Applied diagnostics: {json.dumps(diagnostics, sort_keys=True)}. "
+            "This is an unapproved experiment, not a validated leaderboard improvement.\n"
+        )
     return f"""# Forecast rationale — {unit_id}
 
 As of **{asof}**, joint distribution over {", ".join(assets)} at horizon(s)
@@ -290,6 +325,7 @@ Daily drift: {stats['daily_drift']}.
 
 New numeric observations that change momentum, volatility, correlation or fragility, or a dated
 document that contradicts the cited evidence. Post-as-of information is never eligible.
+{experiment_note}
 """
 
 
@@ -463,6 +499,9 @@ def main(argv: list[str] | None = None) -> int:
                 "n_draws": n_draws,
                 "target": target_type,
                 "forecast_mode": forecast_mode,
+                "numeric_variant": os.environ.get("NUMERIC_VARIANT", "v3"),
+                "numeric_model": stats["model"],
+                "numeric_experiment": stats.get("v4"),
                 "reasoning_applied": reasoning.applied,
                 "reasoning_skipped_reason": reasoning.skipped_reason,
                 "forecast_adjustment_applied": integration.metadata["applied"],

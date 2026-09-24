@@ -224,7 +224,9 @@ def _cell_scales(samples: NDArray[np.float64]) -> tuple[NDArray[np.float64], NDA
 
 def _horizon_scale(horizons: list[int]) -> NDArray[np.float64]:
     longest = max(horizons)
-    return np.sqrt(np.asarray(horizons, dtype=np.float64) / float(longest))
+    return np.asarray(
+        np.sqrt(np.asarray(horizons, dtype=np.float64) / float(longest)), dtype=np.float64
+    )
 
 
 def _value_route(

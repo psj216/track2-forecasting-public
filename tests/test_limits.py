@@ -112,7 +112,10 @@ def test_row_group_ceiling(tmp_path: pathlib.Path) -> None:
 
 def test_uncompressed_budget(tmp_path: pathlib.Path) -> None:
     path = tmp_path / "forecast.parquet"
-    _bomb(path, 500_000)
+    # Dictionary/RLE encoding can represent constant columns in <1024 footer bytes.
+    # Exercise the byte ceiling with a non-dictionary fixture, not a row-count proxy.
+    write_parquet(path, forecast_rows(n_draws=200), compression="zstd", use_dictionary=False)
+    assert inspect_parquet(path, what="forecast.parquet").uncompressed_bytes > 1024
     with pytest.raises(T2Refusal) as exc:
         inspect_parquet(
             path, what="forecast.parquet", limits=ParseLimits(max_uncompressed_bytes=1024)
