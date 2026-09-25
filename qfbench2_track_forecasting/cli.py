@@ -52,10 +52,19 @@ from .text_evidence import (
     interpret_text_evidence,
     scenario_probability_ledger,
 )
+from .text_first_v5 import apply_text_first_v5
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
-_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads", "f1-center", "integrated-v4"}
+_FORECAST_MODES = {
+    "numeric",
+    "f4-only",
+    "full",
+    "family-heads",
+    "f1-center",
+    "integrated-v4",
+    "text-first-v5",
+}
 
 
 def _forecast_mode() -> str:
@@ -273,6 +282,14 @@ The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s
             "No live House connectivity or score improvement is implied by an offline pass.\n\n"
             "```json\n" + json.dumps(integration.metadata, indent=2, ensure_ascii=False) + "\n```"
         )
+    if integration.metadata.get("config") == "text-first-v5":
+        text_section = (
+            "The cutoff-safe deterministic event router applied a pre-asof historical "
+            "scenario mixture only when its evidence and exposure gates passed. "
+            "The complete audit ledger follows.\n\n```json\n"
+            + json.dumps(integration.metadata, indent=2, ensure_ascii=False)
+            + "\n```"
+        )
     experiment_note = ""
     if "v4" in stats:
         diagnostics = stats["v4"]
@@ -390,7 +407,13 @@ def main(argv: list[str] | None = None) -> int:
     # producer honours it, and `limits.min_draws` enforces the contract floor in the scorer, in
     # code no missing module can skip.
     card_floor = int(card.get("scoring", {}).get("params", {}).get("n_draws_min", 0) or 0)
-    floor = max(card_floor, DEFAULT_DRAWS, ParseLimits().min_draws)
+    mode = _forecast_mode()
+    floor = max(
+        card_floor,
+        DEFAULT_DRAWS,
+        ParseLimits().min_draws,
+        1000 if mode == "text-first-v5" and family == "T2-F4" else 0,
+    )
     n_draws = max(a.n_draws or floor, floor)
     if n_draws > ParseLimits().max_draws:
         raise SystemExit(
@@ -433,7 +456,7 @@ def main(argv: list[str] | None = None) -> int:
         "daily_sd": {key: float(value) for key, value in stats["daily_sd"].items()},
         "anchor": {key: float(value) for key, value in stats["anchor"].items()},
     }
-    forecast_mode = _forecast_mode()
+    forecast_mode = mode
     reasoning_enabled = forecast_mode == "full" or (
         forecast_mode == "f4-only" and family == "T2-F4"
     )
@@ -463,7 +486,24 @@ def main(argv: list[str] | None = None) -> int:
     # Numeric mode and F1-F3 remain unchanged.
     approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
-    if forecast_mode == "integrated-v4":
+    if forecast_mode == "text-first-v5":
+        adjusted, head_meta = apply_text_first_v5(
+            samples,
+            {asset: _series(panels, asset, a.asof) for asset in assets}
+            if family in {"T2-F1", "T2-F4"}
+            else {},
+            assets,
+            horizons,
+            target_type,
+            target_frequency,
+            family,
+            a.asof,
+            a.seed,
+            a.text,
+            str(tgt.get("value_unit", "")),
+        )
+        integration = IntegrationResult(samples=adjusted, metadata=head_meta)
+    elif forecast_mode == "integrated-v4":
         config_name = os.environ.get("V4_INTEGRATED_CONFIG", CONFIGS[0].name)
         config = next((candidate for candidate in CONFIGS if candidate.name == config_name), None)
         if config is None:
