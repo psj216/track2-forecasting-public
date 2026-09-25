@@ -225,7 +225,8 @@ def run(root: Path, out: Path, cutoffs: int, draws: int) -> dict[str, Any]:
             base_samples, observed, base_components, _ = evaluate(item, draws, seed_salt)
             for pair in TAIL_GRID:
                 candidate = calibrate_single_cell_tails(base_samples, *pair)
-                fit_scores[pair].append(paired_metrics(candidate, observed, base_components)["ratio"])
+                metrics = paired_metrics(candidate, observed, base_components)
+                fit_scores[pair].append(metrics["ratio"])
         fit_ids.add(item.identity)
 
     if len(fit_ids) < 20:
