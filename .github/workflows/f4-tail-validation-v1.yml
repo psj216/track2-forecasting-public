@@ -1,4 +1,5 @@
 # Tail-only Numeric V3 validation. No Docker image is published from this workflow.
+# Frozen protocol: 6 cutoffs, 1000 draws, two deterministic seeds.
 name: F4 Tail Validation V1
 
 on:
