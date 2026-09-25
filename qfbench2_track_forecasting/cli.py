@@ -37,6 +37,7 @@ from numpy.typing import NDArray
 
 from .f1_center import apply_center_bias, load_center_bias
 from .family_pipeline import run_family_heads
+from .integrated_v4 import CONFIGS, apply_integrated_v4
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
 from .numeric_v4 import V4_A, V4_AB, V4_B, forecast_numeric_v4
@@ -54,7 +55,7 @@ from .text_evidence import (
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
-_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads", "f1-center"}
+_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads", "f1-center", "integrated-v4"}
 
 
 def _forecast_mode() -> str:
@@ -462,7 +463,26 @@ def main(argv: list[str] | None = None) -> int:
     # Numeric mode and F1-F3 remain unchanged.
     approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
-    if forecast_mode == "f1-center":
+    if forecast_mode == "integrated-v4":
+        config_name = os.environ.get("V4_INTEGRATED_CONFIG", CONFIGS[0].name)
+        config = next((candidate for candidate in CONFIGS if candidate.name == config_name), None)
+        if config is None:
+            raise SystemExit("unrecognized integrated V4 configuration")
+        adjusted, head_meta = apply_integrated_v4(
+            samples,
+            {asset: _series(panels, asset, a.asof) for asset in assets},
+            assets,
+            horizons,
+            target_type,
+            target_frequency,
+            family,
+            a.asof,
+            a.seed,
+            config,
+            a.text,
+        )
+        integration = IntegrationResult(samples=adjusted, metadata=head_meta)
+    elif forecast_mode == "f1-center":
         if family == "T2-F1":
             config_path = pathlib.Path(os.environ.get("F1_CENTER_PATH", "/opt/f1-center.json"))
             try:
