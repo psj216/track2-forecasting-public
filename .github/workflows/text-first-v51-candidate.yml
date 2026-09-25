@@ -6,6 +6,8 @@ name: Text First V5.1 Candidate
 on:
   push:
     branches: ["track2/text-first-v5.1-candidate"]
+  pull_request:
+    branches: ["track2/text-first-v5-experimental"]
   workflow_dispatch:
 
 permissions:
