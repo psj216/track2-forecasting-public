@@ -27,10 +27,9 @@ cannot be converted into an official leaderboard score.
 
 ### Result
 
-The middle split has 64 independent F1 cases on 62 dates. The best of the five
-predeclared candidates had a geometric ratio of 1.00055, win rate 35.9 percent,
-and worst-decile ratio 1.00554. It failed the selection gate, so the latest
-split was not evaluated and the decision is **retain Numeric V3**.
+The predeclared candidates failed the selection gate, so the latest split was
+not evaluated and the decision is **retain Numeric V3**. Numerical diagnostic
+results are kept outside the public repository.
 
 These public histories were examined during older experiments. Even a later
 successful run over the same histories must not be called a fully untouched
