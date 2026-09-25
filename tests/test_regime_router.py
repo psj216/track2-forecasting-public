@@ -150,7 +150,7 @@ def test_official_transport_contract(monkeypatch):
         assert body["model"] == "house"
         assert body["max_tokens"] <= 4000
         assert body["chat_template_kwargs"]["enable_thinking"] is False
-        assert timeout == 60
+        assert timeout == 180
         return io.BytesIO(
             json.dumps(
                 {

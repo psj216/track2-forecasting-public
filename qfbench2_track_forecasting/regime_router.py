@@ -241,7 +241,7 @@ def call_regime_model(prompt: str) -> ModelReply:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=60) as response:
+        with urllib.request.urlopen(request, timeout=180) as response:
             payload_bytes = response.read(_MAX_RESPONSE_BYTES + 1)
     except urllib.error.HTTPError as exc:
         return ModelReply(None, True, True, False, False, "call:http_error", model, exc.code)

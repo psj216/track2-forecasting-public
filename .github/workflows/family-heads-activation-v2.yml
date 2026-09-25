@@ -4,7 +4,7 @@
 name: Family Heads Activation V2
 on:
   push:
-    branches: ["track2/family-heads-activation-v2"]
+    branches: ["track2/family-heads-activation-v2", "track2/family-heads-timeout-180"]
   workflow_dispatch:
 permissions:
   contents: read
