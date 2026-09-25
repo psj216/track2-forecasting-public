@@ -110,9 +110,15 @@ def test_strict_schema(field, value):
 def test_parser_rejects_ambiguous_and_duplicate_json():
     raw = json.dumps(decision())
     assert parse_regime_content("```json\n" + raw + "\n```") == decision()
+    assert (
+        parse_regime_content("<think>classification only</think>\n```JSON\n" + raw + "\n```")
+        == decision()
+    )
     for content in (raw + raw, '{"regime":"continuation","regime":"policy_shift"}', "x" * 17000):
         with pytest.raises(ValueError):
             parse_regime_content(content)
+    with pytest.raises(ValueError):
+        parse_regime_content("<think>unfinished " + raw)
 
 
 def test_minimal_json_normalizes_documented_values_and_requires_multiasset_target():

@@ -13,6 +13,7 @@ import json
 import math
 import os
 import pathlib
+import re
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -91,14 +92,18 @@ class RegimeResult:
 
 
 def parse_regime_content(content: str) -> Any:
-    """Accept bare JSON or a single fenced JSON object; reject ambiguous prose."""
+    """Accept bare/fenced JSON after one closed reasoning preface; reject extra content."""
     if len(content) > _MAX_CONTENT_CHARS:
         raise ValueError("content_limit")
     text = content.strip()
-    if text.startswith("```json\n") and text.endswith("\n```"):
-        text = text[8:-4].strip()
-    elif text.startswith("```\n") and text.endswith("\n```"):
-        text = text[4:-4].strip()
+    if text.startswith("<think>"):
+        close = text.find("</think>")
+        if close == -1:
+            raise ValueError("incomplete_thinking_block")
+        text = text[close + len("</think>") :].strip()
+    fenced = re.fullmatch(r"```(?:json)?\s*\n([\s\S]*?)\n```", text, re.IGNORECASE)
+    if fenced:
+        text = fenced.group(1).strip()
 
     def unique_pairs(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
         result: dict[str, Any] = {}
