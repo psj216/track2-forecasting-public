@@ -35,6 +35,7 @@ import numpy as np
 import pandas as pd
 from numpy.typing import NDArray
 
+from .family_pipeline import run_family_heads
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
 from .numeric_v4 import V4_A, V4_AB, V4_B, forecast_numeric_v4
@@ -52,7 +53,7 @@ from .text_evidence import (
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
-_FORECAST_MODES = {"numeric", "f4-only", "full"}
+_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads"}
 
 
 def _forecast_mode() -> str:
@@ -263,6 +264,13 @@ Skeptic challenge: {skeptic_challenge}
 The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s) from
 {reasoning.corpus.indexed_count} indexed entries. Numeric v3 was retained exactly."""
 
+    if integration.metadata.get("config") == "v3-family-heads-experimental":
+        text_section = (
+            "The opt-in family specialist pipeline was used. F3 is frozen. "
+            "The ledger below distinguishes text parsing from actual changes to draws. "
+            "No live House connectivity or score improvement is implied by an offline pass.\n\n"
+            "```json\n" + json.dumps(integration.metadata, indent=2, ensure_ascii=False) + "\n```"
+        )
     experiment_note = ""
     if "v4" in stats:
         diagnostics = stats["v4"]
@@ -453,28 +461,45 @@ def main(argv: list[str] | None = None) -> int:
     # Numeric mode and F1-F3 remain unchanged.
     approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
-    try:
-        integration = integrate_scenario_worlds(
+    if forecast_mode == "family-heads":
+        adjusted, head_meta = run_family_heads(
             samples,
-            reasoning,
+            {asset: _series(panels, asset, a.asof) for asset in assets},
             assets,
             horizons,
+            target_type,
+            target_frequency,
             family,
+            a.asof,
             a.seed,
+            a.text,
             enabled=integration_enabled,
-            config_override=approved_config,
+            panel_context=panel_context,
         )
-    except ValueError as exc:
-        integration = IntegrationResult(
-            samples=samples.copy(),
-            metadata={
-                "enabled": integration_enabled,
-                "family": family,
-                "applied": False,
-                "numeric_fallback_exact": True,
-                "reason": f"integration rejected: {exc}",
-            },
-        )
+        integration = IntegrationResult(samples=adjusted, metadata=head_meta)
+    else:
+        try:
+            integration = integrate_scenario_worlds(
+                samples,
+                reasoning,
+                assets,
+                horizons,
+                family,
+                a.seed,
+                enabled=integration_enabled,
+                config_override=approved_config,
+            )
+        except ValueError as exc:
+            integration = IntegrationResult(
+                samples=samples.copy(),
+                metadata={
+                    "enabled": integration_enabled,
+                    "family": family,
+                    "applied": False,
+                    "numeric_fallback_exact": True,
+                    "reason": f"integration rejected: {exc}",
+                },
+            )
     samples = integration.samples
 
     out_dir = a.out.parent
@@ -502,8 +527,17 @@ def main(argv: list[str] | None = None) -> int:
                 "numeric_variant": os.environ.get("NUMERIC_VARIANT", "v3"),
                 "numeric_model": stats["model"],
                 "numeric_experiment": stats.get("v4"),
-                "reasoning_applied": reasoning.applied,
-                "reasoning_skipped_reason": reasoning.skipped_reason,
+                "reasoning_applied": (
+                    integration.metadata.get("router", {}).get("gate_passed", False)
+                    if forecast_mode == "family-heads"
+                    else reasoning.applied
+                ),
+                "reasoning_skipped_reason": (
+                    integration.metadata.get("reason", "")
+                    if forecast_mode == "family-heads"
+                    else reasoning.skipped_reason
+                ),
+                "family_heads": integration.metadata if forecast_mode == "family-heads" else None,
                 "forecast_adjustment_applied": integration.metadata["applied"],
                 "rationale": {
                     "file": _RATIONALE_NAME,
@@ -512,9 +546,15 @@ def main(argv: list[str] | None = None) -> int:
                         if integration.metadata["applied"]
                         else "Numeric v3 + explicit text-integration fallback"
                     ),
-                    "text_evidence": reasoning.metadata(
-                        mode="integrated" if integration.metadata["applied"] else "shadow",
-                        forecast_adjustment_applied=bool(integration.metadata["applied"]),
+                    "text_evidence": (
+                        integration.metadata.get(
+                            "router", {"reason": integration.metadata["reason"]}
+                        )
+                        if forecast_mode == "family-heads"
+                        else reasoning.metadata(
+                            mode="integrated" if integration.metadata["applied"] else "shadow",
+                            forecast_adjustment_applied=bool(integration.metadata["applied"]),
+                        )
                     ),
                     "scenario_integration": integration.metadata,
                 },
@@ -541,11 +581,14 @@ def main(argv: list[str] | None = None) -> int:
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
     print(f"  {len(assets)} asset(s) x {len(horizons)} horizon(s), {n_draws} draws")
     print(f"  forecast mode: {forecast_mode}")
-    print(
-        f"  text evidence: applied={reasoning.applied}, "
-        f"documents={len(reasoning.corpus.documents)}"
-        + (f", skipped={reasoning.skipped_reason}" if not reasoning.applied else "")
-    )
+    if forecast_mode == "family-heads":
+        print("  family heads: " + json.dumps(integration.metadata, sort_keys=True))
+    else:
+        print(
+            f"  text evidence: applied={reasoning.applied}, "
+            f"documents={len(reasoning.corpus.documents)}"
+            + (f", skipped={reasoning.skipped_reason}" if not reasoning.applied else "")
+        )
     print(
         f"  scenario integration: applied={integration.metadata['applied']}"
         + (
