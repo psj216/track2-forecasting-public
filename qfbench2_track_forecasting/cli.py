@@ -35,6 +35,7 @@ import numpy as np
 import pandas as pd
 from numpy.typing import NDArray
 
+from .f1_center import apply_center_bias, load_center_bias
 from .family_pipeline import run_family_heads
 from .limits import ParseLimits
 from .numeric_v3 import forecast_numeric_v3
@@ -53,7 +54,7 @@ from .text_evidence import (
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
-_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads"}
+_FORECAST_MODES = {"numeric", "f4-only", "full", "family-heads", "f1-center"}
 
 
 def _forecast_mode() -> str:
@@ -461,7 +462,39 @@ def main(argv: list[str] | None = None) -> int:
     # Numeric mode and F1-F3 remain unchanged.
     approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
-    if forecast_mode == "family-heads":
+    if forecast_mode == "f1-center":
+        if family == "T2-F1":
+            config_path = pathlib.Path(os.environ.get("F1_CENTER_PATH", "/opt/f1-center.json"))
+            try:
+                config = load_center_bias(config_path)
+                adjusted = apply_center_bias(
+                    samples, horizons, target_frequency, target_type, family, a.asof, config
+                )
+            except (OSError, ValueError, TypeError) as exc:
+                raise SystemExit(f"F1 center calibration unavailable: {exc}") from exc
+            changed = not np.array_equal(adjusted, samples)
+            integration = IntegrationResult(
+                samples=adjusted,
+                metadata={
+                    "applied": changed,
+                    "config": "f1-center-only-v1",
+                    "numeric_fallback_exact": not changed,
+                    "reason": "F1 center applied"
+                    if changed
+                    else "training cutoff or non-level target",
+                },
+            )
+        else:
+            integration = IntegrationResult(
+                samples=samples,
+                metadata={
+                    "applied": False,
+                    "config": "numeric-v3-frozen",
+                    "numeric_fallback_exact": True,
+                    "reason": "F2/F3/F4 frozen",
+                },
+            )
+    elif forecast_mode == "family-heads":
         adjusted, head_meta = run_family_heads(
             samples,
             {asset: _series(panels, asset, a.asof) for asset in assets},
