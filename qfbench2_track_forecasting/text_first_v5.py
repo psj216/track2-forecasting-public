@@ -232,10 +232,11 @@ def apply_text_first_v5(
     seed: int,
     text_dir: Path,
     value_unit: str,
+    interpreter_version: str = "v5",
 ) -> tuple[NDArray[np.float64], dict[str, Any]]:
     """Replace a bounded, stratified subset with pre-cutoff complete historical paths."""
     meta: dict[str, Any] = {
-        "config": "text-first-v5",
+        "config": f"text-first-{interpreter_version}",
         "applied": False,
         "numeric_fallback_exact": True,
         "reason": "family_frozen",
@@ -245,7 +246,23 @@ def apply_text_first_v5(
     if target_type not in {"level", "log_return"} or samples.ndim != 3:
         meta["reason"] = "unsupported_target"
         return samples, meta
-    event, diagnostic = _event(text_dir, asof)
+    if interpreter_version == "v5.1":
+        from .text_interpreter_v51 import f1_document_delta, f4_current_event
+
+        evidence, diagnostic = (
+            f1_document_delta(text_dir, asof, assets)
+            if family == "T2-F1"
+            else f4_current_event(text_dir, asof, assets)
+        )
+        event = evidence.event if evidence else None
+        if evidence:
+            meta.update(
+                currentness=evidence.currentness,
+                previous_excerpt=evidence.prior_excerpt,
+                interpretation=evidence.interpretation,
+            )
+    else:
+        event, diagnostic = _event(text_dir, asof)
     meta.update(diagnostic)
     if event is None:
         return samples, meta
@@ -274,7 +291,7 @@ def apply_text_first_v5(
     sd = np.maximum(steps.std().to_numpy(dtype=float), 1e-8)
     displacement = accumulated[starts + maximum] - accumulated[starts]
     metric = np.sum(displacement * direction / sd, axis=1) / max(1, np.count_nonzero(direction))
-    eligible = starts[metric >= np.quantile(metric, 0.83 if family == "T2-F1" else 0.90)]
+    eligible = starts[metric >= np.quantile(metric, 0.75 if family == "T2-F1" else 0.90)]
     separated = 0
     last = -maximum
     for start in eligible:
@@ -284,7 +301,7 @@ def apply_text_first_v5(
     if len(eligible) < 10 or separated < 3:
         meta["reason"] = "too_few_independent_worlds"
         return samples, meta
-    sleeve = (0.08 if family == "T2-F1" else 0.16) * event.strength
+    sleeve = (0.12 if family == "T2-F1" else 0.18) * event.strength
     count = min(len(samples), int(len(samples) * sleeve))
     if count < 10:
         meta["reason"] = "too_few_draws"

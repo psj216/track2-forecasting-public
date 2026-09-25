@@ -1,0 +1,133 @@
+# ## Executive summary (read this first)
+# Verify the V5.1 text route, smoke every family offline, and publish a
+# candidate only after the activation and exact-preservation gates pass.
+name: Text First V5.1 Candidate
+
+on:
+  push:
+    branches: ["track2/text-first-v5.1-candidate"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install pinned runtime and checks
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'ruff==0.4.7' pytest
+          pip install --no-deps -e .
+      - name: Test and lint
+        run: |
+          ruff check qfbench2_track_forecasting tests
+          ruff format --check qfbench2_track_forecasting tests
+          python -m pytest -q
+          python .github/validate_units.py forecasting --stdlib-only
+      - name: Check every actual-asof F1/F4 route without future observations
+        run: |
+          python - <<'PY'
+          import pathlib, tomllib, numpy as np
+          from qfbench2_track_forecasting.cli import _read_panels, _series
+          from qfbench2_track_forecasting.text_first_v5 import apply_text_first_v5
+          totals = {'T2-F1': [0, 0], 'T2-F4': [0, 0]}
+          for card_path in sorted(pathlib.Path('units').glob('t2-F[14]-*/card.toml')):
+              card = tomllib.loads(card_path.read_text())
+              target = card['targets']
+              family = card['metadata']['category']
+              asof = card['provenance']['data_cutoff']
+              assets, horizons = target['asset_ids'], target['horizons']
+              panels = _read_panels(card_path.parent / 'panels')
+              histories = {asset: _series(panels, asset, asof) for asset in assets}
+              draws = np.zeros((1000, len(assets), len(horizons)))
+              result, meta = apply_text_first_v5(
+                  draws, histories, assets, horizons, target['target_type'],
+                  target['target_frequency'], family, asof, 0,
+                  card_path.parent / 'text', target.get('value_unit', ''),
+                  interpreter_version='v5.1')
+              totals[family][0] += 1
+              totals[family][1] += int(meta['applied'])
+              assert meta['applied'] == (not np.array_equal(draws, result))
+              if meta['applied']:
+                  assert meta['currentness'] in ({'DOCUMENT_DELTA'} if family == 'T2-F1' else {'CURRENT', 'FORWARD'})
+                  assert meta['last_world_date'] <= asof
+                  assert meta['evidence_ids'] and meta['evidence_excerpt']
+                  assert meta['directions'] and 0 < meta['sleeve_fraction'] <= 0.20
+          print(totals)
+          assert totals['T2-F1'][0] == 23 and 8 <= totals['T2-F1'][1] <= 12
+          assert totals['T2-F4'][0] == 31 and 10 <= totals['T2-F4'][1] <= 16
+          PY
+      - name: Build exact candidate image
+        run: docker build --build-arg FORECAST_MODE=text-first-v5.1 -t t2-v51:candidate .
+      - name: Offline Docker smoke in every family and exact V3 preservation
+        run: |
+          set -euo pipefail
+          python - <<'PY' > "$RUNNER_TEMP/units.txt"
+          import pathlib, tomllib
+          units = ('t2-F1-patient-dropped-2015', 't2-F2-eur-parity-2022',
+                   't2-F3-brexit-joint-2016', 't2-F4-funding-stress-2y-2008',
+                   't2-F4-covid-nfp-2020')
+          for name in units:
+              card = tomllib.loads((pathlib.Path('units') / name / 'card.toml').read_text())
+              print(name + '|' + card['provenance']['data_cutoff'])
+          PY
+          while IFS='|' read -r unit asof; do
+            for mode in numeric text-first-v5.1; do
+              out="$RUNNER_TEMP/v51-smoke/$unit/$mode"
+              mkdir -p "$out"
+              chmod 0777 "$out"
+              docker run --rm --network=none --read-only --tmpfs /tmp \
+                -e FORECAST_MODE="$mode" -v "$PWD/units/$unit:/input:ro" \
+                -v "$out:/output" t2-v51:candidate forecast --panels /input \
+                --text /input/text --asof "$asof" --out /output/forecast.parquet
+              qfbench2-smoke "units/$unit" "$out" --track forecasting
+            done
+          done < "$RUNNER_TEMP/units.txt"
+          python - <<'PY'
+          import json, os, pathlib
+          root = pathlib.Path(os.environ['RUNNER_TEMP']) / 'v51-smoke'
+          for name in ('t2-F2-eur-parity-2022', 't2-F3-brexit-joint-2016'):
+              assert (root / name / 'numeric/forecast.parquet').read_bytes() == (root / name / 'text-first-v5.1/forecast.parquet').read_bytes()
+          for name in ('t2-F1-patient-dropped-2015', 't2-F4-funding-stress-2y-2008', 't2-F4-covid-nfp-2020'):
+              base = root / name
+              meta = json.loads((base / 'text-first-v5.1/forecast_meta.json').read_text())
+              assert meta['reasoning_applied'] and meta['forecast_adjustment_applied']
+              assert (base / 'numeric/forecast.parquet').read_bytes() != (base / 'text-first-v5.1/forecast.parquet').read_bytes()
+              if 'F4' in name:
+                  assert meta['n_draws'] >= 1000
+          PY
+      - name: Publish and anonymously pull the tested image
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$DOCKERHUB_TOKEN"
+          auth=$(mktemp -d)
+          anonymous=$(mktemp -d)
+          trap 'rm -rf -- "$auth" "$anonymous"' EXIT
+          printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$auth" login docker.io -u jotj216 --password-stdin
+          unset DOCKERHUB_TOKEN
+          tag="docker.io/jotj216/track2-f4-approved:v51-${GITHUB_SHA:0:7}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          tested=$(docker inspect -f '{{.Id}}' t2-v51:candidate)
+          docker tag t2-v51:candidate "$tag"
+          docker --config "$auth" push "$tag"
+          digest=$(docker inspect "$tag" --format '{{json .RepoDigests}}' | jq -er '.[0]' | cut -d@ -f2)
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          ref="docker.io/jotj216/track2-f4-approved@$digest"
+          docker --config "$anonymous" pull "$ref"
+          test "$(docker inspect -f '{{.Id}}' "$ref")" = "$tested"
+          mkdir -p candidate-artifacts
+          printf '%s\n' "$ref" > candidate-artifacts/image-reference.txt
+          printf '%s\n' "$GITHUB_SHA" > candidate-artifacts/source-commit.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: text-first-v51-${{ github.run_id }}-${{ github.run_attempt }}
+          path: candidate-artifacts/
+          if-no-files-found: error
+          retention-days: 30
