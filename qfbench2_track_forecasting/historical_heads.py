@@ -112,7 +112,7 @@ def apply_historical_head(
         return unchanged("insufficient_history")
     dates_days = steps.index.to_numpy(dtype="datetime64[D]")
     gaps = np.r_[False, np.busday_count(dates_days[:-1], dates_days[1:]) > max(5, 2 * period)]
-    values = steps.to_numpy(dtype=float)
+    values = steps.to_numpy(dtype=float, copy=True)
     values[gaps] = np.nan
     windows = np.lib.stride_tricks.sliding_window_view(values, maximum, axis=0)
     valid = np.isfinite(windows).all(axis=(1, 2))

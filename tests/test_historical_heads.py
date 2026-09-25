@@ -168,3 +168,9 @@ def test_calendar_gaps_cannot_be_crossed_by_historical_trajectory():
     result, meta = _apply(history, evidence_valid=True)
     assert meta["reason"] == "insufficient_contiguous_worlds"
     np.testing.assert_array_equal(result, -999.0)
+
+
+def test_copy_on_write_history_can_build_worlds():
+    with pd.option_context("mode.copy_on_write", True):
+        _, meta = _apply(evidence_valid=True)
+    assert meta["applied"]
