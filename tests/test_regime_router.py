@@ -95,7 +95,7 @@ def test_frozen_f3_never_calls_model(corpus):
     [
         ("confidence", float("nan")),
         ("direction", True),
-        ("direction", "1"),
+        ("direction", "up"),
         ("confidence", True),
         ("evidence", ["past", "past"]),
     ],
@@ -113,6 +113,19 @@ def test_parser_rejects_ambiguous_and_duplicate_json():
     for content in (raw + raw, '{"regime":"continuation","regime":"policy_shift"}', "x" * 17000):
         with pytest.raises(ValueError):
             parse_regime_content(content)
+
+
+def test_minimal_json_normalizes_documented_values_and_requires_multiasset_target():
+    raw = {"regime": " POLICY_SHIFT ", "direction": "+1", "confidence": "0.95", "evidence": "past"}
+    decision = validate_regime(raw, {"past"}, ["EURUSD"])
+    assert (decision.direction, decision.horizon, decision.tail_side) == (1, "short", "upper")
+    with pytest.raises(ValueError, match="direction_asset_required"):
+        validate_regime(raw, {"past"}, ["UST_2Y", "UST_10Y"])
+    raw["direction_asset"] = "UST_2Y"
+    assert validate_regime(raw, {"past"}, ["UST_2Y", "UST_10Y"]).direction_asset == "UST_2Y"
+    raw["direction_asset"] = "NOT_A_TARGET"
+    with pytest.raises(ValueError, match="direction_asset"):
+        validate_regime(raw, {"past"}, ["UST_2Y", "UST_10Y"])
 
 
 def setup_house(monkeypatch):

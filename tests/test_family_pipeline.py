@@ -52,7 +52,7 @@ def test_frozen_family_and_kill_switch_never_call_model(tmp_path, monkeypatch, f
 def test_validated_route_reaches_worlds_and_changes_samples(tmp_path, monkeypatch):
     route = SimpleNamespace(
         gate_passed=True,
-        decision=object(),
+        decision=SimpleNamespace(direction_asset=None),
         metadata=lambda **kwargs: {"gate_passed": True, **kwargs},
     )
     monkeypatch.setattr(pipeline, "interpret_regime", lambda **kwargs: route)

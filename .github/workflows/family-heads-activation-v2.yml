@@ -1,0 +1,95 @@
+# ## Executive summary (read this first)
+# Validate both F2/F4 HTTP activation paths before publishing a diagnostic image.
+# This mock proof does not replace a real public Nemotron activation check.
+name: Family Heads Activation V2
+on:
+  push:
+    branches: ["track2/family-heads-activation-v2"]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install pinned runtime
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'ruff==0.4.7' 'mypy==1.19.1' pytest
+          pip install --no-deps -e .
+      - name: Check code and synthetic integration
+        run: |
+          ruff check qfbench2_track_forecasting tests scoring baselines
+          ruff format --check qfbench2_track_forecasting tests scoring baselines
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting
+          python -m pytest -q
+          python .github/validate_units.py forecasting --stdlib-only
+      - name: Build candidate
+        run: docker build --build-arg FORECAST_MODE=family-heads -t t2-family:experimental .
+      - name: Check all families offline and exact F3 preservation
+        run: |
+          set -euo pipefail
+          python - <<'PY' > "$RUNNER_TEMP/units.txt"
+          import pathlib, tomllib
+          for unit in ('t2-F1-greater-confidence-2024','t2-F2-eur-parity-2022',
+                       't2-F3-brexit-joint-2016','t2-F4-short-vol-2018','t2-F4-cpi-vintage-2022'):
+              card=tomllib.loads((pathlib.Path('units')/unit/'card.toml').read_text())
+              print(unit+'|'+card['provenance']['data_cutoff'])
+          PY
+          while IFS='|' read -r unit asof; do
+            for mode in numeric family-heads; do
+              out="$RUNNER_TEMP/family-smoke/$unit/$mode"
+              mkdir -p "$out"
+              chmod 0777 "$out"
+              docker run --rm --network=none --read-only --tmpfs /tmp \
+                -e FORECAST_MODE="$mode" -v "$PWD/units/$unit:/input:ro" \
+                -v "$out:/output" t2-family:experimental forecast --panels /input \
+                --text /input/text --asof "$asof" --out /output/forecast.parquet
+              qfbench2-smoke "units/$unit" "$out" --track forecasting
+            done
+          done < "$RUNNER_TEMP/units.txt"
+          python - <<'PY'
+          import os,pathlib,pandas as pd
+          root=pathlib.Path(os.environ['RUNNER_TEMP'])/'family-smoke'
+          for unit in root.iterdir():
+              pd.testing.assert_frame_equal(pd.read_parquet(unit/'numeric/forecast.parquet'),
+                  pd.read_parquet(unit/'family-heads/forecast.parquet'),check_exact=True)
+          PY
+      - name: Require active F2/F4 over the actual HTTP route in Docker
+        run: |
+          set -euo pipefail
+          python -m backtesting.activation_probe --mode mock \
+            --docker-image t2-family:experimental \
+            --out "$RUNNER_TEMP/activation-proof" \
+            --units t2-F2-cut-sizing-2024 t2-F4-short-vol-2018 t2-F4-factor-stress-2008
+      - name: Publish activation-test image and verify public pull
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$DOCKERHUB_TOKEN"
+          printf '%s' "$DOCKERHUB_TOKEN" | docker login docker.io -u jotj216 --password-stdin
+          tag="docker.io/jotj216/track2-f4-approved:activation-v2-${GITHUB_SHA:0:7}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          tested_id=$(docker inspect -f '{{.Id}}' t2-family:experimental)
+          docker tag t2-family:experimental "$tag"
+          docker push "$tag"
+          published=$(docker inspect "$tag" --format '{{json .RepoDigests}}' | jq -er '.[0]')
+          digest="${published##*@}"
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          image_ref="docker.io/jotj216/track2-f4-approved@$digest"
+          anon_config=$(mktemp -d)
+          docker --config "$anon_config" pull "$image_ref"
+          test "$(docker inspect -f '{{.Id}}' "$image_ref")" = "$tested_id"
+          mkdir -p candidate-artifacts
+          printf '%s\n' "$image_ref" > candidate-artifacts/image-reference.txt
+          printf '%s\n' "$GITHUB_SHA" > candidate-artifacts/source-commit.txt
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: activation-v2-test-image-${{ github.run_id }}-${{ github.run_attempt }}
+          path: candidate-artifacts/
+          if-no-files-found: error
+          retention-days: 30

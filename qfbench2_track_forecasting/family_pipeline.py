@@ -104,6 +104,7 @@ def run_family_heads(
                 seed,
                 route.decision,
                 evidence_valid=True,
+                direction_asset=route.decision.direction_asset if route.decision else None,
             )
             meta.update(head)
         except ValueError:

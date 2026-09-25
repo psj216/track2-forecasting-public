@@ -39,6 +39,7 @@ class RegimeDecision:
     tail_side: str
     horizon: str
     evidence: tuple[str, ...]
+    direction_asset: str | None = None
 
 
 @dataclass(frozen=True)
@@ -110,20 +111,32 @@ def parse_regime_content(content: str) -> Any:
     return json.loads(text, object_pairs_hook=unique_pairs)
 
 
-def validate_regime(raw: Any, document_ids: set[str]) -> RegimeDecision:
-    """Only exact schema and citations to cutoff-eligible supplied documents pass."""
-    keys = {"regime", "direction", "confidence", "tail_side", "horizon", "evidence"}
-    if not isinstance(raw, dict) or set(raw) != keys:
+def validate_regime(
+    raw: Any, document_ids: set[str], assets: list[str] | None = None
+) -> RegimeDecision:
+    """Normalize simple House output; keep unknown fields and ungrounded IDs closed."""
+    required = {"regime", "direction", "confidence", "evidence"}
+    allowed = required | {"tail_side", "direction_asset", "horizon"}
+    if not isinstance(raw, dict) or not required <= set(raw) or not set(raw) <= allowed:
         raise ValueError("schema_keys")
     regime, direction, confidence = raw["regime"], raw["direction"], raw["confidence"]
+    if isinstance(regime, str):
+        regime = regime.strip().lower()
     if not isinstance(regime, str) or regime not in REGIMES:
         raise ValueError("regime")
+    if isinstance(direction, str) and direction.strip() in {"-1", "0", "+1", "1"}:
+        direction = int(direction.strip())
     if (not isinstance(direction, int) or isinstance(direction, bool)) or direction not in {
         -1,
         0,
         1,
     }:
         raise ValueError("direction")
+    if isinstance(confidence, str):
+        try:
+            confidence = float(confidence.strip())
+        except ValueError as exc:
+            raise ValueError("confidence") from exc
     if (
         not isinstance(confidence, int | float)
         or isinstance(confidence, bool)
@@ -131,16 +144,26 @@ def validate_regime(raw: Any, document_ids: set[str]) -> RegimeDecision:
         or not 0 <= confidence <= 1
     ):
         raise ValueError("confidence")
-    if not isinstance(raw["tail_side"], str) or raw["tail_side"] not in {
+    tail_side = raw.get(
+        "tail_side", "upper" if direction == 1 else "lower" if direction == -1 else "none"
+    )
+    if isinstance(tail_side, str):
+        tail_side = tail_side.strip().lower()
+    if not isinstance(tail_side, str) or tail_side not in {
         "lower",
         "upper",
         "both",
         "none",
     }:
         raise ValueError("tail_side")
-    if not isinstance(raw["horizon"], str) or raw["horizon"] not in {"short", "medium", "long"}:
+    horizon = raw.get("horizon", "short")
+    if isinstance(horizon, str):
+        horizon = horizon.strip().lower()
+    if not isinstance(horizon, str) or horizon not in {"short", "medium", "long"}:
         raise ValueError("horizon")
     evidence = raw["evidence"]
+    if isinstance(evidence, str):
+        evidence = [evidence]
     if (
         not isinstance(evidence, list)
         or not 1 <= len(evidence) <= 12
@@ -148,8 +171,15 @@ def validate_regime(raw: Any, document_ids: set[str]) -> RegimeDecision:
         or len(set(evidence)) != len(evidence)
     ):
         raise ValueError("evidence")
+    direction_asset = raw.get("direction_asset")
+    if direction_asset is not None and (
+        not isinstance(direction_asset, str) or not assets or direction_asset not in assets
+    ):
+        raise ValueError("direction_asset")
+    if assets and len(assets) > 1 and direction_asset is None:
+        raise ValueError("direction_asset_required_for_multiple_assets")
     return RegimeDecision(
-        regime, direction, float(confidence), raw["tail_side"], raw["horizon"], tuple(evidence)
+        regime, direction, float(confidence), tail_side, horizon, tuple(evidence), direction_asset
     )
 
 
@@ -286,15 +316,18 @@ def interpret_regime(
     prompt = json.dumps(
         {
             "instruction": (
-                "Return exactly regime,direction,confidence,tail_side,horizon,evidence. "
+                "Return a JSON object with only four required fields: "
+                "regime,direction,confidence,evidence. "
                 "Direction is -1/0/+1 for the listed target in its quoted units, NOT "
                 "a policy rate unless that is the target. For FX use the quoted pair "
-                "direction, never generic USD strength. For multiple targets use 0 "
-                "if direction cannot apply consistently. Confidence is evidence clarity, "
+                "direction, never generic USD strength. For multiple targets also include "
+                "direction_asset equal to ONE listed asset; omit if ambiguous. "
+                "Confidence is evidence clarity, "
                 "not an outcome probability. Use continuation when unsupported. Cite "
-                "only supplied document IDs. Horizon short/medium/long means the shortest/"
-                "middle/longest of the supplied forecast horizons. No other fields or "
-                "numeric forecasts."
+                "only supplied document IDs. Optional tail_side may be lower/upper/both/none; "
+                "otherwise it follows direction. Optional horizon short/medium/long "
+                "means the shortest/middle/longest supplied horizon; default short. "
+                "No other fields or numeric forecasts."
             ),
             "allowed": {
                 "regime": sorted(REGIMES),
@@ -302,6 +335,7 @@ def interpret_regime(
                 "horizon": ["short", "medium", "long"],
                 "confidence": "number 0..1",
                 "evidence": "nonempty list of document IDs",
+                "direction_asset": "required only with multiple target assets; exact asset ID",
             },
             "context": {
                 "family": family,
@@ -319,7 +353,7 @@ def interpret_regime(
     if not reply.parse_succeeded:
         return RegimeResult(None, False, reply.reason or "parse:failed", corpus, reply)
     try:
-        decision = validate_regime(reply.raw, {doc.doc_id for doc in corpus.documents})
+        decision = validate_regime(reply.raw, {doc.doc_id for doc in corpus.documents}, assets)
     except ValueError as exc:
         return RegimeResult(None, False, "validation:" + str(exc), corpus, reply)
     reason = "gate:passed"
