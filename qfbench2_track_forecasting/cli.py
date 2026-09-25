@@ -35,6 +35,7 @@ import numpy as np
 import pandas as pd
 
 from .limits import ParseLimits
+from .numeric_tail import calibrate_single_cell_tails
 from .numeric_v3 import forecast_numeric_v3
 from .scenario_integration import (
     APPROVED_F4_CONFIG,
@@ -51,6 +52,7 @@ from .text_evidence import (
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
 _FORECAST_MODES = {"numeric", "f4-only", "full"}
+_F4_TAIL_FACTOR = 0.85
 
 
 def _forecast_mode() -> str:
@@ -367,6 +369,20 @@ def main(argv: list[str] | None = None) -> int:
         family=family,
     )
 
+    tail_setting = os.environ.get("F4_TAIL_CALIBRATION", "off").strip().lower()
+    if tail_setting not in {"1", "true", "on", "0", "false", "off"}:
+        raise SystemExit("F4_TAIL_CALIBRATION must be one of on/off, true/false, or 1/0")
+    tail_enabled = tail_setting in {"1", "true", "on"}
+    tail_applied = bool(
+        tail_enabled and family == "T2-F4" and len(assets) == 1 and len(horizons) == 1
+    )
+    if tail_applied:
+        samples = calibrate_single_cell_tails(
+            samples,
+            lower=_F4_TAIL_FACTOR,
+            upper=_F4_TAIL_FACTOR,
+        )
+
     panel_context = {
         "value_unit": str(tgt.get("value_unit", "unspecified")),
         "panels": {
@@ -463,6 +479,14 @@ def main(argv: list[str] | None = None) -> int:
                 "n_draws": n_draws,
                 "target": target_type,
                 "forecast_mode": forecast_mode,
+                "numeric_tail_calibration": {
+                    "enabled": tail_enabled,
+                    "applied": tail_applied,
+                    "family": family,
+                    "lower_factor": _F4_TAIL_FACTOR if tail_applied else 1.0,
+                    "upper_factor": _F4_TAIL_FACTOR if tail_applied else 1.0,
+                    "scope": "T2-F4 single-cell only",
+                },
                 "reasoning_applied": reasoning.applied,
                 "reasoning_skipped_reason": reasoning.skipped_reason,
                 "forecast_adjustment_applied": integration.metadata["applied"],
@@ -502,6 +526,10 @@ def main(argv: list[str] | None = None) -> int:
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
     print(f"  {len(assets)} asset(s) x {len(horizons)} horizon(s), {n_draws} draws")
     print(f"  forecast mode: {forecast_mode}")
+    print(
+        "  F4 numeric tail calibration: "
+        f"enabled={tail_enabled}, applied={tail_applied}"
+    )
     print(
         f"  text evidence: applied={reasoning.applied}, "
         f"documents={len(reasoning.corpus.documents)}"
