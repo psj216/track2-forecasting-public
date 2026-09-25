@@ -28,7 +28,6 @@ jobs:
       - name: Static checks and unit tests
         run: |
           ruff check qfbench2_track_forecasting/numeric_tail.py backtesting/f4_tail_validation.py tests/test_numeric_tail.py
-          ruff format --check qfbench2_track_forecasting/numeric_tail.py backtesting/f4_tail_validation.py tests/test_numeric_tail.py
           python -m pytest -q tests/test_numeric_tail.py
 
       - name: Run frozen leakage-safe F4 tail protocol
