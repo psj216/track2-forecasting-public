@@ -1,0 +1,60 @@
+# ## Executive summary (read this first)
+# Run V6-F2 code and cutoff checks as research. Do not publish an image or
+# consume an official submission while actual-asof event analog coverage is zero.
+name: V6 F2 Research Gate
+
+on:
+  push:
+    branches: ["track2/v6-f2-event-analog"]
+  pull_request:
+    branches: ["track2/text-first-v5.1-candidate"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install pinned toolkit and runtime
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'ruff==0.4.7' pytest
+          pip install --no-deps -e .
+      - name: Test without publishing a submission image
+        run: |
+          ruff check qfbench2_track_forecasting tests
+          ruff format --check qfbench2_track_forecasting tests
+          python -m pytest -q
+          python .github/validate_units.py forecasting --stdlib-only
+      - name: Audit real F2 routing coverage
+        run: |
+          python - <<'PY'
+          import pathlib, tomllib, numpy as np
+          from qfbench2_track_forecasting.cli import _read_panels, _series
+          from qfbench2_track_forecasting.event_analog_v6 import apply_event_analog_f2
+          activated = 0
+          for card_path in sorted(pathlib.Path('units').glob('t2-F2-*/card.toml')):
+              card = tomllib.loads(card_path.read_text())
+              target = card['targets']
+              assets, horizons = target['asset_ids'], target['horizons']
+              asof = card['provenance']['data_cutoff']
+              panels = _read_panels(card_path.parent)
+              histories = {asset: _series(panels, asset, asof) for asset in assets}
+              draws = np.zeros((500, len(assets), len(horizons)))
+              result, meta = apply_event_analog_f2(
+                  draws, histories, assets, horizons, target['target_type'],
+                  target['target_frequency'], 'T2-F2', asof, 17,
+                  card_path.parent / 'text',
+              )
+              activated += bool(meta['applied'])
+              if not meta['applied']:
+                  assert result is draws
+          print(f'F2 event analogs active: {activated}/27')
+          assert activated == 0, 'Review real evidence and holdout scores before activation'
+          PY
