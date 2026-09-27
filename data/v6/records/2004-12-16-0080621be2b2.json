@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20041110",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.7333333333333334
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20041110.htm"
+    ],
+    "evidence": "Inflation measures continued at low levels through September.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "accommodation",
+      "also",
+      "bearing",
+      "believes",
+      "committee",
+      "continue",
+      "continued",
+      "could",
+      "excerpt",
+      "expectation",
+      "expected",
+      "inflation",
+      "levels",
+      "likely",
+      "measured",
+      "measures",
+      "noted",
+      "pace",
+      "policy",
+      "rate",
+      "relatively",
+      "removed",
+      "risk",
+      "september",
+      "stated",
+      "that",
+      "through",
+      "underlying",
+      "with",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2004-12-16",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "0080621be2b2128a763eaafbf30eaf032998618a16861125d464824c03ab8a45",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20041110.htm",
+  "text": "Minutes of the Federal Open Market Committee November 10, 2004 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Wednesday, November 10, 2004, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kohn Ms. Minehan Mr. Olson Ms. Pianalto Mr. Poole Messrs. Moskow, Santomero, and Stern, \r\nAlternate Members of the Federal Open Market Committee Messrs. Guynn, Lacker, and Ms. Yellen, Presidents of the Federal Reserve Banks \r\nof Atlanta, Richmond, and San Francisco respectively Mr. Reinhart, Secretary and Economist Ms. Danker, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Alvarez, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Fuhrer, Hakkio, Howard, Madigan, Slifman, Sniderman, Rasche, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Oliner and Struckmeyer, Associate Directors, Division of Research and Statistics, Board of Governors Messrs. Clouse and Whitesell, Deputy Associate Directors, Division\r\n          of Monetary Affairs, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, \r\n\tBoard of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, \r\n\tBoard of Governors Mr. Brady, Section Chief, Division of Monetary Affairs, Board of Governors Mr. Small, Project Manager, Division of Monetary Affairs, Board of \r\n\t     Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, \r\n        Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary     \r\n        Affairs, Board of Governors Ms. Holcomb and Mr. Rasdall, First Vice Presidents, Federal Reserve Banks of Dallas and Kansas City respectively Messrs. Eisenbeis, Estrella, Evans, and Goodfriend, Ms. Mester, Messrs. Rosenblum and Williams, Senior Vice Presidents, Federal Reserve Banks of Atlanta, New York, Chicago, Richmond, Philadelphia, Dallas, and San Francisco respectively Mr. Hilton, Vice President, Federal Reserve Bank of New York Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on September 21, 2004, were approved. By unanimous vote, the Federal Open Market Committee approved the selection of Deborah J. Danker as Deputy Secretary of the Committee to serve until the selection of a successor at the first regularly scheduled meeting after December 31, 2004. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System�s account in the period since the previous meeting. The Manager reported on recent developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period September 21, 2004, through November 9, 2004.  By unanimous vote, the Committee ratified these transactions. The Manager also discussed the pressures on the federal funds rate prior to, and volatility in the rate that has ensued at times after, recent FOMC meetings as depository institutions sought to satisfy a larger portion of their reserve requirements before anticipa\n...[document excerpted]...\nhigher oil prices.  However, industrial production was flat in recent months, and hiring activity was lackluster through September before advancing sharply in October.  Inflation measures continued at low levels through September. Employment gains were subdued in the third quarter, but showed substantial strength in October.  Job growth last month was fairly widespread, although heavy hiring in the construction sector was due partly to efforts to repair damage from the four hurricanes that hit\n...[risk-bearing excerpt]...\ning to slow sharply early next year as partial-expensing provisions expired, but then to pick up noticeably in response to favorable financing conditions, ample business liquidity, and the need to replace or upgrade aging equipment and software. In the Committee�s discussion of current and prospective developments, the members generally expressed assessments that economic expansion in the neighborhood of the rate of growth of the economy�s potential appeared to have become even more firmly estab\n...[risk-bearing excerpt]...\nnt.  In its public statement, the Committee expressed a belief that monetary policy remained accommodative even after this tightening, and judged the upside and downside risks to the attainment of both sustainable growth and price stability over the next few quarters to be roughly equal.  The Committee noted its expectation that the underlying rate of inflation would continue to be low and that policy accommodation could be removed at a pace that is likely to be measured, but also stated that it\n...[risk-bearing excerpt]...\nwhile fiscal stimulus would abate next year, a flattening out of energy prices, as markets seemed to anticipate, would bolster economic expansion.  However, significant uncertainties surrounded the prospects for energy prices and fiscal policy, as well as the external sector.  The Committee anticipated that underlying inflation pressures would remain contained as monetary accommodation was withdrawn.  Core consumer price inflati\n...[document conclusion]...\n for the next few quarters to be\r\nroughly equal.  With underlying inflation expected to be relatively low, the\r\nCommittee believes that policy accommodation can be removed at a pace that is\r\nlikely to be measured.  Nonetheless, the Committee will respond to changes in \r\neconomic prospects as needed to fulfill its obligation to maintain price stability.\" Votes for this action: Messrs. Greenspan, Geithner, Bernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Hoenig, Kohn, Ms. Minehan, Mr. Olson, Ms. Pianalto, and Mr. Poole. Vote against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, \r\nDecember 14, 2004. The meeting adjourned at 1:15 p.m. Notation Vote By notation vote completed on December 10, 2004, the Committee authorized \r\nMr. Santomero, an alternate member of the Committee, to accept the honor of the title of \"Cavaliere\" to be awarded by the government of Italy. Votes for this action: Messrs. Greenspan, Geithner, Bernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Hoenig, Kohn, Ms. Minehan, Mr. Olson, Ms. Pianalto, and Mr. Poole. Vote against this action: None. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: December 17, 2004, 2:00 PM",
+  "text_sha256": "dfdcf899b181a7b8c38f024712a32f365834772207cb457f3d2f34fbcdf7793c"
+}

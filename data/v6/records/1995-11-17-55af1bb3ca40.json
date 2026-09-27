@@ -1,0 +1,53 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19950926",
+  "fingerprint": {
+    "axes": {
+      "guidance": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1995/19950926min.htm"
+    ],
+    "evidence": "In the staff's judgment, the prospects for some further easing of pressures on labor and other resources suggested that price inflation likely would not deviate significantly from recent trends.",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "deviate",
+      "easing",
+      "from",
+      "further",
+      "inflation",
+      "judgment",
+      "labor",
+      "likely",
+      "other",
+      "pressures",
+      "price",
+      "prospects",
+      "recent",
+      "resources",
+      "significantly",
+      "some",
+      "staff",
+      "suggested",
+      "that",
+      "trends",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1995-11-17",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "55af1bb3ca4065ee427366272cc902b5f5b73b2e923118c3a57e395db975d6c7",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1995/19950926min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of September 26, 1995 A meeting of the Federal Open Market Committee was held in  \r\n    the offices of the Board of Governors of the Federal Reserve System in \r\n    Washington, D.C.,  on  Tuesday, September 26, 1995,  at  9:00 a.m. PRESENT: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Hoenig Mr. Kelley Mr. Lindsey Mr. Melzer Ms. Minehan Mr. Moskow Ms. Phillips Ms. Yellen Messrs. Boehne, Jordan, McTeer, and Stern, Alternate Members of the Federal Open Market Committee Messrs. Broaddus, Forrestal, and Parry, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Davis, Dewald, Hunter, Lindsey, Mishkin, Slifman, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board Members, Board of Governors Mr. Ettin. Deputy Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Mr. Simpson, Associate Director, Division of Research and Statistics, Board of Governors Mr. Hooper and Ms. Johnson, Assistant Directors, Division of International Finance, Board of Governors Mr. Ramm, 1 Section Chief, Division of Research and Statistics, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Ms. Pianalto, First Vice President, Federal Reserve Bank of Cleveland Messrs. Lang, Rolnick, Sniderman, and Ms. Tschinkel, Senior Vice Presidents, Federal Reserve Banks of Philadelphia, Minneapolis, Cleveland, and Atlanta respectively Messrs. Cox, Hetzel, Judd, and McNees, Vice Presidents, Federal Reserve Banks of Dallas, Richmond, San Francisco, and Boston respectively Ms. Meulendyke, Adviser, Federal Reserve Bank of New York 1. Attended portion of meeting relating to the Committee's economic \r\n  discussion. By unanimous vote, the minutes of the meeting of the Federal \r\n    Open Market Committee held on August 22, 1995, were approved. The Manager of the System Open Market Account reported on \r\n    developments in foreign exchange markets since the August meeting. \r\n    There were no transactions in these markets for the System Account \r\n    during this period, and thus no vote was required of the Committee. The Manager also reported on developments in domestic \r\n    financial markets and on System open market transactions in government \r\n    securities and federal agency obligations during the period August 22, \r\n    1995, through September 25, 1995. By unanimous vote, the Committee \r\n    ratified these transactions. The Committee then turned to a discussion of the economic and \r\n    financial outlook and the implementation of monetary policy over the \r\n    intermeeting period ahead. A summary of the economic and financial \r\n    information available at the time of the meeting and of the \r\n    Committee's discussion is provided below, followed by the domestic \r\n    policy directive that was approved by the Committee and issued to the \r\n    Federal Reserve Bank of New York. The information reviewed at this meeting suggested that \r\n    economic activity was expanding at a moderate rate in the current \r\n    quarter. Consumer spending appeared to be advancing somewhat further \r\n    after a sizable gain in the second quarter; housing demand had \r\n    strengthened in respons\n...[document excerpted]...\nal restraint into its forecast. In the staff's judgment, the \r\n    prospects for some further easing of pressures on labor and other \r\n    resources suggested that price inflation likely would not deviate \r\n    significantly from recent trends. In the Committee's discussion of current and prospective \r\n    economic developments, members commented that the information \r\n    available since the August meeting had tended to confirm earlier \r\n    indications of a pickup in the expansion after a peri\n...[risk-bearing excerpt]...\nd \r\n    business investment remained on a solid uptrend. Although business \r\n    efforts to pare inventories apparently were still in progress, both \r\n    production and employment were advancing moderately. After having \r\n    increased at elevated rates in the early part of the year, consumer \r\n    and producer prices had risen more slowly in recent months. Private nonfarm payroll employment increased considerably in \r\n    August after changing little in July. Much of the rise reflected a\n...[risk-bearing excerpt]...\neconomic activity suggested that expansion was \r\n    continuing in most of the major foreign industrial countries in the \r\n    third quarter and that the average rate of growth remained near the \r\n    subdued pace of the first half of the year. As in other recent months, consumer prices rose more slowly \r\n    in August than in the early months of the year. Sizable declines in \r\n    energy prices were a contributing factor, but price increases also had \r\n    moderated for nonfood, non-energy item\n...[risk-bearing excerpt]...\nlding activity was unchanged. Business inventory accumulation slowed in June and July from \r\n    a very rapid rate earlier in the year: stockpiling continued at a \r\n    brisk pace in manufacturing and wholesale trade, but retail stocks \r\n    were drawn down. In manufacturing, stocks increased in July at about \r\n    the average rate seen in the second quarter; however, the stocks-to-shipments ratio rose somewhat, reflecting in part a\n...[document conclusion]...\nnt \r\n    issues. The members had not had time to review the bill in detail or \r\n    to consider fully all its implications. Nonetheless, their initial \r\n    reaction was favorable in regard to the overall thrust of the bill's \r\n    monetary policy provisions. These would make clear that price \r\n    stability was the primary long-run objective of monetary policy and \r\n    would restructure the monetary policy reporting requirements to permit \r\n    the Congress to carry out its oversight responsibilities more \r\n    effectively. Many members felt that in the context of seeking and \r\n    maintaining price stability, monetary policy should have the \r\n    flexibility to react to short-run fluctuations in output and \r\n    employment, and they believed the bill would be improved if its intent \r\n    in this regard were clarified. A few members expressed strong \r\n    reservations about the part of the bill that would delete the \r\n    employment objectives set forth in the Employment Act of 1946. It was agreed that the next meeting of the Committee would be \r\n    held on Wednesday. November 15, 1995. The meeting adjourned at 1:20 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "d7ef8eea84d51c6b5bc7c781af9e3ef70cb7442eebc399bf472160a41c2b42c1"
+}

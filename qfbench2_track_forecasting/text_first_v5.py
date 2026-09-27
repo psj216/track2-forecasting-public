@@ -167,7 +167,7 @@ def _event(text_dir: Path, asof: str) -> tuple[Event | None, dict[str, Any]]:
     scores: dict[str, float] = {}
     for score, kind, _, _ in candidates:
         scores[kind] = scores.get(kind, 0.0) + score
-    leader = max(scores, key=scores.get)
+    leader = max(scores, key=lambda key: scores[key])
     opposite = _OPPOSITE.get(leader) or next((k for k, v in _OPPOSITE.items() if v == leader), None)
     if opposite and scores.get(opposite, 0) >= scores[leader] * 0.55:
         return None, {"reason": "contradictory_event", "top_event": leader}

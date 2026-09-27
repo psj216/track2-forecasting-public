@@ -1,0 +1,54 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19980203",
+  "fingerprint": {
+    "axes": {
+      "policy": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {},
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19980203.htm"
+    ],
+    "evidence": "In the context of the Committee's long-run objectives for price stability and sustainable economic growth, and giving careful consideration to economic, financial, and monetary developments, a slightly higher federal funds rate or a slightly lower federal funds rate might be acceptable in the interm",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "acceptable",
+      "careful",
+      "committee",
+      "consideration",
+      "context",
+      "developments",
+      "economic",
+      "federal",
+      "financial",
+      "funds",
+      "giving",
+      "growth",
+      "higher",
+      "interm",
+      "long",
+      "lower",
+      "might",
+      "monetary",
+      "objectives",
+      "price",
+      "rate",
+      "slightly",
+      "stability",
+      "sustainable"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-04-02",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "e50dae01289f8bfe6f338ec9fce45cfcbc7653bbdcbfc771f9b9675d7d82446d",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19980203.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of February 3-4, 1998 A meeting of the Federal Open Market Committee was held in\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\nWashington, D.C., on Tuesday, February 3, 1998 at 2:30 p.m. and\r\ncontinued on Wednesday, February 4, 1998 at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Jordan Mr. Kelley Mr. Meyer Ms. Minehan Ms. Phillips Ms. Rivlin Messrs. Boehne, McTeer, Moskow, and Stern,\r\n                       Alternate Members of the Federal Open Market\r\n                       Committee Messrs. Broaddus, Guynn, and Parry, Presidents of\r\n                       the Federal Reserve Banks of Richmond, Atlanta,\r\n                       and San Francisco, respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Ms. Browne, Messrs. Cecchetti, Dewald, Hakkio,\r\n                       Lindsey, Promisel, Simpson, Sniderman, and\r\n                       Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research\r\n                       and Statistics, Board of Governors Mr. Slifman, Associate Director, Division of\r\n                       Research and Statistics, Board of Governors Messrs. Alexander, Hooper, and Ms. Johnson,\r\n                       Associate Directors, Division of International\r\n                       Finance, Board of Governors Messrs. Brayton 1 and Rosine, 1 Senior\r\n                       Economists, Division of Research and\r\n                       Statistics, Board of Governors Ms. Garrett and Mr. Nelson, 1 Economists, Division\r\n                       of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Mr. Rives, First Vice President, Federal Reserve\r\n                       Bank of St. Louis Messrs. Beebe, Eisenbeis, Hunter, Ms. Krieger,\r\n                       Messrs. Lang, Rolnick, and Rosenblum, Senior\r\n                       Vice Presidents, Federal Reserve Banks of San\r\n                       Francisco, Atlanta, Chicago, New York,\r\n                       Philadelphia, Minneapolis, and Dallas\r\n                       respectively Mr. Hetzel, Vice President, Federal Reserve Bank of\r\n                       Richmond In the agenda for this meeting, it was reported that advices\r\nof the election of the following members and alternate members of the\r\nFederal Open Market Committee for the period commencing January 1,\r\n1998, and ending December 31, 1998, had been received and that these\r\nindividuals had executed their oaths of office. The elected members and alternate members were as follows: William J. McDonough, President of the Federal Reserve Bank of New\r\n    York, with Ernest T. Patrikis, First Vice President of the Federal\r\n    Reserve Bank of New York, as alternate; Cathy E. Minehan, President of the Federal Reserve Bank of Boston,\r\n\twith Edward G. Boehne, President of the Federal Reserve Bank of\r\n\tPhiladelphia, as alternate; Jerry L. Jordan, President of the Federal Reserve Bank of Cleveland,\r\n    with Michael H. Moskow, President of the Federal Reserve Bank of\r\n    Chicago, as alternate; Robert D. McTeer, Jr., President of the Federal Reserve Bank of\r\n    Dallas, as voting alternate pending the election of a President\r\n    of the Federal Re\n...[document excerpted]...\ngoods and services appeared to have narrowed.  Tighter labor markets\r\nbrought some acceleration in wages, but falling import and energy\r\nprices helped to hold down price inflation over the closing months of\r\nthe year. Labor demand expanded rapidly in the fourth quarter; a sharp\r\nincrease in nonfarm payroll employment in December followed large\r\nadvances in October and November, and the average workweek edged up on\r\nbalance over the three-month period.  Job gains were widely spread\r\nacross indust\n...[risk-bearing excerpt]...\n1998.  By unanimous vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and\r\nfinancial outlook, the ranges for the growth of money and debt in\r\n1998, and the implementation of monetary policy over the intermeeting\r\nperiod ahead.  A summary of the economic and financial information\r\navailable at the time of the meeting and of the Committee's discussion\r\nis provided below, followed by the domestic policy directive that was\r\napproved by the Com\n...[risk-bearing excerpt]...\nunder Section 214.5 of\r\nRegulation N shall be referred for review and approval to the\r\nCommittee. 5. Foreign currency holdings shall be invested to ensure that\r\nadequate liquidity is maintained to meet anticipated needs and so that\r\neach currency portfolio shall generally have an average duration of no\r\nmore than 18 months (calculated as Macaulay duration).  When\r\nappropriate in connection with arrangements to provide investment\r\nfacilities for foreign currency holdings, U.S. Government securiti\n...[risk-bearing excerpt]...\nting the greater use by business firms of institution-only money\r\nmarket funds as a cash management tool and the needs of depository\r\ninstitutions for appreciable non-M2 funding to finance brisk loan\r\ngrowth.  The staff projected that the debt of the domestic\r\nnonfinancial sectors would grow around or perhaps slightly above the middle of\r\nits tentative range, reflecting the credit needs of businesses facing\r\na weaker earnings \n...[document conclusion]...\neserve markets\r\n    consistent with maintaining the federal funds rate at an\r\n    average of around 5-1/2 percent.  In the context of the\r\n    Committee's long-run objectives for price stability and\r\n    sustainable economic growth, and giving careful consideration\r\n\tto economic, financial, and monetary developments,\r\n    a slightly higher federal funds rate or a slightly lower\r\n    federal funds rate might be acceptable in the intermeeting\r\n\tperiod.  The contemplated reserve conditions are\r\n    expected to be consistent with some moderation in the\r\n    growth in M2 and M3 over coming months. Votes for this action: Messrs. Greenspan,\r\n         McDonough, Ferguson, Gramlich, Hoenig, Jordan,\r\n         Kelley, Meyer, McTeer, Mses. Minehan, Phillips\r\n    \tand Rivlin. Votes against this action: None It was agreed that the next meeting of the Committee would be\r\nheld on Tuesday, March 31, 1998. The meeting adjourned at 10:50 a.m. Donald L. Kohn Secretary Return to top Footnotes 1 Attended portions of meeting relating to the Committee's review of\r\nthe economic outlook and establishment of its monetary and debt ranges\r\nfor 1998. Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: April 2, 1998, 2:00 PM",
+  "text_sha256": "7879eda2547280a78cfb3f0242f2574c2a4dc00242c78dcd8d5d9e50c701ca72"
+}

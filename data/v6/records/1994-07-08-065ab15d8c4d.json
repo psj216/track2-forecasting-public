@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19940517",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {},
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1994/19940517min.htm"
+    ],
+    "evidence": "Favorable business expectations and buoyant consumer sentiment in the context of stronger gains in employment appeared to have sustained strong growth in domestic final demand.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "appeared",
+      "buoyant",
+      "business",
+      "consumer",
+      "context",
+      "demand",
+      "domestic",
+      "employment",
+      "expectations",
+      "favorable",
+      "final",
+      "gains",
+      "growth",
+      "have",
+      "sentiment",
+      "strong",
+      "stronger",
+      "sustained"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1994-07-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "065ab15d8c4db53e13d88a7c193912a3da89d19a17b4ab52b4facaefc17cbe49",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1994/19940517min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of \r\n    May 17, 1994 A meeting of the Federal Open Market Committee was held in \r\n  the offices of the Board of Governors of the Federal Reserve System in \r\n  Washington, D.C., on Tuesday, May 17, 1994, at 9:00 a.m. PRESENT : Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Broaddus Mr. Forrestal Mr. Jordan Mr. Kelley Mr. LaWare Mr. Lindsey Mr. Parry Ms. Phillips Messrs. Hoenig, Keehn, and Melzer, Alternate Members of the Federal Open Market Committee Messrs. Boehne, McTeer, and Stern, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis respectively Ms. Minehan, First Vice President, Federal Reserve Bank of Boston Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Patrikis, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Goodfriend, Lindsey, Promisel, Simpson, Stockton, and Ms. Tschinkel, Associate Economists Ms. Lovett, Manager for Domestic Operations, System Open Market Account Mr. Fisher, Manager for Foreign Operations, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Slifman, Associate Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Ms. Johnson, Assistant Director, Division of International Finance Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Mr. Bennett, Ms. Browne, Messrs. Davis, Lang, Rolnick, Rosenblum, and Scheld, Senior Vice Presidents, Federal Reserve Banks of New York, Boston, Kansas City, Philadelphia, Minneapolis, Dallas, and Chicago respectively Mr. Judd and Ms. White, Vice Presidents, Federal Reserve Banks of San Francisco and New York respectively Messrs. Altig and Coughlin, Assistant Vice Presidents, Federal Reserve Banks of Cleveland and St. Louis respectively By unanimous vote, the minutes of the meeting of the Federal \r\n  Open Market Committee held on March 22, 1994, were approved. The Manager for Foreign Operations reported on developments \r\n  in foreign exchange markets and on System open market transactions in \r\n  foreign currencies during the period March 22, 1994, through May 16, \r\n  1994. By unanimous vote, the Committee ratified these transactions. The Manager for Domestic Operations reported on developments \r\n  in domestic financial markets and on System open market transactions \r\n  in government securities and federal agency obligations during the \r\n  period March 22, 1994, through May 16, 1994. By unanimous vote, the \r\n  Committee ratified these transactions. The Committee then turned to a discussion of the economic and \r\n  financial outlook and the implementation of monetary policy over the \r\n  intermeeting period ahead. A summary of the economic and financial \r\n  information available at the time of the meeting and of the \r\n  Committee's discussion is provided below, followed by the domestic \r\n  policy directive that was approved by the Committee and issued to the \r\n  Federal Reserve Bank of New York. The information reviewed at this meeting suggested that \r\n  economic activity had expanded substantially on balance thus far in \r\n  1994. Favorable business expectations and buoyant consumer sentiment \r\n  in the context of stronger gains in employment appeared to have \r\n  sustained strong growth in domestic final demand. Broad measures of \r\n  inflation had remained subdued and labor cost increases had been \r\n  \n...[document excerpted]...\niminish somewhat. In light of limited margins of \r\n  slack in labor and product markets over the forecast horizon, little \r\n  or no further reduction in the core rate of inflation was anticipated. In the Committee's discussion of current and prospective \r\n  developments, members commented on widespread indications, both \r\n  statistical and anecdotal, of considerable momentum in the economic \r\n  expansion. Business activity seemed to be rebounding smartly from the \r\n  disruptive effects of unusua\n...[risk-bearing excerpt]...\nmoderate, though prices of industrial materials had continued to rise. Nonfarm payroll employment increased sharply in March and \r\n  April, in part reflecting a rebound in industries affected by earlier \r\n  severe winter weather; for the first four months of the year, the \r\n  average monthly rise exceeded the improved pace of the fourth quarter. \r\n  Further large advances in employment in the March-April period we\n...[risk-bearing excerpt]...\nmployment cost index for private industry workers rose more \r\n  slowly in the first quarter of 1994 than in any quarter of 1993. The \r\n  slowdown reflected more moderate growth in both wages and salaries and \r\n  benefit costs. Hourly compensation increased at a slightly slower \r\n  pace over the twelve months ending in March 1994 than over the \r\n  previous year. In April, average hourly earnings of production or \r\n  nonsupervisory workers on nonfarm payrolls increased moderately after \r\n  having\n...[risk-bearing excerpt]...\nthe most likely prospect, but the overall momentum of the \r\n  expansion and the still accommodative stance of monetary policy \r\n  suggested that there was an appreciable risk of faster growth for a \r\n  period, with consequent implications for greater pressures on \r\n  resources. At the same time, the members saw relatively few signs of \r\n  the kinds of imbalances that would pose a significant downside \r\n  potential for the economy, although some cautioned that the rise in \r\n  long-term interest r\r\n  the persis\n...[document conclusion]...\nbility, movements in \r\n    their velocities, and developments in the economy and \r\n    financial markets. In the implementation of policy for the immediate \r\n    future, the Committee seeks to increase somewhat the \r\n    existing degree of pressure on reserve positions, \r\n    taking account of a possible increase in the discount \r\n    rate. In the context of the Committee's long-run \r\n    objectives for price stability and sustainable economic \r\n    growth, and giving careful consideration to economic, \r\n    financial, and monetary developments, slightly greater \r\n    reserve restraint or slightly lesser reserve restraint \r\n    might be acceptable in the intermeeting period. The \r\n    contemplated reserve conditions are expected to be \r\n    consistent with modest growth in M2 and M3 over coming \r\n    months. Votes for this action: Messrs. Greenspan, \r\n    McDonough, Broaddus, Forrestal, Jordan, Kelley, \r\n    LaWare, Lindsey, Parry, and Ms. Phillips. Votes against this action: None. It was agreed that the next meeting of the Committee would be \r\n  held on Tuesday-Wednesday, July 5-6, 1994. The meeting adjourned at 12:45 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "7d5cdb870eb737b1d2c7375ff197e5b7154ccce6e9d68d6fdf96901169a386a5"
+}

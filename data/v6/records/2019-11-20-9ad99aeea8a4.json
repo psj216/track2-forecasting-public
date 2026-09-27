@@ -1,0 +1,61 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20191030",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6,
+      "inflation": -0.6
+    },
+    "confidence": 0.65,
+    "currentness": "FORWARD",
+    "delta": {
+      "inflation": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20191030.htm"
+    ],
+    "evidence": "rcent objective for several years, some participants raised the concern that the scope to reduce the federal funds rate to provide support to economic activity in future recessions could be reduced further if inflation shortfalls continued and led to a decline in inflation expectations.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "concern",
+      "continued",
+      "could",
+      "decline",
+      "economic",
+      "expectations",
+      "federal",
+      "funds",
+      "further",
+      "future",
+      "inflation",
+      "objective",
+      "participants",
+      "provide",
+      "raised",
+      "rate",
+      "rcent",
+      "recessions",
+      "reduce",
+      "reduced",
+      "scope",
+      "several",
+      "shortfalls",
+      "some",
+      "support",
+      "that",
+      "years"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2019.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2019-11-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "9ad99aeea8a4e86ef109ffb3c8aebdefa5f841324ed0159b439ab40d145aeac2",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20191030.htm",
+  "text": "Minutes of the Federal Open Market Committee October 29-30, 2019 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, October 29, 2019, at 9:00 a.m. and continued on Wednesday, October 30, 2019, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chair John C. Williams, Vice Chair Michelle W. Bowman Lael Brainard James Bullard Richard H. Clarida Charles L. Evans Esther L. George Randal K. Quarles Eric Rosengren Patrick Harker, Robert S. Kaplan, Neel Kashkari, Loretta J. Mester, and Michael Strine, Alternate Members of the Federal Open Market Committee Thomas I. Barkin, Raphael W. Bostic, and Mary C. Daly, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist Stacey Tevlin, Economist Rochelle M. Edge, Eric M. Engen, Anna Paulson, Christopher J. Waller, William Wascher, and Beth Anne Wilson, Associate Economists Lorie K. Logan, Manager pro tem, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Eric Belsky, 2 Director, Division of Consumer and Community Affairs, Board of Governors; Matthew J. Eichner, 3 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Jennifer J. Burns, Deputy Director, Division of Supervision and Regulation, Board of Governors; Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Trevor A. Reeve, Deputy Director, Division of Monetary Affairs, Board of Governors Jon Faust, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors Joshua Gallin, Special Adviser to the Chair, Office of Board Members, Board of Governors Brian M. Doyle, Wendy E. Dunn, Joseph W. Gruber, Ellen E. Meade, and Ivan Vidangos, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Shaghil Ahmed, Senior Associate Director, Division of International Finance, Board of Governors; David E. Lebow, Senior Associate Director, Division of Research and Statistics, Board of Governors Antulio N. Bomfim, Senior Adviser, Division of Monetary Affairs, Board of Governors Michael Hsu, 4 Associate Director, Division of Supervision and Regulation, Board of Governors; David López-Salido and Min Wei, Associate Directors, Division of Monetary Affairs, Board of Governors Glenn Follette, Deputy Associate Director, Division of Research and Statistics, Board of Governors; Christopher J. Gust, Deputy Associate Director, Division of Monetary Affairs, Board of Governors; Jeffrey D. Walker, 3 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Paul R. Wood, 2 Deputy Associate Director, Division of International Finance, Board of Governors Eric C. Engstrom, Senior Adviser, Division of Research and Statistics, and Deputy Associate Director, Division of Monetary Affairs, Board of Governors Stephanie E. Curcuru, Assistant Director, Division of International Finance, Board of Governors; Giovanni Favara, Laura Lipscomb, 4 Zeynep\n...[document excerpted]...\npractices. Staff briefings provided an assessment of a range of monetary policy tools that the Committee could employ to provide additional economic stimulus and bolster inflation outcomes, particularly in future episodes in which the policy rate would be constrained by the effective lower bound (ELB). The staff first discussed policy rate tools, focusing on three forms of forward guidance—qualitative, which provides a nonspecific indication of the expected duration of accommodation; date-based,\n...[risk-bearing excerpt]...\nconsumption expenditures (PCE), remained below 2 percent in August. Survey-based measures of longer-run inflation expectations were little changed. Total nonfarm payroll employment expanded at a slower pace in September than in the previous two months, but the average pace for the third quarter was similar to that for the first half of the year. However, the pace of job gains so far this year was slower than last year, even after accounting for the anticipated effects of the Bureau of Labor Stat\n...[risk-bearing excerpt]...\nlow unemployment rate, further gains in real disposable income, high levels of households' net worth, and generally low borrowing rates—were supportive of solid real PCE growth in the near term. The Michigan survey measure of consumer sentiment rose again in October and had mostly recovered from its August slump, while the Conference Board survey measure of consumer confidence remained at a favorable level. Real residential investment turned up solidly in the third quarter following six consecut\n...[risk-bearing excerpt]...\nrcent objective for several years, some participants raised the concern that the scope to reduce the federal funds rate to provide support to economic activity in future recessions could be reduced further if inflation shortfalls continued and led to a decline in inflation expectations. Therefore, participants generally agreed it was important for the Committee to keep a wide range of tools available and employ them as appropr\n...[document conclusion]...\n as necessary to facilitate settlement of the Federal Reserve's agency mortgage-backed securities transactions.\" _______________________ James A. Clouse Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes. Return to text 2. Attended the discussion of the review of monetary policy strategy, tools, and communication practices. Return to text 3. Attended through the discussion of the review of options for repo operations to support control of the federal funds rate. Return to text 4. Attended the discussion of developments in financial markets and open market operations through the discussion of the review of options for repo operations to support control of the federal funds rate. Return to text 5. Attended through the discussion of developments in financial markets and open market operations. Return to text 6. Attended the discussion of economic developments and the outlook. Return to text 7. Attended the discussion of developments in financial markets and open market operations through the end of the meeting. Return to text 8. The staff briefed the Committee in June 2019 on the possible role of a standing repo facility in the monetary policy implementation framework. Return to text",
+  "text_sha256": "733787b459e114397e6be63770d8fb1b00b59174e4d3804d5bc9c1fb5e35072f"
+}

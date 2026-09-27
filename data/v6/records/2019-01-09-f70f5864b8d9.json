@@ -1,0 +1,65 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20181219",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0,
+      "policy": -0.6
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "policy": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm"
+    ],
+    "evidence": "Total nonfarm payroll employment expanded further in November, and job gains were strong, on average, over recent months.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "adjust",
+      "allow",
+      "approaches",
+      "average",
+      "banks",
+      "control",
+      "could",
+      "effective",
+      "employment",
+      "expanded",
+      "further",
+      "gains",
+      "interest",
+      "levels",
+      "lower",
+      "maintaining",
+      "markets",
+      "months",
+      "more",
+      "nonfarm",
+      "november",
+      "over",
+      "payroll",
+      "rates",
+      "recent",
+      "reserve",
+      "strong",
+      "these",
+      "time",
+      "total",
+      "were",
+      "while"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2018.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2019-01-09",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f70f5864b8d998ea3ecd7c09c767e1323b83fdfdc6962549942883aeb4f8c124",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20181219.htm",
+  "text": "Minutes of the Federal Open Market Committee December 18-19, 2018 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, December 18, 2018, at 1:00 p.m. and continued on Wednesday, December 19, 2018, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chairman John C. Williams, Vice Chairman Thomas I. Barkin Raphael W. Bostic Michelle W. Bowman Lael Brainard Richard H. Clarida Mary C. Daly Loretta J. Mester Randal K. Quarles James Bullard, Charles L. Evans, Esther L. George, Eric Rosengren, and Michael Strine, Alternate Members of the Federal Open Market Committee Patrick Harker, Robert S. Kaplan, and Neel Kashkari, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist David Altig, Kartik B. Athreya, Thomas A. Connors, David E. Lebow, Trevor A. Reeve, William Wascher, and Beth Anne Wilson, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board of Governors; Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors Jon Faust, Senior Special Adviser to the Chairman, Office of Board Members, Board of Governors Antulio N. Bomfim, Special Adviser to the Chairman, Office of Board Members, Board of Governors Brian M. Doyle, Joseph W. Gruber, Ellen E. Meade, and John M. Roberts, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Shaghil Ahmed and Christopher J. Erceg, Senior Associate Directors, Division of International Finance, Board of Governors; Eric M. Engen, Senior Associate Director, Division of Research and Statistics, Board of Governors; Gretchen C. Weinbach, 3 Senior Associate Director, Division of Monetary Affairs, Board of Governors Edward Nelson, Senior Adviser, Division of Monetary Affairs, Board of Governors Marnie Gillis DeBoer, 3 David López-Salido, and Min Wei, Associate Directors, Division of Monetary Affairs, Board of Governors; John J. Stevens, Associate Director, Division of Research and Statistics, Board of Governors Steven A. Sharpe, Deputy Associate Director, Division of Research and Statistics, Board of Governors; Jeffrey D. Walker, 2 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors Andrew Figura and John Sabelhaus, Assistant Directors, Division of Research and Statistics, Board of Governors; Christopher J. Gust, 4 Laura Lipscomb, 3 and Zeynep Senyuz, 3 Assistant Directors, Division of Monetary Affairs, Board of Governors Don Kim, Adviser, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, 5 Assistant to the Secretary\n...[document excerpted]...\num. Treasury yields declined significantly, especially at longer maturities, contributing to some flattening of the Treasury yield curve. Based on readings from Treasury Inflation-Protected Securities (TIPS), the decline in nominal Treasury yields was associated with a notable drop in inflation compensation. A sizable decline in oil prices was cited as an important factor contributing to the drop in measures of inflation compensation. The deterioration in market sentiment was accompanied by a si\n...[risk-bearing excerpt]...\nonsumption expenditures (PCE), was 2 percent in October. Survey-based measures of longer-run inflation expectations were little changed on balance. Total nonfarm payroll employment expanded further in November, and job gains were strong, on average, over recent months. The national unemployment rate remained at a very low level of 3.7 percent, and both the labor force participation rate and the employment-to-population ratio also stayed flat in November. The unemployment rates for African Americ\n...[risk-bearing excerpt]...\noptions such as ending portfolio redemptions with a relatively high level of reserves still in the system and then either maintaining that level of reserves or allowing growth in nonreserve liabilities to very gradually reduce reserves further. These approaches could allow markets and banks more time to adjust to lower reserve levels while maintaining effective control of interest rates. Several participants, however, expressed concern that a slowing of redemptions could be misinterpreted as a\n...[risk-bearing excerpt]...\nent provided support. Ongoing uncertainty about the passage of a Brexit withdrawal agreement put downward pressure on the exchange value of the British pound. Short-term funding markets functioned smoothly over the intermeeting period. Elevated levels of Treasury bills outstanding have continued to put upward pressure on money market rates. The EFFR held steady at or very close to the level of the IOER rate, while take-up in the\n...[document conclusion]...\nugh the discussion of the long-run monetary policy implementation frameworks. Return to text 4. Attended the discussion of financial developments and open market operations through the close of the meeting. Return to text 5. Attended Tuesday session only. Return to text 6. In taking this action, the Board approved requests to establish that rate submitted by the boards of directors of the Federal Reserve Banks of Boston, Cleveland, Richmond, Atlanta, Chicago, and San Francisco. This vote also encompassed approval by the Board of Governors of the establishment of a 3.00 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of December 20, 2018, and the date such Reserve Banks informed the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of New York, Philadelphia, St. Louis, Minneapolis, Kansas City, and Dallas were informed by the Secretary of the Board's approval of their establishment of a primary credit rate of 3.00 percent, effective December 20, 2018.) The second vote of the Board also encompassed approval of the establishment of the interest rates for secondary and seasonal credit under the existing formulas for computing such rates. Return to text",
+  "text_sha256": "84a51c7b1b48cefbb8144e4939b4690b7ee4565e22cb476a7a1248c6229429ac"
+}

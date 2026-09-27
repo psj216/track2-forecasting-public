@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20040504",
+  "fingerprint": {
+    "axes": {
+      "inflation": 0.2
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": 0.2
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040504/default.htm"
+    ],
+    "evidence": "Although incoming inflation data have moved somewhat higher, long-term inflation expectations appear to have remained well contained.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "accommodation",
+      "although",
+      "appear",
+      "believes",
+      "committee",
+      "contained",
+      "data",
+      "expectations",
+      "have",
+      "higher",
+      "incoming",
+      "inflation",
+      "juncture",
+      "likely",
+      "long",
+      "measured",
+      "moved",
+      "pace",
+      "policy",
+      "remained",
+      "removed",
+      "resource",
+      "slack",
+      "somewhat",
+      "term",
+      "that",
+      "this",
+      "well",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2004-05-04",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "2b61ce386e506b9bbe86be6606f04443703270effea76fc21fb78c1fcf3e2d0e",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2004/20040504/default.htm",
+  "text": "Release Date: May 4, 2004 For immediate release The Federal Open Market Committee decided today to keep its target for \r\n        the federal funds rate at 1 percent. The Committee continues to believe that an accommodative stance of monetary \r\n        policy, coupled with robust underlying growth in productivity, is providing \r\n        important ongoing support to economic activity. The evidence accumulated \r\n        over the intermeeting period indicates that output is continuing to expand \r\n        at a solid rate and hiring appears to have picked up. Although incoming \r\n        inflation data have moved somewhat higher, long-term inflation expectations \r\n        appear to have remained well contained. The Committee perceives the upside and downside risks to the attainment \r\n        of sustainable growth for the next few quarters are roughly equal. Similarly, \r\n        the risks to the goal of price stability have moved into balance. At this \r\n        juncture, with inflation low and resource use slack, the Committee believes \r\n        that policy accommodation can be removed at a pace that is likely to be \r\n        measured. Voting for the FOMC monetary policy actions were: Alan Greenspan, Chairman; \r\n        Timothy F. Geithner, Vice Chairman; Ben S. Bernanke; Susan S. Bies; Roger \r\n        W. Ferguson, Jr.; Edward M. Gramlich; Thomas M. Hoenig; Donald L. Kohn; \r\n        Cathy E. Minehan; Mark W. Olson; Sandra Pianalto; and William Poole. 2004 Monetary policy Home | News and \r\nevents Accessibility Last update: May 4, 2004",
+  "text_sha256": "255fa5dccd27c9f2843a6c0e74b43a2444eec7dad9c607929f55aab106d1f097"
+}

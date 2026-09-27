@@ -1,0 +1,52 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:19980929",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0,
+      "policy": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/1998/19980929/"
+    ],
+    "evidence": "financial markets mean that a slightly lower federal funds rate should now be consistent with keeping inflation low and sustaining economic growth going forward.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "consistent",
+      "economic",
+      "federal",
+      "financial",
+      "forward",
+      "funds",
+      "going",
+      "growth",
+      "inflation",
+      "keeping",
+      "lower",
+      "markets",
+      "mean",
+      "rate",
+      "should",
+      "slightly",
+      "sustaining",
+      "that",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-09-29",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "fca57eff0edffe5ba3e32083e9e3764eef2110ccfeefd03b83faa0eb35822525",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/1998/19980929/",
+  "text": "Release Date: September 29, 1998 For immediate release The Federal Open Market Committee decided today to ease the stance of monetary policy slightly, expecting the federal funds rate to decline 1/4 percentage point to around 5-1/4 percent. The action was taken to cushion the effects on prospective economic growth in the United States of increasing weakness in foreign economies and of less accommodative financial conditions domestically.  The recent changes in the global economy and adjustments in U.S. financial markets mean that a slightly lower federal funds rate should now be consistent with keeping inflation low and sustaining economic growth going forward. The discount rate remains unchanged at 5 percent. 1998 Monetary policy Home | News and events Accessibility Last update: September 29, 1998, 2:15 PM",
+  "text_sha256": "9bf27e5e329acc3cc67cefa1d3224e01e3df73ba6e853469281a3e22542d1a61"
+}

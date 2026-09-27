@@ -1,0 +1,54 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20200129",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200129.htm"
+    ],
+    "evidence": "In addition, statistical models designed to estimate the probability of recession using financial market data suggested that the likelihood of a recession occurring over the next year had fallen notably in recent months.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "addition",
+      "data",
+      "designed",
+      "estimate",
+      "fallen",
+      "financial",
+      "likelihood",
+      "market",
+      "models",
+      "months",
+      "next",
+      "notably",
+      "occurring",
+      "over",
+      "probability",
+      "recent",
+      "recession",
+      "statistical",
+      "suggested",
+      "that",
+      "using",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2020.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2020-02-19",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "d73e276dd2a993f27ba30befec059d607c053067d8b9dc913a2e95727c31e7d5",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200129.htm",
+  "text": "Minutes of the Federal Open Market Committee January 28-29, 2020 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, January 28, 2020, at 10:00 a.m. and continued on Wednesday, January 29, 2020, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chairman John C. Williams, Vice Chairman Michelle W. Bowman Lael Brainard Richard H. Clarida Patrick Harker Robert S. Kaplan Neel Kashkari Loretta J. Mester Randal K. Quarles Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, Charles L. Evans, and Michael Strine, 2 Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Thomas Laubach, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Marc Giannoni, Joseph W. Gruber, David E. Lebow, Trevor A. Reeve, Ellis W. Tallman, William Wascher, and Mark L.J. Wright, Associate Economists Lorie K. Logan, Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Eric Belsky, 3 Director, Division of Consumer and Community Affairs, Board of Governors; Matthew J. Eichner, 4 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Steven B. Kamin, Director, Division of International Finance, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors Jon Faust, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors Joshua Gallin, Special Adviser to the Chair, Office of Board Members, Board of Governors Antulio N. Bomfim, Brian M. Doyle, Wendy E. Dunn, Ellen E. Meade, and Ivan Vidangos, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson and David W. Skidmore, Assistants to the Board, Office of Board Members, Board of Governors David Bowman, 5 Senior Associate Director, Division of Monetary Affairs, Board of Governors; Eric M. Engen and Michael G. Palumbo, Senior Associate Directors, Division of Research and Statistics, Board of Governors; John W. Schindler, Senior Associate Director, Division of Financial Stability, Board of Governors Don H. Kim and Edward Nelson, Senior Advisers, Division of Monetary Affairs, Board of Governors Eric C. Engstrom, Senior Adviser, Division of Research and Statistics, and Deputy Associate Director, Division of Monetary Affairs, Board of Governors Elizabeth Klee, 3 Associate Director, Division of Financial Stability, Board of Governors Christopher J. Gust, 5 Deputy Associate Director, Division of Monetary Affairs, Board of Governors; Norman J. Morin and Steven A. Sharpe, Deputy Associate Directors, Division of Research and Statistics, Board of Governors; Jeffrey D. Walker, 4 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Paul R. Wood, 3 Deputy Associate Director, Division of International Finance, Board of Governors Ricardo Correa and Stephanie E. Curcuru, 6 Assistant Directors, Division of International Fi\n...[document excerpted]...\nion practices. At this meeting, the discussion focused on two topics: the potential interactions between monetary policy and financial stability and the potential use of inflation ranges around the Committee's 2 percent inflation objective. The staff briefing on the first topic noted that in the current environment of low neutral rates, achieving the Committee's dual-mandate goals of maximum employment and price stability would require low policy rates frequently, regardless of the monetary poli\n...[risk-bearing excerpt]...\nin the context of the Committee's discussion and decision about the stance of policy at its most recent meeting and the Committee's long-run objectives to foster maximum employment and price stability, and shall be based on economic, financial, and monetary developments since the most recent meeting of the Committee. The Chairman, whenever feasible, will consult with the Committee before making any instruction under this paragraph 5. The Committee voted unanimously to reaffirm without revision t\n...[risk-bearing excerpt]...\non framework. In the second quarter, the manager expected reserve conditions to support slowing the pace of Treasury bill purchases, with the goal of eventually aligning growth of the Federal Reserve's Treasury holdings with trend growth in its liabilities. As that time approaches, the Committee might wish to consider the appropriate maturity composition of reserve management purchases of Treasury securities. The manager noted that, al­though the pace of Treasury purchases would likely continue\n...[risk-bearing excerpt]...\nappeared to buoy business sentiment. The risk of a \"hard\" Brexit had appeared to recede further. In addition, statistical models designed to estimate the probability of recession using financial market data suggested that the likelihood of a recession occurring over the next year had fallen notably in recent months. Still, participants generally expected trade-related uncertainty to remain somewhat elevated, and they were mindf\n...[document conclusion]...\neturn to text 2. Attended Tuesday's session only. Return to text 3. Attended through the discussion of the review of the monetary policy framework. Return to text 4. Attended through the discussion of developments in financial markets and open market operations. Return to text 5. Attended the discussion of developments in financial markets and open market operations. Return to text 6. Attended the discussion of economic developments and the outlook. Return to text 7. Committee organizational documents are available at https://www.federalreserve.gov/monetarypolicy/rules_authorizations.htm . Return to text 1. In general, as specified in Article IV, each member of the IMF undertakes to collaborate with the IMF and other members to assure orderly exchange arrangements and to promote a stable system of exchange rates. These obligations include seeking to direct the member's economic and financial policies toward the objective of fostering orderly economic growth with reasonable price stability. These obligations also include avoiding manipulating exchange rates or the international monetary system in such a way that would impede effective balance of payments adjustment or to give an unfair competitive advantage over other members. Return to text",
+  "text_sha256": "cebfd38adb8a3e028c60ec537998bdc269515423c53d27af0a733c86dd20efac"
+}

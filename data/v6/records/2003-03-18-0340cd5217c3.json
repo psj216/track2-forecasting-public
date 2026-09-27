@@ -1,0 +1,61 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20030318",
+  "fingerprint": {
+    "axes": {
+      "growth": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "risk": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20030318/default.htm"
+    ],
+    "evidence": "The Committee believes that as those uncertainties lift, as most analysts expect, the accommodative stance of monetary policy, coupled with ongoing growth in productivity, will provide support to economic activity sufficient to engender an improving economic climate over time.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "accommodative",
+      "activity",
+      "analysts",
+      "believes",
+      "climate",
+      "committee",
+      "coupled",
+      "economic",
+      "engender",
+      "expect",
+      "growth",
+      "improving",
+      "lift",
+      "monetary",
+      "most",
+      "ongoing",
+      "over",
+      "policy",
+      "productivity",
+      "provide",
+      "stance",
+      "sufficient",
+      "support",
+      "that",
+      "those",
+      "time",
+      "uncertainties",
+      "will",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-03-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "0340cd5217c35aa3fb78586adf5f8afc647ff4f5d6847f08fb51c4da080222bd",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20030318/default.htm",
+  "text": "Release Date: March 18, 2003 For immediate release The Federal Open Market Committee decided today to keep its target for the federal funds rate unchanged at 1-1/4 percent. While incoming economic data since the January meeting have been mixed, recent labor market indicators have proven disappointing.  However, the hesitancy of the economic expansion appears to owe importantly to oil price premiums and other aspects of geopolitical uncertainties.  The Committee believes that as those uncertainties lift, as most analysts expect, the accommodative stance of monetary policy, coupled with ongoing growth in productivity, will provide support to economic activity sufficient to engender an improving economic climate over time. In light of the unusually large uncertainties clouding the geopolitical situation in the short run and their apparent effects on economic decisionmaking, the Committee does not believe it can usefully characterize the current balance of risks with respect to the prospects for its long-run goals of price stability and sustainable economic growth.  Rather, the Committee decided to refrain from making that determination until some of those uncertainties abate.  In the current circumstances, heightened surveillance is particularly informative. Voting for the FOMC monetary policy action were Alan Greenspan, Chairman; William J. McDonough, Vice Chairman; Ben S. Bernanke; Susan S. Bies; J. Alfred Broaddus, Jr.; Roger W. Ferguson, Jr.; Edward M. Gramlich; Jack Guynn; Donald L. Kohn; Michael H. Moskow; Mark W. Olson; and Robert T. Parry. 2003 Monetary policy Home | News and \r\nevents Accessibility Last update: March 21, 2003",
+  "text_sha256": "e28d366b12c26b9cf59a9a4eba2dfab22d6cf395a34d294a081e82bd6a9c0375"
+}

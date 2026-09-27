@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:19990630",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0,
+      "guidance": 1.0,
+      "liquidity": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/1999/19990630/"
+    ],
+    "evidence": "Labor markets have continued to tighten over recent quarters, but strengthening productivity growth has contained inflationary pressures.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "contained",
+      "continued",
+      "growth",
+      "have",
+      "inflationary",
+      "labor",
+      "markets",
+      "over",
+      "pressures",
+      "productivity",
+      "quarters",
+      "recent",
+      "strengthening",
+      "tighten"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1999-06-30",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "c8ec43452083f77c34f75e85b146cd199c8f86a6546b6433e0d44fc0cb975b76",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/1999/19990630/",
+  "text": "Release Date: June 30, 1999 For immediate release The Federal Open Market Committee today voted to raise its target for the federal funds rate 25 basis points to 5 percent.  Last fall the Committee reduced interest rates to counter a significant seizing-up of financial markets in the United States. Since then much of the financial strain has eased, foreign economies have firmed, and economic activity in the United States has moved forward at a brisk pace.  Accordingly, the full degree of adjustment is judged no longer necessary. Labor markets have continued to tighten over recent quarters, but strengthening productivity growth has contained inflationary pressures. Owing to the uncertain resolution of the balance of conflicting forces in the economy going forward, the FOMC has chosen to adopt a directive that includes no predilection about near-term policy action.  The Committee, nonetheless, recognizes that in the current dynamic environment it must be especially alert to the emergence, or potential emergence, of inflationary forces that could undermine economic growth. 1999 Monetary policy Home | News and events Accessibility Last update: June 30, 1999",
+  "text_sha256": "3323abd20e087464eb7da3e83867c4314e08bffa57179fa56c38a8a476da78a7"
+}

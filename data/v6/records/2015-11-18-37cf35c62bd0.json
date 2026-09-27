@@ -1,0 +1,67 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20151028",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0,
+      "policy": 0.6
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": -0.4,
+      "policy": 1.2
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm"
+    ],
+    "evidence": "expected to converge in the absence of further shocks to the economy--that is, the level that would be consistent, in the long run, with maximum employment and 2 percent inflation--would likely be lower than was the case in previous decades.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "absence",
+      "bearing",
+      "case",
+      "consistent",
+      "converge",
+      "decades",
+      "economy",
+      "employment",
+      "episodes",
+      "excerpt",
+      "expected",
+      "frequency",
+      "further",
+      "increase",
+      "inflation",
+      "level",
+      "likely",
+      "long",
+      "lower",
+      "maximum",
+      "might",
+      "percent",
+      "policymakers",
+      "previous",
+      "risk",
+      "shocks",
+      "smaller",
+      "than",
+      "that",
+      "which",
+      "with",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2015-11-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "37cf35c62bd09a8710f8e90e0d235efa33062571c956278d8756b0dfd27b3aaf",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20151028.htm",
+  "text": "Minutes of the Federal Open Market Committee October 27-28, 2015 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, October 27, 2015, at 10:00 a.m. and continued on Wednesday, October 28, 2015, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Jeffrey M. Lacker Dennis P. Lockhart Jerome H. Powell Daniel K. Tarullo John C. Williams James Bullard, Esther L. George, Loretta J. Mester, Eric Rosengren, and Michael Strine, Alternate Members of the Federal Open Market Committee Patrick Harker, Robert S. Kaplan, and Narayana Kocherlakota, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist David Altig, Thomas A. Connors, Eric M. Engen, Michael P. Leahy, William R. Nelson, Glenn D. Rudebusch, Daniel G. Sullivan, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 1 Secretary of the Board, Office of the Secretary, Board of Governors Michael S. Gibson, Director, Division of Banking Supervision and Regulation, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Margaret Shanks, 2 Deputy Secretary, Office of the Secretary, Board of Governors James A. Clouse and Stephen A. Meyer, Deputy Directors, Division of Monetary Affairs, Board of Governors Andreas Lehnert, Deputy Director, Office of Financial Stability Policy and Research, Board of Governors William B. English, Senior Special Adviser to the Board, Office of Board Members, Board of Governors Andrew Figura and Stacey Tevlin, Special Advisers to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors David E. Lebow, Senior Associate Director, Division of Research and Statistics, Board of Governors Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board of Governors; Joyce K. Zickler, Senior Adviser, Division of Monetary Affairs, Board of Governors Fabio M. Natalucci, Associate Director, Division of Monetary Affairs, Board of Governors Joseph W. Gruber, 3 Deputy Associate Director, Division of International Finance, Board of Governors; Jane E. Ihrig 4 and David López-Salido, 5 Deputy Associate Directors, Division of Monetary Affairs, Board of Governors Glenn Follette and John M. Roberts, Assistant Directors, Division of Research and Statistics, Board of Governors; Christopher J. Gust, Assistant Director, Division of Monetary Affairs, Board of Governors Robert J. Tetlow, Adviser, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, 3 Assistant to the Secretary, Office of the Secretary, Board of Governors Dana L. Burnett, Section Chief, Division of Monetary Affairs, Board of Governors; Andrea Raffo, 5 Section Chief, Division of International Finance, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Yuriy Kitsul, Senior Economist, Division of Monetary Affairs, Board of Governors Benjamin K. Johan\n...[document excerpted]...\nexpected to converge in the absence of further shocks to the economy--that is, the level that would be consistent, in the long run, with maximum employment and 2 percent inflation--would likely be lower than was the case in previous decades. A lower long-run level of r* would also imply that the gap between the actual level of the federal funds rate and its near-zero effective lower bound would be smaller on average. A smaller gap might increase the frequency of episodes in which policymakers wo\n...[risk-bearing excerpt]...\nd. According to one definition, short-run r* is the level of the real short-term interest rate that, if obtained currently, would result in the economy operating at full employment or, in some simple models of the economy, at full employment and price stability. The staff summarized the behavior of estimates of the short-run equilibrium real rate over recent business cycles as well as longer-run trends in real interest rates and key factors that influence those trends. Estimates derived using a\n...[risk-bearing excerpt]...\nry indicates that the equilibrium level of short-term real interest rates would likely remain low relative to estimates of its level before the financial crisis if trend growth of total factor productivity does not pick up and if demographic projections for slow growth in working-age populations are borne out. Finally, the staff discussed the implications of uncertainty about the level of the equilibrium real rate for using estimates of short-run r* as a guideline for appropriate monetary policy\n...[risk-bearing excerpt]...\nof empirical models of the U.S. economy and a range of econometric techniques indicated that short-run r* fell sharply with the onset of the 2008-09 financial crisis and recession, quite likely to negative levels. Short-run r* was estimated to have recovered only partially and to be close to zero currently, still well below levels that prevailed during recent economic expansions when the unemployment rate was close to estimates\n...[document conclusion]...\nstrong consumption growth and tightening labor markets. Data received since the September FOMC meeting suggested that the global economic and financial developments of late summer had little effect on the medium-term outlook for U.S. growth and inflation. He remained reasonably confident that inflation would return to the Federal Reserve's 2 percent goal once temporary disinflationary impulses had passed. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, December 15-16, 2015. The meeting adjourned at 11:40 a.m. on October 28, 2015. Notation Vote By notation vote completed on October 7, 2015, the Committee unanimously approved the minutes of the Committee meeting held on September 16-17, 2015. _____________________________ Brian F. Madigan Secretary 1. Attended Tuesday morning's discussion of equilibrium real interest rates and Wednesday's session. Return to text 2. Attended Tuesday's session following the discussion of equilibrium real interest rates. Return to text 3. Attended Tuesday's session only. Return to text 4. Attended through the discussion of financial developments and open market operations. Return to text 5. Attended through the discussion of equilibrium real interest rates. Return to text",
+  "text_sha256": "4189a332446cb67f3de4e850cffdcaad82f7efb1270ad19d21c40f20fd90528f"
+}

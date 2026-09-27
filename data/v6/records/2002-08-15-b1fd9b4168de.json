@@ -1,0 +1,52 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20020626",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20020626.htm"
+    ],
+    "evidence": "Private nonfarm payroll employment edged up in April and May after a slowdown in the first quarter in the pace of layoffs and job separations.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "after",
+      "appreciably",
+      "april",
+      "brisk",
+      "consumer",
+      "edged",
+      "employment",
+      "first",
+      "from",
+      "growth",
+      "layoffs",
+      "nonfarm",
+      "pace",
+      "payroll",
+      "private",
+      "quarter",
+      "separations",
+      "slowdown",
+      "slowed",
+      "spending"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2002-08-15",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "b1fd9b4168de7c8a368718ed0767dac504f68793499c61886e11e8887a6f9e33",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20020626.htm",
+  "text": "Minutes of the Federal Open Market Committee June 25-26, 2002 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, June 25, 2002, at 2:30 p.m. and continued on Wednesday, June 26, 2002, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Jordan Mr. McTeer Mr. Olson Mr. Santomero Mr. Stern Messrs. Broaddus, Moskow, and Parry, Alternate Members                                                                                                                       of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve Banks of Kansas City, Boston, and St. Louis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Reinhart, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Howard and Lindsey, Ms. Mester, Messrs. Oliner, Rolnick, Rosenblum, Sniderman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Messrs. Ettin and Madigan, Deputy Directors, Divisions of Research and Statistics and Monetary Affairs respectively, Board of Governors Messrs. Slifman and Struckmeyer, Associate Directors, Division of Research and Statistics, Board of Governors Messrs. Freeman 1 and Whitesell, Deputy Associate Directors, Divisions of International Finance and Monetary Affairs respectively, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, Board of Governors Messrs. Reifschneider 2 and Wascher, 2 Assistant Directors, Division of Research and Statistics, Board of Governors Mr. Simpson, Senior Advisor, Division of Research and Statistics, Board of Governors Mr. Brayton, 2 Ms. Dynan, 1 Messrs. Lebow 2 and Roberts, 2 Senior Economists, Division of Research and Statistics, Board of Governors Mr. Bomfim, 1 Senior Economist, Division of Monetary Affairs, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Ms. Low, Open Market Secretariat Assistant, Office of Board Members, Board of Governors Mr. Barron, First Vice President, Federal Reserve Bank of Atlanta Messrs. Eisenbeis, Fuhrer, Goodfriend, Hakkio, Hunter, Judd, Ms. Krieger, and Mr. Rasche, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Boston, Richmond, Kansas City, Chicago, San Francisco, New York, and St. Louis respectively 1. Attended portion of meeting relating to the discussion of economic developments. Return to text 2. Attended portion of meeting relating to a special agenda discussion of inflation. Return to text By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on May 7, 2002, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on recent developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period May 7, 2002, through June 24, 2002.  By unanimous vote, the Committee ratified these transactions. The Committee voted unanimously to update its longstanding authorization for the Federal Reserve Bank of New York to enter into agreements that would enable another Fed\n...[document excerpted]...\nle, but not enough to lower the unemployment rate, and labor productivity seemed to be trending sharply upward. The surge in energy prices this year had boosted headline inflation, but core measures of inflation had trended lower. Private nonfarm payroll employment edged up in April and May after a slowdown in the first quarter in the pace of layoffs and job separations. Hiring was relatively brisk in the services sector in the April-May period, with most of the advances occurring in the tempora\n...[risk-bearing excerpt]...\ndustries weakened further. Capacity utilization in manufacturing in May was a little above its depressed level at year-end, but substantially below its long-run average. Growth of consumer spending slowed appreciably in April and May from the brisk pace of the first quarter. Retail sales slumped in May after a sizable rise in April, largely reflecting weaker spending at apparel stores and general merchandise outlets and an apparent pause in purchases of light motor vehicles after an April surge.\n...[risk-bearing excerpt]...\nte at 1-3/4 percent, and it also retained a neutral balance of risks statement. The Committee's press statement, with its language indicating that the Committee remained uncertain about the extent and timing of the strengthening of final demand, was viewed by market participants as expressing less confidence in the strength of the recovery than had been expected, and yields on Treasury securities declined slightly in response. Subsequently, investors became more risk averse in reaction to a mixt\n...[risk-bearing excerpt]...\nof the broad monetary aggregates picked up in May owing to the unwinding of distortions from final tax payments and, apparently, to falling equity prices. The heightened volatility of equity markets may have enhanced the attractiveness of safe and liquid M2 assets, including liquid deposits and retail money market funds. The staff forecast prepared for this meeting suggested that the expansion of economic activity would pick u\n...[document conclusion]...\nthe System Account in accordance with the following domestic policy directive. The Federal Open Market Committee seeks monetary and financial conditions that will foster price stability and promote sustainable growth in output.  To further its long-run objectives, the Committee in the immediate future seeks conditions in reserve markets consistent with maintaining the federal funds rate at an average of around 1-3/4 percent. The vote encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes that the risks are balanced with respect to prospects for both goals in the foreseeable future. Votes for this action: Messrs. Greenspan, McDonough, Ms. Bies, Messrs. Ferguson, Gramlich, Jordan, McTeer, Olson, Santomero, and Stern. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, \r\nAugust 13, 2002. The meeting adjourned on June 26, 2002, at 11:40 a.m. Vincent R. Reinhart Secretary Return to top Home | FOMC Accessibility | Contact Us Last update: August 15, 2002, 2:00 PM",
+  "text_sha256": "81adf0be8e7df2b9f616f1eb7ac41e5dad09766e9892fdeffec7a97d1322dbc5"
+}

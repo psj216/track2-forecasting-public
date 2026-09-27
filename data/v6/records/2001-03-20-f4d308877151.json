@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20010320",
+  "fingerprint": {
+    "axes": {
+      "policy": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {},
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/2001/20010320/"
+    ],
+    "evidence": "Release Date: March 20, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 5 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "basis",
+      "committee",
+      "date",
+      "decided",
+      "federal",
+      "funds",
+      "immediate",
+      "lower",
+      "march",
+      "market",
+      "meeting",
+      "open",
+      "percent",
+      "points",
+      "rate",
+      "release",
+      "target",
+      "today"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-03-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f4d3088771519f454ed4851b5f10d1b0922cf99a29ef9bcc99d435df30c20c13",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010320/",
+  "text": "Release Date: March 20, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 5 percent. In a related action, the Board of Governors approved a 50 basis point reduction in the discount rate to 4-1/2 percent. Persistent pressures on profit margins are restraining investment spending and, through declines in equity wealth, consumption. The associated backup in inventories has induced a rapid response in manufacturing output and, with spending having firmed a bit since last year, inventory adjustment appears to be well underway. Although current developments do not appear to have materially diminished the prospects for long-term growth in productivity, excess productive capacity has emerged recently.  The possibility that this excess could continue for some time and the potential for weakness in global economic conditions suggest substantial risks that demand and production could remain soft.  In these circumstances, when the economic situation could be evolving rapidly, the Federal Reserve will need to monitor developments closely. The Committee continues to believe that against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the risks are weighted mainly toward conditions that may generate economic weakness in the foreseeable future. In taking the discount rate action, the Federal Reserve Board approved requests submitted by the Boards of Directors of all twelve Reserve Banks. 2001 Monetary policy Home | News and events Accessibility Last update: March 20, 2001",
+  "text_sha256": "49019aaeaaff2d515e32dadd94633d0f19cbbf12bc7d574273e10ffd1188291d"
+}

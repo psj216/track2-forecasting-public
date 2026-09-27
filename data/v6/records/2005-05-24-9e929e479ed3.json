@@ -1,0 +1,56 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20050503",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20050503.htm"
+    ],
+    "evidence": "Sharp increases in energy prices pushed up headline inflation, and core measures were also somewhat elevated.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "advance",
+      "also",
+      "although",
+      "continued",
+      "core",
+      "elevated",
+      "employment",
+      "energy",
+      "expand",
+      "february",
+      "headline",
+      "increase",
+      "increases",
+      "inflation",
+      "less",
+      "march",
+      "measures",
+      "prices",
+      "pushed",
+      "sharp",
+      "somewhat",
+      "strong",
+      "than",
+      "were"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2005-05-24",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "9e929e479ed3c16eb1037a7613a4c837d5108b2d232c1dac70dd80e6aecae2ea",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20050503.htm",
+  "text": "Minutes of the Federal Open Market Committee May 3, 2005 A meeting of the Federal Open Market \r\n        Committee was held in the offices of the Board of Governors of the Federal \r\n        Reserve System in Washington, D.C., on Tuesday, May 3, 2005 at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Ms. Bies Mr. Ferguson Mr. Fisher 1 Mr. Gramlich Mr. Kohn Mr. Moskow Mr. Olson Mr. Santomero Mr. Stern Messrs. Guynn and Lacker, Mses. Pianalto and Yellen, \r\n        Alternate Members of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve \r\n        Banks of Kansas City, Boston, and St. Louis, respectively Mr. Reinhart, Secretary and Economist Ms. Danker, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Alvarez, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Evans, and Madigan, Ms. Mester, Messrs. Oliner, Rosenblum, \r\n        and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board \r\n        of Governors Messrs. Freeman, Slifman, and Struckmeyer, Associate Directors, Divisions \r\n        of International Finance, Research and Statistics, and Research and Statistics, \r\n        respectively, Board of Governors Messrs. Clouse and Whitesell, Deputy Associate Directors, Division of \r\n        Monetary Affairs, Board of Governors Messrs. English and Leahy, Assistant Directors, Divisions of Monetary \r\n        Affairs and International Finance, respectively, Board of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, Board \r\n        of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, \r\n        Board of Governors Mr. Small, Project Manager, Division of Monetary Affairs, Board of Governors Mr. Brady, Section Chief, Division of Monetary Affairs, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board \r\n        of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, \r\n        Board of Governors Mr. Lyon, First Vice President, Federal Reserve Bank of Minneapolis Messrs. Eisenbeis, Goodfriend, Hakkio, Rasche, Rudebusch, and Sniderman, \r\n        Senior Vice Presidents, Federal Reserve Banks of Atlanta, Richmond, Kansas \r\n        City, St. Louis, San Francisco, and Cleveland, respectively Mr. Elsasser, Ms. Little, and Messrs. Peach and Todd, Vice Presidents, \r\n        Federal Reserve Banks of New York, Boston, New York, and Minneapolis, \r\n        respectively The Manager of the System Open Market Account reported on \r\n        recent developments in foreign exchange markets. There were no open market \r\n        operations in foreign currencies for the System's account in the period \r\n        since the previous meeting. The Manager also reported on developments \r\n        in domestic financial markets and on System open market transactions in \r\n        government securities and federal agency obligations during the period \r\n        since the previous meeting. By unanimous vote, the Committee ratified \r\n        these transactions. By unanimous vote, the Committee voted to extend for one year beginning \r\n        in mid-December 2005 the reciprocal currency (\"swap\") arrangements with \r\n        the Bank of Canada and the Banco de Mexico. The arrangement with the Bank \r\n        of Canada is in the amount of $2 billion equivalent and that with the \r\n        Banco de Mexico in the amount of $3 billion equivalent. Both arrangements \r\n        are assoc\n...[document excerpted]...\nspending, while strong in the \r\n        first quarter, was down from the brisk rates of previous quarters. Sharp \r\n        increases in energy prices pushed up headline inflation, and core measures \r\n        were also somewhat elevated. Labor costs, however, advanced at a moderate \r\n        rate. Employment continued to expand in March, although the increase was \r\n        less than the strong advance in February. Employment declined in manufacturing, \r\n        retail trade, and temporary help s\n...[risk-bearing excerpt]...\nonomic activity had unexpectedly moderated during the first quarter \r\n        from the rapid pace seen during the second half of 2004. Gains in private \r\n        payroll employment over the first quarter were similar to the average \r\n        for the second half of 2004 but weakened in March, and manufacturing production \r\n        rose only a little, on balance, over February and March. Consumers appeared \r\n        to have turned somewhat cautious in their spending, likely a reflection\n...[risk-bearing excerpt]...\nminate remaining slack in \r\n        resource utilization. Although the economic outlook generally seemed favorable, \r\n        there was also broad recognition of greater uncertainty attending the \r\n        outlook for both inflation and output growth. Capital expenditures advanced briskly over the first quarter, but at \r\n        a pace significantly below that registered over the latter half of last \r\n        year. To some extent, businesses probably had pulled capital outlays forward\n...[risk-bearing excerpt]...\nrelease of \r\n        the minutes of the March meeting, as attention focused on the reference \r\n        to Committee members' judgment that an accelerated path of policy tightening \r\n        was not necessary at that time. Despite generally good first-quarter earnings \r\n        reports, equity indexes moved down considerably in response to the signs \r\n        of weaker economic growth. In foreign exchange markets, the dollar rose \r\n        on balance\n...[document conclusion]...\nd. Nonetheless, the \r\n        Committee will respond to changes in economic prospects as needed to fulfill \r\n        its obligation to maintain price stability.\" Votes for this action: Messrs. Greenspan and Geithner, \r\n        Ms. Bies, Messrs. Ferguson, Fisher, Gramlich, Kohn, Moskow, Olson, Santomero, \r\n        and Stern. Votes against this action: None. Absent and not voting: Mr. Bernanke It was agreed that the next meeting of the Committee would be held on \r\n        Wednesday-Thursday, June 29-30, 2005. The meeting adjourned at 1:25 p.m. Notation Vote By notation vote completed on April 11, 2005, the Committee unanimously \r\n        approved the minutes of the meeting of the Federal Open Market Committee \r\n        held on March 22, 2005. Vincent R. Reinhart Secretary Footnote 1. Secretary's note: \r\n        Advice had been received that Richard W. Fisher had been elected by the \r\n        directors of the Federal Reserve Banks of Atlanta, Dallas, and St. Louis, \r\n        as a member of the Federal Open Market Committee for the period commencing \r\n        April 4, 2005, and that he had executed his oath of office. Return \r\n        to text Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 24, 2005, 2:00 PM",
+  "text_sha256": "bf50c6c6d483b95450144d309bffcf27e8fc34e990c786812ee0554c23767c2d"
+}

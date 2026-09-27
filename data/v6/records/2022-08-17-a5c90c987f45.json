@@ -1,0 +1,67 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20220727",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6,
+      "inflation": -0.2
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.6,
+      "inflation": -0.8
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm"
+    ],
+    "evidence": "Market-based measures of near-dated inflation compensation declined and continued to suggest that inflation would ease in coming quar ...[risk-bearing excerpt]...",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "available",
+      "based",
+      "bearing",
+      "coming",
+      "compensation",
+      "consumption",
+      "continued",
+      "could",
+      "dated",
+      "declined",
+      "ease",
+      "economy",
+      "elevated",
+      "enter",
+      "excerpt",
+      "expenditures",
+      "inflation",
+      "information",
+      "june",
+      "market",
+      "measures",
+      "near",
+      "personal",
+      "quar",
+      "quarters",
+      "recession",
+      "remained",
+      "risk",
+      "still",
+      "suggest",
+      "suggested",
+      "that",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2022-08-17",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "a5c90c987f45ee31521fcec617ba86f8883148b2b67eafd7ebb547aad3348580",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220727.htm",
+  "text": "Minutes of the Federal Open Market Committee July 26-27, 2022 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, July 26, 2022, at 10:30 a.m. and continued on Wednesday, July 27, 2022, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lael Brainard James Bullard Susan M. Collins Lisa D. Cook Esther L. George Philip N. Jefferson Loretta J. Mester Christopher J. Waller Meredith Black, Charles L. Evans, Patrick Harker, Neel Kashkari, and Helen E. Mucciolo, 2 Alternate Members of the Committee Thomas I. Barkin, Raphael W. Bostic, and Mary C. Daly, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively James A. Clouse, Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Brian M. Doyle, Joseph W. Gruber, David E. Lebow, Ellis W. Tallman, and William Wascher, Associate Economists Lorie K. Logan, Manager, System Open Market Account Patricia Zobel, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board Andreas Lehnert, Director, Division of Financial Stability, Board Jennifer J. Burns, Deputy Director, Division of Supervision and Regulation, Board; Sally Davies, Deputy Director, Division of International Finance, Board; Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Jon Faust and Joshua Gallin, Senior Special Advisers to the Chair, Division of Board Members, Board Burcu Duygan-Bump, Jane E. Ihrig, Kurt F. Lewis, Laura Lipscomb, John W. Schindler, Nitish R. Sinha, Paul R. Wood, and Rebecca Zarutskie, Special Advisers to the Board, Division of Board Members, Board Linda Robertson, Assistant to the Board, Division of Board Members, Board William F. Bassett, Senior Associate Director, Division of Financial Stability, Board Edward Nelson, Senior Adviser, Division of Monetary Affairs, Board; Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board Andrew Figura, Associate Director, Division of Research and Statistics, Board; Christopher J. Gust, Associate Director, Division of Monetary Affairs, Board; Jeffrey D. Walker, 3 Associate Director, Division of Reserve Bank Operations and Payment Systems, Board Patrick E. McCabe and Norman J. Morin, Deputy Associate Directors, Division of Research and Statistics, Board David Arseneau, Assistant Director, Division of Financial Stability, Board; Giovanni Favara and Etienne Gagnon, Assistant Directors, Division of Monetary Affairs, Board Penelope A. Beattie, 4 Section Chief, Office of the Secretary, Board; Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Alyssa Arute, 3 Manager, Division of Reserve Bank Operations and Payment Systems, Board Sriya L. Anbil, 5 Group Manager, Division of Monetary Affairs, Board Fabian Winkler, Principal Economist, Division of Monetary Affairs, Board Peter M. Garavuso, Senior Information Manager, Division of Monetary Affairs, Board David Na and Anthony Sarver, Senior Financial Institution and Policy Analysts, Division of Monetary Affairs, Board Brett Takacs, Senior Communications Analyst, Division of Information Technology, Board Becky C. Bareford, First Vice President, Federal Reserve Bank of Richmond Kartik B. Athreya, Michael Dotsey, and Michelle M. Neal, Executive Vice Presidents, Federal Reserve Banks of Richmond, Philadel\n...[document excerpted]...\ndevelopments. Financial markets over the intermeeting period reflected elevated uncertainty about the outlook. Most market participants appeared to view a moderation of inflation and slower, but still positive, economic growth ahead as the most likely scenario. However, investors appeared to be increasingly attentive to downside risks to the economy in light of the potential for shocks from abroad and the continued upside surprises to inflation. On net, financial conditions eased modestly over\n...[risk-bearing excerpt]...\nor personal consumption expenditures (PCE)—remained elevated in May, and available information suggested that inflation was still elevated in June. Total nonfarm payroll employment posted a solid gain in June at a pace that was similar to that seen in April and May. The unemployment rate was unchanged in June at 3.6 percent. The unemployment rate for African Americans moved lower in June, while the rate for Hispanics was unchanged; both rates were noticeably higher than the national average. The\n...[risk-bearing excerpt]...\nparticipants marked down their growth forecasts for 2022 and 2023 and attached higher odds than in the June survey to the possibility that the U.S. economy could enter a recession in coming quarters. Market participants perceived falling commodity prices—particularly for oil—and the FOMC's commitment to bringing inflation down as pointing to lower inflation ahead. Market-based measures of near-dated inflation compensation declined and continued to suggest that inflation would ease in coming quar\n...[risk-bearing excerpt]...\nums, and some banks were expected to increase their capital ratios later this year. Leverage at hedge funds and life insurance companies remained relatively high. Market liquidity had deteriorated in the oil and equities markets since January, but market functioning continued to be orderly. Yields offered by MMMFs were well above those offered by banks, and the staff noted that this yield differential would attract inflows to MM\n...[document conclusion]...\n Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Elected as an Alternate by the Federal Reserve Bank of New York, effective July 15, 2022. Return to text 3. Attended through the discussion of developments in financial markets and open market operations. Return to text 4. Attended Tuesday's session only. Return to text 5. Attended from the discussion of the economic and financial situation through the end of Wednesday's session. Return to text 6. In taking this action, the Board approved requests to establish that rate submitted by the boards of directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, Dallas, and San Francisco. This vote also encompassed approval by the Board of Governors of the establishment of a 2.5 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of July 28, 2022, or the date such Reserve Banks inform the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of St. Louis, Minneapolis, and Kansas City were informed of the Board's approval of their establishment of a primary credit rate of 2.5 percent, effective July 28, 2022.) Return to text",
+  "text_sha256": "58f7dd832ebbff7098a7d89c41c99abb332a41a1320dccfc6f937ad01be4f90b"
+}

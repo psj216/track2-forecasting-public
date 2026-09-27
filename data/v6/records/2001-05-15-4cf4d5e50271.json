@@ -1,0 +1,50 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20010515",
+  "fingerprint": {
+    "axes": {
+      "policy": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 0.6,
+      "policy": 0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/2001/20010515/"
+    ],
+    "evidence": "Release Date: May 15, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 4 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "basis",
+      "committee",
+      "date",
+      "decided",
+      "federal",
+      "funds",
+      "immediate",
+      "lower",
+      "market",
+      "meeting",
+      "open",
+      "percent",
+      "points",
+      "rate",
+      "release",
+      "target",
+      "today"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-05-15",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "4cf4d5e5027159f9402d65503e9f2389d73d5d6405a4982205c440fdd6543aab",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010515/",
+  "text": "Release Date: May 15, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 4 percent. In a related action, the Board of Governors approved a 50 basis point reduction in the discount rate to 3-1/2 percent. A significant reduction in excess inventories seems well advanced. Consumption and housing expenditures have held up reasonably well, though activity in these areas has flattened recently. Investment in capital equipment, however, has continued to decline. The erosion in current and prospective profitability, in combination with considerable uncertainty about the business outlook, seems likely to hold down capital spending going forward. This potential restraint, together with the possible effects of earlier reductions in equity wealth on consumption and the risk of slower growth abroad, continues to weigh on the economy. With pressures on labor and product markets easing, inflation is expected to remain contained.  Although measured productivity growth stalled in the first quarter, the impressive underlying rate of increase that developed in recent years appears to be largely intact, supporting longer-term prospects. The Committee continues to believe that against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the risks are weighted mainly toward conditions that may generate economic weakness in the foreseeable future. In taking the discount rate action, the Federal Reserve Board approved requests submitted by the Boards of Directors of the Federal Reserve Banks of New York, Richmond, Chicago, \r\nSt. Louis and San Francisco. 2001 Monetary policy Home | News and events Accessibility Last update: May 15, 2001",
+  "text_sha256": "bd8897f47d40c45a161cdec1b766529d2c6b953f191dd305edb36e527c1bfc01"
+}

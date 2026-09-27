@@ -1,0 +1,51 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20200429",
+  "fingerprint": {
+    "axes": {
+      "oil": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "guidance": 1.0,
+      "oil": 1.0,
+      "policy": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm"
+    ],
+    "evidence": "Total PCE price inflation and core PCE price inflation, which excludes consumer food and energy prices, both increased 1.8 percent over the 12 months ending in February.",
+    "issuer": "FED",
+    "major": "oil",
+    "region": "US",
+    "tokens": [
+      "both",
+      "consumer",
+      "core",
+      "ending",
+      "energy",
+      "excludes",
+      "february",
+      "food",
+      "increased",
+      "inflation",
+      "months",
+      "over",
+      "percent",
+      "price",
+      "prices",
+      "total",
+      "which"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2020.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2020-05-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "67313a6f7fa921eda7bd3d81f57471ce26b81c17746c72a5700249bc2fc94d50",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20200429.htm",
+  "text": "Minutes of the Federal Open Market Committee April 28–29, 2020 A joint meeting of the Federal Open Market Committee and the Board of Governors was held by conference call on Tuesday, April 28, 2020, at 1:00 p.m. and continued on Wednesday, April 29, 2020, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chair John C. Williams, Vice Chair Michelle W. Bowman Lael Brainard Richard H. Clarida Patrick Harker Robert S. Kaplan Neel Kashkari Loretta J. Mester Randal K. Quarles Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, Charles L. Evans, and Michael Strine, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Thomas Laubach, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Michael Dotsey, Joseph W. Gruber, David E. Lebow, Trevor A. Reeve, Ellis W. Tallman, William Wascher, and Mark L.J. Wright, Associate Economists Lorie K. Logan, Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Daniel M. Covitz, 2 Deputy Director, Division of Research and Statistics, Board of Governors; Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors Jon Faust, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors Joshua Gallin, Special Adviser to the Chair, Office of Board Members, Board of Governors Antulio N. Bomfim, Wendy E. Dunn, Ellen E. Meade, Chiara Scotti, and Ivan Vidangos, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Brian M. Doyle, Senior Associate Director, Division of International Finance, Board of Governors; John J. Stevens, Senior Associate Director, Division of Research and Statistics, Board of Governors Edward Nelson, Senior Adviser, Division of Monetary Affairs, Board of Governors Marnie Gillis DeBoer and Min Wei, Associate Directors, Division of Monetary Affairs, Board of Governors; Glenn Follette, Associate Director, Division of Research and Statistics, Board of Governors Eric C. Engstrom, Deputy Associate Director, Division of Monetary Affairs, Board of Governors; Patrick E. McCabe and John M. Roberts, Deputy Associate Directors, Division of Research and Statistics, Board of Governors; Andrea Raffo, Deputy Associate Director, Division of International Finance, Board of Governors; Jeffrey D. Walker, 2 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors Brian J. Bonis and Rebecca Zarutskie, Assistant Directors, Division of Monetary Affairs, Board of Governors; Ricardo Correa, Assistant Director, Division of International Finance, Board of Governors Penelope A. Beattie, 2 Section Chief, Office of the Secretary, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Michele Cavallo, Edward Herbst, and Ander Perez-Orive, Principal Economists, Division of Monetary A\n...[document excerpted]...\nquarter of the year. In addition, a variety of economic indicators were already pointing toward an extraordinary contraction in GDP in the second quarter. Consumer price inflation, as measured by the 12‑month percentage change in the price index for personal consumption expenditures (PCE), remained below 2 percent in February. Job losses surged in March, even though the drop in total nonfarm payroll employment reflected only those changes that had occurred through the mid-month reference period\n...[risk-bearing excerpt]...\nt insurance benefits skyrocketed in the second half of March through the first half of April, a development that pointed to substantial job losses in April. Nominal wage growth remained moderate, as average hourly earnings for all employees increased 3.1 percent over the 12 months ending in March. Total PCE price inflation and core PCE price inflation, which excludes consumer food and energy prices, both increased 1.8 percent over the 12 months ending in February. The trimmed mean measure of 12-\n...[risk-bearing excerpt]...\nof funding available through the discount window and swap lines, and the funding provided through the Primary Dealer Credit Facility (PDCF), the Money Market Mutual Fund Liquidity Facility (MMLF), and the Commercial Paper Funding Facility (CPFF) were likely important in relieving pressures across a range of short-term funding markets. The manager noted that, despite these improvements, rates in some term funding markets remained elevated, although forward measures suggested the upward pressure o\n...[risk-bearing excerpt]...\nors contributing to these developments. That said, market participants remained very uncertain about the economic outlook, and contacts highlighted an array of remaining risks, including those in corporate credit markets, emerging markets, and mortgage markets. In corporate credit markets, concerns about potential defaults were rising, and ratings agencies had put on negative watch or downgraded many issuers. In emerging market\n...[document conclusion]...\nthorities (FIMA Repo Facility). 3 The facility will be in place for at least six months and will allow FIMA account holders to temporarily exchange their U.S. Treasury securities held with the Federal Reserve for U.S. dollars, which can then be made available to institutions in their jurisdictions. By providing foreign and international monetary authorities with an alternative temporary source of U.S. dollars other than sales of securities in the open market, the facility should help support the smooth functioning of the U.S. Treasury market. In addition, the FIMA Repo Facility should—along with the U.S. dollar liquidity swap lines the Federal Reserve has established with other central banks—help ease strains in global U.S. dollar funding markets. By notation vote completed on April 7, 2020, the Committee unanimously approved the minutes of the Committee meeting held on March 15, 2020. _______________________ James A. Clouse Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes. Return to text 2. Attended Tuesday's session only. Return to text 3. Committee organizational documents are available at https://www.federalreserve.gov/monetarypolicy/rules_authorizations.htm . Return to text",
+  "text_sha256": "175c6b807a53b3924b1b96777e9848a669d958f22719b1d2ee6f64c511b58bf6"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20080805",
+  "fingerprint": {
+    "axes": {
+      "inflation": 0.3333333333333333,
+      "liquidity": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/newsevents/press/monetary/20080805a.htm"
+    ],
+    "evidence": "The Committee expects inflation to moderate later this year and next year, but the inflation outlook remains highly uncertain.",
+    "issuer": "FED",
+    "major": "liquidity",
+    "region": "US",
+    "tokens": [
+      "been",
+      "committee",
+      "commodities",
+      "considerable",
+      "earlier",
+      "elevated",
+      "energy",
+      "expectations",
+      "expects",
+      "financial",
+      "further",
+      "have",
+      "high",
+      "highly",
+      "however",
+      "increases",
+      "indicators",
+      "inflation",
+      "labor",
+      "later",
+      "markets",
+      "moderate",
+      "next",
+      "other",
+      "outlook",
+      "prices",
+      "remain",
+      "remains",
+      "softened",
+      "some",
+      "spurred",
+      "stress",
+      "this",
+      "uncertain",
+      "under",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2008.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2008-08-05",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "ee19a40f740cce2e025934ce6ee929148f97029416479687556fba3829d5d44d",
+  "source_url": "https://www.federalreserve.gov/newsevents/press/monetary/20080805a.htm",
+  "text": "August 05, 2008 FOMC statement For immediate release Share The Federal Open Market Committee decided today to keep its target for the federal funds rate at 2 percent. Economic activity expanded in the second quarter, partly reflecting growth in consumer spending and exports. However, labor markets have softened further and financial markets remain under considerable stress. Tight credit conditions, the ongoing housing contraction, and elevated energy prices are likely to weigh on economic growth over the next few quarters. Over time, the substantial easing of monetary policy, combined with ongoing measures to foster market liquidity, should help to promote moderate economic growth. Inflation has been high, spurred by the earlier increases in the prices of energy and some other commodities, and some indicators of inflation expectations have been elevated. The Committee expects inflation to moderate later this year and next year, but the inflation outlook remains highly uncertain. Although downside risks to growth remain, the upside risks to inflation are also of significant concern to the Committee. The Committee will continue to monitor economic and financial developments and will act as needed to promote sustainable economic growth and price stability. Voting for the FOMC monetary policy action were: Ben S. Bernanke, Chairman; Timothy F. Geithner, Vice Chairman; Elizabeth A. Duke; Donald L. Kohn; Randall S. Kroszner; Frederic S. Mishkin; Sandra Pianalto; Charles I. Plosser; Gary H. Stern; and Kevin M. Warsh. Voting against was Richard W. Fisher, who preferred an increase in the target for the federal funds rate at this meeting.",
+  "text_sha256": "67f7b77842d44599f79d71c9fa981f37578b9ddec1d00fe73a7e7387611b2432"
+}

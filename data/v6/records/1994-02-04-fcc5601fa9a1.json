@@ -1,0 +1,42 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:19940204",
+  "fingerprint": {
+    "axes": {
+      "policy": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {},
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/19940204default.htm"
+    ],
+    "evidence": "The action is expected to be associated with a small increase in short-term money market interest rates.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "action",
+      "associated",
+      "expected",
+      "increase",
+      "interest",
+      "market",
+      "money",
+      "rates",
+      "short",
+      "small",
+      "term",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1994-02-04",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "fcc5601fa9a114cb613a7aec998019ca85863c844829a415447aa76d368130d7",
+  "source_url": "https://www.federalreserve.gov/fomc/19940204default.htm",
+  "text": "Release Date: February 4, 1994 For immediate release Chairman Alan Greenspan announced today that the Federal Open Market Committee decided to increase slightly the degree of pressure on reserve positions. The action is expected to be associated with a small increase in short-term money market interest rates. The decision was taken to move toward a less accommodative stance in monetary policy in order to sustain and enhance the economic expansion. Chairman Greenspan decided to announce this action immediately so as to avoid any misunderstanding of the Committee's purposes, given the fact that this is the first firming of reserve market conditions by the Committee since early 1989. Home | Press releases Accessibility | Contact Us Last update: April 20, 2007",
+  "text_sha256": "2a14f87040a6685d557c9273fff5a7bf3fdd40036f6be73aa8a4db53e0e17d7c"
+}

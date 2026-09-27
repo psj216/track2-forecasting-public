@@ -1,0 +1,44 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20040128",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": -0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20040128.htm"
+    ],
+    "evidence": "Core consumer price inflation continued to slow, and inflation expectations remained subdued over the closing months of 2003.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "closing",
+      "consumer",
+      "continued",
+      "core",
+      "expectations",
+      "inflation",
+      "months",
+      "over",
+      "price",
+      "remained",
+      "slow",
+      "subdued"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2004-03-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "c14bd5a5cc64c2790ca565cc3cceb905a91228fdfe0502f2f30993866abe5a14",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20040128.htm",
+  "text": "Minutes of the Federal Open Market Committee January 27-28, 2004 A meeting of the Federal Open \r\n        Market Committee was held in the offices of the Board of Governors of \r\n        the Federal Reserve System in Washington, D.C., starting at 2:00 p.m. \r\n        on Tuesday, January 27, 2004, and continuing at 9:00 a.m. on Wednesday, \r\n        January 28, 2004. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kohn Ms. Minehan Mr. Olson Ms. Pianalto Mr. Poole Messrs. McTeer, Moskow, Santomero, and Stern, Alternate Members of the Federal \r\n        Open Market Committee Messrs. Broaddus, Guynn, and Parry, Presidents of the Federal Reserve \r\n        Banks of Richmond, Atlanta, and San Francisco respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Fuhrer, Hakkio, Howard, Madigan, Rasche, \r\n        Slifman, Sniderman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin 1 , \r\n        Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Oliner and Struckmeyer, Associate Directors, Division of Research \r\n        and Statistics, Board of Governors Messrs. Clouse 1 , \r\n        and Whitesell, Deputy Associate Directors, Division of Monetary Affairs, \r\n        Board of Governors Mr. Kamin and Ms. Zickler 2 , Deputy Associate Directors, Divisions of International Finance and Research \r\n        and Statistics respectively, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, \r\n        Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members,\r\n        Board of Governors Messrs. Nelson and Wood 2 , \r\n        Senior Economists, Divisions of Monetary Affairs and International Finance respectively, Board of Governors Mr. Carpenter 2 , Economist, \r\n        Division of Monetary Affairs, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs,\r\n        Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, \r\n        Board of Governors Messrs. Eisenbeis, Evans, Goodfriend, Ms. Mester, Messrs. Rolnick and \r\n        Rosenblum, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Chicago, \r\n        Richmond, Philadelphia, Minneapolis, and Dallas respectively Messrs. Elsasser and Rudebusch, Vice Presidents, Federal Reserve Banks \r\n        of New York and San Francisco respectively In the agenda for this meeting, it was reported that advices \r\n        of the election of the following members and alternate members of the \r\n        Federal Open Market Committee for the period commencing January 1, 2004, and ending December 31, 2004, had been received \r\n        and that these individuals had executed their oaths of office. The elected members and alternate members were as follows: Timothy F. Geithner, President of the Federal Reserve Bank of New York, \r\n        with a vacancy in the position of alternate member for the Federal Reserve Bank of New York Cathy E. Minehan, President of the Federal Reserve Bank of Boston, with Anthony M. Santomero, President of the Federal Reserve Bank of Philadelphia, \r\n        as alternate Sandra Pianalto, President of the Federal Reserve Bank of Cleveland, \r\n        with Michael H. Moskow, President of the Federal Reserve Bank of Chicago, as \r\n        alternate William Poole, President of the Federal Re\n...[document excerpted]...\nc activity, the labor market was improving \r\n        only slowly, with private payrolls showing a small acceleration in the \r\n        fourth quarter. Core consumer price inflation continued to slow, and inflation \r\n        expectations remained subdued over the closing months of 2003. The December employment report suggested that the labor market had not \r\n        gained as much momentum as previously appeared to be under way. Private \r\n        nonfarm payrolls increased only slightly in that mo\n...[risk-bearing excerpt]...\ne Committee’s \r\n        discussion and decision at its most recent meeting and the Committee’s \r\n        long-run objectives for price stability and sustainable economic growth, \r\n        and shall be based on economic, financial, and monetary developments during \r\n        the intermeeting period. Consistent with Committee practice, the Chairman, \r\n        if feasible, will consult with the Committee before making any adjustment. The amendment to the authorization for domestic open market operat\n...[risk-bearing excerpt]...\n.5 \r\n        of Regulation N shall be referred for review and approval to the Committee. 5. Foreign currency holdings shall be invested to ensure that adequate \r\n        liquidity is maintained to meet anticipated needs and so that each currency \r\n        portfolio shall generally have an average duration of no more than 18 \r\n        months (calculated as Macaulay duration). When appropriate in connection \r\n        with arrangements to provide investment facilities for foreign currency\n...[risk-bearing excerpt]...\npport emerged for the use of particular standard wording to express \r\n        the Committee’s appraisals of the economic outlook and views about \r\n        the balance of risks. Indeed, several members were in favor of discontinuing \r\n        the use of statements regarding the balance of risks to the outlook and \r\n        instead focusing mostly on the reasons for their policy decisions in the \r\n        announcement. At the same time, a\n...[document conclusion]...\noughly \r\n          equal. The probability of an unwelcome fall in inflation has diminished \r\n          in recent months and now appears almost equal to that of a rise in inflation. \r\n          With inflation quite low and resource use slack, the Committee believes \r\n          that it can be patient in removing its policy accommodation. Votes for this action: Messrs. Greenspan, Geithner, \r\n          Bernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Hoenig, Kohn, Ms. Minehan, \r\n          Mr. Olson, Ms. Pianalto, and Mr. Poole. Vote against this action: None. It was agreed that the next meeting of the Committee would be held on \r\n        Tuesday, March 16, 2004. The meeting adjourned at 1:45 p.m. on January 28, 2004. Vincent R. Reinhart Secretary Footnotes 1. Attended Wednesday's \r\n        session only. Return to text 2. Attended portion of meeting \r\n        relating to the Committee's review of the economic outlook. Return to text 3. Secretary’s note: Advice subsequently was received that the selection \r\n        of Mr. Kos as Manager was satisfactory to the board of directors of the \r\n        Federal Reserve Bank of New York. Return to text Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: March 18, 2004, 2:00 PM",
+  "text_sha256": "40ea93c49e0e8e7b4f31b97f77b2b383617a602c3a45d55e534466875e840c0f"
+}

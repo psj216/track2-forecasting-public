@@ -1,0 +1,58 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20021106",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": 0.6,
+      "risk": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20021106.htm"
+    ],
+    "evidence": "Economic activity was still very weak in Argentina and Venezuela, and the Brazilian economy continued to be adversely affected by uncertainties concerning the economic policies of the incoming government.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "adversely",
+      "affected",
+      "aggregate",
+      "argentina",
+      "brazilian",
+      "concerning",
+      "conditions",
+      "continued",
+      "economic",
+      "economy",
+      "further",
+      "government",
+      "incoming",
+      "labor",
+      "market",
+      "october",
+      "policies",
+      "still",
+      "uncertainties",
+      "venezuela",
+      "very",
+      "weak",
+      "weakened"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2002-12-12",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "832617c15f35c8a9920b3d955ff7726e88dcde3a7bccc057eb9dbe6c85c9dd6f",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20021106.htm",
+  "text": "Minutes of the Federal Open Market Committee November 6, 2002 A meeting of the Federal Open Market Committee was held in the offices \r\n        of the Board of Governors of the Federal Reserve System in Washington, \r\n        D.C., on Wednesday, November 6, 2002, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Jordan Mr. Kohn Mr. McTeer Mr. Olson Mr. Santomero Mr. Stern Messrs. Broaddus, Guynn, Moskow, and Parry, Alternate Members of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve \r\n        Banks of Kansas City, Boston, and St. Louis respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Howard, Lindsey, Ms. Mester, Messrs. Oliner, Rosenblum, Sniderman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Messrs. Ettin and Madigan, Deputy Directors, Divisions of Research and Statistics \r\n        and Monetary Affairs respectively, Board of Governors Messrs. Slifman and Struckmeyer, Associate Directors, Division of Research \r\n        and Statistics, Board of Governors Messrs. Kamin and Whitesell, Deputy Associate Directors, Divisions of International Finance and Monetary Affairs respectively, Board of Governors Mr. Clouse, Assistant Director, Division of Monetary Affairs, Board of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, Board of Governors Mr. Nelson, 1 Senior Economist, Division of Monetary Affairs, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Mr. Forte, 1 Senior Technical Editor, Division of Research and Statistics, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Mr. Varvel, First Vice President, Federal Reserve Bank of Richmond Mr. Lang, Executive Vice President, Federal Reserve Bank of Philadelphia Messrs. Eisenbeis, Fuhrer, Goodfriend, Hakkio, Hunter, Judd, Ms. Perelmuter, and Mr. Rasche, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Boston, Richmond, Kansas City, Chicago, San Francisco, New York, and St. Louis respectively Mr. Peach, Vice President, Federal Reserve Bank of New York Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis 1. Attended portion of meeting relating to the discussion of alternatives to holding Treasury securities in the System Open Market Account. Return to text By unanimous vote, the minutes of the meeting of the Federal Open Market \r\n        Committee held on September 24, 2002, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period September 24, 2002, through November 5, 2002.  By unanimous vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and financial outlook and the conduct of monetary policy over the intermeeting period ahead. The information reviewed at this meeting suggested that economic growth had slowed from the moderate \n...[document excerpted]...\nrial production had slipped in recent months and private payroll employment had changed little, while labor productivity remained on a strong upward trend. Overall price inflation had fallen over the past year, reflecting both favorable developments in the food and energy sectors and a continuing decline in core inflation. Aggregate labor market conditions weakened further in October. Private nonfarm payroll employment declined in September and October after four previous months of modest gains\n...[risk-bearing excerpt]...\non 2003 models were smaller in September, and consumer response was tepid. Retail sales of non-auto goods also decreased in September after having registered only modest growth in July and August. Outlays for services edged up in September. Residential housing activity, supported by mortgage rates near historical lows, remained very strong in September despite an environment of sluggish employment and declining household wealth. Starts of single-family units reached a twenty-three year high in S\n...[risk-bearing excerpt]...\nrast, the services sector continued to expand despite job reductions in the help-supply industry, and the strong housing market and mortgage refinancing activity led to brisk hiring in the finance, insurance, and real estate industries. Total hours worked by private production workers moved down in October, and initial claims for unemployment insurance were at a relatively elevated rate. The civilian unemployment rate rose to 5.7 percent in October. Industrial production decreased slightly furth\n...[risk-bearing excerpt]...\nconditions generally remained fragile. Economic activity was still very weak in Argentina and Venezuela, and the Brazilian economy continued to be adversely affected by uncertainties concerning the economic policies of the incoming government. Mexico has been largely unaffected by the financial and political problems of major South American countries, but it nonetheless experienced slower economic growth in the third quarter. C\n...[document conclusion]...\nCACF) as a full substitute for open market operations. Many of the members commended the staff for its careful assessment of the potential for such operations. The members concluded, however, that significant resources should not be assigned at this time to the further study of these alternatives to open market operations given the prospects for an enlarged supply of Treasury obligations, the decision to focus on Ginnie Maes, and the introduction of a new discount window program, the System's primary credit facility, scheduled for implementation in early 2003. In addition, the CACF had been made unnecessary by the implementation of contingency plans and backup facilities since September 2001. The members concurred with the staff's recommendation that the staff studies prepared for the Committee in January 2001, when it discussed in detail various alternatives to holding U.S. government securities, should be released to the public after light editing was completed. It was agreed that the next meeting of the Committee would be held on Tuesday, December 10, 2002. The meeting adjourned at 1:55 p.m. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: December 12, 2002, 2:00 \r\n        PM",
+  "text_sha256": "3724d2b784fa1f10e6a415462f1ff5873a3e6223741463a6f527e7de99c06d35"
+}

@@ -1,0 +1,45 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20030812",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0,
+      "guidance": 1.0,
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20030812.htm"
+    ],
+    "evidence": "Despite a recent uptick in consumer prices, year-over-year consumer inflation remained at a very low level.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "consumer",
+      "despite",
+      "inflation",
+      "level",
+      "over",
+      "prices",
+      "recent",
+      "remained",
+      "uptick",
+      "very",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-09-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f1c9d4e95ef2317577a7be0dbecf2b0b032a947d3049e64305ef0bd06ed92cc5",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20030812.htm",
+  "text": "Minutes of the Federal Open Market Committee August 12, 2003 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, August 12, 2003, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Bernanke Ms. Bies Mr. Broaddus Mr. Ferguson Mr. Gramlich Mr. Guynn Mr. Kohn Mr. Moskow Mr. Olson Mr. Parry Mr. Hoenig, Mses. Minehan and Pianalto, Messrs. Poole and Stewart, Alternate Members of the Federal Open Market Committee Messrs. McTeer, Santomero, and Stern, Presidents of the Federal Reserve Banks of Dallas, Philadelphia, and Minneapolis respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Eisenbeis, Evans, Goodfriend, Howard, Judd, Madigan, Struckmeyer, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Divisions of Research and Statistics, Board of Governors Messrs. Slifman and Oliner, Associate Directors, Division of Research and Statistics, Board of Governors Mr. Whitesell, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Mr. Clouse, Assistant Director, Division of Monetary Affairs, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Mr. Moore, First Vice President, Federal Reserve Bank of Cleveland Mr. Hakkio, Ms. Mester, Messrs. Rasche and Sniderman, Senior Vice Presidents, Federal Reserve Banks of Kansas City, Philadelphia, St. Louis, and Cleveland respectively Ms. Hargraves and Mr. Tootell, Vice Presidents, Federal Reserve Banks of New York and Boston respectively Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on June 24-25, 2003, were approved. By unanimous vote, Charles L. Evans and Brian F. Madigan were elected as Associate Economists of the Committee to serve until the election of their successors at the first regularly scheduled meeting of the Committee after December 31, 2003, with the understanding that in the event of the discontinuance of their official connection with the Board of Governors or with a Federal Reserve Bank, they would cease to have any official connection with the Federal Open Market Committee. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period May 6, 2003, through June 24, 2003.  By unanimous vote, the Committee ratified these transactions. The information reviewed at this meeting suggested that economic activity was mixed in late spring and early summer.  The labor market remained weak, and industrial production improved only slightly.  Consumer spending, however, advanced further, with brisk growth in expenditures on autos and other durables and more modest expansion in other categories.  Homebuilding continued at a robust rate, b\n...[document excerpted]...\nbut these gains were partially offset by fiscal restraint at the state and local government levels.  Despite a recent uptick in consumer prices, year-over-year consumer inflation remained at a very low level. Private nonfarm payroll employment fell in both June and July.  Notable losses occurred in manufacturing over the two months, continuing the trend of previous months.  Wholesale and retail trade, transportation and utilities, as well as information sectors also reduced their workforces fur\n...[risk-bearing excerpt]...\na brisk rise in purchases of motor vehicles and other durable goods.  Consumption of other goods rose more moderately.  Declines in spending on energy in June held down growth in services expenditures.  Real disposable income posted a modest gain in the second quarter, and likely was lifted further in July by reduced tax withholding and by refund checks that were mailed out.  Consumer confidence readings were mixed in June and July but remained well above their lows earlier in the year. Boosted\n...[risk-bearing excerpt]...\ntened the prospects for substantial further strengthening of the economy. The members acknowledged that the magnitude of the improvement remained subject to considerable uncertainty, notably with regard to the prospects for business expenditures, and they cited both upside and downside risks to forecasts of a more vigorous expansion. Concerning the prospects for inflation, members expressed the view that even if growth somewhat above the economy's potential were to materialize over the next seve\n...[risk-bearing excerpt]...\ness was temporary.  GDP growth in the United Kingdom showed a moderate rebound in the second quarter. Overall consumer prices rose a bit in June, led by increases in the volatile food and energy categories.  Core consumer prices, however, were unchanged for the month.  Over the twelve-month period ending in June, the increase in core consumer prices as measured by both the consumer price index and the chain-type personal consump\n...[document conclusion]...\n downside; and, taken together, the balance of risks to its objectives is weighted toward the downside in the foreseeable future. It was agreed that the next regular meeting of the Committee would be held on Tuesday, September 16, 2003. The meeting adjourned at 1:15 p.m. On September 15, 2003, the Committee met to review its practices regarding the communication of its policy decisions and its assessment of the risks to its objectives of fostering sustainable economic growth and price stability.  After a detailed discussion of the issues, the Committee elected not to make substantial changes in its current approach to the policy announcement at this time.  Although a variety of views was expressed, most members felt that current practices were generally appropriate in providing information to the public about the rationale for the Committee's decisions and its views about the risks to future economic performance.  Nonetheless, members recognized that going forward they might, from time to time, consider changes that might improve the Committee's communication of its assessment of the economic situation. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: September 18, 2003, 2:00 PM",
+  "text_sha256": "92ffcc8ecccb5da16cfd01063c49bc1abab1c76d461c79f316e621c6b7a9593d"
+}

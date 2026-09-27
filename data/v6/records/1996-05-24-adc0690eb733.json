@@ -1,0 +1,45 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19960326",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -2.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19960326.htm"
+    ],
+    "evidence": "On balance, however, growth of economic activity appeared to have picked up after having slowed appreciably in late 1995.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "after",
+      "appeared",
+      "appreciably",
+      "balance",
+      "economic",
+      "growth",
+      "have",
+      "having",
+      "however",
+      "late",
+      "picked",
+      "slowed"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1996-05-24",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "adc0690eb733692e915b0547c799c6ffc4cfa51c9a828233b2c991fb367413f1",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19960326.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of March 26, 1996 A meeting of the Federal Open Market Committee was held in\r\n\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\n\r\nWashington, D.C., on Tuesday, March 26, 1996, at 8:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Boehne Mr. Jordan Mr. Kelley Mr. Lindsey Mr. McTeer Ms. Phillips Mr. Stern Ms. Yellen Messrs. Broaddus, Guynn, Moskow, and Parry,\r\n                       Alternate Members of the Federal Open Market\r\n                       Committee Messrs. Hoenig and Melzer, and Ms. Minehan,\r\n                       Presidents of the Federal Reserve Banks of\r\n                       Kansas City, St. Louis, and Boston\r\n                       respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Lang, Mishkin, Promisel, Rolnick,\r\n                       Rosenblum, Siegman, Simpson, Sniderman, and\r\n                       Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research\r\n                       and Statistics, Board of Governors Mr. Reinhart, Assistant Director, Division of\r\n                       Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Mr. Stone, First Vice President, Federal Reserve\r\n\t\t\tBank of Philadelphia Messrs. Davis, Dewald, Goodfriend, and Hunter,\r\n                       Senior Vice Presidents, Federal Reserve Banks\r\n                       of Kansas City, St. Louis, Richmond, and\r\n                       Chicago respectively Mr. Judd, Ms. Rosenbaum, and Mr. Rosengren,\r\n\t\t\tVice Presidents, Federal Reserve Banks of San\r\n                       Francisco, Atlanta, and Boston respectively Mr. Bentley, Assistant Vice President, Federal\r\n \t\t\tReserve Bank of New York By unanimous vote, the minutes of the meeting of the Federal Open\r\nMarket Committee held on January 30-31, 1996, were approved. The Manager of the System Open Market Account reported on develop-\r\nments in foreign exchange markets during the period January 31, 1996,\r\nthrough March 25, 1996.  There were no open market transactions in\r\nforeign currencies for System account during this period, and thus no\r\nvote was required of the Committee. The Manager also reported on developments in domestic financial\r\nmarkets and on System open market transactions in government\r\nsecurities and federal agency obligations during the period January\r\n31, 1996, through March 25, 1996.  By unanimous vote, the Committee\r\nratified these transactions. The Committee then turned to a discussion of the economic and\r\nfinancial outlook and the implementation of monetary policy over the\r\nintermeeting period ahead.  A summary of the economic and financial\r\ninformation available at the time of the meeting and of the\r\nCommittee's discussion is provided below, followed by the domestic\r\npolicy directive that was approved by the Committee and issued to the\r\nFederal Reserve Bank of New York. Much of the information reviewed at this meeting had been\r\ninfluenced to an uncertain degree by unusually severe winter weather,\r\nindustrial strikes, and U.S. government shutdowns.  On balance,\r\nhowever, growth of economic activity appeared to have picked up after\r\nhaving slowed appreciably in late 1995.  Growth in consumer spending\r\nseemed to have \n...[document excerpted]...\nir inventories under control, industrial production and\r\nemployment had rebounded briskly.  The recent data on prices gave\r\nlittle indication of any change in underlying inflation trends. A surge in nonfarm payroll employment in February\r\nconsiderably more than offset a large weather-related drop in January.\r\nVery large job gains were recorded in February in the construction,\r\nretail trade, and services industries; however, some of these\r\nincreases reflected the reversal of the depressing effect\n...[risk-bearing excerpt]...\nnts warrant a policy change.\r\nAccordingly, the directive stated that in the context of the\r\nCommittee's long-run objectives for price stability and sustainable\r\neconomic growth, and giving careful consideration to economic,\r\nfinancial, and monetary developments, slightly greater reserve\r\nrestraint or slightly lesser reserve restraint would be acceptable\r\nduring the intermeeting period.  The reserve conditions associated\r\nwith this directive were expected to be consistent with moderate\r\ngrowth of\n...[risk-bearing excerpt]...\nat the risks to such a forecast appeared to have\r\nshifted from being predominantly on the downside earlier in the year\r\nto better balanced currently.  Still, substantial uncertainties\r\nattended the economic outlook, and a number of members observed that\r\nan economic performance that differed considerably in either direction\r\nfrom their current forecasts might well materialize over the\r\nprojection period.  Regarding the outlook for inflation, members'\r\nassessments tended to center on expectations\n...[risk-bearing excerpt]...\ncent months.  At\r\nthe consumer level, food prices continued to edge up in February and\r\nenergy prices again were under appreciable upward pressure.  Excluding\r\nthe often-volatile food and energy items, consumer prices advanced in\r\nFebruary at a slightly slower rate than in January; and for the twelve\r\nmonths ended in February, consumer prices rose a little less than in\r\nthe comparable year-earlier period.  At the producer leve\n...[document conclusion]...\nin\r\n    the light of progress toward price level stability,\r\n    movements in their velocities, and developments in the\r\n    economy and financial markets. In the implementation of policy for the immediate\r\n    future, the Committee seeks to maintain the existing\r\n    degree of pressure on reserve positions.  In the\r\n    context of the Committee's long-run objectives for\r\n    price stability and sustainable economic growth, and\r\n    giving careful consideration to economic, financial,\r\n    and monetary developments, slightly greater reserve\r\n    restraint or slightly lesser reserve restraint would be\r\n    acceptable in the intermeeting period.  The\r\n    contemplated reserve conditions are expected to be\r\n    consistent with moderate growth in M2 and M3 over\r\n    coming months. Votes for this action: Messrs. Greenspan,\r\n    \tMcDonough, Boehne, Jordan, Kelley, Lindsey,\r\n    \tMcTeer, Ms. Phillips, Mr. Stern, and Ms. Yellen. Votes against this action: None. It was agreed that the next meeting of the Committee would\r\nbe held on Tuesday, May 21, 1996. The meeting adjourned at 10:35 a.m. Donald L. Kohn Secretary [Return to top] Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: July 16, 1996 12:00 PM",
+  "text_sha256": "ed368fbd7af25212c9a9cd5d823d1c84bba8deac5c545164ec92a07e5c0ad128"
+}

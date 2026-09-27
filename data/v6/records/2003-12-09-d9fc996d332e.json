@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20031209",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0,
+      "inflation": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20031209/default.htm"
+    ],
+    "evidence": "The evidence accumulated over the intermeeting period confirms that output is expanding briskly, and the labor market appears to be improving modestly.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "accumulated",
+      "appears",
+      "briskly",
+      "confirms",
+      "evidence",
+      "expanding",
+      "improving",
+      "intermeeting",
+      "labor",
+      "market",
+      "modestly",
+      "output",
+      "over",
+      "period",
+      "that"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-12-09",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "d9fc996d332e012187f9f96e4e66ae28938bac36beca4e54a395af193d6cba8f",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20031209/default.htm",
+  "text": "Release Date: December 9, 2003 For immediate release The Federal Open Market Committee decided today to keep its target for \r\n        the federal funds rate at 1 percent. The Committee continues to believe that an accommodative stance of monetary \r\n        policy, coupled with robust underlying growth in productivity, is providing \r\n        important ongoing support to economic activity. The evidence accumulated \r\n        over the intermeeting period confirms that output is expanding briskly, \r\n        and the labor market appears to be improving modestly. Increases in core \r\n        consumer prices are muted and expected to remain low. The Committee perceives \r\n        that the upside and downside risks to the attainment of sustainable growth \r\n        for the next few quarters are roughly equal. The probability of an unwelcome \r\n        fall in inflation has diminished in recent months and now appears almost \r\n        equal to that of a rise in inflation. However, with inflation quite low \r\n        and resource use slack, the Committee believes that policy accommodation \r\n        can be maintained for a considerable period. Voting for the FOMC monetary policy action were: Alan Greenspan, Chairman; \r\n        Timothy F. Geithner, Vice Chairman; Ben S. Bernanke; Susan S. Bies; J. \r\n        Alfred Broaddus, Jr.; Roger W. Ferguson, Jr.; Edward M. Gramlich; Jack \r\n        Guynn; Donald L. Kohn; Michael H. Moskow; Mark W. Olson; and Robert T. \r\n        Parry. 2003 Monetary policy Home | News and \r\nevents Accessibility Last update: December 9, 2003",
+  "text_sha256": "4f547bee373d59539c8e3425fe63c90402296964a6e2613c3f940a246110477d"
+}

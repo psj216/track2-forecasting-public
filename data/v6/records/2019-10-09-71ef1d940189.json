@@ -1,0 +1,52 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20190918",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": -0.6,
+      "inflation": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190918.htm"
+    ],
+    "evidence": "likely bind in most future recessions, which could make it more difficult for the FOMC to achieve its longer-run objectives of maximum employment and symmetric 2 percent inflation.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "achieve",
+      "bind",
+      "could",
+      "difficult",
+      "employment",
+      "fomc",
+      "future",
+      "inflation",
+      "likely",
+      "longer",
+      "make",
+      "maximum",
+      "more",
+      "most",
+      "objectives",
+      "percent",
+      "recessions",
+      "symmetric",
+      "which"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2019.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2019-10-09",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "71ef1d9401896192874e897c4099692cc0866e4d2aa5ee46a6288721a9219066",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20190918.htm",
+  "text": "Minutes of the Federal Open Market Committee September 17–18, 2019 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, September 17, 2019, at 10:15 a.m. and continued on Wednesday, September 18, 2019, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chair John C. Williams, Vice Chair Michelle W. Bowman Lael Brainard James Bullard Richard H. Clarida Charles L. Evans Esther L. George Randal K. Quarles Eric Rosengren Patrick Harker, Robert S. Kaplan, Neel Kashkari, Loretta J. Mester, and Michael Strine, Alternate Members of the Federal Open Market Committee Thomas I. Barkin, Raphael W. Bostic, and Mary C. Daly, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist Stacey Tevlin, Economist Rochelle M. Edge, Eric M. Engen, William Wascher, Jonathan L. Willis, and Beth Anne Wilson, Associate Economists Lorie K. Logan, Manager pro tem, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Eric Belsky, 2 Director, Division of Consumer and Community Affairs, Board of Governors; Matthew J. Eichner, 3 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Trevor A. Reeve, Deputy Director, Division of Monetary Affairs, Board of Governors Jon Faust, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors Joshua Gallin, Special Adviser to the Chair, Office of Board Members, Board of Governors Brian M. Doyle, Wendy E. Dunn, Joseph W. Gruber, Ellen E. Meade, and Ivan Vidangos, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Shaghil Ahmed, Senior Associate Director, Division of International Finance, Board of Governors Antulio Bomfim, Jane E. Ihrig, and Edward Nelson, Senior Advisers, Division of Monetary Affairs, Board of Governors; Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board of Governors David López-Salido, Associate Director, Division of Monetary Affairs, Board of Governors; John J. Stevens, Associate Director, Division of Research and Statistics, Board of Governors Andrew Figura and John M. Roberts, Deputy Associate Directors, Division of Research and Statistics, Board of Governors; Christopher J. Gust, Deputy Associate Director, Division of Monetary Affairs, Board of Governors; Matteo Iacoviello and Andrea Raffo, 2 Deputy Associate Directors, Division of International Finance, Board of Governors; Jeffrey D. Walker, 3 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors Zeynep Senyuz, 4 Assistant Director, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, 5 Assistant to the Secretary, Office of the Secretary, Board of Governors Martin Bodenstein, 2 Section Chief, Division of International Finance, Boar\n...[document excerpted]...\nlikely bind in most future recessions, which could make it more difficult for the FOMC to achieve its longer-run objectives of maximum employment and symmetric 2 percent inflation. The staff discussed several options for mitigating ELB risks, including using forward guidance and balance sheet policies earlier and more aggressively than in the past. The staff also illustrated the properties of \"makeup\" strategies using model simulations. Under such strategies, policymakers would promise to make u\n...[risk-bearing excerpt]...\nal financial markets were volatile over the intermeeting period, with market participants reacting to incoming information about U.S.–China trade tensions and the global growth outlook. In the weeks following the July FOMC meeting, U.S. yields declined sharply and risk asset prices fell amid a spate of largely negative news about risks to the global economic outlook. These price moves reversed to some degree in September as developments on trade and economic data turned more positive. On net, Tr\n...[risk-bearing excerpt]...\nnior Financial Officer Survey about their lowest comfortable level of reserves rather than lend in repo markets. Money market mutual funds reportedly also held back some liquidity in order to cushion against potential outflows. Rates on overnight Treasury repurchase agreements rose to over 5 percent on September 16 and above 8 percent on September 17. Highly elevated repo rates passed through to rates in unsecured markets. Federal Home Loan Banks reportedly scaled back their lending in the feder\n...[risk-bearing excerpt]...\neconomy that had lowered the longer-run real short-term interest rate and thus the neutral level of the policy rate. In this context, a couple of participants noted that uncertainty about the neutral rate made it especially challenging to determine any appropriate changes to the current framework. In light of a low neutral rate and shortfalls of inflation below the 2 percent objective for several years, some participants raise\n...[document conclusion]...\nate paid on required and excess reserve balances to 1.80 percent and voted unanimously to approve a 1/4 percentage point decrease in the primary credit rate to 2.50 percent, effective September 19, 2019. It was agreed that the next meeting of the Committee would be held on Tuesday–Wednesday, October 29–30, 2019. The meeting adjourned at 10:40 a.m. on September 18, 2019. Notation Vote By notation vote completed on August 20, 2019, the Committee unanimously approved the minutes of the Committee meeting held on July 30–31, 2019. _______________________ James A. Clouse Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes. Return to text 2. Attended through the discussion of the review of the monetary policy framework. Return to text 3. Attended through the discussion of developments in financial markets and open market operations. Return to text 4. Attended the discussion of developments in financial markets and open market operations. Return to text 5. Attended Tuesday's session only. Return to text 6. Attended the discussion of the review of the monetary policy framework through the end of the meeting. Return to text 7. Attended opening remarks for Tuesday session only. Return to text",
+  "text_sha256": "0f5cdf7461df3b6e9dd99096306e062f311248a1df31fccc83c839df575c8643"
+}

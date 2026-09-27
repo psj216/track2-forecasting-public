@@ -1,0 +1,45 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19940816",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1994/19940816min.htm"
+    ],
+    "evidence": "Growth in consumer spending had slowed in recent months, owing in part to constraints on the supply of motor vehicles.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "constraints",
+      "consumer",
+      "growth",
+      "months",
+      "motor",
+      "owing",
+      "part",
+      "recent",
+      "slowed",
+      "spending",
+      "supply",
+      "vehicles"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1994-09-30",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "64b4e490240bd59b7bfd2cc0164e043f7cdd94fa8aefd42b3e7960157f13c637",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1994/19940816min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting \r\n    of August 16, 1994 A meeting of the Federal Open Market Committee was held in \r\n  the offices of the Board of Governors of the Federal Reserve System in \r\n  Washington, D.C., on Tuesday, August 16, 1994, at 9:00  a.m. PRESENT : Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Broaddus Mr. Forrestal Mr. Jordan Mr. Kelley Mr. LaWare Mr. Lindsey Mr. Parry Ms. Phillips Ms. Yellen Messrs. Conrad, Hoenig, Melzer, and Ms. Minehan, Alternate Members of the Federal Open Market Committee Messrs. Boehne, McTeer, and Stern, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Patrikis, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Beebe, Goodfriend, Lindsey, Promisel, Siegman, Simpson, Stockton, and Ms. Tschinkel, Associate Economists Ms. Lovett, Manager for Domestic Operations, System Open Market Account Mr. Fisher, Manager for Foreign Operations, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Slifman, Associate Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Messrs. Bennett, Davis, Dewald, Rosenblum, and Vander Wilt, Senior Vice Presidents, Federal Reserve Banks of New York, Kansas City, St. Louis, Dallas, and Chicago respectively Messrs. McNees, Meyer, and Sniderman, Vice Presidents, Federal Reserve Banks of Boston, Philadelphia, and Cleveland respectively Ms. Meulendyke, Assistant Vice President, Federal Reserve Bank of New York Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis Secretary's Note: Advice had been received that Janet L. Yellen had \r\n    executed her oath of office as member of the Federal Open \r\n    Market Committee. Advice also had been received of the election of \r\n    Cathy E. Minehan by the boards of directors of the Federal \r\n    Reserve Banks of Boston, Philadelphia, and Richmond as \r\n    alternate member of the Federal Open Market Committee for the \r\n    period ending December 31, 1994, and that she had executed \r\n    her oath of office; and of the election of William C. Conrad \r\n    by the boards of directors of the Federal Reserve Banks of \r\n    Cleveland and Chicago as alternate member of the Federal Open \r\n    Market Committee for the period ending with the appointment \r\n    of a president for the Federal Reserve Bank of Chicago or \r\n    December 31, 1994, whichever comes first, and that he had \r\n    executed his oath of office. By unanimous vote, the minutes of the meeting of the Federal \r\n  Open Market Committee held on July 5-6, 1994, were approved. The Manager for Foreign Operations reported on developments \r\n  in foreign exchange markets during the period since the July meeting. \r\n  There were no System open market transactions in foreign currencies \r\n  during this period, and thus no vote was required of the Committee. The Manager for Domestic Operations reported on developments \r\n  in domestic financial markets and on System open market transactions \r\n  in government securities and federal agency obligations during the \r\n  period July 6, 1994, through August 15, 1994. By unanimous vote, the \r\n  Committee ratified these transactions. The Committee then turned to a discu\n...[document excerpted]...\ntrend lower over the next several quarters to a rate \r\n  generally in line with the increase in its potential. Under these \r\n  circumstances, trends in the core rate of inflation would not deviate \r\n  significantly from recent experience, but there was a risk that such \r\n  an outcome might require further monetary policy tightening. Growth \r\n  in consumer spending was projected to slow in response to smaller \r\n  gains in employment and income, some reductions in pent-up demands, \r\n  and the adv\n...[risk-bearing excerpt]...\nnd producer prices had remained moderate in \r\n  recent months, apart from the effects of short-run swings in the \r\n  volatile food and energy components. Nonfarm payroll employment continued to advance at a robust \r\n  pace in July. Hiring in the services industries remained strong, with \r\n  personnel supply agencies posting another sizable increase. Jobs also \r\n  were up substantially in retail trade and construction. By contrast, \r\n  employment in manufacturing was held down by strike activity.\n...[risk-bearing excerpt]...\nonsumer goods. The overall rate of capacity \r\n  utilization in manufacturing remained at a high level, with most major \r\n  industry groups operating at or near capacity. Growth in consumer spending had slowed in recent months, \r\n  owing in part to constraints on the supply of motor vehicles. Nominal \r\n  retail sales edged lower in July after expanding at a slightly reduced \r\n  pace in the second quarter. Sales at general merchandise and \r\n  furniture and appliance stores increased further in Jul\n...[risk-bearing excerpt]...\nJune decline but remained below their elevated rate in the fourth \r\n  quarter of 1993. Business fixed investment expanded in the second quarter at \r\n  about the same brisk pace as in the first quarter but well below the \r\n  rate recorded in 1993. In the second quarter, a strong recovery in \r\n  nonresidential construction activity from the weather-related decline \r\n  of the first quarter offset a marked slowing in business purch\n...[document conclusion]...\nr velocities, and developments in the \r\n    economy and financial markets. In the implementation of policy for the immediate \r\n    future, the Committee seeks to increase somewhat the \r\n    existing degree of pressure on reserve positions, \r\n    taking account of a possible increase in the discount \r\n    rate. In the context of the Committee's long-run \r\n    objectives for price stability and sustainable economic \r\n    growth, and giving careful consideration to economic, \r\n    financial, and monetary developments, slightly greater \r\n    reserve restraint or slightly lesser reserve restraint \r\n    would be acceptable in the intermeeting period. The \r\n    contemplated  reserve conditions are  expected to be  \r\n    consistent with modest growth in M2  and M3  over coming  \r\n    months. Votes for this action: Messrs. Greenspan, \r\n    McDonough, Blinder, Broaddus, Forrestal, Jordan, \r\n    Kelley, LaWare, Lindsey, and Parry and Mses. \r\n    Phillips and Yellen. Votes against this action: None. It was agreed that the next meeting of the Committee would \r\n  be held on Tuesday, September 27, 1994. The meeting adjourned at 12:30 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "9b69a778f3b714867d712238b6adba402400a13e4bb8b22854a7a35fd2c3f110"
+}

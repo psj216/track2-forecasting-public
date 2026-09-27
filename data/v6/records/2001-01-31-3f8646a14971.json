@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20010131",
+  "fingerprint": {
+    "axes": {
+      "policy": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {},
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/2001/20010131/"
+    ],
+    "evidence": "Release Date: January 31, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 5-1/2 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "basis",
+      "committee",
+      "date",
+      "decided",
+      "federal",
+      "funds",
+      "immediate",
+      "january",
+      "lower",
+      "market",
+      "meeting",
+      "open",
+      "percent",
+      "points",
+      "rate",
+      "release",
+      "target",
+      "today"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-01-31",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "3f8646a1497104bd953814b4960ee6e3aaf04ab0a8183e8ded3983f631395d30",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20010131/",
+  "text": "Release Date: January 31, 2001 For immediate release The Federal Open Market Committee at its meeting today decided to lower its target for the federal funds rate by 50 basis points to 5-1/2 percent. In a related action, the Board of Governors approved a 50 basis point reduction in the discount rate to 5 percent. Consumer and business confidence has eroded further, exacerbated by rising energy costs that continue to drain consumer purchasing power and press on business profit margins.  Partly as a consequence, retail sales and business spending on capital equipment have weakened appreciably. In response, manufacturing production has been cut back sharply, with new technologies appearing to have accelerated the response of production and demand to potential excesses in the stock of inventories and capital equipment. Taken together, and with inflation contained, these circumstances have called for a rapid and forceful response of monetary policy.  The longer-term advances in technology and accompanying gains in productivity, however, exhibit few signs of abating and these gains, along with the lower interest rates, should support growth of the economy over time. Nonetheless, the Committee continues to believe that against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the risks are weighted mainly toward conditions that may generate economic weakness in the foreseeable future. In taking the discount rate action, the Federal Reserve Board approved requests submitted by the Boards of Directors of the Federal Reserve Banks of New York, Philadelphia, Cleveland, Atlanta, Chicago, St. Louis, Minneapolis, Dallas and San Francisco. 2001 Monetary policy Home | News and events Accessibility Last update: January 31, 2001",
+  "text_sha256": "2ea588949fe33de4c10de16946f9aaa3ae674fb20e4a3f2f4de9f695dfb5a2da"
+}

@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20210922",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.3333333333333333
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "guidance": 0.6,
+      "inflation": -0.3333333333333333
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20210922.htm"
+    ],
+    "evidence": "e inflation in June and July—as measured by the 12‑month percentage change in the personal consumption expenditures (PCE) price index was elevated.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "ahead",
+      "based",
+      "change",
+      "compensation",
+      "consumption",
+      "elevated",
+      "expenditures",
+      "forward",
+      "four",
+      "implied",
+      "increased",
+      "index",
+      "inflation",
+      "intermeeting",
+      "july",
+      "june",
+      "measured",
+      "modestly",
+      "month",
+      "over",
+      "percentage",
+      "period",
+      "personal",
+      "price",
+      "protected",
+      "securities",
+      "tips",
+      "treasury",
+      "years"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2021-10-13",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "a185412fc362b22163e5076dade2dff3f1a2dbba7501397bcb87712c7d2a21a0",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20210922.htm",
+  "text": "Minutes of the Federal Open Market Committee September 21–22, 2021 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held by videoconference on Tuesday, September 21, 2021, at 1:00 p.m. and continued on Wednesday, September 22, 2021, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chair John C. Williams, Vice Chair Thomas I. Barkin Raphael W. Bostic Michelle W. Bowman Lael Brainard Richard H. Clarida Mary C. Daly Charles L. Evans Randal K. Quarles Christopher J. Waller James Bullard, Esther L. George, Naureen Hassan, Loretta J. Mester, and Eric Rosengren, Alternate Members of the Committee Patrick Harker, Robert S. Kaplan, and Neel Kashkari, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist David Altig, Brian M. Doyle, Rochelle M. Edge, Sylvain Leduc, Anna Paulson, and William Wascher, Associate Economists Lorie K. Logan, Manager, System Open Market Account Patricia Zobel, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board; Michael S. Gibson, Director, Division of Supervision and Regulation, Board; Andreas Lehnert, Director, Division of Financial Stability, Board Sally Davies, Deputy Director, Division of International Finance, Board Jon Faust and Joshua Gallin, Senior Special Advisers to the Chair, Division of Board Members, Board William F. Bassett, Antulio N. Bomfim, Burcu Duygan-Bump, Jane E. Ihrig, Kurt F. Lewis, Chiara Scotti, and Nitish R. Sinha, Special Advisers to the Board, Division of Board Members, Board Linda Robertson, Assistant to the Board, Division of Board Members, Board Marnie Gillis DeBoer, Senior Associate Director, Division of Monetary Affairs, Board; Susan V. Foley, 2 Senior Associate Director, Division of Reserve Bank Operations and Payment Systems, Board; Diana Hancock and David E. Lebow, Senior Associate Directors, Division of Research and Statistics, Board Don H. Kim, Edward Nelson, and Annette Vissing-Jørgensen, Senior Advisers, Division of Monetary Affairs, Board; Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board Andrew Figura and Elizabeth K. Kiser, Associate Directors, Division of Research and Statistics, Board; Paul R. Wood, Associate Director, Division of International Finance, Board Eric C. Engstrom, Deputy Associate Director, Division of Monetary Affairs, Board; Patrick E. McCabe, Deputy Associate Director, Division of Research and Statistics, Board; Skander Van den Heuvel, Deputy Associate Director, Division of Financial Stability, Board; Jeffrey D. Walker 2 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board Brian J. Bonis and Etienne Gagnon, Assistant Directors, Division of Monetary Affairs, Board Penelope A. Beattie, 3 Section Chief, Office of the Secretary, Board; Deepa D. Datta, 4 Section Chief, Division of International Finance, Board Michele Cavallo, Camelia Minoiu, and Anna Orlik, Principal Economists, Division of Monetary Affairs, Board Randall A. Williams, Lead Information Manager, Division of Monetary Affairs, Board David Na, Senior Financial Institution Policy Analyst, Division of Monetary Affairs, Board Meredith Black, First Vice President, Federal Reserve Bank of Dal\n...[document excerpted]...\nand median respondents to the Open Market Desk's Survey of Primary Dealers marked down projections for gross domestic product (GDP) growth and revised up projections for inflation this year. Nonetheless, expectations for the trajectory of growth beyond 2021 were little changed. Implied forward inflation compensation two to four years ahead based on Treasury Inflation-Protected Securities (TIPS) increased modestly over the intermeeting period. Regarding the outlook for monetary policy, market par\n...[risk-bearing excerpt]...\ne inflation in June and July—as measured by the 12‑month percentage change in the personal consumption expenditures (PCE) price index was elevated. Total nonfarm payroll employment increased sharply in July but rose much less rapidly in August, with job gains in the leisure and hospitality sector slowing to zero. In addition, state and local government employment was reported to have fallen in August, though abnormal seasonal swings had likely distorted recent readings for this sector. As of Aug\n...[risk-bearing excerpt]...\nrown recently about the possible implications of developments in China. The manager turned next to a discussion of money markets and Federal Reserve operations. Domestic funding conditions were stable over the period. The federal funds rate edged lower amid ongoing increases in reserves, but it remained well within the target range; the Secured Overnight Financing Rate (SOFR) was steady at 5 basis points. Participation in the overnight reverse repurchase agreement (ON RRP) facility increased to\n...[risk-bearing excerpt]...\ne debt limit. Yields on Treasury bills maturing in mid-October to mid-November had become modestly elevated as investors reduced exposures to securities that could be at risk for delayed payments. Market participants noted information in the public domain about measures the Federal Reserve and the Treasury could take around a debt limit event. They pointed, in particular, to the October 2013 FOMC meeting minutes, which highligh\n...[document conclusion]...\nns regarding the financial holdings and practices of Federal Reserve officials. This deliberate and thoughtful review will focus on strengthening Federal Reserve rules and standards in ways that will help guard against even the appearance of conflicts of interest or any other improprieties. It was agreed that the next meeting of the Committee would be held on Tuesday–Wednesday, November 2–3, 2021. The meeting adjourned at 10:45 a.m. on September 22, 2021. Notation Vote By notation vote completed on August 17, 2021, the Committee unanimously approved the minutes of the Committee meeting held on July 27–28, 2021. _______________________ James A. Clouse Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended through the discussion of developments in financial markets and open market operations. (This footnote was corrected on November 26, 2021, to replace an erroneous reference to a \"discussion of asset purchases.\") Return to text 3. Attended Tuesday's session only. Return to text 4. Attended the discussion of economic developments and the outlook. Return to text",
+  "text_sha256": "7686ebbd970a47cb730495177ac15ff85ab91749c92145d9e8041b439600efeb"
+}

@@ -1,0 +1,45 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20030318",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20030318.htm"
+    ],
+    "evidence": "Declining motor vehicle output held down overall industrial production, and the labor market weakened further.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "declining",
+      "down",
+      "further",
+      "held",
+      "industrial",
+      "labor",
+      "market",
+      "motor",
+      "output",
+      "overall",
+      "production",
+      "vehicle",
+      "weakened"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-05-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "5f128f36747a610751aa1c943d4e82f84b9f220adde0c93c2c5fb8640e4fe062",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20030318.htm",
+  "text": "Minutes of the Federal Open Market Committee March 18, 2003 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, March 18, 2003, at  9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Bernanke Ms. Bies Mr. Broaddus Mr. Ferguson Mr. Gramlich Mr. Guynn Mr. Kohn Mr. Moskow Mr. Olson Mr. Parry Mr. Hoenig, Mses. Minehan and Pianalto, and Mr. Poole, Alternate Members \n              of the Federal Open Market Committee Messrs. McTeer, Santomero, and Stern, Presidents of the Federal Reserve \n      Banks of Dallas, Philadelphia, and Minneapolis respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Eisenbeis, Goodfriend, Howard,   \n              Hunter, Lindsey, Struckmeyer, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Madigan, Deputy Director, Division of Monetary Affairs, Board of   \n               Governors Messrs. Slifman and Oliner, Associate Directors, Division of Research and    \n              Statistics, Board of Governors Mr. Whitesell, Deputy Associate Director, Division of Monetary Affairs, Board   \n       of Governors Mr. Clouse, Assistant Director, Division of Monetary Affairs, Board of  \n       Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members,    \n      Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, \n       Board of Governors Mr. Connolly, First Vice President, Federal Reserve Bank of Boston Messrs. Fuhrer and Hakkio, Mses. Mester and Perelmuter, Messrs. Rasche,\n               Rosenblum, and Sniderman, Senior Vice Presidents, Federal Reserve\n               Banks of Boston, Kansas City, Philadelphia, New York, St. Louis, Dallas,\n               and Cleveland respectively Mr. Rudebusch, Vice President, Federal Reserve Bank of San Francisco Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on January 28-29, 2003, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets. There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period January 29, 2003, through March 17, 2003. By unanimous vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and financial outlook and the conduct of monetary policy over the intermeeting period. The information reviewed at this meeting suggested that growth of economic activity remained subpar in the opening months of the year. While the underlying demand for residential housing continued to be robust and government outlays evidently were rising, the expansion of consumer spending seemed to have slowed, and outlays for capital spending were still very sluggish in an environment of business uncertainty and pessimism. Declining motor vehicle output held down overall industrial production, and the labor market weakened further. Consumer price inflation as measured by the core CP\n...[document excerpted]...\nI decelerated over the past year, but steep increases in energy prices boosted overall price inflation. Private nonfarm payroll employment had fallen sharply on balance in recent months, though the quite large February decline may have been exaggerated by bad weather, military reserve call-ups, and seasonal adjustment difficulties. February job losses in manufacturing were at about the same pace as seen over the past ye\n...[risk-bearing excerpt]...\nr weather conditions over much of the country. There were widespread declines in employment in the service sector, particularly in industries that had experienced steady growth last year. Job losses in the transportation industry seemed to have been associated in part with higher fuel costs. The unemployment rate inched up to 5.8 percent in February, and the most recent readings on initial claims for unemployment insurance suggested that labor market conditions remained soft in March. Industrial\n...[risk-bearing excerpt]...\nand rents have fallen, starts dropped considerably to about the average pace recorded over the past three years. Business investment on equipment and software increased briskly in the fourth quarter of last year as outlays for aircraft climbed sharply and other major categories recorded gains. In January, a rise in shipments of nontransportation capital equipment suggested that the demand for such goods on the part of businesses was beginning to respond to continued increases in output and furth\n...[risk-bearing excerpt]...\nn terms of an index of major foreign currencies, though the dollar fluctuated widely in the latter part of the period in reflection of market concerns about geopolitical uncertainties. The dollar depreciated against the Canadian dollar, which was supported by a small monetary tightening action by the Bank of Canada to trim inflationary pressures. By contrast, the dollar appreciated slightly against the British pound, partly in response to an unexpected easing by the Bank of England to counter doinued t\n...[document conclusion]...\n the System Account in accordance with the following domestic policy directive: The Federal Open Market Committee seeks monetary and financial conditions that will foster price stability and promote sustainable growth in output. To further its long-run objectives, the Committee in the immediate future seeks conditions in reserve markets consistent with maintaining the federal funds rate at an average of around 1-1/4 percent. Votes for this action: Messrs. Greenspan, McDonough, \nBernanke, Ms. Bies, Messrs. Broaddus, Ferguson, Gramlich, Guynn, Kohn, Moskow, Olson, and Parry. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, May 6, 2003. The meeting adjourned at 12:50 p.m. Following the outbreak of war in Iraq, the members of the Committee participated in a series of conference calls held on March 25, April 1, April 8, and April 16 in order to keep abreast of the latest information and to exchange views regarding the possible implications of current developments for the economic outlook and monetary policy. No policy decisions were made in this period. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 8, 2003, 2:00 PM",
+  "text_sha256": "3a6d7bb4abae4464ccd7cb291f10bbdc37d357d7b3a3b9b4fe02f90a3d1af7bd"
+}

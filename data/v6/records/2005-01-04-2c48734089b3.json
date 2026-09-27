@@ -1,0 +1,72 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20041214",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0,
+      "inflation": -0.6
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20041214.htm"
+    ],
+    "evidence": "Manufacturing production increased at a modest pace, and employment gains in October and November indicated that the labor market continued to improve gradually.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "accommodation",
+      "also",
+      "changes",
+      "committee",
+      "continue",
+      "continued",
+      "could",
+      "economic",
+      "employment",
+      "expectation",
+      "fulfill",
+      "gains",
+      "gradually",
+      "improve",
+      "increased",
+      "indicated",
+      "inflation",
+      "labor",
+      "likely",
+      "manufacturing",
+      "market",
+      "measured",
+      "modest",
+      "needed",
+      "nonetheless",
+      "noted",
+      "november",
+      "october",
+      "pace",
+      "policy",
+      "production",
+      "prospects",
+      "rate",
+      "removed",
+      "respond",
+      "stated",
+      "that",
+      "underlying",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2005-01-04",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "2c48734089b3cc0291d77b386474056969175351809c08acea03d9f058ce0c11",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20041214.htm",
+  "text": "Minutes of the Federal Open Market Committee December 14, 2004 A meeting of the Federal Open Market Committee was held in the offices of the \r\nBoard of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, \r\nDecember 14, 2004, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kohn Ms. Minehan Mr. Olson Ms. Pianalto Mr. Poole Messrs. Moskow, Santomero, and Stern, Alternate Members of the Federal Open Market Committee Messrs. Guynn, Lacker, and Ms. Yellen, Presidents of the Federal Reserve Banks of Atlanta, Richmond, and San Francisco, respectively Ms. Holcomb, First Vice President, Federal Reserve Bank of Dallas Mr. Reinhart, Secretary and Economist Ms. Danker, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Alvarez, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Fuhrer, Hakkio, Howard, Madigan, Slifman, Sniderman, Rasche, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics,\r\n\t\t      Board of Governors Messrs. Oliner and Struckmeyer, Associate Directors, Division of Research and Statistics, Board of Governors Messrs. Clouse and Whitesell, Deputy Associate Directors, Division of Monetary Affairs, Board of Governors Mr. Reifschneider, Deputy Associate Director, Division of Research and Statistics, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, \r\n\tBoard of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, \r\n\tBoard of Governors Messrs. Brayton and Carpenter, Senior Economists, Divisions of Research and Statistics and Monetary Affairs, respectively, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Ms. Cumming, First Vice President, Federal Reserve Bank of New York Messrs. Eisenbeis and Goodfriend, Ms. Mester, Messrs. Rosenblum and Williams, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Richmond, Philadelphia, Dallas and San Francisco, respectively Messrs. Elsasser, Peach, and Sullivan, Vice Presidents, Federal Reserve Banks of New York, New York, and Chicago, respectively Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on November 10, 2004, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System�s account in the period since the previous meeting.\t\r\nThe Manager also reported on recent developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period November 10, 2004, through December 13, 2004.  By unanimous vote, the Committee ratified these transactions. The information received at this meeting suggested that the economy expanded at a moderate pace over the third quarter and into the current quarter.  Consumer spending was solid, and investment spending remained strong.  Manufacturing production increased at a modest pace, and employment gains in October and November indicated that the labor market continued to improve gradually.  Core inflat\n...[document excerpted]...\nattainment of both sustainable growth and price stability over the next few quarters were roughly equal.  The Committee noted its expectation that the underlying rate of inflation would continue to be low and that policy accommodation could be removed at a pace that is likely to be measured, but it also stated that it would nonetheless respond to changes in economic prospects as needed to fulfill its obligation to maintain price stability. The FOMC�s decision in November to raise the intended fe\n...[risk-bearing excerpt]...\nion measures remained subdued, albeit running at a slightly higher pace than last year, owing, in part, to the indirect effects of higher energy prices. Gains in employment were moderate in November after a surge in October.  Job growth was fairly widespread, with the exception of slightly weak seasonal hiring in the retail sector.  Construction employment grew rapidly in November even after the outsized gains in October due to hurricane-related repair work.  In contrast, employment in m\n...[risk-bearing excerpt]...\nectations of longer-term growth had been marked down.  Some participants believed that the prolonged period of policy accommodation had generated a significant degree of liquidity that might be contributing to signs of potentially excessive risk-taking in financial markets evidenced by quite narrow credit spreads, a pickup in initial public offerings, an upturn in mergers and acquisition activity, and anecdotal reports that speculative demands were becoming apparent in the markets for single-fam\n...[risk-bearing excerpt]...\nin business spending and hiring behavior seemed to be waning, others believed that many businesses remained quite wary.  Most participants acknowledged some significant uncertainties in their outlook, including the effects of the expiration of the partial-expensing provision for investment at the end of 2004 and recent indications of a softening in high-tech spending in the United States and elsewhere.  The possible downshift in the p\n...[document conclusion]...\nee decide to accelerate release of the minutes.  Others, however, preferred not to link the two decisions or viewed the more extensive announcements as useful regardless of the minutes� publication schedule. The clear consensus of the participants at the meeting was to release the minutes on an expedited schedule, and the Committee voted unanimously to begin publishing the minutes of regularly scheduled meetings three weeks after the day of the policy decision.  The minutes of any other Committee meetings, such as conference calls, would be handled somewhat differently.  In those cases, if a policy action were taken, an announcement of that action would be made as soon as practicably possible.  If, however, no action were taken, the fact that the conference call took place would be reflected in the statement following the subsequent regular meeting, and, in any case, the minutes of the call would be released along with the minutes of the subsequent regular meeting. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, February 1-2, 2005. The meeting adjourned at 1:25 p.m. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: January 4, 2005, 2:00 PM",
+  "text_sha256": "026db0c0b2c48096fd346e3e17e5dde2fbeebecf99384cb044bb439887f834f5"
+}

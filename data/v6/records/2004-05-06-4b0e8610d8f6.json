@@ -1,0 +1,54 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20040316",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20040316.htm"
+    ],
+    "evidence": "The information reviewed at this meeting suggested that economic activity continued to expand at a solid pace in early 2004.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "consumer",
+      "continued",
+      "core",
+      "early",
+      "economic",
+      "expand",
+      "expectations",
+      "future",
+      "inflation",
+      "information",
+      "meeting",
+      "pace",
+      "price",
+      "remained",
+      "reviewed",
+      "solid",
+      "subdued",
+      "suggested",
+      "that",
+      "this"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2004-05-06",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "4b0e8610d8f613d99218570931c20cbfd9bd53a031c2fe3c9722e8f98fd58cd5",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20040316.htm",
+  "text": "Minutes of the Federal Open Market Committee March 16, 2004 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, March 16, 2004, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kohn Ms. Minehan Mr. Olson Ms. Pianalto Mr. Poole Messrs. McTeer, Moskow, Santomero, and Stern, Alternate Members of the Federal Open Market Committee Messrs. Broaddus, Guynn, and Parry, Presidents of the Federal Reserve \r\n        Banks of Richmond, Atlanta, and San Francisco respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Fuhrer, Howard, Madigan, Rasche, Sniderman, \r\n\tSlifman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Struckmeyer and Oliner, Associate Directors, Division of Research and Statistics, Board of Governors Messrs. Clouse, Freeman, and Whitesell, Deputy Associate Directors, Divisions of Monetary Affairs, International Finance, and Monetary Affairs respectively, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, Board of Governors Mr. Sack, Section Chief, Division of Monetary Affairs, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Mr. Moore, First Vice President, Federal Reserve Bank of San Francisco Messrs. Eisenbeis, Evans, Judd, Lacker, Mses. Mester and Perelmuter, Messrs. Rolnick, Rosenblum, and Steindel, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Chicago, San Francisco, Richmond, Philadelphia, New York, Minneapolis, Dallas, and New York, respectively Mr. Kahn, Vice President, Federal Reserve Banks of Kansas City The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period January 28, 2004, through March 15, 2004.  By unanimous vote, the Committee ratified these transactions. The information reviewed at this meeting suggested that economic activity continued to expand at a solid pace in early 2004.  Consumer spending growth appeared to have picked up somewhat, and activity in the housing market remained at high levels.  In the business sector, spending for equipment and software was apparently advancing vigorously, and firms were adding modestly to their inventories.  Still, the increases in economic activity had not yet generated sizable gains in employment.  Core consumer price inflation remained low, and expectations of future inflation continued to be subdued. The January and February employment reports depicted a labor market that was slow to pick up momentum.  The modest gains posted in private nonfarm payrolls over the period were smaller than had been expected by most forecasters.  Employment in the manufacturing sector, which had fallen con\n...[document excerpted]...\ntrengthened outside the euro area, notably including a sizable jump in Japan's output in the fourth quarter.  Growth in the euro area remained tepid. Core consumer price inflation stayed very low in early 2004.  Over the twelve months ending in January, the increase in core consumer prices was around 1 percent--about ¾ percentage point below the increase over the preceding twelve months.  Total consumer price inflation, however, was boosted in January by a surge in energy prices.  Incoming infor\n...[risk-bearing excerpt]...\ntinually for over three years, was essentially unchanged in February, while employment in other sectors showed mixed changes.  Average weekly hours of production or nonsupervisory workers edged above the average level of the fourth quarter of 2003.  Despite the weakness in employment, the unemployment rate in January and February came in below its fourth-quarter level. Industrial production moved up bri\n...[risk-bearing excerpt]...\nratures during those months.  Capacity utilization continued to move higher in January and February, although it remained below its longer-run average. Consumer spending growth in recent months appeared to pick up somewhat from its pace in the fourth quarter of 2003.  Retail sales rose briskly, on average, in January and February, and spending on services was up in January (the most recent month for which data were available).  In contrast, purchases of motor vehicles slipped in January and Febr\n...[risk-bearing excerpt]...\nptimistic about prospects for their sales and planned to increase investment and, in some cases, employment, firms in other parts of the country had become somewhat more uncertain about the pace of the expansion going forward.  Those firms, as a result, were more wary about committing to new investment plans or increased hiring.  Financial markets also seemed a little less positive about the outlook, with stock prices lower and some risk spreads wider than at the time of the last meeting.  The ro be increasing at a sol\n...[document conclusion]...\nrate at an average of around 1 percent.\" The vote encompassed approval of the paragraph below for inclusion in the Committee's statement to be released shortly after the meeting: \"The Committee perceives that the upside and downside risks to the \r\nattainment of sustainable growth for the next few quarters are roughly equal.  \r\nThe probability of an unwelcome fall in inflation has diminished in recent\r\nmonths and now appears almost equal to that of a rise in inflation.  With\r\ninflation quite low and resource use slack, the Committee believes that it \r\ncan be patient in removing its policy accommodation.\" Votes for this action: Messrs. Greenspan, Geithner, \r\nBernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Hoenig,\r\nKohn, Ms. Minehan, Mr. Olson, Ms. Pianalto, and Mr. Poole. Vote against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, May 4, 2004. The meeting adjourned at 1:00 p.m. Notation vote By notation vote completed on March 18, 2004, the Committee unanimously approved the minutes of the meeting of the Federal Open Market Committee held on January 27-28, 2004. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 6, 2004, 2:00 PM",
+  "text_sha256": "8a93a623759edaec774ce50b202d18a93937a233e7d6e371f0787a74409b013c"
+}

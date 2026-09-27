@@ -1,0 +1,67 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20250917",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": 0.3333333333333333,
+      "risk": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm"
+    ],
+    "evidence": "Total consumer price inflation—as measured by the 12-month change in the PCE price index—was estimated to have been 2.7 percent in August, based on the data from the consumer and producer price indexes.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "although",
+      "august",
+      "based",
+      "been",
+      "change",
+      "conditions",
+      "consumer",
+      "continued",
+      "data",
+      "elevated",
+      "employment",
+      "estimated",
+      "from",
+      "have",
+      "increases",
+      "index",
+      "indexes",
+      "inflation",
+      "labor",
+      "market",
+      "measured",
+      "month",
+      "pace",
+      "percent",
+      "price",
+      "producer",
+      "rate",
+      "remained",
+      "slowed",
+      "softened",
+      "somewhat",
+      "total",
+      "unemployment"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2025-10-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "cd6e2b0780b003c1e9ebfe53b65012843e81852e9254daeba4803d3c87dc5b51",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250917.htm",
+  "text": "Minutes of the Federal Open Market Committee September 16–17, 2025 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, September 16, 2025, at 10:30 a.m. and continued on Wednesday, September 17, 2025, at 9:00 a.m. 1 Developments in Financial Markets and Open Market Operations The deputy manager turned first to an overview of financial market developments during the intermeeting period. Markets appeared to interpret data releases and FOMC communications as indicating that the baseline outlook was little changed but that downside risks to the labor market had increased. Median modal expectations for personal consumption expenditures (PCE) inflation this year and next from the Open Market Desk's Survey of Market Expectations (Desk survey) increased only slightly, and expectations for the unemployment rate increased only marginally overall. However, after the weaker-than-expected July and August employment reports, investors' focus shifted to downside risks to the labor market. Near-term expectations for the policy rate had moved lower in response to weaker-than-expected employment data and the apparent rise in downside employment risks. Almost all respondents to the Desk survey expected a 25 basis point cut in the target range for the federal funds rate at this meeting, and around half expected an additional cut at the October meeting. The vast majority of survey respondents expected at least two 25 basis point cuts by year-end, with around half expecting three cuts over that time. Respondents' expectations for 2027 and beyond were unchanged, implying that revisions to respondents' near-term expectations reflected an anticipation of a faster return of the federal funds rate to its longer-run level than previously expected. Market-based measures of policy rate expectations were broadly consistent with responses to the Desk survey, reflecting about three 25 basis point cuts by the end of the year. The deputy manager then discussed developments in Treasury markets and market-based measures of inflation compensation. Nominal Treasury yields fell 20 to 40 basis points over the intermeeting period, with the largest decline occurring at the short end of the yield curve; the curve therefore steepened. Staff models indicated that nearly all the decline in short-term rates was attributable to the shift down in policy rate expectations. Market-based measures of inflation compensation fell slightly over the intermeeting period. Equity prices continued to rise over the intermeeting period and stood very close to record highs despite the recent weaker-than-expected employment reports. The deputy manager noted this development was consistent with the benign baseline macroeconomic outlook incorporated in most private-sector forecasts and strong realized earnings in technology and other sectors. Corporate bond spreads were little changed over the intermeeting period and remained at tight levels, signaling that investors anticipated relatively moderate credit losses. Regarding foreign exchange developments, the deputy manager noted that the broad trade-weighted dollar index had generally stabilized and that the dollar returned to trading roughly in line with fundamental macroeconomic drivers over the intermeeting period. The available data continued to suggest foreign demand for U.S. assets remained resilient. The deputy manager turned next to money markets. The effective federal funds rate remained stable, and repurchase agreement (repo) rates moved higher over the intermeeti\n...[document excerpted]...\nlf of the year. Although the unemployment rate continued to be low, the pace of employment increases had slowed, and labor market conditions had softened. Consumer price inflation remained somewhat elevated. Total consumer price inflation—as measured by the 12-month change in the PCE price index—was estimated to have been 2.7 percent in August, based on the data from the consumer and producer price indexes. Core PCE price inflation, which excludes changes in consumer energy prices and many consu\n...[risk-bearing excerpt]...\nlined modestly. Increased political uncertainty led to volatility of longer-term government bond yields in some advanced foreign economies. Conditions in U.S. short-term funding markets remained orderly over the intermeeting period, and the FOMC's target policy rate continued to transmit to private rates in the usual manner. Following the increase in the federal debt limit in early July, TGA balances continued to increase, while usage of the ON RRP facility declined notably to its lowest levels\n...[risk-bearing excerpt]...\nry low by historical standards. The one-month option-implied volatility on the S&P 500 index—the VIX—ended the period essentially unchanged, on net, at a moderate level. Risk sentiment generally improved in global financial markets, supported by trade policy developments that were perceived as reducing negative tail risks to economic growth, strong corporate earnings, and lower interest rates in the U.S. On balance, foreign equity indexes rose moderately, credit spreads narrowed slightly, and th\n...[risk-bearing excerpt]...\ne decreased notably over the intermeeting period. Options on interest rate futures suggested that market participants were placing a higher probability on greater policy easing by early 2026 than they had just before the July FOMC meeting. Consistent with the downward shift in the implied policy rate path, nominal Treasury yields declined notably, on net, particularly at shorter horizons. Changes in nominal yields were driven p\n...[document conclusion]...\ner, Division of Monetary Affairs, Board _______________________ Joshua Gallin Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. In taking this action, the Board approved requests to establish that rate submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Richmond, Atlanta, Chicago, Minneapolis, Kansas City, Dallas, and San Francisco. The vote also encompassed approval by the Board of Governors of the establishment of a 4.25 percent primary credit rate by the remaining Federal Reserve Banks, effective on September 18, 2025, or the date such Reserve Banks inform the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of Cleveland and St. Louis were informed of the Board's approval of their establishment of a primary credit rate of 4.25 percent, effective September 18, 2025.) Return to text 3. Attended through the discussion of developments in financial markets and open market operations. Return to text 4. Attended opening remarks for Tuesday session only. Return to text",
+  "text_sha256": "766d49f9df47b08c8bee06b84320794c6e1c8a95d1dfc02d46d0e48e9c72a725"
+}

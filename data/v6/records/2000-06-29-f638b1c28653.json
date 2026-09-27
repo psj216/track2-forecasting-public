@@ -1,0 +1,52 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20000516",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -2.0,
+      "oil": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20000516.htm"
+    ],
+    "evidence": "Key South American countries were recovering from recent recessions, while several Asian emerging-market countries were settling into growth at more sustainable rates.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "american",
+      "asian",
+      "countries",
+      "emerging",
+      "from",
+      "growth",
+      "into",
+      "market",
+      "more",
+      "rates",
+      "recent",
+      "recessions",
+      "recovering",
+      "settling",
+      "several",
+      "south",
+      "sustainable",
+      "were",
+      "while"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2000-06-29",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f638b1c286536d35433af07e4dd29858389b776c9c135e12ba165d5bcf2d13ab",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20000516.htm",
+  "text": "Minutes of the Federal Open Market Committee May 16, 2000 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, May 16, 2000, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Broaddus Mr. Ferguson Mr. Gramlich Mr. Guynn Mr. Jordan Mr. Kelley Mr. Meyer Mr. Parry Mr. Hoenig, Ms. Minehan, Messrs. Moskow and Poole, Alternate Members of the Federal Open Market Committee Messrs. McTeer and Stern, Presidents of the Federal Reserve Banks of Dallas and Minneapolis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Prell, Economist Mr. Beebe, Ms. Cumming, Messrs. Eisenbeis, Howard, Lindsey, Reinhart, Simpson, Sniderman, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board Members, Board of Governors Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Madigan and Slifman, Associate Directors, Divisions of Monetary Affairs and Research and Statistics respectively, Board of Governors Messrs. Oliner and Whitesell, Assistant Directors, Divisions of Research and Statistics and Monetary Affairs respectively, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Messrs. Rives and Stone, First Vice Presidents, Federal Reserve Banks of St. Louis and Philadelphia respectively Messrs. Hakkio, Hunter, Lacker, Lang, Rasche, Rolnick, and Rosenblum, Senior Vice Presidents, Federal Reserve Banks of Kansas City, Chicago, Richmond, Philadelphia, St. Louis, Minneapolis, and Dallas respectively Messrs. Bentley and Kopcke, Vice Presidents, Federal Reserve Banks of New York and Boston respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on March 21, 2000, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets. There were no open market operations in foreign currencies for the System's account in the period since the previous meeting, and thus no vote was required of the Committee. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period March 21, 2000, through May 15, 2000. The Committee ratified these transactions by unanimous vote. With Mr. Broaddus dissenting, the Committee voted to extend for one year beginning in mid-December 2000 the reciprocal currency (\"swap\") arrangements with the Bank of Canada and the Bank of Mexico.  The arrangement with the Bank of Canada is in the amount of $2 billion equivalent and that with the Bank of Mexico in the amount of $3 billion equivalent.  Both arrangements are associated with the Federal Reserve's participation in the North American Framework Agreement, which was established in 1994.  Mr. Broaddus dissented because he believed that the swap lines existed primarily to facilitate foreign exchange market intervention, and he was opposed to such intervention for the reasons he had expressed at the February meeting. The Manager discussed some aspects of a suggested approach to the management of the System's portfolio over coming quarters prior to the Committee's review of an ongoing study relating to the conduct of open market operations in a per\n...[document excerpted]...\n, but the strength of demand was also showing through in the form of rising imports. Labor markets continued to be very tight, and some measures of labor costs and price inflation showed signs that they might be picking up. Employment surged in March and April. Part of the pickup resulted from a step-up in government hiring of census workers, but gains in private employment were very large over the two months. Job growth in retail trade and services was robust, and employment in manufacturing an\n...[risk-bearing excerpt]...\nring the first five months of the year. Economic activity in the developing countries also continued to pick up. Key South American countries were recovering from recent recessions, while several Asian emerging-market countries were settling into growth at more sustainable rates. Recent information suggested that price inflation might be picking up slightly and only partly as a direct result of increases in energy prices. Although consumer prices were unchanged in April, they recorded sizable st\n...[risk-bearing excerpt]...\ng materially; meeting long-run reserve needs to the extent possible through outright purchases of Treasury securities without distorting the yield curve or impairing the liquidity of the market; and concentrating expansion of the System portfolio in \"off-the-run\" securities in the secondary market to help to maintain liquid markets in benchmark securities. It was important to announce a strategy to allow market participants to take the System's operations into account as they adapted to the decl\n...[risk-bearing excerpt]...\nrices over the course of recent years. Some members observed that the slightly less ebullient consumer behavior recently might have been influenced to some extent by the volatility and downward movement in the stock market over the course of the past several weeks. Higher financing costs probably also were beginning to play a role. Looking ahead, the experience of recent years amply demonstrated the difficulty of forecasting t\n...[document conclusion]...\nry \r\n          and financial conditions that will foster price stability and \r\n          promote sustainable growth in output.  To further its long-run \r\n          objectives, the Committee in the immediate future seeks \r\n          conditions in reserve markets consistent with increasing the \r\n          federal funds rate to an average of around 6-1/2 percent. The vote also encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes the risks are weighted mainly toward conditions that may generate heightened inflation pressure in the foreseeable future. Votes for this action: Messrs. Greenspan, McDonough, \r\n\t     Broaddus, Ferguson, Gramlich, Guynn, Jordan, Kelley, Meyer, \r\n\t     and Parry. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, June 27-28, 2000. The meeting adjourned at 1:05 p.m. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: June 29, 2000, 2:00 PM",
+  "text_sha256": "cbfb8e092e20667bac3632a9b4aa3d5e856a3187a376ad82a61839f1691e42fe"
+}

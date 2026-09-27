@@ -1,0 +1,54 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20040630",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0,
+      "inflation": -0.6
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": 0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20040630.htm"
+    ],
+    "evidence": "The labor market rebounded strongly in recent months.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "accommodation",
+      "believes",
+      "committee",
+      "expected",
+      "inflation",
+      "labor",
+      "likely",
+      "market",
+      "measured",
+      "months",
+      "pace",
+      "policy",
+      "rebounded",
+      "recent",
+      "relatively",
+      "removed",
+      "still",
+      "strongly",
+      "that",
+      "underlying",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2004.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2004-08-12",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "31a8a57015622d62aace50c34ecc69fdf6d553522b917ebf4882bf7a669c1119",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20040630.htm",
+  "text": "Minutes of the Federal Open Market Committee June 29-30, 2004 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, June 29, 2004, at 2:30 p.m. and continued on Wednesday, June 30, 2004, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Geithner, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kohn Ms. Minehan Mr. Olson Ms. Pianalto Mr. Poole Ms. Cumming, Messrs. McTeer, Moskow, Santomero, and Stern, \r\nAlternate Members of the Federal Open Market Committee Mr. Guynn and Ms. Yellen, Presidents of the Federal Reserve Banks \r\nof Atlanta and San Francisco respectively Mr. Lacker, President-Elect of the Federal Reserve Bank of Richmond Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Fuhrer, Hakkio, Howard, Madigan, Sniderman,\r\nSlifman, Tracy, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Messrs. Oliner and Struckmeyer, Associate Directors, Division of Research and Statistics, Board of Governors Messrs. Clouse and Whitesell, Deputy Associate Directors, Division\r\n          of Monetary Affairs, Board of Governors Mr. Kamin, 1 / Deputy Associate Director, Division of International\r\n        Finance, Board of Governors Messrs. Gagnon 1 / Leahy, 1 / and Sheets, Assistant Directors,                                       Division of International Finance, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs, \r\n\tBoard of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, \r\n\tBoard of Governors Mr. Thomas, 1 / Section Chief, Division of International Finance, Board of Governors Ms. Kusko 2 / and Mr. Zakrajsek, Senior Economists, Divisions of Research and Statistics and Monetary Affairs respectively, Board of Governors Mr. Carpenter, 2 / Economist, Division of Monetary Affairs, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board  \r\n       Members, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, \r\n        Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary     \r\n        Affairs, Board of Governors Mr. Lyon, First Vice President, Federal Reserve Bank of Minneapolis Mr. Judd, Executive Vice President, Federal Reserve Bank of San Francisco Messrs. Eisenbeis, Evans, Goodfriend, Mses. Mester and \r\n         Perelmuter, 1 / Messrs. Rolnick and Rosenblum, Senior Vice \r\n         Presidents, Federal Reserve Banks of Atlanta, Chicago, \r\n         Richmond, Philadelphia, New York, Minneapolis, and Dallas respectively Ms. Goldberg 1 / and Mr. Thornton, Vice Presidents, Federal Reserve \r\n        Banks of New York and St, Louis respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on May 4, 2004, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period May 4, 2004, through June 29, 2004.  By unanimous vote, the Committee ratified these transactions. At this meeting, the Committee discussed staff papers an\n...[document excerpted]...\nand software, also grew rapidly.  The labor market improved further during the quarter, with large gains in employment registered in April and May.  Core consumer price inflation picked up, reflecting in part the pass-through of substantial advances in energy prices and non-energy import prices. The labor market rebounded strongly in recent months.  Private nonfarm payrolls grew rapidly in April and May, with hiring widespread across industries.  The manufacturing sector appeared to be on a mor\n...[risk-bearing excerpt]...\no promote the adjustment of external imbalances but could best contribute by maintaining an environment of price stability that would foster maximum sustainable economic growth.  Fiscal policy had a potentially larger role to play by promoting an increase in national saving, but the adjustment would involve shifts in demand and output both domestically and abroad, and changes to U.S. fiscal policy alone probably would not be sufficient to foster the adjustment. The information reviewed at this m\n...[risk-bearing excerpt]...\non activity in this sector had been surprisingly resilient in light of the high vacancy rate for such units. Business investment spending appeared to have advanced at a brisk pace in the second quarter, as rising output, low user cost of capital, and increased corporate cash flow continued to foster a favorable environment for capital spending.  Although new orders and shipments of nondefense capital goods excluding aircraft dipped in May, both series remained on a solid uptrend, and, with order\n...[risk-bearing excerpt]...\nnsumer prices. Members referred to some limited inflationary impetus as well from the depreciation of the dollar and larger increases in labor compensation. Considerable uncertainty still surrounded the overall extent to which competitive pressures would allow producers to pass through rising costs to prices of finished goods; anecdotal reports suggested that the ability of many producers to do so was increasing but was far fro\n...[document conclusion]...\nagraph below for inclusion in the press statement to be released shortly after the meeting: \"The Committee perceives the upside and downside risks to the attainment \r\nof both sustainable growth and price stability for the next few quarters are\r\nroughly equal.  With underlying inflation still expected to be relatively low, the\r\nCommittee believes that policy accommodation can be removed at a pace that is\r\nlikely to be measured.  Nonetheless, the Committee will respond to changes in \r\neconomic prospects as needed to fulfill its obligation to maintain price stability.\" Votes for this action: Messrs. Greenspan, Geithner, \r\nBernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Hoenig,\r\nKohn, Ms. Minehan, Mr. Olson, Ms. Pianalto, and Mr. Poole. Vote against this action: None. The next meeting of the Committee was scheduled to be held on Tuesday, August 10, 2004. The meeting adjourned at 1:35 p.m. Vincent R. Reinhart Secretary Footnotes 1/ Attended portion of the meeting relating to the discussion of prospective external adjustment. Return to text 2/ Attended portion of the meeting relating to the discussion of economic developments. Return to text Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: August 12, 2004, 2:00 PM",
+  "text_sha256": "d1bca31f95435b10acc606a63361aa635ac235b347cfdc125c7374772d1003ab"
+}

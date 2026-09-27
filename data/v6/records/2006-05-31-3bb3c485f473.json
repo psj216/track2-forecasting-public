@@ -1,0 +1,60 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20060510",
+  "fingerprint": {
+    "axes": {
+      "guidance": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": -1.0,
+      "guidance": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20060510.htm"
+    ],
+    "evidence": "In these circumstances, the Committee judged that some further policy firming may be needed to keep the risks to the attainment of both sustainable economic growth and price stability roughly in balance, but reiterated that in any event the Committee would respond to changes in economic prospects as",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "attainment",
+      "balance",
+      "both",
+      "changes",
+      "circumstances",
+      "committee",
+      "economic",
+      "event",
+      "firming",
+      "further",
+      "growth",
+      "judged",
+      "keep",
+      "needed",
+      "policy",
+      "price",
+      "prospects",
+      "reiterated",
+      "respond",
+      "risks",
+      "roughly",
+      "some",
+      "stability",
+      "sustainable",
+      "that",
+      "these",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2006.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2006-05-31",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "3bb3c485f473ba3a33e4d27921879fcdad87cd07b7ae8f5ba892270adde4f0fa",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20060510.htm",
+  "text": "Minutes of the Federal Open Market Committee May 10, 2006 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Wednesday, May 10, 2006 at 8:30 a.m. Present: Mr. Bernanke, Chairman Mr. Geithner, Vice Chairman Ms. Bies Mr. Guynn Mr. Kohn Mr. Kroszner Mr. Lacker Mr. Olson Ms. Pianalto Mr. Warsh Ms. Yellen Mr. Hoenig, Ms. Minehan, and Messrs. Moskow and Poole, \r\n       Alternate Members of the Federal Open Market Committee Messrs. Fisher and Stern, Presidents of the Federal Reserve \r\nBanks of Dallas and Minneapolis, respectively Mr. Stone, First Vice President, Federal Reserve Bank of Philadelphia Mr. Reinhart, Secretary and Economist Ms. Danker, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Skidmore, Assistant Secretary Mr. Alvarez, General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Eisenbeis, Judd, Kamin, Madigan, Sniderman, Struckmeyer,   \r\nand Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Messrs. Oliner and Slifman, Associate Directors, Division of Research and Statistics, Board of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, Board of Governors Mr. Orphanides, Adviser, Division of Monetary Affairs, Board of Governors Mr. Small, Project Manager, Division of Monetary Affairs, Board of Governors Mr. Wright, Section Chief, Division of Monetary Affairs, Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Specialist, Division of Monetary Affairs, Board of Governors Mr. Werkema, First Vice President, Federal Reserve Bank of Chicago Messrs. Fuhrer and Rosenblum, Executive Vice Presidents, Federal Reserve Banks of Boston and Dallas, respectively Messrs. Evans and Hakkio, Ms. Mester, and Mr. Rasche, Senior Vice Presidents, Federal Reserve Banks of Chicago, Kansas City, Philadelphia, and St. Louis, respectively Mr. Hilton, Vice President, Federal Reserve Bank of New York Mr. Potter, Assistant Vice President, Federal Reserve Bank of New York Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis Mr. Hetzel, Senior Economist, Federal Reserve Bank of Richmond The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting.  The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period since the previous meeting.  By unanimous vote, the Committee ratified these transactions. With Mr. Lacker dissenting, the Committee voted to extend for one year beginning in mid-December 2006 the reciprocal currency (\"swap\") arrangements with the Bank of Canada and the Banco de Mexico.  The arrangement with the Bank of Canada is in the amount of $2 billion equivalent, and that with the Banco de Mexico is in the amount of $3 billion equivalent.  Both arrangements are associated with the Federal Reserve's participation in the North American Framework Agreement of 1994.  The vote to renew the System's participation in the swap arrangements maturing in December was taken at this meeting because of the provision that each party must provide six months prior notice of an intention to terminate its participation.  Mr. Lacker dissented because of his opposition, as indicated at the January meeting, to foreign exchange market intervention\n...[document excerpted]...\nquarter, continuing strong domestic demand in Canada through February, ongoing recovery in Japan, and a first-quarter rebound in euro-area economic performance. Headline inflation turned up in March.  Although the price of natural gas had fallen because of continued plentiful inventories, retail gasoline prices surged, leading to a jump in overall energy prices for the month.  Prices of core goods and services also rose more quickly in March, largely because of a spike in the apparel component t\n...[risk-bearing excerpt]...\nin nonresidential construction.  Manufacturing production also posted solid gains in the first quarter and payroll growth moderated a bit in April after robust gains in employment in the first quarter.  Overall consumer prices jumped in March because of higher energy prices, while core prices rose a bit more rapidly than in earlier months. Nonfarm payrolls increased by 138,000 jobs in April following robust growth in March.  The gains in April were widespread: Manufacturing and related industri\n...[risk-bearing excerpt]...\ner commodities, had the potential to add to inflation pressures.  In these circumstances, the Committee judged that some further policy firming may be needed to keep the risks to the attainment of both sustainable economic growth and price stability roughly in balance, but reiterated that in any event the Committee would respond to changes in economic prospects as needed to foster these objectives. Investors anticipated the FOMC's decision at its March meeting to raise the target federal funds r\n...[risk-bearing excerpt]...\nmpensation based on the difference between yields on nominal Treasury securities and inflation-indexed issues had edged higher.  It was possible, though, that investors' uncertainty regarding inflation prospects, not just inflation expectations themselves, had risen.  On balance, participants judged that inflation expectations had risen somewhat--a development that would have to be taken into account in policymaking and warrant\n...[document conclusion]...\neded to address inflation risks but emphasizes that the extent and timing of any such firming will depend importantly on the evolution of the economic outlook as implied by incoming information.  In any event, the Committee will respond to changes in economic prospects as needed to support the attainment of its objectives.\" Votes for this action: Messrs. Bernanke and Geithner, \r\nMs. Bies, Messrs. Guynn, Kohn, Kroszner, Lacker, and Olson, \r\nMs. Pianalto, Mr. Warsh, and Ms.Yellen. Votes against this action: None. During the interval between the March and May meetings, Chairman Bernanke had appointed a subcommittee on communications issues to be chaired by Governor Kohn and including Presidents Stern and Yellen.  At today's meeting, Governor Kohn indicated that the objective of the subcommittee was to help the Committee frame and organize discussion of a broad range of such issues over coming meetings. The meeting adjourned at 1:10 p.m. Notation Vote By notation vote completed on April 17, 2006, the Committee unanimously approved the minutes of the Federal Open Market Committee meeting held on March 27-28, 2006. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 31, 2006, 2:00 PM",
+  "text_sha256": "15d7e560dd5ac440d61ce894701de9a4b01c493227b78dd7d2aedac604b65d5a"
+}

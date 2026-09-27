@@ -1,0 +1,54 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20001219",
+  "fingerprint": {
+    "axes": {
+      "growth": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 1.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20001219.htm"
+    ],
+    "evidence": "The information reviewed at this meeting provided evidence that economic activity, which had expanded at an appreciably lower pace since midyear, might have slowed further in recent months.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "appreciably",
+      "economic",
+      "evidence",
+      "expanded",
+      "further",
+      "have",
+      "information",
+      "lower",
+      "meeting",
+      "midyear",
+      "might",
+      "months",
+      "pace",
+      "provided",
+      "recent",
+      "reviewed",
+      "since",
+      "slowed",
+      "that",
+      "this",
+      "which"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2000.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-02-01",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "42b32776c212aae7d2ebe979da3450aeeee2411b74c75f168c9e7268289ac43a",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20001219.htm",
+  "text": "Minutes of the Federal Open Market Committee December 19, 2000 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, December 19, 2000, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Broaddus Mr. Ferguson Mr. Gramlich Mr. Guynn Mr. Jordan Mr. Kelley Mr. Meyer Mr. Parry Mr. Hoenig, Ms. Minehan, Messrs. Moskow and Poole, Alternate     \r\n    Members of the Federal Open Market Committee Messrs. McTeer, Santomero, and Stern, Presidents of the Federal Reserve Banks of Dallas, Philadelphia and Minneapolis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Beebe, Ms. Cumming, Messrs. Goodfriend, Howard, Lindsey, \r\nReinhart, Simpson, and Sniderman, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board Members,\r\nBoard of Governors Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs,\r\nBoard of Governors Messrs. Oliner, Slifman, and Struckmeyer, Associate Directors,\r\nDivision of Research and Statistics, Board of Governors Mr. Whitesell, Assistant Director, Division of Monetary Affairs,\r\nBoard of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary\r\nAffairs, Board of Governors Mr. Lyon, First Vice President, Federal Reserve Bank of \r\nMinneapolis Ms. Browne, Messrs. Hakkio, Hunter, Kos, Ms. Mester, Messrs. Rolnick and Rosenblum, Senior Vice Presidents, Federal Reserve Banks of Boston, Kansas City, Chicago, New York, Philadelphia, Minneapolis, and Dallas respectively Messrs. Cunningham and Gavin, Vice Presidents, Federal Reserve Banks of Atlanta and St. Louis respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on November 15, 2000, were approved. The Manager reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period November 15, 2000, through December 18, 2000.  By unanimous vote, the Committee ratified these transactions. The Manager of the System Open Market Account also reported on recent developments in foreign exchange markets. There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Committee then turned to a discussion of the economic situation and outlook and the implementation of monetary policy over the intermeeting period ahead. The information reviewed at this meeting provided evidence that economic activity, which had expanded at an appreciably lower pace since midyear, might have slowed further in recent months. Consumer spending and business purchases of equipment and software had decelerated markedly after having registered extraordinary gains in the first half of the year. Housing construction, though still relatively firm, was noticeably below its robust pace of earlier in the year. With final spending rising at a reduced rate, inventory overhangs had emerged in a number of goods-producing industries, most visibly in the motor vehicle sector. Manufacturing production had declined as a consequence, and the rate of expansion in employment had moderated further. Evidence on core price inflation was mixed; by one measure, it appeared t\n...[document excerpted]...\ning countries in the third quarter, with recent indicators suggesting a slowdown in expansion in many parts of East Asia. Incoming data indicated that, on balance, price inflation had picked up only a little, if at all. Consumer prices, as measured by the consumer price index (CPI) on a total and a core basis, rose mildly in October and November after a sizable September increase, but on a year-over-year basis core CPI prices increased noticeably more in the twelve months ended in November than\n...[risk-bearing excerpt]...\nradually, in part reflecting the indirect effects of higher energy costs, but by another it had remained at a relatively subdued level. Growth in private nonfarm payroll employment moderated a little further on balance in October and November. Manufacturing payrolls changed little over the two months, and job gains in the construction, retail trade, and services industries were smaller than those of earlier in the year. By contrast, the pace of hiring remained relatively brisk in the finance, in\n...[risk-bearing excerpt]...\nearlier in the year. M3 growth slowed less than that of M2 in November, in part because of stepped-up issuance of large time deposits as banks reduced their reliance on funding from overseas offices. The growth of domestic nonfinancial debt slowed in October (latest data), reflecting a larger further paydown of federal debt and a reduced pace of private borrowing. The staff forecast prepared for this meeting suggested that the economic expansion had slowed considerably, to a rate somewhat below\n...[risk-bearing excerpt]...\nomparatively less than in the United States. Correspondingly, the slide of the yen seemed to be related to weak economic data, stagnant business sentiment, and political uncertainties in Japan. The dollar posted a small gain against an index of the currencies of other important trading partners, largely reflecting weaker financial conditions in some emerging economies. The broad monetary aggregates decelerated further in Novembe\n...[document conclusion]...\nn in the federal funds rate to an average of around 6 percent. The vote encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes that the risks are weighted mainly toward conditions that may generate economic weakness in the foreseeable future. Votes for this action: Messrs. Greenspan, McDonough, Ferguson, Gramlich, Hoenig, Kelley, Meyer, Minehan, Moskow, and Poole. Votes against this action: None. Chairman Greenspan indicated that shortly after this meeting the Board of Governors would consider pending requests by several Federal Reserve Banks to reduce the discount rate by 25 basis points. At the time of this conference call meeting, no pending requests for a 50 basis point reduction were outstanding, but the press release would indicate that the Board would be prepared to consider requests for further reductions of 25 basis points if they were received. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: February 1, 2001, 2:00 PM",
+  "text_sha256": "7fe67e4b28452622761eb4126a8fdb69432e07276edbd2532e2b5826ad5c22df"
+}

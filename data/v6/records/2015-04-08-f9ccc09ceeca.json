@@ -1,0 +1,72 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20150318",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": -1.0,
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20150318.htm"
+    ],
+    "evidence": "d home values advanced further, and consumer sentiment in the University of Michigan Surveys of Consumers was still near its highest level since prior to the most recent recession.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "advanced",
+      "bearing",
+      "below",
+      "consumer",
+      "consumers",
+      "continued",
+      "declines",
+      "employment",
+      "energy",
+      "excerpt",
+      "expand",
+      "fomc",
+      "further",
+      "highest",
+      "home",
+      "inflation",
+      "level",
+      "longer",
+      "michigan",
+      "most",
+      "near",
+      "nonfarm",
+      "objective",
+      "payroll",
+      "percent",
+      "price",
+      "prices",
+      "prior",
+      "recent",
+      "recession",
+      "restrained",
+      "risk",
+      "sentiment",
+      "significantly",
+      "since",
+      "still",
+      "surveys",
+      "university",
+      "values"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2015.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2015-04-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f9ccc09ceecab28063838e89ca62dadc0213397ad1e48a629f96354109363770",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20150318.htm",
+  "text": "Minutes of the Federal Open Market Committee March 17-18, 2015 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, March 17, 2015, at 10:30 a.m. and continued on Wednesday, March 18, 2015, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Jeffrey M. Lacker Dennis P. Lockhart Jerome H. Powell Daniel K. Tarullo John C. Williams James Bullard, Christine Cumming, Esther L. George, Loretta J. Mester, and Eric Rosengren, Alternate Members of the Federal Open Market Committee Narayana Kocherlakota, President of the Federal Reserve Bank of Minneapolis Helen E. Holcomb and Blake Prichard, First Vice Presidents, Federal Reserve Banks of Dallas and Philadelphia, respectively Thomas Laubach, Secretary and Economist Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Thomas C. Baxter, Deputy General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist David Altig, Thomas A. Connors, Michael P. Leahy, William R. Nelson, Glenn D. Rudebusch, Daniel G. Sullivan, William Wascher, and John A. Weinberg, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 1 Secretary of the Board, Office of the Secretary, Board of Governors Michael S. Gibson, Director, Division of Banking Supervision and Regulation, Board of Governors James A. Clouse, Deputy Director, Division of Monetary Affairs, Board of Governors William B. English, Senior Special Adviser to the Board, Office of Board Members, Board of Governors Andrew Figura, David Reifschneider, and Stacey Tevlin, Special Advisers to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors David E. Lebow and Michael G. Palumbo, Senior Associate Directors, Division of Research and Statistics, Board of Governors Michael T. Kiley, Senior Adviser, Division of Research and Statistics, and Senior Associate Director, Office of Financial Stability Policy and Research, Board of Governors Ellen E. Meade and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors Fabio M. Natalucci 2 and Gretchen C. Weinbach, 1 Associate Directors, Division of Monetary Affairs, Board of Governors Jane E. Ihrig and David López-Salido, Deputy Associate Directors, Division of Monetary Affairs, Board of Governors; John J. Stevens, Deputy Associate Director, Division of Research and Statistics, Board of Governors Glenn Follette, Assistant Director, Division of Research and Statistics, Board of Governors; Elizabeth Klee, Assistant Director, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, 1 Assistant to the Secretary, Office of the Secretary, Board of Governors Dana L. Burnett and Don Kim, Section Chiefs, Division of Monetary Affairs, Board of Governors Katie Ross, 1 Manager, Office of the Secretary, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Zeynep Senyuz, Economist, Division of Monetary Affairs, Board of Governors Kenneth C. Montgomery, First Vice President, Federal Reserve Bank of Boston Ron Feldman, Executive Vice President, Federal Reserve Bank of Minneapolis Michael Dotsey, Craig S. Hakkio, Evan F. Koenig, and Paolo A. Pesenti,\n...[document excerpted]...\nch 17‒18 meeting suggested that real gross domestic product (GDP) growth moderated in the first quarter and that labor market conditions improved further. Consumer price inflation was restrained significantly by declines in energy prices and continued to run below the FOMC's longer-run objective of 2 percent. Market-based measures of inflation compensation were still low, while survey measures of longer‑run inflation expectations remained stable. Nonfarm payroll employment continued to expand st\n...[risk-bearing excerpt]...\nd home values advanced further, and consumer sentiment in the University of Michigan Surveys of Consumers was still near its highest level since prior to the most recent recession. The pace of activity in the housing sector remained slow. Both starts and building permits for new single-family homes declined over January and February. Starts of multifamily units also decreased, on net, over the past two months. Sales of new and existing homes moved down in January, although pending home sales inc\n...[risk-bearing excerpt]...\nthat market-based measures of inflation compensation were responding to the same global developments as oil prices, that these measures were capturing changes in risk or liquidity premiums, or that inflation-indexed securities were subject to mispricing. A couple of participants pointed out that the movements in crude oil prices and market-based inflation compensation measures had not been particularly well aligned over a longer historical period, or that information gleaned from inflation deriv\n...[risk-bearing excerpt]...\nancing Terms, dealers' willingness to provide warehouse financing for loans intended for inclusion in CMBS increased since the beginning of 2014. In addition, demand for funding of CMBS by hedge funds and real estate investment trusts reportedly rose over the same period. Credit conditions for mortgages remained tight for riskier borrowers, with relatively few mortgages originated to borrowers in the lower portion of the credi\n...[document conclusion]...\nohn C. Williams. Voting against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, April 28-29, 2015. The meeting adjourned at 10:45 a.m. on March 18, 2015. Notation Vote By notation vote completed on February 17, 2015, the Committee unanimously approved the minutes of the Committee meeting held on January 27-28, 2015. _____________________________ Thomas Laubach Secretary 1. Attended the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 2. Attended the portion of the meeting following the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 3. The statement titled Policy Normalization Principles and Plans is available on the Board's website at www.federalreserve.gov/newsevents/press/monetary/20140917c.htm . Return to text 4. The president of the Federal Reserve Bank of Dallas did not participate in this FOMC meeting, and the incoming president of the Federal Reserve Bank of Philadelphia is scheduled to assume office on July 1. Helen E. Holcomb and Blake Prichard, First Vice Presidents of the Federal Reserve Banks of Dallas and Philadelphia, respectively, submitted economic projections. Return to text",
+  "text_sha256": "e21d4cd60c3bb176f81f1661bc736bccb05a48c226657be0bbda8a02ec5e6cde"
+}

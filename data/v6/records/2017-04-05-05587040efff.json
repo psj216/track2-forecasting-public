@@ -1,0 +1,65 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20170315",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": -1.0,
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170315.htm"
+    ],
+    "evidence": "The unemployment rates for African Americans, for Hispanics, and for whites were close to the levels seen just before the most recent recession, but the unemployment rates for African Americans and for Hispanics remained above the rate for whites.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "above",
+      "african",
+      "americans",
+      "before",
+      "below",
+      "changed",
+      "close",
+      "continued",
+      "energy",
+      "excluding",
+      "food",
+      "hispanics",
+      "inflation",
+      "just",
+      "levels",
+      "little",
+      "longer",
+      "most",
+      "objective",
+      "percent",
+      "prices",
+      "rate",
+      "rates",
+      "recent",
+      "recession",
+      "remained",
+      "seen",
+      "somewhat",
+      "unemployment",
+      "were",
+      "whites"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2017.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2017-04-05",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "05587040efff4549a709a08acaba882d1715e5322ca3f3ba2bf4da7d9047974b",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170315.htm",
+  "text": "Minutes of the Federal Open Market Committee March 14-15, 2017 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, March 14, 2017, at 10:00 a.m. and continued on Wednesday, March 15, 2017, at 9:00 a.m. 1 PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Patrick Harker Robert S. Kaplan Neel Kashkari Jerome H. Powell Daniel K. Tarullo Marie Gooding, Jeffrey M. Lacker, Loretta J. Mester, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Michael Held, 2 Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist James A. Clouse, Michael Dotsey, Evan F. Koenig, Daniel G. Sullivan, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 3 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board of Governors; Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Stephen A. Meyer, Deputy Director, Division of Monetary Affairs, Board of Governors Trevor A. Reeve, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors David Bowman, Andrew Figura, Joseph W. Gruber, and David Reifschneider, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors David E. Lebow and Michael G. Palumbo, Senior Associate Directors, Division of Research and Statistics, Board of Governors Antulio N. Bomfim and Ellen E. Meade, Senior Advisers, Division of Monetary Affairs, Board of Governors Brian M. Doyle, Associate Director, Division of International Finance, Board of Governors; Jane E. Ihrig and David López-Salido, Associate Directors, Division of Monetary Affairs, Board of Governors; Stacey Tevlin, Associate Director, Division of Research and Statistics, Board of Governors Min Wei, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Christopher J. Gust and Jason Wu, Assistant Directors, Division of Monetary Affairs, Board of Governors; Paul R. Wood, Assistant Director, Division of International Finance, Board of Governors Penelope A. Beattie, 3 Assistant to the Secretary, Office of the Secretary, Board of Governors Michele Cavallo and Jeffrey Huther, Section Chiefs, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Andrea Ajello, Principal Economist, Division of Monetary Affairs, Board of Governors Randall A. Williams, Information Manager, Division of Monetary Affairs, Board of Governors James M. Lyon and Mark L. Mullinix, First Vice Presidents, Federal Reserve Banks of Minneapolis and Richmond, resp\n...[document excerpted]...\nty nonetheless declined further. The monetary policies of other advanced-economy central banks remained quite accommodative, and some signs of progress on central banks' inflation mandates were evident. Late in the intermeeting period, market participants came to interpret U.S. monetary policy communications as implying high odds of a firming of monetary policy at this meeting, and changes in market prices suggested a slightly steeper path for the federal funds rate over the next few years than\n...[risk-bearing excerpt]...\n's longer-run objective of 2 percent; excluding food and energy prices, inflation was little changed and continued to run somewhat below 2 percent. Total nonfarm payroll employment increased at a brisk pace in January and February. The unemployment rate edged back down to 4.7 percent in February, and the labor force participation rate rose over the first two months of the year. The share of workers employed part time for economic reasons was little changed on net. The rate of private-sector job\n...[risk-bearing excerpt]...\ng sector, continued to increase through early March. The limited available data suggested that inventory investment was likely to make a smaller contribution to real GDP growth in the early part of the year than it did in the fourth quarter. Total real government purchases appeared to be moving sideways in the first quarter after having been little changed in the fourth quarter. Nominal outlays for defense in January and February pointed to an increase in real federal purchases. Al­though state\n...[risk-bearing excerpt]...\nr the 12 months ending in February. The unemployment rates for African Americans, for Hispanics, and for whites were close to the levels seen just before the most recent recession, but the unemployment rates for African Americans and for Hispanics remained above the rate for whites. Over the past year or so, the jobless rate for African Americans moved lower, while the rates for Hispanics and for whites moved roughly sideways. To\n...[document conclusion]...\nn June 5, 2017. Marie Gooding, First Vice President of the Federal Reserve Bank of Atlanta, submitted economic projections. Return to text 5. One participant did not submit longer-run projections for real output growth, the unemployment rate, or the federal funds rate. Return to text 6. In taking this action, the Board approved requests submitted by the boards of directors of the Federal Reserve Banks of Boston, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, Kansas City, Dallas, and San Francisco. This vote also encompassed approval by the Board of Governors of the establishment of a 1-1/2 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of March 16, 2017, and the date such Reserve Banks informed the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of New York, St. Louis, and Minneapolis were informed by the Secretary of the Board of the Board's approval of their establishment of a primary credit rate of 1-1/2 percent, effective March 16, 2017.) The second vote of the Board also encompassed approval of the establishment of the interest rates for secondary and seasonal credit under the existing formulas for computing such rates. Return to text",
+  "text_sha256": "e13744f816e9d7c209a84798a9f66db3128b4bd39eb1ca46c6b2f76cf340e481"
+}

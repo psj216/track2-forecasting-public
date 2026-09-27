@@ -1,0 +1,46 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20140917",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "liquidity": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140917.htm"
+    ],
+    "evidence": "Total nonfarm payroll employment increased in July and August but at a slower pace than in the first half of the year.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "august",
+      "employment",
+      "first",
+      "half",
+      "increased",
+      "july",
+      "nonfarm",
+      "pace",
+      "payroll",
+      "slower",
+      "than",
+      "total",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2014-10-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "d3d300f4976b8a5cbdf47e5b04d8f96846ad0ae2e1b931613c19d2172ed0e196",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140917.htm",
+  "text": "Minutes of the Federal Open Market Committee September 16-17, 2014 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, September 16, 2014, at 11:00 a.m. and continued on Wednesday, September 17, 2014, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Stanley Fischer Richard W. Fisher Narayana Kocherlakota Loretta J. Mester Charles I. Plosser Jerome H. Powell Daniel K. Tarullo Christine Cumming, Charles L. Evans, Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist James A. Clouse, Evan F. Koenig, Thomas Laubach, Michael P. Leahy, Mark E. Schweitzer, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 1 Secretary of the Board, Office of the Secretary, Board of Governors Michael S. Gibson, 2 Director, Division of Banking Supervision and Regulation, Board of Governors Matthew J. Eichner, 1 Deputy Director, Division of Research and Statistics, Board of Governors; Stephen A. Meyer and William R. Nelson, Deputy Directors, Division of Monetary Affairs, Board of Governors; Mark E. Van Der Weide, 3 Deputy Director, Division of Banking Supervision and Regulation, Board of Governors Andreas Lehnert, Deputy Director, Office of Financial Stability Policy and Research, Board of Governors Andrew Figura, David Reifschneider, and Stacey Tevlin, Special Advisers to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Christopher J. Erceg, Senior Associate Director, Division of International Finance, Board of Governors Michael T. Kiley 4 and Jeremy B. Rudd 4 ,Senior Advisers, Division of Research and Statistics, Board of Governors; Joyce K. Zickler, Senior Adviser, Division of Monetary Affairs, Board of Governors Eric M. Engen and Michael G. Palumbo, Associate Directors, Division of Research and Statistics, Board of Governors; Fabio M. Natalucci, Associate Director, Division of Monetary Affairs, Board of Governors Marnie Gillis DeBoer, Deputy Associate Director, Division of Monetary Affairs, Board of Governors; Joshua Gallin, Deputy Associate Director, Division of Research and Statistics, Board of Governors Edward Nelson, Assistant Director, Division of Monetary Affairs, Board of Governors Patrick E. McCabe, 1 Adviser, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 1 Assistant to the Secretary, Office of the Secretary, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Katie Ross, 1 Manager, Office of the Secretary, Board of Governors Valerie Hinojosa, Records Project Manager, Division of Monetary Affairs, Board of Governors Marie Gooding, First Vice President, Federal Reserve Bank of Atlanta David Altig, Alberto G. Musalem, and Daniel G. Sullivan, Executive Vice Presidents, Federal Reserve Banks of Atlanta, New York, and Chicago, respectively Troy Davig, Michael Dot\n...[document excerpted]...\ne third quarter. Labor market conditions improved a little further, although the unemployment rate was essentially unchanged over the intermeeting period. Consumer price inflation was running below the FOMC's longer-run objective of 2 percent, but measures of longer-run inflation expectations remained stable. Total nonfarm payroll employment increased in July and August but at a slower pace than in the first half of the year. The unemployment rate was 6.1 percent in August, the same as in June,\n...[risk-bearing excerpt]...\nrate and other short-term interest rates to more normal levels and to reduce the Federal Reserve's securities holdings--so as to promote its statutory mandate of maximum employment and price stability. When economic conditions and the economic outlook warrant a less accommodative monetary policy, the Committee will raise its target range for the federal funds rate. During normalization, the Federal Reserve intends to move the federal funds rate into the target range set by the FOMC primarily by\n...[risk-bearing excerpt]...\nimilar rate over the 12 months ending in August. Foreign economies continued to expand in the second quarter, but with significant differences across countries. Economic growth rebounded strongly from a weak first-quarter pace in Canada, China, and Mexico, supported by improvement in exports. In contrast, the Japanese economy contracted sharply following the consumption tax increase in April, economic activity stagnated in the euro area, and the Brazilian economy fell into recession. In the thir\n...[risk-bearing excerpt]...\nbonds widened noticeably; however, these spreads returned to their initial levels over subsequent weeks, and high-yield bond funds attracted modest inflows. Measures of liquidity in the corporate bond market remained stable in the face of these substantial flows. Conditions in short-term dollar funding markets were little changed. The Federal Reserve continued its testing of ON RRP operations over the intermeeting period. Take-u\n...[document conclusion]...\nubstantial progress that had been made toward the Committee's economic goals and thus risks unnecessary and disruptive volatility in financial markets, and perhaps in the economy, if the Committee reduces accommodation sooner or more quickly than financial markets anticipate. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, October 28-29, 2014. The meeting adjourned at 10:35 a.m. on September 17, 2014. Notation Vote By notation vote completed on August 19, 2014, the Committee unanimously approved the minutes of the Committee meeting held on July 29-30, 2014. _____________________________ William B. English Secretary 1. Attended the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 2. Attended Wednesday's session only. Return to text 3. Attended Tuesday's session only. Return to text 4. Attended the portion of the meeting following the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 5. Recently released data for health-services consumption in the second quarter were notably stronger than the Bureau of Economic Analysis estimated when constructing its most recent PCE estimates for the second quarter. Return to text",
+  "text_sha256": "2a513c09393c9a63e25c106510b74fc579b1d21889694688707b0d6dce79ea1d"
+}
