@@ -55,6 +55,7 @@ from .text_evidence import (
 )
 from .text_first_v5 import apply_text_first_v5
 from .v6.engine import apply_v6
+from .v7.engine import apply_v7
 
 DEFAULT_DRAWS = 500
 _RATIONALE_NAME = "forecast_rationale.md"
@@ -69,6 +70,7 @@ _FORECAST_MODES = {
     "text-first-v5.1",
     "v6-f2",
     "v6-full",
+    "v7-f2",
 }
 
 
@@ -292,6 +294,7 @@ The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s
         "text-first-v5.1",
         "v6-f2-event-analog",
         "v6-full",
+        "v7-f2-event-memory",
     }:
         text_section = (
             "The cutoff-safe deterministic event router applied a pre-asof historical "
@@ -423,7 +426,8 @@ def main(argv: list[str] | None = None) -> int:
         DEFAULT_DRAWS,
         ParseLimits().min_draws,
         1000
-        if mode in {"text-first-v5", "text-first-v5.1", "v6-f2", "v6-full"} and family == "T2-F4"
+        if mode in {"text-first-v5", "text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}
+        and family == "T2-F4"
         else 0,
     )
     n_draws = max(a.n_draws or floor, floor)
@@ -498,7 +502,7 @@ def main(argv: list[str] | None = None) -> int:
     # Numeric mode and F1-F3 remain unchanged.
     approved_config = APPROVED_F4_CONFIG if reasoning_enabled and family == "T2-F4" else None
 
-    if forecast_mode in {"text-first-v5", "text-first-v5.1", "v6-f2", "v6-full"}:
+    if forecast_mode in {"text-first-v5", "text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}:
         adjusted, head_meta = apply_text_first_v5(
             samples,
             {asset: _series(panels, asset, a.asof) for asset in assets}
@@ -550,6 +554,30 @@ def main(argv: list[str] | None = None) -> int:
                 "baseline_fallback_exact": not v6_meta["applied"],
                 "numeric_fallback_exact": not (v6_meta["applied"] or frozen_meta["applied"]),
                 "applied": v6_meta["applied"] or frozen_meta["applied"],
+            }
+        if forecast_mode == "v7-f2":
+            frozen_meta = dict(head_meta)
+            adjusted, v7_meta = apply_v7(
+                adjusted,
+                {asset: _series(panels, asset, a.asof) for asset in assets}
+                if family == "T2-F2"
+                else {},
+                assets,
+                horizons,
+                target_type,
+                target_frequency,
+                family,
+                a.asof,
+                a.seed,
+                a.text,
+            )
+            head_meta = {
+                **v7_meta,
+                "baseline": frozen_meta,
+                "v7_applied": v7_meta["applied"],
+                "baseline_fallback_exact": not v7_meta["applied"],
+                "numeric_fallback_exact": not (v7_meta["applied"] or frozen_meta["applied"]),
+                "applied": v7_meta["applied"] or frozen_meta["applied"],
             }
         integration = IntegrationResult(samples=adjusted, metadata=head_meta)
     elif forecast_mode == "integrated-v4":
@@ -673,7 +701,7 @@ def main(argv: list[str] | None = None) -> int:
                     integration.metadata.get("router", {}).get("gate_passed", False)
                     if forecast_mode == "family-heads"
                     else integration.metadata["applied"]
-                    if forecast_mode in {"text-first-v5.1", "v6-f2", "v6-full"}
+                    if forecast_mode in {"text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}
                     else reasoning.applied
                 ),
                 "reasoning_skipped_reason": (
@@ -682,7 +710,8 @@ def main(argv: list[str] | None = None) -> int:
                         if integration.metadata["applied"]
                         else integration.metadata.get("reason", "")
                     )
-                    if forecast_mode in {"family-heads", "text-first-v5.1", "v6-f2", "v6-full"}
+                    if forecast_mode
+                    in {"family-heads", "text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}
                     else reasoning.skipped_reason
                 ),
                 "family_heads": integration.metadata if forecast_mode == "family-heads" else None,
@@ -700,7 +729,7 @@ def main(argv: list[str] | None = None) -> int:
                         )
                         if forecast_mode == "family-heads"
                         else integration.metadata
-                        if forecast_mode in {"text-first-v5.1", "v6-f2", "v6-full"}
+                        if forecast_mode in {"text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}
                         else reasoning.metadata(
                             mode="integrated" if integration.metadata["applied"] else "shadow",
                             forecast_adjustment_applied=bool(integration.metadata["applied"]),
@@ -731,7 +760,7 @@ def main(argv: list[str] | None = None) -> int:
     print(f"wrote {a.out.name}, forecast_meta.json and {_RATIONALE_NAME} to {out_dir}")
     print(f"  {len(assets)} asset(s) x {len(horizons)} horizon(s), {n_draws} draws")
     print(f"  forecast mode: {forecast_mode}")
-    if forecast_mode in {"family-heads", "text-first-v5.1", "v6-f2", "v6-full"}:
+    if forecast_mode in {"family-heads", "text-first-v5.1", "v6-f2", "v6-full", "v7-f2"}:
         print("  text route: " + json.dumps(integration.metadata, sort_keys=True))
     else:
         print(

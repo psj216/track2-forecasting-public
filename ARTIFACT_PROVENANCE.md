@@ -1,5 +1,26 @@
 ## Executive summary (read this first)
 
+V7 extends the opt-in V5.1 baseline with a static, dated Fed/BLS/ECB event
+catalog. Its records contain release text or bounded excerpts, observable event
+features, source links and checksums. They contain **no response paths or price
+series**. The F2 engine reconstructs matured event responses from the unit's
+mounted panel at runtime and uses a small reliability-weighted empirical sleeve.
+F1/F3/F4 retain their V5.1 forecast. This is an experimental research mode,
+not a claimed leaderboard improvement or automatic submission.
+
+V7's builder is `tools/build_v7_catalog.py`. BLS CPI and Employment Situation
+vintages come from the official news-release archive indexes; ECB policy
+decisions come from the official older index and the year-specific HTML listing
+fragments. Fed statements and separately released minutes reuse the checksum-
+bound V6 input. BLS publication dates are cross-checked with their release
+mastheads. The `data/v7/catalog_manifest.json` records the catalog version,
+parser and schema versions, index hashes, event counts and source exclusions.
+`data/v7/index.json` holds only dates, record paths and checksums; future record
+contents are not opened at inference. Each historical response's final panel
+observation must precede the forecast cutoff. CPI and payroll release changes
+are **not** labeled as forecast surprises without an as-of consensus source.
+Historical source fetches happen at build time only; inference runs offline.
+
 V6 packages an external historical event library containing official Federal Reserve
 Board text, publication dates, deterministic semantic features and source checksums.
 There are no prices, forecast outcomes, Development scores, unit-specific rules,

@@ -52,6 +52,7 @@ RUN pip install --no-cache-dir \
 WORKDIR /work
 COPY qfbench2_track_forecasting /opt/qfbench2_track_forecasting
 COPY data/v6 /opt/v6_catalog
+COPY data/v7 /opt/v7_catalog
 COPY ARTIFACT_PROVENANCE.md /opt/ARTIFACT_PROVENANCE.md
 ENV PYTHONPATH=/opt
 
