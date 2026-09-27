@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "catalog_version": "event-memory-1.0",
+  "build_date": "2026-09-27T15:16:33.143464+00:00",
+  "parser_version": 1,
+  "feature_schema_version": 1,
+  "index_sha256": "7845ea0be1d7d4a8d1a47d592590326500f2e13ba98d3ef73f9ab10a9ee6bc40",
+  "event_count": 711,
+  "type_counts": {
+    "POLICY_MINUTES": 100,
+    "POLICY_DECISION": 223,
+    "EMPLOYMENT_RELEASE": 178,
+    "CPI_RELEASE": 210
+  },
+  "region_counts": {
+    "US": 655,
+    "EU": 56
+  },
+  "index_hashes": {
+    "https://www.bls.gov/bls/news-release/cpi.htm": "e522ffbbd037e18febae96b978ac1873617661e9e75a8f5f6ac6b4271ffd6c43",
+    "https://www.bls.gov/bls/news-release/empsit.htm": "5a2630d7c59ff8153254741c0a8b234bb842484f01ee7e1a1e50d8e95234b2e7",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/previous/html/index.en.html": "b304116415ad0f5a16cc2c3f0a8420d2b7222462c3de5bf9e4923eb1f0740981",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2017/html/index_include.en.html": "374603e92a5a1788042068e7411e4dadc04ab43144a2c1b97288bb56f25985d0",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2018/html/index_include.en.html": "2c0402165fb52f56c7cef88286f38281112a27c4579d844a9b4209aebc46249b",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2019/html/index_include.en.html": "190dd0157544001816ad81f03ab31114eedf1259db9e7d6b63060842972734b2",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2020/html/index_include.en.html": "dd6bf93f5f576c98b43f3fa3c4aa17ffd7715c3d7ac4d949492b341ca0744b6d",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2021/html/index_include.en.html": "a30dd6312dcdab1983a4764c29627313ab1a1ab11b1bead538afc17614faaa5e",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2022/html/index_include.en.html": "9b7a3064ad5a824bfff58f35089f37b8499c07b88a8acc464a8eb14b72a1e794",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2023/html/index_include.en.html": "a7d5c3f7d479052c91ca1dc409c3dee90dfc8c8bb99b5cb0a7f606b243c47635",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2024/html/index_include.en.html": "4c957ea8240d8ff04f32faa71a80d3078b7f2b6c1e4a3255616814a4b47d3e2d",
+    "https://www.ecb.europa.eu/press/govcdec/mopo/2025/html/index_include.en.html": "d7a568db1045be795f4269039c8228670ce2bf88de276a40f715f49fc502f5ed"
+  },
+  "fed_catalog_index_sha256": "e5767a8e56f6fff315f996e761a462369d549fcec5882a7416097d2730515a17",
+  "source_counts": {
+    "FED": 267,
+    "BLS_ECB": 444
+  },
+  "discovered_sources": 621,
+  "excluded_sources": 177,
+  "market_responses_stored": 0
+}
