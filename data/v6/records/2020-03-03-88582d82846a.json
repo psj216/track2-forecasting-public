@@ -1,0 +1,71 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20200303",
+  "fingerprint": {
+    "axes": {
+      "guidance": -1.0,
+      "policy": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "guidance": -1.0,
+      "inflation": 1.0,
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm"
+    ],
+    "evidence": "The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "achieving",
+      "appropriate",
+      "closely",
+      "committee",
+      "decided",
+      "developments",
+      "economic",
+      "economy",
+      "employment",
+      "federal",
+      "funds",
+      "goals",
+      "implications",
+      "light",
+      "lower",
+      "market",
+      "maximum",
+      "monitoring",
+      "open",
+      "outlook",
+      "percent",
+      "percentage",
+      "point",
+      "price",
+      "range",
+      "rate",
+      "risks",
+      "stability",
+      "support",
+      "target",
+      "their",
+      "these",
+      "today",
+      "tools",
+      "will"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2020.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2020-03-03",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "88582d82846a6d5b6a0fc187b2ef6647da1f9345233cb150f7e481ca210e9f9d",
+  "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm",
+  "text": "March 03, 2020 Federal Reserve issues FOMC statement For release at 10:00 a.m. EST Share The fundamentals of the U.S. economy remain strong. However, the coronavirus poses evolving risks to economic activity. In light of these risks and in support of achieving its maximum employment and price stability goals, the Federal Open Market Committee decided today to lower the target range for the federal funds rate by 1/2 percentage point, to 1 to 1‑1/4 percent. The Committee is closely monitoring developments and their implications for the economic outlook and will use its tools and act as appropriate to support the economy. Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michelle W. Bowman; Lael Brainard; Richard H. Clarida; Patrick Harker; Robert S. Kaplan; Neel Kashkari; Loretta J. Mester; and Randal K. Quarles. For media inquiries, call 202-452-2955. Implementation Note issued March 3, 2020",
+  "text_sha256": "c5ca5639ddc3f9b4065de96abff724a063176ba4cf49132364c6bf58390e707e"
+}

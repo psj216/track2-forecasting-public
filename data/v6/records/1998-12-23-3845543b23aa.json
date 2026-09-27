@@ -1,0 +1,60 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19981117",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19981117.htm"
+    ],
+    "evidence": "On the positive side, members commented that economic and financial conditions appeared to have stabilized or improved a bit in a number of Asian nations, though the recession in Japan showed little evidence of coming to an end, and the outlook for Brazil seemed a little more promising.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "appeared",
+      "asian",
+      "brazil",
+      "coming",
+      "commented",
+      "conditions",
+      "economic",
+      "evidence",
+      "financial",
+      "have",
+      "improved",
+      "japan",
+      "little",
+      "members",
+      "more",
+      "nations",
+      "number",
+      "outlook",
+      "positive",
+      "promising",
+      "recession",
+      "seemed",
+      "showed",
+      "side",
+      "stabilized",
+      "that",
+      "though"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-12-23",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "3845543b23aae16ba50df0d7ed5c9097aa6fe1b2ccb73d06513a503638db847f",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19981117.htm",
+  "text": "Minutes of the Federal Open Market Committee November 17, 1998 A meeting of the Federal Open Market Committee was held in\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\nWashington, D.C., on Tuesday, November 17, 1998, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Jordan Mr. Kelley Mr. Meyer Ms. Minehan Mr. Poole Ms. Rivlin Messrs. Boehne, McTeer, Moskow, and Stern,\r\n\t\t    Alternate Members of the Federal Open Market\r\n                       Committee Messrs. Broaddus, Guynn, and Parry, Presidents of\r\n                       the Federal Reserve Banks of Richmond, Atlanta,\r\n                       and San Francisco respectively Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Mattingly, General Counsel Mr. Prell, Economist Messrs. Cecchetti, Dewald, Lindsey, Simpson,\r\n                       Sniderman, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board\r\n                       Members, Board of Governors Mr. Ettin, Deputy Director, Division of Research\r\n\t\t    and Statistics, Board of Governors Ms. Johnson, Director, Division of International\r\n\t\t    Finance, Board of Governors Messrs. Madigan and Slifman, Associate Directors,\r\n                       Divisions of Monetary Affairs and Research and\r\n                       Statistics respectively, Board of Governors Messrs. Alexander and Hooper, Deputy\r\n                       Directors, Division of International Finance,\r\n                       Board of Governors Mr. Reinhart, Deputy Associate Director, Division\r\n                       of Monetary Affairs, Board of Governors Mr. Whitesell, Assistant Director, Division of\r\n                       Monetary Affairs, Board of Governors Ms. Garrett, Economist, Division of Monetary\r\n                       Affairs, Board of Governors Mr. Kumasaka, Assistant Economist, Division\r\n                       of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n \t\t    Governors Mr. Moore, First Vice President, Federal\r\n                       Reserve Bank of San Francisco Messrs. Beebe, Eisenbeis, Ms. Krieger, Messrs.\r\n                       Lang, and Rosenblum, Senior Vice Presidents,\r\n                       Federal Reserve Banks of San Francisco,\r\n                       Atlanta, New York, Philadelphia, and Dallas\r\n                       respectively Messrs. Evans, Fuhrer, Hetzel, Miller, and Sellon,\r\n                       Vice Presidents, Federal Reserve Banks of\r\n                       Chicago, Boston, Richmond, Minneapolis, and\r\n                       Kansas City respectively By unanimous vote, the minutes of the meeting of the Federal\r\nOpen Market Committee held on September 29, 1998, were approved. The Manager of the System Open Market Account reported on\r\nrecent developments in foreign exchange markets.  There were no open\r\nmarket operations in foreign currencies for the System's account in\r\nthe period since the previous meeting, and thus no vote was required\r\nof the Committee. The Manager also reported on developments in domestic\r\nfinancial markets and on System open market transactions in government\r\nsecurities and federal agency obligations during the period September\r\n29, 1998, through November 16, 1998.  By unanimous vote, the Committee\r\nratified these transactions. The Manager informed the Committee that he planned to initiate\r\noutright purchases in the secondary market of inflation-indexed\r\nTreasury securit\n...[document excerpted]...\nhat sizable purchases of indexed securities by the\r\ncentral bank might impair the liquidity of the market and limit the\r\nusefulness of these obligations as indicators of inflationary\r\nexpectations.  It was noted, however, that relatively limited System\r\npurchases of such securities were contemplated so that the market was\r\nnot likely to be significantly affected.  Moreover, the System's\r\nparticipation could contribute to a more active and liquid secondary\r\nmarket. In further discussion of the wo\n...[risk-bearing excerpt]...\nhe economy, business fixed\r\ninvestment had softened after having surged in the first half, and net\r\nexports had declined further, although at a reduced pace.  Growth in\r\nemployment had slowed appreciably on balance during the summer and\r\nearly fall months, but tight conditions had persisted in most labor\r\nmarkets.  Recent wage and price developments had been mixed. Growth in nonfarm payroll employment slowed appreciably in\r\nSeptember and October.  The slowing partly reflected sizable job\r\nlosses\n...[risk-bearing excerpt]...\nd below. The information reviewed at this meeting suggested some\r\nmoderation in the expansion of economic activity from a brisk pace\r\nduring the summer months.  Although growth of economic activity in the\r\nthird quarter apparently about matched the pace in the first half of\r\nthe year, a large buildup of nonfarm inventories had accounted for a\r\nsignificant portion of the persisting strength of the expansion during\r\nthe quarter.  Growth in consumer spending had been well maintained\r\nduring the sum\n...[risk-bearing excerpt]...\nOn the\r\npositive side, members commented that economic and financial\r\nconditions appeared to have stabilized or improved a bit in a number\r\nof Asian nations, though the recession in Japan showed little evidence\r\nof coming to an end, and the outlook for Brazil seemed a little more\r\npromising.  However, economic and financial conditions in Brazil and a\r\nnumber of other countries remained very fragile.  The recent\r\ndepreciation o\n...[document conclusion]...\neral Reserve Bank of New York (a) for\r\n    System Open Market Account, to sell U.S. Government\r\n    securities to such foreign and international accounts on\r\n    the bases set forth in paragraph l(a) under agreements\r\n    providing for the resale by such accounts of those\r\n    securities within 60 calendar days on terms comparable to\r\n    those available on such transactions in the market; and\r\n    (b) for New York Bank account, when appropriate, to\r\n    undertake with dealers, subject to the conditions imposed\r\n    on purchases and sales of securities in paragraph l(b),\r\n    repurchase agreements in U.S. Government and agency\r\n    securities, and to arrange corresponding sale and\r\n    repurchase agreements between its own account and foreign\r\n    and international accounts maintained at the Bank.\r\n    Transactions undertaken with such accounts under the\r\n    provisions of this paragraph may provide for a service\r\n    fee when appropriate. It was agreed that the next meeting of the Committee would\r\nbe held on Tuesday, December 22, 1998. The meeting adjourned at 1:25 p.m. Normand Bernard Deputy Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: December 23, 1998, 2:00 PM",
+  "text_sha256": "9b50717b9fc628da8c32f7bbf29c7efc80dcefead507f919ecf6aa74936dcee8"
+}

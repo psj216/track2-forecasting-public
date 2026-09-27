@@ -1,0 +1,44 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20130619",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20130619.htm"
+    ],
+    "evidence": "Private nonfarm employment rose moderately in April and May, while total government employment continued to decline somewhat.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "april",
+      "continued",
+      "decline",
+      "employment",
+      "government",
+      "moderately",
+      "nonfarm",
+      "private",
+      "rose",
+      "somewhat",
+      "total",
+      "while"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2013.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2013-07-10",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "e21809be126e6d92f8d1c54d3fe01ac0f0ee291983d6395cf4e39aeb23c28b7a",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20130619.htm",
+  "text": "Minutes of the Federal Open Market Committee June 18-19, 2013 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, June 18, 2013, at 1:30 p.m. and continued on Wednesday, June 19, 2013, at 9:00 a.m. PRESENT: Ben Bernanke, Chairman William C. Dudley, Vice Chairman James Bullard Elizabeth Duke Charles L. Evans Esther L. George Jerome H. Powell Sarah Bloom Raskin Eric Rosengren Jeremy C. Stein Daniel K. Tarullo Janet L. Yellen Christine Cumming, Richard W. Fisher, Narayana Kocherlakota, and Charles I. Plosser, Alternate Members of the Federal Open Market Committee Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively Gregory L. Stefani, First Vice President, Federal Reserve Bank of Cleveland William B. English, Secretary and Economist Matthew M. Luecke, Assistant Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Thomas C. Baxter, Deputy General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist Thomas A. Connors, Troy Davig, Michael P. Leahy, James J. McAndrews, Stephen A. Meyer, David Reifschneider, Geoffrey Tootell, Christopher J. Waller, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors James A. Clouse and William Nelson, Deputy Directors, Division of Monetary Affairs, Board of Governors; Matthew J. Eichner, Deputy Director, Division of Research and Statistics, Board of Governors; Maryann F. Hunter, Deputy Director, Division of Banking Supervision and Regulation, Board of Governors Jon W. Faust, Special Adviser to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Ellen E. Meade and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors Daniel M. Covitz, Eric M. Engen, and Thomas Laubach, Associate Directors, Division of Research and Statistics, Board of Governors Sean D. Campbell and Joshua Gallin, Deputy Associate Directors, Division of Research and Statistics, Board of Governors; Jane E. Ihrig and David López-Salido, Deputy Associate Directors, Division of Monetary Affairs, Board of Governors Joseph W. Gruber, Assistant Director, Division of International Finance, Board of Governors Jeremy B. Rudd, Adviser, Division of Research and Statistics, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Deborah J. Lindner, Group Manager, Division of Research and Statistics, Board of Governors Patrice Robitaille, Senior Economist, Division of International Finance, Board of Governors Seung J. Lee, Economist, Division of Monetary Affairs, Board of Governors Peter M. Garavuso, Records Management Analyst, Division of Monetary Affairs, Board of Governors James M. Lyon, First Vice President, Federal Reserve Bank of Minneapolis David Altig and Loretta J. Mester, Executive Vice Presidents, Federal Reserve Banks of Atlanta and Philadelphia, respectively Lorie K. Logan, David Marshall, Mark E. Schweitzer, and Kei-Mu Yi, Senior Vice Presidents, Federal Reserve Banks of New York, Chicago, Cleveland, and Minneapolis, respectively Evan F. Koenig, Vice President, Federal Reserve Bank of Dallas Andreas L. Hornstein, Senior Advisor, Federal Reserve Bank of Richmond John Fernald, Senior Research Adviser, Federal Re\n...[document excerpted]...\nt expanded further in recent months, and the unemployment rate in April and May was below its first-quarter average, although it continued to be elevated. Consumer price inflation was subdued, partly reflecting transitory influences. However, measures of longer-run inflation expectations remained stable. Private nonfarm employment rose moderately in April and May, while total government employment continued to decline somewhat. The unemployment rate was 7.6 percent in May, little changed from it\n...[risk-bearing excerpt]...\nail sales, excluding those at motor vehicle and parts outlets, increased briskly, while light motor vehicle sales moved up solidly. Some key factors that tend to support growth in household spending were positive in recent months. After decreasing in the first quarter when payroll and income taxes increased, households' real disposable income rose in April, in part reflecting a small decline in consumer prices. Households' net worth likely increased in recent months, as equity values and home pr\n...[risk-bearing excerpt]...\nemployment declined slightly, while the share of workers employed part time for economic reasons was little changed; both of these measures remained well above their pre-recession levels. Forward-looking indicators of near-term labor market activity were mixed but generally pointed to some further improvement in labor market conditions in the coming months: Household expectations of the labor market situation improved; initial claims for unemployment insurance were little changed, on net, over t\n...[risk-bearing excerpt]...\nstock prices, credit default swap spreads, and equity correlations--pointed to an improvement in the stability of the banking sector, in part because of rising levels of liquidity and capital as well as diminished concerns about downside risks. However, a number of indicators pointed to a modest increase in risk-taking and leverage that was largely being intermediated through the shadow banking system. Signs of upward pressure\n...[document conclusion]...\narticularly important for the Committee to monitor price developments closely and to adapt its policy in response to incoming economic information. Ms. George dissented because she viewed the ongoing improvement in labor market conditions and in the outlook as warranting a deliberate statement from the Committee at this meeting that the pace of its asset purchases would be reduced in the very near future. She continued to have concerns about maintaining aggressive monetary stimulus in the face of a growing economy and pointed to the potential for financial imbalances to emerge as a result of the high level of monetary accommodation. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, July 30-31, 2013. The meeting adjourned at 11:25 a.m. on June 19, 2013. Notation Vote By notation vote completed on May 21, 2013, the Committee unanimously approved the minutes of the FOMC meeting held on April 30-May 1, 2013. _____________________________ William B. English Secretary 1. Although President Pianalto was unable to attend the June 18-19, 2013, FOMC meeting, she submitted economic projections. First Vice President Gregory L. Stefani represented the Federal Reserve Bank of Cleveland at the meeting. Return to text",
+  "text_sha256": "a233fc1d3f476bc3394226038011c29c774fc553dbe9950af7194b7250e27507"
+}

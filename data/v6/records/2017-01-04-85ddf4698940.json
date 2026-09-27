@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20161214",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20161214.htm"
+    ],
+    "evidence": "Total nonfarm payroll employment increased at a solid pace in October and November, and the unemployment rate declined, reaching 4.6 percent in November.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "above",
+      "african",
+      "americans",
+      "before",
+      "close",
+      "declined",
+      "employment",
+      "hispanics",
+      "increased",
+      "just",
+      "levels",
+      "most",
+      "nonfarm",
+      "november",
+      "october",
+      "pace",
+      "payroll",
+      "percent",
+      "rate",
+      "rates",
+      "reaching",
+      "recent",
+      "recession",
+      "remained",
+      "seen",
+      "solid",
+      "total",
+      "unemployment",
+      "were",
+      "whites"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2016.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2017-01-04",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "85ddf4698940bbd9a3e5fcfd95c24c69abdc34c875f71e6f05bfac775f2ae883",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20161214.htm",
+  "text": "Minutes of the Federal Open Market Committee December 13-14, 2016 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, December 13, 2016, at 1:00 p.m. and continued on Wednesday, December 14, 2016, at 9:00 a.m. 1 PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard James Bullard Stanley Fischer Esther L. George Loretta J. Mester Jerome H. Powell Eric Rosengren Daniel K. Tarullo Charles L. Evans, Patrick Harker, Robert S. Kaplan, Neel Kashkari, and Michael Strine, Alternate Members of the Federal Open Market Committee Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist Thomas A. Connors, David E. Lebow, Stephen A. Meyer, Christopher J. Waller, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Banking Supervision and Regulation, Board of Governors Margie Shanks, 3 Deputy Secretary, Office of the Secretary, Board of Governors James A. Clouse, Deputy Director, Division of Monetary Affairs, Board of Governors; Andreas Lehnert, Deputy Director, Division of Financial Stability, Board of Governors; Beth Anne Wilson, Deputy Director, Division of International Finance, Board of Governors Trevor A. Reeve, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors David Bowman, Andrew Figura, Joseph W. Gruber, Ann McKeehan, and David Reifschneider, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Antulio N. Bomfim, Robert J. Tetlow, and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors; Wayne Passmore, Senior Adviser, Division of Research and Statistics, Board of Governors Brian M. Doyle, Associate Director, Division of International Finance, Board of Governors; Stacey Tevlin, Associate Director, Division of Research and Statistics, Board of Governors Stephanie R. Aaronson, Assistant Director, Division of Research and Statistics, Board of Governors; Christopher J. Gust, Assistant Director, Division of Monetary Affairs, Board of Governors Don Kim, Adviser, Division of Monetary Affairs, Board of Governors; Karen M. Pence, Adviser, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 4 Assistant to the Secretary, Office of the Secretary, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Edward Herbst and Lubomir Petrasek, Principal Economists, Division of Monetary Affairs, Board of Governors Achilles Sangster II, Information Management Analyst, Division of Monetary Affairs, Board of Governors Mark L. Mullinix, First Vice President, Federal Reserve Bank of Richmond David Altig, Executive Vice President, Federal Reserve Bank of Atlanta Michael Dotsey, Evan F. Koenig, Spencer Krane\n...[document excerpted]...\nt on November 1-2, 2016. Nominal yields on longer-term U.S. Treasury securities rose substantially over the period, reflecting both higher real yields and an increase in inflation compensation. The value of the dollar on foreign exchange markets rose, U.S. equity indexes increased considerably, and credit spreads on U.S. corporate bonds narrowed. Market pricing and survey results indicated that market participants had come to see a high probability of an increase of 25 basis points in the FOMC's\n...[risk-bearing excerpt]...\nprices and in prices of non-energy imports. Taken together, a range of recent indicators showed that labor market conditions had tightened further. Total nonfarm payroll employment increased at a solid pace in October and November, and the unemployment rate declined, reaching 4.6 percent in November. The share of workers employed part time for economic reasons decreased; however, both the labor force participation rate and the employment-to-population ratio edged down on net. The rates of privat\n...[risk-bearing excerpt]...\nat influence consumer spending--such as continued gains in employment, real disposable personal income, and households' net worth--were consistent with moderate real PCE growth for the fourth quarter as a whole. In addition, consumer sentiment as measured by the University of Michigan Surveys of Consumers moved higher in November and early December. Recent information on housing market activity suggested that real residential investment was picking up in the fourth quarter after decreasing in th\n...[risk-bearing excerpt]...\nt months. The unemployment rates for African Americans and for Hispanics remained above the rate for whites but were close to the levels seen just before the most recent recession. Total industrial production was flat in October. Both manufacturing production and mining output increased, but the output of utilities declined markedly because of unseasonably warm weather in October. Automakers' assembly schedules suggested that \n...[document conclusion]...\nt www.federalreserve.gov/monetarypolicy/rules_authorizations.htm . Return to text 6. One participant did not submit longer-run projections for real output growth, the unemployment rate, or the federal funds rate. Return to text 7. In taking this action, the Board approved requests submitted by the boards of directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Kansas City, Dallas, and San Francisco. This vote also encompassed approval by the Board of Governors of the establishment of a 1-1/4 percent primary credit rate by the remaining Federal Reserve Bank, effective on the later of December 15, 2016, and the date such Reserve Bank informed the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Bank of Minneapolis was informed by the Secretary of the Board of the Board's approval of its establishment of a primary credit rate of 1-1/4 percent, effective December 15, 2016.) This vote of the Board of Governors also encompassed approval of the renewal by all 12 Federal Reserve Banks of the existing formulas for calculating the rates applicable to discounts and advances under the secondary and seasonal credit programs. Return to text",
+  "text_sha256": "ca1104d83a7e8b16823dc1d07a8ba083223c9737061b5cf1c3c7ac83cb1ae8bc"
+}

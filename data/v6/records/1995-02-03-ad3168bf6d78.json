@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19941220",
+  "fingerprint": {
+    "axes": {
+      "policy": 0.2
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "guidance": 0.6,
+      "policy": 0.2
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1994/19941220min.htm"
+    ],
+    "evidence": "These rates had increased before the meeting in anticipation of a policy tightening move, but the size of the move was larger than expected and rates firmed a little further as a result.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "ability",
+      "anticipation",
+      "before",
+      "conduct",
+      "credibility",
+      "effectively",
+      "expected",
+      "firmed",
+      "further",
+      "increased",
+      "larger",
+      "little",
+      "meeting",
+      "monetary",
+      "move",
+      "policy",
+      "presented",
+      "rates",
+      "reducing",
+      "result",
+      "risk",
+      "size",
+      "system",
+      "than",
+      "these",
+      "tightening",
+      "treasury",
+      "unacceptable"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1995-02-03",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "ad3168bf6d78c16db946cc0303a55d572e0e31df0d2eb3ece74e34bbdafff9c0",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1994/19941220min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting \r\n    of December 20, 1994 A meeting of the Federal Open Market Committee was held in \r\n  the offices of the Board of Governors of the Federal Reserve System in \r\n  Washington, D.C., on Tuesday, December 20, 1994, at 9:00 a.m. PRESENT : Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Broaddus Mr. Forrestal Mr. Jordan Mr. Kelley Mr. LaWare Mr. Lindsey Mr. Parry Ms. Phillips Ms. Yellen Messrs. Hoenig, Melzer, and Moskow and Ms. Minehan, Alternate Members of the Federal Open Market Committee Messrs. Boehne, 1 McTeer, and Stern, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Patrikis, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Beebe, Goodfriend, Lindsey, Mishkin, Promisel, Siegman, Simpson, Sniderman, Stockton, and Ms. Tschinkel, Associate Economists Ms. Lovett, Manager for Domestic Operations, System Open Market Account Mr. Fisher, Manager for Foreign Operations, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Madigan. Associate Director, Division of Monetary Affairs, Board of Governors Mr. Slifman, Associate Director, Division of Research and Statistics, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Messrs. Davis, Lang, Rolnick, and Rosenblum, Senior Vice Presidents, Federal Reserve Banks of Kansas City, Philadelphia, Minneapolis, and Dallas respectively Messrs. Gavin and McNees, Vice Presidents, Federal Reserve Banks of St. Louis and Boston respectively Mr. Kuttner, Assistant Vice President, Federal Reserve Bank of Chicago Mr. Hilton, Manager, Open Market Operations, Federal Reserve Bank of New York 1. Left before discussion of the economic situation. By unanimous vote, the minutes of the meeting of the Federal \r\n  Open Market Committee held on November 15, 1994, were approved. By unanimous vote, the Committee elected Mark S. Sniderman as \r\n  Associate Economist from the Federal Reserve Bank of Cleveland to \r\n  serve until the next election at the first meeting of the Committee \r\n  after December 31, 1994, with the understanding that in the event he \r\n  discontinued his official connection with the Federal Reserve Bank of \r\n  Cleveland, he would cease to have any official connection with the \r\n  Federal Open Market Committee. The Manager for Foreign Operations reported on developments \r\n  in foreign exchange markets since the November meeting. There were no \r\n  System open market transactions in foreign currencies during this \r\n  period, and thus no vote was required of the Committee. The Manager for Domestic Operations reported on developments \r\n  in domestic financial markets and on System open market transactions \r\n  in government securities and federal agency obligations during the \r\n  period November 15, 1994, through December 19, 1994. By unanimous \r\n  vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and \r\n  financial outlook and the implementation of monetary policy over the \r\n  intermeeting period ahead. A summary of the economic and financial \r\n  information available at the time of the meeting and of the \r\n  Committee's discussion is provided below, followed by the domestic \r\n  policy directive that was approved by the Committee and issued to the \r\n  Federal Reserve Ban\n...[document excerpted]...\nrally \r\n  suggested further substantial gains in the fourth quarter. Despite further sizable increases in the prices of many goods \r\n  at the early stages of processing, inflation at the consumer level \r\n  remained moderate in October and November. Energy prices were \r\n  unchanged on balance over the two months, while food prices edged \r\n  higher. Excluding food and energy items, consumer prices advanced at \r\n  a slightly slower rate over October and November than in earlier \r\n  months of the ye\n...[risk-bearing excerpt]...\nork. The information reviewed at this meeting suggested a further \r\n  pickup in economic growth in recent months. Consumer spending, \r\n  supported by strong expansion of employment and income and by buoyant \r\n  consumer sentiment, remained robust. Business capital spending and \r\n  exports were rising briskly. Payroll employment remained on a strong \r\n  upward trend, and industrial output posted further substantial gains. \r\n  Broad indexes of prices of consumer goods and services increased \r\n  mo\n...[risk-bearing excerpt]...\nere still being felt in the latter part of \r\n  1994. The members acknowledged that the timing and extent of the \r\n  slowing in the expansion were subject to considerable uncertainty. \r\n  However, with the economy now operating at or even slightly above its \r\n  noninflationary potential, price and wage pressures were likely to \r\n  build unless the anticipated slowing occurred relatively soon. Key \r\n  measures of inflation including consumer prices, wages, and producer \r\n  prices of finished goods\n...[risk-bearing excerpt]...\nShort-term interest rates rose considerably over the period \r\n  after the November meeting. These rates had increased before the \r\n  meeting in anticipation of a policy tightening move, but the size of \r\n  the move was larger than expected and rates firmed a little further as \r\n  a result. Over the remainder of the intermeeting interval, short-term \r\n  rates responded to incoming economic data, for a time rising in \r\n  reactio\n...[document conclusion]...\nd Ms. \r\n  Phillips. Mr. Melzer voted as alternate for Mr. \r\n  Forrestal. Mr. Broaddus dissented because he continued to question the \r\n  desirability of the System's foreign exchange market intervention and \r\n  therefore the desirability of maintaining or enlarging the swap \r\n  arrangements that facilitate them. In his view continued System \r\n  participation in such operations with the U.S. Treasury presented an \r\n  unacceptable risk of reducing the System's credibility and its ability \r\n  to conduct monetary policy effectively. He felt this risk was \r\n  particularly high in this instance. Moreover, as at the March 22, \r\n  1994, meeting of the Committee, he had serious concerns about the \r\n  appropriateness of the foreign exchange operations this particular \r\n  enlargement would support. In his view, the expansion of this \r\n  arrangement was equivalent in many respects to a fiscal policy \r\n  initiative of a kind that should be explicitly authorized by the \r\n  Congress. It was agreed that the next meeting of the Committee would be \r\n  held on Tuesday-Wednesday, January 31-February 1, 1995. The meeting adjourned at 12:45 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "9e53f77924cdbb47249d79eac0625594487174bb1b60f4a5dca5146265d65a19"
+}

@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20021210",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0,
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20021210.htm"
+    ],
+    "evidence": "Core consumer price inflation, as measured by the consumer price index (CPI) and the chain-weighted personal consumption expenditure (PCE) index, continued to trend lower in October.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "chain",
+      "consumer",
+      "consumption",
+      "continued",
+      "core",
+      "expenditure",
+      "index",
+      "inflation",
+      "lower",
+      "measured",
+      "october",
+      "personal",
+      "price",
+      "trend",
+      "weighted"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-01-30",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "b8fdf040022e0bb814d917ffdfd1cf73396f05adacc275305c36b38432922441",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20021210.htm",
+  "text": "Minutes of the Federal Open Market Committee December 10, 2002 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, December 10, 2002, at 9:00 a.m. PRESENT: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Bernanke Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Jordan Mr. Kohn Mr. McTeer Mr. Olson Mr. Santomero Mr. Stern Messrs. Broaddus, Guynn, Moskow, and Parry, Alternate Members                                                                                                                       of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve Banks of Kansas City, Boston, and St. Louis respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Howard and Lindsey, Ms. Mester, Messrs. Oliner, Rolnick, Rosenblum, Sniderman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Messrs. Ettin and Madigan, Deputy Directors, Divisions of Research \r\nand Statistics and Monetary Affairs respectively, Board of \r\nGovernors Messrs. Slifman and Struckmeyer, Associate Directors, Division of Research and Statistics, Board of Governors Mr. Whitesell, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Mr. Clouse, Assistant Director, Division of Monetary Affairs, Board of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members, \tBoard of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary \r\nAffairs, Board of Governors Ms. Holcomb, First Vice President, Federal Reserve Bank of Dallas Messrs. Eisenbeis, Fuhrer, Goodfriend, Green, Hakkio, and Rasche, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Boston, Richmond, Chicago, Kansas City, and St. Louis respectively Messrs. Elsasser and Furlong, Vice Presidents, Federal Reserve Banks of New York and San Francisco respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on November 6, 2002, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period November 6, 2002, through December 9, 2002.  By unanimous vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and financial outlook and the conduct of monetary policy over the intermeeting period ahead. The information reviewed at this meeting suggested that economic growth had been sluggish on balance since midsummer. Housing demand remained strong, but business fixed investment was still in the doldrums and consumer spending had flagged in late summer before apparently picking up somewhat in the autumn. Payroll employment had changed little since midyear, and industrial production still seemed to be on a downward trend. Most price indexes continued to indicate that inflation had declined over the past year. Private nonfarm payroll employment remained stagnant\n...[document excerpted]...\nd somewhat from elevated second-quarter rates in Canada, Japan, and emerging Asia. Economic conditions in South America were generally still fragile. Core consumer price inflation, as measured by the consumer price index (CPI) and the chain-weighted personal consumption expenditure (PCE) index, continued to trend lower in October. Inflation, in terms of both indexes, was down over the last twelve months when compared with the previous twelve-month period. At the producer level, core price inflat\n...[risk-bearing excerpt]...\nin the third quarter and edged down in October and November. Job losses in manufacturing were again large in the two months, and employment declined in construction and in the wholesale and retail trade industries. By contrast, services (except help-supply) and the finance, insurance, and real estate grouping recorded further solid gains. The unemployment rate rose to 6 percent in November, a level more consonant with other recent labor market indicators.\n...[risk-bearing excerpt]...\ntober and remained substantially below its long-run average. Against the backdrop of smaller gains in disposable personal income and low readings on consumer confidence, growth of consumer spending had been quite sluggish in the last several months. Much of the weakness reflected a falloff in spending on new motor vehicles in September and October, largely because of reduced manufacturer discounts. Apart from motor vehicles, personal consumption expenditures picked up in October following two mo\n...[risk-bearing excerpt]...\nms had continued to enhance their prospects for rising profits through productivity improvements and debt restructurings that were strengthening their balance sheets and liquidity. Concurrently, indicators of credit quality in the household sector appeared to have remained essentially stable. Reference also was made to the continued robust growth in reserve and money measures. The better tone in financial markets might also have been signaling a modest reduction in u\n...[document conclusion]...\n following domestic policy directive: The Federal Open Market Committee seeks monetary and financial conditions that will foster price stability and promote sustainable growth in output.  To further its long-run objectives, the Committee in the immediate future seeks conditions in reserve markets consistent with maintaining the federal funds rate at an average of around 1-1/4 percent. The vote encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes that the risks are balanced with respect to prospects for both goals in the foreseeable future. Votes for this action:  Messrs. Greenspan, McDonough, \r\nBernanke, Ms. Bies, Messrs. Ferguson, Gramlich, Jordan, Kohn, McTeer, Olson, Santomero, and Stern. Votes against this action:  None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, January 28-29, 2003. The meeting adjourned at 12:05 p.m. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: January 30, 2003, 2:00 \r\n        PM",
+  "text_sha256": "4ecf93b5f8ff1493dcffc6099c687dd8c074a8cd4160018832ce2335b9e42a49"
+}

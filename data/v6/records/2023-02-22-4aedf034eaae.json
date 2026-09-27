@@ -1,0 +1,73 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20230201",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230201.htm"
+    ],
+    "evidence": "While most Desk survey respondents expected subdued growth or a mild recession in 2023, market participants continued to see notable uncertainties ahead, including prospects for a deeper downturn or the potential for more persistent inflation.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "ahead",
+      "change",
+      "consumer",
+      "consumption",
+      "continued",
+      "december",
+      "deeper",
+      "desk",
+      "down",
+      "downturn",
+      "elevated",
+      "expected",
+      "expenditures",
+      "growth",
+      "including",
+      "index",
+      "inflation",
+      "market",
+      "measured",
+      "mild",
+      "month",
+      "more",
+      "most",
+      "notable",
+      "november",
+      "participants",
+      "percent",
+      "persistent",
+      "personal",
+      "potential",
+      "price",
+      "prospects",
+      "recession",
+      "respondents",
+      "step",
+      "still",
+      "subdued",
+      "survey",
+      "uncertainties",
+      "while"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2023-02-22",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "4aedf034eaae9b68901c47313559786797a0f2027c207fd3238842dea4ae9a3e",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230201.htm",
+  "text": "Minutes of the Federal Open Market Committee January 31–February 1, 2023 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, January 31, 2023, at 10:00 a.m. and continued on Wednesday, February 1, 2023, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lael Brainard Lisa D. Cook Austan D. Goolsbee Patrick Harker Philip N. Jefferson Neel Kashkari Lorie K. Logan Christopher J. Waller Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, Loretta J. Mester, and Helen E. Mucciolo, Alternate Members of the Committee James Bullard and Susan M. Collins, Presidents of the Federal Reserve Banks of St. Louis and Boston, respectively Kelly J. Dubbert, Interim President of the Federal Reserve Bank of Kansas City Joshua Gallin, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Richard Ostrander, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Roc Armenter, James A. Clouse, Brian M. Doyle, Eric M. Engen, Anna Paulson, Andrea Raffo, and William Wascher, Associate Economists Patricia Zobel, Manager pro tem, System Open Market Account Stephanie R. Aaronson, Senior Associate Director, Division of Research and Statistics, Board Jose Acosta, Senior Communications Analyst, Division of Information Technology, Board Isaiah C. Ahn, Information Management Analyst, Division of Monetary Affairs, Board Alyssa Arute, 2 Manager, Division of Reserve Bank Operations and Payment Systems, Board Kartik B. Athreya, Executive Vice President, Federal Reserve Bank of Richmond Penelope A. Beattie, Section Chief, Office of the Secretary, Board Travis J. Berge, Principal Economist, Division of Research and Statistics, Board David Bowman, Senior Associate Director, Division of Monetary Affairs, Board Isabel Cairó, Principal Economist, Division of Monetary Affairs, Board Prabal Chakrabarti, Executive Vice President, Federal Reserve Bank of Boston Kathryn B. Chen, Director of Cross Portfolio Policy & Analysis, Federal Reserve Bank of New York Laura Choi, Senior Vice President, Federal Reserve Bank of San Francisco Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board Stephanie E. Curcuru, Deputy Director, Division of International Finance, Board Marnie Gillis DeBoer, Senior Associate Director, Division of Monetary Affairs, Board Navtej S. Dhillon, Special Adviser to the Board, Division of Board Members, Board Burcu Duygan-Bump, Special Adviser to the Board, Division of Board Members, Board Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Charles A. Fleischman, Adviser, Division of Research and Statistics, Board Glenn Follette, Associate Director, Division of Research and Statistics, Board Carlos Garriga, Senior Vice President, Federal Reserve Bank of St. Louis Michael S. Gibson, Director, Division of Supervision and Regulation, Board Christine Graham, Deputy Associate Director, Division of Supervision and Regulation, Board Joseph W. Gruber, Executive Vice President, Federal Reserve Bank of Kansas City Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Michael T. Kiley, Deputy Director, Division of Financial Stability, Board Anna Kovner, Director of Financial Stability Policy Research, Federal Reserve Bank of New York David\n...[document excerpted]...\nis year, al­though there was a wide dispersion in views about the extent of a potential slowdown. Market participants interpreted incoming data as pointing to moderating inflation risks. Against this backdrop, market participants judged that the FOMC would likely slow the pace of rate increases further at the current meeting, and respondents to the Desk's Survey of Primary Dealers and Survey of Market Participants widely expected the Committee to implement a 1/4 percentage point increase in the\n...[risk-bearing excerpt]...\nnomic Situation The information available at the time of the January 31­–February 1 meeting indicated that labor market conditions remained tight in December, with the unemployment rate at a historical low. Consumer price inflation—as measured by the 12-month percent change in the price index for personal consumption expenditures (PCE)—continued to step down in November and December but was still elevated. Real gross domestic product (GDP) increased at a solid pace in the fourth quarter of last\n...[risk-bearing excerpt]...\nrating inflation in the United States and improving global growth prospects lifted market sentiment. While most Desk survey respondents expected subdued growth or a mild recession in 2023, market participants continued to see notable uncertainties ahead, including prospects for a deeper downturn or the potential for more persistent inflation. Regarding the international outlook, signs of a faster reopening in China and a less severe downturn in Europe eased concerns about global growth, contribu\n...[risk-bearing excerpt]...\nhe appropriate authorities continuing to address issues related to the resilience of the market. Al­though several participants noted that the Federal Reserve's standing liquidity facilities could be helpful in addressing significant pressures in funding markets, should they arise, several participants also noted the challenges of addressing potential disruptions in U.S. core market functioning. A few participants remarked that \n...[document conclusion]...\n minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended through the discussion of the economic and financial situation. Return to text 3. Committee organizational documents are available at www.federalreserve.gov/monetarypolicy/rules_authorizations.htm . Return to text 4. Chiara Scotti's selection was set to be effective upon her employment with the Federal Reserve Bank of Dallas. Return to text 5. In taking this action, the Board approved requests to establish that rate submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Richmond, Atlanta, Chicago, Kansas City, Dallas, and San Francisco. The vote also encompassed approval by the Board of Governors of the establishment of a 4.75 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of February 2, 2023, or the date such Reserve Banks inform the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of Cleveland, St. Louis, and Minneapolis were informed of the Board's approval of their establishment of a primary credit rate of 4.75 percent, effective February 2, 2023.) Return to text",
+  "text_sha256": "b977b9e66b6f13a76e5eb14cd29bfd0a885b7de1dd3e32ac943d8d6b614916f1"
+}

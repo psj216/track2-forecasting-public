@@ -1,0 +1,70 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20250730",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.3333333333333333,
+      "risk": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 0.6,
+      "inflation": -0.5333333333333333,
+      "risk": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm"
+    ],
+    "evidence": "Total consumer price inflation—as measured by the 12-month change in the price index for personal consumption expenditures (PCE)—was estimated to have been 2.5 percent in June, based on the ...[risk-bearing excerpt]...",
+    "issuer": "FED",
+    "major": "risk",
+    "region": "US",
+    "tokens": [
+      "appeared",
+      "based",
+      "bearing",
+      "been",
+      "change",
+      "consumer",
+      "consumption",
+      "continued",
+      "disinflation",
+      "elevated",
+      "estimated",
+      "excerpt",
+      "expenditures",
+      "goods",
+      "have",
+      "index",
+      "inflation",
+      "june",
+      "measured",
+      "month",
+      "percent",
+      "personal",
+      "pressure",
+      "price",
+      "putting",
+      "rate",
+      "remained",
+      "risk",
+      "somewhat",
+      "stalled",
+      "tariffs",
+      "total",
+      "unemployment",
+      "upward",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2025-08-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "adb8a0d314976871650242f48ab029175d484c71b0fac8ee38a5d020cb4595cb",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20250730.htm",
+  "text": "Minutes of the Federal Open Market Committee July 29–30, 2025 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, July 29, 2025, at 9:00 a.m. and continued on Wednesday, July 30, 2025, at 9:00 a.m. 1 Review of Monetary Policy Strategy, Tools, and Communications Participants continued their discussion related to the ongoing review of the Federal Reserve's monetary policy strategy, tools, and communication practices (framework review). They observed that they had made important progress toward revising the Committee's Statement on Longer-Run Goals and Monetary Policy Strategy (consensus statement). Participants discussed potential revisions to the consensus statement that would incorporate lessons learned from economic developments since the 2020 framework review and would be designed to be robust across a wide range of economic conditions. Participants noted that the Committee was close to finalizing changes to the consensus statement and would do so in the near future. Developments in Financial Markets and Open Market Operations The manager turned first to a review of financial market developments. Over the intermeeting period, the expected path of the policy rate and longer-term Treasury yields were little changed, equity prices increased, credit spreads narrowed, and the dollar depreciated slightly. The manager noted that markets continued to be attentive to news related to trade policy, though markets' reaction to incoming information on this topic was more restrained than in April and May. Against this backdrop, the manager reported that the Open Market Desk's Survey of Market Expectations (Desk survey) indicated that the median respondent's expectations regarding both real gross domestic product (GDP) growth and inflation were roughly unchanged. The manager turned next to policy rate expectations, which held steady over the intermeeting period, consistent with a relatively stable macroeconomic outlook. The median modal path of the federal funds rate, as given in the Desk survey, was unchanged from the corresponding path in the June survey and continued to indicate expectations of two 25 basis point rate cuts in the second half of this year. Market-based measures of policy rate expectations were also little changed and indicated expectations of one to two 25 basis point rate cuts by the end of the year. The manager then discussed developments in Treasury securities markets and market-based measures of inflation compensation. Nominal Treasury yields were little changed, on net, over the intermeeting period, consistent with the lack of appreciable changes in the macroeconomic outlook and in policy rate expectations. Perceived risks associated with trade policy developments contributed to an increase in near-term market measures of inflation compensation, while longer-horizon measures of inflation compensation rose more modestly. The manager then turned to market pricing of risky assets. The increases in equity prices and narrowing of credit spreads suggested that markets assessed that the overall U.S. economy was remaining resilient; still, financial markets appeared to be making distinctions between individual corporations on the basis of the size and quality of their earnings. Valuations of the S&P 500 index continued to move above long-run average levels, mostly driven by optimism about the largest technology firms' scope to benefit from the further adoption of artificial intelligence (AI). However, valuations of an index of smaller-capitalization fir\n...[document excerpted]...\nat the time of the meeting indicated that real GDP expanded at a tepid pace in the first half of the year. The unemployment rate continued to be low, and consumer price inflation remained somewhat elevated. Disinflation appeared to have stalled, with tariffs putting upward pressure on goods price inflation. Total consumer price inflation—as measured by the 12-month change in the price index for personal consumption expenditures (PCE)—was estimated to have been 2.5 percent in June, based on the\n...[risk-bearing excerpt]...\ns ending in June, slightly lower than the year-earlier pace. According to the advance estimate, real GDP rose in the second quarter after declining in the first quarter. Growth of real private domestic final purchases—which comprises PCE and private fixed investment and which often provides a better signal than GDP of underlying economic momentum—slowed in the second quarter, as a step-down in investment growth offset faster PCE growth. After exerting a substantial negative drag on GDP growth in\n...[risk-bearing excerpt]...\nassets of such prime and prime-like investment vehicles remained in the middle of their historical range as a fraction of GDP. Prime-like alternatives—including private liquidity funds, offshore MMFs, and stablecoins—have grown rapidly and were noted as relatively less transparent. Staff Economic Outlook The staff's real GDP growth projection for this year through 2027 was similar to the one prepared for the June meeting, reflecting the offsetting effects of several revisions to the outlook. Th\n...[risk-bearing excerpt]...\nhe Middle East led to moderate increases in foreign equity prices and longer-term yields. The broad dollar index was little changed on net. Conditions in U.S. short-term funding markets remained orderly over the intermeeting period while displaying typical quarter-end dynamics. The One Big Beautiful Bill Act, which became law on July 4, ended the previous debt issuance suspension period, after which the TGA balance increased from\n...[document conclusion]...\nørgensen, Senior Adviser, Division of Monetary Affairs, Board Jeffrey D. Walker, 3 Senior Associate Director, Division of Reserve Bank Operations and Payment Systems, Board Jonathan Willis, Vice President, Federal Reserve Bank of Atlanta Rebecca Zarutskie, Senior Vice President, Federal Reserve Bank of Dallas _______________________ Joshua Gallin Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended Tuesday's session only. Return to text 3. Attended through the discussion of developments in financial markets and open market operations. Return to text 4. Attended the discussion of economic developments and the outlook. Return to text 5. Attended through the discussion of developments in financial markets and open market operations, and from the discussion of current monetary policy through the end of the meeting. Return to text 6. Attended the discussion of the review of the monetary policy framework. Return to text 7. Attended through the discussion of developments in financial markets and open market operations through the end of the meeting. Return to text",
+  "text_sha256": "dcda47ca42245258e2140707e623c1cc8c479ff840f1c15043fdf5535e78bb0f"
+}

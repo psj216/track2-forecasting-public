@@ -1,0 +1,63 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20220921",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.6,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": -0.8
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm"
+    ],
+    "evidence": "mer price inflation—as measured by the 12-month percentage change in the price index for personal consumption expenditures (PCE)—remained elevated.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "against",
+      "change",
+      "china",
+      "consumption",
+      "economic",
+      "elevated",
+      "europe",
+      "expenditures",
+      "global",
+      "headwinds",
+      "heightened",
+      "implications",
+      "included",
+      "index",
+      "inflation",
+      "measured",
+      "month",
+      "occurring",
+      "ongoing",
+      "percentage",
+      "personal",
+      "price",
+      "recession",
+      "remained",
+      "risk",
+      "russia",
+      "slowdown",
+      "these",
+      "ukraine"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2022-10-12",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "401027c70b34c2109d759ebde849d24a4a6fe9953114372895ac9bbe3699f4b4",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20220921.htm",
+  "text": "Minutes of the Federal Open Market Committee September 20-21, 2022 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, September 20, 2022, at 1:00 p.m. and continued on Wednesday, September 21, 2022, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lael Brainard James Bullard Susan M. Collins Lisa D. Cook Esther L. George Philip N. Jefferson Loretta J. Mester Christopher J. Waller Charles L. Evans, Patrick Harker, Neel Kashkari, Lorie K. Logan, and Helen E. Mucciolo, Alternate Members of the Committee Thomas I. Barkin, Raphael W. Bostic, and Mary C. Daly, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Joseph W. Gruber, Carlos Garriga, and William Wascher, Associate Economists Patricia Zobel, 2 Manager pro tem, System Open Market Account Jose Acosta, Senior Communications Analyst, Division of Information Technology, Board David Altig, Executive Vice President, Federal Reserve Bank of Atlanta Kartik B. Athreya, Executive Vice President, Federal Reserve Bank of Richmond Penelope A. Beattie, 3 Section Chief, Office of the Secretary, Board James P. Bergin, Deputy General Counsel, Federal Reserve Bank of New York Camille Bryan, Senior Project Manager, Division of Monetary Affairs, Board Michele Cavallo, Principal Economist, Division of Monetary Affairs, Board Stephanie E. Curcuru, Deputy Director, Division of International Finance, Board Marnie Gillis DeBoer, Senior Associate Director, Division of Monetary Affairs, Board Sarah Devany, First Vice President, Federal Reserve Bank of San Francisco Michael Dotsey, Executive Vice President, Federal Reserve Bank of Philadelphia Burcu Duygan-Bump, Special Adviser to the Board, Division of Board Members, Board Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Matthew J. Eichner, 4 Director, Division of Reserve Bank Operations and Payment Systems, Board Jon Faust, Senior Special Adviser to the Chair, Division of Board Members, Board Andrew Figura, Associate Director, Division of Research and Statistics, Board Glenn Follette, Associate Director, Division of Research and Statistics, Board Joshua Gallin, Senior Special Adviser to the Chair, Division of Board Members, Board Michael S. Gibson, Director, Division of Supervision and Regulation, Board Luca Guerrieri, Deputy Associate Director, Division of Financial Stability, Board Diana Hancock, Senior Associate Director, Division of Research and Statistics, Board Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Matteo Iacoviello, Senior Associate Director, Division of International Finance, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Callum Jones, Senior Economist, Division of Monetary Affairs, Board Edward S. Knotek II, Senior Vice President, Federal Reserve Bank of Cleveland Sylvain Leduc, Executive Vice President, Federal Reserve Bank of San Francisco Andreas Lehnert, Director, Division of Financial Stability, Board Paul Lengermann, Assistant Director, Division of Research and Statistics, Board Kurt F. Lewis, Special Adviser to the Board, Division of Board Members, Board Dan Li, Assistant Director, Division of Monet\n...[document excerpted]...\na number of other central banks lifted policy rates and indicated in their communications that they would likely continue to tighten monetary policy in order to address inflation pressures. The exchange value of the dollar appreciated notably, reaching multidecade highs in real terms, as market participants perceived mounting economic challenges abroad. The market-implied path of the federal funds rate shifted sharply higher after market participants interpreted Federal Reserve communications—p\n...[risk-bearing excerpt]...\nmer price inflation—as measured by the 12-month percentage change in the price index for personal consumption expenditures (PCE)—remained elevated. Total nonfarm payroll employment posted robust gains in July and August at an average pace that was only slightly below what was seen over the first half of the year. The unemployment rate edged up, on net, from 3.6 percent in June to 3.7 percent in August. The unemployment rate for African Americans increased over this period, while the rate for His\n...[risk-bearing excerpt]...\nate-sector job openings rate, as measured by the Job Openings and Labor Turnover Survey, moved slightly lower from May to July but remained at a high level. Nominal wage growth continued to be rapid and broad based: Average hourly earnings rose 5.2 percent over the 12 months ending in August, while the employment cost index of hourly compensation in the private sector, which also includes benefit costs, rose 5.5 percent over the 12 months ending in June, 2.4 percentage points faster than the yea\n...[risk-bearing excerpt]...\nP growth to be weighted to the downside, with various global headwinds most prominently cited as contributing factors. These global headwinds included heightened risk of recession in Europe, a slowdown in economic activity occurring in China, and the ongoing global economic implications of Russia's war against Ukraine. Several participants noted that the monetary policy tightening under way in many other economies would affect \n...[document conclusion]...\nard\" in these minutes. Return to text 2. In the absence of the manager, the Committee's Rules of Organization provide that the deputy manager acts as manager pro tem. Return to text 3. Attended Tuesday's session only. Return to text 4. Attended through the discussion of developments in financial markets and open market operations. Return to text 5. Attended from the discussion of the economic and financial situation through the end of Wednesday's session. Return to text 6. In taking this action, the Board approved requests to establish that rate submitted by the boards of directors of the Federal Reserve Banks of Boston, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Kansas City, and Dallas. This vote also encompassed approval by the Board of Governors of the establishment of a 3.25 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of September 22, 2022, or the date such Reserve Banks inform the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of New York, Minneapolis, and San Francisco were informed of the Board's approval of their establishment of a primary credit rate of 3.25 percent, effective September 22, 2022.) Return to text",
+  "text_sha256": "01204af899532995a4742161476b6768783b981c918cf126eba6d535ffddbaf8"
+}

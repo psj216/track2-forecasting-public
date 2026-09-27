@@ -1,0 +1,46 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20110622",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "guidance": 0.6,
+      "inflation": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20110622.htm"
+    ],
+    "evidence": "Growth in consumer spending declined in recent months from the already modest pace in the first quarter.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "already",
+      "consumer",
+      "declined",
+      "first",
+      "from",
+      "growth",
+      "modest",
+      "months",
+      "pace",
+      "quarter",
+      "recent",
+      "spending"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2011-07-12",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "8b144fb93ef0e4310be00e13085621f3215a14f6d4c372f7622549b83ff89f27",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20110622.htm",
+  "text": "Home > Monetary Policy > Federal Open Market Committee Print Minutes of the Federal Open Market Committee June 21-22, 2011 FOMC Minutes Summary of Economic Projections A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors in Washington, D.C., on Tuesday, June 21, 2011, at 10:30 a.m. and continued on Wednesday, June 22, 2011, at 9:00 a.m. PRESENT: Ben Bernanke, Chairman William C. Dudley, Vice Chairman Elizabeth Duke Charles L. Evans Richard W. Fisher Narayana Kocherlakota Charles I. Plosser Sarah Bloom Raskin Daniel K. Tarullo Janet L. Yellen Jeffrey M. Lacker, Dennis P. Lockhart, Sandra Pianalto, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Thomas M. Hoenig, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Deborah J. Danker, Deputy Secretary Matthew M. Luecke, Assistant Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel David J. Stockton, Economist James A. Clouse, Thomas A. Connors, Steven B. Kamin, Loretta J. Mester, David Reifschneider, Harvey Rosenblum, Daniel G. Sullivan, David W. Wilcox, and Kei-Mu Yi, Associate Economists Brian Sack, Manager, System Open Market Account Jennifer J. Johnson, Secretary of the Board, Office of the Secretary, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Robert deV. Frierson, Deputy Secretary, Office of the Secretary, Board of Governors William Nelson, Deputy Director, Division of Monetary Affairs, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Charles S. Struckmeyer, Deputy Staff Director, Office of the Staff Director, Board of Governors Seth B. Carpenter, Senior Associate Director, Division of Monetary Affairs, Board of Governors; Michael Foley, Senior Associate Director, Division of Banking Supervision and Regulation, Board of Governors; Lawrence Slifman and William Wascher, Senior Associate Directors, Division of Research and Statistics, Board of Governors Andrew T. Levin, Senior Adviser, Office of Board Members, Board of Governors Joyce K. Zickler, Visiting Senior Adviser, Division of Monetary Affairs, Board of Governors Daniel M. Covitz and Eric M. Engen, Associate Directors, Division of Research and Statistics, Board of Governors; Trevor A. Reeve, Associate Director, Division of International Finance, Board of Governors Egon Zakrajsek, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Beth Anne Wilson, Assistant Director, Division of International Finance, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Brahima Coulibaly, Senior Economist, Division of International Finance, Board of Governors; Louise Sheiner, Senior Economist, Division of Research and Statistics, Board of Governors Jean-Philippe Laforte, 1 Economist, Division of Research and Statistics, Board of Governors Penelope A. Beattie, Assistant to the Secretary, Office of the Secretary, Board of Governors Randall A. Williams, Records Management Analyst, Division of Monetary Affairs, Board of Governors Jeff Fuhrer, Executive Vice President, Federal Reserve Bank of Boston David Altig, Glenn D. Rudebusch, and Mark E. Schweitzer, Senior Vice Presidents, Federal Reserve Banks of Atlanta, San Francisco, and Cleveland, respectively Michael Dotsey, 1 Willia\n...[document excerpted]...\nThis review included the four models' characterizations of the forces affecting the economy in recent years and the models' current forecasts for real economic activity, inflation, and short-term interest rates. In discussing the staff presentation, meeting participants expressed the view that DSGE models are a useful addition to the wide range of analytical approaches traditionally used at the Federal Reserve, in part because they provide an internally consistent way of exploring how the behavi\n...[risk-bearing excerpt]...\nrmalizing the stance and conduct of monetary policy: The Committee will determine the timing and pace of policy normalization to promote its statutory mandate of maximum employment and price stability. To begin the process of policy normalization, the Committee will likely first cease reinvesting some or all payments of principal on the securities holdings in the SOMA. At the same time or sometime thereafter, the Committee will modify its forward guidance on the path of the federal funds rate an\n...[risk-bearing excerpt]...\ntor vehicle assemblies were scheduled to rise notably in the third quarter from their levels in recent months, as bottlenecks in parts supplies were anticipated to ease. Growth in consumer spending declined in recent months from the already modest pace in the first quarter. Total real personal consumption expenditures only edged up in April. Nominal retail sales, excluding purchases at motor vehicles and parts outlets, increased somewhat in May, but sales of new light motor vehicles declined mar\n...[risk-bearing excerpt]...\ne first quarter, but data for April suggested that the pace of inventory accumulation had slowed. Book-value inventory-to-sales ratios in April were similar to their pre-recession norms, and survey data also suggested that inventory positions generally remained in a comfortable range. The available data on government spending indicated that real federal purchases increased in recent months, led by a rebound in outlays for defe\n...[document conclusion]...\ntheir communications with the public in order to reinforce the public's confidence in the transparency and integrity of the monetary policy process. By unanimous vote, the Committee approved the policies. 2 Participants all supported the policies, but several of them emphasized that the policy for staff, in particular, should be applied with judgment and common sense so as to avoid interfering with legitimate research. It was agreed that the next meeting of the Committee would be held on Tuesday, August 9, 2011. The meeting adjourned at 12:10 p.m. on June 22, 2011. Notation Vote By notation vote completed on May 17, 2011, the Committee unanimously approved the minutes of the FOMC meeting held on April 26-27, 2011. _____________________________ William B. English Secretary 1. Attended the portion of the meeting relating to dynamic stochastic general equilibrium models. Return to text 2. The policies are available at http://www.federalreserve.gov/monetarypolicy/files/FOMC_ExtCommunicationParticipants.pdf and http://www.federalreserve.gov/monetarypolicy/files/FOMC_ExtCommunicationStaff.pdf . Return to text Return to top Last update: \n\n     July 12, 2011 Home | Monetary Policy Accessibility Contact Us Disclaimer Website Policies FOIA PDF Reader",
+  "text_sha256": "221365bb58600e82973a023b067f5fc05cd71564c4d96d43cd93d7e9dbb29f66"
+}

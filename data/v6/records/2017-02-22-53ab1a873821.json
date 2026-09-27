@@ -1,0 +1,64 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20170201",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0,
+      "policy": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "policy": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170201.htm"
+    ],
+    "evidence": "mic and financial uncertainty, increases the effectiveness of monetary policy, and enhances transparency and accountability, which are essential in a democratic society.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "above",
+      "accountability",
+      "african",
+      "americans",
+      "before",
+      "close",
+      "democratic",
+      "effectiveness",
+      "enhances",
+      "essential",
+      "financial",
+      "hispanics",
+      "increases",
+      "just",
+      "levels",
+      "monetary",
+      "most",
+      "policy",
+      "rate",
+      "rates",
+      "recent",
+      "recession",
+      "remained",
+      "seen",
+      "society",
+      "transparency",
+      "uncertainty",
+      "unemployment",
+      "were",
+      "which",
+      "whites"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2017.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2017-02-22",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "53ab1a8738211e9fb683510a6cc6631bb684546ab7fdcea7d19e7bf31d9adf5c",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170201.htm",
+  "text": "Minutes of the Federal Open Market Committee January 31-February 1, 2017 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, January 31, 2017, at 1:00 p.m. and continued on Wednesday, February 1, 2017, at 9:00 a.m. 1 PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Patrick Harker Robert S. Kaplan Neel Kashkari Jerome H. Powell Daniel K. Tarullo Marie Gooding, Jeffrey M. Lacker, Loretta J. Mester, Michael Strine, 2 and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, Michael Dotsey, Eric M. Engen, Evan F. Koenig, Jonathan P. McCarthy, Daniel G. Sullivan, William Wascher, and Beth Anne Wilson, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 3 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, 4 Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Stephen A. Meyer, Deputy Director, Division of Monetary Affairs, Board of Governors Trevor A. Reeve, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors Andrew Figura, Joseph W. Gruber, Ann McKeehan, and David Reifschneider, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Antulio N. Bomfim, Ellen E. Meade, and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors; Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board of Governors Shaghil Ahmed, 2 Associate Director, Division of International Finance, Board of Governors; Jane E. Ihrig, Associate Director, Division of Monetary Affairs, Board of Governors Min Wei, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Glenn Follette, John M. Roberts, and Paul A. Smith, 2 Assistant Directors, Division of Research and Statistics, Board of Governors Eric C. Engstrom, Adviser, Division of Monetary Affairs, and Adviser, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 2 Assistant to the Secretary, Office of the Secretary, Board of Governors Dana L. Burnett, Section Chief, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Laurie DeMarco, Principal Economist, Division of International Finance, Board of Governors; Naomi Feldman, Principal Economist, Division of Research and Statistics, Board of Governors; Yuriy Kitsul and Zeynep Senyuz, Principal Economists, Division of Monetary Affairs, Board of Governors Anna Orlik, Senior Economist, Division of Monetary Affairs, Board of Govern\n...[document excerpted]...\nmic and financial uncertainty, increases the effectiveness of monetary policy, and enhances transparency and accountability, which are essential in a democratic society. Inflation, employment, and long-term interest rates fluctuate over time in response to economic and financial disturbances. Moreover, monetary policy actions tend to influence economic activity and prices with a lag. Therefore, the Committee's policy decisions reflect its longer-run goals, its medium-term outlook, and its assess\n...[risk-bearing excerpt]...\nin the context of the Committee's discussion and decision about the stance of policy at its most recent meeting and the Committee's long-run objectives to foster maximum employment and price stability, and shall be based on economic, financial, and monetary developments since the most recent meeting of the Committee. The Chairman, whenever feasible, will consult with the Committee before making any instruction under this paragraph 5. AUTHORIZATION FOR FOREIGN CURRENCY OPERATIONS (As reaffirmed e\n...[risk-bearing excerpt]...\nCommittee considers a wide range of indicators in making these assessments. Information about Committee participants' estimates of the longer-run normal rates of output growth and unemployment is published four times per year in the FOMC's Summary of Economic Projections. For example, in the most recent projections, the median of FOMC participants' estimates of the longer-run normal rate of unemployment was 4.8 percent. In setting monetary policy, the Committee seeks to mitigate deviations of i\n...[risk-bearing excerpt]...\ncent over the same 12-month period. The unemployment rates for African Americans, for Hispanics, and for whites were close to the levels seen just before the most recent recession, but the unemployment rates for African Americans and for Hispanics remained above the rate for whites. Total industrial production edged down in the fourth quarter as a whole. Mining output expanded markedly, but manufacturing production advanced onl\n...[document conclusion]...\nd as the \"FOMC\" and the \"Committee\" in these minutes. Return to text 2. Attended Tuesday session only. Return to text 3. Attended through the discussion of financial developments and open market operations. Return to text 4. Attended Wednesday session only. Return to text 5. Committee organizational documents are available at www.federalreserve.gov/monetarypolicy/rules_authorizations.htm . Return to text 6. The second vote of the Board also encompassed approval of the establishment of the interest rates for secondary and seasonal credit under the existing formulas for computing such rates. Return to text 1. In general, as specified in Article IV, each member of the IMF undertakes to collaborate with the IMF and other members to assure orderly exchange arrangements and to promote a stable system of exchange rates. These obligations include seeking to direct the member's economic and financial policies toward the objective of fostering orderly economic growth with reasonable price stability. These obligations also include avoiding manipulating exchange rates or the international monetary system in such a way that would impede effective balance of payments adjustment or to give an unfair competitive advantage over other members. Return to text",
+  "text_sha256": "05c9c7db9981c73722bd1d65e19c282780c2cdb4c0749510a361d636bad14abb"
+}

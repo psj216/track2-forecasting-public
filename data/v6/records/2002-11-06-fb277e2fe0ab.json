@@ -1,0 +1,72 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20021106",
+  "fingerprint": {
+    "axes": {
+      "policy": -1.0,
+      "risk": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.6,
+      "policy": -1.0,
+      "risk": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021106/"
+    ],
+    "evidence": "Release Date: November 6, 2002 For immediate release The Federal Open Market Committee decided today to lower its target for the federal funds rate by 50 basis points to 1 1/4 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "attributable",
+      "basis",
+      "committee",
+      "confirm",
+      "currently",
+      "data",
+      "date",
+      "decided",
+      "economic",
+      "employment",
+      "federal",
+      "funds",
+      "geopolitical",
+      "greater",
+      "have",
+      "heightened",
+      "however",
+      "immediate",
+      "incoming",
+      "inhibiting",
+      "lower",
+      "market",
+      "november",
+      "open",
+      "part",
+      "percent",
+      "points",
+      "production",
+      "rate",
+      "release",
+      "risks",
+      "spending",
+      "target",
+      "tended",
+      "that",
+      "today",
+      "uncertainty"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2002.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2002-11-06",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "fb277e2fe0abeb26f09b14f0d90831ae0bf2b31869557fed6b7e366709df94f6",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2002/20021106/",
+  "text": "Release Date: November 6, 2002 For immediate release The Federal Open Market Committee decided today to lower its target for the federal funds rate by 50 basis points to 1 1/4 percent. In a related action, the Board of Governors approved a 50 basis point reduction in the discount rate to 3/4 percent. The Committee continues to believe that an accommodative stance of monetary policy, coupled with still-robust underlying growth in productivity, is providing important ongoing support to economic activity.  However, incoming economic data have tended to confirm that greater uncertainty, in part attributable to heightened geopolitical risks, is currently inhibiting spending, production, and employment.  Inflation and inflation expectations remain well contained. In these circumstances, the Committee believes that today's additional monetary easing should prove helpful as the economy works its way through this current soft spot.  With this action, the Committee believes that, against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the risks are balanced with respect to the prospects for both goals in the foreseeable future. Voting for the FOMC monetary policy action were Alan Greenspan, Chairman; William J. McDonough, Vice Chairman; Ben S. Bernanke, Susan S. Bies; Roger W. Ferguson, Jr.; Edward M. Gramlich; Jerry L. Jordan; Donald L. Kohn, Robert D. McTeer, Jr.; Mark W. Olson; Anthony M. Santomero, and Gary H. Stern. In taking the discount rate action, the Federal Reserve Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Dallas and New York. 2002 Monetary policy Home | News and \r\nevents Accessibility Last update: November 6, 2002",
+  "text_sha256": "b9392605cec83161cae1ec858248e316225b1d51c08828c0124e1ebbc5548e33"
+}

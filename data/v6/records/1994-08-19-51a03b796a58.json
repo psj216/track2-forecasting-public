@@ -1,0 +1,42 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19940706",
+  "fingerprint": {
+    "axes": {
+      "inflation": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": -1.0,
+      "inflation": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1994/19940706min.htm"
+    ],
+    "evidence": "producer resources, and inflationary expectations that he feared might already be rising.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "already",
+      "expectations",
+      "feared",
+      "inflationary",
+      "might",
+      "producer",
+      "resources",
+      "rising",
+      "that"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1994.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1994-08-19",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "51a03b796a58d72b269346778f0a9b0ae4a010666985bef95768d8de04504c7f",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1994/19940706min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting \r\n    of July 5-6, 1994 A meeting of the Federal Open Market Committee was held in \r\n  the offices of the Board of Governors of the Federal Reserve System in \r\n  Washington, D.C., beginning on Tuesday, July 5, 1994, at 2:30 p.m. and \r\n  continuing on Wednesday, July 6, 1994, at 9:00 a.m. PRESENT : Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Broaddus Mr. Forrestal Mr. Jordan Mr. Kelley Mr. LaWare Mr. Lindsey Mr. Parry Ms. Phillips Messrs. Hoenig, Keehn, and Melzer, Alternate Members of the Federal Open Market Committee Messrs. Boehne, McTeer, and Stern, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis respectively Mr. Conrad and Ms. Minehan, First Vice Presidents, Federal Reserve Banks of Chicago and Boston respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Patrikis, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Beebe, Goodfriend, Lindsey, Promisel, Siegman, Simpson, and Ms. Tschinkel, Associate Economists Ms. Lovett, Manager for Domestic Operations, System Open Market Account Mr. Fisher, Manager for Foreign Operations, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board Members, Board of Governors Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Mr. Struckmeyer and Ms. Zickler, Assistant Directors, Division of Research and Statistics, Board of Governors Mr. Oliner, 1 Senior Economist, Division of Research and Statistics, Board of Governors Ms. Edwards, 1 Economist, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Mr. Bennett, Ms. Browne, Messrs. Davis, Dewald, Lang, Rolnick, Rosenblum, and Scheld, Senior Vice Presidents, Federal Reserve Banks of New York, Boston, Kansas City, St. Louis, Philadelphia, Minneapolis, Dallas, and Chicago respectively Messrs. Guentner and Sniderman, Vice Presidents, Federal Reserve Banks of New York and Cleveland respectively 1. Attended portion of the meeting relating to the Committee's \r\n  discussion of the economic outlook and its longer-run growth \r\n  objectives for monetary and debt aggregates. Secretary's Note: Advice had been received that Alan S. \r\n    Blinder had executed his oath of office as a member of the \r\n    Federal Open Market Committee. By unanimous vote, the minutes of the meeting of the Federal \r\n  Open Market Committee held on May 17, 1994, were approved. The Manager for Foreign Operations reported on developments \r\n  in foreign exchange markets and on System open market transactions in \r\n  foreign currencies during the period May 17, 1994, to July 5, 1994. The Committee ratified these transactions. Votes for this action: Messrs. Greenspan, \r\n  McDonough, Blinder, Broaddus, Forrestal, Kelley, \r\n  LaWare, Parry, and Ms. Phillips. Votes against this action: Messrs. Jordan and \r\n  Lindsey. Messrs. Jordan and Lindsey dissented from this action, \r\n  although they agreed that the foreign exchange transactions conducted \r\n  during the intermeeting period were authorized under the Committee's \r\n  rules. Their dissents were based on their strong reservations about \r\n  the efficacy of sterilized intervention in most circumstances, \r\n  including those prevailing during the intermeeting period. In their \r\n  view, to the extent that repeated intervent\n...[document excerpted]...\ngnaling that the System would not take further tightening actions as \r\n  soon as they had anticipated earlier. Incoming data suggesting \r\n  sluggish spending and subdued inflation tended to confirm these market \r\n  assessments. Late in the intermeeting period, however, bond yields \r\n  retraced these declines, partly in association with a weakening dollar \r\n  in foreign exchange markets and rising commodity prices. Most major \r\n  indexes of equity prices rose early in the intermeeting period, but\n...[risk-bearing excerpt]...\ns. \r\n  Increases in consumer and producer prices had remained moderate in \r\n  recent months, but prices of many basic industrial materials had \r\n  risen. Nonfarm payroll employment advanced somewhat less rapidly in \r\n  May after the brisk increases of recent months; however, the average \r\n  workweek of production and nonsupervisory workers reached its highest \r\n  level since 1987. The reduction in job gains was widespread by \r\n  sector--including business services; finance, insurance, and real\n...[risk-bearing excerpt]...\nong first-quarter gains. Much of the slowing was the result \r\n  of capacity constraints that prevented normal seasonal increases in \r\n  the production of motor vehicles. Growth of output of manufactured \r\n  goods other than motor vehicles and parts was at a slightly less \r\n  robust pace than in the first quarter but close to the rapid rate seen \r\n  in 1993; business equipment and construction supplies continued to be \r\n  areas of strength. The overall rate of utilization in manufacturing \r\n  sta\n...[risk-bearing excerpt]...\nime, indications of some slowing in aggregate \r\n  demand had tended to increase over the last few months. The extent of \r\n  that slowing remained subject to considerable uncertainty, especially \r\n  in light of somewhat disparate data on employment and spending. \r\n  Nonetheless, it was generally agreed that, in the context of \r\n  appropriate fiscal and monetary policies, some moderation in economic \r\n  growth to a pace closer to \n...[document conclusion]...\n\r\n  producer resources, and inflationary expectations that he feared might \r\n  already be rising. Prior to the conclusion of this meeting, the members \r\n  discussed the desirability of announcing the outcome of a meeting when \r\n  no action to change policy was taken. Views differed on this issue, \r\n  but most of the members supported a proposal to provide a brief and \r\n  informal indication that the meeting had ended and that there would be \r\n  no further announcements. Since early February, a statement had been \r\n  released after each meeting, all of which had involved policy changes; \r\n  failure to take some step after this meeting to make clear that there \r\n  was no change to announce would lead for a time to a heightened degree \r\n  of uncertainty. With regard to future announcements, it was \r\n  understood that this issue along with other public disclosure \r\n  questions would be considered at a later meeting. The Committee's \r\n  decision regarding announcements would then be made public. It was agreed that the next meeting of the Committee would be \r\n  held on Tuesday, August 16, 1994. The meeting adjourned at 12:35 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "c010db9a7d77ecc432f30176a76e61f8f95f2b470d9f8ad17a35a591a8b8eb08"
+}

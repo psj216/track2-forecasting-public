@@ -1,0 +1,70 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20170920",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0,
+      "policy": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.6,
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170920.htm"
+    ],
+    "evidence": "Yields on a broad set of money market instruments remained in the ranges observed since the FOMC increased the target range for the federal funds rate in June.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "below",
+      "broad",
+      "change",
+      "consumer",
+      "consumption",
+      "continued",
+      "expenditures",
+      "federal",
+      "fomc",
+      "funds",
+      "increased",
+      "index",
+      "inflation",
+      "instruments",
+      "july",
+      "june",
+      "lower",
+      "market",
+      "measured",
+      "money",
+      "month",
+      "observed",
+      "percent",
+      "personal",
+      "price",
+      "range",
+      "ranges",
+      "rate",
+      "remained",
+      "since",
+      "start",
+      "target",
+      "than",
+      "total",
+      "year",
+      "yields"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2017.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2017-10-11",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "05a6cbe94d421ed2ffaea6495c4b3915ab09d569bc0bcca491ab928f396e36c5",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170920.htm",
+  "text": "Minutes of the Federal Open Market Committee September 19-20, 2017 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, September 19, 2017, at 1:00 p.m. and continued on Wednesday, September 20, 2017, at 9:00 a.m. 1 PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Patrick Harker Robert S. Kaplan Neel Kashkari Jerome H. Powell Raphael W. Bostic, Loretta J. Mester, Mark L. Mullinix, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, Evan F. Koenig, William Wascher, Beth Anne Wilson, and Mark L.J. Wright, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors; Andreas Lehnert, Director, Division of Financial Stability, Board of Governors Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Stephen A. Meyer, Deputy Director, Division of Monetary Affairs, Board of Governors Trevor A. Reeve, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors David Bowman, Joseph W. Gruber, David Reifschneider, and John M. Roberts, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors David E. Lebow and Michael G. Palumbo, Senior Associate Directors, Division of Research and Statistics, Board of Governors Antulio N. Bomfim, Edward Nelson, and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors Jane E. Ihrig, Associate Director, Division of Monetary Affairs, Board of Governors; John J. Stevens and Stacey Tevlin, Associate Directors, Division of Research and Statistics, Board of Governors Steven A. Sharpe, Deputy Associate Director, Division of Research and Statistics, Board of Governors; Min Wei, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, 3 Assistant to the Secretary, Office of the Secretary, Board of Governors Michiel De Pooter, Section Chief, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Martin Bodenstein, Principal Economist, Division of Monetary Affairs, Board of Governors Randall A. Williams, Information Manager, Division of Monetary Affairs, Board of Governors Mark A. Gould, First Vice President, Federal Reserve Bank of San Francisco David Altig, Kartik B. Athreya, Glenn D. Rudebusch, and Geoffrey Tootell, Executive Vice Presidents, Federal Reserve Banks of Atlanta, Richmond, San Francisco, and Boston, respectively Spencer Krane and Keith Sill, Senior Vice Presidents, Federal Reserve Banks of Chicago and Philadelphia, respecti\n...[document excerpted]...\nable at the time of the meeting, but it appeared likely that the negative effects would restrain national economic activity only in the near term. 5 Total consumer price inflation, as measured by the 12‑month change in the price index for personal consumption expenditures (PCE), continued to run below 2 percent in July and was lower than at the start of the year. Survey‑based measures of longer-run inflation expectations were little changed on balance. Total nonfarm payroll employment rose solid\n...[risk-bearing excerpt]...\nctors that influence consumer spending--including continued gains in employment, real disposable personal income, and households' net worth--remained supportive of solid growth in real PCE. Consumer sentiment, as measured by the University of Michigan Surveys of Consumers, was upbeat through early September. Recent information on housing activity suggested that real residential investment spending was decreasing in the third quarter after declining in the second quarter. Starts for new single-fa\n...[risk-bearing excerpt]...\nhe quits rate, households' assessments of job availability, and the labor market conditions index prepared by the Federal Reserve Bank of Kansas City had returned to pre-recession levels. However, some participants still saw room for further increases in labor utilization, with a couple of them noting that the employment-to-population ratio and the participation rate for prime-age workers had not fully recovered to pre-recession levels. Against the backdrop of the continued strengthening in labo\n...[risk-bearing excerpt]...\ny three months, rates on Treasury bills maturing in October retraced their entire increase from early in the intermeeting period. Conditions in other domestic short-term funding markets were stable. Yields on a broad set of money market instruments remained in the ranges observed since the FOMC increased the target range for the federal funds rate in June. Daily take-up at the System's overnight reverse repurchase agreement fa\n...[document conclusion]...\nminutes. Return to text 2. Attended the discussions of the proposed changes to Rules Regarding Availability of Information and developments in financial markets and open market operations. Return to text 3. Attended Tuesday session only. Return to text 4. In compliance with the FOIA Improvement Act of 2016, the earlier version of the Rules was published in the Federal Register as an interim final rule on December 27, 2016. Return to text 5. The background materials prepared by the staff for this meeting were completed before the full effects of Hurricane Maria were evident. Return to text 6. Four members of the Board of Governors, the same number as in June 2017, were in office at the time of the September 2017 meeting. The office of the president of the Federal Reserve Bank of Richmond was vacant at the time of both FOMC meetings; First Vice President Mark L. Mullinix submitted economic projections. One participant did not submit longer-run projections for real output growth, the unemployment rate, or the federal funds rate. Return to text 7. The second vote of the Board also encompassed approval of the establishment of the interest rates for secondary and seasonal credit under the existing formulas for computing such rates. Return to text",
+  "text_sha256": "c29bbe8b1e0de465c5c41db78edfd5b08d0b0d024575b43bd50384a5d38037a2"
+}

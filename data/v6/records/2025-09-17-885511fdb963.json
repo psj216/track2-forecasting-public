@@ -1,0 +1,55 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20250917",
+  "fingerprint": {
+    "axes": {
+      "inflation": 1.0,
+      "policy": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "policy": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm"
+    ],
+    "evidence": "Inflation has moved up and remains somewhat elevated.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "balance",
+      "committee",
+      "decided",
+      "elevated",
+      "federal",
+      "funds",
+      "goals",
+      "inflation",
+      "light",
+      "lower",
+      "moved",
+      "percent",
+      "percentage",
+      "point",
+      "range",
+      "rate",
+      "remains",
+      "risks",
+      "shift",
+      "somewhat",
+      "support",
+      "target"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2025-09-17",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "885511fdb96376546c1268a6bce373f03c5632e7747c5f43f96e0911d395d599",
+  "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm",
+  "text": "September 17, 2025 Federal Reserve issues FOMC statement For release at 2:00 p.m. EDT Share Recent indicators suggest that growth of economic activity moderated in the first half of the year. Job gains have slowed, and the unemployment rate has edged up but remains low. Inflation has moved up and remains somewhat elevated. The Committee seeks to achieve maximum employment and inflation at the rate of 2 percent over the longer run. Uncertainty about the economic outlook remains elevated. The Committee is attentive to the risks to both sides of its dual mandate and judges that downside risks to employment have risen. In support of its goals and in light of the shift in the balance of risks, the Committee decided to lower the target range for the federal funds rate by 1/4 percentage point to 4 to 4‑1/4 percent. In considering additional adjustments to the target range for the federal funds rate, the Committee will carefully assess incoming data, the evolving outlook, and the balance of risks. The Committee will continue reducing its holdings of Treasury securities and agency debt and agency mortgage‑backed securities. The Committee is strongly committed to supporting maximum employment and returning inflation to its 2 percent objective. In assessing the appropriate stance of monetary policy, the Committee will continue to monitor the implications of incoming information for the economic outlook. The Committee would be prepared to adjust the stance of monetary policy as appropriate if risks emerge that could impede the attainment of the Committee's goals. The Committee's assessments will take into account a wide range of information, including readings on labor market conditions, inflation pressures and inflation expectations, and financial and international developments. Voting for the monetary policy action were Jerome H. Powell, Chair; John C. Williams, Vice Chair; Michael S. Barr; Michelle W. Bowman; Susan M. Collins; Lisa D. Cook; Austan D. Goolsbee; Philip N. Jefferson; Alberto G. Musalem; Jeffrey R. Schmid; and Christopher J. Waller. Voting against this action was Stephen I. Miran, who preferred to lower the target range for the federal funds rate by 1/2 percentage point at this meeting. For media inquiries, please email [email protected] or call 202-452-2955. Implementation Note issued September 17, 2025",
+  "text_sha256": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045"
+}

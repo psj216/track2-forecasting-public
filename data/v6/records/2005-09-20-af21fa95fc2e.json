@@ -1,0 +1,63 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20050920",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0,
+      "policy": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2005/20050920/"
+    ],
+    "evidence": "Release Date: September 20, 2005 For immediate release The Federal Open Market Committee decided today to raise its target for the federal funds rate by 25 basis points to 3-3/4 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "basis",
+      "been",
+      "committee",
+      "contained",
+      "core",
+      "date",
+      "decided",
+      "expectations",
+      "federal",
+      "funds",
+      "however",
+      "immediate",
+      "inflation",
+      "longer",
+      "market",
+      "months",
+      "open",
+      "percent",
+      "points",
+      "raise",
+      "rate",
+      "recent",
+      "relatively",
+      "release",
+      "remain",
+      "september",
+      "target",
+      "term",
+      "today"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2005.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2005-09-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "af21fa95fc2ed99c956ad5312c05a97a44987b48908a7ba6fa608e4821f98907",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2005/20050920/",
+  "text": "Release Date: September 20, 2005 For immediate release The Federal Open Market Committee decided today to raise its target for the federal funds rate by 25 basis points to 3-3/4 percent. Output appeared poised to continue growing at a good pace before the tragic toll of Hurricane Katrina.  The widespread devastation in the Gulf region, the associated dislocation of economic activity, and the boost to energy prices imply that spending, production, and employment will be set back in the near term.  In addition to elevating premiums for some energy products, the disruption to the production and refining infrastructure may add to energy price volatility. While these unfortunate developments have increased uncertainty about near-term economic performance, it is the Committee's view that they do not pose a more persistent threat.  Rather, monetary policy accommodation, coupled with robust underlying growth in productivity, is providing ongoing support to economic activity.  Higher energy and other costs have the potential to add to inflation pressures.  However, core inflation has been relatively low in recent months and longer-term inflation expectations remain contained. The Committee perceives that, with appropriate monetary policy action, the upside and downside risks to the attainment of both sustainable growth and price stability should be kept roughly equal.  With underlying inflation expected to be contained, the Committee believes that policy accommodation can be removed at a pace that is likely to be measured.  Nonetheless, the Committee will respond to changes in economic prospects as needed to fulfill its obligation to maintain price stability. Voting for the FOMC monetary policy action were: Alan Greenspan, Chairman; Timothy F. Geithner, Vice Chairman; Susan S. Bies; Roger W. Ferguson, Jr.; Richard W. Fisher; Donald L. Kohn; Michael H. Moskow; Anthony M. Santomero; and Gary H. Stern. Voting against was Mark W. Olson, who preferred no change in the federal funds rate target at this meeting. In a related action, the Board of Governors unanimously approved a 25-basis-point increase in the discount rate to 4-3/4 percent.  In taking this action, the Board approved the requests submitted by the Boards of Directors of the Federal Reserve Banks of Boston, New York, Philadelphia, Richmond, Chicago, Minneapolis, and Kansas City. 2005 Monetary policy Home | News and \r\nevents Accessibility Last update: September 20, 2005",
+  "text_sha256": "20eaa030a638ec81c74180b841ce01c6907720202ccc72fb316d412e5beb253f"
+}

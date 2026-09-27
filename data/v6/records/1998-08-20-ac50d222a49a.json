@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19980630",
+  "fingerprint": {
+    "axes": {
+      "growth": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 0.6,
+      "policy": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19980630.htm"
+    ],
+    "evidence": "In light of concerns that growth in aggregate demand might remain so strong relative to the expansion of the economy's potential that inflationary pressures would tend to be generated, the Committee chose to retain an asymmetric directive tilted toward a possible firming of reserve conditions and a ",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "aggregate",
+      "asymmetric",
+      "chose",
+      "committee",
+      "concerns",
+      "conditions",
+      "demand",
+      "directive",
+      "economy",
+      "expansion",
+      "firming",
+      "generated",
+      "growth",
+      "inflationary",
+      "light",
+      "might",
+      "possible",
+      "potential",
+      "pressures",
+      "relative",
+      "remain",
+      "reserve",
+      "retain",
+      "strong",
+      "tend",
+      "that",
+      "tilted",
+      "toward",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-08-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "ac50d222a49ac20b0760175bb388316fafd426415db50b6f23f4d29f2a16d68f",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19980630.htm",
+  "text": "Minutes of the Federal Open Market Committee June 30-July 1, 1998 A meeting of the Federal Open Market Committee was held in\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\nWashington, D.C., on Tuesday, June 30, 1998, at 1:30 p.m. and\r\ncontinued on Wednesday, July 1, 1998, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Jordan Mr. Kelley Mr. Meyer Ms. Minehan Mr. Poole Ms. Rivlin Messrs. Boehne, McTeer, Moskow, and Stern,\r\n                       Alternate Members of the Federal Open Market\r\n                       Committee Messrs. Broaddus, Guynn, and Parry, Presidents of\r\n                       the Federal Reserve Banks of Richmond, Atlanta,\r\n                       and San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Ms. Browne, Messrs. Dewald, Hakkio, Lindsey,\r\n                       Simpson, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board\r\n                       Members, Board of Governors Mr. Ettin, Deputy Director, Division of Research\r\n                       and Statistics, Board of Governors Messrs. Madigan and Slifman, Associate Directors,\r\n                       Divisions of Monetary Affairs and Research and\r\n                       Statistics respectively, Board of Governors Messrs. Alexander, Hooper, and Ms. Johnson,\r\n                       Associate Directors, Division of International\r\n                       Finance, Board of Governors Mr. Reinhart, Assistant Director, Division of\r\n                       Monetary Affairs, Board of Governors Messrs. Small, 1 Reifschneider, 1 and Whitesell,\r\n                       Section Chiefs,  Divisions of Monetary Affairs,\r\n                       Research and Statistics, and Monetary Affairs\r\n                       respectively, Board of Governors Ms. Kusko, 2 Senior Economist, Division of\r\n                       Research and Statistics, Board of Governors Mr. Elmendorf 2 and Ms. Garrett, Economists,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Mr. Barron, First Vice President, Federal Reserve\r\n                       Bank of Atlanta Messrs. Beebe, Eisenbeis, Goodfriend, Hunter, Lang,\r\n                       Rosenblum, and Steindel, Senior Vice\r\n                       Presidents, Federal Reserve Banks of San\r\n                       Francisco, Atlanta, Richmond, Chicago,\r\n                       Philadelphia, Dallas, and New York\r\n                       respectively Ms. Perelmuter, Vice President, Federal Reserve\r\n                       Bank of New York Mr. Bryan, Assistant Vice President, Federal\r\n                       Reserve Bank of Cleveland Mr. Weber, Senior Research Officer, Federal Reserve\r\n                       Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal\r\nOpen Market Committee held on May 19, 1998, were approved. The Manager of the System Open Market Account reported on\r\ndevelopments in foreign exchange markets and on System transactions in\r\nthose markets during the period May 19, 1998, through June 30, 1998.\r\nBy unanimous vote, the Committee ratified these transactions. The Manager also reported on development\n...[document excerpted]...\no\r\naverage around 5-1/2 percent.  In light of concerns that growth in\r\naggregate demand might remain so strong relative to the expansion of\r\nthe economy's potential that inflationary pressures would tend to be\r\ngenerated, the Committee chose to retain an asymmetric directive\r\ntilted toward a possible firming of reserve conditions and a higher\r\nfederal funds rate.  The reserve conditions associated with this\r\ndirective were expected to be consistent with considerable moderation\r\nin the growth of\n...[risk-bearing excerpt]...\ndecelerating somewhat after\r\nvery strong gains in the first quarter; and the erosion in net exports\r\ncontinued to damp demand for domestically produced goods.  Payroll\r\nemployment persisted on a brisk uptrend, but industrial production\r\nseemed likely to record only modest further expansion in the second\r\nquarter.  Labor markets remained tight, and there were indications of\r\nsome further acceleration in employment costs.  Recent data on\r\nconsumer prices were a little less favorable than they had\n...[risk-bearing excerpt]...\n998.  By unanimous vote, the Committee\r\nratified these transactions. The Committee then turned to a discussion of the economic and\r\nfinancial outlook, the ranges for the growth of money and debt in 1998\r\nand 1999, and the implementation of monetary policy over the\r\nintermeeting period ahead.  A summary of the economic and financial\r\ninformation available at the time of the meeting and of the\r\nCommittee's discussion is provided below, followed by the domestic\r\npolicy directive that was approved b\n...[risk-bearing excerpt]...\nason to anticipate a\r\nfurther sizable drop in nonfarm inventory investment, though the\r\nperformance of this sector of the economy was always subject to a high\r\ndegree of uncertainty. With regard to the external sector of the economy, the recent\r\ndeterioration of conditions in Japan and several emerging economies in\r\nAsia and the related effects on other countries around the world were\r\nadding significantly to the uncertainties f\n...[document conclusion]...\ntic demand also slow.  The\r\nvery welcome progress toward eliminating inflation in recent years has\r\ncontributed to the outstanding performance of the economy.  Allowing\r\ndomestic demand to continue to exceed domestic production would run\r\nthe risk that corrosive effects of rising inflation would undermine\r\nfuture growth prospects.  Furthermore, the resultant trade and current\r\naccount deficits would have to be matched by ever larger inflows of\r\nforeign capital.  Modest monetary restraint at this time might prevent\r\neither the buildup of inflationary imbalances that would eventually\r\nnecessitate future policy restraint or unsustainable capital flows.\r\nIn either case an economic contraction might become unavoidable. The meeting adjourned at 12:40 p.m. Donald L. Kohn Secretary Footnotes 1 Attended portion of the meeting relating to the discussion of the\r\n    Committee's consideration of its monetary and debt ranges for 1998\r\n    and 1999. 2 Attended portions of the meeting relating to the Committee's\r\n    review of the economic outlook and consideration of its monetary\r\n    and debt ranges for 1998 and 1999. Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: August 20, 1998, 2:00 PM",
+  "text_sha256": "49e4121f930b392c95fc3c694f0b1fc4adb2c28b9b2f15fde42eac3209e29944"
+}

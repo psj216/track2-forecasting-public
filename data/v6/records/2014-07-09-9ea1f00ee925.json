@@ -1,0 +1,65 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20140618",
+  "fingerprint": {
+    "axes": {
+      "growth": 0.2,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 0.2
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140618.htm"
+    ],
+    "evidence": "Most measures of labor market conditions improved in recent months.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "although",
+      "april",
+      "average",
+      "conditions",
+      "consumer",
+      "declined",
+      "elevated",
+      "employment",
+      "expectations",
+      "gains",
+      "held",
+      "improved",
+      "inflation",
+      "labor",
+      "longer",
+      "markedly",
+      "market",
+      "measures",
+      "months",
+      "most",
+      "pace",
+      "picked",
+      "price",
+      "rate",
+      "recent",
+      "remained",
+      "stable",
+      "steady",
+      "stepped",
+      "still",
+      "unemployment",
+      "while"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2014-07-09",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "9ea1f00ee9252a9a5bbf9084132e0f6a736c0fdc4e98f01a1ab96668e3cb363f",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140618.htm",
+  "text": "Minutes of the Federal Open Market Committee June 17-18, 2014 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, June 17, 2014, at 10:00 a.m. and continued on Wednesday, June 18, 2014, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Stanley Fischer Richard W. Fisher Narayana Kocherlakota Loretta J. Mester Charles I. Plosser Jerome H. Powell Daniel K. Tarullo Christine Cumming, Charles L. Evans, Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, Evan F. Koenig, Thomas Laubach, Michael P. Leahy, Samuel Schulhofer-Wohl, Mark E. Schweitzer, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 1 Secretary of the Board, Office of the Secretary, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Stephen A. Meyer and William R. Nelson, Deputy Directors, Division of Monetary Affairs, Board of Governors Mark E. Van Der Weide, Deputy Director, Division of Banking Supervision and Regulation, Board of Governors Jon W. Faust and Stacey Tevlin, Special Advisers to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Brian M. Doyle, Senior Adviser, Division of International Finance, Board of Governors; Ellen E. Meade and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors Daniel M. Covitz, Eric M. Engen, Michael T. Kiley, and David E. Lebow, Associate Directors, Division of Research and Statistics, Board of Governors; Fabio M. Natalucci 1 and Gretchen C. Weinbach, 1 Associate Directors, Division of Monetary Affairs, Board of Governors; Beth Anne Wilson, Associate Director, Division of International Finance, Board of Governors William F. Bassett and Jane E. Ihrig, 1 Deputy Associate Directors, Division of Monetary Affairs, Board of Governors; Joshua Gallin, Deputy Associate Director, Division of Research and Statistics, Board of Governors Min Wei, 2 Assistant Director, Division of Monetary Affairs, Board of Governors Jeremy B. Rudd, Adviser, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 1 Assistant to the Secretary, Office of the Secretary, Board of Governors Laura Lipscomb, 1 Section Chief, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Katie Ross, 1 Manager, Office of the Secretary, Board of Governors Wendy Dunn and Patrick McCabe, 1 Senior Economists, Division of Research and Statistics, Board of Governors; Etienne Gagnon, Senior Economist, Division of Monetary Affairs, Board of Governors Jonathan Rose, Economist, Division of Monetary Affairs, Board of Governors Achilles Sangster II, Records Management Analyst, Division of Monetary Affairs, Board of Governors Mark L. Mullinix, First Vice Presiden\n...[document excerpted]...\naverage pace of employment gains stepped up, and the unemployment rate declined markedly in April and held steady in May, although it was still elevated. Consumer price inflation picked up in recent months, while measures of longer-run inflation expectations remained stable. Most measures of labor market conditions improved in recent months. Total nonfarm payroll employment expanded in April and May at a faster rate than the average monthly pace during the previous two quarters. The unemploymen\n...[risk-bearing excerpt]...\nentral bank policy actions on the yields on the international portion of the SOMA portfolio and discussed ongoing staff work on improving data collections regarding bank funding markets. By unanimous vote, the Committee ratified the Open Market Desk's domestic transactions over the intermeeting period. There were no intervention operations in foreign currencies for the System's account over the intermeeting period. Monetary Policy Normalization Meeting participants continued their discussion of\n...[risk-bearing excerpt]...\nbe best, with most of these participants preferring to end them after liftoff. These participants thought that an earlier change to the reinvestment policy would involve risks to the economic outlook if it was seen as suggesting that the Committee was likely to tighten policy more rapidly than currently anticipated or if it had unexpectedly large effects in MBS markets; moreover, an early change could add complexity to the Committee's communications at a time when it would be clearer to signal c\n...[risk-bearing excerpt]...\nduring normalization, with many of them indicating a preference for continuing to announce a target range. However, a few participants thought that, given the degree of uncertainty about the effects of the Committee's tools on market rates, it might be preferable to focus on an administered rate in communicating the stance of policy during the normalization period. In addition, participants examined possibilities for changing th\n...[document conclusion]...\nnt and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.\" Voting for this action: Janet L. Yellen, William C. Dudley, Lael Brainard, Stanley Fischer, Richard W. Fisher, Narayana Kocherlakota, Loretta J. Mester, Charles I. Plosser, Jerome H. Powell, and Daniel K. Tarullo. Voting against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, July 29-30. The meeting adjourned at 11:10 a.m. on June 18, 2014. Notation Vote By notation vote completed on May 19, 2014, the Committee unanimously approved the minutes of the Committee meeting held on April 29-30, 2014. _____________________________ William B. English Secretary 1. Attended the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 2. Attended Tuesday's session only. Return to text 3. Four members of the Board of Governors and the presidents of the 12 Federal Reserve Banks submitted projections. Governor Brainard took office on June 16, 2014, and participated in the June 17-18, 2014, meeting; she was not able to submit economic projections. Return to text",
+  "text_sha256": "69c63750e4fe6a0b516262bb0f9002c1a8756883f3f22c86cf34bf6514efe345"
+}

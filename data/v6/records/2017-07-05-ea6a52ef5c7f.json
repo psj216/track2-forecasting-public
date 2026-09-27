@@ -1,0 +1,66 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20170614",
+  "fingerprint": {
+    "axes": {
+      "growth": 0.6,
+      "policy": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "policy": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170614.htm"
+    ],
+    "evidence": "Yields on a broad set of money market instruments remained in the ranges observed since the FOMC increased the target range for the federal funds rate in March.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "april",
+      "average",
+      "broad",
+      "employment",
+      "expanded",
+      "federal",
+      "first",
+      "five",
+      "fomc",
+      "funds",
+      "further",
+      "gains",
+      "increased",
+      "instruments",
+      "march",
+      "market",
+      "money",
+      "months",
+      "nonfarm",
+      "observed",
+      "over",
+      "pace",
+      "payroll",
+      "range",
+      "ranges",
+      "rate",
+      "remained",
+      "since",
+      "solid",
+      "target",
+      "total",
+      "year",
+      "yields"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2017.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2017-07-05",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "ea6a52ef5c7f90ab5dff503e3858050793cc6a5c9deab4076269bf1c49617a5f",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20170614.htm",
+  "text": "Minutes of the Federal Open Market Committee June 13-14, 2017 A joint meeting of the Federal Open Market Committee and the Board of Governors was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, June 13, 2017, at 1:00 p.m. and continued on Wednesday, June 14, 2017, at 9:00 a.m. 1 PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Charles L. Evans Stanley Fischer Patrick Harker Robert S. Kaplan Neel Kashkari Jerome H. Powell Raphael W. Bostic, Loretta J. Mester, Mark L. Mullinix, Michael Strine, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively Brian F. Madigan, Secretary Matthew M. Luecke, Deputy Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Michael Held, Deputy General Counsel Steven B. Kamin, Economist Thomas Laubach, Economist David W. Wilcox, Economist Beth Anne Wilson, James A. Clouse, Thomas A. Connors, Eric M. Engen, Evan F. Koenig, Jonathan P. McCarthy, William Wascher, and Mark L.J. Wright, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board of Governors Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board of Governors; Michael S. Gibson, Director, Division of Supervision and Regulation, Board of Governors Michael T. Kiley, Deputy Director, Division of Financial Stability, Board of Governors; Stephen A. Meyer, Deputy Director, Division of Monetary Affairs, Board of Governors William B. English, Senior Special Adviser to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Senior Special Adviser to the Chair, Office of Board Members, Board of Governors David Bowman, Joseph W. Gruber, David Reifschneider, and John M. Roberts, Special Advisers to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Christopher J. Erceg, Senior Associate Director, Division of International Finance, Board of Governors; Joshua Gallin, Senior Associate Director, Division of Research and Statistics, Board of Governors; Gretchen C. Weinbach, 2 Senior Associate Director, Division of Monetary Affairs, Board of Governors Antulio N. Bomfim, Ellen E. Meade, and Edward Nelson, Senior Advisers, Division of Monetary Affairs, Board of Governors; Jeremy B. Rudd, Senior Adviser, Division of Research and Statistics, Board of Governors Rochelle M. Edge, Associate Director, Division of Financial Stability, Board of Governors; Jane E. Ihrig, Associate Director, Division of Monetary Affairs, Board of Governors; Stacey Tevlin, Associate Director, Division of Research and Statistics, Board of Governors Min Wei, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Christopher J. Gust, Assistant Director, Division of Monetary Affairs, Board of Governors; Norman J. Morin and Karen M. Pence, Assistant Directors, Division of Research and Statistics, Board of Governors Don Kim, Adviser, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, Assistant to the Secretary, Office of the Secretary, Board of Governors Giovanni Favara and Rebecca Zarutskie, Section Chiefs, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Af\n...[document excerpted]...\ntributing to a further easing of financial conditions according to some measures. Moreover, realized and implied volatility in financial markets remained low. Meanwhile, inflation compensation edged lower. Survey results and market pricing suggested that market participants saw a high probability of an increase in the FOMC's target range for the federal funds rate at this meeting. The deputy manager reviewed survey results on market expectations for SOMA reinvestment policy and for the evolution\n...[risk-bearing excerpt]...\nergy prices, were both running somewhat below 2 percent. Survey-based measures of longer-run inflation expectations were little changed on balance. Total nonfarm payroll employment expanded further in April and May, and the average pace of job gains over the first five months of the year was solid. The unemployment rate moved down to 4.3 percent in May; the unemployment rates for African Americans and for Hispanics stepped down but remained above the unemployment rates for Asians and for whites.\n...[risk-bearing excerpt]...\nse components of sales for the previous two months were revised up. In addition, recent readings on key factors that influence consumer spending pointed to further solid growth in total real PCE in the near term, including continued gains in employment, real disposable personal income, and households' net worth. Moreover, consumer sentiment, as measured by the University of Michigan Surveys of Consumers, remained upbeat in May. Residential investment appeared to be slowing after increasing brisk\n...[risk-bearing excerpt]...\nad option-implied volatility on the S&P 500 index--the VIX--was little changed, on net, and remained near the lower end of its historical range. Conditions in short-term funding markets were stable over the intermeeting period. Yields on a broad set of money market instruments remained in the ranges observed since the FOMC increased the target range for the federal funds rate in March. Term OIS rates rose as expectations firme\n...[document conclusion]...\nf Richmond was vacant at the time of this FOMC meeting; First Vice President Mark L. Mullinix submitted economic projections. Return to text 5. One participant did not submit longer-run projections for real output growth, the unemployment rate, or the federal funds rate. Return to text 6. In taking this action, the Board approved requests submitted by the boards of directors of the Federal Reserve Banks of Boston, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, Kansas City, Dallas, and San Francisco. This vote also encompassed approval by the Board of Governors of the establishment of a 1-3/4 percent primary credit rate by the remaining Federal Reserve Banks, effective on the later of June 15, 2017, and the date such Reserve Banks informed the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Banks of New York, St. Louis, and Minneapolis were informed by the Secretary of the Board of the Board's approval of their establishment of a primary credit rate of 1-3/4 percent, effective June 15, 2017.) The second vote of the Board also encompassed approval of the establishment of the interest rates for secondary and seasonal credit under the existing formulas for computing such rates. Return to text",
+  "text_sha256": "b6608bf61f88c314cdba72bab4b36820bd6d06dc78c35dee5bcde302e3d2f67e"
+}

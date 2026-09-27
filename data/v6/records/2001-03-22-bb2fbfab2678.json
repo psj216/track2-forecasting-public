@@ -1,0 +1,64 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20010131",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20010131.htm"
+    ],
+    "evidence": "Some also observed that, counter to the experience generally associated with the onset of earlier recessions, monetary growth had been well maintained in recent months, and a few noted that long-term interest rates currently were appreciably below their peaks of the past year.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "also",
+      "appreciably",
+      "associated",
+      "been",
+      "below",
+      "counter",
+      "currently",
+      "earlier",
+      "experience",
+      "generally",
+      "growth",
+      "interest",
+      "long",
+      "maintained",
+      "monetary",
+      "months",
+      "noted",
+      "observed",
+      "onset",
+      "past",
+      "peaks",
+      "rates",
+      "recent",
+      "recessions",
+      "some",
+      "term",
+      "that",
+      "their",
+      "well",
+      "were",
+      "with",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-03-22",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "bb2fbfab2678c65b58078cf1c0c80c4b66cdb490970006a3af739170c45180ec",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20010131.htm",
+  "text": "Minutes of the Federal Open Market Committee January 30-31, 2001 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., beginning on Tuesday, January 30, 2001, at 9:00 a.m. and continuing on Wednesday, January 31, 2001, at 9:00 a. m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kelley Mr. Meyer Ms. Minehan Mr. Moskow Mr. Poole Messrs. Jordan, McTeer, Santomero, and Stern, Alternate  \r\n                              Members of the Federal Open Market Committee Messrs. Broaddus, Guynn, and Parry, Presidents of the \r\n                              Federal Reserve Banks of Richmond, Atlanta, and\r\n                              San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Ms. Cumming, Messrs. Fuhrer, Hakkio,\r\n       Howard, Hunter, Lindsey, Rasche, \r\n       Reinhart, and Slifman, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Winn, 1 Assistant to the Board, Office of Board Members, Board of   \r\n                   Governors Ms. Johnson, 2 Secretary of the Board, Office of the Secretary, Board of\r\n\t       Governors, Mr. Simpson, Senior Adviser, Division of Research and Statistics, Board  \r\n                   of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of  \r\n\t       Governors Messrs. Oliner, Struckmeyer, and Whitesell, Assistant Directors,                \r\nDivisions of Research and Statistics, Research and Statistics, and Monetary Affairs respectively, Board of Governors Messrs. Morton, 1 Rosine, 1 and Sack, 1 Senior Economists, Divisions \r\n       of International Finance, Research and Statistics, and Monetary          \r\n       Affairs respectively, Board of Governors Mr. Reifschneider, 3 Section Chief, Division of Research and Statistics,     \r\n                   Board of Governors Ms. Garrett, 3 Economist, Division of Monetary Affairs, Board of \r\n                   Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary  \r\n \t       Affairs, Board of Governors Mr. Lang, Executive Vice President, Federal Reserve Bank of  \r\n                   Philadelphia Messrs. Beebe, Eisenbeis, Goodfriend, Kos, Ms. Krieger, Messrs.                    \r\n       Rosenblum, and Sniderman, Senior Vice Presidents, Federal Reserve                                  \r\n       Banks of San Francisco, Atlanta, Richmond, New York, New York, \r\n       Dallas, and Cleveland respectively Mr. Weber, Vice President, Federal Reserve Bank of Minneapolis In the agenda for this meeting, it was reported that advices of the election of the following members and alternate members of the Federal Open Market Committee for the period commencing January 1, 2001, and ending December 31, 2001, had been received and that these individuals had executed their oaths of office. The elected members and alternate members were as follows: William J. McDonough, President of the Federal Reserve Bank of New York,                \r\n             with Jamie B. Stewart, Jr., First Vice President of the Federal Reserve  \r\n             Bank of New York, as alternate Cathy E. Minehan, President of the Federal Reserve Bank of Boston, with  \r\n\tAnthony M. Santomero, President of the Federal Reserve Bank of        \r\n            Philadelphia, as alternate Michael H. Moskow, President of the Federal Reserve Ban\n...[document excerpted]...\nies, most notably those related to the motor vehicle sector. Manufacturing production declined sharply as a result, and overall employment gains moderated further. Price inflation was still relatively subdued. Labor demand softened further in December, with private nonfarm payroll employment continuing to increase slowly and the average workweek to decline. Nonetheless, the labor market remained very tight and the unemployment rate held at 4 percent, its average for the year. Reduced labor deman\n...[risk-bearing excerpt]...\nal debt.  In particular, the Treasury market could be expected to become less liquid over time, making it more difficult for the Federal Reserve to accommodate the trend growth of currency through outright purchases of Treasuries without unduly affecting market prices. Reduced activity in the Treasury repurchase agreement (RP) market could complicate the use of such obligations to respond to seasonal and unexpected variations in the aggregate supply of reserves. In reviewing the possibilities, t\n...[risk-bearing excerpt]...\nhe sound condition of the banking system was another supportive factor. Some also observed that, counter to the experience generally associated with the onset of earlier recessions, monetary growth had been well maintained in recent months, and a few noted that long-term interest rates currently were appreciably below their peaks of the past year. The prospect that fiscal policy might begin to move in an expansionary direction later in the year was cited as another factor in the outlook for stro\n...[risk-bearing excerpt]...\nmbers noted that relative to investments in Treasury securities, all of the options could entail significant drawbacks, including increases in credit risk, reductions in liquidity, and potentially distorting effects on relative prices in financial markets.  In light of these potential issues, the Committee agreed that it should proceed cautiously and maintain the current emphasis on Treasury securities in the SOMA portfolio, e\n...[document conclusion]...\naction: None. By notation vote completed on March 15, 2001, the Federal Open Market Committee voted unanimously to select Dino Kos as Manager for Domestic and Foreign Operations of the System Open Market Account to serve in that capacity until the first regularly scheduled meeting after December 31, 2001, subject to the understanding that in the event of the discontinuance of his official connection with the Federal Reserve Bank of New York he would cease to have any official connection with the Federal Open Market Committee.  It also was understood that this selection needed to be satisfactory to the Federal Reserve Bank New York.  Advice subsequently was received that the selection of Mr. Kos as Manager was satisfactory to the board of directors of that Bank. It was agreed that the next meeting of the Committee would be held on Tuesday, March 20, 2001. The meeting adjourned at 10:50 a.m. on January 31, 2001. Donald L. Kohn Secretary Return to top Footnotes 1 Attended Tuesday session only. 2 Attended portion of meeting  relating to a staff study of the Federal Reserve asset portfolio. 3 Attended Wednesday session only. Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: March 22, 2001, 2:00 PM",
+  "text_sha256": "768770352f35682dc78d13bc264afc9a8f0a18340f02c9964142c7c66c8cbc20"
+}

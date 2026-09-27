@@ -1,0 +1,47 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19950201",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "policy": -0.2
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1995/19950201min.htm"
+    ],
+    "evidence": "of 1994 indicated continued growth in economic activity, though perhaps at a somewhat slower pace, in the major foreign industrial countries.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "continued",
+      "countries",
+      "economic",
+      "foreign",
+      "growth",
+      "indicated",
+      "industrial",
+      "major",
+      "pace",
+      "perhaps",
+      "slower",
+      "somewhat",
+      "though"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1995-03-31",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "909373f414ab34a4a4f9635f0c68c56e7f09df8fc4f32804d990fc83ba0eaddf",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1995/19950201min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting \r\n    of January 31-February 1, 1995 A meeting of the Federal Open Market Committee was held in \r\n    the offices of the Board of Governors of the Federal Reserve System in \r\n    Washington, D.C., starting on Tuesday, January 31, 1995 at 1:30 p.m. \r\n    and continuing on Wednesday, February 1, 1995 at 9:00 a.m. PRESENT: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Hoenig Mr. Kelley Mr. LaWare Mr. Lindsey Mr. Melzer Ms. Minehan Mr. Moskow Ms. Phillips Ms. Yellen Messrs. Boehne, Jordan, McTeer, and Stern, Alternate Members of the Federal Open Market Committee Messrs. Broaddus, Forrestal, and Parry, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco, respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Patrikis, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Davis, Dewald, Lindsey, Mishkin, Promisel, Siegman, Slifman, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Mr. Simpson, Associate Director, Division of Research and Statistics, Board of Governors Mr. Winn, 1 Assistant to the Board, Office of Board Members, Board of Governors Messrs. Hooper and Reinhart, Assistant Directors, Divisions of International Finance and Monetary Affairs, respectively, Board of Governors Mr. Rosine, 1 Senior Economist, Division of Research and Statistics, Board of Governors Mr. English, 1 Economist, Division of Monetary Affairs, Board of Governors Mr. Freeman, 1 Section Chief, Division of International Finance, Board of Governors Ms. O'Day, 1 Associate General Counsel, Legal Division, Board of Governors Mr. Baer, 1 and Ms. Misback, 1 Managing Senior Counsels, Legal Division, Board of Governors Mr. Ely, 1 Senior Attorney, Legal Division, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Messrs. Barron and Rasdall, First Vice Presidents, Federal Reserve Banks of San Francisco and Kansas City, respectively Messrs. Beebe, Goodfriend, Lang, Rosenblum, Sniderman, and Ms. Tschinkel, Senior Vice Presidents, Federal Reserve Banks of San Francisco, Richmond, Philadelphia, Dallas, Cleveland, and Atlanta, respectively Messrs. McNees and Miller, Vice Presidents, Federal Reserve Banks of Boston and Minneapolis, respectively Mr. Evans and Ms. Krieger, Assistant Vice Presidents, Federal Reserve Banks of Chicago and New York, respectively 1. Attended portions of the meeting. In the agenda for this meeting, it was reported that advices \r\n    of the election of the following members and alternate members of the \r\n    Federal Open Market Committee for the period commencing January 1, \r\n    1995, and ending December 31, 1995, had been received and that the \r\n    named individuals had executed their oaths of office. The elected members and alternate members were as follows: William J. McDonough, President of the Federal Reserve Bank of New \r\n    York, with James H. Oltman, First Vice President of the Federal \r\n    Reserve Bank of New York, as alternate; Cathy E. Minehan, President of the Federal Reserve Bank of Boston, \r\n    with Edward G. Boehne, President of the Federal Reserve Bank of \r\n    Philadelphia, as alternate; Michael H. Moskow, President of the Federal Reserve Bank of Chicago, \r\n    with Jerry L. J\n...[document excerpted]...\nof 1994 indicated continued \r\n    growth in economic activity, though perhaps at a somewhat slower pace, \r\n    in the major foreign industrial countries. Consumer price inflation slowed a little in December despite \r\n    a jump in food prices that was only partly offset by a decline in \r\n    energy prices. Excluding food and energy items, consumer prices edged \r\n    up in December and rose significantly less in 1994 than in 1993. At \r\n    the producer level, prices of finished goods also advanc\n...[risk-bearing excerpt]...\nant and housing \r\n    demand had softened somewhat, growth in business investment, exports, \r\n    and inventories remained brisk. Industrial production and payroll \r\n    employment continued to record substantial gains. Broad indexes of \r\n    prices for consumer goods and services had risen moderately on average \r\n    over recent months despite shrinking margins of unemployed resources \r\n    and further sizable increases in the prices of many materials. Nonfarm payroll employment advanced consid\n...[risk-bearing excerpt]...\nat while monetary growth had been damped, \r\n    continuing restraint on the growth of the narrow monetary aggregates \r\n    was desirable to offset a previous build-up in liquidity and help \r\n    assure that inflationary pressures would be contained. Members who saw an advantage in postponing a decision to \r\n    tighten policy commented that, in light of some scattered signs of a \r\n    moderating expansion, it would be helpful to wait for certain key \r\n    statistics that would become available w\n...[risk-bearing excerpt]...\nark, which was buoyed by safe-haven inflows from weaker European \r\n    currencies, but dropped less against the yen. One factor that weighed \r\n    against the dollar was uncertainty about the consequences for the U.S. \r\n    economy of the sharp depreciation of the Mexican peso and the related \r\n    economic and financial problems in Mexico and other developing \r\n    economies; market participants expressed some concern that the\n...[document conclusion]...\nif the \r\n    information they provide were to be made public. As required by law, \r\n    a complete, unredacted version of the transcript of each meeting will \r\n    be turned over to the National Archives after 30 years have elapsed. For the purpose of preparing the minutes and transcripts, the \r\n    discussions of monetary policy at Committee meetings will continue to \r\n    be recorded. The tape recorder may be turned off at the Chairman's \r\n    discretion when the Committee deals with issues unrelated to monetary \r\n    policy, such as organizational and personnel matters. The transcripts \r\n    will indicate that the tape recorder has been turned off and the \r\n    minutes will provide a summary description of the matters that were \r\n    discussed, As permitted by the National Records Act, the recordings \r\n    and unedited transcripts will be discarded after all the participants \r\n    at the meeting have reviewed and corrected, as necessary, the \r\n    transcripts prepared by the Secretariat. It was agreed that the next meeting of the Committee would \r\n    be held on Tuesday, March 28, 1995. The meeting adjourned at 3:20 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "e05ca4b4b0f909f880ddcc4d9c5156a052311dd40bfe18fbe1f18e65b7559f89"
+}

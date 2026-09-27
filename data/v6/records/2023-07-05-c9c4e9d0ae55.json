@@ -1,0 +1,64 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20230614",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.3333333333333333
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "inflation": 0.6666666666666667
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230614.htm"
+    ],
+    "evidence": "Policy-sensitive rates increased over the intermeeting period, reflecting indications of continued resilience in the economy, persistently elevated core inflation, and reduced downside tail risks following the resolution of the debt limit.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "april",
+      "change",
+      "consumer",
+      "continued",
+      "core",
+      "debt",
+      "downside",
+      "economy",
+      "elevated",
+      "following",
+      "increased",
+      "index",
+      "indications",
+      "inflation",
+      "intermeeting",
+      "limit",
+      "measured",
+      "month",
+      "over",
+      "percent",
+      "period",
+      "persistently",
+      "policy",
+      "price",
+      "rates",
+      "reduced",
+      "reflecting",
+      "resilience",
+      "resolution",
+      "risks",
+      "sensitive",
+      "tail"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2023-07-05",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "c9c4e9d0ae556631516fabafef872b64c944606563d542eef1432d9b29024e81",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230614.htm",
+  "text": "Minutes of the Federal Open Market Committee June 13–14, 2023 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, June 13, 2023, at 10:30 a.m. and continued on Wednesday, June 14, 2023, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lisa D. Cook Austan D. Goolsbee Patrick Harker Philip N. Jefferson Neel Kashkari Lorie K. Logan Christopher J. Waller Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, and Loretta J. Mester, Alternate Members of the Committee James Bullard and Susan M. Collins, Presidents of the Federal Reserve Banks of St. Louis and Boston, respectively Kelly J. Dubbert, Interim President of the Federal Reserve Bank of Kansas City Joshua Gallin, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Richard Ostrander, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Roc Armenter, James A. Clouse, Brian M. Doyle, Beverly J. Hirtle, Andrea Raffo, Chiara Scotti, and William Wascher, Associate Economists Roberto Perli, Manager, System Open Market Account Julie Ann Remache, Deputy Manager, System Open Market Account Jose Acosta, Senior Communications Analyst, Division of Information Technology, Board Gianni Amisano, Assistant Director, Division of Research and Statistics, Board Philippe Andrade, Senior Economist and Policy Advisor, Federal Reserve Bank of Boston Alyssa Arute, 2 Manager, Division of Reserve Bank Operations and Payment Systems, Board Penelope A. Beattie, 3 Section Chief, Office of the Secretary, Board Carol C. Bertaut, Senior Adviser, Division of International Finance, Board Jennifer J. Burns, Deputy Director, Division of Supervision and Regulation, Board Marco Cagetti, Assistant Director, Division of Research and Statistics, Board Mark A. Carlson, Adviser, Division of Monetary Affairs, Board Juan C. Climent, Special Adviser to the Board, Division of Board Members, Board Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board Stephanie E. Curcuru, Deputy Director, Division of International Finance, Board Ahmet Degerli, Economist, Division of Monetary Affairs, Board Cynthia L. Doniger, Principal Economist, Division of Monetary Affairs, Board Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Jon Faust, Senior Special Adviser to the Chair, Division of Board Members, Board Erin E. Ferris, Principal Economist, Division of Monetary Affairs, Board Jonas Fisher, Senior Vice President, Federal Reserve Bank of Chicago Glenn Follette, Associate Director, Division of Research and Statistics, Board Jennifer Gallagher, Assistant to the Board, Division of Board Members, Board Carlos Garriga, Senior Vice President, Federal Reserve Bank of St. Louis David Glancy, 4 Principal Economist, Division of Monetary Affairs, Board Christopher J. Gust, Associate Director, Division of Monetary Affairs, Board Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Michael T. Kiley, Deputy Director, Division of Financial Stability, Board Don H. Kim, 2 Senior Adviser, Division of Monetary Affairs, Board Edward S. Knotek II, Senior Vice President, Federal Reserve Bank of Cleveland Andreas Lehnert, Director, Division of Financial Stability, Board Paul Lengermann, Assistant Director, Division of Research and St\n...[document excerpted]...\nnancial markets. Policy-sensitive rates increased over the intermeeting period, reflecting indications of continued resilience in the economy, persistently elevated core inflation, and reduced downside tail risks following the resolution of the debt limit. The shift in policy expectations contributed significantly to higher Treasury yields. The increase in nominal yields primarily reflected higher real rates rather than inflation compensation. Broad equity prices rose, al­though the outperforman\n...[risk-bearing excerpt]...\ndomestic product (GDP) was expanding at a modest pace in the second quarter. Labor market conditions remained tight in recent months, as job gains were robust and the unemployment rate was low. Consumer price inflation—as measured by the 12-month percent change in the price index for PCE—continued to be elevated in April. Labor market conditions remained tight in April and May. Total nonfarm payroll employment increased at a robust pace during those two months. The unemployment rate edged up, o\n...[risk-bearing excerpt]...\nmarket capitalization. Cyclical sectors fared better than sectors that tend to appreciate in a downturn, suggesting some reduced investor concern about downside risks to growth. Investor sentiment about the banking sector improved as perceived tail risks regarding regional banks appeared to have receded. Equity prices for regional banks rose over the intermeeting period but were still well below early March levels. Financial conditions indexes were roughly unchanged, as higher rates and a strong\n...[risk-bearing excerpt]...\nout the path of the policy rate derived from options remained very elevated, though they came down some over the intermeeting period. Desk survey respondents still saw a recession occurring in the near term as quite likely, but the expected timing was again pushed later, as economic data pointed to the continued resilience of economic activity. Overall, respondents generally continued to expect that any downturn would be neithe\n...[document conclusion]...\nate unchanged, the Board voted unanimously to maintain the interest rate paid on reserve balances at 5.15 percent, effective June 15, 2023. The Board also voted unanimously to approve the establishment of the primary credit rate at the existing level of 5.25 percent. It was agreed that the next meeting of the Committee would be held on Tuesday–Wednesday, July 25–26, 2023. The meeting adjourned at 10:20 a.m. on June 14, 2023. Notation Vote By notation vote completed on May 23, 2023, the Committee unanimously approved the minutes of the Committee meeting held on May 2–3, 2023. _______________________ Joshua Gallin Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended through the discussion of developments in financial markets and open market operations. Return to text 3. Attended through the discussion of the economic and financial situation and all of Wednesday's session. Return to text 4. Attended Tuesday's session only. Return to text 5. Attended from the discussion of the economic and financial situation through the end of Tuesday's session. Return to text",
+  "text_sha256": "b2efd3527bd3abefabeacb5f46c64e524536fa5518e3f56084724cb7a8ccdfc1"
+}

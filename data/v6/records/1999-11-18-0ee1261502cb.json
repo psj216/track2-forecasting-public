@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19991005",
+  "fingerprint": {
+    "axes": {
+      "oil": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "guidance": -0.6,
+      "oil": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19991005.htm"
+    ],
+    "evidence": "Abstracting from the sharp advances in energy prices and the mild increases in food prices, consumer inflation continue ...[risk-bearing excerpt]...",
+    "issuer": "FED",
+    "major": "oil",
+    "region": "US",
+    "tokens": [
+      "abstracting",
+      "advances",
+      "bearing",
+      "consumer",
+      "continue",
+      "energy",
+      "excerpt",
+      "food",
+      "from",
+      "increases",
+      "inflation",
+      "mild",
+      "prices",
+      "risk",
+      "sharp"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1999-11-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "0ee1261502cb3529e30d58b22ca7ce0faf3d2105509fe7af8d554b62c6e4ba01",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19991005.htm",
+  "text": "Minutes of the Federal Open Market Committee October 5, 1999 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, October 5, 1999, \r\nat 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Boehne Mr. Ferguson Mr. Gramlich Mr. Kelley Mr. McTeer Mr. Meyer Mr. Moskow Mr. Stern Messrs. Broaddus, Guynn, Jordan, and Parry, Alternate Members of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve Banks of Kansas City, Boston, and St. Louis respectively Mr. Kohn, Secretary and Economist Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Prell, Economist Ms. Johnson, Economist Ms. Cumming, Messrs. Howard, Lang, Lindsey, Rolnick, Rosenblum, Slifman, and Stockton, \r\nAssociate Economists Mr. Fisher, Manager, System Open Market Account Messrs. Ettin and Reinhart, Deputy Directors, Division of Research and Statistics and International Finance respectively, Board of Governors Messrs. Madigan and Simpson, Associate Directors, Divisions of Monetary Affairs and Research and Statistics respectively, Board of Governors Mr. Whitesell, Assistant Director, Division of Monetary Affairs, \r\n                                        Board of Governors Mr. Kumasaka, Assistant Economist, Division of Monetary Affairs,  \r\n\t    Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary\r\n                                        Affairs, Board of Governors Ms. Browne, Messrs. Eisenbeis, Goodfriend, Kos, Rasche, and Sniderman, Senior Vice Presidents, Federal Reserve Banks of Boston, Atlanta,  Richmond, New York, St. Louis, and Cleveland respectively Messrs. Judd and Sullivan, Vice Presidents, Federal Reserve Banks of\r\n\t\t     San Francisco and Chicago respectively Mr. Filardo, Assistant Vice President, Federal Reserve Bank of Kansas City By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on August 24, 1999, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting, and thus no vote was required of the Committee. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period August 24, 1999, through October 4, 1999.  By unanimous vote, the Committee ratified these transactions. The information reviewed at this meeting suggested that the expansion of economic activity was substantial in the quarter just ended. Consumer spending and business investment in durable equipment remained strong, and inventory investment picked up from the sluggish pace of the \r\nsecond quarter, while residential housing activity showed some signs of deceleration. To meet aggregate demand, industrial production increased further and employment gains continued to be relatively robust, keeping labor markets taut. Inflation was moderate, but somewhat above that in 1998, owing to a sharp rebound in energy prices. Although private nonfarm payroll employment expanded relatively slowly in\r\nAugust, the slowdown had followed a surge in July, and growth for the two months was very close to the brisk pace of the first half of the year. Job gains in the service-producing sector remained strong in the July-August period, while employment in the goods-producing\n...[document excerpted]...\nhe year. Economic growth in Canada seemed to be continuing at a robust pace, and economic recovery in most of the Asian emerging-market economies was proceeding briskly. Inflation remained relatively moderate, though somewhat above the pace of 1998 because of a sharp rebound in energy prices. Overall consumer prices increased in July and August at about the second-quarter rate. Abstracting from the sharp advances in energy prices and the mild increases in food prices, consumer inflation continue\n...[risk-bearing excerpt]...\nsector continued to decline, though at a slightly slower rate than earlier in the year. The civilian unemployment rate dropped back to 4.2 percent in August, matching its low for the year. Industrial production was up appreciably further on balance in July and August. Mining activity rose markedly, utility output increased moderately on balance, and manufacturing production recorded a further sizable advance over the two months.\n...[risk-bearing excerpt]...\nconsumption and investment demand--in complex interactions of aggregate supply and demand--but it also had held down increases in unit costs and prices. A great deal of uncertainty surrounded the behavior of productivity growth going forward, but some further pickup, and the associated ability of the economy to accommodate more rapid growth without added inflation, was a possibility that could not be overlooked. However, a further pickup in productivity growth was by no means assured, and a num\n...[risk-bearing excerpt]...\ntive, members observed that the recent practice of making such announcements had led to some misinterpretations of the Committee's intentions and seemed to have added to volatility in financial markets. As a consequence, Committee members briefly considered alternative treatments of symmetry and disclosure for this meeting. Because the Committee had begun a process for examining the wording of its directive and its announcement policy, most of the members concluded that the most satisfactory al\n...[document conclusion]...\nebt, measured \r\nfrom the fourth quarter of 1999 to the fourth quarter of 2000. The behavior \r\nof the monetary aggregates will continue to be evaluated in the light of \r\nprogress toward price level stability, movements in their velocities, and \r\ndevelopments in the economy and financial markets. To promote the Committee's long-run objectives of price stability\r\nand sustainable economic growth, the Committee in the immediate\r\nfuture seeks conditions in reserve markets consistent with maintaining\r\nthe federal funds rate at an average of around 5-1/4 percent.  In view of\r\nthe evidence currently available, the Committee believes that prospective\r\ndevelopments are more likely to warrant an increase than a decrease \r\nin the federal funds rate operating objective during the intermeeting period. Votes for this action: Messrs. Greenspan, McDonough, \r\n\tBoehne, Ferguson, Gramlich, McTeer, Meyers, Moskow, \r\n\tKelley, and Stern. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, \r\nNovember 16, 1999. The meeting adjourned at 1:25 p.m. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: November 18, 1999, 2:00 PM",
+  "text_sha256": "d0ec22f7cc25f528830e93478b03ad5ae3eb74bb80c4e88c580ef77733fd214e"
+}

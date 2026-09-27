@@ -1,0 +1,59 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20011211",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "inflation": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20011211.htm"
+    ],
+    "evidence": "The labor market deteriorated substantially in October and November.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "aggressive",
+      "also",
+      "could",
+      "creating",
+      "deteriorated",
+      "expectation",
+      "faster",
+      "federal",
+      "funds",
+      "increase",
+      "interest",
+      "labor",
+      "market",
+      "meeting",
+      "more",
+      "november",
+      "october",
+      "policy",
+      "position",
+      "rate",
+      "reducing",
+      "reversal",
+      "substantially",
+      "that",
+      "this",
+      "volatility"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2002-01-31",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "686a77eae4c34273180d34192b7caf3f44365121b79a88fd4a1cf094dfea6f6a",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20011211.htm",
+  "text": "Minutes of the Federal Open Market Committee December 11, 2001 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, December 11, 2001, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Ms. Bies Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Meyer Ms. Minehan Mr. Moskow Mr. Olson Mr. Poole Messrs. Jordan, McTeer, Santomero, and Stern, Alternate Members                                                                                                                       of the Federal Open Market Committee Messrs. Broaddus, Guynn, and Parry, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Gillum, Assistant Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Reinhart, Economist Mr. Stockton, Economist Ms. Cumming, Messrs. Fuhrer, Hakkio, Howard, Lindsey, Rasche,   \r\nSlifman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Winn, Assistant to the Board, Office of Board\r\n\t\t\t     Members, Board of Governors Messrs. Ettin and Madigan, Deputy Directors, Divisions of Research \r\nand Statistics and Monetary Affairs respectively, Board of \r\nGovernors Mr. Simpson, Senior Adviser, Division of Research and Statistics,\r\n\t\t\t    Board of Governors Mr. Connors, Associate Director, Division of International Finance,\r\n\t    Board of Governors Messrs. Oliner and Struckmeyer, Associate Directors, Division of\r\nResearch and Statistics, Board of Governors Mr. Whitesell, Assistant Director, Division of Monetary Affairs,  \r\nBoard of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board \r\nMembers, \tBoard of Governors Ms. Low, Open Market Secretariat Assistant, Office of Board \r\n     Members, Board of Governors Mr. Rasdall, First Vice President, Federal Reserve Bank of\r\n     Kansas City Messrs. Eisenbeis and Goodfriend, Mses. Krieger and Mester, and Mr. Rosenblum, Senior Vice Presidents, Federal Reserve \r\nBanks of Atlanta, Richmond, New York, Philadelphia, and Dallas respectively Messrs. Bryan, Judd, and Krane, Vice Presidents, Federal Reserve Banks of Cleveland, San Francisco, and Chicago respectively Mr. Weber, Senior Research Officer, Federal Reserve Bank of \r\n\t\t     Minneapolis Prior to this meeting, Ms. Susan Schmidt Bies and Mr. Mark W. Olson had executed their oaths of office as members of the Board of Governors and the Federal Open Market Committee. By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on November 6, 2001, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period November 6, 2001, through December 10, 2001.  By unanimous vote, the Committee ratified these transactions. The Committee then turned to a discussion of the economic and financial outlook and the conduct of monetary policy over the intermeeting period ahead.  A summary of the economic and financial information available at the time of the meeting and of the Committee's discussion is provided below. The information reviewed a\n...[document excerpted]...\nending seemed to have recovered somewhat from the sharp September decline. Energy prices were moderating noticeably in response to lower worldwide demand, and core price inflation remained subdued. The labor market deteriorated substantially in October and November. Nonfarm payroll employment fell significantly in both months, with the largest job losses occurring in manufacturing, help supply services, and retail trade. Steep cuts in employment also occurred in industries directly affected by t\n...[risk-bearing excerpt]...\nomewhat further in October, but in an environment of very low mortgage rates, homebuilding remained at a relatively high level despite the weak labor market and sluggish growth in personal income. Demand for single-family housing had held up relatively well. Sales of new single-family homes changed little in October and had been relatively steady since May, while sales of existing homes partially retraced the sharp drop-off that occurred in September. Recent information suggested that the downwa\n...[risk-bearing excerpt]...\nndustries. The rate of utilization of total manufacturing capacity contracted further in October and was at a level substantially below the trough reached in the 1990-91 recession. Personal consumption expenditures are estimated to have rebounded in October, following the large September decline, and were slightly above the third-quarter average. Purchases of motor vehicles surged in response to aggressive zero-rate financing packages offered by automakers, while spending on other goods made a p\n...[risk-bearing excerpt]...\nwith a decrease of 50 basis points in the intended level of the federal funds rate, to about 2 percent. The members referred to the heightened degree of uncertainty and risk aversion following the terrorist attacks that was having a significant effect on business and household spending, and they noted that the substantial easing of monetary policy that had been put in place this year had not shown through fully to long-term in\n...[document conclusion]...\nontinue to be weighted mainly \r\n          toward conditions that may generate economic weakness in the \r\n          foreseeable future. Votes for this action: Messrs. Greenspan, McDonough, \r\n                Ms. Bies, Messrs. Ferguson, Gramlich, Meyer, Ms. Minehan,\r\n                Messrs. Moskow, Olson, and Poole. Votes against this action: Mr. Hoenig. Absent and not voting: Mr. Kelley. Mr. Hoenig dissented because he preferred to leave the federal funds rate unchanged.  He judged that a 2 percent federal funds rate was already quite stimulative and that a more stimulative policy was not needed.  Following the rapid and aggressive policy actions already taken, it would be prudent to give the current policy more time to work through the economy.  It was also his position that reducing the federal funds rate at this meeting could increase interest rate volatility by creating an expectation of a faster or a more aggressive reversal of policy. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, January 29-30, 2002. The meeting adjourned at 1:20 p.m. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: January 31, 2002 2:00 PM",
+  "text_sha256": "82134c2065de5a08bb417aa58c058780cf1f281a9d532534fde0503251751840"
+}

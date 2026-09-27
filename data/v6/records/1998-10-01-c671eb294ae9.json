@@ -1,0 +1,49 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19980818",
+  "fingerprint": {
+    "axes": {
+      "inflation": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.6,
+      "inflation": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19980818.htm"
+    ],
+    "evidence": "Consequently, continued rapid growth in the money supply creates the risk that inflation will accelerate and economic imbalances will become protracted.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "accelerate",
+      "become",
+      "consequently",
+      "continued",
+      "creates",
+      "economic",
+      "growth",
+      "imbalances",
+      "inflation",
+      "money",
+      "protracted",
+      "rapid",
+      "risk",
+      "supply",
+      "that",
+      "will"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-10-01",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "c671eb294ae9ae9f0ca81aed5d24e1a4156b0948c631d8f9e904888f735e5f0b",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19980818.htm",
+  "text": "Minutes of the Federal Open Market Committee August 18, 1998 A meeting of the Federal Open Market Committee was held in\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\nWashington, D.C., on Tuesday, August 18, 1998, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Jordan Mr. Kelley Mr. Meyer Ms. Minehan Mr. Poole Ms. Rivlin Messrs. Boehne, McTeer, Moskow, and Stern,\r\n                       Alternate Members of the Federal Open Market\r\n                       Committee Messrs. Guynn and Parry, Presidents of the Federal\r\n                       Reserve Banks of Atlanta and San Francisco\r\n                       respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Cecchetti, Dewald, Hakkio, Lindsey,\r\n                       Simpson, Sniderman, and Stockton, Associate\r\n                       Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research\r\n                       and Statistics, Board of Governors Messrs. Madigan and Slifman, Associate Directors,\r\n                       Divisions of Monetary Affairs and Research and\r\n                       Statistics respectively, Board of Governors Mr. Hooper and Ms. Johnson, Associate Directors,\r\n                       Division of International Finance, Board of\r\n                       Governors Mr. Reinhart, Deputy Associate Director, Division\r\n                       of Monetary Affairs, Board of Governors Mr. Struckmeyer, Assistant Director, Division of\r\n                       Research and Statistics, Board of Governors Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Ms. Strand and Mr. Varvel, First Vice Presidents,\r\n                       Federal Reserve Banks of Minneapolis and\r\n                       Richmond respectively Messrs. Beebe, Goodfriend, and Rosenblum, Senior\r\n                       Vice Presidents, Federal Reserve Banks of San\r\n                       Francisco, Richmond, and Dallas respectively Messrs. Bolwell, King, Kopcke, Meyer, and\r\n                       Sullivan, Vice Presidents, Federal Reserve\r\n                       Banks of New York, Atlanta, Boston,\r\n                       Philadelphia, and Chicago respectively Mr. Weber, Senior Research Officer, Federal Reserve\r\n                       Bank of Minneapolis By unanimous vote, the minutes of the meeting of the Federal\r\nOpen Market Committee held on June 30-July 1, 1998, were approved. The Manager of the System Open Market Account reported on\r\ndevelopments in foreign exchange markets during the period since the\r\nprevious meeting.  There were no open market operations in foreign\r\ncurrencies for the System's account during this period, and thus no\r\nvote was required of the Committee. The Manager also reported on developments in domestic\r\nfinancial markets and on System open market transactions in government\r\nsecurities and federal agency obligations during the period July 1,\r\n1998, through August 17, 1998.  By unanimous vote, the Committee\r\nratified these transactions. The Committee then turned to a discussion of the economic and\r\nfinancial outlook and the implementation of monetary policy over the\r\nintermeeting period ahead.  A summary of the economic and financial\r\ninformation available at the time of the meeting and of the\r\nCommittee's\n...[document excerpted]...\nin often disorderly markets.  Risk\r\nspreads on dollar-denominated debt widened substantially, not only in\r\nRussia but for Latin American issuers as well. Price and wage inflation had remained relatively stable in\r\nrecent months.  Both the overall CPI and the CPI excluding food and\r\nenergy items rose slightly on balance in June and July; a small rise\r\nin food prices offset a noticeable decline in energy prices over the\r\ntwo-month period.  For the twelve months ended in July, the core CPI\r\nregist\n...[risk-bearing excerpt]...\nained weak\r\nas a result of the persisting turmoil in Asian economies.  The strike\r\nat General Motors had damped overall economic activity temporarily,\r\nbut total payroll employment continued to trend upward, and labor\r\nmarkets remained extremely tight.  Despite the pressures on labor\r\nresources, trends in wages and prices had remained stable in recent\r\nmonths. Nonfarm payroll employment expanded further in July even\r\nthough manufacturing payrolls plunged in association with the General\r\nMotors s\n...[risk-bearing excerpt]...\nld down expected price\r\nincreases. Among the factors bearing on the outlook for domestic\r\neconomic activity, the members viewed the external sector as a major\r\nsource of uncertainty.  The continued rapid decline in net exports\r\nduring the first half of the year largely seemed to reflect the\r\nfurther financial unsettlement and a deeper contraction in Asian\r\neconomies than had been anticipated earlier, and several members\r\ncommented that they saw little evidence that financial and economic\r\ncondit\n...[risk-bearing excerpt]...\nisting turbulence in foreign markets.  In an atmosphere\r\nof increasing concerns about the prospects for corporate earnings,\r\nshare prices in U.S. equity markets remained volatile and major\r\nindexes declined appreciably on balance over the intermeeting period. In foreign exchange markets, the trade-weighted value of the\r\ndollar rose somewhat further over the intermeeting period in relation\r\nto other major currencies.  The dollar\n...[document conclusion]...\ndustries will decline due to softer\r\nforeign markets and import competition.  At the same time, domestic\r\ndemand for imports, housing, and consumer durables will increase due\r\nto favorable interest rate trends.  Though U.S. production of goods\r\nand services might slow during the period ahead, it is not yet clear\r\nthat total demand will diminish at a comparable pace.  At the same\r\ntime, ample credit provision encourages speculative lending and\r\nexcessive consumption.  Consequently, continued rapid growth in the\r\nmoney supply creates the risk that inflation will accelerate and\r\neconomic imbalances will become protracted. TELEPHONE CONFERENCE On September 21 the Committee held a telephone conference to\r\ndiscuss recent developments in domestic and international financial\r\nmarkets and their implications for the U.S. economy.  The consultation\r\nwas held as background for Chairman Greenspan's testimony on\r\nSeptember 23 before the Senate Budget Committee. It was agreed that the next meeting of the Committee would be\r\nheld on Tuesday, September 29, 1998. The meeting adjourned at 12:45 p.m. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: October 1, 1998, 2:00 PM",
+  "text_sha256": "e6dadaa6f496b0a3e5ecee842f245752eb004cb06a45558dc4fc06edb1f83d09"
+}

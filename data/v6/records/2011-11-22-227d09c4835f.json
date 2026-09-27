@@ -1,0 +1,62 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20111102",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0,
+      "guidance": 0.6,
+      "inflation": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm"
+    ],
+    "evidence": "While recent incoming data suggested reduced odds that the economy would slide back into recession, participants still saw significant downside risks to the outlook for economic growth.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "back",
+      "conditions",
+      "continued",
+      "data",
+      "downside",
+      "economic",
+      "economy",
+      "growth",
+      "however",
+      "incoming",
+      "into",
+      "labor",
+      "market",
+      "odds",
+      "outlook",
+      "participants",
+      "recent",
+      "recession",
+      "reduced",
+      "risks",
+      "significant",
+      "slide",
+      "still",
+      "suggested",
+      "that",
+      "weak",
+      "while",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2011.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2011-11-22",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "227d09c4835f26fe78e4120e33836590ecb0bef4b754dc1ae59ebba5b6e9b3a7",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20111102.htm",
+  "text": "Home > Monetary Policy > Federal Open Market Committee Print Minutes of the Federal Open Market Committee November 1-2, 2011 FOMC Minutes Summary of Economic Projections A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors in Washington, D.C., on Tuesday, November 1, 2011, at 10:30 a.m. and continued on Wednesday, November 2, 2011, at 8:30 a.m. PRESENT: Ben Bernanke, Chairman William C. Dudley, Vice Chairman Elizabeth Duke Charles L. Evans Richard W. Fisher Narayana Kocherlakota Charles I. Plosser Sarah Bloom Raskin Daniel K. Tarullo Janet L. Yellen Christine Cumming, Jeffrey M. Lacker, Dennis P. Lockhart, Sandra Pianalto, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Deborah J. Danker, Deputy Secretary Matthew M. Luecke, Assistant Secretary David W. Skidmore, Assistant Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, Steven B. Kamin, Loretta J. Mester, Simon Potter, David Reifschneider, Harvey Rosenblum, Lawrence Slifman, Daniel G. Sullivan, and Kei-Mu Yi, Associate Economists Brian Sack, Manager, System Open Market Account Jennifer J. Johnson, Secretary of the Board, Office of the Secretary, Board of Governors Patrick M. Parkinson, Director, Division of Banking Supervision and Regulation, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Robert deV. Frierson, Deputy Secretary, Office of the Secretary, Board of Governors William Nelson, Deputy Director, Division of Monetary Affairs, Board of Governors Andrew T. Levin, Special Adviser to the Board, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Charles S. Struckmeyer, Deputy Staff Director, Office of the Staff Director, Board of Governors Michael P. Leahy, Senior Associate Director, Division of International Finance, Board of Governors; William Wascher, Senior Associate Director, Division of Research and Statistics, Board of Governors Ellen E. Meade, Senior Adviser, Division of Monetary Affairs, Board of Governors Daniel M. Covitz and Michael T. Kiley, 1 Associate Directors, Division of Research and Statistics, Board of Governors Christopher J. Erceg, 1 Deputy Associate Director, Division of International Finance, Board of Governors; Fabio M. Natalucci, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Brian J. Gross, 1 Special Assistant to the Board, Office of Board Members, Board of Governors David Lopez-Salido, 1 Assistant Director, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Mark A. Carlson, Senior Economist, Division of Monetary Affairs, Board of Governors Penelope A. Beattie, Assistant to the Secretary, Office of the Secretary, Board of Governors Sarah G. Green, First Vice President, Federal Reserve Bank of Richmond Glenn D. Rudebusch, Executive Vice President, Federal Reserve Bank of San Francisco David Altig, Geoffrey Tootell, and Christopher J. Waller, Senior Vice Presidents, Federal Reserve Banks of Atlanta, Boston, and St. Louis, respectively Todd E. Clark, Edward S. Knotek II, and Nathaniel Wuerffel, Vice Presidents, Federal Reserve Banks of C\n...[document excerpted]...\no decision was made at this meeting to change the Committee's policy strategy or communications. It was noted that many central banks around the world pursue an explicit inflation objective, maintain flexibility to stabilize economic activity, and seek to communicate their forecasts and policy plans as clearly as possible. Many participants pointed to the merits of specifying an explicit longer-run inflation goal, but it was noted that such a step could be misperceived as placing greater weight\n...[risk-bearing excerpt]...\nindicated that the pace of economic activity strengthened somewhat in the third quarter, reflecting in part a reversal of the temporary factors that weighed on economic growth in the first half of the year. However, labor market conditions continued to be weak. Overall consumer price inflation was more moderate than earlier in the year, as prices of energy and some commodities declined from their recent peaks. Inflation for other goods and services also appeared to have moderated, and measures\n...[risk-bearing excerpt]...\nand small businesses, and the ongoing weakness in the labor and housing markets. While recent incoming data suggested reduced odds that the economy would slide back into recession, participants still saw significant downside risks to the outlook for economic growth. Risks included potential spillovers to U.S. financial markets and institutions, and so to the broader U.S. economy, if the European debt and banking crisis were to worsen significantly. In addition, participants noted the risk of a l\n...[risk-bearing excerpt]...\nparticularly volatile during the intermeeting period as investors responded to incoming economic data and to news regarding fiscal and financial developments in Europe. Liquidity in many markets worsened, in part because financial institutions more reliant on short-term funding markets reportedly pulled back from risk-taking and became somewhat less willing to make markets. Participants noted the announcement by European policyma\n...[document conclusion]...\n low resource utilization lasted, the more the economy's longer-term growth potential could be impaired. Furthermore, given current policy, his outlook was for inflation to come in below levels consistent with the Committee's dual mandate, bolstering the case for additional monetary easing at this time. He also believed policies with more-explicit forward guidance about the economic conditions under which exceptionally low levels of the funds rate could be maintained would improve the prospects for growth and employment and, while possibly admitting somewhat higher inflation for a time, would still safeguard price stability. It was agreed that the next meeting of the Committee would be held on Tuesday, December 13, 2011. The meeting adjourned at 10:30 a.m. on November 2, 2011. Notation Vote By notation vote completed on October 11, 2011, the Committee unanimously approved the minutes of the FOMC meeting held on September 20-21, 2011. _____________________________ William B. English Secretary 1. Attended the portion of the meeting relating to monetary policy strategies and communication. Return to text Return to top Last update: \n\n     November 22, 2011 Home | Monetary Policy Accessibility Contact us Disclaimer Linking Policy FOIA PDF Reader",
+  "text_sha256": "a4372064a34d34974a5d60430da0b430d6662c7cef3ec6642202d9dc552cf92c"
+}

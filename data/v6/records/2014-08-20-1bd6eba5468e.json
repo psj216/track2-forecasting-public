@@ -1,0 +1,56 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20140730",
+  "fingerprint": {
+    "axes": {
+      "liquidity": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": -0.2,
+      "inflation": 1.0,
+      "liquidity": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140730.htm"
+    ],
+    "evidence": "the facility's design that would limit the Federal Reserve's role in financial intermediation and mitigate the risk that the facility might magnify strains in short-term funding markets during periods of financial stress.",
+    "issuer": "FED",
+    "major": "liquidity",
+    "region": "US",
+    "tokens": [
+      "design",
+      "during",
+      "facility",
+      "federal",
+      "financial",
+      "funding",
+      "intermediation",
+      "limit",
+      "magnify",
+      "markets",
+      "might",
+      "mitigate",
+      "periods",
+      "reserve",
+      "risk",
+      "role",
+      "short",
+      "strains",
+      "stress",
+      "term",
+      "that",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2014-08-20",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "1bd6eba5468e81da0924352d4b4e1acf61d9713f74c0b090574624242635bfc1",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140730.htm",
+  "text": "Minutes of the Federal Open Market Committee July 29-30, 2014 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, July 29, 2014, at 10:00 a.m. and continued on Wednesday, July 30, 2014, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Lael Brainard Stanley Fischer Richard W. Fisher Narayana Kocherlakota Loretta J. Mester Charles I. Plosser Jerome H. Powell Daniel K. Tarullo Charles L. Evans, Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Thomas C. Baxter, Deputy General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, Evan F. Koenig, Thomas Laubach, Michael P. Leahy, Paolo A. Pesenti, Mark E. Schweitzer, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 1 Secretary of the Board, Office of the Secretary, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Matthew J. Eichner, 1 Deputy Director, Division of Research and Statistics, Board of Governors; Maryann F. Hunter, Deputy Director, Division of Banking Supervision and Regulation, Board of Governors; Stephen A. Meyer and William R. Nelson, Deputy Directors, Division of Monetary Affairs, Board of Governors Jon W. Faust and Stacey Tevlin, Special Advisers to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, Assistant to the Board, Office of Board Members, Board of Governors Ellen E. Meade and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors David Bowman, Associate Director, Division of International Finance, Board of Governors; David E. Lebow 2 and Michael G. Palumbo, Associate Directors, Division of Research and Statistics, Board of Governors; Fabio M. Natalucci 1 and Gretchen C. Weinbach, 1 Associate Directors, Division of Monetary Affairs, Board of Governors Jane E. Ihrig, Deputy Associate Director, Division of Monetary Affairs, Board of Governors Eric C. Engstrom, Patrick E. McCabe, 1 and Karen M. Pence, Advisers, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 1 Assistant to the Secretary, Office of the Secretary, Board of Governors Francisco Covas and Elizabeth Klee, 1 Section Chiefs, Division of Monetary Affairs, Board of Governors David H. Small, Project Manager, Division of Monetary Affairs, Board of Governors Katie Ross, 1 Manager, Office of the Secretary, Board of Governors Elmar Mertens, Senior Economist, Division of Monetary Affairs, Board of Governors Peter M. Garavuso, Records Project Manager, Division of Monetary Affairs, Board of Governors Gregory L. Stefani, First Vice President, Federal Reserve Bank of Cleveland David Altig, Ron Feldman, Jeff Fuhrer, and Daniel G. Sullivan, Executive Vice Presidents, Federal Reserve Banks of Atlanta, Minneapolis, Boston, and Chicago, respectively Michael Dotsey and Meg McConnell, Senior Vice Presidents, Federal Reserve Banks of Philadelphia and New York, respectively Fred Furlo\n...[document excerpted]...\n) rebounded in the second quarter following its first-quarter decline, but it expanded at only a modest pace, on balance, over the first half of the year. Consumer price inflation rose somewhat in the second quarter, but futures prices for energy and agricultural commodities generally were trending down over the next couple of years and longer-run measures of inflation expectations remained stable. The Bureau of Economic Analysis (BEA) released its advance estimate for second-quarter real GDP, a\n...[risk-bearing excerpt]...\nonsistent with the new information from the BEA. Measures of labor market conditions generally continued to improve during the intermeeting period. Total nonfarm payroll employment increased strongly in June, and the average monthly gain for the second quarter was the largest since the first quarter of 2012. The unemployment rate declined to 6.1 percent in June, the labor force participation rate was unchanged, and the employment-to-population ratio edged up. The rate of long-duration unemployme\n...[risk-bearing excerpt]...\ns suggested that foreign economic activity strengthened in the second quarter: Chinese GDP accelerated substantially, and Mexican data suggested a pickup there. Real GDP growth remained strong in the United Kingdom, and data for both Canada and the euro area showed improvement relative to the first quarter. By contrast, household spending in Japan dropped sharply following the country's April 1 consumption tax increase. In many advanced foreign economies, inflation picked up in the second quarte\n...[risk-bearing excerpt]...\nthe facility's design that would limit the Federal Reserve's role in financial intermediation and mitigate the risk that the facility might magnify strains in short-term funding markets during periods of financial stress. They discussed options to address these concerns, including methods for limiting the program's size. Many participants noted that further testing would provide additional information that could help determine\n...[document conclusion]...\n language that indicates how monetary policy will respond to incoming data. Moreover, he judged that the statement did not acknowledge the substantial progress that had been made toward the Committee's economic goals and thus risks unnecessary and disruptive volatility in financial markets, and perhaps in the economy, if the Committee reduces accommodation sooner or more quickly than financial markets anticipate. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, September 16-17, 2014. The meeting adjourned at 11:55 a.m. on July 30, 2014. Notation Vote By notation vote completed on July 8, 2014, the Committee unanimously approved the minutes of the Committee meeting held on June 17-18, 2014. _____________________________ William B. English Secretary 1. Attended the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 2. Attended the portion of the meeting following the joint session of the Federal Open Market Committee and the Board of Governors. Return to text 3. The staff's forecast for the July FOMC meeting was prepared prior to the July 30 release of the BEA's advance estimate of real GDP in the second quarter and revisions for earlier periods. Return to text",
+  "text_sha256": "b552c19de7540a6b2810307d7c4c8fcf189723192e62359308f973e49cfd3117"
+}

@@ -1,0 +1,67 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20070509",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0,
+      "inflation": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0,
+      "guidance": -0.6,
+      "inflation": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20070509.htm"
+    ],
+    "evidence": "Most participants continued to expect core inflation to slow gradually, although considerable uncertainty surrounded that judgment and the Committee's predominant concern remained the risk that inflation would fail to moderate as expected.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "although",
+      "canada",
+      "committee",
+      "concern",
+      "considerable",
+      "continued",
+      "core",
+      "disappointing",
+      "expect",
+      "expected",
+      "fail",
+      "fourth",
+      "from",
+      "gradually",
+      "growth",
+      "have",
+      "inflation",
+      "judgment",
+      "moderate",
+      "most",
+      "participants",
+      "predominant",
+      "quarter",
+      "rebounded",
+      "remained",
+      "risk",
+      "seemed",
+      "slow",
+      "surrounded",
+      "that",
+      "uncertainty",
+      "would"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2007.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2007-05-30",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "685124369c8cb67a124ff74b651615d07a28637dc20a14dd3e9bd64352d290ae",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20070509.htm",
+  "text": "Minutes of the Federal Open Market Committee May 9, 2007 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Wednesday, May 9, 2007 at 8:30 a.m. Present: Mr. Bernanke, Chairman Mr. Geithner, Vice Chairman Mr. Hoenig Mr. Kohn Mr. Kroszner Ms. Minehan Mr. Mishkin Mr. Moskow Mr. Poole Mr. Warsh Mr. Fisher, Ms. Pianalto, and Messrs. Plosser and Stern,\r\n       Alternate Members of the Federal Open Market Committee Messrs. Lacker and Lockhart, and Ms. Yellen, Presidents of the Federal\r\n\tReserve Banks of Richmond, Atlanta, and San Francisco, respectively Mr. Reinhart, Secretary and Economist Ms. Danker, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Skidmore, Assistant Secretary Mr. Alvarez, General Counsel Mr. Baxter, Deputy General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Messrs. Connors, Evans, Kamin, Madigan, Rasche, Slifman, Tracy, and Wilcox, Associate Economists Mr. Dudley, Manager, System Open Market Account Messrs. Clouse and English, Associate Directors, Division of Monetary\r\n       Affairs, Board of Governors Ms. Liang and Mr. Struckmeyer, Associate Directors, Division of Research \r\n\t\t         and Statistics, Board of Governors Messrs. Leahy and Wascher, Deputy Associate Directors, Divisions of\r\nInternational Finance and Research and Statistics, respectively Mr. Dale, Senior Adviser, Division of Monetary Affairs Mr. Blanchard, Assistant to the Board, Office of Board Members, Board \r\n\tof Governors Mr. Small, Project Manager, Division of Monetary Affairs, Board of\r\n   \tGovernors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, \r\n\tBoard of Governors Mr. Carlson, Economist, Division of Monetary Affairs, Board of Governors Ms. Low, Open Market Secretariat Specialist, Division of Monetary\r\n \t\tAffairs, Board of Governors Ms. Green, First Vice President, Federal Reserve Bank of Richmond Mr. Rosenblum, Executive Vice President, Federal Reserve Bank of\r\n\tDallas Mr. Hakkio, Ms. Perelmuter, Messrs. Rolnick, Rudebusch, Sniderman, and Weinberg, Senior Vice Presidents, Federal Reserve Banks of Kansas City, New York, Minneapolis, San Francisco, Cleveland, and Richmond, respectively Messrs. Dotsey, Tallman, and Tootell, Vice Presidents, Federal Reserve Banks of Philadelphia, Atlanta, and Boston, respectively The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting.  The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period since the previous meeting.  By unanimous vote, the Committee ratified these transactions. By unanimous vote, the Committee extended for one year beginning in mid-December 2007 the reciprocal currency (\"swap\") arrangements with the Bank of Canada and the Banco de Mexico.  The arrangement with the Bank of Canada is in the amount of $2 billion equivalent and that with the Banco de Mexico is in the amount of $3 billion equivalent.  Both arrangements are associated with the Federal Reserve's participation in the North American Framework Agreement of 1994.  The vote to renew the System's participation in the swap arrangements maturing in December was taken at this meeting because of the provision that each party must provide six months' prior notice of an intention to terminate its participation. The information reviewed at the May meeting s\n...[document excerpted]...\nained subdued.  Manufacturing production, however, showed signs of strengthening after a period of considerable softness.  Rising energy prices pushed up total PCE price inflation in March, while the twelve-month increase in core PCE prices was just slightly above its year-earlier pace. The average monthly increase in payroll employment through the first four months of this year was well below the relatively strong pace recorded in the fourth quarter of 2006.  In April, the construction industry\n...[risk-bearing excerpt]...\nsupplies, consumer goods, and services. Economic activity in advanced foreign economies appeared to have grown at a steady rate in the first part of the year.  Canada's growth seemed to have rebounded from a disappointing fourth quarter.  Renewed household demand in Japan pointed to further strong growth in the first quarter, while investment demand seemed to be underpinning growth in the United Kingdom.  Although euro-area exports had slowed from the rapid pace set in the fourth quarter and th\n...[risk-bearing excerpt]...\nbruary as a result of inventory-related adjustments in a number of industries.  However, factory production turned up in March.  The output of high-tech industries rose briskly; the production of consumer goods increased; and the output of business equipment, construction supplies, and materials picked up.  The limited information available on industrial production for April suggested that output had been boosted by the scheduled pickup in motor vehicle assemblies. Real consumer expenditures inc\n...[risk-bearing excerpt]...\nn pick up to a rate broadly in line with the economy's trend rate in 2008.  Most participants continued to expect core inflation to slow gradually, although considerable uncertainty surrounded that judgment and the Committee's predominant concern remained the risk that inflation would fail to moderate as expected. The incoming data on new home sales and inventories suggested that the ongoing adjustment in the housing market wou\n...[document conclusion]...\nn objectives, the Committee \r\n\tin the immediate future seeks conditions in reserve markets consistent \r\n\twith maintaining the federal funds rate at an average of around \r\n\t5-1/4 percent.\" The vote encompassed approval of the text below for inclusion in the statement to be released at 2:15 p.m.: \"In these circumstances, the Committee's predominant policy concern \r\n\tremains the risk that inflation will fail to moderate as expected.  Future \r\n\tpolicy adjustments will depend on the evolution of the outlook for both\r\n\tinflation and economic growth, as implied by incoming information.\" Votes for this action: Messrs. Bernanke, Geithner, Hoenig, Kohn, and Kroszner, \r\n\tMs. Minehan, Messrs. Mishkin, Moskow, Poole, and Warsh. Votes against this action: None. Meeting participants briefly discussed the next steps in their review of communication issues and agreed to consider them at the next FOMC meeting, confirmed for June 27-28, 2007. The meeting adjourned at 1:15 p.m. Notation Vote By notation vote completed on April 10, 2007, the Committee unanimously approved the minutes of the FOMC meeting held on March 20-21, 2007. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 30, 2007, 2:00 PM",
+  "text_sha256": "dab4c07d1079f86ad1ab29295f5948c452711da9617111e2cd4e7b522e4774bd"
+}

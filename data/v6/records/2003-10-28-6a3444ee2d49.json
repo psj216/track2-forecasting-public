@@ -1,0 +1,45 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20031028",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20031028/default.htm"
+    ],
+    "evidence": "The Committee judges that, on balance, the risk of inflation becoming undesirably low remains the predominant concern for the foreseeable future.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "balance",
+      "becoming",
+      "committee",
+      "concern",
+      "foreseeable",
+      "future",
+      "inflation",
+      "judges",
+      "predominant",
+      "remains",
+      "risk",
+      "that",
+      "undesirably"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-10-28",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "6a3444ee2d49dd89b974ba0b35397047e1fc5b2c07caa0817bb9740df84cc1c2",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/monetary/2003/20031028/default.htm",
+  "text": "Release Date: October 28, 2003 For immediate release The Federal Open Market Committee decided today to keep its target for the federal funds rate at 1 percent. The Committee continues to believe that an accommodative stance of monetary policy, coupled with robust underlying growth in productivity, is providing important ongoing support to economic activity.  The evidence accumulated over the intermeeting period confirms that spending is firming, and the labor market appears to be stabilizing.  Business pricing power and increases in core consumer prices remain muted. The Committee perceives that the upside and downside risks to the attainment of sustainable growth for the next few quarters are roughly equal.  In contrast, the probability, though minor, of an unwelcome fall in inflation exceeds that of a rise in inflation from its already low level.  The Committee judges that, on balance, the risk of inflation becoming undesirably low remains the predominant concern for the foreseeable future.  In these circumstances, the Committee believes that policy accommodation can be maintained for a considerable period. Voting for the FOMC monetary policy action were: Alan Greenspan, Chairman; Ben S. Bernanke; Susan S. Bies; J. Alfred Broaddus, Jr.; Roger W. Ferguson, Jr.; Edward M. Gramlich; Jack Guynn; Donald L. Kohn; Michael H. Moskow; Mark W. Olson; Robert T. Parry; and Jamie B. Stewart, Jr. 2003 Monetary policy Home | News and \r\nevents Accessibility Last update: October 28, 2003",
+  "text_sha256": "ba7d19cb4f5da42c6da10cc4d3dec63928f0d6c2edd118f87c0e1d96652a1772"
+}

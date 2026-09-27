@@ -1,0 +1,56 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19950822",
+  "fingerprint": {
+    "axes": {
+      "growth": -1.0,
+      "guidance": -1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -0.4,
+      "guidance": -1.0,
+      "inflation": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/MINUTES/1995/19950822min.htm"
+    ],
+    "evidence": "This configuration suggested that the risks of recession or an extended period of subpar growth were now reduced, and sustained expansion at a moderate pace was seen as the most likely course for the economy.",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "configuration",
+      "course",
+      "economy",
+      "expansion",
+      "extended",
+      "growth",
+      "likely",
+      "moderate",
+      "most",
+      "pace",
+      "period",
+      "recession",
+      "reduced",
+      "risks",
+      "seen",
+      "subpar",
+      "suggested",
+      "sustained",
+      "that",
+      "this",
+      "were"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1995.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1995-09-29",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "802f49460194d64fb6b4cd7c5dd4698ca49f7ce42aa47e3ff85fb9f74558f532",
+  "source_url": "https://www.federalreserve.gov/fomc/MINUTES/1995/19950822min.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of August 22, 1995 A meeting of the Federal Open Market Committee was held in \r\n    the offices of the Board of Governors of the Federal Reserve System in \r\n    Washington, D.C., on Tuesday, August 22, 1995, at 9:00 a.m. PRESENT : Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Blinder Mr. Hoenig Mr. Kelley Mr. Lindsey Mr. Melzer Ms. Minehan Mr. Moskow Ms. Phillips Ms. Yellen Messrs. Boehne, Jordan, McTeer, and Stern, Alternate Members of the Federal Open Market Committee Messrs. Broaddus, Forrestal, and Parry, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Ms. Brown, Messrs. Davis, Dewald, Hunter, Lindsey, Mishkin, Promisel, Siegman, Slifman, and Stockton, Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Madigan, Associate Director, Division of Monetary Affairs, Board of Governors Mr. Simpson, Associate Director, Division of Research and Statistics, Board of Governors Ms. Johnson, Assistant Director, Division of International Finance, Board of Governors Mr. Ramm, 1 Section Chief, Division of Research and Statistics, Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, Board of Governors Ms. Strand, First Vice President, Federal Reserve Bank of Minneapolis Messrs. Beebe, Goodfriend, Rolnick, Rosenblum, Sniderman, Mses. Tschinkel and White, Senior Vice Presidents, Federal Reserve Banks of San Francisco, Richmond, Minneapolis, Dallas, Cleveland, Atlanta, and New York respectively Mr. Meyer, Vice President, Federal Reserve Bank of Philadelphia 1. Attended portion of meeting relating to the Committee's economic \r\n  discussion. By unanimous vote, the minutes of the meeting of the Federal \r\n    Open Market Committee held on July 5-6, 1995, were approved. The Manager of the System Open Market Account reported on \r\n    developments in foreign exchange markets and on System foreign \r\n    currency transactions during the period July 6, 1995, through August \r\n    21, 1995. By unanimous vote, the Committee ratified these \r\n    transactions. The Manager also reported on developments in domestic \r\n    financial markets and on System open market transactions in government \r\n    securities and federal agency obligations during the period July 6, \r\n    1995, through August 21, 1995. By unanimous vote, the Committee \r\n    ratified these transactions. The Committee then turned to a discussion of the economic and \r\n    financial outlook and the implementation of monetary policy over the \r\n    intermeeting period ahead. A summary of the economic and financial \r\n    information available at the time of the meeting and of the \r\n    Committee's discussion is provided below, followed by the domestic \r\n    policy directive that was approved by the Committee and issued to the \r\n    Federal Reserve Bank of New York. The information reviewed at this meeting suggested that \r\n    economic activity was expanding more rapidly after increasing at a \r\n    sluggish pace in the second quarter. Consumer spending appeared to be \r\n    growing at a moderate rate, housing demand seemed to be rebounding \r\n    sharply, and business investment remained on a solid uptrend. With \r\n    efforts to adjust inventories still under way, industrial production \r\n    had changed little in recent months, and employment gains had been \r\n    modest. After increasing at elev\n...[document excerpted]...\nod, non-energy items were somewhat smaller \r\n    than those seen earlier in the year. Over the twelve-month period \r\n    ended in July, however, this measure of consumer inflation rose at \r\n    about the same rate as in the preceding twelve months. Producer \r\n    prices of finished goods edged lower on balance in June and July, \r\n    reflecting substantial declines in prices of finished energy goods. \r\n    Excluding food and energy, producer prices rose by more over the year \r\n    ended in July\n...[risk-bearing excerpt]...\npart of the \r\n    year, consumer and producer prices had risen more slowly in recent \r\n    months. Advances in labor compensation costs remained subdued. Nonfarm payroll employment rose further in July after a \r\n    modest second-quarter gain; the July advance was held down by \r\n    continuing employment losses in manufacturing that were widespread by \r\n    industry. Outside of manufacturing, payrolls continued to increase at \r\n    a relatively slow pace in July; reduced job growth in the servic\n...[risk-bearing excerpt]...\nin overall business activity, \r\n    despite a more rapid adjustment in inventory investment than many had \r\n    expected. This configuration suggested that the risks of recession or \r\n    an extended period of subpar growth were now reduced, and sustained \r\n    expansion at a moderate pace was seen as the most likely course for \r\n    the economy. Although the risks to the economy now seemed to be more \r\n    evenly balanced than at the time of the July meeting, they were still \r\n    sizable in b\n...[risk-bearing excerpt]...\nexpansion in such investment. Export growth would pick up \r\n    in response to some expected strengthening in the economies of major \r\n    trading partners. Considerable uncertainty surrounded the fiscal \r\n    outlook, but the staff continued to anticipate the greater degree of \r\n    fiscal restraint that had been projected at the time of the last \r\n    Committee meeting. In the staff's judgment, the prospects for some \r\n    fur\n...[document conclusion]...\nard price level stability, \r\n      movements in their velocities, and developments in the \r\n      economy and financial markets. In the implementation of policy for the immediate \r\n      future, the Committee seeks to maintain the existing \r\n      degree of pressure on reserve positions. In the \r\n      context of the Committee's long-run objectives for \r\n      price stability and sustainable economic growth, and \r\n      giving careful consideration to economic, financial, \r\n      and monetary developments, slightly greater reserve \r\n      restraint or slightly lesser reserve restraint would be \r\n      acceptable in the intermeeting period. The \r\n      contemplated reserve conditions are expected to be \r\n      consistent with more moderate growth in M2 and M3 over \r\n      coming months. Votes for this action: Messrs. Greenspan, \r\n      McDonough, Blinder, Hoenig, Kelley, Lindsey, \r\n      Melzer, Ms. Minehan, Mr. Moskow, Mses. Phillips \r\n      and Yellen. Votes against this action: None. It was agreed that the next meeting of the Committee would be \r\n    held on Tuesday, September 26, 1995. The meeting adjourned at 12:25 p.m. Donald L. Kohn Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: May 4, 2007",
+  "text_sha256": "b3b2fa2a89c7f80d1651c832eb28d7710f77cabd6f2ac65bec9534fd63878081"
+}

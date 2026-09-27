@@ -1,0 +1,60 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19990824",
+  "fingerprint": {
+    "axes": {
+      "guidance": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 0.8,
+      "guidance": 0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19990824.htm"
+    ],
+    "evidence": "Because there was substantial uncertainty relating to the extent and timing of prospective inflationary pressures and thus the possibility that further firming of policy might not be needed in the very near term, the directive did not contain any bias relating to the direction of possible adjustment",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "adjustment",
+      "because",
+      "bias",
+      "contain",
+      "direction",
+      "directive",
+      "extent",
+      "firming",
+      "further",
+      "inflationary",
+      "might",
+      "near",
+      "needed",
+      "policy",
+      "possibility",
+      "possible",
+      "pressures",
+      "prospective",
+      "relating",
+      "substantial",
+      "term",
+      "that",
+      "there",
+      "thus",
+      "timing",
+      "uncertainty",
+      "very"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1999.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1999-10-07",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "009a9c973354b6aa3025b855c3044ed90fa1fc428f0f0bbaa7fce88d3b06a1bf",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19990824.htm",
+  "text": "Minutes of the Federal Open Market Committee August 24, 1999 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, August 24, 1999, \r\nat 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Boehne Mr. Ferguson Mr. Gramlich Mr. Kelley Mr. McTeer Mr. Meyer Mr. Moskow Mr. Stern Messrs. Broaddus, Guynn, Jordan, and Parry, Alternate Members of the Federal Open Market Committee Mr. Hoenig, Ms. Minehan, and Mr. Poole, Presidents of the Federal Reserve Banks of Kansas City, Boston, and St. Louis respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Ms. Johnson, Economist Messrs. Howard, Hunter, Lang, Lindsey, Slifman, and Stockton, \r\nAssociate Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Madigan and Simpson, Associate Directors, Divisions of\r\n                                         Monetary Affairs and Research and Statistics respectively,\r\n                                         Board of Governors Mr. Whitesell, Assistant Director, Division of Monetary Affairs, \r\n                                        Board of Governors Ms. Edwards, 1 Senior Economist, Division of Monetary Affairs,  \r\n\t    Board of Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary\r\n                                        Affairs, Board of Governors Mr. Stewart and Ms. Strand, First Vice Presidents, Federal Reserve Banks\r\nof New York and Minneapolis respectively Mr. Beebe, Ms. Browne, Messrs. Eisenbeis, Hakkio, Ms. Krieger, Messrs.         Lacker, Rasche, and Steindel, Senior Vice Presidents, Federal Reserve Banks of San Francisco, Boston, Atlanta,  Kansas City, New York, Richmond, St. Louis, and New York respectively Mr. Weber, Senior Research Officer, Federal Reserve Bank of Minneapolis Mr. Bryan, Assistant Vice President, Federal Reserve Bank of Cleveland Mr. Viard, Senior Economist, Federal Reserve Bank of Dallas By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on June 29-30, 1999, were approved. By unanimous vote, Christine Cumming and David Howard were elected to serve as associate economists until the first meeting of the Committee after December 31, 1999, with the understanding that in the event of the discontinuance of their official connection with a Federal Reserve Bank or with the Board of Governors, they would cease to have any official connection with the Committee. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting, and thus no vote was required of the Committee. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and federal agency obligations during the period June 30, 1999, through August 23, 1999.  By unanimous vote, the Committee ratified these transactions. At this meeting, the Committee considered a number of proposals whose purpose was to enhance the Manager's ability to counter potential liquidity strains in money and financing markets in the period surrounding the century date change and in the process help to assure the effective implementation of the Committee's m\n...[document excerpted]...\nindustrial production appeared to be picking up. Labor markets remained very tight, and recent wage and price increases had been a little larger on balance, though price inflation continued subdued. Nonfarm payroll employment increased sharply in June and July. Job growth in the service-producing industries soared in both months, and construction employment remained on an upward trend. In manufacturing, the number of jobs turned up in July. The civilian unemployment rate was 4.3 percent in July,\n...[risk-bearing excerpt]...\nonetary policy objectives.  The members believed that the prospects for major liquidity problems associated with the century date change were remote, but some strains were already in evidence, and they agreed that it would be prudent to provide the Manager with added leeway and flexibility for a limited period. Because the plans of market participants were likely to be influenced by the Federal Reserve's\n...[risk-bearing excerpt]...\ncounterparties in the System's open market operations.  The details of these transactions would be worked out during the weeks ahead. Members agreed that there was some risk of unintended consequences in implementing these untried transactions. Nonetheless, the costs stemming from a dysfunctional financing market at year-end, in the unlikely event that it materializes, were immeasurably greater.  The members did not question the desirability of addressing the latter risks and providing greater\n...[risk-bearing excerpt]...\nvery tight labor markets and at some point lead to a pickup in inflation that could threaten the sustainability of the economy's expansion. Because there was substantial uncertainty relating to the extent and timing of prospective inflationary pressures and thus the possibility that further firming of policy might not be needed in the very near term, the directive did not contain any bias relating to the direction of possible adjustments to policy in the intermeeting period. Open market operatiosible adjustments to poli\n...[document conclusion]...\nrs also had expressed some discomfort with the way these announcements had been interpreted. While the Committee did not contemplate retreating from its policy of immediate announcements, it might want to examine whether some adjustment in its procedures would be helpful. The Chairman did not feel that the Committee was prepared to come to a decision on these issues before more experience was gained with the current announcement approach, but he believed it was advisable to form a subcommittee at this time to study the various questions that were involved. He anticipated that the subcommittee would come back to the Committee no later than next spring with recommendations or at least some alternatives for Committee consideration. He asked Mr. Ferguson to serve as its chairman and to select other members after consultation with his colleagues on the Committee. It was agreed that the next meeting of the Committee would be held on Tuesday, \r\nOctober 5, 1999. The meeting adjourned at 1:40 p.m. Donald L. Kohn Secretary Return to top Footnotes 1 Attended portion of meeting relating to issues pertaining to year-end operations. Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: October 7, 1999, 2:00 PM",
+  "text_sha256": "c378810967b3f84e506cc559f673fe6212f5fdd0da3d88f6b0081477fb49122e"
+}

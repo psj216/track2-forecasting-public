@@ -1,0 +1,46 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20230503",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230503.htm"
+    ],
+    "evidence": "Consumer price inflation—as measured by the 12‑month percent change in the price index for personal consumption expenditures (PCE)—continued to be elevated in March.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "change",
+      "consumer",
+      "consumption",
+      "continued",
+      "elevated",
+      "expenditures",
+      "index",
+      "inflation",
+      "march",
+      "measured",
+      "month",
+      "percent",
+      "personal",
+      "price"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2023-05-24",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "11823eb7835bb262816aab2c74f5f5a68cffc31570e5cc87502f8b521b7d005c",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230503.htm",
+  "text": "Minutes of the Federal Open Market Committee May 2-3, 2023 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, May 2, 2023, at 10:00 a.m. and continued on Wednesday, May 3, 2023, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lisa D. Cook Austan D. Goolsbee Patrick Harker Philip N. Jefferson Neel Kashkari Lorie K. Logan Christopher J. Waller Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, Loretta J. Mester, and Sushmita Shukla, Alternate Members of the Committee James Bullard and Susan M. Collins, Presidents of the Federal Reserve Banks of St. Louis and Boston, respectively Kelly J. Dubbert, Interim President of the Federal Reserve Bank of Kansas City Joshua Gallin, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Richard Ostrander, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, James A. Clouse, Anna Paulson, Andrea Raffo, Chiara Scotti, and William Wascher, Associate Economists Roberto Perli, Manager, System Open Market Account Julie Ann Remache, Deputy Manager, System Open Market Account Stephanie R. Aaronson, 2 Senior Associate Director, Division of Research and Statistics, Board Jose Acosta, Senior Communications Analyst, Division of Information Technology, Board Andre Anderson, First Vice President, Federal Reserve Bank of Atlanta Kartik B. Athreya, Executive Vice President, Federal Reserve Bank of Richmond Penelope A. Beattie, 2 Section Chief, Office of the Secretary, Board Daniel O. Beltran, Deputy Associate Director, Division of International Finance, Board Carol C. Bertaut, Senior Adviser, Division of International Finance, Board Mark A. Carlson, 2 Adviser, Division of Monetary Affairs, Board Michele Cavallo, Principal Economist, Division of Monetary Affairs, Board Juan C. Climent, Special Adviser to the Board, Division of Board Members, Board Stephanie E. Curcuru, Deputy Director, Division of International Finance, Board Ahmet Degerli, Economist, Division of Monetary Affairs, Board John C. Driscoll, 2 Principal Economist, Division of Research and Statistics, Board Wendy E. Dunn, 2 Adviser, Division of Research and Statistics, Board Burcu Duygan-Bump, Associate Director, Division of Research and Statistics, Board Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Matthew J. Eichner, 3 Director, Division of Reserve Bank Operations and Payment Systems, Board Eric C. Engstrom, Associate Director, Division of Monetary Affairs, Board Jon Faust, Senior Special Adviser to the Chair, Division of Board Members, Board Giovanni Favara, Assistant Director, Division of Monetary Affairs, Board Glenn Follette, Associate Director, Division of Research and Statistics, Board Jennifer Gallagher, Assistant to the Board, Division of Board Members, Board Peter M. Garavuso, Senior Information Manager, Division of Monetary Affairs, Board Carlos Garriga, Senior Vice President, Federal Reserve Bank of St. Louis Michael S. Gibson, Director, Division of Supervision and Regulation, Board Christine Graham, 2 Special Adviser to the Board, Division of Board Members, Board Joseph W. Gruber, Executive Vice President, Federal Reserve Bank of Kansas City Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Ghada M. Ijam,\n...[document excerpted]...\nt investors' macroeconomic outlooks were little changed from March despite ongoing focus on the implications of the expected tightening of credit. Respondents saw upside inflation risks, albeit less than in March. Market participants broadly expected a 25 basis point rate increase at the May meeting and saw the resulting rate as the likely peak for the current tightening cycle. Survey respondents assigned a much higher probability to the peak federal funds rate being between 5 and 5.25 percent t\n...[risk-bearing excerpt]...\nreal gross domestic product (GDP) had expanded at a modest pace in the first quarter. Labor market conditions remained tight in March, as job gains were robust and the unemployment rate was low. Consumer price inflation—as measured by the 12‑month percent change in the price index for personal consumption expenditures (PCE)—continued to be elevated in March. Limited data were available on economic activity during the period after the onset of banking-sector stress in mid-March, al­though several\n...[risk-bearing excerpt]...\nopenings rate—as measured by the Job Openings and Labor Turnover Survey—moved down markedly during February and March but remained high. Recent measures of nominal wage growth continued to ease from their peaks recorded last year but were still elevated. Over the 12 months ending in March, average hourly earnings for all employees rose 4.2 percent, well below its peak of 5.9 percent a year earlier. Over the year ending in March, the employment cost index (ECI) for private-sector workers increas\n...[risk-bearing excerpt]...\n, banks of all sizes appeared strong, with substantial loss-absorbing capacity as measured by regulatory capital ratios well above levels that prevailed before the Great Recession. However, the ratio of tangible common equity to total tangible assets at banks—excluding global systemically important banks—had fallen sharply in recent quarters, partly because of a substantial drop in the value of securities held in their portfoli\n...[document conclusion]...\n the minutes of the Committee meeting held on March 21–22, 2023. _______________________ Joshua Gallin Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended Tuesday's session only. Return to text 3. Attended through the discussion of developments in financial markets and open market operations. Return to text 4. In taking this action, the Board approved requests to establish that rate submitted by the Boards of Directors of the Federal Reserve Banks of Boston, Philadelphia, Cleveland, Richmond, Atlanta, Chicago, St. Louis, Minneapolis, Kansas City, Dallas, and San Francisco. The vote also encompassed approval by the Board of Governors of the establishment of a 5.25 percent primary credit rate by the remaining Federal Reserve Bank, effective on the later of May 4, 2023, or the date such Reserve Bank informs the Secretary of the Board of such a request. (Secretary's note: Subsequently, the Federal Reserve Bank of New York was informed of the Board's approval of their establishment of a primary credit rate of 5.25 percent, effective May 4, 2023.) Return to text",
+  "text_sha256": "0890d1826e05ccc930c601acce901ca193e9b5214819b6d859aa5f94c213bf96"
+}

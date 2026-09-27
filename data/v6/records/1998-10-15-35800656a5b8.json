@@ -1,0 +1,66 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:19981015",
+  "fingerprint": {
+    "axes": {
+      "guidance": -1.0,
+      "liquidity": 0.6
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "guidance": -1.0,
+      "inflation": 1.0,
+      "liquidity": 0.6,
+      "policy": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/1998/19981015/"
+    ],
+    "evidence": "Against this backdrop, further easing of the stance of monetary policy was judged to be warranted to sustain economic growth in the context of contained inflation.",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "against",
+      "aggregate",
+      "backdrop",
+      "caution",
+      "conditions",
+      "contained",
+      "context",
+      "demand",
+      "easing",
+      "economic",
+      "financial",
+      "further",
+      "future",
+      "generally",
+      "growing",
+      "growth",
+      "inflation",
+      "judged",
+      "lenders",
+      "likely",
+      "markets",
+      "monetary",
+      "more",
+      "policy",
+      "restraining",
+      "stance",
+      "sustain",
+      "this",
+      "unsettled",
+      "warranted"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1998.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1998-10-15",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "35800656a5b86ac307d03e23916272a66d8311be0f69cf23c69ad41cb5c990da",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/1998/19981015/",
+  "text": "Release Date: October 15, 1998 For immediate release The Federal Reserve today announced the following set of policy actions: The Board of Governors approved a reduction in the discount rate by 25 basis points from 5 percent to 4-3/4 percent. The federal funds rate is expected to fall 25 basis points from around 5-1/4 percent to around 5 percent. Growing caution by lenders and unsettled conditions in financial markets more generally are likely to be restraining aggregate demand in the future.  Against this backdrop, further easing of the stance of monetary policy was judged to be warranted to sustain economic growth in the context of contained inflation. In taking the discount rate action, the Board approved requests submitted by the Boards of Directors of the Federal  Reserve Banks of New York, Philadelphia, Atlanta, Chicago, \r\nSt. Louis, Minneapolis, Kansas City, and San Francisco.  The discount rate is the interest rate that is charged depository institutions when they borrow from their district Federal Reserve Banks. 1998 Monetary policy Home | News and events Accessibility Last update: October 15, 1998, 3:15 PM",
+  "text_sha256": "7105cd4eea452e196d2d32eb80bb4a159a8f6c4e1dc7ff127002a7fb9c40aba0"
+}

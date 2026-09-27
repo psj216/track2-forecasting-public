@@ -1,0 +1,71 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:19960521",
+  "fingerprint": {
+    "axes": {
+      "growth": 1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 2.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/19960521.htm"
+    ],
+    "evidence": "The information reviewed at this meeting suggested that economic activity had expanded moderately on balance in recent months.",
+    "issuer": "FED",
+    "major": "growth",
+    "region": "US",
+    "tokens": [
+      "activity",
+      "advances",
+      "after",
+      "april",
+      "balance",
+      "comparable",
+      "consumer",
+      "earlier",
+      "economic",
+      "ended",
+      "expanded",
+      "faster",
+      "however",
+      "increased",
+      "inflation",
+      "information",
+      "less",
+      "little",
+      "measure",
+      "meeting",
+      "moderately",
+      "months",
+      "only",
+      "over",
+      "period",
+      "prices",
+      "recent",
+      "reviewed",
+      "rise",
+      "rose",
+      "slightly",
+      "somewhat",
+      "suggested",
+      "than",
+      "that",
+      "this",
+      "three",
+      "twelve",
+      "year"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical1996.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "1996-07-05",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "06a085308a455f37a26e44f05aae60f64a21f653902e9d3d07d027447899e075",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/19960521.htm",
+  "text": "Minutes of the Federal Open Market Committee Meeting of May 21, 1996 A meeting of the Federal Open Market Committee was held in\r\nthe offices of the Board of Governors of the Federal Reserve System in\r\nWashington, D.C., on Tuesday, May 21, 1996, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Boehne Mr. Jordan Mr. Kelley Mr. Lindsey Mr. McTeer Ms. Phillips Mr. Stern Ms. Yellen Messrs. Broaddus, Guynn, Moskow, and Parry, Alternate Members of\r\nthe Federal Open Market Committee Messrs. Hoenig, Melzer, and Ms. Minehan,\r\nPresidents of the Federal Reserve Banks of Kansas City,\r\nSt. Louis, and Boston respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Mr. Coyne, Assistant Secretary Mr. Gillum, Assistant Secretary Mr. Mattingly, General Counsel Mr. Baxter, Deputy General Counsel Mr. Prell, Economist Mr. Truman, Economist Messrs. Lang, Lindsey, Mishkin, Promisel, Rolnick,\r\n                       Rosenblum, Siegman, Simpson, and Stockton,\r\n                       Associate Economists Mr. Fisher, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research\r\n                       and Statistics, Board of Governors Mr. Slifman, Associate Director, Division of\r\n                       Research and Statistics, Board of Governors Mr. Madigan, Associate Director, Division of\r\n                       Monetary Affairs Ms. Low, Open Market Secretariat Assistant,\r\n                       Division of Monetary Affairs, Board of\r\n                       Governors Mr. Rives, First Vice President, Federal Reserve\r\n                       Bank of St. Louis Mr. Beebe, Ms. Browne, Messrs. Davis, Dewald,\r\n                       Eisenbeis, Goodfriend, and Hunter, Senior Vice\r\n                       Presidents, Federal Reserve Banks of San\r\n                       Francisco, Boston, Kansas City, St. Louis,\r\n                       Atlanta, Richmond, and Chicago respectively Mr. Altig, Mses. Chen and Rosenbaum, Vice\r\n                       Presidents, Federal Reserve Banks of Cleveland,\r\n                       New York, and Atlanta respectively By unanimous vote, the minutes of the meeting of the Federal\r\nOpen Market Committee held on March 26, 1996, were approved. The Manager of the System Open Market Account reported on\r\ndevelopments in foreign exchange markets during the period March 26\r\nthrough May 20, 1996.  There were no open market transactions in\r\nforeign currencies for System account during this period, and thus no\r\nvote was required of the Committee. The Manager also reported on developments in domestic\r\nfinancial markets and on System open market transactions in government\r\nsecurities and federal agency obligations during the period March 26\r\nthrough May 20, 1996.  By unanimous vote, the Committee ratified these\r\ntransactions. The Committee then turned to a discussion of the economic and\r\nfinancial outlook and the implementation of monetary policy over the\r\nintermeeting period ahead.  A summary of the economic and financial\r\ninformation available at the time of the meeting and of the\r\nCommittee's discussion is provided below, followed by the domestic\r\npolicy directive that was approved by the Committee and issued to the\r\nFederal Reserve Bank of New York. The information reviewed at this meeting suggested that\r\neconomic activity had expanded moderately on balance in recent months.\r\nFinal demand, which had been quite robust early in the year, was\r\nshowing some signs of slowing in recent data.  Consumer spending\r\nappeared to be growing at a moderate pace; business expenditures on\r\ndurable equipment had registered further large \n...[document excerpted]...\n, however, consumer\r\nprices rose only slightly in April after three months of somewhat\r\nfaster advances; over the twelve months ended in April, this measure\r\nof consumer inflation increased a little less than the rise over the\r\ncomparable year-earlier period.  At the producer level, prices of\r\nfinished goods other than food and energy items recorded a third\r\nstraight small increase in April.  Over the twelve months ended in\r\nApril, this measure of producer prices rose slightly less than over\r\nth\n...[risk-bearing excerpt]...\nerest rates this year.\r\nBusiness inventories, most notably in the automotive industry, had\r\nbeen brought into better alignment with sales, and industrial\r\nproduction and employment had risen appreciably.  Upward pressures on\r\nfood and energy prices accounted for somewhat larger increases in\r\nconsumer prices. Nonfarm payroll employment was essentially unchanged in April\r\nafter rising substantially in the first quarter; part of the slowdown\r\nresulted from an unwinding of special factors that had b\n...[risk-bearing excerpt]...\nn in February having had little\r\nperceptible effect to date.  Single-family housing starts were up\r\nconsiderably in April, and sales of new and existing homes remained\r\nbrisk in March (latest data available). Business fixed investment accelerated sharply in the first\r\nquarter of 1996 following three quarters of relatively moderate\r\nexpansion; however, recent data on orders and contracts pointed, on\r\nbalance, to some deceleration in business spending on both durable\r\nequipment and nonresidential\n...[risk-bearing excerpt]...\nwould not be boosting real\r\nGDP. The outlook for inflation was of key importance to the\r\nformulation of monetary policy at this time, but it was clouded by\r\nsubstantial uncertainty.  One source of uncertainty was the behavior\r\nof food and energy prices.  Increases in these prices largely\r\naccounted for the more rapid rise in consumer prices thus far this\r\nyear, and they likely would continue to add to inflation in the months\r\na\n...[document conclusion]...\nin the light of progress toward price level\r\n    stability, movements in their velocities, and\r\n    developments in the economy and financial markets. In the implementation of policy for the immediate\r\n    future, the Committee seeks to maintain the existing\r\n    degree of pressure on reserve positions.  In the context\r\n    of the Committee's long-run objectives for price\r\n    stability and sustainable economic growth, and giving\r\n    careful consideration to economic, financial, and\r\n    monetary developments, slightly greater reserve restraint\r\n    or slightly lesser reserve restraint would be acceptable\r\n    in the intermeeting period.  The contemplated reserve\r\n    conditions are expected to be consistent with moderate\r\n    growth in M2 and M3 over coming months. Votes for this action: Messrs. Greenspan,\r\n    \tMcDonough, Boehne, Jordan, Kelley, Lindsey, McTeer,\r\n    \tMs. Phillips, Mr. Stern, and Ms. Yellen. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, July 2-3, 1996. The meeting adjourned at 1:15 p.m. Donald L. Kohn Secretary [Return to top] Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: July 16, 1996 12:00 PM",
+  "text_sha256": "7264aaa0f3cad8d8c967f54ffc7858f006607b2735bc8a9d2e42b95193943722"
+}

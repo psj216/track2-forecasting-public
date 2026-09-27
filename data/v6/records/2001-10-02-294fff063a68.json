@@ -1,0 +1,49 @@
+{
+  "doc_type": "fomc_statement",
+  "episode_id": "FED:20011002",
+  "fingerprint": {
+    "axes": {
+      "policy": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/boarddocs/press/general/2001/20011002/"
+    ],
+    "evidence": "Release Date: October 2, 2001 For immediate release The Federal Open Market Committee decided today to lower its target for the federal funds rate by 50 basis points to 2-1/2 percent.",
+    "issuer": "FED",
+    "major": "policy",
+    "region": "US",
+    "tokens": [
+      "basis",
+      "committee",
+      "date",
+      "decided",
+      "federal",
+      "funds",
+      "immediate",
+      "lower",
+      "market",
+      "october",
+      "open",
+      "percent",
+      "points",
+      "rate",
+      "release",
+      "target",
+      "today"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-10-02",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "294fff063a68523633829225f39ee85c8a7015741a6f156d0fded3352634d4ff",
+  "source_url": "https://www.federalreserve.gov/boarddocs/press/general/2001/20011002/",
+  "text": "Release Date: October 2, 2001 For immediate release The Federal Open Market Committee decided today to lower its target for the federal funds rate by 50 basis points to 2-1/2 percent. In a related action, the Board of Governors approved a 50 basis point reduction in the discount rate to 2 percent. The terrorist attacks have significantly heightened uncertainty in an economy that was already weak.  Business and household spending as a consequence are being further damped.  Nonetheless, the long-term prospects for productivity growth and the economy remain favorable and should become evident once the unusual forces restraining demand abate. The Committee continues to believe that, against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the risks are weighted mainly toward conditions that may generate economic weakness in the foreseeable future. In taking the discount rate action, the Federal Reserve Board approved requests \r\n        submitted by the Boards of Directors of the Federal Reserve Banks of Boston, \r\n        New York, Cleveland, Richmond, Atlanta, St. Louis, Kansas City and San \r\n        Francisco. 2001 Monetary policy Home | News and events Accessibility Last update: October 2, 2001",
+  "text_sha256": "8d44e57539ea0ffe8fffb7e895aa69bdd1fa3cf7baaf6c4ae2b3b37df64e3a6b"
+}

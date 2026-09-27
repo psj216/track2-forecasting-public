@@ -1,0 +1,44 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20140430",
+  "fingerprint": {
+    "axes": {
+      "inflation": -1.0
+    },
+    "confidence": 0.55,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": -1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140430.htm"
+    ],
+    "evidence": "Consumer price inflation continued to run below the Committee's longer-run objective, but measures of longer-run inflation expectations remained stable.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "below",
+      "committee",
+      "consumer",
+      "continued",
+      "expectations",
+      "inflation",
+      "longer",
+      "measures",
+      "objective",
+      "price",
+      "remained",
+      "stable"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2014.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2014-05-21",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "d8a92c82404e03550861005811ba43cfd2fd2aba7c9e12194bf5b4f35467da4c",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20140430.htm",
+  "text": "Minutes of the Federal Open Market Committee April 29-30, 2014 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, April 29, 2014, at 10:30 a.m. and continued on Wednesday, April 30, 2014, at 9:00 a.m. PRESENT: Janet L. Yellen, Chair William C. Dudley, Vice Chairman Richard W. Fisher Narayana Kocherlakota Sandra Pianalto Charles I. Plosser Jerome H. Powell Jeremy C. Stein Daniel K. Tarullo Charles L. Evans, Jeffrey M. Lacker, Dennis P. Lockhart, and John C. Williams, Alternate Members of the Federal Open Market Committee James Bullard, Esther L. George, and Eric Rosengren, Presidents of the Federal Reserve Banks of St. Louis, Kansas City, and Boston, respectively William B. English, Secretary and Economist Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Scott G. Alvarez, General Counsel Steven B. Kamin, Economist David W. Wilcox, Economist James A. Clouse, Thomas A. Connors, 1 Evan F. Koenig, Thomas Laubach, Michael P. Leahy, Loretta J. Mester, Samuel Schulhofer-Wohl, Mark E. Schweitzer, and William Wascher, Associate Economists Simon Potter, Manager, System Open Market Account Lorie K. Logan, Deputy Manager, System Open Market Account Robert deV. Frierson, 2 Secretary of the Board, Office of the Secretary, Board of Governors Michael S. Gibson, Director, Division of Banking Supervision and Regulation, Board of Governors Nellie Liang, Director, Office of Financial Stability Policy and Research, Board of Governors Matthew J. Eichner, Deputy Director, Division of Research and Statistics, Board of Governors; Stephen A. Meyer and William Nelson, Deputy Directors, Division of Monetary Affairs, Board of Governors Jon W. Faust, Special Adviser to the Board, Office of Board Members, Board of Governors Trevor A. Reeve, Special Adviser to the Chair, Office of Board Members, Board of Governors Linda Robertson, 3 Assistant to the Board, Office of Board Members, Board of Governors Ellen E. Meade and Joyce K. Zickler, Senior Advisers, Division of Monetary Affairs, Board of Governors David Bowman 4 and Beth Anne Wilson, Associate Directors, Division of International Finance, Board of Governors; Daniel M. Covitz, David E. Lebow, and Michael G. Palumbo, Associate Directors, Division of Research and Statistics, Board of Governors; Fabio M. Natalucci 2 and Gretchen C. Weinbach, 2 Associate Directors, Division of Monetary Affairs, Board of Governors Marnie Gillis DeBoer 2 and Jane E. Ihrig, 2 Deputy Associate Directors, Division of Monetary Affairs, Board of Governors Brian J. Gross, 1 Special Assistant to the Board, Office of Board Members, Board of Governors Stacey Tevlin, Assistant Director, Division of Research and Statistics, Board of Governors Robert J. Tetlow, Adviser, Division of Monetary Affairs, Board of Governors Dana L. Burnett, Section Chief, Division of Monetary Affairs, Board of Governors Patrick McCabe, 2 Senior Economist, Division of Research and Statistics, Board of Governors Penelope A. Beattie, 2 Assistant to the Secretary, Office of the Secretary, Board of Governors Randall A. Williams, Records Project Manager, Division of Monetary Affairs, Board of Governors James M. Lyon, First Vice President, Federal Reserve Bank of Minneapolis David Altig, James J. McAndrews, and Alberto G. Musalem, Executive Vice Presidents, Federal Reserve Banks of Atlanta, New York, and New York, respectively Joshua L. Frost and Spencer Krane, Senior Vice Presidents, Federal Reserve Banks of New York and Chicago, respectively George A. Kahn, Antoine Martin, Joe Peek, \n...[document excerpted]...\nof those effects later in the quarter. In March, payroll employment increased further, although the unemployment rate held steady and was still elevated. Consumer price inflation continued to run below the Committee's longer-run objective, but measures of longer-run inflation expectations remained stable. The unemployment rate stayed at 6.7 percent in March, but both the labor force participation rate and the employment-to-population ratio increased slightly. The rate of long-duration unemploym\n...[risk-bearing excerpt]...\nReserve's participation in the North American Framework Agreement of 1994. In addition, by unanimous vote, the Committee agreed to renew the dollar and foreign currency liquidity swap arrangements with the Bank of Canada, the Bank of England, the Bank of Japan, the European Central Bank, and the Swiss National Bank. The votes to renew the Federal Reserve's participation in these arrangements were taken at this meeting because provisions in the arrangements specify that the Federal Reserve provi\n...[risk-bearing excerpt]...\nrun economic conditions. Measures of longer-horizon inflation compensation based on Treasury Inflation-Protected Securities were little changed. Conditions in short-term funding markets remained fairly stable over the intermeeting period. Take-up in the Federal Reserve's fixed-rate ON RRP exercise continued to be sensitive to the spread between market rates and the rate offered in the exercise, with higher take-up occurring on days when the market rate on repurchase agreements was close to or be\n...[risk-bearing excerpt]...\nways, on net, in January and February, the component of nominal retail sales used by the Bureau of Economic Analysis (BEA) to construct its monthly estimate of PCE rose briskly in March, in part because the weather returned to more seasonal norms. Recent information on several important factors that influence household spending was positive. Real disposable income continued to increase in the first quarter, further gains in hous\n...[document conclusion]...\nistent with its longer-run goals of maximum employment and inflation of 2 percent. The Committee currently anticipates that, even after employment and inflation are near mandate-consistent levels, economic conditions may, for some time, warrant keeping the target federal funds rate below levels the Committee views as normal in the longer run.\" Voting for this action: Janet L. Yellen, William C. Dudley, Richard W. Fisher, Narayana Kocherlakota, Sandra Pianalto, Charles I. Plosser, Jerome H. Powell, Jeremy C. Stein, and Daniel K. Tarullo. Voting against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, June 17-18, 2014. The meeting adjourned at 10:55 a.m. on April 30, 2014. Notation Vote By notation vote completed on April 8, 2014, the Committee unanimously approved the minutes of the Committee meeting held on March 18-19, 2014. _____________________________ William B. English Secretary ____________________ 1. Attended Wednesday's session only. Return to text 2. Attended the discussion of monetary policy normalization. Return to text 3. Attended Tuesday's session only. Return to text 4. Attended Tuesday's session following the discussion of monetary policy normalization. Return to text",
+  "text_sha256": "d296f6413fc6eac444276b203311a7a5cb4d15b00fd60e3c3cb98bdcd7b135c6"
+}

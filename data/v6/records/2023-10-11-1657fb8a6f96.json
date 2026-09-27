@@ -1,0 +1,63 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20230920",
+  "fingerprint": {
+    "axes": {
+      "growth": -0.3333333333333333,
+      "inflation": 1.0
+    },
+    "confidence": 0.65,
+    "currentness": "CURRENT",
+    "delta": {
+      "growth": 0.6666666666666667,
+      "inflation": 1.0
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230920.htm"
+    ],
+    "evidence": "Total nonfarm payroll employment increased at a slower pace over July and August than in the second quarter.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "august",
+      "consumer",
+      "continued",
+      "elevated",
+      "employment",
+      "gains",
+      "increased",
+      "inflation",
+      "july",
+      "labor",
+      "market",
+      "nonfarm",
+      "over",
+      "pace",
+      "payroll",
+      "price",
+      "quarter",
+      "rate",
+      "remaining",
+      "second",
+      "slower",
+      "slowing",
+      "still",
+      "strong",
+      "than",
+      "tight",
+      "total",
+      "unemployment",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2023-10-11",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "1657fb8a6f965df469525db4aa5268fb868c14a603217aa635ac1b2ca3c39fa3",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20230920.htm",
+  "text": "Minutes of the Federal Open Market Committee September 19-20, 2023 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held in the offices of the Board of Governors on Tuesday, September 19, 2023, at 10:30 a.m. and continued on Wednesday, September 20, 2023, at 9:00 a.m. 1 Attendance Jerome H. Powell, Chair John C. Williams, Vice Chair Michael S. Barr Michelle W. Bowman Lisa D. Cook Austan D. Goolsbee Patrick Harker Philip N. Jefferson Neel Kashkari Adriana D. Kugler Lorie K. Logan Christopher J. Waller Thomas I. Barkin, Raphael W. Bostic, Mary C. Daly, and Loretta J. Mester, Alternate Members of the Committee Susan M. Collins and Jeffrey R. Schmid, Presidents of the Federal Reserve Banks of Boston and Kansas City, respectively Kathleen O'Neill Paese, Interim President of the Federal Reserve Bank of St. Louis Joshua Gallin, Secretary Matthew M. Luecke, Deputy Secretary Brian J. Bonis, Assistant Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Richard Ostrander, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, 2 Roc Armenter, James A. Clouse, Brian M. Doyle, Eric M. Engen, 3 Andrea Raffo, Chiara Scotti, and William Wascher, Associate Economists Roberto Perli, Manager, System Open Market Account Julie Ann Remache, Deputy Manager, System Open Market Account Stephanie R. Aaronson, Senior Associate Director, Division of Research and Statistics, Board Jose Acosta, Senior System Administrator II, Division of Information Technology, Board Andrea Ajello, Section Chief, Division of Monetary Affairs, Board Penelope A. Beattie, 4 Section Chief, Office of the Secretary, Board Ellen J. Bromagen, First Vice President, Federal Reserve Bank of Chicago Mark A. Carlson, Adviser, Division of Monetary Affairs, Board Daniel Cooper, Vice President, Federal Reserve Bank of Boston Daniel M. Covitz, Deputy Director, Division of Research and Statistics, Board Stephanie E. Curcuru, Deputy Director, Division of International Finance, Board Rochelle M. Edge, Deputy Director, Division of Monetary Affairs, Board Matthew J. Eichner, 5 Director, Division of Reserve Bank Operations and Payment Systems, Board Eric C. Engstrom, Associate Director, Division of Monetary Affairs, Board Jon Faust, Senior Special Adviser to the Chair, Division of Board Members, Board Charles A. Fleischman, Adviser, Division of Research and Statistics, Board Glenn Follette, Associate Director, Division of Research and Statistics, Board Jennifer Gallagher, Assistant to the Board, Division of Board Members, Board Carlos Garriga, Senior Vice President, Federal Reserve Bank of St. Louis Michael S. Gibson, Director, Division of Supervision and Regulation, Board Joseph W. Gruber, Executive Vice President, Federal Reserve Bank of Kansas City Valerie S. Hinojosa, Section Chief, Division of Monetary Affairs, Board Matteo Iacoviello, 3 Senior Associate Director, Division of International Finance, Board Jane E. Ihrig, Special Adviser to the Board, Division of Board Members, Board Michael T. Kiley, Deputy Director, Division of Financial Stability, Board Don H. Kim, 5 Senior Adviser, Division of Monetary Affairs, Board Edward S. Knotek II, Senior Vice President, Federal Reserve Bank of Cleveland Spencer Krane, Senior Vice President, Federal Reserve Bank of Chicago Andreas Lehnert, Director, Division of Financial Stability, Board Paul Lengermann, Assistant Director, Division of Research and Statistics, Board Kurt F. Lewis, Special Adviser to the Board, Division of Board Members, \n...[document excerpted]...\nsury securities over the intermeeting period, the manager noted that the rise in real yields exceeded that of nominal yields over the period, implying a small decline in inflation compensation. Inflation expectations appeared to remain very well anchored. Market participants cited various factors for the rise in longer-term nominal yields, including stronger-than-expected economic data, a possible increase in the neutral policy rate, greater economic and policy uncertainty, and larger-than-expec\n...[risk-bearing excerpt]...\ntember 19-20 meeting suggested that real gross domestic product (GDP) was rising at a solid pace in the third quarter. The labor market continued to be tight, with the unemployment rate low and job gains slowing but remaining strong. Consumer price inflation was still elevated. The imbalance between labor demand and supply appeared to be easing. Total nonfarm payroll employment increased at a slower pace over July and August than in the second quarter. The private-sector job openings rate and th\n...[risk-bearing excerpt]...\nls against these economies amid perceptions that policy rates were at or near their peaks. In China, signs of strain in the property sector increased, and optimism about growth diminished further, on net, although broader markets, including global commodity markets, did not appear to show elevated concern about China-related risks. U.S. financial conditions tightened, with higher longer-term rates, lower equity prices, and a stronger dollar contributing roughly equally to the increase in various\n...[risk-bearing excerpt]...\nn-implied volatility on the S&P 500 index edged up slightly, on net, and stood near the 25th percentile of its historical distribution. Conditions in domestic short-term funding markets remained stable over the intermeeting period. Both prime and government money market funds experienced moderate inflows since the July FOMC meeting. Against a backdrop of heavy issuance of Treasury bills and the modest associated upward pressur\n...[document conclusion]...\nnors of the Federal Reserve System voted unanimously to maintain the interest rate paid on reserve balances at 5.4 percent, effective September 21, 2023. The Board of Governors of the Federal Reserve System voted unanimously to approve the establishment of the primary credit rate at the existing level of 5.5 percent, effective September 21, 2023. It was agreed that the next meeting of the Committee would be held on Tuesday-Wednesday, October 31-November 1, 2023. The meeting adjourned at 10:10 a.m. on September 20, 2023. Notation Vote By notation vote completed on August 15, 2023, the Committee unanimously approved the minutes of the Committee meeting held on July 25-26, 2023. _______________________ Joshua Gallin Secretary 1. The Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\" in these minutes; the Board of Governors of the Federal Reserve System is referenced as the \"Board\" in these minutes. Return to text 2. Attended Wednesday's session only. Return to text 3. Attended Tuesday's session only. Return to text 4. Attended through the discussion of the economic and financial situation. Return to text 5. Attended through the discussion of developments in financial markets and open market operations. Return to text",
+  "text_sha256": "a11fb6e143eda744d160d674a51c7b7af578c2c73c46eae3a87679fdd7a39035"
+}

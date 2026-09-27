@@ -1,0 +1,57 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20011002",
+  "fingerprint": {
+    "axes": {
+      "inflation": 0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "growth": 1.0,
+      "inflation": 0.8
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20011002.htm"
+    ],
+    "evidence": "With increasing slack in labor and product markets and with inflation expectations contained, the members agreed that the balance of risks continued to be weighted toward conditions that could generate economic weakness in the foreseeable future.",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "agreed",
+      "balance",
+      "conditions",
+      "contained",
+      "continued",
+      "could",
+      "economic",
+      "expectations",
+      "foreseeable",
+      "future",
+      "generate",
+      "increasing",
+      "inflation",
+      "labor",
+      "markets",
+      "members",
+      "product",
+      "risks",
+      "slack",
+      "that",
+      "toward",
+      "weakness",
+      "weighted",
+      "with"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2001.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2001-11-08",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "2e7f6fd72a06695cfe1ff123157428409241c047cde866b9f2a1dacfb703d876",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20011002.htm",
+  "text": "Minutes of the Federal Open Market Committee October 2, 2001 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, October 2, 2001, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. McDonough, Vice Chairman Mr. Ferguson Mr. Gramlich Mr. Hoenig Mr. Kelley Mr. Meyer Ms. Minehan Mr. Moskow Mr. Poole Messrs. Jordan, McTeer, Santomero, and Stern, Alternate Members     \r\n    of the Federal Open Market Committee Messrs. Broaddus, Guynn, and Parry, Presidents of the Federal Reserve Banks of Richmond, Atlanta, and San Francisco respectively Mr. Kohn, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Fox, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Reinhart, Economist Mr. Stockton, Economist Ms. Cumming, Messrs. Fuhrer, Hakkio, Howard, Lindsey, Rasche,  \r\n        Slifman, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Ms. Smith, Assistant to the Board, Office of Board\r\n\t\t\t     Members, Board of Governors Messrs. Ettin and Madigan, Deputy Directors, Divisions of Research and Statistics and Monetary Affairs respectively, Board of Governors Mr. Simpson, Senior Adviser, Division of Research and Statistics,\r\n\t\t\t    Board of Governors Mr. Connors, Associate Director, Division of International Finance,   \r\n                                        Board of Governors Messrs. Oliner and Struckmeyer, Associate Directors, Division of \r\n                                         Research and Statistics, Board of Governors Mr. Whitesell, Assistant Director, Division of Monetary Affairs, Board of Governors Mr. Kumasaka, Assistant Economist, Division of Monetary Affairs,\r\n           Board of Governors Ms. Low, Open Market Secretariat Assistant, Office of Board \r\n            Members, Board of Governors Messrs. Eisenbeis, Goodfriend, Ms. Mester, Messrs. Rolnick, Rosenblum, and Sniderman, Senior Vice Presidents, Federal Reserve Banks of  Atlanta, Richmond, Philadelphia, Minneapolis, Dallas, and Cleveland respectively Messrs. Evans, Hilton, and Judd, Vice Presidents, Federal Reserve Banks of Chicago, New York, and San Francisco respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on August 21, 2001, and the conference calls held on September 13 and 17, 2001, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting.\t\tThe Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period August 21, 2001, through October 1, 2001.  By unanimous vote, the Committee ratified these transactions. The Committee expressed its appreciation of the outstanding manner in which the Federal Reserve Bank of New York had carried out its open market operations and other responsibilities under very difficult circumstances after the terrorist attacks on September 11, 2001. The Committee then turned to a discussion of the economic and financial outlook and the implementation of monetary policy over the intermeeting period ahead.  A summary of the economic and financial information available at the time of the meeting and of the Committee's discussion is provided below. The information reviewed at this meeting suggested that the attacks of September 11 might well have induced \n...[document excerpted]...\nd uncertainty and sharply reduced confidence had curtailed consumer spending and had intensified the downward trajectory in business capital expenditures. Consumer price inflation had remained relatively subdued over the summer months. Data for August portrayed some continued softening in overall labor market conditions. Private nonfarm payroll employment fell appreciably further, with the decline more than accounted for by additional job losses in manufacturing.  Labor demand remained sluggish\n...[risk-bearing excerpt]...\nnondurables, and materials also moved appreciably lower.  The rate of capacity utilization in manufacturing continued to fall, reaching its lowest level since mid-1983. Growth in consumer spending picked up somewhat in July and August \r\nfrom a reduced pace in the second quarter despite a small drop in sales of new motor vehicles. However, anecdotal reports from around the nation pointed to a downturn in September, largely reflecting marked weakness after the terrorist attacks.  Indicators of co\n...[risk-bearing excerpt]...\nices and the performance of the economy. In conjunction with this easing move, the Federal Reserve indicated that it would continue  to supply unusually large volumes of liquidity, and the Committee recognized that the federal funds rate might fall below its new target until the normal functioning of financial markets was restored. In the period before the terrorist attacks, federal funds traded at rates near the reduced target level established at the August meeting. Most market interest rates\n...[risk-bearing excerpt]...\na recovery in output was imminent.  With increasing slack in labor and product markets and with inflation expectations contained, the members agreed that the balance of risks continued to be weighted toward conditions that could generate economic weakness in the foreseeable future. Subsequently, on September 17, the Committee reduced its target for the federal funds rate by a further � percentage point. This action was taken agai\n...[document conclusion]...\n and financial\r\n\tconditions that will foster price stability and promote sustainable growth \r\nin output.  To further its long-run objectives, the Committee in the \r\nimmediate future seeks conditions in reserve markets consistent with \r\nreducing the federal funds rate to an average of around 2-1/2 percent. The vote encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting. Against the background of its long-run goals of price stability and \r\n          sustainable economic growth and of the information currently available,\r\n          the Committee believes that the risks continue to be weighted mainly \r\n          toward conditions that may generate economic weakness in the \r\n          foreseeable future. Votes for this action: Messrs. Greenspan, McDonough,\r\n                  Ferguson, Gramlich, Hoenig, Kelley, Meyer, Ms. Minehan,\r\n\tMessrs. Moskow and Poole. Votes against this action: None. It was agreed that the next meeting of the Committee would be held on Tuesday, November 6, 2001. The meeting adjourned at 12:30 p.m. Donald L. Kohn Secretary Return to top Home | FOMC Accessibility To comment on this site, please fill out our feedback form. Last update: November 8, 2001, 2:00 PM",
+  "text_sha256": "d9fb44de0754121b5a2ea6be5ed28b12befd9ad9490ae5dc4c88ecd0a152254e"
+}

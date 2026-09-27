@@ -1,0 +1,48 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20210728",
+  "fingerprint": {
+    "axes": {
+      "guidance": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "guidance": -0.6,
+      "inflation": 1.0,
+      "liquidity": -0.6
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/monetarypolicy/fomcminutes20210728.htm"
+    ],
+    "evidence": "They also considered the question of how asset purchases might be adjusted once economic conditions met the standards of that guidance.",
+    "issuer": "FED",
+    "major": "guidance",
+    "region": "US",
+    "tokens": [
+      "adjusted",
+      "also",
+      "asset",
+      "conditions",
+      "considered",
+      "economic",
+      "guidance",
+      "might",
+      "once",
+      "purchases",
+      "question",
+      "standards",
+      "that",
+      "they"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2021-08-18",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "f4eed3219de571281bc6126f4b8ac97c21b9739bf826e421d0034cb40a962b6f",
+  "source_url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20210728.htm",
+  "text": "Minutes of the Federal Open Market Committee July 27-28, 2021 A joint meeting of the Federal Open Market Committee and the Board of Governors of the Federal Reserve System was held by videoconference on Tuesday, July 27, 2021, at 9:00 a.m. and continued on Wednesday, July 28, 2021, at 9:00 a.m. 1 PRESENT: Jerome H. Powell, Chair John C. Williams, Vice Chair Thomas I. Barkin Raphael W. Bostic Michelle W. Bowman Lael Brainard Richard H. Clarida Mary C. Daly Charles L. Evans Randal K. Quarles Christopher J. Waller James Bullard, Esther L. George, Naureen Hassan, Loretta J. Mester, and Eric Rosengren, Alternate Members of the Committee Patrick Harker, Robert S. Kaplan, and Neel Kashkari, Presidents of the Federal Reserve Banks of Philadelphia, Dallas, and Minneapolis, respectively James A. Clouse, Secretary Matthew M. Luecke, Deputy Secretary Michelle A. Smith, Assistant Secretary Mark E. Van Der Weide, General Counsel Michael Held, Deputy General Counsel Trevor A. Reeve, Economist Stacey Tevlin, Economist Beth Anne Wilson, Economist Shaghil Ahmed, Kartik B. Athreya, Brian M. Doyle, Rochelle M. Edge, Beverly Hirtle, and William Wascher, Associate Economists Lorie K. Logan, Manager, System Open Market Account Patricia Zobel, Deputy Manager, System Open Market Account Ann E. Misback, Secretary, Office of the Secretary, Board Matthew J. Eichner, 2 Director, Division of Reserve Bank Operations and Payment Systems, Board; Michael S. Gibson, Director, Division of Supervision and Regulation, Board; Andreas Lehnert, Director, Division of Financial Stability, Board Jon Faust 3 and Joshua Gallin, Senior Special Advisers to the Chair, Division of Board Members, Board William F. Bassett, Antulio N. Bomfim, Burcu Duygan-Bump, Jane E. Ihrig, Kurt F. Lewis, Chiara Scotti, and Nitish R. Sinha, Special Advisers to the Board, Division of Board Members, Board Elizabeth Klee, Senior Associate Director, Division of Financial Stability, Board; David E. Lebow, Michael G. Palumbo, and John J. Stevens, Senior Associate Directors, Division of Research and Statistics, Board; Min Wei, Senior Associate Director, Division of Monetary Affairs, Board Brett Berger, 2 Senior Adviser, Division of International Finance, Board; Ellen E. Meade and Edward Nelson, Senior Advisers, Division of Monetary Affairs, Board Christopher J. Gust, Associate Director, Division of Monetary Affairs, Board; Paul R. Wood, Associate Director, Division of International Finance, Board Stephanie E. Curcuru 2 and Andrea Raffo, Deputy Associate Directors, Division of International Finance, Board; Laura Lipscomb 2 and Zeynep Senyuz, Deputy Associate Directors, Division of Monetary Affairs, Board; Norman J. Morin and Karen M. Pence, Deputy Associate Directors, Division of Research and Statistics, Board; Jeffrey D. Walker, 2 Deputy Associate Director, Division of Reserve Bank Operations and Payment Systems, Board Jennifer Gallagher, Special Assistant to the Board, Division of Board Members, Board Brian J. Bonis and Etienne Gagnon, 2 Assistant Directors, Division of Monetary Affairs, Board Alyssa G. Anderson 2 and Andrew Meldrum, 2 Section Chiefs, Division of Monetary Affairs, Board; Penelope A. Beattie, 4 Section Chief, Office of the Secretary, Board Mark A. Carlson, Senior Economic Project Manager, Division of Monetary Affairs, Board David H. Small, Project Manager, Division of Monetary Affairs, Board Erin E. Ferris 2 and Andrei Zlate, Principal Economists, Division of Monetary Affairs, Board Randall A. Williams, Lead Information Manager, Division of Monetary Affairs, Board Isabel Cairó, Senior Economist, Division of Monetary Affairs, Board\n...[document excerpted]...\nve financial conditions, which aided the flow of credit to households and businesses and supported the recovery. Participants discussed a broad range of labor market and inflation indicators. All participants assessed that the economy had made progress toward the Committee's maximum-employment and price-stability goals since the adoption of the guidance on asset purchases in December. Most participants judged that the Committee's standard of \"substantial further progress\" toward the maximum-empl\n...[risk-bearing excerpt]...\ning period. Discussion of Asset Purchases Participants discussed aspects of the Federal Reserve's asset purchases, including progress made toward the Committee's maximum-employment and price-stability goals since the adoption of the asset purchase guidance in December 2020. They also considered the question of how asset purchases might be adjusted once economic conditions met the standards of that guidance. Participants agreed that their discussion at this meeting would be helpful background for\n...[risk-bearing excerpt]...\nably, largely reflecting transitory factors. Total nonfarm payroll employment rose sharply in June, with job gains widespread across industries and especially strong job growth in the leisure and hospitality sector. As of June, total payroll employment had retraced more than two-thirds of the losses seen at the onset of the pandemic. The unemployment rate edged higher and stood at 5.9 percent in June, and the unemployment rates for African Americans and Hispanics remained well above the national\n...[risk-bearing excerpt]...\nf the Committee voted to approve the FIMA Repo Facility. Governor Bowman abstained from voting on the FIMA Repo Facility and noted that she would have preferred that the liquidity arrangements accessible to foreign official institutions be maintained only during periods of extraordinary financial market stress rather than through a standing facility. Standing Repurchase Agreement Facility Resolution The Federal Open Market Com\n...[document conclusion]...\ntation vote completed on July 6, 2021, the Committee unanimously approved the minutes of the Committee meeting held on June 15–16, 2021. _______________________ James A. Clouse Secretary 1. In these minutes, the Federal Open Market Committee is referenced as the \"FOMC\" and the \"Committee\"; the Board of Governors of the Federal Reserve System is referenced as the \"Board.\" Return to text 2. Attended through the discussion of asset purchases. Return to text 3. Attended Wednesday's session only. Return to text 4. Attended through the discussion of economic developments and the outlook. Return to text 5. As announced on June 2, 2021, the Board approved a final rule, effective July 29, amending Regulation D to eliminate references to an interest on required reserves (IORR) rate and to an interest on excess reserves (IOER) rate and replace them with a single interest on reserve balances (IORB) rate. Therefore, the Board voted on one rate, the IORB rate, at this meeting and will continue to do so going forward. The Federal Register notice, \"Regulation D: Reserve Requirements of Depository Institutions,\" is available at www.federalregister.gov/documents/2021/06/04/2021-11758/regulation-d-reserve-requirements-of-depository-institutions Return to text",
+  "text_sha256": "31df788c16bb8d6c52b62c95d87915fc653cd3746557cc811ff122b8d3aabc3f"
+}

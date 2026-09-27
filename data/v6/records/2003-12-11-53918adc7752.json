@@ -1,0 +1,47 @@
+{
+  "doc_type": "fomc_minutes",
+  "episode_id": "FED:20031028",
+  "fingerprint": {
+    "axes": {
+      "inflation": -0.6
+    },
+    "confidence": 0.55,
+    "currentness": "FORWARD",
+    "delta": {
+      "inflation": 0.4
+    },
+    "doc_ids": [
+      "https://www.federalreserve.gov/fomc/minutes/20031028.htm"
+    ],
+    "evidence": "The Committee judged that, on balance, the risk of inflation becoming undesirablyed business earnings and cash flows, and the favorable imp ...[document conclusion]...",
+    "issuer": "FED",
+    "major": "inflation",
+    "region": "US",
+    "tokens": [
+      "balance",
+      "becoming",
+      "business",
+      "cash",
+      "committee",
+      "conclusion",
+      "document",
+      "earnings",
+      "favorable",
+      "flows",
+      "inflation",
+      "judged",
+      "risk",
+      "that",
+      "undesirablyed"
+    ]
+  },
+  "index_url": "https://www.federalreserve.gov/monetarypolicy/fomchistorical2003.htm",
+  "license_basis": "US federal government work; Federal Reserve Board official publication",
+  "published_at": "2003-12-11",
+  "publisher": "Federal Reserve Board",
+  "retrieved_at": "2026-09-27T00:59:50.756216+00:00",
+  "source_sha256": "53918adc7752ec863fe3924488b81bd3ccac506fb3525d291a8be685d19dd039",
+  "source_url": "https://www.federalreserve.gov/fomc/minutes/20031028.htm",
+  "text": "Minutes of the Federal Open Market Committee October 28, 2003 A meeting of the Federal Open Market Committee was held in the offices of the Board of Governors of the Federal Reserve System in Washington, D.C., on Tuesday, October 28, 2003, at 9:00 a.m. Present: Mr. Greenspan, Chairman Mr. Bernanke Ms. Bies Mr. Broaddus Mr. Ferguson Mr. Gramlich Mr. Guynn Mr. Kohn Mr. Moskow Mr. Olson Mr. Parry Mr. Hoenig, Mses. Minehan and Pianalto, Messrs. Poole and Stewart, \r\n       Alternate Members of the Federal Open Market Committee Messrs. McTeer, Santomero, and Stern, Presidents of the Federal Reserve \r\n        Banks of Dallas, Philadelphia, and Minneapolis respectively Mr. Reinhart, Secretary and Economist Mr. Bernard, Deputy Secretary Ms. Smith, Assistant Secretary Mr. Mattingly, General Counsel Ms. Johnson, Economist Mr. Stockton, Economist Mr. Connors, Ms. Cumming, Messrs. Goodfriend, Howard,   \r\n                 Madigan, Struckmeyer, and Wilcox, Associate Economists Mr. Kos, Manager, System Open Market Account Mr. Ettin, Deputy Director, Division of Research and Statistics, Board of Governors Messrs. Slifman and Oliner, Associate Directors, Division of Research and    \r\n                 Statistics, Board of Governors Messrs. Clouse, Kamin, and Whitesell, Deputy Associate Directors, Divisions    \r\n         of Monetary Affairs, International Finance, and Monetary Affairs \r\n         respectively, Board of Governors Mr. English, Assistant Director, Division of Monetary Affairs,   \r\n          Board of Governors Mr. Hambley, Assistant to the Board and Director for Congressional Liaison, \r\n         Office of Board Members, Board of Governors Mr. Skidmore, Special Assistant to the Board, Office of Board Members,    \r\n          Board of Governors Mr. Luecke, Senior Financial Analyst, Division of Monetary Affairs, Board of       Governors Ms. Low, Open Market Secretariat Assistant, Division of Monetary Affairs, \r\n          Board of Governors Messrs. Fuhrer and Hakkio, Ms. Mester, Messrs. Rasche, Rolnick, Rosenblum, and Sniderman, Senior Vice Presidents, Federal Reserve Banks of Boston, Kansas City, Philadelphia, St. Louis, Minneapolis, Dallas, and Cleveland respectively Mr. Dwyer, Ms. Hargraves, Messrs. Krane and Rudebusch, Vice Presidents, Federal Reserve Banks of Atlanta, New York, Chicago, and San Francisco\r\n       respectively By unanimous vote, the minutes of the meeting of the Federal Open Market Committee held on September 16, 2003, were approved. The Manager of the System Open Market Account reported on recent developments in foreign exchange markets.  There were no open market operations in foreign currencies for the System's account in the period since the previous meeting. The Manager also reported on developments in domestic financial markets and on System open market transactions in government securities and securities issued or fully guaranteed by federal agencies during the period September 16, 2003, through October 27, 2003.  By unanimous vote, the Committee ratified these transactions. The pace of the economic expansion appeared to have picked up substantially.  Consumer spending and the demand for housing were quite strong in the third quarter and business outlays for capital evidently accelerated.  At the same time, labor markets seemed to be leveling out, and industrial production had firmed in recent months.  While core consumer prices had risen faster in recent months than earlier in the year, the twelve-month increase through September was notably lower than during the preceding year. Labor markets appeared to be stabilizing as private nonfarm payrolls grew in Sept\n...[document excerpted]...\ner in Canada and the euro area and continued expansion in Japan and the United Kingdom. Core consumer prices rose slightly in August and September, but headline consumer inflation was up a bit more, largely reflecting a run-up in gasoline prices.  Energy prices also boosted overall consumer inflation over the past twelve months, while core consumer inflation moved lower over the same period.  At the producer level, core prices were about unchanged during August and September, but rising energy a\n...[risk-bearing excerpt]...\nember for the first time since January, and employment losses in July and August turned out to be smaller than data initially had indicated.  The largest employment gain in September was in the business services sector, which includes temporary help supply firms.  Employment also increased in most other major industries in September, with the exceptions of manufacturing a\n...[risk-bearing excerpt]...\nmployment rate in September remained at 6.1 percent. Conditions in the industrial sector had improved somewhat in the previous months.  Industrial output displayed solid growth in the third quarter after declining earlier in the year.  A downturn in motor vehicle assemblies depressed overall manufacturing somewhat in August, but a step-up in auto production boosted it significantly in September.  The strength in manufacturing in September was somewhat offset, however, by a decrease in energy pro\n...[risk-bearing excerpt]...\nmarkets consistent with keeping the federal funds rate at around 1 percent. In reaching this decision, the Committee members generally perceived the upside and downside risks to the attainment of sustainable growth for the next few quarters to be roughly equal; however, they viewed the probability, though minor, of an unwelcome fall in inflation as exceeding that of a rise in inflation from its already low level. The Committee judged that, on balance, the risk of inflation becoming undesirablyed business earnings and cash flows, and the favorable imp\n...[document conclusion]...\nrs are balanced; the risks to its outlook for inflation over the next several quarters are weighted toward the downside; and, taken together, the balance of risks to its objectives is weighted toward the downside in the foreseeable future. At this meeting the members continued their earlier discussion of how best to communicate the Committee's general assessment of the outlook for economic activity and inflation. The members recognized that changing circumstances required adaptations in the Committee's communications with the ultimate objective of fostering the best possible public understanding of monetary policy decisions. A number of alternative approaches and specific suggestions were discussed, and in the absence of a consensus at this meeting the members agreed that further study under the guidance of a working group comprised of Committee members was desirable. The working group would develop a limited number of specific proposals for consideration at a later meeting. It was agreed that the next meeting of the Committee would be held on Tuesday, December 9, 2003. The meeting adjourned at 2:00 p.m. Vincent R. Reinhart Secretary Return to top FOMC Home | Monetary policy Accessibility | Contact Us Last update: December 10, 2003, 2:00 PM",
+  "text_sha256": "00e4275ed20df1ff5472627bfb9a6f44cbd5003e16790bbdfc9adde6535cdda3"
+}
