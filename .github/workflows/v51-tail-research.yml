@@ -1,0 +1,105 @@
+# ## Executive summary (read this first)
+# Build an isolated V5.1 plus frozen single-cell tail candidate. Publish the
+# immutable image only after tests and offline Docker smoke pass.
+name: V5.1 Single Cell Tail Research
+
+on:
+  push:
+    branches: ["track2/v51-single-cell-tail"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: "3.13"
+      - name: Install frozen dependencies
+        run: |
+          pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common'
+          pip install 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'ruff==0.4.7' 'mypy==1.19.1' pytest
+          pip install --no-deps -e .
+      - name: Tests and static checks
+        run: |
+          ruff check qfbench2_track_forecasting tests backtesting/v51_tail_audit.py tools/audit_v51_tail_activation.py
+          ruff format --check qfbench2_track_forecasting tests backtesting/v51_tail_audit.py tools/audit_v51_tail_activation.py
+          mypy --strict --ignore-missing-imports qfbench2_track_forecasting
+          python -m pytest -q
+          python .github/validate_units.py forecasting --stdlib-only
+          python tools/audit_v51_tail_activation.py
+      - name: Paired public diagnostics with frozen tail factors
+        run: |
+          python -m backtesting.v51_tail_audit --draws 500 --out "$RUNNER_TEMP/tail-500.json"
+          python -m backtesting.v51_tail_audit --draws 1000 --out "$RUNNER_TEMP/tail-1000.json"
+          python - <<'PY'
+          import json, os, pathlib
+          root = pathlib.Path(os.environ['RUNNER_TEMP'])
+          for draws in (500, 1000):
+              r = json.loads((root / f'tail-{draws}.json').read_text())
+              assert r['single_cell_cases'] >= 50 and r['unchanged_cases'] >= 40
+              assert r['single_cell']['geometric_ratio'] < 1
+              assert r['single_cell']['q90'] <= 1.10
+              assert all(v < 1 for v in r['single_cell']['by_seed'].values())
+          PY
+      - name: Build isolated image and smoke every family offline
+        run: |
+          docker build --platform linux/amd64 --build-arg FORECAST_MODE=text-first-v5.1-tail -t t2-v51-tail:research .
+          python - <<'PY' > "$RUNNER_TEMP/units.txt"
+          import pathlib, tomllib
+          for name in ('t2-F1-patient-dropped-2015', 't2-F2-eur-parity-2022',
+                       't2-F3-brexit-joint-2016', 't2-F4-funding-stress-2y-2008'):
+              c = tomllib.loads((pathlib.Path('units') / name / 'card.toml').read_text())
+              print(name + '|' + c['provenance']['data_cutoff'])
+          PY
+          while IFS='|' read -r unit asof; do
+            for mode in text-first-v5.1 text-first-v5.1-tail; do
+              out="$RUNNER_TEMP/tail-smoke/$unit/$mode"
+              mkdir -p "$out" && chmod 0777 "$out"
+              docker run --rm --network=none --read-only --tmpfs /tmp \
+                -e FORECAST_MODE="$mode" -v "$PWD/units/$unit:/input:ro" \
+                -v "$out:/output" t2-v51-tail:research forecast --panels /input \
+                --text /input/text --asof "$asof" --out /output/forecast.parquet
+              qfbench2-smoke "units/$unit" "$out" --track forecasting
+            done
+          done < "$RUNNER_TEMP/units.txt"
+          python - <<'PY'
+          import os, pathlib
+          root = pathlib.Path(os.environ['RUNNER_TEMP']) / 'tail-smoke'
+          base = root / 't2-F3-brexit-joint-2016'
+          assert (base/'text-first-v5.1/forecast.parquet').read_bytes() == (base/'text-first-v5.1-tail/forecast.parquet').read_bytes()
+          PY
+      - name: Publish immutable image and verify anonymous pull
+        env:
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$DOCKERHUB_TOKEN"
+          auth=$(mktemp -d)
+          anonymous=$(mktemp -d)
+          trap 'rm -rf -- "$auth" "$anonymous"' EXIT
+          printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$auth" login docker.io -u jotj216 --password-stdin
+          unset DOCKERHUB_TOKEN
+          tag="docker.io/jotj216/track2-f4-approved:tail-${GITHUB_SHA:0:7}-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          tested=$(docker inspect -f '{{.Id}}' t2-v51-tail:research)
+          docker tag t2-v51-tail:research "$tag"
+          docker --config "$auth" push "$tag"
+          digest=$(docker inspect "$tag" --format '{{json .RepoDigests}}' | jq -er '.[0]' | cut -d@ -f2)
+          [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          ref="docker.io/jotj216/track2-f4-approved@$digest"
+          docker --config "$anonymous" pull --platform linux/amd64 "$ref"
+          test "$(docker inspect -f '{{.Id}}' "$ref")" = "$tested"
+          mkdir -p candidate-artifacts
+          printf '%s\n' "$ref" > candidate-artifacts/image-reference.txt
+          printf '%s\n' "$GITHUB_SHA" > candidate-artifacts/source-commit.txt
+          echo "Validated image: $ref"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: v51-tail-${{ github.run_id }}-${{ github.run_attempt }}
+          path: candidate-artifacts/
+          if-no-files-found: error
+          retention-days: 30
