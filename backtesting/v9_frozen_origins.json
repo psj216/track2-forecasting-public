@@ -1,0 +1,7828 @@
+{
+  "## Executive summary (read this first)": "Frozen public date-only V9 research origins. No realized observations or scores.",
+  "protocol": "v9-0-dates-only-1",
+  "prior_cutoff_counts": [
+    6,
+    8,
+    12
+  ],
+  "maximum_origins_per_card": 12,
+  "split_boundaries": {
+    "select": "2007-05-07",
+    "later": "2013-03-13"
+  },
+  "entries_sha256": "d36891189569ff554bfac88e808fc8847ffb6280a81608dc47937738ef098217",
+  "source_date_indexes": [
+    {
+      "unit_id": "t2-EXAMPLE-ust-curve-1m",
+      "date_index_sha256": "f3bdd8c8e4e4cd48f7c46b53e459db9bbdcf7c91d34f33de62eb3ac01f77eb7d",
+      "old_windows": 22,
+      "safe_positions": 2
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "date_index_sha256": "07d8887540d51ac9362e1eadc42d5505db7f488d90c6dbab8a94a2279e7646de",
+      "old_windows": 22,
+      "safe_positions": 1688
+    },
+    {
+      "unit_id": "t2-F1-aud-on-hold-2016",
+      "date_index_sha256": "1c33f325fad4a112d483067f80dad62d00d754700c452ead6701a43ce1a49aaa",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-cad-boc-2017",
+      "date_index_sha256": "f7c29c2b2647d3ae815fa997bb840f2c83b9981171eec1f6c9b443d5b2969c53",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "date_index_sha256": "9f23621131f71a2758c70da40454c8da4b6497cc8a2c555379ab305dd0cf4ded",
+      "old_windows": 22,
+      "safe_positions": 270
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "date_index_sha256": "e580159c0599ede093f00712c035b455e146ec8578dad063ab1cf363901a4404",
+      "old_windows": 22,
+      "safe_positions": 667
+    },
+    {
+      "unit_id": "t2-F1-considerable-period-2003",
+      "date_index_sha256": "2fb17a82fcfa235326ac106dd2a7241ec54a975d9e7cab36872f6283d6a0b62b",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-conundrum-2005",
+      "date_index_sha256": "10fbfc2fdc3a0331b4c4a0d3e2b9997ee6260f9e7f2a99c20b8db04b501fbc4c",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-cpi-glidepath-2023",
+      "date_index_sha256": "795c60abc5bfb03b4e82812397c957ed117d28c932fa7fa0c7a62baaf65eceee",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "date_index_sha256": "64b3af171abd9a0e7eeaaffc768712216369b6eeee732874e7b8753548377781",
+      "old_windows": 22,
+      "safe_positions": 792
+    },
+    {
+      "unit_id": "t2-F1-eur-range-2017",
+      "date_index_sha256": "3f6b0807595a4fd7d42e4acc8729b0f81f04e70e62c3526d879159612f98fe1c",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "date_index_sha256": "75d21c01fd4e833d9d4a07c695bd1b2870cbd6d2767282395e053a4d3bd760cf",
+      "old_windows": 22,
+      "safe_positions": 849
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "date_index_sha256": "ffd6f9bfe30bcea7c96fbc20aa7e47854f919a9aa66462476e2513e99e59bff4",
+      "old_windows": 22,
+      "safe_positions": 615
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "date_index_sha256": "d4abae91b73cd7d9779be113d01ebbc5d66cd4404e3a1002352650b5329f68d3",
+      "old_windows": 22,
+      "safe_positions": 742
+    },
+    {
+      "unit_id": "t2-F1-jpy-ycc-flex-2018",
+      "date_index_sha256": "02cafd4f8fcf00b9947671c55911ff176076f5e4077b3db8f4f611241c38a7fc",
+      "old_windows": 22,
+      "safe_positions": 47
+    },
+    {
+      "unit_id": "t2-F1-liftoff-telegraph-2015",
+      "date_index_sha256": "b91c9a12a5700844f977b30b59d72e24ba3dac45f178fb4562a42ec1b691c501",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-measured-pace-2004",
+      "date_index_sha256": "f4c1e4afd2739791293ba6f73ca8d78b2a8ffc555d6676b875ad265f3256c0f6",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "date_index_sha256": "2790384c8e97000fe7ce809e1cac4781c3ebeb6f8f3d3183708d1d874c1381f0",
+      "old_windows": 22,
+      "safe_positions": 569
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "date_index_sha256": "358cbc1820feb773ed4878f09b27d31df82f426a569e7a19f137602022cfe045",
+      "old_windows": 22,
+      "safe_positions": 221
+    },
+    {
+      "unit_id": "t2-F1-pause-2006",
+      "date_index_sha256": "9cb6b57c4e4081477960477517d728a3fd7d75ba9628a1fc04f06d6dae867d52",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-qe3-end-2014",
+      "date_index_sha256": "0375d63ec6d24a070b6f7b7ecba0c841d821b5d67b1811f5ed876b407907e56d",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-sahm-watch-2024",
+      "date_index_sha256": "8f978a8d6f9d8bf56daa1ce714538de8cf98ca17fda67e44f925e54e5e8d64af",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F1-third-cut-2019",
+      "date_index_sha256": "0b2af34d155722f77b66f77a837af66464e7d5cca03ec87f8853b30b8bdceb86",
+      "old_windows": 22,
+      "safe_positions": 126
+    },
+    {
+      "unit_id": "t2-F1-ust-positioning-2018",
+      "date_index_sha256": "2f2608aa800be0211c93cf9da3fceb84305959d69c82fc4fe383c45a55ee4a9f",
+      "old_windows": 22,
+      "safe_positions": 52
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "date_index_sha256": "6a6136f09c44cc6c62438ca2d1ba1c3a190db8eb8aad7eeea64c2dd6f87f3e5e",
+      "old_windows": 22,
+      "safe_positions": 921
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "date_index_sha256": "a5c336edf7d5054b9a9631acfbfc2b30e66135a7210e4b98dbf272620121ad5a",
+      "old_windows": 22,
+      "safe_positions": 2196
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "date_index_sha256": "0ca6ddc78c28c84fd3549fcb723fff10ed9625a6407c46e46a52b58e27304cf6",
+      "old_windows": 22,
+      "safe_positions": 985
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "date_index_sha256": "1a3edd6179159529e1ef03eaf62040ba95c92024ac594e8f52e77f3b8f8b5ed4",
+      "old_windows": 22,
+      "safe_positions": 1267
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "date_index_sha256": "3c5d97d1704734ecbdca2b5ac0c5cbc3cc9fd5e4648e02cc4b4f2732f1a63d81",
+      "old_windows": 22,
+      "safe_positions": 424
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "date_index_sha256": "39c0acb4899751ab2699ad7165dd811b1807a218d1b579eeeaf143666cccfcce",
+      "old_windows": 22,
+      "safe_positions": 427
+    },
+    {
+      "unit_id": "t2-F2-considerable-removal-2004",
+      "date_index_sha256": "9eee56d3f4c2928c6c5831121c89cf3a5400a6de15795d1ac15c86f3b22e4a3c",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "date_index_sha256": "03482b42d8311b351b1e61a9894f32d93fedaf406bca4dca49941de28282ddb4",
+      "old_windows": 22,
+      "safe_positions": 95
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "date_index_sha256": "780b77fff7ef931f0f935ef0dbce21345e75bfae1c8c9e2f0dd156a99204b9c7",
+      "old_windows": 22,
+      "safe_positions": 3439
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "date_index_sha256": "f3e9f95e814edd73bde4bb78e9fd8e0c74b0a026a6491f879a77a46378af559c",
+      "old_windows": 22,
+      "safe_positions": 1143
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "date_index_sha256": "9b6fd25b74e33a48bd6b450148e228fed151b84766fc0af358e689319d093144",
+      "old_windows": 22,
+      "safe_positions": 1286
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "date_index_sha256": "1528cdb438d23e77e3f388582ca9d27c14aa8f65879e1899d111d2f28770be58",
+      "old_windows": 22,
+      "safe_positions": 2907
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "date_index_sha256": "e07a16ae0de64b096ca4c3eb366a6821f81f5795adacae51bcd19065ae973026",
+      "old_windows": 22,
+      "safe_positions": 191
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "date_index_sha256": "6030eb89bb0b6a959934279c991827e90df4810a1b1364df04e38f5d0892b298",
+      "old_windows": 22,
+      "safe_positions": 425
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "date_index_sha256": "d3818ccf3f3216d50ff95b4fa4735b02dccab3d5be31d6a95094c05652ca3725",
+      "old_windows": 22,
+      "safe_positions": 3212
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "date_index_sha256": "6837b16b2dc632c7edbc795f020991724c1dbcf9dc977ae9039aa2c86f089cd3",
+      "old_windows": 22,
+      "safe_positions": 1532
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "date_index_sha256": "9b6fd25b74e33a48bd6b450148e228fed151b84766fc0af358e689319d093144",
+      "old_windows": 22,
+      "safe_positions": 1286
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "date_index_sha256": "871da7a79c9f20d301cbc6d87ccd7812b85c412498c0fe3aa3aaec58b5cf1010",
+      "old_windows": 22,
+      "safe_positions": 815
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "date_index_sha256": "845de2017f4b5ab90db379f40dac3d2bd3862b693890e639e4c52f5bc65f2c60",
+      "old_windows": 22,
+      "safe_positions": 529
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "date_index_sha256": "9bb4564f9766c34c5cfd3dab32cda42ba992e504ef37b3ef42b9eda7067827fc",
+      "old_windows": 22,
+      "safe_positions": 3270
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "date_index_sha256": "cdf5d602a5c43fbdea1692992f00aea6497fe88a3906eb8f602715740467bf5d",
+      "old_windows": 22,
+      "safe_positions": 2965
+    },
+    {
+      "unit_id": "t2-F2-taper-begins-2013",
+      "date_index_sha256": "a29b487c027e6eed3aeb918f07ea86d292fbd3b27342ab170fccfc80bdecf5d9",
+      "old_windows": 22,
+      "safe_positions": 122
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "date_index_sha256": "2808f0b64553017af043cb518b959135f7a17d7cc2cd18b0944ab7b02e18b90f",
+      "old_windows": 22,
+      "safe_positions": 972
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "date_index_sha256": "d8cf908c80812faac6c4494916202e863f1faffa7c06a0d025a66e82305b9003",
+      "old_windows": 22,
+      "safe_positions": 3431
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "date_index_sha256": "81fd2ae7976b242ae1b62a05a67c2a79a97b459ae9f0b4300fd96be15988b945",
+      "old_windows": 22,
+      "safe_positions": 2223
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "date_index_sha256": "f0351bdd7ee2ec2f611facd4a2db5c5515e3d2a3710197f1ed02e82fbe74944a",
+      "old_windows": 22,
+      "safe_positions": 207
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "date_index_sha256": "10cca9ea39d8898c7a80329e77083e3189a3f0a94d2d15759c037f041e14114d",
+      "old_windows": 22,
+      "safe_positions": 843
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "date_index_sha256": "b2079f866d1a7b4d0dd8853ec955b779ac01c6522167a8e9ac7c5566577b01df",
+      "old_windows": 22,
+      "safe_positions": 1350
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "date_index_sha256": "c3a9238cef2f030b7ae09314bb43ecfffdc4ddc7522a2b2a27a3301de5ff72a5",
+      "old_windows": 22,
+      "safe_positions": 3165
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "date_index_sha256": "5cf85f24fd44ae248b325334047fbcc44dd98b2f3229d548ad89ff070d947879",
+      "old_windows": 22,
+      "safe_positions": 1608
+    },
+    {
+      "unit_id": "t2-F3-conundrum-joint-2005",
+      "date_index_sha256": "10fbfc2fdc3a0331b4c4a0d3e2b9997ee6260f9e7f2a99c20b8db04b501fbc4c",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "date_index_sha256": "88d705bf094cc9069323df8207d7d44f75da98487c48ae69b83c23d68711cc3c",
+      "old_windows": 22,
+      "safe_positions": 2378
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "date_index_sha256": "81c7ee8531f73d3f79f376db5d1fe87808a7c203fadc6b0db44496f34064d0c0",
+      "old_windows": 22,
+      "safe_positions": 3003
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "date_index_sha256": "7ce96fb88e45d8396bf730c22b7254d4cc78e2715d92e218065d83e811ca57ca",
+      "old_windows": 22,
+      "safe_positions": 203
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "date_index_sha256": "0c23914e0671d35d77145658c792627a297772d1d3b41ccf760c89ff7d3b0d18",
+      "old_windows": 22,
+      "safe_positions": 2403
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "date_index_sha256": "6252236c0546a69b33d22ef7b95e43cdb6644f8bb7880f9f3f75891c8198858c",
+      "old_windows": 22,
+      "safe_positions": 2958
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "date_index_sha256": "abf32e0629d862d3ac67f488708de71e490729d2c492e8f36441bbf5ae35cdfe",
+      "old_windows": 22,
+      "safe_positions": 224
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "date_index_sha256": "d27dfd4645fb9abef9139a474095d386fd76fd79e091b12fe8d65c3be2739026",
+      "old_windows": 22,
+      "safe_positions": 3464
+    },
+    {
+      "unit_id": "t2-F3-fragile-five-joint-2013",
+      "date_index_sha256": "171b14d26a3b705184ffbbf8530fc3a1ce5916338a0e02ce8bbad3428c930a2b",
+      "old_windows": 22,
+      "safe_positions": 0
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "date_index_sha256": "e2a5fcb14bcace89fc6219df1ca1dde7ba958376c77bec255a4e6926810f9929",
+      "old_windows": 22,
+      "safe_positions": 3427
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "date_index_sha256": "62ff853e1283c9548d91ae49fd8c2d73afe2cfd23725fbbea507fc795e55b7c2",
+      "old_windows": 22,
+      "safe_positions": 728
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "date_index_sha256": "9f95528692e3db6d0e0d99a9932614478711a1efa51a6401a19d037f6c9f9e44",
+      "old_windows": 22,
+      "safe_positions": 891
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "date_index_sha256": "ee007bf30944836b0defe8abb402b312c26d792e622d9f1dd4189b28a010fd31",
+      "old_windows": 22,
+      "safe_positions": 2856
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "date_index_sha256": "0665c0a9dfb184d6896c33fcef812f804de527c765a3d8f33dd28ed5db6cd748",
+      "old_windows": 22,
+      "safe_positions": 1297
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "date_index_sha256": "21725e5cbb9e7458cc8fbd2fbc61ed068acf2087857c614697cf3c641ffa53fe",
+      "old_windows": 22,
+      "safe_positions": 678
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "date_index_sha256": "91e544ab2c115d7773db04accf0c3f0413103c50ed91ce70f1aa46a2c382fe19",
+      "old_windows": 22,
+      "safe_positions": 2997
+    },
+    {
+      "unit_id": "t2-F3-taper-steepener-2013",
+      "date_index_sha256": "2808f0b64553017af043cb518b959135f7a17d7cc2cd18b0944ab7b02e18b90f",
+      "old_windows": 22,
+      "safe_positions": 82
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "date_index_sha256": "012afb6bf9c4738999e3e4a4239f19943ed6cd0159fa16c456fb35ac0c2bc8e4",
+      "old_windows": 22,
+      "safe_positions": 3214
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "date_index_sha256": "972df467472da19d01d071e23851d86c711278cda18344b9a06a6ed9cfaac888",
+      "old_windows": 22,
+      "safe_positions": 2565
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "date_index_sha256": "9a8e4e38ac4e80898f6792a39f2d764b0bdbc4fd8e43ce5fde8ef18066821847",
+      "old_windows": 22,
+      "safe_positions": 1172
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "date_index_sha256": "4028e0b0fe6621b0ce41ad71c884f68fb30650c28b86552268c3c0328c8e46b9",
+      "old_windows": 22,
+      "safe_positions": 2699
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "date_index_sha256": "4930840394516996e014f66314f5be331527b7a94cfa31eae8decb476d2b726c",
+      "old_windows": 22,
+      "safe_positions": 2960
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "date_index_sha256": "be5320bfe5e448756c68fee38e1d34ee92cb25d02842aec33aa7afc00731ad85",
+      "old_windows": 22,
+      "safe_positions": 2854
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "date_index_sha256": "39320d8425e91e5bbd38daad75131ac527bb0ac69e9288d17644b47fe2506cb3",
+      "old_windows": 22,
+      "safe_positions": 3999
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "date_index_sha256": "e88c662272119bfb48314db282c394b8e09ab23ce4f2add84cbd84f3b0b1ca6c",
+      "old_windows": 22,
+      "safe_positions": 41
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "date_index_sha256": "ec4c31ed9413d418c14ea87e7ee7ea5cbec85887b2f10d4c96a5d0d7dbf6812e",
+      "old_windows": 22,
+      "safe_positions": 3968
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "date_index_sha256": "feabb7fea43e1b0eb4db9649dee7831e76807f9240ca8557f275f6c59e32f5d1",
+      "old_windows": 22,
+      "safe_positions": 4542
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "date_index_sha256": "ac7baf6768f7b8b802857689b87d7cfce3f1d41344b0b9fc85ac8efc60aaf6d8",
+      "old_windows": 22,
+      "safe_positions": 64
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "date_index_sha256": "ee007bf30944836b0defe8abb402b312c26d792e622d9f1dd4189b28a010fd31",
+      "old_windows": 22,
+      "safe_positions": 4487
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "date_index_sha256": "f233627894aea7c1782f22283bde80db6971ebbb2b62144c1a632e2a661215fc",
+      "old_windows": 22,
+      "safe_positions": 1169
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "date_index_sha256": "568a7daba791c8a9a67da21e1da129ccab42aa99db95c503332e80033a2e98a2",
+      "old_windows": 22,
+      "safe_positions": 1159
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "date_index_sha256": "568a7daba791c8a9a67da21e1da129ccab42aa99db95c503332e80033a2e98a2",
+      "old_windows": 22,
+      "safe_positions": 246
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "date_index_sha256": "29f43f01ad1d9573cdc1d212a22ccf115eb19c3991ab56dca1c07198ce13f2da",
+      "old_windows": 22,
+      "safe_positions": 3060
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "date_index_sha256": "453154b47d5fc5efd335053bc69ca4a963205c2d29cca22f1f95e503742747d4",
+      "old_windows": 22,
+      "safe_positions": 3146
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "date_index_sha256": "a426abd55cb42cca1ca7315c90afde4d55100aa43b9ad4396934f1832d735110",
+      "old_windows": 22,
+      "safe_positions": 1274
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "date_index_sha256": "381f6476640aac805fd01e9061b5a4dc8d776c42eab7fa7f279bc73dd93a37cd",
+      "old_windows": 22,
+      "safe_positions": 3997
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "date_index_sha256": "bfb62545501b60bb5cfbb000272a4ed356c852592e78b05f0044fd83976ec767",
+      "old_windows": 22,
+      "safe_positions": 896
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "date_index_sha256": "2db164f76913edf088bc6b9f4819f4ba8aaf730efbf703cb9d9e728c8d270aaa",
+      "old_windows": 22,
+      "safe_positions": 5099
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "date_index_sha256": "d357f8fa8c4b1c8abb02e3088f0f4e240c642314e8e466a7e2864cd1632212d1",
+      "old_windows": 22,
+      "safe_positions": 1856
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "date_index_sha256": "c17f0b0ff3786ed7baff99c27e3dca31e5b0f89a35b69c134ed0140bdd5f3288",
+      "old_windows": 22,
+      "safe_positions": 320
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "date_index_sha256": "7f7353c5264fe9d56d51a1f70c1c98a4567bcab19623457ebf2fe85dbf0931da",
+      "old_windows": 22,
+      "safe_positions": 3994
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "date_index_sha256": "68265eccfd06c402533f6b8cc1e375bda28ef1827dbd8712200c52b42626dec0",
+      "old_windows": 22,
+      "safe_positions": 3695
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "date_index_sha256": "096cc0dbebd55b243b2d36a8d205cc916d0624e8a9a0cd07f4e9efb15dd56161",
+      "old_windows": 22,
+      "safe_positions": 296
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "date_index_sha256": "fd1d22fcfd3ce3647d6f057652b6954f17f9bb71a6e7af4981f3cf0b3a9c2871",
+      "old_windows": 22,
+      "safe_positions": 1441
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "date_index_sha256": "5448dc2fba5e0f36d7af0741dd38a01c8bdb96d1fce18fa1ff0936d31ce3063f",
+      "old_windows": 22,
+      "safe_positions": 3481
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "date_index_sha256": "f47101c09327eb695c7fd8a64cabe2649900a52afaebc39af5d342dfb34c8915",
+      "old_windows": 22,
+      "safe_positions": 4733
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "date_index_sha256": "079039e5527a1bf3b70da4e0a8620985dffe18e65a3e947f5b8cf455601e3e16",
+      "old_windows": 22,
+      "safe_positions": 980
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "date_index_sha256": "0b0bb0621d4a23e9b3dc244dfe4ce574a2c1d28028e4a30f3dbb8013c821dade",
+      "old_windows": 22,
+      "safe_positions": 1842
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "date_index_sha256": "09703c72c1477db0c1c3060a59a660876689ba43a59f3f4b6832a84b14c80efa",
+      "old_windows": 22,
+      "safe_positions": 4876
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "date_index_sha256": "972df467472da19d01d071e23851d86c711278cda18344b9a06a6ed9cfaac888",
+      "old_windows": 22,
+      "safe_positions": 4177
+    }
+  ],
+  "entries": [
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1994-03-17",
+      "end": "1994-06-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1994-06-17",
+      "end": "1994-09-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "1995-10-20",
+      "end": "1996-01-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1996-01-18",
+      "end": "1996-04-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "1996-05-22",
+      "end": "1996-08-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "1996-08-23",
+      "end": "1996-11-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1996-10-29",
+      "end": "1997-02-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "1997-05-05",
+      "end": "1997-08-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "1997-12-29",
+      "end": "1998-04-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "1998-03-30",
+      "end": "1998-06-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1998-05-20",
+      "end": "1998-08-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "1998-08-20",
+      "end": "1998-11-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "1999-01-11",
+      "end": "1999-04-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "1999-04-08",
+      "end": "1999-07-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "1999-04-08",
+      "end": "1999-07-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "1999-07-12",
+      "end": "1999-10-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "2000-01-21",
+      "end": "2000-04-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2000-07-26",
+      "end": "2000-10-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2000-08-03",
+      "end": "2000-08-14",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "2000-08-21",
+      "end": "2000-11-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2000-08-22",
+      "end": "2000-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2000-08-23",
+      "end": "2000-09-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 20,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2000-10-23",
+      "end": "2001-01-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2000-10-24",
+      "end": "2001-01-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2000-10-25",
+      "end": "2001-01-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2000-10-25",
+      "end": "2001-01-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2000-10-25",
+      "end": "2001-01-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2000-10-25",
+      "end": "2001-01-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2000-10-27",
+      "end": "2001-01-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "2000-11-17",
+      "end": "2001-02-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2000-12-18",
+      "end": "2001-01-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-01-24",
+      "end": "2001-07-25",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-begins-2013",
+      "family": "T2-F2",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "family": "T2-F3",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "family": "T2-F3",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-01-25",
+      "end": "2001-02-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-01-25",
+      "end": "2001-02-26",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-01-25",
+      "end": "2001-02-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2001-01-25",
+      "end": "2001-07-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2001-01-26",
+      "end": "2001-07-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2001-01-26",
+      "end": "2001-07-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2001-01-26",
+      "end": "2001-04-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2001-01-26",
+      "end": "2001-04-27",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2001-01-29",
+      "end": "2001-08-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "family": "T2-F1",
+      "cutoff": "2001-01-30",
+      "end": "2001-08-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2001-02-07",
+      "end": "2001-05-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2001-02-09",
+      "end": "2001-02-21",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2001-02-14",
+      "end": "2001-05-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2001-02-23",
+      "end": "2001-05-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2001-03-05",
+      "end": "2001-06-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2001-03-05",
+      "end": "2001-06-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2001-03-05",
+      "end": "2001-06-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2001-03-27",
+      "end": "2001-06-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2001-04-09",
+      "end": "2001-07-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2001-04-11",
+      "end": "2001-07-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2001-04-11",
+      "end": "2001-07-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "cutoff": "2001-04-24",
+      "end": "2002-01-28",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-jpy-ycc-flex-2018",
+      "family": "T2-F1",
+      "cutoff": "2001-04-24",
+      "end": "2002-01-28",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2001-04-25",
+      "end": "2001-05-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2001-04-26",
+      "end": "2002-01-31",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2001-04-26",
+      "end": "2002-01-31",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2001-04-26",
+      "end": "2001-05-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "2001-04-30",
+      "end": "2001-07-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2001-05-11",
+      "end": "2001-08-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2001-05-22",
+      "end": "2001-08-21",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-07-26",
+      "end": "2002-01-31",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2001-07-27",
+      "end": "2002-02-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-07-27",
+      "end": "2002-02-01",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2001-07-27",
+      "end": "2002-02-01",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2001-07-27",
+      "end": "2002-02-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2001-08-01",
+      "end": "2002-02-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2001-08-02",
+      "end": "2002-02-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2001-08-13",
+      "end": "2001-11-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2001-08-13",
+      "end": "2001-09-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2001-08-15",
+      "end": "2001-11-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2001-08-17",
+      "end": "2001-09-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2001-09-04",
+      "end": "2002-03-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2001-09-04",
+      "end": "2001-12-07",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2001-09-04",
+      "end": "2001-12-06",
+      "target_cells": 20,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2001-09-04",
+      "end": "2001-10-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2001-09-18",
+      "end": "2001-12-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2001-09-24",
+      "end": "2001-10-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2001-10-01",
+      "end": "2001-10-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2001-10-02",
+      "end": "2002-01-02",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2001-10-05",
+      "end": "2001-10-16",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2001-10-12",
+      "end": "2001-11-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2001-10-25",
+      "end": "2002-01-29",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-10-31",
+      "end": "2001-12-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-11-01",
+      "end": "2001-12-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2001-11-02",
+      "end": "2001-12-04",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-11-05",
+      "end": "2002-02-07",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2001-11-13",
+      "end": "2002-02-15",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2001-11-21",
+      "end": "2002-02-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2001-11-23",
+      "end": "2002-02-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-11-23",
+      "end": "2002-02-26",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-11-23",
+      "end": "2002-02-26",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2001-11-28",
+      "end": "2002-03-01",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2001-11-29",
+      "end": "2001-12-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2001-12-10",
+      "end": "2002-03-14",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2001-12-20",
+      "end": "2002-03-25",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2001-12-26",
+      "end": "2002-03-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2001-12-27",
+      "end": "2002-04-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2001-12-27",
+      "end": "2002-04-01",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2001-12-28",
+      "end": "2002-01-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2002-01-03",
+      "end": "2002-04-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2002-01-16",
+      "end": "2002-04-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2002-01-17",
+      "end": "2002-04-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2002-01-18",
+      "end": "2002-04-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2002-01-22",
+      "end": "2002-04-22",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2002-01-28",
+      "end": "2002-04-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2002-01-29",
+      "end": "2002-04-30",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2002-01-31",
+      "end": "2002-05-02",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2002-02-05",
+      "end": "2002-03-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2002-02-06",
+      "end": "2002-03-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2002-02-07",
+      "end": "2002-03-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2002-02-07",
+      "end": "2002-03-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2002-03-05",
+      "end": "2002-04-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2002-03-06",
+      "end": "2002-06-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2002-03-28",
+      "end": "2002-06-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2002-04-01",
+      "end": "2002-07-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2002-04-03",
+      "end": "2002-07-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2002-04-03",
+      "end": "2002-07-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2002-04-05",
+      "end": "2002-05-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2002-04-10",
+      "end": "2002-05-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2002-04-23",
+      "end": "2002-05-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2002-05-03",
+      "end": "2002-06-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2002-05-06",
+      "end": "2002-06-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2002-05-09",
+      "end": "2002-08-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2002-05-16",
+      "end": "2002-06-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2002-05-24",
+      "end": "2002-08-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2002-05-29",
+      "end": "2002-06-07",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2002-06-05",
+      "end": "2002-09-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2002-06-05",
+      "end": "2002-07-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2002-06-21",
+      "end": "2002-09-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2002-06-25",
+      "end": "2002-09-24",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2002-06-27",
+      "end": "2002-07-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2002-07-01",
+      "end": "2002-09-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "2002-07-24",
+      "end": "2002-10-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2002-07-30",
+      "end": "2002-08-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2002-07-31",
+      "end": "2002-08-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2002-08-02",
+      "end": "2002-09-03",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-brl-2013",
+      "family": "T2-F2",
+      "cutoff": "2002-09-16",
+      "end": "2002-12-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "cutoff": "2002-10-07",
+      "end": "2003-01-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-fragile-five-inr-2013",
+      "family": "T2-F2",
+      "cutoff": "2002-10-25",
+      "end": "2003-01-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2002-11-04",
+      "end": "2002-12-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2002-12-09",
+      "end": "2003-03-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2002-12-11",
+      "end": "2003-01-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2002-12-16",
+      "end": "2003-03-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2002-12-23",
+      "end": "2003-03-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2003-01-06",
+      "end": "2003-07-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2003-01-08",
+      "end": "2003-04-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2003-01-08",
+      "end": "2003-07-10",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2003-01-16",
+      "end": "2003-01-28",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2003-01-23",
+      "end": "2003-04-24",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2003-01-24",
+      "end": "2003-04-24",
+      "target_cells": 20,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2003-01-24",
+      "end": "2003-02-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2003-01-27",
+      "end": "2003-07-28",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2003-01-29",
+      "end": "2003-04-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2003-01-31",
+      "end": "2003-05-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2003-02-21",
+      "end": "2003-03-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2003-03-10",
+      "end": "2003-06-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2003-03-13",
+      "end": "2003-06-12",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2003-03-18",
+      "end": "2003-04-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2003-03-19",
+      "end": "2003-06-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2003-04-09",
+      "end": "2003-05-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2003-04-11",
+      "end": "2003-05-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2003-04-14",
+      "end": "2003-05-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2003-04-14",
+      "end": "2003-05-14",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2003-04-25",
+      "end": "2003-10-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2003-05-08",
+      "end": "2003-06-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2003-05-09",
+      "end": "2003-06-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2003-06-09",
+      "end": "2003-09-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2003-06-13",
+      "end": "2003-09-15",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2003-07-09",
+      "end": "2003-10-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2003-07-09",
+      "end": "2003-08-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2003-08-14",
+      "end": "2003-11-14",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2003-08-19",
+      "end": "2003-11-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2003-08-20",
+      "end": "2003-11-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2003-09-03",
+      "end": "2003-10-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2003-09-09",
+      "end": "2003-12-08",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2003-09-16",
+      "end": "2003-12-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2003-10-20",
+      "end": "2003-10-29",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2003-10-21",
+      "end": "2004-01-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2003-11-07",
+      "end": "2003-12-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2003-11-14",
+      "end": "2004-02-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2003-11-18",
+      "end": "2003-12-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2003-11-18",
+      "end": "2003-12-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2003-11-19",
+      "end": "2003-12-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2003-11-19",
+      "end": "2003-12-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2003-11-21",
+      "end": "2004-02-25",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "cutoff": "2003-12-03",
+      "end": "2004-03-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2003-12-12",
+      "end": "2004-03-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2003-12-17",
+      "end": "2004-03-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2003-12-26",
+      "end": "2004-03-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2003-12-26",
+      "end": "2004-03-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2003-12-29",
+      "end": "2004-03-30",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2003-12-30",
+      "end": "2004-03-31",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2003-12-31",
+      "end": "2004-04-01",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2004-01-02",
+      "end": "2004-04-02",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2004-01-07",
+      "end": "2004-02-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2004-02-03",
+      "end": "2004-05-04",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2004-02-23",
+      "end": "2004-05-21",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2004-03-05",
+      "end": "2004-06-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2004-03-05",
+      "end": "2004-06-04",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2004-03-09",
+      "end": "2004-04-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2004-03-26",
+      "end": "2004-06-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2004-03-30",
+      "end": "2004-04-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2004-04-07",
+      "end": "2004-05-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2004-04-12",
+      "end": "2004-07-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2004-04-21",
+      "end": "2004-05-20",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2004-04-22",
+      "end": "2004-07-22",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2004-04-27",
+      "end": "2004-07-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2004-04-27",
+      "end": "2004-05-06",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2004-05-03",
+      "end": "2004-08-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2004-05-03",
+      "end": "2004-06-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2004-05-04",
+      "end": "2004-08-04",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2004-05-04",
+      "end": "2004-06-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2004-05-10",
+      "end": "2004-11-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2004-05-11",
+      "end": "2004-08-10",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2004-05-11",
+      "end": "2004-08-11",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-05-20",
+      "end": "2004-06-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-05-20",
+      "end": "2004-06-22",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-05-20",
+      "end": "2004-06-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2004-05-27",
+      "end": "2004-08-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-05-27",
+      "end": "2004-08-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2004-06-08",
+      "end": "2004-07-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2004-06-09",
+      "end": "2004-07-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2004-07-08",
+      "end": "2004-10-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2004-07-19",
+      "end": "2004-08-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2004-07-21",
+      "end": "2005-01-21",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2004-07-21",
+      "end": "2004-08-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2004-07-30",
+      "end": "2004-10-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2004-08-16",
+      "end": "2004-11-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2004-08-25",
+      "end": "2004-09-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2004-08-25",
+      "end": "2004-11-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2004-08-31",
+      "end": "2004-12-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2004-09-01",
+      "end": "2004-12-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2004-09-03",
+      "end": "2005-03-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2004-09-03",
+      "end": "2004-10-05",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2004-09-08",
+      "end": "2005-03-15",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2004-09-29",
+      "end": "2004-10-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2004-09-30",
+      "end": "2005-01-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2004-10-01",
+      "end": "2005-04-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2004-10-14",
+      "end": "2005-04-18",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-10-21",
+      "end": "2004-11-19",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-10-22",
+      "end": "2004-11-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2004-10-22",
+      "end": "2004-11-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2004-11-15",
+      "end": "2005-02-15",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2004-12-24",
+      "end": "2005-03-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "family": "T2-F3",
+      "cutoff": "2004-12-27",
+      "end": "2005-06-27",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-stress-2015",
+      "family": "T2-F2",
+      "cutoff": "2005-01-04",
+      "end": "2005-04-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "family": "T2-F3",
+      "cutoff": "2005-01-19",
+      "end": "2005-07-20",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2005-01-28",
+      "end": "2005-02-08",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2005-02-08",
+      "end": "2005-05-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2005-02-09",
+      "end": "2005-05-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2005-02-10",
+      "end": "2005-03-14",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "family": "T2-F1",
+      "cutoff": "2005-02-15",
+      "end": "2005-08-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2005-02-15",
+      "end": "2005-05-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2005-02-18",
+      "end": "2005-05-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2005-02-18",
+      "end": "2005-05-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2005-02-23",
+      "end": "2005-05-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "cutoff": "2005-03-02",
+      "end": "2005-06-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2005-03-10",
+      "end": "2005-04-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2005-04-15",
+      "end": "2005-07-15",
+      "target_cells": 20,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2005-04-18",
+      "end": "2005-07-18",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2005-05-05",
+      "end": "2005-06-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2005-05-26",
+      "end": "2005-08-25",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2005-06-23",
+      "end": "2005-09-22",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2005-07-12",
+      "end": "2005-10-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2005-07-28",
+      "end": "2005-08-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2005-08-23",
+      "end": "2005-11-23",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2005-08-26",
+      "end": "2005-11-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2005-08-29",
+      "end": "2005-09-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2005-08-31",
+      "end": "2005-09-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2005-09-01",
+      "end": "2005-10-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2005-09-01",
+      "end": "2005-10-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2005-09-06",
+      "end": "2006-03-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-09-07",
+      "end": "2006-03-09",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2005-09-08",
+      "end": "2005-10-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2005-09-09",
+      "end": "2005-10-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2005-09-15",
+      "end": "2005-12-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2005-09-19",
+      "end": "2005-09-28",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2005-10-03",
+      "end": "2006-04-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2005-10-06",
+      "end": "2005-11-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-10-17",
+      "end": "2006-04-20",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2005-10-19",
+      "end": "2005-11-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-10-24",
+      "end": "2006-01-26",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2005-10-25",
+      "end": "2006-01-27",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2005-11-02",
+      "end": "2006-02-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2005-11-10",
+      "end": "2005-12-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2005-11-16",
+      "end": "2006-08-18",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2005-11-28",
+      "end": "2006-03-02",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2005-11-28",
+      "end": "2005-12-28",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2005-11-30",
+      "end": "2005-12-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2005-12-01",
+      "end": "2006-01-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2005-12-14",
+      "end": "2006-09-15",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2005-12-14",
+      "end": "2006-01-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2005-12-15",
+      "end": "2006-03-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-12-19",
+      "end": "2006-03-22",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2005-12-21",
+      "end": "2006-03-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-12-22",
+      "end": "2006-03-27",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2005-12-28",
+      "end": "2006-03-30",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2006-01-18",
+      "end": "2006-07-19",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2006-01-24",
+      "end": "2006-10-24",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2006-01-30",
+      "end": "2006-05-01",
+      "target_cells": 6,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2006-02-01",
+      "end": "2006-05-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2006-02-07",
+      "end": "2006-03-09",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2006-02-22",
+      "end": "2006-05-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2006-03-15",
+      "end": "2006-04-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2006-03-20",
+      "end": "2006-06-19",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2006-03-23",
+      "end": "2006-09-21",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2006-03-24",
+      "end": "2006-04-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2006-03-28",
+      "end": "2006-09-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2006-04-06",
+      "end": "2006-10-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2006-04-07",
+      "end": "2006-07-10",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2006-04-10",
+      "end": "2006-07-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2006-04-18",
+      "end": "2006-07-19",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2006-04-19",
+      "end": "2006-05-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2006-04-27",
+      "end": "2006-10-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2006-05-10",
+      "end": "2006-08-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2006-05-10",
+      "end": "2006-05-19",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2006-05-11",
+      "end": "2006-06-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2006-05-12",
+      "end": "2006-06-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2006-05-18",
+      "end": "2006-11-16",
+      "target_cells": 4,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2006-05-23",
+      "end": "2006-06-22",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2006-05-31",
+      "end": "2006-08-30",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2006-06-14",
+      "end": "2006-09-13",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2006-06-22",
+      "end": "2006-09-21",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2006-07-05",
+      "end": "2006-08-03",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2006-07-10",
+      "end": "2006-10-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2006-07-14",
+      "end": "2006-10-13",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2006-07-24",
+      "end": "2006-10-23",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2006-07-24",
+      "end": "2006-10-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2006-08-04",
+      "end": "2006-11-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2006-08-09",
+      "end": "2006-09-08",
+      "target_cells": 2,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2006-08-11",
+      "end": "2006-09-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2006-08-11",
+      "end": "2006-09-12",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2006-08-24",
+      "end": "2006-11-24",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2006-08-28",
+      "end": "2006-11-29",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2006-08-29",
+      "end": "2006-09-28",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2006-09-05",
+      "end": "2006-12-06",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2006-09-06",
+      "end": "2006-12-07",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-taper-steepener-2013",
+      "family": "T2-F3",
+      "cutoff": "2006-09-06",
+      "end": "2007-03-09",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2006-09-15",
+      "end": "2006-12-18",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2006-09-15",
+      "end": "2006-10-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2006-10-13",
+      "end": "2007-01-16",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2006-10-31",
+      "end": "2007-02-01",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2006-11-09",
+      "end": "2006-12-11",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2006-11-22",
+      "end": "2007-02-27",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2006-11-28",
+      "end": "2007-03-01",
+      "target_cells": 8,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2006-11-30",
+      "end": "2007-03-05",
+      "target_cells": 20,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-begins-2013",
+      "family": "T2-F2",
+      "cutoff": "2006-12-07",
+      "end": "2007-06-08",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2006-12-28",
+      "end": "2007-01-10",
+      "target_cells": 3,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2007-01-03",
+      "end": "2007-04-04",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "cutoff": "2007-01-09",
+      "end": "2007-04-10",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2007-01-09",
+      "end": "2007-02-08",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2007-01-16",
+      "end": "2007-04-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2007-01-16",
+      "end": "2007-04-17",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "cutoff": "2007-01-24",
+      "end": "2007-10-19",
+      "target_cells": 2,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2007-01-24",
+      "end": "2007-02-23",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-02-27",
+      "end": "2007-05-30",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2007-03-05",
+      "end": "2007-06-04",
+      "target_cells": 6,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2007-03-12",
+      "end": "2007-06-08",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2007-03-28",
+      "end": "2007-04-26",
+      "target_cells": 1,
+      "split": "fit"
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "family": "T2-F3",
+      "cutoff": "2007-04-17",
+      "end": "2007-10-16",
+      "target_cells": 6,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-05-02",
+      "end": "2007-08-01",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2007-05-07",
+      "end": "2007-06-06",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2007-05-08",
+      "end": "2007-06-07",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2007-05-09",
+      "end": "2007-06-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-05-17",
+      "end": "2007-08-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-05-17",
+      "end": "2007-08-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-jpy-carry-2007",
+      "family": "T2-F4",
+      "cutoff": "2007-05-18",
+      "end": "2007-06-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "family": "T2-F3",
+      "cutoff": "2007-05-22",
+      "end": "2007-11-21",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2007-06-05",
+      "end": "2007-12-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-06-08",
+      "end": "2007-12-06",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2007-06-13",
+      "end": "2007-07-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2007-06-14",
+      "end": "2007-07-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2007-06-18",
+      "end": "2007-07-18",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2007-06-19",
+      "end": "2007-07-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "family": "T2-F1",
+      "cutoff": "2007-07-03",
+      "end": "2008-01-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-quant-crowding-2007",
+      "family": "T2-F4",
+      "cutoff": "2007-07-10",
+      "end": "2007-07-19",
+      "target_cells": 3,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2007-07-11",
+      "end": "2007-08-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-07-25",
+      "end": "2007-10-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-07-26",
+      "end": "2008-01-29",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-08-16",
+      "end": "2007-11-14",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2007-08-17",
+      "end": "2007-11-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2007-09-18",
+      "end": "2007-10-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2007-09-18",
+      "end": "2007-10-18",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2007-09-20",
+      "end": "2007-10-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2007-09-27",
+      "end": "2007-12-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-10-15",
+      "end": "2008-01-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2007-10-15",
+      "end": "2008-01-16",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-trichet-alertness-2008",
+      "family": "T2-F2",
+      "cutoff": "2007-10-19",
+      "end": "2008-01-23",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2007-10-26",
+      "end": "2008-07-30",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-10-29",
+      "end": "2008-01-31",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-10-31",
+      "end": "2008-02-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2007-10-31",
+      "end": "2008-02-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2007-11-01",
+      "end": "2008-02-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-11-01",
+      "end": "2008-02-04",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2007-11-12",
+      "end": "2008-02-13",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2007-11-16",
+      "end": "2007-12-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-cnh-tradewar-2018",
+      "family": "T2-F2",
+      "cutoff": "2007-11-19",
+      "end": "2008-02-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2007-11-29",
+      "end": "2008-03-03",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2007-12-06",
+      "end": "2008-09-08",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-2y-2008",
+      "family": "T2-F4",
+      "cutoff": "2007-12-27",
+      "end": "2008-03-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2008-01-07",
+      "end": "2008-04-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2008-01-15",
+      "end": "2008-02-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2008-01-31",
+      "end": "2008-10-30",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2008-02-01",
+      "end": "2008-05-01",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-02-11",
+      "end": "2008-03-12",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-02-12",
+      "end": "2008-03-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-02-12",
+      "end": "2008-03-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2008-02-27",
+      "end": "2008-03-27",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2008-02-29",
+      "end": "2008-05-30",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2008-03-11",
+      "end": "2008-09-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2008-03-17",
+      "end": "2008-04-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2008-03-27",
+      "end": "2008-06-25",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2008-03-31",
+      "end": "2008-06-27",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2008-04-15",
+      "end": "2008-05-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-qe1-expansion-2009",
+      "family": "T2-F4",
+      "cutoff": "2008-05-01",
+      "end": "2008-07-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2008-05-07",
+      "end": "2008-08-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2008-06-03",
+      "end": "2008-09-02",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2008-06-18",
+      "end": "2008-09-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2008-06-20",
+      "end": "2008-09-22",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2008-07-09",
+      "end": "2009-01-12",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2008-07-09",
+      "end": "2008-10-07",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-07-14",
+      "end": "2008-08-12",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-factor-stress-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-07-14",
+      "end": "2008-08-12",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-funding-stress-10y-2008",
+      "family": "T2-F4",
+      "cutoff": "2008-07-14",
+      "end": "2008-08-12",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2008-07-21",
+      "end": "2008-08-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2008-07-24",
+      "end": "2008-08-22",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2008-07-29",
+      "end": "2008-10-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2008-08-05",
+      "end": "2008-11-04",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2008-08-18",
+      "end": "2008-11-18",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2008-08-26",
+      "end": "2008-09-25",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2008-08-29",
+      "end": "2008-12-02",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-momentum-reversal-2009",
+      "family": "T2-F4",
+      "cutoff": "2008-09-03",
+      "end": "2008-12-02",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2008-09-04",
+      "end": "2008-12-05",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2008-09-10",
+      "end": "2008-10-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2008-09-11",
+      "end": "2008-10-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2008-09-16",
+      "end": "2008-12-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2008-10-07",
+      "end": "2008-11-06",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2008-10-10",
+      "end": "2008-11-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2008-12-19",
+      "end": "2009-06-23",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2008-12-26",
+      "end": "2009-01-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2008-12-31",
+      "end": "2009-04-02",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2009-01-14",
+      "end": "2009-02-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2009-01-15",
+      "end": "2009-04-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2009-01-15",
+      "end": "2009-02-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2009-01-16",
+      "end": "2009-04-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-jpy-ycc-flex-2018",
+      "family": "T2-F1",
+      "cutoff": "2009-02-25",
+      "end": "2009-11-23",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2009-03-05",
+      "end": "2009-04-03",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-ust-positioning-2018",
+      "family": "T2-F1",
+      "cutoff": "2009-04-01",
+      "end": "2010-01-04",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2009-04-03",
+      "end": "2009-10-02",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2009-04-07",
+      "end": "2009-07-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2009-04-10",
+      "end": "2009-10-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2009-06-03",
+      "end": "2009-12-03",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2009-06-11",
+      "end": "2009-09-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2009-06-24",
+      "end": "2009-12-24",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2009-06-26",
+      "end": "2009-09-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2009-07-02",
+      "end": "2010-01-05",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2009-07-20",
+      "end": "2009-10-20",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2009-07-24",
+      "end": "2009-08-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2009-07-30",
+      "end": "2009-08-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2009-07-31",
+      "end": "2009-08-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2009-08-03",
+      "end": "2009-09-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2009-09-14",
+      "end": "2009-12-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2009-09-15",
+      "end": "2009-10-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2009-09-16",
+      "end": "2009-10-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2009-09-21",
+      "end": "2009-12-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-third-cut-2019",
+      "family": "T2-F1",
+      "cutoff": "2009-09-25",
+      "end": "2010-06-29",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2009-10-05",
+      "end": "2010-04-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "family": "T2-F3",
+      "cutoff": "2009-10-08",
+      "end": "2010-04-13",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2009-10-09",
+      "end": "2010-01-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2009-10-14",
+      "end": "2010-04-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2009-10-15",
+      "end": "2010-01-19",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2009-10-15",
+      "end": "2010-01-19",
+      "target_cells": 20,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2009-11-09",
+      "end": "2009-12-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2009-11-25",
+      "end": "2009-12-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2009-11-25",
+      "end": "2009-12-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "family": "T2-F3",
+      "cutoff": "2009-12-01",
+      "end": "2010-06-02",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2009-12-04",
+      "end": "2010-06-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2010-01-06",
+      "end": "2010-07-07",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2010-01-07",
+      "end": "2010-04-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2010-01-12",
+      "end": "2010-04-13",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-qe2-jackson-hole-2010",
+      "family": "T2-F2",
+      "cutoff": "2010-01-14",
+      "end": "2010-04-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2010-01-21",
+      "end": "2010-04-21",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "family": "T2-F1",
+      "cutoff": "2010-01-28",
+      "end": "2010-08-02",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2010-01-28",
+      "end": "2010-04-29",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2010-01-29",
+      "end": "2010-04-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2010-02-01",
+      "end": "2010-04-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2010-02-01",
+      "end": "2010-04-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2010-02-10",
+      "end": "2010-05-12",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2010-04-08",
+      "end": "2010-05-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2010-04-14",
+      "end": "2010-07-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2010-05-10",
+      "end": "2010-08-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2010-05-17",
+      "end": "2010-06-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "cutoff": "2010-06-10",
+      "end": "2011-03-15",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2010-06-16",
+      "end": "2010-07-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2010-07-14",
+      "end": "2010-08-12",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2010-08-13",
+      "end": "2010-09-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2010-08-26",
+      "end": "2010-11-29",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2010-08-27",
+      "end": "2010-11-30",
+      "target_cells": 20,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2010-09-01",
+      "end": "2010-12-03",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2010-09-20",
+      "end": "2010-10-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2010-09-20",
+      "end": "2010-10-20",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2010-10-08",
+      "end": "2010-11-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-safe-haven-paradox-2011",
+      "family": "T2-F3",
+      "cutoff": "2010-10-19",
+      "end": "2011-01-21",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2010-10-19",
+      "end": "2011-04-20",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2010-10-21",
+      "end": "2011-04-21",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2010-11-01",
+      "end": "2011-02-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2010-11-02",
+      "end": "2011-02-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2010-11-09",
+      "end": "2011-02-11",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2010-12-07",
+      "end": "2011-03-10",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2010-12-08",
+      "end": "2011-03-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2010-12-10",
+      "end": "2011-03-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2010-12-10",
+      "end": "2011-03-15",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2010-12-17",
+      "end": "2011-03-21",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2010-12-20",
+      "end": "2011-01-20",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2010-12-29",
+      "end": "2011-01-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2011-01-05",
+      "end": "2011-07-07",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-01-06",
+      "end": "2011-02-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-01-07",
+      "end": "2011-02-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-01-10",
+      "end": "2011-02-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-01-11",
+      "end": "2011-02-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2011-01-13",
+      "end": "2011-04-14",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2011-02-14",
+      "end": "2011-05-13",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2011-03-03",
+      "end": "2011-06-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2011-03-09",
+      "end": "2011-04-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2011-03-24",
+      "end": "2011-04-25",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2011-03-29",
+      "end": "2011-06-27",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2011-03-29",
+      "end": "2011-06-27",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2011-03-30",
+      "end": "2011-06-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2011-04-21",
+      "end": "2011-10-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2011-04-25",
+      "end": "2011-10-21",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2011-05-04",
+      "end": "2011-08-03",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-mkt-selloff-2011",
+      "family": "T2-F4",
+      "cutoff": "2011-05-20",
+      "end": "2011-06-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-ust-downgrade-watch-2011",
+      "family": "T2-F4",
+      "cutoff": "2011-05-20",
+      "end": "2011-06-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-06-01",
+      "end": "2011-06-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2011-06-06",
+      "end": "2011-09-02",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2011-06-08",
+      "end": "2011-09-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2011-06-29",
+      "end": "2012-01-03",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2011-07-08",
+      "end": "2012-01-10",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2011-07-26",
+      "end": "2011-08-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2011-08-05",
+      "end": "2011-11-04",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2011-08-12",
+      "end": "2011-11-16",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2011-08-18",
+      "end": "2011-09-19",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2011-08-26",
+      "end": "2011-11-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2011-08-26",
+      "end": "2011-11-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2011-08-30",
+      "end": "2012-06-01",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2011-09-14",
+      "end": "2011-12-15",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2011-09-30",
+      "end": "2012-01-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2011-10-12",
+      "end": "2012-01-13",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2011-10-31",
+      "end": "2012-08-01",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2011-11-01",
+      "end": "2011-12-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2011-11-01",
+      "end": "2011-12-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2011-11-03",
+      "end": "2011-12-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2011-11-04",
+      "end": "2012-02-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2011-11-15",
+      "end": "2012-02-16",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2011-11-22",
+      "end": "2012-02-27",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2011-12-02",
+      "end": "2012-03-06",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2011-12-05",
+      "end": "2012-06-07",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2011-12-07",
+      "end": "2012-01-09",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2012-01-05",
+      "end": "2012-04-05",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2012-01-10",
+      "end": "2012-04-10",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2012-01-12",
+      "end": "2012-04-12",
+      "target_cells": 6,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2012-01-18",
+      "end": "2012-04-18",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-whatever-it-takes-2012",
+      "family": "T2-F2",
+      "cutoff": "2012-01-25",
+      "end": "2012-04-25",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2012-01-26",
+      "end": "2012-10-24",
+      "target_cells": 2,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2012-01-31",
+      "end": "2012-04-30",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2012-02-02",
+      "end": "2012-03-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2012-02-15",
+      "end": "2012-05-15",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2012-02-17",
+      "end": "2012-08-16",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2012-03-01",
+      "end": "2012-04-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2012-03-26",
+      "end": "2012-04-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2012-04-09",
+      "end": "2012-05-08",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-taper-steepener-2013",
+      "family": "T2-F3",
+      "cutoff": "2012-04-11",
+      "end": "2012-10-10",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2012-05-01",
+      "end": "2012-06-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2012-05-21",
+      "end": "2012-06-20",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2012-05-29",
+      "end": "2012-08-27",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "cutoff": "2012-05-30",
+      "end": "2012-08-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2012-06-15",
+      "end": "2012-09-14",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2012-06-21",
+      "end": "2012-07-23",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2012-06-26",
+      "end": "2012-09-25",
+      "target_cells": 4,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2012-06-29",
+      "end": "2012-07-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2012-07-10",
+      "end": "2013-01-11",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2012-07-11",
+      "end": "2012-10-11",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2012-07-12",
+      "end": "2012-10-12",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2012-07-16",
+      "end": "2013-01-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2012-07-16",
+      "end": "2012-10-17",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2012-07-23",
+      "end": "2013-01-29",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2012-08-03",
+      "end": "2012-11-05",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2012-08-03",
+      "end": "2012-11-05",
+      "target_cells": 8,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2012-09-05",
+      "end": "2012-10-04",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2012-09-28",
+      "end": "2013-04-08",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-taper-begins-2013",
+      "family": "T2-F2",
+      "cutoff": "2012-10-15",
+      "end": "2013-04-19",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2012-10-18",
+      "end": "2013-01-24",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-taper-warning-2013",
+      "family": "T2-F4",
+      "cutoff": "2012-10-23",
+      "end": "2013-01-28",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2012-11-14",
+      "end": "2013-05-17",
+      "target_cells": 4,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-taper-testimony-2013",
+      "family": "T2-F2",
+      "cutoff": "2012-11-16",
+      "end": "2013-02-21",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "cutoff": "2012-11-19",
+      "end": "2013-02-22",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2012-11-20",
+      "end": "2013-02-22",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2012-12-18",
+      "end": "2013-03-21",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2012-12-18",
+      "end": "2013-03-21",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2012-12-26",
+      "end": "2013-06-28",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2012-12-31",
+      "end": "2013-01-31",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-01-01",
+      "end": "2013-02-01",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2013-01-03",
+      "end": "2013-02-04",
+      "target_cells": 1,
+      "split": "select"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2013-01-10",
+      "end": "2013-04-11",
+      "target_cells": 8,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2013-02-06",
+      "end": "2013-05-08",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2013-02-11",
+      "end": "2013-05-14",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2013-02-14",
+      "end": "2013-05-16",
+      "target_cells": 2,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-02-25",
+      "end": "2013-03-26",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-02-25",
+      "end": "2013-03-26",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-02-27",
+      "end": "2013-03-28",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-02-28",
+      "end": "2013-04-01",
+      "target_cells": 1,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2013-03-08",
+      "end": "2013-06-07",
+      "target_cells": 8,
+      "split": "purged"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2013-03-13",
+      "end": "2013-06-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2013-05-01",
+      "end": "2013-06-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2013-05-09",
+      "end": "2013-06-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2013-05-31",
+      "end": "2013-07-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2013-06-13",
+      "end": "2013-07-15",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2013-06-21",
+      "end": "2013-09-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-divergence-2014",
+      "family": "T2-F3",
+      "cutoff": "2013-07-03",
+      "end": "2014-01-06",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2013-07-17",
+      "end": "2013-10-16",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2013-07-23",
+      "end": "2013-10-22",
+      "target_cells": 20,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-08-09",
+      "end": "2013-09-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2013-09-04",
+      "end": "2013-10-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dots-vs-oil-2014",
+      "family": "T2-F3",
+      "cutoff": "2013-09-12",
+      "end": "2014-03-18",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2013-09-16",
+      "end": "2014-03-20",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2013-10-01",
+      "end": "2013-11-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2013-10-25",
+      "end": "2013-11-26",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2013-11-06",
+      "end": "2014-02-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-draghi-precommit-2014",
+      "family": "T2-F2",
+      "cutoff": "2013-11-20",
+      "end": "2014-02-26",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-patient-dropped-2015",
+      "family": "T2-F1",
+      "cutoff": "2013-12-03",
+      "end": "2014-06-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2013-12-09",
+      "end": "2014-03-12",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2013-12-09",
+      "end": "2014-03-12",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2013-12-16",
+      "end": "2014-01-16",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2013-12-19",
+      "end": "2014-03-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2013-12-24",
+      "end": "2014-03-27",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2014-01-27",
+      "end": "2014-02-26",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "cutoff": "2014-02-10",
+      "end": "2014-11-07",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2014-03-04",
+      "end": "2014-09-02",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2014-03-18",
+      "end": "2014-09-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2014-04-15",
+      "end": "2014-07-15",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "cutoff": "2014-04-24",
+      "end": "2014-07-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2014-05-01",
+      "end": "2014-06-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2014-05-20",
+      "end": "2014-06-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2014-05-23",
+      "end": "2014-06-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-ecb-qe-telegraph-2014",
+      "family": "T2-F2",
+      "cutoff": "2014-05-28",
+      "end": "2014-08-26",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-opec-cad-2014",
+      "family": "T2-F2",
+      "cutoff": "2014-05-28",
+      "end": "2014-08-26",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2014-06-01",
+      "end": "2014-07-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2014-06-04",
+      "end": "2014-12-04",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2014-07-24",
+      "end": "2015-01-27",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2014-08-11",
+      "end": "2014-09-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2014-08-20",
+      "end": "2015-02-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2014-08-27",
+      "end": "2015-02-27",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2014-08-29",
+      "end": "2014-12-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2014-10-03",
+      "end": "2015-01-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2014-10-06",
+      "end": "2015-01-09",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2014-10-06",
+      "end": "2014-11-04",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-chf-floor-strain-2015",
+      "family": "T2-F4",
+      "cutoff": "2014-10-17",
+      "end": "2014-11-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2014-12-08",
+      "end": "2015-01-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2014-12-08",
+      "end": "2015-01-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2014-12-08",
+      "end": "2015-01-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2014-12-10",
+      "end": "2015-01-12",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2014-12-12",
+      "end": "2015-06-15",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2015-01-05",
+      "end": "2015-04-07",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2015-01-14",
+      "end": "2015-04-15",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2015-01-16",
+      "end": "2015-02-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2015-02-05",
+      "end": "2015-03-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2015-02-17",
+      "end": "2015-05-15",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2015-02-19",
+      "end": "2015-05-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2015-02-20",
+      "end": "2015-03-23",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2015-02-25",
+      "end": "2015-05-26",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2015-02-26",
+      "end": "2015-05-28",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2015-03-03",
+      "end": "2015-06-01",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2015-03-12",
+      "end": "2015-06-10",
+      "target_cells": 20,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2015-04-01",
+      "end": "2015-05-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2015-05-18",
+      "end": "2015-08-17",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "cutoff": "2015-06-01",
+      "end": "2015-06-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2015-06-11",
+      "end": "2015-07-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2015-06-16",
+      "end": "2015-07-16",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2015-06-17",
+      "end": "2015-07-17",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2015-08-01",
+      "end": "2015-09-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-nirp-paradox-2016",
+      "family": "T2-F2",
+      "cutoff": "2015-08-03",
+      "end": "2015-11-02",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2015-09-01",
+      "end": "2015-12-03",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2015-09-03",
+      "end": "2015-12-03",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2015-09-28",
+      "end": "2015-10-27",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2015-10-16",
+      "end": "2016-01-20",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2015-10-16",
+      "end": "2016-01-20",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2015-10-20",
+      "end": "2016-07-22",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "cutoff": "2015-10-29",
+      "end": "2015-11-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2015-12-01",
+      "end": "2016-01-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2015-12-14",
+      "end": "2016-01-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "cutoff": "2015-12-16",
+      "end": "2016-03-18",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-normalization-2017",
+      "family": "T2-F1",
+      "cutoff": "2015-12-17",
+      "end": "2016-06-21",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2016-01-15",
+      "end": "2016-10-17",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2016-02-01",
+      "end": "2016-05-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-brexit-2016",
+      "family": "T2-F4",
+      "cutoff": "2016-03-30",
+      "end": "2016-04-28",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2016-04-15",
+      "end": "2016-10-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2016-04-18",
+      "end": "2016-07-18",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2016-05-13",
+      "end": "2017-02-15",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2016-05-13",
+      "end": "2016-06-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2016-05-17",
+      "end": "2016-08-16",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2016-05-19",
+      "end": "2016-11-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2016-05-26",
+      "end": "2016-08-25",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2016-05-26",
+      "end": "2016-11-23",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2016-06-22",
+      "end": "2016-09-21",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2016-08-01",
+      "end": "2016-10-31",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-gbp-conference-2016",
+      "family": "T2-F4",
+      "cutoff": "2016-08-01",
+      "end": "2016-08-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2016-08-08",
+      "end": "2016-09-07",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2016-08-23",
+      "end": "2016-09-22",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2016-09-19",
+      "end": "2016-10-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2016-09-20",
+      "end": "2016-10-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2016-09-21",
+      "end": "2017-03-27",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2016-09-21",
+      "end": "2016-10-21",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2016-09-22",
+      "end": "2016-10-21",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2016-10-01",
+      "end": "2016-11-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2016-10-31",
+      "end": "2017-02-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2016-11-04",
+      "end": "2017-02-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2016-11-14",
+      "end": "2017-05-17",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2016-12-08",
+      "end": "2017-03-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2016-12-27",
+      "end": "2017-03-30",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2016-12-30",
+      "end": "2017-04-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-jpy-ycc-flex-2018",
+      "family": "T2-F1",
+      "cutoff": "2017-01-04",
+      "end": "2017-10-04",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2017-01-09",
+      "end": "2017-04-10",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2017-01-09",
+      "end": "2017-04-11",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2017-02-28",
+      "end": "2017-03-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2017-03-01",
+      "end": "2017-04-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2017-03-01",
+      "end": "2017-04-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ust-positioning-2018",
+      "family": "T2-F1",
+      "cutoff": "2017-03-03",
+      "end": "2017-12-01",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2017-04-24",
+      "end": "2017-05-23",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-hiking-year-curve-2018",
+      "family": "T2-F3",
+      "cutoff": "2017-05-18",
+      "end": "2017-11-16",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2017-05-23",
+      "end": "2017-08-22",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2017-06-01",
+      "end": "2017-06-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2017-06-05",
+      "end": "2017-09-01",
+      "target_cells": 20,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2017-06-09",
+      "end": "2017-12-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2017-06-21",
+      "end": "2017-09-20",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2017-06-30",
+      "end": "2018-01-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2017-07-27",
+      "end": "2017-08-25",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2017-08-16",
+      "end": "2017-11-16",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2017-10-02",
+      "end": "2018-04-06",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2017-10-06",
+      "end": "2018-01-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2017-10-06",
+      "end": "2018-01-09",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2017-11-14",
+      "end": "2018-08-16",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-short-vol-2018",
+      "family": "T2-F4",
+      "cutoff": "2017-11-22",
+      "end": "2017-12-22",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2017-12-01",
+      "end": "2018-01-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2017-12-06",
+      "end": "2018-06-08",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-powell-pivot-2019",
+      "family": "T2-F2",
+      "cutoff": "2017-12-11",
+      "end": "2018-06-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "cutoff": "2018-01-09",
+      "end": "2018-07-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2018-02-06",
+      "end": "2018-05-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2018-02-22",
+      "end": "2018-11-23",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2018-02-23",
+      "end": "2018-05-25",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-third-cut-2019",
+      "family": "T2-F1",
+      "cutoff": "2018-02-26",
+      "end": "2018-11-27",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2018-02-26",
+      "end": "2018-03-27",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2018-03-20",
+      "end": "2018-09-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2018-04-06",
+      "end": "2018-07-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-fed-put-2019",
+      "family": "T2-F1",
+      "cutoff": "2018-04-09",
+      "end": "2018-10-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2018-05-03",
+      "end": "2018-06-04",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2018-05-09",
+      "end": "2018-08-08",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2018-06-11",
+      "end": "2018-09-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-inversion-persistence-2019",
+      "family": "T2-F3",
+      "cutoff": "2018-06-11",
+      "end": "2018-12-12",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2018-06-19",
+      "end": "2018-09-18",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2018-07-02",
+      "end": "2018-08-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2018-07-05",
+      "end": "2018-08-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2018-07-06",
+      "end": "2019-04-10",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2018-07-09",
+      "end": "2018-10-05",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2018-07-09",
+      "end": "2018-08-07",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2018-07-10",
+      "end": "2018-08-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2018-07-24",
+      "end": "2018-10-23",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2018-08-03",
+      "end": "2018-09-04",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2018-09-01",
+      "end": "2018-10-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-powell-december-2018",
+      "family": "T2-F4",
+      "cutoff": "2018-10-01",
+      "end": "2018-10-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2018-10-03",
+      "end": "2019-01-08",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2018-10-19",
+      "end": "2019-01-28",
+      "target_cells": 20,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2018-10-25",
+      "end": "2019-02-04",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2018-12-01",
+      "end": "2019-01-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "cutoff": "2018-12-12",
+      "end": "2019-03-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2018-12-20",
+      "end": "2019-03-28",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2018-12-24",
+      "end": "2019-03-27",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2019-01-04",
+      "end": "2019-04-05",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2019-01-09",
+      "end": "2019-04-12",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2019-01-23",
+      "end": "2019-07-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2019-01-28",
+      "end": "2019-07-29",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-trade-war-escalation-2019",
+      "family": "T2-F2",
+      "cutoff": "2019-01-29",
+      "end": "2019-05-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-02-28",
+      "end": "2019-03-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2019-03-25",
+      "end": "2019-04-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2019-05-30",
+      "end": "2019-08-28",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-06-01",
+      "end": "2019-07-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2019-06-17",
+      "end": "2019-12-17",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2019-07-01",
+      "end": "2019-08-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "cutoff": "2019-08-14",
+      "end": "2020-05-15",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "cutoff": "2019-08-16",
+      "end": "2019-11-18",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-squeeze-2020",
+      "family": "T2-F3",
+      "cutoff": "2019-09-09",
+      "end": "2019-12-10",
+      "target_cells": 20,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2019-09-10",
+      "end": "2019-10-09",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2019-09-18",
+      "end": "2019-12-19",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-nfp-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-10-01",
+      "end": "2019-11-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2019-11-12",
+      "end": "2020-02-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2019-11-13",
+      "end": "2020-02-14",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-12-12",
+      "end": "2020-01-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hml-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-12-12",
+      "end": "2020-01-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-12-16",
+      "end": "2020-01-16",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-nok-covid-2020",
+      "family": "T2-F4",
+      "cutoff": "2019-12-26",
+      "end": "2020-01-28",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2020-04-01",
+      "end": "2020-07-02",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2020-04-28",
+      "end": "2020-05-28",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-vaccine-rotation-2020",
+      "family": "T2-F3",
+      "cutoff": "2020-05-01",
+      "end": "2020-07-31",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2020-05-07",
+      "end": "2020-06-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-hike-cycle-2021Q4b",
+      "family": "T2-F4",
+      "cutoff": "2020-07-13",
+      "end": "2021-01-13",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2020-07-17",
+      "end": "2020-10-16",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-rates-into-factors-2022",
+      "family": "T2-F3",
+      "cutoff": "2020-07-17",
+      "end": "2021-01-15",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2020-07-29",
+      "end": "2020-10-28",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2020-08-04",
+      "end": "2020-09-02",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2020-08-18",
+      "end": "2020-11-18",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2020-08-28",
+      "end": "2020-12-01",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-vaccine-timeline-2020",
+      "family": "T2-F4",
+      "cutoff": "2020-08-31",
+      "end": "2020-09-30",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2020-10-08",
+      "end": "2021-01-14",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2020-11-01",
+      "end": "2020-12-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2020-12-02",
+      "end": "2021-03-10",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "cutoff": "2020-12-15",
+      "end": "2021-06-16",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2021-01-29",
+      "end": "2021-04-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2021-02-03",
+      "end": "2021-05-04",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2021-02-08",
+      "end": "2021-05-10",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2021-02-23",
+      "end": "2021-05-21",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2021-03-03",
+      "end": "2021-09-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2021-04-15",
+      "end": "2021-05-14",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2021-07-01",
+      "end": "2021-08-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-oil-fx-split-2022",
+      "family": "T2-F3",
+      "cutoff": "2021-08-16",
+      "end": "2021-11-16",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2021-10-20",
+      "end": "2021-11-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2021-11-19",
+      "end": "2022-02-23",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "cutoff": "2021-12-16",
+      "end": "2022-01-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-eur-parity-2022",
+      "family": "T2-F2",
+      "cutoff": "2021-12-23",
+      "end": "2022-03-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-vintage-2022",
+      "family": "T2-F4",
+      "cutoff": "2022-01-01",
+      "end": "2022-02-01",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-greater-confidence-2024",
+      "family": "T2-F1",
+      "cutoff": "2022-01-05",
+      "end": "2022-10-06",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2022-01-18",
+      "end": "2022-04-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2022-01-19",
+      "end": "2022-04-20",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-some-pain-2022",
+      "family": "T2-F2",
+      "cutoff": "2022-02-24",
+      "end": "2022-05-25",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-dollar-vortex-2022",
+      "family": "T2-F3",
+      "cutoff": "2022-03-02",
+      "end": "2022-06-01",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "cutoff": "2022-03-09",
+      "end": "2022-06-08",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-scandies-stress-2022",
+      "family": "T2-F3",
+      "cutoff": "2022-03-24",
+      "end": "2022-06-23",
+      "target_cells": 6,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "cutoff": "2022-03-29",
+      "end": "2022-04-28",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-conflicting-texts-2024",
+      "family": "T2-F1",
+      "cutoff": "2022-05-06",
+      "end": "2023-02-09",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2022-06-28",
+      "end": "2022-09-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2022-07-22",
+      "end": "2022-08-22",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2022-10-14",
+      "end": "2023-04-19",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-hawkish-cut-2024",
+      "family": "T2-F1",
+      "cutoff": "2022-10-25",
+      "end": "2023-07-28",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2022-10-25",
+      "end": "2023-01-27",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2022-11-22",
+      "end": "2023-02-24",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2022-12-05",
+      "end": "2023-03-08",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-svb-whiplash-2023",
+      "family": "T2-F4",
+      "cutoff": "2023-01-04",
+      "end": "2023-02-03",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "cutoff": "2023-01-19",
+      "end": "2023-04-19",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2023-01-26",
+      "end": "2023-04-26",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-higher-for-longer-2023",
+      "family": "T2-F2",
+      "cutoff": "2023-03-21",
+      "end": "2023-06-20",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-term-premium-steepener-2023",
+      "family": "T2-F3",
+      "cutoff": "2023-03-22",
+      "end": "2023-06-21",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "cutoff": "2023-05-25",
+      "end": "2023-11-27",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-ust10y-supply-2023",
+      "family": "T2-F4",
+      "cutoff": "2023-07-31",
+      "end": "2023-08-29",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-shunto-nirp-exit-2024",
+      "family": "T2-F2",
+      "cutoff": "2023-09-05",
+      "end": "2023-12-08",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-funding-flip-2024",
+      "family": "T2-F3",
+      "cutoff": "2024-01-25",
+      "end": "2024-04-24",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-EXAMPLE-ust-curve-1m",
+      "family": "T2-F3",
+      "cutoff": "2024-02-13",
+      "end": "2024-03-13",
+      "target_cells": 4,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-time-has-come-2024",
+      "family": "T2-F2",
+      "cutoff": "2024-02-22",
+      "end": "2024-05-22",
+      "target_cells": 1,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F2-cut-sizing-2024",
+      "family": "T2-F2",
+      "cutoff": "2024-03-06",
+      "end": "2024-06-05",
+      "target_cells": 2,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F3-election-2024-joint",
+      "family": "T2-F3",
+      "cutoff": "2024-04-30",
+      "end": "2024-07-31",
+      "target_cells": 8,
+      "split": "later"
+    },
+    {
+      "unit_id": "t2-F4-jpy-crowding-2024",
+      "family": "T2-F4",
+      "cutoff": "2024-05-29",
+      "end": "2024-06-28",
+      "target_cells": 1,
+      "split": "later"
+    }
+  ],
+  "limits": "New evaluation intervals are disjoint from prior same-card 6/8/12 cutoff intervals; other experiments and revised public histories prevent truly independent validation."
+}
