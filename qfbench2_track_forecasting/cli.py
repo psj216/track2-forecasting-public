@@ -290,9 +290,9 @@ The cutoff-safe reader found {len(reasoning.corpus.documents)} usable document(s
         "v5.1-plus-frozen-single-cell-tail",
     }:
         text_section = (
-            "The cutoff-safe deterministic event router applied a pre-asof historical "
-            "scenario mixture only when its evidence and exposure gates passed. "
-            "The complete audit ledger follows.\n\n```json\n"
+            "The cutoff-safe deterministic text router used only pre-asof evidence. "
+            "A separate frozen single-cell tail transform may also be applied. "
+            "The audit ledger distinguishes the two routes.\n\n```json\n"
             + json.dumps(integration.metadata, indent=2, ensure_ascii=False)
             + "\n```"
         )
@@ -514,17 +514,24 @@ def main(argv: list[str] | None = None) -> int:
         )
         if forecast_mode == "text-first-v5.1-tail":
             text_applied = bool(head_meta["applied"])
-            tail_applied = family != "T2-F3" and adjusted.shape[1:] == (1, 1)
-            if tail_applied:
-                adjusted = calibrate_single_cell_tails(adjusted, 0.85, 0.85)
+            text_reason = head_meta.get("reason", "")
+            tail_candidate = (
+                calibrate_single_cell_tails(adjusted, 0.85, 0.85)
+                if family != "T2-F3" and adjusted.shape[1:] == (1, 1)
+                else adjusted
+            )
+            tail_applied = not np.array_equal(tail_candidate, adjusted)
+            adjusted = tail_candidate
             head_meta = {
                 **head_meta,
                 "config": "v5.1-plus-frozen-single-cell-tail",
                 "text_applied": text_applied,
+                "text_reason": text_reason,
                 "tail_applied": tail_applied,
                 "tail_factors": {"lower": 0.85, "upper": 0.85} if tail_applied else None,
                 "applied": text_applied or tail_applied,
                 "numeric_fallback_exact": not (text_applied or tail_applied),
+                "reason": "single_cell_tail_calibration" if tail_applied else text_reason,
             }
         integration = IntegrationResult(samples=adjusted, metadata=head_meta)
     elif forecast_mode == "integrated-v4":
@@ -655,7 +662,9 @@ def main(argv: list[str] | None = None) -> int:
                     (
                         ""
                         if integration.metadata.get("text_applied", integration.metadata["applied"])
-                        else integration.metadata.get("reason", "")
+                        else integration.metadata.get(
+                            "text_reason", integration.metadata.get("reason", "")
+                        )
                     )
                     if forecast_mode in {"family-heads", "text-first-v5.1", "text-first-v5.1-tail"}
                     else reasoning.skipped_reason

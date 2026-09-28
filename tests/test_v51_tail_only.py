@@ -65,6 +65,7 @@ def test_tail_mode_preserves_v51_except_single_cell(
     tail, tail_meta = outputs["text-first-v5.1-tail"]
     assert (not base.equals(tail)) == expected_change
     assert tail_meta["reasoning_applied"] == base_meta["reasoning_applied"]
+    assert tail_meta["reasoning_skipped_reason"] == base_meta["reasoning_skipped_reason"]
     if expected_change:
         baseline = base["value"].to_numpy()
         changed = tail["value"].to_numpy()
