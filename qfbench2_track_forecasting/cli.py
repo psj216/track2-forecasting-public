@@ -557,9 +557,9 @@ def main(argv: list[str] | None = None) -> int:
         if family == "T2-F1":
             config_path = pathlib.Path(os.environ.get("F1_CENTER_PATH", "/opt/f1-center.json"))
             try:
-                config = load_center_bias(config_path)
+                center_config = load_center_bias(config_path)
                 adjusted = apply_center_bias(
-                    samples, horizons, target_frequency, target_type, family, a.asof, config
+                    samples, horizons, target_frequency, target_type, family, a.asof, center_config
                 )
             except (OSError, ValueError, TypeError) as exc:
                 raise SystemExit(f"F1 center calibration unavailable: {exc}") from exc
