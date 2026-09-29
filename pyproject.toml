@@ -42,10 +42,11 @@ dependencies = [
 
 [project.optional-dependencies]
 test = ["pytest>=8.0"]
+research = ["scipy>=1.12"]
 dev = ["ruff==0.4.7", "mypy==1.19.1"]
 
-[tool.setuptools]
-packages = ["qfbench2_track_forecasting"]
+[tool.setuptools.packages.find]
+include = ["qfbench2_track_forecasting*"]
 
 [project.scripts]
 # The submission verb. The harness invokes `forecast ...` on PATH.
