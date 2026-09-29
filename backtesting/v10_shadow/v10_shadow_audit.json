@@ -1,0 +1,652 @@
+{
+  "## Executive summary (read this first)": "Date-only V10 shadow origins; no realized observations or scoring results.",
+  "protocol": "v10-0-date-only-shadow-feasibility-1",
+  "outcome_magnitudes_or_scores_used": false,
+  "source_commit": "7a0c6ec",
+  "previous_cutoff_counts": [
+    3,
+    5,
+    6,
+    8,
+    12
+  ],
+  "v9_manifest_sha256": "d36891189569ff554bfac88e808fc8847ffb6280a81608dc47937738ef098217",
+  "calendar_splits": {
+    "FIT": "2000-2008",
+    "embargo_1": 2009,
+    "SELECT": "2010-2016",
+    "embargo_2": 2017,
+    "FINAL": "2018 onward"
+  },
+  "minimums_predeclared": {
+    "episode_years_per_family_select_final": 5,
+    "cards_per_family_select_final": 3,
+    "baseline_target_strata_represented": true
+  },
+  "excluded_position_counts": {
+    "PURGED_BOUNDARY": 1320,
+    "PURGED_EMBARGO": 7478,
+    "no_future_date": 8345,
+    "prior_same_card_window": 295227
+  },
+  "overlap_audit": {
+    "prior_same_card_windows_excluded": 295227,
+    "selected_vs_prior_same_card_intersections": 0,
+    "selected_within_card_intersections": 0,
+    "cross_split_episode_year_intersections": 0,
+    "boundary_crossing_positions_excluded": 1320,
+    "embargo_year_positions_excluded": 7478
+  },
+  "episodes_assigned_to_multiple_splits": 0,
+  "selected_origin_count": 818,
+  "manifest_rows_sha256": "f4e5e28c0446fb50d5f1fcdb168579297328045708150797c05c02f74e37604a",
+  "family_split_horizon_frequency_type_cell_counts": [
+    {
+      "family": "T2-F1",
+      "split": "FINAL",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": true,
+      "target_rows": 1
+    },
+    {
+      "family": "T2-F1",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 6
+    },
+    {
+      "family": "T2-F1",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": true,
+      "target_rows": 1
+    },
+    {
+      "family": "T2-F2",
+      "split": "FINAL",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 6
+    },
+    {
+      "family": "T2-F2",
+      "split": "FINAL",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 27
+    },
+    {
+      "family": "T2-F2",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 8
+    },
+    {
+      "family": "T2-F2",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 92
+    },
+    {
+      "family": "T2-F2",
+      "split": "SELECT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 7
+    },
+    {
+      "family": "T2-F2",
+      "split": "SELECT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 69
+    },
+    {
+      "family": "T2-F3",
+      "split": "FINAL",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 39
+    },
+    {
+      "family": "T2-F3",
+      "split": "FINAL",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 6
+    },
+    {
+      "family": "T2-F3",
+      "split": "FINAL",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 39
+    },
+    {
+      "family": "T2-F3",
+      "split": "FINAL",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 6
+    },
+    {
+      "family": "T2-F3",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 80
+    },
+    {
+      "family": "T2-F3",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 15
+    },
+    {
+      "family": "T2-F3",
+      "split": "FIT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 76
+    },
+    {
+      "family": "T2-F3",
+      "split": "FIT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 15
+    },
+    {
+      "family": "T2-F3",
+      "split": "SELECT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 63
+    },
+    {
+      "family": "T2-F3",
+      "split": "SELECT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 12
+    },
+    {
+      "family": "T2-F3",
+      "split": "SELECT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": false,
+      "target_rows": 63
+    },
+    {
+      "family": "T2-F3",
+      "split": "SELECT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 12
+    },
+    {
+      "family": "T2-F4",
+      "split": "FINAL",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 31
+    },
+    {
+      "family": "T2-F4",
+      "split": "FINAL",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": true,
+      "target_rows": 8
+    },
+    {
+      "family": "T2-F4",
+      "split": "FINAL",
+      "horizon_bucket": "6-21",
+      "frequency": "monthly",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 6
+    },
+    {
+      "family": "T2-F4",
+      "split": "FIT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 3
+    },
+    {
+      "family": "T2-F4",
+      "split": "FIT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 125
+    },
+    {
+      "family": "T2-F4",
+      "split": "FIT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": false,
+      "target_rows": 17
+    },
+    {
+      "family": "T2-F4",
+      "split": "FIT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": true,
+      "target_rows": 72
+    },
+    {
+      "family": "T2-F4",
+      "split": "SELECT",
+      "horizon_bucket": "22+",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 2
+    },
+    {
+      "family": "T2-F4",
+      "split": "SELECT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 70
+    },
+    {
+      "family": "T2-F4",
+      "split": "SELECT",
+      "horizon_bucket": "6-21",
+      "frequency": "daily",
+      "target_type": "log_return",
+      "single_cell": true,
+      "target_rows": 49
+    },
+    {
+      "family": "T2-F4",
+      "split": "SELECT",
+      "horizon_bucket": "6-21",
+      "frequency": "monthly",
+      "target_type": "level",
+      "single_cell": true,
+      "target_rows": 8
+    }
+  ],
+  "feasibility": {
+    "T2-F1": {
+      "baseline_cards": 23,
+      "remaining_cards": 4,
+      "remaining_origin_positions": 224,
+      "remaining_calendar_years": [
+        2001,
+        2005,
+        2018
+      ],
+      "original_strata": [
+        "daily|level|1",
+        "daily|level|2",
+        "daily|level|4",
+        "daily|log_return|1",
+        "monthly|level|2"
+      ],
+      "represented_strata": [
+        "daily|level|2",
+        "daily|log_return|1"
+      ],
+      "splits": {
+        "FIT": {
+          "origins": 4,
+          "cards": 4,
+          "episode_years": [
+            2001,
+            2005
+          ]
+        },
+        "SELECT": {
+          "origins": 0,
+          "cards": 0,
+          "episode_years": []
+        },
+        "FINAL": {
+          "origins": 1,
+          "cards": 1,
+          "episode_years": [
+            2018
+          ]
+        }
+      }
+    },
+    "T2-F2": {
+      "baseline_cards": 27,
+      "remaining_cards": 19,
+      "remaining_origin_positions": 13549,
+      "remaining_calendar_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "original_strata": [
+        "daily|level|1",
+        "daily|level|2"
+      ],
+      "represented_strata": [
+        "daily|level|1",
+        "daily|level|2"
+      ],
+      "splits": {
+        "FIT": {
+          "origins": 100,
+          "cards": 19,
+          "episode_years": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008
+          ]
+        },
+        "SELECT": {
+          "origins": 76,
+          "cards": 16,
+          "episode_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ]
+        },
+        "FINAL": {
+          "origins": 33,
+          "cards": 8,
+          "episode_years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023
+          ]
+        }
+      }
+    },
+    "T2-F3": {
+      "baseline_cards": 22,
+      "remaining_cards": 14,
+      "remaining_origin_positions": 17530,
+      "remaining_calendar_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "original_strata": [
+        "daily|level|20",
+        "daily|level|4",
+        "daily|level|6",
+        "daily|level|8",
+        "daily|log_return|4",
+        "daily|log_return|6"
+      ],
+      "represented_strata": [
+        "daily|level|20",
+        "daily|level|4",
+        "daily|level|6",
+        "daily|level|8",
+        "daily|log_return|4",
+        "daily|log_return|6"
+      ],
+      "splits": {
+        "FIT": {
+          "origins": 93,
+          "cards": 14,
+          "episode_years": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008
+          ]
+        },
+        "SELECT": {
+          "origins": 75,
+          "cards": 12,
+          "episode_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ]
+        },
+        "FINAL": {
+          "origins": 45,
+          "cards": 11,
+          "episode_years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ]
+        }
+      }
+    },
+    "T2-F4": {
+      "baseline_cards": 31,
+      "remaining_cards": 27,
+      "remaining_origin_positions": 62367,
+      "remaining_calendar_years": [
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "original_strata": [
+        "daily|level|1",
+        "daily|log_return|1",
+        "daily|log_return|2",
+        "daily|log_return|3",
+        "monthly|level|1"
+      ],
+      "represented_strata": [
+        "daily|level|1",
+        "daily|log_return|1",
+        "daily|log_return|2",
+        "daily|log_return|3",
+        "monthly|level|1"
+      ],
+      "splits": {
+        "FIT": {
+          "origins": 217,
+          "cards": 25,
+          "episode_years": [
+            2000,
+            2001,
+            2002,
+            2003,
+            2004,
+            2005,
+            2006,
+            2007,
+            2008
+          ]
+        },
+        "SELECT": {
+          "origins": 129,
+          "cards": 22,
+          "episode_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016
+          ]
+        },
+        "FINAL": {
+          "origins": 45,
+          "cards": 13,
+          "episode_years": [
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024
+          ]
+        }
+      }
+    }
+  },
+  "gate": "FAIL: independent validation insufficient",
+  "failures": [
+    "T2-F1 SELECT: 0 episodes / 0 cards",
+    "T2-F1 FINAL: 1 episodes / 1 cards",
+    "T2-F1 missing target strata: daily|level|1, daily|level|4, monthly|level|2"
+  ],
+  "limitations": [
+    "Public historical panels can contain revisions and do not preserve real-time vintages.",
+    "V6/V7 event-oriented evaluation origins lack a complete per-card interval ledger here; their exposure cannot be proved absent.",
+    "Common market episodes remain dependent even after calendar-year grouping.",
+    "The date-only FINAL manifest is frozen, but no FINAL outcome or score is opened."
+  ],
+  "manifest_file_sha256": "3146fb07192149ffd732e2b55d0322d227de4b3d4135f0864ab86d6331e8b9a9"
+}
