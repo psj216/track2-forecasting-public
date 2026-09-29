@@ -36,9 +36,7 @@ class JointEngine:
         anchors = np.asarray(anchors)[None, None, :]
         if target_type == "level":
             delta += anchors
-        else:
-            if np.any(anchors <= 0):
-                raise ValueError("log_return requires strictly positive anchor")
-            delta = np.log(np.maximum(anchors + delta, 1e-10) / anchors)
+        # The factor panels use cumulative log-return values; their forecast
+        # target is the displacement, not a log of the (possibly negative) index.
         return delta, {"engine": "V12-RECONSTRUCTED", "unsupported_assets":
                        [a for a in assets if a in self.artifact["unsupported_assets"]]}

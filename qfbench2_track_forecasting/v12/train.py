@@ -14,7 +14,8 @@ from .residual_model import estimate_df
 from .state_transition import state_features
 
 
-def fit(data: JointDataset, cutoff: str = "2008-12-31") -> dict:
+def fit(data: JointDataset, cutoff: str = "2008-12-31",
+        decoder_types: dict[str, str] | None = None) -> dict:
     valid = data.fit_mask(cutoff)
     h21 = HORIZONS.index(21)
     eligible = valid[:, h21].sum(axis=1) >= 3
@@ -69,6 +70,7 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31") -> dict:
                 residual_sd=residual_sd.tolist(), student_df=estimate_df(residual).real,
                 long_expert=coef.tolist(), location_reliability=0.,
                 coverage_floor=float(np.quantile(state_inputs[:, -2], 0.1)),
+                decoder_target_types={a: (decoder_types or {}).get(a, "level") for a in data.assets},
                 unsupported_assets=[a for a,c in zip(data.assets,counts) if c == 0])
 
 
@@ -107,7 +109,16 @@ def main() -> None:
     panel, first = load_public_panels(args.units)
     assets = sorted(a for a in panel.asset.unique() if first.get(a, "2100-01-01") != "2100-01-01")
     dataset = make_dataset(panel, assets, eligibility=first)
-    artifact = fit(dataset)
+    import tomllib
+    decoder_types = {}
+    for card_path in sorted(args.units.glob("*/card.toml")):
+        card = tomllib.loads(card_path.read_text())
+        for asset in card["targets"]["asset_ids"]:
+            typ = card["targets"].get("target_type", "level")
+            if asset in decoder_types and decoder_types[asset] != typ:
+                raise ValueError(f"Conflicting decoder target types for {asset}")
+            decoder_types[asset] = typ
+    artifact = fit(dataset, decoder_types=decoder_types)
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(artifact, indent=2, allow_nan=False) + "\n")
     print(json.dumps({k:artifact[k] for k in ("fit_origins", "observed_origin_count", "fit_target_cells", "unsupported_assets")}))
