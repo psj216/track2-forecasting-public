@@ -1,0 +1,264 @@
+{
+  "## Executive summary (read this first)": "Provisional F1 external-source dates only; FINAL remains unscored.",
+  "protocol": "v10-data-external-dates-1",
+  "outcome_magnitudes_or_scores_used": false,
+  "source_snapshot_sha256": "3309dbd251e0e84e4fc3a8a1bf522dab7825768cff7a6eab1a4f9fb719df09fd",
+  "exposure": {
+    "v9_manifest_rows_sha256": "d36891189569ff554bfac88e808fc8847ffb6280a81608dc47937738ef098217",
+    "v10_shadow_rows_sha256": "f4e5e28c0446fb50d5f1fcdb168579297328045708150797c05c02f74e37604a",
+    "legacy_years": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "v9_scored_and_v10_inspected_years": [
+      1993,
+      1994,
+      1995,
+      1996,
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "v6_v7_event_origin_ledger_complete": false
+  },
+  "exposed_market_years": [
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "safe_years_in_2000_2025": [
+    2025
+  ],
+  "pre1994_provisional_split": {
+    "FIT": "1971-1980",
+    "embargo_1": 1981,
+    "SELECT": "1982-1987",
+    "embargo_2": 1988,
+    "FINAL": "1989-1993",
+    "prospective": 2025
+  },
+  "template_count": 23,
+  "source_grade_counts": {
+    "secondary_revised_factor": 2,
+    "provisional_current_history_market": 19,
+    "vintage_required_monthly": 2
+  },
+  "excluded_template_years": {
+    "PURGED_EMBARGO": 40,
+    "insufficient_history_or_full_horizon": 20,
+    "monthly_release_vintage_missing": 2,
+    "prior_market_episode_year": 666
+  },
+  "coverage": [
+    {
+      "reliability": "provisional_current_history_market",
+      "split": "FINAL",
+      "origins": 72,
+      "templates": 18,
+      "episode_years": [
+        1989,
+        1990,
+        1991,
+        1992
+      ]
+    },
+    {
+      "reliability": "provisional_current_history_market",
+      "split": "FIT",
+      "origins": 127,
+      "templates": 18,
+      "episode_years": [
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ]
+    },
+    {
+      "reliability": "provisional_current_history_market",
+      "split": "PROSPECTIVE_SINGLE_YEAR",
+      "origins": 19,
+      "templates": 19,
+      "episode_years": [
+        2025
+      ]
+    },
+    {
+      "reliability": "provisional_current_history_market",
+      "split": "SELECT",
+      "origins": 108,
+      "templates": 18,
+      "episode_years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987
+      ]
+    },
+    {
+      "reliability": "secondary_revised_factor",
+      "split": "FINAL",
+      "origins": 8,
+      "templates": 2,
+      "episode_years": [
+        1989,
+        1990,
+        1991,
+        1992
+      ]
+    },
+    {
+      "reliability": "secondary_revised_factor",
+      "split": "FIT",
+      "origins": 18,
+      "templates": 2,
+      "episode_years": [
+        1972,
+        1973,
+        1974,
+        1975,
+        1976,
+        1977,
+        1978,
+        1979,
+        1980
+      ]
+    },
+    {
+      "reliability": "secondary_revised_factor",
+      "split": "PROSPECTIVE_SINGLE_YEAR",
+      "origins": 2,
+      "templates": 2,
+      "episode_years": [
+        2025
+      ]
+    },
+    {
+      "reliability": "secondary_revised_factor",
+      "split": "SELECT",
+      "origins": 12,
+      "templates": 2,
+      "episode_years": [
+        1982,
+        1983,
+        1984,
+        1985,
+        1986,
+        1987
+      ]
+    }
+  ],
+  "rows_sha256": "ae7dd2f14f60ffe5484c09079e86c4924c6b2fc7a10c0c41951a3e5409498724",
+  "strictly_eligible_asof_origin_count": 0,
+  "strict_split_counts": {
+    "SELECT": {
+      "episode_years": 0,
+      "templates": 0
+    },
+    "FINAL": {
+      "episode_years": 0,
+      "templates": 0
+    }
+  },
+  "gate": "FAIL: independent as-of-safe F1 validation insufficient",
+  "blocking_reasons": [
+    "1994-2024 market-year episodes already exposed by V9 and legacy studies; 2000-2025 has at most one remaining year.",
+    "No archived as-of snapshots are available for current-history H.10/H.15 files.",
+    "CPI/UNRATE ALFRED vintage retrieval requires a registered FRED API key.",
+    "French factor files reconstruct history and remain secondary without archives.",
+    "An exhaustive V6/V7 event-origin interval ledger is unavailable.",
+    "Pre-1994 provisional splits omit EUR and cannot represent all F1 strata."
+  ],
+  "manifest_file_sha256": "85ff57d66bcbb63e599e561a54600ed27f3170239e04b4820abd327306fec4a3"
+}
