@@ -1105,5 +1105,9 @@
     "UST_5Y": "level",
     "UST_7Y": "level"
   },
-  "unsupported_assets": []
+  "unsupported_assets": [
+    "CPI_ALL",
+    "NFP",
+    "UNRATE"
+  ]
 }

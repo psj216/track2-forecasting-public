@@ -119,6 +119,8 @@ def main() -> None:
                 raise ValueError(f"Conflicting decoder target types for {asset}")
             decoder_types[asset] = typ
     artifact = fit(dataset, decoder_types=decoder_types)
+    artifact["unsupported_assets"] = sorted(set(artifact["unsupported_assets"]) |
+                                            (set(decoder_types) - set(artifact["assets"])))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(artifact, indent=2, allow_nan=False) + "\n")
     print(json.dumps({k:artifact[k] for k in ("fit_origins", "observed_origin_count", "fit_target_cells", "unsupported_assets")}))

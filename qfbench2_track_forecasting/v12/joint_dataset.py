@@ -46,7 +46,7 @@ def make_dataset(panel: pd.DataFrame, assets: list[str], *,
     xx, gg, yy, mm, ee, dd = [], [], [], [], [], []
     for i in origins:
         asof = dates[i]
-        prefix = wide.iloc[max(0, i - 504):i + 1].stack(dropna=True).rename("value").reset_index()
+        prefix = wide.iloc[max(0, i - 504):i + 1].stack(future_stack=True).dropna().rename("value").reset_index()
         prefix.columns = ["date", "asset", "value"]
         x, g, _ = features(prefix, assets, str(asof.date()))
         target = np.zeros((len(HORIZONS), len(assets)))
