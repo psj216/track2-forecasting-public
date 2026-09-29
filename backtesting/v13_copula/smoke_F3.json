@@ -1,0 +1,14 @@
+{
+  "card": "t2-F3-bear-flattener-2022",
+  "family": "T2-F3",
+  "shape": [
+    2000,
+    2,
+    4
+  ],
+  "finite": true,
+  "fallback": null,
+  "reason": null,
+  "bank_used": true,
+  "marginals_identical_abc": true
+}

@@ -1,0 +1,135 @@
+{
+  "kind": "RECONSTRUCTED_IMPLEMENTATION_STRUCTURAL_AUDIT",
+  "not_an_outcome_evaluation": true,
+  "archived_json_sha256": "776666c14ba145e7d0e7ba0456c386131589fcaec480923ec495a6697c62b0cb",
+  "archived_cases": 24,
+  "archived_draws": 2000,
+  "new_outcome_cases": 24,
+  "archived_metrics_read_only": {
+    "V12": {
+      "overall": 0.9327725438887052,
+      "marginal": 0.9032587020144606,
+      "joint": 1.1511043543740649,
+      "tail": 0.8289737368149961
+    },
+    "A": {
+      "overall": 0.892886677201712,
+      "marginal": 0.8979479302478692,
+      "joint": 1.0,
+      "tail": 0.8208746860072651
+    },
+    "B": {
+      "overall": 0.9777380008987632,
+      "marginal": 0.8979479302478683,
+      "joint": 1.1862110364960707,
+      "tail": 0.8208746860072651
+    },
+    "C": {
+      "overall": 0.922951674837344,
+      "marginal": 0.8979479302478683,
+      "joint": 1.2183110500126717,
+      "tail": 0.8208746860072651
+    }
+  },
+  "new_distinct_proxy_metrics": {
+    "A": {
+      "cases": 24,
+      "overall_ratio": 1.7413288719815607,
+      "marginal_ratio_median": 1.1664976031736654,
+      "joint_ratio_median": 1.9343792974516103,
+      "tail_ratio_median": 1.0396856840268334,
+      "win_rate": 0.20833333333333334
+    },
+    "B": {
+      "cases": 24,
+      "overall_ratio": 1.6591396793918305,
+      "marginal_ratio_median": 1.166497603173665,
+      "joint_ratio_median": 4.497752580069435,
+      "tail_ratio_median": 1.0396856840268334,
+      "win_rate": 0.25
+    },
+    "C": {
+      "cases": 24,
+      "overall_ratio": 1.7157764489970282,
+      "marginal_ratio_median": 1.166497603173665,
+      "joint_ratio_median": 1.9295208665849353,
+      "tail_ratio_median": 1.0396856840268334,
+      "win_rate": 0.25
+    }
+  },
+  "paired_case_comparison_possible": false,
+  "archived_postfit_cases": 9,
+  "new_proxy_postfit_cases": 19,
+  "groups_in_archive": [
+    "family",
+    "single_multi",
+    "regime",
+    "split",
+    "horizon"
+  ],
+  "new_smokes": [
+    {
+      "card": "t2-F1-ai-mom-2024",
+      "family": "T2-F1",
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "finite": true,
+      "fallback": null,
+      "reason": null,
+      "bank_used": true,
+      "marginals_identical_abc": true
+    },
+    {
+      "card": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "finite": true,
+      "fallback": null,
+      "reason": null,
+      "bank_used": true,
+      "marginals_identical_abc": true
+    },
+    {
+      "card": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "shape": [
+        2000,
+        2,
+        4
+      ],
+      "finite": true,
+      "fallback": null,
+      "reason": null,
+      "bank_used": true,
+      "marginals_identical_abc": true
+    },
+    {
+      "card": "t2-F4-aud-gfc-2008",
+      "family": "T2-F4",
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "finite": true,
+      "fallback": null,
+      "reason": null,
+      "bank_used": true,
+      "marginals_identical_abc": true
+    }
+  ],
+  "mismatch_classification": {
+    "A_implementation_mismatch": "23 public-panel decoder assets and 368 usable fitting origins, versus archived 25 and 414; model code newly reconstructed",
+    "B_missing_historical_private_artifact": "original bank bytes and case/pair outcome ledger absent; a new revised-history bank was generated for smoke only",
+    "C_randomness_seed_mismatch": "cannot assess without original executable and saved case seeds",
+    "D_irrecoverable_original_model_detail": "original frozen V12 coefficient bytes and exact 24 pseudo-origin definitions are missing; new alphabetical public-card selection is a separate proxy"
+  },
+  "ready_for_one_shot_submission": false
+}

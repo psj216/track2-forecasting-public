@@ -1,0 +1,14 @@
+{
+  "card": "t2-F4-aud-gfc-2008",
+  "family": "T2-F4",
+  "shape": [
+    2000,
+    1,
+    1
+  ],
+  "finite": true,
+  "fallback": null,
+  "reason": null,
+  "bank_used": true,
+  "marginals_identical_abc": true
+}

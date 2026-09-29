@@ -1,0 +1,14 @@
+{
+  "card": "t2-F1-ai-mom-2024",
+  "family": "T2-F1",
+  "shape": [
+    2000,
+    1,
+    1
+  ],
+  "finite": true,
+  "fallback": null,
+  "reason": null,
+  "bank_used": true,
+  "marginals_identical_abc": true
+}

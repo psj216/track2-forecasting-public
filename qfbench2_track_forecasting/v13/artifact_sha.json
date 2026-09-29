@@ -1,0 +1,10 @@
+{
+  "v12_artifact": "25fe31ae170b0647d820d3f8ed8184a7b627b40abaa21fdd526a4a9c148c66c3",
+  "support_manifest": "33c06680c7d8607761024e43f5cefde50a15427547d667d22727e4446db2b5c2",
+  "bank_manifest": "7adce525da506f958614bac9cdb0ad601e0922e7f09ae5cbf510dc6e3fe5cdfa",
+  "archived_eval": "776666c14ba145e7d0e7ba0456c386131589fcaec480923ec495a6697c62b0cb",
+  "v12_archived_report": "aa793a229f0c0da97c7d2f41a31b89386699eeef00b20315c7e0ebf7a1ea334a",
+  "v13_archived_report": "4912ca7cecb3eef6ee2021f9011d4e43ca499d9eacc64741c4cfaae48cb9abd1",
+  "private_reconstructed_bank_sha256": "4c73eb9c2d256c08acb3abbfacf43de4e6fb8596a70b0f9b354a278c8a445dfe",
+  "original_report_v12_artifact_sha256": "72fc4fab0457bee1caecd2eb8a4c80af7dc9469b403d0a1cf2e67f4c327d63d3"
+}

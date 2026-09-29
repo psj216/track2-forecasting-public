@@ -1,0 +1,124 @@
+{
+  "schema": "v13-reconstructed-support-1",
+  "frequency": "daily",
+  "minimum_fit_target_cells": 100,
+  "assets": [
+    {
+      "asset": "AUD",
+      "target_type": "level",
+      "fit_target_cells": 1637
+    },
+    {
+      "asset": "BRL",
+      "target_type": "level",
+      "fit_target_cells": 455
+    },
+    {
+      "asset": "CAD",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "CHF",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "CNY",
+      "target_type": "level",
+      "fit_target_cells": 1587
+    },
+    {
+      "asset": "DKK",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "EUR",
+      "target_type": "level",
+      "fit_target_cells": 1590
+    },
+    {
+      "asset": "GBP",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "HML",
+      "target_type": "log_return",
+      "fit_target_cells": 1418
+    },
+    {
+      "asset": "INR",
+      "target_type": "level",
+      "fit_target_cells": 455
+    },
+    {
+      "asset": "JPY",
+      "target_type": "level",
+      "fit_target_cells": 1372
+    },
+    {
+      "asset": "MKT",
+      "target_type": "log_return",
+      "fit_target_cells": 1674
+    },
+    {
+      "asset": "MOM",
+      "target_type": "log_return",
+      "fit_target_cells": 1418
+    },
+    {
+      "asset": "NOK",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "NZD",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "QMJ",
+      "target_type": "log_return",
+      "fit_target_cells": 1930
+    },
+    {
+      "asset": "SEK",
+      "target_type": "level",
+      "fit_target_cells": 1706
+    },
+    {
+      "asset": "SMB",
+      "target_type": "log_return",
+      "fit_target_cells": 1418
+    },
+    {
+      "asset": "UST_10Y",
+      "target_type": "level",
+      "fit_target_cells": 503
+    },
+    {
+      "asset": "UST_2Y",
+      "target_type": "level",
+      "fit_target_cells": 608
+    },
+    {
+      "asset": "UST_30Y",
+      "target_type": "level",
+      "fit_target_cells": 1686
+    },
+    {
+      "asset": "UST_5Y",
+      "target_type": "level",
+      "fit_target_cells": 842
+    },
+    {
+      "asset": "UST_7Y",
+      "target_type": "level",
+      "fit_target_cells": 842
+    }
+  ],
+  "reconstruction": true,
+  "artifact_sha256": "25fe31ae170b0647d820d3f8ed8184a7b627b40abaa21fdd526a4a9c148c66c3"
+}

@@ -1,0 +1,213 @@
+{
+  "kind": "NEW_REVISED_HISTORY_PROXY_NOT_ARCHIVED_RUN",
+  "draws": 2000,
+  "cases": 24,
+  "selection": "first six alphabetical eligible public cards per family, fixed before scoring",
+  "source": "current revised public panel prefixes; not verified PIT",
+  "models": {
+    "A": {
+      "overall": {
+        "cases": 24,
+        "overall_ratio": 1.7413288719815607,
+        "marginal_ratio_median": 1.1664976031736654,
+        "joint_ratio_median": 1.9343792974516103,
+        "tail_ratio_median": 1.0396856840268334,
+        "win_rate": 0.20833333333333334
+      },
+      "family": {
+        "T2-F1": {
+          "cases": 6,
+          "overall_ratio": 4.439026430825483,
+          "marginal_ratio_median": 0.8797252340737333,
+          "joint_ratio_median": 1.9343792974516103,
+          "tail_ratio_median": 1.0812961643723757,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F2": {
+          "cases": 6,
+          "overall_ratio": 1.4424158098582973,
+          "marginal_ratio_median": 1.3460758664022756,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.6629783328541758,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F3": {
+          "cases": 6,
+          "overall_ratio": 1.460423167315387,
+          "marginal_ratio_median": 1.1223085153921293,
+          "joint_ratio_median": 1.4442912626289424,
+          "tail_ratio_median": 0.9559973449916581,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F4": {
+          "cases": 6,
+          "overall_ratio": 0.9832552748460969,
+          "marginal_ratio_median": 1.1259755432670544,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.0304620109864915,
+          "win_rate": 0.3333333333333333
+        }
+      },
+      "postfit": {
+        "cases": 19,
+        "overall_ratio": 1.2958714967242708,
+        "marginal_ratio_median": 1.1962839174600428,
+        "joint_ratio_median": 1.2020549929148001,
+        "tail_ratio_median": 1.1132987773050729,
+        "win_rate": 0.2631578947368421
+      },
+      "single": {
+        "cases": 13,
+        "overall_ratio": 1.1704417168210917,
+        "marginal_ratio_median": 1.2573311850947517,
+        "joint_ratio_median": null,
+        "tail_ratio_median": 1.1501177992750033,
+        "win_rate": 0.3076923076923077
+      },
+      "multi": {
+        "cases": 11,
+        "overall_ratio": 2.7847171116260254,
+        "marginal_ratio_median": 1.1079057418969707,
+        "joint_ratio_median": 1.9343792974516103,
+        "tail_ratio_median": 1.0300778166139877,
+        "win_rate": 0.09090909090909091
+      }
+    },
+    "B": {
+      "overall": {
+        "cases": 24,
+        "overall_ratio": 1.6591396793918305,
+        "marginal_ratio_median": 1.166497603173665,
+        "joint_ratio_median": 4.497752580069435,
+        "tail_ratio_median": 1.0396856840268334,
+        "win_rate": 0.25
+      },
+      "family": {
+        "T2-F1": {
+          "cases": 6,
+          "overall_ratio": 3.6919650591203044,
+          "marginal_ratio_median": 0.8797252340737325,
+          "joint_ratio_median": 12.504004777207202,
+          "tail_ratio_median": 1.0812961643723757,
+          "win_rate": 0.3333333333333333
+        },
+        "T2-F2": {
+          "cases": 6,
+          "overall_ratio": 1.4424158098582973,
+          "marginal_ratio_median": 1.3460758664022756,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.6629783328541758,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F3": {
+          "cases": 6,
+          "overall_ratio": 1.4471630273559524,
+          "marginal_ratio_median": 1.1223085153921295,
+          "joint_ratio_median": 1.4476633223366167,
+          "tail_ratio_median": 0.9559973449916581,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F4": {
+          "cases": 6,
+          "overall_ratio": 0.9832552748460971,
+          "marginal_ratio_median": 1.1259755432670544,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.0304620109864915,
+          "win_rate": 0.3333333333333333
+        }
+      },
+      "postfit": {
+        "cases": 19,
+        "overall_ratio": 1.3480119672928403,
+        "marginal_ratio_median": 1.1962839174600426,
+        "joint_ratio_median": 2.7409335331581364,
+        "tail_ratio_median": 1.1132987773050729,
+        "win_rate": 0.3157894736842105
+      },
+      "single": {
+        "cases": 13,
+        "overall_ratio": 1.1704417168210917,
+        "marginal_ratio_median": 1.2573311850947517,
+        "joint_ratio_median": null,
+        "tail_ratio_median": 1.1501177992750033,
+        "win_rate": 0.3076923076923077
+      },
+      "multi": {
+        "cases": 11,
+        "overall_ratio": 2.5059222395975733,
+        "marginal_ratio_median": 1.1079057418969716,
+        "joint_ratio_median": 4.497752580069435,
+        "tail_ratio_median": 1.0300778166139877,
+        "win_rate": 0.18181818181818182
+      }
+    },
+    "C": {
+      "overall": {
+        "cases": 24,
+        "overall_ratio": 1.7157764489970282,
+        "marginal_ratio_median": 1.166497603173665,
+        "joint_ratio_median": 1.9295208665849353,
+        "tail_ratio_median": 1.0396856840268334,
+        "win_rate": 0.25
+      },
+      "family": {
+        "T2-F1": {
+          "cases": 6,
+          "overall_ratio": 4.193770278931374,
+          "marginal_ratio_median": 0.879725234073733,
+          "joint_ratio_median": 2.608208906756589,
+          "tail_ratio_median": 1.0812961643723757,
+          "win_rate": 0.3333333333333333
+        },
+        "T2-F2": {
+          "cases": 6,
+          "overall_ratio": 1.4424158098582973,
+          "marginal_ratio_median": 1.3460758664022756,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.6629783328541758,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F3": {
+          "cases": 6,
+          "overall_ratio": 1.4570733432757785,
+          "marginal_ratio_median": 1.1223085153921286,
+          "joint_ratio_median": 1.440817138240834,
+          "tail_ratio_median": 0.9559973449916581,
+          "win_rate": 0.16666666666666666
+        },
+        "T2-F4": {
+          "cases": 6,
+          "overall_ratio": 0.9832552748460971,
+          "marginal_ratio_median": 1.1259755432670544,
+          "joint_ratio_median": null,
+          "tail_ratio_median": 1.0304620109864915,
+          "win_rate": 0.3333333333333333
+        }
+      },
+      "postfit": {
+        "cases": 19,
+        "overall_ratio": 1.2963216012334557,
+        "marginal_ratio_median": 1.1962839174600428,
+        "joint_ratio_median": 1.1681681806019477,
+        "tail_ratio_median": 1.1132987773050729,
+        "win_rate": 0.3157894736842105
+      },
+      "single": {
+        "cases": 13,
+        "overall_ratio": 1.1704417168210917,
+        "marginal_ratio_median": 1.2573311850947517,
+        "joint_ratio_median": null,
+        "tail_ratio_median": 1.1501177992750033,
+        "win_rate": 0.3076923076923077
+      },
+      "multi": {
+        "cases": 11,
+        "overall_ratio": 2.696333427075802,
+        "marginal_ratio_median": 1.10790574189697,
+        "joint_ratio_median": 1.9295208665849353,
+        "tail_ratio_median": 1.0300778166139877,
+        "win_rate": 0.18181818181818182
+      }
+    }
+  }
+}
