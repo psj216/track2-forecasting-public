@@ -24,17 +24,28 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
     y21 = data.y[eligible, h21]
     m21 = valid[eligible, h21]
     mean, loading, scores, explained = fit_factors(y21, m21)
-    # An ordinal state learned from the future first PCA axis, never a runtime input.
+    # Ordinal states are future training targets, never runtime inputs.
     boundaries = np.quantile(scores[:, 0], [0.1, 0.3, 0.7, 0.9])
     labels = np.searchsorted(boundaries, scores[:, 0])
-    state_inputs = np.array([state_features(data.x[i], data.g[i],
-                                    data.x[i, :, 18] >= 21 / 252, 21)
-                             for i in np.flatnonzero(eligible)])
+    inputs, state_labels = [], []
+    for i in np.flatnonzero(eligible):
+        coverage = data.x[i, :, 18] >= 21 / 252
+        for j, horizon in enumerate(HORIZONS):
+            observed = valid[i, j]
+            if observed.sum() < 3:
+                continue
+            scale_h = np.sqrt(horizon / 21)
+            future = np.where(observed, data.y[i, j] / scale_h - mean, 0.)
+            score = float(future @ loading[:, 0])
+            inputs.append(state_features(data.x[i], data.g[i], coverage, horizon))
+            state_labels.append(int(np.searchsorted(boundaries, score)))
+    state_inputs = np.asarray(inputs)
+    state_labels = np.asarray(state_labels)
     center = np.mean(state_inputs, axis=0)
     scale = np.maximum(np.std(state_inputs, axis=0), 1e-4)
     center[0] = 0.; scale[0] = 1.
     z = np.clip((state_inputs - center) / scale, -8, 8); z[:, 0] = 1.
-    logits = fit_classifier(z, labels)
+    logits = fit_classifier(z, state_labels)
     states_cov, state_location = [], []
     for state in range(5):
         subset = scores[labels == state]
@@ -64,7 +75,7 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
                 fit_origins=int(eligible.sum()), observed_origin_count=len(data.dates),
                 fit_target_cells=int(valid.sum()), fit_cells_by_asset=counts.tolist(),
                 pca_explained=explained, feature_center=center.tolist(), feature_scale=scale.tolist(),
-                state_logits=logits.tolist(), state_prior=np.bincount(labels, minlength=5).astype(float).__truediv__(len(labels)).tolist(),
+                state_logits=logits.tolist(), state_prior=(np.bincount(state_labels, minlength=5) / len(state_labels)).tolist(),
                 state_location=state_location, state_covariance=states_cov,
                 decoder_loadings=loading.tolist(), decoder_mean=mean.tolist(),
                 residual_sd=residual_sd.tolist(), student_df=estimate_df(residual).real,

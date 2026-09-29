@@ -75,7 +75,19 @@ def features(panel: pd.DataFrame, assets: list[str], asof: str) -> tuple[np.ndar
         g[:3] = np.mean(valid[:, [1, 2, 4]] > 0, axis=0)
         g[3] = np.std(valid[:, 2])
         g[4] = np.std(valid[:, 10])
-        g[7] = np.var(valid[:, 2]) / max(float(np.sum(np.var(valid, axis=0))), 1e-8)
+        aligned = past.pivot_table(index="date", columns="asset", values="value", aggfunc="last")
+        movements = aligned.diff()
+        for index, window in ((5, 20), (6, 120)):
+            corr = movements.tail(window).corr(min_periods=max(5, window // 3)).to_numpy()
+            if corr.size:
+                upper = corr[np.triu_indices_from(corr, k=1)]
+                upper = upper[np.isfinite(upper)]
+                g[index] = float(np.mean(upper)) if len(upper) else 0.
+        complete = movements.tail(120).fillna(0).to_numpy(dtype=float)
+        if len(complete) > 5 and complete.shape[1] > 1:
+            cov = np.cov(complete, rowvar=False)
+            eigen = np.maximum(np.linalg.eigvalsh(np.atleast_2d(cov)), 0)
+            g[7] = float(eigen[-1] / max(np.sum(eigen), 1e-8))
         fx = [i for i, a in enumerate(assets) if a in {"AUD", "CAD", "JPY", "EUR", "GBP", "CHF"} and available[i]]
         if fx:
             g[8] = np.mean(x[fx, 2] > 0)
@@ -84,6 +96,11 @@ def features(panel: pd.DataFrame, assets: list[str], asof: str) -> tuple[np.ndar
             if name in histories and len(histories[name]):
                 g[index] = histories[name][-1]
         g[12] = g[11] - g[10]
+        if {"UST_2Y", "UST_10Y"} <= set(aligned):
+            rates = aligned[["UST_2Y", "UST_10Y"]].dropna().tail(21)
+            if len(rates) > 1:
+                g[13] = float((rates.iloc[-1, 1] - rates.iloc[-1, 0]) -
+                              (rates.iloc[0, 1] - rates.iloc[0, 0]))
         for index, name in enumerate(("MKT", "MOM", "SMB", "HML", "BAB", "QMJ"), 14):
             if name in assets:
                 g[index] = x[assets.index(name), 2]

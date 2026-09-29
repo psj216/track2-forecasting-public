@@ -36,6 +36,8 @@ def test_future_mutation_invariant():
     np.testing.assert_array_equal(x, xx)
     np.testing.assert_array_equal(g, gg)
     np.testing.assert_array_equal(cov, cc)
+    assert np.isfinite(g).all() and g[7] > 0
+    assert g[5] != 0 and g[6] != 0
 
 
 def test_fit_psd_shape_seed_and_runtime(tmp_path):
