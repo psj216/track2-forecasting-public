@@ -1,0 +1,174 @@
+{
+  "same": {
+    "pre-GFC": {
+      "sparse_origin_count": 75,
+      "signal_ic": {
+        "n": 7237,
+        "pearson": -0.00518537686541144,
+        "spearman": 0.009958119861941658
+      },
+      "crps": null,
+      "crps_is_oos": false,
+      "frozen_beta_positive": 64,
+      "frozen_beta_negative": 51
+    },
+    "GFC/aftermath": {
+      "sparse_origin_count": 50,
+      "signal_ic": {
+        "n": 5136,
+        "pearson": 0.03593032289949593,
+        "spearman": 0.043097346386706537
+      },
+      "crps": null,
+      "crps_is_oos": false,
+      "frozen_beta_positive": 64,
+      "frozen_beta_negative": 51
+    },
+    "post-GFC low-rate": {
+      "sparse_origin_count": 111,
+      "signal_ic": {
+        "n": 11830,
+        "pearson": 0.044534078791455704,
+        "spearman": 0.045055336062070545
+      },
+      "crps": {
+        "cells": 9210,
+        "baseline_crps": 0.5987012539264162,
+        "thesis_crps": 0.6010072721105628,
+        "ratio": 1.0038517009427044,
+        "directional_sign_accuracy": 0.5054656755574989,
+        "mean_shift_abs_over_baseline_sd": 0.051189834536879884,
+        "mean_signed_shift_native": -0.0009737361255138186
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 64,
+      "frozen_beta_negative": 51
+    },
+    "COVID": {
+      "sparse_origin_count": 25,
+      "signal_ic": {
+        "n": 2470,
+        "pearson": 0.031240224612925065,
+        "spearman": -0.025096636134670103
+      },
+      "crps": {
+        "cells": 2470,
+        "baseline_crps": 0.6764789116627774,
+        "thesis_crps": 0.677810583803925,
+        "ratio": 1.001968534596111,
+        "directional_sign_accuracy": 0.5096430036930653,
+        "mean_shift_abs_over_baseline_sd": 0.06565339796039096,
+        "mean_signed_shift_native": -0.0036847799861940062
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 64,
+      "frozen_beta_negative": 51
+    },
+    "inflation/hiking": {
+      "sparse_origin_count": 25,
+      "signal_ic": {
+        "n": 2390,
+        "pearson": 0.029734390199847905,
+        "spearman": -0.011588973085976546
+      },
+      "crps": {
+        "cells": 2390,
+        "baseline_crps": 0.6561427692322295,
+        "thesis_crps": 0.6617867588557882,
+        "ratio": 1.0086017706636665,
+        "directional_sign_accuracy": 0.5088087248322147,
+        "mean_shift_abs_over_baseline_sd": 0.05990189302501637,
+        "mean_signed_shift_native": -0.0011298366502073248
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 64,
+      "frozen_beta_negative": 51
+    }
+  },
+  "lag": {
+    "pre-GFC": {
+      "sparse_origin_count": 75,
+      "signal_ic": {
+        "n": 7237,
+        "pearson": -0.0015676054953679475,
+        "spearman": 0.003128839545084772
+      },
+      "crps": null,
+      "crps_is_oos": false,
+      "frozen_beta_positive": 70,
+      "frozen_beta_negative": 45
+    },
+    "GFC/aftermath": {
+      "sparse_origin_count": 50,
+      "signal_ic": {
+        "n": 5136,
+        "pearson": 0.05134808430741681,
+        "spearman": 0.07784637217907968
+      },
+      "crps": null,
+      "crps_is_oos": false,
+      "frozen_beta_positive": 70,
+      "frozen_beta_negative": 45
+    },
+    "post-GFC low-rate": {
+      "sparse_origin_count": 111,
+      "signal_ic": {
+        "n": 11830,
+        "pearson": 0.058793743121129206,
+        "spearman": 0.04931777398449914
+      },
+      "crps": {
+        "cells": 9210,
+        "baseline_crps": 0.5987012539264162,
+        "thesis_crps": 0.6016486571064792,
+        "ratio": 1.0049229948337894,
+        "directional_sign_accuracy": 0.5151945780498469,
+        "mean_shift_abs_over_baseline_sd": 0.055780226192993734,
+        "mean_signed_shift_native": 0.0003393840220521094
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 70,
+      "frozen_beta_negative": 45
+    },
+    "COVID": {
+      "sparse_origin_count": 25,
+      "signal_ic": {
+        "n": 2470,
+        "pearson": 0.11097658737457566,
+        "spearman": -0.02011619956235449
+      },
+      "crps": {
+        "cells": 2470,
+        "baseline_crps": 0.6764789116627774,
+        "thesis_crps": 0.6814459518967438,
+        "ratio": 1.0073424908719735,
+        "directional_sign_accuracy": 0.48379154698399673,
+        "mean_shift_abs_over_baseline_sd": 0.058420872056279466,
+        "mean_signed_shift_native": -0.0012332121170005861
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 70,
+      "frozen_beta_negative": 45
+    },
+    "inflation/hiking": {
+      "sparse_origin_count": 25,
+      "signal_ic": {
+        "n": 2390,
+        "pearson": -0.004299278155973181,
+        "spearman": 0.017827893312408003
+      },
+      "crps": {
+        "cells": 2390,
+        "baseline_crps": 0.6561427692322295,
+        "thesis_crps": 0.6594973086645981,
+        "ratio": 1.005112514516153,
+        "directional_sign_accuracy": 0.5041946308724832,
+        "mean_shift_abs_over_baseline_sd": 0.06363619433741867,
+        "mean_signed_shift_native": -0.001576061959005542
+      },
+      "crps_is_oos": true,
+      "frozen_beta_positive": 70,
+      "frozen_beta_negative": 45
+    }
+  }
+}

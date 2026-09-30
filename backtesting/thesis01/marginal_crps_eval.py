@@ -137,7 +137,7 @@ def evaluate(root: Path, panel: Path, private_out: Path, results: Path) -> dict:
                                                "median": float(np.nanmedian(betas[name])),
                                                "positive": int(np.nansum(betas[name] > 0)),
                                                "negative": int(np.nansum(betas[name] < 0)),
-                                               "min_fit_pairs": int(counts[name][counts[name] > 0].min())}
+                                               "min_fit_pairs": int(counts[name][np.isfinite(betas[name])].min())}
                                        for name in ("same", "lag")}}
     for name in ("same", "lag"):
         for period in ("development", "validation", "final"):

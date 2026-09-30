@@ -1,0 +1,12 @@
+{
+  "private_ledger_sha256": "bb94a5b8cb3be6f27bb34db737e666e73155eee34972334bdfc8ac2256f1c07a",
+  "private_panel_sha256": "8468adfb03b082718dc217ccc1d6cc359efa2b307819562949c24e49045f9625",
+  "seed": 19,
+  "draws": {
+    "FX": 500,
+    "Rates": 500,
+    "Factor/Equity": 1000
+  },
+  "selection": "frozen before final holdout",
+  "asset_horizon_groups": 110
+}

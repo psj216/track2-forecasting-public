@@ -1,0 +1,42 @@
+{
+  "time_shuffled": {
+    "final": {
+      "cells": 7450,
+      "baseline_crps": 0.6519953989894615,
+      "thesis_crps": 0.6526022378065355,
+      "ratio": 1.0009307409500352,
+      "directional_sign_accuracy": 0.5073678518318238,
+      "mean_shift_abs_over_baseline_sd": 0.05171489718576492,
+      "mean_signed_shift_native": -0.0002556915562169275
+    },
+    "validation": {
+      "cells": 6620,
+      "baseline_crps": 0.5884829239369929,
+      "thesis_crps": 0.5910179886919396,
+      "ratio": 1.0043077966272784,
+      "directional_sign_accuracy": 0.5004564820450396,
+      "mean_shift_abs_over_baseline_sd": 0.04690373096811652,
+      "mean_signed_shift_native": 0.00019776878848262012
+    }
+  },
+  "peer_permuted": {
+    "final": {
+      "cells": 7450,
+      "baseline_crps": 0.6519953989894615,
+      "thesis_crps": 0.6552682637335125,
+      "ratio": 1.0050197666258438,
+      "directional_sign_accuracy": 0.5053400027037989,
+      "mean_shift_abs_over_baseline_sd": 0.061731777879530166,
+      "mean_signed_shift_native": -0.0012893161681680643
+    },
+    "validation": {
+      "cells": 6620,
+      "baseline_crps": 0.5884829239369929,
+      "thesis_crps": 0.5904684661905325,
+      "ratio": 1.0033740014752786,
+      "directional_sign_accuracy": 0.5127814972611078,
+      "mean_shift_abs_over_baseline_sd": 0.051855779825841615,
+      "mean_signed_shift_native": 0.0017246716703447579
+    }
+  }
+}

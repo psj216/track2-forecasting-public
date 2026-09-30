@@ -1,0 +1,60 @@
+{
+  "dense": {
+    "same": {
+      "n": 125324,
+      "median_abs": 0.2536000300644733,
+      "p95_abs": 1.3161902040538231
+    },
+    "lag": {
+      "n": 125324,
+      "median_abs": 0.6027116992438027,
+      "p95_abs": 2.086874697175114
+    }
+  },
+  "development_beta": {
+    "same": {
+      "finite": 115,
+      "median": 0.014360762154554308,
+      "positive": 64,
+      "negative": 51,
+      "min_fit_pairs": 69
+    },
+    "lag": {
+      "finite": 115,
+      "median": 0.021789685769918393,
+      "positive": 70,
+      "negative": 45,
+      "min_fit_pairs": 69
+    }
+  },
+  "same_development_raw_ic": {
+    "n": 14993,
+    "pearson": -0.0016154268583382482,
+    "spearman": 0.026762403001884708
+  },
+  "same_validation_raw_ic": {
+    "n": 6620,
+    "pearson": 0.051552153235330515,
+    "spearman": 0.053086659807066595
+  },
+  "same_final_raw_ic": {
+    "n": 7450,
+    "pearson": 0.028255615395233136,
+    "spearman": -0.00241217304377826
+  },
+  "lag_development_raw_ic": {
+    "n": 14993,
+    "pearson": 0.0011452230198166816,
+    "spearman": 0.03728245742475034
+  },
+  "lag_validation_raw_ic": {
+    "n": 6620,
+    "pearson": 0.10180243409625946,
+    "spearman": 0.0883731552070166
+  },
+  "lag_final_raw_ic": {
+    "n": 7450,
+    "pearson": 0.027027635697947906,
+    "spearman": -0.019356994851310524
+  }
+}
