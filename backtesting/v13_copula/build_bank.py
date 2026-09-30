@@ -21,16 +21,28 @@ def main():
     if a.out.is_relative_to(Path.cwd()) or a.out.resolve().is_relative_to(Path.cwd()):
         raise SystemExit("Private outcome bank must be written outside the Git repository")
     artifact = json.loads(a.artifact.read_text())
-    panel, eligibility = load_public_panels(a.units)
-    dataset = make_dataset(panel, artifact["assets"], eligibility=eligibility,
-                           target_types=artifact["decoder_target_types"])
+    if artifact.get("data_schema") == "v12-calendar-parity":
+        from qfbench2_track_forecasting.v12.data_parity import make_parity_dataset
+        dataset = make_parity_dataset(a.units.parent)
+    else:
+        panel, eligibility = load_public_panels(a.units)
+        dataset = make_dataset(panel, artifact["assets"], eligibility=eligibility,
+                               target_types=artifact["decoder_target_types"])
+    if dataset.assets != artifact["assets"]:
+        raise ValueError("Bank asset axis must match the fitted artifact")
     mask = dataset.fit_mask(artifact["fit_cutoff"])
     selected = mask.any(axis=(1, 2))
     state = np.array([state_vector(x, x[:, 18] >= 21 / 252)
                       for x in dataset.x[selected]])
     a.out.parent.mkdir(parents=True, exist_ok=True)
+    target_end = dataset.target_end
+    if target_end.ndim == 3:
+        # The existing bank schema stores one end per origin/horizon. Take the
+        # latest valid cell end, so this remains conservative for every asset.
+        target_end = np.where(dataset.mask, target_end,
+                              np.datetime64("1900-01-01")).max(axis=2)
     np.savez_compressed(a.out, dates=np.array(dataset.dates, dtype="datetime64[ns]")[selected],
-                        target_end=dataset.target_end[selected], values=dataset.y[selected],
+                        target_end=target_end[selected], values=dataset.y[selected],
                         mask=mask[selected], state=state, assets=np.array(dataset.assets),
                         horizons=np.array(artifact["horizons"]))
     digest = hashlib.sha256(a.out.read_bytes()).hexdigest()

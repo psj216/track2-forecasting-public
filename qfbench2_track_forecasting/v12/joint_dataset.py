@@ -20,9 +20,14 @@ class JointDataset:
     y: np.ndarray
     mask: np.ndarray
     target_end: np.ndarray  # datetime64[ns] per origin/horizon
+    kinds: dict[str, str] | None = None
+    origin_rule: str = "legacy"
 
     def fit_mask(self, cutoff: str) -> np.ndarray:
-        return self.mask & (self.target_end[:, :, None] <= np.datetime64(cutoff))
+        end = self.target_end
+        if end.ndim == 2:
+            end = end[:, :, None]
+        return self.mask & (end <= np.datetime64(cutoff))
 
 
 def make_dataset(panel: pd.DataFrame, assets: list[str], *,

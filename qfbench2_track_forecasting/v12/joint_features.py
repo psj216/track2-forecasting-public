@@ -23,27 +23,36 @@ def _safe(v: float) -> float:
     return float(v) if np.isfinite(v) else 0.0
 
 
-def local_features(values: np.ndarray) -> np.ndarray:
+def local_features(values: np.ndarray, target_type: str = "level") -> np.ndarray:
     x = np.asarray(values, dtype=float)
     x = x[np.isfinite(x)]
     if not len(x):
         return np.zeros(19)
-    last = x[-1]
-    diff = np.diff(x)
+    is_return = target_type in {"log_return", "return", "simple_return", "pct_change"}
+    if target_type != "level" and not is_return:
+        raise ValueError(f"Unsupported target representation: {target_type}")
+    # Return panels already contain one increment per observation. Their
+    # cumulative path, not the difference of two daily increments, is the
+    # level analogue used by momentum, trend, z-score and drawdown.
+    path = np.cumsum(x) if is_return else x
+    last = path[-1]
+    diff = x if is_return else np.diff(x)
     scale = max(float(np.std(diff[-120:])) if len(diff) else 0., 1e-6)
     f = []
     for w in LOCAL_WINDOWS:
-        f.append((last - x[-min(len(x), w + 1)]) / (scale * np.sqrt(w)))
+        k = min(w, len(x) - 1)
+        movement = np.sum(diff[-k:]) if is_return else last - path[-k-1]
+        f.append(float(movement / (scale * np.sqrt(w))))
     for w in (252, 504):
-        z = x[-w:]
+        z = path[-w:]
         f.append((z[-1] - z[0]) / (scale * np.sqrt(max(len(z) - 1, 1))))
     for w in (252, 504):
-        z = x[-w:]
+        z = path[-w:]
         f.append((last - np.mean(z)) / max(float(np.std(z)), scale))
     for w in (20, 120, 252):
         f.append(float(np.std(diff[-w:])) / scale if len(diff) else 1.)
-    f.append((last - np.max(x[-252:])) / scale)
-    f.append((np.max(x[-120:]) - np.min(x[-120:])) / scale)
+    f.append((last - np.max(path[-252:])) / scale)
+    f.append((np.max(path[-120:]) - np.min(path[-120:])) / scale)
     z = diff[-120:]
     centered = z - np.mean(z) if len(z) else z
     sigma = max(float(np.std(z)) if len(z) else 0., 1e-6)
@@ -59,24 +68,40 @@ def local_features(values: np.ndarray) -> np.ndarray:
     return np.clip(np.nan_to_num(f), -20, 20)
 
 
-def features(panel: pd.DataFrame, assets: list[str], asof: str) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+def features(panel: pd.DataFrame, assets: list[str], asof: str,
+             target_types: dict[str, str] | None = None) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
     """The caller may supply future rows; they cannot affect these features."""
     date = pd.Timestamp(asof)
     past = panel.loc[pd.to_datetime(panel.date) <= date]
     histories = {}
     for a in assets:
         rows = past.loc[past.asset == a].sort_values("date")
-        histories[a] = rows.value.to_numpy(dtype=float)
-    x = np.stack([local_features(histories[a]) for a in assets])
-    available = np.array([len(histories[a]) >= 21 for a in assets], dtype=bool)
+        histories[a] = pd.Series(rows.value.to_numpy(dtype=float),
+                                 index=pd.to_datetime(rows.date)).groupby(level=0).last()
+    return features_from_series(histories, assets, asof, target_types)
+
+
+def features_from_series(histories: dict[str, pd.Series], assets: list[str], asof: str,
+                         target_types: dict[str, str] | None = None) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+    """Feature calculation on clipped per-asset prefixes, including return kinds."""
+    past_series = {a: histories.get(a, pd.Series(dtype=float)).loc[:pd.Timestamp(asof)].tail(505)
+                   for a in assets}
+    target_types = target_types or {}
+    x = np.stack([local_features(past_series[a].to_numpy(dtype=float),
+                                 target_types.get(a, "level")) for a in assets])
+    available = np.array([len(past_series[a]) >= 45 for a in assets], dtype=bool)
     valid = x[available]
     g = np.zeros(21)
     if len(valid):
         g[:3] = np.mean(valid[:, [1, 2, 4]] > 0, axis=0)
         g[3] = np.std(valid[:, 2])
         g[4] = np.std(valid[:, 10])
-        aligned = past.pivot_table(index="date", columns="asset", values="value", aggfunc="last")
+        aligned = pd.DataFrame(past_series)
         movements = aligned.diff()
+        for asset in assets:
+            if asset in movements and target_types.get(asset, "level") in {
+                    "log_return", "return", "simple_return", "pct_change"}:
+                movements[asset] = aligned[asset]
         for index, window in ((5, 20), (6, 120)):
             corr = movements.tail(window).corr(min_periods=max(5, window // 3)).to_numpy()
             if corr.size:
@@ -93,8 +118,8 @@ def features(panel: pd.DataFrame, assets: list[str], asof: str) -> tuple[np.ndar
             g[8] = np.mean(x[fx, 2] > 0)
             g[9] = np.mean(x[fx, 2])
         for index, name in ((10, "UST_2Y"), (11, "UST_10Y")):
-            if name in histories and len(histories[name]):
-                g[index] = histories[name][-1]
+            if len(past_series.get(name, ())):
+                g[index] = past_series[name].iloc[-1]
         g[12] = g[11] - g[10]
         if {"UST_2Y", "UST_10Y"} <= set(aligned):
             rates = aligned[["UST_2Y", "UST_10Y"]].dropna().tail(21)

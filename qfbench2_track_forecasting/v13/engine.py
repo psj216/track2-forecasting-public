@@ -37,7 +37,8 @@ class CopulaEngine:
         v51_rank = rank_worlds(v51)
         bank_rank = None
         if self.bank is not None:
-            x, _, coverage = features(panel, self.artifact["assets"], asof)
+            x, _, coverage = features(panel, self.artifact["assets"], asof,
+                                       self.artifact["decoder_target_types"])
             bank_scores = self.bank.rank_worlds(state_vector(x, coverage), asof,
                                                  assets, horizons, n, seed + 2)
             if bank_scores is not None:

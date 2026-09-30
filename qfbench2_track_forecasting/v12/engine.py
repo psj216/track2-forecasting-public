@@ -23,7 +23,8 @@ class JointEngine:
             raise ValueError("Untrained decoder asset; use explicit fallback")
         if target_type not in {"level", "log_return"}:
             raise ValueError("Unsupported target type")
-        x, g, coverage = features(panel, known, asof)
+        x, g, coverage = features(panel, known, asof,
+                                  self.artifact["decoder_target_types"])
         indices = [known.index(a) for a in assets]
         delta = worlds(self.artifact, x, g, coverage, indices, horizons, draws, seed)
         past = panel.loc[pd.to_datetime(panel.date) <= pd.Timestamp(asof)]

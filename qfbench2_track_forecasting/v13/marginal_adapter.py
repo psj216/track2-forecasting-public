@@ -11,7 +11,8 @@ def conditional_marginals(artifact: dict, panel: pd.DataFrame, assets: list[str]
                           horizons: list[int], asof: str, draws: int, seed: int,
                           target_type: str) -> np.ndarray:
     known = artifact["assets"]
-    x, g, coverage = features(panel, known, asof)
+    x, g, coverage = features(panel, known, asof,
+                              artifact["decoder_target_types"])
     rng = np.random.default_rng(seed)
     out = np.empty((draws, len(horizons), len(assets)))
     past = panel.loc[pd.to_datetime(panel.date) <= pd.Timestamp(asof)]

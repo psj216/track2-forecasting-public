@@ -70,10 +70,12 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
     coef = np.linalg.solve(np.asarray(design).T @ design + 100 * np.eye(4),
                            np.asarray(design).T @ response) if design else np.zeros(4)
     counts = valid.sum(axis=(0, 1)).astype(int)
+    all_fit_origins = int(np.sum(np.asarray(data.dates) <= cutoff))
     # The old negative OOF slope clipped to zero; the archived coefficient is not recoverable.
     return dict(schema="v12-reconstructed-1", origin="public revised panels; NOT original artifact",
                 fit_cutoff=cutoff, assets=data.assets, horizons=list(HORIZONS),
-                fit_origins=int(eligible.sum()), observed_origin_count=len(data.dates),
+                fit_origins=all_fit_origins, pca_fit_origins=int(eligible.sum()),
+                observed_origin_count=len(data.dates), data_schema=data.origin_rule,
                 fit_target_cells=int(valid.sum()), fit_cells_by_asset=counts.tolist(),
                 pca_explained=explained, feature_center=center.tolist(), feature_scale=scale.tolist(),
                 state_logits=logits.tolist(), state_prior=(np.bincount(state_labels, minlength=5) / len(state_labels)).tolist(),
@@ -118,22 +120,33 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--units", type=Path, default=Path("units"))
     p.add_argument("--out", type=Path, required=True)
+    p.add_argument("--legacy-dataset", action="store_true",
+                   help="Reproduce the earlier R1 dataset for comparison")
     args = p.parse_args()
-    panel, first = load_public_panels(args.units)
-    assets = sorted(a for a in panel.asset.unique() if first.get(a, "2100-01-01") != "2100-01-01")
-    import tomllib
-    decoder_types = {}
-    for card_path in sorted(args.units.glob("*/card.toml")):
-        card = tomllib.loads(card_path.read_text())
-        for asset in card["targets"]["asset_ids"]:
-            typ = card["targets"].get("target_type", "level")
-            if asset in decoder_types and decoder_types[asset] != typ:
-                raise ValueError(f"Conflicting decoder target types for {asset}")
-            decoder_types[asset] = typ
-    dataset = make_dataset(panel, assets, eligibility=first, target_types=decoder_types)
+    if args.legacy_dataset:
+        panel, first = load_public_panels(args.units)
+        assets = sorted(a for a in panel.asset.unique() if first.get(a, "2100-01-01") != "2100-01-01")
+        import tomllib
+        decoder_types = {}
+        for card_path in sorted(args.units.glob("*/card.toml")):
+            card = tomllib.loads(card_path.read_text())
+            for asset in card["targets"]["asset_ids"]:
+                typ = card["targets"].get("target_type", "level")
+                if asset in decoder_types and decoder_types[asset] != typ:
+                    raise ValueError(f"Conflicting decoder target types for {asset}")
+                decoder_types[asset] = typ
+        dataset = make_dataset(panel, assets, eligibility=first, target_types=decoder_types)
+    else:
+        from .data_parity import catalog, make_parity_dataset
+        _, decoder_types, _ = catalog(args.units.parent)
+        dataset = make_parity_dataset(args.units.parent)
     artifact = fit(dataset, decoder_types=decoder_types)
+    import tomllib
+    card_targets = set()
+    for card_path in args.units.glob("*/card.toml"):
+        card_targets.update(tomllib.loads(card_path.read_text())["targets"]["asset_ids"])
     artifact["unsupported_assets"] = sorted(set(artifact["unsupported_assets"]) |
-                                            (set(decoder_types) - set(artifact["assets"])))
+                                            (card_targets - set(artifact["assets"])))
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(artifact, indent=2, allow_nan=False) + "\n")
     print(json.dumps({k:artifact[k] for k in ("fit_origins", "observed_origin_count", "fit_target_cells", "unsupported_assets")}))
