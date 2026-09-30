@@ -22,7 +22,8 @@ def main():
         raise SystemExit("Private outcome bank must be written outside the Git repository")
     artifact = json.loads(a.artifact.read_text())
     panel, eligibility = load_public_panels(a.units)
-    dataset = make_dataset(panel, artifact["assets"], eligibility=eligibility)
+    dataset = make_dataset(panel, artifact["assets"], eligibility=eligibility,
+                           target_types=artifact["decoder_target_types"])
     mask = dataset.fit_mask(artifact["fit_cutoff"])
     selected = mask.any(axis=(1, 2))
     state = np.array([state_vector(x, x[:, 18] >= 21 / 252)

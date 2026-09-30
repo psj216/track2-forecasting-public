@@ -23,7 +23,7 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
         raise ValueError("Insufficient cutoff-safe synchronized training origins")
     y21 = data.y[eligible, h21]
     m21 = valid[eligible, h21]
-    mean, loading, scores, explained = fit_factors(y21, m21)
+    mean, loading, scores, explained, decoder_scale, encoder = fit_factors(y21, m21)
     # Ordinal states are future training targets, never runtime inputs.
     boundaries = np.quantile(scores[:, 0], [0.1, 0.3, 0.7, 0.9])
     labels = np.searchsorted(boundaries, scores[:, 0])
@@ -36,7 +36,7 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
                 continue
             scale_h = np.sqrt(horizon / 21)
             future = np.where(observed, data.y[i, j] / scale_h - mean, 0.)
-            score = float(future @ loading[:, 0])
+            score = float(future @ encoder[:, 0])
             inputs.append(state_features(data.x[i], data.g[i], coverage, horizon))
             state_labels.append(int(np.searchsorted(boundaries, score)))
     state_inputs = np.asarray(inputs)
@@ -65,7 +65,8 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
                 continue
             for a in np.flatnonzero(valid[i, j]):
                 design.append([1., data.x[i, a, 9], data.x[i, a, 7], data.x[i, a, 17]])
-                response.append(data.y[i, j, a] - mean[a] * np.sqrt(horizon / 21))
+                response.append((data.y[i, j, a] - mean[a] * np.sqrt(horizon / 21)) /
+                                decoder_scale[a])
     coef = np.linalg.solve(np.asarray(design).T @ design + 100 * np.eye(4),
                            np.asarray(design).T @ response) if design else np.zeros(4)
     counts = valid.sum(axis=(0, 1)).astype(int)
@@ -78,6 +79,7 @@ def fit(data: JointDataset, cutoff: str = "2008-12-31",
                 state_logits=logits.tolist(), state_prior=(np.bincount(state_labels, minlength=5) / len(state_labels)).tolist(),
                 state_location=state_location, state_covariance=states_cov,
                 decoder_loadings=loading.tolist(), decoder_mean=mean.tolist(),
+                decoder_scale=decoder_scale.tolist(),
                 residual_sd=residual_sd.tolist(), student_df=estimate_df(residual).real,
                 long_expert=coef.tolist(), location_reliability=0.,
                 coverage_floor=float(np.quantile(state_inputs[:, -2], 0.1)),
@@ -119,7 +121,6 @@ def main() -> None:
     args = p.parse_args()
     panel, first = load_public_panels(args.units)
     assets = sorted(a for a in panel.asset.unique() if first.get(a, "2100-01-01") != "2100-01-01")
-    dataset = make_dataset(panel, assets, eligibility=first)
     import tomllib
     decoder_types = {}
     for card_path in sorted(args.units.glob("*/card.toml")):
@@ -129,6 +130,7 @@ def main() -> None:
             if asset in decoder_types and decoder_types[asset] != typ:
                 raise ValueError(f"Conflicting decoder target types for {asset}")
             decoder_types[asset] = typ
+    dataset = make_dataset(panel, assets, eligibility=first, target_types=decoder_types)
     artifact = fit(dataset, decoder_types=decoder_types)
     artifact["unsupported_assets"] = sorted(set(artifact["unsupported_assets"]) |
                                             (set(decoder_types) - set(artifact["assets"])))

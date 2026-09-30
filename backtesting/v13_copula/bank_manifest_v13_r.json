@@ -1,0 +1,11 @@
+{
+  "reconstruction": true,
+  "private_bank_sha256": "e54795a51b6194aede82f1d62812b503c862cb2f7865754fe456a690ca82365f",
+  "v12_artifact_sha256": "4a0b50178ebb6dfd4be3e2760ec95471de70eeeae4eea6b84383194ccdd10e3d",
+  "origin_count": 416,
+  "fit_target_cells": 26945,
+  "assets": 23,
+  "horizons": 5,
+  "point_in_time_vintage_verified": false,
+  "archived_bank_available": false
+}

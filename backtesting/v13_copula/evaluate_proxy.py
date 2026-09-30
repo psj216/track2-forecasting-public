@@ -39,8 +39,15 @@ def eligible(unit: Path, history: pd.DataFrame):
     truth = np.array([[history.iloc[i+h][a] for a in assets] for h in horizons], dtype=float)
     if not np.isfinite(anchor).all() or not np.isfinite(truth).all():
         return None
-    if target.get("target_type") == "log_return":
-        truth -= anchor[None, :]
+    if target.get("target_type") in {"log_return", "return", "simple_return", "pct_change"}:
+        # Return panels are per-day increments. The benchmark forecasts their
+        # horizon sum, not the difference between two individual daily returns.
+        for k, asset in enumerate(assets):
+            series = history.loc[:asof, asset].dropna()
+            future = history.loc[history.index > asof, asset].dropna()
+            if series.empty or len(future) < max(horizons):
+                return None
+            truth[:, k] = [float(future.iloc[:h].sum()) for h in horizons]
     return card, assets, horizons, truth
 
 

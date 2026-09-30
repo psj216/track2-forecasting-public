@@ -21,6 +21,7 @@ def law(artifact: dict, x: np.ndarray, g: np.ndarray, coverage: np.ndarray,
     reliability = float(artifact["location_reliability"])
     expert = float(predict(x[asset_index:asset_index+1], horizon,
                            np.asarray(artifact["long_expert"]))[0])
+    expert *= float(artifact.get("decoder_scale", [1.] * len(artifact["assets"]))[asset_index])
     mean = reliability * (float(artifact["decoder_mean"][asset_index]) + location) * scale + expert
     return p, mean, np.sqrt(np.maximum(variance, 1e-10)) * scale
 

@@ -28,9 +28,11 @@ class JointDataset:
 def make_dataset(panel: pd.DataFrame, assets: list[str], *,
                  fit_cutoff: str = "2008-12-31", stride: int = 5,
                  eligibility: dict[str, str] | None = None,
+                 target_types: dict[str, str] | None = None,
                  max_origins: int | None = 950) -> JointDataset:
     """One row per joint date. Labels never cross the fit cutoff or first target as-of."""
     eligibility = eligibility or {}
+    target_types = target_types or {}
     clean = panel.copy()
     clean["date"] = pd.to_datetime(clean.date)
     clean = clean[clean.asset.isin(assets)].sort_values("date")
@@ -59,8 +61,19 @@ def make_dataset(panel: pd.DataFrame, assets: list[str], *,
                 before, after = wide.iloc[i, k], wide.iloc[i + h, k]
                 first_target = pd.Timestamp(eligibility.get(a, "2100-01-01"))
                 if np.isfinite(before) and np.isfinite(after) and end < first_target:
-                    target[j, k] = float(after - before)
-                    mask[j, k] = True
+                    typ = target_types.get(a, "level")
+                    if typ in {"log_return", "return", "simple_return", "pct_change"}:
+                        # Factor panels contain daily return increments. Match the
+                        # baseline's cumulative target, excluding the as-of day.
+                        path = wide.iloc[i + 1:i + h + 1, k].to_numpy(dtype=float)
+                        if np.isfinite(path).all():
+                            target[j, k] = float(path.sum())
+                            mask[j, k] = True
+                    elif typ == "level":
+                        target[j, k] = float(after - before)
+                        mask[j, k] = True
+                    else:
+                        raise ValueError(f"Unsupported target representation: {typ}")
         xx.append(x); gg.append(g); yy.append(target); mm.append(mask)
         ee.append(ends); dd.append(str(asof.date()))
     if not xx:

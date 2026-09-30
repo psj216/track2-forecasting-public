@@ -34,18 +34,20 @@ def fit_classifier(x: np.ndarray, labels: np.ndarray, states: int = 5) -> np.nda
 
 
 def fit_factors(y: np.ndarray, mask: np.ndarray, factors: int = 5):
-    """Missing cells only contribute to observed pairwise covariance."""
+    """Fit unit-neutral PCA, then convert decoder loadings back to native units."""
     n, a = y.shape
     counts = mask.sum(axis=0).clip(min=1)
     mean = (y * mask).sum(axis=0) / counts
     centered = np.where(mask, y - mean, 0)
     pair = mask.astype(float).T @ mask.astype(float)
-    cov = centered.T @ centered / np.maximum(pair - 1, 1)
-    scale = max(float(np.nanmedian(np.diag(cov))), 1e-6)
-    cov = psd(0.8 * cov + 0.2 * np.eye(a) * scale)
+    raw_cov = centered.T @ centered / np.maximum(pair - 1, 1)
+    scale = np.sqrt(np.maximum(np.diag(raw_cov), 1e-8))
+    standardized = centered / scale
+    cov = standardized.T @ standardized / np.maximum(pair - 1, 1)
+    cov = psd(0.8 * cov + 0.2 * np.eye(a))
     values, vectors = np.linalg.eigh(cov)
-    load = vectors[:, -min(factors, a):][:, ::-1]
-    if load.shape[1] < factors:
-        load = np.pad(load, ((0, 0), (0, factors - load.shape[1])))
-    scores = centered @ load
-    return mean, load, scores, float(np.sum(values[-factors:]) / np.sum(values))
+    axes = vectors[:, -min(factors, a):][:, ::-1]
+    if axes.shape[1] < factors:
+        axes = np.pad(axes, ((0, 0), (0, factors - axes.shape[1])))
+    scores = standardized @ axes
+    return mean, axes * scale[:, None], scores, float(np.sum(values[-factors:]) / np.sum(values)), scale, axes / scale[:, None]
