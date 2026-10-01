@@ -7,5 +7,13 @@
     "2024-12-11"
   ],
   "source_hash_manifest": "../frozen_inputs.json",
-  "event_clusters": 382
+  "event_clusters": 382,
+  "market_universe_assets": 25,
+  "scored_assets": 22,
+  "unscored_assets": [
+    "BRL",
+    "CNY",
+    "INR"
+  ],
+  "release_date_clusters": 322
 }

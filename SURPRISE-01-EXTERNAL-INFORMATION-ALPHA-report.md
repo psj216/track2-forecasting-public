@@ -232,3 +232,13 @@ PRE_FINAL code, the same case/cache hashes and toolkit v2.4.3. All three
 ratios agree with the initially completed run within 1e-13. No retraining,
 parameter change or 2025 evaluation occurred. This is recovery of an exposed
 research result, not a second independent experiment.
+
+### Actual asset coverage
+
+The inherited universe contains 25 assets. Scored 2017–2024 cases cover
+22 assets: ten H.10 FX, six rates and six factors. BRL, INR and CNY
+produce no eligible matured evaluation cells under the frozen coverage,
+prior-volatility and target-maturity rules. They were not removed after
+scoring; the private case hash was fixed before evaluation. EM source
+identifiers remain unverified. The 25-asset universe must not be confused
+with 25 scored assets.
