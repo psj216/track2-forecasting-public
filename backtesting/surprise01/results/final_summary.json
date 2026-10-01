@@ -1,0 +1,8 @@
+{
+  "status": "NO_INDEPENDENT_FINAL_HOLDOUT",
+  "scored": false,
+  "final_period": null,
+  "cells": 0,
+  "events": 0,
+  "reason": "Date-limited FRED source audit returned later rows before the freeze"
+}

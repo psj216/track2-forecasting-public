@@ -2,8 +2,8 @@
 
 SURPRISE-01 tests whether first-release macro information adds directional or
 future-dispersion information to the actual V5.1 no-text research baseline.
-This commit freezes a chronological research experiment before scoring any
-SURPRISE candidate. It does not claim an independent final holdout.
+The frozen chronological research experiment has been executed. None of
+the three heads improves marginal CRPS. No independent final holdout is claimed.
 
 - Branch: `track2/surprise-01-external-information-alpha`.
 - Remote parent: `809b2e192e36db0bcb25b9d62e19b7680a4f3e91`.
@@ -130,6 +130,105 @@ scored outcomes remain outside Git. Public manifests contain identifiers,
 hashes, row counts and date coverage; public score outputs are aggregates.
 An official score is not inferred by multiplying a local research ratio.
 
-### Results
+### Executed research results
 
-Pending the remotely verified method/input freeze.
+PRE_FINAL_SURPRISE01_SHA: `bada39e0bc9cd4b084e7c745f5689f0a59467648`.
+
+Status: **EXPOSED_CHRONOLOGICAL_RESEARCH_ONLY**. **NO_INDEPENDENT_FINAL_HOLDOUT**. No 2025 label or score was generated.
+
+Source ledger: 1,901 family records, 1998-01-09 to 2024-12-17; 41 documented pre-score exclusions. TRUE_CONSENSUS_SURPRISE count: 0. All signals are RELEASE_INNOVATION.
+
+| Head | V5.1 normalized CRPS | Candidate | Ratio | Cells | Events | Active cells |
+|---|---:|---:|---:|---:|---:|---:|
+| location | 0.613299 | 0.615074 | 1.002894 | 59052 | 382 | 51370 |
+| scale | 0.613299 | 0.614320 | 1.001666 | 59052 | 382 | 51370 |
+| combined | 0.613299 | 0.616274 | 1.004852 | 59052 | 382 | 51370 |
+
+The three heads are separate precommitted hypotheses. These are research ratios, not official competition scores.
+
+### Direction and dispersion
+
+| Head | Sign accuracy | Pearson IC | Spearman IC | Mean absolute shift / baseline SD | Mean scale multiplier |
+|---|---:|---:|---:|---:|---:|
+| location | 0.497138 | -0.017051 | -0.004637 | 0.027610 | 1.000000 |
+| scale | N/A | 0.076093 | 0.093241 | 0.000000 | 0.943722 |
+| combined | 0.497138 | -0.017051 | -0.004637 | 0.027610 | 0.943722 |
+
+Scale-head IC concerns future log path scale / V5.1 SD; it is not directional IC. Directional accuracy concerns nonzero intervention cells.
+
+### Target groups
+
+| Partition | Location ratio | Scale ratio | Combined ratio | Cells | Events |
+|---|---:|---:|---:|---:|---:|
+| FX | 1.004084 | 0.999574 | 1.004005 | 27120 | 376 |
+| Factor/Equity | 1.004093 | 1.003550 | 1.008088 | 15348 | 356 |
+| Rates | 1.000498 | 1.002908 | 1.003518 | 16584 | 382 |
+
+### Business-day horizons
+
+| Partition | Location ratio | Scale ratio | Combined ratio | Cells | Events |
+|---|---:|---:|---:|---:|---:|
+| 5 | 1.004741 | 1.001907 | 1.007153 | 12288 | 382 |
+| 21 | 1.003653 | 1.000303 | 1.004328 | 12168 | 380 |
+| 63 | 1.002661 | 1.000881 | 1.003805 | 11924 | 372 |
+| 126 | 1.002051 | 1.001438 | 1.003762 | 11528 | 360 |
+| 189 | 1.001542 | 1.003634 | 1.005250 | 11144 | 348 |
+
+### Release families
+
+| Partition | Location ratio | Scale ratio | Combined ratio | Cells | Events |
+|---|---:|---:|---:|---:|---:|
+| CPI | 1.001456 | 1.001845 | 1.003348 | 9832 | 96 |
+| Core CPI | 1.003602 | 1.004065 | 1.008006 | 9832 | 96 |
+| Industrial Production | 1.002071 | 1.001238 | 1.003564 | 9826 | 95 |
+| Payrolls | 1.002383 | 1.001206 | 1.003756 | 9868 | 96 |
+| Retail Sales | 1.006471 | 1.000564 | 1.007864 | 9826 | 95 |
+| Unemployment | 1.001497 | 1.001084 | 1.002715 | 9868 | 96 |
+
+### Negative controls and event uncertainty
+
+| Head | Primary | Sign shuffle | Date permutation | Family permutation | Primary event-bootstrap 95% interval |
+|---|---:|---:|---:|---:|---|
+| location | 1.002894 | 1.002358 | 1.001510 | 1.002132 | [1.001222, 1.004857] |
+| scale | 1.001666 | 1.001666 | 1.001557 | 1.001626 | [1.000369, 1.002835] |
+| combined | 1.004852 | 1.004243 | 1.003234 | 1.003940 | [1.002274, 1.007750] |
+
+Resampling unit: entire release date, all families/assets/horizons together; 2,000 replicates, seed 1902. Long overlapping targets retain serial dependence between dates. Cell counts are not independent sample counts.
+
+Scale sign shuffle is algebraically invariant and cannot establish a scale edge. Relevant date/family controls must capture less than half the primary gain, with paired bootstrap upper ratio below one. See negative_controls.json for all paired intervals.
+
+Future-market mutation and later-revision mutation tests passed before scoring.
+
+### Decisions
+
+- location: `NO`.
+- scale: `NO`.
+- combined: `NO`.
+
+READY_FOR_SURPRISE_02 = **NO**.
+
+READY_FOR_ONE_SHOT_SUBMISSION = **NO**.
+
+This fixed release-innovation specification does not meet its precommitted incremental-information gate. It does not establish absence of information in unavailable true pre-release consensus. No event, asset, horizon, penalty, clip or scale bound was changed after scoring.
+
+### Preservation and private-data firewall
+
+Private scored outcomes: 59,052 rows, SHA-256 `3019eed25a90d8b5389b13ade8301f847754a54dcb2b53f24b9c73875834704c`. Individual outcomes and baseline draws remain outside Git. Public result files contain only aggregate scores, source identifiers, hashes, counts and coverage.
+
+Tests before freeze: repository 399 passed / 2 skipped; SURPRISE-specific 19 passed. Remote result commit and exact-SHA file fetch are verified separately.
+
+### Interpretation and recovery verification
+
+Location does not establish directional information: sign accuracy is 49.7138%,
+Pearson IC -0.017051 and Spearman IC -0.004637. Scale has weak positive
+dispersion IC (Pearson 0.076093, Spearman 0.093241), but fails to improve CRPS.
+This specification establishes neither usable direction nor dispersion improvement.
+It does not test unavailable true historical consensus surprises.
+
+Automated workspace maintenance removed the completed local result files before
+the result commit. All frozen private cases and 3,111 baseline caches were
+recovered from persistent archives. Computational replay used unchanged
+PRE_FINAL code, the same case/cache hashes and toolkit v2.4.3. All three
+ratios agree with the initially completed run within 1e-13. No retraining,
+parameter change or 2025 evaluation occurred. This is recovery of an exposed
+research result, not a second independent experiment.

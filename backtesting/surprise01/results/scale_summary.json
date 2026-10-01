@@ -1,0 +1,28 @@
+{
+  "research_only": true,
+  "cells": 59052,
+  "events": 382,
+  "release_date_clusters": 322,
+  "v51": 0.6132985094431782,
+  "candidate": 0.6143201131343542,
+  "ratio": 1.0016657527703818,
+  "active_cells": 51370,
+  "active_events": 366,
+  "sign_accuracy": null,
+  "pearson_ic": 0.07609312677217923,
+  "spearman_ic": 0.09324096537007638,
+  "ic_target": "future log path scale / V5.1 SD",
+  "mean_abs_location_shift_over_v51_sd": 0.0,
+  "mean_scale_multiplier": 0.9437216872129804,
+  "uncertainty": {
+    "clusters": 322,
+    "resampling_unit": "whole release date",
+    "replicates": 2000,
+    "ratio_ci95": [
+      1.0003691707336797,
+      1.0028351948020993
+    ],
+    "limitation": "Overlapping multi-month targets retain serial dependence across distinct release dates"
+  },
+  "decision": "NO"
+}

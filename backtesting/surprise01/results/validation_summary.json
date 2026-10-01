@@ -1,0 +1,279 @@
+{
+  "status": "EXPOSED_CHRONOLOGICAL_RESEARCH_ONLY",
+  "pre_final_sha": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+  "development": "2001-2016",
+  "research_evaluation": "2017-2024",
+  "fit_rule": "Only target_end strictly before each forecast origin",
+  "information_type": "RELEASE_INNOVATION",
+  "true_consensus_events": 0,
+  "overall": {
+    "location": {
+      "cells": 59052,
+      "events": 382,
+      "release_date_clusters": 322,
+      "v51": 0.6132985094431782,
+      "candidate": 0.6150735012151064,
+      "ratio": 1.0028941726493674,
+      "active_cells": 51370,
+      "active_events": 366,
+      "sign_accuracy": 0.497138407630913,
+      "pearson_ic": -0.017051312565881584,
+      "spearman_ic": -0.004636892612296041,
+      "ic_target": "normalized future movement",
+      "mean_abs_location_shift_over_v51_sd": 0.027610145806782307,
+      "mean_scale_multiplier": 1.0
+    },
+    "scale": {
+      "cells": 59052,
+      "events": 382,
+      "release_date_clusters": 322,
+      "v51": 0.6132985094431782,
+      "candidate": 0.6143201131343542,
+      "ratio": 1.0016657527703818,
+      "active_cells": 51370,
+      "active_events": 366,
+      "sign_accuracy": null,
+      "pearson_ic": 0.07609312677217923,
+      "spearman_ic": 0.09324096537007638,
+      "ic_target": "future log path scale / V5.1 SD",
+      "mean_abs_location_shift_over_v51_sd": 0.0,
+      "mean_scale_multiplier": 0.9437216872129804
+    },
+    "combined": {
+      "cells": 59052,
+      "events": 382,
+      "release_date_clusters": 322,
+      "v51": 0.6132985094431782,
+      "candidate": 0.616274480345356,
+      "ratio": 1.0048524019810186,
+      "active_cells": 51370,
+      "active_events": 366,
+      "sign_accuracy": 0.497138407630913,
+      "pearson_ic": -0.017051312565881584,
+      "spearman_ic": -0.004636892612296041,
+      "ic_target": "normalized future movement",
+      "mean_abs_location_shift_over_v51_sd": 0.027610145806782307,
+      "mean_scale_multiplier": 0.9437216872129804
+    }
+  },
+  "event_uncertainty": {
+    "location": {
+      "clusters": 322,
+      "resampling_unit": "whole release date",
+      "replicates": 2000,
+      "ratio_ci95": [
+        1.0012218959382,
+        1.0048572706874799
+      ],
+      "limitation": "Overlapping multi-month targets retain serial dependence across distinct release dates"
+    },
+    "scale": {
+      "clusters": 322,
+      "resampling_unit": "whole release date",
+      "replicates": 2000,
+      "ratio_ci95": [
+        1.0003691707336797,
+        1.0028351948020993
+      ],
+      "limitation": "Overlapping multi-month targets retain serial dependence across distinct release dates"
+    },
+    "combined": {
+      "clusters": 322,
+      "resampling_unit": "whole release date",
+      "replicates": 2000,
+      "ratio_ci95": [
+        1.0022744150628102,
+        1.0077503834947734
+      ],
+      "limitation": "Overlapping multi-month targets retain serial dependence across distinct release dates"
+    }
+  },
+  "head_decisions": {
+    "location": "NO",
+    "scale": "NO",
+    "combined": "NO"
+  },
+  "ready_for_surprise_02": "NO",
+  "ready_for_one_shot_submission": "NO",
+  "surprise_bins": {
+    "small": {
+      "cells": 23266,
+      "events": 191,
+      "mean_abs_future_q": 0.8116517195461634,
+      "extreme_q_frequency": 0.06438579902002922,
+      "mean_v51_tail_error": 0.25322702656236573,
+      "heads": {
+        "location": {
+          "cells": 23266,
+          "events": 191,
+          "release_date_clusters": 182,
+          "v51": 0.6039795446954799,
+          "candidate": 0.6038962420197014,
+          "ratio": 0.9998620769916629,
+          "active_cells": 15584,
+          "active_events": 142,
+          "sign_accuracy": 0.5041709445585215,
+          "pearson_ic": 0.018189661707028248,
+          "spearman_ic": 0.01526402768647018,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.0040365385404131,
+          "mean_scale_multiplier": 1.0
+        },
+        "scale": {
+          "cells": 23266,
+          "events": 191,
+          "release_date_clusters": 182,
+          "v51": 0.6039795446954799,
+          "candidate": 0.6040902703722144,
+          "ratio": 1.0001833268654658,
+          "active_cells": 15584,
+          "active_events": 142,
+          "sign_accuracy": null,
+          "pearson_ic": 0.041679062964614266,
+          "spearman_ic": 0.05265629823098801,
+          "ic_target": "future log path scale / V5.1 SD",
+          "mean_abs_location_shift_over_v51_sd": 0.0,
+          "mean_scale_multiplier": 0.9898802030938832
+        },
+        "combined": {
+          "cells": 23266,
+          "events": 191,
+          "release_date_clusters": 182,
+          "v51": 0.6039795446954799,
+          "candidate": 0.6040055780134073,
+          "ratio": 1.00004310297949,
+          "active_cells": 15584,
+          "active_events": 142,
+          "sign_accuracy": 0.5041709445585215,
+          "pearson_ic": 0.018189661707028248,
+          "spearman_ic": 0.01526402768647018,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.0040365385404131,
+          "mean_scale_multiplier": 0.9898802030938832
+        }
+      }
+    },
+    "medium": {
+      "cells": 18100,
+      "events": 156,
+      "mean_abs_future_q": 0.8474093657257742,
+      "extreme_q_frequency": 0.07038674033149171,
+      "mean_v51_tail_error": 0.25517237569060786,
+      "heads": {
+        "location": {
+          "cells": 18100,
+          "events": 156,
+          "release_date_clusters": 149,
+          "v51": 0.6194838526700944,
+          "candidate": 0.6197230236889066,
+          "ratio": 1.0003860811186303,
+          "active_cells": 18100,
+          "active_events": 156,
+          "sign_accuracy": 0.5009944751381216,
+          "pearson_ic": 0.006925680488451165,
+          "spearman_ic": 0.007906507675010173,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.018191673756480772,
+          "mean_scale_multiplier": 1.0
+        },
+        "scale": {
+          "cells": 18100,
+          "events": 156,
+          "release_date_clusters": 149,
+          "v51": 0.6194838526700944,
+          "candidate": 0.620259817997787,
+          "ratio": 1.0012525997640584,
+          "active_cells": 18100,
+          "active_events": 156,
+          "sign_accuracy": null,
+          "pearson_ic": 0.08044803593857072,
+          "spearman_ic": 0.04762643931469755,
+          "ic_target": "future log path scale / V5.1 SD",
+          "mean_abs_location_shift_over_v51_sd": 0.0,
+          "mean_scale_multiplier": 0.9530147048611866
+        },
+        "combined": {
+          "cells": 18100,
+          "events": 156,
+          "release_date_clusters": 149,
+          "v51": 0.6194838526700944,
+          "candidate": 0.6205212771352591,
+          "ratio": 1.0016746594131438,
+          "active_cells": 18100,
+          "active_events": 156,
+          "sign_accuracy": 0.5009944751381216,
+          "pearson_ic": 0.006925680488451165,
+          "spearman_ic": 0.007906507675010173,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.018191673756480772,
+          "mean_scale_multiplier": 0.9530147048611866
+        }
+      }
+    },
+    "large": {
+      "cells": 17686,
+      "events": 146,
+      "mean_abs_future_q": 0.8497793733621178,
+      "extreme_q_frequency": 0.07367409250254439,
+      "mean_v51_tail_error": 0.24946059029741044,
+      "heads": {
+        "location": {
+          "cells": 17686,
+          "events": 146,
+          "release_date_clusters": 130,
+          "v51": 0.6192275109931479,
+          "candidate": 0.6250188679268845,
+          "ratio": 1.0093525510913561,
+          "active_cells": 17686,
+          "active_events": 146,
+          "sign_accuracy": 0.4869953635644012,
+          "pearson_ic": -0.03243646418978808,
+          "spearman_ic": -0.02290377578132975,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.06826025836868459,
+          "mean_scale_multiplier": 1.0
+        },
+        "scale": {
+          "cells": 17686,
+          "events": 146,
+          "release_date_clusters": 130,
+          "v51": 0.6192275109931479,
+          "candidate": 0.6216987665141918,
+          "ratio": 1.003990868424241,
+          "active_cells": 17686,
+          "active_events": 146,
+          "sign_accuracy": null,
+          "pearson_ic": 0.04108911032365292,
+          "spearman_ic": 0.051108545922763225,
+          "ic_target": "future log path scale / V5.1 SD",
+          "mean_abs_location_shift_over_v51_sd": 0.0,
+          "mean_scale_multiplier": 0.8734894328921833
+        },
+        "combined": {
+          "cells": 17686,
+          "events": 146,
+          "release_date_clusters": 130,
+          "v51": 0.6192275109931479,
+          "candidate": 0.6280680605646183,
+          "ratio": 1.0142767390248724,
+          "active_cells": 17686,
+          "active_events": 146,
+          "sign_accuracy": 0.4869953635644012,
+          "pearson_ic": -0.03243646418978808,
+          "spearman_ic": -0.02290377578132975,
+          "ic_target": "normalized future movement",
+          "mean_abs_location_shift_over_v51_sd": 0.06826025836868459,
+          "mean_scale_multiplier": 0.8734894328921833
+        }
+      }
+    }
+  },
+  "final": {
+    "status": "NO_INDEPENDENT_FINAL_HOLDOUT",
+    "scored": false,
+    "final_period": null,
+    "cells": 0,
+    "events": 0,
+    "reason": "Date-limited FRED source audit returned later rows before the freeze"
+  }
+}

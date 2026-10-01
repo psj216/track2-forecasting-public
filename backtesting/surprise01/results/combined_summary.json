@@ -1,0 +1,28 @@
+{
+  "research_only": true,
+  "cells": 59052,
+  "events": 382,
+  "release_date_clusters": 322,
+  "v51": 0.6132985094431782,
+  "candidate": 0.616274480345356,
+  "ratio": 1.0048524019810186,
+  "active_cells": 51370,
+  "active_events": 366,
+  "sign_accuracy": 0.497138407630913,
+  "pearson_ic": -0.017051312565881584,
+  "spearman_ic": -0.004636892612296041,
+  "ic_target": "normalized future movement",
+  "mean_abs_location_shift_over_v51_sd": 0.027610145806782307,
+  "mean_scale_multiplier": 0.9437216872129804,
+  "uncertainty": {
+    "clusters": 322,
+    "resampling_unit": "whole release date",
+    "replicates": 2000,
+    "ratio_ci95": [
+      1.0022744150628102,
+      1.0077503834947734
+    ],
+    "limitation": "Overlapping multi-month targets retain serial dependence across distinct release dates"
+  },
+  "decision": "NO"
+}

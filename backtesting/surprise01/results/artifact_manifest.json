@@ -1,0 +1,11 @@
+{
+  "pre_final_sha": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+  "private_outcome_sha256": "3019eed25a90d8b5389b13ade8301f847754a54dcb2b53f24b9c73875834704c",
+  "private_outcome_rows": 59052,
+  "private_date_coverage": [
+    "2017-01-06",
+    "2024-12-11"
+  ],
+  "source_hash_manifest": "../frozen_inputs.json",
+  "event_clusters": 382
+}
