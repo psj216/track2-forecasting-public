@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Pre-final ORIGIN-01 inputs frozen before 2024 outcome scoring; only SHA-256 and metadata are public.",
+  "panel_sha256": "8468adfb03b082718dc217ccc1d6cc359efa2b307819562949c24e49045f9625",
+  "training_sha256": "58b1cf8cf3d26a7416d5acc0f205bbcefb833073ab8a29b7aab485a9f93764c4",
+  "model_sha256": "f587fdbf97338e36f2250d2f501df5f2ef81b0aa51118318bb650a8a4d9b38c0",
+  "training_origins": 1200,
+  "training_mature_cells": 87518,
+  "assets": 25,
+  "trained_models": 122,
+  "training_last_target_end": "2023-12-29",
+  "seed": 19,
+  "source_threshold": 2.0,
+  "unreacted_threshold": 1.0,
+  "ridge_lambda": "0.1 * fit_rows"
+}
