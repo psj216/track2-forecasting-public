@@ -1,0 +1,93 @@
+{
+  "pre_final_sha": "51b4e81f4aeff1811c0990bc1532f2259ef8779f",
+  "parent": "7e73f3623ec93e7efca852904ab6d656489d2b5c",
+  "training_cutoff": "2023-12-31",
+  "final_period": "2024",
+  "grid": "2001-01-02 anchored every 21 business days",
+  "assets": 25,
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "final_origins": 12,
+  "shock_origin_count": 1,
+  "source_shock_events": 1,
+  "active_cell_count": 15,
+  "active_frequency": 0.02631578947368421,
+  "mean_active_sources_per_origin": 0.08333333333333333,
+  "overall": {
+    "cells": 570,
+    "v51": 0.484031125426417,
+    "origin": 0.4840039685535853,
+    "ratio": 0.9999438943666943,
+    "active_cells": 15,
+    "sign_accuracy": 0.8,
+    "pearson_ic": 0.5176614102598498,
+    "spearman_ic": 0.5857142857142856,
+    "mean_abs_shift_over_v51_sd": 6.855800843316132e-05
+  },
+  "horizon_cells": {
+    "5": {
+      "cells": 164,
+      "sample": "OK"
+    },
+    "21": {
+      "cells": 158,
+      "sample": "OK"
+    },
+    "63": {
+      "cells": 124,
+      "sample": "OK"
+    },
+    "126": {
+      "cells": 86,
+      "sample": "OK"
+    },
+    "189": {
+      "cells": 38,
+      "sample": "LOW SAMPLE"
+    }
+  },
+  "dominant_source_distribution": {
+    "UST_2Y": 15
+  },
+  "shock_bins": {
+    "2-2.5": {
+      "cells": 15,
+      "v51": 0.520874229708674,
+      "origin": 0.5198422685410654,
+      "ratio": 0.9980187901248526,
+      "active_cells": 15,
+      "sign_accuracy": 0.8,
+      "pearson_ic": 0.5176614102598498,
+      "spearman_ic": 0.5857142857142856,
+      "mean_abs_shift_over_v51_sd": 0.0026052043204601305
+    },
+    "2.5-3": {
+      "cells": 0,
+      "v51": null,
+      "origin": null,
+      "ratio": null,
+      "sign_accuracy": null,
+      "pearson_ic": null,
+      "spearman_ic": null,
+      "mean_abs_shift_over_v51_sd": null
+    },
+    "3+": {
+      "cells": 0,
+      "v51": null,
+      "origin": null,
+      "ratio": null,
+      "sign_accuracy": null,
+      "pearson_ic": null,
+      "spearman_ic": null,
+      "mean_abs_shift_over_v51_sd": null
+    }
+  },
+  "ready_for_origin_02": "INCONCLUSIVE",
+  "ready_for_one_shot_submission": "NO",
+  "qualification": "Revised public panel; no-text V5.1 ablation, not official PIT"
+}

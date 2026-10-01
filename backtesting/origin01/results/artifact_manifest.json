@@ -1,0 +1,131 @@
+{
+  "pre_final_sha": "51b4e81f4aeff1811c0990bc1532f2259ef8779f",
+  "private_outcome_sha256": "4b064ec33391b184b003a3a89f4d1b77b8631a05e4e33295c614c039144040b1",
+  "private_outcome_rows": 570,
+  "private_date_coverage": [
+    "2024-01-10",
+    "2024-11-28"
+  ],
+  "private_panel_sha256": "8468adfb03b082718dc217ccc1d6cc359efa2b307819562949c24e49045f9625",
+  "private_model_sha256": "f587fdbf97338e36f2250d2f501df5f2ef81b0aa51118318bb650a8a4d9b38c0",
+  "private_training_sha256": "58b1cf8cf3d26a7416d5acc0f205bbcefb833073ab8a29b7aab485a9f93764c4",
+  "edge_rows": 3000,
+  "historical_coverage": {
+    "2001": {
+      "origins": 52,
+      "mature_cells": 4151,
+      "shock_origins": 28
+    },
+    "2002": {
+      "origins": 53,
+      "mature_cells": 4292,
+      "shock_origins": 27
+    },
+    "2003": {
+      "origins": 52,
+      "mature_cells": 4180,
+      "shock_origins": 20
+    },
+    "2004": {
+      "origins": 52,
+      "mature_cells": 4100,
+      "shock_origins": 11
+    },
+    "2005": {
+      "origins": 52,
+      "mature_cells": 4030,
+      "shock_origins": 11
+    },
+    "2006": {
+      "origins": 52,
+      "mature_cells": 3795,
+      "shock_origins": 21
+    },
+    "2007": {
+      "origins": 52,
+      "mature_cells": 3556,
+      "shock_origins": 20
+    },
+    "2008": {
+      "origins": 53,
+      "mature_cells": 3111,
+      "shock_origins": 33
+    },
+    "2009": {
+      "origins": 52,
+      "mature_cells": 4395,
+      "shock_origins": 15
+    },
+    "2010": {
+      "origins": 52,
+      "mature_cells": 3695,
+      "shock_origins": 9
+    },
+    "2011": {
+      "origins": 52,
+      "mature_cells": 3575,
+      "shock_origins": 24
+    },
+    "2012": {
+      "origins": 52,
+      "mature_cells": 4095,
+      "shock_origins": 2
+    },
+    "2013": {
+      "origins": 53,
+      "mature_cells": 4020,
+      "shock_origins": 22
+    },
+    "2014": {
+      "origins": 52,
+      "mature_cells": 3775,
+      "shock_origins": 20
+    },
+    "2015": {
+      "origins": 52,
+      "mature_cells": 3570,
+      "shock_origins": 31
+    },
+    "2016": {
+      "origins": 52,
+      "mature_cells": 3920,
+      "shock_origins": 13
+    },
+    "2017": {
+      "origins": 52,
+      "mature_cells": 3935,
+      "shock_origins": 12
+    },
+    "2018": {
+      "origins": 52,
+      "mature_cells": 3535,
+      "shock_origins": 32
+    },
+    "2019": {
+      "origins": 53,
+      "mature_cells": 3935,
+      "shock_origins": 20
+    },
+    "2020": {
+      "origins": 52,
+      "mature_cells": 3880,
+      "shock_origins": 27
+    },
+    "2021": {
+      "origins": 52,
+      "mature_cells": 4105,
+      "shock_origins": 16
+    },
+    "2022": {
+      "origins": 52,
+      "mature_cells": 3140,
+      "shock_origins": 28
+    },
+    "2023": {
+      "origins": 52,
+      "mature_cells": 2728,
+      "shock_origins": 11
+    }
+  },
+  "seed": 19
+}

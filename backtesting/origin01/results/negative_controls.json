@@ -1,0 +1,29 @@
+{
+  "time_shuffled": {
+    "cells": 570,
+    "v51": 0.484031125426417,
+    "origin": 0.484031125426417,
+    "ratio": 1.0,
+    "active_cells": 0,
+    "sign_accuracy": null,
+    "pearson_ic": null,
+    "spearman_ic": null,
+    "mean_abs_shift_over_v51_sd": 0.0
+  },
+  "peer_permuted": {
+    "cells": 570,
+    "v51": 0.484031125426417,
+    "origin": 0.4840332164968899,
+    "ratio": 1.0000043201157178,
+    "active_cells": 15,
+    "sign_accuracy": 0.5333333333333333,
+    "pearson_ic": -0.046104748592185295,
+    "spearman_ic": 0.0857142857142857,
+    "mean_abs_shift_over_v51_sd": 4.528806715683654e-05
+  },
+  "future_mutation": {
+    "passed": true,
+    "test": "test_origin01_future_mutation",
+    "guarantee": "signal accesses only row t and t-1"
+  }
+}
