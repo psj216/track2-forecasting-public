@@ -1,0 +1,12 @@
+{
+  "practice_cards": 103,
+  "v13_r2_support_reasons": {
+    "supported": 99,
+    "non_daily_target": 4
+  },
+  "frequency_counts": {
+    "daily": 99,
+    "monthly": 4
+  },
+  "loss_coverage": "Outside fixed eligible 24 cards, no paired outcome loss is scored; counts are not a score ceiling."
+}

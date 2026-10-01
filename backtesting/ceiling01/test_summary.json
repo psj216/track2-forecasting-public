@@ -1,0 +1,11 @@
+{
+  "ceiling_contract_tests": {
+    "passed": 16
+  },
+  "full_repository": {
+    "passed": 415,
+    "skipped": 2
+  },
+  "baseline_cli_reproduction": "bitwise identical for F1,F2,F3,F4",
+  "phase": "PRE_RESULT_METHOD_FREEZE"
+}
