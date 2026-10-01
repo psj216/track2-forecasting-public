@@ -1,0 +1,99 @@
+{
+  "matrix": {
+    "ALL_ZERO_LOSS": {
+      "cases": 13,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 13,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 13,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 13,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857142
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 13,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 13,
+      "score": 0.2937625262060398,
+      "arithmetic_sensitivity": 0.40648456397597393
+    },
+    "LOCATION_ORACLE": {
+      "cases": 13,
+      "score": 0.2937625262060398,
+      "arithmetic_sensitivity": 0.40648456397597393
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 13,
+      "score": 0.14688126310301983,
+      "arithmetic_sensitivity": 0.20324228198798672
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 13,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 4.846390979187397e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 13,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 13,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 13,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 13,
+      "score": 0.8845559501315647,
+      "arithmetic_sensitivity": 0.8991028353408227
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 13,
+      "score": 0.8510528335215425,
+      "arithmetic_sensitivity": 0.8768826474591701
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 13,
+      "score": 0.9146969262882537,
+      "arithmetic_sensitivity": 1.111543776603007
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 13,
+      "score": 0.9677421345002688,
+      "arithmetic_sensitivity": 0.9804385847419959
+    },
+    "TAIL_ORACLE": {
+      "cases": 13,
+      "score": 0.6654119022133732,
+      "arithmetic_sensitivity": 0.6757071670171781
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 13,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857142
+    }
+  },
+  "overall_floor": {
+    "baseline_partition_cards": 13,
+    "leave_partition_baseline_others_zero_geometric": 3.1622776601683826e-06,
+    "leave_partition_baseline_others_zero_arithmetic": 0.5416666666666666
+  }
+}

@@ -1,0 +1,747 @@
+{
+  "cells": 59052,
+  "origins": 376,
+  "events": 382,
+  "baseline_normalized_crps": 0.6132985094431782,
+  "matrix": {
+    "BASELINE": {
+      "loss": 0.6132985094431782,
+      "ratio": 1.0
+    },
+    "LOCATION_ORACLE": {
+      "loss": 0.23712291560203408,
+      "ratio": 0.3866354017676011
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "loss": 0.501987492428707,
+      "ratio": 0.8185043411967006
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "loss": 0.5305275375827998,
+      "ratio": 0.8650396656996162
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "loss": 1.2827012331850653e-18,
+      "ratio": 2.0914794564716074e-18
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "loss": 0.11856145780101704,
+      "ratio": 0.19331770088380054
+    },
+    "TAIL_ORACLE": {
+      "loss": 0.5039369389119889,
+      "ratio": 0.8216829670261547
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "loss": 0.6249513701786332,
+      "ratio": 1.0190003082610373
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "loss": 0.6194847626722855,
+      "ratio": 1.0100868551510485
+    }
+  },
+  "scope": "MARGINAL_ONLY_EXPOSED_RESEARCH",
+  "archived_baseline_max_abs_error": 0.0,
+  "horizon": {
+    "5": {
+      "cells": 12288,
+      "origins": 376,
+      "events": 382,
+      "baseline_normalized_crps": 0.569717430900469,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.569717430900469,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.22017792688510873,
+          "ratio": 0.38646865084872983
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.4741018405862553,
+          "ratio": 0.8321701511517945
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.4981498350573137,
+          "ratio": 0.8743805403144522
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 4.185769699262583e-18,
+          "ratio": 7.347097828210643e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11008896344255437,
+          "ratio": 0.19323432542436492
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.47040445973582923,
+          "ratio": 0.8256803008332213
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5703828886991706,
+          "ratio": 1.0011680488652943
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5749727149193586,
+          "ratio": 1.009224369369537
+        }
+      }
+    },
+    "21": {
+      "cells": 12168,
+      "origins": 374,
+      "events": 380,
+      "baseline_normalized_crps": 0.5756220080204495,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.5756220080204495,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23598956800221613,
+          "ratio": 0.40997315028620723
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.4732114789782719,
+          "ratio": 0.8220871898307625
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.49731084014911786,
+          "ratio": 0.8639538329317152
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.9097011031138442e-18,
+          "ratio": 5.0548816107991385e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11799478400110806,
+          "ratio": 0.20498657514310362
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.47746034689510275,
+          "ratio": 0.8294685405394377
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5763459431190555,
+          "ratio": 1.0012576570883653
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5846950747272484,
+          "ratio": 1.0157621956429375
+        }
+      }
+    },
+    "63": {
+      "cells": 11924,
+      "origins": 366,
+      "events": 372,
+      "baseline_normalized_crps": 0.6065735499727384,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6065735499727384,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24132638241560858,
+          "ratio": 0.39785180614363197
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49633311803527336,
+          "ratio": 0.8182571067557766
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5215509732916387,
+          "ratio": 0.8598313812316397
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.249772201264291e-19,
+          "ratio": 3.7089850049765673e-19
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12066319120780429,
+          "ratio": 0.19892590307181598
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5014247924131273,
+          "ratio": 0.8266512650208094
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6134497605767868,
+          "ratio": 1.0113361530590272
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6126769264822931,
+          "ratio": 1.0100620551453803
+        }
+      }
+    },
+    "126": {
+      "cells": 11528,
+      "origins": 354,
+      "events": 360,
+      "baseline_normalized_crps": 0.6302360951067798,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6302360951067798,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24398483407127206,
+          "ratio": 0.38713243491700383
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5114457433113185,
+          "ratio": 0.8115145217518288
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5418655720376693,
+          "ratio": 0.8597818757839663
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 1.920304754613692e-18,
+          "ratio": 3.046960923887322e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12199241703563603,
+          "ratio": 0.19356621745850192
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5167854041555148,
+          "ratio": 0.8199869987896468
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6495970327335057,
+          "ratio": 1.0307201345290222
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6329763685948449,
+          "ratio": 1.0043480110221246
+        }
+      }
+    },
+    "189": {
+      "cells": 11144,
+      "origins": 343,
+      "events": 348,
+      "baseline_normalized_crps": 0.6921664107030577,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6921664107030577,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24544885427304317,
+          "ratio": 0.3546096003470208
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5604219383724882,
+          "ratio": 0.8096635862512427
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.6003740625664937,
+          "ratio": 0.8673839892875944
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -3.2227036476272164e-18,
+          "ratio": -4.655966538962506e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12272442713652158,
+          "ratio": 0.1773048001735104
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5592179873060286,
+          "ratio": 0.8079241908575298
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.7250050611190881,
+          "ratio": 1.047443288070964
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6998805246390288,
+          "ratio": 1.0111448833931937
+        }
+      }
+    }
+  },
+  "group": {
+    "FX": {
+      "cells": 27120,
+      "origins": 359,
+      "events": 376,
+      "baseline_normalized_crps": 0.561269676243293,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.561269676243293,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.2477496607230659,
+          "ratio": 0.44140931037164044
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.4613042972485825,
+          "ratio": 0.821894210170409
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.48419635901065616,
+          "ratio": 0.8626804181752588
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 1.3086096437555473e-18,
+          "ratio": 2.331516736329624e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12387483036153295,
+          "ratio": 0.22070465518582022
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.4714137976041814,
+          "ratio": 0.8399060515071156
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5620317345012608,
+          "ratio": 1.0013577399425324
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5673553636738567,
+          "ratio": 1.01084271552188
+        }
+      }
+    },
+    "Factor/Equity": {
+      "cells": 15348,
+      "origins": 350,
+      "events": 356,
+      "baseline_normalized_crps": 0.5834408086003191,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.5834408086003191,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.2263811283310154,
+          "ratio": 0.38801044595098894
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.484220659403219,
+          "ratio": 0.8299396481450615
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5082396733252055,
+          "ratio": 0.8711075156783736
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.811853839421785e-19,
+          "ratio": 4.819432919283539e-19
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.1131905641655077,
+          "ratio": 0.19400522297549447
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.48091835420595075,
+          "ratio": 0.8242795963478783
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5847771387967375,
+          "ratio": 1.0022904297689157
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5888621373460978,
+          "ratio": 1.009291994433479
+        }
+      }
+    },
+    "Rates": {
+      "cells": 16584,
+      "origins": 365,
+      "events": 382,
+      "baseline_normalized_crps": 0.7260142564835234,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.7260142564835234,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.2296860863300377,
+          "ratio": 0.31636580725360774
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5849598517244237,
+          "ratio": 0.8057140014821447
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.6269201873356997,
+          "ratio": 0.8635094720759486
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.1672061270290263e-18,
+          "ratio": 2.9850737883935896e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11484304316501887,
+          "ratio": 0.1581829036268039
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5784254115564662,
+          "ratio": 0.7967135719318941
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.7650246108214024,
+          "ratio": 1.0537322152967452
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.7330728809998132,
+          "ratio": 1.0097224323809817
+        }
+      }
+    }
+  },
+  "event_family": {
+    "CPI": {
+      "cells": 9832,
+      "origins": 98,
+      "events": 96,
+      "baseline_normalized_crps": 0.6106489242987587,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6106489242987587,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.2373040451364741,
+          "ratio": 0.38860961788966253
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49898366782237674,
+          "ratio": 0.8171367343279721
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5282526590921891,
+          "ratio": 0.8650676977754612
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -1.1793985145858182e-18,
+          "ratio": -1.931385559943769e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11865202256823708,
+          "ratio": 0.19430480894483132
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5018518343647314,
+          "ratio": 0.8218336500650272
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6217628661984145,
+          "ratio": 1.0182002153077048
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6161070235516921,
+          "ratio": 1.0089381951490395
+        }
+      }
+    },
+    "Core CPI": {
+      "cells": 9832,
+      "origins": 98,
+      "events": 96,
+      "baseline_normalized_crps": 0.6106489242987587,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6106489242987587,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.2373040451364741,
+          "ratio": 0.38860961788966253
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49898366782237674,
+          "ratio": 0.8171367343279721
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5282526590921891,
+          "ratio": 0.8650676977754612
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -1.1793985145858182e-18,
+          "ratio": -1.931385559943769e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11865202256823708,
+          "ratio": 0.19430480894483132
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5018518343647314,
+          "ratio": 0.8218336500650272
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6217628661984145,
+          "ratio": 1.0182002153077048
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6161070235516921,
+          "ratio": 1.0089381951490395
+        }
+      }
+    },
+    "Industrial Production": {
+      "cells": 9826,
+      "origins": 102,
+      "events": 95,
+      "baseline_normalized_crps": 0.6042558000026443,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6042558000026443,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23657039875411995,
+          "ratio": 0.39150703849774326
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49183848514851086,
+          "ratio": 0.8139574086775145
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5205374320274282,
+          "ratio": 0.861452106914241
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -1.0489188833098857e-18,
+          "ratio": -1.735885502969596e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11828519937705995,
+          "ratio": 0.1957535192488716
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.49642576111106584,
+          "ratio": 0.8215490213066939
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6168070588764634,
+          "ratio": 1.0207714330152298
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6096612508638286,
+          "ratio": 1.008945633390959
+        }
+      }
+    },
+    "Payrolls": {
+      "cells": 9868,
+      "origins": 98,
+      "events": 96,
+      "baseline_normalized_crps": 0.6271497011454411,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6271497011454411,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23722114419245766,
+          "ratio": 0.37825282186883186
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5155797069216995,
+          "ratio": 0.8220999005182216
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5439305017250381,
+          "ratio": 0.8673056859177171
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 1.2641565115992461e-17,
+          "ratio": 2.0157173148458185e-17
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11861057209622883,
+          "ratio": 0.18912641093441593
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5145327587094617,
+          "ratio": 0.820430525231387
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6388522009293863,
+          "ratio": 1.018659818800155
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6350774172095269,
+          "ratio": 1.0126408671639426
+        }
+      }
+    },
+    "Retail Sales": {
+      "cells": 9826,
+      "origins": 96,
+      "events": 95,
+      "baseline_normalized_crps": 0.5998228312228127,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.5998228312228127,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23711565526433562,
+          "ratio": 0.395309486271048
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49084719193617576,
+          "ratio": 0.8183202879015514
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5181496714638536,
+          "ratio": 0.8638378609356061
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -1.4273304149090616e-17,
+          "ratio": -2.3795866722833355e-17
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11855782763216782,
+          "ratio": 0.19765474313552403
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.4943386516502567,
+          "ratio": 0.8241411062037878
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6115560871972863,
+          "ratio": 1.0195612026813883
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6047492710327832,
+          "ratio": 1.008213158208612
+        }
+      }
+    },
+    "Unemployment": {
+      "cells": 9868,
+      "origins": 98,
+      "events": 96,
+      "baseline_normalized_crps": 0.6271497011454411,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6271497011454411,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23722114419245766,
+          "ratio": 0.37825282186883186
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5155797069216995,
+          "ratio": 0.8220999005182216
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5439305017250381,
+          "ratio": 0.8673056859177171
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 1.2641565115992461e-17,
+          "ratio": 2.0157173148458185e-17
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11861057209622883,
+          "ratio": 0.18912641093441593
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5145327587094617,
+          "ratio": 0.820430525231387
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6388522009293863,
+          "ratio": 1.018659818800155
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6350774172095269,
+          "ratio": 1.0126408671639426
+        }
+      }
+    }
+  },
+  "scales": {
+    "scale_unconstrained": {
+      "n": 59052,
+      "min": 4.250987979543478e-05,
+      "max": 19.253602494891037,
+      "quantiles_0_25_50_75_95_100": [
+        4.250987979543478e-05,
+        0.35899257438425003,
+        0.7718567250628561,
+        1.3679317564433024,
+        2.6083616386472226,
+        19.253602494891037
+      ],
+      "fraction_zero": 0.0,
+      "fraction_lower_bound": 0.0,
+      "fraction_upper_bound": 0.0
+    },
+    "scale_bounded": {
+      "n": 59052,
+      "min": 0.5,
+      "max": 2.0,
+      "quantiles_0_25_50_75_95_100": [
+        0.5,
+        0.5,
+        0.7718567250628561,
+        1.3679317564433024,
+        2.0,
+        2.0
+      ],
+      "fraction_zero": 0.0,
+      "fraction_lower_bound": 0.3430197114407641,
+      "fraction_upper_bound": 0.10692271218587009
+    }
+  },
+  "component_bounds": {
+    "MARGINAL_ZERO_LOSS": 0.0,
+    "ALL_ZERO_LOSS": 0.0,
+    "JOINT": "NOT_IN_SCORER",
+    "TAIL": "NOT_IN_SCORER"
+  },
+  "feasibility": {
+    "0.8": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.19999999999999996,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.7": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.30000000000000004,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.6": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.4,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.5": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.5,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    }
+  },
+  "text": "UNAVAILABLE: no origin-frozen historical text corpus"
+}

@@ -1,0 +1,95 @@
+{
+  "metric": "arithmetic sensitivity of actual per-card normalized components; do not sum geometric component means",
+  "variants": {
+    "ALL_ZERO_LOSS": {
+      "marginal": 0.0,
+      "joint": 0.0,
+      "tail": 0.0
+    },
+    "BASELINE": {
+      "marginal": 0.6160714285714284,
+      "joint": 0.13749999999999998,
+      "tail": 0.2464285714285714
+    },
+    "JOINT_ORACLE": {
+      "marginal": 0.6160714285714285,
+      "joint": 0.04877076734479261,
+      "tail": 0.2464285714285714
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "marginal": 0.6160714285714284,
+      "joint": 0.0,
+      "tail": 0.0
+    },
+    "JOINT_ZERO_LOSS": {
+      "marginal": 0.6160714285714284,
+      "joint": 0.0,
+      "tail": 0.2464285714285714
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "marginal": 0.27425896652566023,
+      "joint": 0.00217918196621078,
+      "tail": 0.18574168744472083
+    },
+    "LOCATION_ORACLE": {
+      "marginal": 0.27425896652566,
+      "joint": 0.5822901669586283,
+      "tail": 0.18574168744472083
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "marginal": 0.13712948326282864,
+      "joint": 0.04186531081274592,
+      "tail": 0.09287084372236042
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "marginal": 3.994897476931127e-16,
+      "joint": 8.967539811852375e-26,
+      "tail": 1.0675726879494306e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "marginal": 0.0,
+      "joint": 0.0,
+      "tail": 0.2464285714285714
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "marginal": 0.0,
+      "joint": 0.13749999999999998,
+      "tail": 0.0
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "marginal": 0.0,
+      "joint": 0.13749999999999998,
+      "tail": 0.2464285714285714
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "marginal": 0.5203993569265097,
+      "joint": 3.0709290023481146,
+      "tail": 0.19928956322647662
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "marginal": 0.48142911609715533,
+      "joint": 0.8410065795830088,
+      "tail": 0.18647668670037432
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "marginal": 0.7024363881731005,
+      "joint": 0.6890803648580858,
+      "tail": 0.41050425585360406
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "marginal": 0.5639083700103938,
+      "joint": 3.8402971734881874,
+      "tail": 0.2435709612563539
+    },
+    "TAIL_ORACLE": {
+      "marginal": 0.5053940644405178,
+      "joint": 2.471005533959547,
+      "tail": 0.08696944618000052
+    },
+    "TAIL_ZERO_LOSS": {
+      "marginal": 0.6160714285714284,
+      "joint": 0.13749999999999998,
+      "tail": 0.0
+    }
+  }
+}

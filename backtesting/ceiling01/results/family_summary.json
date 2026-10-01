@@ -1,0 +1,370 @@
+{
+  "T2-F1": {
+    "ALL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.7429720711187727,
+      "arithmetic_sensitivity": 0.7500926437093448
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.5306241326126259,
+      "arithmetic_sensitivity": 0.5357142857142857
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7428737856576761,
+      "arithmetic_sensitivity": 0.75
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.6436642365013577,
+      "arithmetic_sensitivity": 0.6451167300923758
+    },
+    "LOCATION_ORACLE": {
+      "cases": 6,
+      "score": 1.706268702471187,
+      "arithmetic_sensitivity": 2.8714974793742756
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.44172911685626587,
+      "arithmetic_sensitivity": 0.47126072293912896
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 4.323387636089875e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.21224965304505033,
+      "arithmetic_sensitivity": 0.21428571428571427
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.0036666352749723428,
+      "arithmetic_sensitivity": 0.25
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.45547407537812823,
+      "arithmetic_sensitivity": 0.46428571428571425
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 3.0482268235050936,
+      "arithmetic_sensitivity": 12.484039889094626
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 1.522948767487863,
+      "arithmetic_sensitivity": 3.4577994544749413
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 6,
+      "score": 1.5079197049197925,
+      "arithmetic_sensitivity": 2.5336777018676453
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 6,
+      "score": 3.4089637726602264,
+      "arithmetic_sensitivity": 15.588770005566742
+    },
+    "TAIL_ORACLE": {
+      "cases": 6,
+      "score": 2.772804302445787,
+      "arithmetic_sensitivity": 10.099088061599838
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7850313187238693,
+      "arithmetic_sensitivity": 0.7857142857142857
+    }
+  },
+  "T2-F2": {
+    "ALL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857143
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.4172393452099808,
+      "arithmetic_sensitivity": 0.49721915951167933
+    },
+    "LOCATION_ORACLE": {
+      "cases": 6,
+      "score": 0.4172393452099808,
+      "arithmetic_sensitivity": 0.49721915951167933
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.20861967260499034,
+      "arithmetic_sensitivity": 0.24860957975583972
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 8.667208241420198e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.8657105435539659,
+      "arithmetic_sensitivity": 0.8772891737290562
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 0.8777894770120979,
+      "arithmetic_sensitivity": 0.8877863912899512
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "TAIL_ORACLE": {
+      "cases": 6,
+      "score": 0.7002264057336984,
+      "arithmetic_sensitivity": 0.7059298115199026
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857143
+    }
+  },
+  "T2-F3": {
+    "ALL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.8926724420152301,
+      "arithmetic_sensitivity": 0.8949904256698259
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.5,
+      "arithmetic_sensitivity": 0.5
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7,
+      "arithmetic_sensitivity": 0.7000000000000001
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.3661161802298227,
+      "arithmetic_sensitivity": 0.4416059813333197
+    },
+    "LOCATION_ORACLE": {
+      "cases": 6,
+      "score": 0.4508692818411727,
+      "arithmetic_sensitivity": 0.5356691720210894
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.19403050058582752,
+      "arithmetic_sensitivity": 0.2352035120922756
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 5.425979238780016e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.2,
+      "arithmetic_sensitivity": 0.19999999999999998
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.3,
+      "arithmetic_sensitivity": 0.3
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.5,
+      "arithmetic_sensitivity": 0.5
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.8647235773381712,
+      "arithmetic_sensitivity": 0.8826246419704749
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 0.8074366767832911,
+      "arithmetic_sensitivity": 0.8301866565181556
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 6,
+      "score": 1.9430803102401573,
+      "arithmetic_sensitivity": 2.432728151031667
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 6,
+      "score": 1.0211185750308205,
+      "arithmetic_sensitivity": 1.044719079845341
+    },
+    "TAIL_ORACLE": {
+      "cases": 6,
+      "score": 0.7996124100392188,
+      "arithmetic_sensitivity": 0.8156576662382945
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.8,
+      "arithmetic_sensitivity": 0.7999999999999999
+    }
+  },
+  "T2-F4": {
+    "ALL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857143
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 6,
+      "score": 0.1784409210583779,
+      "arithmetic_sensitivity": 0.2647774728089922
+    },
+    "LOCATION_ORACLE": {
+      "cases": 6,
+      "score": 0.1784409210583779,
+      "arithmetic_sensitivity": 0.2647774728089922
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.08922046052918876,
+      "arithmetic_sensitivity": 0.13238873640449558
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 1.8333055468191616e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.2857142857142857,
+      "arithmetic_sensitivity": 0.28571428571428564
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 6,
+      "score": 0.8989754915174177,
+      "arithmetic_sensitivity": 0.9185179852102484
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 6,
+      "score": 0.8154509038182373,
+      "arithmetic_sensitivity": 0.8598770272391061
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 6,
+      "score": 0.8243291215499875,
+      "arithmetic_sensitivity": 1.241678182639848
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 6,
+      "score": 0.9314207498606113,
+      "arithmetic_sensitivity": 0.957616933607658
+    },
+    "TAIL_ORACLE": {
+      "cases": 6,
+      "score": 0.6195927750704232,
+      "arithmetic_sensitivity": 0.6328006389622286
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 6,
+      "score": 0.7142857142857143,
+      "arithmetic_sensitivity": 0.7142857142857143
+    }
+  }
+}

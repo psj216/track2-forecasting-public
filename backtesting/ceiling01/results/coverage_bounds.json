@@ -1,0 +1,32 @@
+{
+  "v51": {
+    "modeled_cards": 24,
+    "fallback_cards": 0,
+    "fallback_cells": 0,
+    "partial_asset_support_cards": 0,
+    "fallback_zero_loss": {
+      "geometric": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "modeled_zero_loss_fallback_baseline": {
+      "geometric": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "definition": "existing frozen support gate only; absent outside-universe outcomes unmeasurable"
+  },
+  "v13_r2": {
+    "modeled_cards": 24,
+    "fallback_cards": 0,
+    "fallback_cells": 0,
+    "partial_asset_support_cards": 0,
+    "fallback_zero_loss": {
+      "geometric": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "modeled_zero_loss_fallback_baseline": {
+      "geometric": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "definition": "existing frozen support gate only; absent outside-universe outcomes unmeasurable"
+  }
+}

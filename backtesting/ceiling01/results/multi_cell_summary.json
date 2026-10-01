@@ -1,0 +1,167 @@
+{
+  "matrix": {
+    "ALL_ZERO_LOSS": {
+      "cases": 11,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 0.0
+    },
+    "BASELINE": {
+      "cases": 11,
+      "score": 1.0,
+      "arithmetic_sensitivity": 1.0
+    },
+    "JOINT_ORACLE": {
+      "cases": 11,
+      "score": 0.7993300761958463,
+      "arithmetic_sensitivity": 0.806408946934093
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.5,
+      "arithmetic_sensitivity": 0.5
+    },
+    "JOINT_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.7,
+      "arithmetic_sensitivity": 0.7000000000000001
+    },
+    "LOCATION_JOINT_ORACLE": {
+      "cases": 11,
+      "score": 0.46881288710537716,
+      "arithmetic_sensitivity": 0.5280015209809583
+    },
+    "LOCATION_ORACLE": {
+      "cases": 11,
+      "score": 0.893850465344235,
+      "arithmetic_sensitivity": 1.7936982155098684
+    },
+    "LOCATION_SCALE_ORACLE_BOUNDED": {
+      "cases": 11,
+      "score": 0.2875899841726029,
+      "arithmetic_sensitivity": 0.35296596739151004
+    },
+    "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 11,
+      "score": 1.000000000000001e-12,
+      "arithmetic_sensitivity": 5.317836477201759e-16
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.2,
+      "arithmetic_sensitivity": 0.2
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.3,
+      "arithmetic_sensitivity": 0.29999999999999993
+    },
+    "MARGINAL_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.5,
+      "arithmetic_sensitivity": 0.5
+    },
+    "SCALE_ORACLE_BOUNDED": {
+      "cases": 11,
+      "score": 1.7106747266408326,
+      "arithmetic_sensitivity": 7.207863025508703
+    },
+    "SCALE_ORACLE_UNCONSTRAINED": {
+      "cases": 11,
+      "score": 1.1286275086663937,
+      "arithmetic_sensitivity": 2.2558566145603383
+    },
+    "STRUCTURED_LOCATION_CROSSFIT": {
+      "cases": 11,
+      "score": 1.7974457868691567,
+      "arithmetic_sensitivity": 2.6180395561268983
+    },
+    "STRUCTURED_SCALE_CROSSFIT": {
+      "cases": 11,
+      "score": 1.9745673117177058,
+      "arithmetic_sensitivity": 8.981903137497499
+    },
+    "TAIL_ORACLE": {
+      "cases": 11,
+      "score": 1.5844566911347078,
+      "arithmetic_sensitivity": 5.885151263518023
+    },
+    "TAIL_ZERO_LOSS": {
+      "cases": 11,
+      "score": 0.8,
+      "arithmetic_sensitivity": 0.8
+    }
+  },
+  "overall_floor": {
+    "baseline_partition_cards": 11,
+    "leave_partition_baseline_others_zero_geometric": 3.162277660168379e-07,
+    "leave_partition_baseline_others_zero_arithmetic": 0.4583333333333333
+  },
+  "pairs": {
+    "same_asset_different_horizon": {
+      "BASELINE": {
+        "cases": 25,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_ORACLE": {
+        "cases": 25,
+        "score": 0.6934555177597757,
+        "arithmetic_sensitivity": 897.0646274592791
+      },
+      "JOINT_ORACLE": {
+        "cases": 25,
+        "score": 0.0005397829262079344,
+        "arithmetic_sensitivity": 0.2364398443452181
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 25,
+        "score": 4.2703753182589255e-05,
+        "arithmetic_sensitivity": 0.03692217877850866
+      }
+    },
+    "different_asset_same_horizon": {
+      "BASELINE": {
+        "cases": 52,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_ORACLE": {
+        "cases": 52,
+        "score": 0.013199710623717876,
+        "arithmetic_sensitivity": 0.7269046532754417
+      },
+      "JOINT_ORACLE": {
+        "cases": 52,
+        "score": 0.41933884856099646,
+        "arithmetic_sensitivity": 0.8716256803653324
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 52,
+        "score": 0.0009302608295451336,
+        "arithmetic_sensitivity": 0.04561889774943074
+      }
+    },
+    "different_asset_different_horizon": {
+      "BASELINE": {
+        "cases": 52,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_ORACLE": {
+        "cases": 52,
+        "score": 0.052213679463003766,
+        "arithmetic_sensitivity": 0.6349475794452212
+      },
+      "JOINT_ORACLE": {
+        "cases": 52,
+        "score": 0.4325178741754558,
+        "arithmetic_sensitivity": 0.6936085713216706
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 52,
+        "score": 0.0016174179057625118,
+        "arithmetic_sensitivity": 0.05582680150512696
+      }
+    }
+  }
+}

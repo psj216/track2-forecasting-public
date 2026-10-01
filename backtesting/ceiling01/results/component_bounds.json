@@ -1,0 +1,514 @@
+{
+  "V13_REVISED_PUBLIC_24": {
+    "MARGINAL_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 0.3692533079578103,
+        "arithmetic_sensitivity": 0.3839285714285714
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.5,
+        "arithmetic_sensitivity": 0.5
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.45547407537812823,
+        "arithmetic_sensitivity": 0.46428571428571425
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.5,
+        "arithmetic_sensitivity": 0.5
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "63d": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "64d": {
+        "cases": 2,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "126d": {
+        "cases": 7,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "129d": {
+        "cases": 1,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "189d": {
+        "cases": 5,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      }
+    },
+    "JOINT_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 0.8491868656789778,
+        "arithmetic_sensitivity": 0.8624999999999999
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.7,
+        "arithmetic_sensitivity": 0.7000000000000001
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.7428737856576761,
+        "arithmetic_sensitivity": 0.75
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.7,
+        "arithmetic_sensitivity": 0.7000000000000001
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "63d": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "64d": {
+        "cases": 2,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "126d": {
+        "cases": 7,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "129d": {
+        "cases": 1,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "189d": {
+        "cases": 5,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      }
+    },
+    "TAIL_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 0.7523678423837271,
+        "arithmetic_sensitivity": 0.7535714285714286
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857142
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.8,
+        "arithmetic_sensitivity": 0.8
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.7850313187238693,
+        "arithmetic_sensitivity": 0.7857142857142857
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.8,
+        "arithmetic_sensitivity": 0.7999999999999999
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "63d": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "64d": {
+        "cases": 2,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "126d": {
+        "cases": 7,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "129d": {
+        "cases": 1,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "189d": {
+        "cases": 5,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "MARGINAL_JOINT_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 0.24262481876542222,
+        "arithmetic_sensitivity": 0.24642857142857144
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.2,
+        "arithmetic_sensitivity": 0.2
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.21224965304505033,
+        "arithmetic_sensitivity": 0.21428571428571427
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.2,
+        "arithmetic_sensitivity": 0.19999999999999998
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "63d": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "64d": {
+        "cases": 2,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "126d": {
+        "cases": 7,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "129d": {
+        "cases": 1,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "189d": {
+        "cases": 5,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      }
+    },
+    "MARGINAL_TAIL_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 1.8211563889180576e-07,
+        "arithmetic_sensitivity": 0.13749999999999998
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.3,
+        "arithmetic_sensitivity": 0.29999999999999993
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.0036666352749723428,
+        "arithmetic_sensitivity": 0.25
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.3,
+        "arithmetic_sensitivity": 0.3
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "63d": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "64d": {
+        "cases": 2,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "126d": {
+        "cases": 7,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "129d": {
+        "cases": 1,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "189d": {
+        "cases": 5,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      }
+    },
+    "JOINT_TAIL_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 0.6065620469135556,
+        "arithmetic_sensitivity": 0.6160714285714287
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857142
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 0.5,
+        "arithmetic_sensitivity": 0.5
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 0.5306241326126259,
+        "arithmetic_sensitivity": 0.5357142857142857
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 0.5,
+        "arithmetic_sensitivity": 0.5
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "63d": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "64d": {
+        "cases": 2,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "126d": {
+        "cases": 7,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "129d": {
+        "cases": 1,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "189d": {
+        "cases": 5,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "ALL_ZERO_LOSS": {
+      "Overall": {
+        "cases": 24,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "Single-cell": {
+        "cases": 13,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "Multi-cell": {
+        "cases": 11,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "T2-F1": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "T2-F2": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "T2-F3": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "T2-F4": {
+        "cases": 6,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "5d": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "21d": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "63d": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "64d": {
+        "cases": 2,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "126d": {
+        "cases": 7,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "129d": {
+        "cases": 1,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "189d": {
+        "cases": 5,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      }
+    }
+  },
+  "SURPRISE_EXPOSED_MARGINAL_ONLY": {
+    "MARGINAL_ZERO_LOSS": 0.0,
+    "ALL_ZERO_LOSS": 0.0,
+    "JOINT": "NOT_IN_SCORER",
+    "TAIL": "NOT_IN_SCORER"
+  }
+}

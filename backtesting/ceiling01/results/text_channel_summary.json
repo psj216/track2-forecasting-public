@@ -1,0 +1,30 @@
+{
+  "status": "OBSERVED_CHANNEL_CONTRIBUTION",
+  "matched_cards": 24,
+  "numeric_only_relative_score": 1.0086960796163993,
+  "text_enabled_relative_score": 1.0,
+  "changed_cards": 4,
+  "family": {
+    "T2-F1": {
+      "cases": 6,
+      "numeric_ratio": 0.9893251752603582,
+      "text_ratio": 1.0
+    },
+    "T2-F2": {
+      "cases": 6,
+      "numeric_ratio": 1.0,
+      "text_ratio": 1.0
+    },
+    "T2-F3": {
+      "cases": 6,
+      "numeric_ratio": 1.0,
+      "text_ratio": 1.0
+    },
+    "T2-F4": {
+      "cases": 6,
+      "numeric_ratio": 1.0464109388187546,
+      "text_ratio": 1.0
+    }
+  },
+  "warning": "matched exposed cards; includes existing text/context routing; no continuous-origin text inference"
+}

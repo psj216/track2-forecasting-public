@@ -1,0 +1,249 @@
+{
+  "V13_REVISED_PUBLIC_24": {
+    "name": "V13_REVISED_PUBLIC_24",
+    "cards": 24,
+    "cells": 63,
+    "single": 13,
+    "multi": 11,
+    "ledger_sha256": "579a594074bcbe9e2ac58fe7d0680cc7d22104c6723fe8ba0e14e24040a0fc36",
+    "files": {
+      "card-00.npz": "9bb97d5f156294c1620ae72b6cc512cfb5636579d83d13493f10c9eb3c7ddfc3",
+      "card-01.npz": "9304e5727c23eb13a39c608007cbf055f269a23ca52342a79616d8d9df93eed0",
+      "card-02.npz": "5c9ee6d14135d4b922ca6ef8d07bc8e92ea59c3d65c077dc9dc8c82e1c0f9d9a",
+      "card-03.npz": "4650178821fd7b1f0269e76fc5e5903928829ee1042f86ba2bac890af0395c82",
+      "card-04.npz": "27bb8037eadfe16e9b4024a399f565d4b6c3893b49a0af0555ae58278c752375",
+      "card-05.npz": "7738ae6a1642f62dc18b350087d6a2a9f47e3838189438c2797305f5efe75c6d",
+      "card-06.npz": "9db3f2701ab83ce63ccadb09685134830e16780155bd8e3ff64065a5aed757c4",
+      "card-07.npz": "b751d443c40cb470cf3fcc7363689bb731ab847f58930f37b7e7fa8debb8c870",
+      "card-08.npz": "4a5ffb56c9b74840933b9cfc564bf37227b417406e7427ddb4b746a1f3bf7dde",
+      "card-09.npz": "f3de223f6d1a83082bd64b730d0e6d6184a0f0de4fac198a787e0d9cb7f16ce6",
+      "card-10.npz": "787e309bd20d63f79a829c63d5b8d4ef2263032a249a3c5b59ad30da8c548ccd",
+      "card-11.npz": "4922c4242a27891fdb9f6225d887a9ff8fb8b6ff71d7b1e015dd605b81362f57",
+      "card-12.npz": "77ca734fe5685e39a804abcec2ec6662078231616602e89e59d6d857e214ff6b",
+      "card-13.npz": "86b79bd4d6399cc5d15004c61f3dd15ef37ae2074c7f743491baafe160eef597",
+      "card-14.npz": "813285b4d4fca9122f13c226c91293e7bfda5e6694e184880e86e325bba9974d",
+      "card-15.npz": "5243bc99476ddc4a0aacc9dad284f2a5e1995d64de090e78d0e881e953e4a043",
+      "card-16.npz": "d9ef748fb09e54edd4c5ecb51db74eb94fc94524890bb75271d01ca33d79c55c",
+      "card-17.npz": "8c8a9e90d51756b616126e605e30be7494934ca53883b42948afaad9f8ec9b16",
+      "card-18.npz": "32953d9e9c1e58345ed4d31e1480fc6b30444f50c527cb64d73a7f63fa3e59be",
+      "card-19.npz": "072e0aae750ecbe62ab4636c74c7a070abc0674341b5e97411183085a769ddb5",
+      "card-20.npz": "c01d2415798b99a4240286f6b071c2704de3396eb1d9e96881f9bf53ea5540af",
+      "card-21.npz": "a2e39395933ac05b9ef0b56606d1b1bf5746f64bf9097c5d0027edd1ffbba3a3",
+      "card-22.npz": "898b8769fc066e39ab0bdda59ce1be8625c6481354dd9845225e7d4ee470fe79",
+      "card-23.npz": "cd3b2b10ef15c4d3e683458c6d0245893d5bb86308c780e72176d80377ae660b"
+    },
+    "date_range": [
+      "2003-08-12",
+      "2023-07-21"
+    ],
+    "selection": "same first six alphabetical eligible cards per family as V13 reconstruction",
+    "draws": 2000,
+    "seed": 19,
+    "ratio": 1.0,
+    "component_normalized_arithmetic_contributions": {
+      "marginal": 0.6160714285714284,
+      "joint": 0.13749999999999998,
+      "tail": 0.2464285714285714
+    },
+    "target_type": {
+      "level": {
+        "cards": 20,
+        "oracle_matrix": {
+          "ALL_ZERO_LOSS": {
+            "cases": 20,
+            "score": 1.000000000000001e-12,
+            "arithmetic_sensitivity": 0.0
+          },
+          "BASELINE": {
+            "cases": 20,
+            "score": 1.0,
+            "arithmetic_sensitivity": 1.0
+          },
+          "JOINT_ORACLE": {
+            "cases": 20,
+            "score": 0.8923688281870955,
+            "arithmetic_sensitivity": 0.9020228395619299
+          },
+          "JOINT_TAIL_ZERO_LOSS": {
+            "cases": 20,
+            "score": 0.5976143046671969,
+            "arithmetic_sensitivity": 0.607142857142857
+          },
+          "JOINT_ZERO_LOSS": {
+            "cases": 20,
+            "score": 0.8366600265340756,
+            "arithmetic_sensitivity": 0.85
+          },
+          "LOCATION_JOINT_ORACLE": {
+            "cases": 20,
+            "score": 0.41141602302731994,
+            "arithmetic_sensitivity": 0.4943022150773476
+          },
+          "LOCATION_ORACLE": {
+            "cases": 20,
+            "score": 0.5828078492983089,
+            "arithmetic_sensitivity": 1.1874796275931907
+          },
+          "LOCATION_SCALE_ORACLE_BOUNDED": {
+            "cases": 20,
+            "score": 0.23005122821782453,
+            "arithmetic_sensitivity": 0.2959531371095486
+          },
+          "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+            "cases": 20,
+            "score": 1.000000000000001e-12,
+            "arithmetic_sensitivity": 5.979771362453722e-16
+          },
+          "MARGINAL_JOINT_ZERO_LOSS": {
+            "cases": 20,
+            "score": 0.2390457218668787,
+            "arithmetic_sensitivity": 0.24285714285714283
+          },
+          "MARGINAL_TAIL_ZERO_LOSS": {
+            "cases": 20,
+            "score": 5.477225575051664e-07,
+            "arithmetic_sensitivity": 0.15
+          },
+          "MARGINAL_ZERO_LOSS": {
+            "cases": 20,
+            "score": 0.3779644730092272,
+            "arithmetic_sensitivity": 0.39285714285714285
+          },
+          "SCALE_ORACLE_BOUNDED": {
+            "cases": 20,
+            "score": 1.2587194714501413,
+            "arithmetic_sensitivity": 4.36024881802838
+          },
+          "SCALE_ORACLE_UNCONSTRAINED": {
+            "cases": 20,
+            "score": 1.001487010963444,
+            "arithmetic_sensitivity": 1.6378394225290378
+          },
+          "STRUCTURED_LOCATION_CROSSFIT": {
+            "cases": 20,
+            "score": 1.3862388475330627,
+            "arithmetic_sensitivity": 1.990099128070823
+          },
+          "STRUCTURED_SCALE_CROSSFIT": {
+            "cases": 20,
+            "score": 1.4346245719572677,
+            "arithmetic_sensitivity": 5.382899161047109
+          },
+          "TAIL_ORACLE": {
+            "cases": 20,
+            "score": 1.062471602691131,
+            "arithmetic_sensitivity": 3.5313929212254216
+          },
+          "TAIL_ZERO_LOSS": {
+            "cases": 20,
+            "score": 0.7559289460184545,
+            "arithmetic_sensitivity": 0.757142857142857
+          }
+        }
+      },
+      "log_return": {
+        "cards": 4,
+        "oracle_matrix": {
+          "ALL_ZERO_LOSS": {
+            "cases": 4,
+            "score": 1.000000000000001e-12,
+            "arithmetic_sensitivity": 0.0
+          },
+          "BASELINE": {
+            "cases": 4,
+            "score": 1.0,
+            "arithmetic_sensitivity": 1.0
+          },
+          "JOINT_ORACLE": {
+            "cases": 4,
+            "score": 0.9544978796910034,
+            "arithmetic_sensitivity": 0.9575104062591072
+          },
+          "JOINT_TAIL_ZERO_LOSS": {
+            "cases": 4,
+            "score": 0.6533508708776389,
+            "arithmetic_sensitivity": 0.6607142857142858
+          },
+          "JOINT_ZERO_LOSS": {
+            "cases": 4,
+            "score": 0.9146912192286945,
+            "arithmetic_sensitivity": 0.925
+          },
+          "LOCATION_JOINT_ORACLE": {
+            "cases": 4,
+            "score": 0.19716553950784407,
+            "arithmetic_sensitivity": 0.301567940232812
+          },
+          "LOCATION_ORACLE": {
+            "cases": 4,
+            "score": 0.2038636117628021,
+            "arithmetic_sensitivity": 0.3163467876080998
+          },
+          "LOCATION_SCALE_ORACLE_BOUNDED": {
+            "cases": 4,
+            "score": 0.0988885128173809,
+            "arithmetic_sensitivity": 0.15142814123986678
+          },
+          "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+            "cases": 4,
+            "score": 1.000000000000001e-12,
+            "arithmetic_sensitivity": 4.759641823952698e-17
+          },
+          "MARGINAL_JOINT_ZERO_LOSS": {
+            "cases": 4,
+            "score": 0.2613403483510555,
+            "arithmetic_sensitivity": 0.26428571428571423
+          },
+          "MARGINAL_TAIL_ZERO_LOSS": {
+            "cases": 4,
+            "score": 7.400828044922871e-10,
+            "arithmetic_sensitivity": 0.075
+          },
+          "MARGINAL_ZERO_LOSS": {
+            "cases": 4,
+            "score": 0.32861809054160085,
+            "arithmetic_sensitivity": 0.3392857142857143
+          },
+          "SCALE_ORACLE_BOUNDED": {
+            "cases": 4,
+            "score": 0.9298715430736281,
+            "arithmetic_sensitivity": 0.942463444864714
+          },
+          "SCALE_ORACLE_UNCONSTRAINED": {
+            "cases": 4,
+            "score": 0.8196837546950883,
+            "arithmetic_sensitivity": 0.8642771816380449
+          },
+          "STRUCTURED_LOCATION_CROSSFIT": {
+            "cases": 4,
+            "score": 0.7332702901238987,
+            "arithmetic_sensitivity": 0.8616304129546273
+          },
+          "STRUCTURED_SCALE_CROSSFIT": {
+            "cases": 4,
+            "score": 0.9606725499266212,
+            "arithmetic_sensitivity": 0.9721632232940662
+          },
+          "TAIL_ORACLE": {
+            "cases": 4,
+            "score": 0.6968329927490586,
+            "arithmetic_sensitivity": 0.7232496613532882
+          },
+          "TAIL_ZERO_LOSS": {
+            "cases": 4,
+            "score": 0.7348123890872001,
+            "arithmetic_sensitivity": 0.7357142857142858
+          }
+        }
+      }
+    },
+    "no_family_loss_dominance_claim": "six cards each; all baseline-normalized scores equal one; raw unlike-unit losses not pooled"
+  },
+  "SURPRISE_EXPOSED_MARGINAL_ONLY": {
+    "cells": 59052,
+    "origins": 376,
+    "events": 382,
+    "baseline_normalized_crps": 0.6132985094431782,
+    "archived_baseline_max_abs_error": 0.0
+  }
+}

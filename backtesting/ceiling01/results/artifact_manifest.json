@@ -1,0 +1,77 @@
+{
+  "pre_result_ceiling01_sha": "0d396b84d361c752a921cf439f7f846637401cb0",
+  "parent_sha": "31ab7cd70020d0c2d55df6e7e767fa91de98fffc",
+  "status": "EXPOSED_ORACLE_DIAGNOSTIC_COMPLETE",
+  "scorer_status": "RESEARCH_PROXY_ONLY",
+  "private_files": {
+    "cards.json": {
+      "sha256": "579a594074bcbe9e2ac58fe7d0680cc7d22104c6723fe8ba0e14e24040a0fc36",
+      "rows": 24
+    },
+    "card_loss_ledger.json": {
+      "sha256": "516aa9ece7e404adeed0d58359590052807bf1ebdd07cd66cf5916672432124a",
+      "rows": 432
+    },
+    "cell_loss_ledger.json": {
+      "sha256": "11ee5713e76d58fe75fc742c3da80c79e5545bafbacf48f245bee5183009f26a",
+      "rows": 63
+    },
+    "pair_loss_ledger.json": {
+      "sha256": "0f16d3388f4dce5d785114dcc269efc06263e926810e8df8657c0547ab877ada",
+      "rows": 516
+    },
+    "horizon_loss_ledger.json": {
+      "sha256": "60d73dfe02d06cf4313f1a355a12b13bc5b41d2f650bdc098243d9b64ca8684e",
+      "rows": 315
+    },
+    "text_loss_ledger.json": {
+      "sha256": "077823c3e015534fa6706868cdc54ce8ddea43cd5fcb414dc4a818c430e8aabb",
+      "rows": 24
+    },
+    "ceiling_marginal_loss_ledger.json": {
+      "sha256": "f16c274d780c3045e36bfb16a00e72ea8168bfda3c01fb160ee2c27749bd0427",
+      "rows": 59052
+    }
+  },
+  "public_results_sha256": {
+    "multi_cell_summary.json": "d64e515510a5fda309a7de4ee99c6f0729f43497c73f4aff5256ec5f9d580e2a",
+    "text_channel_summary.json": "e2da189af65fef5e89559ed7f66ce78c5a480fa535bd2b9d3dc2a27be6b60d46",
+    "horizon_summary.json": "51374ee107b6056c80bfaef5ceb7d8111402278c538ed80c14cc012547578f30",
+    "family_summary.json": "c20c38bd9545955bf17aaadf6f11a759fe5aed213c7f501a754bdb05618f8913",
+    "surprise_marginal_summary.json": "1fb313350b01970d020ba0d90308e2585f01560562a5b063b15b630ffd135ef4",
+    "oracle_matrix.json": "bcdc576d836c870e64e4f3cf48420a73f2b66f289c6cfac174133eadbb0cd33b",
+    "component_bounds.json": "20e747b89ef1b8bcdd0cb60814dada3c465d9c710785b6c8f7f46c067f370bb0",
+    "baseline_summary.json": "813fa17f78b84c7f7b91062bc26be6d2aea7584228306f401d6f92e6b6c86622",
+    "feasibility_08_07_06_05.json": "78b8a27a7af03ad4620d9091e3aab74fbf575b6e3f4419ad1d2c5fea48b53aec",
+    "component_interaction_summary.json": "3bd8c5ca3df431c6ee9cc8f046a76ae13ebd20b39b1f00618792714343d57b9f",
+    "single_cell_summary.json": "649c006aaede89a9798df7f40e717adc5001230ac8a4a25354a4525e32719c7d",
+    "coverage_bounds.json": "733211abcbda3116c060cebfc7f6eb2b00b4ff512324a8b1af352a8571e939be"
+  },
+  "date_range": {
+    "card_universe": [
+      "2003-08-12",
+      "2023-07-21"
+    ],
+    "surprise_universe": [
+      "2017-01-06",
+      "2024-12-11"
+    ]
+  },
+  "no_predictive_model": true,
+  "no_submission": true,
+  "no_official_score_prediction": true,
+  "runtime_versions": {
+    "python": "3.13.15",
+    "qfbench2-common": "2.4.3",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1"
+  },
+  "tests": {
+    "before_freeze_passed": 415,
+    "before_freeze_skipped": 2,
+    "recovered_environment_passed": 415,
+    "recovered_environment_skipped": 2
+  },
+  "next_research_axis": "LOCATION"
+}

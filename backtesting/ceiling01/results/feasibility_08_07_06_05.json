@@ -1,0 +1,257 @@
+{
+  "V13_REVISED_PUBLIC_24": {
+    "0.8": {
+      "mathematically_possible": true,
+      "scope": "RESEARCH_PROXY_ONLY baseline-relative ratio; not official target score",
+      "component_combinations": {
+        "marginal": {
+          "zero_loss_floor": 0.3692533079578103,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.32343420694072894
+        },
+        "joint": {
+          "zero_loss_floor": 0.8491868656789778,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "tail": {
+          "zero_loss_floor": 0.7523678423837271,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.8085855173518225
+        },
+        "marginal+joint": {
+          "zero_loss_floor": 0.24262481876542222,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.26529620798351206
+        },
+        "marginal+tail": {
+          "zero_loss_floor": 1.8211563889180576e-07,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.23102443352909202
+        },
+        "joint+tail": {
+          "zero_loss_floor": 0.6065620469135556,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.5159576098557682
+        },
+        "marginal+joint+tail": {
+          "zero_loss_floor": 1.000000000000001e-12,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.1999999999999999
+        }
+      },
+      "observed_oracle_reaching_target": [
+        "ALL_ZERO_LOSS",
+        "JOINT_TAIL_ZERO_LOSS",
+        "LOCATION_JOINT_ORACLE",
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_BOUNDED",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "MARGINAL_JOINT_ZERO_LOSS",
+        "MARGINAL_TAIL_ZERO_LOSS",
+        "MARGINAL_ZERO_LOSS",
+        "TAIL_ZERO_LOSS"
+      ],
+      "all_zero_exact_mathematical_score": 0.0,
+      "floored_research_score": 1e-12
+    },
+    "0.7": {
+      "mathematically_possible": true,
+      "scope": "RESEARCH_PROXY_ONLY baseline-relative ratio; not official target score",
+      "component_combinations": {
+        "marginal": {
+          "zero_loss_floor": 0.3692533079578103,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.48389102730491873
+        },
+        "joint": {
+          "zero_loss_floor": 0.8491868656789778,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "tail": {
+          "zero_loss_floor": 0.7523678423837271,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "marginal+joint": {
+          "zero_loss_floor": 0.24262481876542222,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.39782993405796774
+        },
+        "marginal+tail": {
+          "zero_loss_floor": 1.8211563889180576e-07,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.345636448074942
+        },
+        "joint+tail": {
+          "zero_loss_floor": 0.6065620469135556,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.7687399270891498
+        },
+        "marginal+joint+tail": {
+          "zero_loss_floor": 1.000000000000001e-12,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.3
+        }
+      },
+      "observed_oracle_reaching_target": [
+        "ALL_ZERO_LOSS",
+        "JOINT_TAIL_ZERO_LOSS",
+        "LOCATION_JOINT_ORACLE",
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_BOUNDED",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "MARGINAL_JOINT_ZERO_LOSS",
+        "MARGINAL_TAIL_ZERO_LOSS",
+        "MARGINAL_ZERO_LOSS"
+      ],
+      "all_zero_exact_mathematical_score": 0.0,
+      "floored_research_score": 1e-12
+    },
+    "0.6": {
+      "mathematically_possible": true,
+      "scope": "RESEARCH_PROXY_ONLY baseline-relative ratio; not official target score",
+      "component_combinations": {
+        "marginal": {
+          "zero_loss_floor": 0.3692533079578103,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.6430000302797824
+        },
+        "joint": {
+          "zero_loss_floor": 0.8491868656789778,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "tail": {
+          "zero_loss_floor": 0.7523678423837271,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "marginal+joint": {
+          "zero_loss_floor": 0.24262481876542222,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.5302364021274281
+        },
+        "marginal+tail": {
+          "zero_loss_floor": 1.8211563889180576e-07,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.4592857359141302
+        },
+        "joint+tail": {
+          "zero_loss_floor": 0.6065620469135556,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "marginal+joint+tail": {
+          "zero_loss_floor": 1.000000000000001e-12,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.4
+        }
+      },
+      "observed_oracle_reaching_target": [
+        "ALL_ZERO_LOSS",
+        "LOCATION_JOINT_ORACLE",
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_BOUNDED",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "MARGINAL_JOINT_ZERO_LOSS",
+        "MARGINAL_TAIL_ZERO_LOSS",
+        "MARGINAL_ZERO_LOSS"
+      ],
+      "all_zero_exact_mathematical_score": 0.0,
+      "floored_research_score": 1e-12
+    },
+    "0.5": {
+      "mathematically_possible": true,
+      "scope": "RESEARCH_PROXY_ONLY baseline-relative ratio; not official target score",
+      "component_combinations": {
+        "marginal": {
+          "zero_loss_floor": 0.3692533079578103,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.8000511858269376
+        },
+        "joint": {
+          "zero_loss_floor": 0.8491868656789778,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "tail": {
+          "zero_loss_floor": 0.7523678423837271,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "marginal+joint": {
+          "zero_loss_floor": 0.24262481876542222,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.6624390723154973
+        },
+        "marginal+tail": {
+          "zero_loss_floor": 1.8211563889180576e-07,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.5714651327335268
+        },
+        "joint+tail": {
+          "zero_loss_floor": 0.6065620469135556,
+          "possible": false,
+          "required_uniform_fractional_loss_reduction": null
+        },
+        "marginal+joint+tail": {
+          "zero_loss_floor": 1.000000000000001e-12,
+          "possible": true,
+          "required_uniform_fractional_loss_reduction": 0.49999999999999994
+        }
+      },
+      "observed_oracle_reaching_target": [
+        "ALL_ZERO_LOSS",
+        "LOCATION_JOINT_ORACLE",
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_BOUNDED",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "MARGINAL_JOINT_ZERO_LOSS",
+        "MARGINAL_TAIL_ZERO_LOSS",
+        "MARGINAL_ZERO_LOSS"
+      ],
+      "all_zero_exact_mathematical_score": 0.0,
+      "floored_research_score": 1e-12
+    }
+  },
+  "SURPRISE_EXPOSED_MARGINAL_ONLY": {
+    "0.8": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.19999999999999996,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.7": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.30000000000000004,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.6": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.4,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    },
+    "0.5": {
+      "mathematically_possible": true,
+      "required_marginal_loss_reduction": 0.5,
+      "oracle_reaching_target": [
+        "LOCATION_ORACLE",
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED",
+        "LOCATION_SCALE_ORACLE_BOUNDED"
+      ]
+    }
+  }
+}

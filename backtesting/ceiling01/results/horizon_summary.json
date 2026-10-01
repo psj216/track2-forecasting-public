@@ -1,0 +1,870 @@
+{
+  "V13_REVISED_PUBLIC_24": {
+    "5": {
+      "ALL_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "BASELINE": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "JOINT_ORACLE": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "LOCATION_ORACLE": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      }
+    },
+    "21": {
+      "ALL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 10,
+        "score": 0.22691273849525842,
+        "arithmetic_sensitivity": 0.33447349361954115
+      },
+      "LOCATION_ORACLE": {
+        "cases": 10,
+        "score": 0.22691273849525842,
+        "arithmetic_sensitivity": 0.33447349361954115
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 10,
+        "score": 0.11345636924762904,
+        "arithmetic_sensitivity": 0.1672367468097702
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 1.1137737306705435e-16
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 10,
+        "score": 0.9135465577095793,
+        "arithmetic_sensitivity": 0.9307603708730374
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 10,
+        "score": 0.8411340215475944,
+        "arithmetic_sensitivity": 0.8799875384436572
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 10,
+        "score": 0.642689706359072,
+        "arithmetic_sensitivity": 0.6561463221752752
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "63": {
+      "ALL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 10,
+        "score": 0.4550698658106954,
+        "arithmetic_sensitivity": 0.5609462350909585
+      },
+      "LOCATION_ORACLE": {
+        "cases": 10,
+        "score": 0.4550698658106955,
+        "arithmetic_sensitivity": 0.5609462350909588
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 10,
+        "score": 0.22753493290534765,
+        "arithmetic_sensitivity": 0.2804731175454794
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 1.1347066697608048e-15
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 10,
+        "score": 0.7747437795829109,
+        "arithmetic_sensitivity": 0.7945653932248041
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 10,
+        "score": 0.5905761908653412,
+        "arithmetic_sensitivity": 0.7165546408523265
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 10,
+        "score": 0.6871474414104121,
+        "arithmetic_sensitivity": 0.6920152183629551
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 10,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "64": {
+      "ALL_ZERO_LOSS": {
+        "cases": 2,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 2,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 2,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 2,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 2,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 2,
+        "score": 0.7303200800334803,
+        "arithmetic_sensitivity": 0.7355854576218567
+      },
+      "LOCATION_ORACLE": {
+        "cases": 2,
+        "score": 0.7303200800334803,
+        "arithmetic_sensitivity": 0.7355854576218567
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 2,
+        "score": 0.3651600400167402,
+        "arithmetic_sensitivity": 0.3677927288109285
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 2,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 1.0669360808602838e-15
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 2,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 2,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 2,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 2,
+        "score": 0.8592544851059029,
+        "arithmetic_sensitivity": 0.8662204556729791
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 2,
+        "score": 0.8592544851059029,
+        "arithmetic_sensitivity": 0.8662204556729791
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 2,
+        "score": 0.7488216630742219,
+        "arithmetic_sensitivity": 0.7491104510472961
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 2,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "126": {
+      "ALL_ZERO_LOSS": {
+        "cases": 7,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 7,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 7,
+        "score": 0.9999999999999998,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 7,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 7,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 7,
+        "score": 0.8844458393905923,
+        "arithmetic_sensitivity": 0.8899575560438937
+      },
+      "LOCATION_ORACLE": {
+        "cases": 7,
+        "score": 0.8844458393905922,
+        "arithmetic_sensitivity": 0.8899575560438936
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 7,
+        "score": 0.4422229196952957,
+        "arithmetic_sensitivity": 0.4449787780219463
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 7,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 1.1782753749493012e-15
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 7,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 7,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 7,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.28571428571428564
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 7,
+        "score": 0.6368826567554167,
+        "arithmetic_sensitivity": 0.651256118996716
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 7,
+        "score": 0.3248621372688481,
+        "arithmetic_sensitivity": 0.45818596303421294
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 7,
+        "score": 0.7170417413260449,
+        "arithmetic_sensitivity": 0.7173449599626213
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 7,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "129": {
+      "ALL_ZERO_LOSS": {
+        "cases": 1,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 1,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 1,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 1,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 1,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 1,
+        "score": 0.712319537763632,
+        "arithmetic_sensitivity": 0.712319537763632
+      },
+      "LOCATION_ORACLE": {
+        "cases": 1,
+        "score": 0.712319537763632,
+        "arithmetic_sensitivity": 0.712319537763632
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 1,
+        "score": 0.35615976888181655,
+        "arithmetic_sensitivity": 0.35615976888181655
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 1,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 1,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 1,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 1,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 1,
+        "score": 0.9134939057948671,
+        "arithmetic_sensitivity": 0.9134939057948671
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 1,
+        "score": 0.9134939057948671,
+        "arithmetic_sensitivity": 0.9134939057948671
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 1,
+        "score": 0.7518104683305278,
+        "arithmetic_sensitivity": 0.7518104683305278
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 1,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    },
+    "189": {
+      "ALL_ZERO_LOSS": {
+        "cases": 5,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "BASELINE": {
+        "cases": 5,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_ORACLE": {
+        "cases": 5,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "JOINT_TAIL_ZERO_LOSS": {
+        "cases": 5,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      },
+      "JOINT_ZERO_LOSS": {
+        "cases": 5,
+        "score": 1.0,
+        "arithmetic_sensitivity": 1.0
+      },
+      "LOCATION_JOINT_ORACLE": {
+        "cases": 5,
+        "score": 0.9053750981051012,
+        "arithmetic_sensitivity": 0.9067114490298008
+      },
+      "LOCATION_ORACLE": {
+        "cases": 5,
+        "score": 0.9053750981051012,
+        "arithmetic_sensitivity": 0.9067114490298007
+      },
+      "LOCATION_SCALE_ORACLE_BOUNDED": {
+        "cases": 5,
+        "score": 0.45268754905255054,
+        "arithmetic_sensitivity": 0.45335572451490025
+      },
+      "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 5,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 8.511986826999152e-16
+      },
+      "MARGINAL_JOINT_ZERO_LOSS": {
+        "cases": 5,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "MARGINAL_TAIL_ZERO_LOSS": {
+        "cases": 5,
+        "score": 1.000000000000001e-12,
+        "arithmetic_sensitivity": 0.0
+      },
+      "MARGINAL_ZERO_LOSS": {
+        "cases": 5,
+        "score": 0.2857142857142857,
+        "arithmetic_sensitivity": 0.2857142857142857
+      },
+      "SCALE_ORACLE_BOUNDED": {
+        "cases": 5,
+        "score": 0.6278287122320272,
+        "arithmetic_sensitivity": 0.6314182770819046
+      },
+      "SCALE_ORACLE_UNCONSTRAINED": {
+        "cases": 5,
+        "score": 0.5217404016475287,
+        "arithmetic_sensitivity": 0.5411242847459945
+      },
+      "STRUCTURED_LOCATION_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "STRUCTURED_SCALE_CROSSFIT": {
+        "cases": 0,
+        "score": null,
+        "arithmetic_sensitivity": null
+      },
+      "TAIL_ORACLE": {
+        "cases": 5,
+        "score": 0.7129905337659729,
+        "arithmetic_sensitivity": 0.7131050788308039
+      },
+      "TAIL_ZERO_LOSS": {
+        "cases": 5,
+        "score": 0.7142857142857143,
+        "arithmetic_sensitivity": 0.7142857142857143
+      }
+    }
+  },
+  "SURPRISE_EXPOSED_MARGINAL_ONLY": {
+    "5": {
+      "cells": 12288,
+      "origins": 376,
+      "events": 382,
+      "baseline_normalized_crps": 0.569717430900469,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.569717430900469,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.22017792688510873,
+          "ratio": 0.38646865084872983
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.4741018405862553,
+          "ratio": 0.8321701511517945
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.4981498350573137,
+          "ratio": 0.8743805403144522
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 4.185769699262583e-18,
+          "ratio": 7.347097828210643e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11008896344255437,
+          "ratio": 0.19323432542436492
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.47040445973582923,
+          "ratio": 0.8256803008332213
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5703828886991706,
+          "ratio": 1.0011680488652943
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5749727149193586,
+          "ratio": 1.009224369369537
+        }
+      }
+    },
+    "21": {
+      "cells": 12168,
+      "origins": 374,
+      "events": 380,
+      "baseline_normalized_crps": 0.5756220080204495,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.5756220080204495,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.23598956800221613,
+          "ratio": 0.40997315028620723
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.4732114789782719,
+          "ratio": 0.8220871898307625
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.49731084014911786,
+          "ratio": 0.8639538329317152
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.9097011031138442e-18,
+          "ratio": 5.0548816107991385e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.11799478400110806,
+          "ratio": 0.20498657514310362
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.47746034689510275,
+          "ratio": 0.8294685405394377
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.5763459431190555,
+          "ratio": 1.0012576570883653
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.5846950747272484,
+          "ratio": 1.0157621956429375
+        }
+      }
+    },
+    "63": {
+      "cells": 11924,
+      "origins": 366,
+      "events": 372,
+      "baseline_normalized_crps": 0.6065735499727384,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6065735499727384,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24132638241560858,
+          "ratio": 0.39785180614363197
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.49633311803527336,
+          "ratio": 0.8182571067557766
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5215509732916387,
+          "ratio": 0.8598313812316397
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 2.249772201264291e-19,
+          "ratio": 3.7089850049765673e-19
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12066319120780429,
+          "ratio": 0.19892590307181598
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5014247924131273,
+          "ratio": 0.8266512650208094
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6134497605767868,
+          "ratio": 1.0113361530590272
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6126769264822931,
+          "ratio": 1.0100620551453803
+        }
+      }
+    },
+    "126": {
+      "cells": 11528,
+      "origins": 354,
+      "events": 360,
+      "baseline_normalized_crps": 0.6302360951067798,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6302360951067798,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24398483407127206,
+          "ratio": 0.38713243491700383
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5114457433113185,
+          "ratio": 0.8115145217518288
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.5418655720376693,
+          "ratio": 0.8597818757839663
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 1.920304754613692e-18,
+          "ratio": 3.046960923887322e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12199241703563603,
+          "ratio": 0.19356621745850192
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5167854041555148,
+          "ratio": 0.8199869987896468
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.6495970327335057,
+          "ratio": 1.0307201345290222
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6329763685948449,
+          "ratio": 1.0043480110221246
+        }
+      }
+    },
+    "189": {
+      "cells": 11144,
+      "origins": 343,
+      "events": 348,
+      "baseline_normalized_crps": 0.6921664107030577,
+      "matrix": {
+        "BASELINE": {
+          "loss": 0.6921664107030577,
+          "ratio": 1.0
+        },
+        "LOCATION_ORACLE": {
+          "loss": 0.24544885427304317,
+          "ratio": 0.3546096003470208
+        },
+        "SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": 0.5604219383724882,
+          "ratio": 0.8096635862512427
+        },
+        "SCALE_ORACLE_BOUNDED": {
+          "loss": 0.6003740625664937,
+          "ratio": 0.8673839892875944
+        },
+        "LOCATION_SCALE_ORACLE_UNCONSTRAINED": {
+          "loss": -3.2227036476272164e-18,
+          "ratio": -4.655966538962506e-18
+        },
+        "LOCATION_SCALE_ORACLE_BOUNDED": {
+          "loss": 0.12272442713652158,
+          "ratio": 0.1773048001735104
+        },
+        "TAIL_ORACLE": {
+          "loss": 0.5592179873060286,
+          "ratio": 0.8079241908575298
+        },
+        "STRUCTURED_LOCATION_CROSSFIT": {
+          "loss": 0.7250050611190881,
+          "ratio": 1.047443288070964
+        },
+        "STRUCTURED_SCALE_CROSSFIT": {
+          "loss": 0.6998805246390288,
+          "ratio": 1.0111448833931937
+        }
+      }
+    }
+  }
+}
