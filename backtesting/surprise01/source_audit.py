@@ -11,7 +11,7 @@ from pathlib import Path
 
 def manifest(raw_manifest: Path):
     data = json.loads(raw_manifest.read_text())
-    return {"sources": [{k: row[k] for k in ("kind", "key", "url", "sha256", "bytes", "status")
+    return {"sources": [{k: row[k] for k in ("kind", "key", "url", "retrieval_url", "sha256", "bytes", "status")
                          if k in row} for row in data],
             "raw_manifest_sha256": hashlib.sha256(raw_manifest.read_bytes()).hexdigest(),
             "retrieval_date": "2026-10-01",
@@ -69,15 +69,24 @@ def collect(private_root, first_year=1998, last_year=2024):
         path = private_root / 'raw' / row['kind'] / (row['key'] + '.' + ext)
         path.parent.mkdir(parents=True, exist_ok=True)
         try:
-            if not path.exists() or path.stat().st_size < 100:
+            raw = path.read_bytes() if path.exists() else b''
+            def usable(data):
+                return len(data) >= 100 and (ext != 'pdf' or data.startswith(b'%PDF'))
+            retrieval_url = row['url']
+            if not usable(raw):
                 response = requests.get(row['url'], timeout=35)
                 response.raise_for_status()
-                path.write_bytes(response.content)
-            raw = path.read_bytes()
-            if len(raw) < 100 or (ext == 'pdf' and not raw.startswith(b'%PDF')):
+                raw = response.content
+                if not usable(raw):
+                    retrieval_url = row['url'] + '?download=1'
+                    response = requests.get(retrieval_url, timeout=35)
+                    response.raise_for_status()
+                    raw = response.content
+                path.write_bytes(raw)
+            if not usable(raw):
                 raise ValueError('Empty or invalid archive response')
             return {**row, 'path': str(path), 'sha256': hashlib.sha256(raw).hexdigest(),
-                    'bytes': len(raw), 'status': 'OK'}
+                    'retrieval_url': retrieval_url, 'bytes': len(raw), 'status': 'OK'}
         except Exception as e:
             return {**row, 'path': str(path), 'status': 'ERROR', 'error': str(e)}
     with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:

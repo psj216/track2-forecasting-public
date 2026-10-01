@@ -70,17 +70,28 @@ def _initialize_cache(root, cache_root):
 def _cache_task(key):
     stamp, group = key
     cache = _CACHE_ROOT / (stamp + "_" + group.replace("/", "_") + ".npz")
-    if not cache.exists():
+    valid = False
+    if cache.exists():
+        try:
+            with np.load(cache) as saved:
+                x = saved['samples']
+                valid = x.ndim == 3 and x.shape[2] == len(HORIZONS) and np.isfinite(x).all()
+        except (OSError, ValueError, EOFError):
+            pass
+    if not valid:
         assets, samples = baseline_group(_SERIES, _KINDS, pd.Timestamp(stamp), group)
         if assets:
-            np.savez_compressed(cache, assets=np.asarray(assets), samples=samples)
+            temporary = cache.with_suffix('.pending.npz')
+            np.savez_compressed(temporary, assets=np.asarray(assets), samples=samples)
+            temporary.replace(cache)
     return key
 
 
 def prepare(root, ledger, private_root):
     if private_root.resolve().is_relative_to(root.resolve()):
         raise ValueError("Private labels and raw draws must remain outside Git")
-    events = json.loads(ledger.read_text())
+    ledger_bytes = ledger.read_bytes()
+    events = json.loads(ledger_bytes)
     events = [e for e in events if "2001-01-01" <= e["release_date"] <= "2024-12-18"
               and e["standardized_surprise"] is not None]
     series, kinds = historical_market(root)
@@ -152,6 +163,7 @@ def prepare(root, ledger, private_root):
             "first_event": df["release_date"].min(), "last_event": df["release_date"].max(),
             "max_target_end": df["target_end"].max(),
             "case_sha256": hashlib.sha256(output.read_bytes()).hexdigest(),
+            "event_ledger_sha256": hashlib.sha256(ledger_bytes).hexdigest(),
             "bin_edges": {k: np.quantile(np.abs(v["standardized_surprise"].to_numpy(float)), [1/3, 2/3]).tolist()
                           for k, v in pd.DataFrame([e for e in events if e["release_date"] <= "2016-12-31"]).groupby("event_type")}}
     (private_root / "training_manifest.json").write_text(json.dumps(meta, indent=2) + "\n")

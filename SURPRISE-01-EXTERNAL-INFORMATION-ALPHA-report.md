@@ -103,7 +103,8 @@ All accepted market inputs end on or before 2024-12-18.
 13. Uncertainty: 2,000 bootstrap draws of whole release-date clusters,
     retaining all families/assets/horizons. Overlapping long targets leave
     serial dependence across release dates; this is a stated limitation.
-14. Research gate per head: ratio < .98, primary beats relevant controls,
+14. Research gate per head: ratio < .98, each relevant control captures less than half the primary CRPS gain,
+    and paired event-bootstrap primary/control CI upper bound is below 1,
     at least two groups have ratio <1.10, at least ten gaining events with
     no one event >50% of positive gain, cluster CI upper bound <1. No final
     independent gate can be passed by this exposed-data experiment.

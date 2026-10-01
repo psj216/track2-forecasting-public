@@ -87,3 +87,30 @@ separate confirmation. No 2025 market extension is accepted.
 Raw archives, parsed event values, market target labels and per-event scores
 remain outside Git. Public artifacts contain source identifiers, hashes,
 coverage, grouped research scores and fitted-parameter provenance.
+
+### Completed acquisition audit before scoring
+
+The calendar audit includes legacy six-digit BLS release URLs and G.17
+`default.htm` pages. There are 1,296 requested archives, 324 per source.
+Parsed records: CPI 323, Core CPI 323, Payrolls 324, Unemployment 324,
+Industrial Production 324, Retail Sales 283; total 1,901 family records.
+Exclusions: one empty BLS CPI response (2016-06-16), and 40 Census reference
+periods 1998-01 through 2001-04 with the earlier retail-only definition.
+They are not spliced into retail-and-food-services history. December 2024
+retail is released in 2025 and excluded. The Census 2007-01 PDF was retrieved
+from the same official file's `?download=1` alias after its canonical response
+was unusable; no third-party source was substituted.
+
+A scan spot-check (Census 2006-01-13, reference December 2005) confirms
+current +0.7% and a separate prior-month revision to +0.8%. G.17 2024-05-16
+says little changed, but its preliminary monthly column explicitly prints
+0.0%; a qualitative phrase is not rounded to zero without a numeric column.
+The unaccepted FRED audit export SHA-256 is
+`17992c59348db3e66dfc04957c733f66ddb19cedf3a80b63cdac11d34e7d9e0b`
+(1,150,416 bytes). It is not an accepted fitting input.
+
+The execution environment reset during baseline preparation. Source code
+was recovered from the verified GitHub checkpoint, and original agency
+archives were recovered from previously preserved copies. No SURPRISE
+candidate had been scored. The specification and exposed-period status
+were retained; baseline caches are regenerated with the same fixed seed.

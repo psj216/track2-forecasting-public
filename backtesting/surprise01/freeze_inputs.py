@@ -30,6 +30,8 @@ def freeze(root, private):
     meta = json.loads((private / 'training_manifest.json').read_text())
     events = json.loads((private / 'events.json').read_text())
     errors = json.loads((private / 'parse_errors.json').read_text())
+    if meta.get('event_ledger_sha256') != digest(private / 'events.json'):
+        raise ValueError('Private cases were not built from the final event ledger')
     series, kinds = historical_market(root)
     market = []
     for a, s in series.items():

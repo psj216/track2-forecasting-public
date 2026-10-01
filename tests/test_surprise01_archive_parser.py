@@ -19,6 +19,7 @@ def test_qualitative_payroll_numeric_table():
 def test_first_ip_monthly_not_revision():
     assert ip_value('In July, total industrial production increased 0.6 percent. June was revised to 0.9 percent.') == .6
     assert ip_value('Industrial production fell back 0.4 percent in September.') == -.4
+    assert ip_value('Industrial production was little changed in April. Total index 100 101 102 103 .1 .2 .3 .1 -.4 Previous estimates') == .1
 
 
 def test_retail_advance_not_revision():

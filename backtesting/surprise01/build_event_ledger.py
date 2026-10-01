@@ -187,6 +187,12 @@ def ip_value(text):
     stable = re.search(r"(?:Total )?industrial production(?: \(IP\))? (?:was )?(?:unchanged|remained unchanged|held steady|stalled) in " + MONTH, t, re.I)
     if stable:
         return 0.0
+    # Qualitative "little changed" is not necessarily zero.
+    row = re.search(r"Total index\s+((?:[-+.\d]+\s+){8,16})(?:Previous estimates|Major market)", t, re.I)
+    if row:
+        values = row[1].split()
+        if len(values) in (9, 13, 15):
+            return float(values[-2])
     # Original fixed-width G.17 summary separates monthly percent changes
     # from index levels and year-on-year growth in pipe-delimited columns.
     row = re.search(r"Total index\s*\|[^|]+\|\s*([-+.\d\s]+)\|", t, re.I)

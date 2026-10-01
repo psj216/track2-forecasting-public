@@ -116,13 +116,21 @@ def evaluate(private_root, results, pre_final_sha):
     uncertainty = {head: interval(rows, head) for head in HEADS}
     controls = {name: {head: aggregate(rows, name + "_" + head) for head in HEADS}
                 for name in ("sign_shuffle", "date_permutation", "family_permutation")}
+    paired_uncertainty = {
+        name: {head: interval([{'release_date': r['release_date'],
+                                'v51': r[name + '_' + head], head: r[head]} for r in rows], head)
+               for head in HEADS}
+        for name in ('sign_shuffle', 'date_permutation', 'family_permutation')}
+    controls['primary_over_control_uncertainty'] = paired_uncertainty
     controls["mutation_tests"] = {"future_market": True, "later_revision": True}
     controls["sign_shuffle_scale"] = "Algebraically invariant under absolute surprise; not evidence of a scale failure."
     decision = {}
     for head in HEADS:
         ratio = heads[head]["ratio"]
         relevant = ("date_permutation", "family_permutation") if head == "scale" else ("sign_shuffle", "date_permutation", "family_permutation")
-        separated = all(ratio < controls[name][head]["ratio"] for name in relevant)
+        separated = all(1 - controls[name][head]['ratio'] < .5 * (1 - ratio)
+                        and paired_uncertainty[name][head]['ratio_ci95'][1] < 1
+                        for name in relevant)
         group_values = {g: aggregate([r for r in rows if r["group"] == g], head)
                         for g in sorted({r["group"] for r in rows})}
         safe_groups = sum(v["ratio"] < 1.10 for v in group_values.values())
