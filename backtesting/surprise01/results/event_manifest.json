@@ -1,0 +1,54 @@
+{
+  "sha256": "dd68d7993cb097667807fe1713a1a5408aa31594d2852e163a7155db1978b5ea",
+  "rows": 1901,
+  "families": {
+    "Payrolls": 324,
+    "Unemployment": 324,
+    "CPI": 323,
+    "Core CPI": 323,
+    "Industrial Production": 324,
+    "Retail Sales": 283
+  },
+  "first_release": "1998-01-09",
+  "last_release": "2024-12-17",
+  "timestamp_verified": 1181,
+  "parse_exclusions": 41,
+  "true_consensus_events": 0,
+  "information_type": "RELEASE_INNOVATION",
+  "training_coverage": {
+    "cases": 185935,
+    "event_family_records": 1694,
+    "release_clusters": 1119,
+    "first_event": "2001-01-05",
+    "last_event": "2024-12-11",
+    "max_target_end": "2024-12-18",
+    "case_sha256": "c604f50c2bbf10e3fec09b1b0c1e10fd8a6640517da92bd03beeaea78ca8fa0a",
+    "event_ledger_sha256": "dd68d7993cb097667807fe1713a1a5408aa31594d2852e163a7155db1978b5ea",
+    "bin_edges": {
+      "CPI": [
+        0.3449697818350539,
+        1.0359126113344581
+      ],
+      "Core CPI": [
+        0.0,
+        0.7878248374706627
+      ],
+      "Industrial Production": [
+        0.4886079070534755,
+        1.051772952677417
+      ],
+      "Payrolls": [
+        0.23109089673602923,
+        0.5104512210712536
+      ],
+      "Retail Sales": [
+        0.1815979197547826,
+        0.4369364292527882
+      ],
+      "Unemployment": [
+        0.07529606686505132,
+        0.6438056099753463
+      ]
+    }
+  }
+}
