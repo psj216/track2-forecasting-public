@@ -1,0 +1,926 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "training_controls": {
+    "A_historical_surprise": {
+      "active": {
+        "cells": 39096,
+        "normalized_crps": 0.7422323120515285,
+        "baseline_normalized_crps": 0.5820604295315632,
+        "ratio": 1.275180847886997,
+        "perfect_location_ratio": 0.41375240191530477,
+        "oracle_capture_fraction": -0.4693935613314728,
+        "delta_mse": 1.8772653924159142,
+        "delta_r2": -0.8266585930413437,
+        "pearson": 0.06824952933478577,
+        "spearman": 0.07125482401899871,
+        "sign_accuracy": 0.5248107223245345,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.45025255275374865,
+        "calibration_intercept": 0.06013435672279571,
+        "calibration_slope": 0.06966470700865475
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.6634191194636012,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.1297603963511755,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.21992665945233258,
+        "delta_mse": 1.443809123832735,
+        "delta_r2": -0.3916884467742858,
+        "pearson": 0.0468024433279341,
+        "spearman": 0.04461833644052157,
+        "sign_accuracy": 0.2508639151172978,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.21424184241186076,
+        "calibration_intercept": 0.06260311127763679,
+        "calibration_slope": 0.06956517215898578
+      },
+      "active_cells": 39096,
+      "full_cells": 82184,
+      "coverage_fraction": 0.4757130341672345,
+      "active_only_oracle_on_full": 0.7235652949498086,
+      "cap_count": 165,
+      "active_events": 120,
+      "unique_release_dates": 120,
+      "unique_years": 15,
+      "active_origins": 370,
+      "fold_active_ratios": [
+        1.2094391904567376,
+        1.1059610675076035,
+        1.650911352726707,
+        1.1811634616687758
+      ]
+    },
+    "B_sign_shuffle": {
+      "active": {
+        "cells": 39096,
+        "normalized_crps": 0.756742363327505,
+        "baseline_normalized_crps": 0.5820604295315632,
+        "ratio": 1.3001096190932,
+        "perfect_location_ratio": 0.41375240191530477,
+        "oracle_capture_fraction": -0.5119161597824459,
+        "delta_mse": 1.9375218612993876,
+        "delta_r2": -0.8852906847620967,
+        "pearson": 0.06068872272046242,
+        "spearman": 0.05988834462651388,
+        "sign_accuracy": 0.5255013300593411,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.49095821539407764,
+        "calibration_intercept": 0.06118382627759066,
+        "calibration_slope": 0.06051582222729107
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.6703195521888549,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.1415113926398874,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.23984303942406926,
+        "delta_mse": 1.4724663560127629,
+        "delta_r2": -0.4193111693926348,
+        "pearson": 0.04163483757265851,
+        "spearman": 0.0418604363736813,
+        "sign_accuracy": 0.24998783218144652,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.23355522229444728,
+        "calibration_intercept": 0.0631002034639926,
+        "calibration_slope": 0.06046703476357001
+      },
+      "active_cells": 39096,
+      "full_cells": 82184,
+      "coverage_fraction": 0.4757130341672345,
+      "active_only_oracle_on_full": 0.7235652949498086,
+      "cap_count": 167,
+      "active_events": 120,
+      "unique_release_dates": 120,
+      "unique_years": 15,
+      "active_origins": 370,
+      "fold_active_ratios": [
+        1.2158075352285664,
+        1.1125718508090294,
+        1.7368709993494393,
+        1.188302063615684
+      ]
+    },
+    "C_older_snapshot": {
+      "active": {
+        "cells": 39096,
+        "normalized_crps": 0.6368783505526453,
+        "baseline_normalized_crps": 0.5820604295315632,
+        "ratio": 1.0941790890426946,
+        "perfect_location_ratio": 0.41375240191530477,
+        "oracle_capture_fraction": -0.16064729194692323,
+        "delta_mse": 1.2142607146360056,
+        "delta_r2": -0.18152701133424443,
+        "pearson": 0.07618459461240402,
+        "spearman": 0.09328472410638897,
+        "sign_accuracy": 0.5316912216083487,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.3133980256848453,
+        "calibration_intercept": 0.05529194619416757,
+        "calibration_slope": 0.14972844041665562
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.6132684548411128,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.044357016980699,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.07517925994487884,
+        "delta_mse": 1.1282608792768565,
+        "delta_r2": -0.08753131194293817,
+        "pearson": 0.052289147670990486,
+        "spearman": 0.0573330566743143,
+        "sign_accuracy": 0.25468461014309357,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14921850167955764,
+        "calibration_intercept": 0.06029048254489003,
+        "calibration_slope": 0.14933038526272713
+      },
+      "active_cells": 39096,
+      "full_cells": 82184,
+      "coverage_fraction": 0.4757130341672345,
+      "active_only_oracle_on_full": 0.7235652949498086,
+      "cap_count": 0,
+      "active_events": 120,
+      "unique_release_dates": 120,
+      "unique_years": 15,
+      "active_origins": 370,
+      "fold_active_ratios": [
+        1.2492642057473873,
+        1.0301720142785935,
+        1.113432431034988,
+        0.9927936137466608
+      ]
+    },
+    "D_event_dates": {
+      "active": {
+        "cells": 39096,
+        "normalized_crps": 0.7468509460757929,
+        "baseline_normalized_crps": 0.5820604295315632,
+        "ratio": 1.2831158212848306,
+        "perfect_location_ratio": 0.41375240191530477,
+        "oracle_capture_fraction": -0.4829287526461282,
+        "delta_mse": 1.8990810642688842,
+        "delta_r2": -0.8478861640678963,
+        "pearson": 0.06511042371582705,
+        "spearman": 0.06425650883906127,
+        "sign_accuracy": 0.47628913443830573,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.46365076286289,
+        "calibration_intercept": 0.0616431087570129,
+        "calibration_slope": 0.06595991223742617
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.6656140760758288,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.1334982672979894,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.2262618548887887,
+        "delta_mse": 1.4541795678215752,
+        "delta_r2": -0.4016845237133735,
+        "pearson": 0.04468045092303847,
+        "spearman": 0.04007742635949261,
+        "sign_accuracy": 0.22657694928453226,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2205647111954583,
+        "calibration_intercept": 0.06331831422820493,
+        "calibration_slope": 0.06593115671077789
+      },
+      "active_cells": 39096,
+      "full_cells": 82184,
+      "coverage_fraction": 0.4757130341672345,
+      "active_only_oracle_on_full": 0.7235652949498086,
+      "cap_count": 164,
+      "active_events": 120,
+      "unique_release_dates": 120,
+      "unique_years": 15,
+      "active_origins": 370,
+      "fold_active_ratios": [
+        1.2242724938754854,
+        1.1101084951939895,
+        1.6662578355347002,
+        1.1794965340103587
+      ]
+    }
+  },
+  "comparisons": {
+    "A1": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6748032172912174,
+            0.908275816956856
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8079587324393306,
+            0.9590854323902039
+          ]
+        },
+        "clear": true
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6562258460413477,
+            0.895211187303754
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.787839474407727,
+            0.9574876315071335
+          ]
+        },
+        "clear": true
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.8874112160185941,
+            0.9878083686516048
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9415606181176605,
+            0.9917170570100291
+          ]
+        },
+        "clear": true
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6698517497638908,
+            0.9018580518516313
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8014675852401975,
+            0.9589311839694293
+          ]
+        },
+        "clear": true
+      }
+    },
+    "A2": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.742843332405851,
+            0.9152379818643941
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8489636754152294,
+            0.9615424956247587
+          ]
+        },
+        "clear": true
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.7228460721879937,
+            0.9025084978910705
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8272320396018409,
+            0.959564125529344
+          ]
+        },
+        "clear": true
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.900732748831679,
+            1.0788728758485935
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9508270062212482,
+            1.0228742239250606
+          ]
+        },
+        "clear": false
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.7365157722493991,
+            0.9091152098164328
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8427678269779573,
+            0.9614177241303916
+          ]
+        },
+        "clear": true
+      }
+    },
+    "A3": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.8082203645831193,
+            0.9357795623302848
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8865824638790208,
+            0.9702969365864508
+          ]
+        },
+        "clear": true
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.7882863444159729,
+            0.9217678420093545
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8658281985090699,
+            0.9683487127188473
+          ]
+        },
+        "clear": true
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9209317670114857,
+            1.1709535410246044
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9599279366653913,
+            1.067654963753341
+          ]
+        },
+        "clear": false
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.8022609992877007,
+            0.9283707737741946
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.8808446572225253,
+            0.9701867293445992
+          ]
+        },
+        "clear": true
+      }
+    },
+    "A4": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9965432722126893,
+            1.019606406444869
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9997721644013722,
+            1.0081654396531554
+          ]
+        },
+        "clear": false
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9689586268478225,
+            1.0065051212789315
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9785813568319188,
+            1.006569073942754
+          ]
+        },
+        "clear": false
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            1.0278931128905604,
+            1.4350815490349456
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0102679079146473,
+            1.200132173917835
+          ]
+        },
+        "clear": false
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.995423200633836,
+            1.0072396541848727
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9977362610655067,
+            1.003594838484842
+          ]
+        },
+        "clear": false
+      }
+    },
+    "A5": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9974708642112032,
+            1.0183943108616598
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9995492193338398,
+            1.0088354117651028
+          ]
+        },
+        "clear": false
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9700456380624575,
+            1.0054048166973297
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9808331320049356,
+            1.005521859669696
+          ]
+        },
+        "clear": false
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            1.0279257324715834,
+            1.4368115438524456
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.011186010142228,
+            1.200472326431256
+          ]
+        },
+        "clear": false
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.9967052015174429,
+            1.0056783989119091
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9990280935178549,
+            1.0028521293712456
+          ]
+        },
+        "clear": false
+      }
+    },
+    "nonlinear": {
+      "A_historical_surprise": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6439048960079974,
+            0.911723023099937
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.7868149677631717,
+            0.9626438548130611
+          ]
+        },
+        "clear": true
+      },
+      "B_sign_shuffle": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6237386195169705,
+            0.9004217833318023
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.7672492055005645,
+            0.9610925195095359
+          ]
+        },
+        "clear": true
+      },
+      "C_older_snapshot": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.8760544379121017,
+            0.96711494218873
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.927446843213483,
+            0.9940098188497573
+          ]
+        },
+        "clear": true
+      },
+      "D_event_dates": {
+        "event_paired": {
+          "replicates": 2000,
+          "blocks": 60,
+          "ratio_95_interval": [
+            0.6374157647190294,
+            0.9061678375506399
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.7808695400245167,
+            0.9630173480109824
+          ]
+        },
+        "clear": true
+      }
+    }
+  },
+  "guards": {
+    "E_pre_release": "PASS: adversarial future and same-day raises ValueError",
+    "F_first_release": "PASS: latest/third vintage rejected,107original first releases validated",
+    "G_future_mutation": "PASS: future snapshots unchanged; no market data input; inherited cachedbaseline hashes and per-row common CRPS exact reproduction",
+    "H_source_timestamp": "PASS: post-release snapshot rejected"
+  },
+  "control_masks": "Paired primary-active mask; controls may have different own activation coverage. A/B/D leave E unchanged; stringent conservative comparison.",
+  "source_family_controls": {
+    "RGDP": {
+      "A_historical_surprise": {
+        "family": "RGDP",
+        "model": "A_historical_surprise",
+        "active_ratio": 1.275180847886997,
+        "full_ratio": 1.1297603963511755,
+        "capture": -0.4693935613314728,
+        "active_cells": 39096,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "B_sign_shuffle": {
+        "family": "RGDP",
+        "model": "B_sign_shuffle",
+        "active_ratio": 1.3001096190932,
+        "full_ratio": 1.1415113926398874,
+        "capture": -0.5119161597824459,
+        "active_cells": 39096,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "C_older_snapshot": {
+        "family": "RGDP",
+        "model": "C_older_snapshot",
+        "active_ratio": 1.0941790890426946,
+        "full_ratio": 1.044357016980699,
+        "capture": -0.16064729194692323,
+        "active_cells": 39096,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "D_event_dates": {
+        "family": "RGDP",
+        "model": "D_event_dates",
+        "active_ratio": 1.2831158212848306,
+        "full_ratio": 1.1334982672979894,
+        "capture": -0.4829287526461282,
+        "active_cells": 39096,
+        "note": "overlapping source activation masks, not independent observations"
+      }
+    },
+    "CPI": {
+      "A_historical_surprise": {
+        "family": "CPI",
+        "model": "A_historical_surprise",
+        "active_ratio": 1.4074850870307252,
+        "full_ratio": 1.1297603963511755,
+        "capture": -0.6992001888219561,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "B_sign_shuffle": {
+        "family": "CPI",
+        "model": "B_sign_shuffle",
+        "active_ratio": 1.421260078955044,
+        "full_ratio": 1.1415113926398874,
+        "capture": -0.7228365800938125,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "C_older_snapshot": {
+        "family": "CPI",
+        "model": "C_older_snapshot",
+        "active_ratio": 1.1256853424366746,
+        "full_ratio": 1.044357016980699,
+        "capture": -0.21566240817359986,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "D_event_dates": {
+        "family": "CPI",
+        "model": "D_event_dates",
+        "active_ratio": 1.412099809951199,
+        "full_ratio": 1.1334982672979894,
+        "capture": -0.7071185525610272,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      }
+    },
+    "UNEMP": {
+      "A_historical_surprise": {
+        "family": "UNEMP",
+        "model": "A_historical_surprise",
+        "active_ratio": 1.4074850870307252,
+        "full_ratio": 1.1297603963511755,
+        "capture": -0.6992001888219561,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "B_sign_shuffle": {
+        "family": "UNEMP",
+        "model": "B_sign_shuffle",
+        "active_ratio": 1.421260078955044,
+        "full_ratio": 1.1415113926398874,
+        "capture": -0.7228365800938125,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "C_older_snapshot": {
+        "family": "UNEMP",
+        "model": "C_older_snapshot",
+        "active_ratio": 1.1256853424366746,
+        "full_ratio": 1.044357016980699,
+        "capture": -0.21566240817359986,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "D_event_dates": {
+        "family": "UNEMP",
+        "model": "D_event_dates",
+        "active_ratio": 1.412099809951199,
+        "full_ratio": 1.1334982672979894,
+        "capture": -0.7071185525610272,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      }
+    },
+    "TBILL": {
+      "A_historical_surprise": {
+        "family": "TBILL",
+        "model": "A_historical_surprise",
+        "active_ratio": 1.4074850870307252,
+        "full_ratio": 1.1297603963511755,
+        "capture": -0.6992001888219561,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "B_sign_shuffle": {
+        "family": "TBILL",
+        "model": "B_sign_shuffle",
+        "active_ratio": 1.421260078955044,
+        "full_ratio": 1.1415113926398874,
+        "capture": -0.7228365800938125,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "C_older_snapshot": {
+        "family": "TBILL",
+        "model": "C_older_snapshot",
+        "active_ratio": 1.1256853424366746,
+        "full_ratio": 1.044357016980699,
+        "capture": -0.21566240817359986,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "D_event_dates": {
+        "family": "TBILL",
+        "model": "D_event_dates",
+        "active_ratio": 1.412099809951199,
+        "full_ratio": 1.1334982672979894,
+        "capture": -0.7071185525610272,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      }
+    },
+    "TBOND": {
+      "A_historical_surprise": {
+        "family": "TBOND",
+        "model": "A_historical_surprise",
+        "active_ratio": 1.4074850870307252,
+        "full_ratio": 1.1297603963511755,
+        "capture": -0.6992001888219561,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "B_sign_shuffle": {
+        "family": "TBOND",
+        "model": "B_sign_shuffle",
+        "active_ratio": 1.421260078955044,
+        "full_ratio": 1.1415113926398874,
+        "capture": -0.7228365800938125,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "C_older_snapshot": {
+        "family": "TBOND",
+        "model": "C_older_snapshot",
+        "active_ratio": 1.1256853424366746,
+        "full_ratio": 1.044357016980699,
+        "capture": -0.21566240817359986,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      },
+      "D_event_dates": {
+        "family": "TBOND",
+        "model": "D_event_dates",
+        "active_ratio": 1.412099809951199,
+        "full_ratio": 1.1334982672979894,
+        "capture": -0.7071185525610272,
+        "active_cells": 26466,
+        "note": "overlapping source activation masks, not independent observations"
+      }
+    }
+  }
+}

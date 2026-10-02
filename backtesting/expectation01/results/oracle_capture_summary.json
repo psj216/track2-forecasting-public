@@ -1,0 +1,73 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "unclipped": true,
+  "full_perfect_location_ratio": 0.4099833250124908,
+  "active_perfect_location_ratio": 0.41375240191530477,
+  "active_only_oracle_on_full": 0.7235652949498086,
+  "models": {
+    "A0": {
+      "active_capture": 0.0,
+      "full_capture": 0.0
+    },
+    "A1": {
+      "active_capture": -0.045283907744577474,
+      "full_capture": -0.021216423554736817
+    },
+    "A2": {
+      "active_capture": -0.11405121364830716,
+      "full_capture": -0.05343529249601935
+    },
+    "A3": {
+      "active_capture": -0.19609700492006185,
+      "full_capture": -0.09187539948332976
+    },
+    "A4": {
+      "active_capture": -0.4853442124158825,
+      "full_capture": -0.2273935464787369
+    },
+    "A5": {
+      "active_capture": -0.4861680186873721,
+      "full_capture": -0.2277795163221869
+    },
+    "nonlinear": {
+      "active_capture": -0.01969222728433891,
+      "full_capture": -0.009226205414012938
+    },
+    "source_RGDP": {
+      "active_capture": -0.3073563263495007,
+      "full_capture": -0.14400263419933595
+    },
+    "source_CPI": {
+      "active_capture": -0.06044096247578445,
+      "full_capture": -0.01888826960397306
+    },
+    "source_UNEMP": {
+      "active_capture": -0.17565807018062585,
+      "full_capture": -0.05489450948129054
+    },
+    "source_TBILL": {
+      "active_capture": -0.02513386007499757,
+      "full_capture": -0.007854526232524682
+    },
+    "source_TBOND": {
+      "active_capture": -0.047914681808699386,
+      "full_capture": -0.014973709731275531
+    },
+    "A_historical_surprise": {
+      "active_capture": -0.4693935613314728,
+      "full_capture": -0.21992665945233258
+    },
+    "B_sign_shuffle": {
+      "active_capture": -0.5119161597824459,
+      "full_capture": -0.23984303942406926
+    },
+    "C_older_snapshot": {
+      "active_capture": -0.16064729194692323,
+      "full_capture": -0.07517925994487884
+    },
+    "D_event_dates": {
+      "active_capture": -0.4829287526461282,
+      "full_capture": -0.2262618548887887
+    }
+  }
+}

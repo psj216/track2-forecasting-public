@@ -1,0 +1,78 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "PRE_RESULT_EXPECTATION01_SHA": "5cf12e6380c43d272028a6def96ff9e47e1a3839",
+  "input_and_prediction_hashes_match": true,
+  "raw_source_files_verified": 231,
+  "original_cache_files_verified": 1251,
+  "model_chunks_verified": 60,
+  "score_chunks_verified": 8,
+  "evaluation_cells": 82184,
+  "inactive_primary_and_source_prediction_and_loss_check": "PASS",
+  "inactive_audit": {
+    "A0": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A1": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A2": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A3": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A4": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A5": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "nonlinear": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "source_RGDP": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "source_CPI": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "source_UNEMP": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "source_TBILL": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "source_TBOND": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "A_historical_surprise": {
+      "outside_primary_mask_nonzero_predictions": 220
+    },
+    "B_sign_shuffle": {
+      "outside_primary_mask_nonzero_predictions": 0
+    },
+    "C_older_snapshot": {
+      "outside_primary_mask_nonzero_predictions": 220
+    },
+    "D_event_dates": {
+      "outside_primary_mask_nonzero_predictions": 0
+    }
+  },
+  "no_model_retraining_during_resume": true,
+  "no_methodological_code_or_protocol_changes": true,
+  "bootstrap_saved_event_calls": 40,
+  "bootstrap_saved_year_calls": 40,
+  "guard_checks_total": 16770,
+  "baseline_common_CRPS_exact_reproduction": "PASS for all scored cells",
+  "pre_result_immediate_parent": "c341ea5daa623e997483eb123c8f6fb7059289d9",
+  "initial_pre_result_parent": "2a110455c4d4640c8ea8a3b09dd62455104ab475",
+  "resume_research_tests": {
+    "passed": 29,
+    "skipped": 0
+  },
+  "resume_repository_tests": {
+    "passed": 474,
+    "skipped": 2,
+    "exit_code": 0
+  }
+}

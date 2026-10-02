@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "PRE_RESULT_EXPECTATION01_SHA": "5cf12e6380c43d272028a6def96ff9e47e1a3839",
+  "EXPECTATION01_RESULT": "NO",
+  "model_gates": {
+    "A1": "NO",
+    "A2": "NO",
+    "A3": "NO",
+    "A4": "NO",
+    "A5": "NO",
+    "nonlinear": "NO"
+  },
+  "NEXT_RESEARCH_AXIS": "POSITIONING-01",
+  "READY_FOR_ONE_SHOT_SUBMISSION": "NO",
+  "primary_source_gate": "PASS",
+  "market_implied_source_gate": "FAIL",
+  "all_precommitted_sources_retained": true,
+  "no_post_result_method_change": true
+}

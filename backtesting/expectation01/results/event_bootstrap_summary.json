@@ -1,0 +1,216 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "method": "2000 paired connected components of all overlapping original event dates; every affected origin/asset/horizon kept together; no cell bootstrap",
+  "blocks": 60,
+  "models": {
+    "A0": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "A1": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0041539968863804,
+        1.0632275742538968
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.11047264726433019,
+        -0.00702381490213947
+      ]
+    },
+    "A2": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.012599431896435,
+        1.1700684331274291
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.297889549818269,
+        -0.020793424631195705
+      ]
+    },
+    "A3": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0296695652351773,
+        1.272890817158922
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.4771665671962185,
+        -0.05032338194838989
+      ]
+    },
+    "A4": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.120059762266277,
+        1.5841149412329159
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.0167442767382966,
+        -0.2022746876192358
+      ]
+    },
+    "A5": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.118134955322732,
+        1.587182040332025
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.021607920158179,
+        -0.1983981164322525
+      ]
+    },
+    "nonlinear": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        0.9981313059468948,
+        1.0247759655516757
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.04153123853921049,
+        0.0033264552700250313
+      ]
+    },
+    "source_RGDP": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0250629038346968,
+        1.4618778178424703
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.7941454047007439,
+        -0.04249455551712162
+      ]
+    },
+    "source_CPI": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0122259788664183,
+        1.0608488069511364
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.10525695364001998,
+        -0.02097076634730085
+      ]
+    },
+    "source_UNEMP": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0358816788427772,
+        1.2048338051070642
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.35992370761058284,
+        -0.061110981485063234
+      ]
+    },
+    "source_TBILL": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0035187155805299,
+        1.0265744246559572
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.046524683850008144,
+        -0.005785138355114322
+      ]
+    },
+    "source_TBOND": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0102823256026316,
+        1.0466953400339731
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.0824518165053814,
+        -0.017119889616461645
+      ]
+    },
+    "A_historical_surprise": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.1087282109873389,
+        1.5711026255371434
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.9961947651959184,
+        -0.18203068766799155
+      ]
+    },
+    "B_sign_shuffle": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.1246126705029376,
+        1.6180817438573318
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.076380629871983,
+        -0.21063032276896557
+      ]
+    },
+    "C_older_snapshot": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.0481131329391293,
+        1.150063382725818
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.26302568218329464,
+        -0.07949810232958449
+      ]
+    },
+    "D_event_dates": {
+      "replicates": 2000,
+      "blocks": 60,
+      "ratio_95_interval": [
+        1.1164563654040272,
+        1.584535770502004
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.0195328851241277,
+        -0.19742085846239207
+      ]
+    }
+  },
+  "source_specific_note": "Independent family fits also evaluated on fixed aggregate primary-active mask for paired uncertainty"
+}

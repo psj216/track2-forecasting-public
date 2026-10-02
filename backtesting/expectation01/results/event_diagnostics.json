@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "events": 60,
+  "unique_dates": 60,
+  "spearman": -0.24767991108641293,
+  "surprise_to_delta_slope": -0.01848421287318425,
+  "direction_agreement": 0.43333333333333335,
+  "mean_delta_positive": -0.015917206638226804,
+  "mean_delta_negative": 0.09833293192529968,
+  "per_event_values_private": true
+}

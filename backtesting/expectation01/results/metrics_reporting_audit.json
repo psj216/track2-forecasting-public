@@ -1,0 +1,294 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "note": "Frozen summaries retained byte-for-byte. Their full capture denominator is the perfect oracle on every cell. This separate reporting audit supplies the requested active-only oracle on the full ledger. Ratios, predictions, gates, models and protocol are unchanged.",
+  "models": {
+    "A0": {
+      "frozen_full_capture_all_cell_perfect_oracle": 0.0,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": 0.0,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0,
+          1.0
+        ],
+        "capture_95_interval": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "A1": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.021216423554736817,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.045283907744577696,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0011692370217464,
+          1.029854617551078
+        ],
+        "capture_95_interval": [
+          -0.10649850514456319,
+          -0.0040414861624316345
+        ]
+      }
+    },
+    "A2": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.05343529249601935,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.11405121364830756,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0031876643357052,
+          1.0826735701174146
+        ],
+        "capture_95_interval": [
+          -0.29675069470631343,
+          -0.011567155911335779
+        ]
+      }
+    },
+    "A3": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.09187539948332976,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.19609700492006193,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0110994123810495,
+          1.1312870998228544
+        ],
+        "capture_95_interval": [
+          -0.47117525846229874,
+          -0.04025683990091587
+        ]
+      }
+    },
+    "A4": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.2273935464787369,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.4853442124158827,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.046134079383667,
+          1.2832231668720382
+        ],
+        "capture_95_interval": [
+          -1.0085774250526098,
+          -0.17070540173606102
+        ]
+      }
+    },
+    "A5": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.2277795163221869,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.48616801868737247,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0463101437824895,
+          1.2849406597779551
+        ],
+        "capture_95_interval": [
+          -1.0157384557256373,
+          -0.16898721133428748
+        ]
+      }
+    },
+    "nonlinear": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.009226205414012938,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.019692227284339503,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          0.9976011500911031,
+          1.0130072545508682
+        ],
+        "capture_95_interval": [
+          -0.04644350905231333,
+          0.008846683161353106
+        ]
+      }
+    },
+    "source_RGDP": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.14400263419933595,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.3073563263495017,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.008827465768658,
+          1.2372895033821092
+        ],
+        "capture_95_interval": [
+          -0.8537744884953429,
+          -0.03129013045514849
+        ]
+      }
+    },
+    "source_CPI": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.01888826960397306,
+      "active_only_oracle_on_full_ratio": 0.8156152124071689,
+      "full_capture_active_only_oracle": -0.06044096247578513,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.000353019030758,
+          1.0219785076268202
+        ],
+        "capture_95_interval": [
+          -0.11976061507973783,
+          -0.0018035614798491506
+        ]
+      }
+    },
+    "source_UNEMP": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.05489450948129054,
+      "active_only_oracle_on_full_ratio": 0.8156152124071689,
+      "full_capture_active_only_oracle": -0.17565807018062599,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0059974483951812,
+          1.0655706803789484
+        ],
+        "capture_95_interval": [
+          -0.3522934389060058,
+          -0.03238690401023686
+        ]
+      }
+    },
+    "source_TBILL": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.007854526232524682,
+      "active_only_oracle_on_full_ratio": 0.8156152124071689,
+      "full_capture_active_only_oracle": -0.025133860074997714,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0003615005229034,
+          1.0093174006337187
+        ],
+        "capture_95_interval": [
+          -0.05277270552434812,
+          -0.0019181087259284011
+        ]
+      }
+    },
+    "source_TBOND": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.014973709731275531,
+      "active_only_oracle_on_full_ratio": 0.8156152124071689,
+      "full_capture_active_only_oracle": -0.047914681808699795,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.001087237845711,
+          1.017708853304849
+        ],
+        "capture_95_interval": [
+          -0.10192703653300662,
+          -0.005662059410435895
+        ]
+      }
+    },
+    "A_historical_surprise": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.21992665945233258,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.46940703891580926,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.044930130712129,
+          1.2749553831905502
+        ],
+        "capture_95_interval": [
+          -0.9793457565761835,
+          -0.165934260760935
+        ]
+      }
+    },
+    "B_sign_shuffle": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.23984303942406926,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.5119161597824468,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0468676275854014,
+          1.3059140870420858
+        ],
+        "capture_95_interval": [
+          -1.0961838872401422,
+          -0.17275307037766352
+        ]
+      }
+    },
+    "C_older_snapshot": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.07517925994487884,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.1604611004708877,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.012860366702025,
+          1.082496058231126
+        ],
+        "capture_95_interval": [
+          -0.3042091087498712,
+          -0.04592335386441735
+        ]
+      }
+    },
+    "D_event_dates": {
+      "frozen_full_capture_all_cell_perfect_oracle": -0.2262618548887887,
+      "active_only_oracle_on_full_ratio": 0.7235652949498086,
+      "full_capture_active_only_oracle": -0.48292875264612883,
+      "year_bootstrap_active_only_oracle": {
+        "replicates": 2000,
+        "block": "calendar year; all asset/horizon cells together",
+        "blocks": 15,
+        "ratio_95_interval": [
+          1.0452856147094807,
+          1.2844751494607232
+        ],
+        "capture_95_interval": [
+          -1.0109553320023021,
+          -0.1664342670754376
+        ]
+      }
+    }
+  }
+}

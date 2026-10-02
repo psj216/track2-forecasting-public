@@ -1,0 +1,214 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "method": "2000 paired calendar-year blocks; all within-year cells together",
+  "models": {
+    "A0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "A1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0011692370217464,
+        1.029854617551078
+      ],
+      "capture_95_interval": [
+        -0.05048897283823125,
+        -0.0019188471417504265
+      ]
+    },
+    "A2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0031876643357052,
+        1.0826735701174146
+      ],
+      "capture_95_interval": [
+        -0.14058067305045208,
+        -0.005464722257783114
+      ]
+    },
+    "A3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0110994123810495,
+        1.1312870998228544
+      ],
+      "capture_95_interval": [
+        -0.22491150330358176,
+        -0.018843460960657206
+      ]
+    },
+    "A4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.046134079383667,
+        1.2832231668720382
+      ],
+      "capture_95_interval": [
+        -0.47897208305235045,
+        -0.07931212327199615
+      ]
+    },
+    "A5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0463101437824895,
+        1.2849406597779551
+      ],
+      "capture_95_interval": [
+        -0.4829360388228867,
+        -0.07901177797279009
+      ]
+    },
+    "nonlinear": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9976011500911031,
+        1.0130072545508682
+      ],
+      "capture_95_interval": [
+        -0.02168556309865509,
+        0.004207079924403743
+      ]
+    },
+    "source_RGDP": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.008827465768658,
+        1.2372895033821092
+      ],
+      "capture_95_interval": [
+        -0.4069174213638195,
+        -0.0146494965439706
+      ]
+    },
+    "source_CPI": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.000353019030758,
+        1.0219785076268202
+      ],
+      "capture_95_interval": [
+        -0.036305798120176425,
+        -0.0006010427257549649
+      ]
+    },
+    "source_UNEMP": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0059974483951812,
+        1.0655706803789484
+      ],
+      "capture_95_interval": [
+        -0.11306581760707932,
+        -0.010077516867484974
+      ]
+    },
+    "source_TBILL": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0003615005229034,
+        1.0093174006337187
+      ],
+      "capture_95_interval": [
+        -0.016113784616438403,
+        -0.0006121025912584326
+      ]
+    },
+    "source_TBOND": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.001087237845711,
+        1.017708853304849
+      ],
+      "capture_95_interval": [
+        -0.031180800294455666,
+        -0.0017875278401976295
+      ]
+    },
+    "A_historical_surprise": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.044930130712129,
+        1.2749553831905502
+      ],
+      "capture_95_interval": [
+        -0.4650034155044307,
+        -0.07755531660384105
+      ]
+    },
+    "B_sign_shuffle": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0468676275854014,
+        1.3059140870420858
+      ],
+      "capture_95_interval": [
+        -0.5203923215770444,
+        -0.0802356254425719
+      ]
+    },
+    "C_older_snapshot": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.012860366702025,
+        1.082496058231126
+      ],
+      "capture_95_interval": [
+        -0.14308734166131373,
+        -0.021611068676219942
+      ]
+    },
+    "D_event_dates": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0452856147094807,
+        1.2844751494607232
+      ],
+      "capture_95_interval": [
+        -0.48041519347506967,
+        -0.07783555720056938
+      ]
+    }
+  }
+}
