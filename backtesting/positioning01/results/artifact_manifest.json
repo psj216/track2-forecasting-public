@@ -1,0 +1,142 @@
+{
+  "executive_summary": "Completed frozen research; only aggregate metrics and provenance are public.",
+  "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+  "result_sha_policy": "Containing RESULT commit is remote-verified in external receipt; no self-reference.",
+  "artifacts": [
+    {
+      "path": "POSITIONING-01-PUBLIC-POSITIONING-FLOW-LIQUIDITY-report.md",
+      "sha256": "7ad5296adb5e7920e389235e46a32fb00e6b3f151a9dea66fa13c5eba06b14e8",
+      "bytes": 26950
+    },
+    {
+      "path": "backtesting/positioning01/results/asset_summary.csv",
+      "sha256": "cd3f5ba11fe4e70ebedfc0f0cc2eb9bbd7a8011982f2a514b5450a78755e46d5",
+      "bytes": 20990
+    },
+    {
+      "path": "backtesting/positioning01/results/category_summary.csv",
+      "sha256": "eae8a25fa47b34effa89f5b426cbbcf990b6d27896fd37ec288e7286464000fe",
+      "bytes": 3122
+    },
+    {
+      "path": "backtesting/positioning01/results/combined_summary.json",
+      "sha256": "15011c9eea35d86d1b31aeae7e3fbf0f31c85b2e011809eef486e70916be523f",
+      "bytes": 9378
+    },
+    {
+      "path": "backtesting/positioning01/results/coverage_summary.json",
+      "sha256": "7f510a0a7246d79132520f912e578038c942fbf28f4561c438b820e259a57e80",
+      "bytes": 2018
+    },
+    {
+      "path": "backtesting/positioning01/results/crossfit_summary.json",
+      "sha256": "568fcaab8a0517dfb8dd50e319de6e3d67c66fec6b88a3b0714fec7eb0dfe19c",
+      "bytes": 110218
+    },
+    {
+      "path": "backtesting/positioning01/results/crowding_summary.csv",
+      "sha256": "a073c22b3e6e1146592c2dadc15739cf55617cb9a62753f5cdd7d39588008c8b",
+      "bytes": 368
+    },
+    {
+      "path": "backtesting/positioning01/results/execution_audit.json",
+      "sha256": "9ea3f39212afd73430a179da6f16ccf3420aa7cb7c351058069d4c0a49b83a5e",
+      "bytes": 719
+    },
+    {
+      "path": "backtesting/positioning01/results/feature_manifest.json",
+      "sha256": "183a88103ef88399c3e19861ca4b597a108702645a6103198f6b67ed48dd3733",
+      "bytes": 10051
+    },
+    {
+      "path": "backtesting/positioning01/results/final_decision.json",
+      "sha256": "9d0e593041f42dd7bcc697ac80322595161b45e51a05e166fe54b4dae4c398c5",
+      "bytes": 713
+    },
+    {
+      "path": "backtesting/positioning01/results/flow_summary.json",
+      "sha256": "8d0566f06cb4148ef83b846bd1c4ea16d45e40491791299ce1f163e566088165",
+      "bytes": 9453
+    },
+    {
+      "path": "backtesting/positioning01/results/fold_summary.csv",
+      "sha256": "c8c284d266d596f73f5a828fa33ec21d8e3d9a5f77b28f1a68caa6d0ee5de656",
+      "bytes": 4686
+    },
+    {
+      "path": "backtesting/positioning01/results/group_summary.csv",
+      "sha256": "063342574ccde0306caf2d674b48e65d2a924668e4fd8d9c2d5bde30ddce01cf",
+      "bytes": 3323
+    },
+    {
+      "path": "backtesting/positioning01/results/horizon_summary.csv",
+      "sha256": "abf3c6271786223ee2701836ed67f89edc85920067e45622c8afcbc243e4649d",
+      "bytes": 5926
+    },
+    {
+      "path": "backtesting/positioning01/results/liquidity_summary.json",
+      "sha256": "cc3731a163d90555d6b97054771d0085456e7084de4e23358cb9c03bd8bef57b",
+      "bytes": 9399
+    },
+    {
+      "path": "backtesting/positioning01/results/negative_controls.json",
+      "sha256": "2068d9309c8797c610cb57b93ffa3d60489c3b3ce931878680a5f375c45ae290",
+      "bytes": 22103
+    },
+    {
+      "path": "backtesting/positioning01/results/positioning_summary.json",
+      "sha256": "9313f47b443e774639a576afaade634d8842f0a574ce2832339139d3dfcc31be",
+      "bytes": 514
+    },
+    {
+      "path": "backtesting/positioning01/results/publication_audit.json",
+      "sha256": "bf80cc5e8687d0382e1a4bdd2b7a5d4f8501397a0fd772da0ae334ebd6644260",
+      "bytes": 1171
+    },
+    {
+      "path": "backtesting/positioning01/results/report_age_summary.csv",
+      "sha256": "31ecc97ffbc2dd961f4823cfd4b440c000d70c6a872f0038537328d7630abcf7",
+      "bytes": 2089
+    },
+    {
+      "path": "backtesting/positioning01/results/report_block_bootstrap.json",
+      "sha256": "ec1d87b32a3010f5c589c3daa0f4c3b6dbfa8848e1f3d3d9af38b060ba3ddce8",
+      "bytes": 5111
+    },
+    {
+      "path": "backtesting/positioning01/results/source_asset_map.json",
+      "sha256": "95c5b03c89b1cf8481773319ee7e61d7214816db0b41814f3f79b0dbb89ce1ca",
+      "bytes": 16264
+    },
+    {
+      "path": "backtesting/positioning01/results/source_gate.json",
+      "sha256": "5051d2440b9101200d6e728ef94c18d4dfa4c76514f310d89f02dc88a2856a75",
+      "bytes": 487
+    },
+    {
+      "path": "backtesting/positioning01/results/source_manifest.json",
+      "sha256": "2506c5636084bf006571055be18945520942e2ad7b8522d6f89afdf76275047b",
+      "bytes": 704629
+    },
+    {
+      "path": "backtesting/positioning01/results/source_summary.csv",
+      "sha256": "eae8a25fa47b34effa89f5b426cbbcf990b6d27896fd37ec288e7286464000fe",
+      "bytes": 3122
+    },
+    {
+      "path": "backtesting/positioning01/results/validation_summary.json",
+      "sha256": "3da7bd9fcc84ba81b5fa06d171515676f4de5d5b0bd94f12b525e005db29cb6a",
+      "bytes": 834
+    },
+    {
+      "path": "backtesting/positioning01/results/year_block_bootstrap.json",
+      "sha256": "608cb548c49f349eb87a255fe2f7ca0c0661c6c290941990448c62d4780de6c0",
+      "bytes": 4637
+    }
+  ],
+  "raw_originals": "Private five TIC archives plus private recovery ZIP with H41 releases; file-level SHA256 in frozen source_manifest",
+  "executed_models": 13,
+  "zero_baseline_models": 1,
+  "completed_crossfits": 52,
+  "score_chunks": 8
+}

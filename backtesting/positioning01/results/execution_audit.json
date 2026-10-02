@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Completed frozen research; only aggregate metrics and provenance are public.",
+  "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+  "completed_crossfits": 52,
+  "completed_score_chunks": 8,
+  "evaluation_origins": 780,
+  "evaluation_cells": 82184,
+  "geometry_checks": 16770,
+  "original_baseline_reproduction": "PASS: every scored asset-origin at rtol=atol=1e-12; zero shifts assigned inherited exact scores",
+  "all_saved_prediction_and_score_hashes_verified": true,
+  "original_ledger_unchanged": true,
+  "zero_baseline_exact": true,
+  "scientific_code_unchanged_since_pre": true,
+  "timeout_or_failed_model_chunks": 0,
+  "public_raw_target_prediction_or_cell_scores": false
+}

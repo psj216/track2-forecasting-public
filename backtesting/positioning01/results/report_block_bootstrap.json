@@ -1,0 +1,223 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "method": "2000 paired latest-published snapshot release-date connected components; all affected origins/assets/horizons together; coincident publication dates unioned; derived features are report snapshots, not additional pseudo-events; no cell bootstrap",
+  "models": {
+    "P0": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "F1": {
+      "replicates": 2000,
+      "blocks": 160,
+      "ratio_95_interval": [
+        0.9804705896037895,
+        1.0284136032177378
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.05216495995281658,
+        0.035591972282784365
+      ]
+    },
+    "F2": {
+      "replicates": 2000,
+      "blocks": 160,
+      "ratio_95_interval": [
+        1.0019134488432457,
+        1.0635029425172615
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.11538939670465237,
+        -0.0034375026406647784
+      ]
+    },
+    "L1": {
+      "replicates": 2000,
+      "blocks": 778,
+      "ratio_95_interval": [
+        0.9958685315932213,
+        1.001058052484866
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.0018213086464712981,
+        0.007005240347110739
+      ]
+    },
+    "L2": {
+      "replicates": 2000,
+      "blocks": 778,
+      "ratio_95_interval": [
+        1.0029379555000415,
+        1.0103791476682902
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.01765761785156097,
+        -0.004970955046051913
+      ]
+    },
+    "C1": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        0.9953093859282381,
+        1.0045750301703775
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.007803719534267752,
+        0.007837042453069626
+      ]
+    },
+    "C2": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        1.0029397101039081,
+        1.0171269325950325
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.029387756237723113,
+        -0.004945740741427031
+      ]
+    },
+    "nonlinear": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        0.9934814347413694,
+        1.00389313680301
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.0065738258971044985,
+        0.010991926522720165
+      ]
+    },
+    "FA": {
+      "replicates": 2000,
+      "blocks": 160,
+      "ratio_95_interval": [
+        0.985771644235979,
+        1.062550898942939
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.11495559968080969,
+        0.025687361437210877
+      ]
+    },
+    "FB": {
+      "replicates": 2000,
+      "blocks": 160,
+      "ratio_95_interval": [
+        1.0039245198634867,
+        1.0263150592606065
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.04811409098237916,
+        -0.00710229305161559
+      ]
+    },
+    "LA": {
+      "replicates": 2000,
+      "blocks": 778,
+      "ratio_95_interval": [
+        1.5195994462085334,
+        1.9246860180330185
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.5770307924443938,
+        -0.8764174586246004
+      ]
+    },
+    "LB": {
+      "replicates": 2000,
+      "blocks": 778,
+      "ratio_95_interval": [
+        1.0030795073753864,
+        1.010283937209361
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.01742407406395011,
+        -0.005199057671132645
+      ]
+    },
+    "CA": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        1.4514067560698307,
+        2.024742908009816
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -1.7534298967105608,
+        -0.7501295146295305
+      ]
+    },
+    "CB": {
+      "replicates": 2000,
+      "blocks": 246,
+      "ratio_95_interval": [
+        1.0019403601641796,
+        1.0153483424797418
+      ],
+      "seed": 1903,
+      "capture_95_interval": [
+        -0.026315799318813674,
+        -0.003297977716120067
+      ]
+    }
+  },
+  "effective_sample_size": {
+    "F": {
+      "active_cells": 3440,
+      "active_origins": 688,
+      "unique_reports": 160,
+      "unique_report_weeks": 160,
+      "unique_release_dates": 160,
+      "unique_years": 14,
+      "source_instruments": 1,
+      "category_count": 1,
+      "connected_bootstrap_blocks": 160
+    },
+    "L": {
+      "active_cells": 82184,
+      "active_origins": 780,
+      "unique_reports": 778,
+      "unique_report_weeks": 778,
+      "unique_release_dates": 778,
+      "unique_years": 15,
+      "source_instruments": 1,
+      "category_count": 1,
+      "connected_bootstrap_blocks": 778
+    },
+    "C": {
+      "active_cells": 82184,
+      "active_origins": 780,
+      "unique_reports": 938,
+      "unique_report_weeks": 779,
+      "unique_release_dates": 918,
+      "unique_years": 15,
+      "source_instruments": 2,
+      "category_count": 2,
+      "connected_bootstrap_blocks": 246
+    }
+  }
+}

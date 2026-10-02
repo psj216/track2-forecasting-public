@@ -1,0 +1,21 @@
+model,source,category,active_ratio,full_ratio,active_capture,active_cells,scope
+P0,TIC_FORM_S,foreign_transactions,1.0,1.0,0.0,3440,conditional primary snapshot; no category selection
+P0,FED_H41_RESERVES,depository_institutions,1.0,1.0,0.0,82184,conditional primary snapshot; no category selection
+F1,TIC_FORM_S,foreign_transactions,1.004988400397814,1.0001803066941655,-0.00910081153894624,3440,conditional primary snapshot; no category selection
+F2,TIC_FORM_S,foreign_transactions,1.0332099395316068,1.0012003796673978,-0.06058803961073351,3440,conditional primary snapshot; no category selection
+L1,FED_H41_RESERVES,depository_institutions,0.9985388360503921,0.9985388360503921,0.0024764790751699833,82184,conditional primary snapshot; no category selection
+L2,FED_H41_RESERVES,depository_institutions,1.0065916818266587,1.0065916818266587,-0.01117202632755803,82184,conditional primary snapshot; no category selection
+C1,TIC_FORM_S,foreign_transactions,0.9976014011632192,0.9997924548069507,0.004375991145507083,3440,conditional primary snapshot; no category selection
+C1,FED_H41_RESERVES,depository_institutions,0.9997924548069507,0.9997924548069507,0.0003517615719144272,82184,conditional primary snapshot; no category selection
+C2,TIC_FORM_S,foreign_transactions,1.0421488657095115,1.0096747748134234,-0.07689616967609739,3440,conditional primary snapshot; no category selection
+C2,FED_H41_RESERVES,depository_institutions,1.0096747748134234,1.0096747748134234,-0.016397459976242534,82184,conditional primary snapshot; no category selection
+nonlinear,TIC_FORM_S,foreign_transactions,1.012895375973169,0.9984285785317862,-0.023526256334013212,3440,conditional primary snapshot; no category selection
+nonlinear,FED_H41_RESERVES,depository_institutions,0.9984285785317862,0.9984285785317862,0.002663350943847528,82184,conditional primary snapshot; no category selection
+FA,TIC_FORM_S,foreign_transactions,1.0207501866892237,1.0007500194986125,-0.0378565318331964,3440,conditional primary snapshot; no category selection
+FB,TIC_FORM_S,foreign_transactions,1.0150676075461134,1.0005446215798577,-0.027489264229886845,3440,conditional primary snapshot; no category selection
+LA,FED_H41_RESERVES,depository_institutions,1.7207526220316445,1.7207526220316445,-1.2215800884727588,82184,conditional primary snapshot; no category selection
+LB,FED_H41_RESERVES,depository_institutions,1.0066330817463702,1.0066330817463702,-0.011242193699882554,82184,conditional primary snapshot; no category selection
+CA,TIC_FORM_S,foreign_transactions,1.8502686321152277,1.7247174339761795,-1.5512256357266887,3440,conditional primary snapshot; no category selection
+CA,FED_H41_RESERVES,depository_institutions,1.7247174339761795,1.7247174339761795,-1.2282999187972474,82184,conditional primary snapshot; no category selection
+CB,TIC_FORM_S,foreign_transactions,1.0121567435737169,1.0084772349083033,-0.022178699256013127,3440,conditional primary snapshot; no category selection
+CB,FED_H41_RESERVES,depository_institutions,1.0084772349083033,1.0084772349083033,-0.014367788687468514,82184,conditional primary snapshot; no category selection

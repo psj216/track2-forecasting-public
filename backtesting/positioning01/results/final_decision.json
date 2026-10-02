@@ -1,0 +1,23 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "PRE_RESULT_POSITIONING01_SHA": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+  "POSITIONING01_RESULT": "NO",
+  "POSITIONING_RESULT": "SOURCE_GATE_FAIL",
+  "FLOW_RESULT": "NO",
+  "LIQUIDITY_RESULT": "NO",
+  "COMBINED_RESULT": "NO",
+  "model_gates": {
+    "F1": "NO",
+    "F2": "NO",
+    "L1": "NO",
+    "L2": "NO",
+    "C1": "NO",
+    "C2": "NO",
+    "nonlinear": "NO"
+  },
+  "NEXT_RESEARCH_AXIS": "CONTEXT-01",
+  "READY_FOR_ONE_SHOT_SUBMISSION": "NO",
+  "no_post_result_source_selection": true,
+  "scoring_scope": "Research normalized marginal fair CRPS proxy; not official composite",
+  "primary_positioning_unanswered": true
+}

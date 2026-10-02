@@ -1,0 +1,3296 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+  "models": {
+    "P0": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    "F1": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.5096148379207177,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.004988400397814,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.00910081153894624,
+        "delta_mse": 0.8471403826429239,
+        "delta_r2": -0.10796697831672675,
+        "pearson": -0.09526430894700982,
+        "spearman": -0.10779034590671176,
+        "sign_accuracy": 0.5700581395348837,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.21332377761523907,
+        "calibration_intercept": 0.2686824669038057,
+        "calibration_slope": -0.3982749465926512
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.587326959340167,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0001803066941655,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.00910081153895353,
+        "delta_mse": 1.0431372169322668,
+        "delta_r2": -0.005480564737793792,
+        "pearson": 0.0032373961035733955,
+        "spearman": 0.01316693937459253,
+        "sign_accuracy": 0.02386109218339336,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.008929156465935248,
+        "calibration_intercept": 0.0634667174489782,
+        "calibration_slope": 0.06346768206538479
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.0199599379149402,
+        0.934637086288235,
+        1.033666414906678,
+        1.061227147138009
+      ]
+    },
+    "F2": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.523925565373739,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.0332099395316068,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.06058803961073351,
+        "delta_mse": 0.888567138184163,
+        "delta_r2": -0.16214864418808372,
+        "pearson": -0.028534799087103425,
+        "spearman": -0.029700464615379733,
+        "sign_accuracy": 0.5651162790697675,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.24555469220069814,
+        "calibration_intercept": 0.22112758101642563,
+        "calibration_slope": -0.07761435572365626
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5879259676926248,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0012003796673978,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.06058803961074301,
+        "delta_mse": 1.0448712288939852,
+        "delta_r2": -0.007151979867299207,
+        "pearson": 0.007333565565704156,
+        "spearman": 0.01335708104320736,
+        "sign_accuracy": 0.023654239267984035,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.010278255392417035,
+        "calibration_intercept": 0.06323676441804237,
+        "calibration_slope": 0.1042048061410133
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.051804070934449,
+        0.938586674448735,
+        1.0656086743024888,
+        1.1208006200425287
+      ]
+    },
+    "L1": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5863630531768472,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9985388360503921,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0024764790751699833,
+        "delta_mse": 1.0374429289933742,
+        "delta_r2": 8.16268908809814e-06,
+        "pearson": 0.06733057351681855,
+        "spearman": 0.06771256563492989,
+        "sign_accuracy": 0.5281198286771148,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.13216772742812297,
+        "calibration_intercept": -0.058772786236082106,
+        "calibration_slope": 0.9278391770815613
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5863630531768472,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9985388360503921,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0024764790751699833,
+        "delta_mse": 1.0374429289933742,
+        "delta_r2": 8.16268908809814e-06,
+        "pearson": 0.06733057351681855,
+        "spearman": 0.06771256563492989,
+        "sign_accuracy": 0.5281198286771148,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.13216772742812297,
+        "calibration_intercept": -0.058772786236082106,
+        "calibration_slope": 0.9278391770815613
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        1.0094423528235514,
+        0.9944675875925861,
+        1.0034005819784562,
+        0.988009579361803
+      ]
+    },
+    "L2": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5910918539662195,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0065916818266587,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.01117202632755803,
+        "delta_mse": 1.0502153766117714,
+        "delta_r2": -0.012303206933211408,
+        "pearson": 0.05436482618207735,
+        "spearman": 0.07273825207592666,
+        "sign_accuracy": 0.5268300399104449,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14197053750081215,
+        "calibration_intercept": 0.018735245736019278,
+        "calibration_slope": 0.34301434460828534
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5910918539662195,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0065916818266587,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.01117202632755803,
+        "delta_mse": 1.0502153766117714,
+        "delta_r2": -0.012303206933211408,
+        "pearson": 0.05436482618207735,
+        "spearman": 0.07273825207592666,
+        "sign_accuracy": 0.5268300399104449,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14197053750081215,
+        "calibration_intercept": 0.018735245736019278,
+        "calibration_slope": 0.34301434460828534
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        1.0466313697809517,
+        0.9931565884421605,
+        1.0044361426511856,
+        0.9843520589650218
+      ]
+    },
+    "C1": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5870992045362906,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9997924548069507,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0003517615719144272,
+        "delta_mse": 1.0409746371700865,
+        "delta_r2": -0.0033960528583669713,
+        "pearson": 0.05290257891502032,
+        "spearman": 0.06440382419432726,
+        "sign_accuracy": 0.5250535384016354,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.13438706403140924,
+        "calibration_intercept": -0.01291854924333824,
+        "calibration_slope": 0.575283831018599
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5870992045362906,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9997924548069507,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0003517615719144272,
+        "delta_mse": 1.0409746371700865,
+        "delta_r2": -0.0033960528583669713,
+        "pearson": 0.05290257891502032,
+        "spearman": 0.06440382419432726,
+        "sign_accuracy": 0.5250535384016354,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.13438706403140924,
+        "calibration_intercept": -0.01291854924333824,
+        "calibration_slope": 0.575283831018599
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0109311570430788,
+        0.9939592715179397,
+        1.0046814020497645,
+        0.9910256326527583
+      ]
+    },
+    "C2": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5929023111579479,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0096747748134234,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.016397459976242534,
+        "delta_mse": 1.05703816974585,
+        "delta_r2": -0.01887970116828175,
+        "pearson": 0.048622663973524,
+        "spearman": 0.07373523607088177,
+        "sign_accuracy": 0.5247980142120121,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14577792321137004,
+        "calibration_intercept": 0.0274034295445734,
+        "calibration_slope": 0.2738616245551959
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5929023111579479,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0096747748134234,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.016397459976242534,
+        "delta_mse": 1.05703816974585,
+        "delta_r2": -0.01887970116828175,
+        "pearson": 0.048622663973524,
+        "spearman": 0.07373523607088177,
+        "sign_accuracy": 0.5247980142120121,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14577792321137004,
+        "calibration_intercept": 0.0274034295445734,
+        "calibration_slope": 0.2738616245551959
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0503880037667381,
+        0.9939281764032608,
+        1.007581639886986,
+        0.9893620967961754
+      ]
+    },
+    "nonlinear": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5862983076377543,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9984285785317862,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.002663350943847528,
+        "delta_mse": 1.037084114637551,
+        "delta_r2": 0.0003540240535117034,
+        "pearson": 0.07626181113850979,
+        "spearman": 0.07032074338279116,
+        "sign_accuracy": 0.5362966027450599,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14241111103419496,
+        "calibration_intercept": -0.005067139017019495,
+        "calibration_slope": 0.5911699558495427
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5862983076377543,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9984285785317862,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.002663350943847528,
+        "delta_mse": 1.037084114637551,
+        "delta_r2": 0.0003540240535117034,
+        "pearson": 0.07626181113850979,
+        "spearman": 0.07032074338279116,
+        "sign_accuracy": 0.5362966027450599,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14241111103419496,
+        "calibration_intercept": -0.005067139017019495,
+        "calibration_slope": 0.5911699558495427
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0041415313351645,
+        0.9996044942372762,
+        0.9990808851345074,
+        0.9908387152834535
+      ]
+    },
+    "FA": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.5176074079474545,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.0207501866892237,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.0378565318331964,
+        "delta_mse": 0.8612075913701672,
+        "delta_r2": -0.1263653489601484,
+        "pearson": -0.002026027797622687,
+        "spearman": 0.04669419262582674,
+        "sign_accuracy": 0.5863372093023256,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.18924761920559774,
+        "calibration_intercept": 0.2106737152152641,
+        "calibration_slope": -0.006161680557012345
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5876615067081701,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0007500194986125,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.037856531833194616,
+        "delta_mse": 1.0437260322493809,
+        "delta_r2": -0.006048124161394108,
+        "pearson": 0.009014281478637774,
+        "spearman": 0.026701109712320013,
+        "sign_accuracy": 0.024542490022388785,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.007921393581077293,
+        "calibration_intercept": 0.06325946212563059,
+        "calibration_slope": 0.14831210144267584
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.1048489750199497,
+        0.9544689673638191,
+        0.9573395895213493,
+        1.083935133604904
+      ]
+    },
+    "FB": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.5147258556351676,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.0150676075461134,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.027489264229886845,
+        "delta_mse": 0.8393766311421741,
+        "delta_r2": -0.09781284038760218,
+        "pearson": -0.021659695200862295,
+        "spearman": -0.04446862806556494,
+        "sign_accuracy": 0.1813953488372093,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0863362351062575,
+        "calibration_intercept": 0.21475102574836655,
+        "calibration_slope": -0.09294252899347553
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5875408927206024,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0005446215798577,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.027489264229886953,
+        "delta_mse": 1.042812247288996,
+        "delta_r2": -0.005167326311309894,
+        "pearson": 0.0033433845527469446,
+        "spearman": 0.005703466795336179,
+        "sign_accuracy": 0.007592718777377592,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0036138013331734374,
+        "calibration_intercept": 0.0636905775444784,
+        "calibration_slope": 0.07940215191027448
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.008440383738319,
+        0.9895289598399741,
+        1.0305265378300512,
+        1.0494304136745838
+      ]
+    },
+    "LA": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 1.0104622121734093,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7207526220316445,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2215800884727588,
+        "delta_mse": 4.235463214852896,
+        "delta_r2": -3.082565434412035,
+        "pearson": -0.012566104665706299,
+        "spearman": -0.024740583357523202,
+        "sign_accuracy": 0.4800082741166164,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5012934846585801,
+        "calibration_intercept": 0.060596223646895195,
+        "calibration_slope": -0.007508051344930813
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 1.0104622121734093,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7207526220316445,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2215800884727588,
+        "delta_mse": 4.235463214852896,
+        "delta_r2": -3.082565434412035,
+        "pearson": -0.012566104665706299,
+        "spearman": -0.024740583357523202,
+        "sign_accuracy": 0.4800082741166164,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5012934846585801,
+        "calibration_intercept": 0.060596223646895195,
+        "calibration_slope": -0.007508051344930813
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 506,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        3.9271649246336087,
+        1.0070450293122672,
+        1.00805360476721,
+        1.003804437798977
+      ]
+    },
+    "LB": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5911161648717617,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0066330817463702,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.011242193699882554,
+        "delta_mse": 1.0498598337372662,
+        "delta_r2": -0.011960498951516074,
+        "pearson": 0.054153317914711216,
+        "spearman": 0.07217299398461742,
+        "sign_accuracy": 0.5252360556799377,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14433840174308343,
+        "calibration_intercept": 0.02010843615445844,
+        "calibration_slope": 0.34143014013584344
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5911161648717617,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0066330817463702,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.011242193699882554,
+        "delta_mse": 1.0498598337372662,
+        "delta_r2": -0.011960498951516074,
+        "pearson": 0.054153317914711216,
+        "spearman": 0.07217299398461742,
+        "sign_accuracy": 0.5252360556799377,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14433840174308343,
+        "calibration_intercept": 0.02010843615445844,
+        "calibration_slope": 0.34143014013584344
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        1.0448241282560413,
+        0.9946984653036498,
+        1.004737941704965,
+        0.9842652850444419
+      ]
+    },
+    "CA": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 1.0127904333232898,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7247174339761795,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2282999187972474,
+        "delta_mse": 4.273104060916136,
+        "delta_r2": -3.118847467631192,
+        "pearson": -0.012216075424580902,
+        "spearman": -0.01597630650658875,
+        "sign_accuracy": 0.4850092475421007,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5110763029762907,
+        "calibration_intercept": 0.060688102098078664,
+        "calibration_slope": -0.007254056970054919
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 1.0127904333232898,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7247174339761795,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2282999187972474,
+        "delta_mse": 4.273104060916136,
+        "delta_r2": -3.118847467631192,
+        "pearson": -0.012216075424580902,
+        "spearman": -0.01597630650658875,
+        "sign_accuracy": 0.4850092475421007,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5110763029762907,
+        "calibration_intercept": 0.060688102098078664,
+        "calibration_slope": -0.007254056970054919
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 570,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        3.94329295992204,
+        1.0060098259954569,
+        1.0052300523277056,
+        1.0076340920624018
+      ]
+    },
+    "CB": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5921990904821804,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0084772349083033,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.014367788687468514,
+        "delta_mse": 1.0536616246316888,
+        "delta_r2": -0.015625047386266466,
+        "pearson": 0.04940814844301077,
+        "spearman": 0.0707372629857134,
+        "sign_accuracy": 0.5244208118368539,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14621052093108017,
+        "calibration_intercept": 0.02649766104564162,
+        "calibration_slope": 0.2932755632346803
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5921990904821804,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0084772349083033,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.014367788687468514,
+        "delta_mse": 1.0536616246316888,
+        "delta_r2": -0.015625047386266466,
+        "pearson": 0.04940814844301077,
+        "spearman": 0.0707372629857134,
+        "sign_accuracy": 0.5244208118368539,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14621052093108017,
+        "calibration_intercept": 0.02649766104564162,
+        "calibration_slope": 0.2932755632346803
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0463098815264549,
+        0.9957021331675907,
+        1.0077362694892842,
+        0.986379639830579
+      ]
+    }
+  },
+  "fit_audits": {
+    "F1": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "F1",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.6489069788653237,
+            1.6482800951953818,
+            1.6427346172679598,
+            1.6167226367462855,
+            1.5787266100404762
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 590,
+              "validation_active": 505,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 1105,
+              "validation_active": 330,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.09140711800137069,
+        "prediction_sha256": "fed752a685d37b1ba7be187ead6451e3245c24c740e0901e4d611588b4bc2303"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "F1",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8209053627722536,
+            0.8208088605571388,
+            0.8198647494658262,
+            0.8121202545303657,
+            0.7858962204239821
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 1615,
+              "validation_active": 520,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 2135,
+              "validation_active": 320,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.11683129800076131,
+        "prediction_sha256": "665193ac86ff1430134f1b40e947e8b801aec3388d887c1f227628468c4da0af"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "F1",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.495592606587015,
+            0.49558847405170636,
+            0.49554711516953054,
+            0.4951302955158211,
+            0.49105584999309265
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 2645,
+              "validation_active": 520,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 3165,
+              "validation_active": 330,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.14142789899779018,
+        "prediction_sha256": "277648f0fde55682444d119420e1467cd43e2aac41a0b8dfee341d313b93cec9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "F1",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.1873289630311987,
+            1.1872848603033541,
+            1.1868500574526089,
+            1.1830411735019348,
+            1.1661545949175893
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 3425,
+              "validation_active": 510,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 3945,
+              "validation_active": 325,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.18092787400019006,
+        "prediction_sha256": "384a14638de9c1a397dc03f5e740c54836ab05072fab3c30c28d8a673e1bfc38"
+      }
+    ],
+    "F2": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "F2",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.773718186704994,
+            1.7722064645696674,
+            1.7593644785619782,
+            1.709987721745857,
+            1.6580017755727534
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 590,
+              "validation_active": 505,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 1105,
+              "validation_active": 330,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1121761959984724,
+        "prediction_sha256": "574ae39f4bbf5dd6d6de1cac6049677f6a7e1aa32c4ed633e92ea5520278f749"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "F2",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8669715443625315,
+            0.8668513722636854,
+            0.8656739806147147,
+            0.8558501354324991,
+            0.8176582042300776
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 1615,
+              "validation_active": 520,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 2135,
+              "validation_active": 320,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.14543590300309006,
+        "prediction_sha256": "20805695f9d273c8bcfc4de447161a1e03a9745d1d8210ed52ba429d39037f12"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "F2",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.4886696249249103,
+            0.48866271077070195,
+            0.48859355547184335,
+            0.48790134258981116,
+            0.481546832448971
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 2645,
+              "validation_active": 520,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 3165,
+              "validation_active": 330,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1774163510017388,
+        "prediction_sha256": "8c8383455bb2bd6c20573d5f178139aa98459804cb3e2e66ded7a81173a0ff58"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "F2",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.2094630588585187,
+            1.2093726015970072,
+            1.208480820612466,
+            1.2006676288850122,
+            1.166183979113223
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 3425,
+              "validation_active": 510,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 3945,
+              "validation_active": 325,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.2153284000014537,
+        "prediction_sha256": "eb145a54947f860205a73d52dca87a47c3878ea6d3e72080b3e90029829585b1"
+      }
+    ],
+    "L1": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "L1",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            19.8598800070786,
+            19.923432092936967,
+            20.161567610307824,
+            20.236603372866817,
+            19.402979523705543
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.11120221199962543,
+        "prediction_sha256": "cd255ce1db1bee9ab39722e71219211e45b315c4a4e5d014e9c9cd83c014d93f"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "L1",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8572158446490697,
+            0.8572158099230501,
+            0.8572154625268283,
+            0.8572119749870027,
+            0.8571757666332277
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.16625203199873795,
+        "prediction_sha256": "f05096800900c9c1d23502d7e70f27a47bfa3c7e8e3842a4edc155eac60e6f61"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "L1",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9669136550335867,
+            0.9669136243052808,
+            0.9669133170338745,
+            0.9669102454846688,
+            0.9668796461586452
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.17463409300034982,
+        "prediction_sha256": "d17203bf472030d016fb1e1969f95137f921f02cf9569fd4f5686495486b69ed"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "L1",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0771900566124715,
+            1.077190043428734,
+            1.0771899115937733,
+            1.0771885934856427,
+            1.0771754365091786
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.21195190300204558,
+        "prediction_sha256": "bc35a1ebd0d413852d816a89a27fa835e425dbe0eb84e5a27133ac12e371148a"
+      }
+    ],
+    "L2": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "L2",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            43.64467034012655,
+            43.64057130467609,
+            43.599543753653734,
+            43.1863297302518,
+            39.15770566874579
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1962789339995652,
+        "prediction_sha256": "efeda46962e2d5cf3f553adf3c837ca8fa77cfa7c6cce982bcb43096afd72c14"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "L2",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8938027309927238,
+            0.893802535670746,
+            0.8938005713671385,
+            0.893779870721365,
+            0.8935032652632096
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.2936988050023501,
+        "prediction_sha256": "4e2858794d12998ccfeeb2203d90e60c503d46f2f11e281d643533f0846d82dc"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "L2",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 0.01,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.968715068085037,
+            0.9687151166199502,
+            0.9687156017976946,
+            0.9687204176728643,
+            0.9687569719635036
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.359952875001909,
+        "prediction_sha256": "4dd2ec0def53100518f88c73f88909505e792e60035e6839a730107b4ff09a94"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "L2",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0797974960818983,
+            1.0797973873195985,
+            1.0797963044600427,
+            1.0797859297373291,
+            1.0797124163257874
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.5328741509983956,
+        "prediction_sha256": "cc4174f5ca988e6b9e3e4d23649cf381ce803d57c3e246a9cedac98cb0cdbba2"
+      }
+    ],
+    "C1": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "C1",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            24.53791782379381,
+            24.55890637027561,
+            24.632271798343794,
+            24.577835941905267,
+            23.524351057854354
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.121333257000515,
+        "prediction_sha256": "4cb53e1326781fab9ac0a7935089c49553c82d1acd7dd8ea773c559c158e7baa"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "C1",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.856682697388479,
+            0.8566823712472226,
+            0.8566791127699259,
+            0.8566468185691269,
+            0.856350240597419
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.17740510699877632,
+        "prediction_sha256": "71cec360e4d1a2d613074b04a2f8bc9225c2a2af32d888539b35521767987fd9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "C1",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9686084435724519,
+            0.968608345731289,
+            0.9686073675192336,
+            0.9685976052823178,
+            0.9685019017645474
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.21818070899826125,
+        "prediction_sha256": "f11f4c9f261072b35dfae437bf560422c55ee1ec5ac5304839b8e82425976035"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "C1",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0780353672469087,
+            1.0780351930660792,
+            1.0780334524462696,
+            1.0780161642452861,
+            1.077854286584655
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.4892220859983354,
+        "prediction_sha256": "b27914e2403e24a8d8037dbb1fd123968242a07100221abdece9f45ea3e9f104"
+      }
+    ],
+    "C2": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "C2",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            51.749110797641585,
+            51.74380460322854,
+            51.69074536497633,
+            51.16098553082747,
+            46.217634937257095
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.29334978600309114,
+        "prediction_sha256": "a1b25b550fc1e70bb1ebfa8c39af86ef862d4d03870b78979a0c0497c249088c"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "C2",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8945779623273701,
+            0.894577419989304,
+            0.8945719880903554,
+            0.8945168669582092,
+            0.8939203026425183
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.46606652600166854,
+        "prediction_sha256": "394bec1d4cbe037d1a25ca16f74fcc06f45fc7c388597bc03d8a0598aea154e5"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "C2",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.971413224519255,
+            0.9714132185871421,
+            0.9714131592019798,
+            0.9714125395450526,
+            0.9713954608806636
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.6083654549984203,
+        "prediction_sha256": "d624e515207cc40f381ad1400bfb44a722bf3ffb441b15e35229579ee0999bd9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "C2",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0813450901984258,
+            1.0813447421687583,
+            1.081341268022626,
+            1.0813071182533758,
+            1.0810088308839703
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 1.5515068799977598,
+        "prediction_sha256": "1c7bd3596b7468cd79bdf16ccc9bf4b879919cbbb74385645ab983b0ca8276b5"
+      }
+    ],
+    "nonlinear": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "nonlinear",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "status": "FIXED_NONLINEAR"
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 4.200195549001364,
+        "prediction_sha256": "be92d3d231d1f35084c18f1bc609e669ce41752e957c7437f827c558ac15cff9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "nonlinear",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "status": "FIXED_NONLINEAR"
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 6.134352211000078,
+        "prediction_sha256": "d23c5f747845140e124629321fbf3c69f7fb016cb52bddbdd0c9a1d31ca87be5"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "nonlinear",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "status": "FIXED_NONLINEAR"
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 8.162193245996605,
+        "prediction_sha256": "8b3c32742228c9322055bb4d40c9ae355b4b78bb9eba967878200ddf3fe3de17"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "nonlinear",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "status": "FIXED_NONLINEAR"
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 9.895302942000853,
+        "prediction_sha256": "f6e71f598ca056b598d55b22ff024ccf5fe67e5156dfc8f0393b06446afa0065"
+      }
+    ],
+    "FA": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "FA",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.9319863102984325,
+            1.9297553225160364,
+            1.9117562071130298,
+            1.8424437028317342,
+            1.7233758544299305
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 570,
+              "validation_active": 505,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 1085,
+              "validation_active": 330,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.10714278900195495,
+        "prediction_sha256": "bccf62c3c923be2881e0160a477d061c6caed55cfe6cd4e73ef5c43e48e42538"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "FA",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8895018583941878,
+            0.8894613186518645,
+            0.8890651198555246,
+            0.8858043177940824,
+            0.8709795863390183
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 1595,
+              "validation_active": 520,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 2115,
+              "validation_active": 320,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1590941840004234,
+        "prediction_sha256": "9f35556695f12cbd977a7899858034de3829f1fe76ea1efa0c655dfe0944f97b"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "FA",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.4694144920865701,
+            0.46940889890729653,
+            0.4693535890116404,
+            0.4688523605487217,
+            0.46582856075534207
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 2625,
+              "validation_active": 520,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 3145,
+              "validation_active": 330,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1820756330016593,
+        "prediction_sha256": "d2e6d8e17816c483e2b73f12e31e513650588949cc8cc2ceefd477a3ef164b6b"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "FA",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 0.01,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.051414422139461,
+            1.0514167572672048,
+            1.0514401862057166,
+            1.0516787099895812,
+            1.0536233918076021
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 3405,
+              "validation_active": 510,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 3925,
+              "validation_active": 325,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.2589859030013031,
+        "prediction_sha256": "322d78b64b367f699e74127dc46012353bd179f270639a44b73f0f8624ef2eb0"
+      }
+    ],
+    "FB": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "FB",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.7450797255188033,
+            1.729367759383808,
+            1.6580948240911815,
+            1.5677755469611079,
+            1.5570786878274483
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 200,
+              "validation_active": 170,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 370,
+              "validation_active": 105,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.11972376399717177,
+        "prediction_sha256": "26cc25cd277ce6a23e9adf5b08878d871277ed2b3d5c4c3ab08b83aa0f8dbd79"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "FB",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8559021777986329,
+            0.8551350332971952,
+            0.8483428951362673,
+            0.808528035186201,
+            0.738708689082079
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 535,
+              "validation_active": 165,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 700,
+              "validation_active": 105,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.14237004700044054,
+        "prediction_sha256": "7d34b28d2834f1e46ea756a88c4dfa8c640b9962b2e2ce8b96e2feb8599b1265"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "FB",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.4460625881408822,
+            0.4458093996233082,
+            0.44396696675720115,
+            0.43817834602387395,
+            0.4233149132597382
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 865,
+              "validation_active": 170,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 1035,
+              "validation_active": 110,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.18381062400294468,
+        "prediction_sha256": "394b0622798835bf2643f00c294f145b045414c81a49babe8de3e390be0d495b"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "FB",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.1820263046121102,
+            1.181309895234636,
+            1.1748460966264473,
+            1.1315729321454078,
+            1.0205750739947252
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 1120,
+              "validation_active": 170,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 1290,
+              "validation_active": 105,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.20961939399785479,
+        "prediction_sha256": "c0b6bdfa2bfe49ed16e677e3b48f30d87986504774dbca9a8bcc68a778a77a98"
+      }
+    ],
+    "LA": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "LA",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.659572189028723,
+            2.6595126169362566,
+            2.658917449566673,
+            2.653023198448668,
+            2.6001371217965037
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 506,
+        "elapsed_seconds": 0.20471171499957563,
+        "prediction_sha256": "460dab1831a61dbb1e965fd3a048ccf10262228a50219bba40d584421fafb2c0"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "LA",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            5.590057521670219,
+            5.5891582549761125,
+            5.58017670235987,
+            5.491474702312745,
+            4.712922507325407
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.28518756099947495,
+        "prediction_sha256": "d74f019e364a9ac194ae958cc853a14875d684447f53cd55e802a85dca6ce6ee"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "LA",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 0.01,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9883728195350422,
+            0.9883728442171481,
+            0.9883730916912844,
+            0.988375609766892,
+            0.9883948270102656
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.42887471400172217,
+        "prediction_sha256": "4d16156619af47c261763d96d20b27656d47ef38fb137f463ceb060099b95516"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "LA",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0924724495228477,
+            1.0924723334210602,
+            1.0924711773033726,
+            1.0924600837524907,
+            1.092380674836604
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.752956977001304,
+        "prediction_sha256": "e7fe0005da1cc4f5ef1676532f7a84d9b0d90bb33f41a0b13ace4f55ac69ee02"
+      }
+    ],
+    "LB": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "LB",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            45.654597423276954,
+            45.66097449389015,
+            45.717271006762964,
+            45.8368753696732,
+            42.176378868281326
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7132,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.1978768549997767,
+        "prediction_sha256": "eb998d544fb09e7df9f008eeaeae5e551b39756e0338e1f5c7790dbb9420a3cb"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "LB",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 0.01,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8894914823483565,
+            0.889491989356219,
+            0.8894976739132031,
+            0.8895771968323665,
+            0.8896352143051629
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49520,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 60850,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.2914619319999474,
+        "prediction_sha256": "151e60e283b6c4ef889310881d050ece2339153dd52fb2dee4bac3d4f91c1969"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "LB",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9658574544598775,
+            0.9658558689904877,
+            0.9658404815690681,
+            0.9657208364753044,
+            0.9653302326046889
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72150,
+              "validation_active": 11250,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83400,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.36434733500209404,
+        "prediction_sha256": "4d7e504a798d0b3c2ace31bfd020f2962fe0ae77dd0aa7c75b4742cc8b578e4e"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "LB",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0799635558545795,
+            1.0799635098261302,
+            1.0799630729812106,
+            1.0799602767036012,
+            1.0799480811348818
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89120,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100570,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.42783018499903847,
+        "prediction_sha256": "5bf3d09f583153cff5622a052a0fde78f962ac6c7c9fabd627baca9f570ecfbb"
+      }
+    ],
+    "CA": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "CA",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.649379588461282,
+            2.649317129078708,
+            2.648693091405491,
+            2.642510524159621,
+            2.586866967840084
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7242,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 570,
+        "elapsed_seconds": 0.3036908690010023,
+        "prediction_sha256": "f8007f4c2b64b743f35b21ae191c208fab4c59879da2ec5d9c9f03dcdcf128a5"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "CA",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            5.674689134845799,
+            5.673780070149391,
+            5.664699574931162,
+            5.574922788887664,
+            4.782822107462843
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49630,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 61070,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.4547829850016569,
+        "prediction_sha256": "99ad0c0fc8d5d946dbc2d8c143d87fb5d05693057cb2c885c1f4a03e8a54d0a9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "CA",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 0.01,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9868548346818967,
+            0.9868548547659224,
+            0.9868550560755651,
+            0.9868570949062553,
+            0.9868703379571758
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72370,
+              "validation_active": 11360,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83730,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.6421159820019966,
+        "prediction_sha256": "b7d4439ae196abdb14cea91cff5733261dc05b4a7158da8e14b140bfe382d161"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "CA",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0862805690917874,
+            1.086280463205118,
+            1.0862794091709727,
+            1.0862693298275343,
+            1.0861995245059728
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89450,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100900,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 1.0234103350012447,
+        "prediction_sha256": "73d0c51e4253b5bf221349bb7da4cc0966d3929effc31b1b8316b69fa401e94f"
+      }
+    ],
+    "CB": [
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 1,
+        "key": "CB",
+        "cutoff_year": 2009,
+        "train_cells": 49630,
+        "test_cells": 22740,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            46.88200486974853,
+            46.88790330615828,
+            46.939563845530614,
+            47.023888469494665,
+            43.24794616172222
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 26301,
+              "validation_active": 11717,
+              "train_max_origin": "2005-04-05",
+              "validation_min_origin": "2006-01-03"
+            },
+            {
+              "train_active": 38251,
+              "validation_active": 7137,
+              "train_max_origin": "2007-04-10",
+              "validation_min_origin": "2008-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2009-04-07",
+        "train_max_target_end": "2009-12-28",
+        "test_min_origin": "2010-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.2997835470014252,
+        "prediction_sha256": "5ce47df8c65886f0c3d371117becad473cbdec83f6ac27b201f991dd50cccb4b"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 2,
+        "key": "CB",
+        "cutoff_year": 2013,
+        "train_cells": 72370,
+        "test_cells": 22700,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8906704933368509,
+            0.8906682725205067,
+            0.8906472263457651,
+            0.8905043409734096,
+            0.8897480857546168
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 49525,
+              "validation_active": 11440,
+              "train_max_origin": "2009-04-07",
+              "validation_min_origin": "2010-01-05"
+            },
+            {
+              "train_active": 60860,
+              "validation_active": 7120,
+              "train_max_origin": "2011-04-05",
+              "validation_min_origin": "2012-01-03"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2013-04-09",
+        "train_max_target_end": "2013-12-30",
+        "test_min_origin": "2014-01-07",
+        "cap_count": 0,
+        "elapsed_seconds": 0.48118402600084664,
+        "prediction_sha256": "d6f5d50a8697c80a3e835c3f622c490d8186a1bb8813c3a614d0a454229883b9"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 3,
+        "key": "CB",
+        "cutoff_year": 2017,
+        "train_cells": 95170,
+        "test_cells": 17070,
+        "alpha": 10.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9677585497981472,
+            0.9677583928705555,
+            0.96775704686455,
+            0.9677570430584123,
+            0.9678025499932676
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 72160,
+              "validation_active": 11255,
+              "train_max_origin": "2013-04-09",
+              "validation_min_origin": "2014-01-07"
+            },
+            {
+              "train_active": 83415,
+              "validation_active": 7260,
+              "train_max_origin": "2015-04-07",
+              "validation_min_origin": "2016-01-05"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2017-04-04",
+        "train_max_target_end": "2017-12-26",
+        "test_min_origin": "2018-01-02",
+        "cap_count": 0,
+        "elapsed_seconds": 0.6563496419985313,
+        "prediction_sha256": "5099c07159f2ae80cf8d9e413f039d69e36315670233766650d792b42e15b711"
+      },
+      {
+        "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+        "pre_result_sha": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+        "fold": 4,
+        "key": "CB",
+        "cutoff_year": 2020,
+        "train_cells": 112140,
+        "test_cells": 19674,
+        "alpha": 100.0,
+        "inner_cv": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0826720128274954,
+            1.0826718393366013,
+            1.0826701253690734,
+            1.0826543482554638,
+            1.082508293627576
+          ],
+          "inner_folds": 2,
+          "splits": [
+            {
+              "train_active": 89135,
+              "validation_active": 11240,
+              "train_max_origin": "2016-04-05",
+              "validation_min_origin": "2017-01-03"
+            },
+            {
+              "train_active": 100585,
+              "validation_active": 7270,
+              "train_max_origin": "2018-04-10",
+              "validation_min_origin": "2019-01-01"
+            }
+          ]
+        },
+        "fit_intercept": false,
+        "train_scaling": "StandardScaler with_mean=False fitted only on active training",
+        "train_max_origin": "2020-04-07",
+        "train_max_target_end": "2020-12-28",
+        "test_min_origin": "2021-01-05",
+        "cap_count": 0,
+        "elapsed_seconds": 0.7574359600002936,
+        "prediction_sha256": "ff32525bcee67626d7e2c7667b4321620f2e9ab18d53f30e25071da91174aee1"
+      }
+    ]
+  }
+}

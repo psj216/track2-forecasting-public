@@ -1,0 +1,680 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "fit_controls": {
+    "FA": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.5176074079474545,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.0207501866892237,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.0378565318331964,
+        "delta_mse": 0.8612075913701672,
+        "delta_r2": -0.1263653489601484,
+        "pearson": -0.002026027797622687,
+        "spearman": 0.04669419262582674,
+        "sign_accuracy": 0.5863372093023256,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.18924761920559774,
+        "calibration_intercept": 0.2106737152152641,
+        "calibration_slope": -0.006161680557012345
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5876615067081701,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0007500194986125,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.037856531833194616,
+        "delta_mse": 1.0437260322493809,
+        "delta_r2": -0.006048124161394108,
+        "pearson": 0.009014281478637774,
+        "spearman": 0.026701109712320013,
+        "sign_accuracy": 0.024542490022388785,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.007921393581077293,
+        "calibration_intercept": 0.06325946212563059,
+        "calibration_slope": 0.14831210144267584
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.1048489750199497,
+        0.9544689673638191,
+        0.9573395895213493,
+        1.083935133604904
+      ]
+    },
+    "FB": {
+      "active": {
+        "cells": 3440,
+        "normalized_crps": 0.5147258556351676,
+        "baseline_normalized_crps": 0.50708529344119,
+        "ratio": 1.0150676075461134,
+        "perfect_location_ratio": 0.45187301412994635,
+        "oracle_capture_fraction": -0.027489264229886845,
+        "delta_mse": 0.8393766311421741,
+        "delta_r2": -0.09781284038760218,
+        "pearson": -0.021659695200862295,
+        "spearman": -0.04446862806556494,
+        "sign_accuracy": 0.1813953488372093,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0863362351062575,
+        "calibration_intercept": 0.21475102574836655,
+        "calibration_slope": -0.09294252899347553
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5875408927206024,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0005446215798577,
+        "perfect_location_ratio": 0.9801878444143456,
+        "oracle_capture_fraction": -0.027489264229886953,
+        "delta_mse": 1.042812247288996,
+        "delta_r2": -0.005167326311309894,
+        "pearson": 0.0033433845527469446,
+        "spearman": 0.005703466795336179,
+        "sign_accuracy": 0.007592718777377592,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0036138013331734374,
+        "calibration_intercept": 0.0636905775444784,
+        "calibration_slope": 0.07940215191027448
+      },
+      "active_cells": 3440,
+      "full_cells": 82184,
+      "coverage_fraction": 0.04185729582400467,
+      "active_only_oracle_on_full": 0.9801878444143456,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 3440,
+        "active_origins": 688,
+        "unique_reports": 160,
+        "unique_report_weeks": 160,
+        "unique_release_dates": 160,
+        "unique_years": 14,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 160
+      },
+      "fold_active_ratios": [
+        1.008440383738319,
+        0.9895289598399741,
+        1.0305265378300512,
+        1.0494304136745838
+      ]
+    },
+    "LA": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 1.0104622121734093,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7207526220316445,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2215800884727588,
+        "delta_mse": 4.235463214852896,
+        "delta_r2": -3.082565434412035,
+        "pearson": -0.012566104665706299,
+        "spearman": -0.024740583357523202,
+        "sign_accuracy": 0.4800082741166164,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5012934846585801,
+        "calibration_intercept": 0.060596223646895195,
+        "calibration_slope": -0.007508051344930813
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 1.0104622121734093,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7207526220316445,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2215800884727588,
+        "delta_mse": 4.235463214852896,
+        "delta_r2": -3.082565434412035,
+        "pearson": -0.012566104665706299,
+        "spearman": -0.024740583357523202,
+        "sign_accuracy": 0.4800082741166164,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5012934846585801,
+        "calibration_intercept": 0.060596223646895195,
+        "calibration_slope": -0.007508051344930813
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 506,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        3.9271649246336087,
+        1.0070450293122672,
+        1.00805360476721,
+        1.003804437798977
+      ]
+    },
+    "LB": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5911161648717617,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0066330817463702,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.011242193699882554,
+        "delta_mse": 1.0498598337372662,
+        "delta_r2": -0.011960498951516074,
+        "pearson": 0.054153317914711216,
+        "spearman": 0.07217299398461742,
+        "sign_accuracy": 0.5252360556799377,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14433840174308343,
+        "calibration_intercept": 0.02010843615445844,
+        "calibration_slope": 0.34143014013584344
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5911161648717617,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0066330817463702,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.011242193699882554,
+        "delta_mse": 1.0498598337372662,
+        "delta_r2": -0.011960498951516074,
+        "pearson": 0.054153317914711216,
+        "spearman": 0.07217299398461742,
+        "sign_accuracy": 0.5252360556799377,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14433840174308343,
+        "calibration_intercept": 0.02010843615445844,
+        "calibration_slope": 0.34143014013584344
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 778,
+        "unique_report_weeks": 778,
+        "unique_release_dates": 778,
+        "unique_years": 15,
+        "source_instruments": 1,
+        "category_count": 1,
+        "connected_bootstrap_blocks": 778
+      },
+      "fold_active_ratios": [
+        1.0448241282560413,
+        0.9946984653036498,
+        1.004737941704965,
+        0.9842652850444419
+      ]
+    },
+    "CA": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 1.0127904333232898,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7247174339761795,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2282999187972474,
+        "delta_mse": 4.273104060916136,
+        "delta_r2": -3.118847467631192,
+        "pearson": -0.012216075424580902,
+        "spearman": -0.01597630650658875,
+        "sign_accuracy": 0.4850092475421007,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5110763029762907,
+        "calibration_intercept": 0.060688102098078664,
+        "calibration_slope": -0.007254056970054919
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 1.0127904333232898,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.7247174339761795,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -1.2282999187972474,
+        "delta_mse": 4.273104060916136,
+        "delta_r2": -3.118847467631192,
+        "pearson": -0.012216075424580902,
+        "spearman": -0.01597630650658875,
+        "sign_accuracy": 0.4850092475421007,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.5110763029762907,
+        "calibration_intercept": 0.060688102098078664,
+        "calibration_slope": -0.007254056970054919
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 570,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        3.94329295992204,
+        1.0060098259954569,
+        1.0052300523277056,
+        1.0076340920624018
+      ]
+    },
+    "CB": {
+      "active": {
+        "cells": 82184,
+        "normalized_crps": 0.5921990904821804,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0084772349083033,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.014367788687468514,
+        "delta_mse": 1.0536616246316888,
+        "delta_r2": -0.015625047386266466,
+        "pearson": 0.04940814844301077,
+        "spearman": 0.0707372629857134,
+        "sign_accuracy": 0.5244208118368539,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14621052093108017,
+        "calibration_intercept": 0.02649766104564162,
+        "calibration_slope": 0.2932755632346803
+      },
+      "full": {
+        "cells": 82184,
+        "normalized_crps": 0.5921990904821804,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0084772349083033,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.014367788687468514,
+        "delta_mse": 1.0536616246316888,
+        "delta_r2": -0.015625047386266466,
+        "pearson": 0.04940814844301077,
+        "spearman": 0.0707372629857134,
+        "sign_accuracy": 0.5244208118368539,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.14621052093108017,
+        "calibration_intercept": 0.02649766104564162,
+        "calibration_slope": 0.2932755632346803
+      },
+      "active_cells": 82184,
+      "full_cells": 82184,
+      "coverage_fraction": 1.0,
+      "active_only_oracle_on_full": 0.4099833250124908,
+      "global_perfect_location_ratio": 0.4099833250124908,
+      "cap_hits": 0,
+      "effective_sample_size": {
+        "active_cells": 82184,
+        "active_origins": 780,
+        "unique_reports": 938,
+        "unique_report_weeks": 779,
+        "unique_release_dates": 918,
+        "unique_years": 15,
+        "source_instruments": 2,
+        "category_count": 2,
+        "connected_bootstrap_blocks": 246
+      },
+      "fold_active_ratios": [
+        1.0463098815264549,
+        0.9957021331675907,
+        1.0077362694892842,
+        0.986379639830579
+      ]
+    }
+  },
+  "paired_comparisons": {
+    "F1": {
+      "FA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 160,
+          "ratio_95_interval": [
+            0.9422225727067284,
+            1.0210297105389428
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.997766633947025,
+            1.0009557542157963
+          ]
+        },
+        "clear": false
+      },
+      "FB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 160,
+          "ratio_95_interval": [
+            0.9720633460081408,
+            1.0088222369237774
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9985677626471893,
+            1.0005450673490834
+          ]
+        },
+        "clear": false
+      }
+    },
+    "F2": {
+      "FA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 160,
+          "ratio_95_interval": [
+            0.9682153771433645,
+            1.0518862507198767
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9984093075417775,
+            1.0022732429055958
+          ]
+        },
+        "clear": false
+      },
+      "FB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 160,
+          "ratio_95_interval": [
+            0.9939701665040059,
+            1.0423265690506687
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9990276688337211,
+            1.0020110027120825
+          ]
+        },
+        "clear": false
+      }
+    },
+    "L1": {
+      "LA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 778,
+          "ratio_95_interval": [
+            0.519151944154868,
+            0.6566172588861986
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.3859829116786211,
+            0.9383929944436282
+          ]
+        },
+        "clear": true
+      },
+      "LB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 778,
+          "ratio_95_interval": [
+            0.9899280997039152,
+            0.9939313231787835
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9816445066254621,
+            0.9996982158405063
+          ]
+        },
+        "clear": true
+      }
+    },
+    "L2": {
+      "LA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 778,
+          "ratio_95_interval": [
+            0.5238478097876309,
+            0.6610476356039703
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.39258601003000276,
+            0.9394867686850058
+          ]
+        },
+        "clear": true
+      },
+      "LB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 778,
+          "ratio_95_interval": [
+            0.9994410502173544,
+            1.0004763685798224
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9990423447000552,
+            1.0010628521239198
+          ]
+        },
+        "clear": false
+      }
+    },
+    "C1": {
+      "CA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.49398127355378835,
+            0.688887687262434
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.3851695210914109,
+            0.9388163070955232
+          ]
+        },
+        "clear": true
+      },
+      "CB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.9878888803498531,
+            0.9946941378811346
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9813706768160868,
+            0.998868632903328
+          ]
+        },
+        "clear": true
+      }
+    },
+    "C2": {
+      "CA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.49927902913178845,
+            0.6942847376524627
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.3924255416223276,
+            0.941493838978643
+          ]
+        },
+        "clear": true
+      },
+      "CB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.9997935816655735,
+            1.0026020460188816
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9988637654775362,
+            1.0033655707825528
+          ]
+        },
+        "clear": false
+      }
+    },
+    "nonlinear": {
+      "CA": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.49364468652123145,
+            0.6866346081037465
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.38426451761777736,
+            0.9379900063716298
+          ]
+        },
+        "clear": true
+      },
+      "CB": {
+        "report_paired": {
+          "replicates": 2000,
+          "blocks": 246,
+          "ratio_95_interval": [
+            0.9850846708237545,
+            0.9946204553494361
+          ],
+          "seed": 1903
+        },
+        "year_paired": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9779052867490389,
+            0.9996794991489151
+          ]
+        },
+        "clear": true
+      }
+    }
+  },
+  "guards": {
+    "E_publication": "PASS",
+    "F_future_report": "PASS",
+    "G_future_OI": "PASS",
+    "H_original_revision": "PASS",
+    "I_geometry": "PASS"
+  },
+  "C_instrument_rotation": "NOT_IDENTIFIABLE: one directly mapped flow instrument, one globally exposed macro liquidity instrument; no genuine P direct instruments",
+  "D_category_rotation": "NOT_IDENTIFIABLE: no admitted P categories and one aggregate category per admitted source",
+  "C_D_affect_success": "Source-applicable A/B plus paired year/report intervals define clear controls; no informative C/D permutation is asserted. This limits interpretation.",
+  "control_masks": "Each control compared on the paired primary mask of its own F/L/C class; B older source may expire, retaining exact baseline on inactive rows"
+}

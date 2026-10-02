@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "status": "NOT_EVALUATED_SOURCE_GATE_FAIL",
+  "models": {
+    "P1": "NOT_EVALUATED",
+    "P2": "NOT_EVALUATED",
+    "P3": "NOT_EVALUATED",
+    "P4": "NOT_EVALUATED"
+  },
+  "reason": "Original CFTC value and actual historical publication timing not fully verified; NY Fed current-vintage history is revised",
+  "level_change": "NOT_EVALUATED",
+  "individual_categories": "NOT_EVALUATED",
+  "crowding_quintiles": "NOT_EVALUATED"
+}

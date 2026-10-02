@@ -1,0 +1,188 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "method": "2000 paired calendar-year blocks; active-only oracle on fixed full ledger",
+  "models": {
+    "P0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "F1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9985127717570046,
+        1.0015665446711453
+      ],
+      "capture_95_interval": [
+        -0.07889795069678796,
+        0.07716638294728424
+      ]
+    },
+    "F2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9988793853870813,
+        1.0031255027826385
+      ],
+      "capture_95_interval": [
+        -0.15476755887663804,
+        0.05600337199089348
+      ]
+    },
+    "L1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9919013996755929,
+        1.0060854155672319
+      ],
+      "capture_95_interval": [
+        -0.010624696059336948,
+        0.013684845257085762
+      ]
+    },
+    "L2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9938030396892613,
+        1.0217392458332477
+      ],
+      "capture_95_interval": [
+        -0.03874544446110143,
+        0.010094093787111937
+      ]
+    },
+    "C1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9929780360635632,
+        1.0071816982780912
+      ],
+      "capture_95_interval": [
+        -0.012443564071398324,
+        0.011940762794833679
+      ]
+    },
+    "C2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9964344414715951,
+        1.0250755832490737
+      ],
+      "capture_95_interval": [
+        -0.04450552862254121,
+        0.005848057201596735
+      ]
+    },
+    "nonlinear": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9903643606675743,
+        1.0068131370479305
+      ],
+      "capture_95_interval": [
+        -0.011831969740506805,
+        0.01617746064305422
+      ]
+    },
+    "FA": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.999015512230915,
+        1.0025250748708816
+      ],
+      "capture_95_interval": [
+        -0.12806872835448857,
+        0.050526408235780834
+      ]
+    },
+    "FB": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9998533255760053,
+        1.001140309031595
+      ],
+      "capture_95_interval": [
+        -0.057282150710238136,
+        0.0074800405103465865
+      ]
+    },
+    "LA": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.064877277072044,
+        2.5816688976566255
+      ],
+      "capture_95_interval": [
+        -2.7946680312105476,
+        -0.10842209859847059
+      ]
+    },
+    "LB": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9941969121635804,
+        1.0213318314663784
+      ],
+      "capture_95_interval": [
+        -0.03770979417377737,
+        0.00945659229932702
+      ]
+    },
+    "CA": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0651259659808587,
+        2.5926003730164466
+      ],
+      "capture_95_interval": [
+        -2.8094651984823082,
+        -0.10876821836553384
+      ]
+    },
+    "CB": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9961714044034882,
+        1.02302793018522
+      ],
+      "capture_95_interval": [
+        -0.040554704544350215,
+        0.006223769054763264
+      ]
+    }
+  }
+}
