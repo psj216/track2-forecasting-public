@@ -1,0 +1,115 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "parent_sha": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+  "reports": [
+    {
+      "research": "CEILING-01-FORECAST-HEADROOM-report.md",
+      "path": "CEILING-01-FORECAST-HEADROOM-report.md",
+      "sha256": "d098030c63cd78de5219fbf72481274f3aa5b120bbd1993949bef5abdbca0b2e",
+      "bytes": 15271,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "CONTEXT-01-CARD-SEMANTIC-LOCATION-report.md",
+      "path": "CONTEXT-01-CARD-SEMANTIC-LOCATION-report.md",
+      "sha256": "36c9da5f30c21cbbe88a8494c968fdb5f51977292c3d1bd3a81343430d3c7dda",
+      "bytes": 9121,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "EXPECTATION-01-TRUE-MARKET-EXPECTATION-report.md",
+      "path": "EXPECTATION-01-TRUE-MARKET-EXPECTATION-report.md",
+      "sha256": "6ef16084dfdc03074728710be7157b42c544793bb842739f05276305200c1e61",
+      "bytes": 15544,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "LOCATION-01-PREDICTABLE-ORACLE-SHIFT-report.md",
+      "path": "LOCATION-01-PREDICTABLE-ORACLE-SHIFT-report.md",
+      "sha256": "86d0d107015c866efe6d8963e2b7f222761a4b6a80f9857630f404b280f0123a",
+      "bytes": 12643,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "LOCATION-01R-TRANSFER-GUARD-RECOVERY-report.md",
+      "path": "LOCATION-01R-TRANSFER-GUARD-RECOVERY-report.md",
+      "sha256": "2df460ae0a92f24ebaf1e6f0ffc273b40104434ac8e16727a3645cfd5ac7de5b",
+      "bytes": 13340,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "ORIGIN-01-SHOCK-PROPAGATION-ALPHA-report.md",
+      "path": "ORIGIN-01-SHOCK-PROPAGATION-ALPHA-report.md",
+      "sha256": "546e9d478e5349857745156125e2870bcaf1246b0fafaa52285897dd0b899ff2",
+      "bytes": 5444,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "POSITIONING-01-PUBLIC-POSITIONING-FLOW-LIQUIDITY-report.md",
+      "path": "POSITIONING-01-PUBLIC-POSITIONING-FLOW-LIQUIDITY-report.md",
+      "sha256": "7ad5296adb5e7920e389235e46a32fb00e6b3f151a9dea66fa13c5eba06b14e8",
+      "bytes": 26950,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "SURPRISE-01-EXTERNAL-INFORMATION-ALPHA-report.md",
+      "path": "SURPRISE-01-EXTERNAL-INFORMATION-ALPHA-report.md",
+      "sha256": "22499af265fd6d4c6e0b51516be9a3f4b0534fc7cb63c5d34d51e654d90c39a3",
+      "bytes": 13471,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "TEXT-ROUTE-AUDIT-02-report.md",
+      "path": "TEXT-ROUTE-AUDIT-02-report.md",
+      "sha256": "ce59509c14c7722e80362c0947bead349b958dd6055e9c458bbaf4d08ba8e5ae",
+      "bytes": 14921,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "THESIS-01-CROSS-MARKET-IMPLIED-VALUE-report.md",
+      "path": "THESIS-01-CROSS-MARKET-IMPLIED-VALUE-report.md",
+      "sha256": "d45cb2b8fc814fa49320c4a4ef6395eed91b94e038205badd9bdfa3840143ed2",
+      "bytes": 9336,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "V12-JOINT-NATIVE-report.md",
+      "path": "V12-JOINT-NATIVE-report.md",
+      "sha256": "aa793a229f0c0da97c7d2f41a31b89386699eeef00b20315c7e0ebf7a1ea334a",
+      "bytes": 13165,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "V13-COPULA-report.md",
+      "path": "V13-COPULA-report.md",
+      "sha256": "4912ca7cecb3eef6ee2021f9011d4e43ca499d9eacc64741c4cfaae48cb9abd1",
+      "bytes": 9779,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    },
+    {
+      "research": "V13-RECONSTRUCTION-report.md",
+      "path": "V13-RECONSTRUCTION-report.md",
+      "sha256": "fc364917980db182ef59733d0ad36ad1814120447d43d072aaeeb7d8bcc53a5e",
+      "bytes": 4656,
+      "evidence": "Read original report and source/final-decision artifacts; complete originals preserved in parent Git."
+    }
+  ],
+  "discrepancies": [
+    {
+      "issue": "Prompt omits two already completed genuine-information studies",
+      "resolution": "EXPECTATION01 SPFs/firstGDP and POSITIONING01 TICFormS/H41 reserved as already tested; CFTC and NYFed dealer current histories were source-gate failures, not predictive failures."
+    },
+    {
+      "issue": "LOCATION01 report incomplete transfer vs LOCATION01R complete",
+      "resolution": "LOCATION01 continuous results stay failed; LOCATION01R supersedes incomplete transfer and remains exposed mixed diagnostic, not new alpha."
+    },
+    {
+      "issue": "Fork README adapter/BYO rules obsolete",
+      "resolution": "Organizer current ARTIFACT-POLICY rev2026-09-21.1 controls; onlyapi category, non-neural fitted artifact conditionalpermission."
+    },
+    {
+      "issue": "Different horizon/asset scopes",
+      "resolution": "Public cards have actual7/64/65/127/128/129/...BD horizons and monthlymacroassets; continuous25assetledger has5/21/63/126/189BD. Never relabel public horizons or invent commodity targets."
+    }
+  ]
+}

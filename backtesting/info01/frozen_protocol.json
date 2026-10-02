@@ -1,0 +1,22 @@
+{
+  "executive_summary": "Freeze information-source audit gates before any source ranking; never evaluate forecasts.",
+  "parent_sha": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+  "branch": "track2/info-01-new-information-audit",
+  "research_numeric_sample_cutoff": "2024-12-18",
+  "new_forecast_fits": 0,
+  "new_forecast_scores": 0,
+  "protected_parent_models": "V5.1/R2/T0Ridge, all historical model code/tests and results",
+  "pre_outcome_rule": "Original publication availability, not measurement/survey response date; date-only sources get23:59:59local upperbound and compare to preceding weekday16:00America/New_York; no guessed holiday releases.",
+  "PIT": "A=exact historical field vintage plus actual release proof; B=original released field/date reconstructible with correction audit; C=minor documented revisions/current history diagnostic only; D=unreconstructible reject",
+  "history_gate": "At least8years accepted coverage and overlap>=3of2010-13,2014-17,2018-20,2021-24; sample-based feasibility remains conditional on full manifest acquisition",
+  "novelty_gate": "HIGH/MEDIUM, not same tested features/source; source gate failures are not predictive failures",
+  "quality_score": "Ten specified integer0–2criteria, total0–20; minimum14forprimary; criterion10=implementationease2easy/1moderate/0difficult",
+  "ranking": "Descending data-quality score; ties use preferred source family then stable source ID. No future outcomes or T0Ridge result used in ranking.",
+  "maximum_shortlist": 3,
+  "selected_primary": "Exactly first eligible fixed ranking candidate, or NONE if none passes; no forced selection",
+  "submission_gate": "Always false for INFO01; future source-specific legal/data and per-task cutoff approval required",
+  "small_probe": "At most3historical snapshots per serious source, plus documentation/indexes; no full raw panel or target labels; ordinary authentic public access only",
+  "raw_preservation": "Hash original bytes only after actual download; web extracted inspections are explicitly a different representation and never claimed original byte hashes; private copies only where permitted",
+  "independence": "No target access or scoring; reused2001–2024ledger and24cards exposed;2025incident means not clean; unidentified sealed data never accessed",
+  "LOCATION02": "Only a frozen draft, no execution or training"
+}

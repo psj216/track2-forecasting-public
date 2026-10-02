@@ -1,0 +1,40 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "branch": "track2/info-01-new-information-audit",
+  "HEAD_SHA": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+  "current_stage": "STOP_AFFECTED_TEST_DISPATCH_FAILED_TWICE",
+  "completed_stages": [
+    "environment",
+    "parent_ledger",
+    "rules_audit",
+    "framework_implementation",
+    "research_tests"
+  ],
+  "pending_stages": [
+    "affected_tests",
+    "PRE_RESULT_remote",
+    "source_research",
+    "small_probes",
+    "selection",
+    "draft_report",
+    "full_tests",
+    "RESULT_remote",
+    "private_recovery"
+  ],
+  "last_successful_artifact": "/workspace/scratch/935b41f252e9/info01-repo/backtesting/info01/results/competition_data_constraints.md",
+  "last_update_time": 1790958557.8852224,
+  "completed": false,
+  "failed_stage": "directly_affected_tests",
+  "failure_count": 2,
+  "error": "Two explicitly named test files do not exist; no affected tests were executed.",
+  "failed_commands": [
+    "pytest -q tests/test_text_route_audit02.py tests/test_context01.py -o addopts=",
+    "pytest -q tests/test_text_route_audit02.py tests/test_context01_contracts.py -o addopts="
+  ],
+  "resume_command": "timeout 120 env OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 /workspace/scratch/935b41f252e9/info01-py -m pytest -q tests/test_text_route_audit02.py tests/test_context01_*.py -o addopts=",
+  "research_tests_passed": 45,
+  "no_source_conclusions": true,
+  "no_new_forecast_fit_or_score": true,
+  "PRE_RESULT_INFO01_SHA": null,
+  "next_stage_after_correct_dispatch": "Freeze PRE_RESULT_INFO01, publish/verify, then official source discovery and small probes"
+}
