@@ -1,0 +1,335 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "models": {
+    "S0_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "T0_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0150705825908026,
+        "arithmetic": 1.0165115361271866,
+        "routed_R2": 1,
+        "application_fraction": 0.07692307692307693,
+        "marginal": 1.0080495790726918,
+        "joint": null,
+        "tail": 1.0304366646475245
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "ST0_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0174095200107558,
+        "arithmetic": 1.0190069513662687,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.020205737862475,
+        "joint": 1.02318068732482,
+        "tail": 1.0
+      }
+    },
+    "STF0_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0174095200107558,
+        "arithmetic": 1.0190069513662687,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.020205737862475,
+        "joint": 1.02318068732482,
+        "tail": 1.0
+      }
+    },
+    "LENGTH_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "ST_NO_FAMILY_LOG": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "S0_RIDGE": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9884776860722364,
+        "arithmetic": 0.9926310770089403,
+        "routed_R2": 9,
+        "application_fraction": 0.6923076923076923,
+        "marginal": 0.9694306255014609,
+        "joint": null,
+        "tail": 1.0304366646475245
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "T0_RIDGE": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9229883065680138,
+        "arithmetic": 0.9375220732418631,
+        "routed_R2": 9,
+        "application_fraction": 0.6923076923076923,
+        "marginal": 0.9208633831103656,
+        "joint": null,
+        "tail": 0.9163914439191505
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "ST0_RIDGE": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9368982780724922,
+        "arithmetic": 0.9540336093690497,
+        "routed_R2": 8,
+        "application_fraction": 0.6153846153846154,
+        "marginal": 0.9282759457278589,
+        "joint": null,
+        "tail": 0.9442833429835784
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 3,
+        "application_fraction": 0.2727272727272727,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "MAJORITY": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "B0": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "R2": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9439920193623393,
+        "arithmetic": 0.9618293619337379,
+        "routed_R2": 13,
+        "application_fraction": 1.0,
+        "marginal": 0.9373098004676687,
+        "joint": null,
+        "tail": 0.9460601334340788
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0245916903052874,
+        "arithmetic": 1.0279521234170934,
+        "routed_R2": 11,
+        "application_fraction": 1.0,
+        "marginal": 1.0327782689761487,
+        "joint": 1.0245878219836162,
+        "tail": 0.9962391407844522
+      }
+    },
+    "STRUCTURAL_EXPOSED": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9439920193623393,
+        "arithmetic": 0.9618293619337379,
+        "routed_R2": 13,
+        "application_fraction": 1.0,
+        "marginal": 0.9373098004676687,
+        "joint": null,
+        "tail": 0.9460601334340788
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      }
+    },
+    "ORACLE_2WAY": {
+      "single": {
+        "cards": 13,
+        "composite": 0.9229883065680138,
+        "arithmetic": 0.9375220732418631,
+        "routed_R2": 3,
+        "application_fraction": 0.23076923076923078,
+        "marginal": 0.9208633831103656,
+        "joint": null,
+        "tail": 0.9163914439191505
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 0.9910129108089151,
+        "arithmetic": 0.991376621870248,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 0.9837961187232649,
+        "joint": 0.998831271389191,
+        "tail": 0.9962391407844522
+      }
+    },
+    "RANDOM_MATCHED": {
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 0.9913329702131957,
+        "arithmetic": 0.991698958810409,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 0.9862649273469976,
+        "joint": 0.9935057615713608,
+        "tail": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "RESULT": "NO",
+  "PRIMARY_MODEL": "ST0_LOG",
+  "ROUTING_HEADROOM": "REAL",
+  "TEXT_ROUTING_SIGNAL": "NO",
+  "TEXT_INCREMENTAL_BEYOND_STRUCTURE": false,
+  "CONTROLS_CLEAR": false,
+  "MULTI_F1_SEVERE_FAILURE": true,
+  "NEXT_RESEARCH_AXIS": "NEW_INFORMATION_REQUIRED",
+  "READY_FOR_ONE_SHOT": "NO",
+  "best_precommitted_model_descriptive_only": "T0_RIDGE",
+  "secondary_winner_cannot_rescue_primary": true,
+  "oracle_composite": 0.9535664428174102,
+  "oracle_headroom": 0.04643355718258979,
+  "oracle_strict_winners": 5,
+  "oracle_maximum_loggain_share": 0.6105359896315605,
+  "primary_composite": 1.007942072936086,
+  "primary_capture": -0.17104166507975022,
+  "evidence": "24previously exposed cards; no independent OOS or officialvalidation"
+}

@@ -1,0 +1,86 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "cards": 24,
+  "composite": 0.9535664428174102,
+  "arithmetic": 0.9622054080298726,
+  "routed_R2": 5,
+  "application_fraction": 0.20833333333333334,
+  "marginal": 0.9491916490388045,
+  "joint": 0.998831271389191,
+  "tail": 0.9521613290913505,
+  "single": {
+    "cards": 13,
+    "composite": 0.9229883065680138,
+    "arithmetic": 0.9375220732418631,
+    "routed_R2": 3,
+    "application_fraction": 0.23076923076923078,
+    "marginal": 0.9208633831103656,
+    "joint": null,
+    "tail": 0.9163914439191505
+  },
+  "multi": {
+    "cards": 11,
+    "composite": 0.9910129108089151,
+    "arithmetic": 0.991376621870248,
+    "routed_R2": 2,
+    "application_fraction": 0.18181818181818182,
+    "marginal": 0.9837961187232649,
+    "joint": 0.998831271389191,
+    "tail": 0.9962391407844522
+  },
+  "family": {
+    "T2-F1": {
+      "cards": 6,
+      "composite": 1.0,
+      "arithmetic": 1.0,
+      "routed_R2": 0,
+      "application_fraction": 0.0,
+      "marginal": 1.0,
+      "joint": 1.0,
+      "tail": 1.0
+    },
+    "T2-F2": {
+      "cards": 6,
+      "composite": 0.9441036884567247,
+      "arithmetic": 0.9482590052437995,
+      "routed_R2": 2,
+      "application_fraction": 0.3333333333333333,
+      "marginal": 0.9188447951402944,
+      "joint": null,
+      "tail": 0.9999999999999999
+    },
+    "T2-F3": {
+      "cards": 6,
+      "composite": 0.9835853983056637,
+      "arithmetic": 0.984190473428788,
+      "routed_R2": 2,
+      "application_fraction": 0.3333333333333333,
+      "marginal": 0.9704936368156875,
+      "joint": 0.9978583743640815,
+      "tail": 0.9931158981899322
+    },
+    "T2-F4": {
+      "cards": 6,
+      "composite": 0.8903731808192162,
+      "arithmetic": 0.9163721534469039,
+      "routed_R2": 1,
+      "application_fraction": 0.16666666666666666,
+      "marginal": 0.9102921190658093,
+      "joint": null,
+      "tail": 0.8276414296955763
+    }
+  },
+  "routing_headroom": 0.04643355718258979,
+  "oracle_choices": "Whole-card E0 or E1; strict full composite comparison; ties choose E0",
+  "descriptive_only": true,
+  "headroom_by_group": {
+    "single": 0.07701169343198622,
+    "multi": 0.00898708919108493
+  },
+  "family_headroom": {
+    "T2-F1": 0.0,
+    "T2-F2": 0.055896311543275345,
+    "T2-F3": 0.016414601694336284,
+    "T2-F4": 0.10962681918078376
+  }
+}

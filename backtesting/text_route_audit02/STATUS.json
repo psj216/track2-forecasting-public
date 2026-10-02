@@ -1,24 +1,39 @@
 {
   "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
   "branch": "track2/text-route-audit-02",
-  "HEAD_SHA": "d3618dcd9aae4ac118a5c12c0fe8f3709a72f296",
-  "current_stage": "frozen_forecasts_features_verified",
+  "PRE_RESULT_SHA": "16b4e6b216141a181d5bed73eb89c7232edb0da7",
+  "parent_RESULT_SHA": "d3618dcd9aae4ac118a5c12c0fe8f3709a72f296",
+  "current_stage": "result_ready_for_remote_and_recovery",
   "completed_stages": [
     "environment",
-    "artifact_audit"
-  ],
-  "pending_stages": [
-    "implementation_tests",
+    "artifact_audit",
+    "implementation",
+    "research_tests",
+    "affected_tests",
     "pre_remote",
     "oracle",
     "crossfit",
     "controls",
     "bootstrap",
     "report",
-    "full_tests",
+    "full_tests"
+  ],
+  "pending_stages": [
     "result_remote",
     "recovery"
   ],
-  "last_successful_artifact": "/workspace/scratch/2f3a5f57f9e0/text-route02-repo/backtesting/text_route_audit02/results/feature_manifest.json",
-  "last_update_time": 1790942611.027849
+  "completed": false,
+  "evaluation_completed": true,
+  "final_decision": "NO",
+  "control_progress": {
+    "label": 2000,
+    "text": 2000,
+    "matched_random_per_model": 2000
+  },
+  "bootstrap_replicates": {
+    "card": 5000,
+    "family": 5000
+  },
+  "final_completion_proof": "External completion receipt holds RESULT_SHA, remote/main verification and durable recovery proof; avoid self-referential commit hashes.",
+  "last_update_time": 1790944487.2283974
 }

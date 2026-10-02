@@ -1,0 +1,412 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "models": {
+    "S0_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 2,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "T0_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 1,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "ST0_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0174095200107558,
+        "arithmetic": 1.0190069513662687,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.020205737862475,
+        "joint": 1.02318068732482,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 1,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.08600855569076064,
+      "severe": true
+    },
+    "STF0_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0174095200107558,
+        "arithmetic": 1.0190069513662687,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.020205737862475,
+        "joint": 1.02318068732482,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 1,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.08600855569076064,
+      "severe": true
+    },
+    "LENGTH_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 0,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "ST_NO_FAMILY_LOG": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 0,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "S0_RIDGE": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 1,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "T0_RIDGE": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.3333333333333333,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 2,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "ST0_RIDGE": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 3,
+        "application_fraction": 0.2727272727272727,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.3333333333333333,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 3,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "MAJORITY": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 0,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "B0": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 0,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "R2": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0245916903052874,
+        "arithmetic": 1.0279521234170934,
+        "routed_R2": 11,
+        "application_fraction": 1.0,
+        "marginal": 1.0327782689761487,
+        "joint": 1.0245878219836162,
+        "tail": 0.9962391407844522
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0298852058943124,
+        "arithmetic": 1.0322090086643907,
+        "routed_R2": 6,
+        "application_fraction": 1.0,
+        "marginal": 1.0538029543258478,
+        "joint": 1.005611877651394,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 11,
+      "multi_improved": 2,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.008358523976907823,
+      "severe": true
+    },
+    "STRUCTURAL_EXPOSED": {
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 1,
+        "application_fraction": 0.16666666666666666,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 0,
+      "multi_improved": 0,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": 0.0,
+      "severe": false
+    },
+    "ORACLE_2WAY": {
+      "multi": {
+        "cards": 11,
+        "composite": 0.9910129108089151,
+        "arithmetic": 0.991376621870248,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 0.9837961187232649,
+        "joint": 0.998831271389191,
+        "tail": 0.9962391407844522
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 2,
+      "multi_improved": 2,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": -0.0012888098155257478,
+      "severe": false
+    },
+    "RANDOM_MATCHED": {
+      "multi": {
+        "cards": 11,
+        "composite": 0.9913329702131957,
+        "arithmetic": 0.991698958810409,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 0.9862649273469976,
+        "joint": 0.9935057615713608,
+        "tail": 1.0
+      },
+      "F1": {
+        "cards": 6,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "routed_multi_cards": 1,
+      "multi_improved": 1,
+      "marginal_improved_composite_worsened": 0,
+      "joint_damage_contribution_arithmetic_mean": -0.020748480439808835,
+      "severe": false
+    }
+  },
+  "recomputed_exact": true,
+  "scope": "Every heldout realrouter selects entire frozen E0/E1 and reuses exact parent component scale; no cell-level choices. Pairwise/path effect is original full joint variogram; no new path metric."
+}

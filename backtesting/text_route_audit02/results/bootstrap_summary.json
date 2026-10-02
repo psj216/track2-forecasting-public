@@ -1,0 +1,996 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "models": {
+    "S0_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.018092484765989347,
+          0.09742297301661872
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.7840152409155647
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "T0_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0246048161797923
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.024604816179792266
+        ],
+        "delta_vs_structural_95": [
+          -0.004194884019882439,
+          0.1030978875168955
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.024604816179792266
+        ],
+        "capture_B0_95": [
+          -2.2223726848294207,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.2629608291548702
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0246048161797923
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.024604816179792266
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.07686789566344421
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.024604816179792266
+        ],
+        "capture_B0_95": [
+          -0.28963609490516684,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "ST0_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0240159493341665
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "delta_vs_structural_95": [
+          -0.013064928290024985,
+          0.10685797865395667
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "capture_B0_95": [
+          -2.169602599851602,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -35.101577117210695,
+          0.541587061232144
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0240159493341665
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "delta_vs_structural_95": [
+          0.014276924039150374,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "capture_B0_95": [
+          -1.9350466233869592,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -9.045674464570643,
+          -1.422445795609935
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "STF0_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0240159493341665
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "delta_vs_structural_95": [
+          -0.013064928290024985,
+          0.10685797865395667
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "capture_B0_95": [
+          -2.169602599851602,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -35.101577117210695,
+          0.541587061232144
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0240159493341665
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "delta_vs_structural_95": [
+          0.014276924039150374,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.02401594933416651
+        ],
+        "capture_B0_95": [
+          -1.9350466233869592,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -9.045674464570643,
+          -1.422445795609935
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "LENGTH_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.018092484765989347,
+          0.09742297301661872
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.7840152409155647
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "ST_NO_FAMILY_LOG": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.018092484765989347,
+          0.09742297301661872
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.7840152409155647
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "S0_RIDGE": {
+      "whole_card": {
+        "composite_95": [
+          0.9645430591387191,
+          1.0210052335738247
+        ],
+        "delta_vs_B0_95": [
+          -0.03545694086128093,
+          0.021005233573824666
+        ],
+        "delta_vs_structural_95": [
+          -0.009654310704281577,
+          0.08276116532685696
+        ],
+        "delta_vs_S0_95": [
+          -0.03545694086128093,
+          0.021005233573824666
+        ],
+        "capture_B0_95": [
+          -1.9701957860860213,
+          0.9898857009377847
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -21.944512306727702,
+          0.9561633474746779
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.9577778094891856,
+          1.0246048161797923
+        ],
+        "delta_vs_B0_95": [
+          -0.04222219051081444,
+          0.024604816179792266
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.07387141094715988
+        ],
+        "delta_vs_S0_95": [
+          -0.04222219051081444,
+          0.024604816179792266
+        ],
+        "capture_B0_95": [
+          -0.28963609490516684,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -2.164089832384835,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "T0_RIDGE": {
+      "whole_card": {
+        "composite_95": [
+          0.8937526127447686,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.10624738725523142,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.030123894848624544,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.10624738725523142,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          0.0,
+          1.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.9165983107269883,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.08340168927301173,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.034135094505644115,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.08340168927301173,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          0.0,
+          1.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "ST0_RIDGE": {
+      "whole_card": {
+        "composite_95": [
+          0.900337939595863,
+          1.0127854136698495
+        ],
+        "delta_vs_B0_95": [
+          -0.09966206040413705,
+          0.01278541366984963
+        ],
+        "delta_vs_structural_95": [
+          -0.010943218148058225,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.09966206040413705,
+          0.01278541366984963
+        ],
+        "capture_B0_95": [
+          -1.9701957860860213,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          0.0,
+          1.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.931823110802644,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.06817688919735598,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.011582361559498433,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.06817688919735598,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          0.0,
+          0.33930949151417555
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "MAJORITY": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.018092484765989347,
+          0.09742297301661872
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.7840152409155647
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "B0": {
+      "whole_card": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.018092484765989347,
+          0.09742297301661872
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.46642438271628,
+          0.7840152409155647
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          1.0,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -7.066141033063243,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "R2": {
+      "whole_card": {
+        "composite_95": [
+          0.9082013482147931,
+          1.036106268612959
+        ],
+        "delta_vs_B0_95": [
+          -0.09179865178520681,
+          0.03610626861295885
+        ],
+        "delta_vs_structural_95": [
+          -0.008070694524353337,
+          0.035999590753822044
+        ],
+        "delta_vs_S0_95": [
+          -0.09179865178520681,
+          0.03610626861295885
+        ],
+        "capture_B0_95": [
+          -6.646160151514177,
+          0.9227228549964983
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -9.857057456523961,
+          0.5083905943432161
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.9394687739936504,
+          1.0225194871736378
+        ],
+        "delta_vs_B0_95": [
+          -0.06053122600634964,
+          0.02251948717363783
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.02251948717363783
+        ],
+        "delta_vs_S0_95": [
+          -0.06053122600634964,
+          0.02251948717363783
+        ],
+        "capture_B0_95": [
+          -2.7325296241088872,
+          0.8359501217280569
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -4.521213910008746,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "STRUCTURAL_EXPOSED": {
+      "whole_card": {
+        "composite_95": [
+          0.9025770269833813,
+          1.0180924847659893
+        ],
+        "delta_vs_B0_95": [
+          -0.09742297301661877,
+          0.018092484765989347
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.09742297301661877,
+          0.018092484765989347
+        ],
+        "capture_B0_95": [
+          -3.189193367815558,
+          0.9726554347594872
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          0.0,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.9394687739936504,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.06053122600634964,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          0.0,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.06053122600634964,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          0.0,
+          0.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "ORACLE_2WAY": {
+      "whole_card": {
+        "composite_95": [
+          0.8900621696967963,
+          0.9960445147554473
+        ],
+        "delta_vs_B0_95": [
+          -0.1099378303032037,
+          -0.003955485244552692
+        ],
+        "delta_vs_structural_95": [
+          -0.03483268705162623,
+          -0.0011098383365434853
+        ],
+        "delta_vs_S0_95": [
+          -0.1099378303032037,
+          -0.003955485244552692
+        ],
+        "capture_B0_95": [
+          1.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          1.0,
+          1.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.912813534251519,
+          0.9917587399693858
+        ],
+        "delta_vs_B0_95": [
+          -0.08718646574848099,
+          -0.008241260030614206
+        ],
+        "delta_vs_structural_95": [
+          -0.034135094505644115,
+          0.0
+        ],
+        "delta_vs_S0_95": [
+          -0.08718646574848099,
+          -0.008241260030614206
+        ],
+        "capture_B0_95": [
+          1.0,
+          1.0
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          1.0,
+          1.0
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    },
+    "RANDOM_MATCHED": {
+      "whole_card": {
+        "composite_95": [
+          0.9881022353411162,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.011897764658883814,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.02287648804953134,
+          0.09490302695862037
+        ],
+        "delta_vs_S0_95": [
+          -0.011897764658883814,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.9310707164331741
+        ],
+        "capture_B0_unstable_replicates": 14,
+        "capture_beyond_structure_95": [
+          -30.34222086856217,
+          0.9887191001306155
+        ],
+        "capture_beyond_structure_unstable_replicates": 17,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Whole card blocks",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      },
+      "family_block": {
+        "composite_95": [
+          0.9881022353411162,
+          1.0
+        ],
+        "delta_vs_B0_95": [
+          -0.011897764658883814,
+          0.0
+        ],
+        "delta_vs_structural_95": [
+          -0.007947655392382291,
+          0.06053122600634964
+        ],
+        "delta_vs_S0_95": [
+          -0.011897764658883814,
+          0.0
+        ],
+        "capture_B0_95": [
+          0.0,
+          0.9643738169720106
+        ],
+        "capture_B0_unstable_replicates": 16,
+        "capture_beyond_structure_95": [
+          -6.073702790712908,
+          0.9643738169720106
+        ],
+        "capture_beyond_structure_unstable_replicates": 284,
+        "replicates": 5000,
+        "seed": 2204,
+        "method": "Four whole six-card family blocks resampled",
+        "interpretation": "Exposed-card sensitivity; not independent generalization confidence interval"
+      }
+    }
+  },
+  "exposed_only": true
+}

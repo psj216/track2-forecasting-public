@@ -1,0 +1,60 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "parent_sha": "d3618dcd9aae4ac118a5c12c0fe8f3709a72f296",
+  "pre_result_sha": "16b4e6b216141a181d5bed73eb89c7232edb0da7",
+  "cards": 24,
+  "cells": 63,
+  "model_folds": 252,
+  "whole_card_routes": true,
+  "expert_refits": 0,
+  "forecast_regeneration": false,
+  "permutation_fits": 96000,
+  "permutation_count_per_control": 2000,
+  "bootstrap_replicates": 5000,
+  "no_redesign_after_scores": true,
+  "private_ledger_hashes": {
+    "card_route_ledger.csv": "132f76430f747e8812993eda69f25fb171e4d8d85d25abd67118309ced76d3f5",
+    "loocv_predictions.csv": "4762515a000f4cb04f1c08e2adcb98ab9f1ae8743e8e2cf1e880045b59da8e2c",
+    "family_holdout_predictions.csv": "3c0e83d4c1fd9f0209b9a868ab3f369ea4392066c16645b29bb0fc9f1780ec70"
+  },
+  "per_router_matched_random_replicates": 2000,
+  "distinct_application_counts": [
+    0,
+    1,
+    2,
+    10,
+    11
+  ],
+  "reporting_supplement_only": true,
+  "tests": {
+    "research_specific": {
+      "passed": 20
+    },
+    "directly_affected_CONTEXT01": {
+      "passed": 22
+    },
+    "full_repository": {
+      "passed": 540,
+      "skipped": 2,
+      "warnings": 3
+    },
+    "common_toolkit": {
+      "passed": 250
+    },
+    "public_manifest": {
+      "units": 104,
+      "errors": 0
+    }
+  },
+  "post_evaluation_verification": {
+    "real_frozen_prediction_checks": 432,
+    "features_rebuilt_bitwise_equal": true,
+    "future_mutation_features_bitwise_equal": true,
+    "future_mutation_frozen_predictions_bitwise_equal": true,
+    "card_id_name_hash_no_feature": true,
+    "frozen_PRE_hashes_unchanged": true,
+    "private_ledgers_hash_verified": true
+  },
+  "scientific_PRE_files_unchanged": true,
+  "reporting_supplement_does_not_fit_or_select": true
+}
