@@ -1,0 +1,25 @@
+source_id,novelty,already_tested_equivalent,reason,not_predictive_evidence
+ECB_SPF_ORIGINAL,HIGH,False,Genuine euro-area professional expectations; earlier EXPECTATION01 tested US Philadelphia SPF only. No consensus-minus-realized-release feature is constructed.,True
+FED_SLOOS_ORIGINAL,HIGH,False,Banks disclose lending decisions and private credit demand; not the already tested Fed reserve balance or lagged Treasury prices.,True
+NYFED_SPD_ORIGINAL,HIGH,False,"Forward policy expectations not in price histories or tested Philadelphia quarterly TBILL/TBOND levels. EXPECTATION01 source gate was PARTIAL, not a predictive failure.",True
+BOE_IAS_ORIGINAL,HIGH,False,UK household future expectations are neither card semantics nor already tested US professional SPF.,True
+US_SPF_TESTED,REDUNDANT,True,These exact five point-forecast channels were tested in EXPECTATION01. Do not rename or retest them.,True
+CONSENSUS_ECONOMICS,HIGH,False,"Genuine ex-ante institutional forecasts, not synthetic release innovations.",True
+CME_POLICY_FUTURES,HIGH,False,Separate tradable policy curve information absent from original nominal-yield input; continuous front-contract price alone would be lower novelty.,True
+LSEG_OIS,HIGH,False,Policy-linked forwards can add different-instrument expectations; vendor curve reconstruction cannot be equated with original quotes.,True
+BOARD_H15_TIPS,MEDIUM,False,TIPS are new instruments relative to nominal own-price inputs; compensation mixes expected inflation and liquidity/risk premia.,True
+CFTC_LEGACY,HIGH,False,"Trader inventories are genuinely different information; POSITIONING01 rejected source provenance, not positioning predictive power.",True
+CFTC_TFF,HIGH,False,Institutional positioning categories are not lagged returns.,True
+NYFED_PD_POSITIONS,HIGH,False,Dealer balance-sheet supply/inventory data are not nominal prices.,True
+TIC_FORM_S_TESTED,REDUNDANT,True,Exact original FormS equity transactions were tested in POSITIONING01; renamed flows cannot be new.,True
+H41_RESERVES_TESTED,REDUNDANT,True,1304 original releases and transformations already tested in POSITIONING01.,True
+TREASURY_DTS_TGA,MEDIUM,False,"Treasury cash components differ from already tested reserves, but accounting dependence lowers novelty.",True
+NYFED_ONRRP,MEDIUM,False,Daily operation demand may differ from reserve balance but long-run liquidity transformations overlap previously investigated channel.,True
+ATLANTA_GDPNOW,MEDIUM,False,"Different pre-outcome macro model information, but model-generated forecast is not trueconsensus.",True
+ECB_SMA_SHORT,HIGH,False,Genuinepolicy expectations but short public history.,True
+LSEG_IBES_PIT,HIGH,False,Forward earnings differ from returns/volatility; individualequity coverage does not directly map to factor portfolios.,True
+ACM_TERM_PREMIA,LOW,False,Primarily a transformation/model decomposition of yield history; fitting vintage can introduce hindsight.,True
+BIS_REER,MEDIUM,False,Cross-country prices/tradeweights can add fundamentals beyond lagFX; currentweights/index normalization may rewrite history.,True
+EIA_INVENTORY,HIGH,False,"Physicalcommodity inventories are newinformation, but there is no commodity target in actualTrack2 universe.",True
+GDELT2_EVENTS,MEDIUM,False,"An external historical eventstream differs from frozen cardtext, but no NLP, eventalpha or outcomeaware topic labeling is run.",True
+BLS_EVENT_CALENDAR,LOW,False,Timing metadata adds eventrisk but is partly present in cardhorizons/knownrelease structure; no numerical expectation or newcenter alpha established.,True

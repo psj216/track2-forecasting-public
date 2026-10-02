@@ -1,0 +1,684 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "primary_documentation": [
+    {
+      "source_id": "ECB_SPF_ORIGINAL",
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/all-releases.en.html",
+      "official_provider": "European Central Bank",
+      "refs": [
+        "turn26view0",
+        "turn22view3",
+        "turn35view1",
+        "turn23view0"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Only EUR directly mapped; at most40 quarterly rounds2015–2024. Full release-by-field/errata manifest still must be acquired before any LOCATION02 fit.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "FED_SLOOS_ORIGINAL",
+      "url": "https://www.federalreserve.gov/data/sloos.htm",
+      "official_provider": "Federal Reserve Board",
+      "refs": [
+        "turn30view0",
+        "turn35view0",
+        "turn32view3",
+        "turn32view4"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Quarterly survey is a supply/demand condition, not a true macro consensus; panel composition changes. Rates/MKT links only plausible.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "NYFED_SPD_ORIGINAL",
+      "url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "official_provider": "Federal Reserve Bank of New York",
+      "refs": [
+        "turn20view4",
+        "turn20view3",
+        "turn32view2",
+        "turn31view1",
+        "turn31view2",
+        "turn32view5",
+        "turn24view1"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "High parsing complexity and delayed public availability; original main-table claim B is sampled reconstruction, not A. Entire field/round timeline must pass before fit. Do not splice2025 merged SME or retrospectively treat survey2002–2011 as public.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "BOE_IAS_ORIGINAL",
+      "url": "https://www.bankofengland.co.uk/sitemap/inflation-attitudes-survey",
+      "official_provider": "Bank of England",
+      "refs": [
+        "turn20view5",
+        "turn23view3",
+        "turn22view4",
+        "turn21view5",
+        "turn25view0"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Research-only personal/internal use; contest bundling/third-party ownership needs confirmation; mode and sample breaks reduce comparability.",
+      "legal_status": "ALLOWED",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "US_SPF_TESTED",
+      "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters",
+      "official_provider": "Federal Reserve Bank of Philadelphia",
+      "refs": [
+        "turn34view1",
+        "parent EXPECTATION01 source_manifest.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Dispersion or other new variables would require a separately predeclared question; not opportunistically added.",
+      "legal_status": "ALLOWED",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "CONSENSUS_ECONOMICS",
+      "url": "https://www.consensuseconomics.com/excel-economic-data/",
+      "official_provider": "Consensus Economics",
+      "refs": [
+        "turn29view1",
+        "turn26search4"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Historical vintages advertised, not inspected; PIT-A/B not assigned from marketing. Could become strong after licensed access and exact publication proof.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "CME_POLICY_FUTURES",
+      "url": "https://www.cmegroup.com/articles/faqs/access-to-cme-group-settlement-data-faq.html",
+      "official_provider": "CME Group",
+      "refs": [
+        "turn29view0",
+        "turn26search24",
+        "turn26search27"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Current FedWatch probability display does not establish a historical contemporaneous curve or roll-safe data.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "LSEG_OIS",
+      "url": "https://www.lseg.com/en/data-catalogue/fixed-income/derived/curves-swap-derived-zero-curves",
+      "official_provider": "LSEG",
+      "refs": [
+        "turn34search4",
+        "turn34search0"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "No contract/raw access; interpolator/reference curves may be re-estimated historically; minimum history cannot be asserted.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "BOARD_H15_TIPS",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "official_provider": "Federal Reserve Board",
+      "refs": [
+        "turn33view0",
+        "parent EXPECTATION01 source_gate.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Original pre-outcome CMT vintage coverage across eras not established; dated2024H15 attempted URL unavailable. Current2026 page values incidentally surfaced during documentation inspection, discarded and never made probe/features/labels.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalViewable/index.htm",
+      "official_provider": "Commodity Futures Trading Commission",
+      "refs": [
+        "turn25search17",
+        "turn26view2",
+        "parent POSITIONING01 source_gate.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Current archives/correction history do not prove first-release values; parent documented FX correction/revision conflict. No inferredTuesday availability and no rerun.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "url": "https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalSpecialAnnouncements/index.htm",
+      "official_provider": "Commodity Futures Trading Commission",
+      "refs": [
+        "turn26view2",
+        "turn25search9"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Backfill cannot establish original2006 vintages; uncorrected values/actualrelease calendar unresolved, as parent source gate.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "NYFED_PD_POSITIONS",
+      "url": "https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics",
+      "official_provider": "Federal Reserve Bank of New York",
+      "refs": [
+        "turn29view3",
+        "parent POSITIONING01 source_gate.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Current export and historical form changes are not contemporaneous vintages. OFR republishing same data is not an independent source or vintage repair.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "TIC_FORM_S_TESTED",
+      "url": "https://home.treasury.gov/data/treasury-international-capital-tic-system-home-page",
+      "official_provider": "US Treasury",
+      "refs": [
+        "parent POSITIONING01 source_manifest.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Pre2023 original-release field vs revised history only; native SLT definition break must not be spliced.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "H41_RESERVES_TESTED",
+      "url": "https://www.federalreserve.gov/releases/h41/20241212/",
+      "official_provider": "Federal Reserve Board",
+      "refs": [
+        "turn34view0",
+        "parent POSITIONING01 source_manifest.json"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Other native balance sheet components would require an explicit new-information conditional question; not automatically primary under a new liquidity name.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "TREASURY_DTS_TGA",
+      "url": "https://fiscaldata.treasury.gov/datasets/daily-treasury-statement/",
+      "official_provider": "US Treasury Fiscal Service",
+      "refs": [
+        "turn25search6",
+        "turn34search2"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Current revised API rows/statement date do not prove first public vintage.2022Treasurybalance-table definition change. No forced availability claim.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "NYFED_ONRRP",
+      "url": "https://www.newyorkfed.org/markets/rrp_faq.html",
+      "official_provider": "Federal Reserve Bank of New York",
+      "refs": [
+        "turn33view1"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Operational close vs actual publishing and corrections not established across eras. No rawvintage sample; do not substitute current API history.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "ATLANTA_GDPNOW",
+      "url": "https://www.atlantafed.org/research-and-data/data/gdpnow",
+      "official_provider": "Federal Reserve Bank of Atlanta",
+      "refs": [
+        "turn29view4",
+        "turn28search1"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "No datednativeforecast-only original field/vintage/rights probe; not enough to cite retrospective deep-archive dates as original availability.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "ECB_SMA_SHORT",
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/sma/html/index.en.html",
+      "official_provider": "European Central Bank",
+      "refs": [
+        "turn18search16",
+        "turn36view2"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Survey conducted2019, aggregate public publication fromJune2021; only3.5publicyears beforecutoff fails fixed8y/3era gate.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "LSEG_IBES_PIT",
+      "url": "https://www.lseg.com/en/data-catalogue/company-data",
+      "official_provider": "LSEG",
+      "refs": [
+        "turn34search1",
+        "turn34search5",
+        "turn34search9"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "No rawsubscription access; exact package start/date-vintage/rights unknown. Need historical factor constituent weights rather than current survivors.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "ACM_TERM_PREMIA",
+      "url": "https://www.newyorkfed.org/research/data_indicators/term-premia-tabs",
+      "official_provider": "Federal Reserve Bank of New York",
+      "refs": [
+        "turn26search12",
+        "turn29view2"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "1961 measurement history does not imply estimates publicly available then (download launch2014). Original estimationvintages/parameters not established.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "BIS_REER",
+      "url": "https://data.bis.org/topics/EER",
+      "official_provider": "Bank for International Settlements",
+      "refs": [
+        "turn26search3",
+        "turn26search29",
+        "turn35view5"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Current SDMX history insufficient for original publication vintages. No assertion of minorrevision/PIT-C without evidence; rejectprimary.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "EIA_INVENTORY",
+      "url": "https://www.eia.gov/petroleum/supply/weekly/",
+      "official_provider": "US Energy Information Administration",
+      "refs": [
+        "turn30view1"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "No directassetmapping; no rawnumeric probe justified. ExistingCAD/AUD indirecteffect does not authorize forcing inventorybroadcast toFX.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    },
+    {
+      "source_id": "GDELT2_EVENTS",
+      "url": "https://blog.gdeltproject.org/gdelt-2-0-our-global-world-in-realtime/",
+      "official_provider": "GDELT Project",
+      "refs": [
+        "turn26view4",
+        "turn25search15",
+        "turn25search7"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "1979backfile is retrospective, not original1979publicinformation. Native2.0startsFeb19,2015; article date differs fromingestion; deduplication, late arrivals/version drift, third-party news rights and raworiginalvintages unverified.",
+      "legal_status": "UNKNOWN",
+      "contest_status": "UNKNOWN_REQUIRES_CONFIRMATION"
+    },
+    {
+      "source_id": "BLS_EVENT_CALENDAR",
+      "url": "https://www.bls.gov/schedule/2024/home.htm",
+      "official_provider": "US Bureau of Labor Statistics",
+      "refs": [
+        "turn36view0"
+      ],
+      "inspected": "2026-10-02",
+      "conclusions": "Schedules can change; archivedcalendar revisionmust beas-of. Calendar alone is deprioritized; B applies datedschedule information, not hypotheticalmacro outcomes.",
+      "legal_status": "ALLOWED",
+      "contest_status": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY"
+    }
+  ],
+  "original_byte_receipts": [
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2014/november-2014",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2014/november-2014",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:30Z",
+      "sha256_original_bytes": "3f76c69cd0742191d1fbd80b9b9644ce4f11895bb0405748754ac5215dd8f9ba",
+      "bytes": 77480,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.512001037597656,
+      "receipt_file": "boe-ias-2014.html.receipt.json"
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2019/november-2019",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2019/november-2019",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:22Z",
+      "sha256_original_bytes": "4aa76540f908b1f2c8858a5ec78c035fcc1804b641925ac14a6ef0c9883127f8",
+      "bytes": 77803,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.816000938415527,
+      "receipt_file": "boe-ias-2019.html.receipt.json"
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2024/november-2024",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2024/november-2024",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:27Z",
+      "sha256_original_bytes": "8f7367f18d28c086b9993b11631d809d7440edbd0fc48619fefbb0ef8799230f",
+      "bytes": 79700,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.987850904464722,
+      "receipt_file": "boe-ias-2024.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:46:55Z",
+      "sha256_original_bytes": "92f2987805c4f62a4cf71364b5b031f7abf5a6852ee4b59bb3df97252607cf60",
+      "bytes": 127165,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 8.386882781982422,
+      "receipt_file": "ecb-monthly-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/all-releases.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/all-releases.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:50:25Z",
+      "sha256_original_bytes": "ccb856f00eacfb71e92851bf941cf9e00e3ebe6551ee930440435ba6b15bbd62",
+      "bytes": 173201,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 7.682330369949341,
+      "receipt_file": "ecb-release-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/pub/pdf/other/mb201011_focus06.en.pdf",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/other/mb201011_focus06.en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:23Z",
+      "sha256_original_bytes": "b6d373a92b54ff5dcfcf0b55a7810d60488bc48ace838c247dfaafe5ce580124",
+      "bytes": 266987,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.6759233474731445,
+      "receipt_file": "ecb-spf-2010q4.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:48:23Z",
+      "sha256_original_bytes": "3e9c3a6da8ae216fa551283ed3a5ca011b2fa1e05f9cfb834016ca409c9a4e4e",
+      "bytes": 125170,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.63866400718689,
+      "receipt_file": "ecb-spf-2019q4.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241018_1~9b5ce6a9bf.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241018_1~9b5ce6a9bf.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:48:24Z",
+      "sha256_original_bytes": "68f4a54056fac862c17530c896d19d7390f8fcddc3d77eebbbc3755a24882973",
+      "bytes": 109026,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 8.293919563293457,
+      "receipt_file": "ecb-spf-2024q4.html.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/December_result.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/December_result.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:22Z",
+      "sha256_original_bytes": "ddac6eca101447435cc54c4584a49fffaed6537e6c32ff3bb3b39358a4d18914",
+      "bytes": 332256,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.800785064697266,
+      "receipt_file": "nyfed-spd-2011dec.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2018/jan-2018-spd-results.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2018/jan-2018-spd-results.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "0e9acde206e5f4070c8cf5bc705379907f1ee60d1aa40ee2f712db68c4903712",
+      "bytes": 175665,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.700258493423462,
+      "receipt_file": "nyfed-spd-2018jan.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-spd-results.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-spd-results.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "6a3d35d4d9e63d9816d810ea56a28f708b91e8b997aa07e5a51d1b91fc2d64ad",
+      "bytes": 412041,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.1953818798065186,
+      "receipt_file": "nyfed-spd-2024sep.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-data.xlsx",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-data.xlsx",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "retrieved_at_utc": "2026-10-02T17:03:39Z",
+      "sha256_original_bytes": "9f13e9647b38ddea91a8d67324f9fdf58b044ea62e7efdfeafa9a3c338a5b9c2",
+      "bytes": 177812,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.716998100280762,
+      "receipt_file": "nyfed-spd-2024sep.xlsx.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "resolved_url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:46:46Z",
+      "sha256_original_bytes": "84f3f254a3bd07ff140dfbe054f53e9cde0492fec7f4505d417e15237ae860f2",
+      "bytes": 211435,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.36382532119751,
+      "receipt_file": "nyfed-survey-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201002/table1.htm",
+      "resolved_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201002/table1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "1e9bd81904e8e7a438a28d36b02007b918c213c9bcac84226ff890807986038a",
+      "bytes": 297413,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.972562789916992,
+      "receipt_file": "sloos-2010.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-201910.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-201910.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:50:23Z",
+      "sha256_original_bytes": "1cf4117fc516aa9db969987d4fc2a2af6bd12ef5e9fed21b0d776f725c99cff3",
+      "bytes": 91914,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.572033643722534,
+      "receipt_file": "sloos-2019-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:54:52Z",
+      "sha256_original_bytes": "a4a9bf289404ed91619ca16f67c8792f20fdbabdaa0407acdbffd009515efc9a",
+      "bytes": 606781,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.022581338882446,
+      "receipt_file": "sloos-2019.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/documents/sloos-201910-table1.pdf",
+      "resolved_url": "https://www.federalreserve.gov/data/documents/sloos-201910-table1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:52:33Z",
+      "sha256_original_bytes": "a76bb4ebb2cb7bebc6d55b56a682fb43991031639ff4b2e7519fa531969c5f15",
+      "bytes": 366179,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.941413402557373,
+      "receipt_file": "sloos-2019.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202410.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-202410.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:50:28Z",
+      "sha256_original_bytes": "8046c0b739e23732914ad30fd41d070eb91a1b170b6eb2d68a8b824691a8e413",
+      "bytes": 96504,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.394026756286621,
+      "receipt_file": "sloos-2024-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:55:04Z",
+      "sha256_original_bytes": "e16c392ee9312587c6f563d546dd31aa6e7fb6e0a82617b6801b7a3bf4cbecc1",
+      "bytes": 582462,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 12.07417917251587,
+      "receipt_file": "sloos-2024.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/documents/sloos-202410-table1.pdf",
+      "resolved_url": "https://www.federalreserve.gov/data/documents/sloos-202410-table1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:52:41Z",
+      "sha256_original_bytes": "7c27ec14af022e0347fbce2ad4d5c309b961063b7d423f58fa91f5196b837967",
+      "bytes": 325760,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 7.2060911655426025,
+      "receipt_file": "sloos-2024.pdf.receipt.json"
+    }
+  ],
+  "private_inspection_hashes": [
+    {
+      "file": "web-inspections-1.json",
+      "sha256": "8054c0ab557214df131100ae0bf037d4c71f81bde535b3677a79591ed1baa157",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-10.json",
+      "sha256": "6990735fa01bc1494aea48173302ba7b1f3371be75c51cd354d08c31ae15ad9a",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-11.json",
+      "sha256": "a144cb5ac38aa6cdbc14c78aa2bf13a737841785b0b544d4359c22a5084bc95b",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-12.json",
+      "sha256": "e6ecb29361b5bf23562141a3705aa914725c882f8ee0a54564f20a98e940d13c",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-13.json",
+      "sha256": "cab62a4637eeff50b8e70549bc54a1f767d4a158d72632a4d9c7f9d3441448bf",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-14.json",
+      "sha256": "1d1ec8d7b95474a89c7925a6a5e1a9c24558dbb11af3d749ed32de4e3fe783a3",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-15.json",
+      "sha256": "1883d808cd51e15c84408b293ebbb3da1028fe26c1e6f4d11ecc1e38a8efd289",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-16.json",
+      "sha256": "960d0e680d028b9a5fb846236e4a3250ff3b0065c0c05c1a3fd02890cead2add",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-17.json",
+      "sha256": "71ef8e156f11be70f3f94c856a03bb053570dd0dab81fa558d6bdcd888d6eb53",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-18.json",
+      "sha256": "9886bb1a20493896036c41088a95450592a16e9d5ccb357b159e9467cdeede4e",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-2.json",
+      "sha256": "c6de166cb7c62905ea632b68c7675cb97954438853288916c61003522077b833",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-3.json",
+      "sha256": "cbcaea2311b3764a70ca07f4a7810b608de52d73d52c9ea5b855d50261092c96",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-4.json",
+      "sha256": "5e51d2e2c4b27738dc8a572074e9f17ae1e1dc95262b51713a036ba746f746ba",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-5.json",
+      "sha256": "6e5537087a91cae422d61b2fcfff3dde703409cd223a1b0bd11ef59c5da27963",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-6.json",
+      "sha256": "a1e91d9828281c3c733e17271cc4fcd73fc702de0d7461c1b18172ce2b1d4d37",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-7.json",
+      "sha256": "a22b529bb9100aa1b34456a4c4cc1972d35c96d268ecf5e840b906e3de02d004",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-8.json",
+      "sha256": "0b0822c6a42d0417058aefb38ae1c9ea3fcb7127525c0375f62d720fbf501a19",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    },
+    {
+      "file": "web-inspections-9.json",
+      "sha256": "c518c7dedd56ec41c5f00d8730880c34d362a0efdf8c6da37388f437a867944b",
+      "representation": "serialized web-tool inspection response, NOT original provider bytes",
+      "publish_raw_response": false
+    }
+  ],
+  "no_generic_MIT_for_third_party": true,
+  "legal_interpretation": "Source terms reviewed for feasibility, not a legal determination; organizer acceptance remains per-taskcutoff and source-specific."
+}

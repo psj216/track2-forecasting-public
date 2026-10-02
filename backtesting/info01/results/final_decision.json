@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "INFO01_RESULT": "SOURCES_FOUND_RESEARCH_ONLY",
+  "SELECTED_PRIMARY_SOURCE": "ECB_SPF_ORIGINAL",
+  "PIT_CLASS": "B",
+  "NOVELTY_CLASS": "HIGH",
+  "CONTEST_COMPATIBILITY": "AVAILABLE_FOR_SUBMISSION_CONDITIONALLY",
+  "ASSET_COVERAGE": [
+    "EUR"
+  ],
+  "HORIZON_COVERAGE": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "INDEPENDENT_VALIDATION_UNIVERSE": "NOT_AVAILABLE",
+  "READY_FOR_LOCATION02": false,
+  "RESEARCH_CROSSFIT_DRAFT_PERMITTED": true,
+  "READY_FOR_SUBMISSION": false,
+  "T0_RIDGE_STATUS": "FROZEN_LEAD_ONLY",
+  "NEXT_STEP": "LOCATION02 research-crossfit only, after full original-release acquisition/errata audit; independently validate prospectively before any submission",
+  "NEW_FORECAST_FITS": 0,
+  "NEW_FORECAST_SCORES": 0,
+  "PARENT_RESULT_SHA": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+  "PRE_RESULT_INFO01_SHA": "0bd2a1e768156d74f82a9959a62da40184d30d87"
+}

@@ -1,0 +1,22 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "INFO01_PRIMARY_SOURCE": "ECB_SPF_ORIGINAL",
+  "source_name": "ECB SPF original released euro-area expectations",
+  "quality_total": 17,
+  "PIT": "B",
+  "novelty": "HIGH",
+  "selection_rationale": "ECB and SLOOS tie17; frozen TRUE_CONSENSUS priority chooses ECB. New euro-area expectations, transparent original publications and reuse conditions; no outcome evidence used.",
+  "accepted_history": "2015-01-23 through2024-10-18, originals only;1999–2014 existence is not admitted PIT history",
+  "first_experiment_assets": [
+    "EUR"
+  ],
+  "field_scope": [
+    "next_calendar_year_HICP_point_forecast_pct",
+    "next_calendar_year_real_GDP_point_forecast_pct"
+  ],
+  "activation": "Release-date end-of-dayEurope/Berlin must precede forecastcutoff; no response-date activation",
+  "full_dataset_ready": false,
+  "acquisition_before_fit": "Acquire and audit40quarterlyrelease-by-field rows; original documents+dates+errata hashes; exclude unproven versions or missing fields, no latestCSV replacement",
+  "conditional_submission": true,
+  "independent_OOS_evidence": false
+}

@@ -1,0 +1,115 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "ranking_rule": "Frozen score descending, frozen family priority, stableID; not future outcomes",
+  "eligible_source_count": 4,
+  "selected_count": 3,
+  "top_candidates": [
+    {
+      "rank": 1,
+      "source_id": "ECB_SPF_ORIGINAL",
+      "quality_score": 17,
+      "PIT": "B",
+      "novelty": "HIGH",
+      "adds": "Genuine euro-area professional expectations; earlier EXPECTATION01 tested US Philadelphia SPF only. No consensus-minus-realized-release feature is constructed.",
+      "observable": [
+        "Original archive dates2015-01-23 and2019-10-25;2024pressrelease explicit2024-10-18"
+      ],
+      "assets": [
+        "EUR"
+      ],
+      "horizons": {
+        "5": "WEAK",
+        "21": "PLAUSIBLE",
+        "63": "PLAUSIBLE",
+        "126": "PLAUSIBLE",
+        "189": "PLAUSIBLE"
+      },
+      "acquisition": "Original report/press-release HTML and dated PDF; latest CSV microdata is not the primary source",
+      "PIT_implementation": {
+        "method": "Use current-round point forecasts in original release body; later round revisions are new expectations, not updates to earlier rows. No current aggregate-history/microdata substitution. No amendment marker found on accepted sampled headline fields; unknown amendments block full-panel admission.",
+        "field_revision_audited": true,
+        "historical_immutability_proven": false,
+        "early_period_rejected": "2010PDF proves values exist but no exact public release date established; exclude pre2015 from draft"
+      },
+      "leakage_risk": "Do not assign current/revised values to old measurement dates",
+      "limitation": "Only EUR directly mapped; at most40 quarterly rounds2015–2024. Full release-by-field/errata manifest still must be acquired before any LOCATION02 fit."
+    },
+    {
+      "rank": 2,
+      "source_id": "FED_SLOOS_ORIGINAL",
+      "quality_score": 17,
+      "PIT": "B",
+      "novelty": "HIGH",
+      "adds": "Banks disclose lending decisions and private credit demand; not the already tested Fed reserve balance or lagged Treasury prices.",
+      "observable": [
+        "2010 table lastupdate2010-02-01;2019 release2019-11-04;2024 release2024-11-12 (not assumedNov4)"
+      ],
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_7Y",
+        "UST_10Y",
+        "UST_20Y",
+        "UST_30Y",
+        "MKT"
+      ],
+      "horizons": {
+        "5": "WEAK",
+        "21": "PLAUSIBLE",
+        "63": "PLAUSIBLE",
+        "126": "PLAUSIBLE",
+        "189": "PLAUSIBLE"
+      },
+      "acquisition": "Original HTML response tables and matching PDF, not rolling chart history/FRED export",
+      "PIT_implementation": {
+        "field_revision_audited": true,
+        "method": "Use each dated report table only; compute net tightening from original counts. Panel/denominator and non-originating banks retained; never derive early values from current charts. Unknown amended reports block row.",
+        "breaks": [
+          "2012 panel expansion",
+          "Mortgage classifications2007/2015 not selected",
+          "Large-bank thresholds change; use all-bank aggregate"
+        ]
+      },
+      "leakage_risk": "Do not assign current/revised values to old measurement dates",
+      "limitation": "Quarterly survey is a supply/demand condition, not a true macro consensus; panel composition changes. Rates/MKT links only plausible."
+    },
+    {
+      "rank": 3,
+      "source_id": "NYFED_SPD_ORIGINAL",
+      "quality_score": 15,
+      "PIT": "B",
+      "novelty": "HIGH",
+      "adds": "Forward policy expectations not in price histories or tested Philadelphia quarterly TBILL/TBOND levels. EXPECTATION01 source gate was PARTIAL, not a predictive failure.",
+      "observable": [
+        "Dated2012-01-04 mediaadvisory confirms December2011 results public thatday, with one-day-after-minutes policy",
+        "2018-01 meeting minutes published2018-02-21; policy reconstructs results2018-02-22, a nonholiday weekday",
+        "Dated2024-10-10 notice confirms July2023–Sep2024 machine files identical to already released PDFs"
+      ],
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_7Y",
+        "UST_10Y",
+        "UST_20Y",
+        "UST_30Y"
+      ],
+      "horizons": {
+        "5": "WEAK",
+        "21": "PLAUSIBLE",
+        "63": "PLAUSIBLE",
+        "126": "PLAUSIBLE",
+        "189": "PLAUSIBLE"
+      },
+      "acquisition": "Original PDFs beforeJul2023; identical selective XLSX exports announcedOct10,2024; original PDFs primary",
+      "PIT_implementation": {
+        "field_revision_audited": true,
+        "method": "Exclude subsequent-response appendix and asterisk-marked updated reports unless initial field availability separately proven. Main initial-table provenance only; changing questions do not get silent interpolation.2011PDF metadata title is2009;2018 text extraction contains old2016 template. Body/index dates override metadata, with parser quarantine of conflicting cover text.",
+        "historical_immutability_proven": false,
+        "full_panel_not_verified": true
+      },
+      "leakage_risk": "Do not assign current/revised values to old measurement dates",
+      "limitation": "High parsing complexity and delayed public availability; original main-table claim B is sampled reconstruction, not A. Entire field/round timeline must pass before fit. Do not splice2025 merged SME or retrospectively treat survey2002–2011 as public."
+    }
+  ],
+  "unselected_eligible": "BoE headline expectations score14, outside top3; research rights limited to personal/internalnoncommercial purposes"
+}

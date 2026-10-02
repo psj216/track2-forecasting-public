@@ -1,0 +1,42 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "status": "NOT_AVAILABLE",
+  "target_data_accessed_for_independence_audit": false,
+  "metadata_only": true,
+  "options": [
+    {
+      "option": "Untouched historicalperiod",
+      "status": "NOT_VERIFIED",
+      "reason": "2001\u20132024 priorprice/location/expectation/positioning ledger already exposed across1250origins; cannot rename2020\u20132024 as OOS"
+    },
+    {
+      "option": "Untouchedassets",
+      "status": "NOT_VERIFIED",
+      "reason": "25 continuousassets previouslymodeled; all26publiccardassets exposed. Newsource does not reset targetexposure"
+    },
+    {
+      "option": "Newpubliccarduniverse",
+      "status": "NOT_AVAILABLE",
+      "reason": "No provided independentlabels or verifiedunseenpubliccohort; repeated organizerfeedbackpractice not finalOOS"
+    },
+    {
+      "option": "2025holdout",
+      "status": "NOT_CLEAN",
+      "reason": "Prior SURPRISE01 exportincident returnedpostcutoffrawdata; notscored does not proveunseen"
+    },
+    {
+      "option": "Sealed/later prospectivecohort",
+      "status": "ACCESS_NOT_ATTEMPTED",
+      "reason": "No sealedcards/labels probing; future evaluationmust freeze source/parser/model/cutoff beforeclean prospective labels are obtained"
+    },
+    {
+      "option": "External continuous ledger",
+      "status": "NOT_VERIFIED",
+      "reason": "No supplied external clean target ledger or exposure history. The inherited continuous ledger is exposed; merely obtaining another copy/provider does not reset the research exposure."
+    }
+  ],
+  "research_crossfit_possible": true,
+  "public24card_reoptimization": false,
+  "source_numeric_cutoff": "2024-12-18",
+  "incidental_current_page_exposure": "H15 documentation surfaced2026rates; excluded, recorded inavailabilityprobe; no2026untouchedholdoutclaim"
+}

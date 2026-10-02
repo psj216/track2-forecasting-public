@@ -1,0 +1,70 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "stages_completed": [
+    "environment",
+    "parent_ledger",
+    "rules_audit",
+    "framework",
+    "PRE_RESULT_remote",
+    "source_research",
+    "small_probes",
+    "selection",
+    "frozen_draft",
+    "report",
+    "research_tests",
+    "affected_tests",
+    "full_repository_tests",
+    "common_toolkit_tests"
+  ],
+  "full_tests": "PASS",
+  "RESULT_remote": "VERIFY_AND_RECORD_IN_EXTERNAL_COMPLETION_RECEIPT",
+  "private_recovery": "VERIFY_AND_RECORD_IN_EXTERNAL_COMPLETION_RECEIPT",
+  "PRE_RESULT_INFO01_SHA": "0bd2a1e768156d74f82a9959a62da40184d30d87",
+  "frozen_protocol_unchanged": true,
+  "new_forecast_fits": 0,
+  "new_forecast_scores": 0,
+  "no_threshold_or_model_tuning": true,
+  "prior_dispatch_failures": "Two nonexistenttestfilename dispatches; userauthorizedcorrectpathresume,42affectedtests passed; no repeated assertionfailure",
+  "source_fetch_failures": "Two guessedSLOOS URLs404 andFiscalData403 recorded; native observedlinks used once; nofakeaccess or infinite retry",
+  "current_landing_exposure": "H15current2026table surfaced duringmetadata inspection; excluded and recorded; no claim thatall browsedpages containonlypre2024numbers",
+  "publication_vs_measurement_verified": true,
+  "source_quality_not_backtest": true,
+  "resume": "Completed probe receipts reused; build offline from reviewedsource_facts and receipts; repeat only incomplete stage",
+  "tests": {
+    "research_specific": {
+      "passed": 53,
+      "command": "pytest -q tests/test_info01.py tests/test_info01_artifacts.py -o addopts=",
+      "log": "research-tests-final.log"
+    },
+    "directly_affected": {
+      "passed": 42,
+      "command": "pytest -q tests/test_text_route_audit02.py tests/test_context01_*.py -o addopts=",
+      "log": "affected-tests-final.log"
+    },
+    "full_repository": {
+      "passed": 593,
+      "skipped": 2,
+      "warnings": 3,
+      "seconds": 25.1,
+      "command": "pytest -q -o addopts=",
+      "log": "full-repository-tests.log",
+      "skip_scope": "Two explicitly skipped integration parity tests: Docker/digest-pinned scoring image/registry and live staging CodaBench upload; neither is exercised by local unit tests.",
+      "warning_scope": "Existing pandas copy_on_write deprecation in test_historical_heads"
+    },
+    "common_toolkit": {
+      "passed": 250,
+      "seconds": 0.77,
+      "version": "2.4.3",
+      "command": "pytest -q tests -o addopts= in pinned common/",
+      "log": "common-toolkit-tests.log"
+    }
+  },
+  "protected_hashes_verified": 156,
+  "completion_proof_policy": "RESULT parent/tree/files/main/clean and archiveCRC/SHA proofs recorded externally after commit, avoiding self-referential metadata",
+  "test_log_hashes": {
+    "research-tests-final.log": "8db0254ebafb84d23b112fc26ba453cd893e8d2f415519547e67bb05e2e0a27e",
+    "affected-tests-final.log": "2ee23bc6644575554731d751f29da84478dc77071f9b0dc9b360024152a01e86",
+    "full-repository-tests.log": "fa099594d113c5052416f9c183ae839f30afa5a19121f691da677a46955b8c2c",
+    "common-toolkit-tests.log": "853db352ca0950a3cf2bf4e01f5fa6ac1c2af96845ad0b58e255f21b2ab421b1"
+  }
+}

@@ -1,0 +1,501 @@
+{
+  "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+  "numeric_cutoff": "2024-12-18",
+  "max_distinct_rounds_per_serious_source": 3,
+  "full_panel_constructed": false,
+  "original_samples": [
+    {
+      "source_id": "ECB_SPF_ORIGINAL",
+      "round": "2010Q4",
+      "url": "https://www.ecb.europa.eu/pub/pdf/other/mb201011_focus06.en.pdf",
+      "sample_file_private": "ecb-spf-2010q4.pdf",
+      "raw_sha256": "b6d373a92b54ff5dcfcf0b55a7810d60488bc48ace838c247dfaafe5ce580124",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 266987,
+      "available_at": null,
+      "availability_precision": "unknown; rejected",
+      "values": {
+        "hicp_expected2011": 1.5
+      },
+      "accepted_for_reconstruction": false,
+      "missing_fields": [],
+      "note": "Publication day unresolved; schema/history existence only; rejected before2015"
+    },
+    {
+      "source_id": "ECB_SPF_ORIGINAL",
+      "round": "2019Q4",
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html",
+      "sample_file_private": "ecb-spf-2019q4.html",
+      "raw_sha256": "3e9c3a6da8ae216fa551283ed3a5ca011b2fa1e05f9cfb834016ca409c9a4e4e",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 125170,
+      "available_at": "2019-10-25T23:59:59+02:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "hicp_next_calendar_year": 1.2,
+        "gdp_next_calendar_year": 1.0
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Archive date plus original current-round report; current aggregate/history excluded"
+    },
+    {
+      "source_id": "ECB_SPF_ORIGINAL",
+      "round": "2024Q4",
+      "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241018_1~9b5ce6a9bf.en.html",
+      "sample_file_private": "ecb-spf-2024q4.html",
+      "raw_sha256": "68f4a54056fac862c17530c896d19d7390f8fcddc3d77eebbbc3755a24882973",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 109026,
+      "available_at": "2024-10-18T23:59:59+02:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "hicp_next_calendar_year": 1.9,
+        "gdp_next_calendar_year": 1.2
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Explicit release date;2025 forecast values published2024 are expectations, not future outcomes"
+    },
+    {
+      "source_id": "FED_SLOOS_ORIGINAL",
+      "round": "2010January",
+      "url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201002/table1.htm",
+      "sample_file_private": "sloos-2010.html",
+      "raw_sha256": "1e9bd81904e8e7a438a28d36b02007b918c213c9bcac84226ff890807986038a",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 297413,
+      "available_at": "2010-02-01T23:59:59-05:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "tightened_banks": 0,
+        "eased_banks": 3,
+        "responding_originating_banks": 55
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Original all-bank C&I count table; same-day time unknown"
+    },
+    {
+      "source_id": "FED_SLOOS_ORIGINAL",
+      "round": "2019October",
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "sample_file_private": "sloos-2019.html",
+      "raw_sha256": "a4a9bf289404ed91619ca16f67c8792f20fdbabdaa0407acdbffd009515efc9a",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 606781,
+      "available_at": "2019-11-04T23:59:59-05:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "tightened_banks": 7,
+        "eased_banks": 3,
+        "responding_originating_banks": 74
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Original count and percentage table/PDF agree"
+    },
+    {
+      "source_id": "FED_SLOOS_ORIGINAL",
+      "round": "2024October",
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "sample_file_private": "sloos-2024.html",
+      "raw_sha256": "e16c392ee9312587c6f563d546dd31aa6e7fb6e0a82617b6801b7a3bf4cbecc1",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 582462,
+      "available_at": "2024-11-12T23:59:59-05:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "tightened_banks": 5,
+        "eased_banks": 5,
+        "responding_originating_banks": 62
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "ActualdatedtableNov12; one non-originating bank excluded from denominator"
+    },
+    {
+      "source_id": "NYFED_SPD_ORIGINAL",
+      "round": "2011December",
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/December_result.pdf",
+      "sample_file_private": "nyfed-spd-2011dec.pdf",
+      "raw_sha256": "ddac6eca101447435cc54c4584a49fffaed6537e6c32ff3bb3b39358a4d18914",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 332256,
+      "available_at": "2012-01-04T23:59:59-05:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "prob_next_January_meeting_target_0_to_025_percent": 99
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Dated public mediaadvisory; response deadline2011-12-05 is NOT availability"
+    },
+    {
+      "source_id": "NYFED_SPD_ORIGINAL",
+      "round": "2018January",
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2018/jan-2018-spd-results.pdf",
+      "sample_file_private": "nyfed-spd-2018jan.pdf",
+      "raw_sha256": "0e9acde206e5f4070c8cf5bc705379907f1ee60d1aa40ee2f712db68c4903712",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 175665,
+      "available_at": "2018-02-22T23:59:59-05:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "respondents": 23,
+        "expected2018Q1_target_midpoint_percent": 1.63
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "PIT-B reconstructed from official1day-after-minutespolicy and actualFeb21minutes release; no holiday; visualcover resolves hidden2016template"
+    },
+    {
+      "source_id": "NYFED_SPD_ORIGINAL",
+      "round": "2024September",
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-spd-results.pdf",
+      "sample_file_private": "nyfed-spd-2024sep.pdf",
+      "raw_sha256": "6a3d35d4d9e63d9816d810ea56a28f708b91e8b997aa07e5a51d1b91fc2d64ad",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 412041,
+      "available_at": "2024-10-10T23:59:59-04:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "respondents": 24
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [
+        "PDF numerical target columns unreadable by plain extractor; complementary XLSX required"
+      ],
+      "note": "Datedannouncement and policy; PDF numericfont extraction incomplete, same-round identical providerXLSX is complementary schema probe"
+    },
+    {
+      "source_id": "BOE_IAS_ORIGINAL",
+      "round": "2014November",
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2014/november-2014",
+      "sample_file_private": "boe-ias-2014.html",
+      "raw_sha256": "3f76c69cd0742191d1fbd80b9b9644ce4f11895bb0405748754ac5215dd8f9ba",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 77480,
+      "available_at": "2014-12-05T23:59:59+00:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "next_year_median_inflation_percent": 2.5
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Published headline only"
+    },
+    {
+      "source_id": "BOE_IAS_ORIGINAL",
+      "round": "2019November",
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2019/november-2019",
+      "sample_file_private": "boe-ias-2019.html",
+      "raw_sha256": "4aa76540f908b1f2c8858a5ec78c035fcc1804b641925ac14a6ef0c9883127f8",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 77803,
+      "available_at": "2019-12-13T23:59:59+00:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "next_year_median_inflation_percent": 3.1
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Published headline only"
+    },
+    {
+      "source_id": "BOE_IAS_ORIGINAL",
+      "round": "2024November",
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2024/november-2024",
+      "sample_file_private": "boe-ias-2024.html",
+      "raw_sha256": "8f7367f18d28c086b9993b11631d809d7440edbd0fc48619fefbb0ef8799230f",
+      "representation": "Original HTTP body retrieved now; not immutable historical byte proof",
+      "bytes": 79700,
+      "available_at": "2024-12-13T23:59:59+00:00",
+      "availability_precision": "conservative end-of-publication-date upper bound",
+      "values": {
+        "next_year_median_inflation_percent": 3.0
+      },
+      "accepted_for_reconstruction": true,
+      "missing_fields": [],
+      "note": "Published headline only; original surveyNov8–11 not release"
+    }
+  ],
+  "raw_download_receipts": [
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2014/november-2014",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2014/november-2014",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:30Z",
+      "sha256_original_bytes": "3f76c69cd0742191d1fbd80b9b9644ce4f11895bb0405748754ac5215dd8f9ba",
+      "bytes": 77480,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.512001037597656,
+      "receipt_file": "boe-ias-2014.html.receipt.json"
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2019/november-2019",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2019/november-2019",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:22Z",
+      "sha256_original_bytes": "4aa76540f908b1f2c8858a5ec78c035fcc1804b641925ac14a6ef0c9883127f8",
+      "bytes": 77803,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.816000938415527,
+      "receipt_file": "boe-ias-2019.html.receipt.json"
+    },
+    {
+      "url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2024/november-2024",
+      "resolved_url": "https://www.bankofengland.co.uk/inflation-attitudes-survey/2024/november-2024",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:50:27Z",
+      "sha256_original_bytes": "8f7367f18d28c086b9993b11631d809d7440edbd0fc48619fefbb0ef8799230f",
+      "bytes": 79700,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.987850904464722,
+      "receipt_file": "boe-ias-2024.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/press/economic-bulletin/mb/html/index.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:46:55Z",
+      "sha256_original_bytes": "92f2987805c4f62a4cf71364b5b031f7abf5a6852ee4b59bb3df97252607cf60",
+      "bytes": 127165,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 8.386882781982422,
+      "receipt_file": "ecb-monthly-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/all-releases.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/all-releases.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:50:25Z",
+      "sha256_original_bytes": "ccb856f00eacfb71e92851bf941cf9e00e3ebe6551ee930440435ba6b15bbd62",
+      "bytes": 173201,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 7.682330369949341,
+      "receipt_file": "ecb-release-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/pub/pdf/other/mb201011_focus06.en.pdf",
+      "resolved_url": "https://www.ecb.europa.eu/pub/pdf/other/mb201011_focus06.en.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:23Z",
+      "sha256_original_bytes": "b6d373a92b54ff5dcfcf0b55a7810d60488bc48ace838c247dfaafe5ce580124",
+      "bytes": 266987,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.6759233474731445,
+      "receipt_file": "ecb-spf-2010q4.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:48:23Z",
+      "sha256_original_bytes": "3e9c3a6da8ae216fa551283ed3a5ca011b2fa1e05f9cfb834016ca409c9a4e4e",
+      "bytes": 125170,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.63866400718689,
+      "receipt_file": "ecb-spf-2019q4.html.receipt.json"
+    },
+    {
+      "url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241018_1~9b5ce6a9bf.en.html",
+      "resolved_url": "https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr241018_1~9b5ce6a9bf.en.html",
+      "http_status": 200,
+      "content_type": "text/html; charset=UTF-8",
+      "retrieved_at_utc": "2026-10-02T16:48:24Z",
+      "sha256_original_bytes": "68f4a54056fac862c17530c896d19d7390f8fcddc3d77eebbbc3755a24882973",
+      "bytes": 109026,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 8.293919563293457,
+      "receipt_file": "ecb-spf-2024q4.html.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/December_result.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/December_result.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:22Z",
+      "sha256_original_bytes": "ddac6eca101447435cc54c4584a49fffaed6537e6c32ff3bb3b39358a4d18914",
+      "bytes": 332256,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.800785064697266,
+      "receipt_file": "nyfed-spd-2011dec.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2018/jan-2018-spd-results.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2018/jan-2018-spd-results.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "0e9acde206e5f4070c8cf5bc705379907f1ee60d1aa40ee2f712db68c4903712",
+      "bytes": 175665,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.700258493423462,
+      "receipt_file": "nyfed-spd-2018jan.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-spd-results.pdf",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-spd-results.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "6a3d35d4d9e63d9816d810ea56a28f708b91e8b997aa07e5a51d1b91fc2d64ad",
+      "bytes": 412041,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.1953818798065186,
+      "receipt_file": "nyfed-spd-2024sep.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-data.xlsx",
+      "resolved_url": "https://www.newyorkfed.org/medialibrary/media/markets/survey/2024/sep-2024-data.xlsx",
+      "http_status": 200,
+      "content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+      "retrieved_at_utc": "2026-10-02T17:03:39Z",
+      "sha256_original_bytes": "9f13e9647b38ddea91a8d67324f9fdf58b044ea62e7efdfeafa9a3c338a5b9c2",
+      "bytes": 177812,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.716998100280762,
+      "receipt_file": "nyfed-spd-2024sep.xlsx.receipt.json"
+    },
+    {
+      "url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "resolved_url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "retrieved_at_utc": "2026-10-02T16:46:46Z",
+      "sha256_original_bytes": "84f3f254a3bd07ff140dfbe054f53e9cde0492fec7f4505d417e15237ae860f2",
+      "bytes": 211435,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.36382532119751,
+      "receipt_file": "nyfed-survey-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201002/table1.htm",
+      "resolved_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201002/table1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:48:49Z",
+      "sha256_original_bytes": "1e9bd81904e8e7a438a28d36b02007b918c213c9bcac84226ff890807986038a",
+      "bytes": 297413,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.972562789916992,
+      "receipt_file": "sloos-2010.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-201910.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-201910.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:50:23Z",
+      "sha256_original_bytes": "1cf4117fc516aa9db969987d4fc2a2af6bd12ef5e9fed21b0d776f725c99cff3",
+      "bytes": 91914,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.572033643722534,
+      "receipt_file": "sloos-2019-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:54:52Z",
+      "sha256_original_bytes": "a4a9bf289404ed91619ca16f67c8792f20fdbabdaa0407acdbffd009515efc9a",
+      "bytes": 606781,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 6.022581338882446,
+      "receipt_file": "sloos-2019.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/documents/sloos-201910-table1.pdf",
+      "resolved_url": "https://www.federalreserve.gov/data/documents/sloos-201910-table1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:52:33Z",
+      "sha256_original_bytes": "a76bb4ebb2cb7bebc6d55b56a682fb43991031639ff4b2e7519fa531969c5f15",
+      "bytes": 366179,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 4.941413402557373,
+      "receipt_file": "sloos-2019.pdf.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202410.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-202410.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:50:28Z",
+      "sha256_original_bytes": "8046c0b739e23732914ad30fd41d070eb91a1b170b6eb2d68a8b824691a8e413",
+      "bytes": 96504,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 5.394026756286621,
+      "receipt_file": "sloos-2024-index.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "resolved_url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "http_status": 200,
+      "content_type": "text/html",
+      "retrieved_at_utc": "2026-10-02T16:55:04Z",
+      "sha256_original_bytes": "e16c392ee9312587c6f563d546dd31aa6e7fb6e0a82617b6801b7a3bf4cbecc1",
+      "bytes": 582462,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 12.07417917251587,
+      "receipt_file": "sloos-2024.html.receipt.json"
+    },
+    {
+      "url": "https://www.federalreserve.gov/data/documents/sloos-202410-table1.pdf",
+      "resolved_url": "https://www.federalreserve.gov/data/documents/sloos-202410-table1.pdf",
+      "http_status": 200,
+      "content_type": "application/pdf",
+      "retrieved_at_utc": "2026-10-02T16:52:41Z",
+      "sha256_original_bytes": "7c27ec14af022e0347fbce2ad4d5c309b961063b7d423f58fa91f5196b837967",
+      "bytes": 325760,
+      "representation": "original HTTP response body bytes, current retrieval; NOT proof of historical immutable bytes",
+      "elapsed": 7.2060911655426025,
+      "receipt_file": "sloos-2024.pdf.receipt.json"
+    }
+  ],
+  "schema": "source_id/round/available_at/field/units/value/rawhash/release-evidence; keep originally released field and vintage separately",
+  "missingness": "Bounded12-round check only. No claim of full-panel completeness. ECB2010 publication unavailable; SPD2024PDF font data incomplete. SLOOS counts use reported denominator, not filled bank roster.",
+  "cadence": "QuarterlyECB/SLOOS/BoE; FOMC-cycle SPD. Do not forward-fill beyond frozen source-age guard.",
+  "stability": "Some guessed SLOOS table URLs404; native observed hyphenated links and matchingPDF used. No source API or retry loop faked access.",
+  "incidental_current_page_exposure": {
+    "source": "BoardH15 current documentation landing",
+    "web_ref": "turn33view0",
+    "what": "Current2026 rate table automatically surfaced during release-time documentation inspection",
+    "action": "Excluded from probes/features/labels and any ranking; current landing pages not an independentvalidation universe",
+    "new_target_dataset_loaded": false
+  },
+  "web_extracted_representation": "Private web-inspection JSON hashes certify tool response text only, never raw provider bytes",
+  "NYFED_XLSX_schema_check": {
+    "round": "2024September",
+    "raw_sha256": "9f13e9647b38ddea91a8d67324f9fdf58b044ea62e7efdfeafa9a3c338a5b9c2",
+    "rows": 2199,
+    "columns": 21,
+    "sheet": "Sheet1",
+    "header_first_eight": [
+      "survey_release_date",
+      "survey_due_date",
+      "panel_type",
+      "spd_question_number",
+      "theme",
+      "subject_group",
+      "subject",
+      "question_type"
+    ],
+    "provider_survey_release_date": "2024-09-04",
+    "provider_survey_due_date": "2024-09-09",
+    "public_results_available_date": "2024-10-10",
+    "availability_field": "public_results_available_date",
+    "provider_survey_release_date_is_publication": false,
+    "panel_warning": "Combined SPD/SMP rows are not automatically SPD-only expectations; select original SPD main-table fields before future use",
+    "numeric_forecast_panel_constructed": false
+  }
+}
