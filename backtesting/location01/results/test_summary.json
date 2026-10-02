@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Verified pre-result tests and public-unit firewall.",
+  "location_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "repository_tests": {
+    "passed": 431,
+    "skipped": 2,
+    "failed": 0
+  },
+  "shared_toolkit_tests": {
+    "passed": 250,
+    "failed": 0
+  },
+  "public_safe_units": 104,
+  "log_sha256": {
+    "location-all-tests-final.log": "93ed641fb80378ea7896065fb8a4d8177e12556ac2993220c66ec5640baabc65",
+    "location-common-tests.log": "60d74a0298fed2f950ce7414e807a171aa6d99cccf0f8fc4f9efe23211a64fa4"
+  }
+}
