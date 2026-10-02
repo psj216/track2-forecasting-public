@@ -1,0 +1,65 @@
+{
+  "executive_summary": "Frozen expectation research provenance; no per-cell outcomes or source values.",
+  "branch": "track2/expectation-01-true-market-expectation",
+  "parent_sha": "2a110455c4d4640c8ea8a3b09dd62455104ab475",
+  "source_ids": [
+    "PHIL_SPF"
+  ],
+  "class_separation": true,
+  "target": "Unchanged LOCATION-01 oracle delta and original V5.1 draw/SD/scale caches",
+  "source_universe": "All five preregistered SPF current and next-quarter medians, 1998Q1\u20132024Q4; GDP first actuals1998Q1\u20132024Q3. No CPI monthly-vs-quarterly surprise invented.",
+  "E": "Current expectation, next expectation, next-minus-current survey slope, age/21, observed-presence flag. Primary news window 1\u201321 business days after survey release. This fixed short news window tests new information rather than a persistent macro intercept; chosen before any target score.",
+  "V": "Current calendar-target expectation minus immediately previous survey expectation for same calendar-target; change5, change21, direction, magnitude. Actual quarterly snapshots only; no interpolated or daily invented snapshots.",
+  "D": "Excluded: original historical dispersion-publication timing not proven",
+  "S": "First-release GDP actual minus last matching pre-release current/next-target survey; expanding sample SD of strictly earlier GDP surprises; 24 prior events minimum; S1/S5/S21, summing overlapping eligible original events",
+  "cutoff": "All publication dates at most preceding business day. Release-day excluded. Mon\u2013Fri business calendar exactly matches inherited pandas BDay semantics.",
+  "first_release": "Original BEA advance headline; 2018Q4 delayed initial qualifies. No revised values or source latest/recent columns.",
+  "missing": "Exact zeros for unavailable source features; never synthesize expectation",
+  "economic_sign": "actual minus expectation; inflation/rates/unemployment E direct numerical sign; no score-dependent flips",
+  "interactions": "A1:28 global E/S; A2:plus each base feature times horizon5/21/63/126/189; A3:plus groupFX/Rates/FactorEquity; A4:plus 25asset identities; A5:plus25global V columns; D excluded. Metadata appear only multiplied by actual information; no bare intercept.",
+  "model": "Ridge fit_intercept=False; StandardScaler with_mean=False on active training cells only; alpha selected by active validation delta-MSE, grid0.01/0.1/1/10/100; cold-start100; no CRPS tuning",
+  "diagnostic": "One HGB on A4, max_depth3/learning_rate0.05/max_iter200/l2_regularization1/random_state19/early_stoppingFalse/categoricalNone; force zero prediction on inactive rows",
+  "source_specific": "Five independent family-only A4 Ridge fits using the same grid/purge; no source selection; diagnostic full effect assumes shifts only when that family active",
+  "folds": [
+    [
+      2009,
+      2010,
+      2013
+    ],
+    [
+      2013,
+      2014,
+      2017
+    ],
+    [
+      2017,
+      2018,
+      2020
+    ],
+    [
+      2020,
+      2021,
+      2024
+    ]
+  ],
+  "purge": "Import unchanged LOCATION-01 189BD purge and target maturity; same inherited inner chronological two-year eras",
+  "controls": {
+    "A": "Past-only same-family raw-surprise donor sampled with fixedseed1907; frozen genuine past scale, no future donors",
+    "B": "Same-family independent random signs seed1907; frozen original scaling/activation",
+    "C": "Immediately older same-target survey. Current value sourced from previous next-target record; missing older next-target and slope encoded0, never fabricated; primary activation window preserved to isolate stale content; older age recorded. Surprise recomputed from strictly older matching snapshot if available.",
+    "D": "GDP actual event release-date permutation within family/year seed1907; early fictitious dates rejected by max(real_release,permuted_date), conservative delayed activation; never future information. E remains unchanged.",
+    "model": "Each A\u2013D uses fixed A5 Ridge, same inner grid/purge; controls cannot be selected away",
+    "guards": [
+      "E future/same-day surprise rejected",
+      "F latest/third vintage rejected",
+      "G future source/market mutation leaves features and original cached V5.1 baseline unchanged",
+      "H postrelease consensus rejected"
+    ]
+  },
+  "scoring": "Import common fair CRPS; original per-row normalization scales; clip raw predicted standardized shifts\u00b110 only; import inherited translation geometry guard; no drawn resampling",
+  "active": "Primary feature-vector nonzero; primary A0\u2013A5/HGB comparison uses identical primary-active masks; controls also report own active coverage and paired metrics on primary-active mask; full means fixed82184 crossfit cells, not135994 training+evaluation ledger",
+  "bootstraps": "2000 paired event-date connected-component blocks: origins sharing any survey/GDP event are unioned, transitive overlaps kept together; source publication dates with coincident release unioned; all cells of each origin kept. Full 2000 paired calendar-year blocks seed1903; no cell bootstrap.",
+  "control_separation": "Primary over each A5-control loss ratio paired event-block upper95% CI <1 and full paired year upper95%CI<1, across A\u2013D; conservative because A/B leave genuine E unchanged",
+  "success": "At least3active outereras; WEAK active<=.97/full<1/atleast3foldimprovements/capture>.05/clearcontrols; higher gates retain WEAKconditions and YES active<=.95/full<=.995/capture>=.10; STRONG .90/.99/.20; MOONSHOT .80/.98/.35; nonlinear-only separate; no submission",
+  "runtime": "15model chunks per fold; each timeout<=900seconds, heartbeat daemon every60seconds, write each prediction/model/audit immediately; scoring by100origins max with incremental checkpoints"
+}

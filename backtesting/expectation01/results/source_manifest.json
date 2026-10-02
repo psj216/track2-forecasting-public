@@ -1,0 +1,1728 @@
+{
+  "executive_summary": "Frozen expectation research provenance; no per-cell outcomes or source values.",
+  "parent_sha": "2a110455c4d4640c8ea8a3b09dd62455104ab475",
+  "retrieved_at_utc": "2026-10-02T03:54:29.478278+00:00",
+  "source_quality_fixed_before_scores": true,
+  "sources": [
+    {
+      "source_id": "PHIL_SPF",
+      "class": "TRUE_CONSENSUS",
+      "status": "ADMISSIBLE",
+      "provider": "Federal Reserve Bank of Philadelphia",
+      "families": [
+        "RGDP",
+        "CPI",
+        "UNEMP",
+        "TBILL",
+        "TBOND"
+      ],
+      "url": "https://www.philadelphiafed.org/surveys-and-data/real-time-data-research/survey-of-professional-forecasters",
+      "dataset_identifiers": [
+        "medianLevel.xlsx",
+        "medianGrowth.xlsx",
+        "spf-release-dates.txt",
+        "108 dated original quarterly reports"
+      ],
+      "coverage": [
+        "1998Q1",
+        "2024Q4"
+      ],
+      "publication_timestamp_semantics": "Official survey release date, not response collection date; dated original reports support availability; preceding business-day cutoff",
+      "revision_policy": "Survey-quarter snapshots; derived GDP growth of genuine median survey levels as provider publishes, not a model forecast. Latest outcome/jump-off columns excluded.",
+      "first_release_availability": "GDP only: 107 original advance/initial BEA releases; exact headline rounded 0.1% values; all match first-vintage support within 0.055 percentage points",
+      "expectation_timestamp_semantics": "Current/next calendar-quarter genuine respondent medians; published quarterly snapshots only",
+      "license_note": "Philadelphia Fed online terms permit informational, educational and research use; attribution retained. Statistical data used for research; raw copyrighted reports retained privately, no public redistribution. Moody Aaa/Baa excluded.",
+      "license_url": "https://www.philadelphiafed.org/about-us/privacy-notice",
+      "usable_events": 108,
+      "usable_values": 1080,
+      "rejected_events": 0,
+      "rejection_reasons": [],
+      "processed_sha256": "1e47fd03c6119828b5ef4f4e99d611577c2b87cfddce61664aa352fe3677b1df",
+      "first_actuals_sha256": "6216c53eb5cc79a04fe309596be863ab9339022641f23fd972fb9eac857f89aa",
+      "source_admissibility_checks": {
+        "value": true,
+        "publication_date": true,
+        "PIT_availability": true,
+        "no_outcome_backfill": true,
+        "unit_definition": true,
+        "first_release_compatible": true,
+        "provenance": true,
+        "research_use": true,
+        "reproducible_hash": true,
+        "coverage": true
+      },
+      "dispersion": "EXCLUDED: historical dispersion numeric files exist, but original PIT publication timing not demonstrated; no invented D"
+    },
+    {
+      "source_id": "BEA_GDP_FIRST",
+      "class": "ACTUAL_SUPPORT_ONLY",
+      "status": "ADMISSIBLE",
+      "provider": "US Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/news/archive?created_1=All&field_related_product_target_id=451&title=advance",
+      "coverage": [
+        "1998Q1",
+        "2024Q3"
+      ],
+      "publication_timestamp_semantics": "Original wire/embargo header date; 2018Q4 initial release on 2019-02-28, not scheduled cancelled January release",
+      "unit_definition": "Real GDP seasonally adjusted annualized quarter-on-quarter percentage change",
+      "revision_policy": "Original first-release headline only; second/third/latest values never feature inputs",
+      "first_release_availability": 107,
+      "license_note": "BEA official FAQ147: public domain unless stated otherwise; source attribution retained",
+      "license_url": "https://www.bea.gov/help/faq/147",
+      "processed_sha256": "6216c53eb5cc79a04fe309596be863ab9339022641f23fd972fb9eac857f89aa",
+      "usable_events": 107,
+      "rejected_events": 0
+    },
+    {
+      "source_id": "NYFED_SPD_SMP",
+      "class": "TRUE_CONSENSUS",
+      "status": "PARTIAL",
+      "provider": "Federal Reserve Bank of New York",
+      "url": "https://www.newyorkfed.org/markets/market-intelligence/survey-of-market-expectations",
+      "usable_events": 0,
+      "rejection_reasons": [
+        "Aggregate results released approximately three weeks after FOMC, after minutes; survey response dates cannot be public-availability dates",
+        "Exact historical aggregate publication timestamps and consistent numeric snapshots not secured for this frozen universe"
+      ]
+    },
+    {
+      "source_id": "FRED_ALFRED_BREAKEVENS",
+      "class": "MARKET_IMPLIED",
+      "status": "REJECTED",
+      "provider": "Federal Reserve Bank of St Louis",
+      "url": "https://fred.stlouisfed.org/legal/",
+      "usable_events": 0,
+      "rejection_reasons": [
+        "Current FRED terms explicitly bar use of Services/Content for development/training of software systems including machine learning without prior written consent; none supplied"
+      ],
+      "sample_disposition": "Diagnostic numerical samples quarantined and excluded from all features/models and durable archive; metadata/legal evidence only"
+    },
+    {
+      "source_id": "FED_BOARD_NATIVE_H15",
+      "class": "MARKET_IMPLIED",
+      "status": "PARTIAL",
+      "provider": "Federal Reserve Board",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "usable_events": 0,
+      "rejection_reasons": [
+        "Original archive requests 2010/2014 available, 2018/2024 return404; no sufficient original PIT archive across at least three fixed outer eras acquired",
+        "Retrospective current nominal/TIPS CSV does not establish PIT vintages; not substituted"
+      ]
+    }
+  ],
+  "raw_artifacts": [
+    {
+      "file": "Documentation_First_Second_Third_Release_Values.pdf",
+      "sha256": "306460c8403545c57761e2c88d0957b2e78ae42bb5187bd20d4cf8d388b1be7f",
+      "bytes": 309092,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/real-time-data/data-files/documentation/Documentation_First_Second_Third_Release_Values.pdf?sc_lang=en&hash=13753FDA92823F62771D93FD41544D88",
+      "retrieved": "2026-10-02T03:18:05.903316+00:00"
+    },
+    {
+      "file": "artifact-policy.html",
+      "sha256": "675587774f9d1ee17022f6245f4f45e15101e2b2a7f9dc66cc787becf203e637",
+      "bytes": 5612
+    },
+    {
+      "file": "bea/1998q1.html",
+      "sha256": "012aca0af49ef8bb44adc035a4d2a9c9a5346eefae5334aec289654b5e7e75ea",
+      "bytes": 36821,
+      "url": "https://www.bea.gov/news/1998/gross-domestic-product-1st-quarter-1998-advance",
+      "retrieved": "2026-10-02T03:35:28.059138+00:00"
+    },
+    {
+      "file": "bea/1998q1.txt",
+      "sha256": "ca95b3b29dcc01b557cb910b7a33d6133dfba97f1f2cc66bb818a4319c014c9c",
+      "bytes": 103866,
+      "url": "https://www.bea.gov/sites/default/files/2018-03/gdp198a.txt",
+      "retrieved_at": "2026-10-02T03:43:22.979425+00:00"
+    },
+    {
+      "file": "bea/1998q2.html",
+      "sha256": "aad443eafeddb252ceb0054c8381f4d9233a57d822eb22788ce0d312ec13e525",
+      "bytes": 52880,
+      "url": "https://www.bea.gov/news/1998/gross-domestic-product-2nd-quarter-1998-advance-revised-estimates-1995-through-1st",
+      "retrieved": "2026-10-02T03:35:28.087107+00:00"
+    },
+    {
+      "file": "bea/1998q2.txt",
+      "sha256": "16c565fad0fa8c4d759526b4aac545e6917a668d9d6bb9d913be21f3af3003de",
+      "bytes": 327162,
+      "url": "https://www.bea.gov/sites/default/files/2018-03/gdp298a.txt",
+      "retrieved_at": "2026-10-02T03:43:23.143808+00:00"
+    },
+    {
+      "file": "bea/1998q3.html",
+      "sha256": "300cc6e15e8f5dc3333b0b06be648363cfa29342c6a0aa00d40a274db26e6c47",
+      "bytes": 47783,
+      "url": "https://www.bea.gov/news/1998/gross-domestic-product-3rd-quarter-1998-advance",
+      "retrieved": "2026-10-02T03:35:28.062096+00:00"
+    },
+    {
+      "file": "bea/1998q3.txt",
+      "sha256": "5cec387bccabe0f951aabbbb88d710d36367b08f1c3c2d79912a50de26ab3e5f",
+      "bytes": 80743,
+      "url": "https://www.bea.gov/sites/default/files/2018-03/gdp398a.txt",
+      "retrieved_at": "2026-10-02T03:43:23.015663+00:00"
+    },
+    {
+      "file": "bea/1998q4.html",
+      "sha256": "637626347818563e99b3341b24df8c6d415a11afc8f126a9e6c9003057ab8049",
+      "bytes": 122478,
+      "url": "https://www.bea.gov/news/1999/gross-domestic-product-4th-quarter-1998-advance",
+      "retrieved": "2026-10-02T03:35:28.155349+00:00"
+    },
+    {
+      "file": "bea/1999q1-original.txt",
+      "sha256": "e56b313cb1839e5d6164b2e3ce6155e853fd8aa6a95d7225f0813b0fa7e2b799",
+      "bytes": 64882
+    },
+    {
+      "file": "bea/1999q1.html",
+      "sha256": "3f973060b02ca9a92ee391198b4bf40daa527eaf281291e012363cd53dc67b69",
+      "bytes": 47300,
+      "url": "https://www.bea.gov/news/1999/gross-domestic-product-1st-quarter-1999-advance-estimate",
+      "retrieved": "2026-10-02T03:35:22.011327+00:00"
+    },
+    {
+      "file": "bea/1999q1.pdf",
+      "sha256": "f2c7b763be477a61b1b32e0e0c3d1d1268e01e7cb5535f90a0c380d38223c077",
+      "bytes": 55336,
+      "url": "https://www.bea.gov/sites/default/files/newsreleases/national/gdp/1999/pdf/gdp199a.pdf"
+    },
+    {
+      "file": "bea/1999q1.txt",
+      "sha256": "1fbc4303a7e2b89c685d3a148583f01388adc6fab63dfcbf94833c83f4aa80aa",
+      "bytes": 8007,
+      "url": "https://www.bea.gov/sites/default/files/2018-03/gdp199a-table2-recalculated.txt",
+      "retrieved_at": "2026-10-02T03:43:23.062984+00:00"
+    },
+    {
+      "file": "bea/1999q2.html",
+      "sha256": "f4821eb72d79dca478bf5df6a8469ca887a4dc7a0fbbea59edda92d852e3a424",
+      "bytes": 49854,
+      "url": "https://www.bea.gov/news/1999/gross-domestic-product-2nd-quarter-1999-advance",
+      "retrieved": "2026-10-02T03:35:21.984337+00:00"
+    },
+    {
+      "file": "bea/1999q3.html",
+      "sha256": "a12787cee38bf0c21415cb39442f9d57e535701764d2aa6bbf94a4eba3394972",
+      "bytes": 90330,
+      "url": "https://www.bea.gov/news/1999/gross-domestic-product-3rd-quarter-1999-advance-revised-estimates-1959-99",
+      "retrieved": "2026-10-02T03:35:22.011445+00:00"
+    },
+    {
+      "file": "bea/1999q4.html",
+      "sha256": "afaab0f823f3c01ee62920132df835c1df276e0777c7b3d8daa324d6cb5f5ee2",
+      "bytes": 126189,
+      "url": "https://www.bea.gov/news/2000/gross-domestic-product-fourth-quarter-1999-advance",
+      "retrieved": "2026-10-02T03:35:22.035062+00:00"
+    },
+    {
+      "file": "bea/2000q1.html",
+      "sha256": "072bc32347b19dd0da53e696969624b7fd7c6efca2f8154b72d2eb88d2a87e2e",
+      "bytes": 134593,
+      "url": "https://www.bea.gov/news/2000/gross-domestic-product-first-quarter-2000-advance-estimate",
+      "retrieved": "2026-10-02T03:35:22.051067+00:00"
+    },
+    {
+      "file": "bea/2000q2.html",
+      "sha256": "e80916664933260523f9c43c7cc8e4408ab7a124bc099c769aae932462b9ff2e",
+      "bytes": 276839,
+      "url": "https://www.bea.gov/news/2000/corrected-gross-domestic-product-second-quarter-2000-advance-estimate-and-revised",
+      "retrieved": "2026-10-02T03:35:22.075451+00:00"
+    },
+    {
+      "file": "bea/2000q3.html",
+      "sha256": "50996b78805974bc4dd623b5dd1d030825a01e56c64975ab507f502941a2c84f",
+      "bytes": 127061,
+      "url": "https://www.bea.gov/news/2000/gross-domestic-product-third-quarter-2000-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.866015+00:00"
+    },
+    {
+      "file": "bea/2000q4.html",
+      "sha256": "19d360ea3da5de6532bff232ee0459d27e5372039a46ea2b017d5365d134d04f",
+      "bytes": 128499,
+      "url": "https://www.bea.gov/news/2001/gross-domestic-product-fourth-quarter-2000-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.899051+00:00"
+    },
+    {
+      "file": "bea/2001q1.html",
+      "sha256": "e220d8224aa4308f7b0cddf72d1d33653766274e8b719dfec2cdbbf5c77952e8",
+      "bytes": 127625,
+      "url": "https://www.bea.gov/news/2001/gross-domestic-product-first-quarter-2001-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.874955+00:00"
+    },
+    {
+      "file": "bea/2001q2.html",
+      "sha256": "1988d89fcb4bc1832b623bcd096422a6500e570fe69f199a081d09f6da88ceb4",
+      "bytes": 277079,
+      "url": "https://www.bea.gov/news/2001/gross-domestic-product-second-quarter-2001-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.951252+00:00"
+    },
+    {
+      "file": "bea/2001q3.html",
+      "sha256": "c8fa4b2fc89dd3d95a03b493c467b22f2e7c6e7b3432a99db8a0ecbd78d36205",
+      "bytes": 126697,
+      "url": "https://www.bea.gov/news/2001/gross-domestic-product-third-quarter-2001-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.707241+00:00"
+    },
+    {
+      "file": "bea/2001q4.html",
+      "sha256": "6462f86a497be44c09a386bf9e2a8135c1026b6bc251c2fb80878410d79d87b1",
+      "bytes": 127343,
+      "url": "https://www.bea.gov/news/2002/gross-domestic-product-fourth-quarter-2001-advance-estimate",
+      "retrieved": "2026-10-02T03:35:14.868719+00:00"
+    },
+    {
+      "file": "bea/2002q1.html",
+      "sha256": "b0d2028a7c7bc00b785d2e3229e02ba0558f98bf6a5c9d0ca0bb1309fb97a9ec",
+      "bytes": 125237,
+      "url": "https://www.bea.gov/news/2002/gross-domestic-product-first-quarter-2002-advance-estimate",
+      "retrieved": "2026-10-02T03:35:08.903028+00:00"
+    },
+    {
+      "file": "bea/2002q2.html",
+      "sha256": "dfb464ef36c5f4c310e2dd4c0c603f115d73e2afd633a21e5c1929145a2f1763",
+      "bytes": 273553,
+      "url": "https://www.bea.gov/news/2002/gross-domestic-product-second-quarter-2002-advance-estimates-and-revised-estimates-1999",
+      "retrieved": "2026-10-02T03:35:08.885860+00:00"
+    },
+    {
+      "file": "bea/2002q3.html",
+      "sha256": "93eb7f9f4e236b5108a1937a29d8368bfd9972f87235073fa6c36251878486bb",
+      "bytes": 110680,
+      "url": "https://www.bea.gov/news/2002/gross-domestic-product-third-quarter-2002-advance-estimates",
+      "retrieved": "2026-10-02T03:35:08.799705+00:00"
+    },
+    {
+      "file": "bea/2002q4.html",
+      "sha256": "31fae5218f63752f5adc303287813f03b01ee7fac35e941fbcf09148fcb05181",
+      "bytes": 126402,
+      "url": "https://www.bea.gov/news/2003/gross-domestic-product-fourth-quarter-2002-advance-estimates",
+      "retrieved": "2026-10-02T03:35:08.799334+00:00"
+    },
+    {
+      "file": "bea/2003q1.html",
+      "sha256": "b7025052e558b3beacc94c399d899a6c67f17745d91377a75a727a412a78ea94",
+      "bytes": 125240,
+      "url": "https://www.bea.gov/news/2003/gross-domestic-product-first-quarter-2003-advance-estimates",
+      "retrieved": "2026-10-02T03:35:08.810964+00:00"
+    },
+    {
+      "file": "bea/2003q2.html",
+      "sha256": "730813952e5b543a897d36cd90d56c8cd3a195889e4e23e32a1edc8774fa5cb0",
+      "bytes": 125339,
+      "url": "https://www.bea.gov/news/2003/gross-domestic-product-second-quarter-2003-advance-estimates",
+      "retrieved": "2026-10-02T03:35:08.883192+00:00"
+    },
+    {
+      "file": "bea/2003q3.html",
+      "sha256": "1843979a1667dfe7ebdfed14e4f86cbb01b7e19a2f10d773f3030d353209f012",
+      "bytes": 126189,
+      "url": "https://www.bea.gov/news/2003/gross-domestic-product-third-quarter-2003-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.896766+00:00"
+    },
+    {
+      "file": "bea/2003q4.html",
+      "sha256": "b941e9caff1eb374be1590506362afaa2c43b648969aeffeac0feaf60f257c0b",
+      "bytes": 126454,
+      "url": "https://www.bea.gov/news/2004/gross-domestic-product-fourth-quarter-2003-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.923111+00:00"
+    },
+    {
+      "file": "bea/2004q1.html",
+      "sha256": "605ced39c260c70ba69e94f2921313c54e4d6fb2809e3873e6ca59b05eb01c32",
+      "bytes": 126326,
+      "url": "https://www.bea.gov/news/2004/gross-domestic-product-first-quarter-2004-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.928746+00:00"
+    },
+    {
+      "file": "bea/2004q2.html",
+      "sha256": "f4a9b74aeb309431f300592620d4eb938c8f1bc6c4f83812bdf55f56b5334a67",
+      "bytes": 276552,
+      "url": "https://www.bea.gov/news/2004/gross-domestic-product-second-quarter-2004-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.947245+00:00"
+    },
+    {
+      "file": "bea/2004q3.html",
+      "sha256": "5cdf38ed375d24b63b937fb5ea7797e7119a4a529d7f1bc7fe1bf48a6b90880f",
+      "bytes": 125591,
+      "url": "https://www.bea.gov/news/2004/gross-domestic-product-third-quarter-2004-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.928650+00:00"
+    },
+    {
+      "file": "bea/2004q4.html",
+      "sha256": "59d87a7f11733b4493b3770416ac269bcc8afe29dfa5e323596c647c98d46041",
+      "bytes": 129888,
+      "url": "https://www.bea.gov/news/2005/gross-domestic-product-fourth-quarter-2004-advance-estimates",
+      "retrieved": "2026-10-02T03:35:01.775234+00:00"
+    },
+    {
+      "file": "bea/2005q1.html",
+      "sha256": "c0ddea4f7e919140b66a1188d74fbdf76a470070acbcb2b47411413a70a5b80a",
+      "bytes": 128650,
+      "url": "https://www.bea.gov/news/2005/gross-domestic-product-first-quarter-2005-advance-estimates",
+      "retrieved": "2026-10-02T03:34:54.743041+00:00"
+    },
+    {
+      "file": "bea/2005q2.html",
+      "sha256": "c3279f4b619755465c44422fc7f48f9d003fcc1347e0f9c72b96c6103613695a",
+      "bytes": 291027,
+      "url": "https://www.bea.gov/news/2005/gross-domestic-product-second-quarter-2005-advance-estimates",
+      "retrieved": "2026-10-02T03:34:54.815585+00:00"
+    },
+    {
+      "file": "bea/2005q3.html",
+      "sha256": "dd3277726e9ab10806bf9732d662133514ce6b37a0ed6ef30da7e09858587b79",
+      "bytes": 128404,
+      "url": "https://www.bea.gov/news/2005/gross-domestic-product-third-quarter-2005-advance-estimates-technical-note-highlights",
+      "retrieved": "2026-10-02T03:34:54.750991+00:00"
+    },
+    {
+      "file": "bea/2005q4.html",
+      "sha256": "b1a89296022740b899567cc38ca5d029a23dc6016d82ea7ed41b76288b5080e2",
+      "bytes": 130647,
+      "url": "https://www.bea.gov/news/2006/gross-domestic-product-fourth-quarter-2005-advance-estimates",
+      "retrieved": "2026-10-02T03:34:54.739200+00:00"
+    },
+    {
+      "file": "bea/2006q1.html",
+      "sha256": "ec9b573ebf6ec8fa46fcfc9b4091888f357ac29476123fcf276fc9007dacf661",
+      "bytes": 129165,
+      "url": "https://www.bea.gov/news/2006/gross-domestic-product-first-quarter-2006-advance-estimates",
+      "retrieved": "2026-10-02T03:34:54.771333+00:00"
+    },
+    {
+      "file": "bea/2006q2.html",
+      "sha256": "26badd7547c7431e46ec9243b334a235f3655d95856760f9690f805ca0c4fb3a",
+      "bytes": 292727,
+      "url": "https://www.bea.gov/news/2006/gross-domestic-product-2nd-quarter-2006-advance",
+      "retrieved": "2026-10-02T03:34:54.719584+00:00"
+    },
+    {
+      "file": "bea/2006q3.html",
+      "sha256": "61d0a9e13a58d4e89f38afb55652e579b52935f0f16adbcf8cd36224122ce4a5",
+      "bytes": 128173,
+      "url": "https://www.bea.gov/news/2006/gross-domestic-product-third-quarter-2006-advance-estimates",
+      "retrieved": "2026-10-02T03:34:48.683277+00:00"
+    },
+    {
+      "file": "bea/2006q4.html",
+      "sha256": "f58f3e8011ac4baf549914308be5416217699d167f7c51bb927ef824dc51ae37",
+      "bytes": 129067,
+      "url": "https://www.bea.gov/news/2007/gross-domestic-product-4th-quarter-2006-advance",
+      "retrieved": "2026-10-02T03:34:48.715056+00:00"
+    },
+    {
+      "file": "bea/2007q1.html",
+      "sha256": "96167f56c23889bce900b6c6531ce45f9fc7e453c099540bc5fea297f5a84b36",
+      "bytes": 128017,
+      "url": "https://www.bea.gov/news/2007/gross-domestic-product-1st-quarter-2007-advance",
+      "retrieved": "2026-10-02T03:34:48.685163+00:00"
+    },
+    {
+      "file": "bea/2007q2.html",
+      "sha256": "4dcc1b95bc4d0ffe71cf540f99e6d43294abbc5cb7fdf57157e288ef93417628",
+      "bytes": 292944,
+      "url": "https://www.bea.gov/news/2007/gross-domestic-product-second-quarter-2007-advance-estimates",
+      "retrieved": "2026-10-02T03:34:48.772002+00:00"
+    },
+    {
+      "file": "bea/2007q3.html",
+      "sha256": "5de43d9c0eac29ac494927024e1be5ca49520c9527c2d505731aef0061b28bd8",
+      "bytes": 127944,
+      "url": "https://www.bea.gov/news/2007/gross-domestic-product-third-quarter-2007-advance-estimates",
+      "retrieved": "2026-10-02T03:34:48.695083+00:00"
+    },
+    {
+      "file": "bea/2007q4.html",
+      "sha256": "2e4148f551f0067ccd447e1050d58cd26dc2bd52ce3f8fa0e8f3b98be15a9b4e",
+      "bytes": 52839,
+      "url": "https://www.bea.gov/news/2008/gross-domestic-product-fourth-quarter-2007-advance",
+      "retrieved": "2026-10-02T03:34:48.651178+00:00"
+    },
+    {
+      "file": "bea/2008q1.html",
+      "sha256": "6b596e768887110170d9237e758ba283127d5e41d573ab8ce7026a5405cbea36",
+      "bytes": 51349,
+      "url": "https://www.bea.gov/news/2008/gross-domestic-product-first-quarter-2008-advance",
+      "retrieved": "2026-10-02T03:34:42.283225+00:00"
+    },
+    {
+      "file": "bea/2008q2.html",
+      "sha256": "cabd8f539d72b2da3bd3a6194b514d7ce838ff3b13e637e9b5537a7ca2825e38",
+      "bytes": 67632,
+      "url": "https://www.bea.gov/news/2008/gross-domestic-product-second-quarter-2008-advance",
+      "retrieved": "2026-10-02T03:34:42.214955+00:00"
+    },
+    {
+      "file": "bea/2008q3.html",
+      "sha256": "9b274eb5b1dec7c6746dc1ba437027b82e58bcfc71828ad5c2e51997184aba9a",
+      "bytes": 51942,
+      "url": "https://www.bea.gov/news/2008/gross-domestic-product-third-quarter-2008-advance",
+      "retrieved": "2026-10-02T03:34:42.203080+00:00"
+    },
+    {
+      "file": "bea/2008q4.html",
+      "sha256": "705cec490b4474dc878482c737d844329c1427531ea080f965ab70ca51634583",
+      "bytes": 53577,
+      "url": "https://www.bea.gov/news/2009/gross-domestic-product-fourth-quarter-2008-advance",
+      "retrieved": "2026-10-02T03:34:42.222986+00:00"
+    },
+    {
+      "file": "bea/2009q1.html",
+      "sha256": "84de29ec8c6c6edc3205cf25b71dbcadacbf58982c97c5e21b8c97463ba30c37",
+      "bytes": 48459,
+      "url": "https://www.bea.gov/news/2009/gross-domestic-product-1st-quarter-2009-advance",
+      "retrieved": "2026-10-02T03:34:42.191288+00:00"
+    },
+    {
+      "file": "bea/2009q2.html",
+      "sha256": "ab344dfa4d425665ed906921fd6a0bc458fa0a6655264fd37b4c36cb98edd08c",
+      "bytes": 490111,
+      "url": "https://www.bea.gov/news/2009/gross-domestic-product-second-quarter-2009-advance-estimate-comprehensive-revision-1929",
+      "retrieved": "2026-10-02T03:34:42.311615+00:00"
+    },
+    {
+      "file": "bea/2009q3.html",
+      "sha256": "3fd9d4e2d62f4b1cf87374670288fd8f6475b125e9a79a68500947091e87f917",
+      "bytes": 49626,
+      "url": "https://www.bea.gov/news/2009/gross-domestic-product-third-quarter-2009-advance-estimate",
+      "retrieved": "2026-10-02T03:34:34.983026+00:00"
+    },
+    {
+      "file": "bea/2009q4.html",
+      "sha256": "c45b1035c275b727d3878849d8e74750247a058784a365ec7d68a779b7802505",
+      "bytes": 50781,
+      "url": "https://www.bea.gov/news/2010/gross-domestic-product-4th-quarter-2009-advance-estimate",
+      "retrieved": "2026-10-02T03:34:35.107237+00:00"
+    },
+    {
+      "file": "bea/2010q1.html",
+      "sha256": "e53ba2768a7e0932d6bdb8372c2d8b3e4b3c9f1276dc3d9af1a50e60489b48c8",
+      "bytes": 48897,
+      "url": "https://www.bea.gov/news/2010/gross-domestic-product-1st-quarter-2010-advance-estimate",
+      "retrieved": "2026-10-02T03:34:34.968699+00:00"
+    },
+    {
+      "file": "bea/2010q2.html",
+      "sha256": "dcc368a02fe1d81cfc607b0708f0ac2cb3aa2f8fba1a486303196d262f1c2ad3",
+      "bytes": 67480,
+      "url": "https://www.bea.gov/news/2010/gross-domestic-product-2nd-quarter-2010-advance-estimate",
+      "retrieved": "2026-10-02T03:34:34.926022+00:00"
+    },
+    {
+      "file": "bea/2010q3.html",
+      "sha256": "200c86f9cfb10fec57c73ae6498982adf8ad224c13d2c8f5799d8b6f79d9270f",
+      "bytes": 52957,
+      "url": "https://www.bea.gov/news/2010/gross-domestic-product-3rd-quarter-2010-advance-estimate",
+      "retrieved": "2026-10-02T03:34:34.924207+00:00"
+    },
+    {
+      "file": "bea/2010q4.html",
+      "sha256": "2b2468d9e415235b9c5992013f77f4e64cf322ed2e6ce69f7f5bef53915bbd2d",
+      "bytes": 50855,
+      "url": "https://www.bea.gov/news/2011/gross-domestic-product-4th-quarter-2010-advance-estimate",
+      "retrieved": "2026-10-02T03:34:34.928197+00:00"
+    },
+    {
+      "file": "bea/2011q1.html",
+      "sha256": "ce241173a4370aa9d30eed5b071c109a51361e65f29cceaca403cf28bce28d69",
+      "bytes": 53994,
+      "url": "https://www.bea.gov/news/2011/gross-domestic-product-1st-quarter-2011-advance-estimate",
+      "retrieved": "2026-10-02T03:42:31.679195+00:00"
+    },
+    {
+      "file": "bea/2011q2.html",
+      "sha256": "a78336eeaca41fd8cf0551e557bca4988be6df5a33521ed497ce087b4df319d5",
+      "bytes": 71103,
+      "url": "https://www.bea.gov/news/2011/gross-domestic-product-2nd-quarter-2011-advance-estimate",
+      "retrieved": "2026-10-02T03:42:31.679691+00:00"
+    },
+    {
+      "file": "bea/2011q3.html",
+      "sha256": "ed71e018ee5bb0990a6354d26852df82e5f1f3e989844b2111aae9573f226e12",
+      "bytes": 49857,
+      "url": "https://www.bea.gov/news/2011/gross-domestic-product-3rd-quarter-2011-advance-estimate",
+      "retrieved": "2026-10-02T03:42:31.733691+00:00"
+    },
+    {
+      "file": "bea/2011q4.html",
+      "sha256": "e91001279b73b5c849aab30f0ed958073f13f435887b1262d47d7ca12e6a4451",
+      "bytes": 51470,
+      "url": "https://www.bea.gov/news/2012/gross-domestic-product-4th-quarter-and-annual-2011-advance-estimate",
+      "retrieved": "2026-10-02T03:42:31.738882+00:00"
+    },
+    {
+      "file": "bea/2012q1.html",
+      "sha256": "2e4e55da2b21e71f39504139fe7b59a2051adb970e6a1de47e83af9317be2b2b",
+      "bytes": 49676,
+      "url": "https://www.bea.gov/news/2012/gross-domestic-product-1st-quarter-2012-advance-estimate",
+      "retrieved": "2026-10-02T03:42:31.757232+00:00"
+    },
+    {
+      "file": "bea/2012q2.html",
+      "sha256": "e7ad862b0d5f0f67e12c442db86bd1791898ae30dd028083931cf6f7ac53fc74",
+      "bytes": 74278,
+      "url": "https://www.bea.gov/news/2012/gross-domestic-product-2nd-quarter-2012-advance-estimate-revised-estimates-2009-through",
+      "retrieved": "2026-10-02T03:42:31.694954+00:00"
+    },
+    {
+      "file": "bea/2012q3.html",
+      "sha256": "bf5d02b090a27ec951cca84747a7319b0171f490ebb6ade0d935f2e978b20e83",
+      "bytes": 54440,
+      "url": "https://www.bea.gov/news/2012/gross-domestic-product-3rd-quarter-2012-advance-estimate",
+      "retrieved": "2026-10-02T03:42:24.499101+00:00"
+    },
+    {
+      "file": "bea/2012q4.html",
+      "sha256": "af121dde404d7c546f2ca4e8d09242e7c4f3eeffad4da3e2a9b264ff016c5949",
+      "bytes": 56728,
+      "url": "https://www.bea.gov/news/2013/gross-domestic-product-4th-quarter-and-annual-2012-advance-estimate",
+      "retrieved": "2026-10-02T03:42:24.398021+00:00"
+    },
+    {
+      "file": "bea/2013q1.html",
+      "sha256": "baa62eedf69feeaf2ad6aaad57f3a204e7c72086dca5841d31d09c70cd7a495b",
+      "bytes": 54702,
+      "url": "https://www.bea.gov/news/2013/gross-domestic-product-1st-quarter-2013-advance-estimate",
+      "retrieved": "2026-10-02T03:42:24.458898+00:00"
+    },
+    {
+      "file": "bea/2013q2.html",
+      "sha256": "b886b2cd6662b73ea621096548fc1a185bf9b86d65425f4e303f6a28c1182ba1",
+      "bytes": 91637,
+      "url": "https://www.bea.gov/news/2013/gross-domestic-product-2nd-quarter-2013-advance-estimate-comprehensive-revision-1929",
+      "retrieved": "2026-10-02T03:42:24.447278+00:00"
+    },
+    {
+      "file": "bea/2013q3.html",
+      "sha256": "fb35d8f8b5d199678ce70b0e65e5dfec0cb7db9f072219bef3313e0b4bfdc643",
+      "bytes": 50317,
+      "url": "https://www.bea.gov/news/2013/gross-domestic-product-3rd-quarter-2013-advance-estimate",
+      "retrieved": "2026-10-02T03:42:24.450875+00:00"
+    },
+    {
+      "file": "bea/2013q4.html",
+      "sha256": "d8c7aa6fa5d3ae2923832de462f015556fa85ec31edb7d9a30d2168f1dd86818",
+      "bytes": 55451,
+      "url": "https://www.bea.gov/news/2014/gross-domestic-product-4th-quarter-and-annual-2013-advance-estimate",
+      "retrieved": "2026-10-02T03:42:24.415306+00:00"
+    },
+    {
+      "file": "bea/2014q1.html",
+      "sha256": "04f2282e4a7dddf14c2ca98657adeccbaaa7c205af07161b6e511b913b694369",
+      "bytes": 53216,
+      "url": "https://www.bea.gov/news/2014/gross-domestic-product-1st-quarter-2014-advance-estimate",
+      "retrieved": "2026-10-02T03:42:16.206935+00:00"
+    },
+    {
+      "file": "bea/2014q2.html",
+      "sha256": "063d645ddd5dc6dbe6850ee7385a323ff4e81092388cfbe4b33381d06148d6c5",
+      "bytes": 69468,
+      "url": "https://www.bea.gov/news/2014/gross-domestic-product-2nd-quarter-2014-advance-estimate-includes-historical-revisions",
+      "retrieved": "2026-10-02T03:42:16.135055+00:00"
+    },
+    {
+      "file": "bea/2014q3.html",
+      "sha256": "1bdd42fbeb77529d29ecdf4cf0e4b822855e28c0223e673e7fe49174140f27b0",
+      "bytes": 53089,
+      "url": "https://www.bea.gov/news/2014/gross-domestic-product-3rd-quarter-2014-advance-estimate",
+      "retrieved": "2026-10-02T03:42:16.194885+00:00"
+    },
+    {
+      "file": "bea/2014q4.html",
+      "sha256": "6cf906caace0e1d9cac57a2e7ad29d979a8ebf80f6f507d856cc3fe8324710a1",
+      "bytes": 55129,
+      "url": "https://www.bea.gov/news/2015/gross-domestic-product-4th-quarter-and-annual-2014-advance-estimate",
+      "retrieved": "2026-10-02T03:42:16.243144+00:00"
+    },
+    {
+      "file": "bea/2015q1.html",
+      "sha256": "d32a1c771ace0c0e911e9014d3573ae4b8bc20b90317009cb038679a7deda875",
+      "bytes": 53542,
+      "url": "https://www.bea.gov/news/2015/gross-domestic-product-1st-quarter-2015-advance-estimate",
+      "retrieved": "2026-10-02T03:42:16.247159+00:00"
+    },
+    {
+      "file": "bea/2015q2.html",
+      "sha256": "c038eaaa985a66174b21a446b299448071d96d26cfe031b96b303bd0d07bb958",
+      "bytes": 70424,
+      "url": "https://www.bea.gov/news/2015/gross-domestic-product-2nd-quarter-2015-advance-estimate-includes-historical-revisions",
+      "retrieved": "2026-10-02T03:42:16.191412+00:00"
+    },
+    {
+      "file": "bea/2015q3.html",
+      "sha256": "f6069a83235980248203ed0a74b855b2e130772275669fb8c0383ece31e1d736",
+      "bytes": 50456,
+      "url": "https://www.bea.gov/news/2015/gross-domestic-product-3rd-quarter-2015-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.818899+00:00"
+    },
+    {
+      "file": "bea/2015q4.html",
+      "sha256": "338062cafd7869b83c78b72c64f6c714f5ec5e726c5c1055664f25259a6089be",
+      "bytes": 52288,
+      "url": "https://www.bea.gov/news/2016/gross-domestic-product-4th-quarter-and-annual-2015-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.851334+00:00"
+    },
+    {
+      "file": "bea/2016q1.html",
+      "sha256": "818e4f8fc080c4270ee9210a6e8ee7d6e126b169f683faa2fa4198576cd71db5",
+      "bytes": 50613,
+      "url": "https://www.bea.gov/news/2016/gross-domestic-product-1st-quarter-2016-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.799148+00:00"
+    },
+    {
+      "file": "bea/2016q2.html",
+      "sha256": "d910ba2f74ce48822e0fed256fbeb7159fe66b3390f204401c5ffddd39e1567b",
+      "bytes": 67972,
+      "url": "https://www.bea.gov/news/2016/gross-domestic-product-2nd-quarter-2016-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.807068+00:00"
+    },
+    {
+      "file": "bea/2016q3.html",
+      "sha256": "ddf92693f4b23e626c4d2d661b48e551797c6d524ec1cee781983c3453a1871a",
+      "bytes": 53492,
+      "url": "https://www.bea.gov/news/2016/gross-domestic-product-3rd-quarter-2016-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.769829+00:00"
+    },
+    {
+      "file": "bea/2016q4.html",
+      "sha256": "97201de7701d342468e02aa823a31a52e56700f8dc9698d83de02ecc8b1f2bea",
+      "bytes": 54140,
+      "url": "https://www.bea.gov/news/2017/gross-domestic-product-4th-quarter-and-annual-2016-advance-estimate",
+      "retrieved": "2026-10-02T03:42:08.831264+00:00"
+    },
+    {
+      "file": "bea/2017q1.html",
+      "sha256": "f14de71e35d1fbd9aea0c3fdcbfd0aeabed3c6e509859a36f9a27c86f410e884",
+      "bytes": 52661,
+      "url": "https://www.bea.gov/news/2017/gross-domestic-product-1st-quarter-2017-advance-estimate",
+      "retrieved": "2026-10-02T03:42:01.863410+00:00"
+    },
+    {
+      "file": "bea/2017q2.html",
+      "sha256": "8bc1ced7ce00a1bf77f1c1290e5dc57113de7a00f2d73dae7515f8a370334b2a",
+      "bytes": 69916,
+      "url": "https://www.bea.gov/news/2017/gross-domestic-product-2nd-quarter-2017-advance-estimate-and-annual-update",
+      "retrieved": "2026-10-02T03:42:01.915552+00:00"
+    },
+    {
+      "file": "bea/2017q3.html",
+      "sha256": "fcb69a38981ed500f1d29b2a3fa6e82805f2f36f8e88fc264d38b1f856ba9f34",
+      "bytes": 53181,
+      "url": "https://www.bea.gov/news/2017/gross-domestic-product-3rd-quarter-2017-advance-estimate",
+      "retrieved": "2026-10-02T03:42:01.847111+00:00"
+    },
+    {
+      "file": "bea/2017q4.html",
+      "sha256": "b96e85cc35e23085b02b3b2e74555e521c1ca5b7e93a3c26adbc895327a075e2",
+      "bytes": 54839,
+      "url": "https://www.bea.gov/news/2018/gross-domestic-product-4th-quarter-and-annual-2017-advance-estimate",
+      "retrieved": "2026-10-02T03:42:01.863515+00:00"
+    },
+    {
+      "file": "bea/2018q1.html",
+      "sha256": "13315b660704afb40b63fbae34cc3ac808e781b4e7cada9678ad1afadd7ecfa8",
+      "bytes": 54144,
+      "url": "https://www.bea.gov/news/2018/gross-domestic-product-1st-quarter-2018-advance-estimate",
+      "retrieved": "2026-10-02T03:42:01.867163+00:00"
+    },
+    {
+      "file": "bea/2018q2.html",
+      "sha256": "c562649150d90ad2c8552a4af167ec1c2f222f6ac70c23cfef43c637e3c9eba1",
+      "bytes": 77123,
+      "url": "https://www.bea.gov/news/2018/gross-domestic-product-2nd-quarter-2018-advance-estimate-and-comprehensive-update",
+      "retrieved": "2026-10-02T03:42:01.799202+00:00"
+    },
+    {
+      "file": "bea/2018q3.html",
+      "sha256": "ae49c6f31ff89ca335f51c547e0ed8ac0e1131297e00ff6e394bc56fe38b646d",
+      "bytes": 55389,
+      "url": "https://www.bea.gov/news/2018/gross-domestic-product-3rd-quarter-2018-advance-estimate",
+      "retrieved": "2026-10-02T03:41:55.284989+00:00"
+    },
+    {
+      "file": "bea/2018q4.html",
+      "sha256": "9ca5fb86bbd8c62db6f89d2546c0a41071fc576cb0a5a937c8d1f7cc47c5cb66",
+      "bytes": 58033,
+      "url": "https://www.bea.gov/news/2019/initial-gross-domestic-product-4th-quarter-and-annual-2018",
+      "retrieved_at": "2026-10-02T03:43:23.083332+00:00"
+    },
+    {
+      "file": "bea/2019q1.html",
+      "sha256": "c197a85e9533d73fad1a46682ae82d8378736c8bc3bbf438852822ed8b9d8c03",
+      "bytes": 56124,
+      "url": "https://www.bea.gov/news/2019/gross-domestic-product-1st-quarter-2019-advance-estimate",
+      "retrieved": "2026-10-02T03:41:55.291796+00:00"
+    },
+    {
+      "file": "bea/2019q2.html",
+      "sha256": "18577eed85273816d8e84231f4ac735d3031132058523234ec78294bfa6325ca",
+      "bytes": 60345,
+      "url": "https://www.bea.gov/news/2019/gross-domestic-product-2nd-quarter-2019-advance-estimate-and-annual-update",
+      "retrieved": "2026-10-02T03:41:55.283337+00:00"
+    },
+    {
+      "file": "bea/2019q3.html",
+      "sha256": "ef216c4ff46af2a39307b7ff5262dfce5b26e229a4fde67236681fd99442eb40",
+      "bytes": 59933,
+      "url": "https://www.bea.gov/news/2019/gross-domestic-product-3rd-quarter-2019-advance-estimate",
+      "retrieved": "2026-10-02T03:41:55.276782+00:00"
+    },
+    {
+      "file": "bea/2019q4.html",
+      "sha256": "eb403f34a4cf9b995733952a66a8169fd9f895d55b4c1262006462d0e104a4eb",
+      "bytes": 62302,
+      "url": "https://www.bea.gov/news/2020/gross-domestic-product-fourth-quarter-and-year-2019-advance-estimate",
+      "retrieved": "2026-10-02T03:41:55.303249+00:00"
+    },
+    {
+      "file": "bea/2020q1.html",
+      "sha256": "33c66f2028d363f853f04dba53f9544880c3febb48bd491c835e75f9ccdb0a14",
+      "bytes": 59117,
+      "url": "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate",
+      "retrieved": "2026-10-02T03:41:55.303157+00:00"
+    },
+    {
+      "file": "bea/2020q2.html",
+      "sha256": "881ab1a2b02cec8099b731a428f73de797d0689b35cfe54dfb07d2b8e5a5b8cf",
+      "bytes": 66631,
+      "url": "https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-advance-estimate-and-annual-update",
+      "retrieved": "2026-10-02T03:41:47.945098+00:00"
+    },
+    {
+      "file": "bea/2020q3.html",
+      "sha256": "bff1d0734fe2b87d0263ea07dfcbcb5e3cadc271acd687763396be2ed4bf4b88",
+      "bytes": 62831,
+      "url": "https://www.bea.gov/news/2020/gross-domestic-product-third-quarter-2020-advance-estimate",
+      "retrieved": "2026-10-02T03:41:47.885208+00:00"
+    },
+    {
+      "file": "bea/2020q4.html",
+      "sha256": "9d031814a81e9f115facd001bebc4b8c9cb3191c2ae560f3337b53eeac7080f0",
+      "bytes": 67701,
+      "url": "https://www.bea.gov/news/2021/gross-domestic-product-4th-quarter-and-year-2020-advance-estimate",
+      "retrieved": "2026-10-02T03:41:47.939050+00:00"
+    },
+    {
+      "file": "bea/2021q1.html",
+      "sha256": "4f8108c8da00937ea14ca9fc88b8db2cd94de70d14343592eaef71002badc83d",
+      "bytes": 60076,
+      "url": "https://www.bea.gov/news/2021/gross-domestic-product-first-quarter-2021-advance-estimate",
+      "retrieved": "2026-10-02T03:41:47.963086+00:00"
+    },
+    {
+      "file": "bea/2021q2.html",
+      "sha256": "ff0759854edc950e831def1cb222abccb82675c8086682d193d5aced33600035",
+      "bytes": 66634,
+      "url": "https://www.bea.gov/news/2021/gross-domestic-product-second-quarter-2021-advance-estimate-and-annual-update",
+      "retrieved": "2026-10-02T03:41:47.895068+00:00"
+    },
+    {
+      "file": "bea/2021q3.html",
+      "sha256": "795481aac658afd626c5a45cd1f02b102d91fdefbf871519073049d2d6a01c60",
+      "bytes": 60332,
+      "url": "https://www.bea.gov/news/2021/gross-domestic-product-3rd-quarter-2021-advance-estimate",
+      "retrieved": "2026-10-02T03:41:47.847100+00:00"
+    },
+    {
+      "file": "bea/2021q4.html",
+      "sha256": "4ffd77835b59aab53d7e4fe8f7d3b13ad66336df996c7c68b7349d20410bfc43",
+      "bytes": 66286,
+      "url": "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.527448+00:00"
+    },
+    {
+      "file": "bea/2022q1.html",
+      "sha256": "bf1271b8fb163d3a66251fd7c7de5476807e239e1b948b9104bce2c2d6890c30",
+      "bytes": 59673,
+      "url": "https://www.bea.gov/news/2022/gross-domestic-product-first-quarter-2022-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.491078+00:00"
+    },
+    {
+      "file": "bea/2022q2.html",
+      "sha256": "19e9ec94b30bbd6fcb529f924297fdf6ef030cef4e623f103ec58bf640fb53ed",
+      "bytes": 59953,
+      "url": "https://www.bea.gov/news/2022/gross-domestic-product-second-quarter-2022-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.528935+00:00"
+    },
+    {
+      "file": "bea/2022q3.html",
+      "sha256": "2b7c1adcbc8f472794351f825c8fce3a21fa5b91d4ff2a96252d576c0e1ec563",
+      "bytes": 58771,
+      "url": "https://www.bea.gov/news/2022/gross-domestic-product-third-quarter-2022-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.473637+00:00"
+    },
+    {
+      "file": "bea/2022q4.html",
+      "sha256": "a93c2451aaa5240edd2700d89ff419b9d891ee8e15abb8234de66023a24c8df0",
+      "bytes": 65990,
+      "url": "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.538969+00:00"
+    },
+    {
+      "file": "bea/2023q1.html",
+      "sha256": "6f56b909a824e2a7f5d6b1b4fe3c99f6dee50a103716e6aaf65f0ecd1bd5efc7",
+      "bytes": 56651,
+      "url": "https://www.bea.gov/news/2023/gross-domestic-product-first-quarter-2023-advance-estimate",
+      "retrieved": "2026-10-02T03:41:40.559140+00:00"
+    },
+    {
+      "file": "bea/2023q2.html",
+      "sha256": "74fafe3b7a3f7fc01ab11d677e1586fee26aeabee4e218f028f82d02c08f24cb",
+      "bytes": 57452,
+      "url": "https://www.bea.gov/news/2023/gross-domestic-product-second-quarter-2023-advance-estimate",
+      "retrieved": "2026-10-02T03:41:33.035701+00:00"
+    },
+    {
+      "file": "bea/2023q3.html",
+      "sha256": "8a6aa8c6bb3f569b6b48a6a76b83dfc64723e9ab2350f2c7ebe919dde4e9b431",
+      "bytes": 60297,
+      "url": "https://www.bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate",
+      "retrieved": "2026-10-02T03:41:33.095246+00:00"
+    },
+    {
+      "file": "bea/2023q4.html",
+      "sha256": "de76d6ffe862c1d275e3c3f187bdcbb2b2f1e2a0cc5c171bfd63d0ee6b150dcf",
+      "bytes": 63439,
+      "url": "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-advance-estimate",
+      "retrieved": "2026-10-02T03:41:33.035581+00:00"
+    },
+    {
+      "file": "bea/2024q1.html",
+      "sha256": "f48df4d6647c06a540cd729085a353bb018b9136548574ad5492d970321c18ce",
+      "bytes": 57932,
+      "url": "https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-advance-estimate",
+      "retrieved": "2026-10-02T03:41:33.031043+00:00"
+    },
+    {
+      "file": "bea/2024q2.html",
+      "sha256": "107e551328d57d07d43ff59a05e2d3bc6589c38894e44f47ba4df2c8da19b32e",
+      "bytes": 57240,
+      "url": "https://www.bea.gov/index.php/news/2024/gross-domestic-product-second-quarter-2024-advance-estimate",
+      "retrieved": "2026-10-02T03:41:32.983232+00:00"
+    },
+    {
+      "file": "bea/2024q3.html",
+      "sha256": "34a355e6c63b6d812c548a88c92ee690f5981869c9ed96920dc3f550d266d6ae",
+      "bytes": 59895,
+      "url": "https://www.bea.gov/news/2024/gross-domestic-product-third-quarter-2024-advance-estimate",
+      "retrieved": "2026-10-02T03:41:32.999305+00:00"
+    },
+    {
+      "file": "fred-terms.html",
+      "sha256": "59cd909604dcf77f4061677f85d99d6a256f16f4af13be701ce8f5a4e3e31c03",
+      "bytes": 131694
+    },
+    {
+      "file": "medianGrowth.xlsx",
+      "sha256": "fdcf9ca0299de022c58f8fc35fd20761d8e52b45e038781ae3c4826d1a3cbb5c",
+      "bytes": 144611,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/historical-data/medianGrowth.xlsx?sc_lang=en&hash=44EE1B3E0569944F81475E78F1C7FEED",
+      "retrieved": "2026-10-02T03:18:05.811184+00:00"
+    },
+    {
+      "file": "medianLevel.xlsx",
+      "sha256": "d296e737331c406f7680414504a0d005472743709387f8fda6d969a1d2200977",
+      "bytes": 554444,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/historical-data/medianLevel.xlsx?sc_lang=en&hash=E52F5DEF4551C3EBD24031A04CE6E98A",
+      "retrieved": "2026-10-02T03:18:05.895889+00:00"
+    },
+    {
+      "file": "phil-terms.html",
+      "sha256": "332f96bc9094cc22db904c0644fbf66e58981b27bca4769ce10d8b44f190bbd1",
+      "bytes": 49294
+    },
+    {
+      "file": "reports/1998q1.pdf",
+      "sha256": "00c4c250a794837895c486956fb4bac2a033a66b311576d61ff8ebd571c643ba",
+      "bytes": 83880,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1998/spfq198.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:53.975190+00:00"
+    },
+    {
+      "file": "reports/1998q2.pdf",
+      "sha256": "f9a3d6553b50834fcd01753f4af679d6905ca4c48970522911a8393f70c68d36",
+      "bytes": 81907,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1998/spfq298.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:53.978952+00:00"
+    },
+    {
+      "file": "reports/1998q3.pdf",
+      "sha256": "e7f7ecbcfe60f3ad4676330addf4888a1e6256e7dc0ad17170c0ed937e1f43e4",
+      "bytes": 82947,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1998/spfq398.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:54.038427+00:00"
+    },
+    {
+      "file": "reports/1998q4.pdf",
+      "sha256": "8fccbc492b306ea786bff9e3fd1ac79df02a793d38a78d44bfed4e220908bd39",
+      "bytes": 82478,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1998/spfq498.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:54.119154+00:00"
+    },
+    {
+      "file": "reports/1999q1.pdf",
+      "sha256": "4c6a984ad1dc60a1216e59e4cdc7cd764789c70b56b89b28e1609ac3079a4d7f",
+      "bytes": 90509,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1999/spfq199.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.767052+00:00"
+    },
+    {
+      "file": "reports/1999q2.pdf",
+      "sha256": "6ec19d7a879daf3e5a6e002ef47f1d47015f309845572de640ee726d9ee44612",
+      "bytes": 385541,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1999/spfq299.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.714523+00:00"
+    },
+    {
+      "file": "reports/1999q3.pdf",
+      "sha256": "a369f76f985d9d3ff9838a07d3b1dc6a3eed3fe605a11b2e151ca5e7611a847a",
+      "bytes": 85435,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1999/spfq399.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:54.096294+00:00"
+    },
+    {
+      "file": "reports/1999q4.pdf",
+      "sha256": "9aa197db63bfe8fc89b8c563e47827dfa0aced5ad7f023236ddea2e223be61b4",
+      "bytes": 91397,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/1999/spfq499.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:23:54.059726+00:00"
+    },
+    {
+      "file": "reports/2000q1.pdf",
+      "sha256": "a8c1f8bd9c34e586744e04054bdb4f55474269adaa46af215fca26f27ed7edeb",
+      "bytes": 91561,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2000/spfq100.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.731072+00:00"
+    },
+    {
+      "file": "reports/2000q2.pdf",
+      "sha256": "744983945d19083dc6791f2588e08d4291eb0f62a0836009fcedd946ae8f3f73",
+      "bytes": 94267,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2000/spfq200.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.790995+00:00"
+    },
+    {
+      "file": "reports/2000q3.pdf",
+      "sha256": "bc2781e76789daf7c898522f8641b51fddb120df8f0ea0552fc77bf332af16d0",
+      "bytes": 88099,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2000/spfq300.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.722983+00:00"
+    },
+    {
+      "file": "reports/2000q4.pdf",
+      "sha256": "b3ea78cfd0bfc85dea246f0f76fb95f5aa1fba42860aa92d35ef78639ff189ae",
+      "bytes": 95890,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2000/spfq400.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:01.855320+00:00"
+    },
+    {
+      "file": "reports/2001q1.pdf",
+      "sha256": "aa3aca4671922af54d9611e3622dc5f31fe899c7107a4d187e74345fbbe9678d",
+      "bytes": 102368,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2001/spfq101.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:08.875196+00:00"
+    },
+    {
+      "file": "reports/2001q2.pdf",
+      "sha256": "f2a18bf832c575b7057be70f74e1de589f07e2a4c289c9be9d9e59bf22c03ae4",
+      "bytes": 103797,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2001/spfq201.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:08.932855+00:00"
+    },
+    {
+      "file": "reports/2001q3.pdf",
+      "sha256": "caa224936a81a1ad12e51b900ba539d67905fde214c80d23f36c9f15a086d713",
+      "bytes": 94111,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2001/spfq301.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:08.847091+00:00"
+    },
+    {
+      "file": "reports/2001q4.pdf",
+      "sha256": "2a74de6152bc66ce3072ec1fb037e8008e95bd9329f8818998947d789f058320",
+      "bytes": 103639,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2001/spfq401.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:08.923160+00:00"
+    },
+    {
+      "file": "reports/2002q1.pdf",
+      "sha256": "6c5fa50395750c819792cde362090586af6ab2aa70119d21072da46bf984ee89",
+      "bytes": 97069,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2002/spfq102.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.175418+00:00"
+    },
+    {
+      "file": "reports/2002q2.pdf",
+      "sha256": "21e8dcb3e0bd9ec384ca2453d15539fb3e1d68c9a0f6e310a565a5d3e69e441c",
+      "bytes": 91684,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2002/spfq202.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.255046+00:00"
+    },
+    {
+      "file": "reports/2002q3.pdf",
+      "sha256": "38505d83c27db144b46d6e7da9c35ddc5a54046385c55661f0b6491cced04ab3",
+      "bytes": 102769,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2002/spfq302.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:09.027589+00:00"
+    },
+    {
+      "file": "reports/2002q4.pdf",
+      "sha256": "f251181184e5d3b602c28da9fa0937d56a776f86b0aef9ecbbf14bd53dd47858",
+      "bytes": 96346,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2002/spfq402.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:08.823374+00:00"
+    },
+    {
+      "file": "reports/2003q1.pdf",
+      "sha256": "4b5b54f3c1cb8d34ede23223531127c5316610f866cc1fbe7812998a6bd0503e",
+      "bytes": 127525,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2003/spfq103.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.415141+00:00"
+    },
+    {
+      "file": "reports/2003q2.pdf",
+      "sha256": "a6490d528dacffa1d173084d33667a978fcdf12b3f3ad6901ee5e35d3fea98ef",
+      "bytes": 117748,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2003/spfq203.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.391385+00:00"
+    },
+    {
+      "file": "reports/2003q3.pdf",
+      "sha256": "f11e7fe0c5bc6e79fe9d0ad2a35b0e155cc024e0143c948c7daa6f94f46849cd",
+      "bytes": 135465,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2003/spfq303.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.231319+00:00"
+    },
+    {
+      "file": "reports/2003q4.pdf",
+      "sha256": "64a7c3558fd539589a35601f6354f368c775b0f88fdd6c328b725a52b29369b9",
+      "bytes": 138021,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2003/spfq403.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:17.331271+00:00"
+    },
+    {
+      "file": "reports/2004q1.pdf",
+      "sha256": "8f69f56ec865b27c9d99070cda1c5d5d660f75161a50b12658cfd50dcda429a7",
+      "bytes": 125135,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2004/spfq104.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.079183+00:00"
+    },
+    {
+      "file": "reports/2004q2.pdf",
+      "sha256": "52c39c60d3e30975afee68e657a120df4934c4a3720f2775a3f000d51d77dca5",
+      "bytes": 129851,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2004/spfq204.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.095089+00:00"
+    },
+    {
+      "file": "reports/2004q3.pdf",
+      "sha256": "faa365e04b206f442b96f7fe65d2e023b1076b6f65b6955eb6ff0567faf53221",
+      "bytes": 125613,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2004/spfq304.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.003286+00:00"
+    },
+    {
+      "file": "reports/2004q4.pdf",
+      "sha256": "1f355994714eaac5f38442dbb9307401007c384620abee29cce92715c27da876",
+      "bytes": 124806,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2004/spfq404.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.027231+00:00"
+    },
+    {
+      "file": "reports/2005q1.pdf",
+      "sha256": "9266a920c3dd59a33f83411a8455d3586ae4c7128108685b667f30c7effb4875",
+      "bytes": 131691,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2005/spfq105.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.818961+00:00"
+    },
+    {
+      "file": "reports/2005q2.pdf",
+      "sha256": "2a58a24465142663ab0d3b79bcaeff1334d169cfaf603589e01765559f549b81",
+      "bytes": 137408,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2005/spfq205.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.811135+00:00"
+    },
+    {
+      "file": "reports/2005q3.pdf",
+      "sha256": "3b8bda7c52d62942fd3bc964dd7139b12414c390efca93117801d1a56c2adb95",
+      "bytes": 125872,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2005/spfq305.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.103050+00:00"
+    },
+    {
+      "file": "reports/2005q4.pdf",
+      "sha256": "bc1d8efdc0c2e47ab3d5b8d68239949d5eb0f125429e76534d6b366883466f08",
+      "bytes": 136720,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2005/spfq405.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:26.121685+00:00"
+    },
+    {
+      "file": "reports/2006q1.pdf",
+      "sha256": "91dfb954b2c2f95cd6e2dd05babd08534c46d98d845df3ab69708759ca086269",
+      "bytes": 131908,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2006/spfq106.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.879193+00:00"
+    },
+    {
+      "file": "reports/2006q2.pdf",
+      "sha256": "835fe50181a46c130cfbe250cc691ff649b8c2ce6a269bc562df2631ab502823",
+      "bytes": 124929,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2006/spfq206.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.943302+00:00"
+    },
+    {
+      "file": "reports/2006q3.pdf",
+      "sha256": "aecda8acf9708f69d26fec11e31f6f1f80bbed5ca73bf2c6bd5e9d50f1a89cb3",
+      "bytes": 128742,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2006/spfq306.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.835031+00:00"
+    },
+    {
+      "file": "reports/2006q4.pdf",
+      "sha256": "3189cfee47d4c54a7e108c3e3f9862286f544412cc90c10b44dbb4aea008a820",
+      "bytes": 77002,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2006/spfq406.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:32.915068+00:00"
+    },
+    {
+      "file": "reports/2007q1.pdf",
+      "sha256": "f4ccc23caef922450bef02905ddf054818aaf18fb899f301e6c086126e0f3838",
+      "bytes": 93299,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2007/spfq107.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.086489+00:00"
+    },
+    {
+      "file": "reports/2007q2.pdf",
+      "sha256": "b233c822eb2689c94c7441748275dd3090610f21f338bc6187407c92d602be01",
+      "bytes": 159095,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2007/spfq207.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.183278+00:00"
+    },
+    {
+      "file": "reports/2007q3.pdf",
+      "sha256": "0bf6588e11cfd563a8d5e3c6f20c7b8c9030c3a2f6fd78f75803ad1b05eff872",
+      "bytes": 102576,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2007/spfq307.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.021589+00:00"
+    },
+    {
+      "file": "reports/2007q4.pdf",
+      "sha256": "6b09ced5b636c43be7a3455a3f1a1e6ce39a5389f70ce68999408cf6522345ac",
+      "bytes": 211139,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2007/spfq407.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.079420+00:00"
+    },
+    {
+      "file": "reports/2008q1.pdf",
+      "sha256": "168f85d5e914bd42dac8252375ffd04e863d82a8469b02311fc1f072aaef55a6",
+      "bytes": 165335,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2008/spfq108.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.851233+00:00"
+    },
+    {
+      "file": "reports/2008q2.pdf",
+      "sha256": "efb229d763c57ad5b6bfd0e2cd66bf0d71aa606142879c5248494b001635d438",
+      "bytes": 162080,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2008/spfq208.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.599600+00:00"
+    },
+    {
+      "file": "reports/2008q3.pdf",
+      "sha256": "339bf57f92bb1ee38f830592d70af80d400455c9bb2e8902b1d8796ac7fc3bfb",
+      "bytes": 167229,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2008/spfq308.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.083044+00:00"
+    },
+    {
+      "file": "reports/2008q4.pdf",
+      "sha256": "4f24aefcc7109efe3819526ea6d39b1670b9d08f202643d418c82231cf0b3692",
+      "bytes": 160655,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2008/spfq408.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:40.091023+00:00"
+    },
+    {
+      "file": "reports/2009q1.pdf",
+      "sha256": "bb168753da86b6c334094f068cdd72ba575fa6d3943bcb8073ee5b0a0b86fd94",
+      "bytes": 165546,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2009/spfq109.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.767181+00:00"
+    },
+    {
+      "file": "reports/2009q2.pdf",
+      "sha256": "0a03c41a8c94fabe9ecd3703c7c8c363e0a9299e4e206db77a79bd5a8152245f",
+      "bytes": 164795,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2009/spfq209.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.619299+00:00"
+    },
+    {
+      "file": "reports/2009q3.pdf",
+      "sha256": "4e87c7b28e6307c321e33f76fe9ab990cec57bf507514059a1ad982757e3e8ed",
+      "bytes": 622688,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2009/spfq309.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.995882+00:00"
+    },
+    {
+      "file": "reports/2009q4.pdf",
+      "sha256": "1bff335965ddd1d5c37dffb1b657c668366920df6d5e7cfda543abdf9152e60d",
+      "bytes": 917544,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2009/spfq409.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:46.812148+00:00"
+    },
+    {
+      "file": "reports/2010q1.pdf",
+      "sha256": "5ec7e15cb4387b0f385035dc7f2efe0e79ec28941881aadb74f2d852d2798f0b",
+      "bytes": 956315,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2010/spfq110.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:53.629073+00:00"
+    },
+    {
+      "file": "reports/2010q2.pdf",
+      "sha256": "d910516f35f1312c8e2036f6c7eeec3af4aa982af7d74eec8b25f0850f82c497",
+      "bytes": 935205,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2010/spfq210.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:53.408219+00:00"
+    },
+    {
+      "file": "reports/2010q3.pdf",
+      "sha256": "8c8299e16075af372fd4b48f9652376c5712f1db0bd239758d3cf4b48cd045ac",
+      "bytes": 911369,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2010/spfq310.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:53.512861+00:00"
+    },
+    {
+      "file": "reports/2010q4.pdf",
+      "sha256": "5463d9ef4a0fd4dc09f355549f9e555931bde9872801a293821049aac6f21d36",
+      "bytes": 992460,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2010/spfq410.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:24:53.496360+00:00"
+    },
+    {
+      "file": "reports/2011q1.pdf",
+      "sha256": "b1c8484d3d41804e134dab712d2827a550e520d0d5a8916e2898a0e341734c51",
+      "bytes": 851485,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2011/spfq111.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:27.916616+00:00"
+    },
+    {
+      "file": "reports/2011q2.pdf",
+      "sha256": "a9e39d72d9db8c4b7a0a43fabadad2002df939c30841aaaaa9b9307f3f78fec7",
+      "bytes": 737820,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2011/spfq211.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:28.183929+00:00"
+    },
+    {
+      "file": "reports/2011q3.pdf",
+      "sha256": "1e37a0d718c60e1a57e61a3ca1f10971e410072d7237352acfc8eba4178ec44e",
+      "bytes": 471032,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2011/spfq311.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:28.203695+00:00"
+    },
+    {
+      "file": "reports/2011q4.pdf",
+      "sha256": "b8b6fff758cccaf5c63c89899c34bc40e17e3b3acef7321c50393671b5b8760d",
+      "bytes": 517568,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2011/spfq411.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:28.211677+00:00"
+    },
+    {
+      "file": "reports/2012q1.pdf",
+      "sha256": "a92bdc01c1659b23fb202cc440169a1ecca3c437030841712b2815852abf661b",
+      "bytes": 476855,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2012/spfq112.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.427602+00:00"
+    },
+    {
+      "file": "reports/2012q2.pdf",
+      "sha256": "00ea9b2001cd7e41dd378d31328263cd532a1f7b734476ac508db12ac2b06dd7",
+      "bytes": 758993,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2012/spfq212.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.526930+00:00"
+    },
+    {
+      "file": "reports/2012q3.pdf",
+      "sha256": "e66a3500c776fccc902a57572e53386335d93aef59a4fa0a76ed1b7a9cbfd5fd",
+      "bytes": 472509,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2012/spfq312.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:28.115732+00:00"
+    },
+    {
+      "file": "reports/2012q4.pdf",
+      "sha256": "e40c5d4b40d633d6cac8aef90fddff18d60e6681d7c5681268648c7122a3c393",
+      "bytes": 441324,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2012/spfQ412.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:28.079653+00:00"
+    },
+    {
+      "file": "reports/2013q1.pdf",
+      "sha256": "a76c6b42c0be8ae15fa28ef13bb65e08d7e9e5e3ad5e122b1fdcf4d162b8e2f6",
+      "bytes": 439072,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2013/spfq113.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.502840+00:00"
+    },
+    {
+      "file": "reports/2013q2.pdf",
+      "sha256": "12034bb74893a99075f9f3ad710753f58a1ebe92ba37ac003c493d5bebbf4023",
+      "bytes": 717721,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2013/spfq213.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.640007+00:00"
+    },
+    {
+      "file": "reports/2013q3.pdf",
+      "sha256": "b5839a2aae0c48609b52044099223bc21a6c167664b9bed5df077e8e579f96f4",
+      "bytes": 725370,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2013/spfQ313.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.384462+00:00"
+    },
+    {
+      "file": "reports/2013q4.pdf",
+      "sha256": "a843a6903b5f89da8484e3c398244ff9abf6dff09d6f6f5a0c81387215a887ed",
+      "bytes": 724952,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2013/spfQ413.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:34.459807+00:00"
+    },
+    {
+      "file": "reports/2014q1.pdf",
+      "sha256": "7c541ac4b81d3376d9aa8772de266e7ae932b39c510c5d5499c61bb4bb9f56a9",
+      "bytes": 717723,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2014/spfQ114.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.479627+00:00"
+    },
+    {
+      "file": "reports/2014q2.pdf",
+      "sha256": "f9cf8d46d4b80afc396271fd0086755ed0d27df59a347eddf9fabed3c1a4b641",
+      "bytes": 729608,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2014/spfQ214.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.419740+00:00"
+    },
+    {
+      "file": "reports/2014q3.pdf",
+      "sha256": "1ddd0f0481d13d06f758275b0a59f8e1eed430a56151d5ffb5ef588030214694",
+      "bytes": 738504,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2014/spfQ314.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.459900+00:00"
+    },
+    {
+      "file": "reports/2014q4.pdf",
+      "sha256": "218ec381385a7e1fddeb3880625ff9e0003bf9b16fa0fe6ebfe472d82f242b8a",
+      "bytes": 732750,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2014/spfQ414.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.455560+00:00"
+    },
+    {
+      "file": "reports/2015q1.pdf",
+      "sha256": "0e0d60b4abb774f59330d2b763289aac562a11b8695c6c3682a223ec51b8a435",
+      "bytes": 735953,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2015/spfQ115.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.307886+00:00"
+    },
+    {
+      "file": "reports/2015q2.pdf",
+      "sha256": "b9cd95ecafc55f6fe59b67f083b1720f44203b9d7e5be887e4750bdd5de50509",
+      "bytes": 732502,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2015/spfQ215.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.330245+00:00"
+    },
+    {
+      "file": "reports/2015q3.pdf",
+      "sha256": "9c43df0355077ad095567791150c92cef451f15125bc6dae5880b72580eea2e8",
+      "bytes": 737463,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2015/spfQ315.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.808046+00:00"
+    },
+    {
+      "file": "reports/2015q4.pdf",
+      "sha256": "cd55706578dccbb4b841911c59f57a4ca13cb57408715030a72047b030ddfdc9",
+      "bytes": 752236,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2015/spfq415.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:41.443970+00:00"
+    },
+    {
+      "file": "reports/2016q1.pdf",
+      "sha256": "97576bda75f7462f479a8c7e3e89d6d4941cddd3fefb3d60f428e0d84e60ad26",
+      "bytes": 740514,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2016/spfq116.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.355680+00:00"
+    },
+    {
+      "file": "reports/2016q2.pdf",
+      "sha256": "c32a5a8c638da1b3dd539ca7e9f43059fb09b3a4c8e3b1da30dab22eb3a4bea1",
+      "bytes": 739767,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2016/spfq216.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.367886+00:00"
+    },
+    {
+      "file": "reports/2016q3.pdf",
+      "sha256": "842374bba14f179961d732231fee8edfc48dc420a7cb03eeeca353f8f2af94cb",
+      "bytes": 745079,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2016/spfq316.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.346952+00:00"
+    },
+    {
+      "file": "reports/2016q4.pdf",
+      "sha256": "c86a850d02806003d91ae26651d1b5376c8cd260e21166a7c35f4c98278b654f",
+      "bytes": 742760,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2016/spfQ416.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:48.887831+00:00"
+    },
+    {
+      "file": "reports/2017q1.pdf",
+      "sha256": "cad00ab5190b39d36d8f9e330ffb143018e80cd2b5bbcd858b291c19503201ce",
+      "bytes": 751093,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2017/spfQ117.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:55.777415+00:00"
+    },
+    {
+      "file": "reports/2017q2.pdf",
+      "sha256": "578850a7b86cb85b6a358b492a3430e81477f651e2c7ff7517d649fcf28529ee",
+      "bytes": 730126,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2017/spfQ217.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:55.771974+00:00"
+    },
+    {
+      "file": "reports/2017q3.pdf",
+      "sha256": "786a4bafaa193db9050fe70196491f8f9b33a588e38af4d86c74b19a535d9b3d",
+      "bytes": 723396,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2017/spfQ317.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:56.019714+00:00"
+    },
+    {
+      "file": "reports/2017q4.pdf",
+      "sha256": "0d303080000b49a1f3708697ef13c3218d43a489b7efcaed1fdeafd55f45bb1d",
+      "bytes": 730609,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2017/spfQ417.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:56.111983+00:00"
+    },
+    {
+      "file": "reports/2018q1.pdf",
+      "sha256": "c3424b5aa1a4fdd69e3570de59d9d582c548870baa3aeefaa94047b386d06a2a",
+      "bytes": 752190,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2018/spfQ118.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.042277+00:00"
+    },
+    {
+      "file": "reports/2018q2.pdf",
+      "sha256": "8d7b84233a14a46a8048df86202dd17d4e4821538a1cd3a55bf6dd7cd8540840",
+      "bytes": 735674,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2018/spfq218.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.171717+00:00"
+    },
+    {
+      "file": "reports/2018q3.pdf",
+      "sha256": "ea38b71be5e8b8c3355020a6fad671f7858ec525da1842fc3cf499a4601c4dea",
+      "bytes": 738793,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2018/spfQ318.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:55.717308+00:00"
+    },
+    {
+      "file": "reports/2018q4.pdf",
+      "sha256": "5865ec9c94696dbb49c3fc7d5fc58093c7fc569c769dea2a5fe07e14dc39e314",
+      "bytes": 1257775,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2018/spfq418.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:26:55.709062+00:00"
+    },
+    {
+      "file": "reports/2019q1.pdf",
+      "sha256": "7550869758250315f6c5a6c2442450bb9b5996897e0697338b80aa317a24a471",
+      "bytes": 1264326,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2019/spfQ119.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.072314+00:00"
+    },
+    {
+      "file": "reports/2019q2.pdf",
+      "sha256": "cbac1a9bcbc06a6f416ff29819a6ca68aa98186b60f9a8db945636a85ada6ae3",
+      "bytes": 1253926,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2019/spfQ219.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.052411+00:00"
+    },
+    {
+      "file": "reports/2019q3.pdf",
+      "sha256": "e6b38fff02305affb46b8b6d0cdcc203555ff8b7ea28efedf64ccd4d52904fd8",
+      "bytes": 1267289,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2019/spfQ319.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.060747+00:00"
+    },
+    {
+      "file": "reports/2019q4.pdf",
+      "sha256": "ba6988b5b429dc6a7240ab73083d2f75e55041fa91476a8c3fee7db1c35a316c",
+      "bytes": 1455681,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2019/spfQ419.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:02.076752+00:00"
+    },
+    {
+      "file": "reports/2020q1.pdf",
+      "sha256": "bc4f05301ab24ff2752ed8c961c8e8f0da5a1328f3ca0a51639047f870b505be",
+      "bytes": 1466006,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2020/spfQ120.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.477206+00:00"
+    },
+    {
+      "file": "reports/2020q2.pdf",
+      "sha256": "b66e912866251d3d723ce60cb9e2485a122aee9a82f0ab5b857a253c9ad35f9f",
+      "bytes": 1377558,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2020/spfQ220.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.501621+00:00"
+    },
+    {
+      "file": "reports/2020q3.pdf",
+      "sha256": "579085753b2e22c9456a885999dd24d43ca62e5016a71749e853bea43a375232",
+      "bytes": 1428972,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2020/spfQ320.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.505994+00:00"
+    },
+    {
+      "file": "reports/2020q4.pdf",
+      "sha256": "29a13126805dcf3090ff2234dfe613e9e046be2d5348a8d3ff1d467b7b08fd55",
+      "bytes": 1425532,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2020/spfQ420.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.541971+00:00"
+    },
+    {
+      "file": "reports/2021q1.pdf",
+      "sha256": "b87b0101e29184bdc87bd42aaa429579d20c70b0bb57c17907f365e30d426148",
+      "bytes": 1431882,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2021/spfQ121.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:19.068897+00:00"
+    },
+    {
+      "file": "reports/2021q2.pdf",
+      "sha256": "c302a3a7a82c6f655872399f6973506df46e92662e3f156fc8999f785ed1d13d",
+      "bytes": 1435699,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2021/spfQ221.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:18.964731+00:00"
+    },
+    {
+      "file": "reports/2021q3.pdf",
+      "sha256": "d1d1a022f728e21f9b4886f6da4c6e93732e46b32dee7b65a14d7c51dcc8ea30",
+      "bytes": 1442175,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2021/spfQ321.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.468788+00:00"
+    },
+    {
+      "file": "reports/2021q4.pdf",
+      "sha256": "533938faf6ea6a8334f0edba623d79b9e7d04fd54a53db1dd7024843ddf192fe",
+      "bytes": 1441625,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2021/spfQ421.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:09.524769+00:00"
+    },
+    {
+      "file": "reports/2022q1.pdf",
+      "sha256": "8bce4cf2064daf7ca7059b9a4782f1f4c4750a67037bbdc24f19b0aad7a94e80",
+      "bytes": 2512356,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2022/spfq122.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:19.098534+00:00"
+    },
+    {
+      "file": "reports/2022q2.pdf",
+      "sha256": "c64e4d3ce2175d809ad7101013f3861a739abc1ad67091ebb14b653d2ee22e1b",
+      "bytes": 2479205,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2022/spfq222.pdf?sc_lang=en",
+      "retrieved": "2026-10-02T03:27:18.950262+00:00"
+    },
+    {
+      "file": "reports/2022q3.pdf",
+      "sha256": "1c1851d438cb1b88f8d6021638a513660ade9292f851cb310a091f8b1172c27a",
+      "bytes": 2441404,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2022/spfQ322.pdf",
+      "retrieved": "2026-10-02T03:27:18.898963+00:00"
+    },
+    {
+      "file": "reports/2022q4.pdf",
+      "sha256": "24e865593d1a6f5ac55fcca54c519901c69992642b234a881008ef953de6779b",
+      "bytes": 2282321,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2022/spfQ422.pdf",
+      "retrieved": "2026-10-02T03:27:19.015558+00:00"
+    },
+    {
+      "file": "reports/2023q1.pdf",
+      "sha256": "d619a1c34237281dfe3abb11d6b63cb0a041ec2c3e7c705e90e9cb064b6530a7",
+      "bytes": 2703910,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2023/spfQ123.pdf",
+      "retrieved": "2026-10-02T03:27:25.462271+00:00"
+    },
+    {
+      "file": "reports/2023q2.pdf",
+      "sha256": "58647d6bd51d72b33e7bbe2611e01e9383271864627b35a4380e06ff9fc803d3",
+      "bytes": 954966,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2023/spfQ223.pdf",
+      "retrieved": "2026-10-02T03:27:25.455898+00:00"
+    },
+    {
+      "file": "reports/2023q3.pdf",
+      "sha256": "50a875a88ef7ee525824fe1bae7a6bcb77ac435fb5025431ae5acb0756bc0320",
+      "bytes": 2459944,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2023/spfQ323.pdf",
+      "retrieved": "2026-10-02T03:27:25.404484+00:00"
+    },
+    {
+      "file": "reports/2023q4.pdf",
+      "sha256": "59810ea8baf1f3ca8992e83048b75951edf3deed1da4395bdc5ab09ffce662c7",
+      "bytes": 2358340,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2023/spfQ423.pdf",
+      "retrieved": "2026-10-02T03:27:25.534175+00:00"
+    },
+    {
+      "file": "reports/2024q1.pdf",
+      "sha256": "fe4a84c8c6df627c412a951a23f932eeece808d8e0717fa6387c4809df18853d",
+      "bytes": 2574728,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2024/spfQ124.pdf",
+      "retrieved": "2026-10-02T03:27:36.658428+00:00"
+    },
+    {
+      "file": "reports/2024q2.pdf",
+      "sha256": "ca8c54e83e164b31a74f96c5a8c06b2142ce80e202bad0a6c958eb02d3fdbda5",
+      "bytes": 2248187,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2024/spfQ224.pdf",
+      "retrieved": "2026-10-02T03:27:35.689817+00:00"
+    },
+    {
+      "file": "reports/2024q3.pdf",
+      "sha256": "4a325f5eb1179fa8f612b4c03a9093efe428aabd5d0084830c1ce547425b9a7e",
+      "bytes": 954805,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2024/spfQ324.pdf",
+      "retrieved": "2026-10-02T03:27:25.220221+00:00"
+    },
+    {
+      "file": "reports/2024q4.pdf",
+      "sha256": "a0fc0dbbb32cb4bd27e826dafb074a2438e19e791112a51f072767456e1b40c7",
+      "bytes": 2413026,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/2024/spfQ424.pdf",
+      "retrieved": "2026-10-02T03:27:25.335220+00:00"
+    },
+    {
+      "file": "routput_first_second_third.xlsx",
+      "sha256": "38c7c7316b7ce3f7c8912d110807248a77d3dc1c707f839a1f027cdeb3102c35",
+      "bytes": 16432,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/real-time-data/data-files/xlsx/routput_first_second_third.xlsx?sc_lang=en&hash=AB8BB59BBBF6840DE1448851E90D7A80",
+      "retrieved": "2026-10-02T03:18:05.779144+00:00"
+    },
+    {
+      "file": "rules.html",
+      "sha256": "803271ef97d2bce3a6b4ce26b2700b2d4aa1ea24a219319386de11c8bd56ec33",
+      "bytes": 22667
+    },
+    {
+      "file": "spf-documentation.pdf",
+      "sha256": "45723c6d27c87a0bde209ea548dd06255206a54206cac8e13ab5de5db7284ca8",
+      "bytes": 731389,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/spf-documentation.pdf?sc_lang=en&hash=8408A4F1BF351A3C268B40F6BC7B95AA",
+      "retrieved": "2026-10-02T03:18:05.784245+00:00"
+    },
+    {
+      "file": "spf-release-dates.txt",
+      "sha256": "c5f4c4dc349068ba9dc1f421c68474be26d0fe613fff83f70aa41eed96696ee3",
+      "bytes": 8298,
+      "url": "https://www.philadelphiafed.org/-/media/FRBP/Assets/Surveys-And-Data/survey-of-professional-forecasters/spf-release-dates.txt?sc_lang=en&hash=CE16E2057464DBD7A139FFE6188B48EC",
+      "retrieved": "2026-10-02T03:18:05.843019+00:00"
+    }
+  ],
+  "processed_artifacts": {
+    "survey_snapshots.json": "1e47fd03c6119828b5ef4f4e99d611577c2b87cfddce61664aa352fe3677b1df",
+    "first_actuals.json": "6216c53eb5cc79a04fe309596be863ab9339022641f23fd972fb9eac857f89aa",
+    "events.json": "c1f3031af922fc19fa38b15606c274d2b46451f0da0e4f53aeeed03f99f1bc98",
+    "schema.json": "30988c9f7ea47a6829058b2adb28cee48f3ff037cb4ecd5d83df7c09bd787a42"
+  },
+  "source_gate_scope": "Audit of acquired candidate sources, not a claim that no admissible market-implied data exist elsewhere"
+}

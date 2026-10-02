@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "survey_publications": 108,
+  "survey_values": 1080,
+  "first_actual_events": 107,
+  "standardized_events": 83,
+  "cold_start_events": 24,
+  "sign": "first actual minus last genuine same-target prerelease survey",
+  "units": "annualized quarter-on-quarter GDP percentage points",
+  "normalization": "expanding strictly prior same-family sample SD; minimum 24 events",
+  "event_detail_private": true
+}

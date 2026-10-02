@@ -1,0 +1,6759 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "columns": [
+    {
+      "name": "E_RGDP_current",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_RGDP_next",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_RGDP_slope",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_RGDP_age",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_RGDP_present",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_CPI_current",
+      "stage": 1,
+      "family": "CPI"
+    },
+    {
+      "name": "E_CPI_next",
+      "stage": 1,
+      "family": "CPI"
+    },
+    {
+      "name": "E_CPI_slope",
+      "stage": 1,
+      "family": "CPI"
+    },
+    {
+      "name": "E_CPI_age",
+      "stage": 1,
+      "family": "CPI"
+    },
+    {
+      "name": "E_CPI_present",
+      "stage": 1,
+      "family": "CPI"
+    },
+    {
+      "name": "E_UNEMP_current",
+      "stage": 1,
+      "family": "UNEMP"
+    },
+    {
+      "name": "E_UNEMP_next",
+      "stage": 1,
+      "family": "UNEMP"
+    },
+    {
+      "name": "E_UNEMP_slope",
+      "stage": 1,
+      "family": "UNEMP"
+    },
+    {
+      "name": "E_UNEMP_age",
+      "stage": 1,
+      "family": "UNEMP"
+    },
+    {
+      "name": "E_UNEMP_present",
+      "stage": 1,
+      "family": "UNEMP"
+    },
+    {
+      "name": "E_TBILL_current",
+      "stage": 1,
+      "family": "TBILL"
+    },
+    {
+      "name": "E_TBILL_next",
+      "stage": 1,
+      "family": "TBILL"
+    },
+    {
+      "name": "E_TBILL_slope",
+      "stage": 1,
+      "family": "TBILL"
+    },
+    {
+      "name": "E_TBILL_age",
+      "stage": 1,
+      "family": "TBILL"
+    },
+    {
+      "name": "E_TBILL_present",
+      "stage": 1,
+      "family": "TBILL"
+    },
+    {
+      "name": "E_TBOND_current",
+      "stage": 1,
+      "family": "TBOND"
+    },
+    {
+      "name": "E_TBOND_next",
+      "stage": 1,
+      "family": "TBOND"
+    },
+    {
+      "name": "E_TBOND_slope",
+      "stage": 1,
+      "family": "TBOND"
+    },
+    {
+      "name": "E_TBOND_age",
+      "stage": 1,
+      "family": "TBOND"
+    },
+    {
+      "name": "E_TBOND_present",
+      "stage": 1,
+      "family": "TBOND"
+    },
+    {
+      "name": "S_RGDP_1",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "S_RGDP_5",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "S_RGDP_21",
+      "stage": 1,
+      "family": "RGDP"
+    },
+    {
+      "name": "E_RGDP_current__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_RGDP_next__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_RGDP_slope__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_RGDP_age__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_RGDP_present__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_CPI_current__horizon=5",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_CPI_next__horizon=5",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_CPI_slope__horizon=5",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_CPI_age__horizon=5",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_CPI_present__horizon=5",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_UNEMP_current__horizon=5",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_UNEMP_next__horizon=5",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_UNEMP_slope__horizon=5",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_UNEMP_age__horizon=5",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_UNEMP_present__horizon=5",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBILL_current__horizon=5",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBILL_next__horizon=5",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBILL_slope__horizon=5",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBILL_age__horizon=5",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBILL_present__horizon=5",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBOND_current__horizon=5",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBOND_next__horizon=5",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBOND_slope__horizon=5",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBOND_age__horizon=5",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_TBOND_present__horizon=5",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "S_RGDP_1__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "S_RGDP_5__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "S_RGDP_21__horizon=5",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "5"
+    },
+    {
+      "name": "E_RGDP_current__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_RGDP_next__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_RGDP_slope__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_RGDP_age__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_RGDP_present__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_CPI_current__horizon=21",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_CPI_next__horizon=21",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_CPI_slope__horizon=21",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_CPI_age__horizon=21",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_CPI_present__horizon=21",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_UNEMP_current__horizon=21",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_UNEMP_next__horizon=21",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_UNEMP_slope__horizon=21",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_UNEMP_age__horizon=21",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_UNEMP_present__horizon=21",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBILL_current__horizon=21",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBILL_next__horizon=21",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBILL_slope__horizon=21",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBILL_age__horizon=21",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBILL_present__horizon=21",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBOND_current__horizon=21",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBOND_next__horizon=21",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBOND_slope__horizon=21",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBOND_age__horizon=21",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_TBOND_present__horizon=21",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "S_RGDP_1__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "S_RGDP_5__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "S_RGDP_21__horizon=21",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "21"
+    },
+    {
+      "name": "E_RGDP_current__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_RGDP_next__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_RGDP_slope__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_RGDP_age__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_RGDP_present__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_CPI_current__horizon=63",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_CPI_next__horizon=63",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_CPI_slope__horizon=63",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_CPI_age__horizon=63",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_CPI_present__horizon=63",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_UNEMP_current__horizon=63",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_UNEMP_next__horizon=63",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_UNEMP_slope__horizon=63",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_UNEMP_age__horizon=63",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_UNEMP_present__horizon=63",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBILL_current__horizon=63",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBILL_next__horizon=63",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBILL_slope__horizon=63",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBILL_age__horizon=63",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBILL_present__horizon=63",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBOND_current__horizon=63",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBOND_next__horizon=63",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBOND_slope__horizon=63",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBOND_age__horizon=63",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_TBOND_present__horizon=63",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "S_RGDP_1__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "S_RGDP_5__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "S_RGDP_21__horizon=63",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "63"
+    },
+    {
+      "name": "E_RGDP_current__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_RGDP_next__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_RGDP_slope__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_RGDP_age__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_RGDP_present__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_CPI_current__horizon=126",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_CPI_next__horizon=126",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_CPI_slope__horizon=126",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_CPI_age__horizon=126",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_CPI_present__horizon=126",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_UNEMP_current__horizon=126",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_UNEMP_next__horizon=126",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_UNEMP_slope__horizon=126",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_UNEMP_age__horizon=126",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_UNEMP_present__horizon=126",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBILL_current__horizon=126",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBILL_next__horizon=126",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBILL_slope__horizon=126",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBILL_age__horizon=126",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBILL_present__horizon=126",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBOND_current__horizon=126",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBOND_next__horizon=126",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBOND_slope__horizon=126",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBOND_age__horizon=126",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_TBOND_present__horizon=126",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "S_RGDP_1__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "S_RGDP_5__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "S_RGDP_21__horizon=126",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "126"
+    },
+    {
+      "name": "E_RGDP_current__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_RGDP_next__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_RGDP_slope__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_RGDP_age__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_RGDP_present__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_CPI_current__horizon=189",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_CPI_next__horizon=189",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_CPI_slope__horizon=189",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_CPI_age__horizon=189",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_CPI_present__horizon=189",
+      "stage": 2,
+      "family": "CPI",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_UNEMP_current__horizon=189",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_UNEMP_next__horizon=189",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_UNEMP_slope__horizon=189",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_UNEMP_age__horizon=189",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_UNEMP_present__horizon=189",
+      "stage": 2,
+      "family": "UNEMP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBILL_current__horizon=189",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBILL_next__horizon=189",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBILL_slope__horizon=189",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBILL_age__horizon=189",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBILL_present__horizon=189",
+      "stage": 2,
+      "family": "TBILL",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBOND_current__horizon=189",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBOND_next__horizon=189",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBOND_slope__horizon=189",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBOND_age__horizon=189",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_TBOND_present__horizon=189",
+      "stage": 2,
+      "family": "TBOND",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "S_RGDP_1__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "S_RGDP_5__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "S_RGDP_21__horizon=189",
+      "stage": 2,
+      "family": "RGDP",
+      "metadata": "horizon",
+      "value": "189"
+    },
+    {
+      "name": "E_RGDP_current__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_RGDP_next__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_RGDP_slope__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_RGDP_age__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_RGDP_present__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_CPI_current__group=FX",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_CPI_next__group=FX",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_CPI_slope__group=FX",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_CPI_age__group=FX",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_CPI_present__group=FX",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_UNEMP_current__group=FX",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_UNEMP_next__group=FX",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_UNEMP_slope__group=FX",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_UNEMP_age__group=FX",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_UNEMP_present__group=FX",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBILL_current__group=FX",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBILL_next__group=FX",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBILL_slope__group=FX",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBILL_age__group=FX",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBILL_present__group=FX",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBOND_current__group=FX",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBOND_next__group=FX",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBOND_slope__group=FX",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBOND_age__group=FX",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_TBOND_present__group=FX",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "S_RGDP_1__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "S_RGDP_5__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "S_RGDP_21__group=FX",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "FX"
+    },
+    {
+      "name": "E_RGDP_current__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_RGDP_next__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_RGDP_slope__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_RGDP_age__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_RGDP_present__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_CPI_current__group=Factor/Equity",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_CPI_next__group=Factor/Equity",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_CPI_slope__group=Factor/Equity",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_CPI_age__group=Factor/Equity",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_CPI_present__group=Factor/Equity",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_UNEMP_current__group=Factor/Equity",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_UNEMP_next__group=Factor/Equity",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_UNEMP_slope__group=Factor/Equity",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_UNEMP_age__group=Factor/Equity",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_UNEMP_present__group=Factor/Equity",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBILL_current__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBILL_next__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBILL_slope__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBILL_age__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBILL_present__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBOND_current__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBOND_next__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBOND_slope__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBOND_age__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_TBOND_present__group=Factor/Equity",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "S_RGDP_1__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "S_RGDP_5__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "S_RGDP_21__group=Factor/Equity",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Factor/Equity"
+    },
+    {
+      "name": "E_RGDP_current__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_RGDP_next__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_RGDP_slope__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_RGDP_age__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_RGDP_present__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_CPI_current__group=Rates",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_CPI_next__group=Rates",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_CPI_slope__group=Rates",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_CPI_age__group=Rates",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_CPI_present__group=Rates",
+      "stage": 3,
+      "family": "CPI",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_UNEMP_current__group=Rates",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_UNEMP_next__group=Rates",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_UNEMP_slope__group=Rates",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_UNEMP_age__group=Rates",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_UNEMP_present__group=Rates",
+      "stage": 3,
+      "family": "UNEMP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBILL_current__group=Rates",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBILL_next__group=Rates",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBILL_slope__group=Rates",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBILL_age__group=Rates",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBILL_present__group=Rates",
+      "stage": 3,
+      "family": "TBILL",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBOND_current__group=Rates",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBOND_next__group=Rates",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBOND_slope__group=Rates",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBOND_age__group=Rates",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_TBOND_present__group=Rates",
+      "stage": 3,
+      "family": "TBOND",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "S_RGDP_1__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "S_RGDP_5__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "S_RGDP_21__group=Rates",
+      "stage": 3,
+      "family": "RGDP",
+      "metadata": "group",
+      "value": "Rates"
+    },
+    {
+      "name": "E_RGDP_current__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_RGDP_next__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_RGDP_slope__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_RGDP_age__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_RGDP_present__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_CPI_current__asset=AUD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_CPI_next__asset=AUD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_CPI_slope__asset=AUD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_CPI_age__asset=AUD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_CPI_present__asset=AUD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_UNEMP_current__asset=AUD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_UNEMP_next__asset=AUD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=AUD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_UNEMP_age__asset=AUD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_UNEMP_present__asset=AUD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBILL_current__asset=AUD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBILL_next__asset=AUD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBILL_slope__asset=AUD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBILL_age__asset=AUD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBILL_present__asset=AUD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBOND_current__asset=AUD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBOND_next__asset=AUD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBOND_slope__asset=AUD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBOND_age__asset=AUD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_TBOND_present__asset=AUD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "S_RGDP_1__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "S_RGDP_5__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "S_RGDP_21__asset=AUD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "AUD"
+    },
+    {
+      "name": "E_RGDP_current__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_RGDP_next__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_RGDP_slope__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_RGDP_age__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_RGDP_present__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_CPI_current__asset=BAB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_CPI_next__asset=BAB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_CPI_slope__asset=BAB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_CPI_age__asset=BAB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_CPI_present__asset=BAB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_UNEMP_current__asset=BAB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_UNEMP_next__asset=BAB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=BAB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_UNEMP_age__asset=BAB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_UNEMP_present__asset=BAB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBILL_current__asset=BAB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBILL_next__asset=BAB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBILL_slope__asset=BAB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBILL_age__asset=BAB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBILL_present__asset=BAB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBOND_current__asset=BAB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBOND_next__asset=BAB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBOND_slope__asset=BAB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBOND_age__asset=BAB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_TBOND_present__asset=BAB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "S_RGDP_1__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "S_RGDP_5__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "S_RGDP_21__asset=BAB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BAB"
+    },
+    {
+      "name": "E_RGDP_current__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_RGDP_next__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_RGDP_slope__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_RGDP_age__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_RGDP_present__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_CPI_current__asset=BRL",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_CPI_next__asset=BRL",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_CPI_slope__asset=BRL",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_CPI_age__asset=BRL",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_CPI_present__asset=BRL",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_UNEMP_current__asset=BRL",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_UNEMP_next__asset=BRL",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=BRL",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_UNEMP_age__asset=BRL",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_UNEMP_present__asset=BRL",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBILL_current__asset=BRL",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBILL_next__asset=BRL",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBILL_slope__asset=BRL",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBILL_age__asset=BRL",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBILL_present__asset=BRL",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBOND_current__asset=BRL",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBOND_next__asset=BRL",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBOND_slope__asset=BRL",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBOND_age__asset=BRL",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_TBOND_present__asset=BRL",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "S_RGDP_1__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "S_RGDP_5__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "S_RGDP_21__asset=BRL",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "BRL"
+    },
+    {
+      "name": "E_RGDP_current__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_RGDP_next__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_RGDP_slope__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_RGDP_age__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_RGDP_present__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_CPI_current__asset=CAD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_CPI_next__asset=CAD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_CPI_slope__asset=CAD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_CPI_age__asset=CAD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_CPI_present__asset=CAD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_UNEMP_current__asset=CAD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_UNEMP_next__asset=CAD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=CAD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_UNEMP_age__asset=CAD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_UNEMP_present__asset=CAD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBILL_current__asset=CAD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBILL_next__asset=CAD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBILL_slope__asset=CAD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBILL_age__asset=CAD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBILL_present__asset=CAD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBOND_current__asset=CAD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBOND_next__asset=CAD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBOND_slope__asset=CAD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBOND_age__asset=CAD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_TBOND_present__asset=CAD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "S_RGDP_1__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "S_RGDP_5__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "S_RGDP_21__asset=CAD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CAD"
+    },
+    {
+      "name": "E_RGDP_current__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_RGDP_next__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_RGDP_slope__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_RGDP_age__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_RGDP_present__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_CPI_current__asset=CHF",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_CPI_next__asset=CHF",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_CPI_slope__asset=CHF",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_CPI_age__asset=CHF",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_CPI_present__asset=CHF",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_UNEMP_current__asset=CHF",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_UNEMP_next__asset=CHF",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=CHF",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_UNEMP_age__asset=CHF",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_UNEMP_present__asset=CHF",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBILL_current__asset=CHF",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBILL_next__asset=CHF",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBILL_slope__asset=CHF",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBILL_age__asset=CHF",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBILL_present__asset=CHF",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBOND_current__asset=CHF",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBOND_next__asset=CHF",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBOND_slope__asset=CHF",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBOND_age__asset=CHF",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_TBOND_present__asset=CHF",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "S_RGDP_1__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "S_RGDP_5__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "S_RGDP_21__asset=CHF",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CHF"
+    },
+    {
+      "name": "E_RGDP_current__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_RGDP_next__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_RGDP_slope__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_RGDP_age__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_RGDP_present__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_CPI_current__asset=CNY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_CPI_next__asset=CNY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_CPI_slope__asset=CNY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_CPI_age__asset=CNY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_CPI_present__asset=CNY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_UNEMP_current__asset=CNY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_UNEMP_next__asset=CNY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=CNY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_UNEMP_age__asset=CNY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_UNEMP_present__asset=CNY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBILL_current__asset=CNY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBILL_next__asset=CNY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBILL_slope__asset=CNY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBILL_age__asset=CNY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBILL_present__asset=CNY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBOND_current__asset=CNY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBOND_next__asset=CNY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBOND_slope__asset=CNY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBOND_age__asset=CNY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_TBOND_present__asset=CNY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "S_RGDP_1__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "S_RGDP_5__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "S_RGDP_21__asset=CNY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "CNY"
+    },
+    {
+      "name": "E_RGDP_current__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_RGDP_next__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_RGDP_slope__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_RGDP_age__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_RGDP_present__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_CPI_current__asset=DKK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_CPI_next__asset=DKK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_CPI_slope__asset=DKK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_CPI_age__asset=DKK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_CPI_present__asset=DKK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_UNEMP_current__asset=DKK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_UNEMP_next__asset=DKK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=DKK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_UNEMP_age__asset=DKK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_UNEMP_present__asset=DKK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBILL_current__asset=DKK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBILL_next__asset=DKK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBILL_slope__asset=DKK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBILL_age__asset=DKK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBILL_present__asset=DKK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBOND_current__asset=DKK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBOND_next__asset=DKK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBOND_slope__asset=DKK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBOND_age__asset=DKK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_TBOND_present__asset=DKK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "S_RGDP_1__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "S_RGDP_5__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "S_RGDP_21__asset=DKK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "DKK"
+    },
+    {
+      "name": "E_RGDP_current__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_RGDP_next__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_RGDP_slope__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_RGDP_age__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_RGDP_present__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_CPI_current__asset=EUR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_CPI_next__asset=EUR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_CPI_slope__asset=EUR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_CPI_age__asset=EUR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_CPI_present__asset=EUR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_UNEMP_current__asset=EUR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_UNEMP_next__asset=EUR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=EUR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_UNEMP_age__asset=EUR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_UNEMP_present__asset=EUR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBILL_current__asset=EUR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBILL_next__asset=EUR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBILL_slope__asset=EUR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBILL_age__asset=EUR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBILL_present__asset=EUR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBOND_current__asset=EUR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBOND_next__asset=EUR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBOND_slope__asset=EUR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBOND_age__asset=EUR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_TBOND_present__asset=EUR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "S_RGDP_1__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "S_RGDP_5__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "S_RGDP_21__asset=EUR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "EUR"
+    },
+    {
+      "name": "E_RGDP_current__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_RGDP_next__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_RGDP_slope__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_RGDP_age__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_RGDP_present__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_CPI_current__asset=GBP",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_CPI_next__asset=GBP",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_CPI_slope__asset=GBP",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_CPI_age__asset=GBP",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_CPI_present__asset=GBP",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_UNEMP_current__asset=GBP",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_UNEMP_next__asset=GBP",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=GBP",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_UNEMP_age__asset=GBP",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_UNEMP_present__asset=GBP",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBILL_current__asset=GBP",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBILL_next__asset=GBP",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBILL_slope__asset=GBP",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBILL_age__asset=GBP",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBILL_present__asset=GBP",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBOND_current__asset=GBP",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBOND_next__asset=GBP",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBOND_slope__asset=GBP",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBOND_age__asset=GBP",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_TBOND_present__asset=GBP",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "S_RGDP_1__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "S_RGDP_5__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "S_RGDP_21__asset=GBP",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "GBP"
+    },
+    {
+      "name": "E_RGDP_current__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_RGDP_next__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_RGDP_slope__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_RGDP_age__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_RGDP_present__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_CPI_current__asset=HML",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_CPI_next__asset=HML",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_CPI_slope__asset=HML",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_CPI_age__asset=HML",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_CPI_present__asset=HML",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_UNEMP_current__asset=HML",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_UNEMP_next__asset=HML",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=HML",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_UNEMP_age__asset=HML",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_UNEMP_present__asset=HML",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBILL_current__asset=HML",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBILL_next__asset=HML",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBILL_slope__asset=HML",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBILL_age__asset=HML",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBILL_present__asset=HML",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBOND_current__asset=HML",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBOND_next__asset=HML",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBOND_slope__asset=HML",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBOND_age__asset=HML",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_TBOND_present__asset=HML",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "S_RGDP_1__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "S_RGDP_5__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "S_RGDP_21__asset=HML",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "HML"
+    },
+    {
+      "name": "E_RGDP_current__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_RGDP_next__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_RGDP_slope__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_RGDP_age__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_RGDP_present__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_CPI_current__asset=INR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_CPI_next__asset=INR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_CPI_slope__asset=INR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_CPI_age__asset=INR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_CPI_present__asset=INR",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_UNEMP_current__asset=INR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_UNEMP_next__asset=INR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=INR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_UNEMP_age__asset=INR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_UNEMP_present__asset=INR",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBILL_current__asset=INR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBILL_next__asset=INR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBILL_slope__asset=INR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBILL_age__asset=INR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBILL_present__asset=INR",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBOND_current__asset=INR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBOND_next__asset=INR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBOND_slope__asset=INR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBOND_age__asset=INR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_TBOND_present__asset=INR",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "S_RGDP_1__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "S_RGDP_5__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "S_RGDP_21__asset=INR",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "INR"
+    },
+    {
+      "name": "E_RGDP_current__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_RGDP_next__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_RGDP_slope__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_RGDP_age__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_RGDP_present__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_CPI_current__asset=JPY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_CPI_next__asset=JPY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_CPI_slope__asset=JPY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_CPI_age__asset=JPY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_CPI_present__asset=JPY",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_UNEMP_current__asset=JPY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_UNEMP_next__asset=JPY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=JPY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_UNEMP_age__asset=JPY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_UNEMP_present__asset=JPY",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBILL_current__asset=JPY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBILL_next__asset=JPY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBILL_slope__asset=JPY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBILL_age__asset=JPY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBILL_present__asset=JPY",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBOND_current__asset=JPY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBOND_next__asset=JPY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBOND_slope__asset=JPY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBOND_age__asset=JPY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_TBOND_present__asset=JPY",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "S_RGDP_1__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "S_RGDP_5__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "S_RGDP_21__asset=JPY",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "JPY"
+    },
+    {
+      "name": "E_RGDP_current__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_RGDP_next__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_RGDP_slope__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_RGDP_age__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_RGDP_present__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_CPI_current__asset=MKT",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_CPI_next__asset=MKT",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_CPI_slope__asset=MKT",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_CPI_age__asset=MKT",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_CPI_present__asset=MKT",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_UNEMP_current__asset=MKT",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_UNEMP_next__asset=MKT",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=MKT",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_UNEMP_age__asset=MKT",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_UNEMP_present__asset=MKT",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBILL_current__asset=MKT",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBILL_next__asset=MKT",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBILL_slope__asset=MKT",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBILL_age__asset=MKT",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBILL_present__asset=MKT",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBOND_current__asset=MKT",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBOND_next__asset=MKT",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBOND_slope__asset=MKT",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBOND_age__asset=MKT",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_TBOND_present__asset=MKT",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "S_RGDP_1__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "S_RGDP_5__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "S_RGDP_21__asset=MKT",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MKT"
+    },
+    {
+      "name": "E_RGDP_current__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_RGDP_next__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_RGDP_slope__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_RGDP_age__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_RGDP_present__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_CPI_current__asset=MOM",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_CPI_next__asset=MOM",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_CPI_slope__asset=MOM",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_CPI_age__asset=MOM",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_CPI_present__asset=MOM",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_UNEMP_current__asset=MOM",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_UNEMP_next__asset=MOM",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=MOM",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_UNEMP_age__asset=MOM",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_UNEMP_present__asset=MOM",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBILL_current__asset=MOM",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBILL_next__asset=MOM",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBILL_slope__asset=MOM",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBILL_age__asset=MOM",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBILL_present__asset=MOM",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBOND_current__asset=MOM",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBOND_next__asset=MOM",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBOND_slope__asset=MOM",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBOND_age__asset=MOM",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_TBOND_present__asset=MOM",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "S_RGDP_1__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "S_RGDP_5__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "S_RGDP_21__asset=MOM",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "MOM"
+    },
+    {
+      "name": "E_RGDP_current__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_RGDP_next__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_RGDP_slope__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_RGDP_age__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_RGDP_present__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_CPI_current__asset=NOK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_CPI_next__asset=NOK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_CPI_slope__asset=NOK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_CPI_age__asset=NOK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_CPI_present__asset=NOK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_UNEMP_current__asset=NOK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_UNEMP_next__asset=NOK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=NOK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_UNEMP_age__asset=NOK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_UNEMP_present__asset=NOK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBILL_current__asset=NOK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBILL_next__asset=NOK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBILL_slope__asset=NOK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBILL_age__asset=NOK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBILL_present__asset=NOK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBOND_current__asset=NOK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBOND_next__asset=NOK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBOND_slope__asset=NOK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBOND_age__asset=NOK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_TBOND_present__asset=NOK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "S_RGDP_1__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "S_RGDP_5__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "S_RGDP_21__asset=NOK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NOK"
+    },
+    {
+      "name": "E_RGDP_current__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_RGDP_next__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_RGDP_slope__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_RGDP_age__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_RGDP_present__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_CPI_current__asset=NZD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_CPI_next__asset=NZD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_CPI_slope__asset=NZD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_CPI_age__asset=NZD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_CPI_present__asset=NZD",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_UNEMP_current__asset=NZD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_UNEMP_next__asset=NZD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=NZD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_UNEMP_age__asset=NZD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_UNEMP_present__asset=NZD",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBILL_current__asset=NZD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBILL_next__asset=NZD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBILL_slope__asset=NZD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBILL_age__asset=NZD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBILL_present__asset=NZD",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBOND_current__asset=NZD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBOND_next__asset=NZD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBOND_slope__asset=NZD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBOND_age__asset=NZD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_TBOND_present__asset=NZD",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "S_RGDP_1__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "S_RGDP_5__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "S_RGDP_21__asset=NZD",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "NZD"
+    },
+    {
+      "name": "E_RGDP_current__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_RGDP_next__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_RGDP_slope__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_RGDP_age__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_RGDP_present__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_CPI_current__asset=QMJ",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_CPI_next__asset=QMJ",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_CPI_slope__asset=QMJ",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_CPI_age__asset=QMJ",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_CPI_present__asset=QMJ",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_UNEMP_current__asset=QMJ",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_UNEMP_next__asset=QMJ",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=QMJ",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_UNEMP_age__asset=QMJ",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_UNEMP_present__asset=QMJ",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBILL_current__asset=QMJ",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBILL_next__asset=QMJ",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBILL_slope__asset=QMJ",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBILL_age__asset=QMJ",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBILL_present__asset=QMJ",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBOND_current__asset=QMJ",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBOND_next__asset=QMJ",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBOND_slope__asset=QMJ",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBOND_age__asset=QMJ",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_TBOND_present__asset=QMJ",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "S_RGDP_1__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "S_RGDP_5__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "S_RGDP_21__asset=QMJ",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "QMJ"
+    },
+    {
+      "name": "E_RGDP_current__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_RGDP_next__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_RGDP_slope__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_RGDP_age__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_RGDP_present__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_CPI_current__asset=SEK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_CPI_next__asset=SEK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_CPI_slope__asset=SEK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_CPI_age__asset=SEK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_CPI_present__asset=SEK",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_UNEMP_current__asset=SEK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_UNEMP_next__asset=SEK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=SEK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_UNEMP_age__asset=SEK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_UNEMP_present__asset=SEK",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBILL_current__asset=SEK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBILL_next__asset=SEK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBILL_slope__asset=SEK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBILL_age__asset=SEK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBILL_present__asset=SEK",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBOND_current__asset=SEK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBOND_next__asset=SEK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBOND_slope__asset=SEK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBOND_age__asset=SEK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_TBOND_present__asset=SEK",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "S_RGDP_1__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "S_RGDP_5__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "S_RGDP_21__asset=SEK",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SEK"
+    },
+    {
+      "name": "E_RGDP_current__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_RGDP_next__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_RGDP_slope__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_RGDP_age__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_RGDP_present__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_CPI_current__asset=SMB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_CPI_next__asset=SMB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_CPI_slope__asset=SMB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_CPI_age__asset=SMB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_CPI_present__asset=SMB",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_UNEMP_current__asset=SMB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_UNEMP_next__asset=SMB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=SMB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_UNEMP_age__asset=SMB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_UNEMP_present__asset=SMB",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBILL_current__asset=SMB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBILL_next__asset=SMB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBILL_slope__asset=SMB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBILL_age__asset=SMB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBILL_present__asset=SMB",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBOND_current__asset=SMB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBOND_next__asset=SMB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBOND_slope__asset=SMB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBOND_age__asset=SMB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_TBOND_present__asset=SMB",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "S_RGDP_1__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "S_RGDP_5__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "S_RGDP_21__asset=SMB",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "SMB"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_10Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_10Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_10Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_10Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_10Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_10Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_10Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_10Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_10Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_10Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_10Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_10Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_10Y"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_20Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_20Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_20Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_20Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_20Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_20Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_20Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_20Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_20Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_20Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_20Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_20Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_20Y"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_2Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_2Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_2Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_2Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_2Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_2Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_2Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_2Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_2Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_2Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_2Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_2Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_2Y"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_30Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_30Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_30Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_30Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_30Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_30Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_30Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_30Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_30Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_30Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_30Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_30Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_30Y"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_5Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_5Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_5Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_5Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_5Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_5Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_5Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_5Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_5Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_5Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_5Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_5Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_5Y"
+    },
+    {
+      "name": "E_RGDP_current__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_RGDP_next__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_RGDP_slope__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_RGDP_age__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_RGDP_present__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_CPI_current__asset=UST_7Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_CPI_next__asset=UST_7Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_CPI_slope__asset=UST_7Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_CPI_age__asset=UST_7Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_CPI_present__asset=UST_7Y",
+      "stage": 4,
+      "family": "CPI",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_UNEMP_current__asset=UST_7Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_UNEMP_next__asset=UST_7Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_UNEMP_slope__asset=UST_7Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_UNEMP_age__asset=UST_7Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_UNEMP_present__asset=UST_7Y",
+      "stage": 4,
+      "family": "UNEMP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBILL_current__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBILL_next__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBILL_slope__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBILL_age__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBILL_present__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBILL",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBOND_current__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBOND_next__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBOND_slope__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBOND_age__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "E_TBOND_present__asset=UST_7Y",
+      "stage": 4,
+      "family": "TBOND",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "S_RGDP_1__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "S_RGDP_5__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "S_RGDP_21__asset=UST_7Y",
+      "stage": 4,
+      "family": "RGDP",
+      "metadata": "asset",
+      "value": "UST_7Y"
+    },
+    {
+      "name": "V_RGDP_latest_previous",
+      "stage": 5,
+      "family": "RGDP"
+    },
+    {
+      "name": "V_RGDP_change5",
+      "stage": 5,
+      "family": "RGDP"
+    },
+    {
+      "name": "V_RGDP_change21",
+      "stage": 5,
+      "family": "RGDP"
+    },
+    {
+      "name": "V_RGDP_direction",
+      "stage": 5,
+      "family": "RGDP"
+    },
+    {
+      "name": "V_RGDP_magnitude",
+      "stage": 5,
+      "family": "RGDP"
+    },
+    {
+      "name": "V_CPI_latest_previous",
+      "stage": 5,
+      "family": "CPI"
+    },
+    {
+      "name": "V_CPI_change5",
+      "stage": 5,
+      "family": "CPI"
+    },
+    {
+      "name": "V_CPI_change21",
+      "stage": 5,
+      "family": "CPI"
+    },
+    {
+      "name": "V_CPI_direction",
+      "stage": 5,
+      "family": "CPI"
+    },
+    {
+      "name": "V_CPI_magnitude",
+      "stage": 5,
+      "family": "CPI"
+    },
+    {
+      "name": "V_UNEMP_latest_previous",
+      "stage": 5,
+      "family": "UNEMP"
+    },
+    {
+      "name": "V_UNEMP_change5",
+      "stage": 5,
+      "family": "UNEMP"
+    },
+    {
+      "name": "V_UNEMP_change21",
+      "stage": 5,
+      "family": "UNEMP"
+    },
+    {
+      "name": "V_UNEMP_direction",
+      "stage": 5,
+      "family": "UNEMP"
+    },
+    {
+      "name": "V_UNEMP_magnitude",
+      "stage": 5,
+      "family": "UNEMP"
+    },
+    {
+      "name": "V_TBILL_latest_previous",
+      "stage": 5,
+      "family": "TBILL"
+    },
+    {
+      "name": "V_TBILL_change5",
+      "stage": 5,
+      "family": "TBILL"
+    },
+    {
+      "name": "V_TBILL_change21",
+      "stage": 5,
+      "family": "TBILL"
+    },
+    {
+      "name": "V_TBILL_direction",
+      "stage": 5,
+      "family": "TBILL"
+    },
+    {
+      "name": "V_TBILL_magnitude",
+      "stage": 5,
+      "family": "TBILL"
+    },
+    {
+      "name": "V_TBOND_latest_previous",
+      "stage": 5,
+      "family": "TBOND"
+    },
+    {
+      "name": "V_TBOND_change5",
+      "stage": 5,
+      "family": "TBOND"
+    },
+    {
+      "name": "V_TBOND_change21",
+      "stage": 5,
+      "family": "TBOND"
+    },
+    {
+      "name": "V_TBOND_direction",
+      "stage": 5,
+      "family": "TBOND"
+    },
+    {
+      "name": "V_TBOND_magnitude",
+      "stage": 5,
+      "family": "TBOND"
+    }
+  ],
+  "column_count": 977,
+  "row_count": 135994,
+  "features": {
+    "primary": "867cb47753f173e56d75f3d534e360380036d4c229a46cf24a2a8aec5331c142",
+    "A_historical_surprise": "d9599ba8edbee0e4d69ec12b804af960170279a991dfa5ae6f250c5a8f4c8c84",
+    "B_sign_shuffle": "d4ac91961b05ecb4bbc7d25720f455a58e6228c47b00551e4cadc2a0713cf67f",
+    "C_older_snapshot": "bb95b67c63464f972b2cdb16d2d3ef66f478685c1253acae82b40f9e8a702bee",
+    "D_event_dates": "7d6c0cbd2f2a0f95ea7f6ca097d540807c32603a8898bba86721d139a4825154"
+  },
+  "schema_sha256": "30988c9f7ea47a6829058b2adb28cee48f3ff037cb4ecd5d83df7c09bd787a42",
+  "source_snapshots_sha256": "1e47fd03c6119828b5ef4f4e99d611577c2b87cfddce61664aa352fe3677b1df",
+  "first_actuals_sha256": "6216c53eb5cc79a04fe309596be863ab9339022641f23fd972fb9eac857f89aa",
+  "events_sha256": "c1f3031af922fc19fa38b15606c274d2b46451f0da0e4f53aeeed03f99f1bc98",
+  "origin_events_sha256": "763baa7d1bff35df0a5b7a5056007d9ff815c2a4b6af826c7ab71332e064b4a8",
+  "frozen_location_inputs": {
+    "ledger.parquet": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+    "features.npy": "bfd4a3bbe34e4237575e0bbfd801ae8151fb611ac8b7b678f2762c816fdd9665",
+    "predictions.npz": "135ef536f2378211a1ec5187ee8eae784f73ee86481ebe193acd2acc0b0e1c62",
+    "losses.npz": "d71b2fa7f60cd3f288df5776e4602af255353a1cbb254a89d5e7994977ab4c39",
+    "transfer_models.pkl": "a2c882a669b9a00ea8427d409faea0f0b112f4882d97b82dab370a4d7164efdc"
+  }
+}

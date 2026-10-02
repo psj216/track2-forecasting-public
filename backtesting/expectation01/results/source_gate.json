@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Frozen expectation research provenance; no per-cell outcomes or source values.",
+  "TRUE_CONSENSUS_SOURCE_GATE": "PASS",
+  "MARKET_IMPLIED_SOURCE_GATE": "FAIL",
+  "admissible_expectation_providers": 1,
+  "admissible_expectation_families": 5,
+  "admissible_first_actual_support": 1,
+  "partial_sources": 2,
+  "rejected_sources": 1,
+  "rule_gate": "PASS",
+  "rules_url": "https://www.agenthon.net/rules/",
+  "rules_clause": "6.1 lawful public licensed track-permitted data; every origin cutoff applies",
+  "artifact_policy_url": "https://github.com/Agenthon-2026/track2-forecasting-public/blob/main/docs/ARTIFACT-POLICY.md",
+  "artifact_policy_revision": "2026-09-21.1",
+  "rule_note": "Non-neural research models and lawful historical data permitted; no external fetch at evaluation, no submission performed"
+}

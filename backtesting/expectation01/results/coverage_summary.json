@@ -1,0 +1,20 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "full_cells": 82184,
+  "active_cells": 39096,
+  "full_origins": 780,
+  "active_origins": 370,
+  "coverage_fraction": 0.4757130341672345,
+  "events": 120,
+  "event_ids_count_by_type": {
+    "survey": 60,
+    "true_surprise": 60
+  },
+  "years": 15,
+  "fold_active_origins": [
+    99,
+    99,
+    75,
+    97
+  ]
+}

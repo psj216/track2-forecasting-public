@@ -1,0 +1,21 @@
+{
+  "executive_summary": "All requested temporal, first-release, model and shift checks pass before scoring.",
+  "research_tests": {
+    "passed": 21,
+    "skipped": 0
+  },
+  "directly_affected_tests": {
+    "passed": 51,
+    "skipped": 0
+  },
+  "repository_tests": {
+    "passed": 466,
+    "skipped": 2
+  },
+  "python": "3.13.15",
+  "common_toolkit": "v2.4.3",
+  "warning": "Existing pandas Copy-on-Write deprecation only",
+  "compileall": "PASS",
+  "diff_check": "PASS",
+  "guards": "All four adversarial E\u2013H guard categories covered by named tests"
+}
