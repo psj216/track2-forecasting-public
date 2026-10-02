@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "tests": {
+    "source_specific": "24 passed",
+    "repository": "498 passed,2 skipped",
+    "common": "250 passed",
+    "public_unit_firewall": "PASS"
+  },
+  "logs": {
+    "source_tests_final.log": "61942ba627bf8b9023f77df116d340bb067d12181c5b1e547e56ed7ebf74a88e",
+    "full_tests_final.log": "e60c402b8dba3b81f3457779ada0a929ab74c802b50ce3912cc1e10040ecd62d",
+    "common_tests.log": "4606559ccb06e93fb136cbb5a2d13c182c815f62625b8ebc8f0e318c7da81eef"
+  },
+  "original_baseline_cache_files": 1251,
+  "original_draw_hashes_exact": true,
+  "target_input_hashes_exact": true,
+  "publication_hours": "Conservative23:59ETbound versus precedingBD16:00ETclose",
+  "geometry_guards": "syntheticbeforefreeze and every actual asset-origin during scoring"
+}

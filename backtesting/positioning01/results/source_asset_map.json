@@ -1,0 +1,421 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "mappings": [
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "US_EQUITIES",
+      "contest_asset": "MKT",
+      "confidence": "DIRECT",
+      "used_primary": true,
+      "sign": "native foreignpurchases minus foreignsales",
+      "justification": "Foreign transactions in US corporate equities map to US broad market exposure; no score-dependent sign. Universe broader than exact MKT basket, stated limitation."
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "AUD",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "BRL",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "CAD",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "CHF",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "CNY",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "DKK",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "EUR",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "GBP",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "INR",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "JPY",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "NOK",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "NZD",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "SEK",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "BAB",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "HML",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "MKT",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "MOM",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "QMJ",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "SMB",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_2Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_5Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_7Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_10Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_20Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "FED_H41_RESERVES",
+      "instrument": "BANK_RESERVES",
+      "contest_asset": "UST_30Y",
+      "confidence": "GLOBAL_MACRO",
+      "used_primary": true,
+      "sign": "native USD balance",
+      "justification": "Predeclared global USD bank funding-liquidity exposure; phase10 explicit macro liquidity exception; not direct security holdings"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "AUD_FUTURES",
+      "contest_asset": "AUD",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "CAD_FUTURES",
+      "contest_asset": "CAD",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "CHF_FUTURES",
+      "contest_asset": "CHF",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "EUR_FUTURES",
+      "contest_asset": "EUR",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "GBP_FUTURES",
+      "contest_asset": "GBP",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "JPY_FUTURES",
+      "contest_asset": "JPY",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "CFTC_LEGACY",
+      "instrument": "NZD_FUTURES",
+      "contest_asset": "NZD",
+      "confidence": "DIRECT",
+      "used_primary": false,
+      "sign": "native long minus short",
+      "justification": "Corresponding currency exposure but source gatefails"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_2Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_5Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_7Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_10Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_20Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "TIC_FORM_S",
+      "instrument": "ALL_US_TREASURY_SECURITIES",
+      "contest_asset": "UST_30Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native netpurchases",
+      "justification": "All-maturity foreign Treasuryflows cannot identify exact-tenor rate target"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "instrument": "TREASURY_FUTURES",
+      "contest_asset": "UST_2Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native contract long minus short",
+      "justification": "Deliverable basket and futures direction differ from constant-maturity rate; no tested exact-tenor relation"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "instrument": "TREASURY_FUTURES",
+      "contest_asset": "UST_5Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native contract long minus short",
+      "justification": "Deliverable basket and futures direction differ from constant-maturity rate; no tested exact-tenor relation"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "instrument": "TREASURY_FUTURES",
+      "contest_asset": "UST_10Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native contract long minus short",
+      "justification": "Deliverable basket and futures direction differ from constant-maturity rate; no tested exact-tenor relation"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "instrument": "TREASURY_FUTURES",
+      "contest_asset": "UST_30Y",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native contract long minus short",
+      "justification": "Deliverable basket and futures direction differ from constant-maturity rate; no tested exact-tenor relation"
+    },
+    {
+      "source_id": "CFTC_TFF",
+      "instrument": "EQUITY_INDEX",
+      "contest_asset": "MKT",
+      "confidence": "GROUP_LEVEL",
+      "used_primary": false,
+      "sign": "native position",
+      "justification": "Specific equity index is subset of broad US MKT; sourcefails"
+    },
+    {
+      "source_id": "CFTC_DISAGG",
+      "instrument": "COMMODITIES",
+      "contest_asset": null,
+      "confidence": "UNMAPPED",
+      "used_primary": false,
+      "sign": "native position",
+      "justification": "No contest commodity target; no proxy broadcasting"
+    }
+  ],
+  "counts": {
+    "DIRECT": 8,
+    "GLOBAL_MACRO": 25,
+    "GROUP_LEVEL": 11,
+    "UNMAPPED": 1
+  },
+  "primary_counts": {
+    "DIRECT": 1,
+    "GLOBAL_MACRO": 25
+  },
+  "group_level_secondary": "Not evaluated; failed P quantities absent and all-maturity Treasuryflows retained as unmapped-to-tenor diagnostic candidate only; no hidden group primary"
+}

@@ -1,0 +1,86 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "branch": "track2/positioning-01-public-positioning-flow-liquidity",
+  "parent_sha": "2ac22729875d48e59968edaa60cab927a02712d9",
+  "source_scope": "All official original TIC Form S monthly releases from 2002-12-31 through 2023-03-15; all dated H41 releases2000-2024. CFTC/NYFed/OFR source candidates audited before any target score; no P series invented.",
+  "target": "Unchanged LOCATION135994 training+evaluation cells;82184/780origins/25assets crossfit evaluation2010-2024; original truth,SD,scale,draws/delta imported",
+  "cutoff": "Preceding Mon-Fri business-day16:00America/New_Yorkclose; sameorigin-day excluded. H41usually16:30afterclose and Treasury ZIPindividual intraday times not frozen: both use conservative23:59ETpublication-day upperbound. Thus a release on priorBD alone is insufficient; latest()must check intradaybound. Originalsourcepublicationdate remains unchanged; actualmeasurementdate retained. This intentional extraBDavailability guard is fixed before scores.",
+  "F": "Form S all-country US corporate equity net purchases, millionUSD. Only newest observation in each original release. Retain first seen measurement month; reject later duplicates and revisions. No use of historical rows restated within later ZIPs. Native net=purchase minus sale. Direct MKT exposure, US broad stock market. Do not splice2023SLTreplacement; that source has onlyoneouterera and stays absent.",
+  "L": "H41 table1 Reserve balances with Federal Reserve Banks, first data column: original weekly average, millionUSD. Exact dated original HTML header period, not current DDP/FRED time series. Predeclared global USD funding liquidity exposure to all25assets. Calendar-year normalization not introduced. Historical HTML may incorporate later corrections to other fields (2014table10); selectedtable1reserve balance remains outside announced corrections. This is selected released-value provenance, not untouched full-file bytes. For delayed2020Apr16 use verified availabilityApr17from officialannouncement; keepfiledateandobservationseparate.",
+  "P": "SOURCE_GATE_FAIL: no score, actual P columns absent. Generic P guards/shares implemented and tested synthetically; source coverage not fabricated.",
+  "features": "F:level USDtrillion,1releasechange,net/gross transactions sameoriginal currentmonth denominator,pastz min52strictly prior original releases,4releasecum,agePublication/30,ageObservation/63. L:level USDtrillion,1/4/13releasechanges,pastz min52priororiginal reports,publicationage/10,observationage/63. Missingderivedlags exactly0, level and age may be active before52reports. No size denominator for L; no unsourced asset-size denominator for F.",
+  "max_age_business_days": {
+    "P": 10,
+    "F": 30,
+    "L": 10
+  },
+  "normalization": "Native sign, no market price features; expanding sample SD ddof1 using strictly prior original released values. Train-only StandardScaler with_meanFalse fit on active training cells; interceptFalse, inactiveexact0; delta cap\u00b110",
+  "model_sequence": [
+    "P0 ZERO",
+    "P1-P4NOT_EVALUATED",
+    "F1base7",
+    "F2+5horizoninteractions42",
+    "L1base7",
+    "L2+5horizoninteractions42",
+    "C1concat14",
+    "C2+5horizoninteractions84",
+    "nonlinear one fixed C2"
+  ],
+  "model": "Inherited Ridge and inner chronological delta-MSE code; active validation only; no CRPS tune; no outer source/asset selection; coldstartalpha100",
+  "alpha_grid": [
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "nonlinear": {
+    "max_depth": 3,
+    "learning_rate": 0.05,
+    "max_iter": 200,
+    "l2_regularization": 1.0,
+    "random_state": 19,
+    "early_stopping": false,
+    "categorical_features": null
+  },
+  "folds": [
+    [
+      2009,
+      2010,
+      2013
+    ],
+    [
+      2013,
+      2014,
+      2017
+    ],
+    [
+      2017,
+      2018,
+      2020
+    ],
+    [
+      2020,
+      2021,
+      2024
+    ]
+  ],
+  "purge": "Import inherited189BDmaximumembargo plus target maturity beforeboundary in innerandouter; nochangedhorizon",
+  "controls": {
+    "A": "Each original report content replaced with deterministicstrictlypast donor,seed1907+reportindex; genuinepublication/observationages retained; donorfeatures computed at original donor release from own past. No future donor. Independent F2,L2,C2fits namedFA/LA/CA",
+    "B": "One genuine report older including older age, staleness threshold retained; separateF2,L2,C2fitsFB/LB/CB",
+    "C": "Instrument mapping rotation utility tested but non-identifiable for one directly mapped F instrument and one predeclared globalL instrument; no P experiment. Report NOT_IDENTIFIABLE, not asserted PASS",
+    "D": "Category rotation same limitation one genuine aggregate category per admitted source; no syntheticlabels. Report NOT_IDENTIFIABLE",
+    "E_I": "Adversarial actualreleasecutoff,futurereport,futureOI,originalhashrevisionrejection,pureshiftgeometrytests beforefreeze",
+    "clear": "Applicable A/B both upper95pairedreportinterval<1 AND fullcalendar-yearinterval<1; C/D non-identifiability explicitly limits source specificity inference, cannot be represented as a passed informative control"
+  },
+  "bootstrap": "2000replicatesseed1903 permodel. Active connected components of latest-published source snapshots: all origins/assets/horizons sharing a snapshot or release date remain together; model state includes predeclaredlags/pastnormalization but these do not create additional independent events. C uses both active latestF/Lsnapshots and coincidences. Fullcalendar-year15blocks2000. No cellbootstrap. Report blockcounts and sensitivitylimits of lowfrequency/historyfeatures.",
+  "scoring": "Imported common fairCRPS originalperrowscale; normalizedmarginalresearchproxyonly; identicaldraw countscalevariancecopulatailranks; always compare inactive to baselineexactly",
+  "oracle_capture": "Active oracle uses original pure-perfect location drawshift; fullcorresponding oracle shifts only active cells,baselineelsewhere; unbounded negativecaptures preserved",
+  "success": "WEAK active<=.97,full<1,3foldsratio<1,capture>.05,clear applicablecontrols; YES .95/.995/.10;STRONG .90/.99/.20;MOONSHOT .80/.98/.35 allretainWEAK; minimum3activeeras. One nonlinear separate. Primary P failure is sourceadmissibility, not evidenceofnoPalpha.",
+  "offline": "Allsourceacquisitionresearchonly; imported engine has no requests or network dependencies; no submissioncandidate",
+  "runtime": "Boundedrequests25s, acquisitionschunked incremental manifests; eachfold/model timeout300s andheartbeat60s; each100origin scorechunktimeout300; boundedaggregationincremental permodel. Resume savedchunks.",
+  "license": "FedBoarddatedrelease publicdomainunlessotherwiseindicated withattribution. Treasury officialstatisticaldata localresearch use and extraction instructions; USgovernmentworks17USC105; retainprivateoriginalZIPs and officialsourceidentifiers, publicaggregate/hashonly. NYFedTerms permitstoredresearchwithattribution but sourcePITfails. NoALFRED/FRED or commercialETFdata used.",
+  "limits": "Direct US equity stock-flow universe is broader than exact MKT tradable basket; global bankreserve quantity is not dealer-inventory or microstructure liquidity. No admitted direct currency-positioning evidence. Fourfold MKT-onlyFcoverage cannot be generalized to allassets.",
+  "pre_result_status": "No new target scores opened"
+}

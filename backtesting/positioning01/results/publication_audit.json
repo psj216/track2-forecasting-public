@@ -1,0 +1,22 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "original_rows": 1548,
+  "source_rows": {
+    "F": 244,
+    "L": 1304
+  },
+  "every_observation_before_release": true,
+  "origin_cutoff": "t-1MonFriBDclose; release-dayexcluded",
+  "raw_hashes_fixed": true,
+  "original_not_latest_history": true,
+  "rejected_rows": [
+    {
+      "source": "TIC_FORM_S",
+      "release_date": "2006-10-20",
+      "reason": "Form S missing"
+    }
+  ],
+  "H41_revisions": "Dated pages incorporate later table10collateral corrections: current2010page has revised56976 instead of original54944. Selected table1weekly reserve-balance series is outside the official correction fields, and the currentDDPhistory is not used. Source admissibility is field-specific, not a claim that whole historical HTML bytes are unchanged. Later cover-noteJune2014 not substituted for page release date.2020Apr16 availability conservatively moved to verifiedApr17notice; original observation and file date retained.",
+  "CFTC_historical_exceptions": "ION2023delays,2013/2018shutdownandholidays acknowledged; no inferredFridayprimary CFTC timestamp",
+  "method_frozen": true
+}

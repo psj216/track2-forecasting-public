@@ -1,0 +1,508 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "features": {
+    "primary": "98810c074e3fbaa33620e19da3405024eba4e7b6bf82dc15b79f0426d2a775a5",
+    "A": "e5dcc3e30dc6f5ff1698aaa26a0f4f12b668af681da30c9c79975d3318ddbf2a",
+    "B": "1c18ec1c542eab69d2e0df4849e9b095f2e20341f2ae9f49fc363a81bb1fa9e8"
+  },
+  "processed_sha256": "eba8890e560d0e6e3bc9924f32fb4571a614922fab9e905f2e9e61ad4200d7a1",
+  "schema_sha256": "ba5750944250bfcbc6cebf95dd88a30a9975b97019f564366d6513455e95282f",
+  "origin_reports_sha256": "3b7c7686633c2ca7f4bd739b97c2560430f986b736831187b7f9a60bee3e6a1e",
+  "columns": [
+    {
+      "name": "F_flow_usd_trillion",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_one_release_change",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_net_over_gross_transactions",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_past_z",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_four_release_cumulative",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_publication_age",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "F_observation_age",
+      "class_id": "F",
+      "stage": 1
+    },
+    {
+      "name": "L_reserve_usd_trillion",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_one_release_change",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_four_release_change",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_thirteen_release_change",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_past_z",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_publication_age",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "L_observation_age",
+      "class_id": "L",
+      "stage": 1
+    },
+    {
+      "name": "F_flow_usd_trillion_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_one_release_change_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_net_over_gross_transactions_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_past_z_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_four_release_cumulative_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_publication_age_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_observation_age_h5",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_reserve_usd_trillion_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_one_release_change_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_four_release_change_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_thirteen_release_change_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_past_z_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_publication_age_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "L_observation_age_h5",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 5
+    },
+    {
+      "name": "F_flow_usd_trillion_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_one_release_change_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_net_over_gross_transactions_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_past_z_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_four_release_cumulative_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_publication_age_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_observation_age_h21",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_reserve_usd_trillion_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_one_release_change_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_four_release_change_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_thirteen_release_change_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_past_z_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_publication_age_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "L_observation_age_h21",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 21
+    },
+    {
+      "name": "F_flow_usd_trillion_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_one_release_change_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_net_over_gross_transactions_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_past_z_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_four_release_cumulative_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_publication_age_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_observation_age_h63",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_reserve_usd_trillion_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_one_release_change_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_four_release_change_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_thirteen_release_change_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_past_z_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_publication_age_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "L_observation_age_h63",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 63
+    },
+    {
+      "name": "F_flow_usd_trillion_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_one_release_change_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_net_over_gross_transactions_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_past_z_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_four_release_cumulative_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_publication_age_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_observation_age_h126",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_reserve_usd_trillion_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_one_release_change_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_four_release_change_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_thirteen_release_change_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_past_z_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_publication_age_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "L_observation_age_h126",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 126
+    },
+    {
+      "name": "F_flow_usd_trillion_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_one_release_change_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_net_over_gross_transactions_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_past_z_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_four_release_cumulative_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_publication_age_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "F_observation_age_h189",
+      "class_id": "F",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_reserve_usd_trillion_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_one_release_change_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_four_release_change_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_thirteen_release_change_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_past_z_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_publication_age_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    },
+    {
+      "name": "L_observation_age_h189",
+      "class_id": "L",
+      "stage": 2,
+      "horizon": 189
+    }
+  ],
+  "rows": 135994,
+  "absent_classes": [
+    "P"
+  ],
+  "no_target_columns_read": true
+}

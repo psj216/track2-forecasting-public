@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Frozen research audit; raw per-cell data stay private.",
+  "POSITIONING_SOURCE_GATE": "FAIL",
+  "FLOW_SOURCE_GATE": "PASS",
+  "LIQUIDITY_SOURCE_GATE": "PASS",
+  "source_counts": {
+    "ADMISSIBLE": 2,
+    "REJECTED": 6,
+    "PARTIAL": 1
+  },
+  "before_target_score": true,
+  "primary_positioning_admissibility": "FAIL; F/L independent continuation authorized by phase4",
+  "all_gates_fail_rule": "Not applicable: F/L pass. No performance claim for P failure"
+}
