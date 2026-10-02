@@ -1,0 +1,44 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "CONTEXT01_RESULT": "NO",
+  "EXISTING_TEXT_SIGNAL": "WEAK",
+  "SEMANTIC_RESIDUAL_SIGNAL": "NONE",
+  "ROUTING_SIGNAL": "WEAK",
+  "EMBEDDING_SIGNAL": "NOT_AVAILABLE",
+  "F1_MULTI_SAFETY": {
+    "B0": "NO_IMPROVEMENT",
+    "B1": "NO_IMPROVEMENT",
+    "B2": "NO_IMPROVEMENT",
+    "B3": "NO_IMPROVEMENT",
+    "B4": "NO_IMPROVEMENT",
+    "B5": "NO_IMPROVEMENT",
+    "R0": "NO_IMPROVEMENT",
+    "R1": "NO_IMPROVEMENT",
+    "R2": "NO_IMPROVEMENT",
+    "R3": "NO_IMPROVEMENT"
+  },
+  "READY_FOR_CONTEXT02": "NO",
+  "READY_FOR_ONE_SHOT": "NO",
+  "NEXT_STEP_PRIORITY": "TEXT-ROUTE-AUDIT-02",
+  "model_verdicts": {
+    "B1": "NO",
+    "B2": "NO",
+    "B3": "NO",
+    "B4": "NO",
+    "B5": "NO",
+    "R1": "NO",
+    "R2": "NO",
+    "R3": "NO"
+  },
+  "evidence_label": "RESEARCH_EXPOSED_CONTEXT_SIGNAL",
+  "scope": "24previously exposed proxycards; no official or independent OOS validation",
+  "pre_result_sha": "a57c11701ae2b9383882673b14680e16c8d9cdea",
+  "parent_result_sha": "79083c298f8dede7f9113dbf058f4f55c3dfad3d",
+  "universe": {
+    "cards": 24,
+    "cells": 63,
+    "single": 13,
+    "multi": 11,
+    "family_cards": 6
+  }
+}

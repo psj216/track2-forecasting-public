@@ -1,0 +1,486 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "models": {
+    "B0": {
+      "whole_card": {
+        "composite_95_interval": [
+          1.0,
+          1.0
+        ],
+        "marginal_95_interval": [
+          1.0,
+          1.0
+        ],
+        "single_95_interval": [
+          1.0,
+          1.0
+        ],
+        "multi_95_interval": [
+          1.0,
+          1.0
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          1.0,
+          1.0
+        ],
+        "marginal_95_interval": [
+          1.0,
+          1.0
+        ],
+        "single_95_interval": [
+          1.0,
+          1.0
+        ],
+        "multi_95_interval": [
+          1.0,
+          1.0
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "B1": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.9045987461191793,
+          1.498945445215786
+        ],
+        "marginal_95_interval": [
+          0.7953773662323946,
+          1.4480702987252
+        ],
+        "single_95_interval": [
+          0.6329888401275653,
+          1.140471188787339
+        ],
+        "multi_95_interval": [
+          1.1974766561448524,
+          2.379316320599848
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.9872760652867344,
+          1.3737461726204425
+        ],
+        "marginal_95_interval": [
+          0.9020185291572117,
+          1.3123371617196655
+        ],
+        "single_95_interval": [
+          0.6781415435853821,
+          1.1162418063839619
+        ],
+        "multi_95_interval": [
+          1.3104126439659576,
+          2.1171743341695306
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "B2": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.858920844041568,
+          1.437638547538897
+        ],
+        "marginal_95_interval": [
+          0.7635148431881252,
+          1.3206427946794328
+        ],
+        "single_95_interval": [
+          0.6203051270897425,
+          1.141276657406898
+        ],
+        "multi_95_interval": [
+          1.071937145819456,
+          2.2828744536059804
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.9168225001184998,
+          1.3556934431198735
+        ],
+        "marginal_95_interval": [
+          0.8473283737713558,
+          1.2383919580792198
+        ],
+        "single_95_interval": [
+          0.6716691240299707,
+          1.1119336535378452
+        ],
+        "multi_95_interval": [
+          1.1186917498510853,
+          2.1070065356626797
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "B3": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.8964841387443074,
+          1.3810133802184634
+        ],
+        "marginal_95_interval": [
+          0.8799625640822315,
+          1.3329585592286604
+        ],
+        "single_95_interval": [
+          0.7046189249141144,
+          1.1881979595620298
+        ],
+        "multi_95_interval": [
+          1.041872731437971,
+          1.978378129202119
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.9235216778154951,
+          1.318484715287575
+        ],
+        "marginal_95_interval": [
+          0.9249327635867316,
+          1.2651070371104791
+        ],
+        "single_95_interval": [
+          0.7218763077073884,
+          1.1598692984814354
+        ],
+        "multi_95_interval": [
+          1.0584670692681557,
+          1.8687754947941049
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "B4": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.9631867957151116,
+          1.544739791290496
+        ],
+        "marginal_95_interval": [
+          0.9449464263280015,
+          1.479351140484322
+        ],
+        "single_95_interval": [
+          0.7296836722638185,
+          1.3282921580911287
+        ],
+        "multi_95_interval": [
+          1.1620798224348896,
+          2.2619756936871
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          1.003981852043082,
+          1.4821422133577813
+        ],
+        "marginal_95_interval": [
+          0.9983485969441982,
+          1.3985709012412213
+        ],
+        "single_95_interval": [
+          0.7606186590042203,
+          1.3109423069240702
+        ],
+        "multi_95_interval": [
+          1.2145781386130663,
+          2.1075931106554044
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "B5": {
+      "whole_card": {
+        "composite_95_interval": [
+          1.103948793018411,
+          2.144758180233776
+        ],
+        "marginal_95_interval": [
+          1.025981391163531,
+          1.7706790237706125
+        ],
+        "single_95_interval": [
+          0.8160843136041186,
+          2.1245077111375954
+        ],
+        "multi_95_interval": [
+          1.1931902926349425,
+          3.0291926980370545
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          1.1014777284054174,
+          2.1352749664459916
+        ],
+        "marginal_95_interval": [
+          1.0446461945079946,
+          1.7292728476192023
+        ],
+        "single_95_interval": [
+          0.8413036163274981,
+          2.1253450521584383
+        ],
+        "multi_95_interval": [
+          1.2189715530099852,
+          2.9979702705566273
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "R0": {
+      "whole_card": {
+        "composite_95_interval": [
+          1.0,
+          1.0
+        ],
+        "marginal_95_interval": [
+          1.0,
+          1.0
+        ],
+        "single_95_interval": [
+          1.0,
+          1.0
+        ],
+        "multi_95_interval": [
+          1.0,
+          1.0
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          1.0,
+          1.0
+        ],
+        "marginal_95_interval": [
+          1.0,
+          1.0
+        ],
+        "single_95_interval": [
+          1.0,
+          1.0
+        ],
+        "multi_95_interval": [
+          1.0,
+          1.0
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "R1": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.8863004770056284,
+          1.1168341403493072
+        ],
+        "marginal_95_interval": [
+          0.8860259825311839,
+          1.1877991181935046
+        ],
+        "single_95_interval": [
+          0.757482996062931,
+          1.0378160895466055
+        ],
+        "multi_95_interval": [
+          0.9929565941767976,
+          1.3197756059682964
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.8939619997492874,
+          1.1139555388880173
+        ],
+        "marginal_95_interval": [
+          0.8950826191293844,
+          1.1778123053925207
+        ],
+        "single_95_interval": [
+          0.7593119810497043,
+          1.0313016278063465
+        ],
+        "multi_95_interval": [
+          0.9933662634234763,
+          1.3160783274709995
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "R2": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.9107431498870378,
+          1.0362031063647272
+        ],
+        "marginal_95_interval": [
+          0.9132521774641732,
+          1.0411266845225344
+        ],
+        "single_95_interval": [
+          0.8284072756602605,
+          1.0379703288091862
+        ],
+        "multi_95_interval": [
+          0.9805659848061217,
+          1.079701742619328
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.9132843996822403,
+          1.0355921007213067
+        ],
+        "marginal_95_interval": [
+          0.917316486845888,
+          1.0389898314214936
+        ],
+        "single_95_interval": [
+          0.8311002500912215,
+          1.0314531141752963
+        ],
+        "multi_95_interval": [
+          0.9824237723918265,
+          1.0778115492211684
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    },
+    "R3": {
+      "whole_card": {
+        "composite_95_interval": [
+          0.923566823805953,
+          1.3142095694250278
+        ],
+        "marginal_95_interval": [
+          0.8465280770325088,
+          1.25956177159477
+        ],
+        "single_95_interval": [
+          0.7421149186774131,
+          1.2431499408721796
+        ],
+        "multi_95_interval": [
+          1.049286710745326,
+          1.6468548308607165
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Whole-card blocks; all cells stay together",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      },
+      "family_stratified": {
+        "composite_95_interval": [
+          0.9360268976396556,
+          1.300423562197219
+        ],
+        "marginal_95_interval": [
+          0.8794558784034591,
+          1.2253538218479316
+        ],
+        "single_95_interval": [
+          0.7602278268666457,
+          1.222028683366841
+        ],
+        "multi_95_interval": [
+          1.060310343212278,
+          1.6434338557628305
+        ],
+        "replicates": 5000,
+        "seed": 1903,
+        "blocks": 24,
+        "method": "Family-stratified six-card blocks per family",
+        "interpretation": "Exposed sample resampling sensitivity; not formal generalization confidence interval"
+      }
+    }
+  },
+  "interpretation": "Previously exposed24cards;5000whole-card and5000family-stratified resampling sensitivity; not formal generalization CI"
+}

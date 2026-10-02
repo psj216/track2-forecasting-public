@@ -1,0 +1,279 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "scope": "Recomputed current24-card B_TEXT center residual oracle, uncapped hindsight; joint permutation12000proposals/3starts for11multi only; not learned forecasts",
+  "groups": {
+    "all": {
+      "cards": 24,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 24,
+        "cells": 63,
+        "geometric_composite_ratio": 1.0086960796163993,
+        "arithmetic_composite_ratio": 1.0093397529551995,
+        "perfect_residual_location_ratio": 0.4892090087012897,
+        "oracle_capture_fraction": -0.017024731768054666,
+        "card_wins": 1,
+        "single_wins": 0,
+        "multi_wins": 1,
+        "marginal_ratio": 1.011920008945431,
+        "marginal_baseline_mean": 0.8236376127789352,
+        "marginal_candidate_mean": 0.8289503524847542,
+        "joint_ratio": 0.9684950517931172,
+        "joint_baseline_mean": 0.43145843601222794,
+        "joint_candidate_mean": 0.431453876170864,
+        "tail_ratio": 1.0151548273807736,
+        "tail_baseline_mean": 0.11244408162041923,
+        "tail_candidate_mean": 0.114945526300886
+      },
+      "perfect_residual_location_composite_ratio": 0.4892090087012897,
+      "perfect_residual_location_marginal_ratio": 0.35064861639333406,
+      "baseline_component_means": {
+        "marginal": 0.8236376127789352,
+        "joint": 0.43145843601222794,
+        "tail": 0.11244408162041923
+      },
+      "perfect_component_means": {
+        "marginal": 0.17209137410147393,
+        "joint": 0.1815427614159868,
+        "tail": 0.03934822499213614
+      },
+      "feasible_location_joint_composite_ratio": 0.46881288710537716,
+      "feasible_joint_subset_cards": 11,
+      "location_plus_feasible_joint_all_group_cards": 0.3639481392911189
+    },
+    "single": {
+      "cards": 13,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 13,
+        "cells": 13,
+        "geometric_composite_ratio": 1.0211589681893527,
+        "arithmetic_composite_ratio": 1.0220398365766672,
+        "perfect_residual_location_ratio": 0.2937625262060398,
+        "oracle_capture_fraction": -0.02996013235560151,
+        "card_wins": 0,
+        "single_wins": 0,
+        "multi_wins": 0,
+        "marginal_ratio": 1.0167108637486275,
+        "marginal_baseline_mean": 1.2067602024806197,
+        "marginal_candidate_mean": 1.2149897302406956,
+        "joint_ratio": null,
+        "joint_baseline_mean": 0.0,
+        "joint_candidate_mean": 0.0,
+        "tail_ratio": 1.0318085508599482,
+        "tail_baseline_mean": 0.16509530515783008,
+        "tail_candidate_mean": 0.16988204182185618
+      },
+      "perfect_residual_location_composite_ratio": 0.2937625262060398,
+      "perfect_residual_location_marginal_ratio": 0.225152247192952,
+      "baseline_component_means": {
+        "marginal": 1.2067602024806197,
+        "joint": 0.0,
+        "tail": 0.16509530515783008
+      },
+      "perfect_component_means": {
+        "marginal": 0.18465034539275813,
+        "joint": 0.0,
+        "tail": 0.04260743491795093
+      },
+      "feasible_location_joint_composite_ratio": null,
+      "feasible_joint_subset_cards": 0,
+      "location_plus_feasible_joint_all_group_cards": 0.2937625262060398
+    },
+    "multi": {
+      "cards": 11,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 11,
+        "cells": 50,
+        "geometric_composite_ratio": 0.9941631684619022,
+        "arithmetic_composite_ratio": 0.9943305632207378,
+        "perfect_residual_location_ratio": 0.893850465344235,
+        "oracle_capture_fraction": 0.054986878247051965,
+        "card_wins": 1,
+        "single_wins": 0,
+        "multi_wins": 1,
+        "marginal_ratio": 1.0062871863245866,
+        "marginal_baseline_mean": 0.370856370404217,
+        "marginal_candidate_mean": 0.37272199695500524,
+        "joint_ratio": 0.9684950517931172,
+        "joint_baseline_mean": 0.9413638603903156,
+        "joint_candidate_mean": 0.9413539116455216,
+        "tail_ratio": 0.9958193615860074,
+        "tail_baseline_mean": 0.05021990834893367,
+        "tail_candidate_mean": 0.0500205534124667
+      },
+      "perfect_residual_location_composite_ratio": 0.893850465344235,
+      "perfect_residual_location_marginal_ratio": 0.5919009482428751,
+      "baseline_component_means": {
+        "marginal": 0.370856370404217,
+        "joint": 0.9413638603903156,
+        "tail": 0.05021990834893367
+      },
+      "perfect_component_means": {
+        "marginal": 0.1572489534845018,
+        "joint": 0.39609329763488027,
+        "tail": 0.035496431443445935
+      },
+      "feasible_location_joint_composite_ratio": 0.46881288710537716,
+      "feasible_joint_subset_cards": 11,
+      "location_plus_feasible_joint_all_group_cards": 0.46881288710537716
+    },
+    "T2-F1": {
+      "cards": 6,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 6,
+        "cells": 11,
+        "geometric_composite_ratio": 0.9893251752603582,
+        "arithmetic_composite_ratio": 0.9896060325713525,
+        "perfect_residual_location_ratio": 1.706268702471187,
+        "oracle_capture_fraction": null,
+        "card_wins": 1,
+        "single_wins": 0,
+        "multi_wins": 1,
+        "marginal_ratio": 1.0115566932778826,
+        "marginal_baseline_mean": 0.10535125575185456,
+        "marginal_candidate_mean": 0.10877157109496638,
+        "joint_ratio": 0.9319965261179097,
+        "joint_baseline_mean": 0.0027514915566398397,
+        "joint_candidate_mean": 0.00273325219118426,
+        "tail_ratio": 0.9923488503952015,
+        "tail_baseline_mean": 0.018263806621931073,
+        "tail_candidate_mean": 0.017898322571741645
+      },
+      "perfect_residual_location_composite_ratio": 1.706268702471187,
+      "perfect_residual_location_marginal_ratio": 0.8088813625347264,
+      "baseline_component_means": {
+        "marginal": 0.10535125575185456,
+        "joint": 0.0027514915566398397,
+        "tail": 0.018263806621931073
+      },
+      "perfect_component_means": {
+        "marginal": 0.08076572963484747,
+        "joint": 0.00474029784053713,
+        "tail": 0.018263806621931073
+      },
+      "feasible_location_joint_composite_ratio": 0.6307485836104305,
+      "feasible_joint_subset_cards": 5,
+      "location_plus_feasible_joint_all_group_cards": 0.6436642365013577
+    },
+    "T2-F2": {
+      "cards": 6,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 6,
+        "cells": 6,
+        "geometric_composite_ratio": 1.0,
+        "arithmetic_composite_ratio": 1.0,
+        "perfect_residual_location_ratio": 0.4172393452099808,
+        "oracle_capture_fraction": 0.0,
+        "card_wins": 0,
+        "single_wins": 0,
+        "multi_wins": 0,
+        "marginal_ratio": 1.0,
+        "marginal_baseline_mean": 2.3586305146226167,
+        "marginal_candidate_mean": 2.3586305146226167,
+        "joint_ratio": null,
+        "joint_baseline_mean": 0.0,
+        "joint_candidate_mean": 0.0,
+        "tail_ratio": 1.0,
+        "tail_baseline_mean": 0.2971649049906068,
+        "tail_candidate_mean": 0.2971649049906068
+      },
+      "perfect_residual_location_composite_ratio": 0.4172393452099808,
+      "perfect_residual_location_marginal_ratio": 0.3279708458588638,
+      "baseline_component_means": {
+        "marginal": 2.3586305146226167,
+        "joint": 0.0,
+        "tail": 0.2971649049906068
+      },
+      "perfect_component_means": {
+        "marginal": 0.36276575248374604,
+        "joint": 0.0,
+        "tail": 0.08394137483079882
+      },
+      "feasible_location_joint_composite_ratio": null,
+      "feasible_joint_subset_cards": 0,
+      "location_plus_feasible_joint_all_group_cards": 0.4172393452099808
+    },
+    "T2-F3": {
+      "cards": 6,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 6,
+        "cells": 40,
+        "geometric_composite_ratio": 1.0,
+        "arithmetic_composite_ratio": 1.0,
+        "perfect_residual_location_ratio": 0.4508692818411727,
+        "oracle_capture_fraction": 0.0,
+        "card_wins": 0,
+        "single_wins": 0,
+        "multi_wins": 0,
+        "marginal_ratio": 1.0,
+        "marginal_baseline_mean": 0.5952546337146215,
+        "marginal_candidate_mean": 0.5952546337146215,
+        "joint_ratio": 1.0,
+        "joint_baseline_mean": 1.7230822524922722,
+        "joint_candidate_mean": 1.7230822524922722,
+        "tail_ratio": 1.0,
+        "tail_baseline_mean": 0.07659503395903235,
+        "tail_candidate_mean": 0.07659503395903235
+      },
+      "perfect_residual_location_composite_ratio": 0.4508692818411727,
+      "perfect_residual_location_marginal_ratio": 0.43377459084621783,
+      "baseline_component_means": {
+        "marginal": 0.5952546337146215,
+        "joint": 1.7230822524922722,
+        "tail": 0.07659503395903235
+      },
+      "perfect_component_means": {
+        "marginal": 0.2198885578577309,
+        "joint": 0.7214307478234101,
+        "tail": 0.04960199296563817
+      },
+      "feasible_location_joint_composite_ratio": 0.3661161802298227,
+      "feasible_joint_subset_cards": 6,
+      "location_plus_feasible_joint_all_group_cards": 0.3661161802298227
+    },
+    "T2-F4": {
+      "cards": 6,
+      "B_TEXT_composite_ratio": 1.0,
+      "B_NUMERIC": {
+        "cards": 6,
+        "cells": 6,
+        "geometric_composite_ratio": 1.0464109388187546,
+        "arithmetic_composite_ratio": 1.0477529792494453,
+        "perfect_residual_location_ratio": 0.1784409210583779,
+        "oracle_capture_fraction": -0.056491298079918636,
+        "card_wins": 0,
+        "single_wins": 0,
+        "multi_wins": 0,
+        "marginal_ratio": 1.036560142711296,
+        "marginal_baseline_mean": 0.23531404702664815,
+        "marginal_candidate_mean": 0.25314469050681304,
+        "joint_ratio": null,
+        "joint_baseline_mean": 0.0,
+        "joint_candidate_mean": 0.0,
+        "tail_ratio": 1.0701995542889957,
+        "tail_baseline_mean": 0.05775258091010662,
+        "tail_candidate_mean": 0.06812384368216313
+      },
+      "perfect_residual_location_composite_ratio": 0.1784409210583779,
+      "perfect_residual_location_marginal_ratio": 0.13137246251776544,
+      "baseline_component_means": {
+        "marginal": 0.23531404702664815,
+        "joint": 0.0,
+        "tail": 0.05775258091010662
+      },
+      "perfect_component_means": {
+        "marginal": 0.02494545642957138,
+        "joint": 0.0,
+        "tail": 0.0055857255501764935
+      },
+      "feasible_location_joint_composite_ratio": null,
+      "feasible_joint_subset_cards": 0,
+      "location_plus_feasible_joint_all_group_cards": 0.1784409210583779
+    }
+  }
+}

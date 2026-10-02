@@ -1,0 +1,23 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "PRE_RESULT_CONTEXT01_SHA": "a57c11701ae2b9383882673b14680e16c8d9cdea",
+  "original_tests": "520passed/2skipped;250common passed;22new tests",
+  "runtime_recovery": "Ephemeral workspace reverted to earlier snapshot. Restored exact PRE branch and161private files from durable checkpoint;168experts reused. Four early fold files were absent from checkpoint and rebuilt exactly, not retuned. Restored narwhals2.26.0purePython dependency;22research tests passed after recovery.",
+  "fit_folds": 620,
+  "card_folds": 24,
+  "family_folds": 4,
+  "chrono_folds": 3,
+  "scored_card_counts": {
+    "loco": 24,
+    "family": 24,
+    "chrono": 18
+  },
+  "variants_per_card": 39,
+  "model_component_rescores": 2574,
+  "matched_asof_expert_fits": 168,
+  "all_same_card_leakage_assertions": "PASS",
+  "post_freeze_reporting_correction": "Converted candidate/control NumPy ratio vector to list for unchanged imported aggregate adapter. No fit, prediction, source, score formula, model choice, gates, annotations or routing changed. Public singleton subgroup metrics redacted while retaining counts; complete subgroup tables preserved privately. No evaluation cards excluded.",
+  "protocol_sha256": "a4cc17fce781191cd1db6cd303af4c474394eee03d515b75fcc28c352d3d25a5",
+  "recovered_tests_log_sha256": "801032ef42d7fc6eea34f61c9b80660f8f21c7bdc1fbeb2b01b67f4430f78144",
+  "future_model_runs_after_reporting_change": 0
+}

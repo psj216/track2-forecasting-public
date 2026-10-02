@@ -16,7 +16,7 @@ from .bootstrap_cards import bootstrap,paired
 def write_csv(path,rows):
  path.parent.mkdir(parents=True,exist_ok=True)
  with path.open('w',newline='') as f:
-  w=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in rows for k in r)));w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=list(dict.fromkeys(k for r in rows for k in r)),lineterminator='\n');w.writeheader();w.writerows(rows)
 def scalar_metrics(records,key):
  d=summarize(records,key)
  if records:
@@ -65,14 +65,17 @@ def run(root,private,card_private,pre):
  write_csv(r/'family_summary.csv',[dict(family=f,model=k,**family[f][k])for f in families for k in MAIN_MODELS]);write_csv(r/'family_holdout.csv',[dict(family=f,model=k,**fhom[f][k])for f in families for k in MAIN_MODELS])
  write_csv(r/'chronological_card_summary.csv',[dict(boundary=s['boundary'],model=k,training_cards=len(s['train_cards']),**scalar_metrics([c for c in chrono if c['card_id']in s['test_cards']],k))for s in protocol['chronological_splits']for k in MAIN_MODELS])
  for file,tags,selector in [('context_type_summary.csv',CONDITIONALITY,lambda c,t:annotations[c['card_id']]['features'][t]>0),('topic_summary.csv',TOPICS,lambda c,t:t in annotations[c['card_id']]['economic_topics']),('horizon_summary.csv',['1-5','6-21','22-63','64-126','127+'],lambda c,t:t in [horizon_bin(v)for v in cardmap[c['card_id']]['horizons']]),('group_summary.csv',['FX','Rates','Factor/Equity'],lambda c,t:t in [asset_group(a,cardmap[c['card_id']]['target_type'])for a in cardmap[c['card_id']]['assets']])]:
-  write_csv(r/file,[dict(subgroup=t,model=k,**scalar_metrics([c for c in data if selector(c,t)],k))for t in tags for k in MAIN_MODELS])
+  rows=[dict(subgroup=t,model=k,**scalar_metrics([c for c in data if selector(c,t)],k))for t in tags for k in MAIN_MODELS]
+  write_csv(private/'subgroups'/file,rows)
+  public_rows=[dict(subgroup=row['subgroup'],model=row['model'],cards=1,cells=row['cells'],status='SUPPRESSED_SINGLE_CARD_PUBLIC_FIREWALL')if row['cards']==1 else row for row in rows]
+  write_csv(r/file,public_rows)
  boots={};controls={};clear={};fam=np.array([c['family']for c in data]);sing=np.array([c['single']for c in data])
  for k in MAIN_MODELS:
   values=[c['models'][k]['ratio']for c in data];marg=[c['models'][k]['marginal']/c['baseline']['marginal']for c in data];boots[k]={name:bootstrap(values,marg,sing,fam,strat)for name,strat in [('whole_card',False),('family_stratified',True)]}
   if k in ['B0','R0']:continue
   names=['CTRL_'+n+'_'+k for n in ('ABD'if k.startswith('B')else'ABCD')];controls[k]={}
   for n in names:
-   cv=[c['models'][n]['ratio']for c in data];ci=paired(values,cv,fam);cs=paired(values,cv,fam,True);controls[k][n]=dict(aggregate=summarize(data,n),candidate_over_control=aggregate(np.array(values)/cv),whole_card_paired95=ci,family_stratified_paired95=cs,clear=ci[1]<1 and cs[1]<1)
+   cv=[c['models'][n]['ratio']for c in data];ci=paired(values,cv,fam);cs=paired(values,cv,fam,True);controls[k][n]=dict(aggregate=summarize(data,n),candidate_over_control=aggregate((np.array(values)/cv).tolist()),whole_card_paired95=ci,family_stratified_paired95=cs,clear=ci[1]<1 and cs[1]<1)
   clear[k]=all(v['clear']for v in controls[k].values());print(json.dumps(dict(stage='aggregate5000bootstrap',model=k,clear=clear[k],artifact=str(r/'bootstrap_summary.json'))),flush=True)
   dump(private/'partial_aggregate.json',dict(bootstrap=boots,controls=controls))
  dump(r/'bootstrap_summary.json',dict(models=boots,interpretation='Previously exposed24cards;5000whole-card and5000family-stratified resampling sensitivity; not formal generalization CI'))
