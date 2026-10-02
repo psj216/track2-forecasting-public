@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "status": "PASS",
+  "unit_firewall_count": 104,
+  "unit_firewall_errors": {},
+  "tests": {
+    "full-tests.log": {
+      "sha256": "46c34156286bf1ab1906261e8a750119f8dbbd1741690fa1303e476136bc220e",
+      "summary": "520 passed, 2 skipped, 3 warnings in 26.89s"
+    },
+    "common-tests.log": {
+      "sha256": "c40e2dfe3e92082f8d6e7a0472fee5588df8df49b5f9b8b8b0d655736ee3f83b",
+      "summary": "250 passed in 1.01s"
+    },
+    "research-tests-final.log": {
+      "sha256": "e2289c230135b682d66e48107f8caab30f5b37878e8daf2e9fb92df9aebb1375",
+      "summary": "......................                                                   [100%]"
+    }
+  },
+  "new_test_cases": 22,
+  "private_card_truth_not_deserialized_before_PRE": true,
+  "expert_sets": 24,
+  "expert_fits": 168,
+  "annotations_and_router_hashes_verified": true,
+  "public_policy": "Only card metadata, provenance, fixed rules, source-history fit diagnostics and hashes; no card truth/prediction/per-card scores"
+}

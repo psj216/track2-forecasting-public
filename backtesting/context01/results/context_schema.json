@@ -1,0 +1,3504 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "columns": [
+    {
+      "name": "family_F1",
+      "stage": 1
+    },
+    {
+      "name": "family_F2",
+      "stage": 1
+    },
+    {
+      "name": "family_F3",
+      "stage": 1
+    },
+    {
+      "name": "family_F4",
+      "stage": 1
+    },
+    {
+      "name": "single",
+      "stage": 1
+    },
+    {
+      "name": "multi",
+      "stage": 1
+    },
+    {
+      "name": "assets_count",
+      "stage": 1
+    },
+    {
+      "name": "horizons_count",
+      "stage": 1
+    },
+    {
+      "name": "min_horizon",
+      "stage": 1
+    },
+    {
+      "name": "max_horizon",
+      "stage": 1
+    },
+    {
+      "name": "target_level",
+      "stage": 1
+    },
+    {
+      "name": "target_return",
+      "stage": 1
+    },
+    {
+      "name": "target_other",
+      "stage": 1
+    },
+    {
+      "name": "absolute",
+      "stage": 1
+    },
+    {
+      "name": "relative",
+      "stage": 1
+    },
+    {
+      "name": "future_point",
+      "stage": 1
+    },
+    {
+      "name": "trajectory",
+      "stage": 1
+    },
+    {
+      "name": "unconditional",
+      "stage": 2
+    },
+    {
+      "name": "explicit_scenario",
+      "stage": 2
+    },
+    {
+      "name": "event_conditioned",
+      "stage": 2
+    },
+    {
+      "name": "comparison_relative_value",
+      "stage": 2
+    },
+    {
+      "name": "convergence_divergence",
+      "stage": 2
+    },
+    {
+      "name": "ranking_order",
+      "stage": 2
+    },
+    {
+      "name": "joint_path_consistency",
+      "stage": 2
+    },
+    {
+      "name": "growth",
+      "stage": 3
+    },
+    {
+      "name": "inflation",
+      "stage": 3
+    },
+    {
+      "name": "labor",
+      "stage": 3
+    },
+    {
+      "name": "monetary_policy",
+      "stage": 3
+    },
+    {
+      "name": "rates",
+      "stage": 3
+    },
+    {
+      "name": "FX",
+      "stage": 3
+    },
+    {
+      "name": "equity",
+      "stage": 3
+    },
+    {
+      "name": "liquidity",
+      "stage": 3
+    },
+    {
+      "name": "capital_flow",
+      "stage": 3
+    },
+    {
+      "name": "positioning",
+      "stage": 3
+    },
+    {
+      "name": "valuation",
+      "stage": 3
+    },
+    {
+      "name": "carry",
+      "stage": 3
+    },
+    {
+      "name": "risk_sentiment",
+      "stage": 3
+    },
+    {
+      "name": "commodity",
+      "stage": 3
+    },
+    {
+      "name": "geopolitical",
+      "stage": 3
+    },
+    {
+      "name": "earnings_corporate",
+      "stage": 3
+    },
+    {
+      "name": "generic_none",
+      "stage": 3
+    },
+    {
+      "name": "directional",
+      "stage": 4
+    },
+    {
+      "name": "increase",
+      "stage": 4
+    },
+    {
+      "name": "decrease",
+      "stage": 4
+    },
+    {
+      "name": "surprise",
+      "stage": 4
+    },
+    {
+      "name": "expected_consensus",
+      "stage": 4
+    },
+    {
+      "name": "conditional_language",
+      "stage": 4
+    },
+    {
+      "name": "uncertainty",
+      "stage": 4
+    },
+    {
+      "name": "explicit_date",
+      "stage": 4
+    },
+    {
+      "name": "numerical_threshold",
+      "stage": 4
+    },
+    {
+      "name": "named_event_count",
+      "stage": 4
+    },
+    {
+      "name": "named_entity_count",
+      "stage": 4
+    },
+    {
+      "name": "immediate",
+      "stage": 4
+    },
+    {
+      "name": "short",
+      "stage": 4
+    },
+    {
+      "name": "medium",
+      "stage": 4
+    },
+    {
+      "name": "long",
+      "stage": 4
+    },
+    {
+      "name": "multi_horizon",
+      "stage": 4
+    },
+    {
+      "name": "family_F1__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "single"
+    },
+    {
+      "name": "multi__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "rates"
+    },
+    {
+      "name": "FX__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "FX"
+    },
+    {
+      "name": "equity__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "directional"
+    },
+    {
+      "name": "increase__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "immediate"
+    },
+    {
+      "name": "short__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "short"
+    },
+    {
+      "name": "medium__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "medium"
+    },
+    {
+      "name": "long__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__group=FX",
+      "stage": 5,
+      "interaction": "group",
+      "value": "FX",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "single"
+    },
+    {
+      "name": "multi__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "rates"
+    },
+    {
+      "name": "FX__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "FX"
+    },
+    {
+      "name": "equity__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "directional"
+    },
+    {
+      "name": "increase__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "immediate"
+    },
+    {
+      "name": "short__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "short"
+    },
+    {
+      "name": "medium__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "medium"
+    },
+    {
+      "name": "long__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__group=Rates",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Rates",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "single"
+    },
+    {
+      "name": "multi__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "rates"
+    },
+    {
+      "name": "FX__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "FX"
+    },
+    {
+      "name": "equity__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "directional"
+    },
+    {
+      "name": "increase__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "immediate"
+    },
+    {
+      "name": "short__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "short"
+    },
+    {
+      "name": "medium__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "medium"
+    },
+    {
+      "name": "long__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__group=Factor/Equity",
+      "stage": 5,
+      "interaction": "group",
+      "value": "Factor/Equity",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "single"
+    },
+    {
+      "name": "multi__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "rates"
+    },
+    {
+      "name": "FX__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "FX"
+    },
+    {
+      "name": "equity__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "directional"
+    },
+    {
+      "name": "increase__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "immediate"
+    },
+    {
+      "name": "short__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "short"
+    },
+    {
+      "name": "medium__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "medium"
+    },
+    {
+      "name": "long__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__horizon=1-5",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "1-5",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "single"
+    },
+    {
+      "name": "multi__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "rates"
+    },
+    {
+      "name": "FX__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "FX"
+    },
+    {
+      "name": "equity__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "directional"
+    },
+    {
+      "name": "increase__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "immediate"
+    },
+    {
+      "name": "short__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "short"
+    },
+    {
+      "name": "medium__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "medium"
+    },
+    {
+      "name": "long__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__horizon=6-21",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "6-21",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "single"
+    },
+    {
+      "name": "multi__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "rates"
+    },
+    {
+      "name": "FX__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "FX"
+    },
+    {
+      "name": "equity__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "directional"
+    },
+    {
+      "name": "increase__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "immediate"
+    },
+    {
+      "name": "short__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "short"
+    },
+    {
+      "name": "medium__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "medium"
+    },
+    {
+      "name": "long__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__horizon=22-63",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "22-63",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "single"
+    },
+    {
+      "name": "multi__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "rates"
+    },
+    {
+      "name": "FX__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "FX"
+    },
+    {
+      "name": "equity__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "directional"
+    },
+    {
+      "name": "increase__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "immediate"
+    },
+    {
+      "name": "short__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "short"
+    },
+    {
+      "name": "medium__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "medium"
+    },
+    {
+      "name": "long__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__horizon=64-126",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "64-126",
+      "base": "multi_horizon"
+    },
+    {
+      "name": "family_F1__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "family_F1"
+    },
+    {
+      "name": "family_F2__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "family_F2"
+    },
+    {
+      "name": "family_F3__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "family_F3"
+    },
+    {
+      "name": "family_F4__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "family_F4"
+    },
+    {
+      "name": "single__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "single"
+    },
+    {
+      "name": "multi__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "multi"
+    },
+    {
+      "name": "assets_count__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "assets_count"
+    },
+    {
+      "name": "horizons_count__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "horizons_count"
+    },
+    {
+      "name": "min_horizon__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "min_horizon"
+    },
+    {
+      "name": "max_horizon__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "max_horizon"
+    },
+    {
+      "name": "target_level__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "target_level"
+    },
+    {
+      "name": "target_return__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "target_return"
+    },
+    {
+      "name": "target_other__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "target_other"
+    },
+    {
+      "name": "absolute__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "absolute"
+    },
+    {
+      "name": "relative__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "relative"
+    },
+    {
+      "name": "future_point__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "future_point"
+    },
+    {
+      "name": "trajectory__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "trajectory"
+    },
+    {
+      "name": "unconditional__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "unconditional"
+    },
+    {
+      "name": "explicit_scenario__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "explicit_scenario"
+    },
+    {
+      "name": "event_conditioned__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "event_conditioned"
+    },
+    {
+      "name": "comparison_relative_value__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "comparison_relative_value"
+    },
+    {
+      "name": "convergence_divergence__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "convergence_divergence"
+    },
+    {
+      "name": "ranking_order__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "ranking_order"
+    },
+    {
+      "name": "joint_path_consistency__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "joint_path_consistency"
+    },
+    {
+      "name": "growth__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "growth"
+    },
+    {
+      "name": "inflation__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "inflation"
+    },
+    {
+      "name": "labor__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "labor"
+    },
+    {
+      "name": "monetary_policy__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "monetary_policy"
+    },
+    {
+      "name": "rates__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "rates"
+    },
+    {
+      "name": "FX__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "FX"
+    },
+    {
+      "name": "equity__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "equity"
+    },
+    {
+      "name": "liquidity__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "liquidity"
+    },
+    {
+      "name": "capital_flow__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "capital_flow"
+    },
+    {
+      "name": "positioning__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "positioning"
+    },
+    {
+      "name": "valuation__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "valuation"
+    },
+    {
+      "name": "carry__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "carry"
+    },
+    {
+      "name": "risk_sentiment__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "risk_sentiment"
+    },
+    {
+      "name": "commodity__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "commodity"
+    },
+    {
+      "name": "geopolitical__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "geopolitical"
+    },
+    {
+      "name": "earnings_corporate__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "earnings_corporate"
+    },
+    {
+      "name": "generic_none__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "generic_none"
+    },
+    {
+      "name": "directional__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "directional"
+    },
+    {
+      "name": "increase__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "increase"
+    },
+    {
+      "name": "decrease__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "decrease"
+    },
+    {
+      "name": "surprise__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "surprise"
+    },
+    {
+      "name": "expected_consensus__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "expected_consensus"
+    },
+    {
+      "name": "conditional_language__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "conditional_language"
+    },
+    {
+      "name": "uncertainty__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "uncertainty"
+    },
+    {
+      "name": "explicit_date__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "explicit_date"
+    },
+    {
+      "name": "numerical_threshold__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "numerical_threshold"
+    },
+    {
+      "name": "named_event_count__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "named_event_count"
+    },
+    {
+      "name": "named_entity_count__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "named_entity_count"
+    },
+    {
+      "name": "immediate__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "immediate"
+    },
+    {
+      "name": "short__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "short"
+    },
+    {
+      "name": "medium__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "medium"
+    },
+    {
+      "name": "long__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "long"
+    },
+    {
+      "name": "multi_horizon__horizon=127+",
+      "stage": 5,
+      "interaction": "horizon",
+      "value": "127+",
+      "base": "multi_horizon"
+    }
+  ],
+  "topics": {
+    "growth": "\\bgrowth\\b|\\bgdp\\b|recession|economic activity|expansion|slowdown",
+    "inflation": "inflation|\\bcpi\\b|\\bpce\\b|price pressure|disinflation",
+    "labor": "labou?r|employment|unemployment|payroll|wage",
+    "monetary_policy": "monetary|central bank|\\bfed\\b|\\bfomc\\b|\\brba\\b|\\bboj\\b|\\becb\\b|policy|taper|tighten|easing|on.hold",
+    "rates": "rate|yield|curve|bond|treasury|flattener|steepener",
+    "FX": "exchange rate|currency|currencies|\\bfx\\b|dollar|yen|euro|sterling",
+    "equity": "equit|stock|market return|\\bmkt\\b|\\bhml\\b|\\bsmb\\b",
+    "liquidity": "liquidity|funding|credit crunch|credit stress|balance.sheet|quantitative easing|\\bqe\\b|reserve balance",
+    "capital_flow": "capital flow|portfolio flow|inflow|outflow|net purchase",
+    "positioning": "positioning|open interest|dealer position|net long|net short|crowding",
+    "valuation": "valuation|fair value|relative.value|mispric|cheap|expensive",
+    "carry": "\\bcarry\\b|interest differential",
+    "risk_sentiment": "risk|stress|panic|uncertainty|uncertain|fragil|flight.to|safe.haven",
+    "commodity": "commodity|commodities|oil|gold|copper",
+    "geopolitical": "geopolit|brexit|\\bwar\\b|\\bconflict\\b|sanction",
+    "earnings_corporate": "earnings|corporate|company|apple|profit|revenue",
+    "generic_none": "(?!)"
+  },
+  "conditionality": {
+    "explicit_scenario": "\\bif\\b|assuming|given that|conditional|scenario",
+    "event_conditioned": "event|shock|crisis|covid|brexit|pandemic|panic|meeting|announcement|testimony",
+    "comparison_relative_value": "relative|compar|spread|cross.market|differential",
+    "convergence_divergence": "convergen|divergen|normaliz|decoupl",
+    "ranking_order": "rank|order|outperform|underperform",
+    "joint_path_consistency": "joint|path|trajectory|curve|cross.market|consisten"
+  },
+  "language": {
+    "directional": "rise|rising|fall|falling|upward|downward|increase|decrease|hawk|dov|tighten|eas",
+    "increase": "rise|rising|increase|upward|higher|tighten|hawk",
+    "decrease": "fall|falling|decrease|downward|lower|easing|dov",
+    "surprise": "surpris|unexpected|shock",
+    "expected_consensus": "expect|consensus|forecast|anticipat",
+    "conditional_language": "\\bif\\b|assuming|given|conditional",
+    "uncertainty": "uncertain|risk|may|might|could|possib|ambigu|thin.signal",
+    "explicit_date": "\\b(?:19|20)\\d{2}(?:-\\d{2}(?:-\\d{2})?)?\\b",
+    "numerical_threshold": "\\b\\d+(?:\\.\\d+)?\\s*(?:%|percent|basis points|bps)|(?:above|below|exceed|at least|threshold)\\s*\\d"
+  },
+  "entities": [
+    "federal reserve",
+    "fomc",
+    "fed",
+    "rba",
+    "bank of japan",
+    "boj",
+    "ecb",
+    "bank of england",
+    "bis",
+    "imf",
+    "powell",
+    "yellen",
+    "bernanke",
+    "greenspan",
+    "draghi",
+    "lagarde",
+    "kuroda",
+    "lowe",
+    "stevens",
+    "china",
+    "apple"
+  ],
+  "events": [
+    "covid",
+    "pandemic",
+    "brexit",
+    "taper",
+    "credit crunch",
+    "jackson hole",
+    "cpi",
+    "fomc meeting",
+    "financial crisis",
+    "china panic"
+  ],
+  "topic_scope": "Public task description plus structured target asset group. Incidental full-corpus topics are audited but not used for primary routing or topic features.",
+  "language_scope": "Public task description plus all indexed dated source document bodies",
+  "temporal": "immediate<=5BD,short6-21,medium22-63,long>63;multi-horizon separate",
+  "annotation_method": "Deterministic regex dictionaries; no LLM-assisted labels",
+  "TEXT_EMBEDDING_DIAGNOSTIC": "NOT_AVAILABLE",
+  "embedding_reason": "No preexisting identified, versioned, hashed and licensed local model selected; no download"
+}

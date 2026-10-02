@@ -1,0 +1,426 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "cards": [
+    {
+      "id": "t2-F1-aud-on-hold-2016",
+      "family": "T2-F1",
+      "origin": "2016-11-01",
+      "assets": [
+        "AUD"
+      ],
+      "horizons": [
+        126,
+        189
+      ],
+      "cells": 2,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-00.npz",
+      "sha256": "9bb97d5f156294c1620ae72b6cc512cfb5636579d83d13493f10c9eb3c7ddfc3"
+    },
+    {
+      "id": "t2-F1-cad-boc-2017",
+      "family": "T2-F1",
+      "origin": "2017-07-12",
+      "assets": [
+        "CAD"
+      ],
+      "horizons": [
+        126,
+        189
+      ],
+      "cells": 2,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-01.npz",
+      "sha256": "9304e5727c23eb13a39c608007cbf055f269a23ca52342a79616d8d9df93eed0"
+    },
+    {
+      "id": "t2-F1-chf-highly-valued-2021",
+      "family": "T2-F1",
+      "origin": "2021-06-17",
+      "assets": [
+        "CHF"
+      ],
+      "horizons": [
+        126,
+        189
+      ],
+      "cells": 2,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-02.npz",
+      "sha256": "5c9ee6d14135d4b922ca6ef8d07bc8e92ea59c3d65c077dc9dc8c82e1c0f9d9a"
+    },
+    {
+      "id": "t2-F1-considerable-period-2003",
+      "family": "T2-F1",
+      "origin": "2003-08-12",
+      "assets": [
+        "UST_10Y"
+      ],
+      "horizons": [
+        126,
+        189
+      ],
+      "cells": 2,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-03.npz",
+      "sha256": "4650178821fd7b1f0269e76fc5e5903928829ee1042f86ba2bac890af0395c82"
+    },
+    {
+      "id": "t2-F1-conundrum-2005",
+      "family": "T2-F1",
+      "origin": "2005-02-18",
+      "assets": [
+        "UST_10Y"
+      ],
+      "horizons": [
+        126,
+        189
+      ],
+      "cells": 2,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-04.npz",
+      "sha256": "27bb8037eadfe16e9b4024a399f565d4b6c3893b49a0af0555ae58278c752375"
+    },
+    {
+      "id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "origin": "2019-03-01",
+      "assets": [
+        "DKK"
+      ],
+      "horizons": [
+        129
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-05.npz",
+      "sha256": "7738ae6a1642f62dc18b350087d6a2a9f47e3838189438c2797305f5efe75c6d"
+    },
+    {
+      "id": "t2-F2-abenomics-2012",
+      "family": "T2-F2",
+      "origin": "2012-11-30",
+      "assets": [
+        "JPY"
+      ],
+      "horizons": [
+        63
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-06.npz",
+      "sha256": "9db3f2701ab83ce63ccadb09685134830e16780155bd8e3ff64065a5aed757c4"
+    },
+    {
+      "id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "origin": "2019-06-19",
+      "assets": [
+        "UST_2Y"
+      ],
+      "horizons": [
+        64
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-07.npz",
+      "sha256": "b751d443c40cb470cf3fcc7363689bb731ab847f58930f37b7e7fa8debb8c870"
+    },
+    {
+      "id": "t2-F2-aud-taper-2013",
+      "family": "T2-F2",
+      "origin": "2013-05-24",
+      "assets": [
+        "AUD"
+      ],
+      "horizons": [
+        64
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-08.npz",
+      "sha256": "4a5ffb56c9b74840933b9cfc564bf37227b417406e7427ddb4b746a1f3bf7dde"
+    },
+    {
+      "id": "t2-F2-boj-thin-signal-2014",
+      "family": "T2-F2",
+      "origin": "2014-10-24",
+      "assets": [
+        "JPY"
+      ],
+      "horizons": [
+        63
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-09.npz",
+      "sha256": "f3de223f6d1a83082bd64b730d0e6d6184a0f0de4fac198a787e0d9cb7f16ce6"
+    },
+    {
+      "id": "t2-F2-considerable-removal-2004",
+      "family": "T2-F2",
+      "origin": "2004-01-30",
+      "assets": [
+        "UST_2Y"
+      ],
+      "horizons": [
+        63
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-10.npz",
+      "sha256": "787e309bd20d63f79a829c63d5b8d4ef2263032a249a3c5b59ad30da8c548ccd"
+    },
+    {
+      "id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "origin": "2007-08-17",
+      "assets": [
+        "UST_2Y"
+      ],
+      "horizons": [
+        63
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-11.npz",
+      "sha256": "4922c4242a27891fdb9f6225d887a9ff8fb8b6ff71d7b1e015dd605b81362f57"
+    },
+    {
+      "id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "origin": "2022-06-15",
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_10Y",
+        "UST_30Y"
+      ],
+      "horizons": [
+        63,
+        126
+      ],
+      "cells": 8,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-12.npz",
+      "sha256": "77ca734fe5685e39a804abcec2ec6662078231616602e89e59d6d857e214ff6b"
+    },
+    {
+      "id": "t2-F3-boj-ust-channel-2023",
+      "family": "T2-F3",
+      "origin": "2023-07-21",
+      "assets": [
+        "UST_10Y",
+        "JPY"
+      ],
+      "horizons": [
+        21,
+        63
+      ],
+      "cells": 4,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-13.npz",
+      "sha256": "86b79bd4d6399cc5d15004c61f3dd15ef37ae2074c7f743491baafe160eef597"
+    },
+    {
+      "id": "t2-F3-brexit-joint-2016",
+      "family": "T2-F3",
+      "origin": "2016-06-17",
+      "assets": [
+        "GBP",
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "horizons": [
+        21,
+        63
+      ],
+      "cells": 8,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-14.npz",
+      "sha256": "813285b4d4fca9122f13c226c91293e7bfda5e6694e184880e86e325bba9974d"
+    },
+    {
+      "id": "t2-F3-conundrum-joint-2005",
+      "family": "T2-F3",
+      "origin": "2005-02-18",
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_7Y",
+        "UST_10Y"
+      ],
+      "horizons": [
+        63,
+        126
+      ],
+      "cells": 8,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-15.npz",
+      "sha256": "5243bc99476ddc4a0aacc9dad284f2a5e1995d64de090e78d0e881e953e4a043"
+    },
+    {
+      "id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "origin": "2020-02-21",
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_10Y",
+        "UST_30Y"
+      ],
+      "horizons": [
+        21,
+        63
+      ],
+      "cells": 8,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-16.npz",
+      "sha256": "d9ef748fb09e54edd4c5ecb51db74eb94fc94524890bb75271d01ca33d79c55c"
+    },
+    {
+      "id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "origin": "2022-09-09",
+      "assets": [
+        "MKT",
+        "HML"
+      ],
+      "horizons": [
+        21,
+        63
+      ],
+      "cells": 4,
+      "target_type": "log_return",
+      "frequency": "daily",
+      "file": "card-17.npz",
+      "sha256": "8c8a9e90d51756b616126e605e30be7494934ca53883b42948afaad9f8ec9b16"
+    },
+    {
+      "id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "origin": "2015-12-31",
+      "assets": [
+        "MKT"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "log_return",
+      "frequency": "daily",
+      "file": "card-18.npz",
+      "sha256": "32953d9e9c1e58345ed4d31e1480fc6b30444f50c527cb64d73a7f63fa3e59be"
+    },
+    {
+      "id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "origin": "2015-07-31",
+      "assets": [
+        "MKT"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "log_return",
+      "frequency": "daily",
+      "file": "card-19.npz",
+      "sha256": "072e0aae750ecbe62ab4636c74c7a070abc0674341b5e97411183085a769ddb5"
+    },
+    {
+      "id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "origin": "2020-02-19",
+      "assets": [
+        "MKT"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "log_return",
+      "frequency": "daily",
+      "file": "card-20.npz",
+      "sha256": "c01d2415798b99a4240286f6b071c2704de3396eb1d9e96881f9bf53ea5540af"
+    },
+    {
+      "id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "origin": "2020-02-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-21.npz",
+      "sha256": "a2e39395933ac05b9ef0b56606d1b1bf5746f64bf9097c5d0027edd1ffbba3a3"
+    },
+    {
+      "id": "t2-F4-cpi-friday-2022",
+      "family": "T2-F4",
+      "origin": "2022-05-31",
+      "assets": [
+        "UST_2Y"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-22.npz",
+      "sha256": "898b8769fc066e39ab0bdda59ce1be8625c6481354dd9845225e7d4ee470fe79"
+    },
+    {
+      "id": "t2-F4-eur-warnings-2022",
+      "family": "T2-F4",
+      "origin": "2022-02-18",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        21
+      ],
+      "cells": 1,
+      "target_type": "level",
+      "frequency": "daily",
+      "file": "card-23.npz",
+      "sha256": "cd3b2b10ef15c4d3e683458c6d0245893d5bb86308c780e72176d80377ae660b"
+    }
+  ],
+  "count": 24,
+  "cells": 63,
+  "single": 13,
+  "multi": 11,
+  "family_counts": {
+    "T2-F1": 6,
+    "T2-F2": 6,
+    "T2-F3": 6,
+    "T2-F4": 6
+  },
+  "sample": "24-card previously exposed research proxy; not independent OOS; not official score",
+  "source_card_manifest_sha256": "579a594074bcbe9e2ac58fe7d0680cc7d22104c6723fe8ba0e14e24040a0fc36"
+}

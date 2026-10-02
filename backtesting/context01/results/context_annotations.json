@@ -1,0 +1,2777 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "cards": {
+    "t2-F1-aud-on-hold-2016": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.4,
+        "min_horizon": 0.6666666666666666,
+        "max_horizon": 1.0,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.2,
+        "named_entity_count": 0.55,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-aud-on-hold-2016/text/bis_lowe_2016-09-08.txt",
+          "timestamp": "2016-09-08",
+          "sha256": "45caf701eec290b8ea14ebcdd34f94a258cdf28c3642c56db42b3b60b5512f29"
+        },
+        {
+          "path": "units/t2-F1-aud-on-hold-2016/text/fomc_statement_20160921.txt",
+          "timestamp": "2016-09-21",
+          "sha256": "90ceb0616cbe83709dd302b2449a5fb7323d9d293a6cb51c235fa6e70e1a9895"
+        },
+        {
+          "path": "units/t2-F1-aud-on-hold-2016/text/bis_lowe_2016-09-22.txt",
+          "timestamp": "2016-09-22",
+          "sha256": "8db71cf38dad67953213d0cb2bc2841cfd7b1412ac4938631e996aab97d7c931"
+        },
+        {
+          "path": "units/t2-F1-aud-on-hold-2016/text/bis_lowe_2016-10-18.txt",
+          "timestamp": "2016-10-18",
+          "sha256": "6dabb14011cfb1550ef5eecbf23017e2bd022f3ed867be3de0c965de74d95a7b"
+        },
+        {
+          "path": "units/t2-F1-aud-on-hold-2016/text/beigebook_201610.txt",
+          "timestamp": "2016-10-31",
+          "sha256": "74b96c2025b4133914ded2b6e43f40d893043bbd2e56d937ce0a8a8eb1484ebe"
+        }
+      ],
+      "question_sha256": "2f5b6a4cf7d7e9789f128dc4c3a09a688a70a518bbe1a3940a04d6b536e1a14e"
+    },
+    "t2-F1-cad-boc-2017": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.4,
+        "min_horizon": 0.6666666666666666,
+        "max_horizon": 1.0,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.2,
+        "named_entity_count": 0.35,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-cad-boc-2017/text/beigebook_201705.txt",
+          "timestamp": "2017-05-31",
+          "sha256": "309343f0f9b01be4cf0264f3a34b3c1d84dcff9550c202dd9e491ef2f759899f"
+        },
+        {
+          "path": "units/t2-F1-cad-boc-2017/text/bis_poloz_2017-06-08.txt",
+          "timestamp": "2017-06-08",
+          "sha256": "f7db70609bcd2d2e1ea5bb0e68c55c04bf25397db51112072b0b1f97ce20dbb7"
+        },
+        {
+          "path": "units/t2-F1-cad-boc-2017/text/bis_wilkins_2017-06-12.txt",
+          "timestamp": "2017-06-12",
+          "sha256": "b0ccc52b62ddc81e718f739082c4332fa71b1a953854d48866365c219712d520"
+        },
+        {
+          "path": "units/t2-F1-cad-boc-2017/text/fomc_statement_20170614.txt",
+          "timestamp": "2017-06-14",
+          "sha256": "ddfb1794cc2c8d92ef17d2d090a78567e443f6ed0ac5d902d0485019898d4c52"
+        },
+        {
+          "path": "units/t2-F1-cad-boc-2017/text/bis_poloz_2017-07-12.txt",
+          "timestamp": "2017-07-12",
+          "sha256": "f7f6bb3002befdffd6386d7fc2461db25e394c3ef5ce22141307ca39049f0355"
+        }
+      ],
+      "question_sha256": "f8c6d72fb761a536b3f6552aebfca146d2ae61d87b8a0889209b7952ef72d548"
+    },
+    "t2-F1-chf-highly-valued-2021": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.4,
+        "min_horizon": 0.6666666666666666,
+        "max_horizon": 1.0,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.4,
+        "named_entity_count": 0.2,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-chf-highly-valued-2021/text/bis_jordan_2021-04-30.txt",
+          "timestamp": "2021-04-30",
+          "sha256": "38b7f894fd3fb17175b5e4fe19f28302b81c10240c1105a65081e423f3a897cb"
+        },
+        {
+          "path": "units/t2-F1-chf-highly-valued-2021/text/beigebook_202104.txt",
+          "timestamp": "2021-04-30",
+          "sha256": "4d294e19b9fb7b8c07f05d7b23b6a0e059f9983e7766ccf98b5c41613f8d9be6"
+        },
+        {
+          "path": "units/t2-F1-chf-highly-valued-2021/text/fomc_statement_20210616.txt",
+          "timestamp": "2021-06-16",
+          "sha256": "f02c1dd01d937b0c6002a8d673ad07d4823c345b15c2e5f2f20e0bc2ff5bb440"
+        }
+      ],
+      "question_sha256": "76544f6d151615119c87b08df84b659e7515375ad60ddcb6d9e9a7b18ed8009e"
+    },
+    "t2-F1-considerable-period-2003": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.4,
+        "min_horizon": 0.6666666666666666,
+        "max_horizon": 1.0,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 0.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 0.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.0,
+        "named_entity_count": 0.2,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "equity",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-considerable-period-2003/text/fomc_statement_20030129.txt",
+          "timestamp": "2003-01-29",
+          "sha256": "4b2b1673e68842759de640dbf5f66df48e7b6178e0d35da678a81e5d35e4ce9a"
+        },
+        {
+          "path": "units/t2-F1-considerable-period-2003/text/fomc_statement_20030318.txt",
+          "timestamp": "2003-03-18",
+          "sha256": "05ff1382665f7b7b21d9ffa9d7f14bdea8e74499b2a53ea38207e3e2d35f17ef"
+        },
+        {
+          "path": "units/t2-F1-considerable-period-2003/text/fomc_statement_20030506.txt",
+          "timestamp": "2003-05-06",
+          "sha256": "3324cf0d70d279f7277172d7fe2c792475c36ce6c0b39ec51cbfe2cf066a169c"
+        },
+        {
+          "path": "units/t2-F1-considerable-period-2003/text/fomc_statement_20030625.txt",
+          "timestamp": "2003-06-25",
+          "sha256": "acd97f5bc56bb8067838c8b79557667a06e0590e03ef1a949d1b1e3ccd26e290"
+        },
+        {
+          "path": "units/t2-F1-considerable-period-2003/text/fomc_statement_20030812.txt",
+          "timestamp": "2003-08-12",
+          "sha256": "db28b1fba68e31f6b8748cecd00d0461c3c8836e307b02a042ad1e7e8e466931"
+        }
+      ],
+      "question_sha256": "8d62c8b498e6b7c90fb15d17737b9c92ce9ad1fcb55ee0bfd000c347d2b00eaf"
+    },
+    "t2-F1-conundrum-2005": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.4,
+        "min_horizon": 0.6666666666666666,
+        "max_horizon": 1.0,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 1.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.1,
+        "named_entity_count": 0.25,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "convergence_divergence",
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-conundrum-2005/text/fomc_statement_20041110.txt",
+          "timestamp": "2004-11-10",
+          "sha256": "3767732a7002010c277584b6977670f6ced2379f01cdfa1c5a2c8999bb85d320"
+        },
+        {
+          "path": "units/t2-F1-conundrum-2005/text/fomc_statement_20041214.txt",
+          "timestamp": "2004-12-14",
+          "sha256": "5037e1fd034146d2e14c58874fdbf3e4338fd8da171da42cec3b7a5a0fbbac40"
+        },
+        {
+          "path": "units/t2-F1-conundrum-2005/text/fomc_statement_20050202.txt",
+          "timestamp": "2005-02-02",
+          "sha256": "fbebe3e30f3b403a379b6630159af41fed530ab01a7b7aded91567bf5ba6b52c"
+        },
+        {
+          "path": "units/t2-F1-conundrum-2005/text/bis_greenspan_2005-02-16.txt",
+          "timestamp": "2005-02-16",
+          "sha256": "110510ffd51834279343a89c68215d466688624bfcd85a72c88673fb1e07687a"
+        }
+      ],
+      "question_sha256": "17ea2bb364200d364474ec87b61c85bb1d2fdce16f9429831c400c61091270f8"
+    },
+    "t2-F1-dkk-peg-2019": {
+      "features": {
+        "family_F1": 1.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.6825396825396826,
+        "max_horizon": 0.6825396825396826,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.3,
+        "named_entity_count": 0.35,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/ecb_draghi_2019-01-15.txt",
+          "timestamp": "2019-01-15",
+          "sha256": "b5268783fc58e4c28d5a04a55c88d6d55bee775f4e83f2fa70c1d211fd2d34e1"
+        },
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/ecb_draghi_2019-01-15_2.txt",
+          "timestamp": "2019-01-15",
+          "sha256": "0bca97f65f78c13cfbd5a3862f20d92ece64e020889e9b97dfd0818a25384859"
+        },
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/ecb_draghi_2019-01-28.txt",
+          "timestamp": "2019-01-28",
+          "sha256": "f771ebe4e78f95beb9e10e6825afb81c4de9ffe4f842445ad337afa4239ebb62"
+        },
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/fomc_statement_20190130.txt",
+          "timestamp": "2019-01-30",
+          "sha256": "bea3bf5044d295ba86050222ad533fcfd5bfcf6a48cbb8f29bfdc87188c2e5f0"
+        },
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/beigebook_201901.txt",
+          "timestamp": "2019-01-31",
+          "sha256": "f87b643521db038c86913b26a15ff9bb041b157d53db68a0bd8fc933bd6fdb7c"
+        },
+        {
+          "path": "units/t2-F1-dkk-peg-2019/text/ecb_draghi_2019-02-22.txt",
+          "timestamp": "2019-02-22",
+          "sha256": "23236306b1c1274279b76bdccbddaefd22db60ad1d77dcd71cf64808d5b91ad2"
+        }
+      ],
+      "question_sha256": "9b3beb4a796a7a249f57bbd39ec9585af38b3cdc55d8a317442421cee8b1dfb4"
+    },
+    "t2-F2-abenomics-2012": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 0.0,
+        "relative": 1.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 1.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.3,
+        "named_entity_count": 0.6,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "geopolitical",
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-abenomics-2012/text/bis_shirakawa_2012-10-14.txt",
+          "timestamp": "2012-10-14",
+          "sha256": "3e58ac6f756b566da37c5e5a037196f3ae998b75d6fb881292546d104f62e44c"
+        },
+        {
+          "path": "units/t2-F2-abenomics-2012/text/fomc_statement_20121024.txt",
+          "timestamp": "2012-10-24",
+          "sha256": "50641540197c2c4ef77be61ea7f52f7312786a65f1d2bee4ac6dbc0834fcf3d1"
+        },
+        {
+          "path": "units/t2-F2-abenomics-2012/text/beigebook_201210.txt",
+          "timestamp": "2012-10-31",
+          "sha256": "5b008c653e5da5fc0118cb3ecc6f56562310c5ae00dbe5b3c88da2465403ce5d"
+        },
+        {
+          "path": "units/t2-F2-abenomics-2012/text/bis_shirakawa_2012-11-12.txt",
+          "timestamp": "2012-11-12",
+          "sha256": "0df1173e1b1061fdbab8ddad435ef5dff15a1dfaeb1bb945a3a5f1058edf35f0"
+        },
+        {
+          "path": "units/t2-F2-abenomics-2012/text/bis_shirakawa_2012-11-26.txt",
+          "timestamp": "2012-11-26",
+          "sha256": "6919c66dfa925a1c8b1997d0da1efca242a8d91c59e9e0ed119cca2b6b46ea3c"
+        }
+      ],
+      "question_sha256": "d7ba6c7df19e87c6bed0d4637129d3248ebcfda6887d73e0d702f2c387bd5d33"
+    },
+    "t2-F2-act-as-appropriate-2019": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3386243386243386,
+        "max_horizon": 0.3386243386243386,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.7,
+        "named_entity_count": 0.6,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/beigebook_201904.txt",
+          "timestamp": "2019-04-30",
+          "sha256": "1b0137525c7d74ecd151f68f8e17379e4b823f707db0beef7916c7e046c901b5"
+        },
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/fomc_statement_20190501.txt",
+          "timestamp": "2019-05-01",
+          "sha256": "eb6f6a266d77784f3c3f8eae1417c7e5d19334f7901199eb34ee1044a7f8409a"
+        },
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/fomc_minutes_20190501_released_2019-05-22.txt",
+          "timestamp": "2019-05-22",
+          "sha256": "5ebac3770d892ded92df3a5291617cc9ebdeebc9db1aefe0664e945e0aecd0dd"
+        },
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/bis_powell_2019-06-04.txt",
+          "timestamp": "2019-06-04",
+          "sha256": "f50083f3b5efc8a652e7152f0a3d6cb062741ab3bf6039f8be073f720fee2115"
+        },
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/cpi_2019-06-12.txt",
+          "timestamp": "2019-06-12",
+          "sha256": "12a210b272ebf67bc173fc22629330a53b8b862de7ab71dfdeccb8aec057ecdb"
+        },
+        {
+          "path": "units/t2-F2-act-as-appropriate-2019/text/fomc_statement_20190619.txt",
+          "timestamp": "2019-06-19",
+          "sha256": "5a16fda6135ebf0a858afa3c43bd3a9fc6f6d77ac440dc1d52f4a907ca182450"
+        }
+      ],
+      "question_sha256": "c613432f34ce0af3d1852f4360e9d5470b389520b0639fe875d51783df7effa0"
+    },
+    "t2-F2-aud-taper-2013": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3386243386243386,
+        "max_horizon": 0.3386243386243386,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 1.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.1,
+        "named_entity_count": 0.45,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "liquidity",
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-aud-taper-2013/text/bis_stevens_2013-04-10.txt",
+          "timestamp": "2013-04-10",
+          "sha256": "bc1a23b00cf2941ecf117571fffa4cde8bac4215749d1f4bd0055c6dc2ddf509"
+        },
+        {
+          "path": "units/t2-F2-aud-taper-2013/text/beigebook_201304.txt",
+          "timestamp": "2013-04-30",
+          "sha256": "8131c60a79f459e10d7521869a4f4054f4b41f2e8aa38a687b222ecec219259b"
+        },
+        {
+          "path": "units/t2-F2-aud-taper-2013/text/fomc_statement_20130501.txt",
+          "timestamp": "2013-05-01",
+          "sha256": "0017d72506e6ae2fcb201d13bf930139ac376da79e6566b549ea744007bd8933"
+        },
+        {
+          "path": "units/t2-F2-aud-taper-2013/text/bernanke_jec_testimony_2013.txt",
+          "timestamp": "2013-05-22",
+          "sha256": "a6c205e3e18730d668628fcf19fdf019a844b4cfb257b63cea8eda4e36761e8e"
+        }
+      ],
+      "question_sha256": "434d35d73a06cde5aa9479fa1fbbace5e59691b358e5d969874df999313d0e50"
+    },
+    "t2-F2-boj-thin-signal-2014": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.2,
+        "named_entity_count": 0.55,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-boj-thin-signal-2014/text/bis_kuroda_2014-09-16.txt",
+          "timestamp": "2014-09-16",
+          "sha256": "f52b4a2ad6363b1cd6b52f9e54d0ad1f227804833d38ede54e8ec1519134d46f"
+        },
+        {
+          "path": "units/t2-F2-boj-thin-signal-2014/text/fomc_statement_20140917.txt",
+          "timestamp": "2014-09-17",
+          "sha256": "5a32349b2883e6e244254939c96abbd73d9dd9b6f37c06488c83bbe07155cd62"
+        },
+        {
+          "path": "units/t2-F2-boj-thin-signal-2014/text/bis_kuroda_2014-09-29.txt",
+          "timestamp": "2014-09-29",
+          "sha256": "c9bb02d3c63d6f65d93aa8bd6f842342c9b8ddf7c2110666a22ae2be94e0abff"
+        },
+        {
+          "path": "units/t2-F2-boj-thin-signal-2014/text/beigebook_201409.txt",
+          "timestamp": "2014-09-30",
+          "sha256": "958f312bee4f9a89943e85dfd63460afcb9356156c23d8328604378e6e680284"
+        },
+        {
+          "path": "units/t2-F2-boj-thin-signal-2014/text/bis_kuroda_2014-10-10.txt",
+          "timestamp": "2014-10-10",
+          "sha256": "981ca0d7ba143ebe2563063a0a616172e72ef443bf7a0a581ae790f8ffb738e1"
+        }
+      ],
+      "question_sha256": "983cc3d453b83256ec175ad6aa53644b32c3a72bc2afc5ad9eca0ee64a3e84b7"
+    },
+    "t2-F2-considerable-removal-2004": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 1.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 0.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.0,
+        "named_entity_count": 0.15,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "risk_sentiment"
+      ],
+      "conditional_types": [
+        "event_conditioned"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-considerable-removal-2004/text/fomc_statement_20031028.txt",
+          "timestamp": "2003-10-28",
+          "sha256": "6178edacc00a68cc63a9cb67db5cea84028a5814d6d3e5a3d5b8204e04d92bce"
+        },
+        {
+          "path": "units/t2-F2-considerable-removal-2004/text/fomc_statement_20031209.txt",
+          "timestamp": "2003-12-09",
+          "sha256": "716f7b84cb318f18e45f82d762c0c2d40cabc97ff41ffc1b87188a6e15956329"
+        },
+        {
+          "path": "units/t2-F2-considerable-removal-2004/text/fomc_statement_20040128.txt",
+          "timestamp": "2004-01-28",
+          "sha256": "66ae95ff4c128623899feb0a935d47bb301572243c484c33df8f6fc2c213e123"
+        }
+      ],
+      "question_sha256": "ad66ff2fd692ee530a6274d2e0fe1c6202faeca4fd97475cd71a7aa567611261"
+    },
+    "t2-F2-credit-crunch-2007": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 1.0,
+        "family_F3": 0.0,
+        "family_F4": 0.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 1.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.1,
+        "named_entity_count": 0.3,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "event_conditioned"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/bis_bernanke_2007-07-18.txt",
+          "timestamp": "2007-07-18",
+          "sha256": "c0e745ba3ad33566e2ded2f442ab63bc94e9b604addadc25a20f9f7f21ba7bd6"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/beigebook_200707.txt",
+          "timestamp": "2007-07-25",
+          "sha256": "99cd4d0b86158814bb5da5e5d2f9227210da25f499fd4790a41dbef882c3c8b3"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/bis_kroszner_2007-08-01.txt",
+          "timestamp": "2007-08-01",
+          "sha256": "f0c1a415b1c24556c71d9df70c2daa6ed307f942d0d82ddcc1e19e99d5d3bc5b"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/bis_kroszner_2007-08-02.txt",
+          "timestamp": "2007-08-02",
+          "sha256": "3fb7ae2e0687fc7fa56a1bf4e210f636ee6206f9d224b457ad99debcea2aad77"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/fomc_statement_20070807.txt",
+          "timestamp": "2007-08-07",
+          "sha256": "72c34b4cb50061a65a6b13ba2ec05fff94b5f7d7da91907dcdd414d458c0f8b8"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/fomc_statement_20070810.txt",
+          "timestamp": "2007-08-10",
+          "sha256": "b98182abc9b9d0a7e28a56ee84f72be85d87b2756e6c37fd8b2b906de7704483"
+        },
+        {
+          "path": "units/t2-F2-credit-crunch-2007/text/fomc_statement_20070817.txt",
+          "timestamp": "2007-08-17",
+          "sha256": "335d9c05a8e847b9cd48a5c0ad7118a9c7dc11a3dcc11f698c6d3aaae3891b93"
+        }
+      ],
+      "question_sha256": "805e9d5f2a690b934ac80e87e88dd4796c47764bb24c9bc7005937f20fba21f1"
+    },
+    "t2-F3-bear-flattener-2022": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.5,
+        "horizons_count": 0.4,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.6666666666666666,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 1.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.5,
+        "named_entity_count": 0.4,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "explicit_scenario",
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_statement_20211215.txt",
+          "timestamp": "2021-12-15",
+          "sha256": "cf0da2b53f13ab30daa3394300234602998d7ff6650db561b3121ad2a1e1fa94"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_statement_20220126.txt",
+          "timestamp": "2022-01-26",
+          "sha256": "ed7489b9dffe127820a2af16a9ba9a6d965b3b7d1c0d0364f1444133bb70acab"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_statement_20220316.txt",
+          "timestamp": "2022-03-16",
+          "sha256": "cf1adf84763234a49c1fbe7f7564337922ccaa5a519b96c8955eed39e507a4af"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/beigebook_202204.txt",
+          "timestamp": "2022-04-30",
+          "sha256": "9b35878508c926409936bea446f19bcc621f5864f0a0be173f1cf41f6772e00e"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_statement_20220504.txt",
+          "timestamp": "2022-05-04",
+          "sha256": "ba15811eba3865997875620fa1827b729aa565badb8d77e1dd4af09504e5312a"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_minutes_20220504_released_2022-05-25.txt",
+          "timestamp": "2022-05-25",
+          "sha256": "66bf1fca57c65fdcee08c93c2de3155ff43c6d261519bc2b65191b3e027c6f17"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/cpi_2022-06-10.txt",
+          "timestamp": "2022-06-10",
+          "sha256": "60dd832d8a82b11af6832b7256124f52eabbebf9d6534427594d2d45a1789037"
+        },
+        {
+          "path": "units/t2-F3-bear-flattener-2022/text/fomc_statement_20220615.txt",
+          "timestamp": "2022-06-15",
+          "sha256": "3bcda883191c83debc7bdab960ffbe4c9c72f9e57c3f17a44b27f6fd477515ec"
+        }
+      ],
+      "question_sha256": "c8b82cfb09d1fdb396fd7943ba7aef8dca982711f23cb4f02c64190e2b6af6b6"
+    },
+    "t2-F3-boj-ust-channel-2023": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.25,
+        "horizons_count": 0.4,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 1.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 1.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 1.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.5,
+        "named_entity_count": 0.75,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "FX",
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "explicit_scenario",
+        "comparison_relative_value",
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/bis_guindos_2023-05-17.txt",
+          "timestamp": "2023-05-17",
+          "sha256": "5151e664d4fbf7ac6994af49b4930e872ef18794c0d82ab73520a7dc6dd4f637"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/bis_ueda_2023-05-19.txt",
+          "timestamp": "2023-05-19",
+          "sha256": "e71cda8088528bc388ea276566aa6df6602bebdbac215540ed2ca7fbd47d9e56"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/beigebook_202305.txt",
+          "timestamp": "2023-05-31",
+          "sha256": "20e0eef4da15411d7d6ca99eb690742ce8c746aeb0b1a107b85f2d05ab3adfc1"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/fomc_statement_20230614.txt",
+          "timestamp": "2023-06-14",
+          "sha256": "27f2f97d789b01f3212ea4916ecfcfc48d681a777bc9bd1cae7328dc9ddd6a44"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/bis_adachi_2023-06-21.txt",
+          "timestamp": "2023-06-21",
+          "sha256": "9d9ca0f3cc463d632d3884f647b3f302dcb5b0abfb7ad49a7c25e37c0940b5f8"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/bis_noguchi_2023-06-22.txt",
+          "timestamp": "2023-06-22",
+          "sha256": "473322b03355c62ad56acb00ca352dd4f4fa4f48fcc98f2fa01342a69d342c21"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/fomc_minutes_20230614_released_2023-07-05.txt",
+          "timestamp": "2023-07-05",
+          "sha256": "a62dd36b0d3b0bba545cd257a10d8346d2003b68233229a1e193bd414764f2d2"
+        },
+        {
+          "path": "units/t2-F3-boj-ust-channel-2023/text/cpi_2023-07-12.txt",
+          "timestamp": "2023-07-12",
+          "sha256": "22378cabfeea9aee2a71a2cff0330c4aff682109414f7d8c09a02887bd1a143c"
+        }
+      ],
+      "question_sha256": "b96ff3115d80b294a6b2af0bf75ebcd10f8992d9f56bb5509b9727fcedfc3e6a"
+    },
+    "t2-F3-brexit-joint-2016": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.5,
+        "horizons_count": 0.4,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 1.0,
+        "event_conditioned": 1.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.2,
+        "named_entity_count": 0.55,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "explicit_scenario",
+        "event_conditioned",
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/bis_cunliffe_2016-04-26.txt",
+          "timestamp": "2016-04-26",
+          "sha256": "9830555e6d816ffe79be8eea97502dbfedf2d37f2f701d9f431637a14d2042d4"
+        },
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/beigebook_201604.txt",
+          "timestamp": "2016-04-30",
+          "sha256": "705deb9c31fa56a1895bb47d430a36f5451c2a6f07c8a19855a732808c0d0caf"
+        },
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/bis_draghi_2016-06-02.txt",
+          "timestamp": "2016-06-02",
+          "sha256": "7bcf7081b8f4f011862d1143195157ea083efeb6d1c37e7afd69f8e3afa055ec"
+        },
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/bis_brainard_2016-06-03.txt",
+          "timestamp": "2016-06-03",
+          "sha256": "586345cb2712e2a891e48319080611d4338b1e65cb767423b576ec0271d8b01b"
+        },
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/bis_yellen_2016-06-06.txt",
+          "timestamp": "2016-06-06",
+          "sha256": "75a685fb7d1c2f9cd3db9c1c3adef94ea49b79528ea30ba1ab90a7bfb7f93b7b"
+        },
+        {
+          "path": "units/t2-F3-brexit-joint-2016/text/fomc_statement_20160615.txt",
+          "timestamp": "2016-06-15",
+          "sha256": "4c41fefc9cae527fdc7e487266d04d5e9e3fb1e427e1f386769ddd808996b9b5"
+        }
+      ],
+      "question_sha256": "eb9997f7dc78773c2b1252ddd0440940b046d7a5d50a53307de36fbfbd8600c4"
+    },
+    "t2-F3-conundrum-joint-2005": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.5,
+        "horizons_count": 0.4,
+        "min_horizon": 0.3333333333333333,
+        "max_horizon": 0.6666666666666666,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 0.0,
+        "relative": 1.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.1,
+        "named_entity_count": 0.25,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 0.0,
+        "long": 1.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "risk_sentiment",
+        "commodity",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-conundrum-joint-2005/text/fomc_statement_20041110.txt",
+          "timestamp": "2004-11-10",
+          "sha256": "3767732a7002010c277584b6977670f6ced2379f01cdfa1c5a2c8999bb85d320"
+        },
+        {
+          "path": "units/t2-F3-conundrum-joint-2005/text/fomc_statement_20041214.txt",
+          "timestamp": "2004-12-14",
+          "sha256": "5037e1fd034146d2e14c58874fdbf3e4338fd8da171da42cec3b7a5a0fbbac40"
+        },
+        {
+          "path": "units/t2-F3-conundrum-joint-2005/text/fomc_statement_20050202.txt",
+          "timestamp": "2005-02-02",
+          "sha256": "fbebe3e30f3b403a379b6630159af41fed530ab01a7b7aded91567bf5ba6b52c"
+        },
+        {
+          "path": "units/t2-F3-conundrum-joint-2005/text/bis_greenspan_2005-02-16.txt",
+          "timestamp": "2005-02-16",
+          "sha256": "110510ffd51834279343a89c68215d466688624bfcd85a72c88673fb1e07687a"
+        }
+      ],
+      "question_sha256": "0ff607b6743fafd61470bf356d6eac1768e9fcf1cb24159767201f2c6127492f"
+    },
+    "t2-F3-covid-curve-2020": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.5,
+        "horizons_count": 0.4,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 1.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.6,
+        "named_entity_count": 0.6,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "rates",
+        "risk_sentiment"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/bis_elderson_2020-01-25.txt",
+          "timestamp": "2020-01-25",
+          "sha256": "8728c295d2ee739cd7a525987a8f284f2ee24cd87aace9b9f95d2078293c1aff"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/fomc_statement_20200129.txt",
+          "timestamp": "2020-01-29",
+          "sha256": "f2d6570eaded6379df243534b946349d88fdb148f9d1d47f5fa395fe48a550c3"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/beigebook_202001.txt",
+          "timestamp": "2020-01-31",
+          "sha256": "6af2e2b7618040df4e350f6e3dab33a745c8790778506571241c3c7716d816ba"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/bis_guindos_2020-02-03.txt",
+          "timestamp": "2020-02-03",
+          "sha256": "0c2642a83a3caafbdba1c368831cf767feed3f6787b6951f8eb4935ba6c3069a"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/bis_wakatabe_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "ae86da1e5bd9d473181ec32e66f6650ac8849bc44ba9ef5896853422857c9bcc"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/bis_lagarde_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "c048d2c5adaf495b50594dbc397498555f8986cad77db0d8f5ae3798aba212cd"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/cpi_2020-02-13.txt",
+          "timestamp": "2020-02-13",
+          "sha256": "339b52ebc523da53218a430f5dc785d0df4b303454593d96f8d0efd976d50f66"
+        },
+        {
+          "path": "units/t2-F3-covid-curve-2020/text/fomc_minutes_20200129_released_2020-02-19.txt",
+          "timestamp": "2020-02-19",
+          "sha256": "5f42946faafbf516898f7838832117e65605aef7dcbe5e46e74603a87e5cbb8b"
+        }
+      ],
+      "question_sha256": "c01b29cdfe57a34535d9a09b7e3e420562cc93fbf3f1277a8f1044698ff043bc"
+    },
+    "t2-F3-cpi-shock-cross-2022": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 1.0,
+        "family_F4": 0.0,
+        "single": 0.0,
+        "multi": 1.0,
+        "assets_count": 0.25,
+        "horizons_count": 0.4,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.3333333333333333,
+        "target_level": 0.0,
+        "target_return": 1.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 0.0,
+        "trajectory": 1.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 1.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 1.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 0.0,
+        "equity": 1.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.6,
+        "named_entity_count": 0.4,
+        "immediate": 0.0,
+        "short": 0.0,
+        "medium": 1.0,
+        "long": 0.0,
+        "multi_horizon": 1.0
+      },
+      "economic_topics": [
+        "inflation",
+        "equity"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "joint_path_consistency"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F3-cpi-shock-cross-2022/text/fomc_statement_20220727.txt",
+          "timestamp": "2022-07-27",
+          "sha256": "4ac7fb2633330f562ab438c25fa3b7c81f580f9811a618fa2486010366ce88a9"
+        },
+        {
+          "path": "units/t2-F3-cpi-shock-cross-2022/text/beigebook_202207.txt",
+          "timestamp": "2022-07-31",
+          "sha256": "f520be89f0a5062433c25e782c52f8aa380e69e349b3852ecb69c21a0e4b0cdc"
+        },
+        {
+          "path": "units/t2-F3-cpi-shock-cross-2022/text/cpi_2022-08-10.txt",
+          "timestamp": "2022-08-10",
+          "sha256": "4db1e905f53cade4c30398e26bd7e1d2a7296d336aab063459c02d2f1e9ba474"
+        },
+        {
+          "path": "units/t2-F3-cpi-shock-cross-2022/text/fomc_minutes_20220727_released_2022-08-17.txt",
+          "timestamp": "2022-08-17",
+          "sha256": "c6904c75d47d7a57c11d552091b91b4266613282db64ebd3e3c695147755149f"
+        },
+        {
+          "path": "units/t2-F3-cpi-shock-cross-2022/text/powell_jackson_hole_2022.txt",
+          "timestamp": "2022-08-26",
+          "sha256": "ee7a5b70ec585510bd61500f39c697e3b49d460162436e7ac7c5ec480caffb46"
+        }
+      ],
+      "question_sha256": "a7c0d4a9546f3106cfa2e23f4b8d8bba53eb33f3e6234fecb3e30fba54872bf7"
+    },
+    "t2-F4-china-panic-2016": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 0.0,
+        "target_return": 1.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 1.0,
+        "rates": 0.0,
+        "FX": 0.0,
+        "equity": 1.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 1.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.4,
+        "named_entity_count": 0.6,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "monetary_policy",
+        "equity",
+        "risk_sentiment"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-china-panic-2016/text/beigebook_201510.txt",
+          "timestamp": "2015-10-31",
+          "sha256": "3ed2ba1d00c983f0ce5690d828ebc7e30f2e148867a0212b56ba76ca2c24ad8a"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/bis_const\u00e2ncio_2015-11-16.txt",
+          "timestamp": "2015-11-16",
+          "sha256": "dada867b512b8b2259eb915cf97de6dde3a5ffeb8eb497f26942c6aa0c2d7921"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/fomc_minutes_20151028_released_2015-11-18.txt",
+          "timestamp": "2015-11-18",
+          "sha256": "26c8ab904998dd194340d3be8a3f55eb087efb29a811c6ab68f73be1d13631ff"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/bis_fischer_2015-11-19.txt",
+          "timestamp": "2015-11-19",
+          "sha256": "b9327652d5f0794025161885baa0cc0b3208852ba4234d95af638b03428f1c60"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/bis_shirai_2015-11-20.txt",
+          "timestamp": "2015-11-20",
+          "sha256": "02a75ff063b8a66443416b5f12b9637dbbb5238b51ab8f3546d25b1459cea4c5"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/bis_draghi_2015-11-20.txt",
+          "timestamp": "2015-11-20",
+          "sha256": "f9eae73bcb3e23542f09ced996d063c1ef3071f423a5667ede063576ca60f0d5"
+        },
+        {
+          "path": "units/t2-F4-china-panic-2016/text/fomc_statement_20151216.txt",
+          "timestamp": "2015-12-16",
+          "sha256": "e873024f1443bfbe0b157c8dd441d9aea024da8cb70f7ca9de422edc883efb6b"
+        }
+      ],
+      "question_sha256": "92890c6e7b3c05e9efddc87fdd449ca7840e01dff53d068bfed7034e8809618a"
+    },
+    "t2-F4-china-stress-mkt-2015": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 0.0,
+        "target_return": 1.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 1.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 0.0,
+        "equity": 1.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 1.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.4,
+        "named_entity_count": 0.7,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "equity",
+        "risk_sentiment"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "event_conditioned"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_stevens_2015-06-10.txt",
+          "timestamp": "2015-06-10",
+          "sha256": "5d987b111969c9bad1e0f95b6f33f6f19536d1cf3916288c336844bd99da59d8"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_stevens_2015-06-30.txt",
+          "timestamp": "2015-06-30",
+          "sha256": "ab46c9348be3b4d9e54ed95bb5fc131ffaff8799a345cca1ece6332f53e99cd5"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/beigebook_201506.txt",
+          "timestamp": "2015-06-30",
+          "sha256": "37321e3a707085fc2127a8f41240988b3683771a0a22295f442d67aedc7ec5c0"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_yellen_2015-07-15.txt",
+          "timestamp": "2015-07-15",
+          "sha256": "d2a9c934d95611d9d049363e7ad3e163bdbef0da5b674c171c399a0d712cf817"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_carney_2015-07-16.txt",
+          "timestamp": "2015-07-16",
+          "sha256": "f2d5cfb3c1df0f2829695f4339639d5d8052daf82c23fb698b10e4c4c7f8a3e8"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_kuroda_2015-07-21.txt",
+          "timestamp": "2015-07-21",
+          "sha256": "a0b49555e7e9fd5ac8949a257e83e04d7ea7f41777b3d08cb896384b143d98a4"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_stevens_2015-07-22.txt",
+          "timestamp": "2015-07-22",
+          "sha256": "932e498f670af4e3e93fcd83829cd0580f228fc9b75adb68621190e332249c0a"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/bis_nakaso_2015-07-27.txt",
+          "timestamp": "2015-07-27",
+          "sha256": "da6a32a13cadabac10f1b10fe733aa6a9e9e6d153e8ab3406d52eeec369f4096"
+        },
+        {
+          "path": "units/t2-F4-china-stress-mkt-2015/text/fomc_statement_20150729.txt",
+          "timestamp": "2015-07-29",
+          "sha256": "be6e3232c4d08c46920bc810459847e32f23c9e1afd6c05b4558b2299568bfc4"
+        }
+      ],
+      "question_sha256": "fe6bb5a9b8096e5fa49112971921d6e9b2a26d610a2a056939fd76f053de5be6"
+    },
+    "t2-F4-covid-mkt-2020": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 0.0,
+        "target_return": 1.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 1.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 0.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 0.0,
+        "equity": 1.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.6,
+        "named_entity_count": 0.6,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "equity"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [
+        "event_conditioned"
+      ],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/fomc_minutes_20191211_released_2020-01-03.txt",
+          "timestamp": "2020-01-03",
+          "sha256": "4d33b079300e1dbdf4716fc92b73fb16d61c460358940f0beba34d686fb6e0ec"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/bis_elderson_2020-01-25.txt",
+          "timestamp": "2020-01-25",
+          "sha256": "8728c295d2ee739cd7a525987a8f284f2ee24cd87aace9b9f95d2078293c1aff"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/fomc_statement_20200129.txt",
+          "timestamp": "2020-01-29",
+          "sha256": "f2d6570eaded6379df243534b946349d88fdb148f9d1d47f5fa395fe48a550c3"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/beigebook_202001.txt",
+          "timestamp": "2020-01-31",
+          "sha256": "6af2e2b7618040df4e350f6e3dab33a745c8790778506571241c3c7716d816ba"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/bis_guindos_2020-02-03.txt",
+          "timestamp": "2020-02-03",
+          "sha256": "0c2642a83a3caafbdba1c368831cf767feed3f6787b6951f8eb4935ba6c3069a"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/bis_wakatabe_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "ae86da1e5bd9d473181ec32e66f6650ac8849bc44ba9ef5896853422857c9bcc"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/bis_lagarde_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "c048d2c5adaf495b50594dbc397498555f8986cad77db0d8f5ae3798aba212cd"
+        },
+        {
+          "path": "units/t2-F4-covid-mkt-2020/text/apple_8k_2020-02-18_d845033dex991.txt",
+          "timestamp": "2020-02-18",
+          "sha256": "d95be30c012d6501e872635a1a39fff9be2b60cda34b743f265347399bf219de"
+        }
+      ],
+      "question_sha256": "ea90219d0427a31ae0fba5c333f4fff2cb047b3b74d17ac96f8c683cbb85da38"
+    },
+    "t2-F4-covid-rates-2020": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.6,
+        "named_entity_count": 0.55,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "carry",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/fomc_minutes_20191211_released_2020-01-03.txt",
+          "timestamp": "2020-01-03",
+          "sha256": "4d33b079300e1dbdf4716fc92b73fb16d61c460358940f0beba34d686fb6e0ec"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/bis_elderson_2020-01-25.txt",
+          "timestamp": "2020-01-25",
+          "sha256": "8728c295d2ee739cd7a525987a8f284f2ee24cd87aace9b9f95d2078293c1aff"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/fomc_statement_20200129.txt",
+          "timestamp": "2020-01-29",
+          "sha256": "f2d6570eaded6379df243534b946349d88fdb148f9d1d47f5fa395fe48a550c3"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/beigebook_202001.txt",
+          "timestamp": "2020-01-31",
+          "sha256": "6af2e2b7618040df4e350f6e3dab33a745c8790778506571241c3c7716d816ba"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/bis_guindos_2020-02-03.txt",
+          "timestamp": "2020-02-03",
+          "sha256": "0c2642a83a3caafbdba1c368831cf767feed3f6787b6951f8eb4935ba6c3069a"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/bis_wakatabe_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "ae86da1e5bd9d473181ec32e66f6650ac8849bc44ba9ef5896853422857c9bcc"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/bis_lagarde_2020-02-05.txt",
+          "timestamp": "2020-02-05",
+          "sha256": "c048d2c5adaf495b50594dbc397498555f8986cad77db0d8f5ae3798aba212cd"
+        },
+        {
+          "path": "units/t2-F4-covid-rates-2020/text/cpi_2020-02-13.txt",
+          "timestamp": "2020-02-13",
+          "sha256": "339b52ebc523da53218a430f5dc785d0df4b303454593d96f8d0efd976d50f66"
+        }
+      ],
+      "question_sha256": "2159117d9e95cc73f347216c10e23309f1f5617740402ae11fd35a96f8500258"
+    },
+    "t2-F4-cpi-friday-2022": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 0.0,
+        "relative": 1.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 1.0,
+        "FX": 0.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.5,
+        "named_entity_count": 0.4,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "rates"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-cpi-friday-2022/text/fomc_statement_20211215.txt",
+          "timestamp": "2021-12-15",
+          "sha256": "cf0da2b53f13ab30daa3394300234602998d7ff6650db561b3121ad2a1e1fa94"
+        },
+        {
+          "path": "units/t2-F4-cpi-friday-2022/text/beigebook_202204.txt",
+          "timestamp": "2022-04-30",
+          "sha256": "9b35878508c926409936bea446f19bcc621f5864f0a0be173f1cf41f6772e00e"
+        },
+        {
+          "path": "units/t2-F4-cpi-friday-2022/text/fomc_statement_20220504.txt",
+          "timestamp": "2022-05-04",
+          "sha256": "ba15811eba3865997875620fa1827b729aa565badb8d77e1dd4af09504e5312a"
+        },
+        {
+          "path": "units/t2-F4-cpi-friday-2022/text/cpi_2022-05-11.txt",
+          "timestamp": "2022-05-11",
+          "sha256": "ccd177ed436fca7fb7c45c9c888d1f0b488603383c3cdb23f4cad5e05cf1d760"
+        },
+        {
+          "path": "units/t2-F4-cpi-friday-2022/text/fomc_minutes_20220504_released_2022-05-25.txt",
+          "timestamp": "2022-05-25",
+          "sha256": "66bf1fca57c65fdcee08c93c2de3155ff43c6d261519bc2b65191b3e027c6f17"
+        }
+      ],
+      "question_sha256": "4aac9eba33a65a18c930cdd3473376f3b9a76ea1be7f375744767afe81e1e142"
+    },
+    "t2-F4-eur-warnings-2022": {
+      "features": {
+        "family_F1": 0.0,
+        "family_F2": 0.0,
+        "family_F3": 0.0,
+        "family_F4": 1.0,
+        "single": 1.0,
+        "multi": 0.0,
+        "assets_count": 0.125,
+        "horizons_count": 0.2,
+        "min_horizon": 0.1111111111111111,
+        "max_horizon": 0.1111111111111111,
+        "target_level": 1.0,
+        "target_return": 0.0,
+        "target_other": 0.0,
+        "absolute": 1.0,
+        "relative": 0.0,
+        "future_point": 1.0,
+        "trajectory": 0.0,
+        "explicit_scenario": 0.0,
+        "event_conditioned": 0.0,
+        "comparison_relative_value": 0.0,
+        "convergence_divergence": 0.0,
+        "ranking_order": 0.0,
+        "joint_path_consistency": 0.0,
+        "unconditional": 1.0,
+        "growth": 0.0,
+        "inflation": 0.0,
+        "labor": 0.0,
+        "monetary_policy": 0.0,
+        "rates": 0.0,
+        "FX": 1.0,
+        "equity": 0.0,
+        "liquidity": 0.0,
+        "capital_flow": 0.0,
+        "positioning": 0.0,
+        "valuation": 0.0,
+        "carry": 0.0,
+        "risk_sentiment": 0.0,
+        "commodity": 0.0,
+        "geopolitical": 0.0,
+        "earnings_corporate": 0.0,
+        "generic_none": 0.0,
+        "directional": 1.0,
+        "increase": 1.0,
+        "decrease": 1.0,
+        "surprise": 1.0,
+        "expected_consensus": 1.0,
+        "conditional_language": 1.0,
+        "uncertainty": 1.0,
+        "explicit_date": 1.0,
+        "numerical_threshold": 1.0,
+        "named_event_count": 0.5,
+        "named_entity_count": 0.3,
+        "immediate": 0.0,
+        "short": 1.0,
+        "medium": 0.0,
+        "long": 0.0,
+        "multi_horizon": 0.0
+      },
+      "economic_topics": [
+        "FX"
+      ],
+      "corpus_topics": [
+        "growth",
+        "inflation",
+        "labor",
+        "monetary_policy",
+        "rates",
+        "FX",
+        "equity",
+        "liquidity",
+        "capital_flow",
+        "valuation",
+        "risk_sentiment",
+        "commodity",
+        "geopolitical",
+        "earnings_corporate"
+      ],
+      "conditional_types": [],
+      "method": "Fixed question/structured-asset topic routing; corpus lexical language and counts; no outcome input.",
+      "text_provenance": [
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/fomc_statement_20220126.txt",
+          "timestamp": "2022-01-26",
+          "sha256": "ed7489b9dffe127820a2af16a9ba9a6d965b3b7d1c0d0364f1444133bb70acab"
+        },
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/beigebook_202201.txt",
+          "timestamp": "2022-01-31",
+          "sha256": "cf47a97fd06ff68f234f308b13b166c61880fc04f678a17db62399646ad664bf"
+        },
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/ecb_lagarde_2022-02-07.txt",
+          "timestamp": "2022-02-07",
+          "sha256": "92e5aeff9a0b5b9f4bf1e997a58589162f541121ca3e5e60defd1c843697c442"
+        },
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/ecb_lagarde_2022-02-14.txt",
+          "timestamp": "2022-02-14",
+          "sha256": "6b7759f98e0babf7bb1226e4c3477f34485300613a09b69adf2b8c7d6e18b6e3"
+        },
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/ecb_lagarde_2022-02-14_2.txt",
+          "timestamp": "2022-02-14",
+          "sha256": "2867a5b6ec9039ec226e159dfd137c546e963d9d0c6aee27e1e7c3079bd0b9ae"
+        },
+        {
+          "path": "units/t2-F4-eur-warnings-2022/text/bis_cos_2022-02-17.txt",
+          "timestamp": "2022-02-17",
+          "sha256": "d3e8d09433afc264d810d9f4bc278cac6657e56c34d07fce29c7500aa64ec3ba"
+        }
+      ],
+      "question_sha256": "e25e4641f3048d91af121f5e571b2c386454c33dfdadb400f27fad67aceb2c65"
+    }
+  },
+  "feature_sha256": "8a8ad656b6aab60a5be84c4c40c69df731dda69bc0e51766e7ccc4140fc4a146",
+  "outcomes_opened": false
+}

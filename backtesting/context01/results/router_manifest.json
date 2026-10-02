@@ -1,0 +1,226 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "experts": [
+    "RGDP",
+    "CPI",
+    "UNEMP",
+    "TBILL",
+    "TBOND",
+    "F",
+    "L"
+  ],
+  "priority": [
+    "L",
+    "F",
+    "TBILL",
+    "TBOND",
+    "CPI",
+    "RGDP",
+    "UNEMP"
+  ],
+  "topic_experts": {
+    "growth": [
+      "RGDP"
+    ],
+    "inflation": [
+      "CPI"
+    ],
+    "labor": [
+      "UNEMP"
+    ],
+    "monetary_policy": [
+      "TBILL",
+      "TBOND"
+    ],
+    "rates": [
+      "TBILL",
+      "TBOND"
+    ],
+    "equity": [
+      "F"
+    ],
+    "capital_flow": [
+      "F"
+    ],
+    "liquidity": [
+      "L"
+    ]
+  },
+  "no_route": "exact zero",
+  "multiple": "R1 first eligible available in priority; R2 equal available expert average; R3 fixed50/50 B5+R2",
+  "flow_mapping": "F admitted only MKT; other assets zero",
+  "macro_mapping": "Inherited US expectation macro exposure and predeclared global USD reserve exposure; not international local surveys",
+  "routing_eligibility": {
+    "t2-F1-aud-on-hold-2016": {
+      "AUD": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F1-cad-boc-2017": {
+      "CAD": []
+    },
+    "t2-F1-chf-highly-valued-2021": {
+      "CHF": []
+    },
+    "t2-F1-considerable-period-2003": {
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F1-conundrum-2005": {
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F1-dkk-peg-2019": {
+      "DKK": []
+    },
+    "t2-F2-abenomics-2012": {
+      "JPY": []
+    },
+    "t2-F2-act-as-appropriate-2019": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F2-aud-taper-2013": {
+      "AUD": [
+        "L"
+      ]
+    },
+    "t2-F2-boj-thin-signal-2014": {
+      "JPY": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F2-considerable-removal-2004": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F2-credit-crunch-2007": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F3-bear-flattener-2022": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_5Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_30Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F3-boj-ust-channel-2023": {
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "JPY": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F3-brexit-joint-2016": {
+      "GBP": [],
+      "EUR": [],
+      "CHF": [],
+      "JPY": []
+    },
+    "t2-F3-conundrum-joint-2005": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_5Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_7Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F3-covid-curve-2020": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_5Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ],
+      "UST_30Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F3-cpi-shock-cross-2022": {
+      "MKT": [
+        "F",
+        "CPI"
+      ],
+      "HML": [
+        "CPI"
+      ]
+    },
+    "t2-F4-china-panic-2016": {
+      "MKT": [
+        "F",
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F4-china-stress-mkt-2015": {
+      "MKT": [
+        "F"
+      ]
+    },
+    "t2-F4-covid-mkt-2020": {
+      "MKT": [
+        "F"
+      ]
+    },
+    "t2-F4-covid-rates-2020": {
+      "UST_10Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F4-cpi-friday-2022": {
+      "UST_2Y": [
+        "TBILL",
+        "TBOND"
+      ]
+    },
+    "t2-F4-eur-warnings-2022": {
+      "EUR": []
+    }
+  },
+  "rejected_sources_used": false
+}

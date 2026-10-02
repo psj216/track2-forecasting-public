@@ -1,0 +1,124 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "parent_result_sha": "79083c298f8dede7f9113dbf058f4f55c3dfad3d",
+  "universe": "All24 previously exposed proxy cards,63cells,13single11multi,6perfamily; no independent OOS or official validation",
+  "primary": "B_TEXT frozen V5.1text-enabled; all learned candidates only shift its center",
+  "chronological_splits": [
+    {
+      "boundary": "2013-05-24",
+      "train_cards": [
+        "t2-F1-considerable-period-2003",
+        "t2-F2-considerable-removal-2004",
+        "t2-F1-conundrum-2005",
+        "t2-F3-conundrum-joint-2005",
+        "t2-F2-credit-crunch-2007"
+      ],
+      "test_cards": [
+        "t2-F2-aud-taper-2013",
+        "t2-F2-boj-thin-signal-2014",
+        "t2-F4-china-stress-mkt-2015",
+        "t2-F4-china-panic-2016",
+        "t2-F3-brexit-joint-2016",
+        "t2-F1-aud-on-hold-2016"
+      ],
+      "target_maturity": "maximum target end strictly earlier than boundary;189BDorigin embargo"
+    },
+    {
+      "boundary": "2017-07-12",
+      "train_cards": [
+        "t2-F1-considerable-period-2003",
+        "t2-F2-considerable-removal-2004",
+        "t2-F1-conundrum-2005",
+        "t2-F3-conundrum-joint-2005",
+        "t2-F2-credit-crunch-2007",
+        "t2-F2-abenomics-2012",
+        "t2-F2-aud-taper-2013",
+        "t2-F2-boj-thin-signal-2014",
+        "t2-F4-china-stress-mkt-2015",
+        "t2-F4-china-panic-2016",
+        "t2-F3-brexit-joint-2016"
+      ],
+      "test_cards": [
+        "t2-F1-cad-boc-2017",
+        "t2-F1-dkk-peg-2019",
+        "t2-F2-act-as-appropriate-2019",
+        "t2-F4-covid-rates-2020",
+        "t2-F4-covid-mkt-2020",
+        "t2-F3-covid-curve-2020"
+      ],
+      "target_maturity": "maximum target end strictly earlier than boundary;189BDorigin embargo"
+    },
+    {
+      "boundary": "2021-06-17",
+      "train_cards": [
+        "t2-F1-considerable-period-2003",
+        "t2-F2-considerable-removal-2004",
+        "t2-F1-conundrum-2005",
+        "t2-F3-conundrum-joint-2005",
+        "t2-F2-credit-crunch-2007",
+        "t2-F2-abenomics-2012",
+        "t2-F2-aud-taper-2013",
+        "t2-F2-boj-thin-signal-2014",
+        "t2-F4-china-stress-mkt-2015",
+        "t2-F4-china-panic-2016",
+        "t2-F3-brexit-joint-2016",
+        "t2-F1-aud-on-hold-2016",
+        "t2-F1-cad-boc-2017",
+        "t2-F1-dkk-peg-2019",
+        "t2-F2-act-as-appropriate-2019",
+        "t2-F4-covid-rates-2020",
+        "t2-F4-covid-mkt-2020",
+        "t2-F3-covid-curve-2020"
+      ],
+      "test_cards": [
+        "t2-F1-chf-highly-valued-2021",
+        "t2-F4-eur-warnings-2022",
+        "t2-F4-cpi-friday-2022",
+        "t2-F3-bear-flattener-2022",
+        "t2-F3-cpi-shock-cross-2022",
+        "t2-F3-boj-ust-channel-2023"
+      ],
+      "target_maturity": "maximum target end strictly earlier than boundary;189BDorigin embargo"
+    }
+  ],
+  "alphas": [
+    0.01,
+    0.1,
+    1,
+    10,
+    100
+  ],
+  "selection": "Inner whole-card blocked mean delta MSE; no score/CRPS tuning",
+  "cap_sd": 10,
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 1903,
+  "controls": {
+    "A": "Within-family sorted-ID whole-card semantic rotation preserving target structure/temporal fields",
+    "B": "Topic rotation only",
+    "C": "Fixed expert cyclic permutation, retain original eligibility and availability; unavailable wrong expert can return zero",
+    "D": "Semantic text mask retaining structure, dates, thresholds and temporal fields",
+    "E": "Label mutation cannot change annotations/router/expert models",
+    "F": "Card labels forbidden in annotation/source preprocessing or continuous expert refit",
+    "G": "Post-origin source mutation invariance",
+    "H": "Centered draw geometry unchanged"
+  },
+  "control_clearance": "For each candidate every applicable matched A/B/D (and C for routers) candidate/control paired geometric composite upper95<1 under both whole-card and family-stratified5000resamples. B1 identical controls are noninformative and cannot establish semantic specificity.",
+  "weak_yes": "Composite<=.97,single<1,multi<=1,>=3of4FHOcomposite<1,capture>.05,all applicable controls clear",
+  "yes": "Retain WEAK;composite<=.95,capture>=.10,single and multi improve",
+  "strong_yes": "Retain WEAK;composite<=.90,capture>=.20,4of4FHO improve",
+  "moonshot": "Retain WEAK;composite<=.80,capture>=.35,single and multi improve,F1composite<1 and no path-required flag",
+  "f1_path_required": "F1 marginal<1,joint>1.01,composite>=1",
+  "existing_text_status": "POSITIVE if fulltext/numeric<1,purelocation/numeric<=.97,capture>.05,Pearson and Spearman positive;WEAK if either purelocation<1 with positive capture/correlation or fulltext<1;else NONE",
+  "semantic_or_route_descriptive_weak": "Any applicable model composite<1,capture>0,>=2FHOimprove; not acceptance and not independent alpha",
+  "next_step_precedence": [
+    "Accepted YES/STRONG/MOONSHOT -> CONTEXT-VALIDATION-REQUIRED",
+    "F1 path damage with best marginal<=.97 -> PATH-01",
+    "Accepted semantic WEAK -> CONTEXT-02",
+    "Accepted routing alone -> CONTEXT-ROUTER-02",
+    "No accepted increment and existingtextpositive/weak -> TEXT-ROUTE-AUDIT-02",
+    "Otherwise HIGHFREQ-01"
+  ],
+  "embedding_status": "NOT_AVAILABLE; no frozen local identified licensed checkpoint; no download",
+  "one_shot": "NO",
+  "selection_limit": "Report every frozen stage/router and every card; no winner-based weights, refits, new source/feature/taxonomy or card subset"
+}

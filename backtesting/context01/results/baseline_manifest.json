@@ -1,0 +1,537 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "baselines": [
+    {
+      "card_id": "t2-F1-aud-on-hold-2016",
+      "kind": "B_TEXT",
+      "sha256": "16f6c47a29881bf85462a7b94293f5695b4fd0c963dbd5f616db59b27b817977",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-aud-on-hold-2016",
+      "kind": "B_NUMERIC",
+      "sha256": "16f6c47a29881bf85462a7b94293f5695b4fd0c963dbd5f616db59b27b817977",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-cad-boc-2017",
+      "kind": "B_TEXT",
+      "sha256": "cc4e41800edbbdb00798a3656103e307447ba4382d3f2869e86e0f50e917aaac",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-cad-boc-2017",
+      "kind": "B_NUMERIC",
+      "sha256": "cc4e41800edbbdb00798a3656103e307447ba4382d3f2869e86e0f50e917aaac",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-chf-highly-valued-2021",
+      "kind": "B_TEXT",
+      "sha256": "034eb65897d04c47e82f99cd71fb118be90a916c68d840da13d8a24900a5fbb8",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-chf-highly-valued-2021",
+      "kind": "B_NUMERIC",
+      "sha256": "034eb65897d04c47e82f99cd71fb118be90a916c68d840da13d8a24900a5fbb8",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-considerable-period-2003",
+      "kind": "B_TEXT",
+      "sha256": "4638fc7bda64b0e60518eae398753d329c23553dbdb50c227020ac517af5d8d3",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-considerable-period-2003",
+      "kind": "B_NUMERIC",
+      "sha256": "3cc0e325f801445c397c3df24adb40d8371c5b60c8bac16d0809ab151e6699c7",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-conundrum-2005",
+      "kind": "B_TEXT",
+      "sha256": "71f3090f58a9776f412c4d6cc9ef9553597f3bde11dc940cb4242cdda49808d0",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-conundrum-2005",
+      "kind": "B_NUMERIC",
+      "sha256": "71f3090f58a9776f412c4d6cc9ef9553597f3bde11dc940cb4242cdda49808d0",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-dkk-peg-2019",
+      "kind": "B_TEXT",
+      "sha256": "fb1f6cf77593e18d96fbfbaf211ff1eaa7d19d0543bdc7b2e834878d5f85a8c6",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F1-dkk-peg-2019",
+      "kind": "B_NUMERIC",
+      "sha256": "fb1f6cf77593e18d96fbfbaf211ff1eaa7d19d0543bdc7b2e834878d5f85a8c6",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-abenomics-2012",
+      "kind": "B_TEXT",
+      "sha256": "4e708569f690f50118faebb3db10f8c0805bee0911d0f4a8be789c8695049128",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-abenomics-2012",
+      "kind": "B_NUMERIC",
+      "sha256": "4e708569f690f50118faebb3db10f8c0805bee0911d0f4a8be789c8695049128",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-act-as-appropriate-2019",
+      "kind": "B_TEXT",
+      "sha256": "cbfc242c8370fb99eb59cad4761696e7992b4c6097aba4b5c4750181539b1820",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-act-as-appropriate-2019",
+      "kind": "B_NUMERIC",
+      "sha256": "cbfc242c8370fb99eb59cad4761696e7992b4c6097aba4b5c4750181539b1820",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-aud-taper-2013",
+      "kind": "B_TEXT",
+      "sha256": "9c47e428e4e4954b74d347c8609b26d1013b07e006d2a4193533ff35d8793b2d",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-aud-taper-2013",
+      "kind": "B_NUMERIC",
+      "sha256": "9c47e428e4e4954b74d347c8609b26d1013b07e006d2a4193533ff35d8793b2d",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-boj-thin-signal-2014",
+      "kind": "B_TEXT",
+      "sha256": "8f5d8ee04500461de50e11d882cbaa7b1d4a6946f80871964070e5ece8f7e5e3",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-boj-thin-signal-2014",
+      "kind": "B_NUMERIC",
+      "sha256": "8f5d8ee04500461de50e11d882cbaa7b1d4a6946f80871964070e5ece8f7e5e3",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-considerable-removal-2004",
+      "kind": "B_TEXT",
+      "sha256": "14b33435bc72ea04627886ddc64b09915d70b60a755f47d29cff3181c225d022",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-considerable-removal-2004",
+      "kind": "B_NUMERIC",
+      "sha256": "14b33435bc72ea04627886ddc64b09915d70b60a755f47d29cff3181c225d022",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-credit-crunch-2007",
+      "kind": "B_TEXT",
+      "sha256": "531f4511fc43d28cbc48084b103e2c19ed69788b46a3007d5a75d0829beab828",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F2-credit-crunch-2007",
+      "kind": "B_NUMERIC",
+      "sha256": "531f4511fc43d28cbc48084b103e2c19ed69788b46a3007d5a75d0829beab828",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F3-bear-flattener-2022",
+      "kind": "B_TEXT",
+      "sha256": "274ecaf04fe3cf354b9cda95656cf1c1a324186224ae03c3580ce3acdc26173a",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-bear-flattener-2022",
+      "kind": "B_NUMERIC",
+      "sha256": "274ecaf04fe3cf354b9cda95656cf1c1a324186224ae03c3580ce3acdc26173a",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-boj-ust-channel-2023",
+      "kind": "B_TEXT",
+      "sha256": "ed62a4bb38dd21b96055ff4df28db7e406b29a78001a0b218a7507d5e0262a39",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        2
+      ]
+    },
+    {
+      "card_id": "t2-F3-boj-ust-channel-2023",
+      "kind": "B_NUMERIC",
+      "sha256": "ed62a4bb38dd21b96055ff4df28db7e406b29a78001a0b218a7507d5e0262a39",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        2
+      ]
+    },
+    {
+      "card_id": "t2-F3-brexit-joint-2016",
+      "kind": "B_TEXT",
+      "sha256": "29407f381e2f423b0bb8215b6b443536fe40374de0485743aea7757dd6aa3827",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-brexit-joint-2016",
+      "kind": "B_NUMERIC",
+      "sha256": "29407f381e2f423b0bb8215b6b443536fe40374de0485743aea7757dd6aa3827",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-conundrum-joint-2005",
+      "kind": "B_TEXT",
+      "sha256": "ad496485d952aa1b4bab5c3fd24d26f9716378cd36993db7cb1ea7c63ba7e65d",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-conundrum-joint-2005",
+      "kind": "B_NUMERIC",
+      "sha256": "ad496485d952aa1b4bab5c3fd24d26f9716378cd36993db7cb1ea7c63ba7e65d",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-covid-curve-2020",
+      "kind": "B_TEXT",
+      "sha256": "d7e46b4721e5679b05c29223d1573f04d4fb86dcae8f2364961a761285f6df67",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-covid-curve-2020",
+      "kind": "B_NUMERIC",
+      "sha256": "d7e46b4721e5679b05c29223d1573f04d4fb86dcae8f2364961a761285f6df67",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        4
+      ]
+    },
+    {
+      "card_id": "t2-F3-cpi-shock-cross-2022",
+      "kind": "B_TEXT",
+      "sha256": "eef686a79ea3ce5c33a471d98e742a74109ab7e7120fe440f349314bc2f5c1e9",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        2
+      ]
+    },
+    {
+      "card_id": "t2-F3-cpi-shock-cross-2022",
+      "kind": "B_NUMERIC",
+      "sha256": "eef686a79ea3ce5c33a471d98e742a74109ab7e7120fe440f349314bc2f5c1e9",
+      "draws": 2000,
+      "shape": [
+        2000,
+        2,
+        2
+      ]
+    },
+    {
+      "card_id": "t2-F4-china-panic-2016",
+      "kind": "B_TEXT",
+      "sha256": "07bf8e4502bb7c3ffc5b76fa3b819c3c6060f78e65031a8e6d7304efe8f59de9",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-china-panic-2016",
+      "kind": "B_NUMERIC",
+      "sha256": "07bf8e4502bb7c3ffc5b76fa3b819c3c6060f78e65031a8e6d7304efe8f59de9",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-china-stress-mkt-2015",
+      "kind": "B_TEXT",
+      "sha256": "775da025d328aa84b404d21a02f136a33b769f11733c9bfae2665bbafb143fca",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-china-stress-mkt-2015",
+      "kind": "B_NUMERIC",
+      "sha256": "775da025d328aa84b404d21a02f136a33b769f11733c9bfae2665bbafb143fca",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-covid-mkt-2020",
+      "kind": "B_TEXT",
+      "sha256": "11ecde371a57266bdf99f0db3aa14a29b2e617db3772bbc8eb6ddd1b26d06247",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-covid-mkt-2020",
+      "kind": "B_NUMERIC",
+      "sha256": "ec8cf9ed7a476b9554cfa24b31c35ce27c817b2c52ebca2c81e521036558c5ca",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-covid-rates-2020",
+      "kind": "B_TEXT",
+      "sha256": "50eecd3319bfa857a92c26ec2ef2e5debe2202ffb25738866bfd46babd93067c",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-covid-rates-2020",
+      "kind": "B_NUMERIC",
+      "sha256": "450d10c2e914a84e866c7ee3a6821bfd27094a7dd7be126a6c593aea7fdd35a1",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-cpi-friday-2022",
+      "kind": "B_TEXT",
+      "sha256": "e5512d9e4aab47f379ac8d94003fb0c37c25d615aaa79562805b15b819cf7a61",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-cpi-friday-2022",
+      "kind": "B_NUMERIC",
+      "sha256": "56bb023748aed7310e35fd25bd021a27fd2f839118f82c3c4980cc99e21b2bde",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-eur-warnings-2022",
+      "kind": "B_TEXT",
+      "sha256": "67bcb6fd2d24fa8f605136f74b9fd4eebc967fa8cc11c72a404a4a78b9a388b0",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    },
+    {
+      "card_id": "t2-F4-eur-warnings-2022",
+      "kind": "B_NUMERIC",
+      "sha256": "67bcb6fd2d24fa8f605136f74b9fd4eebc967fa8cc11c72a404a4a78b9a388b0",
+      "draws": 2000,
+      "shape": [
+        2000,
+        1,
+        1
+      ]
+    }
+  ],
+  "primary": "Frozen V5.1 B_TEXT",
+  "diagnostic": "Frozen V5.1 B_NUMERIC",
+  "truth_not_loaded": true,
+  "regeneration": false
+}

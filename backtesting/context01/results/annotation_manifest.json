@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "status": "ANNOTATION_FROZEN_BEFORE_CARD_OUTCOMES",
+  "hashes": {
+    "card_manifest.json": "3c45a46ee5d65388ce79cda988c313d113f5ee2869d1c3231e854ecfecaf9b48",
+    "baseline_manifest.json": "fe2d0ba83309c10167dddbd74119302a15826797ff07bcdc095b02416c31bd1c",
+    "context_schema.json": "01c31742f572eb693ddc2aacef3c1e06db8bb1beac54aa7d997ce03aa10feac3",
+    "context_annotations.json": "33933e616847e1745a46eb3bfa84be3a37c82640fc81152cf4aa41a33a5ce9a3",
+    "router_manifest.json": "c24fa5477f66b2188c18f076786638e1bf7f926a3dbac5330d5d387537470b56"
+  },
+  "features_sha256": "8a8ad656b6aab60a5be84c4c40c69df731dda69bc0e51766e7ccc4140fc4a146",
+  "truth_load_count": 0
+}
