@@ -1,0 +1,228 @@
+{
+  "executive_summary": "Frozen exposed-card research; no card outcomes or per-card scores public.",
+  "experts": [
+    "E0=frozenV5.1textB0",
+    "E1=frozenCONTEXT01R2"
+  ],
+  "cards": [
+    {
+      "card_id": "t2-F1-aud-on-hold-2016",
+      "npz_sha256": "8ebf1d18a664b3b385fb48129e918940c338d6121cd179e081483aafc385afe9",
+      "B0_array_sha256": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+      "R2_array_sha256": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+      "parent_score_record_sha256": "782381ce158cc8c83811a7266abaff8c9412161d35daf445512634de88922291",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F1-cad-boc-2017",
+      "npz_sha256": "665e5932788247101637ea28a6bf2a0a4ee9c5c88ec2806501f7fd828204a743",
+      "B0_array_sha256": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+      "R2_array_sha256": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+      "parent_score_record_sha256": "d2e15ef04e64a277c8e8d737f8093a251f184423e5291f6a3cb2f52fcdf89cb8",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F1-chf-highly-valued-2021",
+      "npz_sha256": "8971ac35340e771f95882a4d80fb215dcf22889c412edabb758eb764a6dd31f6",
+      "B0_array_sha256": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+      "R2_array_sha256": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+      "parent_score_record_sha256": "13ddd0fcb6bd4b8f6b871636dd16917ab96e28ca5f9a0d012728b432927a89e5",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F1-considerable-period-2003",
+      "npz_sha256": "b581c5d097b531617fb8abb4df9e90231f720a19780549129ac99b785cb01ad8",
+      "B0_array_sha256": "a576143c9590ad359f48cbab2dea47e32e2574debc36db0b66f50313b296de03",
+      "R2_array_sha256": "a576143c9590ad359f48cbab2dea47e32e2574debc36db0b66f50313b296de03",
+      "parent_score_record_sha256": "8606b81e0f0f03d930df29e4ff3a179523d92a540d2b0753f5cd81fc10b748bf",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F1-conundrum-2005",
+      "npz_sha256": "213138cf5546738b59fa08b803976ba8f7b511fef658dc69e777a62e63608d4b",
+      "B0_array_sha256": "f0098e1a2b5f153c8413e8e5eee9313bff10f28b8012fa3d7238a19eec049cba",
+      "R2_array_sha256": "cc6609afd80ec58ca5dd81aeda4e884b606162dfe91f7067f5604f7992e8214a",
+      "parent_score_record_sha256": "6c3411e4cbaa97316a9798a99db9db82d7ea6c87c3d60293da9266dad248f043",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F1-dkk-peg-2019",
+      "npz_sha256": "edbf4e9856b88c6f17dfe3fcb151ff15709770607c4eae55304907b57cb0c90d",
+      "B0_array_sha256": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+      "R2_array_sha256": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+      "parent_score_record_sha256": "b21694a1cb2fc7178d2c10702dc86fa3896859e073d02524e5729e9766f2547c",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-abenomics-2012",
+      "npz_sha256": "5cfd5f149851f22dee937bf1fffe0b2e5770ae2cc028b69bb352c35c672221b6",
+      "B0_array_sha256": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+      "R2_array_sha256": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+      "parent_score_record_sha256": "94b692a2f917fa2c8666c0418aad5275af6d17045a81c78c5f85cbd56d0454ac",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-act-as-appropriate-2019",
+      "npz_sha256": "c0be3a05a696636984ad760a59510967a0957718d2c4a0cc56655497de88eca5",
+      "B0_array_sha256": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+      "R2_array_sha256": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+      "parent_score_record_sha256": "156776f24947c370cad9ac0bf052cbd1d041558e7c2f080150409a30de54c3a4",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-aud-taper-2013",
+      "npz_sha256": "fef75b5c3d4497521c632fd40c6ae647c6d90551b003e1b7c959209b1a3c7ebb",
+      "B0_array_sha256": "0839f6d934795ba186637d5145770f213cfa796aad1400a851b80202f93ade87",
+      "R2_array_sha256": "dc0397b93fe83058875869cee7f7777678e944d6dcbe51e04fa319eb2ea347e1",
+      "parent_score_record_sha256": "de983f574d1ea026725e7196ec53c01da4e92e3e6d4f416c96f57cd6a3e9e285",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-boj-thin-signal-2014",
+      "npz_sha256": "95c6132b4582e89de4fe733d01cb25d06270be12f51420ae762a803214a7ae9f",
+      "B0_array_sha256": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+      "R2_array_sha256": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+      "parent_score_record_sha256": "2c93c900d3cc2ecd8c29d81cc20636d79e1a5780107fbcaf41be1b51193b3e4c",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-considerable-removal-2004",
+      "npz_sha256": "9ad87f2e81785dc6cd7615e1a5340966242e769037bc0f99c9b957e0b2f70e3c",
+      "B0_array_sha256": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+      "R2_array_sha256": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+      "parent_score_record_sha256": "9d08e1dde4d8153bb5f7ec8742bc315cf7e48bf9d3f36af8c10292fc8a87ca2c",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F2-credit-crunch-2007",
+      "npz_sha256": "5c2d520225d81b7baadbbd4ea4e1be41931a6582f16d52a9ed49a99d84aa0a7e",
+      "B0_array_sha256": "32d35bf35d0245b2e8bfcf595edad6f95b2d1e66ea1e9cb9c07f67b7893c0c96",
+      "R2_array_sha256": "6342d3aa741d880cedc426cb45716bd67f6329e13c9b79bb284aede35cb6e011",
+      "parent_score_record_sha256": "0c44e442a6414dc99265024495ef9d70b84c5575cf6f6a21159af0fb342e6108",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-bear-flattener-2022",
+      "npz_sha256": "5eb30186f986a1f8e9c22e52217e2775a75d444ffd28e2de45583eda99c9c427",
+      "B0_array_sha256": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+      "R2_array_sha256": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+      "parent_score_record_sha256": "21e115c795d98478469ecd493bcd2592782a8a618cf157a1cda512fed3efcdbe",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-boj-ust-channel-2023",
+      "npz_sha256": "5be38ad61a7693fe75dc8a3beedf4c8b3206f5f4ac5d27a9261eb59a074fde57",
+      "B0_array_sha256": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+      "R2_array_sha256": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+      "parent_score_record_sha256": "1b1da7669775d9aa4e94b888e8fd3858ce403a5d42ce6062bf8b0ed7151f31d4",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-brexit-joint-2016",
+      "npz_sha256": "eb26b201e00774840abfa2d81dc5300f969cce6c932d95a3b16328b9bed4fbad",
+      "B0_array_sha256": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+      "R2_array_sha256": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+      "parent_score_record_sha256": "38498fd4d1f78b9955bc0156991953776def5be71f6aefd774be51a2ab65b6dc",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-conundrum-joint-2005",
+      "npz_sha256": "c07c32dce2ca1815224103bbd9d7f4d0201330dfaffed2a5a219affe2b6f176a",
+      "B0_array_sha256": "f39d3e522fd7a97015f60eb55db807dfc12d45383cb7309b602914a403c89213",
+      "R2_array_sha256": "5bc35f68a4729b220c1e3cc5149683dff267e343d191236a5fb817acb2239ac1",
+      "parent_score_record_sha256": "c68069db12f840be820ff4a526e31fb256f27941ee57bbded9196c52be3f574c",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-covid-curve-2020",
+      "npz_sha256": "ca7ab95856ef9d854336176629fa0ab683fb99c5e82f5ad80701f3e328308cb9",
+      "B0_array_sha256": "1bd8a8c7c297278ba70004cfb513ebc65ebd956d902cbaae69c3be8cb9cce1ed",
+      "R2_array_sha256": "e8724b88013d60a8e7d3f4a71aff28c16c5d373ace83a43ab4897ec7d655b747",
+      "parent_score_record_sha256": "8294bd3e641fcf0caafc513467c00cab6d95dcf9842a8359db2c774336a8f0b2",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F3-cpi-shock-cross-2022",
+      "npz_sha256": "bba9404e6b4d825f742d531ec0134d7f22f7a65966954f384dbe5e1524c0f67c",
+      "B0_array_sha256": "238e121315a37b06cce2fd0108638d170824216263ad29411220ad14c666dc50",
+      "R2_array_sha256": "a3b2f9a9be0bf88ac03ad5ec9a697ea78c510578b0818a68cc07f5ddecd85bb1",
+      "parent_score_record_sha256": "21bc46dc51bccf8953220990548530004ea21b0e2454bb2dd1fa40c539be77ff",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-china-panic-2016",
+      "npz_sha256": "c676e3b6d8d46a6ca45b276b2e7649f3c062a435a141ffc1fbfc86a081360423",
+      "B0_array_sha256": "dec1f133d911af7812550086e6816607b63630857c873e622918b671b83e22c2",
+      "R2_array_sha256": "e78b02e428dcce4be0097ba91a68dbae2254df787a598261ff2f746a67e4f07a",
+      "parent_score_record_sha256": "86f00959402b52e2cbbac55f85528b328e075013ecf24d3f48b5e4b1ceab1fa9",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-china-stress-mkt-2015",
+      "npz_sha256": "27eca18af38b45ad0a685f63f3299678d4a108fd390f6826917531b1f2145b7a",
+      "B0_array_sha256": "c4c4edb05d6b4ea667bd07235cc8d1cffe9ff6cf5ca8d87e585fff8a1d118589",
+      "R2_array_sha256": "0bf5b6673af563e9652a7bf71d9f2671c3fb04a564c44a79d81db2f1def3ac19",
+      "parent_score_record_sha256": "da3237e2cf6817e1d449a018ed16ad9ba3f3edad53ea4afe424bc8235ab861dc",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-covid-mkt-2020",
+      "npz_sha256": "9209d68753c15b3b639bff1ae4c9a74f6d0cd65849488647dcedad8771d029ac",
+      "B0_array_sha256": "987892bb84199cfd5a6e4391d7a76e4d86cfcebc4a15b16f211dec307c19f1ed",
+      "R2_array_sha256": "fab1d08548915e00871de3b94e055aa7dc801958a66a135d9a358f35630b5789",
+      "parent_score_record_sha256": "8d309e1d1252404d359ee634aa207329c3662ab1984482bee1b6b230b6bcf24b",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-covid-rates-2020",
+      "npz_sha256": "b9144e13668ae2e8a72df4a74fcbb09bd5f1afaefee22897fcd1651ee68bccdd",
+      "B0_array_sha256": "d2d4057394097d5cb3f79d59ee58af617d2801762f1ed5a083890dadbafa981b",
+      "R2_array_sha256": "d2d4057394097d5cb3f79d59ee58af617d2801762f1ed5a083890dadbafa981b",
+      "parent_score_record_sha256": "daab6a14073633bc8c1fa1bb4fcbb5103e52874d3d11821de70889398926f973",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-cpi-friday-2022",
+      "npz_sha256": "d742ddb13f7996f48f7603fca7fdda23cb4660b323505cf494a777e311c65312",
+      "B0_array_sha256": "5d1975cdab8fbf5b0fb7686836773ecdad956a108bd76a8990cb4b2d3a8ca03b",
+      "R2_array_sha256": "25a4b276df46d7a813b084a4ed0fa7aba2339b457fd390097e30cb37b642365d",
+      "parent_score_record_sha256": "f79022182afe5c77638c5f21a419107eb1b19b8e912ab79ba1ac104f758fd859",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    },
+    {
+      "card_id": "t2-F4-eur-warnings-2022",
+      "npz_sha256": "22ad6e7d3ab11fd69bd2b9020c46e5817f19225469e2faf7da6a73340bf380b8",
+      "B0_array_sha256": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+      "R2_array_sha256": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+      "parent_score_record_sha256": "2b097d6beb04934b62c4a913a178d3da6250cdbd21f1748a93d58863403fc4c6",
+      "independent_reconstruction_bitwise_equal": true,
+      "full_components_exact_equal": true
+    }
+  ],
+  "fit_or_recalibration": false,
+  "exact_reconstruction": "Original full R2 arrays were not retained. Unique saved baseline+float64correction and unchanged parent pure-shift adapter reproduce identical bytes along two independent paths, and all parent composite/components match exactly. Arrays now stored once and frozen.",
+  "score_adapter_sha256": "ba7f4dd972e8445af0414d15d437bea2e537093867988f93ae18f00d71ea7b04"
+}

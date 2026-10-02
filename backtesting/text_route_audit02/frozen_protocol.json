@@ -1,0 +1,23 @@
+{
+ "executive_summary":"Freeze small whole-card expert choice before routing oracle or router scores; all24cards exposed.",
+ "parent_sha":"d3618dcd9aae4ac118a5c12c0fe8f3709a72f296",
+ "primary":"ST0_LOG; fixedC1 L2logistic; StandardScaler fit on trainingcards only; no class weighting; probability>=.50",
+ "secondary":"S0_LOG,T0_LOG,STF0_LOG,LENGTH_LOG,ST_NO_FAMILY_LOG; fixedalpha1Ridge gain on S0/T0/ST0 choosingR2if predictedgain<0. Secondary winners cannot rescue primary failure.",
+ "one_class":"Constant training-only class prediction, no pseudo-test labels",
+ "features":"13S0,36T0,49ST0,54STF0diagnostic. No fitted feature selection, newtopics, embeddings, cardnames/IDs/hashes, raw absolute dates or new annotations.",
+ "oracle":"Choose entirecard by parent composite; tiesE0. Run afterPREand before fitting any router. Oracle labels/gains never enter features.",
+ "controls":"2000LOCOlabelshuffleST0primary withintrainingcards ofeachheldoutfold only,2000LOCOtext-rowshuffleST0preserveS0,2000randomwholecardroutes at primary exact applicationcount. Seeds2202+i,2203+i,2207. Matched random uses exactlyK cards without replacement.",
+ "bootstrap":"5000wholecard and5000whole-family-block resamples four6cardfamilies; seed2204; exposed resampling sensitivity only",
+ "clear_controls":"Primary composite strictly better than random/label/text null5thpercentile and plus-one lower-tail p<=.05 for each; strictly better than LENGTH_LOG",
+ "incremental_text":"Primary beats both S0_LOG and exposed single-R2/multi-B0 heuristic. Any apparent signal must survive removing explicitfamily indicator: ablated model composite<1 and beats exposed structuralheuristic. No primary replacement by best secondary.",
+ "severe_safety":"Primary multi orF1 geometric composite>1.01; retain full routed marginal/joint/tail and harm counts; no route to multi is safely allowed but not broad evidence.",
+ "headroom_LOW":"Oracle>=.98 orfragile: fewerthan3strict winners or maximumpositive loggainshare>75%; takes precedence; nextNEW_INFORMATION_REQUIRED",
+ "headroom_REAL":"Oracle<=.97 and notLOW; .97<oracle<.98 INTERMEDIATE; no automaticpositive inference",
+ "WEAK_YES":"Primary<=.98,capture>5%,B0improved,incremental_text,controls_clear,no severe safety",
+ "YES":"WEAKplus primary<=.95,capture>=10%,bothbootstrapcompositeupper95<1 and deltabeyondbothstructuralbaselinesupper95<0; >=3of4FHO composite<1 and >=3of4FHOprimarybeatsS0_LOG",
+ "STRONG_YES":"YESplus primary<=.92,capture>=20%,4of4FHOcomposite<=1 and>=3strictimprove; singlemulti<1 or noR2routedmulticards; controls clear",
+ "primary_fail":"NO; no threshold, feature ormodel redesign; noTEXT-ROUTE03. HeadroomREALbutunpredictable->NEW_INFORMATION_REQUIRED; robustYES/STRONG->TEXT-ROUTE-03-INDEPENDENT-VALIDATION; WEAK->INDEPENDENT_ROUTING_VALIDATION_REQUIRED.",
+ "capture":"Negative values retained; beyondstructure onlypositive denominator>1e-6,elseunstable; bootstrap replicates with denominator<=1e-6 excluded and count reported",
+ "public_firewall":"Cardlosses,winnerlabels,predictedroutes/probabilities,percardcomponentledger privately preserved. Public same-nameCSV is explicitredacted metadata plus privatehash; full aggregate public.",
+ "one_shot":"NO; no officialsubmission from exposed24cards"
+}
