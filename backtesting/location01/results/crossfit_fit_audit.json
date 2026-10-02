@@ -1,0 +1,602 @@
+[
+  {
+    "fold": 1,
+    "train_cutoff": 2009,
+    "test": [
+      2010,
+      2013
+    ],
+    "train_rows": 49630,
+    "test_rows": 22740,
+    "purged_rows": 4180,
+    "max_training_maturity": "2009-12-28",
+    "latest_training_origin": "2009-04-07",
+    "models": {
+      "M1": {
+        "alpha": 0.01,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.6938118312692783,
+            1.6938125290545054,
+            1.6938195247406627,
+            1.693891231834582,
+            1.69475397425698
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M2": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.0906935335631283,
+            2.090574665282437,
+            2.089393914747296,
+            2.078317830369865,
+            2.0098991299608424
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M3": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.1384939631129467,
+            2.1383855741470104,
+            2.1373131626655453,
+            2.127203217894649,
+            2.0631233963511817
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M4": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.1464776070178386,
+            2.146388230519493,
+            2.1454990635940394,
+            2.136860279846838,
+            2.082420788434788
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M5": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            2.2018478923843263,
+            2.2014105164403768,
+            2.197247833319916,
+            2.168583990836008,
+            2.0915468071194785
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      }
+    }
+  },
+  {
+    "fold": 2,
+    "train_cutoff": 2013,
+    "test": [
+      2014,
+      2017
+    ],
+    "train_rows": 72370,
+    "test_rows": 22700,
+    "purged_rows": 4180,
+    "max_training_maturity": "2013-12-30",
+    "latest_training_origin": "2013-04-09",
+    "models": {
+      "M1": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8379709003173746,
+            0.8379698761527453,
+            0.8379596430380529,
+            0.837858159012724,
+            0.8369224424322755
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M2": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8252988112383364,
+            0.8252886679937372,
+            0.8251875554388846,
+            0.8242071212572213,
+            0.8166211123860617
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M3": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8580863544119611,
+            0.8580609430337728,
+            0.8578288495408042,
+            0.8563399066273684,
+            0.8478492723279735
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M4": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8728061470828896,
+            0.872780783627981,
+            0.8725470620677025,
+            0.8708570447314139,
+            0.8585141391691439
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M5": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.8732301310209586,
+            0.873202141255342,
+            0.872944495558395,
+            0.8711302274794622,
+            0.8587225283458116
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      }
+    }
+  },
+  {
+    "fold": 3,
+    "train_cutoff": 2017,
+    "test": [
+      2018,
+      2020
+    ],
+    "train_rows": 95170,
+    "test_rows": 17070,
+    "purged_rows": 4080,
+    "max_training_maturity": "2017-12-26",
+    "latest_training_origin": "2017-04-04",
+    "models": {
+      "M1": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            0.9800976228456992,
+            0.980097063446468,
+            0.9800914733025485,
+            0.9800359531024406,
+            0.9795156986500541
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M2": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0275220289788254,
+            1.027515069709155,
+            1.0274456347776013,
+            1.0267665841802773,
+            1.0211639643928319
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M3": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0505542029230432,
+            1.0505428482758776,
+            1.0504328404653522,
+            1.0495055527132509,
+            1.042900816963185
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M4": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.052926119263993,
+            1.0529119826462312,
+            1.0527764105422668,
+            1.0517050613288803,
+            1.0447069633791484
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M5": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0707004430367695,
+            1.070693010258177,
+            1.0706189252116867,
+            1.0698620055518044,
+            1.0628651234697835
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      }
+    }
+  },
+  {
+    "fold": 4,
+    "train_cutoff": 2020,
+    "test": [
+      2021,
+      2024
+    ],
+    "train_rows": 112140,
+    "test_rows": 19674,
+    "purged_rows": 4180,
+    "max_training_maturity": "2020-12-28",
+    "latest_training_origin": "2020-04-07",
+    "models": {
+      "M1": {
+        "alpha": 0.01,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0747643792405293,
+            1.0747643855616955,
+            1.0747644490815067,
+            1.074765115636842,
+            1.0747753244944125
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M2": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0895539360353979,
+            1.089550221702468,
+            1.0895131555867859,
+            1.0891500264329188,
+            1.0861280847807029
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M3": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.0799226051185944,
+            1.0799160689015257,
+            1.079854745582777,
+            1.0794018563142789,
+            1.0756244446552843
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M4": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.115973018528349,
+            1.1159623985544818,
+            1.115864170485249,
+            1.115244965430672,
+            1.111690388523025
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      },
+      "M5": {
+        "alpha": 100.0,
+        "selection": {
+          "grid": [
+            0.01,
+            0.1,
+            1.0,
+            10.0,
+            100.0
+          ],
+          "delta_mse": [
+            1.1228097891512414,
+            1.122803056544397,
+            1.1227412578377944,
+            1.1223425075739966,
+            1.1189614666038188
+          ],
+          "inner_folds": 2
+        },
+        "caps": {
+          "ridge": 0,
+          "nonlinear": 0,
+          "A_label_time": 0,
+          "B_wrong_feature_date": 0,
+          "C_asset_label": 0
+        }
+      }
+    }
+  }
+]

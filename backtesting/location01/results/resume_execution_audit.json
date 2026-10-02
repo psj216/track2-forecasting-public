@@ -1,0 +1,24 @@
+{
+  "executive_summary": "Only runtime partitioning, progress output, incremental storage and identical-byte eager prediction loading were added outside the frozen repository implementation.",
+  "pre_result_sha": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "scoring_chunk_count": 13,
+  "scored_ledger_origins": 1250,
+  "covered_without_overlap": true,
+  "same_arrays_cached_once": true,
+  "methodology_changes": false,
+  "frozen_source_unchanged": true,
+  "io_bottleneck": "Lazy NPZ access repeatedly decompressed whole prediction matrices. Eagerly load exact arrays once without changing score operations.",
+  "stopped_incomplete_chunk_attempts": 8,
+  "retry_count": 1,
+  "exact_shared_scorer_recomputed_origins": 12,
+  "exact_candidate_cell_scores_verified": 36480,
+  "baseline_and_oracle_also_verified": true,
+  "current_location_tests": {
+    "passed": 16,
+    "failed": 0
+  },
+  "previous_frozen_full_test_logs_hash_verified": true,
+  "runtime_harness_sha256": "ab4f83fbe8ddf92d2ad4102cda7274b78290f10f24f9f6f6cdfe24a1730e27b5",
+  "transfer_guard_unchanged": true,
+  "final_workflow_status": "PARTIAL_RESULTS_TRANSFER_BLOCKED"
+}

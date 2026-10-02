@@ -1,0 +1,112 @@
+{
+  "executive_summary": "Recovered complete frozen crossfit and matched-asof transfer artifacts. Resume at marginal scoring without refitting or protocol changes.",
+  "pre_result_sha": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "recovery_case": "A",
+  "utc": "2026-10-02T01:28:06.330825+00:00",
+  "checks": {
+    "ledger_sha256": true,
+    "features_sha256": true,
+    "schema_matches_frozen_manifest": true,
+    "all_frozen_origin_cache_hashes_match": true,
+    "predictions_all_models_all_folds_complete": true,
+    "transfer_24_cards_5_models_complete": true,
+    "clean_frozen_code": true,
+    "parent_matches": true,
+    "remote_head_matches": true
+  },
+  "private_artifact_hashes": {
+    "ledger.parquet": {
+      "sha256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+      "bytes": 6992173
+    },
+    "features.npy": {
+      "sha256": "bfd4a3bbe34e4237575e0bbfd801ae8151fb611ac8b7b678f2762c816fdd9665",
+      "bytes": 234997760
+    },
+    "schema.json": {
+      "sha256": "4be1d4a588556f4deec27ea6c9ee1fd89387ceb2e4e3940f1c0ebf2dc1096ab3",
+      "bytes": 3487
+    },
+    "predictions.npz": {
+      "sha256": "135ef536f2378211a1ec5187ee8eae784f73ee86481ebe193acd2acc0b0e1c62",
+      "bytes": 12502888
+    },
+    "crossfit_audit.json": {
+      "sha256": "bb7bc495eface48a53d4761414ba3a39d1b7379850dd02305bdbf79da3e8344a",
+      "bytes": 13017
+    },
+    "transfer_models.pkl": {
+      "sha256": "a2c882a669b9a00ea8427d409faea0f0b112f4882d97b82dab370a4d7164efdc",
+      "bytes": 558494
+    },
+    "transfer_model_audit.json": {
+      "sha256": "76efe0368455406fe65b748e3c188e2610e715b7c5e9a0466c46ca3b84603238",
+      "bytes": 55359
+    }
+  },
+  "origin_cache_files": 1251,
+  "frozen_origin_cache_hashes_verified": 1251,
+  "origin_cache_mismatches": [],
+  "ledger_origins": 1250,
+  "ledger_cells": 135994,
+  "folds": [
+    {
+      "fold": 1,
+      "train_rows": 49630,
+      "test_rows": 22740,
+      "complete_models": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "fold": 2,
+      "train_rows": 72370,
+      "test_rows": 22700,
+      "complete_models": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "fold": 3,
+      "train_rows": 95170,
+      "test_rows": 17070,
+      "complete_models": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    },
+    {
+      "fold": 4,
+      "train_rows": 112140,
+      "test_rows": 19674,
+      "complete_models": [
+        "M1",
+        "M2",
+        "M3",
+        "M4",
+        "M5"
+      ]
+    }
+  ],
+  "transfer_cards": 24,
+  "first_incomplete_stage": "marginal_scoring",
+  "hash_comparison_scope": "Frozen manifest contains ledger/features and origin-cache hashes. Schema is checked against frozen feature columns. Predictions and model audit were generated after pre-result freeze; their hashes are recorded here, with no invented pre-result expected hashes.",
+  "runtime": {
+    "python": "3.13.15",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1"
+  }
+}

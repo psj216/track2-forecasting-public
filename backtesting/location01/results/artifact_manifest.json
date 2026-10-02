@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Public aggregate continuous results and the documented frozen transfer blocker. No card answers or individual scores are public.",
+  "pre_result_sha": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "workflow_status": "PARTIAL_RESULTS_TRANSFER_BLOCKED",
+  "files": {
+    "backtesting/location01/results/bootstrap_summary.json": "0976e3bcd473227337de6a8a670c9058a9a32b64562ae2f471e6b422af834765",
+    "backtesting/location01/results/channel_increment_summary.json": "519392e43d32cfc75ee0e7480bba651fdc79bd257762468220eea430587600a1",
+    "backtesting/location01/results/crossfit_fit_audit.json": "bb7bc495eface48a53d4761414ba3a39d1b7379850dd02305bdbf79da3e8344a",
+    "backtesting/location01/results/crossfit_summary.json": "33961f6763e4046e7260aded6cdd65707d2c93c866fc44e9dd10c67278e96e15",
+    "backtesting/location01/results/feature_manifest.json": "4aa5d735909ae2223eef6717188104645286594e1dc7b6aea0835a609e2b9e8b",
+    "backtesting/location01/results/fold_summary.csv": "da197941b85cc71297252a0c85dd16e1f05e4e7733cc050d4d67709cece5a7e1",
+    "backtesting/location01/results/group_summary.csv": "ea22c4cbe947731c8566c8d273f437a56bfd3c9bb4a8bfa0934dc99ad229a202",
+    "backtesting/location01/results/horizon_summary.csv": "e697a7d2cbaa6c8f68a84a2ea2491608751f25fdc53751fc710c8285c4801339",
+    "backtesting/location01/results/ledger_manifest.json": "b797d00c139930568db90bebb39c156d0e2fb3a0dc689b1c023bf5ee68fcf4c8",
+    "backtesting/location01/results/negative_controls.json": "ffb1a0f8db485ade00f0f8d3aa09be9820543547b505539ad8d81d86cac24acc",
+    "backtesting/location01/results/oracle_capture_summary.json": "c7df09f90f585acf96c1b33ebf81601b18a3dfad54269fcb95befe56da8d1d60",
+    "backtesting/location01/results/recovery_audit.json": "1a2a1d025f7b6e7e773a1f441e8e6cd28033e5fa29b424d0ef9fad733186955f",
+    "backtesting/location01/results/resume_execution_audit.json": "14fb5fa03b5ff798331276bab21b1ab0cb120106140906ce9b3f570438431c5f",
+    "backtesting/location01/results/test_summary.json": "1c501db40cbf13d6a108772bb1aefdf41682a45166607223668d1ad087671a99",
+    "backtesting/location01/results/transfer_blocker_audit.json": "813543f104e1ba410f75d89423f9393c4b4c4b0e95ad196328effbad8a5df183"
+  },
+  "report_sha256": "86d0d107015c866efe6d8963e2b7f222761a4b6a80f9857630f404b280f0123a",
+  "private_predictions_sha256": "135ef536f2378211a1ec5187ee8eae784f73ee86481ebe193acd2acc0b0e1c62",
+  "private_losses_sha256": "d71b2fa7f60cd3f288df5776e4602af255353a1cbb254a89d5e7994977ab4c39",
+  "private_transfer_models_sha256": "a2c882a669b9a00ea8427d409faea0f0b112f4882d97b82dab370a4d7164efdc"
+}

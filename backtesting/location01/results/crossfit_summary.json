@@ -1,0 +1,490 @@
+{
+  "pre_result_sha": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "status": "RESEARCH_EXPOSED_LEAKAGE_FREE_CROSS_FIT",
+  "scorer_status": "RESEARCH_PROXY_ONLY",
+  "evaluation_cells": 82184,
+  "evaluation_origins": 780,
+  "evaluation_date_range": [
+    "2010-01-05",
+    "2024-12-10"
+  ],
+  "same_ledger_perfect_location_ratio": 0.4099833250124908,
+  "models": {
+    "ridge": {
+      "M0": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null,
+        "fold_ratios": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0,
+            1.0
+          ],
+          "capture_95_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "M1": {
+        "cells": 82184,
+        "normalized_crps": 0.5905908973074558,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0057385846264797,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.00972613973427307,
+        "delta_mse": 1.0570514562821556,
+        "delta_r2": -0.018892508068286018,
+        "pearson": -0.004986498889964597,
+        "spearman": 0.0033561430085710764,
+        "sign_accuracy": 0.504721113598754,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.10006921881302527,
+        "calibration_intercept": 0.0642882643282519,
+        "calibration_slope": -0.04080301175582781,
+        "fold_ratios": [
+          1.0082647668181826,
+          1.005542313849922,
+          0.9978170959413726,
+          1.0106559434582858
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0004421367961054,
+            1.0110189025892546
+          ],
+          "capture_95_interval": [
+            -0.018795671428712406,
+            -0.0007730039452163633
+          ]
+        }
+      },
+      "M2": {
+        "cells": 82184,
+        "normalized_crps": 0.6012913457066148,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0239607649494458,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.04061031825914585,
+        "delta_mse": 1.0817475058099513,
+        "delta_r2": -0.0426970444446475,
+        "pearson": 0.07555152082699264,
+        "spearman": 0.10136289843934358,
+        "sign_accuracy": 0.5387301664557578,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.22516422292642507,
+        "calibration_intercept": 0.05761907337696311,
+        "calibration_slope": 0.258670813063874,
+        "fold_ratios": [
+          1.0170032878676043,
+          1.032820297031753,
+          1.0276229116450641,
+          1.01736134170282
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.004226824931861,
+            1.043266570886858
+          ],
+          "capture_95_interval": [
+            -0.071444718035413,
+            -0.007282517159039768
+          ]
+        }
+      },
+      "M3": {
+        "cells": 82184,
+        "normalized_crps": 0.6056318413044678,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.031352351780642,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.0531380774641763,
+        "delta_mse": 1.0954835504499245,
+        "delta_r2": -0.05593722579152827,
+        "pearson": 0.07032388436339101,
+        "spearman": 0.0929166346863974,
+        "sign_accuracy": 0.5361627567409715,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.24278651348053246,
+        "calibration_intercept": 0.059009316281144794,
+        "calibration_slope": 0.22427709382300678,
+        "fold_ratios": [
+          1.0329714027708603,
+          1.0403533478920444,
+          1.0314182386893223,
+          1.0193735256801504
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0097056759830199,
+            1.0532095733552336
+          ],
+          "capture_95_interval": [
+            -0.08850828079255113,
+            -0.01692197903801118
+          ]
+        }
+      },
+      "M4": {
+        "cells": 82184,
+        "normalized_crps": 0.6123154379147018,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.042734090012025,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.07242861400981537,
+        "delta_mse": 1.1204756819912485,
+        "delta_r2": -0.08002715579141184,
+        "pearson": 0.06727552239301178,
+        "spearman": 0.09086187737608376,
+        "sign_accuracy": 0.53734303514066,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2802860433851798,
+        "calibration_intercept": 0.05912447444195632,
+        "calibration_slope": 0.18921847535499833,
+        "fold_ratios": [
+          1.035710653991491,
+          1.0410111929523649,
+          1.05654956344713,
+          1.0391140227074214
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.018714698831407,
+            1.064121583966423
+          ],
+          "capture_95_interval": [
+            -0.10663843556728887,
+            -0.0333381639853977
+          ]
+        }
+      },
+      "M5": {
+        "cells": 82184,
+        "normalized_crps": 0.6148354847034574,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0470255687701138,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.07970210125181515,
+        "delta_mse": 1.1261932369122696,
+        "delta_r2": -0.08553831027578007,
+        "pearson": 0.060535013009222594,
+        "spearman": 0.08488997602097857,
+        "sign_accuracy": 0.536795483305753,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2837153402654969,
+        "calibration_intercept": 0.05857980231087503,
+        "calibration_slope": 0.1693410861689482,
+        "fold_ratios": [
+          1.0389790565231767,
+          1.0512402088767703,
+          1.0593918452361784,
+          1.0389265377218535
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.022770005234745,
+            1.0690420093261919
+          ],
+          "capture_95_interval": [
+            -0.11511881425971329,
+            -0.039621264166425425
+          ]
+        }
+      }
+    },
+    "nonlinear": {
+      "M0": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null,
+        "fold_ratios": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0,
+            1.0
+          ],
+          "capture_95_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "M1": {
+        "cells": 82184,
+        "normalized_crps": 0.5889846755836243,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0030032915996356,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.00509018088293728,
+        "delta_mse": 1.0526855665706434,
+        "delta_r2": -0.014684224458557216,
+        "pearson": 0.005608311416318409,
+        "spearman": 0.010528233994338186,
+        "sign_accuracy": 0.5052443297965541,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.09098422629747677,
+        "calibration_intercept": 0.0633237441100175,
+        "calibration_slope": 0.04866548472829069,
+        "fold_ratios": [
+          1.002058103228221,
+          1.0014160063750324,
+          0.9977183731377649,
+          1.010554851650415
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9975815864127393,
+            1.0078824806462514
+          ],
+          "capture_95_interval": [
+            -0.013087372026406172,
+            0.004112361462361152
+          ]
+        }
+      },
+      "M2": {
+        "cells": 82184,
+        "normalized_crps": 0.5870665785210624,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.9997368947864234,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0004459284368229289,
+        "delta_mse": 1.0498678667412042,
+        "delta_r2": -0.011968241968642879,
+        "pearson": 0.10277738558487262,
+        "spearman": 0.13265028222042938,
+        "sign_accuracy": 0.5513238586586197,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.16562367452858817,
+        "calibration_intercept": 0.06816716856239356,
+        "calibration_slope": 0.43865598675388306,
+        "fold_ratios": [
+          0.9792388679025468,
+          1.0020582131403921,
+          1.010281873961022,
+          1.007775281122995
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9837730531786733,
+            1.0141735207682094
+          ],
+          "capture_95_interval": [
+            -0.02306902348868102,
+            0.028534887864818583
+          ]
+        }
+      },
+      "M3": {
+        "cells": 82184,
+        "normalized_crps": 0.589787657810493,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0043707190557867,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.007407789035588198,
+        "delta_mse": 1.0655569551109103,
+        "delta_r2": -0.027090963292483394,
+        "pearson": 0.07876862416471136,
+        "spearman": 0.11704917429875633,
+        "sign_accuracy": 0.5441083422564003,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.17340125204805418,
+        "calibration_intercept": 0.06751109508112808,
+        "calibration_slope": 0.32070102001702705,
+        "fold_ratios": [
+          0.9963670660318569,
+          1.0005821315961576,
+          1.009628023086339,
+          1.0118564993646875
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9904289425750195,
+            1.017581720458899
+          ],
+          "capture_95_interval": [
+            -0.028861308558651166,
+            0.01683536901456781
+          ]
+        }
+      },
+      "M4": {
+        "cells": 82184,
+        "normalized_crps": 0.5875852969650738,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0006202391726613,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.0010512231246251255,
+        "delta_mse": 1.0523699439063616,
+        "delta_r2": -0.014379995590509065,
+        "pearson": 0.09704360951916861,
+        "spearman": 0.1316530128283223,
+        "sign_accuracy": 0.5508128102793731,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.17810426665684878,
+        "calibration_intercept": 0.06407944045595021,
+        "calibration_slope": 0.4081665266008109,
+        "fold_ratios": [
+          0.9789009383594754,
+          0.9983212424389062,
+          1.0200368910550268,
+          1.0071095369383465
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9828656865596576,
+            1.01711893377353
+          ],
+          "capture_95_interval": [
+            -0.02828410609090532,
+            0.030093121834919776
+          ]
+        }
+      },
+      "M5": {
+        "cells": 82184,
+        "normalized_crps": 0.5869000107546093,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 0.999453240516707,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0009266847980263337,
+        "delta_mse": 1.0495883782409432,
+        "delta_r2": -0.011698842842124524,
+        "pearson": 0.10266394087523681,
+        "spearman": 0.13744548355497518,
+        "sign_accuracy": 0.5526379830623965,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.17658158157448414,
+        "calibration_intercept": 0.06413266913900108,
+        "calibration_slope": 0.43194172829822775,
+        "fold_ratios": [
+          0.9759746039929215,
+          0.9985551122411596,
+          1.0191817200614157,
+          1.005793544113104
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            0.9816376287283864,
+            1.016138194991437
+          ],
+          "capture_95_interval": [
+            -0.026527789786428172,
+            0.032803926530077306
+          ]
+        }
+      }
+    }
+  },
+  "full_ledger_headroom": {
+    "cells": 135994,
+    "origins": 1250,
+    "perfect_location_ratio": 0.31034547296185894,
+    "note": "includes 2001-2009 training origins; capture uses exactly matching cross-fit evaluation cells only"
+  },
+  "best_precommitted_ridge": "M1",
+  "best_nonlinear_diagnostic": "M5",
+  "negative_controls_clear": false,
+  "control_comparisons": {
+    "A_label_time": {
+      "control_best_model": "M1",
+      "ratio": 1.00573858462648,
+      "primary_over_control_ratio_95_interval": [
+        0.9999999999999997,
+        1.0000000000000002
+      ]
+    },
+    "B_wrong_feature_date": {
+      "control_best_model": "M1",
+      "ratio": 1.0057385846264797,
+      "primary_over_control_ratio_95_interval": [
+        1.0,
+        1.0
+      ]
+    },
+    "C_asset_label": {
+      "control_best_model": "M2",
+      "ratio": 1.0412214955728432,
+      "primary_over_control_ratio_95_interval": [
+        0.9543320204847677,
+        0.9764786784256467
+      ]
+    }
+  },
+  "READY_FOR_LOCATION_02": "NO",
+  "READY_FOR_ONE_SHOT_SUBMISSION": "NO",
+  "workflow_status": "PARTIAL_RESULTS_TRANSFER_BLOCKED",
+  "NEXT_RESEARCH_AXIS": "UNRESOLVED_TRANSFER_BLOCKED",
+  "transfer_status": "FROZEN_GEOMETRY_GUARD_BLOCKED"
+}

@@ -1,0 +1,687 @@
+{
+  "training_controls": {
+    "A_label_time": {
+      "M0": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null,
+        "fold_ratios": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0,
+            1.0
+          ],
+          "capture_95_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "M1": {
+        "cells": 82184,
+        "normalized_crps": 0.590590897307456,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.00573858462648,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.009726139734273446,
+        "delta_mse": 1.0570514562821556,
+        "delta_r2": -0.018892508068286018,
+        "pearson": -0.004986498889965109,
+        "spearman": 0.00335628452461864,
+        "sign_accuracy": 0.504721113598754,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.10006921881302523,
+        "calibration_intercept": 0.06428826432825195,
+        "calibration_slope": -0.0408030117558321,
+        "fold_ratios": [
+          1.0082647668181826,
+          1.0055423138499222,
+          0.9978170959413727,
+          1.0106559434582858
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0004421367961056,
+            1.0110189025892546
+          ],
+          "capture_95_interval": [
+            -0.018795671428712406,
+            -0.000773003945216659
+          ]
+        }
+      },
+      "M2": {
+        "cells": 82184,
+        "normalized_crps": 0.59356257357936,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.010799159554571,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.018303142965916196,
+        "delta_mse": 1.063239225976001,
+        "delta_r2": -0.024856902843244155,
+        "pearson": -0.011316238740502868,
+        "spearman": -0.003695486842608277,
+        "sign_accuracy": 0.4998539861773581,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.11081956312541345,
+        "calibration_intercept": 0.06486363173550892,
+        "calibration_slope": -0.08174813743811543,
+        "fold_ratios": [
+          1.0177761725534722,
+          1.008704747637205,
+          1.0042968247073394,
+          1.0122025274160737
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.005786478507051,
+            1.016441176997562
+          ],
+          "capture_95_interval": [
+            -0.028486442258461735,
+            -0.009807248170606544
+          ]
+        }
+      },
+      "M3": {
+        "cells": 82184,
+        "normalized_crps": 0.5947303923337963,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.012787880319726,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.02167376086446511,
+        "delta_mse": 1.0665116824783045,
+        "delta_r2": -0.028011225552285746,
+        "pearson": -0.005395363452479635,
+        "spearman": 0.002228034935716583,
+        "sign_accuracy": 0.5033461501022096,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.12195782043695098,
+        "calibration_intercept": 0.06417204852767978,
+        "calibration_slope": -0.03523290129670992,
+        "fold_ratios": [
+          1.0268819896224384,
+          1.0082421835504345,
+          1.0044907420271068,
+          1.011591968649806
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0052398837502594,
+            1.0210285219772541
+          ],
+          "capture_95_interval": [
+            -0.03680419488929608,
+            -0.008622898064025778
+          ]
+        }
+      },
+      "M4": {
+        "cells": 82184,
+        "normalized_crps": 0.5962474260959506,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0153712919431284,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.026052300883621256,
+        "delta_mse": 1.0709324489093308,
+        "delta_r2": -0.032272404863588955,
+        "pearson": -0.0021941434960454256,
+        "spearman": 0.004787553306735195,
+        "sign_accuracy": 0.503078458094033,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.1309203219945918,
+        "calibration_intercept": 0.06383189673011645,
+        "calibration_slope": -0.013261726869755514,
+        "fold_ratios": [
+          1.0328643243955444,
+          1.0092165249583185,
+          1.0045974963099982,
+          1.0149066727471816
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.006549206555951,
+            1.0250595544931995
+          ],
+          "capture_95_interval": [
+            -0.0438233785142044,
+            -0.011157292707444701
+          ]
+        }
+      },
+      "M5": {
+        "cells": 82184,
+        "normalized_crps": 0.5967025739005867,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.016146379589954,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.02736597163172673,
+        "delta_mse": 1.0728255198366736,
+        "delta_r2": -0.03409713702175243,
+        "pearson": -0.00831000773080461,
+        "spearman": 0.0006361473121640415,
+        "sign_accuracy": 0.5026525844446608,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.13249770059084656,
+        "calibration_intercept": 0.06419021455031887,
+        "calibration_slope": -0.049519740761551044,
+        "fold_ratios": [
+          1.0332521812642073,
+          1.0109493089075081,
+          1.0062380698583708,
+          1.0141812664047276
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0080083119799783,
+            1.0251764129232257
+          ],
+          "capture_95_interval": [
+            -0.04424547495690325,
+            -0.013473068651604187
+          ]
+        }
+      }
+    },
+    "B_wrong_feature_date": {
+      "M0": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null,
+        "fold_ratios": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0,
+            1.0
+          ],
+          "capture_95_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "M1": {
+        "cells": 82184,
+        "normalized_crps": 0.5905908973074558,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0057385846264797,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.00972613973427307,
+        "delta_mse": 1.0570514562821556,
+        "delta_r2": -0.018892508068286018,
+        "pearson": -0.004986498889964597,
+        "spearman": 0.0033561430085710764,
+        "sign_accuracy": 0.504721113598754,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.10006921881302527,
+        "calibration_intercept": 0.0642882643282519,
+        "calibration_slope": -0.04080301175582781,
+        "fold_ratios": [
+          1.0082647668181826,
+          1.005542313849922,
+          0.9978170959413726,
+          1.0106559434582858
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0004421367961054,
+            1.0110189025892546
+          ],
+          "capture_95_interval": [
+            -0.018795671428712406,
+            -0.0007730039452163633
+          ]
+        }
+      },
+      "M2": {
+        "cells": 82184,
+        "normalized_crps": 0.5988924337248118,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0198755710322662,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.03368645645936531,
+        "delta_mse": 1.080534608898739,
+        "delta_r2": -0.041527932412732005,
+        "pearson": 0.0013647625769082007,
+        "spearman": 0.01037925173824652,
+        "sign_accuracy": 0.5055850287160518,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.1510393262169242,
+        "calibration_intercept": 0.06377651978761166,
+        "calibration_slope": 0.006870500399697797,
+        "fold_ratios": [
+          1.0359515624905333,
+          1.0250300777958534,
+          0.9995894242333613,
+          1.0164831774059546
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.01182905690609,
+            1.028236372754011
+          ],
+          "capture_95_interval": [
+            -0.049380895875165524,
+            -0.019946521640598906
+          ]
+        }
+      },
+      "M3": {
+        "cells": 82184,
+        "normalized_crps": 0.6023180101283666,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0257091088997614,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.043573529341871024,
+        "delta_mse": 1.0919130936930752,
+        "delta_r2": -0.05249566046534193,
+        "pearson": 0.015523938773998696,
+        "spearman": 0.021824470277972217,
+        "sign_accuracy": 0.5107928550569454,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.18281322063100586,
+        "calibration_intercept": 0.062473038772609894,
+        "calibration_slope": 0.06431410232799505,
+        "fold_ratios": [
+          1.0471186766908172,
+          1.0331752940158943,
+          0.9972749601558077,
+          1.0217884658142884
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0147792570425263,
+            1.037431005135384
+          ],
+          "capture_95_interval": [
+            -0.06441389861424872,
+            -0.024814885886679024
+          ]
+        }
+      },
+      "M4": {
+        "cells": 82184,
+        "normalized_crps": 0.6076395609081733,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0347713700583763,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.05893285992148,
+        "delta_mse": 1.1109435836941661,
+        "delta_r2": -0.0708391607478902,
+        "pearson": 0.003476460160394055,
+        "spearman": 0.014224828881508049,
+        "sign_accuracy": 0.5072885233135404,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.20441011655939173,
+        "calibration_intercept": 0.06387612101333702,
+        "calibration_slope": 0.013277488482681109,
+        "fold_ratios": [
+          1.0503770869942783,
+          1.0438965320408247,
+          1.005379189027717,
+          1.0355583556698882
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0236425728317011,
+            1.0464767211734984
+          ],
+          "capture_95_interval": [
+            -0.07983701686204052,
+            -0.03960767124857694
+          ]
+        }
+      },
+      "M5": {
+        "cells": 82184,
+        "normalized_crps": 0.6079716933508008,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.035336970399119,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.05989147747369544,
+        "delta_mse": 1.1126317786132052,
+        "delta_r2": -0.07246641280354482,
+        "pearson": -0.0015460292359026453,
+        "spearman": 0.008815517749740537,
+        "sign_accuracy": 0.5055850287160518,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2056869916918838,
+        "calibration_intercept": 0.06391729380249649,
+        "calibration_slope": -0.005891072209025974,
+        "fold_ratios": [
+          1.0512677826110213,
+          1.0406724753324748,
+          1.0096496368303085,
+          1.0367835257433877
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0254459585420976,
+            1.0459523003311777
+          ],
+          "capture_95_interval": [
+            -0.0783921790000252,
+            -0.04303033404437041
+          ]
+        }
+      }
+    },
+    "C_asset_label": {
+      "M0": {
+        "cells": 82184,
+        "normalized_crps": 0.5872210794485874,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0,
+        "delta_mse": 1.0415291916415585,
+        "delta_r2": -0.003930588233102439,
+        "pearson": null,
+        "spearman": null,
+        "sign_accuracy": 0.0,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.0,
+        "calibration_intercept": 0.0638576092175676,
+        "calibration_slope": null,
+        "fold_ratios": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0,
+            1.0
+          ],
+          "capture_95_interval": [
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "M1": {
+        "cells": 82184,
+        "normalized_crps": 0.6158161161589111,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0486955215183607,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.08253244964541306,
+        "delta_mse": 1.147726749066998,
+        "delta_r2": -0.10629447505513556,
+        "pearson": 0.00039621748305284634,
+        "spearman": 0.013135632979505523,
+        "sign_accuracy": 0.5043682468607028,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.1544516745404492,
+        "calibration_intercept": 0.06390664249846424,
+        "calibration_slope": 0.0012757688205749735,
+        "fold_ratios": [
+          1.0889779553127947,
+          1.0432255120944793,
+          1.0287502928893562,
+          1.0332337853982942
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0368882815678777,
+            1.0630204917105197
+          ],
+          "capture_95_interval": [
+            -0.11062330765663204,
+            -0.06118689236143644
+          ]
+        }
+      },
+      "M2": {
+        "cells": 82184,
+        "normalized_crps": 0.6114272105753575,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0412214955728432,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.06986496707693189,
+        "delta_mse": 1.1364867492062223,
+        "delta_r2": -0.09546023270981685,
+        "pearson": 0.03312319310788164,
+        "spearman": 0.08587540663175915,
+        "sign_accuracy": 0.5282415068626497,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.17504358816548352,
+        "calibration_intercept": 0.06828940450815485,
+        "calibration_slope": 0.10178494669618339,
+        "fold_ratios": [
+          1.0729678215842438,
+          1.0406036570106838,
+          1.0208206289150912,
+          1.029053025299613
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0294184751609157,
+            1.0549264463818888
+          ],
+          "capture_95_interval": [
+            -0.09452516319885015,
+            -0.04970677312281383
+          ]
+        }
+      },
+      "M3": {
+        "cells": 82184,
+        "normalized_crps": 0.6189962073613147,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.054111013764296,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.09171099065198707,
+        "delta_mse": 1.1615022044280368,
+        "delta_r2": -0.11957264441877058,
+        "pearson": 0.022493850445263818,
+        "spearman": 0.05721534360395321,
+        "sign_accuracy": 0.521342353742821,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.21029165082140022,
+        "calibration_intercept": 0.06713356600487913,
+        "calibration_slope": 0.06423924837184451,
+        "fold_ratios": [
+          1.083536216482766,
+          1.062095915535974,
+          1.0355726458169108,
+          1.0326859973680935
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.038899787998257,
+            1.0713163324750503
+          ],
+          "capture_95_interval": [
+            -0.121825046367516,
+            -0.0666783046050258
+          ]
+        }
+      },
+      "M4": {
+        "cells": 82184,
+        "normalized_crps": 0.6399082481605955,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0897228838608493,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.15206838664813788,
+        "delta_mse": 1.2372935993674758,
+        "delta_r2": -0.19262801369232285,
+        "pearson": 0.0022024328373968652,
+        "spearman": 0.03345040940397922,
+        "sign_accuracy": 0.516025017034946,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2946719012447054,
+        "calibration_intercept": 0.06391520600448848,
+        "calibration_slope": 0.005064894052629243,
+        "fold_ratios": [
+          1.133563889357695,
+          1.0896267493668663,
+          1.0838496547435563,
+          1.0518081680746028
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0707404160190173,
+            1.1113465814790089
+          ],
+          "capture_95_interval": [
+            -0.18987768815113915,
+            -0.11924730741335252
+          ]
+        }
+      },
+      "M5": {
+        "cells": 82184,
+        "normalized_crps": 0.6406056737719074,
+        "baseline_normalized_crps": 0.5872210794485874,
+        "ratio": 1.0909105551412581,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.1540813319270726,
+        "delta_mse": 1.2379192820614149,
+        "delta_r2": -0.19323110960169765,
+        "pearson": 0.0020564532212483024,
+        "spearman": 0.02886804707760213,
+        "sign_accuracy": 0.5138348096953178,
+        "sign_accuracy_convention": "zero prediction only matches exactly zero truth",
+        "mean_abs_shift_over_sd": 0.2980418125673597,
+        "calibration_intercept": 0.0638600323830276,
+        "calibration_slope": 0.004705035633175474,
+        "fold_ratios": [
+          1.1401275363033196,
+          1.0899070391633592,
+          1.0866388993472205,
+          1.0472656332097228
+        ],
+        "bootstrap": {
+          "replicates": 2000,
+          "block": "calendar year; all asset/horizon cells together",
+          "blocks": 15,
+          "ratio_95_interval": [
+            1.0702443847492658,
+            1.1143529775893801
+          ],
+          "capture_95_interval": [
+            -0.19668713088872308,
+            -0.11748461344653985
+          ]
+        }
+      }
+    }
+  },
+  "comparisons": {
+    "A_label_time": {
+      "control_best_model": "M1",
+      "ratio": 1.00573858462648,
+      "primary_over_control_ratio_95_interval": [
+        0.9999999999999997,
+        1.0000000000000002
+      ]
+    },
+    "B_wrong_feature_date": {
+      "control_best_model": "M1",
+      "ratio": 1.0057385846264797,
+      "primary_over_control_ratio_95_interval": [
+        1.0,
+        1.0
+      ]
+    },
+    "C_asset_label": {
+      "control_best_model": "M2",
+      "ratio": 1.0412214955728432,
+      "primary_over_control_ratio_95_interval": [
+        0.9543320204847677,
+        0.9764786784256467
+      ]
+    }
+  },
+  "D_future_mutation": "tested: as-of features and real V5.1 draws unchanged",
+  "E_draw_geometry": "FROZEN_GEOMETRY_GUARD_BLOCKED: random unit test passes, but transfer rejects rank ties at floating-point precision. Full E control and transfer audit are incomplete.",
+  "separation_gate": "paired year-bootstrap primary/control upper 95% ratio <1 for every control, comparing each control best M1-M5"
+}

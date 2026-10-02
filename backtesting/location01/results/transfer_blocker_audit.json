@@ -1,0 +1,194 @@
+{
+  "executive_summary": "The frozen rank guard prevents complete 24-card transfer. Do not bypass, relax, jitter, drop cards or publish partial-score aggregates.",
+  "status": "FROZEN_GEOMETRY_GUARD_BLOCKED",
+  "attempted_cards": 24,
+  "complete_cards": 11,
+  "guard_blocked_cards": 13,
+  "complete_single_cards": 5,
+  "required_single_cards": 13,
+  "complete_multi_cards": 6,
+  "required_multi_cards": 11,
+  "all_failed_centered_distances_within_frozen_tolerance": true,
+  "max_failed_centered_difference_error": 8.881784197001252e-16,
+  "strict_order_reversals_total": 0,
+  "rounded_to_ties_total": 94,
+  "families": [
+    {
+      "family": "T2-F1",
+      "required_cards": 6,
+      "complete_cards": 4,
+      "guard_blocked_cards": 2,
+      "score_aggregate_status": "NOT_COMPUTED_INCOMPLETE_COVERAGE"
+    },
+    {
+      "family": "T2-F2",
+      "required_cards": 6,
+      "complete_cards": 3,
+      "guard_blocked_cards": 3,
+      "score_aggregate_status": "NOT_COMPUTED_INCOMPLETE_COVERAGE"
+    },
+    {
+      "family": "T2-F3",
+      "required_cards": 6,
+      "complete_cards": 2,
+      "guard_blocked_cards": 4,
+      "score_aggregate_status": "NOT_COMPUTED_INCOMPLETE_COVERAGE"
+    },
+    {
+      "family": "T2-F4",
+      "required_cards": 6,
+      "complete_cards": 2,
+      "guard_blocked_cards": 4,
+      "score_aggregate_status": "NOT_COMPUTED_INCOMPLETE_COVERAGE"
+    }
+  ],
+  "failure_details": [
+    {
+      "card_id": "t2-F1-considerable-period-2003",
+      "family": "T2-F1",
+      "single": false,
+      "first_failed_model": "M2",
+      "centered_allclose": true,
+      "max_centered_error": 4.440892098500626e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 8
+    },
+    {
+      "card_id": "t2-F1-dkk-peg-2019",
+      "family": "T2-F1",
+      "single": true,
+      "first_failed_model": "M4",
+      "centered_allclose": true,
+      "max_centered_error": 8.881784197001252e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 1
+    },
+    {
+      "card_id": "t2-F2-act-as-appropriate-2019",
+      "family": "T2-F2",
+      "single": true,
+      "first_failed_model": "M2",
+      "centered_allclose": true,
+      "max_centered_error": 2.220446049250313e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 3
+    },
+    {
+      "card_id": "t2-F2-considerable-removal-2004",
+      "family": "T2-F2",
+      "single": true,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 2.220446049250313e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 8
+    },
+    {
+      "card_id": "t2-F2-credit-crunch-2007",
+      "family": "T2-F2",
+      "single": true,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 4.440892098500626e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 1
+    },
+    {
+      "card_id": "t2-F3-bear-flattener-2022",
+      "family": "T2-F3",
+      "single": false,
+      "first_failed_model": "M2",
+      "centered_allclose": true,
+      "max_centered_error": 4.440892098500626e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 9
+    },
+    {
+      "card_id": "t2-F3-conundrum-joint-2005",
+      "family": "T2-F3",
+      "single": false,
+      "first_failed_model": "M4",
+      "centered_allclose": true,
+      "max_centered_error": 4.440892098500626e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 3
+    },
+    {
+      "card_id": "t2-F3-covid-curve-2020",
+      "family": "T2-F3",
+      "single": false,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 2.220446049250313e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 31
+    },
+    {
+      "card_id": "t2-F3-cpi-shock-cross-2022",
+      "family": "T2-F3",
+      "single": false,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 5.551115123125783e-17,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 10
+    },
+    {
+      "card_id": "t2-F4-china-panic-2016",
+      "family": "T2-F4",
+      "single": true,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 1.3877787807814457e-17,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 3
+    },
+    {
+      "card_id": "t2-F4-china-stress-mkt-2015",
+      "family": "T2-F4",
+      "single": true,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 1.3877787807814457e-17,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 9
+    },
+    {
+      "card_id": "t2-F4-covid-mkt-2020",
+      "family": "T2-F4",
+      "single": true,
+      "first_failed_model": "M1",
+      "centered_allclose": true,
+      "max_centered_error": 6.938893903907228e-18,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 4
+    },
+    {
+      "card_id": "t2-F4-covid-rates-2020",
+      "family": "T2-F4",
+      "single": true,
+      "first_failed_model": "M2",
+      "centered_allclose": true,
+      "max_centered_error": 2.220446049250313e-16,
+      "argsort_equal": false,
+      "strict_order_reversals": 0,
+      "distinct_adjacent_values_rounded_to_ties": 4
+    }
+  ],
+  "methodology_changes": false,
+  "guard_bypassed": false,
+  "NEXT_RESEARCH_AXIS": "UNRESOLVED_TRANSFER_BLOCKED",
+  "continuation": "Existing implementation needs separately authorized numerical guard repair and a new documented freeze before transfer can complete; this frozen run remains blocked. Continuous crossfit scores, controls and bootstrap are complete."
+}

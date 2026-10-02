@@ -1,0 +1,396 @@
+{
+  "method": "2000 paired calendar-year block replicates; no cell resampling",
+  "interpretation": "research-exposed cross-fit uncertainty; not independent generalization proof",
+  "models": {
+    "ridge_M0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "ridge_M1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0004421367961054,
+        1.0110189025892546
+      ],
+      "capture_95_interval": [
+        -0.018795671428712406,
+        -0.0007730039452163633
+      ]
+    },
+    "ridge_M2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.004226824931861,
+        1.043266570886858
+      ],
+      "capture_95_interval": [
+        -0.071444718035413,
+        -0.007282517159039768
+      ]
+    },
+    "ridge_M3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0097056759830199,
+        1.0532095733552336
+      ],
+      "capture_95_interval": [
+        -0.08850828079255113,
+        -0.01692197903801118
+      ]
+    },
+    "ridge_M4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.018714698831407,
+        1.064121583966423
+      ],
+      "capture_95_interval": [
+        -0.10663843556728887,
+        -0.0333381639853977
+      ]
+    },
+    "ridge_M5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.022770005234745,
+        1.0690420093261919
+      ],
+      "capture_95_interval": [
+        -0.11511881425971329,
+        -0.039621264166425425
+      ]
+    },
+    "nonlinear_M0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "nonlinear_M1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9975815864127393,
+        1.0078824806462514
+      ],
+      "capture_95_interval": [
+        -0.013087372026406172,
+        0.004112361462361152
+      ]
+    },
+    "nonlinear_M2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9837730531786733,
+        1.0141735207682094
+      ],
+      "capture_95_interval": [
+        -0.02306902348868102,
+        0.028534887864818583
+      ]
+    },
+    "nonlinear_M3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9904289425750195,
+        1.017581720458899
+      ],
+      "capture_95_interval": [
+        -0.028861308558651166,
+        0.01683536901456781
+      ]
+    },
+    "nonlinear_M4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9828656865596576,
+        1.01711893377353
+      ],
+      "capture_95_interval": [
+        -0.02828410609090532,
+        0.030093121834919776
+      ]
+    },
+    "nonlinear_M5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        0.9816376287283864,
+        1.016138194991437
+      ],
+      "capture_95_interval": [
+        -0.026527789786428172,
+        0.032803926530077306
+      ]
+    },
+    "A_label_time_M0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "A_label_time_M1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0004421367961056,
+        1.0110189025892546
+      ],
+      "capture_95_interval": [
+        -0.018795671428712406,
+        -0.000773003945216659
+      ]
+    },
+    "A_label_time_M2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.005786478507051,
+        1.016441176997562
+      ],
+      "capture_95_interval": [
+        -0.028486442258461735,
+        -0.009807248170606544
+      ]
+    },
+    "A_label_time_M3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0052398837502594,
+        1.0210285219772541
+      ],
+      "capture_95_interval": [
+        -0.03680419488929608,
+        -0.008622898064025778
+      ]
+    },
+    "A_label_time_M4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.006549206555951,
+        1.0250595544931995
+      ],
+      "capture_95_interval": [
+        -0.0438233785142044,
+        -0.011157292707444701
+      ]
+    },
+    "A_label_time_M5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0080083119799783,
+        1.0251764129232257
+      ],
+      "capture_95_interval": [
+        -0.04424547495690325,
+        -0.013473068651604187
+      ]
+    },
+    "B_wrong_feature_date_M0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "B_wrong_feature_date_M1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0004421367961054,
+        1.0110189025892546
+      ],
+      "capture_95_interval": [
+        -0.018795671428712406,
+        -0.0007730039452163633
+      ]
+    },
+    "B_wrong_feature_date_M2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.01182905690609,
+        1.028236372754011
+      ],
+      "capture_95_interval": [
+        -0.049380895875165524,
+        -0.019946521640598906
+      ]
+    },
+    "B_wrong_feature_date_M3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0147792570425263,
+        1.037431005135384
+      ],
+      "capture_95_interval": [
+        -0.06441389861424872,
+        -0.024814885886679024
+      ]
+    },
+    "B_wrong_feature_date_M4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0236425728317011,
+        1.0464767211734984
+      ],
+      "capture_95_interval": [
+        -0.07983701686204052,
+        -0.03960767124857694
+      ]
+    },
+    "B_wrong_feature_date_M5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0254459585420976,
+        1.0459523003311777
+      ],
+      "capture_95_interval": [
+        -0.0783921790000252,
+        -0.04303033404437041
+      ]
+    },
+    "C_asset_label_M0": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0,
+        1.0
+      ],
+      "capture_95_interval": [
+        0.0,
+        0.0
+      ]
+    },
+    "C_asset_label_M1": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0368882815678777,
+        1.0630204917105197
+      ],
+      "capture_95_interval": [
+        -0.11062330765663204,
+        -0.06118689236143644
+      ]
+    },
+    "C_asset_label_M2": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0294184751609157,
+        1.0549264463818888
+      ],
+      "capture_95_interval": [
+        -0.09452516319885015,
+        -0.04970677312281383
+      ]
+    },
+    "C_asset_label_M3": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.038899787998257,
+        1.0713163324750503
+      ],
+      "capture_95_interval": [
+        -0.121825046367516,
+        -0.0666783046050258
+      ]
+    },
+    "C_asset_label_M4": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0707404160190173,
+        1.1113465814790089
+      ],
+      "capture_95_interval": [
+        -0.18987768815113915,
+        -0.11924730741335252
+      ]
+    },
+    "C_asset_label_M5": {
+      "replicates": 2000,
+      "block": "calendar year; all asset/horizon cells together",
+      "blocks": 15,
+      "ratio_95_interval": [
+        1.0702443847492658,
+        1.1143529775893801
+      ],
+      "capture_95_interval": [
+        -0.19668713088872308,
+        -0.11748461344653985
+      ]
+    }
+  }
+}

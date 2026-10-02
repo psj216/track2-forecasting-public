@@ -1,0 +1,70 @@
+{
+  "definition": "(1-candidate_ratio)/(1-perfect_location_ratio), not clipped",
+  "same_ledger_perfect_location_ratio": 0.4099833250124908,
+  "models": {
+    "ridge": {
+      "M0": {
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0
+      },
+      "M1": {
+        "ratio": 1.0057385846264797,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.00972613973427307
+      },
+      "M2": {
+        "ratio": 1.0239607649494458,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.04061031825914585
+      },
+      "M3": {
+        "ratio": 1.031352351780642,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.0531380774641763
+      },
+      "M4": {
+        "ratio": 1.042734090012025,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.07242861400981537
+      },
+      "M5": {
+        "ratio": 1.0470255687701138,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.07970210125181515
+      }
+    },
+    "nonlinear": {
+      "M0": {
+        "ratio": 1.0,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0
+      },
+      "M1": {
+        "ratio": 1.0030032915996356,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.00509018088293728
+      },
+      "M2": {
+        "ratio": 0.9997368947864234,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0004459284368229289
+      },
+      "M3": {
+        "ratio": 1.0043707190557867,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.007407789035588198
+      },
+      "M4": {
+        "ratio": 1.0006202391726613,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": -0.0010512231246251255
+      },
+      "M5": {
+        "ratio": 0.999453240516707,
+        "perfect_location_ratio": 0.4099833250124908,
+        "oracle_capture_fraction": 0.0009266847980263337
+      }
+    }
+  }
+}
