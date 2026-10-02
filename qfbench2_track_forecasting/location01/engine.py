@@ -45,6 +45,5 @@ def shift(draws,delta_hat,sd):
     return np.asarray(draws,float)+np.clip(delta,-10.,10.)*np.asarray(sd,float)
 
 def geometry_guard(before,after):
-    before,after=np.asarray(before),np.asarray(after)
-    return (np.allclose(before-before[0],after-after[0],rtol=1e-10,atol=1e-10) and
-            np.array_equal(np.argsort(before,axis=0),np.argsort(after,axis=0)))
+    from ..location01r.guard import numerical_geometry_guard
+    return numerical_geometry_guard(before,after)

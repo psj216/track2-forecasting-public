@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Recovered all existing frozen LOCATION-01 inputs and verified hashes before any guard repair or transfer aggregate.",
+  "parent_sha": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+  "pre_result_location01_sha": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "checks": {
+    "ledger.parquet": true,
+    "features.npy": true,
+    "predictions.npz": true,
+    "losses.npz": true,
+    "transfer_models.pkl": true,
+    "origin_caches": true,
+    "schema": true,
+    "preserved_receipt": true,
+    "private_card_inputs_preserved": true
+  },
+  "private_hashes": {
+    "ledger.parquet": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+    "features.npy": "bfd4a3bbe34e4237575e0bbfd801ae8151fb611ac8b7b678f2762c816fdd9665",
+    "predictions.npz": "135ef536f2378211a1ec5187ee8eae784f73ee86481ebe193acd2acc0b0e1c62",
+    "losses.npz": "d71b2fa7f60cd3f288df5776e4602af255353a1cbb254a89d5e7994977ab4c39",
+    "transfer_models.pkl": "a2c882a669b9a00ea8427d409faea0f0b112f4882d97b82dab370a4d7164efdc"
+  },
+  "origin_cache_hashes_verified": 1251,
+  "continuous_evaluation_rerun": false,
+  "private_artifact_source": "Existing verified runtime; private card inputs also compared byte-for-byte to preserved archive."
+}

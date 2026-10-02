@@ -1,0 +1,37 @@
+{
+  "executive_summary": "Freeze numerical translation validation and transfer interpretation before aggregate scores are opened.",
+  "parent_sha": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+  "branch": "track2/location-01r-transfer-guard",
+  "change_scope": "Geometry validation only. No draw, prediction, shift, training, scorer, continuous result or success-gate changes.",
+  "dtype": "float64",
+  "epsilon": "numpy.finfo(float64).eps",
+  "fixed_multiplier": 32,
+  "scale": "Per cell: max(1,max(abs(baseline)),max(abs(candidate)),abs(median(candidate-baseline))).",
+  "shape": "Identical, nonempty arrays with axis0 representing draws; all entries finite.",
+  "uniform_shift": "max(abs(candidate-baseline-median(candidate-baseline))) <= 32*eps*scale per cell.",
+  "centered_geometry": "Subtract each array's cell median; maximum absolute difference <=32*eps*scale. rtol=0. Per-cell bound is at least as strict as the requested whole-array magnitude bound.",
+  "order": "Stable baseline sort only for checking. Fail if a baseline adjacent gap >32*eps*scale becomes candidate gap <-32*eps*scale. Do not reorder or mutate forecast arrays.",
+  "moments": "Variance of median-centered draws and their second moments must agree within 4*tau*max(1,centered_magnitude)+tau^2+8*gamma_n*max(1,both_variances,both_second_moments), gamma_n=n*eps/(1-n*eps).",
+  "constant_rationale": "32 provides a fixed conservative roundoff budget for addition, subtraction and median centering. Moment bound follows propagation of a centered perturbation plus a draw-count-derived reduction roundoff bound. No transfer scores are inputs to any tolerance.",
+  "primary_transfer_model": "M1, fixed by the previously frozen continuous best-nonzero Ridge result. Report all M0-M5; never choose a model from transfer scores.",
+  "continuous_gate": "Always preserve prior continuous primary NO, prior controls and prior model results byte-for-byte.",
+  "strong_joint_damage_threshold": 1.10,
+  "meaningful_single_improvement_threshold": 0.97,
+  "very_strong_transfer_threshold": 0.90,
+  "next_axis_priority": [
+    "M1 multi marginal<1 AND joint>1.10 AND composite>=1 => PATH-01",
+    "M1 single<=.90 AND multi composite<=.90 AND multi marginal<1 AND multi joint<=1.10 => LOCATION-02 research follow-up only",
+    "M1 single<=.97 AND at least two families have composite<1 AND F1 or F2 composite<1 => CONTEXT-01 descriptive hypothesis",
+    "Otherwise NEW_INFORMATION_REQUIRED"
+  ],
+  "f1_verdict": [
+    "marginal<1 AND joint>1.10 AND composite>=1 => LOCATION_SIGNAL_BUT_PATH_REQUIRED",
+    "marginal<1 AND joint<=1.10 AND composite<1 => CARD_LOCATION_TRANSFER_POSITIVE",
+    "marginal>=1 => NO_CARD_LOCATION_TRANSFER",
+    "Other combinations => MIXED_CARD_LOCATION_TRANSFER"
+  ],
+  "transfer_diagnostic": "POSITIVE only for coherent primary M1 single/multi composite<1 with both marginal ratios<1 and both applicable joint ratios<=1.10; NEGATIVE when both composite>=1 and both marginal>=1; otherwise MIXED. Any guard failure => TRUE_GEOMETRY_VIOLATION and no aggregation.",
+  "one_shot_submission": "NO",
+  "public_private_boundary": "Individual card outcomes/components/ratios remain private. Public transfer_card_summary.csv has geometry flags, metadata and hashes only. Public JSON/CSV score summaries aggregate the full fixed groups.",
+  "component_capture": "Additional descriptive component capture uses (1-component_candidate_ratio)/(1-component_oracle_ratio), with matching applicable cards and undefined capture when oracle ratio equals1. Composite scoring and aggregation remain the original LOCATION-01 routines."
+}

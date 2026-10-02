@@ -1,0 +1,15 @@
+{
+  "executive_summary": "All frozen snapshots pass the repaired guard before transfer score aggregation; inputs are unchanged.",
+  "cards": 24,
+  "model_card_checks": 144,
+  "passed": 144,
+  "failed": 0,
+  "old_blocked_cards_recovered": 13,
+  "old_completed_cards_preserved": 11,
+  "true_violations": 0,
+  "snapshot_hashes_unchanged": true,
+  "max_shift_residual": 1.4210854715202004e-14,
+  "max_centered_residual": 4.263256414560601e-14,
+  "strict_reversals": 0,
+  "private_validation_sha256": "a664eafeda30382a03a3f15e05a3910b6f6cc7fbd0f017826e39593063f59fa8"
+}

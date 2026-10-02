@@ -1,0 +1,273 @@
+{
+  "executive_summary": "All 13 frozen first failures reproduced exactly before repair, without opening transfer aggregates.",
+  "old_blocker_reproduced": true,
+  "totals": {
+    "blocked_cards": 13,
+    "rounded_ties": 94,
+    "strict_reversals": 0,
+    "max_centered_error": 8.881784197001252e-16,
+    "max_shift_nonuniformity": 8.881784197001252e-16
+  },
+  "first_failures": [
+    {
+      "card_id": "t2-F1-considerable-period-2003",
+      "model": "M2",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        2,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        2,
+        1
+      ],
+      "exact_argsort_mismatch_count": 14,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 8,
+      "max_centered_error": 4.440892098500626e-16,
+      "max_shift_nonuniformity": 4.440892098500626e-16
+    },
+    {
+      "card_id": "t2-F1-dkk-peg-2019",
+      "model": "M4",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 2,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 1,
+      "max_centered_error": 8.881784197001252e-16,
+      "max_shift_nonuniformity": 8.881784197001252e-16
+    },
+    {
+      "card_id": "t2-F2-act-as-appropriate-2019",
+      "model": "M2",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 4,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 3,
+      "max_centered_error": 2.220446049250313e-16,
+      "max_shift_nonuniformity": 2.220446049250313e-16
+    },
+    {
+      "card_id": "t2-F2-considerable-removal-2004",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 9,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 8,
+      "max_centered_error": 2.220446049250313e-16,
+      "max_shift_nonuniformity": 2.220446049250313e-16
+    },
+    {
+      "card_id": "t2-F2-credit-crunch-2007",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 2,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 1,
+      "max_centered_error": 4.440892098500626e-16,
+      "max_shift_nonuniformity": 4.440892098500626e-16
+    },
+    {
+      "card_id": "t2-F3-bear-flattener-2022",
+      "model": "M2",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        2,
+        4
+      ],
+      "candidate_shape": [
+        2000,
+        2,
+        4
+      ],
+      "exact_argsort_mismatch_count": 6,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 9,
+      "max_centered_error": 4.440892098500626e-16,
+      "max_shift_nonuniformity": 4.440892098500626e-16
+    },
+    {
+      "card_id": "t2-F3-conundrum-joint-2005",
+      "model": "M4",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        2,
+        4
+      ],
+      "candidate_shape": [
+        2000,
+        2,
+        4
+      ],
+      "exact_argsort_mismatch_count": 2,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 3,
+      "max_centered_error": 4.440892098500626e-16,
+      "max_shift_nonuniformity": 4.440892098500626e-16
+    },
+    {
+      "card_id": "t2-F3-covid-curve-2020",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        2,
+        4
+      ],
+      "candidate_shape": [
+        2000,
+        2,
+        4
+      ],
+      "exact_argsort_mismatch_count": 28,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 31,
+      "max_centered_error": 2.220446049250313e-16,
+      "max_shift_nonuniformity": 2.220446049250313e-16
+    },
+    {
+      "card_id": "t2-F3-cpi-shock-cross-2022",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        2,
+        2
+      ],
+      "candidate_shape": [
+        2000,
+        2,
+        2
+      ],
+      "exact_argsort_mismatch_count": 4,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 10,
+      "max_centered_error": 5.551115123125783e-17,
+      "max_shift_nonuniformity": 2.7755575615628914e-17
+    },
+    {
+      "card_id": "t2-F4-china-panic-2016",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 32,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 3,
+      "max_centered_error": 1.3877787807814457e-17,
+      "max_shift_nonuniformity": 1.3877787807814457e-17
+    },
+    {
+      "card_id": "t2-F4-china-stress-mkt-2015",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 14,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 9,
+      "max_centered_error": 1.3877787807814457e-17,
+      "max_shift_nonuniformity": 1.3877787807814457e-17
+    },
+    {
+      "card_id": "t2-F4-covid-mkt-2020",
+      "model": "M1",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 8,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 4,
+      "max_centered_error": 6.938893903907228e-18,
+      "max_shift_nonuniformity": 9.540979117872439e-18
+    },
+    {
+      "card_id": "t2-F4-covid-rates-2020",
+      "model": "M2",
+      "old_guard_status": false,
+      "baseline_shape": [
+        2000,
+        1,
+        1
+      ],
+      "candidate_shape": [
+        2000,
+        1,
+        1
+      ],
+      "exact_argsort_mismatch_count": 2,
+      "strict_reversal_count": 0,
+      "rounded_tie_count": 4,
+      "max_centered_error": 2.220446049250313e-16,
+      "max_shift_nonuniformity": 2.220446049250313e-16
+    }
+  ]
+}

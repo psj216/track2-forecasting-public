@@ -1,0 +1,24 @@
+{
+  "executive_summary": "Numerical guard tests and the full repository suite pass; only geometry_guard changed in the existing implementation.",
+  "new_adversarial_unit_tests": 14,
+  "location_related_tests": {
+    "passed": 30,
+    "failed": 0
+  },
+  "full_repository_tests": {
+    "passed": 445,
+    "skipped": 2,
+    "failed": 0
+  },
+  "old_false_negative_tests_failed_before_repair": 2,
+  "actual_blocked_cards_recovered": 13,
+  "actual_completed_cards_preserved": 11,
+  "model_card_validation_checks": 144,
+  "public_safe_units": 104,
+  "only_existing_function_changed": "geometry_guard",
+  "continuous_sources_and_results_unchanged": true,
+  "test_log_sha256": {
+    "location01r-guard-tests.log": "a2a3c4b68aa70416fb312e4aaae8e14c352c367fc692b27c4622eb9644d825cf",
+    "location01r-all-tests.log": "c9aea9233949992ec94df870a0a6a409f5785d896200daa6ae224e3d4f85103c"
+  }
+}
