@@ -1,0 +1,386 @@
+{
+  "executive_summary": "Public aggregate artifacts and private recovery checkpoints are hashed; individual outcomes remain outside Git.",
+  "PRE_RESULT_LOCATION01R_SHA": "7554bb851658306172654864c10fd40d41e4edb2",
+  "PRE_RESULT_LOCATION01_SHA": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+  "parent_sha": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+  "branch": "track2/location-01r-transfer-guard",
+  "status": "COMPLETE",
+  "cards": 24,
+  "model_card_checks": 144,
+  "public_files": {
+    "LOCATION-01R-TRANSFER-GUARD-RECOVERY-report.md": {
+      "sha256": "2df460ae0a92f24ebaf1e6f0ffc273b40104434ac8e16727a3645cfd5ac7de5b",
+      "bytes": 13340
+    },
+    "backtesting/location01r/results/f1_safety.json": {
+      "sha256": "ba6f92e4b51c12799bacfccf2f606d66c2cc454e64eb833ac424e423414219a4",
+      "bytes": 7572
+    },
+    "backtesting/location01r/results/family_transfer.csv": {
+      "sha256": "41b32aa04bf834543133a035c27dcf82c6e71ada59ba832e395e8494be063047",
+      "bytes": 9428
+    },
+    "backtesting/location01r/results/final_decision.json": {
+      "sha256": "3c791eb0fb5e68671d0a6166b43812a3e3d0c103df6cc0d9846f0c2439681c27",
+      "bytes": 767
+    },
+    "backtesting/location01r/results/guard_reproduction.json": {
+      "sha256": "f596586610f93e1b9cf9d58a81e8281fe745d4b5faf38e4e1cb26da47b6a7903",
+      "bytes": 6439
+    },
+    "backtesting/location01r/results/guard_spec.json": {
+      "sha256": "5b3c83a0fae9dd62c11ba2123895f18d344b1d963f6578abd80c32d6ee8f0dc4",
+      "bytes": 3603
+    },
+    "backtesting/location01r/results/guard_validation.json": {
+      "sha256": "c0567761d8d5bb288f6f6a3aace92f2e5152280cc89a32a101af554bbbb3cbde",
+      "bytes": 565
+    },
+    "backtesting/location01r/results/immutability_validation.json": {
+      "sha256": "8d1425eedb2703371d98a660db267be0930807d4f19bb1e6484c1f33cff78a76",
+      "bytes": 885
+    },
+    "backtesting/location01r/results/multi_cell_transfer.json": {
+      "sha256": "18289befe53821ae648de1d06332bdc5eb4298e851205a988fe3b5ccd228b167",
+      "bytes": 7720
+    },
+    "backtesting/location01r/results/recovery_audit.json": {
+      "sha256": "5272db25be60d97efdde8664993d62b6b5c3df891e277e43a2f0c2c68d824d90",
+      "bytes": 1244
+    },
+    "backtesting/location01r/results/single_cell_transfer.json": {
+      "sha256": "f5bbe1f61677b2dda43e5974ee040384e0185e899a765014315d26cd757a5abc",
+      "bytes": 7216
+    },
+    "backtesting/location01r/results/snapshot_manifest.json": {
+      "sha256": "554a66c62f66536da1e97c994436853430ecf6c58887105f67235a67a175166a",
+      "bytes": 18679
+    },
+    "backtesting/location01r/results/test_summary.json": {
+      "sha256": "e8c0225b6106c4b015f5f577ea34a428e88b6b1677de9c0d22a05d3334a7ca29",
+      "bytes": 879
+    },
+    "backtesting/location01r/results/transfer_card_summary.csv": {
+      "sha256": "5cc719dfb6e50660ac1326c888d99e4412261939bcc1476ceb0f9861e7fe57e0",
+      "bytes": 25185
+    },
+    "backtesting/location01r/results/transfer_validation.json": {
+      "sha256": "29437b271f825235bad18d38a2d33ba3dd1305866f38347bf5545f0b702bedbc",
+      "bytes": 631
+    }
+  },
+  "private_files": {
+    "STATUS.json": {
+      "sha256": "ea694cb8f1cc347c7623d88fef73ef28342c0a4c776d3cf4065905d915797029",
+      "bytes": 930
+    },
+    "card_transfer_detail.json": {
+      "sha256": "234922ca6e519751630c320dda29cb856a9874069316a9358d4a96d8edd8b473",
+      "bytes": 347100
+    },
+    "evaluated-00.json": {
+      "sha256": "35245b8761de95695136843329471c6f30df00ac56b30b03844009af7c4d264f",
+      "bytes": 14288
+    },
+    "evaluated-01.json": {
+      "sha256": "db439ba69d769ab4d17d5a175553dc4d005290cf1ae0ddd6956efa787298d117",
+      "bytes": 14325
+    },
+    "evaluated-02.json": {
+      "sha256": "f8002e607ce41de7cf347f8ccb1853cc03df4b102f275f8229b7592fa03fd60f",
+      "bytes": 14398
+    },
+    "evaluated-03.json": {
+      "sha256": "d44a7c1e3996ccc6677f56fa005b642f9aa32dd648a7a169c101138746a88f3c",
+      "bytes": 14339
+    },
+    "evaluated-04.json": {
+      "sha256": "94524dba16da89ae0741dd5f987b8fee4d81ba33e20f5c7e99dce133b3ea1c03",
+      "bytes": 14363
+    },
+    "evaluated-05.json": {
+      "sha256": "cf4e1be2213d51ecec22ed7aab7bea4ef07faa6e38b8917f798b039c8985c1c7",
+      "bytes": 12812
+    },
+    "evaluated-06.json": {
+      "sha256": "d0d7f4d1bcdc02b35b1617c6975ede32437a32b87d78d178011975cbc4bc7746",
+      "bytes": 12705
+    },
+    "evaluated-07.json": {
+      "sha256": "37121abfa248caa261d8ce7bc7b72703e2dc84ff29c366d4a2adf15952900e75",
+      "bytes": 13359
+    },
+    "evaluated-08.json": {
+      "sha256": "545b5d9ea6489adef5c19cf49f24395f832ebca8b87dd9bec7b27c4fd49d3335",
+      "bytes": 13350
+    },
+    "evaluated-09.json": {
+      "sha256": "da5c2b8effcf3294cb461e39bdaa280ec02b9e8320878f96432434826ef1ff92",
+      "bytes": 12767
+    },
+    "evaluated-10.json": {
+      "sha256": "aa13e1727c295ad66715d3a79c7bdf698d1ace9ff20fa87e39976e8ba19a8d69",
+      "bytes": 13199
+    },
+    "evaluated-11.json": {
+      "sha256": "f9472f87961f2b437513500d9fe9ae13219d0faa3fdc273876e8456cf34a4524",
+      "bytes": 13315
+    },
+    "evaluated-12.json": {
+      "sha256": "6194a4b99354507a08f2fee1a47275d4c1cd91f715bbc760e2a7d7f4d0242336",
+      "bytes": 19174
+    },
+    "evaluated-13.json": {
+      "sha256": "e23096eb7e469a4188708f99deddec533925a347fb2d3da8c43b2e1702e4944f",
+      "bytes": 16010
+    },
+    "evaluated-14.json": {
+      "sha256": "b94c1d62dbf261abcf2a9b0c3a57f8698ce8ffe231ce8bb520c0e82019a64946",
+      "bytes": 19171
+    },
+    "evaluated-15.json": {
+      "sha256": "86502d963749ad4765f0fa9ce2c06660f8a04d941ff56632d973ae5e30fb619b",
+      "bytes": 19128
+    },
+    "evaluated-16.json": {
+      "sha256": "b170b14b541393a5b39ad47191b9f3af4f93e9aa0ff5bfd74134af9be5e653ee",
+      "bytes": 19205
+    },
+    "evaluated-17.json": {
+      "sha256": "dbfddfa9203ac32158e8c237bc50b63c02fd319af599a4329920ec032bf09ff0",
+      "bytes": 16077
+    },
+    "evaluated-18.json": {
+      "sha256": "4366db7694943cb139acf6d3cbd0bcfc676083f7db526a987e7638f8640ba81e",
+      "bytes": 13208
+    },
+    "evaluated-19.json": {
+      "sha256": "9c768049996f447efb77ae658de3c86c4fe716f7bc6be95824d0c272a190ba1c",
+      "bytes": 13240
+    },
+    "evaluated-20.json": {
+      "sha256": "5378d34a8868933a1863fe6315e24018aa47ed704182ee378c4d2063cacbbf02",
+      "bytes": 13202
+    },
+    "evaluated-21.json": {
+      "sha256": "9c4709be0d58805947821a9757c5c26ce4852d76eff91f25a9e7c69d73bf86a4",
+      "bytes": 13200
+    },
+    "evaluated-22.json": {
+      "sha256": "e3161ae00828e8d4583a41e2a8c556b91cb25e3660319868d4b40672127edfe3",
+      "bytes": 12875
+    },
+    "evaluated-23.json": {
+      "sha256": "aee96aee3d6d7f13d7e59a8bbcdf4675d4876b00c742b8e597207bec3e42ade1",
+      "bytes": 12814
+    },
+    "pre_result_receipt.json": {
+      "sha256": "e2deb6be25d306b030c34339c778d13b32bfd7ed7ed39e3d07693819b3a7eeef",
+      "bytes": 1108
+    },
+    "pretransfer_guard_validation.json": {
+      "sha256": "a664eafeda30382a03a3f15e05a3910b6f6cc7fbd0f017826e39593063f59fa8",
+      "bytes": 148549
+    },
+    "snapshot-00.npz": {
+      "sha256": "3406cb86d458f49b5d7f6166ea4717fe596be6124f0d460b9b940362d444a1d4",
+      "bytes": 209714
+    },
+    "snapshot-01.npz": {
+      "sha256": "1a700d684ae655e89c798c4ab9468cc678e4a041829717575e0e005d81858e94",
+      "bytes": 207794
+    },
+    "snapshot-02.npz": {
+      "sha256": "e752ae0282f8500025779b7443cb403577001cec3f3ee0e7bfe97a6e9fac582f",
+      "bytes": 208822
+    },
+    "snapshot-03.npz": {
+      "sha256": "8247d0650bb5ced8d2d9347b293af74a3a084c7fa6f90eea3dacafd35504f9bf",
+      "bytes": 202783
+    },
+    "snapshot-04.npz": {
+      "sha256": "90c4789983f9646641073b209f56d222ac8e3fb3a80ea26c22e8ce5e067ff031",
+      "bytes": 206103
+    },
+    "snapshot-05.npz": {
+      "sha256": "c7fdc7c3e1e359001ddd36807072b7014ef1bd85240f3469804347d7cb4ad97e",
+      "bytes": 105004
+    },
+    "snapshot-06.npz": {
+      "sha256": "32af64c9183f9e48cc494592820ed55603bffc2792fd0ee0258c927bcdbf6eeb",
+      "bytes": 103580
+    },
+    "snapshot-07.npz": {
+      "sha256": "ffb20ea2e9d258d52e9c839eb4c50a6220e1cfb7d77a59e293f8bf932751e209",
+      "bytes": 98497
+    },
+    "snapshot-08.npz": {
+      "sha256": "8463c6129edbd40978c7afe6a5eb1ee2075fcdadc6a36a5c71bcbdd066ebbe3f",
+      "bytes": 104889
+    },
+    "snapshot-09.npz": {
+      "sha256": "9032fa0d09953f569211e1ea35369a50f5c3e736688b7b5055afbea7c442e7ee",
+      "bytes": 104517
+    },
+    "snapshot-10.npz": {
+      "sha256": "9660ee2d3cecdef6f809703d068d08971c95c4bb46adb20faccb9fae706b7ea6",
+      "bytes": 99869
+    },
+    "snapshot-11.npz": {
+      "sha256": "3c8fb51a83423f9f8eb87dbb6c6c0eb0d697df1786756f9325b48b05875fa0de",
+      "bytes": 99915
+    },
+    "snapshot-12.npz": {
+      "sha256": "3861e5ac0b1257c572d802a3f3bfc79cbd867ca26a85cc0aa25781f5ab584104",
+      "bytes": 829187
+    },
+    "snapshot-13.npz": {
+      "sha256": "68abed8a106b2cf6df7e804296904c056d58264a99b2ce76cbd0927d6bdcda64",
+      "bytes": 388837
+    },
+    "snapshot-14.npz": {
+      "sha256": "fc031fa69a013212cdb8e393fc4164e7814ccfa6c291b0e1111688d04abc15a4",
+      "bytes": 843067
+    },
+    "snapshot-15.npz": {
+      "sha256": "8a6b4905031393289dc923ec30a7ceae5b4c6b1a2f6513396fcc531ec90c0d55",
+      "bytes": 820529
+    },
+    "snapshot-16.npz": {
+      "sha256": "0202ce98d508f5796954d362b3640e04807e60881e24e3eb55297f069a9eefee",
+      "bytes": 742712
+    },
+    "snapshot-17.npz": {
+      "sha256": "11e79ba33e5f52d83a52efdb89a29a04cb8ce597ab175dd638814d881e836487",
+      "bytes": 428014
+    },
+    "snapshot-18.npz": {
+      "sha256": "2ffcfad7d2a77d596abe9f6f05530a4a42835563b36dc6a7e9725643561dba17",
+      "bytes": 106794
+    },
+    "snapshot-19.npz": {
+      "sha256": "67e6c2d2fac98b189989f69a98a4b2b900ab4cbd9f0d1341d51431c16e7f386a",
+      "bytes": 104812
+    },
+    "snapshot-20.npz": {
+      "sha256": "29e4ab032583bd26e84d2339eb0001420f8f4619ff0fa80a07b1aaa0eacc6274",
+      "bytes": 101728
+    },
+    "snapshot-21.npz": {
+      "sha256": "a422416216638b5809abaf0e05cfc1b0af5b9baf564f308f1a1b206411179946",
+      "bytes": 71510
+    },
+    "snapshot-22.npz": {
+      "sha256": "e935ef36bb79619ae513f3e9ff9776092687b1d6af4ebb914ec5120dd0036220",
+      "bytes": 75930
+    },
+    "snapshot-23.npz": {
+      "sha256": "8759a9df40b36254f39f12ab9c3542e4739b09f7c7a1ec42711f9ffd60fb678c",
+      "bytes": 98149
+    },
+    "snapshot-audit-00.json": {
+      "sha256": "716475f43c9cc8be1117311833d5885283be18e0348e2878bb8ffcdef4d5796d",
+      "bytes": 2502
+    },
+    "snapshot-audit-01.json": {
+      "sha256": "c9f4deeaada5d34708556d35ce13969f72c93e6a2e525c6bdecccbb0ed696c21",
+      "bytes": 2500
+    },
+    "snapshot-audit-02.json": {
+      "sha256": "e49a2f13cbe361a8841e9c635576d183fe65f5672d1e65b851b53ba29e0a88f6",
+      "bytes": 2510
+    },
+    "snapshot-audit-03.json": {
+      "sha256": "0151275ee17469b6b45b0420503574aab795ff8969d719e951586d25f32f4b26",
+      "bytes": 2508
+    },
+    "snapshot-audit-04.json": {
+      "sha256": "b2d72ce107327fe9a281e4ec74ebd9869087278108697d6610acd1230ec3b1d7",
+      "bytes": 2530
+    },
+    "snapshot-audit-05.json": {
+      "sha256": "bdacb3ecc3c5e3abf0b777c6732bed7e5897de09c46dc3cfde94f8e9fe1fe087",
+      "bytes": 2385
+    },
+    "snapshot-audit-06.json": {
+      "sha256": "17637080d45d2e70bb21d22cddc606a3e7ad299311e9e54d1bef8ae89ee814f5",
+      "bytes": 2350
+    },
+    "snapshot-audit-07.json": {
+      "sha256": "2643ff8b0c6eb3fea8e835548c9bb68a9681c37b64d92866eb4bcf959b688ec1",
+      "bytes": 2543
+    },
+    "snapshot-audit-08.json": {
+      "sha256": "727d4871b9f67a0638d8bec0a92b2d2c887a580f2ed109a4f08bd62fc581b0d1",
+      "bytes": 2540
+    },
+    "snapshot-audit-09.json": {
+      "sha256": "f706ce63a610d49982414f2330925db1388c51d9aeb85b84fbd11bfbe3e2654d",
+      "bytes": 2356
+    },
+    "snapshot-audit-10.json": {
+      "sha256": "75e5cfb6a41b0d2452ff5394cfb97a25b704e7eeae7066d555544b9d6560fc7f",
+      "bytes": 2545
+    },
+    "snapshot-audit-11.json": {
+      "sha256": "b1df55dc1cda45c190708972bd887552a4fc8603217dcf784e23462fa35e0102",
+      "bytes": 2545
+    },
+    "snapshot-audit-12.json": {
+      "sha256": "b87efff33c78ea174c55e7ecfbe0e271a8f5b60d11fda094c5824dc887872d86",
+      "bytes": 2541
+    },
+    "snapshot-audit-13.json": {
+      "sha256": "fbd140898da1e19b7e45623b772a04869d86215e4fe9ff846d2bb98a05a35e47",
+      "bytes": 2544
+    },
+    "snapshot-audit-14.json": {
+      "sha256": "dfa37e576cab1e542175b3165b776677c23c3ab2756b7aa9ce5527ecf55bfa0d",
+      "bytes": 2543
+    },
+    "snapshot-audit-15.json": {
+      "sha256": "513559a33d65e8d9f0021a9572180974f487b823f0595a9a4fbe38a7b279de37",
+      "bytes": 2538
+    },
+    "snapshot-audit-16.json": {
+      "sha256": "320a8b3458494dfec38120ccb94f5b2079bac923bc9bc9fa489dd7832e76118d",
+      "bytes": 2543
+    },
+    "snapshot-audit-17.json": {
+      "sha256": "34d66e5c1a96585143a18a9550b3bbd065085a1965fae5df6fc6680b6b75bfd5",
+      "bytes": 2549
+    },
+    "snapshot-audit-18.json": {
+      "sha256": "f4f8602a59531be4f83e77c10e96f98b8157d980ac1d52ebb694ac946dd24e10",
+      "bytes": 2545
+    },
+    "snapshot-audit-19.json": {
+      "sha256": "4ef5f29a062e07a46c6857668f15a2c6afcef67be74547e2378324967952d02a",
+      "bytes": 2556
+    },
+    "snapshot-audit-20.json": {
+      "sha256": "0bed4f7cefb61c7faba61b957f80d96532d974b4d4d53ec59b8d30ad4a0c6a05",
+      "bytes": 2548
+    },
+    "snapshot-audit-21.json": {
+      "sha256": "84f6e15d4533265861be969c7fd60969ff31dd0f4726671144a897e333c4db1f",
+      "bytes": 2537
+    },
+    "snapshot-audit-22.json": {
+      "sha256": "197361ca462a42983e15ba054e3749b6a2282d34a54c7cb0ffa1170b1b606734",
+      "bytes": 2387
+    },
+    "snapshot-audit-23.json": {
+      "sha256": "3f177215e9a962df5a5aba8d2b9de34a2980c83ff50935c2cfc0cf5ddf19be9d",
+      "bytes": 2353
+    },
+    "transfer_card_summary.csv": {
+      "sha256": "f0b24f599538306b054c43e33ac0de827eea8c1fd12a5d9b9fb6309b876bab09",
+      "bytes": 52864
+    }
+  },
+  "private_snapshot_count": 24,
+  "private_evaluated_count": 24,
+  "immutable_source_validation": "immutability_validation.json",
+  "result_sha_location": "Final preservation receipt outside Git; avoids self-referential hash."
+}

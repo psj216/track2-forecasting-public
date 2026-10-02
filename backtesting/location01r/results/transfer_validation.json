@@ -1,0 +1,14 @@
+{
+  "executive_summary": "All 24 cards and 144 model-card pairs pass; immutable snapshot hashes and candidate reconstruction were checked for every card.",
+  "cards_passed": 24,
+  "cards_total": 24,
+  "model_checks_passed": 144,
+  "true_violations": 0,
+  "max_shift_residual": 1.4210854715202004e-14,
+  "max_centered_residual": 4.263256414560601e-14,
+  "strict_reversals": 0,
+  "snapshot_hashes_unchanged": true,
+  "no_refit": true,
+  "private_card_csv_sha256": "f0b24f599538306b054c43e33ac0de827eea8c1fd12a5d9b9fb6309b876bab09",
+  "private_card_detail_sha256": "234922ca6e519751630c320dda29cb856a9874069316a9358d4a96d8edd8b473"
+}

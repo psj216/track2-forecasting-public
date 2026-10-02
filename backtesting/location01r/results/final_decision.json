@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Keep the failed continuous gate distinct from complete exposed-card transfer diagnostics.",
+  "status": "COMPLETE",
+  "primary_model": "M1",
+  "CONTINUOUS_LOCATION_GATE": "NO",
+  "TRANSFER_DIAGNOSTIC": "MIXED",
+  "READY_FOR_LOCATION_02": "NO",
+  "NEXT_RESEARCH_AXIS": "NEW_INFORMATION_REQUIRED",
+  "READY_FOR_ONE_SHOT_SUBMISSION": "NO",
+  "F1_SAFETY_VERDICT": "CARD_LOCATION_TRANSFER_POSITIVE",
+  "interpretation": "Research proxy on 24 historically exposed cards. No independent OOS evidence, no text-channel causal ablation, no submission candidate.",
+  "PRE_RESULT_LOCATION01R_SHA": "7554bb851658306172654864c10fd40d41e4edb2",
+  "parent_sha": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+  "branch": "track2/location-01r-transfer-guard"
+}
