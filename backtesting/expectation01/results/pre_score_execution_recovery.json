@@ -1,0 +1,11 @@
+{
+  "executive_summary": "A dispatch correction restores the already frozen A5 control rule before any final CRPS exposure.",
+  "previous_pre_result_sha": "c341ea5daa623e997483eb123c8f6fb7059289d9",
+  "failure": "Fold1 A_historical_surprise attempted int(key[1]) on underscore; stopped before fitting.",
+  "correction": "Classify exact A1\u2013A5 keys; all four controls dispatch to precommitted A5.",
+  "methodology_changed": false,
+  "source_features_models_hyperparameters_folds_controls_bootstrap_changed": false,
+  "final_CRPS_opened_before_correction": false,
+  "preserved_saved_models": "All completed A1\u2013A5, HGB and source-specific models are identical under old/new dispatch. Their original audit SHA is retained. Fold2 controls executed intended A5 dispatch before this second publication; data/model settings equal frozen protocol.",
+  "retry_policy": "One corrected attempt for failed Fold1 control; no rerun of successful models."
+}

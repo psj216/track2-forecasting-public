@@ -11,6 +11,10 @@ from .negative_controls import CONTROLS
 
 KEYS=[f"A{i}" for i in range(1,6)]+["nonlinear"]+[f"source_{f}" for f in ("RGDP","CPI","UNEMP","TBILL","TBOND")]+list(CONTROLS)
 
+def model_for_key(key):
+    if key not in KEYS:raise ValueError("Not a precommitted model")
+    return int(key[1]) if key in ("A1","A2","A3","A4","A5") else (4 if key=="nonlinear" or key.startswith("source_") else 5)
+
 def run(private,location,fold,key,pre_sha):
     if key not in KEYS:raise ValueError("Not a precommitted model")
     path=private/"crossfit"/f"fold{fold}_{key}.npz";auditpath=path.with_suffix(".json")
@@ -20,7 +24,7 @@ def run(private,location,fold,key,pre_sha):
     manifest=json.loads(Path("backtesting/expectation01/results/feature_manifest.json").read_text());name=key if key in CONTROLS else "primary";file=private/f"features_{name}.npy"
     if digest(file)!=manifest["features"][name]:raise ValueError("Feature hash changed")
     rows=pd.read_parquet(location/"ledger.parquet");x=np.load(file,mmap_mode="r");schema=json.loads((private/"schema.json").read_text())["columns"]
-    model=int(key[1]) if key.startswith("A") else (4 if key=="nonlinear" or key.startswith("source_") else 5)
+    model=model_for_key(key)
     if key.startswith("source_"):
         family=key.split("_",1)[1];x=np.array(x);x[:,[i for i,s in enumerate(schema) if s["family"]!=family]]=0.
     cutoff,start,end=FOLDS[fold-1];years=pd.to_datetime(rows.origin).dt.year;train=purged_mask(rows,f"{start}-01-01");test=years.between(start,end).to_numpy();y=rows.delta.to_numpy();beg=time.monotonic()
