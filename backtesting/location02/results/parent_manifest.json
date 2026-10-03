@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Recover frozen INFO01 source choice, draft and applicable research metadata",
+  "parent_branch": "track2/info-01-new-information-audit",
+  "parent_sha": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "INFO01_PRE": "0bd2a1e768156d74f82a9959a62da40184d30d87",
+  "source": "ECB_SPF_ORIGINAL",
+  "source_ready_in_parent": false,
+  "independent_validation": "NOT_AVAILABLE",
+  "parent_files": {
+    "backtesting/info01/results/selected_primary_source.json": "f96f27161ab8999e96f462004928f6f7b66bb6ad532c6997d2e3e82f4fc7e6f4",
+    "backtesting/info01/results/location02_frozen_draft.md": "e8514f2c98c580a2c1cde127ad9fb063b8aa3db0651408d1b777fae6453dfbb4",
+    "backtesting/info01/results/competition_data_constraints.md": "21a7ddbdd36666b341731e9811ffecb4b7c21062dde1ab00c8c6dbb0a4a8cfbf",
+    "backtesting/location01/results/ledger_manifest.json": "b797d00c139930568db90bebb39c156d0e2fb3a0dc689b1c023bf5ee68fcf4c8"
+  },
+  "public_firewall": "Keep realized labels/private per-cell scores outside Git. User-required public predictions are predictions/provenance only; grouped metrics are research exposed."
+}

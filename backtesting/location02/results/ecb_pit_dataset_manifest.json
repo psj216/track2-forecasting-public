@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Official ECB release acquisition only; no forecasting outcomes, fitting or scores.",
+  "stage": "ACQUISITION",
+  "rounds_enumerated": 40,
+  "archive_sha256": "b3b3aacc48ddfd0fcf1ad8a9c712be0a89351614156b6dda2ceedae6b355c1e0",
+  "admitted_period": [
+    "2015-01-23",
+    "2024-10-18"
+  ],
+  "no_current_csv_or_microdata": true,
+  "DATASET_READY": false
+}

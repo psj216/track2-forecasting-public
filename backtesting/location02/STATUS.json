@@ -1,0 +1,34 @@
+{
+  "executive_summary": "LOCATION02 Gate A source audit only; no labels loaded or models fitted",
+  "branch": "track2/location-02-ecb-spf-alpha",
+  "HEAD_SHA": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "current_stage": "source_acquisition",
+  "completed_stages": [
+    "environment",
+    "parent_recovery"
+  ],
+  "pending_stages": [
+    "source_acquisition",
+    "PIT_errata",
+    "dataset_readiness",
+    "research_tests",
+    "PRE_RESULT",
+    "evaluation",
+    "controls_bootstrap",
+    "report_tests",
+    "RESULT_remote",
+    "recovery"
+  ],
+  "last_successful_artifact": "environment_audit.json",
+  "last_update_time": "2026-10-03T03:12:49.427990+00:00",
+  "completed": false,
+  "outcomes_loaded": false,
+  "model_fits": 0,
+  "forecast_scores": 0,
+  "failures": [
+    {
+      "stage": "environment_source_index_dispatch",
+      "error": "System interpreter lacked bs4; selected recovered CPython3.13 interpreter, raw index preserved and parsed successfully"
+    }
+  ]
+}
