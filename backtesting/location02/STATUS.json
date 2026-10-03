@@ -1,33 +1,30 @@
 {
   "executive_summary": "LOCATION02 Gate A source audit only; no labels loaded or models fitted",
   "branch": "track2/location-02-ecb-spf-alpha",
-  "HEAD_SHA": "d0a4d63630f2ca33757ff7246f521f23e8fc5430",
-  "current_stage": "PRE_RESULT",
+  "HEAD_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+  "current_stage": "SCIENTIFIC_RESULT_COMPLETE",
   "completed_stages": [
     "environment",
     "parent_recovery",
     "source_acquisition",
     "PIT_errata",
-    "dataset_readiness"
-  ],
-  "pending_stages": [
-    "source_acquisition",
-    "PIT_errata",
     "dataset_readiness",
+    "implementation",
     "research_tests",
     "PRE_RESULT",
     "evaluation",
     "controls_bootstrap",
-    "report_tests",
-    "RESULT_remote",
-    "recovery"
+    "report",
+    "full_tests",
+    "common_tests"
   ],
-  "last_successful_artifact": "results/ecb_dataset_readiness.json",
+  "pending_stages": [],
+  "last_successful_artifact": "LOCATION-02-ECB-SPF-CONSENSUS-LOCATION-ALPHA-report.md",
   "last_update_time": "2026-10-03T03:28:46.226777+00:00",
-  "completed": false,
-  "outcomes_loaded": false,
-  "model_fits": 0,
-  "forecast_scores": 0,
+  "completed": true,
+  "outcomes_loaded": true,
+  "model_fits": 25,
+  "forecast_scores": 1589,
   "failures": [
     {
       "stage": "environment_source_index_dispatch",
@@ -80,5 +77,60 @@
   ],
   "DATASET_READY": true,
   "research_tests_passed": 20,
-  "affected_tests_passed": 75
+  "affected_tests_passed": 75,
+  "PRE_RESULT_LOCATION02_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+  "control_progress": {
+    "RELEASE_VALUE_SHUFFLE": 2000,
+    "RELEASE_DATE_PERMUTATION": 2000,
+    "REVISION_SIGN_SHUFFLE": 2000,
+    "GAUSSIAN_FULL5": 2000
+  },
+  "geometry_diagnostic": {
+    "executive_summary": "Pure-location shifts preserve weak ordering and scale; machine-precision ties are disclosed, no predictions changed",
+    "models": {
+      "ECB_RIDGE_FULL5": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 2,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 1.1102230246251565e-15
+      },
+      "LEVELS_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 8.881784197001252e-16
+      },
+      "REVISIONS_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 6,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 1.4432899320127035e-15
+      },
+      "HICP_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 2.6645352591003757e-15
+      },
+      "GDP_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 2.886579864025407e-15
+      }
+    },
+    "original_model_refitted": false,
+    "strict_argsort_byte_identity": false,
+    "interpretation": "Two FULL5 sorted-index positions change due to a new1ULP tie; no rank inversion or intentional rank/copula adjustment"
+  },
+  "validation_findings": [
+    "Strict argsort identity found machine-precision tie changes; no ordering inversion; exact prescribed shift retained, no numerical jitter"
+  ],
+  "scientific_work_completed": true,
+  "tests_completed": true,
+  "completion_scope": "Frozen scientific research and all tests. Post-commit Git and recovery verification tracked by private STATUS.json and verification.json.",
+  "external_finalization_steps": [
+    "RESULT_remote",
+    "recovery"
+  ]
 }

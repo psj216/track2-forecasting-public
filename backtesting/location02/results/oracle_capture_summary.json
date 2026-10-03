@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Frozen EUR research crossfit; aggregate only; no independent OOS or submission.",
+  "definition": "(1-R_ECB)/(1-R_perfect_location), unclipped",
+  "models": {
+    "V5.1": 0.0,
+    "ECB_RIDGE_FULL5": -0.9524184404857229,
+    "LEVELS_ONLY": -0.2076375080808026,
+    "REVISIONS_ONLY": -0.7015528036903875,
+    "HICP_ONLY": -0.23506516288694504,
+    "GDP_ONLY": -0.48271165837390934,
+    "PERFECT_LOCATION": 1.0
+  }
+}

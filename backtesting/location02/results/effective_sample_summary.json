@@ -1,0 +1,138 @@
+{
+  "executive_summary": "Frozen EUR research crossfit; aggregate only; no independent OOS or submission.",
+  "forecast_origins": 48,
+  "cells": 227,
+  "unique_active_releases": 20,
+  "distinct_same_target_revision_events": 20,
+  "effective_independent_release_count_upper_bound": 20,
+  "effective_release_count_is_not_a_proven_iid_effective_N": true,
+  "origins_per_release": [
+    {
+      "round_id": "2019Q4",
+      "origins": 1,
+      "cells": 5
+    },
+    {
+      "round_id": "2020Q1",
+      "origins": 4,
+      "cells": 20
+    },
+    {
+      "round_id": "2020Q2",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2020Q3",
+      "origins": 3,
+      "cells": 15
+    },
+    {
+      "round_id": "2020Q4",
+      "origins": 3,
+      "cells": 15
+    },
+    {
+      "round_id": "2021Q1",
+      "origins": 3,
+      "cells": 15
+    },
+    {
+      "round_id": "2021Q2",
+      "origins": 1,
+      "cells": 5
+    },
+    {
+      "round_id": "2021Q3",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2021Q4",
+      "origins": 4,
+      "cells": 20
+    },
+    {
+      "round_id": "2022Q1",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2022Q2",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2022Q3",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2022Q4",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2023Q1",
+      "origins": 4,
+      "cells": 20
+    },
+    {
+      "round_id": "2023Q2",
+      "origins": 1,
+      "cells": 5
+    },
+    {
+      "round_id": "2023Q3",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2023Q4",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "round_id": "2024Q1",
+      "origins": 3,
+      "cells": 13
+    },
+    {
+      "round_id": "2024Q2",
+      "origins": 3,
+      "cells": 10
+    },
+    {
+      "round_id": "2024Q3",
+      "origins": 2,
+      "cells": 4
+    }
+  ],
+  "per_horizon": [
+    {
+      "horizon": 5,
+      "cells": 48,
+      "unique_releases": 20
+    },
+    {
+      "horizon": 21,
+      "cells": 48,
+      "unique_releases": 20
+    },
+    {
+      "horizon": 63,
+      "cells": 46,
+      "unique_releases": 19
+    },
+    {
+      "horizon": 126,
+      "cells": 44,
+      "unique_releases": 19
+    },
+    {
+      "horizon": 189,
+      "cells": 41,
+      "unique_releases": 18
+    }
+  ]
+}

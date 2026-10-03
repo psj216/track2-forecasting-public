@@ -1,0 +1,30 @@
+{
+  "executive_summary": "Frozen EUR research crossfit; aggregate only; no independent OOS or submission.",
+  "LOCATION02_RESULT": "NO",
+  "DATASET_READY": true,
+  "PRIMARY_MODEL": "ECB_RIDGE_FULL5",
+  "primary": {
+    "cells": 227,
+    "crps_ratio": 1.562819687489047,
+    "oracle_capture": -0.9524184404857229,
+    "delta_mse": 2.256341555481684,
+    "r2": -1.4316756868505522,
+    "pearson": 0.16911451763163238,
+    "spearman": 0.13788590529414288,
+    "sign_accuracy": 0.5770925110132159,
+    "calibration_slope": 0.13677511916236393,
+    "mean_abs_predicted_delta": 0.9038287822904616,
+    "actual_mean_abs_delta": 0.7778755014441845,
+    "mean_predicted_delta": -0.547858765241213
+  },
+  "concentration": {
+    "largest_release_positive_gain_share": 0.40052806739205754,
+    "largest_year_positive_gain_share": null,
+    "dominated_by_one_release_or_year": false
+  },
+  "NEXT": "FED-SLOOS-LOCATION-03; separate frozen branch, no ECB tuning",
+  "READY_FOR_SUBMISSION": false,
+  "RESEARCH_EXPOSED": true,
+  "INDEPENDENT_OOS": false,
+  "no_secondary_ablation_rescue": true
+}

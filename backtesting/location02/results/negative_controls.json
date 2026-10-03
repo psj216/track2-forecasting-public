@@ -1,0 +1,50 @@
+{
+  "executive_summary": "Frozen EUR research crossfit; aggregate only; no independent OOS or submission.",
+  "controls": {
+    "RELEASE_VALUE_SHUFFLE": {
+      "permutations": 2000,
+      "median_ratio": 1.752770785040263,
+      "ratio_95_interval": [
+        1.149961431049135,
+        2.8440495633881078
+      ],
+      "fraction_at_least_as_good": 0.334
+    },
+    "RELEASE_DATE_PERMUTATION": {
+      "permutations": 2000,
+      "median_ratio": 1.8708385022211886,
+      "ratio_95_interval": [
+        1.470568602460458,
+        2.2310397160473237
+      ],
+      "fraction_at_least_as_good": 0.0845
+    },
+    "REVISION_SIGN_SHUFFLE": {
+      "permutations": 2000,
+      "median_ratio": 1.4656788582068379,
+      "ratio_95_interval": [
+        1.0463344478372014,
+        2.4328042549252595
+      ],
+      "fraction_at_least_as_good": 0.5945
+    },
+    "GAUSSIAN_FULL5": {
+      "permutations": 2000,
+      "median_ratio": 1.0430572272525007,
+      "ratio_95_interval": [
+        0.96809360903616,
+        1.171288905467144
+      ],
+      "fraction_at_least_as_good": 1.0
+    },
+    "FEATURE_YEAR_SHIFT": {
+      "crps_ratio": 1.1287386080965063,
+      "fixed_one_year_lag": true
+    }
+  },
+  "fixed_seed": 20261003,
+  "future_mutation": "All pre-2022 source inputs and actual 2020/2021 crossfit predictions bitwise identical after later-release mutation",
+  "outcome_mutation": "Source module has no outcome interface; source calendar hash unchanged",
+  "date_control": "Nonnegative publication delays randomly reassigned, never activate earlier than real publication",
+  "value_revision_controls": "Within chronological training release blocks; held-out covariates and outcomes never shuffled into training"
+}

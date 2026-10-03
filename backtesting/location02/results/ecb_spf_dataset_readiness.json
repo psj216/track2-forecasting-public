@@ -1,0 +1,33 @@
+{
+  "executive_summary": "Official ECB release acquisition only; no forecasting outcomes, fitting or scores.",
+  "DATASET_READY": true,
+  "critical_failures": [],
+  "source_statistics": {
+    "rounds_enumerated": 40,
+    "extracted_fields": 240,
+    "usable_releases_before_age_filter": 39,
+    "same_target_revision_events": 39
+  },
+  "forecast_origin_candidates": 120,
+  "active_monthly_candidates": 100,
+  "active_source_years": [
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024"
+  ],
+  "pre_outcome_gate": true,
+  "outcomes_loaded": false,
+  "model_fits": 0,
+  "forecast_scores": 0,
+  "deterministic_field_ledger_sha256": "94be15966f3430541c1b93fb0b259c44ee8b9a6a47fe31c321fcf3d5a52654a0",
+  "source_pit_tests": "11 passed",
+  "provenance_caveat": "PIT B, not immutable historical originals; no unresolved notices or mismatches in all 216 applicable following-round comparisons",
+  "source_gate_thresholds": "At least 8 source years, all 2020-2024 years, at least 12 forward source events; no outcome coverage used"
+}

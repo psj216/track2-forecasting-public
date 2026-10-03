@@ -1,16 +1,112 @@
 {
-  "executive_summary": "Gate A and synthetic implementation tests complete; PRE not yet remotely verified; no real forecast label access.",
-  "Gate_A_passed": true,
-  "research_tests_passed": 20,
-  "affected_tests_passed": 75,
-  "real_labels_opened": false,
-  "real_model_fits": 0,
-  "real_forecast_scores": 0,
-  "completed_source_rounds": 40,
-  "same_target_revision_events": 39,
-  "source_original_comparisons": 216,
-  "unresolved_notices": 0,
-  "synthetic_benchmark_only": true,
-  "max_command_seconds": 240,
-  "main_modified": false
+  "executive_summary": "Frozen source and honest NO completed; all tests pass; Git RESULT and recovery receipts will be external to avoid self-reference.",
+  "parent_result_sha": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "PRE_RESULT_LOCATION02_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+  "PRE_remote_verified_before_labels": true,
+  "DATASET_READY": true,
+  "LOCATION02_RESULT": "NO",
+  "tests": {
+    "research": {
+      "passed": 21,
+      "skipped": 0,
+      "log_sha256": "172e9fa331f3f372915ffc1705355c30ceb917056367d104ff9f16676dd9a005"
+    },
+    "affected": {
+      "passed": 75,
+      "skipped": 0,
+      "log_sha256": "df3765447723dc35c6d5cf334f8a0935905c8f4c61efc846a71f7612e588c399"
+    },
+    "repository": {
+      "passed": 614,
+      "skipped": 2,
+      "log_sha256": "c80a06a7eb0d7f41ac04511c25fb7dec00cf0d994395fd72cdcc7689b93cf6bf"
+    },
+    "common": {
+      "passed": 250,
+      "skipped": 0,
+      "log_sha256": "38344046398fc43bc98ee27aa7c01602d66cdf1fefa05bca05f0eb4de4af38c4"
+    }
+  },
+  "protected_parent_files_unchanged": 178,
+  "source_release_chunks": [
+    10,
+    10,
+    10,
+    10
+  ],
+  "stochastic_control_replicates": {
+    "RELEASE_VALUE_SHUFFLE": 2000,
+    "RELEASE_DATE_PERMUTATION": 2000,
+    "REVISION_SIGN_SHUFFLE": 2000,
+    "GAUSSIAN_FULL5": 2000
+  },
+  "bootstrap_replicates": {
+    "release_blocks": 5000,
+    "year_blocks": 5000
+  },
+  "no_primary_redesign": true,
+  "private_individual_outcomes_and_losses": true,
+  "no_new_V51_generation": true,
+  "geometry_audit": {
+    "executive_summary": "Pure-location shifts preserve weak ordering and scale; machine-precision ties are disclosed, no predictions changed",
+    "models": {
+      "ECB_RIDGE_FULL5": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 2,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 1.1102230246251565e-15
+      },
+      "LEVELS_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 8.881784197001252e-16
+      },
+      "REVISIONS_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 6,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 1.4432899320127035e-15
+      },
+      "HICP_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 2.6645352591003757e-15
+      },
+      "GDP_ONLY": {
+        "rank_order_inversions": 0,
+        "argsort_index_changes_due_to_ties": 0,
+        "maximum_centered_geometry_absolute_roundoff": 2.220446049250313e-16,
+        "maximum_SD_relative_roundoff": 2.886579864025407e-15
+      }
+    },
+    "original_model_refitted": false,
+    "strict_argsort_byte_identity": false,
+    "interpretation": "Two FULL5 sorted-index positions change due to a new1ULP tie; no rank inversion or intentional rank/copula adjustment"
+  },
+  "validation_only_post_PRE_correction": {
+    "executive_summary": "Validation-only serialization correction; no primary or stochastic-control rerun or scientific model change",
+    "PRE_RESULT_LOCATION02_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+    "reason": "JSON-to-array rebuild versus original CSV parse creates up to4.44e-16 representation differences; unchanged earlier source events must reuse original parsed input bits",
+    "primary_features_changed": false,
+    "primary_predictions_changed": false,
+    "primary_scores_changed": false,
+    "stochastic_controls_changed": false,
+    "frozen_evaluate_sha256": "a8768c29423ff9c550227682bc3b480d3f4c969c6b0de1b36ff2eb2b61f1ee74",
+    "corrected_validation_path": "backtesting/location02/finalize.py"
+  },
+  "execution_failures": [
+    {
+      "step": "system_interpreter_source_index",
+      "count": 1,
+      "resolution": "Recovered source bytes reused with existing bs4-enabled interpreter"
+    }
+  ],
+  "git_main_expected": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "RESULT_SHA_receipt": "Private verification.json after RESULT commit; no self-referential committed SHA",
+  "recovery_archive": "location02-private/LOCATION02-private-recovery.zip; final CRC/hash receipt external",
+  "independent_OOS": false,
+  "official_submission": false,
+  "public_unit_firewall_checks_passed": 104
 }

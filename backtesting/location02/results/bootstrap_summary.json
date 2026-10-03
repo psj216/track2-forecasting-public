@@ -1,0 +1,59 @@
+{
+  "executive_summary": "Frozen EUR research crossfit; aggregate only; no independent OOS or submission.",
+  "replicates": 5000,
+  "primary": "release-block",
+  "secondary": "year-block",
+  "blocks": {
+    "round_id": {
+      "block": "round_id",
+      "blocks": 20,
+      "replicates": 5000,
+      "crps_ratio_95ci": [
+        1.1547135348440911,
+        2.1097404167556473
+      ],
+      "delta_vs_v51_95ci": [
+        0.15471353484409106,
+        1.1097404167556473
+      ],
+      "oracle_capture_95ci": [
+        -1.9535843877029808,
+        -0.25781317637508594
+      ],
+      "pearson_95ci": [
+        -0.16595714783078314,
+        0.38730265459717444
+      ],
+      "spearman_95ci": [
+        -0.1497677192256217,
+        0.38744855982184556
+      ]
+    },
+    "year": {
+      "block": "year",
+      "blocks": 5,
+      "replicates": 5000,
+      "crps_ratio_95ci": [
+        1.2794966312193918,
+        1.730224581053736
+      ],
+      "delta_vs_v51_95ci": [
+        0.27949663121939183,
+        0.730224581053736
+      ],
+      "oracle_capture_95ci": [
+        -1.2604727304035326,
+        -0.5264943774217224
+      ],
+      "pearson_95ci": [
+        -0.2860413486288103,
+        0.4139518709712846
+      ],
+      "spearman_95ci": [
+        -0.3230951099321449,
+        0.36179219965772585
+      ]
+    }
+  },
+  "independent_OOS": false
+}

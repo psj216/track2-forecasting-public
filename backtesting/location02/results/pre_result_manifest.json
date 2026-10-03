@@ -23,7 +23,7 @@
     "tests/test_location02_pit.py": "7c7978ea04be6664a6955497a71ac80e51ce5f8b85516d2db7e764a8ab0a1df8",
     "tests/test_location02_source_acquisition.py": "55a0db70d87c3064e3c52a12d95503c52847249f9bc547d2a81396065832e33b"
   },
-  "PRE_RESULT_LOCATION02_SHA": "PENDING_REMOTE_COMMIT_RECEIPT",
+  "PRE_RESULT_LOCATION02_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
   "Gate_A_passed": true,
   "original_ledger_sha256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
   "baseline_recovery": {
@@ -36,5 +36,6 @@
   },
   "outcomes_loaded": false,
   "fits": 0,
-  "scores": 0
+  "scores": 0,
+  "remote_verified": true
 }

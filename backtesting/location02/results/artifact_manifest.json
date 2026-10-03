@@ -1,0 +1,120 @@
+{
+  "executive_summary": "Complete public scientific artifact inventory; private outcomes and original raw inputs remain in the private recovery archive.",
+  "parent_result_sha": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "PRE_RESULT_LOCATION02_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+  "LOCATION02_RESULT": "NO",
+  "files": {
+    "backtesting/location02/results/ablation_summary.json": {
+      "sha256": "dbe50426ad770eef2924feda08cd96bcdf23ff8d768e2746be616446d8c20f79",
+      "bytes": 2304
+    },
+    "backtesting/location02/results/bootstrap_summary.json": {
+      "sha256": "dc440df80441336d96f8680262d19c68e4e4365adde9f04e0a736470d2a86a70",
+      "bytes": 1346
+    },
+    "backtesting/location02/results/crossfit_predictions.csv": {
+      "sha256": "107aeec926585f17ca0305933c2c8d4eb35c4a1c432751bf6ea95abdbb39c56a",
+      "bytes": 44266
+    },
+    "backtesting/location02/results/ecb_dataset_readiness.json": {
+      "sha256": "036ea8b45a76c8ba8ca5b53f1b757c2bbf3c3f23c46d837eb5db3d4e3a6797ed",
+      "bytes": 1092
+    },
+    "backtesting/location02/results/ecb_errata_ledger.csv": {
+      "sha256": "63325c7f55d7822a8d1f90316ead8509b2a9cdd25c921562b8c6a9d0e09ccd3a",
+      "bytes": 8858
+    },
+    "backtesting/location02/results/ecb_field_ledger.csv": {
+      "sha256": "94be15966f3430541c1b93fb0b259c44ee8b9a6a47fe31c321fcf3d5a52654a0",
+      "bytes": 98860
+    },
+    "backtesting/location02/results/ecb_pit_dataset_manifest.json": {
+      "sha256": "9ef9e14952cf795cfcea1d237d37a9df3dcfc8b97047ade7847f24434874ee63",
+      "bytes": 19787
+    },
+    "backtesting/location02/results/ecb_publication_ledger.csv": {
+      "sha256": "3e773767061e3632bd5a3c0a944005dd1701840f7ec60a02b5ebc2f9242490d7",
+      "bytes": 6052
+    },
+    "backtesting/location02/results/ecb_release_universe.csv": {
+      "sha256": "0cd856e7e4bf74df8e290f7e3276df0bb7b961895d213bbe659bdfec021f97ec",
+      "bytes": 19482
+    },
+    "backtesting/location02/results/ecb_spf_dataset_readiness.json": {
+      "sha256": "036ea8b45a76c8ba8ca5b53f1b757c2bbf3c3f23c46d837eb5db3d4e3a6797ed",
+      "bytes": 1092
+    },
+    "backtesting/location02/results/effective_sample_summary.json": {
+      "sha256": "e31c12c88f854c622814826d42b828c4dabab5d4687d59363bb25bc283da1115",
+      "bytes": 2389
+    },
+    "backtesting/location02/results/environment_audit.json": {
+      "sha256": "9e97cf25e7ec3a0020c8f687abb6f823fb77d56dcec8228dfb8529d19600b726",
+      "bytes": 1503
+    },
+    "backtesting/location02/results/execution_audit.json": {
+      "sha256": "ada3f1619351150e9a166ae466ad02dd8183e1cd9e31df24a02dc16c857c2c91",
+      "bytes": 4575
+    },
+    "backtesting/location02/results/experiment_spec.json": {
+      "sha256": "089721e96b17e387b308ef63a89f2849fa553066f4ca7455a622d75072ae3572",
+      "bytes": 5033
+    },
+    "backtesting/location02/results/final_decision.json": {
+      "sha256": "229618195729651c7153b4eb1216fa6c334a7facf2482d0255540f9cf3d9606f",
+      "bytes": 1079
+    },
+    "backtesting/location02/results/fold_manifest.csv": {
+      "sha256": "6e2eea8e38dfc57acba7b681d665d1f2906d7abaccead43675f0a34df7c7c2e9",
+      "bytes": 510
+    },
+    "backtesting/location02/results/horizon_summary.csv": {
+      "sha256": "5c4a9fa32a70e24bac7f4c08e7fd6d27b1c6ee9f7b886cb8ca1ed1044fc0a045",
+      "bytes": 6182
+    },
+    "backtesting/location02/results/negative_controls.json": {
+      "sha256": "019a8b1ecd331c60f94164fde989a1b9ab2b234c57f5ec661289c095a049e246",
+      "bytes": 1715
+    },
+    "backtesting/location02/results/oracle_capture_summary.json": {
+      "sha256": "fd58215ffdaf4b9d996767a252b5097ee723a1cdca33e92e14c1838b5cab845f",
+      "bytes": 440
+    },
+    "backtesting/location02/results/oracle_summary.json": {
+      "sha256": "d7095edc02432d363556c28baaa63e52aa5172e9e12cd238190948cc99a1e63c",
+      "bytes": 213
+    },
+    "backtesting/location02/results/parent_manifest.json": {
+      "sha256": "0e219c320a34023260ec767ecd6bd5ccb318c0963edf2f03b7952ed8f2657d02",
+      "bytes": 1127
+    },
+    "backtesting/location02/results/pre_result_manifest.json": {
+      "sha256": "0f93eef96af4c27b5c6c2652c7386ddad5721dc529ccbd54562544894e5f4343",
+      "bytes": 3166
+    },
+    "backtesting/location02/results/primary_score_summary.json": {
+      "sha256": "3ef59104b5a52421b816210fa056e40b751c9a8ecb24e284c976a626a13bfb14",
+      "bytes": 3941
+    },
+    "backtesting/location02/results/release_summary.csv": {
+      "sha256": "865259f7b60a7ae50bf3f0c9aade4a84225bb7ba83c95bfdf957f7055ff22791",
+      "bytes": 22183
+    },
+    "backtesting/location02/results/source_calendar.csv": {
+      "sha256": "76b20fdfd11146a837ebdbf3b11dc2cdbc5c6c480f249719014ff44b0df3c7fe",
+      "bytes": 13726
+    },
+    "backtesting/location02/results/year_summary.csv": {
+      "sha256": "dd326f5e436ccdc7a587e584ab764b18e00720a98fc13431d73f936b43fe8e99",
+      "bytes": 6034
+    },
+    "LOCATION-02-ECB-SPF-CONSENSUS-LOCATION-ALPHA-report.md": {
+      "sha256": "0da00895a7b495f174122744dbe64fe16d5a0c9849b7da423b2092e114b7094d",
+      "bytes": 13426
+    },
+    "backtesting/location02/STATUS.json": {
+      "sha256": "d64a90ead46cb8b271810849394853ec56c756f0fba022dafa36dad2a6306aeb",
+      "bytes": 4205
+    }
+  }
+}
