@@ -1,0 +1,40 @@
+{
+  "executive_summary": "Frozen files hashed before labels; actual verified Git PRE receipt remains private until result artifacts.",
+  "parent_result_sha": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "frozen_file_hashes": {
+    "backtesting/location02/__init__.py": "3bc3829fc282b43fe39df7fa518291d28f45695cfc23aec90d5a75edf47dafb4",
+    "backtesting/location02/evaluate.py": "a8768c29423ff9c550227682bc3b480d3f4c969c6b0de1b36ff2eb2b61f1ee74",
+    "backtesting/location02/freeze.py": "f99932348fdc5fc0b03d930700b6f89e966b444a6422c14bdb1a0d666608c261",
+    "backtesting/location02/gate.py": "7142e266d3093e43a8c0ddb92d396bde943f25f8808875a4b5f2b02ef3b018b4",
+    "backtesting/location02/model.py": "71d1583a9dd8d5ff36a5249cffa0f5cc6fa0d839b56e64c02c56929aed291dcd",
+    "backtesting/location02/results/ecb_dataset_readiness.json": "036ea8b45a76c8ba8ca5b53f1b757c2bbf3c3f23c46d837eb5db3d4e3a6797ed",
+    "backtesting/location02/results/ecb_errata_ledger.csv": "63325c7f55d7822a8d1f90316ead8509b2a9cdd25c921562b8c6a9d0e09ccd3a",
+    "backtesting/location02/results/ecb_field_ledger.csv": "94be15966f3430541c1b93fb0b259c44ee8b9a6a47fe31c321fcf3d5a52654a0",
+    "backtesting/location02/results/ecb_pit_dataset_manifest.json": "9ef9e14952cf795cfcea1d237d37a9df3dcfc8b97047ade7847f24434874ee63",
+    "backtesting/location02/results/ecb_publication_ledger.csv": "3e773767061e3632bd5a3c0a944005dd1701840f7ec60a02b5ebc2f9242490d7",
+    "backtesting/location02/results/ecb_release_universe.csv": "0cd856e7e4bf74df8e290f7e3276df0bb7b961895d213bbe659bdfec021f97ec",
+    "backtesting/location02/results/experiment_spec.json": "089721e96b17e387b308ef63a89f2849fa553066f4ca7455a622d75072ae3572",
+    "backtesting/location02/results/source_calendar.csv": "76b20fdfd11146a837ebdbf3b11dc2cdbc5c6c480f249719014ff44b0df3c7fe",
+    "backtesting/location02/source_acquisition.py": "2fced78ea269a2698a6b1d238bb18da136b1b18335feb5b1ae0fca665574e7c8",
+    "backtesting/location02/source_dataset.py": "5f2005e2bfa6ffc604c52d16fff9ab6fc459cba72c548df3b3d0150048a871f8",
+    "tests/test_location02_artifacts.py": "a4bc9908d98a09edeff28e266338bdd890137b2f147f537b565093e224fec075",
+    "tests/test_location02_controls.py": "c2a57a35c69ae3fdb4ceed2740f53d8439d4e160c694ab3b10d78749b9ac89d1",
+    "tests/test_location02_model.py": "a4ed33096fd631db9cbea7c49dce8c5660670547925525e3ac527e7ee06a14d2",
+    "tests/test_location02_pit.py": "7c7978ea04be6664a6955497a71ac80e51ce5f8b85516d2db7e764a8ab0a1df8",
+    "tests/test_location02_source_acquisition.py": "55a0db70d87c3064e3c52a12d95503c52847249f9bc547d2a81396065832e33b"
+  },
+  "PRE_RESULT_LOCATION02_SHA": "PENDING_REMOTE_COMMIT_RECEIPT",
+  "Gate_A_passed": true,
+  "original_ledger_sha256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "baseline_recovery": {
+    "archive": "location01-baseline-2014-2024.zip",
+    "archive_sha256": "55e024ff6db25df14ba0aab0e83302461638f2a2f49b2f15e8f5a67b1b8f0ae9",
+    "members": 572,
+    "original_cache_hashes_verified": 572,
+    "no_rebuild": true,
+    "outcomes_loaded": false
+  },
+  "outcomes_loaded": false,
+  "fits": 0,
+  "scores": 0
+}

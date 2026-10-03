@@ -1,12 +1,421 @@
 {
   "executive_summary": "Official ECB release acquisition only; no forecasting outcomes, fitting or scores.",
-  "stage": "ACQUISITION",
   "rounds_enumerated": 40,
-  "archive_sha256": "b3b3aacc48ddfd0fcf1ad8a9c712be0a89351614156b6dda2ceedae6b355c1e0",
-  "admitted_period": [
-    "2015-01-23",
-    "2024-10-18"
+  "extracted_fields": 240,
+  "usable_releases_before_age_filter": 39,
+  "same_target_revision_events": 39,
+  "field_revision_count": 78,
+  "receipts": [
+    {
+      "round_id": "2015Q1",
+      "kind": "pdf",
+      "sha256": "4d6f24a8aab8e76dba5e8619456df5b280508edd96a3fd5d97e770c08dd608e2",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2015q1.en.pdf"
+    },
+    {
+      "round_id": "2015Q2",
+      "kind": "pdf",
+      "sha256": "b570d600e6347c0f25e7231e957bc2657932c3b07fe4149377e0a87e0b536550",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2015q2.en.pdf"
+    },
+    {
+      "round_id": "2015Q3",
+      "kind": "pdf",
+      "sha256": "4318cde190a8b32efc67a1d144a0a10e37adeee0917ae672232d9bf948071e65",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2015q3.en.pdf"
+    },
+    {
+      "round_id": "2015Q4",
+      "kind": "pdf",
+      "sha256": "dfcf5efa31db941924fdb58d51c22be06fe939a1aefcf48b66e27ccc0b5de3d1",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2015q4.en.pdf"
+    },
+    {
+      "round_id": "2016Q1",
+      "kind": "pdf",
+      "sha256": "0356c20eaec90603b36708b6db5a79e3491bebbe694d96dbca1638b5b3b496d8",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2016q1.en.pdf"
+    },
+    {
+      "round_id": "2016Q2",
+      "kind": "pdf",
+      "sha256": "314462036fb77ead1b7b437a06f3523708a3415948008079c9af07da2bf1ff6f",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2016q2.en.pdf"
+    },
+    {
+      "round_id": "2016Q3",
+      "kind": "pdf",
+      "sha256": "dfbcb50e3c1f31012892ee5b99f6c55290277e8f2cec3cc8cf1ae037d26e717c",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2016q3.en.pdf"
+    },
+    {
+      "round_id": "2016Q4",
+      "kind": "pdf",
+      "sha256": "f0f9b7b5c97a357b1a1da132af12d3315258b3ac924844d8c74218a3bdf614c4",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2016q4.en.pdf"
+    },
+    {
+      "round_id": "2017Q1",
+      "kind": "pdf",
+      "sha256": "b92b617b07cac1f1ac0be6af80a7626f9b753f71154ac9dcbcbb448d14e03c01",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2017q1.en.pdf"
+    },
+    {
+      "round_id": "2017Q2",
+      "kind": "pdf",
+      "sha256": "42375ca1a539e4008b0b0eec7bfcb5ade0432c7827ad76e1fb17c31e8d2341ce",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2017q2.en.pdf"
+    },
+    {
+      "round_id": "2017Q3",
+      "kind": "pdf",
+      "sha256": "5890ff365f90b5670ba596e6f8d3573d5d6316ecf8498b34983aacbe1eca73e5",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2017q3.en.pdf"
+    },
+    {
+      "round_id": "2017Q4",
+      "kind": "pdf",
+      "sha256": "d0965d2ae91a7c8ca92e60e4ce692ddbd7a24a8df662fff827d3bd3bba4770a3",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2017q4.en.pdf"
+    },
+    {
+      "round_id": "2018Q1",
+      "kind": "pdf",
+      "sha256": "d1b2d1d52420b66ea6cc316fd086630dca7cf248d0b49e8e95d7d66c183ad87a",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2018q1.en.pdf"
+    },
+    {
+      "round_id": "2018Q2",
+      "kind": "pdf",
+      "sha256": "67bf86d067cc020a70dc199c88428e05a67d3e1d8aba9dad4e7b475a3234dc82",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2018q2.en.pdf"
+    },
+    {
+      "round_id": "2018Q3",
+      "kind": "html",
+      "sha256": "7a082c0f4faa66bba0be6079b131ae243d46a750dc550efe82fe0b20a87e2153",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2018q3.en.html"
+    },
+    {
+      "round_id": "2018Q3",
+      "kind": "pdf",
+      "sha256": "42a86caec6095e52a6432a64e143b03a49db350dc971f5ec13d40071473c5fb7",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2018q3.en.pdf"
+    },
+    {
+      "round_id": "2018Q4",
+      "kind": "html",
+      "sha256": "d646ad940eb3e0ad3a3108f016bb4ba39d2228da0c43a24f5d52813f62f957e9",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2018q4.en.html"
+    },
+    {
+      "round_id": "2018Q4",
+      "kind": "pdf",
+      "sha256": "c436c5098a43fb92276479d21c919e0eb336c3f4799be5ff75e535e787d8b3ec",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2018q4.en.pdf"
+    },
+    {
+      "round_id": "2019Q1",
+      "kind": "html",
+      "sha256": "c85de0854d0a1657dabf01655d8f83b95f1322e0b1111f1fc34b940cb401f87b",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q1~d3429e5ec8.en.html"
+    },
+    {
+      "round_id": "2019Q1",
+      "kind": "pdf",
+      "sha256": "86afafea6534e59938aebcd651ec9c3bf48a13c47fb8cbaeb9039f10bc199f1b",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2019q1~d3429e5ec8.en.pdf"
+    },
+    {
+      "round_id": "2019Q2",
+      "kind": "html",
+      "sha256": "8062df04363cd8ec775ab8b9a79df2360559be1b8b520bb1334d2c2f9fa23284",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q2~d0f7127183.en.html"
+    },
+    {
+      "round_id": "2019Q2",
+      "kind": "pdf",
+      "sha256": "5d694ec6ae507ca8d2be19b61e8f64a66428ad9672d846d050ba0aaba5f08d3b",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2019q2~d0f7127183.en.pdf"
+    },
+    {
+      "round_id": "2019Q3",
+      "kind": "html",
+      "sha256": "86542415137b9628d888b41e275dbcaf13ca9eeda15e8f6735aa551523c03806",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q3~16746c88b2.en.html"
+    },
+    {
+      "round_id": "2019Q3",
+      "kind": "pdf",
+      "sha256": "a12946f77b2a2cf4c0b459b2539bd0d80ef41e962fb8ba790bc01362700e8112",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2019q3~16746c88b2.en.pdf"
+    },
+    {
+      "round_id": "2019Q4",
+      "kind": "html",
+      "sha256": "a4c3e43eddf3d16030690ea65d35bb68a3635cc74776f6d9bd9c371023eac090",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2019q4~909ade9ae4.en.html"
+    },
+    {
+      "round_id": "2019Q4",
+      "kind": "pdf",
+      "sha256": "ddb32bff94979cf50400e26ff19600cbda3769ce6edb23736090f95af0af4016",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2019q4~909ade9ae4.en.pdf"
+    },
+    {
+      "round_id": "2020Q1",
+      "kind": "html",
+      "sha256": "4aa93acfad64e8541015ef237084e98ab049fe3d3bca501ca938f4d8e3ece5c8",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2020q1~daa5609f81.en.html"
+    },
+    {
+      "round_id": "2020Q1",
+      "kind": "pdf",
+      "sha256": "9554842a0d9a03997225686a7a5ada046b3d89fb2b6600f8575610a3e0cb4e13",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2020q1~daa5609f81.en.pdf"
+    },
+    {
+      "round_id": "2020Q2",
+      "kind": "html",
+      "sha256": "0f9d2c3a678f48f8d2821d8e615bfec9637a1f4322eedb0b974ec04a7c58cce1",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2020q2~b83bc3700f.en.html"
+    },
+    {
+      "round_id": "2020Q2",
+      "kind": "pdf",
+      "sha256": "9cb072407f7f8b0807c07d4f569be3adef1ed3676d81631a3946aaef902fc50d",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2020q2~b83bc3700f.en.pdf"
+    },
+    {
+      "round_id": "2020Q3",
+      "kind": "html",
+      "sha256": "3db13702190cefc8fc549aafe87ce76ca3502264a041717f4cf08a2d4fc675c1",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2020q3~671db06790.en.html"
+    },
+    {
+      "round_id": "2020Q3",
+      "kind": "pdf",
+      "sha256": "849def0a899052a95c149f4492462a5c18aebd6ac81496cecff8ef0805bc55a2",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2020q3~671db06790.en.pdf"
+    },
+    {
+      "round_id": "2020Q4",
+      "kind": "html",
+      "sha256": "68aef12ac53730783dd65903cbb5403c4beaeb90e5522854965f91c813d9a226",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2020q4~dab5d8085d.en.html"
+    },
+    {
+      "round_id": "2020Q4",
+      "kind": "pdf",
+      "sha256": "819010e94fcca3faa3e8a2faebc08f0badf5381ec1074d9046b1766e0736df7e",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2020q4~dab5d8085d.en.pdf"
+    },
+    {
+      "round_id": "2021Q1",
+      "kind": "html",
+      "sha256": "c327f745fff3d30de70676919937ef95a4ef16de62b82ef3a8df0219c4381bab",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2021q1~041e9cfa36.en.html"
+    },
+    {
+      "round_id": "2021Q1",
+      "kind": "pdf",
+      "sha256": "35302b54e63453399967cdfb13e1d41efe0bc81ad9eceb07f58254bc337febb9",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2021q1~041e9cfa36.en.pdf"
+    },
+    {
+      "round_id": "2021Q2",
+      "kind": "html",
+      "sha256": "ca2b40e7f31fc54475029cfcadd5fec01fc7aabb319701cade9b1dd9ff29f8cd",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2021q2~ed61d3adc9.en.html"
+    },
+    {
+      "round_id": "2021Q2",
+      "kind": "pdf",
+      "sha256": "efafa6d55121e0ccb29330e52057879c51bfa4fa26c1b0fab2a2084fb233dba8",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2021q2~ed61d3adc9.en.pdf"
+    },
+    {
+      "round_id": "2021Q3",
+      "kind": "html",
+      "sha256": "16f8905cb8bcde66cfcd58ad0bb6aa404721fbc39f8b62d533a57abd0c05b782",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2021q3~6a629d9dd3.en.html"
+    },
+    {
+      "round_id": "2021Q3",
+      "kind": "pdf",
+      "sha256": "f58ba0f79cdcff09adbc4dff947c9d35d73cff73642faba5e955753ddf112029",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2021q3~6a629d9dd3.en.pdf"
+    },
+    {
+      "round_id": "2021Q4",
+      "kind": "html",
+      "sha256": "179349a1812c2de4085809a58ca1eb738cac10ee71b6a0c6d250237099cdf62e",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2021q4~5129df678e.en.html"
+    },
+    {
+      "round_id": "2021Q4",
+      "kind": "pdf",
+      "sha256": "9f6e70156e327bc7bbac94b7cb1883587dca783337b8f6d3bfe94693983b96d2",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2021q4~5129df678e.en.pdf"
+    },
+    {
+      "round_id": "2022Q1",
+      "kind": "html",
+      "sha256": "2c723cfe202f4dbe999835c22612d68977dda4c7967d1b838653550796eaee1b",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2022q1~082bc1deaa.en.html"
+    },
+    {
+      "round_id": "2022Q1",
+      "kind": "pdf",
+      "sha256": "8040f3dd837e186461ffed97623f0deab8c24e92a5666fd3d1b6aa90cbf7601d",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2022q1~082bc1deaa.en.pdf"
+    },
+    {
+      "round_id": "2022Q2",
+      "kind": "html",
+      "sha256": "ebcdefaeb626e87679f1a61ee9ede841ffb65878ee3f269b8be29e47491e5903",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2022q2~1182c59cb8.en.html"
+    },
+    {
+      "round_id": "2022Q2",
+      "kind": "pdf",
+      "sha256": "fa27903d1044a7471048fdead5d08458102c0d53c2e728ec538697bcd5ec9107",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2022q2~1182c59cb8.en.pdf"
+    },
+    {
+      "round_id": "2022Q3",
+      "kind": "html",
+      "sha256": "cbe83bc3be38cc7121fdb4e971898e4d113e8cfbc8c07e072a41267bdc431da8",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2022q3~cd97b475cc.en.html"
+    },
+    {
+      "round_id": "2022Q3",
+      "kind": "pdf",
+      "sha256": "abbc245a8f7994caca8f30d4acaf868775c76c23e2478879e92ef1d419d6b630",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2022q3~cd97b475cc.en.pdf"
+    },
+    {
+      "round_id": "2022Q4",
+      "kind": "html",
+      "sha256": "6657e6867fc344ff131fde25a77910ebb4ae315b4712d7d36218adfd2bdde4bd",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2022q4~eb4b9aa2c2.en.html"
+    },
+    {
+      "round_id": "2022Q4",
+      "kind": "pdf",
+      "sha256": "2217272a17ead02d47721c891370497f796d1516c74cda381f7053e3c4670693",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2022q4~eb4b9aa2c2.en.pdf"
+    },
+    {
+      "round_id": "2023Q1",
+      "kind": "html",
+      "sha256": "331149d11c7c0c766cf2cd9db6441c38f3a442ad623288bd7848d97da70b2fc6",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2023q1~af876c4cfb.en.html"
+    },
+    {
+      "round_id": "2023Q1",
+      "kind": "pdf",
+      "sha256": "84bcb5debff89d17ea25515b47b32a2b95a022c5096fc81375e101896d0ce317",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2023q1~af876c4cfb.en.pdf"
+    },
+    {
+      "round_id": "2023Q2",
+      "kind": "html",
+      "sha256": "f94bbf9311d64ab5251f0f6bd0dbd98257e1aee19cca818dbb26f38c5204685a",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2023q2~ca13b26598.en.html"
+    },
+    {
+      "round_id": "2023Q2",
+      "kind": "pdf",
+      "sha256": "8f535246a289de02ba2e20acb836fb81be0091a3432ad881f8e4557cc193b40c",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2023q2~ca13b26598.en.pdf"
+    },
+    {
+      "round_id": "2023Q3",
+      "kind": "html",
+      "sha256": "1f691384a2025396ff87ed189b74a8547d988327e4eec20710a542184d220301",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2023q3~7fb4e0b3a7.en.html"
+    },
+    {
+      "round_id": "2023Q3",
+      "kind": "pdf",
+      "sha256": "bd40c49e8df83435e7ad7dcd4cc166e163393bd09beab0fc036bb23e5a49f9b9",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2023q3~7fb4e0b3a7.en.pdf"
+    },
+    {
+      "round_id": "2023Q4",
+      "kind": "html",
+      "sha256": "8a9b46be4d42a114cf4fb3c318099ae7f55f2f1389debe480214c22f22eb57b1",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2023q4~845196eb29.en.html"
+    },
+    {
+      "round_id": "2023Q4",
+      "kind": "pdf",
+      "sha256": "798b83099926832f21df149c95cdf624d69e613cde9cb62816c85af2b1d16439",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2023q4~845196eb29.en.pdf"
+    },
+    {
+      "round_id": "2024Q1",
+      "kind": "html",
+      "sha256": "56ef14351b2d67f41ada20e40f4d6b6b14e21da29937749ab6d1aa579c07a956",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2024q1~95009caf14.en.html"
+    },
+    {
+      "round_id": "2024Q1",
+      "kind": "pdf",
+      "sha256": "825e5e3e39418cfc5af3e6976d09fda05683332ae4266ca0cce74486b6d70e8f",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2024q1~95009caf14.en.pdf"
+    },
+    {
+      "round_id": "2024Q2",
+      "kind": "html",
+      "sha256": "2f5330e8af4c04f214bf056bd6da88692175ac4646debceee747e8dd06420858",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2024q2~804a80b66b.en.html"
+    },
+    {
+      "round_id": "2024Q2",
+      "kind": "pdf",
+      "sha256": "97c5cf1eafa2a7bd6b5001a40fc1e5ecc9c215eeb1682dbee55cfc29c21ac06f",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2024q2~804a80b66b.en.pdf"
+    },
+    {
+      "round_id": "2024Q3",
+      "kind": "html",
+      "sha256": "21dee3e92de5a8a5d54d9d3009a1a7e25aaaa343e9ebbd5dc22622e13e49b915",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2024q3~98dde869e4.en.html"
+    },
+    {
+      "round_id": "2024Q3",
+      "kind": "pdf",
+      "sha256": "8d5b12146724794a2df397c5a4e18a1e94c70ad203299a347f345ab329f59592",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2024q3~98dde869e4.en.pdf"
+    },
+    {
+      "round_id": "2024Q4",
+      "kind": "html",
+      "sha256": "ce210422e3df98fe9aeb3d48ba1d090cee883a9c156294fcdc5190396d5f0d4d",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/html/ecb.spf2024q4~ee6e2cd847.en.html"
+    },
+    {
+      "round_id": "2024Q4",
+      "kind": "pdf",
+      "sha256": "f9a60aca82376c5724dc49eab58c0e879b58b0a8b7424bd32a1e5179bc3f2363",
+      "official_url": "https://www.ecb.europa.eu/stats/ecb_surveys/survey_of_professional_forecasters/pdf/ecb.spf2024q4~ee6e2cd847.en.pdf"
+    }
   ],
-  "no_current_csv_or_microdata": true,
-  "DATASET_READY": false
+  "parser_sha256": "5f2005e2bfa6ffc604c52d16fff9ab6fc459cba72c548df3b3d0150048a871f8",
+  "archive_sha256": "b3b3aacc48ddfd0fcf1ad8a9c712be0a89351614156b6dda2ceedae6b355c1e0",
+  "retrospective_comparisons": 216,
+  "retrospective_mismatches": [],
+  "unresolved_amendment_notices": [],
+  "historical_immutability_proven": false,
+  "PIT": "B; official original-round representations, no immutable historical hashes claimed",
+  "current_history_csv_used": false,
+  "microdata_used": false,
+  "outcomes_loaded": false,
+  "DATASET_READY": true,
+  "gate_completed_before_outcomes": true,
+  "field_ledger_sha256": "94be15966f3430541c1b93fb0b259c44ee8b9a6a47fe31c321fcf3d5a52654a0",
+  "source_calendar_sha256": "76b20fdfd11146a837ebdbf3b11dc2cdbc5c6c480f249719014ff44b0df3c7fe",
+  "age_rule_business_days": 90
 }

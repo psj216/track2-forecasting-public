@@ -12,6 +12,7 @@ import re
 import subprocess
 import time
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
@@ -118,18 +119,27 @@ def acquire(private, start, stop):
          "archive_sha256": digest(index), "admitted_period": ["2015-01-23", "2024-10-18"],
          "no_current_csv_or_microdata": True, "DATASET_READY": False})
     started = time.monotonic()
-    for i in range(start, min(stop, len(rows))):
-        row = rows[i]
+    def one_round(row):
         for kind in ("pdf", "html"):
             if row[kind + "_url"]:
                 fetch(row[kind + "_url"], cache, row["round_id"] + "." + kind)
+        return row
+
+    stop = min(stop, len(rows))
+    with ThreadPoolExecutor(max_workers=4) as pool:
+      futures = [pool.submit(one_round, row) for row in rows[start:stop]]
+      for done, future in enumerate(as_completed(futures), 1):
+        row = future.result()
+        completed = [r["round_id"] for r in rows if all(not r[k + "_url"] or
+                     (cache / (r["round_id"] + "." + k)).exists() for k in ("pdf", "html"))]
         status_path = ROOT / "backtesting/location02/STATUS.json"
         status = json.loads(status_path.read_text())
-        status.update(current_stage="source_acquisition", source_rounds_completed=i + 1,
+        status.update(current_stage="source_acquisition", source_rounds_completed=len(completed),
+                      completed_source_rounds=completed,
                       source_rounds_total=len(rows), last_successful_artifact="source_cache/" + row["round_id"],
                       last_update_time=datetime.now(timezone.utc).isoformat())
         dump(status_path, status)
-        print(f"stage=ECB_acquisition completed={i+1}/{len(rows)} elapsed={time.monotonic()-started:.1f}s round={row['round_id']} output={cache}", flush=True)
+        print(f"stage=ECB_acquisition completed={len(completed)}/{len(rows)} chunk={done}/{stop-start} elapsed={time.monotonic()-started:.1f}s round={row['round_id']} output={cache}", flush=True)
 
 
 if __name__ == "__main__":
