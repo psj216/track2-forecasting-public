@@ -1,0 +1,20 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "LOCATION03_RESULT": "NO",
+  "DATASET_READY": true,
+  "primary_model": "SLOOS_FULL5_RELEASE_BALANCED",
+  "primary_crps_ratio": 1.1484547012248485,
+  "oracle_capture": -0.21426701475482549,
+  "PRE_RESULT_LOCATION03_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049",
+  "parent_result_sha": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+  "improving_annual_folds": 2,
+  "annual_folds_evaluated": 8,
+  "CONCENTRATED": false,
+  "NEXT": "NY Fed SPD; separately frozen pre-ranked INFO01 source #3",
+  "SLOOS_CLOSED": true,
+  "ECB_CLOSED": true,
+  "independent_OOS": false,
+  "official_submission": false,
+  "new_alpha_validated": false,
+  "secondary_ablations_do_not_rescue_primary": true
+}

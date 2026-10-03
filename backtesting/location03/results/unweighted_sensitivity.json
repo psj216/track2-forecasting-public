@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "secondary_only": true,
+  "model": {
+    "cells": 2616,
+    "crps_ratio": 1.1707121958234348,
+    "oracle_capture": -0.24639160821136796,
+    "delta_mse": 2.544992390657581,
+    "r2": -0.3746102182204518,
+    "pearson": -0.06890567427808704,
+    "spearman": -0.05098136256473649,
+    "sign_accuracy": 0.5053516819571865,
+    "calibration_slope": -0.12607828753838404,
+    "mean_abs_predicted_delta": 0.5217336235034536,
+    "median_abs_predicted_delta": 0.3506993813298074,
+    "actual_mean_abs_delta": 0.9819540666490074
+  },
+  "cannot_replace_primary": true
+}

@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Exact frozen ledger eligibility; source calendar does not guarantee a stored valid UST target.",
+  "source_calendar_active_origins": 137,
+  "eligible_original_ledger_origins": 134,
+  "source_active_but_absent_from_valid_frozen_UST_ledger": [
+    "2017-07-04",
+    "2019-01-01",
+    "2023-07-04"
+  ],
+  "rebuild_or_substitution": false,
+  "cells_before_chronological_fold_readiness": 3906,
+  "target_maturity_cutoff": "2024-12-18"
+}

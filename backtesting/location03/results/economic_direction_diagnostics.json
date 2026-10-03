@@ -1,0 +1,31 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "descriptive_only": true,
+  "correlations": [
+    {
+      "feature": "CREDIT_STANDARDS",
+      "pearson_descriptive": -0.115776170699988,
+      "spearman_descriptive": -0.1344862676354415,
+      "causal_claim": false
+    },
+    {
+      "feature": "CREDIT_DEMAND",
+      "pearson_descriptive": 0.16175876855079005,
+      "spearman_descriptive": 0.16134471790335292,
+      "causal_claim": false
+    },
+    {
+      "feature": "DELTA_CREDIT_STANDARDS",
+      "pearson_descriptive": -0.05682071477556327,
+      "spearman_descriptive": -0.04062963464448469,
+      "causal_claim": false
+    },
+    {
+      "feature": "DELTA_CREDIT_DEMAND",
+      "pearson_descriptive": 0.042571168836970145,
+      "spearman_descriptive": -0.002461670037080123,
+      "causal_claim": false
+    }
+  ],
+  "coefficients_not_causal": true
+}

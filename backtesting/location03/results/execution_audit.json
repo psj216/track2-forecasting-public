@@ -1,0 +1,93 @@
+{
+  "executive_summary": "Completed honest NO evaluation; original PRE and technical amendment disclosed; recovery and remote result verification are external receipts.",
+  "PRE_RESULT_LOCATION03_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049",
+  "parent_result_sha": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+  "main_start_sha": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "source_gate_passed_before_labels": true,
+  "remote_PRE_verified_before_labels": true,
+  "compatibility_amendment_commit": "fe29b985a838261b78d207fb207519fb23f13b37",
+  "compatibility_amendment": {
+    "file": "backtesting/location03/model.py",
+    "original_sha256": "5ce111b3d8f9bfa66c2d6600344f4b86352b716dccf776f7ba43c709f68068e3",
+    "executed_sha256": "2296e3ba54ccf9fc4cace2178c8991e9ee88268b4b5b3722f05f67c535bb4a92",
+    "change": "train_mask Boolean to_numpy(copy=True) only; returned mask values bitwise identical",
+    "reason": "pandas3 read-only Boolean view rejects in-place intersection in folds",
+    "timing": "after labels loaded, before any model fit/prediction/forecast score completed",
+    "feature_model_CV_scoring_spec_changed": false,
+    "not_a_new_pre_outcome_freeze": true
+  },
+  "unchanged_fold_mask_count": 240,
+  "tests": {
+    "research": {
+      "passed": 39,
+      "skipped": 0,
+      "log": "research-final-tests.log",
+      "exit_code": 0
+    },
+    "affected": {
+      "passed": 51,
+      "skipped": 0,
+      "log": "affected-final-single-thread.log",
+      "exit_code": 0
+    },
+    "full_repository": {
+      "passed": 653,
+      "skipped": 2,
+      "log": "full-tests-single-thread.log",
+      "exit_code": 0
+    },
+    "common_toolkit": {
+      "passed": 250,
+      "skipped": 0,
+      "log": "common-tests-final.log",
+      "exit_code": 0
+    }
+  },
+  "test_resource_recovery": {
+    "executive_summary": "Test-only resource recovery; no scientific forecasts or completed controls rerun.",
+    "reason": "Full and affected suites competed with controls through excess BLAS threads; earlier parent full suite26.29sec, current incomplete after several minutes.",
+    "action": "Original suites were incomplete under thread contention. Direct signal attempt found no matching PIDs in that exec surface. Completed affected suite and resumed full suite with threads1 in separate bounded commands; preserved original logs.",
+    "model_parameters_features_and_scores_changed": false
+  },
+  "original_test_attempts_exit_code": 124,
+  "control_coverage": {
+    "RELEASE_VALUE_SHUFFLE": {
+      "replicates": 2000,
+      "contiguous": true,
+      "nonoverlapping": true
+    },
+    "RELEASE_DATE_PERMUTATION": {
+      "replicates": 2000,
+      "contiguous": true,
+      "nonoverlapping": true
+    },
+    "STANDARDS_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "contiguous": true,
+      "nonoverlapping": true
+    },
+    "DEMAND_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "contiguous": true,
+      "nonoverlapping": true
+    },
+    "GAUSSIAN_FULL5": {
+      "replicates": 2000,
+      "contiguous": true,
+      "nonoverlapping": true
+    },
+    "FEATURE_YEAR_SHIFT": {
+      "replicates": 1,
+      "contiguous": true,
+      "nonoverlapping": true
+    }
+  },
+  "bootstrap_replicates_per_block_scheme": 5000,
+  "parent_protected_files_verified": 2036,
+  "frozen_files_verified": 24,
+  "public_realized_market_labels": false,
+  "independent_OOS": false,
+  "official_submission": false,
+  "final_result_git_verification": "External private verification.json records actual RESULT SHA and verified critical GitHub blobs after result commit.",
+  "created_at": "2026-10-03T10:36:19.347579+00:00"
+}

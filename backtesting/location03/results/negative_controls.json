@@ -1,0 +1,72 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "controls": {
+    "RELEASE_VALUE_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.1285716269740953,
+      "ratio_95_range": [
+        1.0658239009507138,
+        1.2033528447610518
+      ],
+      "fraction_at_least_as_good": 0.709
+    },
+    "RELEASE_DATE_PERMUTATION": {
+      "replicates": 2000,
+      "median_ratio": 1.147657266974745,
+      "ratio_95_range": [
+        1.1351334936532915,
+        1.165484304794058
+      ],
+      "fraction_at_least_as_good": 0.552
+    },
+    "STANDARDS_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.1580336354228216,
+      "ratio_95_range": [
+        1.1037151072725429,
+        1.2280667766197735
+      ],
+      "fraction_at_least_as_good": 0.37
+    },
+    "DEMAND_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.1352067540175388,
+      "ratio_95_range": [
+        1.1005684072060185,
+        1.1776448595336761
+      ],
+      "fraction_at_least_as_good": 0.747
+    },
+    "GAUSSIAN_FULL5": {
+      "replicates": 2000,
+      "median_ratio": 1.070697315552961,
+      "ratio_95_range": [
+        1.0123789639621363,
+        1.12783734592234
+      ],
+      "fraction_at_least_as_good": 0.9935
+    },
+    "FEATURE_YEAR_SHIFT": {
+      "replicates": 1,
+      "median_ratio": 1.0322001780969496,
+      "ratio_95_range": [
+        1.0322001780969496,
+        1.0322001780969496
+      ],
+      "fraction_at_least_as_good": 1.0
+    }
+  },
+  "seed": 2026100303,
+  "replicates_per_stochastic_control": 2000,
+  "date_permutation": "Permuted 0..20 business-day nonnegative activation delays; no early publication; missing test state gives zero shift on fixed common ledger",
+  "value_shuffle": "Four economic values shuffled across training releases only, test values unchanged; age retained",
+  "sign_shuffle": "One balanced shuffled sign per training release applied jointly to standards level/change or demand level/change",
+  "mutation": {
+    "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+    "future_source_features_bitwise_unchanged": true,
+    "future_source_predictions_bitwise_unchanged": true,
+    "outcome_mutation_features_unchanged": true,
+    "outcome_mutation_scope": "Features invariant; training-label changes are not claimed to leave refitted models invariant"
+  },
+  "independent_OOS": false
+}

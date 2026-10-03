@@ -1,0 +1,275 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "overall_CRPS_ratio": 1.148454701224846,
+  "gain_definition": "sum paired baseline normalized CRPS minus candidate normalized CRPS",
+  "groups": {
+    "release_id": {
+      "blocks": [
+        {
+          "block": "2016-October",
+          "cells": 60,
+          "gain": -7.387219796246788,
+          "ratio_without_block": 1.1463562366854285
+        },
+        {
+          "block": "2017-April",
+          "cells": 60,
+          "gain": 7.079914780427465,
+          "ratio_without_block": 1.1552430379607874
+        },
+        {
+          "block": "2017-January",
+          "cells": 90,
+          "gain": -0.02201225721161837,
+          "ratio_without_block": 1.151485175030609
+        },
+        {
+          "block": "2017-July",
+          "cells": 90,
+          "gain": 13.263082048095761,
+          "ratio_without_block": 1.1611889018376025
+        },
+        {
+          "block": "2017-October",
+          "cells": 90,
+          "gain": 11.729644981374335,
+          "ratio_without_block": 1.158608155292808
+        },
+        {
+          "block": "2018-April",
+          "cells": 60,
+          "gain": -13.687922192773446,
+          "ratio_without_block": 1.144319167139606
+        },
+        {
+          "block": "2018-January",
+          "cells": 120,
+          "gain": -2.895308973721726,
+          "ratio_without_block": 1.1506068137480754
+        },
+        {
+          "block": "2018-July",
+          "cells": 90,
+          "gain": -2.5852952540541514,
+          "ratio_without_block": 1.1546625614330441
+        },
+        {
+          "block": "2018-October",
+          "cells": 60,
+          "gain": -9.290750286016165,
+          "ratio_without_block": 1.1470620112853407
+        },
+        {
+          "block": "2019-April",
+          "cells": 30,
+          "gain": -13.830648422090809,
+          "ratio_without_block": 1.1424639269807455
+        },
+        {
+          "block": "2019-January",
+          "cells": 90,
+          "gain": -23.718213952337205,
+          "ratio_without_block": 1.1425069347752264
+        },
+        {
+          "block": "2019-July",
+          "cells": 90,
+          "gain": -14.442820337430135,
+          "ratio_without_block": 1.1472501918841007
+        },
+        {
+          "block": "2019-October",
+          "cells": 90,
+          "gain": -1.4253965643705668,
+          "ratio_without_block": 1.1570204453769894
+        },
+        {
+          "block": "2020-April",
+          "cells": 90,
+          "gain": -26.45842303875939,
+          "ratio_without_block": 1.1372390358513356
+        },
+        {
+          "block": "2020-January",
+          "cells": 90,
+          "gain": -8.023579791455044,
+          "ratio_without_block": 1.147440681285508
+        },
+        {
+          "block": "2020-July",
+          "cells": 90,
+          "gain": -14.688532783987512,
+          "ratio_without_block": 1.1429253560573325
+        },
+        {
+          "block": "2020-October",
+          "cells": 90,
+          "gain": -40.5613373161743,
+          "ratio_without_block": 1.1302883409755806
+        },
+        {
+          "block": "2021-April",
+          "cells": 90,
+          "gain": 14.14383662006964,
+          "ratio_without_block": 1.1657951148461636
+        },
+        {
+          "block": "2021-January",
+          "cells": 90,
+          "gain": -41.56342310482215,
+          "ratio_without_block": 1.1299961007180324
+        },
+        {
+          "block": "2021-July",
+          "cells": 90,
+          "gain": -25.845254037249976,
+          "ratio_without_block": 1.146829260423485
+        },
+        {
+          "block": "2021-October",
+          "cells": 90,
+          "gain": -56.905637474946474,
+          "ratio_without_block": 1.1312770050679724
+        },
+        {
+          "block": "2022-April",
+          "cells": 90,
+          "gain": 1.4408850992352122,
+          "ratio_without_block": 1.1556982136735718
+        },
+        {
+          "block": "2022-January",
+          "cells": 90,
+          "gain": -4.655943148314808,
+          "ratio_without_block": 1.1552477721563013
+        },
+        {
+          "block": "2022-July",
+          "cells": 90,
+          "gain": -6.5496498878519525,
+          "ratio_without_block": 1.1490141733560661
+        },
+        {
+          "block": "2022-October",
+          "cells": 90,
+          "gain": -3.9875513915832297,
+          "ratio_without_block": 1.1496024186952025
+        },
+        {
+          "block": "2023-April",
+          "cells": 60,
+          "gain": -4.402221844562902,
+          "ratio_without_block": 1.1477275549129309
+        },
+        {
+          "block": "2023-January",
+          "cells": 90,
+          "gain": -5.21216149226768,
+          "ratio_without_block": 1.150297812062881
+        },
+        {
+          "block": "2023-July",
+          "cells": 90,
+          "gain": -0.8942293133350165,
+          "ratio_without_block": 1.1514479962542576
+        },
+        {
+          "block": "2023-October",
+          "cells": 90,
+          "gain": -0.36489820863886646,
+          "ratio_without_block": 1.150724613894757
+        },
+        {
+          "block": "2024-April",
+          "cells": 60,
+          "gain": 0.46837359729787353,
+          "ratio_without_block": 1.1510996752929494
+        },
+        {
+          "block": "2024-January",
+          "cells": 78,
+          "gain": -6.419355496945396,
+          "ratio_without_block": 1.1475208550742868
+        },
+        {
+          "block": "2024-July",
+          "cells": 42,
+          "gain": 1.9294988252746874,
+          "ratio_without_block": 1.1521476369466126
+        },
+        {
+          "block": "2024-October",
+          "cells": 6,
+          "gain": -0.4363025680269179,
+          "ratio_without_block": 1.1483292196342085
+        }
+      ],
+      "total_net_gain": -286.1988529833992,
+      "total_positive_gain": 50.055235951774975,
+      "top1_positive_gain_share": 0.2825645779333919,
+      "top3_positive_gain_share": 0.7818675290482162,
+      "removing_one_block_flips_improvement": false,
+      "removing_one_block_erases_majority_net_gain": false
+    },
+    "year": {
+      "blocks": [
+        {
+          "block": "2017",
+          "cells": 330,
+          "gain": 16.307460590193475,
+          "ratio_without_block": 1.1738688786809393
+        },
+        {
+          "block": "2018",
+          "cells": 300,
+          "gain": 1.0476134972239786,
+          "ratio_without_block": 1.1662146836507838
+        },
+        {
+          "block": "2019",
+          "cells": 330,
+          "gain": -83.96508183102739,
+          "ratio_without_block": 1.1223061693484508
+        },
+        {
+          "block": "2020",
+          "cells": 360,
+          "gain": -63.31547958820793,
+          "ratio_without_block": 1.1286586234092055
+        },
+        {
+          "block": "2021",
+          "cells": 360,
+          "gain": -100.66212822094695,
+          "ratio_without_block": 1.1216253526877107
+        },
+        {
+          "block": "2022",
+          "cells": 360,
+          "gain": -34.171356163374504,
+          "ratio_without_block": 1.1636823465182038
+        },
+        {
+          "block": "2023",
+          "cells": 330,
+          "gain": -16.94074317919964,
+          "ratio_without_block": 1.1523238975443657
+        },
+        {
+          "block": "2024",
+          "cells": 246,
+          "gain": -4.499138088060284,
+          "ratio_without_block": 1.155789671845025
+        }
+      ],
+      "total_net_gain": -286.1988529833992,
+      "total_positive_gain": 17.355074087417453,
+      "top1_positive_gain_share": 0.9396364721955578,
+      "top3_positive_gain_share": 1.0,
+      "removing_one_block_flips_improvement": false,
+      "removing_one_block_erases_majority_net_gain": false
+    }
+  },
+  "CONCENTRATED": false,
+  "retraining_or_subset_selection": false
+}

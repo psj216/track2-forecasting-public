@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "definition": "(1-R_SLOOS)/(1-R_perfect_location); unclipped",
+  "models": {
+    "V5.1": 0.0,
+    "SLOOS_FULL5_RELEASE_BALANCED": -0.21426701475482549,
+    "LEVELS_ONLY": -0.1308048071391364,
+    "CHANGES_ONLY": -0.09195250407860105,
+    "STANDARDS_ONLY": -0.14799034378788054,
+    "DEMAND_ONLY": -0.1044053920269054,
+    "SLOOS_FULL5_UNWEIGHTED": -0.24639160821136796,
+    "PERFECT_LOCATION": 1.0
+  }
+}

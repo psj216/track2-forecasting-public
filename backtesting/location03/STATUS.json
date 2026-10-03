@@ -1,5 +1,5 @@
 {
-  "executive_summary": "Restart from first incomplete stage; source gate not bypassed.",
+  "executive_summary": "Scientific evaluation, report and tests complete; honest NO; actual Git/archive completion receipt external.",
   "stages": {
     "environment_audit": "complete",
     "parent_recovery": "complete",
@@ -8,12 +8,39 @@
     "dataset_construction": "complete",
     "implementation": "complete",
     "research_tests": "complete",
-    "pre_result_freeze": "in_progress"
+    "pre_result_freeze": "complete",
+    "prepare": "complete",
+    "fit": "complete",
+    "score": "complete",
+    "bootstrap": "complete",
+    "controls": "complete",
+    "diagnostics": "complete",
+    "report": "complete",
+    "full_tests": "complete",
+    "common_toolkit_tests": "complete"
   },
-  "new_outcomes_accessed": false,
-  "updated_at": "2026-10-03T09:36:26.330722+00:00",
-  "completed_releases": 53,
-  "total_releases": 53,
+  "new_outcomes_accessed": true,
+  "updated_at": "2026-10-03T10:36:19.347750+00:00",
+  "completed_releases": 48,
+  "total_releases": 48,
   "DATASET_READY": true,
-  "research_tests_passed": 39
+  "research_tests_passed": 39,
+  "PRE_RESULT_LOCATION03_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049",
+  "affected_tests_passed": 51,
+  "current_stage": "git_verification_and_recovery",
+  "fitted_models": 6,
+  "valid_cells": 2616,
+  "control_replicates_completed": {
+    "RELEASE_VALUE_SHUFFLE": 2000,
+    "RELEASE_DATE_PERMUTATION": 2000,
+    "STANDARDS_SIGN_SHUFFLE": 2000,
+    "DEMAND_SIGN_SHUFFLE": 2000,
+    "GAUSSIAN_FULL5": 2000,
+    "FEATURE_YEAR_SHIFT": 1
+  },
+  "controls_total_stochastic_replicates": 10000,
+  "final_verdict": "NO",
+  "full_repository_tests_passed": 653,
+  "full_repository_tests_skipped": 2,
+  "common_toolkit_tests_passed": 250
 }

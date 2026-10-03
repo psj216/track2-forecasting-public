@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "future_source_features_bitwise_unchanged": true,
+  "future_source_predictions_bitwise_unchanged": true,
+  "outcome_mutation_features_unchanged": true,
+  "outcome_mutation_scope": "Features invariant; training-label changes are not claimed to leave refitted models invariant"
+}

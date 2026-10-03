@@ -1,0 +1,62 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "secondary_only": true,
+  "models": {
+    "LEVELS_ONLY": {
+      "cells": 2616,
+      "crps_ratio": 1.0906279885629344,
+      "oracle_capture": -0.1308048071391364,
+      "delta_mse": 2.260279391956074,
+      "r2": -0.22083003454997918,
+      "pearson": -0.1350349472379375,
+      "spearman": -0.11909845501010714,
+      "sign_accuracy": 0.5064984709480123,
+      "calibration_slope": -0.3863652764040649,
+      "mean_abs_predicted_delta": 0.3241623917533627,
+      "median_abs_predicted_delta": 0.2295445720426494,
+      "actual_mean_abs_delta": 0.9819540666490074
+    },
+    "CHANGES_ONLY": {
+      "cells": 2616,
+      "crps_ratio": 1.0637092066433336,
+      "oracle_capture": -0.09195250407860105,
+      "delta_mse": 2.071164548428127,
+      "r2": -0.11868466182314408,
+      "pearson": 0.019290592733764992,
+      "spearman": 0.009560098067048179,
+      "sign_accuracy": 0.5026758409785933,
+      "calibration_slope": 0.05745526931799323,
+      "mean_abs_predicted_delta": 0.3218709470516586,
+      "median_abs_predicted_delta": 0.22980838408525323,
+      "actual_mean_abs_delta": 0.9819540666490074
+    },
+    "STANDARDS_ONLY": {
+      "cells": 2616,
+      "crps_ratio": 1.1025349715929509,
+      "oracle_capture": -0.14799034378788054,
+      "delta_mse": 2.301153090561926,
+      "r2": -0.24290688003145045,
+      "pearson": -0.007588608609546992,
+      "spearman": 0.011234277224326284,
+      "sign_accuracy": 0.5416666666666666,
+      "calibration_slope": -0.015658788884817768,
+      "mean_abs_predicted_delta": 0.43289945378281935,
+      "median_abs_predicted_delta": 0.2851168539654064,
+      "actual_mean_abs_delta": 0.9819540666490074
+    },
+    "DEMAND_ONLY": {
+      "cells": 2616,
+      "crps_ratio": 1.0723371784376268,
+      "oracle_capture": -0.1044053920269054,
+      "delta_mse": 2.133050511492185,
+      "r2": -0.15211072529765501,
+      "pearson": -0.1972150613063697,
+      "spearman": -0.18429150201432334,
+      "sign_accuracy": 0.48814984709480125,
+      "calibration_slope": -0.8449606822210705,
+      "mean_abs_predicted_delta": 0.2678640680488198,
+      "median_abs_predicted_delta": 0.2236942349063254,
+      "actual_mean_abs_delta": 0.9819540666490074
+    }
+  }
+}

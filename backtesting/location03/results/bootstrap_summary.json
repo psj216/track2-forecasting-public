@@ -1,0 +1,61 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "release_block": {
+    "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+    "block": "release_id",
+    "blocks": 33,
+    "replicates": 5000,
+    "crps_ratio_95ci": [
+      1.0659812460977085,
+      1.237609186977088
+    ],
+    "delta_vs_v51_95ci": [
+      0.06598124609770861,
+      0.23760918697708805
+    ],
+    "oracle_capture_95ci": [
+      -0.35174528084264645,
+      -0.09607599113239193
+    ],
+    "pearson_95ci": [
+      -0.29977507435121503,
+      0.1269842359542958
+    ],
+    "spearman_95ci": [
+      -0.23666734395708047,
+      0.13876351504807732
+    ],
+    "paired": true,
+    "refit": false
+  },
+  "year_block": {
+    "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+    "block": "year",
+    "blocks": 8,
+    "replicates": 5000,
+    "crps_ratio_95ci": [
+      1.044253208625382,
+      1.2363091000070003
+    ],
+    "delta_vs_v51_95ci": [
+      0.04425320862538196,
+      0.23630910000700034
+    ],
+    "oracle_capture_95ci": [
+      -0.34089250956214834,
+      -0.06881286573701624
+    ],
+    "pearson_95ci": [
+      -0.2945755916892548,
+      0.14556709866384793
+    ],
+    "spearman_95ci": [
+      -0.26471861638752436,
+      0.18264014284745012
+    ],
+    "paired": true,
+    "refit": false
+  },
+  "IID_cell_bootstrap_not_used": true,
+  "independent_OOS": false
+}

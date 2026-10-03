@@ -1,0 +1,235 @@
+{
+  "executive_summary": "Frozen-specification research evaluation; outcomes used only after verified PRE; research exposed, not independent OOS.",
+  "forecast_origins": 91,
+  "evaluated_cells": 2616,
+  "unique_active_releases": 33,
+  "unique_change_events": 33,
+  "effective_independent_release_count_upper_bound": 33,
+  "release_blocks_are_not_proven_iid_N": true,
+  "origins_per_release": [
+    {
+      "release_id": "2016-October",
+      "origins": 2,
+      "cells": 60
+    },
+    {
+      "release_id": "2017-April",
+      "origins": 2,
+      "cells": 60
+    },
+    {
+      "release_id": "2017-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2017-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2017-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2018-April",
+      "origins": 2,
+      "cells": 60
+    },
+    {
+      "release_id": "2018-January",
+      "origins": 4,
+      "cells": 120
+    },
+    {
+      "release_id": "2018-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2018-October",
+      "origins": 2,
+      "cells": 60
+    },
+    {
+      "release_id": "2019-April",
+      "origins": 1,
+      "cells": 30
+    },
+    {
+      "release_id": "2019-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2019-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2019-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2020-April",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2020-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2020-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2020-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2021-April",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2021-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2021-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2021-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2022-April",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2022-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2022-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2022-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2023-April",
+      "origins": 2,
+      "cells": 60
+    },
+    {
+      "release_id": "2023-January",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2023-July",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2023-October",
+      "origins": 3,
+      "cells": 90
+    },
+    {
+      "release_id": "2024-April",
+      "origins": 3,
+      "cells": 60
+    },
+    {
+      "release_id": "2024-January",
+      "origins": 3,
+      "cells": 78
+    },
+    {
+      "release_id": "2024-July",
+      "origins": 3,
+      "cells": 42
+    },
+    {
+      "release_id": "2024-October",
+      "origins": 1,
+      "cells": 6
+    }
+  ],
+  "per_asset": [
+    {
+      "asset": "UST_10Y",
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "asset": "UST_20Y",
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "asset": "UST_2Y",
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "asset": "UST_30Y",
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "asset": "UST_5Y",
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "asset": "UST_7Y",
+      "releases": 33,
+      "origins": 91
+    }
+  ],
+  "per_horizon": [
+    {
+      "horizon": 5,
+      "releases": 33,
+      "origins": 91
+    },
+    {
+      "horizon": 21,
+      "releases": 32,
+      "origins": 90
+    },
+    {
+      "horizon": 63,
+      "releases": 32,
+      "origins": 88
+    },
+    {
+      "horizon": 126,
+      "releases": 31,
+      "origins": 85
+    },
+    {
+      "horizon": 189,
+      "releases": 30,
+      "origins": 82
+    }
+  ]
+}
