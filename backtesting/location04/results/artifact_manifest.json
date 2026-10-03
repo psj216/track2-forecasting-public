@@ -5,7 +5,7 @@
   "files": {
     "LOCATION-04-NYFED-SPD-POLICY-EXPECTATIONS-LOCATION-ALPHA-report.md": "db26596226209dd391b8c5055b5ee113176beace33e402ea5fbcf7d1156fd5ff",
     "backtesting/location04/EXECUTION-RECOVERY.md": "f9aa4ba356713b735420f36be4d0b3ef553b2eaaad44a96a873934280e13ca93",
-    "backtesting/location04/STATUS.json": "11561fd1f46d3337a133670f163c9f828a1c8d67d4d3e2726026646d51a62a75",
+    "backtesting/location04/STATUS.json": "0ef830e9afc04ff794bf91e86646f8ba59482816148abcd8aaaa585636433f90",
     "backtesting/location04/__init__.py": "2b8eb632fab352ecbce961c7324c086bb59df7cc30c224dcdcbf94f05ec886ec",
     "backtesting/location04/acquire.py": "5f6428675a0ec7eebbd69e8f9f37f5007aa1ffcfc5429b3b619cc28475eb73a9",
     "backtesting/location04/audit_source.py": "3616c27d2459279111b03ec65ee4c3724d34d94bc3f8bf9f73d675cf3cea351d",
@@ -24,7 +24,7 @@
     "backtesting/location04/results/economic_direction_diagnostics.json": "229cfe64377e892322187cb9546c6adf9b146bedd9fe68613fd21bc7a8475f81",
     "backtesting/location04/results/effective_sample_summary.json": "bec65b01456df1d3daa018b906a15462e21f44f1238e0260a6a98397ece2959e",
     "backtesting/location04/results/environment_audit.json": "15441648def8f8a3e281e7dc35cbbccfeb3c4c641a6bbb2d3121e78e3c3db8aa",
-    "backtesting/location04/results/execution_audit.json": "4421337d82d5dde29a0c6ec0d04f89674a15d329d2af6b4aa9ed1d130da607ad",
+    "backtesting/location04/results/execution_audit.json": "b85c6032acd3f062383b88325d1d21af66fbe27c7604e8ea7101c3f39a72b866",
     "backtesting/location04/results/experiment_spec.json": "36749d17df17978af2f135bf1d315e4085204f8f57151b0f19ff4ab35d7a766a",
     "backtesting/location04/results/feature_manifest.json": "94d48c80631decbcdaf43deb52842920708070933237eeb5e3a9e6d91c2f3420",
     "backtesting/location04/results/final_decision.json": "676c031326f3eac14f15a68531574f5005e85ca9391761ba5e348e9b87a80f36",

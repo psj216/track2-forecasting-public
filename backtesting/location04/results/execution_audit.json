@@ -58,5 +58,46 @@
   "restartability": "Per release acquisition, per fold predictions, per 250 control replicates, per bootstrap block artifacts",
   "public_private_firewall": "Public forecast predictions and aggregate research diagnostics only. No market truth, standardized future error, baseline draws or per-cell losses. User specifically requires aggregate oracle filenames. Unit-only assert_public_safe is not represented as passing this non-unit research directory.",
   "result_SHA_resolution": "Actual final remote commit and archive hashes are recorded in external private completion receipt to avoid self-referential commit hashes.",
-  "completed_at": "2026-10-03T18:47:20.662159+00:00"
+  "completed_at": "2026-10-03T18:47:20.662159+00:00",
+  "scientific_RESULT_SHA": "6598fe01f56a63cc66d694c31fd9e8728ecf0025",
+  "scientific_result_remote_verified": true,
+  "critical_remote_files": [
+    {
+      "path": "LOCATION-04-NYFED-SPD-POLICY-EXPECTATIONS-LOCATION-ALPHA-report.md",
+      "blob_sha": "a4d2837bb41d393375aafb105cadc3eae1ea3ee1"
+    },
+    {
+      "path": "backtesting/location04/results/final_decision.json",
+      "blob_sha": "7b5cf326c93ffd1667d68527ee6416cd67a00908"
+    },
+    {
+      "path": "backtesting/location04/results/bootstrap_summary.json",
+      "blob_sha": "6cf31032f5592b92684f947ef149e2c288cc35bb"
+    },
+    {
+      "path": "backtesting/location04/results/negative_controls.json",
+      "blob_sha": "79fb051aae04fe21439a45b526231efd6860a2be"
+    },
+    {
+      "path": "backtesting/location04/results/artifact_manifest.json",
+      "blob_sha": "f72370aca55bed3fd71a0f0dbb47d5339a2791f5"
+    },
+    {
+      "path": "backtesting/location04/results/experiment_spec.json",
+      "blob_sha": "a650e18e925a5798f45d82301b50b93ddd1d5075"
+    },
+    {
+      "path": "backtesting/location04/results/pre_result_manifest.json",
+      "blob_sha": "3242b6be3c3749f3168d209e4d2a732332ac504e"
+    }
+  ],
+  "main_unchanged_verified": true,
+  "clean_tree_verified_before_completion_metadata": true,
+  "recovery_snapshot": {
+    "scientific_RESULT_SHA": "6598fe01f56a63cc66d694c31fd9e8728ecf0025",
+    "CRC_verified": true,
+    "member_hashes_verified": 2894,
+    "archive_SHA256": "0443c7ff7ec9f36a3c974bf218b6bd29ce312d42deccc61ba72d17402e7970f9",
+    "scope": "Full scientific result snapshot before final completion metadata; final archive hash is external to its own bytes"
+  }
 }

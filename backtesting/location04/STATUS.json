@@ -2,7 +2,7 @@
   "executive_summary": "Resume first incomplete stage; Gate precedes labels/PRE.",
   "branch": "track2/location-04-nyfed-spd-alpha",
   "HEAD": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7",
-  "current_stage": "results_complete_git_verification_and_recovery",
+  "current_stage": "complete",
   "stages": {
     "environment_audit": "complete",
     "parent_verification": "complete",
@@ -21,11 +21,11 @@
     "diagnostics": "complete",
     "report": "complete",
     "common_tests": "250 passed",
-    "git_final": "pending exact remote RESULT receipt",
-    "recovery": "PRE saved; final archive follows RESULT verification"
+    "git_final": "Scientific RESULT branch/tree/parent/PRE/critical files remotely verified; final completion commit resolved by external receipt",
+    "recovery": "Full result snapshot CRC and 2894 member hashes verified; PRE recovery saved; final metadata archive resolved by external receipt"
   },
   "new_outcomes_accessed": true,
-  "last_update": "2026-10-03T18:47:20.662159+00:00",
+  "last_update": "2026-10-03T18:53:29.052743+00:00",
   "discovered_rounds": 112,
   "completed_source_files": 224,
   "total_source_files": 224,
@@ -52,5 +52,9 @@
   "source_files_complete": 224,
   "controls_complete": true,
   "bootstrap_complete": true,
-  "research_results_complete": true
+  "research_results_complete": true,
+  "scientific_RESULT_SHA": "6598fe01f56a63cc66d694c31fd9e8728ecf0025",
+  "main_unchanged": true,
+  "clean_tree_verified_before_completion_metadata": true,
+  "completion_receipt": "Private final-completion.json records exact final commit and final ZIP hash, avoiding recursive self-hashing"
 }
