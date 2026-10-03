@@ -1,0 +1,22 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "assets": [
+    "UST_2Y",
+    "UST_5Y",
+    "UST_7Y",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_30Y"
+  ],
+  "horizons_business_days": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "source": "Exact INFO01 frozen FED_SLOOS_ORIGINAL mapping",
+  "MKT": "Skipped before outcomes; plausible secondary outside primary; not evaluated",
+  "target_semantics": "original UST level targets, not returns",
+  "baseline": "exact previously frozen original V5.1 ledger and cache bytes only"
+}

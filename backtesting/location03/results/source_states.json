@@ -1,0 +1,437 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "states": [
+    {
+      "release_id": "2013-January",
+      "publication_date": "2013-02-04",
+      "CREDIT_STANDARDS": -7.52262443438914,
+      "CREDIT_DEMAND": 17.251131221719458,
+      "available_at": "2013-02-04T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": null,
+      "DELTA_CREDIT_DEMAND": null
+    },
+    {
+      "release_id": "2013-April",
+      "publication_date": "2013-05-06",
+      "CREDIT_STANDARDS": -21.0972850678733,
+      "CREDIT_DEMAND": 6.787330316742082,
+      "available_at": "2013-05-06T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -13.57466063348416,
+      "DELTA_CREDIT_DEMAND": -10.463800904977376
+    },
+    {
+      "release_id": "2013-July",
+      "publication_date": "2013-08-05",
+      "CREDIT_STANDARDS": -14.027777777777779,
+      "CREDIT_DEMAND": 19.78174603174603,
+      "available_at": "2013-08-05T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 7.0695072900955225,
+      "DELTA_CREDIT_DEMAND": 12.99441571500395
+    },
+    {
+      "release_id": "2013-October",
+      "publication_date": "2013-11-04",
+      "CREDIT_STANDARDS": -7.738095238095239,
+      "CREDIT_DEMAND": 0.6944444444444444,
+      "available_at": "2013-11-04T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 6.2896825396825395,
+      "DELTA_CREDIT_DEMAND": -19.08730158730159
+    },
+    {
+      "release_id": "2014-January",
+      "publication_date": "2014-02-03",
+      "CREDIT_STANDARDS": -8.932648401826484,
+      "CREDIT_DEMAND": 15.261431603318542,
+      "available_at": "2014-02-03T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -1.1945531637312445,
+      "DELTA_CREDIT_DEMAND": 14.566987158874097
+    },
+    {
+      "release_id": "2014-April",
+      "publication_date": "2014-05-05",
+      "CREDIT_STANDARDS": -9.076682316118935,
+      "CREDIT_DEMAND": 11.1697965571205,
+      "available_at": "2014-05-05T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -0.14403391429245183,
+      "DELTA_CREDIT_DEMAND": -4.091635046198041
+    },
+    {
+      "release_id": "2014-July",
+      "publication_date": "2014-08-04",
+      "CREDIT_STANDARDS": -9.5,
+      "CREDIT_DEMAND": 27.833333333333336,
+      "available_at": "2014-08-04T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -0.4233176838810646,
+      "DELTA_CREDIT_DEMAND": 16.663536776212837
+    },
+    {
+      "release_id": "2014-October",
+      "publication_date": "2014-11-03",
+      "CREDIT_STANDARDS": -9.372746935832733,
+      "CREDIT_DEMAND": 10.634462869502523,
+      "available_at": "2014-11-03T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 0.12725306416726667,
+      "DELTA_CREDIT_DEMAND": -17.198870463830815
+    },
+    {
+      "release_id": "2015-January",
+      "publication_date": "2015-02-02",
+      "CREDIT_STANDARDS": -5.596868884540117,
+      "CREDIT_DEMAND": 11.761252446183953,
+      "available_at": "2015-02-02T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 3.775878051292616,
+      "DELTA_CREDIT_DEMAND": 1.1267895766814302
+    },
+    {
+      "release_id": "2015-April",
+      "publication_date": "2015-05-04",
+      "CREDIT_STANDARDS": -3.3611111111111107,
+      "CREDIT_DEMAND": 2.0547945205479454,
+      "available_at": "2015-05-04T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 2.2357577734290066,
+      "DELTA_CREDIT_DEMAND": -9.706457925636007
+    },
+    {
+      "release_id": "2015-July",
+      "publication_date": "2015-08-03",
+      "CREDIT_STANDARDS": -6.506201387429052,
+      "CREDIT_DEMAND": 8.623188405797102,
+      "available_at": "2015-08-03T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -3.1450902763179416,
+      "DELTA_CREDIT_DEMAND": 6.568393885249156
+    },
+    {
+      "release_id": "2015-October",
+      "publication_date": "2015-11-02",
+      "CREDIT_STANDARDS": 4.411764705882353,
+      "CREDIT_DEMAND": 2.9644268774703555,
+      "available_at": "2015-11-02T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 10.917966093311406,
+      "DELTA_CREDIT_DEMAND": -5.658761528326746
+    },
+    {
+      "release_id": "2016-January",
+      "publication_date": "2016-02-01",
+      "CREDIT_STANDARDS": 6.222265097433919,
+      "CREDIT_DEMAND": -11.893583724569641,
+      "available_at": "2016-02-01T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 1.8105003915515656,
+      "DELTA_CREDIT_DEMAND": -14.858010602039997
+    },
+    {
+      "release_id": "2016-April",
+      "publication_date": "2016-05-02",
+      "CREDIT_STANDARDS": 8.695652173913043,
+      "CREDIT_DEMAND": -5.818414322250639,
+      "available_at": "2016-05-02T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 2.473387076479124,
+      "DELTA_CREDIT_DEMAND": 6.075169402319002
+    },
+    {
+      "release_id": "2016-July",
+      "publication_date": "2016-08-01",
+      "CREDIT_STANDARDS": 7.796780684104627,
+      "CREDIT_DEMAND": 3.6134453781512605,
+      "available_at": "2016-08-01T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -0.8988714898084158,
+      "DELTA_CREDIT_DEMAND": 9.4318597004019
+    },
+    {
+      "release_id": "2016-October",
+      "publication_date": "2016-11-07",
+      "CREDIT_STANDARDS": -0.01097453906935908,
+      "CREDIT_DEMAND": -3.6874451273046533,
+      "available_at": "2016-11-07T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -7.807755223173986,
+      "DELTA_CREDIT_DEMAND": -7.300890505455914
+    },
+    {
+      "release_id": "2017-January",
+      "publication_date": "2017-02-06",
+      "CREDIT_STANDARDS": 0.7246376811594203,
+      "CREDIT_DEMAND": 0.746268656716418,
+      "available_at": "2017-02-06T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 0.7356122202287794,
+      "DELTA_CREDIT_DEMAND": 4.433713784021071
+    },
+    {
+      "release_id": "2017-April",
+      "publication_date": "2017-05-08",
+      "CREDIT_STANDARDS": -2.857726066544193,
+      "CREDIT_DEMAND": -7.820048309178744,
+      "available_at": "2017-05-08T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -3.582363747703613,
+      "DELTA_CREDIT_DEMAND": -8.566316965895162
+    },
+    {
+      "release_id": "2017-July",
+      "publication_date": "2017-07-31",
+      "CREDIT_STANDARDS": -4.028478731074261,
+      "CREDIT_DEMAND": -8.660778658976207,
+      "available_at": "2017-07-31T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -1.1707526645300685,
+      "DELTA_CREDIT_DEMAND": -0.8407303497974636
+    },
+    {
+      "release_id": "2017-October",
+      "publication_date": "2017-11-06",
+      "CREDIT_STANDARDS": -8.63711681855841,
+      "CREDIT_DEMAND": -7.104391052195526,
+      "available_at": "2017-11-06T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -4.608638087484148,
+      "DELTA_CREDIT_DEMAND": 1.5563876067806817
+    },
+    {
+      "release_id": "2018-January",
+      "publication_date": "2018-02-05",
+      "CREDIT_STANDARDS": -5.0,
+      "CREDIT_DEMAND": 4.4136460554371,
+      "available_at": "2018-02-05T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 3.6371168185584093,
+      "DELTA_CREDIT_DEMAND": 11.518037107632626
+    },
+    {
+      "release_id": "2018-July",
+      "publication_date": "2018-08-06",
+      "CREDIT_STANDARDS": -11.75889328063241,
+      "CREDIT_DEMAND": 6.016042780748664,
+      "available_at": "2018-08-06T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -6.75889328063241,
+      "DELTA_CREDIT_DEMAND": 1.6023967253115634
+    },
+    {
+      "release_id": "2018-October",
+      "publication_date": "2018-11-13",
+      "CREDIT_STANDARDS": -9.509476031215161,
+      "CREDIT_DEMAND": -12.630992196209588,
+      "available_at": "2018-11-13T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 2.249417249417249,
+      "DELTA_CREDIT_DEMAND": -18.647034976958253
+    },
+    {
+      "release_id": "2019-January",
+      "publication_date": "2019-02-04",
+      "CREDIT_STANDARDS": 3.5628019323671496,
+      "CREDIT_DEMAND": -9.23913043478261,
+      "available_at": "2019-02-04T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 13.07227796358231,
+      "DELTA_CREDIT_DEMAND": 3.391861761426979
+    },
+    {
+      "release_id": "2019-April",
+      "publication_date": "2019-05-06",
+      "CREDIT_STANDARDS": -2.112676056338028,
+      "CREDIT_DEMAND": -13.597763048881525,
+      "available_at": "2019-05-06T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -5.675477988705177,
+      "DELTA_CREDIT_DEMAND": -4.358632614098916
+    },
+    {
+      "release_id": "2018-April",
+      "publication_date": "2019-06-06",
+      "CREDIT_STANDARDS": -7.126340130334244,
+      "CREDIT_DEMAND": -4.25642087821044,
+      "available_at": "2019-06-06T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -5.013664073996216,
+      "DELTA_CREDIT_DEMAND": 9.341342170671085
+    },
+    {
+      "release_id": "2019-July",
+      "publication_date": "2019-08-05",
+      "CREDIT_STANDARDS": -4.307001428863034,
+      "CREDIT_DEMAND": -5.181837292411183,
+      "available_at": "2019-08-05T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 2.81933870147121,
+      "DELTA_CREDIT_DEMAND": -0.9254164142007433
+    },
+    {
+      "release_id": "2019-October",
+      "publication_date": "2019-11-04",
+      "CREDIT_STANDARDS": 5.519604111153407,
+      "CREDIT_DEMAND": -19.261515036162923,
+      "available_at": "2019-11-04T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 9.826605540016441,
+      "DELTA_CREDIT_DEMAND": -14.07967774375174
+    },
+    {
+      "release_id": "2020-January",
+      "publication_date": "2020-02-03",
+      "CREDIT_STANDARDS": -0.7246376811594203,
+      "CREDIT_DEMAND": -11.269841269841269,
+      "available_at": "2020-02-03T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -6.244241792312827,
+      "DELTA_CREDIT_DEMAND": 7.991673766321654
+    },
+    {
+      "release_id": "2020-April",
+      "publication_date": "2020-05-04",
+      "CREDIT_STANDARDS": 40.61050061050061,
+      "CREDIT_DEMAND": 3.787878787878788,
+      "available_at": "2020-05-04T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 41.33513829166003,
+      "DELTA_CREDIT_DEMAND": 15.057720057720058
+    },
+    {
+      "release_id": "2020-July",
+      "publication_date": "2020-08-03",
+      "CREDIT_STANDARDS": 70.61643835616438,
+      "CREDIT_DEMAND": -25.929549902152644,
+      "available_at": "2020-08-03T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 30.005937745663772,
+      "DELTA_CREDIT_DEMAND": -29.717428690031433
+    },
+    {
+      "release_id": "2020-October",
+      "publication_date": "2020-11-09",
+      "CREDIT_STANDARDS": 34.5122215011897,
+      "CREDIT_DEMAND": -40.37433155080214,
+      "available_at": "2020-11-09T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -36.10421685497468,
+      "DELTA_CREDIT_DEMAND": -14.444781648649496
+    },
+    {
+      "release_id": "2021-January",
+      "publication_date": "2021-02-01",
+      "CREDIT_STANDARDS": 8.454011741682974,
+      "CREDIT_DEMAND": -14.379084967320262,
+      "available_at": "2021-02-01T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -26.058209759506724,
+      "DELTA_CREDIT_DEMAND": 25.99524658348188
+    },
+    {
+      "release_id": "2021-April",
+      "publication_date": "2021-05-03",
+      "CREDIT_STANDARDS": -13.962818003913895,
+      "CREDIT_DEMAND": -2.0229468599033815,
+      "available_at": "2021-05-03T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -22.41682974559687,
+      "DELTA_CREDIT_DEMAND": 12.35613810741688
+    },
+    {
+      "release_id": "2021-July",
+      "publication_date": "2021-08-03",
+      "CREDIT_STANDARDS": -29.073359073359075,
+      "CREDIT_DEMAND": 6.454248366013072,
+      "available_at": "2021-08-03T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -15.11054106944518,
+      "DELTA_CREDIT_DEMAND": 8.477195225916454
+    },
+    {
+      "release_id": "2021-October",
+      "publication_date": "2021-11-08",
+      "CREDIT_STANDARDS": -14.646464646464647,
+      "CREDIT_DEMAND": 3.787878787878788,
+      "available_at": "2021-11-08T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 14.426894426894428,
+      "DELTA_CREDIT_DEMAND": -2.666369578134284
+    },
+    {
+      "release_id": "2022-January",
+      "publication_date": "2022-01-31",
+      "CREDIT_STANDARDS": -11.933876811594203,
+      "CREDIT_DEMAND": 15.48494983277592,
+      "available_at": "2022-01-31T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 2.712587834870444,
+      "DELTA_CREDIT_DEMAND": 11.697071044897132
+    },
+    {
+      "release_id": "2022-April",
+      "publication_date": "2022-05-09",
+      "CREDIT_STANDARDS": -0.7575757575757576,
+      "CREDIT_DEMAND": 15.024813895781637,
+      "available_at": "2022-05-09T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 11.176301054018445,
+      "DELTA_CREDIT_DEMAND": -0.46013593699428235
+    },
+    {
+      "release_id": "2022-July",
+      "publication_date": "2022-08-01",
+      "CREDIT_STANDARDS": 23.232323232323232,
+      "CREDIT_DEMAND": 20.851370851370852,
+      "available_at": "2022-08-01T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 23.98989898989899,
+      "DELTA_CREDIT_DEMAND": 5.826556955589215
+    },
+    {
+      "release_id": "2022-October",
+      "publication_date": "2022-11-07",
+      "CREDIT_STANDARDS": 35.47430830039526,
+      "CREDIT_DEMAND": -15.349264705882353,
+      "available_at": "2022-11-07T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 12.241985068072026,
+      "DELTA_CREDIT_DEMAND": -36.20063555725321
+    },
+    {
+      "release_id": "2023-January",
+      "publication_date": "2023-02-06",
+      "CREDIT_STANDARDS": 44.26305970149254,
+      "CREDIT_DEMAND": -36.76539179104478,
+      "available_at": "2023-02-06T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": 8.78875140109728,
+      "DELTA_CREDIT_DEMAND": -21.416127085162422
+    },
+    {
+      "release_id": "2023-April",
+      "publication_date": "2023-05-08",
+      "CREDIT_STANDARDS": 46.34920634920635,
+      "CREDIT_DEMAND": -54.44444444444444,
+      "available_at": "2023-05-08T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 2.086146647713811,
+      "DELTA_CREDIT_DEMAND": -17.679052653399665
+    },
+    {
+      "release_id": "2023-July",
+      "publication_date": "2023-07-31",
+      "CREDIT_STANDARDS": 49.97309658326607,
+      "CREDIT_DEMAND": -49.53526517222526,
+      "available_at": "2023-07-31T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 3.623890234059722,
+      "DELTA_CREDIT_DEMAND": 4.909179272219184
+    },
+    {
+      "release_id": "2023-October",
+      "publication_date": "2023-11-06",
+      "CREDIT_STANDARDS": 32.12772397094431,
+      "CREDIT_DEMAND": -39.81564079690752,
+      "available_at": "2023-11-06T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -17.84537261232176,
+      "DELTA_CREDIT_DEMAND": 9.719624375317736
+    },
+    {
+      "release_id": "2024-January",
+      "publication_date": "2024-02-05",
+      "CREDIT_STANDARDS": 16.58009841443412,
+      "CREDIT_DEMAND": -23.70689655172414,
+      "available_at": "2024-02-05T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -15.54762555651019,
+      "DELTA_CREDIT_DEMAND": 16.108744245183384
+    },
+    {
+      "release_id": "2024-April",
+      "publication_date": "2024-05-06",
+      "CREDIT_STANDARDS": 17.64856557377049,
+      "CREDIT_DEMAND": -24.756659836065573,
+      "available_at": "2024-05-06T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": 1.0684671593363717,
+      "DELTA_CREDIT_DEMAND": -1.0497632843414344
+    },
+    {
+      "release_id": "2024-July",
+      "publication_date": "2024-08-05",
+      "CREDIT_STANDARDS": 8.066614623991672,
+      "CREDIT_DEMAND": 0.0,
+      "available_at": "2024-08-05T23:59:59-04:00",
+      "DELTA_CREDIT_STANDARDS": -9.581950949778818,
+      "DELTA_CREDIT_DEMAND": 24.756659836065573
+    },
+    {
+      "release_id": "2024-October",
+      "publication_date": "2024-11-12",
+      "CREDIT_STANDARDS": 6.666666666666667,
+      "CREDIT_DEMAND": -19.97777160322312,
+      "available_at": "2024-11-12T23:59:59-05:00",
+      "DELTA_CREDIT_STANDARDS": -1.399947957325005,
+      "DELTA_CREDIT_DEMAND": -19.97777160322312
+    }
+  ]
+}

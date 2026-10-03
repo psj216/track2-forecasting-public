@@ -1,0 +1,47 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "official_announcements_url": "https://www.federalreserve.gov/feeds/sloos.html",
+  "announcements_sha256": "443b57b8e014b65e50b1e804e92cce3202acbff7d217dd5d8ea39fa3432ccfd9",
+  "events": [
+    {
+      "date": "2019-11-05",
+      "affected": "Chart Data HTML only",
+      "C_I_original_table_counts_affected": false
+    },
+    {
+      "date": "2019-09-23",
+      "affected": "pre1997 C&I history and mortgage/reason DDP series; original tables correct",
+      "C_I_original_table_counts_affected": false
+    },
+    {
+      "date": "2019-03-29",
+      "affected": "Table1 question31 wording and mortgage DDP; numeric tables unchanged",
+      "C_I_original_table_counts_affected": false
+    },
+    {
+      "date": "2017-08-07",
+      "affected": "DDP missing July; original HTML correct",
+      "C_I_original_table_counts_affected": false
+    },
+    {
+      "date": "2015-02-04",
+      "affected": "Table1 question17 unchanged category; household credit question",
+      "C_I_original_table_counts_affected": false
+    },
+    {
+      "date": "2014-11-03",
+      "affected": "Missing chart figures",
+      "C_I_original_table_counts_affected": false
+    }
+  ],
+  "original_core_C_I_affected_corrections_found": 0,
+  "unknown_changes_not_proven_absent": true,
+  "April2024_bad_table_pdf_link": {
+    "linked_url": "https://www.federalreserve.gov/data/documents/sloos-202401-table1.pdf",
+    "action": "Reject January PDF for April row; verify April HTML counts against original official full April2024 report",
+    "verified_full_report_url": "https://www.federalreserve.gov/data/documents/sloos-202404.pdf"
+  },
+  "OCR_visual_corrections": "Original PDF first-column count reads verified visually before any forecasting labels; receipt in private recovery",
+  "HTML_template_HTTP_modified_not_activation_evidence": true,
+  "original_round_HTML_PDF_counts_crosschecked": true
+}

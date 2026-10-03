@@ -1,0 +1,30 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "features": [
+    "CREDIT_STANDARDS",
+    "CREDIT_DEMAND",
+    "DELTA_CREDIT_STANDARDS",
+    "DELTA_CREDIT_DEMAND",
+    "SOURCE_AGE_BUSINESS_DAYS"
+  ],
+  "exactly_five": true,
+  "source": "FED_SLOOS_ORIGINAL",
+  "levels": "unweighted mean original net percentages for two borrower sizes; both required",
+  "changes": "current minus preceding verified regular release; no imputation",
+  "signs": {
+    "standards_positive": "tightening",
+    "demand_positive": "stronger demand"
+  },
+  "excluded": [
+    "free text",
+    "housing",
+    "CRE",
+    "consumer",
+    "special questions",
+    "ECB",
+    "NYFed SPD",
+    "outcomes",
+    "card IDs"
+  ],
+  "source_age_business_days_max": 100
+}

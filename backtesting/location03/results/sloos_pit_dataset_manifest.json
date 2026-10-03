@@ -1,0 +1,25 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "complete_archive_entries_enumerated": 115,
+  "eligible_round_entries": 49,
+  "core_usable_releases": 48,
+  "active_full5_release_events": 47,
+  "unusable_first_delta_event": "2013-January",
+  "source_period": "2013-02-04 through 2024-11-12",
+  "excluded_specials": [
+    {
+      "release_id": "2020-September",
+      "reason": "Supplementary Main Street Lending survey; four fixed C&I fields absent"
+    }
+  ],
+  "features": [
+    "CREDIT_STANDARDS",
+    "CREDIT_DEMAND",
+    "DELTA_CREDIT_STANDARDS",
+    "DELTA_CREDIT_DEMAND",
+    "SOURCE_AGE_BUSINESS_DAYS"
+  ],
+  "age_limit_business_days": 100,
+  "timing": "date-only at 23:59:59 America/New_York; previous business day 16:00 origin cutoff",
+  "original_files_verified": 153
+}

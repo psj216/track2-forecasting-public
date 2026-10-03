@@ -1,0 +1,1537 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "documents": [
+    {
+      "release_id": "2013-April",
+      "path": "2013-April/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201305/default.htm",
+      "sha256": "3c9cab8da51469e92a14ca888d4f43fd29dd83458ea60539e4dfa577fb92d5c3",
+      "bytes": 20175,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-April",
+      "path": "2013-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201305/table1.htm",
+      "sha256": "73e269b0a4a9063961765e2b081c5130ed45b3676b9c12aeb6613be37ef5ee1d",
+      "bytes": 423579,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-April",
+      "path": "2013-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201305/table1.pdf",
+      "sha256": "11e3410ddf0682dd853ca93172a25d7e88a12e617d3c0c7b86a62c62c0b9da4a",
+      "bytes": 240751,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2013-January",
+      "path": "2013-January/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201302/default.htm",
+      "sha256": "268b3fe6b770b244c9532f10e7ac1566fd77c06a1bf9f63d817a99363da081c7",
+      "bytes": 17438,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-January",
+      "path": "2013-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201302/table1.htm",
+      "sha256": "a75625133d6cb96b2f04963342604866fc7a57acf9fb8eeb346a2caeefc677d6",
+      "bytes": 327701,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-January",
+      "path": "2013-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201302/table1.pdf",
+      "sha256": "0a65d98fe771b919460ff8ae43315ff23653c2c013c7bdc2a6be7286ecdb1e85",
+      "bytes": 191723,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2013-July",
+      "path": "2013-July/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201308/default.htm",
+      "sha256": "03e57b9af339ff5820708ddf103eeb5d0b9b2515943cd5dcbe2cc29f1920d78a",
+      "bytes": 18922,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-July",
+      "path": "2013-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201308/table1.htm",
+      "sha256": "d5c46d2166ecffba6fbac0f7e65ff3047ace67b79f19af75532649b1de69bde9",
+      "bytes": 364263,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-July",
+      "path": "2013-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201308/table1.pdf",
+      "sha256": "ee42cf1e65ca369b1b62c54f8461af1e987f7c37baf54e3378b61687c5075837",
+      "bytes": 216586,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2013-October",
+      "path": "2013-October/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201311/default.htm",
+      "sha256": "ca1f22c987a61ec53bd878a69f969b8a75f96cabf1327618b6a4649237a6b7d5",
+      "bytes": 18408,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-October",
+      "path": "2013-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201311/table1.htm",
+      "sha256": "5b8390739ed9de5504cd8d399c4410d89ea41f3d3bc54d5fe8c018ae32730190",
+      "bytes": 367749,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2013-October",
+      "path": "2013-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201311/table1.pdf",
+      "sha256": "6d060e100b1ac1909d682f9fbce4b30df52bc97b032c6c25556e9d09cd40173f",
+      "bytes": 227062,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2014-April",
+      "path": "2014-April/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201405/default.htm",
+      "sha256": "51ca510fd9aed0ff2a91988ae189c03f819ce0447b9ac6506826a938f5463a37",
+      "bytes": 15054,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-April",
+      "path": "2014-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201405/table1.htm",
+      "sha256": "687b4edeab6b30d798922da0641d74280ffeca0085b20a716352fdf88db1746c",
+      "bytes": 356783,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-April",
+      "path": "2014-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201405/table1.pdf",
+      "sha256": "5615f2ea3da7561edecc3ae30e7d59fae55cced40773f7e8801b4552bd6049ad",
+      "bytes": 263196,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2014-January",
+      "path": "2014-January/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201402/default.htm",
+      "sha256": "188fb443a5b6961867e0888bf863a7c0f96fd7a96dfd39aa8bfb4b664e6a4db2",
+      "bytes": 20696,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-January",
+      "path": "2014-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201402/table1.htm",
+      "sha256": "4d839d00230eaa12a33852128f4acb6d5c16c36a2b232f69141058b7e13904da",
+      "bytes": 393498,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-January",
+      "path": "2014-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201402/table1.pdf",
+      "sha256": "4edd908b9b264ebec9368ccd921a444e2a2bf90a0ca819eadde36e403c64d0b9",
+      "bytes": 271747,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2014-July",
+      "path": "2014-July/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201408/default.htm",
+      "sha256": "fbd3dff911e2a25dd95951fe9d1386ca6e7448dc59d14b2fdc86f1dec61cd29e",
+      "bytes": 21789,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-July",
+      "path": "2014-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201408/table1.htm",
+      "sha256": "c1474b2bb6a3fb78290907d32ea9dc1ab4f0e5d81fb0daf498b233196770ea80",
+      "bytes": 446219,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-July",
+      "path": "2014-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201408/table1.pdf",
+      "sha256": "2bbe96ab17867edc7ab3002efa336056ea51685db4900a42bcdcdd5e20a4ec12",
+      "bytes": 310727,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2014-October",
+      "path": "2014-October/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201411/default.htm",
+      "sha256": "194c210244862c1ac52cfd064829eba59a015bf373b0f5c9546a674b04137cb7",
+      "bytes": 15846,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-October",
+      "path": "2014-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201411/table1.htm",
+      "sha256": "655a166016e1872768d898bd00247db3fbf373a1977176945f68900a0b3fa21b",
+      "bytes": 347753,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2014-October",
+      "path": "2014-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201411/table1.pdf",
+      "sha256": "5caa357a03348480b56659f2218a0d592b4b7b233b06e910721f45de4ec209b9",
+      "bytes": 250506,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2015-April",
+      "path": "2015-April/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201505/default.htm",
+      "sha256": "e0db651acbc2d15747d53131af531385ac8f66ed64fd2cd8c2a2a3b8aa915ff9",
+      "bytes": 22635,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-April",
+      "path": "2015-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201505/table1.htm",
+      "sha256": "cf37f8104b36891d25a649ea74ae5d4548b78551f4c528665cfa269deb3f9ab7",
+      "bytes": 385131,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-April",
+      "path": "2015-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201505/table1.pdf",
+      "sha256": "d6c3920c7b61fbcc21be20918a4bd834b043a311b24529a01884872c418d16fd",
+      "bytes": 341780,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2015-January",
+      "path": "2015-January/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201502/default.htm",
+      "sha256": "19d4bdeced76f0392e65f533c3b9b9df50ffcf2ca2daa07b8677233851242f72",
+      "bytes": 22111,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-January",
+      "path": "2015-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201502/table1.htm",
+      "sha256": "35c783b04955cb2b29a5101a999ebb3b4a41f2f2cabe458bb8d34d2027b1a6e7",
+      "bytes": 366199,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-January",
+      "path": "2015-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201502/table1.pdf",
+      "sha256": "1cb12727898a63eb89b39a7b54ce34d17dd8e7d4661f2f7aad0a0583a6b5c9c2",
+      "bytes": 224913,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2015-July",
+      "path": "2015-July/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201508/default.htm",
+      "sha256": "e65fe26f4e383818bb31f4f580ff0e743934052658c4887aa150e421005c4356",
+      "bytes": 19020,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-July",
+      "path": "2015-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201508/table1.htm",
+      "sha256": "807f73c156ad9dc28c4500fe490db1a9800a21c78ae5d7e4ff76f58699aa667a",
+      "bytes": 379628,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-July",
+      "path": "2015-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201508/table1.pdf",
+      "sha256": "07a7fd000b8167f83e820e980c8b66295cc23f99313317216583f93624cb7ac3",
+      "bytes": 335341,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2015-October",
+      "path": "2015-October/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201511/default.htm",
+      "sha256": "ee221c9b7636f002080ac1de6b309e932117fceb971817a7b71df200221b6904",
+      "bytes": 18103,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-October",
+      "path": "2015-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201511/table1.htm",
+      "sha256": "b83dd475db010839c3e3cf0032221064cc0552e3b27eeaa38c5d0dd7d29dac00",
+      "bytes": 297358,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2015-October",
+      "path": "2015-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201511/table1.pdf",
+      "sha256": "21cacfa1277d05de375923abc85451d4e2727f596dc91780c09de1c4f1c22a07",
+      "bytes": 255689,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2016-April",
+      "path": "2016-April/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201605/default.htm",
+      "sha256": "9d4e1832c74818d52c613e37c707d2238630fcced24c8be12c13585fb833a32e",
+      "bytes": 20375,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-April",
+      "path": "2016-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201605/table1.htm",
+      "sha256": "5a5875b01fd31ed09ed0c6c609fc69001e37a28cf92e25203748ac4d6d5c6635",
+      "bytes": 387003,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-April",
+      "path": "2016-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201605/table1.pdf",
+      "sha256": "b15d3356a8b5395d6ba165dadd3ebc9a4282b5908b88203b15a3a9fb0af63ab7",
+      "bytes": 346267,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2016-January",
+      "path": "2016-January/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201602/default.htm",
+      "sha256": "77f8d2855a792488146b6866aac58913724d15ceb5b00efb74ab8444c8409087",
+      "bytes": 23054,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-January",
+      "path": "2016-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201602/table1.htm",
+      "sha256": "c5667ae0741230a786026802f865e1c827c67567ee9d6d12a4fe0aded93ea564",
+      "bytes": 426647,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-January",
+      "path": "2016-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201602/table1.pdf",
+      "sha256": "94e80a0aa2f66ef92dba491994b35fa8c341c89c409e9976ff550591c9a14211",
+      "bytes": 367327,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2016-July",
+      "path": "2016-July/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201608/default.htm",
+      "sha256": "7052d19ffaaa24c6e8d86150d2a4551c153dda611cb2408f067acba29631e259",
+      "bytes": 23674,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-July",
+      "path": "2016-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201608/table1.htm",
+      "sha256": "02b87f51be3acb50343cb4d98841431730b5b74b9ee5baf470c32c9310a937d5",
+      "bytes": 384773,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-July",
+      "path": "2016-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201608/table1.pdf",
+      "sha256": "c3350731821d5d65858a40a9e9b6e79d8381a75a27e1fc39229759471ca465c7",
+      "bytes": 350965,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2016-October",
+      "path": "2016-October/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201611/default.htm",
+      "sha256": "95c2b3db8ad75f1fd5c5ae732d9c3716dc2278c0a2885c0fb8e0e407cdd453ef",
+      "bytes": 23391,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-October",
+      "path": "2016-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201611/table1.htm",
+      "sha256": "852102be3fbf530f5f833997e4f724d31feb47f42c3e3f702b7228ab4c636a16",
+      "bytes": 1429679,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2016-October",
+      "path": "2016-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201611/table1.pdf",
+      "sha256": "992b05313a544f4cef97291803cff9aa91cb23d3e945a4cf1e161ee5f32e45d6",
+      "bytes": 1298042,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2017-April",
+      "path": "2017-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201705/default.htm",
+      "sha256": "7480711b9855a11b68a182cc27dd0552825900be5cc3df0ba710c65433d64c23",
+      "bytes": 84193,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-April",
+      "path": "2017-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201705/table1.htm",
+      "sha256": "4ba18317b3e5e7c49fd9436f6d6cf1176dfa8d70a5da2e280e1d4a59d680e5f5",
+      "bytes": 564367,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-April",
+      "path": "2017-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201705/table1.pdf",
+      "sha256": "e2b896d996c6020313094d8503ae420a6605dafe3e598b5a2719f57e96e7d929",
+      "bytes": 351167,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2017-January",
+      "path": "2017-January/main.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/SnLoanSurvey/201702/default.htm",
+      "sha256": "a504aeca3b9c8b21e220cd122e27b7c150ce6bf20d1694cdc55161e17b3fb633",
+      "bytes": 23524,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-January",
+      "path": "2017-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201702/table1.htm",
+      "sha256": "306d50f334e9a67612d680685e9654e3cd4e604812940f658dc5bb4a90ad6705",
+      "bytes": 388519,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-January",
+      "path": "2017-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/boarddocs/snloansurvey/201702/table1.pdf",
+      "sha256": "576dae436d1d52d6f88c1709de5dbd335e8bb8ecf426d65f9dea9c164bfdf3ad",
+      "bytes": 352904,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2017-July",
+      "path": "2017-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201708/default.htm",
+      "sha256": "019b2c33efc41b033310c38a5657c390afea2816676b0b99fa31a94f92745ec0",
+      "bytes": 83391,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-July",
+      "path": "2017-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201708/table1.htm",
+      "sha256": "fb35893f9ce6936e536bbee0d15768a1bbe420e174495c0f0edd7e0ddd83e26a",
+      "bytes": 507465,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-July",
+      "path": "2017-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201708/table1.pdf",
+      "sha256": "bf23058c95963717639a0a60dba2cf1116fe1bae733ec417038b8e15340f9809",
+      "bytes": 346850,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2017-October",
+      "path": "2017-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201710/default.htm",
+      "sha256": "e67fe72385941f39d4176b6d93b00a6649a3562fef90848ea413d2ea7ce316e9",
+      "bytes": 84777,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-October",
+      "path": "2017-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201710/table1.htm",
+      "sha256": "61b7101e116a6dc5a0ec7e1c067d31c77c3d2077871b7559a3699ad14bdc810b",
+      "bytes": 668477,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2017-October",
+      "path": "2017-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/sloos/201710/table1.pdf",
+      "sha256": "23399bda618a139e955c802f049db76c8a391b181a0a7f5f3cea5393affbc5ed",
+      "bytes": 2226655,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2018-April",
+      "path": "2018-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201804.htm",
+      "sha256": "3bbdfdc732ec54c196bd65821964479c89d58b4d3b8754cc1f56c556a563aa14",
+      "bytes": 91181,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-April",
+      "path": "2018-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201804-table1.htm",
+      "sha256": "7c3ec251cf5371155f7c77952060bbbdc5130768a93d77e33df61b1fbb8e6640",
+      "bytes": 664148,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-April",
+      "path": "2018-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201804-table1.pdf",
+      "sha256": "a64d42e6520f8fb11b65cdd9a934778a2d26c04569056ed3b6900acccb87bb7e",
+      "bytes": 284113,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2018-January",
+      "path": "2018-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201802.htm",
+      "sha256": "bbf79cef313c7b86b8cf4491f6d1380cde2c8d108a791c810f5210d2197fc831",
+      "bytes": 95128,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-January",
+      "path": "2018-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201802-table1.htm",
+      "sha256": "9c919042ed84ad0580ec682ebc93fea3a6e25b5daadd2f3c3854062b7ac8fd4f",
+      "bytes": 577538,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-January",
+      "path": "2018-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201802-table1.pdf",
+      "sha256": "9716371cb5af45aa49c56134be5bae8f01b3592983e305ffd7dc4c2ba4171983",
+      "bytes": 277670,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2018-July",
+      "path": "2018-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201807.htm",
+      "sha256": "573833e02625db3e696f969c23b559cbe6916167f887bdf061fedb22b7dcd965",
+      "bytes": 94833,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-July",
+      "path": "2018-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201807-table-1.htm",
+      "sha256": "a39ddfaa1c38f3917c2bd5635d56ca7b858bea6aec234d483e7ed36b3516e177",
+      "bytes": 578053,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-July",
+      "path": "2018-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201807-table1.pdf",
+      "sha256": "c718e502ee7330386c10635133e0ac525147bf655384d8824fbe563337c2afe3",
+      "bytes": 325905,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2018-October",
+      "path": "2018-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201810.htm",
+      "sha256": "998b2b914588ac47d81e813d203278addda3d2cf7eef1589dcc6dfee39de112e",
+      "bytes": 90868,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-October",
+      "path": "2018-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201810-table-1.htm",
+      "sha256": "c0b0acf4fbddfe011339d38a861ef3296f883590d85b4e55631736c72ae08ee4",
+      "bytes": 668278,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2018-October",
+      "path": "2018-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201810-table1.pdf",
+      "sha256": "68e560744cbed65bbfc7781d07ec4c33b2aa4c07b1713b373e2603de58a20661",
+      "bytes": 434257,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2019-April",
+      "path": "2019-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201904.htm",
+      "sha256": "78d8a6daadf5d1b2f457e8ce9d0f1e56c543bea951387b562fee42e7411ef0ee",
+      "bytes": 94226,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-April",
+      "path": "2019-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201904-table-1.htm",
+      "sha256": "8ad567d51ca2d891fb78e51012e5339ee183f1bff6f45ea6bff828424f8143f1",
+      "bytes": 701428,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-April",
+      "path": "2019-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201904-table1.pdf",
+      "sha256": "23fc71e91e4dbb9b4e2c759d282539290576e93d171bae84371813a8ea60ffec",
+      "bytes": 405676,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2019-January",
+      "path": "2019-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201901.htm",
+      "sha256": "11f7357deabb6b2426c6df0bb4946b4e71675992efa5661f98d5b87bb03b7837",
+      "bytes": 90941,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-January",
+      "path": "2019-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201901-table-1.htm",
+      "sha256": "630b4bb7c84d46fe95cb8afc2dffd96f2755c7cc5d25692ef41b6c4d7fc8cba6",
+      "bytes": 656424,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-January",
+      "path": "2019-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201901-table1.pdf",
+      "sha256": "02284e0a85592a1f88911018a0c57445d0ea86d91aa2a708569c739f757370cc",
+      "bytes": 330904,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2019-July",
+      "path": "2019-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201907.htm",
+      "sha256": "ff520d4668aee2c62ad2d53485bf5e51c466e75185e3999a2975fc4adf928276",
+      "bytes": 93854,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-July",
+      "path": "2019-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201907-table-1.htm",
+      "sha256": "de1fcc17f7ad43dfd2e5094cfb1da875f8b0efa4e27efa9d33c793f75f103277",
+      "bytes": 581834,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-July",
+      "path": "2019-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201907-table1.pdf",
+      "sha256": "4db402525d3f1e65a6f68084d7e21af0a0675a2dd0d0a5229da19589c2a3451e",
+      "bytes": 262937,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2019-October",
+      "path": "2019-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201910.htm",
+      "sha256": "9d0d316f46e130beee5d8745869dcb2eb8783ddb1d9a28ddb7d7e0c5ad0fef3a",
+      "bytes": 90976,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-October",
+      "path": "2019-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-201910-table-1.htm",
+      "sha256": "73253be3d52045f6c3b561de9d375a5a8b9fd9eab606595e3753d3828a4a5ca0",
+      "bytes": 605843,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2019-October",
+      "path": "2019-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-201910-table1.pdf",
+      "sha256": "a76bb4ebb2cb7bebc6d55b56a682fb43991031639ff4b2e7519fa531969c5f15",
+      "bytes": 366179,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2020-April",
+      "path": "2020-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202004.htm",
+      "sha256": "2856be342fa6a02f06e9f3dddc32856b7fbdbe21606f0c12d4272a678145421c",
+      "bytes": 96460,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-April",
+      "path": "2020-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202004-table-1.htm",
+      "sha256": "8a9a712220f8327df8c0c495cf9f53f4cd7f4ec37b16a60db44ba74b2cc48651",
+      "bytes": 776531,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-April",
+      "path": "2020-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-042020-table1.pdf",
+      "sha256": "34e3e72091bcb8dbd6eaf0234dbcabdb410a7c4b05b8474c7f225db0d83f3fe6",
+      "bytes": 1046803,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2020-January",
+      "path": "2020-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202001.htm",
+      "sha256": "7bcb281cc1a4a1073191f0fcc81f508e1863637c6d2eac8495ec44f13fa3c58d",
+      "bytes": 94082,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-January",
+      "path": "2020-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202001-table-1.htm",
+      "sha256": "79f38923d168a52aa8f12afa23a056a3fb86b8f522d5c22b23ac8e6b6250bdd3",
+      "bytes": 662219,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-January",
+      "path": "2020-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202001-table1.pdf",
+      "sha256": "6997b863e50351ac3796727bd1d7d4001128be501ef78c5eb8854809956ba8d3",
+      "bytes": 342937,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2020-July",
+      "path": "2020-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202007.htm",
+      "sha256": "fe5039a210e6675286e53d05b0217e617d4cb6d7d088723bdc85d6de4e2a2ab9",
+      "bytes": 93714,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-July",
+      "path": "2020-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202007-table-1.htm",
+      "sha256": "b8540e836c5428d45d21e728f7093b4a4d0347caf4df886f19c904fa72b0446b",
+      "bytes": 548585,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-July",
+      "path": "2020-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202007-table1.pdf",
+      "sha256": "55fc5121c3bfcb5f58a68e59e442bb908ba2447be8918464fd331db9c65f12ad",
+      "bytes": 312235,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2020-October",
+      "path": "2020-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202010.htm",
+      "sha256": "52a4408101837750f0dc3f9ddfbfe766979c79f4fafffcae87d0c4200a360e8b",
+      "bytes": 97073,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-October",
+      "path": "2020-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202010-table-1.htm",
+      "sha256": "f6d454a4aae1b62e244e16e14f716a6de8870d018f1c6e16a2b071d7db8e6365",
+      "bytes": 641219,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-October",
+      "path": "2020-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202010-table1.pdf",
+      "sha256": "6b7885eafc83154e339aa10b4e9129957d5d45e1a2e82b66cb541e246632dac4",
+      "bytes": 3868967,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2020-September",
+      "path": "2020-September/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202009.htm",
+      "sha256": "ba2a8d767c1de53e9694d277e9270e40dfca50cfc8533db531aabfc8d94d925f",
+      "bytes": 96115,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-September",
+      "path": "2020-September/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202009-table1.htm",
+      "sha256": "b943604fe2037a10867313a04298761127c5bb3ca494fe64fe558e0cb126f72e",
+      "bytes": 245075,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2020-September",
+      "path": "2020-September/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202009-table1.pdf",
+      "sha256": "02f3ecc813efde06b6e21fa4c5b4d3bd6798204464432e8717f14f6524fbe872",
+      "bytes": 458326,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2021-April",
+      "path": "2021-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202104.htm",
+      "sha256": "c4ea2ea7816376b58b99e60ff9369eede7808400518739a0b18cc1b1a3a3568f",
+      "bytes": 98480,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-April",
+      "path": "2021-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202104-table-1.htm",
+      "sha256": "77745af81832225571613bb883b433a32d67a26035eb2d45cf643019f4e542eb",
+      "bytes": 789086,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-April",
+      "path": "2021-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202104-table1.pdf",
+      "sha256": "197ec4f425ed2296dac5aee38949641368ac78b771132c5ccb920a1f728c83da",
+      "bytes": 468679,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2021-January",
+      "path": "2021-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202101.htm",
+      "sha256": "5c366ad83498748f09b476673ad81d9871eb4060f06f335266cdc7d6dc6dfbb6",
+      "bytes": 98477,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-January",
+      "path": "2021-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202101-table-1.htm",
+      "sha256": "35b1f4b1de2b36dfa45d7481cee4d366bc2e298dc819769ecd69c7b730bd244e",
+      "bytes": 663573,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-January",
+      "path": "2021-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202101-table1.pdf",
+      "sha256": "8e403ce32bd365d316370d2027c8c9a040cfa316297943bb5a8a1b6499c1be95",
+      "bytes": 428703,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2021-July",
+      "path": "2021-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202107.htm",
+      "sha256": "28199b52d91a81592ebec3c5af31db9c237e3792738d421f4c1f43e7c15c4419",
+      "bytes": 95716,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-July",
+      "path": "2021-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202107-table-1.htm",
+      "sha256": "9b85cae8c6099c8ce527b8db6d8b0da65febfa9a4e966eff553022d45fb2b453",
+      "bytes": 605204,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-July",
+      "path": "2021-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202107-table1.pdf",
+      "sha256": "c5d48ba7adeb33509e9ad36faf10025a067370b0fdcc48ee13b826cd2b9484a5",
+      "bytes": 1036550,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2021-October",
+      "path": "2021-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202110.htm",
+      "sha256": "31cba612541e637a3d328f1009a2cc236520c234dc2c9627b3f808017c1299e9",
+      "bytes": 95094,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-October",
+      "path": "2021-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202110-table-1.htm",
+      "sha256": "df8dd7d44939e5cc2c86b74fb129c2afaef2fbf8e91b35adddaa71a51b4ba8bc",
+      "bytes": 585420,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2021-October",
+      "path": "2021-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202110-table1.pdf",
+      "sha256": "23ea121efaf1231d4b9d0a4d72129be64f672c37283c2c8ce1f7d13b9ca8c757",
+      "bytes": 370864,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-April",
+      "path": "2022-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202204.htm",
+      "sha256": "017cbc3e1cff58f97f842d8e168c8a689027c7e748c3fb010d8f79a11cec0d42",
+      "bytes": 93697,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-April",
+      "path": "2022-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202204-table-1.htm",
+      "sha256": "a933da57ccdc17f5bb9014bbe4cd4d3ed4ffad5f5a90dbe3c040d47eee779f46",
+      "bytes": 666158,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-April",
+      "path": "2022-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202204-table1.pdf",
+      "sha256": "d35cc18211676a4220d2b6995ca926ad70934740ce14debfa3c4d1a31be9e97c",
+      "bytes": 1449371,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-April",
+      "path": "2022-April/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202204-full-report.pdf",
+      "sha256": "a036a3d207caf7b87df3b2b4c89283942cc25cb156abcb3a8254837b76789634",
+      "bytes": 2258522,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-January",
+      "path": "2022-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202201.htm",
+      "sha256": "b844434c07c87fc5535f764f6e5a41639f88fd052e5df36a39314d9b01307965",
+      "bytes": 95626,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-January",
+      "path": "2022-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202201-table-1.htm",
+      "sha256": "ce5a3a54d3e5a7a80a651088f65b21be37623a2f8b847c7c06a03d483f6925fb",
+      "bytes": 697945,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-January",
+      "path": "2022-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202201-table1.pdf",
+      "sha256": "9e31113af36bbd560827ecc3dff08a7acc21e53f0b3ccc72ff8c20e7647fd6d4",
+      "bytes": 512032,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-July",
+      "path": "2022-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202207.htm",
+      "sha256": "aaa0430e0ebd36688ea7578845d2d0fa346e77d029c27f87dd5fe6d0f920824d",
+      "bytes": 96904,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-July",
+      "path": "2022-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202207-table-1.htm",
+      "sha256": "5f93f549784fb93e89490afa047eb9b02ef3e2b3f285907695f254a477a033c6",
+      "bytes": 636149,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-July",
+      "path": "2022-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202207-table1.pdf",
+      "sha256": "d26a0d13b3a898d6c8d6418be41a4d2368258100076b50c5a15c52cc238b4a4e",
+      "bytes": 1512942,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-July",
+      "path": "2022-July/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202207-full-report.pdf",
+      "sha256": "4e62e04cd680244024951013c1f392a0e7f8e72711181b9471e80f41118411af",
+      "bytes": 2373251,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2022-October",
+      "path": "2022-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202210.htm",
+      "sha256": "0d93902ab97c13c3603ef9af4490a53cadc05fe211fb9fdbb301bab931eaab5c",
+      "bytes": 97016,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-October",
+      "path": "2022-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202210-table-1.htm",
+      "sha256": "88638ccbcf26c35f816adbac8a1931924ffea17d1ad81b00e375571c5d385b2c",
+      "bytes": 530937,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2022-October",
+      "path": "2022-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202210-table1.pdf",
+      "sha256": "5dae978986bda4d9a88779d6381c406a37c66d267ce69d9021f1b48045edec6d",
+      "bytes": 269626,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2023-April",
+      "path": "2023-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202304.htm",
+      "sha256": "47e2c1de5db219c99e968cb3a7ca8375d59efac3c7407dc9b4caf9487a7e4712",
+      "bytes": 100058,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-April",
+      "path": "2023-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202304-table-1.htm",
+      "sha256": "260348eb4837c244b8f99769a800b22dbf6f71e4e22559fb333292767c439555",
+      "bytes": 710235,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-April",
+      "path": "2023-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202304-table1.pdf",
+      "sha256": "2732b8ba52199f30f2b539507589dd1213baa57c19427913c7aa5d81292fb3d7",
+      "bytes": 382005,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2023-January",
+      "path": "2023-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202301.htm",
+      "sha256": "092e6ff7297c0153d32ced855453a07d033a5f8d345dfcf005548549ee1799f1",
+      "bytes": 95857,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-January",
+      "path": "2023-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202301-table-1.htm",
+      "sha256": "d0e4e816a2fefc95fd8508e3eec9d06e5d913e36442ec29e8f1114db77789c77",
+      "bytes": 684184,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-January",
+      "path": "2023-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202301-table1.pdf",
+      "sha256": "bfe37da553d4857fa48031dcec48d6c074b98b09c805af27ff2f059a34fff887",
+      "bytes": 375986,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2023-July",
+      "path": "2023-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202307.htm",
+      "sha256": "a5dff63a5ba172cf88f28457fd2d44b38568aaf51e43b1fc90cf40976dc1f0ec",
+      "bytes": 97850,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-July",
+      "path": "2023-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202307-table-1.htm",
+      "sha256": "43342bfa71d685379b60ae94f39f70ed857a842de528bfaaa1aaa8d3c30713ad",
+      "bytes": 637111,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-July",
+      "path": "2023-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202307-table1.pdf",
+      "sha256": "35c644ab6cc5cf4de908a6763de5c4ba40068bfb9e2f152f61c56cb90a505a6e",
+      "bytes": 1532574,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2023-July",
+      "path": "2023-July/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202307-fullreport.pdf",
+      "sha256": "91669dfc0c1fa3e2ce41acbc033e752e3db3fc00d5e33e44eb5f9d1c2628db69",
+      "bytes": 2364880,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2023-October",
+      "path": "2023-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202310.htm",
+      "sha256": "7d32f774458a0174bf870d20098703e740d4a8334d2a9e21e32d939b6558dd98",
+      "bytes": 95424,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-October",
+      "path": "2023-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202310-table-1.htm",
+      "sha256": "cbfa9a5a1095b9ef8fc305aebd1bcecbe57cf94024c0510a73e6ad8612a9f73d",
+      "bytes": 564633,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2023-October",
+      "path": "2023-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202310-table1.pdf",
+      "sha256": "fde4339d1bf439f88e72c442466aa20cc5838f16c23e6c9e3a1ffd95e39ae25c",
+      "bytes": 323993,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-April",
+      "path": "2024-April/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202404.htm",
+      "sha256": "e0b2a86472a6ad370ceb8b4bca1c8915f71412da834e701b1e043b3c17da0698",
+      "bytes": 97021,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-April",
+      "path": "2024-April/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202404-table-1.htm",
+      "sha256": "edf0dd962db7135c8aed9f5e10d8bf20a2c565a92510477d8b20faefc71d330e",
+      "bytes": 708283,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-April",
+      "path": "2024-April/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202401-table1.pdf",
+      "sha256": "580fd908dc90bf961669dc9cb1622d213b82d531111947eb743566674d7dd517",
+      "bytes": 1838773,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "REJECTED_mislinked_January_PDF_not_April_evidence"
+    },
+    {
+      "release_id": "2024-April",
+      "path": "2024-April/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202404.pdf",
+      "sha256": "1562140243f15d1006bb44f09eea5e95c79645a0f6a6df250a7870ebfc64022d",
+      "bytes": 2454151,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-January",
+      "path": "2024-January/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202401.htm",
+      "sha256": "d72afe19c0840667d477827ea28b2938d509c6c7f722bb45a761c2add47f4a0e",
+      "bytes": 98986,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-January",
+      "path": "2024-January/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202401-table-1.htm",
+      "sha256": "e030e99281f564b7c4fbd1cb83f077021635a20d3e5ef68728c004bd127a082e",
+      "bytes": 752761,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-January",
+      "path": "2024-January/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202401-table1.pdf",
+      "sha256": "580fd908dc90bf961669dc9cb1622d213b82d531111947eb743566674d7dd517",
+      "bytes": 1838773,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-January",
+      "path": "2024-January/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202401.pdf",
+      "sha256": "38972669a6b14ed857ad0b76611be3ebc99750185af7c8370a29024898bf1903",
+      "bytes": 2813414,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-July",
+      "path": "2024-July/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202407.htm",
+      "sha256": "f0512471d2273c3738a02a72f32debb33bb382328671c3adf04c3751262ec239",
+      "bytes": 95800,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-July",
+      "path": "2024-July/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202407-table-1.htm",
+      "sha256": "e3b1850dbf147ec9ed25061e92e786cb14401f022f2cde21b1736611ecba07c1",
+      "bytes": 588515,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-July",
+      "path": "2024-July/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202407-table1.pdf",
+      "sha256": "a600f8ce9dc248883e31fff8128ebbb0698ef3f89a6189d4f94d6f6615f2f55e",
+      "bytes": 6976239,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-July",
+      "path": "2024-July/full.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202407.pdf",
+      "sha256": "b6e4ad20942050aff7e00c2aac6885d75e3cd55bc04faea0833c382098770a2d",
+      "bytes": 9217537,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    },
+    {
+      "release_id": "2024-October",
+      "path": "2024-October/main.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202410.htm",
+      "sha256": "e3a58b2d396d10549aa8c58e9c44a293a0455e02734efcdae5717048860d89d0",
+      "bytes": 95566,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-October",
+      "path": "2024-October/table1.html",
+      "original_url": "https://www.federalreserve.gov/data/sloos/sloos-202410-table-1.htm",
+      "sha256": "59b2b85ccd425a47f7192b86d838aac8cd69bdb286af6654b0a573013432a698",
+      "bytes": 581524,
+      "type": ".html",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "original_primary_HTML"
+    },
+    {
+      "release_id": "2024-October",
+      "path": "2024-October/table1.pdf",
+      "original_url": "https://www.federalreserve.gov/data/documents/sloos-202410-table1.pdf",
+      "sha256": "7c27ec14af022e0347fbce2ad4d5c309b961063b7d423f58fa91f5196b837967",
+      "bytes": 325760,
+      "type": ".pdf",
+      "rights": "Official Federal Reserve public aggregate response table; individual responses not collected",
+      "role": "official_PDF_crosscheck"
+    }
+  ],
+  "source_errors": [],
+  "sha256_covers_original_downloaded_bytes": true
+}

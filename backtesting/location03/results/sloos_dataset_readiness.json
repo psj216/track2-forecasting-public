@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "DATASET_READY": true,
+  "complete_universe_enumerated": true,
+  "official_provenance": true,
+  "original_HTML_PDF_count_agreement": true,
+  "future_mutation_passed": true,
+  "errors": [],
+  "source_only_gate": true,
+  "outcomes_loaded": false,
+  "coverage": {
+    "origins": 144,
+    "active_origins": 137,
+    "unique_source_releases": 48,
+    "feature_usable_releases": 47
+  },
+  "limitations": [
+    "Publication evidence uses release-specific dated official original-round HTML; no exact intraday time.",
+    "Original-round archived HTML and PDF plus official errata audit; absence of undocumented silent historical edits cannot be proven."
+  ]
+}

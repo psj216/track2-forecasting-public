@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "official_documentation": "https://www.federalreserve.gov/data/sloos/about.htm",
+  "panel_expansion": "20 banks added in May 2012; July 2012 implementation per official 201224 revised PDF primer",
+  "admitted_first_survey": "January 2013",
+  "admitted_start_publication": "2013-02-04",
+  "exclude_all_pre_2013": true,
+  "large_bank_asset_definition_changes": "2019 $50bn; October2023 $100bn; subgroup labels not features; original ALL domestic group used",
+  "other_question_changes": "CRE2013; housing2015; excluded questions do not enter fixed C&I fields",
+  "special_release_exclusions": [
+    {
+      "release_id": "2020-September",
+      "reason": "Supplementary Main Street Lending survey; four fixed C&I fields absent"
+    }
+  ],
+  "no_outcomes_used_to_choose_period": true
+}

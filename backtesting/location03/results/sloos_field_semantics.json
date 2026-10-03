@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Original-release research source audit; no forecasting outcomes used.",
+  "population": "All applicable domestic-bank respondents in original Table 1; foreign banks excluded",
+  "borrower_groups": [
+    "annual sales >= $50 million",
+    "annual sales < $50 million"
+  ],
+  "standards_categories": [
+    "Tightened considerably",
+    "Tightened somewhat",
+    "Remained basically unchanged",
+    "Eased somewhat",
+    "Eased considerably"
+  ],
+  "demand_categories": [
+    "Substantially stronger",
+    "Moderately stronger",
+    "About the same",
+    "Moderately weaker",
+    "Substantially weaker"
+  ],
+  "net_definition": "100*(first+second-fourth-fifth)/sum(five categories)",
+  "borrower_aggregation": "unweighted average of exactly two available groups",
+  "non_originators": "excluded from applicable question total",
+  "feature_count": 5
+}

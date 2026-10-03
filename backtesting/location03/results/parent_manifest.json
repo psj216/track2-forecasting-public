@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Exact LOCATION02 NO parent; SLOOS was INFO01 pre-ranked second.",
+  "parent_branch": "track2/location-02-ecb-spf-alpha",
+  "parent_result_sha": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+  "parent_pre_sha": "d83409f414498b0cadcc508d387252b54dfd1e98",
+  "info01_result_sha": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "ECB_CLOSED": true
+}
