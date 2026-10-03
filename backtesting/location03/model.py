@@ -23,7 +23,7 @@ def train_mask(rows,year,test_cutoff,test_releases=None):
  c=pd.Timestamp(test_cutoff).tz_localize(None).normalize()
  unavailable=origin+pd.offsets.BDay(int(rows.horizon.iloc[0]))
  test_releases=set(rows.loc[origin.dt.year==year,'release_id']) if test_releases is None else set(test_releases)
- return ((origin.dt.year<year)&(origin.dt.year>=2013)&(maturity<c)&(unavailable<c)&~rows.release_id.isin(test_releases)).to_numpy()
+ return ((origin.dt.year<year)&(origin.dt.year>=2013)&(maturity<c)&(unavailable<c)&~rows.release_id.isin(test_releases)).to_numpy(copy=True)
 
 def fit_ridge(x,y,releases,columns,balanced=True):
  weights=release_weights(releases) if balanced else np.ones(len(releases))

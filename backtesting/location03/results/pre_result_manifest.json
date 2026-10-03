@@ -10,6 +10,35 @@
     "backtesting/location03/diagnostics.py": "6c26ca9e4d3b8caf720a6195039c70f86dfc4e7baa9e411129cbd015174c8c48",
     "backtesting/location03/controls.py": "b6687fabb6f30714ce39e69413c8ed28ab1d466710af7f0caf403e02a44b9e8e",
     "backtesting/location03/source_acquisition.py": "4e735cd42aef5d47ccbbaeb3b9fe1e0d28073102db6becfb42a6dba63ff9e03a",
+    "backtesting/location03/model.py": "2296e3ba54ccf9fc4cace2178c8991e9ee88268b4b5b3722f05f67c535bb4a92",
+    "backtesting/location03/evaluate.py": "bddbab6c6cdbb23151be14f6d2c55501d63e44aad1a902117c63b698faf139fc",
+    "tests/test_location03.py": "ae6dc8449006f21b8374f51423d9d783a28ffe866f887eb1d954774f95553b3d",
+    "backtesting/location03/results/sloos_structural_breaks.json": "579c85fd73af4e0cbf214c64cf1877aebaa578876c40c1b7973666808703a844",
+    "backtesting/location03/results/source_calendar.csv": "526b0bcc73ff6ac347c18b82b533660c8102cffb596108380004b20e00a3be2f",
+    "backtesting/location03/results/feature_manifest.json": "fd238b37bf3390c54ce9f954d36aa7b181ce2d274c9e3ce557180725a679837d",
+    "backtesting/location03/results/sloos_field_semantics.json": "96b42c652f448e0a40688b30d900ab0f50dedf7c40a32443608fa99ab5c39031",
+    "backtesting/location03/results/sloos_errata_ledger.json": "363416590a572515b4fc7d01fcdf71ac571ec701f6a9d3d1719ea0ab4c394c5e",
+    "backtesting/location03/results/parent_manifest.json": "4cde7992397decb07277f72661a0fc90865036e2f0f50fabbcd4d54477faf20d",
+    "backtesting/location03/results/sloos_pit_dataset_manifest.json": "79c233a4367ea1446f23c9a26386caea691e8970d759f786c366da078fb32b26",
+    "backtesting/location03/results/sloos_dataset_readiness.json": "d4c81ddf07037cedefa7ac79cf10b8add7d9dd540c59d1392c47467bf47a779d",
+    "backtesting/location03/results/primary_asset_manifest.json": "3a41cf755a2c869a7aff4a005895fa3d8f521f5cb0116553e0d33e66921c7ecb",
+    "backtesting/location03/results/sloos_field_extraction.csv": "701d468a6d156c5407f26cef72542bb96d2a4c96abdaca51fc0582c0bf276f26",
+    "backtesting/location03/results/experiment_spec.json": "98ad6a08cb02e192d031076bf1238971ec8e97004fb0e3bd6b4d39d0ea5af0b0",
+    "backtesting/location03/results/source_states.json": "4123844c872086452bd56bf5bb6931ba2451ba89550bb7323c522fc7e885ec19",
+    "backtesting/location03/results/sloos_publication_ledger.csv": "35cd00b3d18d44d0f62b47cf5ec5f6d423bc8330f150625e204baa788606c215",
+    "backtesting/location03/results/sloos_document_manifest.json": "f6e5d0ede9175c324b3fa9de00f9082faad1ad0eb50d4c1be08e5df1398dc219",
+    "backtesting/location03/results/sloos_release_universe.csv": "76d3653fc9cc8a2b49e77741111d911e91da32330a06fb660451078cba7c90e4",
+    "backtesting/location03/results/sloos_denominator_ledger.csv": "64de039031874d91d48ebde562f283f10d8a0e2abeff63fe49554821cd74411e"
+  },
+  "PRE_RESULT_LOCATION03_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049",
+  "PRE_SHA_resolution": "Actual remotely verified commit stored in private pre_receipt.json; published in final_decision.json.",
+  "remote_verified": true,
+  "original_PRE_frozen_file_hashes": {
+    "backtesting/location03/audit_source.py": "0dd0c690e69524170a3132e307877b98c9da097d8222c2dbbd680eb3e0f046dd",
+    "backtesting/location03/source_dataset.py": "bb80834c41e62644c3e47ae9bff4ae85e8b20e4a34e2891633924d188743c673",
+    "backtesting/location03/diagnostics.py": "6c26ca9e4d3b8caf720a6195039c70f86dfc4e7baa9e411129cbd015174c8c48",
+    "backtesting/location03/controls.py": "b6687fabb6f30714ce39e69413c8ed28ab1d466710af7f0caf403e02a44b9e8e",
+    "backtesting/location03/source_acquisition.py": "4e735cd42aef5d47ccbbaeb3b9fe1e0d28073102db6becfb42a6dba63ff9e03a",
     "backtesting/location03/model.py": "5ce111b3d8f9bfa66c2d6600344f4b86352b716dccf776f7ba43c709f68068e3",
     "backtesting/location03/evaluate.py": "bddbab6c6cdbb23151be14f6d2c55501d63e44aad1a902117c63b698faf139fc",
     "tests/test_location03.py": "ae6dc8449006f21b8374f51423d9d783a28ffe866f887eb1d954774f95553b3d",
@@ -30,6 +59,14 @@
     "backtesting/location03/results/sloos_release_universe.csv": "76d3653fc9cc8a2b49e77741111d911e91da32330a06fb660451078cba7c90e4",
     "backtesting/location03/results/sloos_denominator_ledger.csv": "64de039031874d91d48ebde562f283f10d8a0e2abeff63fe49554821cd74411e"
   },
-  "PRE_RESULT_LOCATION03_SHA": null,
-  "PRE_SHA_resolution": "Actual remotely verified commit stored in private pre_receipt.json; published in final_decision.json."
+  "execution_compatibility_amendment": {
+    "file": "backtesting/location03/model.py",
+    "original_sha256": "5ce111b3d8f9bfa66c2d6600344f4b86352b716dccf776f7ba43c709f68068e3",
+    "executed_sha256": "2296e3ba54ccf9fc4cace2178c8991e9ee88268b4b5b3722f05f67c535bb4a92",
+    "change": "train_mask Boolean to_numpy(copy=True) only; returned mask values bitwise identical",
+    "reason": "pandas3 read-only Boolean view rejects in-place intersection in folds",
+    "timing": "after labels loaded, before any model fit/prediction/forecast score completed",
+    "feature_model_CV_scoring_spec_changed": false,
+    "not_a_new_pre_outcome_freeze": true
+  }
 }

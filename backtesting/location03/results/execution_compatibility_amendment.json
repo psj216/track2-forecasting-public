@@ -1,0 +1,11 @@
+{
+  "executive_summary": "One storage-ownership fix; scientific rules unchanged; original PRE preserved and timing explicit.",
+  "file": "backtesting/location03/model.py",
+  "original_sha256": "5ce111b3d8f9bfa66c2d6600344f4b86352b716dccf776f7ba43c709f68068e3",
+  "executed_sha256": "2296e3ba54ccf9fc4cace2178c8991e9ee88268b4b5b3722f05f67c535bb4a92",
+  "change": "train_mask Boolean to_numpy(copy=True) only; returned mask values bitwise identical",
+  "reason": "pandas3 read-only Boolean view rejects in-place intersection in folds",
+  "timing": "after labels loaded, before any model fit/prediction/forecast score completed",
+  "feature_model_CV_scoring_spec_changed": false,
+  "not_a_new_pre_outcome_freeze": true
+}
