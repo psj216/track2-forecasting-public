@@ -1,0 +1,90 @@
+{
+  "executive_summary": "Execution host stopped responding before remotely verified PRE. No LOCATION04 score/verdict exists. Resume source/specification freeze; never load error labels first.",
+  "branch": "track2/location-04-nyfed-spd-alpha",
+  "parent_result_sha": "938abb88db0dc985d8468950e169098b88ed50b9",
+  "INFO01_RESULT": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "main_verified_sha": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "completion": "BLOCKED_EXECUTION_HOST",
+  "scientific_verdict": "NOT_RUN",
+  "PRE_RESULT_LOCATION04_SHA": null,
+  "RESULT_SHA": null,
+  "new_outcomes_accessed": false,
+  "source_gate": {
+    "DATASET_READY": true,
+    "enumerated_SPD_rounds": 112,
+    "original_PDFs": 224,
+    "canonical_MODAL_midpoint_releases": 71,
+    "FULL5_usable_releases": 69,
+    "same_target_revisions": 69,
+    "years": [
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "eras": 3,
+    "PIT": "B",
+    "source_gate_file_confirmed": true,
+    "final_source_rebuild_command_completion_unverified": true
+  },
+  "tests": {
+    "research": {
+      "passed": 36,
+      "seconds": 0.62
+    },
+    "affected": "launched with source/spec command, no completion response; inspect log before rerun",
+    "full_repository": "not run",
+    "common_toolkit": "not run"
+  },
+  "stages": {
+    "environment_audit": "complete",
+    "parent_verification": "complete",
+    "original_source_acquisition": "complete",
+    "publication_and_field_parse": "complete",
+    "OCR_original_visual_verification": "complete",
+    "baseline_raw_byte_recovery": "complete; ZIP CRC and original SHA match; no label deserialization",
+    "research_specific_tests": "36 passed",
+    "final_source_rebuild_specification_and_affected_tests": "completion unverified because executor stopped responding",
+    "PRE_remote_freeze": "not complete",
+    "model_fit": "not started",
+    "scoring": "not started",
+    "controls": "not started",
+    "bootstrap": "not started",
+    "final_report": "not complete",
+    "full_tests": "not started",
+    "RESULT_commit": "not complete",
+    "recovery_ZIP": "not created"
+  },
+  "continuation_point": "Inspect freeze_spec.py completion, experiment_spec.json and tests-affected-pre.log in existing workspace; do not rerun completed acquisition. Complete remaining source/model/controls checks. Commit all exact frozen code/source/spec, push and verify PRE. Only then deserialize parent ledger/draws and evaluate.",
+  "workspace": {
+    "repository": "/workspace/scratch/935b41f252e9/location04-repo",
+    "private": "/workspace/scratch/935b41f252e9/location04-private",
+    "source": "location04-private/source/<survey_id>/question.pdf and results.pdf with SHA receipts",
+    "source_states": "location04-private/source_states.json",
+    "frozen_baseline": "location04-private/frozen_inputs/ledger.parquet and frozen_v51/origins/*.npz",
+    "logs": [
+      "source-gate.log",
+      "tests-research-pre.log",
+      "tests-affected-pre.log"
+    ],
+    "last_submitted_script": "location04-private/freeze_spec.py"
+  },
+  "parent_recovery": {
+    "Library_file_id": "libfile_655564302bbc8191884ce15f89e29d13",
+    "filename": "LOCATION03-private-recovery.zip",
+    "sha256": "8d7af9323e979191215df56365b704ee3246a016e95ed14d0d89bfe697416566",
+    "CRC_verified": true,
+    "restored_files": 135
+  },
+  "interruption": {
+    "reason": "exec_command requests and even pwd/state-inspection requests stopped responding; alternate non-login bash probe also failed to return. Yielded cells terminated without rerunning scientific work.",
+    "private_durable_save": "attempted source_states.json host upload also stalled; no successful Library save receipt; no recovery archive CRC/hash claim"
+  },
+  "checkpoint_remote_scope": "Only STATUS and recovery note are committed here. The complete local implementation/source artifacts are not falsely claimed remotely backed up.",
+  "recorded_at": "2026-10-03T18:14:37.439Z"
+}
