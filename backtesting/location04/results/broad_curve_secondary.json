@@ -1,0 +1,76 @@
+{
+  "executive_summary": "7Y/10Y/20Y/30Y breadth diagnostic only; cannot rescue primary 2Y+5Y.",
+  "secondary_only": true,
+  "aggregate": {
+    "cells": 1104,
+    "crps_ratio": 1.5120246394072474,
+    "oracle_capture": -0.7609623138974533,
+    "delta_mse": 3.7930471391134053,
+    "r2": -1.6568949265235946,
+    "pearson": 0.21886897858670942,
+    "spearman": 0.30038069335555634,
+    "sign_accuracy": 0.6141304347826086,
+    "calibration_slope": 0.16312641828712254,
+    "mean_abs_predicted_delta": 1.1489442977893887,
+    "median_abs_predicted_delta": 0.7553467488920955,
+    "actual_mean_abs_delta": 0.9564401988940504
+  },
+  "assets": {
+    "UST_10Y": {
+      "cells": 276,
+      "crps_ratio": 1.5265452840856155,
+      "oracle_capture": -0.7772903922429103,
+      "delta_mse": 4.039563379008869,
+      "r2": -1.7616014679247458,
+      "pearson": 0.22855568341593152,
+      "spearman": 0.3166564165575989,
+      "sign_accuracy": 0.6304347826086957,
+      "calibration_slope": 0.16295394273428276,
+      "mean_abs_predicted_delta": 1.2269348517568235,
+      "median_abs_predicted_delta": 0.8332284278417248,
+      "actual_mean_abs_delta": 0.9668385170864697
+    },
+    "UST_20Y": {
+      "cells": 276,
+      "crps_ratio": 1.5122209773331015,
+      "oracle_capture": -0.769152062125529,
+      "delta_mse": 3.6250600571655447,
+      "r2": -1.6784960978896128,
+      "pearson": 0.20724722362116457,
+      "spearman": 0.2836986037557669,
+      "sign_accuracy": 0.5978260869565217,
+      "calibration_slope": 0.15628321532113823,
+      "mean_abs_predicted_delta": 1.1168533442499926,
+      "median_abs_predicted_delta": 0.7424069085525278,
+      "actual_mean_abs_delta": 0.9517561550314446
+    },
+    "UST_30Y": {
+      "cells": 276,
+      "crps_ratio": 1.5231973713646458,
+      "oracle_capture": -0.8043356979017192,
+      "delta_mse": 3.2871328243710702,
+      "r2": -1.6569173109483248,
+      "pearson": 0.15990558238220087,
+      "spearman": 0.2360342748756217,
+      "sign_accuracy": 0.5833333333333334,
+      "calibration_slope": 0.12741913864957935,
+      "mean_abs_predicted_delta": 0.9955916184998918,
+      "median_abs_predicted_delta": 0.6162005406728169,
+      "actual_mean_abs_delta": 0.9113689500704512
+    },
+    "UST_7Y": {
+      "cells": 276,
+      "crps_ratio": 1.4884196078666576,
+      "oracle_capture": -0.7037802136060612,
+      "delta_mse": 4.220432295908137,
+      "r2": -1.5503582409301964,
+      "pearson": 0.2602418809893714,
+      "spearman": 0.36336926820796267,
+      "sign_accuracy": 0.644927536231884,
+      "calibration_slope": 0.19095637733338217,
+      "mean_abs_predicted_delta": 1.2563973766508463,
+      "median_abs_predicted_delta": 0.8225210427552039,
+      "actual_mean_abs_delta": 0.9957971733878359
+    }
+  }
+}

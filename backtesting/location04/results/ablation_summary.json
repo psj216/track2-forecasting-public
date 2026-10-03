@@ -1,0 +1,62 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for ablation_summary; private market outcomes and per-cell losses omitted.",
+  "secondary_only": true,
+  "models": {
+    "PATH_LEVELS": {
+      "cells": 552,
+      "crps_ratio": 1.4535709791264442,
+      "oracle_capture": -0.5701890037112218,
+      "delta_mse": 8.11192385264105,
+      "r2": -1.2991431339181845,
+      "pearson": 0.27743296108047666,
+      "spearman": 0.3981659721284006,
+      "sign_accuracy": 0.6612318840579711,
+      "calibration_slope": 0.2194078020164107,
+      "mean_abs_predicted_delta": 1.569556387212538,
+      "median_abs_predicted_delta": 0.9152460841103467,
+      "actual_mean_abs_delta": 1.2413104200308447
+    },
+    "REVISION_ONLY": {
+      "cells": 552,
+      "crps_ratio": 1.0610914483107816,
+      "oracle_capture": -0.07679872313411265,
+      "delta_mse": 4.142158972481058,
+      "r2": -0.1740021891449126,
+      "pearson": -0.19966862685240294,
+      "spearman": -0.2465726577242278,
+      "sign_accuracy": 0.5,
+      "calibration_slope": -0.8580580524041963,
+      "mean_abs_predicted_delta": 0.3711606028082881,
+      "median_abs_predicted_delta": 0.29001039605784584,
+      "actual_mean_abs_delta": 1.2413104200308447
+    },
+    "NEAR_ONLY": {
+      "cells": 552,
+      "crps_ratio": 1.3578902894931237,
+      "oracle_capture": -0.4499077696660058,
+      "delta_mse": 6.840392521717424,
+      "r2": -0.9387560565539037,
+      "pearson": 0.28781891191665665,
+      "spearman": 0.37457378673297126,
+      "sign_accuracy": 0.6286231884057971,
+      "calibration_slope": 0.2508650496274956,
+      "mean_abs_predicted_delta": 1.4356536436525307,
+      "median_abs_predicted_delta": 0.8440654830561518,
+      "actual_mean_abs_delta": 1.2413104200308447
+    },
+    "SLOPE_ONLY": {
+      "cells": 552,
+      "crps_ratio": 1.1109890519615364,
+      "oracle_capture": -0.1395255425792118,
+      "delta_mse": 4.506205010405161,
+      "r2": -0.2771828850843616,
+      "pearson": -0.21584379291639894,
+      "spearman": -0.1691751559768677,
+      "sign_accuracy": 0.5018115942028986,
+      "calibration_slope": -0.6729243349668349,
+      "mean_abs_predicted_delta": 0.48996697139394174,
+      "median_abs_predicted_delta": 0.4163539136257711,
+      "actual_mean_abs_delta": 1.2413104200308447
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for bootstrap_summary; private market outcomes and per-cell losses omitted.",
+  "release_block": {
+    "block": "release_id",
+    "blocks": 41,
+    "replicates": 5000,
+    "crps_ratio_95ci": [
+      1.0741188173626801,
+      1.9975371718895325
+    ],
+    "delta_vs_v51_95ci": [
+      0.07411881736268,
+      0.9975371718895325
+    ],
+    "oracle_capture_95ci": [
+      -1.372695324224736,
+      -0.0879619833758186
+    ],
+    "pearson_95ci": [
+      0.19140034490099486,
+      0.36713822880092434
+    ],
+    "spearman_95ci": [
+      0.2535768248780924,
+      0.5261612335765699
+    ],
+    "paired": true,
+    "refit": false
+  },
+  "year_block": {
+    "block": "year",
+    "blocks": 5,
+    "replicates": 5000,
+    "crps_ratio_95ci": [
+      0.8481248102679041,
+      3.2989804530636992
+    ],
+    "delta_vs_v51_95ci": [
+      -0.1518751897320959,
+      2.2989804530636992
+    ],
+    "oracle_capture_95ci": [
+      -3.5570982550831047,
+      0.17915646182653772
+    ],
+    "pearson_95ci": [
+      -0.006737792058249592,
+      0.5071729640788074
+    ],
+    "spearman_95ci": [
+      0.031702481334361404,
+      0.5453864483900724
+    ],
+    "paired": true,
+    "refit": false
+  },
+  "IID_cell_bootstrap_not_used": true,
+  "independent_OOS": false
+}

@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for unweighted_sensitivity; private market outcomes and per-cell losses omitted.",
+  "secondary_only": true,
+  "model": {
+    "cells": 552,
+    "crps_ratio": 1.4012605769165238,
+    "oracle_capture": -0.5044290289940281,
+    "delta_mse": 7.5044650938174895,
+    "r2": -1.1269725539351216,
+    "pearson": 0.28631851808428904,
+    "spearman": 0.4108606164837473,
+    "sign_accuracy": 0.6594202898550725,
+    "calibration_slope": 0.2377869521001985,
+    "mean_abs_predicted_delta": 1.5075649469974255,
+    "median_abs_predicted_delta": 0.9204291355436638,
+    "actual_mean_abs_delta": 1.2413104200308447
+  },
+  "cannot_replace_primary": true
+}

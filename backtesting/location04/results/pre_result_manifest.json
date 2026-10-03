@@ -35,5 +35,9 @@
     "backtesting/location04/results/spd_publication_ledger.csv": "77989757959000fd88fae95baafb8b137b0099bca0bb725afceff69f40bae2d9",
     "backtesting/location04/results/spd_release_universe.csv": "0bcb7a3943d0d8c69384af87f5d8dc2ac0fbc287e570e89113a10eb1e7c50443"
   },
-  "PRE_SHA_resolution": "Actual remotely verified commit in private pre_receipt.json; final result publishes it."
+  "PRE_SHA_resolution": "Actual remotely verified commit in private pre_receipt.json; final result publishes it.",
+  "PRE_RESULT_LOCATION04_SHA": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7",
+  "remote_verified": true,
+  "original_PRE_manifest_git_blob": "9258b82ec46ea8dbb5264ea31474cdf21a38ab2a",
+  "actual_SHA_recorded_after_original_remote_freeze": true
 }

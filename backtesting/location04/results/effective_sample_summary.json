@@ -1,0 +1,255 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for effective_sample_summary; private market outcomes and per-cell losses omitted.",
+  "forecast_origins": 59,
+  "evaluated_cells": 552,
+  "unique_active_releases": 41,
+  "unique_change_events": 41,
+  "effective_independent_release_count_upper_bound": 41,
+  "release_blocks_are_not_proven_iid_N": true,
+  "origins_per_release": [
+    {
+      "release_id": "2019-December",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2019-October",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2020-April",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2020-December",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2020-January",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2020-July",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2020-June",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2020-March",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2020-November",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2020-September",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2021-April",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2021-December",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2021-January",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2021-July",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2021-June",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2021-March",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2021-November",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2021-September",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2022-December",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2022-January",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2022-July",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2022-June",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2022-March",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2022-May",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2022-November",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2022-September",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2023-December",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2023-January-February",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2023-July",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2023-June",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2023-March",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2023-May",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2023-October-November",
+      "origins": 2,
+      "cells": 20
+    },
+    {
+      "release_id": "2023-September",
+      "origins": 1,
+      "cells": 10
+    },
+    {
+      "release_id": "2024-April-May",
+      "origins": 2,
+      "cells": 14
+    },
+    {
+      "release_id": "2024-January",
+      "origins": 2,
+      "cells": 18
+    },
+    {
+      "release_id": "2024-July",
+      "origins": 2,
+      "cells": 10
+    },
+    {
+      "release_id": "2024-June",
+      "origins": 1,
+      "cells": 6
+    },
+    {
+      "release_id": "2024-March",
+      "origins": 1,
+      "cells": 8
+    },
+    {
+      "release_id": "2024-November",
+      "origins": 1,
+      "cells": 2
+    },
+    {
+      "release_id": "2024-September",
+      "origins": 1,
+      "cells": 4
+    }
+  ],
+  "per_asset": [
+    {
+      "asset": "UST_2Y",
+      "releases": 41,
+      "origins": 59
+    },
+    {
+      "asset": "UST_5Y",
+      "releases": 41,
+      "origins": 59
+    }
+  ],
+  "per_horizon": [
+    {
+      "horizon": 5,
+      "releases": 41,
+      "origins": 59
+    },
+    {
+      "horizon": 21,
+      "releases": 40,
+      "origins": 58
+    },
+    {
+      "horizon": 63,
+      "releases": 39,
+      "origins": 56
+    },
+    {
+      "horizon": 126,
+      "releases": 37,
+      "origins": 53
+    },
+    {
+      "horizon": 189,
+      "releases": 35,
+      "origins": 50
+    }
+  ]
+}

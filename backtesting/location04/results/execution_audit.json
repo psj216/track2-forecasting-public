@@ -1,0 +1,62 @@
+{
+  "executive_summary": "Source gate and remote PRE preceded labels; all frozen evaluations/controls completed without scientific redesign.",
+  "branch": "track2/location-04-nyfed-spd-alpha",
+  "parent_result_sha": "938abb88db0dc985d8468950e169098b88ed50b9",
+  "PRE_RESULT_LOCATION04_SHA": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7",
+  "remote_PRE_verified": true,
+  "PRE_remote_tree": "3687f92b10039403960ababa140dc16a42efb791",
+  "outcomes_opened_only_after_remote_PRE": true,
+  "frozen_file_hashes_unchanged": true,
+  "parent_protected_files_unchanged": 2087,
+  "main_expected_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "tests": {
+    "research": {
+      "passed": 39,
+      "skipped": 0,
+      "failed": 0,
+      "log_sha256": "07c2eef926162e0090994bc913805aa08a8b2cbb5b21d2c933b937a10300713f"
+    },
+    "affected": {
+      "passed": 72,
+      "skipped": 0,
+      "failed": 0,
+      "log_sha256": "b701e7dd8d0f0fd498c8169c56e853fee0a80dbdcc9c7fda669fb3106e46d96b"
+    },
+    "full": {
+      "passed": 692,
+      "skipped": 2,
+      "failed": 0,
+      "log_sha256": "d8609732df6622190494059d430406d9216ae3549f93f294728871a962b013cc"
+    },
+    "common": {
+      "passed": 250,
+      "skipped": 0,
+      "failed": 0,
+      "log_sha256": "1ccb189d3d3d85bd5d38453f778a373e0e6675af395576fdec3c4d640fc3c17f"
+    }
+  },
+  "common_toolkit_commit": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "stochastic_controls": {
+    "RELEASE_VALUE_SHUFFLE": 2000,
+    "RELEASE_DATE_PERMUTATION": 2000,
+    "POLICY_REVISION_SIGN_SHUFFLE": 2000,
+    "POLICY_PATH_ORIENTATION_SHUFFLE": 2000,
+    "GAUSSIAN_FULL5": 2000,
+    "FEATURE_YEAR_SHIFT": 1,
+    "ONE_RELEASE_LAG": 1
+  },
+  "bootstrap_release_replicates": 5000,
+  "bootstrap_year_replicates": 5000,
+  "mutation_audit": {
+    "SMP_contamination_features_predictions_invariant": true,
+    "future_source_features_bitwise_unchanged": true,
+    "future_source_predictions_bitwise_unchanged": true,
+    "outcome_mutation_features_unchanged": true,
+    "outcome_mutation_scope": "Features invariant; training-label changes are not claimed to leave refitted models invariant"
+  },
+  "runtime_recovery": "Restored missing exact Python 3.13.15 runtime; no source/input bytes regenerated",
+  "restartability": "Per release acquisition, per fold predictions, per 250 control replicates, per bootstrap block artifacts",
+  "public_private_firewall": "Public forecast predictions and aggregate research diagnostics only. No market truth, standardized future error, baseline draws or per-cell losses. User specifically requires aggregate oracle filenames. Unit-only assert_public_safe is not represented as passing this non-unit research directory.",
+  "result_SHA_resolution": "Actual final remote commit and archive hashes are recorded in external private completion receipt to avoid self-referential commit hashes.",
+  "completed_at": "2026-10-03T18:47:20.662159+00:00"
+}

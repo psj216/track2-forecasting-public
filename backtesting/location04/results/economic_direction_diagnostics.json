@@ -1,0 +1,31 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for economic_direction_diagnostics; private market outcomes and per-cell losses omitted.",
+  "descriptive_only": true,
+  "correlations": [
+    {
+      "feature": "POLICY_NEAR",
+      "pearson_descriptive": -0.3460170089905182,
+      "spearman_descriptive": -0.3662804240703641,
+      "causal_claim": false
+    },
+    {
+      "feature": "POLICY_FAR",
+      "pearson_descriptive": -0.3355625658525586,
+      "spearman_descriptive": -0.32167526094103194,
+      "causal_claim": false
+    },
+    {
+      "feature": "POLICY_PATH_SLOPE",
+      "pearson_descriptive": 0.13161381543418968,
+      "spearman_descriptive": 0.2081346513665043,
+      "causal_claim": false
+    },
+    {
+      "feature": "POLICY_REVISION_SAME_TARGET",
+      "pearson_descriptive": 0.015178372313913864,
+      "spearman_descriptive": 0.03476495690397022,
+      "causal_claim": false
+    }
+  ],
+  "coefficients_not_causal": true
+}

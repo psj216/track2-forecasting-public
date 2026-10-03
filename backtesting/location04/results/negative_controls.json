@@ -1,0 +1,82 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for negative_controls; private market outcomes and per-cell losses omitted.",
+  "controls": {
+    "RELEASE_VALUE_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.1706788274867574,
+      "ratio_95_range": [
+        1.0673718749574992,
+        1.3043923329490519
+      ],
+      "fraction_at_least_as_good": 1.0
+    },
+    "RELEASE_DATE_PERMUTATION": {
+      "replicates": 2000,
+      "median_ratio": 1.4009477214713448,
+      "ratio_95_range": [
+        1.3296836519867228,
+        1.4787132792840652
+      ],
+      "fraction_at_least_as_good": 0.702
+    },
+    "POLICY_REVISION_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.468012123120745,
+      "ratio_95_range": [
+        1.4366430342219196,
+        1.5038574326229808
+      ],
+      "fraction_at_least_as_good": 0.0005
+    },
+    "POLICY_PATH_ORIENTATION_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.140411478522477,
+      "ratio_95_range": [
+        1.069289534977322,
+        1.245721172176352
+      ],
+      "fraction_at_least_as_good": 1.0
+    },
+    "GAUSSIAN_FULL5": {
+      "replicates": 2000,
+      "median_ratio": 1.0952632331157344,
+      "ratio_95_range": [
+        1.029407392645486,
+        1.1805301347090043
+      ],
+      "fraction_at_least_as_good": 1.0
+    },
+    "FEATURE_YEAR_SHIFT": {
+      "replicates": 1,
+      "median_ratio": 1.1041691047447204,
+      "ratio_95_range": [
+        1.1041691047447204,
+        1.1041691047447204
+      ],
+      "fraction_at_least_as_good": 1.0
+    },
+    "ONE_RELEASE_LAG": {
+      "replicates": 1,
+      "median_ratio": 1.3838561519393537,
+      "ratio_95_range": [
+        1.3838561519393537,
+        1.3838561519393537
+      ],
+      "fraction_at_least_as_good": 1.0
+    }
+  },
+  "seed": 2026100404,
+  "replicates_per_stochastic_control": 2000,
+  "date_permutation": "Permuted 0..20 business-day nonnegative activation delays; no early publication; missing test state gives zero shift on fixed common ledger",
+  "value_shuffle": "Four economic values shuffled across training releases only, test values unchanged; age retained",
+  "sign_shuffle": "Balanced training-release sign: revision only, or entire four-coordinate policy path jointly. Test source values unchanged.",
+  "SMP_contamination": "Strict SPD-only eligibility; tested synthetic and actual source rows; no SMP fallback",
+  "mutation": {
+    "SMP_contamination_features_predictions_invariant": true,
+    "future_source_features_bitwise_unchanged": true,
+    "future_source_predictions_bitwise_unchanged": true,
+    "outcome_mutation_features_unchanged": true,
+    "outcome_mutation_scope": "Features invariant; training-label changes are not claimed to leave refitted models invariant"
+  },
+  "independent_OOS": false
+}

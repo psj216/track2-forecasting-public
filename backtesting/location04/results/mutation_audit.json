@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for mutation_audit; private market outcomes and per-cell losses omitted.",
+  "SMP_contamination_features_predictions_invariant": true,
+  "future_source_features_bitwise_unchanged": true,
+  "future_source_predictions_bitwise_unchanged": true,
+  "outcome_mutation_features_unchanged": true,
+  "outcome_mutation_scope": "Features invariant; training-label changes are not claimed to leave refitted models invariant"
+}

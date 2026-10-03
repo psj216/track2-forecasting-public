@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Failure is dominated by 2023; removing it is a descriptive sensitivity, never a permitted primary result.",
+  "annual_normalized_CRPS_gain": {
+    "2020": -20.788215441378505,
+    "2021": 52.155720382731346,
+    "2022": 20.627534676675694,
+    "2023": -265.2546128041299,
+    "2024": -21.370305032021935
+  },
+  "2023_share_of_total_negative_gain": 0.862860379373122,
+  "ratio_without_2023_no_refit": 0.9391389466701694,
+  "final_universe_unchanged": true
+}

@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for oracle_capture_summary; private market outcomes and per-cell losses omitted.",
+  "definition": "(1-R_SPD)/(1-R_perfect_location); unclipped",
+  "models": {
+    "V5.1": 0.0,
+    "SPD_FULL5_RELEASE_BALANCED": -0.5290338867877227,
+    "PATH_LEVELS": -0.5701890037112218,
+    "REVISION_ONLY": -0.07679872313411265,
+    "NEAR_ONLY": -0.4499077696660058,
+    "SLOPE_ONLY": -0.1395255425792118,
+    "SPD_FULL5_UNWEIGHTED": -0.5044290289940281,
+    "PERFECT_LOCATION": 1.0
+  }
+}

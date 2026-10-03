@@ -1,0 +1,305 @@
+{
+  "executive_summary": "Aggregate exposed-research diagnostic for concentration_audit; private market outcomes and per-cell losses omitted.",
+  "overall_CRPS_ratio": 1.420833121052091,
+  "gain_definition": "sum paired baseline normalized CRPS minus candidate normalized CRPS",
+  "groups": {
+    "release_id": {
+      "blocks": [
+        {
+          "block": "2019-December",
+          "cells": 10,
+          "gain": 1.6332994860819765,
+          "ratio_without_block": 1.4370256386729903
+        },
+        {
+          "block": "2019-October",
+          "cells": 10,
+          "gain": 2.055882055738304,
+          "ratio_without_block": 1.4361929194128056
+        },
+        {
+          "block": "2020-April",
+          "cells": 10,
+          "gain": -2.9700029618487616,
+          "ratio_without_block": 1.4173524110512579
+        },
+        {
+          "block": "2020-December",
+          "cells": 10,
+          "gain": 1.4883119450210238,
+          "ratio_without_block": 1.4267710001844427
+        },
+        {
+          "block": "2020-January",
+          "cells": 20,
+          "gain": -0.5812427795484476,
+          "ratio_without_block": 1.4275833878603608
+        },
+        {
+          "block": "2020-July",
+          "cells": 20,
+          "gain": -4.1539204629152335,
+          "ratio_without_block": 1.4168593862306544
+        },
+        {
+          "block": "2020-June",
+          "cells": 20,
+          "gain": -7.839064364763854,
+          "ratio_without_block": 1.411359688632705
+        },
+        {
+          "block": "2020-March",
+          "cells": 10,
+          "gain": -4.540588567848604,
+          "ratio_without_block": 1.4144092778218165
+        },
+        {
+          "block": "2020-November",
+          "cells": 20,
+          "gain": -0.9448479525982488,
+          "ratio_without_block": 1.424694266947328
+        },
+        {
+          "block": "2020-September",
+          "cells": 10,
+          "gain": -2.0936264505304467,
+          "ratio_without_block": 1.418729071359813
+        },
+        {
+          "block": "2021-April",
+          "cells": 20,
+          "gain": 10.007966188930752,
+          "ratio_without_block": 1.4676119604373228
+        },
+        {
+          "block": "2021-December",
+          "cells": 10,
+          "gain": 10.659420357231308,
+          "ratio_without_block": 1.466170308422634
+        },
+        {
+          "block": "2021-January",
+          "cells": 20,
+          "gain": 1.1319468298202808,
+          "ratio_without_block": 1.4309988423685285
+        },
+        {
+          "block": "2021-July",
+          "cells": 20,
+          "gain": 14.9001156015575,
+          "ratio_without_block": 1.5084505259422183
+        },
+        {
+          "block": "2021-June",
+          "cells": 10,
+          "gain": 9.051690692382302,
+          "ratio_without_block": 1.4635109724507978
+        },
+        {
+          "block": "2021-March",
+          "cells": 10,
+          "gain": 3.0589687267987027,
+          "ratio_without_block": 1.4329412561082782
+        },
+        {
+          "block": "2021-November",
+          "cells": 20,
+          "gain": 12.703759433643201,
+          "ratio_without_block": 1.504927804620502
+        },
+        {
+          "block": "2021-September",
+          "cells": 10,
+          "gain": 5.796247007643832,
+          "ratio_without_block": 1.4582255312615247
+        },
+        {
+          "block": "2022-December",
+          "cells": 10,
+          "gain": -20.469706785431033,
+          "ratio_without_block": 1.3875219751173786
+        },
+        {
+          "block": "2022-January",
+          "cells": 20,
+          "gain": 12.199021963183089,
+          "ratio_without_block": 1.4782746162926974
+        },
+        {
+          "block": "2022-July",
+          "cells": 20,
+          "gain": -2.999376564581253,
+          "ratio_without_block": 1.4245275561077748
+        },
+        {
+          "block": "2022-June",
+          "cells": 10,
+          "gain": 4.29953567047661,
+          "ratio_without_block": 1.4357826532089948
+        },
+        {
+          "block": "2022-March",
+          "cells": 10,
+          "gain": -5.104790380985345,
+          "ratio_without_block": 1.4172940746484812
+        },
+        {
+          "block": "2022-May",
+          "cells": 20,
+          "gain": 8.860842613023793,
+          "ratio_without_block": 1.4570040808167923
+        },
+        {
+          "block": "2022-November",
+          "cells": 20,
+          "gain": -26.195361893683796,
+          "ratio_without_block": 1.3792060324224942
+        },
+        {
+          "block": "2022-September",
+          "cells": 10,
+          "gain": -0.47426920730124,
+          "ratio_without_block": 1.4244437705574542
+        },
+        {
+          "block": "2023-December",
+          "cells": 10,
+          "gain": -6.966702934240333,
+          "ratio_without_block": 1.4110572423109742
+        },
+        {
+          "block": "2023-January-February",
+          "cells": 20,
+          "gain": -45.794238371275796,
+          "ratio_without_block": 1.3516198022123307
+        },
+        {
+          "block": "2023-July",
+          "cells": 20,
+          "gain": -41.93738215826395,
+          "ratio_without_block": 1.350548199179771
+        },
+        {
+          "block": "2023-June",
+          "cells": 10,
+          "gain": -31.245193774464784,
+          "ratio_without_block": 1.3670041693712895
+        },
+        {
+          "block": "2023-March",
+          "cells": 10,
+          "gain": -36.16045260410776,
+          "ratio_without_block": 1.3585532385261394
+        },
+        {
+          "block": "2023-May",
+          "cells": 10,
+          "gain": -34.53759985294113,
+          "ratio_without_block": 1.3607923200380478
+        },
+        {
+          "block": "2023-October-November",
+          "cells": 20,
+          "gain": -30.903659559046925,
+          "ratio_without_block": 1.369048296244023
+        },
+        {
+          "block": "2023-September",
+          "cells": 10,
+          "gain": -18.181944283215298,
+          "ratio_without_block": 1.3906834151105778
+        },
+        {
+          "block": "2024-April-May",
+          "cells": 14,
+          "gain": 4.995545998009996,
+          "ratio_without_block": 1.437972108445765
+        },
+        {
+          "block": "2024-January",
+          "cells": 18,
+          "gain": -8.335764449398392,
+          "ratio_without_block": 1.410601225606253
+        },
+        {
+          "block": "2024-July",
+          "cells": 10,
+          "gain": -2.7027301531966144,
+          "ratio_without_block": 1.424355557753172
+        },
+        {
+          "block": "2024-June",
+          "cells": 6,
+          "gain": -2.689269344958409,
+          "ratio_without_block": 1.4178170921296056
+        },
+        {
+          "block": "2024-March",
+          "cells": 8,
+          "gain": 2.5074992374202756,
+          "ratio_without_block": 1.4291593554397233
+        },
+        {
+          "block": "2024-November",
+          "cells": 2,
+          "gain": -0.18049460991709165,
+          "ratio_without_block": 1.4208387709396486
+        },
+        {
+          "block": "2024-September",
+          "cells": 4,
+          "gain": -1.9777015580234898,
+          "ratio_without_block": 1.4185736420798034
+        }
+      ],
+      "total_net_gain": -234.6298782181233,
+      "total_positive_gain": 105.35005380696295,
+      "top1_positive_gain_share": 0.14143434258571494,
+      "top3_positive_gain_share": 0.3778156304629536,
+      "removing_one_block_flips_improvement": false,
+      "removing_one_block_erases_majority_net_gain": false
+    },
+    "year": {
+      "blocks": [
+        {
+          "block": "2020",
+          "cells": 120,
+          "gain": -20.788215441378505,
+          "ratio_without_block": 1.4318606145209776
+        },
+        {
+          "block": "2021",
+          "cells": 120,
+          "gain": 52.155720382731346,
+          "ratio_without_block": 1.8508934008438445
+        },
+        {
+          "block": "2022",
+          "cells": 120,
+          "gain": 20.627534676675694,
+          "ratio_without_block": 1.6701806187595665
+        },
+        {
+          "block": "2023",
+          "cells": 110,
+          "gain": -265.2546128041299,
+          "ratio_without_block": 0.9391389466701694
+        },
+        {
+          "block": "2024",
+          "cells": 82,
+          "gain": -21.370305032021935,
+          "ratio_without_block": 1.4150046152525024
+        }
+      ],
+      "total_net_gain": -234.6298782181233,
+      "total_positive_gain": 72.78325505940704,
+      "top1_positive_gain_share": 0.7165895553882673,
+      "top3_positive_gain_share": 1.0,
+      "removing_one_block_flips_improvement": false,
+      "removing_one_block_erases_majority_net_gain": false
+    }
+  },
+  "CONCENTRATED": false,
+  "retraining_or_subset_selection": false
+}
