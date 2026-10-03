@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Original source states exactly rebuilt; all frozen origins future-source invariant, no outcomes.",
+  "deterministic_rebuild_identical": true,
+  "future_mutation_all_origins": true,
+  "origins_tested": 103,
+  "policy_question_blocks_catalogued": 544,
+  "OCR_visual_verification": "spd_extraction_verification.json"
+}

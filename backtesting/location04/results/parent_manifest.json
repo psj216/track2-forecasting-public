@@ -1,0 +1,9 @@
+{
+  "executive_summary": "SPD was rank3 before ECB/SLOOS outcomes; both prior sources closed.",
+  "parent_branch": "track2/location-03-sloos-alpha",
+  "parent_result_sha": "938abb88db0dc985d8468950e169098b88ed50b9",
+  "INFO01_RESULT": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+  "source_rank": 3,
+  "ECB_CLOSED": true,
+  "SLOOS_CLOSED": true
+}

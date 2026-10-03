@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Original parent V5.1 byte hashes and CRC verified without parsing labels.",
+  "ledger_sha256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "original_forecast_files": 134,
+  "original_byte_hashes_match": true,
+  "CRC_verified": true,
+  "outcome_labels_deserialized": false
+}

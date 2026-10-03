@@ -1,0 +1,14 @@
+{
+  "executive_summary": "2Y+5Y primary; other UST tenors diagnostic only.",
+  "primary_assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "secondary_assets": [
+    "UST_7Y",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_30Y"
+  ],
+  "secondary_cannot_rescue_primary": true
+}

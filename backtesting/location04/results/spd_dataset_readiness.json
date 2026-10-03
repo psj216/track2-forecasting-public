@@ -1,0 +1,28 @@
+{
+  "executive_summary": "No future-error labels loaded. Gate >=30 FULL5 releases, >=8 years, >=3 eras, complete deterministic extraction.",
+  "DATASET_READY": true,
+  "enumerated_releases": 112,
+  "original_PDFs": 224,
+  "usable_FULL5_releases": 69,
+  "usable_calendar_years": [
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "policy_eras": [
+    "2016-2019",
+    "2020-2021",
+    "2022-2024"
+  ],
+  "same_target_revisions": 69,
+  "effective_independent_release_count": 69,
+  "PIT_grade": "B",
+  "unresolved_extractions": [],
+  "new_outcomes_accessed": false
+}

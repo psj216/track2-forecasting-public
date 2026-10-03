@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Exactly five deterministic pre-outcome SPD features.",
+  "features": [
+    "POLICY_NEAR",
+    "POLICY_FAR",
+    "POLICY_PATH_SLOPE",
+    "POLICY_REVISION_SAME_TARGET",
+    "SOURCE_AGE_BUSINESS_DAYS"
+  ],
+  "canonical_statistic": "DIRECT_PUBLISHED_MEDIAN_OF_DEALER_MODAL_TARGET_RATE_OR_RANGE_MIDPOINT_PERCENT",
+  "units": "percent levels; percentage-point slope/revision; business-day age",
+  "no_imputation": true,
+  "no_outcome_or_id_features": true
+}

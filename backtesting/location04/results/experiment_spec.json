@@ -1,0 +1,148 @@
+{
+  "executive_summary": "NYFed SPD original modal policy path -> original V5.1 standardized UST location error; source-only pre-outcome freeze.",
+  "parent_result_sha": "938abb88db0dc985d8468950e169098b88ed50b9",
+  "branch": "track2/location-04-nyfed-spd-alpha",
+  "source": "NYFED_SPD_ORIGINAL",
+  "source_period": [
+    "2016-05-19",
+    "2024-11-27"
+  ],
+  "features": [
+    "POLICY_NEAR",
+    "POLICY_FAR",
+    "POLICY_PATH_SLOPE",
+    "POLICY_REVISION_SAME_TARGET",
+    "SOURCE_AGE_BUSINESS_DAYS"
+  ],
+  "assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "availability": "original publication date 23:59:59 America/New_York; previous origin weekday 16:00 NY cutoff",
+  "age_limit_business_days": 70,
+  "no_imputation": true,
+  "origins": "first existing frozen cache-ledger origin each calendar month; source_calendar.csv fixed before labels",
+  "competition_cutoff": "2024-12-18",
+  "target": "(original truth - original median)/original ddof0 SD",
+  "initial_training_years": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "annual_test_years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "minimum_train_releases": 20,
+  "CV": "Separate asset,horizon,annual expanding Ridge; target_end and origin+horizon both strictly before first test cutoff; remove all test-active release IDs from training; mechanically skip unfit early folds",
+  "primary": "SPD_FULL5_RELEASE_BALANCED",
+  "Ridge_alpha": 1.0,
+  "intercept": true,
+  "solver": "svd",
+  "standardization": "Train-only StandardScaler with same sample weights as Ridge; constant columns deterministically scale1",
+  "release_weights": "each active training release total weight1; row weight1/count within asset-horizon-fold",
+  "pure_location_shift": "frozen draws + predicted delta * original frozen SD; preserve shape/scale/order up to floating point precision",
+  "secondary_models": {
+    "PATH_LEVELS": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "REVISION_ONLY": [
+      3,
+      4
+    ],
+    "NEAR_ONLY": [
+      0,
+      3,
+      4
+    ],
+    "SLOPE_ONLY": [
+      2,
+      3,
+      4
+    ],
+    "SPD_FULL5_UNWEIGHTED": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "unweighted_is_secondary": true,
+  "scoring": "Exact qfbench2-common v2.4.3 fair CRPS; primary2Y+5Y normalized same frozen past SD*sqrtH; ratio of sums, original V5.1 bytes unchanged.",
+  "oracle": "translate original median to truth; no shape change; descriptive only",
+  "controls": {
+    "replicates_per_stochastic_control": 2000,
+    "seed": 2026100404,
+    "value_shuffle": "Four policy coordinates among training releases; original test values, age retained",
+    "date_permutation": "Permute nonnegative0..20 business-day activation delays; no early publication; reconstruct latest states/age/release weights/purge; missing or insufficient training ->zero shift on fixed test ledger",
+    "revision_sign": "Training release revision values permuted and balanced signs; test values untouched",
+    "path_orientation": "Balanced training-release signs jointly near/far/slope/revision; age unchanged",
+    "one_release_lag": "Immediately preceding public SPD state; actual age<=70, missing ->zero shift",
+    "year_shift": "State one calendar year earlier, missing ->zero shift",
+    "Gaussian": "Five reproducible Gaussian coordinates per release, same across assets/horizons; same weights/CV",
+    "mutations": [
+      "SMP contamination features/predictions invariant",
+      "future source features/fixed fitted predictions bitwise invariant",
+      "outcome-side mutation features invariant, no refit invariance claim"
+    ]
+  },
+  "bootstrap": {
+    "release_blocks": 5000,
+    "year_blocks": 5000,
+    "paired": true,
+    "all_assets_horizons_of_release_kept_together": true,
+    "no_IID_cell_inference": true
+  },
+  "concentration": "Paired score deletion by release/year; top1/top3 positive gain shares. Removal of one event flipping ratio>=1, or one event>50% positive gain, disallows robust YES; stricter >half-net-gain audit also reported.",
+  "success_criteria": {
+    "STRONG_YES": "ratio<=.90,capture>=.20,>=75% annual folds improve, clear controls, release upper95CI<1, no concentration",
+    "YES": "ratio<=.95,capture>=.10,>=60% folds improve, controls inferior, no severe concentration",
+    "WEAK_YES": "ratio<=.98,capture>.05,more folds improve, controls generally inferior",
+    "NO": "meaningful degradation>=1.02 OR capture<=0 OR null controls comparable/better",
+    "INCONCLUSIVE": "otherwise, near baseline/wide intervals/fold conflict/concentration; no redesign"
+  },
+  "no_hyperparameter_search": true,
+  "research_exposed": true,
+  "independent_OOS": false,
+  "official_submission": false,
+  "public_private_firewall": "Public prediction/provenance/aggregate artifacts; actual labels and individual scores private",
+  "batch_null_solver": "identical weighted standardized Ridge normal equation; pre-PRE synthetic comparison to sklearn max8.881784197001252e-16; no alternative model",
+  "source_gate_passed_before_labels": true,
+  "canonical_statistic": "DIRECT_PUBLISHED_MEDIAN_OF_DEALER_MODAL_TARGET_RATE_OR_RANGE_MIDPOINT_PERCENT",
+  "primary_assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "secondary_breadth_assets": [
+    "UST_7Y",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_30Y"
+  ],
+  "far_calendar_days": 180,
+  "PIT": "B; official originals + public post-actual-minutes rule; no immutable historical byte claim",
+  "publication_rule": "One conservative NYFed/US-Federal-holiday business day after actual FOMC minutes publication; explicit original release evidence where available; date-only activation23:59:59NY",
+  "source_age_calendar": "Repository Mon-Fri business-day age",
+  "policy_target_rule": "Near earliest target strictly after results publication; far latest distinct target within180 calendar days; chosen at release and fixed between releases, no origin redefinition",
+  "revision_rule": "Current near minus immediately preceding public SPD round for exactly same target date; no crossing target rollover, no missing imputation",
+  "panel_rule": "SPD only, no combined average, no SMP fallback, latest incomplete state inactive, no older SPD fallback",
+  "source_history_admission": "Canonical own-mode midpoint direct median starts2016-March; earlier split upper/lower medians excluded before outcomes; first complete revision state2016-April",
+  "first_test_year_basis": "Source/calendar-only count:2019 short-horizon20 releases,189BD16;2020 all horizons>=22. Freeze first complete-horizon year2020 before outcomes.",
+  "primary_verdict_only": "2Y+5Y FULL5 release-balanced; secondary breadth, ablations, unweighted cannot rescue",
+  "no_new_error_labels_loaded": true
+}

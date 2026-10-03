@@ -1,0 +1,33 @@
+{
+  "executive_summary": "OCR median numbers and target labels visually checked against all18 original modal path pages before outcomes.",
+  "verified_surveys": [
+    "2022-December",
+    "2022-November",
+    "2023-December",
+    "2023-January-February",
+    "2023-July",
+    "2023-June",
+    "2023-March",
+    "2023-May",
+    "2023-October-November",
+    "2023-September",
+    "2024-April-May",
+    "2024-December",
+    "2024-January",
+    "2024-July",
+    "2024-June",
+    "2024-March",
+    "2024-November",
+    "2024-September"
+  ],
+  "visual_date_patch": {
+    "2023-May": {
+      "distributed": "2023-04-19",
+      "due": "2023-04-24",
+      "evidence": "original page1 visually inspected"
+    }
+  },
+  "OCR_glyph_normalizations": "dun->Jun, dul->Jul, a1/a4->Q1/Q4, adjacent year-quarter digits; confirmed against original header images",
+  "reconstructed_raster": "2023-March PNG truncated; rerendered from hash-verified PDF; source values unchanged",
+  "score_labels_used": false
+}
