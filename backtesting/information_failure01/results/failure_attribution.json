@@ -1,0 +1,83 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": {
+    "ECB": {
+      "primary_failure_mode": "F2_MAGNITUDE_OVERSHOOT",
+      "secondary_contributors": [
+        "Attenuated post-hoc release-balanced calibration slope",
+        "Annual calibration-sign instability; not an identified pre-outcome regime"
+      ],
+      "quantitative_evidence": {
+        "release_sign_accuracy": 0.5433974358974358,
+        "release_spearman": 0.06388432992175727,
+        "release_calibration_slope": 0.10474092952193245,
+        "original_sign_correct_ratio": 1.1284034407609889,
+        "sign_correct_harmed_fraction": 0.3435114503816794,
+        "best_nonzero_shrinkage_ratio": 0.9805362439175243,
+        "best_fixed_sign_ratio": 0.9711250498105508,
+        "fold_calibration_slopes": [
+          0.09886361503767424,
+          0.28401072107602954,
+          -0.8727182540986879,
+          -7.308188157281533,
+          2.487341067870965
+        ]
+      },
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "causal_claim": false
+    },
+    "SLOOS": {
+      "primary_failure_mode": "F7_REPEATED_RELEASE_ARTIFACT",
+      "secondary_contributors": [
+        "Annual calibration-sign instability; not an identified pre-outcome regime"
+      ],
+      "quantitative_evidence": {
+        "release_sign_accuracy": 0.496695896695897,
+        "release_spearman": -0.053456654285663194,
+        "release_calibration_slope": -0.14572513731829256,
+        "original_sign_correct_ratio": 0.8679633117326615,
+        "sign_correct_harmed_fraction": 0.18540580789277736,
+        "best_nonzero_shrinkage_ratio": 0.9998621760404794,
+        "best_fixed_sign_ratio": 1.0000104095966678,
+        "fold_calibration_slopes": [
+          0.052413958066160185,
+          1.091177953705132,
+          -0.5678501388037477,
+          0.26285302032513985,
+          -0.4747560175003056,
+          -2.0647683954152405,
+          -0.0497063101087153,
+          0.15152536231586788
+        ]
+      },
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "causal_claim": false
+    },
+    "SPD": {
+      "primary_failure_mode": "F2_MAGNITUDE_OVERSHOOT",
+      "secondary_contributors": [
+        "Attenuated post-hoc release-balanced calibration slope",
+        "Annual calibration-sign instability; not an identified pre-outcome regime"
+      ],
+      "quantitative_evidence": {
+        "release_sign_accuracy": 0.6638598528842431,
+        "release_spearman": 0.3854381509674189,
+        "release_calibration_slope": 0.21615654867254708,
+        "original_sign_correct_ratio": 1.0290879175597214,
+        "sign_correct_harmed_fraction": 0.336986301369863,
+        "best_nonzero_shrinkage_ratio": 0.9857595008612428,
+        "best_fixed_sign_ratio": 0.9553398418675999,
+        "fold_calibration_slopes": [
+          0.9435325459596855,
+          2.5000090859629425,
+          0.647167283601841,
+          -0.038441517805793794,
+          0.25116429023288356
+        ]
+      },
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "causal_claim": false
+    }
+  },
+  "attribution_is_descriptive_not_causal": true
+}

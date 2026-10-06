@@ -1,0 +1,50 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": {
+    "ECB": {
+      "primary_ratio": 1.562819687489047,
+      "perfect_location_ratio": 0.40906258891625913,
+      "mathematical_headroom": 0.5909374110837409,
+      "original_oracle_capture": -0.9524184404857229,
+      "observed_direction": {
+        "label": "WEAK",
+        "positive_folds": 2,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.4,
+        "diagnostic_only": true
+      },
+      "observed_magnitude_calibration_slope": 0.10474092952193245,
+      "oracle_is_not_predictability": true
+    },
+    "SLOOS": {
+      "primary_ratio": 1.148454701224846,
+      "perfect_location_ratio": 0.30715093317225084,
+      "mathematical_headroom": 0.6928490668277492,
+      "original_oracle_capture": -0.2142670147548221,
+      "observed_direction": {
+        "label": "NONE",
+        "positive_folds": 4,
+        "evaluable_folds": 8,
+        "positive_fraction": 0.5,
+        "diagnostic_only": true
+      },
+      "observed_magnitude_calibration_slope": -0.14572513731829256,
+      "oracle_is_not_predictability": true
+    },
+    "SPD": {
+      "primary_ratio": 1.4208331210520908,
+      "perfect_location_ratio": 0.2045252080025031,
+      "mathematical_headroom": 0.7954747919974969,
+      "original_oracle_capture": -0.5290338867877223,
+      "observed_direction": {
+        "label": "STRONG",
+        "positive_folds": 4,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.8,
+        "diagnostic_only": true
+      },
+      "observed_magnitude_calibration_slope": 0.21615654867254708,
+      "oracle_is_not_predictability": true
+    }
+  }
+}

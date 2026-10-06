@@ -1,0 +1,80 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "next_axis": "DIRECTION-TO-LOCATION-01",
+  "exactly_one_axis": true,
+  "reason": "SPD direction/ranking survives release/year balancing and four annual folds; three predeclared fixed-sign diagnostics improve original sign-correct CRPS materially and whole-ledger gains survive all leave-one-release/year checks. Full frozen magnitude still fails. The original stricter automated gate and its inconsistency with fallback E are disclosed in interpretation_review.json.",
+  "source_gates": {
+    "ECB": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false,
+      "A_fixed_sign_witness_constants": [],
+      "direction": {
+        "label": "WEAK",
+        "positive_folds": 2,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.4,
+        "diagnostic_only": true
+      },
+      "original_sign_correct_ratio": 1.1284034407609889,
+      "age_decay_criterion": false,
+      "horizon_criterion": false,
+      "short_ratio": 1.7145579105637387,
+      "long_ratio": 1.4339988484531148,
+      "source_age_gate_is_not_a_candidate": true
+    },
+    "SLOOS": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false,
+      "A_fixed_sign_witness_constants": [],
+      "direction": {
+        "label": "NONE",
+        "positive_folds": 4,
+        "evaluable_folds": 8,
+        "positive_fraction": 0.5,
+        "diagnostic_only": true
+      },
+      "original_sign_correct_ratio": 0.8679633117326615,
+      "age_decay_criterion": false,
+      "horizon_criterion": false,
+      "short_ratio": 1.0600177677601843,
+      "long_ratio": 1.2314706398058248,
+      "source_age_gate_is_not_a_candidate": true
+    },
+    "SPD": {
+      "A": false,
+      "B": false,
+      "C": false,
+      "D": false,
+      "A_fixed_sign_witness_constants": [
+        0.02,
+        0.05,
+        0.1,
+        0.2
+      ],
+      "direction": {
+        "label": "STRONG",
+        "positive_folds": 4,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.8,
+        "diagnostic_only": true
+      },
+      "original_sign_correct_ratio": 1.0290879175597214,
+      "age_decay_criterion": false,
+      "horizon_criterion": false,
+      "short_ratio": 1.183292609247754,
+      "long_ratio": 1.5383985429205156,
+      "source_age_gate_is_not_a_candidate": true
+    }
+  },
+  "next_experiment_executed": false,
+  "diagnostic_label": "POST_HOC_DIAGNOSTIC_ONLY",
+  "selection_uses_exposed_outcomes": true,
+  "confirmatory_candidate": null,
+  "precommitted_automated_gate_passed": false,
+  "interpretive_review_file": "interpretation_review.json",
+  "production_candidate": null
+}

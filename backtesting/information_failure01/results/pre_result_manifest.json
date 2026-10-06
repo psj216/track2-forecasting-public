@@ -1,14 +1,14 @@
 {
   "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
-  "PRE_RESULT_INFO_FAILURE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "PRE_RESULT_INFO_FAILURE_SHA": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
   "parent_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
   "remote_verified": true,
-  "remote_tree_SHA": "390da4138832b8f4d85f0c1427a6326830317161",
+  "remote_tree_SHA": "2fe524d2ca2f3fdaf48ef80810102856a1818e58",
   "frozen_implementation_hashes": {
     "backtesting/information_failure01/__init__.py": "57f517c98e9264d105b774209259491864da80074d0fbca83e6ad70c9b4fec1d",
     "backtesting/information_failure01/common.py": "4c396228f3e86a51b9b911dd2b64505d08cbe2dbe831d27ec2df6592868b678c",
     "backtesting/information_failure01/audit.py": "9aaa845704133cda69338fd8108418469df8931fe3af5219eff5cee729efffb2",
-    "backtesting/information_failure01/aggregate.py": "8b85e1bf74fafb61485e831367e61288bd82d6c707859cec39748be68403154a",
+    "backtesting/information_failure01/aggregate.py": "b8f99d421fba04a0b530772e88ebcc102a6d0870ecf7ba1e7855dd1e8ae8fa75",
     "backtesting/information_failure01/report.py": "5452aa2a0a1fc243f8a8816efd3f08ccec500539ed15602633ee61e6c3773065",
     "backtesting/information_failure01/diagnose.py": "0571472a0fc801265448a8d111fc63767ae803c69b354822f3b4c747b9a9a88b",
     "backtesting/information_failure01/decide.py": "e05b958e73b357e7ed80d6a1a3adf681154ee9a9807cc0257a4e3c0a3f3a587a",
@@ -17,5 +17,7 @@
     "backtesting/information_failure01/README.md": "676fc2fd100a3ff469df4e290692c17f5c2b387a3c39e747cb81c0b952ebc616"
   },
   "frozen_input_manifest_SHA256": "29bb8ccabc8789190d648ac6fc4ce525ae1cb2eacd67f5e893f6a07f74769a1f",
-  "prior_ratios_reproduced": true
+  "prior_ratios_reproduced": true,
+  "ORIGINAL_SCIENTIFIC_PRE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "export_only_amendment": true
 }

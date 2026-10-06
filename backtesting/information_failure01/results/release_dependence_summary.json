@@ -1,0 +1,108 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": {
+    "ECB": {
+      "cells": 227,
+      "origins": 48,
+      "unique_releases": 20,
+      "distinct_economic_feature_vectors": 20,
+      "independent_release_count_upper_bound": 20,
+      "cell_count_Kish_block_concentration": 16.97825370675453,
+      "Kish_is_not_inference_effective_N": true,
+      "percentage_cells_in_releases_shared_by_multiple_origins": 93.3920704845815,
+      "percentage_extra_origins_beyond_one_per_release": 58.333333333333336,
+      "origins_per_release": {
+        "count": 20.0,
+        "mean": 2.4,
+        "std": 0.9403246919632545,
+        "min": 1.0,
+        "25%": 2.0,
+        "50%": 2.0,
+        "75%": 3.0,
+        "max": 4.0
+      },
+      "cells_per_release": {
+        "count": 20.0,
+        "mean": 11.35,
+        "std": 4.912658193515583,
+        "min": 4.0,
+        "25%": 10.0,
+        "50%": 10.0,
+        "75%": 15.0,
+        "max": 20.0
+      },
+      "cell_minus_release_sign_accuracy": 0.03369507511578007,
+      "cell_minus_release_spearman": 0.07400157537238561,
+      "release_blocks_are_not_proven_independent": true
+    },
+    "SLOOS": {
+      "cells": 2616,
+      "origins": 91,
+      "unique_releases": 33,
+      "distinct_economic_feature_vectors": 33,
+      "independent_release_count_upper_bound": 33,
+      "cell_count_Kish_block_concentration": 30.690345495640944,
+      "Kish_is_not_inference_effective_N": true,
+      "percentage_cells_in_releases_shared_by_multiple_origins": 98.62385321100918,
+      "percentage_extra_origins_beyond_one_per_release": 63.73626373626374,
+      "origins_per_release": {
+        "count": 33.0,
+        "mean": 2.757575757575758,
+        "std": 0.6139168831315355,
+        "min": 1.0,
+        "25%": 3.0,
+        "50%": 3.0,
+        "75%": 3.0,
+        "max": 4.0
+      },
+      "cells_per_release": {
+        "count": 33.0,
+        "mean": 79.27272727272727,
+        "std": 22.08403372245536,
+        "min": 6.0,
+        "25%": 60.0,
+        "50%": 90.0,
+        "75%": 90.0,
+        "max": 120.0
+      },
+      "cell_minus_release_sign_accuracy": 0.016683308197069424,
+      "cell_minus_release_spearman": 0.009288276945227172,
+      "release_blocks_are_not_proven_independent": true
+    },
+    "SPD": {
+      "cells": 552,
+      "origins": 59,
+      "unique_releases": 41,
+      "distinct_economic_feature_vectors": 24,
+      "independent_release_count_upper_bound": 41,
+      "cell_count_Kish_block_concentration": 35.266666666666666,
+      "Kish_is_not_inference_effective_N": true,
+      "percentage_cells_in_releases_shared_by_multiple_origins": 61.95652173913043,
+      "percentage_extra_origins_beyond_one_per_release": 30.508474576271187,
+      "origins_per_release": {
+        "count": 41.0,
+        "mean": 1.4390243902439024,
+        "std": 0.5024331043932554,
+        "min": 1.0,
+        "25%": 1.0,
+        "50%": 1.0,
+        "75%": 2.0,
+        "max": 2.0
+      },
+      "cells_per_release": {
+        "count": 41.0,
+        "mean": 13.463414634146341,
+        "std": 5.495896473622887,
+        "min": 2.0,
+        "25%": 10.0,
+        "50%": 10.0,
+        "75%": 20.0,
+        "max": 20.0
+      },
+      "cell_minus_release_sign_accuracy": -0.0026279688262720313,
+      "cell_minus_release_spearman": 0.01892924579441252,
+      "release_blocks_are_not_proven_independent": true
+    }
+  },
+  "releases_are_upper_bound_not_proven_IID": true
+}

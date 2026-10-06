@@ -1,0 +1,61 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "status": "POST_HOC_INTERPRETIVE_REVIEW",
+  "frozen_automated_choice": "NEW-INFORMATION-SEARCH-02",
+  "final_future_hypothesis": "DIRECTION-TO-LOCATION-01",
+  "protocol_deviation_disclosed": true,
+  "reason": "The implementation added an original-full-magnitude-only restriction to the user sign-correct gate and broadened fallback E. E requires direction and small-shift evidence to disappear; SPD clearly violates those E conditions. The final hypothesis applies the user directional gate to the already predeclared, uniform fixed-sign diagnostic partitions. It does not change any primary prediction, diagnostic grid, feature, horizon, source, fold or metric. The stricter original-shift gate still fails and is preserved, not retroactively claimed passed.",
+  "SPD_original_sign_correct_ratio": 1.0290879175597214,
+  "SPD_release_sign_accuracy": 0.6638598528842431,
+  "SPD_release_Spearman": 0.3854381509674189,
+  "evidence_from_frozen_diagnostics": [
+    {
+      "source": "SPD",
+      "kind": "direction_only",
+      "value": 0.05,
+      "crps_ratio": 0.9870931518138634,
+      "oracle_capture": 0.016225339025170826,
+      "label": "POST_HOC_DIRECTION_ONLY_DIAGNOSTIC",
+      "INVALID_FOR_CONFIRMATORY_USE": true,
+      "frozen_predictions_only": true,
+      "sign_correct_crps_ratio": 0.9770140938854848,
+      "sign_wrong_crps_ratio": 1.0488451410455122,
+      "robust_to_one_year_and_release": true,
+      "primary_universe_unchanged": true
+    },
+    {
+      "source": "SPD",
+      "kind": "direction_only",
+      "value": 0.1,
+      "crps_ratio": 0.9753436089359542,
+      "oracle_capture": 0.030995816978853313,
+      "label": "POST_HOC_DIRECTION_ONLY_DIAGNOSTIC",
+      "INVALID_FOR_CONFIRMATORY_USE": true,
+      "frozen_predictions_only": true,
+      "sign_correct_crps_ratio": 0.9548328289163457,
+      "sign_wrong_crps_ratio": 1.101008276795179,
+      "robust_to_one_year_and_release": true,
+      "primary_universe_unchanged": true
+    },
+    {
+      "source": "SPD",
+      "kind": "direction_only",
+      "value": 0.2,
+      "crps_ratio": 0.9553398418675999,
+      "oracle_capture": 0.05614276980450265,
+      "label": "POST_HOC_DIRECTION_ONLY_DIAGNOSTIC",
+      "INVALID_FOR_CONFIRMATORY_USE": true,
+      "frozen_predictions_only": true,
+      "sign_correct_crps_ratio": 0.9129987275471172,
+      "sign_wrong_crps_ratio": 1.2147537726291893,
+      "robust_to_one_year_and_release": true,
+      "primary_universe_unchanged": true
+    }
+  ],
+  "chosen_future_constant": null,
+  "new_forecast_or_candidate": null,
+  "original_full_shift_gate_passed": false,
+  "independent_OOS": false,
+  "confirmatory_use_allowed": false,
+  "no_automatic_rescue_of_prior_NO": true
+}

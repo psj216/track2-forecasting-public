@@ -1,0 +1,405 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": {
+    "ECB": {
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "median_abs_true": 0.656019377204774,
+      "median_abs_predicted": 0.6235197998367144,
+      "mean_abs_true": 0.7778755014441845,
+      "mean_abs_predicted": 0.9038287822904616,
+      "pred_true_mean_abs_ratio": 1.1619195881763025,
+      "true_quantiles": {
+        "0.5": 0.656019377204774,
+        "0.75": 1.1727831718806287,
+        "0.9": 1.549909517538147,
+        "0.95": 1.8285884217514599,
+        "0.99": 2.038700354940095
+      },
+      "predicted_quantiles": {
+        "0.5": 0.6235197998367144,
+        "0.75": 1.2949194647225113,
+        "0.9": 2.55704808980296,
+        "0.95": 2.7285519690808706,
+        "0.99": 3.2332878186753273
+      },
+      "raw_center_error_quantiles": {
+        "0.5": 0.020168317780798972,
+        "0.75": 0.045827748811209434,
+        "0.9": 0.08843321637890145,
+        "0.95": 0.10569864030691266,
+        "0.99": 0.13075568995395073
+      },
+      "raw_shift_quantiles": {
+        "0.5": 0.018732159528422162,
+        "0.75": 0.046321619991348525,
+        "0.9": 0.11516355440877907,
+        "0.95": 0.17583186131869152,
+        "0.99": 0.24720368421682104
+      },
+      "calibrations": {
+        "cell": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.07290932524362022,
+          "slope": 0.13677511916236387,
+          "r2": 0.028599720073779755,
+          "applied_to_candidate": false
+        },
+        "origin": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.07091327677914332,
+          "slope": 0.13641873248271025,
+          "r2": 0.02755231870507935,
+          "applied_to_candidate": false
+        },
+        "release": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.07044729836320683,
+          "slope": 0.10474092952193245,
+          "r2": 0.017192526844195477,
+          "applied_to_candidate": false
+        },
+        "year": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.07272790564591196,
+          "slope": 0.14485224717573755,
+          "r2": 0.028860011887116843,
+          "applied_to_candidate": false
+        }
+      },
+      "robust_Theil_Sen": {
+        "slope": 0.14720354267947192,
+        "method": "scipy.stats.theilslopes; unweighted descriptive median pair slope; never applied"
+      },
+      "fold_calibration_slopes": [
+        {
+          "year": 2020,
+          "balance": "cell",
+          "slope": 0.10252167910830579
+        },
+        {
+          "year": 2020,
+          "balance": "release",
+          "slope": 0.09886361503767424
+        },
+        {
+          "year": 2021,
+          "balance": "cell",
+          "slope": 0.24486984431811545
+        },
+        {
+          "year": 2021,
+          "balance": "release",
+          "slope": 0.28401072107602954
+        },
+        {
+          "year": 2022,
+          "balance": "cell",
+          "slope": -0.8727182540986879
+        },
+        {
+          "year": 2022,
+          "balance": "release",
+          "slope": -0.8727182540986879
+        },
+        {
+          "year": 2023,
+          "balance": "cell",
+          "slope": -7.84477506423828
+        },
+        {
+          "year": 2023,
+          "balance": "release",
+          "slope": -7.308188157281533
+        },
+        {
+          "year": 2024,
+          "balance": "cell",
+          "slope": 1.1094877359634239
+        },
+        {
+          "year": 2024,
+          "balance": "release",
+          "slope": 2.487341067870965
+        }
+      ],
+      "calibration_applied": false
+    },
+    "SLOOS": {
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "median_abs_true": 0.7523761606626158,
+      "median_abs_predicted": 0.33874694154506746,
+      "mean_abs_true": 0.9819540666490074,
+      "mean_abs_predicted": 0.4890229546129255,
+      "pred_true_mean_abs_ratio": 0.4980100100626431,
+      "true_quantiles": {
+        "0.5": 0.7523761606626158,
+        "0.75": 1.3473673614347872,
+        "0.9": 2.0674106263869225,
+        "0.95": 2.668210226224495,
+        "0.99": 4.511796607730385
+      },
+      "predicted_quantiles": {
+        "0.5": 0.33874694154506746,
+        "0.75": 0.5868759433658242,
+        "0.9": 1.0259285000607157,
+        "0.95": 1.4272313193338813,
+        "0.99": 3.2125517933104804
+      },
+      "raw_center_error_quantiles": {
+        "0.5": 0.2076109015717571,
+        "0.75": 0.5205713851070393,
+        "0.9": 0.9669576881853681,
+        "0.95": 1.2402080206494066,
+        "0.99": 1.9256975573773762
+      },
+      "raw_shift_quantiles": {
+        "0.5": 0.08824060820980925,
+        "0.75": 0.22012909119342772,
+        "0.9": 0.43432622316338154,
+        "0.95": 0.7055458577604762,
+        "0.99": 1.6049772245586524
+      },
+      "calibrations": {
+        "cell": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.27805532951039597,
+          "slope": -0.1405947305367016,
+          "r2": 0.0052187022431396946,
+          "applied_to_candidate": false
+        },
+        "origin": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.27262487498893445,
+          "slope": -0.13165139468468542,
+          "r2": 0.004425045947634487,
+          "applied_to_candidate": false
+        },
+        "release": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.2407513531060349,
+          "slope": -0.14572513731829256,
+          "r2": 0.005427470585533056,
+          "applied_to_candidate": false
+        },
+        "year": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.24968764444779423,
+          "slope": -0.1323623697648797,
+          "r2": 0.0044507929201900165,
+          "applied_to_candidate": false
+        }
+      },
+      "robust_Theil_Sen": {
+        "slope": -0.08801708865475923,
+        "method": "scipy.stats.theilslopes; unweighted descriptive median pair slope; never applied"
+      },
+      "fold_calibration_slopes": [
+        {
+          "year": 2017,
+          "balance": "cell",
+          "slope": 0.13983191674555517
+        },
+        {
+          "year": 2017,
+          "balance": "release",
+          "slope": 0.052413958066160185
+        },
+        {
+          "year": 2018,
+          "balance": "cell",
+          "slope": 0.9834053975309628
+        },
+        {
+          "year": 2018,
+          "balance": "release",
+          "slope": 1.091177953705132
+        },
+        {
+          "year": 2019,
+          "balance": "cell",
+          "slope": -0.5134218521863814
+        },
+        {
+          "year": 2019,
+          "balance": "release",
+          "slope": -0.5678501388037477
+        },
+        {
+          "year": 2020,
+          "balance": "cell",
+          "slope": 0.24081192419734893
+        },
+        {
+          "year": 2020,
+          "balance": "release",
+          "slope": 0.26285302032513985
+        },
+        {
+          "year": 2021,
+          "balance": "cell",
+          "slope": -0.4619656308195043
+        },
+        {
+          "year": 2021,
+          "balance": "release",
+          "slope": -0.4747560175003056
+        },
+        {
+          "year": 2022,
+          "balance": "cell",
+          "slope": -2.1432274434086214
+        },
+        {
+          "year": 2022,
+          "balance": "release",
+          "slope": -2.0647683954152405
+        },
+        {
+          "year": 2023,
+          "balance": "cell",
+          "slope": -0.0533606952628989
+        },
+        {
+          "year": 2023,
+          "balance": "release",
+          "slope": -0.0497063101087153
+        },
+        {
+          "year": 2024,
+          "balance": "cell",
+          "slope": 0.06868620528081948
+        },
+        {
+          "year": 2024,
+          "balance": "release",
+          "slope": 0.15152536231586788
+        }
+      ],
+      "calibration_applied": false
+    },
+    "SPD": {
+      "label": "POST_HOC_DIAGNOSTIC_ONLY",
+      "median_abs_true": 0.7710169733276936,
+      "median_abs_predicted": 0.9302542742240654,
+      "mean_abs_true": 1.2413104200308447,
+      "mean_abs_predicted": 1.5552872687442305,
+      "pred_true_mean_abs_ratio": 1.2529398316865688,
+      "true_quantiles": {
+        "0.5": 0.7710169733276936,
+        "0.75": 1.4907470311855857,
+        "0.9": 2.9659936418675383,
+        "0.95": 4.177820405179161,
+        "0.99": 7.57581790137264
+      },
+      "predicted_quantiles": {
+        "0.5": 0.9302542742240654,
+        "0.75": 1.7642165647027377,
+        "0.9": 3.7648883477044626,
+        "0.95": 5.6011435028194825,
+        "0.99": 9.736319486346694
+      },
+      "raw_center_error_quantiles": {
+        "0.5": 0.2238059727458013,
+        "0.75": 0.6104080992238949,
+        "0.9": 1.2175351246132617,
+        "0.95": 1.5972068847938623,
+        "0.99": 2.528794536985054
+      },
+      "raw_shift_quantiles": {
+        "0.5": 0.28217424276707664,
+        "0.75": 0.8193170966506973,
+        "0.9": 2.4268126726173684,
+        "0.95": 4.550847099040671,
+        "0.99": 8.315713362907236
+      },
+      "calibrations": {
+        "cell": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.7027318645292542,
+          "slope": 0.23281877683891955,
+          "r2": 0.08293174526100788,
+          "applied_to_candidate": false
+        },
+        "origin": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.680630713970969,
+          "slope": 0.23582792763570198,
+          "r2": 0.08163086443326117,
+          "applied_to_candidate": false
+        },
+        "release": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.6161082055837427,
+          "slope": 0.21615654867254708,
+          "r2": 0.07512370887633202,
+          "applied_to_candidate": false
+        },
+        "year": {
+          "label": "POST_HOC_DIAGNOSTIC_ONLY",
+          "intercept": 0.670953849598914,
+          "slope": 0.2292280029416375,
+          "r2": 0.0828431986181537,
+          "applied_to_candidate": false
+        }
+      },
+      "robust_Theil_Sen": {
+        "slope": 0.25646238285684847,
+        "method": "scipy.stats.theilslopes; unweighted descriptive median pair slope; never applied"
+      },
+      "fold_calibration_slopes": [
+        {
+          "year": 2020,
+          "balance": "cell",
+          "slope": 0.8288244425327792
+        },
+        {
+          "year": 2020,
+          "balance": "release",
+          "slope": 0.9435325459596855
+        },
+        {
+          "year": 2021,
+          "balance": "cell",
+          "slope": 2.6801292903417395
+        },
+        {
+          "year": 2021,
+          "balance": "release",
+          "slope": 2.5000090859629425
+        },
+        {
+          "year": 2022,
+          "balance": "cell",
+          "slope": 0.6303681852184664
+        },
+        {
+          "year": 2022,
+          "balance": "release",
+          "slope": 0.647167283601841
+        },
+        {
+          "year": 2023,
+          "balance": "cell",
+          "slope": -0.05018737652522837
+        },
+        {
+          "year": 2023,
+          "balance": "release",
+          "slope": -0.038441517805793794
+        },
+        {
+          "year": 2024,
+          "balance": "cell",
+          "slope": 0.28022647199782164
+        },
+        {
+          "year": 2024,
+          "balance": "release",
+          "slope": 0.25116429023288356
+        }
+      ],
+      "calibration_applied": false
+    }
+  },
+  "calibration_never_applied": true
+}

@@ -1,0 +1,1463 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": {
+    "ECB": {
+      "weighting_metrics": {
+        "cell": {
+          "cells": 227,
+          "origins": 48,
+          "releases": 20,
+          "years": 5,
+          "balance": "cell",
+          "crps_ratio": 1.562819687489047,
+          "mean_CRPS_delta": 0.35162174866318097,
+          "sign_accuracy": 0.5770925110132159,
+          "balanced_sign_accuracy": 0.5803959627329193,
+          "positive_truth_fraction": 0.5066079295154186,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.1691145176316323,
+          "spearman": 0.13788590529414288,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.07290932524362022,
+            "slope": 0.13677511916236387,
+            "r2": 0.028599720073779755,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.9038287822904615,
+          "mean_abs_true_delta": 0.7778755014441846,
+          "mean_predicted_delta": -0.5478587652412131,
+          "mean_predicted_raw_shift": -0.02250358852819149,
+          "mean_raw_center_error": 0.0007605850025432459
+        },
+        "origin": {
+          "cells": 227,
+          "origins": 48,
+          "releases": 20,
+          "years": 5,
+          "balance": "origin",
+          "crps_ratio": 1.5381548815816888,
+          "mean_CRPS_delta": 0.33232458645939134,
+          "sign_accuracy": 0.5694444444444445,
+          "balanced_sign_accuracy": 0.5750370553359684,
+          "positive_truth_fraction": 0.5111111111111112,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.1659889113919343,
+          "spearman": 0.14621414963074097,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.07091327677914332,
+            "slope": 0.13641873248271025,
+            "r2": 0.02755231870507935,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.8566794952282192,
+          "mean_abs_true_delta": 0.7759240823266967,
+          "mean_predicted_delta": -0.5194075374618697,
+          "mean_predicted_raw_shift": -0.021314588025463974,
+          "mean_raw_center_error": 0.0009268322490381238
+        },
+        "release": {
+          "cells": 227,
+          "origins": 48,
+          "releases": 20,
+          "years": 5,
+          "balance": "release",
+          "crps_ratio": 1.6058374975267846,
+          "mean_CRPS_delta": 0.3673446642201442,
+          "sign_accuracy": 0.5433974358974358,
+          "balanced_sign_accuracy": 0.5504656706693378,
+          "positive_truth_fraction": 0.5132692307692307,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.13112027625121664,
+          "spearman": 0.06388432992175727,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.07044729836320683,
+            "slope": 0.10474092952193245,
+            "r2": 0.017192526844195477,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.886008829221712,
+          "mean_abs_true_delta": 0.7756360089057597,
+          "mean_predicted_delta": -0.5024828467677341,
+          "mean_predicted_raw_shift": -0.020763104031921546,
+          "mean_raw_center_error": 0.0014357363440007473
+        },
+        "year": {
+          "cells": 227,
+          "origins": 48,
+          "releases": 20,
+          "years": 5,
+          "balance": "year",
+          "crps_ratio": 1.5098296195921244,
+          "mean_CRPS_delta": 0.3027482285287923,
+          "sign_accuracy": 0.5600000000000002,
+          "balanced_sign_accuracy": 0.5677067116095244,
+          "positive_truth_fraction": 0.5144444444444444,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.16988234719097922,
+          "spearman": 0.14910941419240195,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.07272790564591196,
+            "slope": 0.14485224717573755,
+            "r2": 0.028860011887116843,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.823845582883699,
+          "mean_abs_true_delta": 0.7570871223557847,
+          "mean_predicted_delta": -0.5414452033386368,
+          "mean_predicted_raw_shift": -0.02243839102853141,
+          "mean_raw_center_error": -0.00010098893124153086
+        }
+      },
+      "fold_direction": {
+        "label": "WEAK",
+        "positive_folds": 2,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.4,
+        "diagnostic_only": true
+      },
+      "uncertainty": {
+        "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+        "cells": 227,
+        "blocks": {
+          "release": {
+            "blocks": 20,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.48068409100379184,
+                0.6699041082787317
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.4862284557789273,
+                0.6643914710519507
+              ],
+              "cell_pearson": [
+                -0.16401513750279262,
+                0.385271676982036
+              ],
+              "cell_spearman": [
+                -0.1497457254080797,
+                0.3855795349091217
+              ],
+              "release_sign_accuracy": [
+                0.4308141025641026,
+                0.6516874999999998
+              ],
+              "release_balanced_sign_accuracy": [
+                0.4487416680458801,
+                0.6529409635426846
+              ],
+              "release_pearson": [
+                -0.2181608162118637,
+                0.38000137384697474
+              ],
+              "release_spearman": [
+                -0.20875684904960462,
+                0.34068685201875265
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              1.1465525883874421,
+              2.105182444420302
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999998,
+                  1.0000000000000002
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9853100794119044,
+                  1.0035602099496488
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9652951088120619,
+                  1.010017115234776
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9368405692952235,
+                  1.0234582186455388
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9008597183776975,
+                  1.0622172501290508
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.8950178892390311,
+                  1.1192212000985797
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  0.9455101825665789,
+                  1.29702675242905
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  1.0403223924650282,
+                  1.6377113238238938
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  1.1465525883874421,
+                  2.105182444420302
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9909365736315511,
+                  1.001137911143164
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9779976534235557,
+                  1.0036680117684151
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9582867657562562,
+                  1.0103031059608576
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9260904289106437,
+                  1.031922549207209
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          },
+          "year": {
+            "blocks": 5,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.4637640320733105,
+                0.6615384615384615
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.5009398496240601,
+                0.6535714285714286
+              ],
+              "cell_pearson": [
+                -0.28604134862881037,
+                0.4139518709712847
+              ],
+              "cell_spearman": [
+                -0.32309510993214496,
+                0.3510631808049264
+              ],
+              "release_sign_accuracy": [
+                0.4153194263363755,
+                0.637984496124031
+              ],
+              "release_balanced_sign_accuracy": [
+                0.49772075978088565,
+                0.6239475155909173
+              ],
+              "release_pearson": [
+                -0.3225790245841314,
+                0.38856660529049636
+              ],
+              "release_spearman": [
+                -0.36184454700378743,
+                0.3403004329869436
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              1.279496631219392,
+              1.7359174961548982
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999998,
+                  1.0000000000000004
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.985989450380218,
+                  1.0040692863129759
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.966616353467553,
+                  1.0108150736482526
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9386334036175025,
+                  1.0237002708679146
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9001969611471116,
+                  1.05544222401443
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.8841193382626549,
+                  1.095417893694021
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  0.9216091253227288,
+                  1.1951212382741119
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  1.0529504721249205,
+                  1.4149056626123078
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  1.279496631219392,
+                  1.7359174961548982
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.991557121105271,
+                  1.0017289853751532
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.979703534258722,
+                  1.0051637546823546
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9621223016692733,
+                  1.0132664758722498
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9338387783405582,
+                  1.0398744270163087
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          }
+        },
+        "seed": 2026100601,
+        "exposed_research_only": true
+      },
+      "convexity_check": {
+        "sign_correct_nonovershoot_cells": 68,
+        "sign_correct_nonovershoot_harmed_cells": 0,
+        "explanation": "Pure translations have constant CRPS spread term and convex absolute-error term, minimized by moving the sample median to truth. Moving toward truth without overshooting cannot worsen CRPS beyond numerical tolerance."
+      }
+    },
+    "SLOOS": {
+      "weighting_metrics": {
+        "cell": {
+          "cells": 2616,
+          "origins": 91,
+          "releases": 33,
+          "years": 8,
+          "balance": "cell",
+          "crps_ratio": 1.148454701224846,
+          "mean_CRPS_delta": 0.1094032312627673,
+          "sign_accuracy": 0.5133792048929664,
+          "balanced_sign_accuracy": 0.47846754607019054,
+          "positive_truth_fraction": 0.5818042813455657,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": -0.07224058584438196,
+          "spearman": -0.04416837734043602,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.27805532951039597,
+            "slope": -0.1405947305367016,
+            "r2": 0.0052187022431396946,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.4890229546129255,
+          "mean_abs_true_delta": 0.9819540666490074,
+          "mean_predicted_delta": 0.25847369588800495,
+          "mean_predicted_raw_shift": 0.092770828904446,
+          "mean_raw_center_error": 0.0810095310362958
+        },
+        "origin": {
+          "cells": 2616,
+          "origins": 91,
+          "releases": 33,
+          "years": 8,
+          "balance": "origin",
+          "crps_ratio": 1.1420962756941286,
+          "mean_CRPS_delta": 0.10401426671151501,
+          "sign_accuracy": 0.5130952380952384,
+          "balanced_sign_accuracy": 0.4812841859671503,
+          "positive_truth_fraction": 0.5737484737484743,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": -0.06652101884092569,
+          "spearman": -0.03324365032846538,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.27262487498893445,
+            "slope": -0.13165139468468542,
+            "r2": 0.004425045947634487,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.4784136373308482,
+          "mean_abs_true_delta": 0.9811826543825999,
+          "mean_predicted_delta": 0.2556488110740908,
+          "mean_predicted_raw_shift": 0.09054050183939182,
+          "mean_raw_center_error": 0.07766926864326995
+        },
+        "release": {
+          "cells": 2616,
+          "origins": 91,
+          "releases": 33,
+          "years": 8,
+          "balance": "release",
+          "crps_ratio": 1.157260537072539,
+          "mean_CRPS_delta": 0.11166226365193296,
+          "sign_accuracy": 0.496695896695897,
+          "balanced_sign_accuracy": 0.4707940458126907,
+          "positive_truth_fraction": 0.555666555666556,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": -0.07367136883168025,
+          "spearman": -0.053456654285663194,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.2407513531060349,
+            "slope": -0.14572513731829256,
+            "r2": 0.005427470585533056,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.47799806923392996,
+          "mean_abs_true_delta": 0.9467799443217104,
+          "mean_predicted_delta": 0.26757567410295147,
+          "mean_predicted_raw_shift": 0.09284324585257636,
+          "mean_raw_center_error": 0.0653925423749909
+        },
+        "year": {
+          "cells": 2616,
+          "origins": 91,
+          "releases": 33,
+          "years": 8,
+          "balance": "year",
+          "crps_ratio": 1.1422062863304179,
+          "mean_CRPS_delta": 0.10269620038778747,
+          "sign_accuracy": 0.515983462675536,
+          "balanced_sign_accuracy": 0.48386269384557834,
+          "positive_truth_fraction": 0.5741917652131068,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": -0.06671426324400644,
+          "spearman": -0.03533746589910794,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.24968764444779423,
+            "slope": -0.1323623697648797,
+            "r2": 0.0044507929201900165,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 0.47296786331217755,
+          "mean_abs_true_delta": 0.9678965670387549,
+          "mean_predicted_delta": 0.2542298726230958,
+          "mean_predicted_raw_shift": 0.09093066637585043,
+          "mean_raw_center_error": 0.06966681030598325
+        }
+      },
+      "fold_direction": {
+        "label": "NONE",
+        "positive_folds": 4,
+        "evaluable_folds": 8,
+        "positive_fraction": 0.5,
+        "diagnostic_only": true
+      },
+      "uncertainty": {
+        "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+        "cells": 2616,
+        "blocks": {
+          "release": {
+            "blocks": 33,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.4461476608187135,
+                0.5728645028896285
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.41646193841862145,
+                0.5344040253442027
+              ],
+              "cell_pearson": [
+                -0.3003435824882934,
+                0.1228976271316761
+              ],
+              "cell_spearman": [
+                -0.23513892061372962,
+                0.13677682551809356
+              ],
+              "release_sign_accuracy": [
+                0.42811447811447806,
+                0.5603226403226401
+              ],
+              "release_balanced_sign_accuracy": [
+                0.41168897384439257,
+                0.5258274673703531
+              ],
+              "release_pearson": [
+                -0.29812146804216483,
+                0.11445414803185083
+              ],
+              "release_spearman": [
+                -0.23383181541959483,
+                0.11498401428326303
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              1.0649841856965545,
+              1.2405333323846717
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999996,
+                  1.0000000000000004
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9975765164713262,
+                  1.001759303221906
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9943568327083018,
+                  1.0045254076281385
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9902905770134841,
+                  1.0096901820029007
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9866114281066909,
+                  1.0216563253605333
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.9883651287854909,
+                  1.0362774617910822
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  1.0019570357331669,
+                  1.0743181559219956
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  1.029505190586385,
+                  1.1456991161328598
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  1.0649841856965545,
+                  1.2405333323846717
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9974577764181477,
+                  1.0023616223243137
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9942495865361665,
+                  1.006364568575186
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9904340171034558,
+                  1.0142935631322676
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9889143949039924,
+                  1.034938722982365
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          },
+          "year": {
+            "blocks": 8,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.4358049833307053,
+                0.5835266821345708
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.4057213697423375,
+                0.5496926640354461
+              ],
+              "cell_pearson": [
+                -0.2883449801218685,
+                0.1436855392216936
+              ],
+              "cell_spearman": [
+                -0.2651576028926556,
+                0.18029376658770008
+              ],
+              "release_sign_accuracy": [
+                0.4173679898921544,
+                0.5698956409693734
+              ],
+              "release_balanced_sign_accuracy": [
+                0.4045059850441642,
+                0.538932221095179
+              ],
+              "release_pearson": [
+                -0.28215502804849224,
+                0.1334350196375202
+              ],
+              "release_spearman": [
+                -0.2621018565743462,
+                0.16571880573278283
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              1.0445691844256453,
+              1.2342042514583778
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999996,
+                  1.0000000000000004
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9977735048899234,
+                  1.001722504676797
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9948039157085065,
+                  1.0044530478757396
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9909102202526596,
+                  1.0094354993888415
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9863054360989529,
+                  1.0217086408283607
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.9857690172433565,
+                  1.0365338737186953
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  0.9938579855967478,
+                  1.0750364035303972
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  1.0150996326271344,
+                  1.1453621342722402
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  1.044569184425645,
+                  1.2342042514583773
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9963043353324897,
+                  1.0032807282558271
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9914381247609915,
+                  1.0087039887637537
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9852033282153593,
+                  1.0191726626446818
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9797591090334616,
+                  1.0453731416764858
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          }
+        },
+        "seed": 2026100601,
+        "exposed_research_only": true
+      },
+      "convexity_check": {
+        "sign_correct_nonovershoot_cells": 946,
+        "sign_correct_nonovershoot_harmed_cells": 0,
+        "explanation": "Pure translations have constant CRPS spread term and convex absolute-error term, minimized by moving the sample median to truth. Moving toward truth without overshooting cannot worsen CRPS beyond numerical tolerance."
+      }
+    },
+    "SPD": {
+      "weighting_metrics": {
+        "cell": {
+          "cells": 552,
+          "origins": 59,
+          "releases": 41,
+          "years": 5,
+          "balance": "cell",
+          "crps_ratio": 1.4208331210520908,
+          "mean_CRPS_delta": 0.4250541272067451,
+          "sign_accuracy": 0.6612318840579711,
+          "balanced_sign_accuracy": 0.6604969047322282,
+          "positive_truth_fraction": 0.6141304347826086,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.2879787236255624,
+          "spearman": 0.4043673967618314,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.7027318645292542,
+            "slope": 0.23281877683891955,
+            "r2": 0.08293174526100788,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 1.5552872687442303,
+          "mean_abs_true_delta": 1.2413104200308445,
+          "mean_predicted_delta": -0.5589602421877181,
+          "mean_predicted_raw_shift": -0.6040721149583782,
+          "mean_raw_center_error": 0.18936496611451983
+        },
+        "origin": {
+          "cells": 552,
+          "origins": 59,
+          "releases": 41,
+          "years": 5,
+          "balance": "origin",
+          "crps_ratio": 1.411776322201589,
+          "mean_CRPS_delta": 0.4075865016907769,
+          "sign_accuracy": 0.6607344632768363,
+          "balanced_sign_accuracy": 0.6659822018133814,
+          "positive_truth_fraction": 0.5968926553672318,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.28571115559820365,
+          "spearman": 0.3960055419308161,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.680630713970969,
+            "slope": 0.23582792763570198,
+            "r2": 0.08163086443326117,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 1.5103503764325776,
+          "mean_abs_true_delta": 1.2326082299207912,
+          "mean_predicted_delta": -0.5781935651458068,
+          "mean_predicted_raw_shift": -0.5819276892969036,
+          "mean_raw_center_error": 0.1755563378970944
+        },
+        "release": {
+          "cells": 552,
+          "origins": 59,
+          "releases": 41,
+          "years": 5,
+          "balance": "release",
+          "crps_ratio": 1.4718361136442664,
+          "mean_CRPS_delta": 0.45471749837567393,
+          "sign_accuracy": 0.6638598528842431,
+          "balanced_sign_accuracy": 0.6697305363859608,
+          "positive_truth_fraction": 0.5812620983352692,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.27408704616660035,
+          "spearman": 0.3854381509674189,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.6161082055837427,
+            "slope": 0.21615654867254708,
+            "r2": 0.07512370887633202,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 1.5505121946085858,
+          "mean_abs_true_delta": 1.1926564869043477,
+          "mean_predicted_delta": -0.6407136748460519,
+          "mean_predicted_raw_shift": -0.6317125613608325,
+          "mean_raw_center_error": 0.15403007322926182
+        },
+        "year": {
+          "cells": 552,
+          "origins": 59,
+          "releases": 41,
+          "years": 5,
+          "balance": "year",
+          "crps_ratio": 1.4610295113714178,
+          "mean_CRPS_delta": 0.44774541002599977,
+          "sign_accuracy": 0.6508019216555802,
+          "balanced_sign_accuracy": 0.6579517069939504,
+          "positive_truth_fraction": 0.6023798965262379,
+          "zero_or_tie_fraction": 0.0,
+          "pearson": 0.2878249443987672,
+          "spearman": 0.3945231813849041,
+          "calibration": {
+            "label": "POST_HOC_DIAGNOSTIC_ONLY",
+            "intercept": 0.670953849598914,
+            "slope": 0.2292280029416375,
+            "r2": 0.0828431986181537,
+            "applied_to_candidate": false
+          },
+          "mean_abs_predicted_delta": 1.5728225479810591,
+          "mean_abs_true_delta": 1.2150103951550224,
+          "mean_predicted_delta": -0.6557885215985854,
+          "mean_predicted_raw_shift": -0.6452527688353948,
+          "mean_raw_center_error": 0.16898080560782786
+        }
+      },
+      "fold_direction": {
+        "label": "STRONG",
+        "positive_folds": 4,
+        "evaluable_folds": 5,
+        "positive_fraction": 0.8,
+        "diagnostic_only": true
+      },
+      "uncertainty": {
+        "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+        "cells": 552,
+        "blocks": {
+          "release": {
+            "blocks": 41,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.5845567250872952,
+                0.7367514413241585
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.5911786147236527,
+                0.7253535884340382
+              ],
+              "cell_pearson": [
+                0.1932345558258778,
+                0.3667299038424468
+              ],
+              "cell_spearman": [
+                0.25783117767687064,
+                0.5268556763188768
+              ],
+              "release_sign_accuracy": [
+                0.5824999999999999,
+                0.7452981029810298
+              ],
+              "release_balanced_sign_accuracy": [
+                0.591521016504547,
+                0.7420230846504637
+              ],
+              "release_pearson": [
+                0.17279154787383047,
+                0.3642240463768609
+              ],
+              "release_spearman": [
+                0.2268032226402016,
+                0.5182298569547448
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              1.0676946009062442,
+              2.010983670258275
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999994,
+                  1.0000000000000004
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.991559790688748,
+                  0.9982729897852853
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9813364761753519,
+                  0.9986710933471478
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9695682441581851,
+                  1.0071485622206253
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9577447878061047,
+                  1.0536554423133342
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.9545063259532025,
+                  1.1325397050603223
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  0.9665105163643523,
+                  1.3363718649964267
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  1.0056005211845291,
+                  1.6548341216067433
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  1.0676946009062447,
+                  2.010983670258275
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9932203578510054,
+                  0.9962696239095481
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9834009359316876,
+                  0.9910948944900043
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9680094547069662,
+                  0.9836491498789458
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9407166907822707,
+                  0.973248696638888
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          },
+          "year": {
+            "blocks": 5,
+            "replicates": 5000,
+            "direction_95ci": {
+              "cell_sign_accuracy": [
+                0.5535714285714286,
+                0.7516666666666667
+              ],
+              "cell_balanced_sign_accuracy": [
+                0.5415904359346414,
+                0.7098072762038947
+              ],
+              "cell_pearson": [
+                -0.006737792058249601,
+                0.49351208113167894
+              ],
+              "cell_spearman": [
+                0.031702481334361404,
+                0.5453864483900724
+              ],
+              "release_sign_accuracy": [
+                0.5585365853658536,
+                0.7617283950617284
+              ],
+              "release_balanced_sign_accuracy": [
+                0.5419092260141262,
+                0.7265909164473477
+              ],
+              "release_pearson": [
+                -0.030960420336953093,
+                0.5097467295963808
+              ],
+              "release_spearman": [
+                0.016223957388906446,
+                0.5488195238757868
+              ]
+            },
+            "primary_CRPS_ratio_95ci": [
+              0.848124810267904,
+              3.4808628615522874
+            ],
+            "diagnostic_curve_95ci": [
+              {
+                "kind": "shrinkage",
+                "value": 0.0,
+                "crps_ratio_95ci": [
+                  0.9999999999999996,
+                  1.0000000000000004
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9932430172368912,
+                  0.999406040195986
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.9834570796765916,
+                  1.008541997577018
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9682173032497743,
+                  1.0464014709868654
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.941152452231112,
+                  1.1948954612031628
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.3,
+                "crps_ratio_95ci": [
+                  0.9187102044934635,
+                  1.407658417411899
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.5,
+                "crps_ratio_95ci": [
+                  0.883111239158615,
+                  1.9305139702904952
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 0.75,
+                "crps_ratio_95ci": [
+                  0.8574062476183412,
+                  2.677686347581908
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "shrinkage",
+                "value": 1.0,
+                "crps_ratio_95ci": [
+                  0.8481248102679042,
+                  3.4808628615522856
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.02,
+                "crps_ratio_95ci": [
+                  0.9935556085569507,
+                  0.9977695493576821
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.05,
+                "crps_ratio_95ci": [
+                  0.984209493834282,
+                  0.9951587353078211
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.1,
+                "crps_ratio_95ci": [
+                  0.9694603555869593,
+                  0.9926564921560543
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              },
+              {
+                "kind": "direction_only",
+                "value": 0.2,
+                "crps_ratio_95ci": [
+                  0.9432076081559143,
+                  0.9947478035435278
+                ],
+                "label": "POST_HOC_DIAGNOSTIC_ONLY",
+                "INVALID_FOR_CONFIRMATORY_USE": true
+              }
+            ],
+            "IID_cell_bootstrap": false,
+            "refit": false
+          }
+        },
+        "seed": 2026100601,
+        "exposed_research_only": true
+      },
+      "convexity_check": {
+        "sign_correct_nonovershoot_cells": 186,
+        "sign_correct_nonovershoot_harmed_cells": 0,
+        "explanation": "Pure translations have constant CRPS spread term and convex absolute-error term, minimized by moving the sample median to truth. Moving toward truth without overshooting cannot worsen CRPS beyond numerical tolerance."
+      }
+    }
+  },
+  "weighted_Spearman_method": "Weighted mid-CDF rank Pearson, equal total mass per origin/release/year; no IID-cell significance",
+  "fold_counts_preserved": {
+    "ECB": 5,
+    "SLOOS": 8,
+    "SPD": 5
+  }
+}

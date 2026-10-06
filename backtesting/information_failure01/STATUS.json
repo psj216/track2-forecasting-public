@@ -3,7 +3,7 @@
   "branch": "track2/information-failure-reassessment-01",
   "parent_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
   "HEAD": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
-  "current_stage": "aggregate_export_repair",
+  "current_stage": "Git_result_freeze",
   "stages": {
     "environment_recovery": "complete",
     "reproduction:ECB": "complete",
@@ -26,25 +26,24 @@
     "curves:SPD": "complete",
     "geometry:SPD": "complete",
     "coefficients:SPD": "complete",
-    "bootstrap:SPD": "complete"
+    "bootstrap:SPD": "complete",
+    "PRE_export_amendment": "complete",
+    "final_aggregation": "complete",
+    "report": "complete",
+    "tests": "complete",
+    "interpretation_review": "complete"
   },
   "pending_stages": [
-    "reproduction",
-    "unified_ledger",
-    "implementation_tests",
-    "PRE",
-    "diagnostics",
-    "interpretation",
-    "report",
-    "tests",
-    "Git",
-    "recovery"
+    "Git verification",
+    "private recovery ZIP verification and durable save"
   ],
-  "last_successful_artifact": "bootstrap:SPD",
-  "last_update": "2026-10-06T10:41:35.335462+00:00",
+  "last_successful_artifact": "tests",
+  "last_update": "2026-10-06T10:48:57.170308+00:00",
   "new_models_fitted": 0,
-  "PRE_RESULT_INFO_FAILURE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "PRE_RESULT_INFO_FAILURE_SHA": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
   "execution_failures": {
     "aggregate": 1
-  }
+  },
+  "resume_point": "Verify remote result, then create/hash/save private ZIP; do not repeat diagnosis",
+  "result_SHA_location": "Private completion receipt binds final RESULT SHA without a self-referential commit"
 }

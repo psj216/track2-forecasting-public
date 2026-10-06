@@ -1,6 +1,6 @@
 {
   "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
-  "phase": "PRE implementation",
+  "phase": "RESULT tests verified; Git publication and recovery receipt follow externally",
   "models_refit": 0,
   "source_primary_prediction_files_unchanged": true,
   "recovery_archives_CRC_and_member_hashes_verified": true,
@@ -27,5 +27,47 @@
   "common_commit": "03fc89cc666354e999768381bb923e60be5c1cee",
   "common_version": "2.4.3",
   "main_initial_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
-  "affected_pre_tests": "127 passed"
+  "affected_pre_tests": "127 passed",
+  "new_forecasting_models": 0,
+  "no_prior_source_refit": true,
+  "prior_primary_verdicts_unchanged": true,
+  "diagnostic_jobs_complete": 45,
+  "bootstrap_replicates_per_source_and_block": 5000,
+  "bootstrap_chunks_completed": 30,
+  "tests": {
+    "research_specific": {
+      "passed": 17,
+      "skipped": 0,
+      "log": "research-verification-tests.log"
+    },
+    "affected": {
+      "passed": 127,
+      "skipped": 0,
+      "log": "affected-final-tests.log"
+    },
+    "full_repository": {
+      "passed": 709,
+      "skipped": 2,
+      "warnings": 3,
+      "log": "full-repository-tests.log"
+    },
+    "common_toolkit": {
+      "passed": 250,
+      "skipped": 0,
+      "log": "common-toolkit-tests.log"
+    },
+    "public_unit_firewall": {
+      "units": 104,
+      "failures": 0
+    }
+  },
+  "original_scientific_PRE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "PRE_RESULT_INFO_FAILURE_SHA": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
+  "PRE_export_amendment": "Export-only duplicate balance field; numeric stage outputs preserved",
+  "interpretation_review": "Disclosed analyst hypothesis recommendation differs from frozen extra-strict automatic axis gate; both are retained. No prior NO verdict or forecast changes.",
+  "all_2142_parent_files_hash_unchanged": true,
+  "main_unchanged": true,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "private_ledger_hash": "066bafcf3163466ab33f579a5888da2e4a76a959f3c0233d897ffbaa389a9a6e",
+  "recovery_verification_location": "Private completion receipt: final RESULT SHA, remote blobs/main checks, archive CRC/per-file hashes/full SHA-256"
 }
