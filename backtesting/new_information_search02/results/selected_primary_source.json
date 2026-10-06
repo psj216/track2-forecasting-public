@@ -1,7 +1,12 @@
 {
-  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
-  "NEWINFO02_PRIMARY_SOURCE": null,
-  "status": "NOT_SELECTED",
-  "forced_winner": false,
-  "reason": "No final diagnostic aggregation or ranking executed"
+  "executive_summary": "Exactly one audit focus. No forced forecasting primary if hard gates or identification criteria fail.",
+  "NEWINFO02_RESULT": "PERSISTENT_REGIME_PROXY",
+  "NEWINFO02_PRIMARY_SOURCE": "FOMC_SEP_POLICY_PATH",
+  "audit_focus_source": "FOMC_SEP_POLICY_PATH",
+  "primary_count": 1,
+  "exactly_one_audit_focus": true,
+  "NEXT": "PERSISTENT-DIRECTION-STATE-02",
+  "no_forced_winner": false,
+  "ranking_uses_future_outcomes": false,
+  "required_access": []
 }

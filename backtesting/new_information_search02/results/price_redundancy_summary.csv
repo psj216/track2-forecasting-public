@@ -1,1 +1,5 @@
-source,status
+n,price_features,R2,novelty,in_sample_descriptive_only,not_original_price_cache,source
+57,14,0.7650005721198687,MEDIUM,True,True,FOMC_SEP_POLICY_PATH
+59,14,0.36449705447202374,HIGH,True,True,H41_RESERVES
+59,14,0.40265585262604,MEDIUM,True,True,NYFED_ONRRP
+20,14,0.9485006433223666,LOW,True,True,ATLANTA_MPT_SOFR

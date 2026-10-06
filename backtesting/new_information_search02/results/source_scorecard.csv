@@ -1,1 +1,18 @@
-source,score,status
+source,family,PIT,Timing,Novelty,access,rights_status,coverage_pass,relevance_pass,reproducible,primary_prohibited,pit,timing,depth,relevance,novelty,persistence,alignment,readability,reproducibility,rights,score,hard_gates_pass
+FOMC_SEP_POLICY_PATH,C,B,LOW,MEDIUM,ACCESSIBLE_PUBLIC,Board-authored content generally public domain; retain attribution,True,True,True,False,2,0,2,2,1,2,2,1,2,2,16,True
+H41_RESERVES,E,B,MEDIUM,HIGH,ACCESSIBLE_PUBLIC,Board-authored content generally public domain,True,False,True,False,2,1,2,1,2,2,0,1,2,2,15,False
+NYFED_ONRRP,E,C,MEDIUM,MEDIUM,ACCESSIBLE_WITH_LIMITATIONS,NY Fed terms permit use subject to attribution and third-party conditions,True,False,True,False,1,1,2,1,1,1,0,2,1,1,11,False
+SPD_POLICY_DISTRIBUTION,C,B,LOW,UNKNOWN,ACCESSIBLE_PUBLIC,NY Fed attribution conditions,True,True,True,False,2,0,2,2,0,0,0,1,2,2,11,True
+UST_CURVE_SPOT,B,C,MEDIUM,REDUNDANT,ACCESSIBLE_PUBLIC,Official historical benchmark; original cache not recovered,True,True,True,False,1,1,2,2,0,0,0,2,1,2,11,False
+NEAR_TERM_FORWARD_SPREAD,B,C,MEDIUM,REDUNDANT,ACCESSIBLE_PUBLIC,Derived from public fitted Treasury yields,True,True,True,False,1,1,2,2,0,0,0,1,1,2,10,False
+ATLANTA_MPT_SOFR,F,C,MEDIUM,LOW,ACCESSIBLE_WITH_LIMITATIONS,Personal and educational use only; contest/offline permission unproven,False,True,True,True,1,1,0,2,0,2,0,2,1,0,9,False
+CFTC_TFF_TREASURY,D,C,MEDIUM,UNKNOWN,ACCESSIBLE_WITH_LIMITATIONS,Government report generally public domain,True,True,True,False,1,1,2,2,0,0,0,1,1,1,9,False
+EFFR_FUNDING_STRESS,E,C,MEDIUM,LOW,ACCESSIBLE_PUBLIC,NY Fed terms/attribution,True,False,True,False,1,1,2,1,0,0,0,1,1,2,9,False
+ACM_TERM_PREMIUM,B,D,MEDIUM,LOW,ACCESSIBLE_WITH_LIMITATIONS,NY Fed attribution/third-party terms apply,True,True,True,False,0,1,2,2,0,0,0,1,1,1,8,False
+CME_ZQ_POLICY_PATH,A,C,HIGH,UNKNOWN,USER_LICENSE_REQUIRED,Written historical/API and offline rights required,True,True,False,False,1,2,2,2,0,0,0,1,0,0,8,False
+NYFED_DEALER_POSITIONS,D,D,MEDIUM,UNKNOWN,ACCESSIBLE_WITH_LIMITATIONS,NY Fed attribution conditions,True,True,True,False,0,1,2,2,0,0,0,1,1,1,8,False
+CME_SOFR_POLICY_PATH,A,C,HIGH,UNKNOWN,USER_LICENSE_REQUIRED,CME historical/offline license required,False,True,False,False,1,2,1,2,0,0,0,1,0,0,7,False
+USD_OIS_POLICY_PATH,A,D,HIGH,UNKNOWN,USER_LICENSE_REQUIRED,Vendor entitlement and offline-use terms unverified,True,True,False,False,0,2,2,2,0,0,0,1,0,0,7,False
+CME_FEDWATCH_HISTORY,A,D,UNUSABLE,UNKNOWN,USER_LICENSE_REQUIRED,History/model-output redistribution unverified,False,True,False,False,0,0,1,2,0,0,0,1,0,0,4,False
+MACRO_CONSENSUS_NOWCAST,G,D,LOW,LOW,UNKNOWN,Source-specific terms not yet verified,True,False,False,False,0,0,2,1,0,0,0,1,0,0,4,False
+RATE_OPTION_SKEW,F,D,UNUSABLE,UNKNOWN,USER_LICENSE_REQUIRED,Historical contract/options license and derived-distribution permission required,False,True,False,False,0,0,1,2,0,0,0,1,0,0,4,False

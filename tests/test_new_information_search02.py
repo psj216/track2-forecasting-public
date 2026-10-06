@@ -100,3 +100,24 @@ def test_spec_unchanged_from_verified_checkpoint():
   f='backtesting/new_information_search02/'+name
   old=subprocess.check_output(['git','show','5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe:'+f],cwd=ROOT)
   assert (ROOT/f).read_bytes()==old
+
+def test_final_artifacts_one_primary_and_frozen_thresholds():
+ out=ROOT/'backtesting/new_information_search02/results';d=json.loads((out/'final_decision.json').read_text());top=json.loads((out/'top3_sources.json').read_text())['sources']
+ assert d['NEWINFO02_RESULT']=='PERSISTENT_REGIME_PROXY' and d['NEWINFO02_PRIMARY_SOURCE']=='FOMC_SEP_POLICY_PATH' and d['primary_count']==1
+ assert len(top)<=3 and top[0]['source']==d['NEWINFO02_PRIMARY_SOURCE']
+ row=pd.read_csv(out/'spd_alignment_summary.csv').query("source=='FOMC_SEP_POLICY_PATH' and weighting=='release'").iloc[0]
+ assert row.agreement>=.55 and row.Spearman>=.1 and row.origins>=24
+ assert d['INDEPENDENT_VALIDATION']=='NOT_AVAILABLE' and not d['next_model_executed'] and d['new_CRPS']==0
+ for name in ['environment_audit.json','lineage_manifest.json','frozen_spd_direction_manifest.json','candidate_inventory.csv','source_documentation_manifest.json','pit_matrix.csv','timing_resolution.csv','access_rights_matrix.csv','persistence_summary.csv','spd_alignment_summary.csv','price_redundancy_summary.csv','source_scorecard.csv','top3_sources.json','selected_primary_source.json','outcome_firewall_test.json','independent_validation_audit.json','direction_source02_frozen_draft.md','final_decision.json','execution_audit.json','artifact_manifest.json']:assert (out/name).is_file()
+
+def test_live_source_mutation_does_not_change_earlier_asof_states():
+ p=Path(os.environ['NEWINFO02_PRIVATE']);d=pd.read_parquet(p/'frozen_spd_direction_state.parquet');d=d[pd.to_datetime(d.origin_date)<='2021-12-31']
+ for source in ['FOMC_SEP_POLICY_PATH','H41_RESERVES','NYFED_ONRRP','ATLANTA_MPT_SOFR']:
+  src=pd.read_parquet(p/(source+'.parquet'));a=join_asof(d,src);mutated=src.copy();future=pd.to_datetime(mutated.available_at,utc=True)>origin_cutoff('2022-01-03');mutated.loc[future,'value']=999999
+  pd.testing.assert_frame_equal(a,join_asof(d,mutated))
+
+def test_conditional_next_draft_not_executed():
+ text=(ROOT/'backtesting/new_information_search02/results/direction_source02_frozen_draft.md').read_text()
+ assert 'NOT_EXECUTED' in text and 'PERSISTENT-DIRECTION-STATE-02' in text and 'FOMC_SEP_POLICY_PATH' in text
+ assert 'C=1.0' in text and '0.05 * sign' in text and 'Threshold0.50' in text and 'No standardized magnitude prediction' in text
+ assert all(x in text for x in ['5BD delayed','21BD stale','persistence','price','NO'])

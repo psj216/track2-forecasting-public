@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Remote PRE verified before source-ranking or future outcome access.",
+  "PRE_RESULT_NEWINFO02_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+  "resume_checkpoint": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
+  "original_parent": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "remote_verified": true,
+  "main_unchanged": true,
+  "remote_tree": "8737bd5dd849201468d3764e05eabb70587ee1f3",
+  "remote_critical_blobs": [
+    "23f136da5f8d4e85ae96fa16be7430ad14ca97d6",
+    "786866a0e63949498f5e0a9fa0beef8a13c134c4"
+  ],
+  "source_rankings_before_PRE": false,
+  "new_CRPS_before_PRE": 0
+}

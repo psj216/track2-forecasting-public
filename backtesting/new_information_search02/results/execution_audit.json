@@ -1,61 +1,49 @@
 {
-  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
-  "safe_stop": {
-    "execution_state": "STOPPED_SECOND_FAILURE",
-    "NEWINFO02_RESULT": "NOT_EVALUATED",
-    "stage": "source_dataset_construction",
-    "attempts": 2,
-    "first_error": "MPT Rate: mean filtering failed due to provider whitespace; empty DataFrame had no date column",
-    "second_error": "MPT mean rate fields are strings; TypeError subtracting str from str",
-    "repairs_preserved": [
-      "Normalize source field whitespace/case",
-      "Convert selected provider mean values to float before subtraction",
-      "Add isolated regression test with string-valued rate means and post-cutoff row"
-    ],
-    "third_attempt_executed": false,
-    "ranking_executed": false,
-    "new_model_executed": false,
-    "new_CRPS_calculated": false,
-    "PRE_RESULT_NEWINFO02_SHA": null,
-    "RESULT_SHA": null,
-    "primary_source": null,
-    "top3": null,
-    "exact_continuation_command": "NEWINFO02_PRIVATE=/absolute/path/to/recovered/private timeout 300 python -m backtesting.new_information_search02.parse (invoke construct explicitly; module currently exposes functions only)",
-    "continuation_procedure": [
-      "Read STATUS and stopped_execution.json, preserve all completed downloads",
-      "Run repaired source construction only if the user authorizes resuming after this mandatory stop",
-      "Do not reacquire unchanged official sources; use receipts and acquisition plan",
-      "Verify parsed source hashes, run research tests, commit/push and verify PRE before final ranking",
-      "Run frozen analyze pipeline, report outcome-free source decision, complete Git/result/recovery verification"
-    ],
-    "skill": "agenthon-safe-long-work",
-    "stop_rule": "If the same execution step fails or hangs twice: STOP."
-  },
-  "source_download_receipts": 397,
-  "completed_downloads_preserved": true,
-  "no_third_source_constructor_attempt": true,
-  "tests": {
+  "executive_summary": "Completed corrected data construction, frozen source audit, ranking, conditional draft and all test stages. Exact remote RESULT and archive verification are bound by the external completion receipt.",
+  "resumed_from": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
+  "original_parent": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "PRE_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+  "PRE_remote_verified": true,
+  "source_construction_success": true,
+  "source_redownloads": 0,
+  "diagnostic_aggregation_complete": true,
+  "ranking_complete": true,
+  "primary_count": 1,
+  "future_forecast_outcome_files_loaded": [],
+  "forecast_model_fits": 0,
+  "candidate_CRPS_calculations": 0,
+  "next_experiment_executed": false,
+  "original_SPEC_unchanged": true,
+  "parser_storage_only_repair": "Integer year-keyed metadata converted to JSON; values preserved",
+  "final_tests": {
     "research": {
+      "passed": 31,
+      "skipped": 0,
       "exit_code": 0,
-      "elapsed_seconds": 3.6335675709997304,
-      "summary": ".........................                                                [100%]\n25 passed in 0.91s\n"
+      "log_SHA256": "3457d4b646a710ae18c5a88568f9246ff708aef261457b7377be2864515c13ae"
     },
     "affected": {
+      "passed": 92,
+      "skipped": 0,
       "exit_code": 0,
-      "elapsed_seconds": 3.5821092009991844,
-      "summary": "........................................................................ [ 78%]\n....................                                                     [100%]\n92 passed in 1.65s\n"
+      "log_SHA256": "9197a15908f50d2b1d6e9d959959bf8ca9d435004faaef9333c37fc0d285e923"
     },
     "full": {
+      "passed": 749,
+      "skipped": 17,
       "exit_code": 0,
-      "elapsed_seconds": 54.43445030899966,
-      "summary": "_location01.py:84: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:90: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:96: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:100: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:105: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:113: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_direction_to_location01.py:117: Private frozen inputs are not distributed in public Git\nSKIPPED [1] tests/test_information_failure01.py:69: Private frozen recovery inputs are intentionally not in public repository\nSKIPPED [1] tests/test_information_failure01.py:75: Private frozen recovery inputs are intentionally not in public repository\nSKIPPED [1] tests/test_information_failure01.py:80: Private frozen recovery inputs are intentionally not in public repository\nSKIPPED [1] tests/test_information_failure01.py:87: Private frozen recovery inputs are intentionally not in public repository\nSKIPPED [1] tests/test_information_failure01.py:91: Private frozen recovery inputs are intentionally not in public repository\nSKIPPED [1] tests/test_parity.py:118: needs Docker, a digest-pinned scoring image and registry credentials; this host has Docker but no image and no registry. Run in Linux CI with the image published.\nSKIPPED [1] tests/test_parity.py:127: needs a live CodaBench instance and a bundle upload; the remediation packet forbids mutating live CodaBench state. Run against a staging instance.\n743 passed, 17 skipped, 3 warnings in 52.30s\n"
+      "log_SHA256": "0e5257ef9b2992b5228b735447289582e7e1dc0971176557568a994e3dbd1f5c"
     },
     "common": {
+      "passed": 250,
+      "skipped": 0,
       "exit_code": 0,
-      "elapsed_seconds": 2.235196943000119,
-      "summary": "============================= test session starts ==============================\nplatform linux -- Python 3.13.15, pytest-9.1.1, pluggy-1.6.0\nrootdir: /workspace/scratch/935b41f252e9/dtl01-private/common-repo/common\nconfigfile: pyproject.toml\ncollected 250 items\n\ncommon/tests/test_c5_model_free_descriptor.py .....                      [  2%]\ncommon/tests/test_fixture_integrity.py ................................. [ 15%]\n....................                                                     [ 23%]\ncommon/tests/test_gate_vocabulary_and_coverage.py ...................... [ 32%]\n..............................                                           [ 44%]\ncommon/tests/test_public_safety.py .......                               [ 46%]\ncommon/tests/test_ranking_quality.py ................................... [ 60%]\n.                                                                        [ 61%]\ncommon/tests/test_smoke_factory_resolution.py ............               [ 66%]\ncommon/tests/test_smoke_organizer_fault_message.py ...                   [ 67%]\ncommon/tests/test_team_claim.py ........................................ [ 83%]\n......................                                                   [ 92%]\ncommon/tests/test_zero_weight_normalization.py ....................      [100%]\n\n============================= 250 passed in 1.54s ==============================\n"
+      "log_SHA256": "4b960c7ae052e1ee87279e053613a4f795681f98d8f7cea49b2446ee1851da70"
     }
   },
-  "Git_verification": "pending_checkpoint_push",
-  "recovery": "pending_private_archive"
+  "final_Git_verification": "BOUND_BY_EXTERNAL_COMPLETION_RECEIPT",
+  "recovery": "BOUND_BY_EXTERNAL_COMPLETION_RECEIPT",
+  "input_files_hash_preserved": 806,
+  "protected_parent_files_hash_preserved": 2220,
+  "completion_receipt": "NEWINFO02-completion.json"
 }

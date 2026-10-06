@@ -8,5 +8,8 @@
   "branch": "track2/new-information-search-02",
   "source_numeric_cutoff": "2024-12-18",
   "new_CRPS_calculated": 0,
-  "models_fitted": 0
+  "models_fitted": 0,
+  "resume_checkpoint": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
+  "source_reacquisitions_after_resume": 0,
+  "PRE_RESULT_NEWINFO02_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea"
 }

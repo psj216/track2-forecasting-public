@@ -1,17 +1,23 @@
 {
-  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
-  "unit_tests_passed": true,
-  "ranking_mutation_test_passed": true,
-  "live_final_rankings_computed": false,
-  "prediction_hash_preserved": true,
-  "forecast_label_and_CRPS_files_loaded": [],
-  "frozen_prediction_csv_allowlist": [
-    "origin",
+  "ranking_and_selection_bitwise_identical": true,
+  "SHA256": "7aa5759895300de39bbde8ec7a33450a4a6b27750b82fcbd887d00788d3f85d1",
+  "mutated_ignored_fields": [
+    "future_return",
+    "realized_truth",
+    "CRPS",
+    "oracle_direction"
+  ],
+  "not_a_proof_of_provider_vintage_integrity": true,
+  "executive_summary": "Input allowlists ignore future targets and CRPS. No forecast outcome ledgers read.",
+  "allowed_prediction_columns": [
+    "origin_date",
     "asset",
     "horizon",
     "release_id",
-    "SPD_FULL5_RELEASE_BALANCED"
+    "frozen_prediction",
+    "direction"
   ],
+  "private_forecast_outcome_files_loaded": [],
   "new_CRPS": 0,
-  "forecast_model_fits": 0
+  "new_forecasting_models": 0
 }

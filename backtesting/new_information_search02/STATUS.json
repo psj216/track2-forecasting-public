@@ -1,25 +1,24 @@
 {
-  "executive_summary": "Corrected construction completed, ready to remotely freeze PRE before ranking.",
+  "executive_summary": "All research and test stages completed. Operational closeout uses NEWINFO02-completion.json to bind the remote RESULT and recovery ZIP without a circular commit hash.",
   "branch": "track2/new-information-search-02",
-  "HEAD": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
-  "current_stage": "SOURCE_CONSTRUCTION_COMPLETE_PRE_PENDING",
+  "current_stage": "RESEARCH_AND_TESTS_COMPLETE",
   "completed_stages": [
     "environment",
     "direction_freeze",
-    "source_documentation_acquisition",
     "source_construction",
-    "implementation",
-    "research_tests"
-  ],
-  "pending_stages": [
-    "PRE_remote_freeze",
+    "PRE",
     "source_diagnostics",
     "ranking",
+    "draft",
     "report",
-    "full_tests",
-    "RESULT_remote_verification",
-    "recovery"
+    "research_tests",
+    "affected_tests",
+    "full_repository_tests",
+    "common_toolkit_tests"
   ],
-  "last_successful_artifact": "source_dataset_manifest.json",
-  "resume_user_authorized": true
+  "pending_stages": [],
+  "last_successful_artifact": "NEW-INFORMATION-SEARCH-02-report.md",
+  "last_update": "2026-10-06T15:40:00.021730+00:00",
+  "PRE_RESULT_NEWINFO02_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+  "operational_closeout_receipt": "NEWINFO02-completion.json"
 }
