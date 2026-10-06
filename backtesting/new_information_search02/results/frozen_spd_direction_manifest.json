@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Source discovery only. Frozen SPD state, no realized outcomes, no forecasting fit or new CRPS.",
+  "state_file": "private/frozen_spd_direction_state.parquet",
+  "SHA256": "8ce20392d7d0f830b40924fca85cc3288423c051bda940cef232278985a9299e",
+  "frozen_prediction_array_SHA256": "f3e542d86c31777c125f8020bd9df8646787dfa5215471d8d05ee99ca5ae795f",
+  "matches_DTL01_prediction_hash": true,
+  "source_csv_SHA256": "92132ea0e52fba01226d431c8d08c665ee8affb4994233ab47d7a7178b5d4f87",
+  "read_columns": [
+    "origin",
+    "asset",
+    "horizon",
+    "release_id",
+    "SPD_FULL5_RELEASE_BALANCED"
+  ],
+  "state_columns": [
+    "origin_date",
+    "asset",
+    "horizon",
+    "release_id",
+    "frozen_prediction",
+    "direction"
+  ],
+  "cells": 552,
+  "origins": 59,
+  "releases": 41,
+  "future_outcome_columns_read": [],
+  "no_horizon_collapsing_or_majority_sign": true
+}

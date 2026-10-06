@@ -1,0 +1,6 @@
+{
+  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
+  "sources": null,
+  "status": "NOT_COMPUTED",
+  "reason": "Mandatory execution stop before final ranking"
+}

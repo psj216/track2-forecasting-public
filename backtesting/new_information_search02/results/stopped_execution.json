@@ -1,0 +1,32 @@
+{
+  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
+  "execution_state": "STOPPED_SECOND_FAILURE",
+  "NEWINFO02_RESULT": "NOT_EVALUATED",
+  "stage": "source_dataset_construction",
+  "attempts": 2,
+  "first_error": "MPT Rate: mean filtering failed due to provider whitespace; empty DataFrame had no date column",
+  "second_error": "MPT mean rate fields are strings; TypeError subtracting str from str",
+  "repairs_preserved": [
+    "Normalize source field whitespace/case",
+    "Convert selected provider mean values to float before subtraction",
+    "Add isolated regression test with string-valued rate means and post-cutoff row"
+  ],
+  "third_attempt_executed": false,
+  "ranking_executed": false,
+  "new_model_executed": false,
+  "new_CRPS_calculated": false,
+  "PRE_RESULT_NEWINFO02_SHA": null,
+  "RESULT_SHA": null,
+  "primary_source": null,
+  "top3": null,
+  "exact_continuation_command": "NEWINFO02_PRIVATE=/absolute/path/to/recovered/private timeout 300 python -m backtesting.new_information_search02.parse (invoke construct explicitly; module currently exposes functions only)",
+  "continuation_procedure": [
+    "Read STATUS and stopped_execution.json, preserve all completed downloads",
+    "Run repaired source construction only if the user authorizes resuming after this mandatory stop",
+    "Do not reacquire unchanged official sources; use receipts and acquisition plan",
+    "Verify parsed source hashes, run research tests, commit/push and verify PRE before final ranking",
+    "Run frozen analyze pipeline, report outcome-free source decision, complete Git/result/recovery verification"
+  ],
+  "skill": "agenthon-safe-long-work",
+  "stop_rule": "If the same execution step fails or hangs twice: STOP."
+}

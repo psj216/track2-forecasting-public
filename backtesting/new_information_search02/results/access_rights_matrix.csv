@@ -1,0 +1,18 @@
+source,access,rights_status,primary_prohibited
+CME_ZQ_POLICY_PATH,USER_LICENSE_REQUIRED,Written historical/API and offline rights required,False
+CME_SOFR_POLICY_PATH,USER_LICENSE_REQUIRED,CME historical/offline license required,False
+USD_OIS_POLICY_PATH,USER_LICENSE_REQUIRED,Vendor entitlement and offline-use terms unverified,False
+CME_FEDWATCH_HISTORY,USER_LICENSE_REQUIRED,History/model-output redistribution unverified,False
+ATLANTA_MPT_SOFR,ACCESSIBLE_WITH_LIMITATIONS,Personal and educational use only; contest/offline permission unproven,True
+UST_CURVE_SPOT,ACCESSIBLE_PUBLIC,Official historical benchmark; original cache not recovered,False
+NEAR_TERM_FORWARD_SPREAD,ACCESSIBLE_PUBLIC,Derived from public fitted Treasury yields,False
+ACM_TERM_PREMIUM,ACCESSIBLE_WITH_LIMITATIONS,NY Fed attribution/third-party terms apply,False
+SPD_POLICY_DISTRIBUTION,ACCESSIBLE_PUBLIC,NY Fed attribution conditions,False
+FOMC_SEP_POLICY_PATH,ACCESSIBLE_PUBLIC,Board-authored content generally public domain; retain attribution,False
+CFTC_TFF_TREASURY,ACCESSIBLE_WITH_LIMITATIONS,Government report generally public domain,False
+NYFED_DEALER_POSITIONS,ACCESSIBLE_WITH_LIMITATIONS,NY Fed attribution conditions,False
+NYFED_ONRRP,ACCESSIBLE_WITH_LIMITATIONS,NY Fed terms permit use subject to attribution and third-party conditions,False
+H41_RESERVES,ACCESSIBLE_PUBLIC,Board-authored content generally public domain,False
+EFFR_FUNDING_STRESS,ACCESSIBLE_PUBLIC,NY Fed terms/attribution,False
+RATE_OPTION_SKEW,USER_LICENSE_REQUIRED,Historical contract/options license and derived-distribution permission required,False
+MACRO_CONSENSUS_NOWCAST,UNKNOWN,Source-specific terms not yet verified,False

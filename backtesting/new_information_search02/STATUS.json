@@ -1,0 +1,27 @@
+{
+  "executive_summary": "Mandatory stop after second source-construction failure; no scientific verdict.",
+  "branch": "track2/new-information-search-02",
+  "HEAD": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "current_stage": "STOPPED_SECOND_FAILURE",
+  "completed_stages": [
+    "environment",
+    "direction_freeze",
+    "source_documentation_acquisition",
+    "implementation_checkpoint",
+    "research_tests"
+  ],
+  "pending_stages": [
+    "repaired_source_construction",
+    "PRE_remote_freeze",
+    "source_diagnostics",
+    "ranking",
+    "next_experiment_draft",
+    "final_report",
+    "RESULT_remote_freeze"
+  ],
+  "last_successful_artifact": "repaired parser regression tests",
+  "last_error": "MPT mean rate fields are strings; TypeError subtracting str from str",
+  "source_stage_attempts": 2,
+  "third_attempt_executed": false,
+  "resume_from": "repaired source construction, keep original downloads"
+}

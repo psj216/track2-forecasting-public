@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Source discovery only. Frozen SPD state, no realized outcomes, no forecasting fit or new CRPS.",
+  "parent_exact": true,
+  "runtime_available": true,
+  "repo_access": true,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "main_unchanged": true,
+  "branch": "track2/new-information-search-02",
+  "source_numeric_cutoff": "2024-12-18",
+  "new_CRPS_calculated": 0,
+  "models_fitted": 0
+}

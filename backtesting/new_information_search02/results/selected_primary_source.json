@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Stopped execution checkpoint, not a completed source-selection result.",
+  "NEWINFO02_PRIMARY_SOURCE": null,
+  "status": "NOT_SELECTED",
+  "forced_winner": false,
+  "reason": "No final diagnostic aggregation or ranking executed"
+}

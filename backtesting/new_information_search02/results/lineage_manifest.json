@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Source discovery only. Frozen SPD state, no realized outcomes, no forecasting fit or new CRPS.",
+  "parent_RESULT_SHA": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "parent_PRE_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
+  "upstream_RESULT_SHA": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+  "INFO01_source_selection": {
+    "executive_summary": "Source availability/quality audit only; no new forecasts or outcome scores.",
+    "INFO01_PRIMARY_SOURCE": "ECB_SPF_ORIGINAL",
+    "source_name": "ECB SPF original released euro-area expectations",
+    "quality_total": 17,
+    "PIT": "B",
+    "novelty": "HIGH",
+    "selection_rationale": "ECB and SLOOS tie17; frozen TRUE_CONSENSUS priority chooses ECB. New euro-area expectations, transparent original publications and reuse conditions; no outcome evidence used.",
+    "accepted_history": "2015-01-23 through2024-10-18, originals only;1999\u20132014 existence is not admitted PIT history",
+    "first_experiment_assets": [
+      "EUR"
+    ],
+    "field_scope": [
+      "next_calendar_year_HICP_point_forecast_pct",
+      "next_calendar_year_real_GDP_point_forecast_pct"
+    ],
+    "activation": "Release-date end-of-dayEurope/Berlin must precede forecastcutoff; no response-date activation",
+    "full_dataset_ready": false,
+    "acquisition_before_fit": "Acquire and audit40quarterlyrelease-by-field rows; original documents+dates+errata hashes; exclude unproven versions or missing fields, no latestCSV replacement",
+    "conditional_submission": true,
+    "independent_OOS_evidence": false
+  },
+  "INFO01_constraints_SHA256": "21a7ddbdd36666b341731e9811ffecb4b7c21062dde1ab00c8c6dbb0a4a8cfbf"
+}

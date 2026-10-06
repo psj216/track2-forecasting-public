@@ -1,0 +1,18 @@
+source,PIT,risk,documentation
+CME_ZQ_POLICY_PATH,C,No licensed historical settlement vintages or correction/roll evidence in this environment,https://www.cmegroup.com/datamine/datamine-api.html
+CME_SOFR_POLICY_PATH,C,SOFR futures launched 2018-05-07; no standalone 2015/16 coverage,https://www.cmegroup.com/media-room/press-releases/2018/5/08/cme_group_announcesfirsttradesofnewsofrfutures.html
+USD_OIS_POLICY_PATH,D,No acquired timestamped historical curve vintages,https://www.lseg.com/en/data-catalogue/forex-and-money-market
+CME_FEDWATCH_HISTORY,D,Current display is not proven historical probability archive,https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html
+ATLANTA_MPT_SOFR,C,Actual downloadable history begins 2023-03-29; current model vintage and educational-only license,https://www.atlantafed.org/research-and-data/data/market-probability-tracker
+UST_CURVE_SPOT,C,Lagged spot-yield history already used; current FRED/H15 vintage,https://www.federalreserve.gov/releases/h15/
+NEAR_TERM_FORWARD_SPREAD,C,No distinct forward contract; derived curve vintage/correction caveats,https://www.federalreserve.gov/data/yield-curve-tables/
+ACM_TERM_PREMIUM,D,Current historical model estimates do not establish original as-of model vintages,https://www.newyorkfed.org/research/data_indicators/term-premia-tabs
+SPD_POLICY_DISTRIBUTION,B,Untested representation must be independently extracted/frozen; same already exposed survey family,https://www.newyorkfed.org/markets/primarydealer_survey_questions.html
+FOMC_SEP_POLICY_PATH,B,Quarterly released policy projections; originals may be replaced; not a daily surprise source,https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+CFTC_TFF_TREASURY,C,Report date is not publication date; 2023 cyber delays and prior release calendars/vintages unverified,https://www.cftc.gov/MarketReports/CommitmentsofTraders/HistoricalViewable/index.htm
+NYFED_DEALER_POSITIONS,D,Provider explicitly says historical data may reflect revisions since prior publication,https://www.newyorkfed.org/markets/counterparties/primary-dealers-statistics
+NYFED_ONRRP,C,Historical lastUpdated later than observation dates; original version is not recovered,https://www.newyorkfed.org/markets/rrp_faq.html
+H41_RESERVES,B,Weekly original-date sample; corrections/timing ambiguity inactive; macro direction mapping weak,https://www.federalreserve.gov/releases/H41/default.htm
+EFFR_FUNDING_STRESS,C,Realized overnight rate is not policy-path expectation; corrections may change history,https://www.newyorkfed.org/markets/reference-rates/effr
+RATE_OPTION_SKEW,D,No acquired comparable 2015/16 option surface vintages or usable rights,https://www.cmegroup.com/market-data/license-data/market-data-policy-education-center.html
+MACRO_CONSENSUS_NOWCAST,D,Do not recycle failed ECB/SLOOS quarterly information under a new name,https://www.federalreserve.gov/monetarypolicy/fomc_projectionsfaqs.htm

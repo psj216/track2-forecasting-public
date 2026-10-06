@@ -1,0 +1,67 @@
+{
+  "executive_summary": "Source discovery against frozen SPD direction only; no future UST outcomes, no forecast model or new CRPS.",
+  "parent_RESULT_SHA": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "numeric_cutoff": "2024-12-18",
+  "asof_cutoff": "previous repository weekday 16:00 America/New_York; original dated sources conservatively activate publication-date EOD; next BD EOD for MPT; never response/survey/observation time alone",
+  "alignment": "only latest known as-of state; fixed economic sign; no optimized lags; all frozen SPD asset/horizon cells retained",
+  "recipes": {
+    "FOMC_SEP_POLICY_PATH": "NCY median minus CY median at RELEASE calendar year, same fixed state until next original SEP; no mechanically retargeted January rollover",
+    "H41_RESERVES": "negative Wednesday reserve balance change vs latest verified original release at 21BD earlier; missing if that exact scheduled predecessor is not acquired",
+    "NYFED_ONRRP": "negative total accepted change vs21BD earlier; current-vintage-only, never before max(original operation day,lastUpdated)EOD; older late updates cannot replace newer observations",
+    "ATLANTA_MPT_SOFR": "mean rate second-nearest future quarter minus nearest future quarter; conservative nextBD EOD; PIT-C",
+    "PRICE_21BD": "own-asset 21BD yield change from bounded current FRED DGS2/DGS5; comparison proxy, not exact original cache"
+  },
+  "persistence": "weekday lag1/5/21; gaps remain missing; daily expansion only for COMPLETE release intervals, no fabricated hold across unknown weekly updates; source-state statistics, not alpha",
+  "persistence_score": {
+    "2": ">=60 observed contiguous BD; lag5 autocorrelation>=0.8; unchanged direction>=0.9",
+    "1": ">=20 observedBD; lag5 autocorrelation>=0.5",
+    "0": "otherwise/missing"
+  },
+  "useful_alignment": "at least24 origins, release-balanced sign agreement>=0.55 AND Spearman>=0.10; diagnostic, not future-target evidence",
+  "alignment_score": {
+    "2": "useful alignment",
+    "1": ">=12 origins and release-balanced Spearman>0",
+    "0": "otherwise/missing"
+  },
+  "redundancy_features": [
+    "DGS2/5/10 levels",
+    "own 5/21/63 weekday changes for each yield",
+    "2s5s",
+    "2s10s"
+  ],
+  "redundancy_classification": {
+    "HIGH": "source-state in-sample price projection R2<0.4",
+    "MEDIUM": "0.4<=R2<0.8",
+    "LOW": "0.8<=R2<0.95",
+    "REDUNDANT": "R2>=0.95 or price-derived by construction",
+    "UNKNOWN": "no adequate acquired state sample"
+  },
+  "novelty_limitation": "Exact prior raw price-state cache not available. Current official DGS proxy, in-sample redundancy with smallN; no claim of superiority to full original price-state features.",
+  "score_components_0_to_2": [
+    "pit",
+    "timing",
+    "depth",
+    "relevance",
+    "novelty",
+    "persistence",
+    "alignment",
+    "readability",
+    "reproducibility",
+    "rights"
+  ],
+  "SPD_alignment_maximum": 2,
+  "hard_gates": [
+    "PIT A/B",
+    "timing notUNUSABLE",
+    "2015/2016 through2024 historical coverage",
+    "directUST2Y5Y relevance",
+    "reproducible actual access or acquired originals",
+    "rights not prohibited"
+  ],
+  "selection": "highest score among hard-gate, useful-alignment, HIGH/MEDIUM novelty passing sources; alphabetical tie break. Exactly one audit focus; eligible forecasting primary null if none, rather than forcing a winner.",
+  "model_executions": 0,
+  "new_CRPS_executions": 0,
+  "independent_validation": "NOT_AVAILABLE",
+  "ranking_firewall": "only explicit metadata/diagnostic allowlists, ignore future_truth/return/CRPS columns; never read private forecasting label or CRPS files",
+  "next_experiment": "draft only, conditional on source-readiness and remote frozen PRE; not executed here"
+}
