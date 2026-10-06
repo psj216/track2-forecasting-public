@@ -1,0 +1,23 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "artifact_RESULT_SHA": "126134664887218c998a383e199dc9ad2847db40",
+  "PRE_RESULT_INFO_FAILURE_SHA": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
+  "ORIGINAL_SCIENTIFIC_PRE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "parent_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+  "remote_branch_verified": true,
+  "remote_artifact_tree_matches_local": true,
+  "critical_remote_blobs": {
+    "INFORMATION-FAILURE-REASSESSMENT-01-report.md": "49f4cba02f50a2bc8914285a98115958c21a01a6",
+    "backtesting/information_failure01/results/prior_result_reproduction.json": "b01ab761af52dba0e800d7a524aa7e8989796385",
+    "backtesting/information_failure01/results/final_decision.json": "cf40626757a6b2ed3f48ed413105fffbf8f23796",
+    "backtesting/information_failure01/results/artifact_manifest.json": "9d39a42037d1ba06d6c5e24714178941aaef426d",
+    "backtesting/information_failure01/results/interpretation_review.json": "c78379dabeae59584f73de26cfa8ed2cd0b26509",
+    "backtesting/information_failure01/experiment_spec.json": "6c14746f34ad3dccd6367d0639054dcec9ddd052",
+    "backtesting/information_failure01/STATUS.json": "cb5590221a2a358b0fd516a7f8c1abf24787e0a1"
+  },
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "main_unchanged": true,
+  "protected_parent_files_unchanged": 2142,
+  "tree_clean_at_artifact_verification": true,
+  "final_workflow_commit_SHA": "Bound in external private completion receipt; Git commit cannot include its own SHA"
+}

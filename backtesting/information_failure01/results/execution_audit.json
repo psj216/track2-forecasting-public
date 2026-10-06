@@ -1,6 +1,6 @@
 {
   "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
-  "phase": "RESULT tests verified; Git publication and recovery receipt follow externally",
+  "phase": "Tests, published artifact Git tree and recovery payload verified; final workflow receipt binds final SHA",
   "models_refit": 0,
   "source_primary_prediction_files_unchanged": true,
   "recovery_archives_CRC_and_member_hashes_verified": true,
@@ -69,5 +69,12 @@
   "main_unchanged": true,
   "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
   "private_ledger_hash": "066bafcf3163466ab33f579a5888da2e4a76a959f3c0233d897ffbaa389a9a6e",
-  "recovery_verification_location": "Private completion receipt: final RESULT SHA, remote blobs/main checks, archive CRC/per-file hashes/full SHA-256"
+  "recovery_verification_location": "Private completion receipt: final RESULT SHA, remote blobs/main checks, archive CRC/per-file hashes/full SHA-256",
+  "remote_artifact_RESULT_SHA": "126134664887218c998a383e199dc9ad2847db40",
+  "remote_critical_files_verified": 7,
+  "clean_tree_verified": true,
+  "recovery_payload_CRC_verified": true,
+  "recovery_payload_per_file_hashes_verified": 4875,
+  "final_archive_crc_and_sha_location": "Private completion receipt after final workflow Git refresh",
+  "final_archive_durable_save_location": "Private completion receipt offered with the verified ZIP"
 }

@@ -9,13 +9,14 @@
     "backtesting/information_failure01/results/cross_source_failure_matrix.csv": "14611890fa222e06429296d975bb0a5c1293fccce77b663ab1068ea9772a3765",
     "backtesting/information_failure01/results/direction_signal_summary.json": "203dfad4b94d706faf785c5641d5c7e4818ad9a62b8cbf2c6a73f0666043765c",
     "backtesting/information_failure01/results/environment_audit.json": "a29795a1dabf4c31ecaa1116a1776c2f3bc07d31eebab51d6d1e7b6fff92813a",
-    "backtesting/information_failure01/results/execution_audit.json": "fcc51b54e0a94ae7ecdcbd6ab73034fbc66880c6631914d1294cb21c2950bfc6",
+    "backtesting/information_failure01/results/execution_audit.json": "d739eb41893632e94219eeb2d603c5cefc9ec136c6f3d64a17210373317991a2",
     "backtesting/information_failure01/results/execution_compatibility_amendment.json": "017b37a4807ffbf50fee1b3e070735d9a4df96d8144d2d766717f63bd5195670",
     "backtesting/information_failure01/results/extreme_shift_contribution.csv": "74d5a5fd0785b910d6be43eee4234491bf7c797e9e3151bddd5a1e16b0470c1d",
     "backtesting/information_failure01/results/failure_attribution.json": "84d7624327b0bc0ce481571cc459452213b8bd2fe1248d2b5f6c6dce31e94866",
     "backtesting/information_failure01/results/final_decision.json": "20d5eac9962b6bbef32541b004d55fbe33bd352dffa6963d0a7c233f24ddf53e",
     "backtesting/information_failure01/results/frozen_aggregation_decision.json": "401bdd64d0c87a18804775a7bc8a0e1899bdde2426b46b0a0b652fb57c4916bf",
     "backtesting/information_failure01/results/frozen_next_axis_decision.json": "0b6a8d29ad9c56689e6b05482077fca649f4ea038687ed25a1a9f921d0b90159",
+    "backtesting/information_failure01/results/git_verification.json": "e1beff439049eec2120a9f76067bab3176fdbe84ea7f2b9b93efdec72152c6b4",
     "backtesting/information_failure01/results/headroom_accounting.json": "92178592c93c6bc6a39277ef93c153bb79662648ee2523f47b52601473b3d9a5",
     "backtesting/information_failure01/results/horizon_failure_summary.csv": "58336694d55d08911d4a441aa50e24da8855dd22dbed7a4043daa40cc4161718",
     "backtesting/information_failure01/results/interpretation_review.json": "b2a893790d01065969bf5ab89becf001de64c8b934080bbb6658a1a94a5402d0",
@@ -33,7 +34,8 @@
     "backtesting/information_failure01/results/target_geometry_summary.json": "a1b09b2907de01424058a33eba2a697a4cbec325f46d74d7be85f864c77c7ff7",
     "backtesting/information_failure01/results/unified_failure_summary.json": "567de7162c43046382fb533e99f4158eb093040598b4bacbb27bcdcd41d69307",
     "backtesting/information_failure01/results/year_regime_summary.csv": "36039b6a286993fc86a74f32e73341d4a0f15625a03573b678b0a86f3da91c77",
-    "INFORMATION-FAILURE-REASSESSMENT-01-report.md": "593cfc3a6e2957fc233671b43f0b379d5062f7a91ea25e931a1a80ac209b8cb0"
+    "INFORMATION-FAILURE-REASSESSMENT-01-report.md": "593cfc3a6e2957fc233671b43f0b379d5062f7a91ea25e931a1a80ac209b8cb0",
+    "backtesting/information_failure01/STATUS.json": "7dcb41632106c5976d0f832ed4727e3d51bde642bff376230b687968c7141ffe"
   },
   "private_artifact": {
     "path": "backtesting/information_failure01/results/unified_failure_ledger.parquet",
