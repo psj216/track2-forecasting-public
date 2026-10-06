@@ -1,0 +1,30 @@
+{
+  "executive_summary": "Restartable bounded frozen-direction study; original research models and all parent files protected. No candidate CRPS before verified PRE.",
+  "scientific_changes_after_PRE": [],
+  "runtime": "3.13.15",
+  "research_pre_tests": {
+    "passed": 23,
+    "skipped": 1,
+    "reason": "Final artifact schema generated only after PRE"
+  },
+  "environment_events": [
+    {
+      "step": "Initial research tests",
+      "event": "180-second command stopped before final checks; preserved log; single retry with 600-second bound and single BLAS thread passed"
+    },
+    {
+      "step": "Git branch API",
+      "event": "Invalid from_sha argument corrected to advertised sha argument before any branch modification"
+    },
+    {
+      "step": "Protected file enumeration",
+      "event": "Quoted Unicode names replaced by NUL-separated Git enumeration; 2188 hashes recorded"
+    }
+  ],
+  "candidate_evaluation_started": false,
+  "models_refit": 0,
+  "automatic_submission": false,
+  "heartbeat_policy": "At least every 1-3 minutes, chunk and stage logs",
+  "max_command_seconds": 600,
+  "same_step_failure_limit": 2
+}

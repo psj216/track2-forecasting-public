@@ -1,0 +1,33 @@
+{
+  "executive_summary": "Frozen SPD sign times 0.10 SD only; secondary translations cannot rescue primary failure.",
+  "branch": "track2/direction-to-location-01",
+  "parent_SHA": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+  "HEAD": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+  "current_stage": "research_tests",
+  "completed_stages": [
+    "environment_recovery",
+    "frozen_artifact_audit",
+    "implementation",
+    "research_tests"
+  ],
+  "pending_stages": [
+    "PRE",
+    "primary",
+    "secondary",
+    "controls",
+    "bootstrap",
+    "diagnostics",
+    "report",
+    "full_tests",
+    "Git",
+    "recovery"
+  ],
+  "stages": {
+    "environment_recovery": "complete",
+    "frozen_artifact_audit": "complete",
+    "implementation": "complete",
+    "research_tests": "complete"
+  },
+  "last_successful_artifact": "23 passed, one post-result schema pending",
+  "last_update": "2026-10-06T13:43:31.229657+00:00"
+}

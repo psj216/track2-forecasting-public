@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "Python": "3.13.15",
+  "repository_access": true,
+  "parent_exact": true,
+  "branch": "track2/direction-to-location-01",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "main_unchanged": true,
+  "parent_recovery": {
+    "archive_sha256": "edc6d0abdb1a8cb2a7a7b86e24e1206c8e6f6a4a873690b0cd1b97e9a6dcf56b",
+    "CRC_verified": true,
+    "member_hashes_verified": 4912
+  },
+  "common_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+}

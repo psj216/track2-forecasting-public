@@ -1,0 +1,51 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "original_primary_ratio": 1.420833121052091,
+  "reproduced_primary_ratio": 1.420833121052091,
+  "difference": 0.0,
+  "tolerance": 1e-12,
+  "prediction_file_SHA256": "ce7b2b6200145438c5ab201744120e774ca326399fe4b803f8dd35a2da7ad657",
+  "prediction_array_SHA256": "f3e542d86c31777c125f8020bd9df8646787dfa5215471d8d05ee99ca5ae795f",
+  "baseline_draw_array_SHA256": "80defda1d6274d9d13d021f1c85abdb714e6660b5bbb2247b9caf4934bb09fa3",
+  "cell_direction": {
+    "sign_accuracy": 0.6612318840579711,
+    "balanced_sign_accuracy": 0.6604969047322282,
+    "positive_truth_fraction": 0.6141304347826086,
+    "zero_or_tie_fraction": 0.0,
+    "pearson": 0.2879787236255624,
+    "spearman": 0.4043673967618314
+  },
+  "release_balanced_direction": {
+    "sign_accuracy": 0.6638598528842431,
+    "balanced_sign_accuracy": 0.6697305363859608,
+    "positive_truth_fraction": 0.5812620983352692,
+    "zero_or_tie_fraction": 0.0,
+    "pearson": 0.27408704616660035,
+    "spearman": 0.3854381509674189
+  },
+  "cells": 552,
+  "origins": 59,
+  "releases": 41,
+  "assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "original_models_preserved": 50,
+  "OOD_z_from_original_train_scalers": true,
+  "features_SHA256": "bf0128b48798dd136bcc63195f6a7168abc20d170b1210642b7057b785d33b0b",
+  "new_candidate_CRPS_calculated": false
+}

@@ -1,0 +1,20 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "parent_RESULT": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+  "LOCATION04_RESULT": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+  "LOCATION04_PRE": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7",
+  "INFO_FAILURE_PRE": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
+  "all_ancestors_verified": true,
+  "original_PIT_purge_target_rules_unchanged": true,
+  "target": "UST yield level, exact original truth minus original median / original ddof0 SD",
+  "horizon_semantics": "Repository business-day horizons; target maturity no later than 2024-12-18",
+  "original_fold_manifest_SHA256": "7eec15944342e07cdf271b75c0ab3d54ec293e2277c46b866cc8bdfdb60f32b9",
+  "source_features": [
+    "POLICY_NEAR",
+    "POLICY_FAR",
+    "POLICY_PATH_SLOPE",
+    "POLICY_REVISION_SAME_TARGET",
+    "SOURCE_AGE_BUSINESS_DAYS"
+  ],
+  "models_retrained": 0
+}
