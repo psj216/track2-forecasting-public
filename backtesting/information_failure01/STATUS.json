@@ -2,15 +2,31 @@
   "executive_summary": "Failure diagnosis only; resume first incomplete stage; prior forecasts remain frozen.",
   "branch": "track2/information-failure-reassessment-01",
   "parent_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
-  "HEAD": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
-  "current_stage": "implementation_tests",
+  "HEAD": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "current_stage": "aggregate_export_repair",
   "stages": {
     "environment_recovery": "complete",
     "reproduction:ECB": "complete",
     "reproduction:SLOOS": "complete",
     "reproduction:SPD": "complete",
     "unified_ledger": "complete",
-    "implementation_tests": "complete"
+    "implementation_tests": "complete",
+    "PRE": "complete",
+    "metrics:ECB": "complete",
+    "curves:ECB": "complete",
+    "geometry:ECB": "complete",
+    "coefficients:ECB": "complete",
+    "bootstrap:ECB": "complete",
+    "metrics:SLOOS": "complete",
+    "curves:SLOOS": "complete",
+    "geometry:SLOOS": "complete",
+    "coefficients:SLOOS": "complete",
+    "bootstrap:SLOOS": "complete",
+    "metrics:SPD": "complete",
+    "curves:SPD": "complete",
+    "geometry:SPD": "complete",
+    "coefficients:SPD": "complete",
+    "bootstrap:SPD": "complete"
   },
   "pending_stages": [
     "reproduction",
@@ -24,7 +40,11 @@
     "Git",
     "recovery"
   ],
-  "last_successful_artifact": "implementation_tests",
-  "last_update": "2026-10-06T10:37:41.245378+00:00",
-  "new_models_fitted": 0
+  "last_successful_artifact": "bootstrap:SPD",
+  "last_update": "2026-10-06T10:41:35.335462+00:00",
+  "new_models_fitted": 0,
+  "PRE_RESULT_INFO_FAILURE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "execution_failures": {
+    "aggregate": 1
+  }
 }

@@ -1,0 +1,25 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "original_PRE_SHA": "4879da24b96765bb0b2bd0a63cf6c444b6819ca3",
+  "scope": "Remove duplicate exporter field balance; no calculation or scientific design changes",
+  "all_completed_source_partial_hashes": {
+    "partials/ECB/coefficients.json": "ed91b7d88c3665fd64ccbb4ceada0466d2a4ca3e999ae25385132c5d85068f97",
+    "partials/ECB/bootstrap.json": "533aab53df58d586b12d6566ad269d167466c537dc50e5bc3701b3093f095378",
+    "partials/ECB/curves.json": "dd5be82d5a27ed8299a57f920ea303e917828dd94c5904606eb1a699b9717bd9",
+    "partials/ECB/metrics.json": "bba7be00b32b2c66f9f25875536435b770ebcb64cf6d5f779d1d493063929843",
+    "partials/ECB/geometry.json": "cf72aa16174a881233aad24a45073bbdacc9753c44f7286b2d1580c822bc0dd5",
+    "partials/SPD/coefficients.json": "b4963ed4922e8ab51e68a2f7055ce71cfbb73f86a95894e84ab2b3aafc7cac3f",
+    "partials/SPD/bootstrap.json": "1d312b48170e11911837af0b0cadd6184e71221d4356ebc2105090c33e1946a6",
+    "partials/SPD/curves.json": "4fc42b59f0ad6abe0f3ead4b3db49a1b1f158f84c99d129e4bbdea038bc26cde",
+    "partials/SPD/metrics.json": "d15c31810f6f9ac446094238c19c0698044787a8db1e1181841f724f1a1a7d91",
+    "partials/SPD/geometry.json": "c299c5d7cba05b7ff0a878f71b0f78ef03f74c7575f31fef8cc15525d0063903",
+    "partials/SLOOS/coefficients.json": "525867929e9633d898110d90b8b6a9e031aac81297876e9366338ccaff701b9a",
+    "partials/SLOOS/bootstrap.json": "42ba33d57689ee288810d7f04d23172de46afa22016d5214949eac04cc950f60",
+    "partials/SLOOS/curves.json": "cd1c00d95ca63e39fb2f1cdd1ac0a6bf2741d2904d4f08d94c763856dc98ae7b",
+    "partials/SLOOS/metrics.json": "ea15cb57ea1984dd331894b8bcc6cc17e7cb100e4be8dce6dfdd5cfb6e19a815",
+    "partials/SLOOS/geometry.json": "259923849568a713019a5ab8b7e352751151eb5bd4553ddab13ed73361455441"
+  },
+  "diagnosis_stages_repeated": false,
+  "scientific_spec_SHA256": "7c59d8c1c35b0c4cc108e27ddbee1c8acb2ca3fa5d28d67796d7943a19f7047c",
+  "outcome_adaptive_changes": false
+}

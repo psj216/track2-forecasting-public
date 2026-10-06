@@ -11,6 +11,14 @@
       "reason": "Pandas 3 returned read-only year boolean mask; new audit code requested a mutable copy. No original source code/models/predictions were modified.",
       "retry": "passed",
       "attempts": 2
+    },
+    {
+      "step": "Final aggregate export",
+      "attempt": 1,
+      "reason": "Duplicate balance keyword in export row constructor",
+      "remedy": "Remove redundant balance keyword already present in unchanged metric payload",
+      "scientific_effect": "None: constants, formulas, gates, prior predictions and all completed 45 stage artifacts unchanged",
+      "rerun_expensive_work": false
     }
   ],
   "same_step_failed_twice": false,
