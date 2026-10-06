@@ -1,0 +1,119 @@
+{
+  "executive_summary": "Constructed source-state audit inputs; current-vintage PIT-C series are diagnostic only. No source selected yet.",
+  "corrected_construction_succeeded": true,
+  "parser_storage_repair": "Year-keyed metadata serialized to JSON; numerical states unchanged",
+  "resume_checkpoint": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
+  "source_files_redownloaded": 0,
+  "source_states": {
+    "FOMC_SEP_POLICY_PATH": {
+      "rows": 33,
+      "finite_values": 33,
+      "first_date": "2016-09-21",
+      "last_date": "2024-12-18",
+      "SHA256": "6b66bb9bf8c15f2f178915e999486e40a82025a7da5fd9f8fed889b306a65371",
+      "original_source_coverage_not_equal_full_primary_readiness": true
+    },
+    "H41_RESERVES": {
+      "rows": 294,
+      "finite_values": 267,
+      "first_date": "2015-01-02",
+      "last_date": "2024-12-12",
+      "SHA256": "b245c33c49edfefe740df8596d5911b33bfba2216b7c8546abd0afb00d923b0b",
+      "original_source_coverage_not_equal_full_primary_readiness": true
+    },
+    "NYFED_ONRRP": {
+      "rows": 2476,
+      "finite_values": 2436,
+      "first_date": "2015-01-02",
+      "last_date": "2024-12-18",
+      "SHA256": "c84fbfd187a1cd46cd9eee20094763cffacc421e780a2b82f836c3ba72c8fc53",
+      "original_source_coverage_not_equal_full_primary_readiness": true
+    },
+    "ATLANTA_MPT_SOFR": {
+      "rows": 436,
+      "finite_values": 436,
+      "first_date": "2023-03-29",
+      "last_date": "2024-12-18",
+      "SHA256": "94ce06f6f00f9cea9a83e536d9c50f3762561f59df7a9f7fd9c51613cec17ab2",
+      "original_source_coverage_not_equal_full_primary_readiness": true
+    }
+  },
+  "inactivations": {
+    "SEP": {
+      "20150318": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      },
+      "20150617": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      },
+      "20150917": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      },
+      "20151216": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      },
+      "20160316": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      },
+      "20160615": {
+        "inactive": true,
+        "reason": "No original median Federal funds rate table"
+      }
+    },
+    "H41": {
+      "20200319": {
+        "inactive": true,
+        "reason": "2020 public release / DDP timing ambiguity; inactive conservatively"
+      },
+      "20200416": {
+        "inactive": true,
+        "reason": "2020 public release / DDP timing ambiguity; inactive conservatively"
+      },
+      "20200514": {
+        "inactive": true,
+        "reason": "Correction warning; inactive until field-specific original established"
+      },
+      "20200730": {
+        "inactive": true,
+        "reason": "2020 public release / DDP timing ambiguity; inactive conservatively"
+      }
+    },
+    "RRP": {},
+    "MPT": {
+      "first_numeric_date": "2023-03-29",
+      "last_numeric_date": "2024-12-18",
+      "rows": 436,
+      "required_2015_2022_absent": true,
+      "primary_eligible": false,
+      "license_personal_educational_only": true
+    },
+    "FOMC_SEP_POLICY_PATH": {
+      "rows": 33
+    },
+    "H41_RESERVES": {
+      "rows": 294
+    },
+    "NYFED_ONRRP": {
+      "rows": 2476
+    },
+    "ATLANTA_MPT_SOFR": {
+      "rows": 436
+    }
+  },
+  "input_manifest_SHA256": "7bca020539f9bf9e1bb1ae3f65c223bc5cc613f8784523fb7953dac75b85b080",
+  "complete_primary_dataset_gate": "NOT_RUN; audit samples must pass future source-readiness before forecasting",
+  "PIT_B_originals": [
+    "FOMC_SEP_POLICY_PATH",
+    "H41_RESERVES"
+  ],
+  "PIT_C_diagnostic_only": [
+    "NYFED_ONRRP",
+    "ATLANTA_MPT_SOFR"
+  ],
+  "no_future_outcome_files": true
+}

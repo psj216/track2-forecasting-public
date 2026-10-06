@@ -1,0 +1,11 @@
+{
+  "executive_summary": "User-authorized resume at corrected source construction; completed downloads reused.",
+  "resumed_from": "5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe",
+  "original_parent": "16ef4d87f15151796b072e2a6f658ec076171bda",
+  "source_files_redownloaded": 0,
+  "new_error": "Arrow integer dictionary keys in metadata serialization",
+  "repair": "JSON-string metadata column, numerical source state unchanged",
+  "new_attempts": 2,
+  "ranking_not_yet_executed": true,
+  "SPEC_unchanged": true
+}

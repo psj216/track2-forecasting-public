@@ -76,3 +76,27 @@ def test_mpt_string_means_and_future_cutoff(tmp_path):
   {'date':'2025-01-02','reference_start':'2025-06-18','target_range':'test','field':'Rate: mean','value':'9999'}
  ]).to_csv(tmp_path/'mpt_bounded.csv',index=False)
  rows,_=mpt_state(tmp_path/'mpt.xlsx');assert len(rows)==1 and rows.iloc[0].value==pytest.approx(-21.98);assert rows.iloc[0].date=='2023-03-29'
+
+def test_year_keyed_metadata_parquet_without_value_change(tmp_path):
+ from backtesting.new_information_search02.parse import write_source_parquet
+ frame=pd.DataFrame([{'medians_by_target_year':{2023:5.4,2024:4.6},'value':-.8,'date':'2023-12-13'}])
+ write_source_parquet(frame,tmp_path/'source.parquet');restored=pd.read_parquet(tmp_path/'source.parquet')
+ assert restored.value.iloc[0]==frame.value.iloc[0]
+ assert json.loads(restored.medians_by_target_year.iloc[0])=={'2023':5.4,'2024':4.6}
+ assert frame.medians_by_target_year.iloc[0]=={2023:5.4,2024:4.6}
+ assert not (tmp_path/'source.tmp.parquet').exists()
+
+def test_constructed_source_schema_and_cutoff():
+ p=Path(os.environ['NEWINFO02_PRIVATE']);manifest=json.loads((p/'input_manifest.json').read_text())
+ for source,spec in manifest['source_states'].items():
+  f=p/(source+'.parquet');assert hashlib.sha256(f.read_bytes()).hexdigest()==spec['SHA256']
+  d=pd.read_parquet(f);assert len(d)==spec['rows'] and d.source_state_id.nunique()==len(d)
+  assert pd.to_datetime(d.date).max()<=pd.Timestamp('2024-12-18')
+  assert pd.api.types.is_numeric_dtype(d.value)
+  assert not any(s in d.columns for s in ['future_return','realized_truth','CRPS','true_delta'])
+
+def test_spec_unchanged_from_verified_checkpoint():
+ for name in ['catalog.py','core.py','results/experiment_spec.json']:
+  f='backtesting/new_information_search02/'+name
+  old=subprocess.check_output(['git','show','5ff1ba0664c159bd06705c7cbfbeadb9bf8769fe:'+f],cwd=ROOT)
+  assert (ROOT/f).read_bytes()==old

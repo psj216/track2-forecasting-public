@@ -82,6 +82,14 @@ def rrp_fields(records):
         rows.append({'date':str(op.date()),'available_at':available_eod(known).isoformat(),'level':float(r['totalAmtAccepted']),'source_state_id':str(r['operationId']),'lastUpdated':r['lastUpdated'],'availability_warning':'PIT-C current version, conservatively never before later lastUpdated; no original-version recovery'})
     return rows
 
+def write_source_parquet(df,path):
+    """Serialize year-keyed metadata deterministically without changing source values."""
+    frame=df.copy()
+    if 'medians_by_target_year' in frame:
+        frame['medians_by_target_year']=frame.medians_by_target_year.map(lambda x:json.dumps(x,sort_keys=True,separators=(',',':')))
+    path=Path(path);temporary=path.with_suffix('.tmp.parquet')
+    frame.to_parquet(temporary,index=False);temporary.replace(path)
+
 def construct(private):
     private=Path(private); docs=private/'documents';audit={'SEP':{},'H41':{},'RRP':{},'MPT':{}};sources={}
     sep=[]
@@ -131,7 +139,7 @@ def construct(private):
     (private/'mpt_license.txt').write_text(license_text)
     audit['MPT']={'first_numeric_date':m.date.min(),'last_numeric_date':m.date.max(),'rows':len(m),'required_2015_2022_absent':True,'primary_eligible':False,'license_personal_educational_only':'personal and educational purposes only' in license_text}
     for key,df in sources.items():
-        df.to_parquet(private/(key+'.parquet'),index=False)
+        write_source_parquet(df,private/(key+'.parquet'))
         audit.setdefault(key,{})['rows']=len(df)
     (private/'source_extraction_audit.json').write_text(json.dumps(audit,indent=2))
     return sources,audit
