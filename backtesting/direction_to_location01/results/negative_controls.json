@@ -1,0 +1,87 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "controls": {
+    "RELEASE_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 0.9982505100719559,
+      "ratio_95_range": [
+        0.9859884219335905,
+        1.010436588730883
+      ],
+      "mean_ratio": 0.9981991337676032,
+      "fraction_at_least_as_good": 0.0,
+      "add_one_p": 0.0004997501249375312,
+      "release_balanced_median_ratio": 0.9980643089848986,
+      "mean_direction_coverage": 1.0,
+      "min_direction_coverage": 1.0,
+      "primary_552_cell_denominator_unchanged": true,
+      "positive_fraction_range": [
+        0.4365942028985507,
+        0.6086956521739131
+      ]
+    },
+    "DATE_PERMUTED_DIRECTION": {
+      "replicates": 2000,
+      "median_ratio": 0.9748626760046549,
+      "ratio_95_range": [
+        0.9731812591608551,
+        0.9757154976098723
+      ],
+      "mean_ratio": 0.9745752793603031,
+      "fraction_at_least_as_good": 0.8325,
+      "add_one_p": 0.8325837081459271,
+      "release_balanced_median_ratio": 0.9750890411403064,
+      "mean_direction_coverage": 1.0,
+      "min_direction_coverage": 1.0,
+      "primary_552_cell_denominator_unchanged": true,
+      "positive_fraction_range": [
+        0.5344202898550725,
+        0.5670289855072463
+      ]
+    },
+    "RANDOM_SIGN": {
+      "replicates": 2000,
+      "median_ratio": 1.0007454421051452,
+      "ratio_95_range": [
+        0.995520102524588,
+        1.0058013202757816
+      ],
+      "mean_ratio": 1.0007485863915913,
+      "fraction_at_least_as_good": 0.0,
+      "add_one_p": 0.0004997501249375312,
+      "release_balanced_median_ratio": 1.001197751927592,
+      "mean_direction_coverage": 1.0,
+      "min_direction_coverage": 1.0,
+      "primary_552_cell_denominator_unchanged": true,
+      "positive_fraction_range": [
+        0.5398550724637681,
+        0.5398550724637681
+      ]
+    },
+    "ONE_YEAR_SHIFT": {
+      "crps_ratio": 0.9807873498631394,
+      "coverage_cells": 422,
+      "coverage_fraction": 0.7644927536231884,
+      "unmatched_zero_shift": true,
+      "full_universe_used": true
+    }
+  },
+  "mutations": {
+    "FUTURE_MUTATION": {
+      "passed": true,
+      "origins_checked": 59,
+      "features_bitwise_invariant": true,
+      "frozen_shifts_bitwise_invariant": true
+    },
+    "OUTCOME_MUTATION": {
+      "passed": true,
+      "all_primary_and_secondary_construction_bitwise_invariant": true,
+      "no_refit_claim": true
+    }
+  },
+  "seed": 2026100602,
+  "amplitude": 0.1,
+  "models_refit": 0,
+  "date_null_is_safe_delayed_mapping_not_literal_unrestricted_date_permutation": true,
+  "release_shuffle_is_exposed_nonPIT_null_not_deployable": true
+}

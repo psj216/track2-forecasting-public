@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "cells": 552,
+  "origins": 59,
+  "unique_releases": 41,
+  "origins_per_release": {
+    "count": 41.0,
+    "mean": 1.4390243902439024,
+    "std": 0.5024331043932554,
+    "min": 1.0,
+    "25%": 1.0,
+    "50%": 1.0,
+    "75%": 2.0,
+    "max": 2.0
+  },
+  "cells_per_release": {
+    "count": 41.0,
+    "mean": 13.463414634146341,
+    "std": 5.495896473622887,
+    "min": 2.0,
+    "25%": 10.0,
+    "50%": 10.0,
+    "75%": 20.0,
+    "max": 20.0
+  },
+  "cells_sharing_releases_across_origins_fraction": 0.6195652173913043,
+  "release_blocks_not_proven_independent": true,
+  "552_not_552_independent_information_events": true
+}

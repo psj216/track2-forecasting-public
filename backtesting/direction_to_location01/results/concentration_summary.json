@@ -1,0 +1,418 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "dimensions": {
+    "release_id": {
+      "blocks": [
+        {
+          "block": "2019-December",
+          "cells": 10,
+          "gain": 0.7115962244059432,
+          "ratio_without_block": 0.9758881758052936,
+          "share_gross_positive_block_gain": 0.04365039288614679
+        },
+        {
+          "block": "2019-October",
+          "cells": 10,
+          "gain": 0.7453902525626015,
+          "ratio_without_block": 0.9760393663620537,
+          "share_gross_positive_block_gain": 0.04572336988581414
+        },
+        {
+          "block": "2020-April",
+          "cells": 10,
+          "gain": 0.07991832398794804,
+          "ratio_without_block": 0.9753780271445579,
+          "share_gross_positive_block_gain": 0.004902311340660293
+        },
+        {
+          "block": "2020-December",
+          "cells": 10,
+          "gain": 0.3585916480527063,
+          "ratio_without_block": 0.9758014552239976,
+          "share_gross_positive_block_gain": 0.021996556173774967
+        },
+        {
+          "block": "2020-January",
+          "cells": 20,
+          "gain": -0.025071513165712628,
+          "ratio_without_block": 0.9748400966783612,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2020-July",
+          "cells": 20,
+          "gain": 0.2822873500377042,
+          "ratio_without_block": 0.9756468064834352,
+          "share_gross_positive_block_gain": 0.01731593467379859
+        },
+        {
+          "block": "2020-June",
+          "cells": 20,
+          "gain": 0.19528234939041186,
+          "ratio_without_block": 0.9754197937666472,
+          "share_gross_positive_block_gain": 0.011978915826510214
+        },
+        {
+          "block": "2020-March",
+          "cells": 10,
+          "gain": -0.08135886696448189,
+          "ratio_without_block": 0.9750943020480656,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2020-November",
+          "cells": 20,
+          "gain": 0.329227219239687,
+          "ratio_without_block": 0.9756151103362435,
+          "share_gross_positive_block_gain": 0.02019529752370887
+        },
+        {
+          "block": "2020-September",
+          "cells": 10,
+          "gain": 0.1045172468153136,
+          "ratio_without_block": 0.975434206310598,
+          "share_gross_positive_block_gain": 0.006411246617666442
+        },
+        {
+          "block": "2021-April",
+          "cells": 20,
+          "gain": 0.7648521482890293,
+          "ratio_without_block": 0.9751856328468186,
+          "share_gross_positive_block_gain": 0.04691719212043461
+        },
+        {
+          "block": "2021-December",
+          "cells": 10,
+          "gain": 0.9408946241451418,
+          "ratio_without_block": 0.9756624033759278,
+          "share_gross_positive_block_gain": 0.05771590489070594
+        },
+        {
+          "block": "2021-January",
+          "cells": 20,
+          "gain": 0.37953612517849467,
+          "ratio_without_block": 0.9755630795774191,
+          "share_gross_positive_block_gain": 0.02328132220257002
+        },
+        {
+          "block": "2021-July",
+          "cells": 20,
+          "gain": 1.7446130030331513,
+          "ratio_without_block": 0.9755438651667075,
+          "share_gross_positive_block_gain": 0.10701721061020492
+        },
+        {
+          "block": "2021-June",
+          "cells": 10,
+          "gain": 1.1393038189461793,
+          "ratio_without_block": 0.9760189829777034,
+          "share_gross_positive_block_gain": 0.06988662616247691
+        },
+        {
+          "block": "2021-March",
+          "cells": 10,
+          "gain": 0.22284928062248366,
+          "ratio_without_block": 0.9753665598166481,
+          "share_gross_positive_block_gain": 0.013669913245657389
+        },
+        {
+          "block": "2021-November",
+          "cells": 20,
+          "gain": 1.55746788587521,
+          "ratio_without_block": 0.9751155827380907,
+          "share_gross_positive_block_gain": 0.09553744496433215
+        },
+        {
+          "block": "2021-September",
+          "cells": 10,
+          "gain": 0.6255140149925835,
+          "ratio_without_block": 0.9749922057946026,
+          "share_gross_positive_block_gain": 0.038369979454305474
+        },
+        {
+          "block": "2022-December",
+          "cells": 10,
+          "gain": -0.21715653568975224,
+          "ratio_without_block": 0.9747322020849806,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2022-January",
+          "cells": 20,
+          "gain": 1.476243763547993,
+          "ratio_without_block": 0.9762235491275475,
+          "share_gross_positive_block_gain": 0.09055503397082906
+        },
+        {
+          "block": "2022-July",
+          "cells": 20,
+          "gain": -0.09511938293445915,
+          "ratio_without_block": 0.9746307433544336,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2022-June",
+          "cells": 10,
+          "gain": 0.7939913346682603,
+          "ratio_without_block": 0.9763753355729895,
+          "share_gross_positive_block_gain": 0.04870463405760612
+        },
+        {
+          "block": "2022-March",
+          "cells": 10,
+          "gain": -0.09331137072727508,
+          "ratio_without_block": 0.9748375497392214,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2022-May",
+          "cells": 20,
+          "gain": 1.3628959152808116,
+          "ratio_without_block": 0.9767567591339499,
+          "share_gross_positive_block_gain": 0.08360210485180196
+        },
+        {
+          "block": "2022-November",
+          "cells": 20,
+          "gain": -0.3017349479824675,
+          "ratio_without_block": 0.974441350370312,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2022-September",
+          "cells": 10,
+          "gain": 0.5508220063722594,
+          "ratio_without_block": 0.9760801455410771,
+          "share_gross_positive_block_gain": 0.03378825823388386
+        },
+        {
+          "block": "2023-December",
+          "cells": 10,
+          "gain": -0.28490159178649577,
+          "ratio_without_block": 0.9746649872702235,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2023-January-February",
+          "cells": 20,
+          "gain": 0.048303357570344096,
+          "ratio_without_block": 0.97449275398745,
+          "share_gross_positive_block_gain": 0.002963001296733613
+        },
+        {
+          "block": "2023-July",
+          "cells": 20,
+          "gain": 0.4938401928020022,
+          "ratio_without_block": 0.9758900025341246,
+          "share_gross_positive_block_gain": 0.03029290726882873
+        },
+        {
+          "block": "2023-June",
+          "cells": 10,
+          "gain": -0.008962516650114993,
+          "ratio_without_block": 0.9751778887203265,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2023-March",
+          "cells": 10,
+          "gain": -0.4719067563194292,
+          "ratio_without_block": 0.97431252664929,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2023-May",
+          "cells": 10,
+          "gain": -0.26153728960906475,
+          "ratio_without_block": 0.9747410776162465,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2023-October-November",
+          "cells": 20,
+          "gain": -0.299238132139673,
+          "ratio_without_block": 0.9745556480993532,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2023-September",
+          "cells": 10,
+          "gain": 0.30843856893297406,
+          "ratio_without_block": 0.9757440004724348,
+          "share_gross_positive_block_gain": 0.018920090148601895
+        },
+        {
+          "block": "2024-April-May",
+          "cells": 14,
+          "gain": 0.6577613934603329,
+          "ratio_without_block": 0.9760766127263641,
+          "share_gross_positive_block_gain": 0.04034808261363665
+        },
+        {
+          "block": "2024-January",
+          "cells": 18,
+          "gain": -0.06182149603007556,
+          "ratio_without_block": 0.9749447580420211,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2024-July",
+          "cells": 10,
+          "gain": -0.2149114332659749,
+          "ratio_without_block": 0.9744542744532798,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2024-June",
+          "cells": 6,
+          "gain": -0.016955157028147733,
+          "ratio_without_block": 0.9752059402416141,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2024-March",
+          "cells": 8,
+          "gain": 0.38593487853381425,
+          "ratio_without_block": 0.9758201007731622,
+          "share_gross_positive_block_gain": 0.02367383144919288
+        },
+        {
+          "block": "2024-November",
+          "cells": 2,
+          "gain": 0.04209934148792116,
+          "ratio_without_block": 0.9753998642399042,
+          "share_gross_positive_block_gain": 0.0025824375301174945
+        },
+        {
+          "block": "2024-September",
+          "cells": 4,
+          "gain": -0.12134420660672943,
+          "ratio_without_block": 0.9750492047649961,
+          "share_gross_positive_block_gain": 0.0
+        }
+      ],
+      "largest_positive_gain_share": 0.10701721061020492,
+      "leave_one_out_ratio_range": [
+        0.97431252664929,
+        0.9767567591339499
+      ],
+      "all_leave_one_out_below_baseline": true
+    },
+    "year": {
+      "blocks": [
+        {
+          "block": "2020",
+          "cells": 120,
+          "gain": 1.9493219302327724,
+          "ratio_without_block": 0.9761745031349806,
+          "share_gross_positive_block_gain": 0.13955255506744238
+        },
+        {
+          "block": "2021",
+          "cells": 120,
+          "gain": 6.211780025420937,
+          "ratio_without_block": 0.977643459956843,
+          "share_gross_positive_block_gain": 0.4447032378899463
+        },
+        {
+          "block": "2022",
+          "cells": 120,
+          "gain": 5.6116484108653815,
+          "ratio_without_block": 0.9786409789667245,
+          "share_gross_positive_block_gain": 0.40173963147426484
+        },
+        {
+          "block": "2023",
+          "cells": 110,
+          "gain": -0.22153040915282035,
+          "ratio_without_block": 0.9722404189588277,
+          "share_gross_positive_block_gain": 0.0
+        },
+        {
+          "block": "2024",
+          "cells": 82,
+          "gain": 0.19562111396517773,
+          "ratio_without_block": 0.9736292315482542,
+          "share_gross_positive_block_gain": 0.01400457556834648
+        }
+      ],
+      "largest_positive_gain_share": 0.4447032378899463,
+      "leave_one_out_ratio_range": [
+        0.9722404189588277,
+        0.9786409789667245
+      ],
+      "all_leave_one_out_below_baseline": true
+    },
+    "asset": {
+      "blocks": [
+        {
+          "block": "UST_2Y",
+          "cells": 276,
+          "gain": 7.225451068229763,
+          "ratio_without_block": 0.9692647776220313,
+          "share_gross_positive_block_gain": 0.5256081037627026
+        },
+        {
+          "block": "UST_5Y",
+          "cells": 276,
+          "gain": 6.521390003101685,
+          "ratio_without_block": 0.9790783089696288,
+          "share_gross_positive_block_gain": 0.4743918962372973
+        }
+      ],
+      "largest_positive_gain_share": 0.5256081037627026,
+      "leave_one_out_ratio_range": [
+        0.9692647776220313,
+        0.9790783089696288
+      ],
+      "all_leave_one_out_below_baseline": true
+    },
+    "horizon": {
+      "blocks": [
+        {
+          "block": "5",
+          "cells": 118,
+          "gain": 0.988572662755514,
+          "ratio_without_block": 0.9731864315748818,
+          "share_gross_positive_block_gain": 0.07191271490125446
+        },
+        {
+          "block": "21",
+          "cells": 116,
+          "gain": 1.1384138410540283,
+          "ratio_without_block": 0.973843810323208,
+          "share_gross_positive_block_gain": 0.08281275932025942
+        },
+        {
+          "block": "63",
+          "cells": 112,
+          "gain": 2.935969965345784,
+          "ratio_without_block": 0.9761660863366529,
+          "share_gross_positive_block_gain": 0.21357415497212995
+        },
+        {
+          "block": "126",
+          "cells": 106,
+          "gain": 4.523019195489501,
+          "ratio_without_block": 0.9783626183202077,
+          "share_gross_positive_block_gain": 0.3290224402842699
+        },
+        {
+          "block": "189",
+          "cells": 100,
+          "gain": 4.1608654066866215,
+          "ratio_without_block": 0.9755712755364037,
+          "share_gross_positive_block_gain": 0.3026779305220862
+        }
+      ],
+      "largest_positive_gain_share": 0.3290224402842699,
+      "leave_one_out_ratio_range": [
+        0.9731864315748818,
+        0.9783626183202077
+      ],
+      "all_leave_one_out_below_baseline": true
+    }
+  },
+  "NONCONCENTRATED": true,
+  "never_drop_from_primary": true
+}

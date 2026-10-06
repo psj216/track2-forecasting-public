@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "R_ORACLE": 0.2045252080025031,
+  "reconstructed_exact_same_ledger": true,
+  "max_cell_loss_difference": 5.551115123125783e-16,
+  "cells": 552,
+  "oracle_is_descriptive_not_predictable": true
+}

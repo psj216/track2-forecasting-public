@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "PRE_RESULT_DTL01_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
+  "parent_RESULT_SHA": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+  "remote_verified": true,
+  "remote_tree_matches_local": true,
+  "main_unchanged": true,
+  "candidate_CRPS_before_PRE": false,
+  "frozen_implementation_hashes": {
+    "backtesting/direction_to_location01/controls.py": "ab228710d0db06a3981217c4d9035fa4893ec4e76ef09d6de04b6e2076bb7adb",
+    "backtesting/direction_to_location01/__init__.py": "642d377da1859d687e68e0dbb01b3f93f4d94396248fb05a8ed537f9f61504fc",
+    "backtesting/direction_to_location01/core.py": "8005ae6225715d72f547c249db02eded2c1a8f3a98c8fbb2c58ba079c195ea20",
+    "backtesting/direction_to_location01/report.py": "6eb3534b2447b487bcd3f3d7ef9c94b7da52fccd483affd76b1999a549ecb308",
+    "backtesting/direction_to_location01/evaluate.py": "383ab90b0b710f29a181215714d30f9bf3d004646c30311b1ef2012439e8c7ad",
+    "backtesting/direction_to_location01/finalize.py": "6ecd1ac5678d4fb9d8fecb8aaf764a437758a19b3f13648060e1b2d2cda2fc70",
+    "backtesting/direction_to_location01/audit.py": "0497130742e6cca742ec94805aad0e059e5290e7e9992e6f6c48b4ef477f4ee1",
+    "tests/test_direction_to_location01.py": "141bbe613f084c4bae041f939a4b8f4ac3ec9bdf90f4b055abc11267bf1bdec7",
+    "backtesting/direction_to_location01/results/experiment_spec.json": "8a0d151dbfa6f0f4f617da77fa89a653bbc02cb8ad3cec9bdc58bf518e9ee1eb"
+  },
+  "frozen_input_manifest_SHA256": "f086873cbd980c6fea142d5e01bdd8963f1058d92777f77ef56b3cbc89bd748f"
+}

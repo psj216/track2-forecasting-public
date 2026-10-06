@@ -1,0 +1,90 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "primary_model": "DTL_PRIMARY_010",
+  "primary_amplitude": 0.1,
+  "models": {
+    "V5.1": {
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "balance": "cell",
+      "crps_ratio": 1.0,
+      "oracle_ratio": 0.20452520800250304,
+      "oracle_capture": 0.0,
+      "score_delta_ratio": 0.0,
+      "mean_normalized_CRPS_delta": 0.0,
+      "normalized_total_score_delta": 0.0,
+      "mean_abs_raw_location_shift": 0.0,
+      "mean_raw_location_shift": 0.0,
+      "mean_abs_standardized_shift": 0.0,
+      "shifted_fraction": 0.0,
+      "frozen_source_direction": {
+        "sign_accuracy": 0.6612318840579711,
+        "balanced_sign_accuracy": 0.6604969047322282,
+        "positive_truth_fraction": 0.6141304347826086,
+        "zero_or_tie_fraction": 0.0,
+        "pearson": 0.2879787236255624,
+        "spearman": 0.4043673967618314
+      }
+    },
+    "DTL_PRIMARY_010": {
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "balance": "cell",
+      "crps_ratio": 0.9753436089359536,
+      "oracle_ratio": 0.20452520800250304,
+      "oracle_capture": 0.03099581697885401,
+      "score_delta_ratio": -0.02465639106404638,
+      "mean_normalized_CRPS_delta": -0.024903697592991755,
+      "normalized_total_score_delta": -13.746841071331449,
+      "mean_abs_raw_location_shift": 0.03977653651206657,
+      "mean_raw_location_shift": -0.008011560383870573,
+      "mean_abs_standardized_shift": 0.10000000000000006,
+      "shifted_fraction": 1.0,
+      "frozen_source_direction": {
+        "sign_accuracy": 0.6612318840579711,
+        "balanced_sign_accuracy": 0.6604969047322282,
+        "positive_truth_fraction": 0.6141304347826086,
+        "zero_or_tie_fraction": 0.0,
+        "pearson": 0.2879787236255624,
+        "spearman": 0.4043673967618314
+      }
+    }
+  },
+  "release_balanced_primary": {
+    "cells": 552,
+    "origins": 59,
+    "releases": 41,
+    "balance": "release",
+    "crps_ratio": 0.9754476234562142,
+    "oracle_ratio": 0.21331734503171298,
+    "oracle_capture": 0.03121001383305648,
+    "score_delta_ratio": -0.024552376543785837,
+    "mean_normalized_CRPS_delta": -0.02366159545300323,
+    "normalized_total_score_delta": -0.9701254135731324,
+    "mean_abs_raw_location_shift": 0.03905434112489109,
+    "mean_raw_location_shift": -0.010043785192116223,
+    "mean_abs_standardized_shift": 0.09999999999999996,
+    "shifted_fraction": 1.0000000000000004,
+    "frozen_source_direction": {
+      "sign_accuracy": 0.6638598528842431,
+      "balanced_sign_accuracy": 0.6697305363859608,
+      "positive_truth_fraction": 0.5812620983352692,
+      "zero_or_tie_fraction": 0.0,
+      "pearson": 0.27408704616660035,
+      "spearman": 0.3854381509674189
+    }
+  },
+  "geometry": {
+    "pure_location": true,
+    "SD_unchanged": true,
+    "weak_ordering_unchanged": true,
+    "centered_geometry_max_abs_error": 1.7763568394002505e-15,
+    "new_rounding_ties": 217,
+    "intentional_jitter": false,
+    "scale_tail_copula_modified": false
+  },
+  "direction_metrics_match_frozen_source": true,
+  "READY_FOR_SUBMISSION": false
+}

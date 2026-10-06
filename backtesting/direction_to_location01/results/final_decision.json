@@ -1,0 +1,34 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "DTL01_RESULT": "NO",
+  "primary_model": "DTL_PRIMARY_010",
+  "primary_amplitude": 0.1,
+  "primary_gates": {
+    "primary_ratio": 0.9753436089359536,
+    "primary_oracle_capture": 0.03099581697885401,
+    "annual_folds_improved": 4,
+    "annual_folds_total": 5,
+    "controls_inferior": false,
+    "controls_clearly_inferior": false,
+    "release_upper_CI_below_one": true,
+    "year_upper_CI_at_most_one": true,
+    "release_direction_retained": true,
+    "nonconcentrated": true,
+    "secondary_used_to_decide": false
+  },
+  "secondary_lead_status": [
+    "SECONDARY_SENSITIVITY_ONLY"
+  ],
+  "NEXT": "NEW-INFORMATION-SEARCH-02",
+  "exactly_one_next_axis": true,
+  "RESEARCH_EXPOSED": true,
+  "INDEPENDENT_OOS": false,
+  "READY_FOR_SUBMISSION": false,
+  "development_called": false,
+  "submission_packaged": false,
+  "PRE_RESULT_DTL01_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
+  "source_models_refit": 0,
+  "2023_included": true,
+  "secondary_cannot_rescue_primary": true,
+  "scientific_spec_modified_after_scores": false
+}

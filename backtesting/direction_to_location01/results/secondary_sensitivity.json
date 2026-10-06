@@ -1,0 +1,111 @@
+{
+  "executive_summary": "Exposed frozen-direction location translation; no independent OOS or automatic submission.",
+  "models": {
+    "DTL_005": {
+      "secondary_only": true,
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "balance": "cell",
+      "crps_ratio": 0.9870931518138631,
+      "oracle_ratio": 0.20452520800250304,
+      "oracle_capture": 0.016225339025171107,
+      "score_delta_ratio": -0.012906848186136854,
+      "mean_normalized_CRPS_delta": -0.013036305405413074,
+      "normalized_total_score_delta": -7.196040583788017,
+      "mean_abs_raw_location_shift": 0.019888268256033285,
+      "mean_raw_location_shift": -0.004005780191935287,
+      "mean_abs_standardized_shift": 0.05000000000000003,
+      "shifted_fraction": 1.0,
+      "frozen_source_direction": {
+        "sign_accuracy": 0.6612318840579711,
+        "balanced_sign_accuracy": 0.6604969047322282,
+        "positive_truth_fraction": 0.6141304347826086,
+        "zero_or_tie_fraction": 0.0,
+        "pearson": 0.2879787236255624,
+        "spearman": 0.4043673967618314
+      }
+    },
+    "DTL_020": {
+      "secondary_only": true,
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "balance": "cell",
+      "crps_ratio": 0.9553398418675999,
+      "oracle_ratio": 0.20452520800250304,
+      "oracle_capture": 0.05614276980450265,
+      "score_delta_ratio": -0.044660158132400096,
+      "mean_normalized_CRPS_delta": -0.045108104819375154,
+      "normalized_total_score_delta": -24.899673860295085,
+      "mean_abs_raw_location_shift": 0.07955307302413314,
+      "mean_raw_location_shift": -0.016023120767741147,
+      "mean_abs_standardized_shift": 0.20000000000000012,
+      "shifted_fraction": 1.0,
+      "frozen_source_direction": {
+        "sign_accuracy": 0.6612318840579711,
+        "balanced_sign_accuracy": 0.6604969047322282,
+        "positive_truth_fraction": 0.6141304347826086,
+        "zero_or_tie_fraction": 0.0,
+        "pearson": 0.2879787236255624,
+        "spearman": 0.4043673967618314
+      }
+    },
+    "OOD3_DIAGNOSTIC": {
+      "secondary_only": true,
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "balance": "cell",
+      "crps_ratio": 0.9803177978387108,
+      "oracle_ratio": 0.20452520800250304,
+      "oracle_capture": 0.024742710088732987,
+      "score_delta_ratio": -0.01968220216128924,
+      "mean_normalized_CRPS_delta": -0.019879616985132593,
+      "normalized_total_score_delta": -10.973548575793192,
+      "mean_abs_raw_location_shift": 0.01555826231944223,
+      "mean_raw_location_shift": 0.007214029195090708,
+      "mean_abs_standardized_shift": 0.05507246376811595,
+      "shifted_fraction": 0.5507246376811594,
+      "frozen_source_direction": {
+        "sign_accuracy": 0.6612318840579711,
+        "balanced_sign_accuracy": 0.6604969047322282,
+        "positive_truth_fraction": 0.6141304347826086,
+        "zero_or_tie_fraction": 0.0,
+        "pearson": 0.2879787236255624,
+        "spearman": 0.4043673967618314
+      }
+    }
+  },
+  "geometry": {
+    "DTL_005": {
+      "pure_location": true,
+      "SD_unchanged": true,
+      "weak_ordering_unchanged": true,
+      "centered_geometry_max_abs_error": 1.3322676295501878e-15,
+      "new_rounding_ties": 94,
+      "intentional_jitter": false,
+      "scale_tail_copula_modified": false
+    },
+    "DTL_020": {
+      "pure_location": true,
+      "SD_unchanged": true,
+      "weak_ordering_unchanged": true,
+      "centered_geometry_max_abs_error": 1.7763568394002505e-15,
+      "new_rounding_ties": 288,
+      "intentional_jitter": false,
+      "scale_tail_copula_modified": false
+    },
+    "OOD3_DIAGNOSTIC": {
+      "pure_location": true,
+      "SD_unchanged": true,
+      "weak_ordering_unchanged": true,
+      "centered_geometry_max_abs_error": 1.3322676295501878e-15,
+      "new_rounding_ties": 199,
+      "intentional_jitter": false,
+      "scale_tail_copula_modified": false
+    }
+  },
+  "primary_not_replaced": true,
+  "optimized_amplitude": null
+}
