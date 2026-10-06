@@ -1,0 +1,148 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "sources": [
+    {
+      "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+      "source": "ECB",
+      "primary_model": "ECB_RIDGE_FULL5",
+      "published_primary_ratio": 1.562819687489047,
+      "reproduced_primary_ratio": 1.562819687489047,
+      "difference": 0.0,
+      "tolerance": 1e-12,
+      "original_geometry_tolerance": {
+        "median_atol": 1e-14,
+        "SD_rtol": 1e-13,
+        "delta_rtol": 1e-12
+      },
+      "within_tolerance": true,
+      "origins": 48,
+      "cells": 227,
+      "releases": 20,
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "DATASET_READY": true,
+      "predictions_npz_sha256": "61427c63b1946c746c3718feac1cef0eee9ea2d081d57e2ae3e3585618091885",
+      "selected_prediction_array_sha256": "4ba9ef6e42dd426a4d4c6fa6cfca98b30ff70f82a36d74bdc383ac62415e770b",
+      "scored_ledger_sha256": "5b65f44d5b2aef686699e0b0a4e9d29f87f4a84e97c4249e39ff1609e5188274",
+      "frozen_baseline_draw_array_sha256": "7186f0e5ded9a56b6d130904df39af1d633092ec60b7913300019d3a4cda1b66",
+      "model_state_files": 5,
+      "missing_model_state_cells": 0,
+      "source_model_scope": "Pooled all horizons, annual single EUR fit",
+      "primary_forecasts_frozen": true
+    },
+    {
+      "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+      "source": "SLOOS",
+      "primary_model": "SLOOS_FULL5_RELEASE_BALANCED",
+      "published_primary_ratio": 1.1484547012248485,
+      "reproduced_primary_ratio": 1.148454701224846,
+      "difference": -2.4424906541753444e-15,
+      "tolerance": 1e-12,
+      "original_geometry_tolerance": {
+        "median_atol": 1e-14,
+        "SD_rtol": 1e-13,
+        "delta_rtol": 1e-12
+      },
+      "within_tolerance": true,
+      "origins": 91,
+      "cells": 2616,
+      "releases": 33,
+      "assets": [
+        "UST_10Y",
+        "UST_20Y",
+        "UST_2Y",
+        "UST_30Y",
+        "UST_5Y",
+        "UST_7Y"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "DATASET_READY": true,
+      "predictions_npz_sha256": "8b7e3e3d75a412ea8c2bf4c1f561ec1e36554bdfcdd61bfca9310b6aa141314f",
+      "selected_prediction_array_sha256": "5819d2125ce051d2faa851f828cb160048ba238f0ad232e4eb73442e27ce8408",
+      "scored_ledger_sha256": "38fc00c4b88b2f8992b5747ca9e3900e978880571c9f53af96288cf84f7d2db7",
+      "frozen_baseline_draw_array_sha256": "3cede38e2932520491e2dcc2c078b030feaedaafb14ea77913b4c0ce87f589e9",
+      "model_state_files": 240,
+      "missing_model_state_cells": 0,
+      "source_model_scope": "Separate asset/horizon/annual fits",
+      "primary_forecasts_frozen": true
+    },
+    {
+      "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+      "source": "SPD",
+      "primary_model": "SPD_FULL5_RELEASE_BALANCED",
+      "published_primary_ratio": 1.420833121052091,
+      "reproduced_primary_ratio": 1.420833121052091,
+      "difference": 0.0,
+      "tolerance": 1e-12,
+      "original_geometry_tolerance": {
+        "median_atol": 1e-14,
+        "SD_rtol": 1e-13,
+        "delta_rtol": 1e-12
+      },
+      "within_tolerance": true,
+      "origins": 59,
+      "cells": 552,
+      "releases": 41,
+      "assets": [
+        "UST_2Y",
+        "UST_5Y"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "DATASET_READY": true,
+      "predictions_npz_sha256": "ce7b2b6200145438c5ab201744120e774ca326399fe4b803f8dd35a2da7ad657",
+      "selected_prediction_array_sha256": "f3e542d86c31777c125f8020bd9df8646787dfa5215471d8d05ee99ca5ae795f",
+      "scored_ledger_sha256": "8a4296dce6b68bfdd5d26064fc30a51d5214083e4618acbf0bd31a5dc0bc8cd2",
+      "frozen_baseline_draw_array_sha256": "80defda1d6274d9d13d021f1c85abdb714e6660b5bbb2247b9caf4934bb09fa3",
+      "model_state_files": 50,
+      "missing_model_state_cells": 0,
+      "source_model_scope": "Separate asset/horizon/annual fits",
+      "primary_forecasts_frozen": true
+    }
+  ],
+  "no_refitting": true,
+  "all_primary_results_reproduced": true
+}

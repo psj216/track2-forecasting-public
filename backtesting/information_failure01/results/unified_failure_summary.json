@@ -1,0 +1,121 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "rows": 3395,
+  "schema": [
+    "source",
+    "asset",
+    "origin_date",
+    "year",
+    "fold",
+    "horizon",
+    "release_id",
+    "release_date",
+    "source_age",
+    "true_delta",
+    "predicted_delta",
+    "V5.1_median",
+    "V5.1_SD",
+    "raw_center_error",
+    "predicted_raw_shift",
+    "baseline_cell_CRPS",
+    "candidate_cell_CRPS",
+    "cell_CRPS_delta",
+    "sign_true",
+    "sign_pred",
+    "sign_correct",
+    "abs_true_delta",
+    "abs_pred_delta",
+    "feature_state_id",
+    "truth",
+    "normalization_scale",
+    "target_end",
+    "heldout_max_abs_train_z",
+    "heldout_mean_squared_train_z"
+  ],
+  "source_counts": [
+    {
+      "source": "ECB",
+      "cells": 227,
+      "origins": 48,
+      "releases": 20,
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "SLOOS",
+      "cells": 2616,
+      "origins": 91,
+      "releases": 33,
+      "assets": [
+        "UST_10Y",
+        "UST_20Y",
+        "UST_2Y",
+        "UST_30Y",
+        "UST_5Y",
+        "UST_7Y"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "source": "SPD",
+      "cells": 552,
+      "origins": 59,
+      "releases": 41,
+      "assets": [
+        "UST_2Y",
+        "UST_5Y"
+      ],
+      "horizons": [
+        5,
+        21,
+        63,
+        126,
+        189
+      ],
+      "folds": [
+        2020,
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    }
+  ],
+  "ledger_location": "Private recovery: backtesting/information_failure01/results/unified_failure_ledger.parquet",
+  "ledger_sha256": "066bafcf3163466ab33f579a5888da2e4a76a959f3c0233d897ffbaa389a9a6e",
+  "cell_CRPS_units": "Original fair CRPS divided by each frozen normalization scale; exact legacy score inputs. Raw center error/shift retain asset native units.",
+  "feature_state_id": "source:release_id; identifies the frozen release packet, never contains outcome data",
+  "market_outcomes_public": false,
+  "source_ledgers_not_identical": "ECB EUR 2020-2024; SLOOS six UST assets 2017-2024; SPD two UST assets 2020-2024. Do not interpret score differences as a controlled source ranking."
+}

@@ -1,0 +1,39 @@
+{
+  "executive_summary": "Read-only frozen-experiment recovery; no forecasting model refit.",
+  "audit_time": "2026-10-06T10:18:38.810001+00:00",
+  "Python": "Python 3.13.15",
+  "parent_exact": true,
+  "initial_tree_clean": true,
+  "main_unchanged": true,
+  "workspace_recovery": "Previous scratch pruned; three saved original private archives restored and CRC/member-hash verified",
+  "recovery_audit": [
+    {
+      "source": "ECB",
+      "archive": "LOCATION02-private-recovery.zip",
+      "sha256": "ff33746447dc8eef7df867060e08813315fe237c6f667d282a9e73786666662d",
+      "CRC_verified": true,
+      "member_hashes_verified": 914,
+      "RESULT_SHA": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+      "PRE_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98"
+    },
+    {
+      "source": "SLOOS",
+      "archive": "LOCATION03-private-recovery.zip",
+      "sha256": "8d7af9323e979191215df56365b704ee3246a016e95ed14d0d89bfe697416566",
+      "CRC_verified": true,
+      "member_hashes_verified": 3812,
+      "RESULT_SHA": "938abb88db0dc985d8468950e169098b88ed50b9",
+      "PRE_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049"
+    },
+    {
+      "source": "SPD",
+      "archive": "LOCATION04-private-recovery.zip",
+      "sha256": "744be6254638c8d9899ea7cf8aa2a86eac1a1e3103b0a36b26913a27634aa6f4",
+      "CRC_verified": true,
+      "member_hashes_verified": 2898,
+      "RESULT_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+      "PRE_SHA": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7"
+    }
+  ],
+  "common_toolkit_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+}

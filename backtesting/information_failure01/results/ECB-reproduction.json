@@ -1,0 +1,44 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "source": "ECB",
+  "primary_model": "ECB_RIDGE_FULL5",
+  "published_primary_ratio": 1.562819687489047,
+  "reproduced_primary_ratio": 1.562819687489047,
+  "difference": 0.0,
+  "tolerance": 1e-12,
+  "original_geometry_tolerance": {
+    "median_atol": 1e-14,
+    "SD_rtol": 1e-13,
+    "delta_rtol": 1e-12
+  },
+  "within_tolerance": true,
+  "origins": 48,
+  "cells": 227,
+  "releases": 20,
+  "assets": [
+    "EUR"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "folds": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "DATASET_READY": true,
+  "predictions_npz_sha256": "61427c63b1946c746c3718feac1cef0eee9ea2d081d57e2ae3e3585618091885",
+  "selected_prediction_array_sha256": "4ba9ef6e42dd426a4d4c6fa6cfca98b30ff70f82a36d74bdc383ac62415e770b",
+  "scored_ledger_sha256": "5b65f44d5b2aef686699e0b0a4e9d29f87f4a84e97c4249e39ff1609e5188274",
+  "frozen_baseline_draw_array_sha256": "7186f0e5ded9a56b6d130904df39af1d633092ec60b7913300019d3a4cda1b66",
+  "model_state_files": 5,
+  "missing_model_state_cells": 0,
+  "source_model_scope": "Pooled all horizons, annual single EUR fit",
+  "primary_forecasts_frozen": true
+}

@@ -1,0 +1,23 @@
+{
+  "executive_summary": "Exposed frozen-prediction failure diagnosis; no new model or confirmatory candidate.",
+  "phase": "PRE implementation",
+  "models_refit": 0,
+  "source_primary_prediction_files_unchanged": true,
+  "recovery_archives_CRC_and_member_hashes_verified": true,
+  "execution_failures": [
+    {
+      "step": "SLOOS reproduction, new diagnosis code",
+      "attempt": 1,
+      "reason": "Pandas 3 returned read-only year boolean mask; new audit code requested a mutable copy. No original source code/models/predictions were modified.",
+      "retry": "passed",
+      "attempts": 2
+    }
+  ],
+  "same_step_failed_twice": false,
+  "research_pre_tests": "16 passed, 1 pre-result-artifact test skipped until generated",
+  "heartbeat": "Stage/source/chunk outputs; finite per-stage commands",
+  "common_commit": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "common_version": "2.4.3",
+  "main_initial_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "affected_pre_tests": "127 passed"
+}

@@ -1,0 +1,30 @@
+{
+  "executive_summary": "Failure diagnosis only; resume first incomplete stage; prior forecasts remain frozen.",
+  "branch": "track2/information-failure-reassessment-01",
+  "parent_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+  "HEAD": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+  "current_stage": "implementation_tests",
+  "stages": {
+    "environment_recovery": "complete",
+    "reproduction:ECB": "complete",
+    "reproduction:SLOOS": "complete",
+    "reproduction:SPD": "complete",
+    "unified_ledger": "complete",
+    "implementation_tests": "complete"
+  },
+  "pending_stages": [
+    "reproduction",
+    "unified_ledger",
+    "implementation_tests",
+    "PRE",
+    "diagnostics",
+    "interpretation",
+    "report",
+    "tests",
+    "Git",
+    "recovery"
+  ],
+  "last_successful_artifact": "implementation_tests",
+  "last_update": "2026-10-06T10:37:41.245378+00:00",
+  "new_models_fitted": 0
+}
