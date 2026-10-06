@@ -3,7 +3,7 @@
   "branch": "track2/direction-to-location-01",
   "parent_SHA": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
   "HEAD": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
-  "current_stage": "full_tests",
+  "current_stage": "complete",
   "completed_stages": [
     "environment_recovery",
     "frozen_artifact_audit",
@@ -16,12 +16,11 @@
     "bootstrap",
     "diagnostics",
     "report",
-    "full_tests"
-  ],
-  "pending_stages": [
+    "full_tests",
     "Git",
     "recovery"
   ],
+  "pending_stages": [],
   "stages": {
     "environment_recovery": "complete",
     "frozen_artifact_audit": "complete",
@@ -34,8 +33,14 @@
     "bootstrap": "complete",
     "diagnostics": "complete",
     "report": "complete",
-    "full_tests": "complete"
+    "full_tests": "complete",
+    "Git": "complete",
+    "recovery": "complete"
   },
-  "last_successful_artifact": "/workspace/scratch/935b41f252e9/dtl01-repo/backtesting/direction_to_location01/results/execution_audit.json",
-  "last_update": "2026-10-06T13:49:14.399430+00:00"
+  "last_successful_artifact": "Private recovery CRC and 4144 per-file SHA256 checks passed",
+  "last_update": "2026-10-06T13:51:03.956017+00:00",
+  "completion_status": "COMPLETE",
+  "scientific_RESULT_SHA": "5a139c1c662acd2c27b461437512f4372bc2195a",
+  "PRE_RESULT_DTL01_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
+  "final_commit_and_archive_receipt": "External completion receipt avoids self-referential SHA"
 }

@@ -86,5 +86,19 @@
   "public_unit_firewall_passed": 104,
   "PRE_RESULT_DTL01_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
   "control_replicates": 6000,
-  "bootstrap_replicates": 10000
+  "bootstrap_replicates": 10000,
+  "remote_scientific_result_verified": "5a139c1c662acd2c27b461437512f4372bc2195a",
+  "remote_critical_blob_verification": {
+    "DIRECTION-TO-LOCATION-01-report.md": "87c3d4ab64b900ad3938586b879b8ac3b27cd41a",
+    "backtesting/direction_to_location01/results/final_decision.json": "a42ecd2b52566ef5dd46b766ea4cfd053fc6cd51",
+    "backtesting/direction_to_location01/results/primary_summary.json": "49f4d164452e821b03ecf04bc39b43f4b68e86e9",
+    "backtesting/direction_to_location01/results/bootstrap_summary.json": "b2382e543f3b5b317488952a9fedab7ede6f9537",
+    "backtesting/direction_to_location01/results/negative_controls.json": "49470bb8b0df1ef46522c62d27451e824a825814"
+  },
+  "main_unchanged_verified": true,
+  "initial_private_archive_verified": {
+    "CRC": true,
+    "per_file_hashes": 4144
+  },
+  "final_archive_verification": "External completion receipt records the final Git commit and full archive SHA256."
 }
