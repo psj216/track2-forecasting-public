@@ -1,0 +1,71 @@
+{
+  "executive_summary": "RESEARCH_EXPOSED / RESEARCH_DIAGNOSTIC_ONLY",
+  "group_rule": "Each block receives equal total weight; all cells retained. Weighted median averages boundary values at exact half mass.",
+  "summaries": {
+    "Cell-weighted": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.5182581584481668,
+      "negative_fraction": 0.4817418415518332,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.014318934262518616,
+      "median_raw_error": 0.002068965850240723,
+      "mean_standardized_error": 0.013667231075465839,
+      "median_standardized_error": 0.039634574871171085
+    },
+    "Origin-balanced": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.5184890087162836,
+      "negative_fraction": 0.48151099128371644,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.014863136920078523,
+      "median_raw_error": 0.002099621525257946,
+      "mean_standardized_error": 0.017564654639817753,
+      "median_standardized_error": 0.04017227782432174
+    },
+    "Year-balanced": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.5185031106911225,
+      "negative_fraction": 0.48149688930887763,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.015023578442127856,
+      "median_raw_error": 0.0020976318418010377,
+      "mean_standardized_error": 0.014299987078473504,
+      "median_standardized_error": 0.04014239471154901
+    },
+    "Asset-balanced": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.5135614015912726,
+      "negative_fraction": 0.4864385984087274,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.02029910738722545,
+      "median_raw_error": 0.0012035854124432532,
+      "mean_standardized_error": -0.014825506470197656,
+      "median_standardized_error": 0.029983727480548537
+    },
+    "Asset-horizon-balanced": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.513825881806903,
+      "negative_fraction": 0.486174118193097,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.021668610343443483,
+      "median_raw_error": 0.001265675751617866,
+      "mean_standardized_error": -0.013478418539974,
+      "median_standardized_error": 0.030313150186002353
+    }
+  }
+}

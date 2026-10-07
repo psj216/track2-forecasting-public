@@ -1,48 +1,130 @@
 {
-  "executive_summary": "Checkpoint only; audit incomplete. Safe-long-work two-failure stop.",
-  "completion": false,
+  "executive_summary": "Full frozen diagnostic evaluation/report/tests complete; external receipt binds final remote/recovery completion.",
+  "scientific_evaluation_complete": true,
+  "report_complete": true,
   "tests": {
-    "research_PRE": {
-      "passed": 26,
-      "failed": 2,
-      "skipped": 3,
-      "runs": 2,
-      "failure": "KeyError: year in tests/test_v51_center_bias04.py synthetic() fixture. train_bias correctly requires calendar year.",
-      "commands": [
-        "python -m pytest tests/test_v51_center_bias04.py --disable-warnings"
+    "research": {
+      "command": [
+        "/workspace/scratch/935b41f252e9/resume-private/env313/bin/python",
+        "-m",
+        "pytest",
+        "tests/test_v51_center_bias04.py",
+        "--disable-warnings"
       ],
-      "logs": [
-        "private/logs/research_PRE.log",
-        "private/logs/research_PRE2.log"
-      ]
+      "cwd": "/workspace/scratch/935b41f252e9/bias04-repo",
+      "exit_code": 0,
+      "seconds": 2.53,
+      "summary": "31 passed in 1.41s"
     },
-    "affected": "NOT_RUN",
-    "full": "NOT_RUN",
-    "common": "NOT_RUN"
+    "affected": {
+      "command": [
+        "/workspace/scratch/935b41f252e9/resume-private/env313/bin/python",
+        "-m",
+        "pytest",
+        "tests/test_location01_card_transfer_no_refit.py",
+        "tests/test_location01_cross_market_self_exclusion.py",
+        "tests/test_location01_draw_geometry_preserved.py",
+        "tests/test_location01_f1_component_recompute.py",
+        "tests/test_location01_future_mutation.py",
+        "tests/test_location01_inner_cv_no_outer_leakage.py",
+        "tests/test_location01_integration.py",
+        "tests/test_location01_lag_safe.py",
+        "tests/test_location01_level_semantics.py",
+        "tests/test_location01_negative_controls.py",
+        "tests/test_location01_no_future_feature.py",
+        "tests/test_location01_oracle_target.py",
+        "tests/test_location01_purge.py",
+        "tests/test_location01_return_semantics.py",
+        "tests/test_location01_same_seed.py",
+        "tests/test_location01_v51_shift_only.py",
+        "tests/test_location01r_geometry_guard.py",
+        "tests/test_price_state_information03.py",
+        "--deselect=tests/test_price_state_information03.py::test_protected_parent_main",
+        "--deselect=tests/test_price_state_information03.py::test_pre_and_input_preservation",
+        "--disable-warnings"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/bias04-repo",
+      "exit_code": 0,
+      "seconds": 4.23,
+      "summary": "58 passed, 2 deselected in 3.10s"
+    },
+    "full": {
+      "command": [
+        "/workspace/scratch/935b41f252e9/resume-private/env313/bin/python",
+        "-m",
+        "pytest",
+        "tests",
+        "--deselect=tests/test_price_state_information03.py::test_protected_parent_main",
+        "--deselect=tests/test_price_state_information03.py::test_pre_and_input_preservation",
+        "--deselect=tests/test_new_information_search02.py::test_parent_main_branch",
+        "--disable-warnings"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/bias04-repo",
+      "exit_code": 0,
+      "seconds": 47.52,
+      "summary": "841 passed, 17 skipped, 3 deselected, 10 warnings in 46.22s"
+    },
+    "common": {
+      "command": [
+        "/workspace/scratch/935b41f252e9/resume-private/env313/bin/python",
+        "-m",
+        "pytest",
+        "common",
+        "--disable-warnings",
+        "-q"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/resume-private/common-repo",
+      "exit_code": 0,
+      "seconds": 1.47,
+      "summary": "250 passed in 1.18s"
+    }
   },
-  "broader_outcomes_loaded": false,
-  "PRE_RESULT_V51_BIAS04_SHA": null,
-  "RESULT_SHA": null,
-  "official_score_reestimated": false,
-  "protected_parent_hashes_verified": true,
-  "scientific_evaluation_stage_failures": 0,
-  "operational_errors": [
-    "Incomplete parent common tag-only bundle; exact official v2.4.3 source clone recovered.",
-    "Synthetic fixture missing year; same command accidentally rerun before repair; two-failure STOP applied."
-  ],
-  "continuation": "Fix synthetic() fixture to derive year from origin. Do not change train_bias, scientific spec, folds or thresholds. Run research tests after explicitly resuming; then affected tests and PRE publication. Start broader construct stage only after remote PRE receipt.",
-  "resumed_from": "6d6109ec3e0598a5654a4351e5ae351ae1025652",
-  "scientific_code_changed": false,
-  "scientific_specification_changed": false,
-  "fixture_only_repair": true,
   "tests_PRE": {
     "research": "28 passed, 3 gated skips",
     "affected": "58 passed, 2 historical branch assertions deselected"
   },
-  "recovery_issue": "Prior resume ZIP truncation diagnosed:25899177 bytes vs50008021 recorded; no EOCD. Discarded as authority. Exact remote code plus previously hash-verified original archives restored; no draw/ledger reconstruction or parent re-evaluation.",
+  "resumed_from": "6d6109ec3e0598a5654a4351e5ae351ae1025652",
+  "PRE_RESULT_V51_BIAS04_SHA": "ae0bdf3faf2b2ca32205f43cd417e32ab2119d4f",
+  "parent_RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "parent_PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "scientific_code_changed": false,
+  "scientific_specification_changed": false,
+  "fixture_only_repair": true,
+  "canonical_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "baseline_cache_hashes_verified": 1251,
+  "all_parent_tracked_files_unchanged": true,
+  "official_V51_source_and_submission_files_preserved": true,
+  "official_reference": 0.9541,
+  "official_score_reestimated": false,
+  "candidate_created": false,
+  "submission_made": false,
+  "private_per_cell_ledger_public": false,
+  "independent_OOS": false,
+  "counts": {
+    "full_origins": 1250,
+    "full_cells": 135994,
+    "full_assets": 25,
+    "full_years": 24,
+    "test_origins": 780,
+    "test_cells": 82184,
+    "test_years": 15,
+    "controls_each": 2000,
+    "bootstrap_each": 5000
+  },
+  "known_execution_failures": [
+    {
+      "stage": "recovery",
+      "reason": "Prior saved resume ZIP truncated (25899177 bytes, no EOCD, vs50008021 recorded). Exact public checkpoint and prior exact-hash source archives restored. No original draw reconstruction or parent re-evaluation."
+    }
+  ],
+  "scientific_stage_failures": 0,
   "excluded_historical_assertions": [
+    "tests/test_new_information_search02.py::test_parent_main_branch",
     "tests/test_price_state_information03.py::test_protected_parent_main",
     "tests/test_price_state_information03.py::test_pre_and_input_preservation"
   ],
-  "exclusion_reason": "Immutable tests require original PRICE03 branch; replacement current branch/main/parent/source protection tests passed."
+  "exclusion_reason": "These immutable tests require their original earlier branch; current source/PRE/main/parent byte protection tests replace branch-specific assertions without changing historical tests.",
+  "bootstrap_technical_note": "Whole original canonical blocks sampled for joint bias/score statistics. Pre-2010-only blocks contribute zero test loss; represented held-out block count therefore varies. No alternative bootstrap or selection performed.",
+  "RESULT_binding": "External receipt verifies branch/tree/critical files/lineage/main/clean and private recovery archive; no self-referential commit hash."
 }

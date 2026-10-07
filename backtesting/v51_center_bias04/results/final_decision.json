@@ -1,0 +1,45 @@
+{
+  "executive_summary": "Frozen baseline forensic audit. No new production candidate.",
+  "V51_BIAS04_RESULT": "INCONCLUSIVE",
+  "gate_evidence": {
+    "global_gates": {
+      "material_bias": false,
+      "origin_and_year_support": false,
+      "era_consistency": true,
+      "heldout_improvement": true,
+      "fold_majority": true,
+      "no_year_dominance": true,
+      "no_era_dominance": true,
+      "controls_inferior": false
+    },
+    "global_weak": true,
+    "asset_gates": {
+      "multiple_stable": true,
+      "heldout_improvement": false,
+      "fold_majority": false,
+      "no_era_dominance": true
+    },
+    "horizon_gates": {
+      "multiple_stable": false,
+      "heldout_improvement": true,
+      "fold_majority": true,
+      "no_era_dominance": true
+    },
+    "episode_gates": {
+      "concentration": false,
+      "era_reversal": true,
+      "global_history_fails": false,
+      "recent_bias": true
+    },
+    "no_stable_gates": {
+      "approximately_centered": false,
+      "historical_sign_fails": false,
+      "low_dimensional_capture_small": true,
+      "recent_sample_bias": true
+    }
+  },
+  "independent_OOS": false,
+  "submission_readiness": false,
+  "official_reference_score": 0.9541,
+  "official_score_reestimated": false
+}

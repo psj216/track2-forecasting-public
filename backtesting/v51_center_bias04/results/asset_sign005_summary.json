@@ -1,0 +1,10 @@
+{
+  "executive_summary": "RESEARCH_DIAGNOSTIC_ONLY. Complete chronological 2010\u20132024 test ledger; no candidate.",
+  "model": "ASSET_BIAS_SIGN005",
+  "cells": 82184,
+  "origins": 780,
+  "ratio": 1.0015274158344292,
+  "folds_improved": 2,
+  "fraction_improved": 0.4894383334955709,
+  "requested_magnitude_by_fold": null
+}

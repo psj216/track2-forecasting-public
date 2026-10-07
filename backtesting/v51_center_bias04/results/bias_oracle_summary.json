@@ -1,0 +1,71 @@
+{
+  "executive_summary": "FUTURE_INFORMED_MATHEMATICAL_DIAGNOSTIC_ONLY. Normalized common CRPS loss minimization; no optimizer values enter predictive pipeline.",
+  "universes": {
+    "full": {
+      "cells": 135994,
+      "origins": 1250,
+      "PERFECT_CELL_LOCATION_ORACLE": {
+        "ratio": 0.31034547296185894,
+        "perfect_headroom_capture": 1.0
+      },
+      "GLOBAL_ORACLE_BIAS": {
+        "ratio": 0.9994329363352448,
+        "perfect_headroom_capture": 0.0008222430833457986,
+        "future_informed": true
+      },
+      "YEAR_ORACLE_BIAS": {
+        "ratio": 0.9930349966302386,
+        "perfect_headroom_capture": 0.010099264336991962,
+        "future_informed": true
+      },
+      "ASSET_ORACLE_BIAS": {
+        "ratio": 0.9926553582995142,
+        "perfect_headroom_capture": 0.010649740431674963,
+        "future_informed": true
+      },
+      "HORIZON_ORACLE_BIAS": {
+        "ratio": 0.9992994914341988,
+        "perfect_headroom_capture": 0.0010157383709342791,
+        "future_informed": true
+      },
+      "ASSET_HORIZON_ORACLE_BIAS": {
+        "ratio": 0.9876283783406811,
+        "perfect_headroom_capture": 0.017938868193110146,
+        "future_informed": true
+      }
+    },
+    "eval": {
+      "cells": 82184,
+      "origins": 780,
+      "PERFECT_CELL_LOCATION_ORACLE": {
+        "ratio": 0.4099833250124908,
+        "perfect_headroom_capture": 1.0
+      },
+      "GLOBAL_ORACLE_BIAS": {
+        "ratio": 0.9976786669658994,
+        "perfect_headroom_capture": 0.003934351574300491,
+        "future_informed": true
+      },
+      "YEAR_ORACLE_BIAS": {
+        "ratio": 0.9893719416624743,
+        "perfect_headroom_capture": 0.018013149099134644,
+        "future_informed": true
+      },
+      "ASSET_ORACLE_BIAS": {
+        "ratio": 0.9880587010088271,
+        "perfect_headroom_capture": 0.02023891780927329,
+        "future_informed": true
+      },
+      "HORIZON_ORACLE_BIAS": {
+        "ratio": 0.9970611139464503,
+        "perfect_headroom_capture": 0.004981022025541849,
+        "future_informed": true
+      },
+      "ASSET_HORIZON_ORACLE_BIAS": {
+        "ratio": 0.9847325874010682,
+        "perfect_headroom_capture": 0.025876239174520015,
+        "future_informed": true
+      }
+    }
+  }
+}

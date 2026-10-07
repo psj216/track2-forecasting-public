@@ -1,0 +1,15 @@
+{
+  "executive_summary": "RESEARCH_DIAGNOSTIC_ONLY. Complete chronological 2010\u20132024 test ledger; no candidate.",
+  "model": "GLOBAL_MEDIAN_SHIFT",
+  "cells": 82184,
+  "origins": 780,
+  "ratio": 0.9995378782760153,
+  "folds_improved": 3,
+  "fraction_improved": 0.5241409520101237,
+  "requested_magnitude_by_fold": [
+    0.00450725038953324,
+    0.014045240281967825,
+    0.029739427802502813,
+    0.01877965029938621
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Private realized targets; public aggregates only.",
+  "path": "private/center_error_ledger.parquet",
+  "SHA256": "30f5113b24ee5f9e5335b39f5a224d45633307aeb0dd77621ce29addec56d05f",
+  "cells": 135994,
+  "draws_reused_exactly": true,
+  "target_reconstructed": false,
+  "SD_floor_cells": 0,
+  "original_label_max_difference": 0.0,
+  "original_semantics": "LOCATION01 target/oracle_label unchanged; level endpoint; accumulated daily return/log-return; original scale denominator retained."
+}

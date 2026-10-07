@@ -1,0 +1,52 @@
+{
+  "executive_summary": "Target-blind random assignments of matured training signs; not IID significance tests.",
+  "seed": 31804,
+  "primary_ratio": 0.9977995994250116,
+  "controls": {
+    "MATCHED_RANDOM_SIGN": {
+      "replicates": 2000,
+      "median_ratio": 0.9977995994250116,
+      "interval_95": [
+        0.9977995994250116,
+        0.9977995994250116
+      ],
+      "fraction_equal_or_better": 1.0,
+      "monte_carlo_p": 1.0,
+      "degenerate": true
+    },
+    "HISTORICAL_YEAR_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.0011663713862253,
+      "interval_95": [
+        0.9958529878164584,
+        1.006921998373839
+      ],
+      "fraction_equal_or_better": 0.227,
+      "monte_carlo_p": 0.2273863068465767,
+      "degenerate": false
+    },
+    "HISTORICAL_ASSET_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 1.0011187133891264,
+      "interval_95": [
+        0.9987242736351483,
+        1.0035103791845772
+      ],
+      "fraction_equal_or_better": 0.002,
+      "monte_carlo_p": 0.0024987506246876563,
+      "degenerate": false
+    },
+    "HISTORICAL_HORIZON_SIGN_SHUFFLE": {
+      "replicates": 2000,
+      "median_ratio": 0.9984014102929136,
+      "interval_95": [
+        0.998018556578518,
+        0.9990467472294862
+      ],
+      "fraction_equal_or_better": 0.0,
+      "monte_carlo_p": 0.0004997501249375312,
+      "degenerate": false
+    }
+  },
+  "year_shuffle_clarification": "Permute train-only annual signs within each fold and use the last shuffled historical sign for entire held-out fold. Never reassign future-fold fits backward."
+}

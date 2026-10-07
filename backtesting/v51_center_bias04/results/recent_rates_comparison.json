@@ -1,0 +1,83 @@
+{
+  "executive_summary": "RESEARCH_EXPOSED / RESEARCH_DIAGNOSTIC_ONLY",
+  "summaries": {
+    "parent_exact": {
+      "cells": 482,
+      "origins": 52,
+      "assets": 2,
+      "years": 5,
+      "positive_fraction": 0.6410788381742739,
+      "negative_fraction": 0.35892116182572614,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.22658108253418346,
+      "median_raw_error": 0.07832204254153141,
+      "mean_standardized_error": 0.6649510996798299,
+      "median_standardized_error": 0.3678528692456918
+    },
+    "full_universe": {
+      "cells": 135994,
+      "origins": 1250,
+      "assets": 25,
+      "years": 24,
+      "positive_fraction": 0.5182581584481668,
+      "negative_fraction": 0.4817418415518332,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.014318934262518616,
+      "median_raw_error": 0.002068965850240723,
+      "mean_standardized_error": 0.013667231075465839,
+      "median_standardized_error": 0.039634574871171085
+    },
+    "full_rates": {
+      "cells": 36564,
+      "origins": 1234,
+      "assets": 6,
+      "years": 24,
+      "positive_fraction": 0.5053331145388907,
+      "negative_fraction": 0.49466688546110926,
+      "zero_fraction": 0.0,
+      "mean_raw_error": -0.005135080091133213,
+      "median_raw_error": 0.003022544131266791,
+      "mean_standardized_error": 0.013820799520002395,
+      "median_standardized_error": 0.012022643950993506
+    },
+    "full_UST_2Y_5Y": {
+      "cells": 12188,
+      "origins": 1234,
+      "assets": 2,
+      "years": 24,
+      "positive_fraction": 0.5250246143747949,
+      "negative_fraction": 0.47497538562520514,
+      "zero_fraction": 0.0,
+      "mean_raw_error": -0.0017288300058416635,
+      "median_raw_error": 0.012494063589532423,
+      "mean_standardized_error": 0.05450935650625557,
+      "median_standardized_error": 0.05099219214664395
+    },
+    "full_2020_2024": {
+      "cells": 25394,
+      "origins": 258,
+      "assets": 22,
+      "years": 5,
+      "positive_fraction": 0.553083405528865,
+      "negative_fraction": 0.4469165944711349,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.16882344495789675,
+      "median_raw_error": 0.006761945847510621,
+      "mean_standardized_error": 0.15371749533063883,
+      "median_standardized_error": 0.11877644920084451
+    },
+    "UST_2Y_5Y_2020_2024": {
+      "cells": 2418,
+      "origins": 257,
+      "assets": 2,
+      "years": 5,
+      "positive_fraction": 0.6017369727047146,
+      "negative_fraction": 0.39826302729528534,
+      "zero_fraction": 0.0,
+      "mean_raw_error": 0.18448576147762258,
+      "median_raw_error": 0.0486199397440579,
+      "mean_standardized_error": 0.5268186043570404,
+      "median_standardized_error": 0.2269583707565433
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "executive_summary": "RESEARCH_EXPOSED / RESEARCH_DIAGNOSTIC_ONLY",
+  "cells": 135994,
+  "origins": 1250,
+  "assets": 25,
+  "years": 24,
+  "positive_fraction": 0.5182581584481668,
+  "negative_fraction": 0.4817418415518332,
+  "zero_fraction": 0.0,
+  "mean_raw_error": 0.014318934262518616,
+  "median_raw_error": 0.002068965850240723,
+  "mean_standardized_error": 0.013667231075465839,
+  "median_standardized_error": 0.039634574871171085,
+  "raw_unit_warning": "Raw pooled errors mix FX levels, rate levels and factor accumulated log returns. Units differ; standardized statistics are primary."
+}

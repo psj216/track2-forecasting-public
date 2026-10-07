@@ -1,0 +1,10 @@
+{
+  "executive_summary": "RESEARCH_DIAGNOSTIC_ONLY. Complete chronological 2010\u20132024 test ledger; no candidate.",
+  "model": "HORIZON_BIAS_SIGN005",
+  "cells": 82184,
+  "origins": 780,
+  "ratio": 0.998018556578518,
+  "folds_improved": 3,
+  "fraction_improved": 0.5151245984619878,
+  "requested_magnitude_by_fold": null
+}

@@ -1,0 +1,192 @@
+{
+  "executive_summary": "Block bootstrap only. Full-ledger bias statistics; all score/capture intervals use matched 2010\u20132024 evaluation ledger. Fixed forecasts/oracles are resampled, not refitted.",
+  "seed": 31804,
+  "blocks": {
+    "origin": {
+      "block_count": 1250,
+      "replicates": 5000,
+      "metrics": {
+        "positive_fraction": {
+          "interval_95": [
+            0.5120411910709759,
+            0.5244406590083631
+          ],
+          "finite_replicates": 5000
+        },
+        "mean_standardized_error": {
+          "interval_95": [
+            -0.004829572613802789,
+            0.031190835356040298
+          ],
+          "finite_replicates": 5000
+        },
+        "global_sign005_ratio": {
+          "interval_95": [
+            0.9968478497295967,
+            0.9988272341742547
+          ],
+          "finite_replicates": 5000
+        },
+        "global_median_ratio": {
+          "interval_95": [
+            0.9991629236189964,
+            0.9999428967423338
+          ],
+          "finite_replicates": 5000
+        },
+        "global_oracle_headroom_capture": {
+          "interval_95": [
+            0.0016760287278746928,
+            0.006029336179028684
+          ],
+          "finite_replicates": 5000
+        },
+        "global_predictive_headroom_capture": {
+          "interval_95": [
+            0.0019822081491922645,
+            0.005346067820261988
+          ],
+          "finite_replicates": 5000
+        },
+        "asset_sign005_ratio": {
+          "interval_95": [
+            1.0004857589866039,
+            1.0025515081019116
+          ],
+          "finite_replicates": 5000
+        },
+        "horizon_sign005_ratio": {
+          "interval_95": [
+            0.9971081035211357,
+            0.9989969114884245
+          ],
+          "finite_replicates": 5000
+        }
+      }
+    },
+    "year": {
+      "block_count": 24,
+      "replicates": 5000,
+      "metrics": {
+        "positive_fraction": {
+          "interval_95": [
+            0.4963647013003376,
+            0.5393764279136559
+          ],
+          "finite_replicates": 5000
+        },
+        "mean_standardized_error": {
+          "interval_95": [
+            -0.05852033807508542,
+            0.08182750043676429
+          ],
+          "finite_replicates": 5000
+        },
+        "global_sign005_ratio": {
+          "interval_95": [
+            0.9944628154100495,
+            1.0014378450729873
+          ],
+          "finite_replicates": 5000
+        },
+        "global_median_ratio": {
+          "interval_95": [
+            0.9982687653499471,
+            1.0012238901178465
+          ],
+          "finite_replicates": 5000
+        },
+        "global_oracle_headroom_capture": {
+          "interval_95": [
+            -0.0041436443120970844,
+            0.011273607103183722
+          ],
+          "finite_replicates": 5000
+        },
+        "global_predictive_headroom_capture": {
+          "interval_95": [
+            -0.00245879506347044,
+            0.00941977206614815
+          ],
+          "finite_replicates": 5000
+        },
+        "asset_sign005_ratio": {
+          "interval_95": [
+            0.9984714367696955,
+            1.004403663000701
+          ],
+          "finite_replicates": 5000
+        },
+        "horizon_sign005_ratio": {
+          "interval_95": [
+            0.9946810764601707,
+            1.0016214801988543
+          ],
+          "finite_replicates": 5000
+        }
+      }
+    },
+    "asset": {
+      "block_count": 25,
+      "replicates": 5000,
+      "metrics": {
+        "positive_fraction": {
+          "interval_95": [
+            0.4974463772589555,
+            0.5394696170138846
+          ],
+          "finite_replicates": 5000
+        },
+        "mean_standardized_error": {
+          "interval_95": [
+            -0.07305539508785543,
+            0.07252839065762257
+          ],
+          "finite_replicates": 5000
+        },
+        "global_sign005_ratio": {
+          "interval_95": [
+            0.9945909080244006,
+            1.0009789006468344
+          ],
+          "finite_replicates": 5000
+        },
+        "global_median_ratio": {
+          "interval_95": [
+            0.9985646635579898,
+            1.000532652529348
+          ],
+          "finite_replicates": 5000
+        },
+        "global_oracle_headroom_capture": {
+          "interval_95": [
+            -0.0030734192602382042,
+            0.010929815191215091
+          ],
+          "finite_replicates": 5000
+        },
+        "global_predictive_headroom_capture": {
+          "interval_95": [
+            -0.001680497883022891,
+            0.009143677486411093
+          ],
+          "finite_replicates": 5000
+        },
+        "asset_sign005_ratio": {
+          "interval_95": [
+            0.9979700057026689,
+            1.0044657024567782
+          ],
+          "finite_replicates": 5000
+        },
+        "horizon_sign005_ratio": {
+          "interval_95": [
+            0.9950112264420333,
+            1.0009950159230383
+          ],
+          "finite_replicates": 5000
+        }
+      }
+    }
+  }
+}

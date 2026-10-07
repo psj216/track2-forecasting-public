@@ -10,5 +10,9 @@
   "protected_parent_files": 2364,
   "all_original_draw_hashes_verified": 1251,
   "broader_labels_opened": false,
-  "environment_recovery_note": "Parent common tag-only bundle lacked ancestors; recovered exact same commit by official tag clone. No scientific stage rerun."
+  "environment_recovery_note": "Parent common tag-only bundle lacked ancestors; recovered exact same commit by official tag clone. No scientific stage rerun.",
+  "resume_runtime_verified": true,
+  "current_runtime": "3.13.15",
+  "current_common_SHA": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "resume_parent": "6d6109ec3e0598a5654a4351e5ae351ae1025652"
 }

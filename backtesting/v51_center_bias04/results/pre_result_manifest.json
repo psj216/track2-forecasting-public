@@ -9,5 +9,7 @@
   "source_caches": 1251,
   "source_caches_verified": true,
   "original_parent_reproduction_preserved": true,
-  "broader_outcomes_deserialized": false
+  "broader_outcomes_deserialized": false,
+  "PRE_RESULT_V51_BIAS04_SHA": "ae0bdf3faf2b2ca32205f43cd417e32ab2119d4f",
+  "remote_verified": true
 }
