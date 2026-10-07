@@ -1,0 +1,176 @@
+{
+  "executive_summary": "Aggregate public artifacts, report and frozen status hash manifest; private answers remain outside Git. Self manifest excluded.",
+  "parent_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "files": {
+    "backtesting/price_state_information03/results/annual_summary.csv": {
+      "SHA256": "0c1a43e536baeaf0602bbd8a61d0d42f87374127e46df939337805bcb3f48f93",
+      "bytes": 14739
+    },
+    "backtesting/price_state_information03/results/artifact_schema_audit.json": {
+      "SHA256": "138540c6afca1dc73ef40dab9d0dec9c61ba1fbff79bd6e37a0aee02aa5a6744",
+      "bytes": 475
+    },
+    "backtesting/price_state_information03/results/asset_summary.csv": {
+      "SHA256": "37c34e490ad1bf8f484579b9db6673c405d828c6547d9dedb348909475f65928",
+      "bytes": 6686
+    },
+    "backtesting/price_state_information03/results/baseline_preservation_audit.json": {
+      "SHA256": "48a3608f7933eb866728529386d7cc36b544df6ad2aee02e0b72a3323d184cc7",
+      "bytes": 695
+    },
+    "backtesting/price_state_information03/results/bootstrap_summary.json": {
+      "SHA256": "e30eadf3b609722e8acac6786674ae4c8a4025a6225d541a6e3ff7ded979aa9b",
+      "bytes": 3121
+    },
+    "backtesting/price_state_information03/results/broader_ledger_spec.json": {
+      "SHA256": "6907bfecda45b18474c258cf11cd4c101ebf16e3a5c1988fb956c5e9eab572c7",
+      "bytes": 1491
+    },
+    "backtesting/price_state_information03/results/broader_transfer_readiness.json": {
+      "SHA256": "09195dbeb4f2a4da39e90dca9cf488536edcc4955303173c081c726c8902951d",
+      "bytes": 473
+    },
+    "backtesting/price_state_information03/results/broader_transfer_summary.json": {
+      "SHA256": "fa32b545741edec469346f4b64e9b6874e6ea249bb5fac2dc2f3a16690d8c201",
+      "bytes": 204
+    },
+    "backtesting/price_state_information03/results/coefficient_stability.json": {
+      "SHA256": "6f980ee0661959dd5f659746507b2512c71ade316edc9208c7f5eace21a20641",
+      "bytes": 14921
+    },
+    "backtesting/price_state_information03/results/concentration_audit.json": {
+      "SHA256": "a504a9d9588e81e6e01ac22cd61b39472f1f662cc9a9adf9f2ef7aa71c290791",
+      "bytes": 249
+    },
+    "backtesting/price_state_information03/results/constant_shift_summary.json": {
+      "SHA256": "252bfb730d7fbf10a170e537d98238cb0244182584fbd594b90c54e49b4b6e42",
+      "bytes": 1319
+    },
+    "backtesting/price_state_information03/results/diagnostic_predictions.csv": {
+      "SHA256": "a5958189877d899670100f31c8d65e5cdab9c76f69733b5692daa65d12132bcd",
+      "bytes": 122855
+    },
+    "backtesting/price_state_information03/results/environment_audit.json": {
+      "SHA256": "018b51e4f9c6bcccd5c02e2968762378ea2c883c57589ad2c4cc41895825c71b",
+      "bytes": 654
+    },
+    "backtesting/price_state_information03/results/execution_audit.json": {
+      "SHA256": "54dd0acddd209eae1e2fe180175591b5a5424de035fc215fa3f96dcc6a3dcd31",
+      "bytes": 2599
+    },
+    "backtesting/price_state_information03/results/experiment_spec.json": {
+      "SHA256": "c24ac93347cec6e7c6627f7dbd98bdc0cba6b0413faffbdcc709cee408ab6f14",
+      "bytes": 5430
+    },
+    "backtesting/price_state_information03/results/feature_group_diagnostic.csv": {
+      "SHA256": "7d0b93ed0d55d58296423679a3525d2815fc59eb261a561b668c12b9597ed529",
+      "bytes": 872
+    },
+    "backtesting/price_state_information03/results/feature_permutation_summary.json": {
+      "SHA256": "024bce2b9a1ee3a28e07cf5569bb0f808e75416436aaa502809550c4f6a812f0",
+      "bytes": 807
+    },
+    "backtesting/price_state_information03/results/final_decision.json": {
+      "SHA256": "6fa9cc1183920684772214fd555e76dfba7468051832e0b6b823494e74c71ccc",
+      "bytes": 963
+    },
+    "backtesting/price_state_information03/results/fold_manifest.csv": {
+      "SHA256": "fb051bcea11aa7cf25f1ed38264583aaa0c80d87e1262b5f8fec8b415c0bb9b5",
+      "bytes": 1055
+    },
+    "backtesting/price_state_information03/results/horizon_summary.csv": {
+      "SHA256": "60963a8912beff23482275944364245d5dfce3020c0d2055d02918d92dfc86a8",
+      "bytes": 16153
+    },
+    "backtesting/price_state_information03/results/information_attribution.json": {
+      "SHA256": "debbedec57167b87241b779eeeabd2f09b0ce218adb591cd62573cf84479792d",
+      "bytes": 1225
+    },
+    "backtesting/price_state_information03/results/model_comparison.csv": {
+      "SHA256": "a4b34ffd8e526736f6f79fa2fa2d1f7d9385599f7b920f17f3acf10e28aa7653",
+      "bytes": 3230
+    },
+    "backtesting/price_state_information03/results/next_axis_decision.json": {
+      "SHA256": "aad03cfd7b161a0be2b6152c66e54a57383631e5adf5739fc2d08917945ff7b3",
+      "bytes": 172
+    },
+    "backtesting/price_state_information03/results/null_model_summary.csv": {
+      "SHA256": "64061acffdfde8911c4fabfdf1d75361ffa39e12003042a56c3cd3badf5fd570",
+      "bytes": 1272
+    },
+    "backtesting/price_state_information03/results/oracle_capture.json": {
+      "SHA256": "4e077c409aacdc8dadd7cd74afddfd92b723eb641692cc0229b11257902cf47c",
+      "bytes": 189
+    },
+    "backtesting/price_state_information03/results/oracle_summary.json": {
+      "SHA256": "d39ce185c9fb4b81f36b8736bfcd1eb299ff1bfab06c6f26b671af11569e1a78",
+      "bytes": 194
+    },
+    "backtesting/price_state_information03/results/origin_balanced_summary.json": {
+      "SHA256": "42624542c0ee072322c9ead6a251cba72e034589805af961982c19582ccc6f45",
+      "bytes": 27132
+    },
+    "backtesting/price_state_information03/results/parent_manifest.json": {
+      "SHA256": "c3d461a237799b90c052f49bb5976054990c25b17b1a5f820ca6fdc9af24f539",
+      "bytes": 712
+    },
+    "backtesting/price_state_information03/results/parent_price_reproduction.json": {
+      "SHA256": "b3ea4adf3baf11a50a2090422cf26bb3595f06f08b6052e2dc1d0f48e18d1643",
+      "bytes": 4763
+    },
+    "backtesting/price_state_information03/results/pre_result_manifest.json": {
+      "SHA256": "fa7bce27859f132083074aff461222a55cb0b334efeddddcf32e258cb389079e",
+      "bytes": 3717
+    },
+    "backtesting/price_state_information03/results/price_feature_manifest.csv": {
+      "SHA256": "78e01c7f7dbfa827c41c6b45a73b4bd661e748c099c7096abaa86e8af6108bac",
+      "bytes": 8968
+    },
+    "backtesting/price_state_information03/results/price_full_summary.json": {
+      "SHA256": "459a4bd905bbf32f77685fce49546dcab378131753db7f9342ff669abc699c6f",
+      "bytes": 996
+    },
+    "backtesting/price_state_information03/results/price_pit_audit.json": {
+      "SHA256": "1fd5215fbfe28a9a8ac2e3e94a69eebc7adef76ec3fa0ba0c83c7c33fc9f6dda",
+      "bytes": 1453
+    },
+    "backtesting/price_state_information03/results/random_match_provenance.json": {
+      "SHA256": "bee9b459387cb831e44bdc8a3bdcc72f94008aa4df6a0968cdf927b855a0d1b9",
+      "bytes": 1363
+    },
+    "backtesting/price_state_information03/results/random_sign_summary.json": {
+      "SHA256": "dec31c286a789269a2d642342d9fb7f997276a23a6bde59a4616b34fd9ac42e5",
+      "bytes": 2178
+    },
+    "backtesting/price_state_information03/results/structure_control_summary.csv": {
+      "SHA256": "8cc3eba8be5c9030e00df0d4a949fb3f41ceae7cb773353eabfa11c76753357e",
+      "bytes": 529
+    },
+    "backtesting/price_state_information03/results/target_base_rate_summary.csv": {
+      "SHA256": "e7fe9e74759146a12273869df028fb8d63eda1beaf3d76eadabdd87823347b76",
+      "bytes": 6991
+    },
+    "backtesting/price_state_information03/results/technical_firewall_clarification.json": {
+      "SHA256": "096d0b5513be650c74f74bae4215d05d9edd4ea924d8641081960caa074f39e0",
+      "bytes": 560
+    },
+    "backtesting/price_state_information03/results/temporal_shift_summary.csv": {
+      "SHA256": "350474bad8b55cc1e43abbd424510f70378bb5b7338686ba0c48378558f0b27f",
+      "bytes": 892
+    },
+    "backtesting/price_state_information03/results/v51_center_bias_summary.json": {
+      "SHA256": "c78b2dddbb1b27eeda4143e86e0e9a546595425456e66ca88f4c6ce12102a84e",
+      "bytes": 4305
+    },
+    "PRICE-STATE-INFORMATION-AUDIT-03-report.md": {
+      "SHA256": "6b0ed2f07b2d21f0ba649d8b2d5f9075d1028352d4edb896fa967202d28c7992",
+      "bytes": 19245
+    },
+    "backtesting/price_state_information03/STATUS.json": {
+      "SHA256": "8b67f292ae902a5910c753de612402d08c364e7968c695db76b49ddaea6c2ca2",
+      "bytes": 1008
+    }
+  },
+  "artifact_count": 42
+}

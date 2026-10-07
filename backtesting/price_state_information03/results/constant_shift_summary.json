@@ -1,0 +1,45 @@
+{
+  "executive_summary": "Both fixed signs reported; no best constant is promoted.",
+  "controls": {
+    "CONSTANT_UP": {
+      "CRPS_ratio": 0.9898286259575693,
+      "sign_accuracy": 0.6410788381742739,
+      "balanced_accuracy": 0.5,
+      "Brier": 0.35892116182572614,
+      "Pearson": null,
+      "Spearman": null,
+      "fraction_improved_cells": 0.6244813278008299,
+      "mean_CRPS_delta": -0.011236432985142847,
+      "cells": 482,
+      "origins": 52,
+      "prediction_ties": 0
+    },
+    "CONSTANT_DOWN": {
+      "CRPS_ratio": 1.011269076929988,
+      "sign_accuracy": 0.35892116182572614,
+      "balanced_accuracy": 0.5,
+      "Brier": 0.6410788381742739,
+      "Pearson": null,
+      "Spearman": null,
+      "fraction_improved_cells": 0.3506224066390041,
+      "mean_CRPS_delta": 0.0124490778925251,
+      "cells": 482,
+      "origins": 52,
+      "prediction_ties": 0
+    },
+    "TRAINING_MAJORITY": {
+      "CRPS_ratio": 0.9898286259575693,
+      "sign_accuracy": 0.6410788381742739,
+      "balanced_accuracy": 0.5,
+      "Brier": 0.35892116182572614,
+      "Pearson": null,
+      "Spearman": null,
+      "fraction_improved_cells": 0.6244813278008299,
+      "mean_CRPS_delta": -0.011236432985142847,
+      "cells": 482,
+      "origins": 52,
+      "prediction_ties": 0
+    }
+  },
+  "amplitude_SD": 0.05
+}

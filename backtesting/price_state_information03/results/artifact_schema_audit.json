@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Required artifacts and target firewall verified after aggregate generation.",
+  "required_present": 29,
+  "schemas_readable": true,
+  "public_outcome_columns": false,
+  "PRICE_FULL_probability_and_loss_bitwise_preserved": true,
+  "counts": {
+    "permutation": 2000,
+    "random_A": 5000,
+    "random_B": 5000,
+    "random_C": 5000,
+    "random_D": 5000,
+    "bootstrap_origin": 5000,
+    "bootstrap_year": 5000,
+    "bootstrap_quarter": 5000
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "executive_summary": "All frozen diagnostic chunks and ordered tests completed; final remote RESULT and private recovery verified in external completion receipt.",
+  "PRE_RESULT_PRICE_STATE03_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "PRE_remote_verified_before_new_diagnostics": true,
+  "technical_serialization_repair_SHA": "1ef7b0fe20349f1be1e5bf6c22a7548e4552cb3f",
+  "tests": {
+    "research": {
+      "summary": "30 passed in 0.62s",
+      "log_SHA256": "c4dcce83f94eee457fa10e668af02cc4dd19d9b5d02d359f7876419afa53af37"
+    },
+    "affected": {
+      "summary": "64 passed, 1 deselected, 7 warnings in 3.70s",
+      "log_SHA256": "0f3599514feb2c1b448b4e2f09b64cf119b7e3926c3b59d9574318571fdafe7b"
+    },
+    "full_repository": {
+      "summary": "812 passed, 17 skipped, 1 deselected, 10 warnings in 37.74s",
+      "log_SHA256": "43bffaed51297010e3e6f3730035b75ee59ae92ee2bf520c8da6fadb0727b2f7"
+    },
+    "common": {
+      "summary": "============================= 250 passed in 1.01s ==============================",
+      "log_SHA256": "05ec41af5fe06f88c871fa5c9941755c94b2f1dbaf60bc7dde87ae2e120b35ec"
+    }
+  },
+  "test_order": [
+    "research",
+    "affected",
+    "full_repository",
+    "common"
+  ],
+  "excluded_tests": [
+    {
+      "node": "tests/test_new_information_search02.py::test_parent_main_branch",
+      "reason": "Immutable historical test asserts its original branch name. New branch has exact parent/main/hash protection tests; no historical test modified."
+    }
+  ],
+  "full_existing_skips": 17,
+  "counts": {
+    "permutation": 2000,
+    "random_A": 5000,
+    "random_B": 5000,
+    "random_C": 5000,
+    "random_D": 5000,
+    "bootstrap_origin": 5000,
+    "bootstrap_year": 5000,
+    "bootstrap_quarter": 5000
+  },
+  "original_prediction_hash_preserved": true,
+  "all_parent_tracked_files_unchanged": true,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "max_chunk_seconds_under_900": true,
+  "known_execution_failures": [
+    {
+      "stage": "launch",
+      "reason": "backtesting import requires repository cwd; corrected before research code execution"
+    },
+    {
+      "stage": "parent file protection",
+      "reason": "Quoted Unicode git paths; corrected to NUL-delimited git listing before diagnostics"
+    }
+  ],
+  "scientific_stage_failures": 0,
+  "PRICE_FULL_refits": 0,
+  "candidate_search": false,
+  "broader_transfer_executed": false,
+  "independent_OOS": false,
+  "final_RESULT_binding": "External completion receipt verifies Git branch/tree/critical files/main/clean and recovery hash; no self-referential commit SHA."
+}

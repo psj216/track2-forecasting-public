@@ -1,12 +1,33 @@
 {
   "executive_summary": "Restartable frozen-price audit. No candidate tuning or submission.",
   "branch": "track2/price-state-information-audit-03",
-  "current_stage": "PRE_IMPLEMENTATION_READY",
+  "current_stage": "RESULT_READY",
   "completed_stages": [
     "PARENT_REPRODUCTION",
     "SPECIFICATION_READY",
-    "PRE_IMPLEMENTATION_READY"
+    "PRE_IMPLEMENTATION_READY",
+    "CONTROL_MODELS",
+    "FEATURE_PERMUTATION_CHUNK",
+    "RANDOM_A_CHUNK",
+    "RANDOM_B_CHUNK",
+    "RANDOM_C_CHUNK",
+    "RANDOM_D_CHUNK",
+    "BOOTSTRAP_origin_CHUNK",
+    "BOOTSTRAP_year_CHUNK",
+    "BOOTSTRAP_quarter_CHUNK",
+    "REPORT_COMPLETE",
+    "RESULT_READY"
   ],
-  "last_successful_artifact": "pre_result_manifest.json",
-  "last_update": "2026-10-07T13:24:34.333110+00:00"
+  "last_successful_artifact": "execution_audit.json",
+  "last_update": "2026-10-07T13:35:00.367701+00:00",
+  "permutation_completed_to": 2000,
+  "random_completed_to": 5000,
+  "bootstrap_completed_to": 5000,
+  "research_complete": true,
+  "required_final_checks": [
+    "remote RESULT verification",
+    "clean tree",
+    "private recovery CRC/hash/durable save"
+  ],
+  "completion_receipt": "PRICE-STATE03-completion-receipt.json"
 }

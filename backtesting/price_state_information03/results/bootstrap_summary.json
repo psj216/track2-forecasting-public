@@ -1,0 +1,127 @@
+{
+  "executive_summary": "5000 paired block draws each; random median recomputed from5000 prevalence-matched vectors in every resample. Only5 years constrain year inference.",
+  "seed": 31803,
+  "methods": {
+    "origin": {
+      "PRICE_FULL_ratio": [
+        0.9881855516684542,
+        0.9997688439564011
+      ],
+      "PRICE_FULL_minus_V51": [
+        -0.011814448331545721,
+        -0.00023115604359896203
+      ],
+      "PRICE_FULL_minus_intercept": [
+        -0.003287168455432884,
+        0.011221413183877647
+      ],
+      "PRICE_FULL_minus_structure": [
+        -0.005244434299258999,
+        0.009280703823750338
+      ],
+      "PRICE_FULL_minus_random_median": [
+        -0.011335996302733173,
+        4.230881409674978e-05
+      ],
+      "PRICE_FULL_minus_majority": [
+        -0.003287168455432884,
+        0.011221413183877647
+      ],
+      "balanced_accuracy": [
+        0.4945947097320918,
+        0.6798299264791167
+      ],
+      "Spearman": [
+        -0.042342196352371596,
+        0.3315480453832644
+      ],
+      "oracle_capture": [
+        0.0002908997980532162,
+        0.014502106242965572
+      ]
+    },
+    "year": {
+      "PRICE_FULL_ratio": [
+        0.9888056342103676,
+        1.0056434314254488
+      ],
+      "PRICE_FULL_minus_V51": [
+        -0.011194365789632399,
+        0.005643431425448764
+      ],
+      "PRICE_FULL_minus_intercept": [
+        -0.002952174995467738,
+        0.007246075594425694
+      ],
+      "PRICE_FULL_minus_structure": [
+        -0.003868629558441472,
+        0.007246075594425694
+      ],
+      "PRICE_FULL_minus_random_median": [
+        -0.010104451242060164,
+        0.003908036536199422
+      ],
+      "PRICE_FULL_minus_majority": [
+        -0.002952174995467738,
+        0.007246075594425694
+      ],
+      "balanced_accuracy": [
+        0.463768115942029,
+        0.6806074542493054
+      ],
+      "Spearman": [
+        -0.04485654965849245,
+        0.33868801186759434
+      ],
+      "oracle_capture": [
+        -0.008452676234196339,
+        0.013069581564359323
+      ]
+    },
+    "quarter": {
+      "PRICE_FULL_ratio": [
+        0.9867953684694473,
+        1.0037093896097313
+      ],
+      "PRICE_FULL_minus_V51": [
+        -0.01320463153055274,
+        0.003709389609731325
+      ],
+      "PRICE_FULL_minus_intercept": [
+        -0.005778595677317847,
+        0.015355042252782638
+      ],
+      "PRICE_FULL_minus_structure": [
+        -0.007871599837290444,
+        0.013520357720839581
+      ],
+      "PRICE_FULL_minus_random_median": [
+        -0.012713139486258213,
+        0.0037264574529958364
+      ],
+      "PRICE_FULL_minus_majority": [
+        -0.005778595677317847,
+        0.015355042252782638
+      ],
+      "balanced_accuracy": [
+        0.4518644730294522,
+        0.7044283967541219
+      ],
+      "Spearman": [
+        -0.10377355002766465,
+        0.36844588997921773
+      ],
+      "oracle_capture": [
+        -0.004905728807684267,
+        0.016127205798631326
+      ]
+    }
+  },
+  "blocks": {
+    "origin": 52,
+    "year": 5,
+    "quarter": 18
+  },
+  "negative_difference_favors_PRICE_FULL": true,
+  "no_IID_cells": true
+}

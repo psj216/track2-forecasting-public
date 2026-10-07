@@ -1,0 +1,5 @@
+{
+  "executive_summary": "Unclipped mathematical capture; no predictability inference.",
+  "PRICE_ORACLE_CAPTURE": 0.008387462807275906,
+  "formula": "(1-R_PRICE)/(1-R_PERFECT_LOCATION)"
+}

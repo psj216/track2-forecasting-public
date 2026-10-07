@@ -1,0 +1,47 @@
+{
+  "executive_summary": "The inherited single matched-random draw matches SEP signs, not PRICE_FULL prevalence. The new5000-run controls correctly match PRICE_FULL.",
+  "parent_generator": "rng(seed31802 stream3 rep0).permutation(direction(prob_SEP))",
+  "counts": {
+    "PRICE_LOGISTIC": {
+      "positive": 264,
+      "negative": 218,
+      "ties": 0,
+      "positive_fraction": 0.5477178423236515,
+      "positive_by_year": {
+        "2020": 1.0,
+        "2021": 0.7833333333333333,
+        "2022": 0.7777777777777778,
+        "2023": 0.0,
+        "2024": 0.0
+      }
+    },
+    "SEP_DIRECTION_FIXED005": {
+      "positive": 365,
+      "negative": 117,
+      "ties": 0,
+      "positive_fraction": 0.7572614107883817,
+      "positive_by_year": {
+        "2020": 1.0,
+        "2021": 0.225,
+        "2022": 1.0,
+        "2023": 0.7333333333333333,
+        "2024": 1.0
+      }
+    },
+    "MATCHED_RANDOM": {
+      "positive": 365,
+      "negative": 117,
+      "ties": 0,
+      "positive_fraction": 0.7572614107883817,
+      "positive_by_year": {
+        "2020": 0.77,
+        "2021": 0.7583333333333333,
+        "2022": 0.8111111111111111,
+        "2023": 0.7555555555555555,
+        "2024": 0.6829268292682927
+      }
+    }
+  },
+  "new_generator": "Permute immutable PRICE_FULL signs, seed31803, overall/asset/horizon/fold separately",
+  "no_new_model": true
+}

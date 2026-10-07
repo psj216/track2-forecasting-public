@@ -1,0 +1,27 @@
+{
+  "executive_summary": "Audit complete; no model redesign, official submission, independent OOS or next study.",
+  "PRICE_STATE03_RESULT": "INCONCLUSIVE",
+  "NEXT": "V5.1-CENTER-BIAS-AUDIT-04",
+  "PRE_RESULT_PRICE_STATE03_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "parent_RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "primary_ratio": 0.9931832249597576,
+  "PRICE_DATA_PIT": "C",
+  "BROAD_TRANSFER_READY": false,
+  "independent_validation": "NOT_AVAILABLE",
+  "submission_readiness": false,
+  "V51_reference": 0.9541,
+  "gates": {
+    "ratio_le_0990": false,
+    "increment_intercept_ge_0003": false,
+    "increment_structure_ge_0003": false,
+    "beats_majority": false,
+    "beats_random_median": true,
+    "balanced_ge_055": true,
+    "Spearman_ge_010": true,
+    "four_years_nonworse": false,
+    "permutation_support": false,
+    "origin_year_support": false,
+    "no_year_over_half_gross_gain": false,
+    "usable_PIT": false
+  }
+}

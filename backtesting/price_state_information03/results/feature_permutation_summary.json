@@ -1,0 +1,26 @@
+{
+  "executive_summary": "2000 train-origin vector permutations, all donors matured and known at fold cutoff; heldout features unchanged. No PRICE_FULL refit.",
+  "replicates": 2000,
+  "seed": 31803,
+  "CRPS_ratio": {
+    "mean": 0.9989155536897085,
+    "q05": 0.9920361165680158,
+    "q50": 0.998695207435176,
+    "q95": 1.006450431296341
+  },
+  "balanced_accuracy": {
+    "mean": 0.46681463606262974,
+    "q05": 0.3858128963465963,
+    "q50": 0.466968778644518,
+    "q95": 0.5509292515479732
+  },
+  "Spearman": {
+    "mean": -0.08503553708598732,
+    "q05": -0.25861428164356803,
+    "q50": -0.08633686916854597,
+    "q95": 0.10172519215032406
+  },
+  "Monte_Carlo_p_ratio": 0.09645177411294353,
+  "Monte_Carlo_p_balanced_accuracy": 0.008995502248875561,
+  "Monte_Carlo_p_Spearman": 0.013493253373313344
+}

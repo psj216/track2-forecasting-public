@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Exact inherited PRICE_LOGISTIC, never refitted. All new models are controls.",
+  "PRICE_FULL": {
+    "CRPS_ratio": 0.9931832249597576,
+    "sign_accuracy": 0.5954356846473029,
+    "balanced_accuracy": 0.5890622369380998,
+    "Brier": 0.3220344641662435,
+    "Pearson": 0.14893538607738827,
+    "Spearman": 0.15366563914840936,
+    "fraction_improved_cells": 0.5809128630705395,
+    "mean_CRPS_delta": -0.007530569183175092,
+    "cells": 482,
+    "origins": 52,
+    "prediction_ties": 0
+  },
+  "incremental_gain": {
+    "vs_intercept": -0.0033545990021883743,
+    "vs_structure": -0.0013746220040921076,
+    "vs_inherited_random": 0.0004252778316505834,
+    "vs_random_median": 0.006334301022453803
+  },
+  "gross_gain_concentration": {
+    "year": 0.6295841712672955,
+    "origin": 0.07995543166534141,
+    "horizon": 0.3244820593060368
+  },
+  "original_prediction_SHA256": "a4690d8f3ef4c4935d34747d9a679171abf1335ecb9f30184f6cfc5fc1bbca51",
+  "no_new_candidate": true
+}

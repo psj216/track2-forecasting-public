@@ -1,0 +1,13 @@
+{
+  "executive_summary": "All2315 parent tracked files and134 original cache files unchanged; safe V51 reference preserved. No fresh official score or binary image claim.",
+  "protected_parent_files": 2315,
+  "unchanged": true,
+  "original_V51_caches": 134,
+  "ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "Dockerfile_SHA256": "1ac5090744baf15a88c71817b5c2fc3572b6c273e648c668ba48d1efae8b7b94",
+  "verified_official_reference": 0.9541,
+  "submission": false,
+  "Docker_package_overwritten": false,
+  "binary_package_available": false,
+  "binary_reverification": "NOT_PERFORMED: not present; inherited source/draw preservation evidence remains intact."
+}

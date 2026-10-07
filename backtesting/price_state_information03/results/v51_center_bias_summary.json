@@ -1,0 +1,123 @@
+{
+  "executive_summary": "Descriptive training-only center bias inspected on unchanged heldout targets; no baseline recalibration.",
+  "folds": [
+    {
+      "year": 2020,
+      "train": {
+        "cells": 380,
+        "positive_fraction": 0.6368421052631579,
+        "negative_fraction": 0.3631578947368421,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.07301343114100771,
+        "median_raw_center_error": 0.057318043045215816,
+        "mean_standardized_error": 0.24965143592980416
+      },
+      "test": {
+        "cells": 100,
+        "positive_fraction": 0.49,
+        "negative_fraction": 0.51,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": -0.11686545977492506,
+        "median_raw_center_error": -0.006335013701042724,
+        "mean_standardized_error": -0.3732081579592668
+      },
+      "same_material_majority": false,
+      "same_mean_error_sign": false
+    },
+    {
+      "year": 2021,
+      "train": {
+        "cells": 482,
+        "positive_fraction": 0.5643153526970954,
+        "negative_fraction": 0.43568464730290457,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": -0.03374760042439664,
+        "median_raw_center_error": 0.027121276909708447,
+        "mean_standardized_error": -0.005713448689905801
+      },
+      "test": {
+        "cells": 120,
+        "positive_fraction": 0.7916666666666666,
+        "negative_fraction": 0.20833333333333334,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.49388963784057194,
+        "median_raw_center_error": 0.16880611707449267,
+        "mean_standardized_error": 1.7022459202961833
+      },
+      "same_material_majority": true,
+      "same_mean_error_sign": false
+    },
+    {
+      "year": 2022,
+      "train": {
+        "cells": 598,
+        "positive_fraction": 0.596989966555184,
+        "negative_fraction": 0.40301003344481606,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.0033961788546664983,
+        "median_raw_center_error": 0.03555840968786377,
+        "mean_standardized_error": 0.11594770789949724
+      },
+      "test": {
+        "cells": 90,
+        "positive_fraction": 0.8888888888888888,
+        "negative_fraction": 0.1111111111111111,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.7508282132901243,
+        "median_raw_center_error": 0.6203149752707637,
+        "mean_standardized_error": 1.9534436405779227
+      },
+      "same_material_majority": true,
+      "same_mean_error_sign": true
+    },
+    {
+      "year": 2023,
+      "train": {
+        "cells": 706,
+        "positive_fraction": 0.6458923512747875,
+        "negative_fraction": 0.35410764872521244,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.15066998009889623,
+        "median_raw_center_error": 0.06739256882776573,
+        "mean_standardized_error": 0.533516727207552
+      },
+      "test": {
+        "cells": 90,
+        "positive_fraction": 0.5222222222222223,
+        "negative_fraction": 0.4777777777777778,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.006508670228169954,
+        "median_raw_center_error": 0.03558307463962551,
+        "mean_standardized_error": -0.20537780470043865
+      },
+      "same_material_majority": false,
+      "same_mean_error_sign": true
+    },
+    {
+      "year": 2024,
+      "train": {
+        "cells": 788,
+        "positive_fraction": 0.6434010152284264,
+        "negative_fraction": 0.3565989847715736,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": 0.15371024838385572,
+        "median_raw_center_error": 0.0735026199318066,
+        "mean_standardized_error": 0.47859454076081703
+      },
+      "test": {
+        "cells": 82,
+        "positive_fraction": 0.4634146341463415,
+        "negative_fraction": 0.5365853658536586,
+        "zero_fraction": 0.0,
+        "mean_raw_center_error": -0.07961522315300225,
+        "median_raw_center_error": -0.030737215326192224,
+        "mean_standardized_error": -0.045953534425741856
+      },
+      "same_material_majority": false,
+      "same_mean_error_sign": false
+    }
+  ],
+  "test_positive_fraction": 0.6410788381742739,
+  "persistent_center_bias": false,
+  "criterion": "At least3/5 folds train/test same majority, both at least5pp from50%, same nonzero mean raw-error sign; training-majority CRPS<1."
+}

@@ -1,0 +1,38 @@
+{
+  "executive_summary": "Exposed forensic attribution only; quantitative null/bias conditions frozen before diagnostics.",
+  "central_conclusion": "INCONCLUSIVE",
+  "gates": {
+    "ratio_le_0990": false,
+    "increment_intercept_ge_0003": false,
+    "increment_structure_ge_0003": false,
+    "beats_majority": false,
+    "beats_random_median": true,
+    "balanced_ge_055": true,
+    "Spearman_ge_010": true,
+    "four_years_nonworse": false,
+    "permutation_support": false,
+    "origin_year_support": false,
+    "no_year_over_half_gross_gain": false,
+    "usable_PIT": false
+  },
+  "evidence": {
+    "similar_null": true,
+    "random_frequently_beats": false,
+    "negligible_increment": true,
+    "materially_price_specific": false
+  },
+  "incremental_gain": {
+    "vs_intercept": -0.0033545990021883743,
+    "vs_structure": -0.0013746220040921076,
+    "vs_inherited_random": 0.0004252778316505834,
+    "vs_random_median": 0.006334301022453803
+  },
+  "persistent_center_bias": false,
+  "concentration": {
+    "year": 0.6295841712672955,
+    "origin": 0.07995543166534141,
+    "horizon": 0.3244820593060368
+  },
+  "TIMING_SPECIFIC_PRICE_INFORMATION": "NOT_ESTABLISHED",
+  "PRICE_SPECIFIC_INFORMATION": "NOT_ESTABLISHED"
+}
