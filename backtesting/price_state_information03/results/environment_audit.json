@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Python3.13 recovery from verified parent archive, exact common scorer and clean protected parent/main.",
+  "branch": "track2/price-state-information-audit-03",
+  "parent_RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "parent_PRE_SHA": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "runtime": "3.13.15",
+  "common_SHA": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "recovery_SHA256": "ec307b131832a45c22583e9b307825070b74569ad595ea878777d9143f5ab998",
+  "archive_CRC_verified": true,
+  "member_hashes_verified": 2825,
+  "new_diagnostics_before_PRE": false
+}

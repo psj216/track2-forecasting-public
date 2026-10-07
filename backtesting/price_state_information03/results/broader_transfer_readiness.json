@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Canonical ledger exists but original historical price vintages are not safely reconstructable from preserved inputs.",
+  "BROAD_TRANSFER_READY": false,
+  "price_PIT": "C",
+  "canonical_ledger_available": true,
+  "canonical_origins": 1250,
+  "canonical_cells": 135994,
+  "reason": "Only current-vintage H15 probe; revisions unbounded. Original V51 draw cache coverage limited to inherited monthly caches; no favorable replacement grid invented."
+}

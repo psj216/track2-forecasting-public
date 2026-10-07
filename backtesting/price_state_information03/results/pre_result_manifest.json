@@ -1,0 +1,44 @@
+{
+  "executive_summary": "Implementation, fixed controls, PIT/broader specifications frozen before any new diagnostic outcome. Remote PRE will be bound in private receipt.",
+  "parent_RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "parent_PRE_SHA": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "implementation_hashes": {
+    "backtesting/price_state_information03/RUNBOOK.md": "719281057f2b1a65003bf95bccd2f0f7457bc1babb7e798661c0be57d205cc01",
+    "backtesting/price_state_information03/__init__.py": "ae1969022351c43b0515da7e262da4cacd030faa9c64980427fe644e927dc130",
+    "backtesting/price_state_information03/aggregate.py": "88aa2bc142d877ee1ee20b8861d6ff7c2ae7a054b6cd46e2dae223246b295e36",
+    "backtesting/price_state_information03/core.py": "5b4ea587d4bc0a6c670790f335f45fb22187f9afdd20ebd32d396e30f6726dce",
+    "backtesting/price_state_information03/results/broader_ledger_spec.json": "6907bfecda45b18474c258cf11cd4c101ebf16e3a5c1988fb956c5e9eab572c7",
+    "backtesting/price_state_information03/results/broader_transfer_readiness.json": "09195dbeb4f2a4da39e90dca9cf488536edcc4955303173c081c726c8902951d",
+    "backtesting/price_state_information03/results/experiment_spec.json": "c24ac93347cec6e7c6627f7dbd98bdc0cba6b0413faffbdcc709cee408ab6f14",
+    "backtesting/price_state_information03/results/parent_price_reproduction.json": "b3ea4adf3baf11a50a2090422cf26bb3595f06f08b6052e2dc1d0f48e18d1643",
+    "backtesting/price_state_information03/results/price_feature_manifest.csv": "78e01c7f7dbfa827c41c6b45a73b4bd661e748c099c7096abaa86e8af6108bac",
+    "backtesting/price_state_information03/results/price_pit_audit.json": "1fd5215fbfe28a9a8ac2e3e94a69eebc7adef76ec3fa0ba0c83c7c33fc9f6dda",
+    "backtesting/price_state_information03/run.py": "0fdd9142b39629bfbc67fbbd768047bbdf4fa5d843402b065d542076f6537802",
+    "tests/test_price_state_information03.py": "5883e37b62d079f4e9e47e3ac6ca951d44a158ce4166b0482715b9ec0219c9c6"
+  },
+  "parent_input_hashes": {
+    "evaluation_ledger.parquet": "dfe6344e9eb2c062e54315c9c2c5ccccddb10aa572f9b816bfeea3fa5531f7c9",
+    "evaluation_draws.npz": "8344f1f65be2c9a496afa61f3022fa3c6ac4cde6654498a9115024d88b99505d",
+    "scored_rows.parquet": "2aafe37c1d1d582e433d073e354a07e42cf07d12a1f31cbad58475dd5b19b948",
+    "scores.npz": "3587e593e5ad518058c0a3ddc1eb27747bc0969b0af7ef94cd828361271b6d65",
+    "design_calendar.parquet": "c88e094d491524f417df0b3dbbecef562fdfdcb49a87b94dbeb440fd5dc0189d",
+    "folds/2020.json": "18791f7601b73030332cf6f878c729c976849e922580e5a2ef8e31faa181a493",
+    "folds/2020.npz": "f2e9c93479d3d16ae3de08adbe63356672dd73264f65901583582400c888ce07",
+    "folds/2021.json": "5de98f90b5b35d6ed0589922809708934627bac25ad16e259394f21cf844f796",
+    "folds/2021.npz": "cc695f06c16f7505e90593dd17145fa0abfccfd058df4c4cdba92046e35f3395",
+    "folds/2022.json": "ec496b8ecd29ee3282d6de235c93b1a64e5f4eecb6bfb75001d6e0d72c137050",
+    "folds/2022.npz": "0af4153fb1573635cd82109f2daecf4ffd72e768b7bd627b9e442041f6af6bb6",
+    "folds/2023.json": "67923be39735150d439d7978d499fac29dcc803178f45dc8347e4a9f829c93eb",
+    "folds/2023.npz": "48a544aac59a5575c6b9fc112755988b4fc974ed1a724f59ad724823990dd53a",
+    "folds/2024.json": "3c64152ce9ba0b7774d1cde1d75d084e21fa8ace14a965310681f7081b42ea84",
+    "folds/2024.npz": "7e2c2b8e8e535402e1a661bd0eff9eccea6b691e464136f1871365695bb3740a"
+  },
+  "research_tests_before_PRE": {
+    "passed": 26,
+    "skipped": 3,
+    "reason": "New diagnostic artifacts intentionally unavailable before remote PRE"
+  },
+  "future_diagnostic_outcomes_loaded": false,
+  "parent_reproduction_authorized_before_PRE": true,
+  "PRE_binding": "External verified pre_receipt.json; final_decision later records PRE SHA"
+}

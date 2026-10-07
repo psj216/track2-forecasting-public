@@ -1,0 +1,56 @@
+{
+  "executive_summary": "Canonical all-origin transfer specification frozen before any broader labels; blocked by insufficient price PIT.",
+  "outcomes_accessed": false,
+  "canonical_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "origin_rule": "All pre-existing canonical UST_2Y/UST_5Y origins; original2001-01-02 anchor and5BD stride, never resampled by outcomes",
+  "period": "Development2016-2019, forward evaluation2020-2024; same original target maturity <=2024-12-18",
+  "assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "folds": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "purge": "Strict actual and weekday-planned maturity before first test cutoff, inherited target semantics",
+  "features": [
+    "DGS2_level",
+    "DGS2_5BD",
+    "DGS2_21BD",
+    "DGS2_63BD",
+    "DGS5_level",
+    "DGS5_5BD",
+    "DGS5_21BD",
+    "DGS5_63BD",
+    "DGS10_level",
+    "DGS10_5BD",
+    "DGS10_21BD",
+    "DGS10_63BD",
+    "2s5s",
+    "2s10s",
+    "asset_5Y",
+    "log_horizon"
+  ],
+  "model": "Same pooled L2 logistic C1, threshold.5, no weighting, train standardization",
+  "shift_SD": 0.05,
+  "scoring": "Imported common v2.4.3 CRPS normalized by original past scale, ratio of sums",
+  "controls": [
+    "majority",
+    "intercept",
+    "structure",
+    "fixedlags",
+    "training_feature_permutation",
+    "matchedrandom"
+  ],
+  "no_training_or_scoring_if_PIT_insufficient": true
+}

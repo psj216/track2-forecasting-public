@@ -1,0 +1,151 @@
+{
+  "executive_summary": "Binding forensic audit, fixed controls and interpretation before new diagnostic outcomes. Parent results already exposed.",
+  "parent_RESULT": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "parent_PRE": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "branch": "track2/price-state-information-audit-03",
+  "features": [
+    "DGS2_level",
+    "DGS2_5BD",
+    "DGS2_21BD",
+    "DGS2_63BD",
+    "DGS5_level",
+    "DGS5_5BD",
+    "DGS5_21BD",
+    "DGS5_63BD",
+    "DGS10_level",
+    "DGS10_5BD",
+    "DGS10_21BD",
+    "DGS10_63BD",
+    "2s5s",
+    "2s10s"
+  ],
+  "feature_groups": {
+    "P_LEVEL": [
+      0,
+      4,
+      8
+    ],
+    "P_CHANGE": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      9,
+      10,
+      11
+    ],
+    "P_CURVE": [
+      12,
+      13
+    ]
+  },
+  "PRICE_FULL": "Exact parent saved probabilities and saved models; NEVER refit",
+  "primary_ledger": "Exact original parent scored_rows.parquet, all valid rows unchanged",
+  "assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "years": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "target": "sign(truth-original V51 median), zeros excluded from fitting only, zero predictions no sign credit",
+  "folds": "Exactly inherited folds(), actual+weekday planned maturity before firsttest previousweekday cutoff; test release exclusion preserved",
+  "model": {
+    "C": 1.0,
+    "intercept": true,
+    "class_weight": null,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 1e-08,
+    "train_only_scaler": true,
+    "threshold": 0.5,
+    "seed": 31803
+  },
+  "amplitude_SD": 0.05,
+  "nulls": {
+    "majority": "Train y majority, tie zero",
+    "intercept": "Unpenalized intercept-only logistic MLE probability equals train positive frequency; no dummy features, C irrelevant",
+    "structure": [
+      "asset_5Y",
+      "log_horizon"
+    ],
+    "asset_prior": "Train perasset majority, missing group pooled train majority",
+    "horizon_prior": "Train perhorizon majority, missing group pooled train majority",
+    "constants": [
+      "+0.05SD",
+      "-0.05SD"
+    ]
+  },
+  "lags_BD": [
+    5,
+    21,
+    63
+  ],
+  "lag_rule": "Shift original price_observation_date back fixed5/21/63 weekdays, choose last price index<=date; same14-vector transformation; all controls same folds/rows, no future lookup",
+  "permutation": {
+    "replicates": 2000,
+    "seed": 31803,
+    "unit": "Full14-vector at unique TRAIN origin, broadcast to all asset/horizon rows. Preserve asset/logH and targets. All donors already observed and matured by fold cutoff; heldout input unchanged",
+    "clarification": "Fold-conditional historical-origin permutation, not pretend as-of feature states at donor recipient historical timestamps. No heldout/future donor."
+  },
+  "random": {
+    "replicates_each": 5000,
+    "match": [
+      "overall",
+      "asset",
+      "horizon",
+      "fold"
+    ],
+    "method": "Permute original PRICE_FULL signs within specified groups, preserve exact +/-/tie counts. No targets accepted by generator."
+  },
+  "bootstrap": {
+    "replicates_each": 5000,
+    "blocks": [
+      "origin",
+      "year",
+      "quarter"
+    ],
+    "paired": true,
+    "random_median": "Recompute median of5000 overall-matched random vector scores in every block resample",
+    "metrics": [
+      "ratio",
+      "delta baseline",
+      "delta intercept",
+      "delta structure",
+      "delta random median",
+      "delta majority",
+      "balanced accuracy",
+      "weighted Spearman",
+      "oraclecapture"
+    ]
+  },
+  "aggregation": "Normalized scorer ratio of weighted sums. Origin/year equal total weight; weighted Spearman via weighted midranks; parent unweighted Spearman preserved. No IID bootstrap.",
+  "concentration": "Largest positive group-sum gain / sum of positive group-sum gains, year/origin/horizon; no removals",
+  "acceptance": {
+    "PRICE_SIGNAL_REAL_BUT_SMALL": "All user gates: ratio<=.990, increments intercept&structure>=.003, beatsmajority&randommedian, balanced>=.55, Spearman>=.10, at least4/5years<=1, permutationp<=.05, origin/year95%ratioCIupper<1, largestyeargrossgain<=.5, PIT A/B",
+    "persistent_bias": "At least3/5 folds train and test same majority direction with both frequencies>=5pp from50%, same nonzero raw mean-error sign; trainmajority ratio<1",
+    "similar_null": "Any fixedconstant/majority/intercept abs ratio difference<=.003 or null lower ratio",
+    "random_frequent": "Overall matched random fraction<=PRICE_FULL >=.10",
+    "negligible_increment": "Either intercept orstructure increment<.003",
+    "material_real_PIT_limited": "ratio<1; bothincrements>=.003; balanced>=.55;Spearman>=.10; at least3years<1; permutationp<=.05; PIT C/D",
+    "priority": "User A, then B ifpersistentbias and similar/frequent/negligible, then C materialreal&PITlimited, then D ifno persistentbias/no permutation support/frequentrandom and weakoriginbalanced or <3good years, else E INCONCLUSIVE. Exactly one next axis from fixed decision implementation."
+  },
+  "broader_transfer": "Blocked before outcome access because PIT C. Canonical specification frozen; no transfer fit",
+  "public_private_firewall": "Only aggregate losses/metrics and outcome-free predictions public; truth/draws/cellloss/private targets never Git",
+  "independent_OOS": false,
+  "new_candidate": false,
+  "technical_clarifications_before_outcomes": true
+}

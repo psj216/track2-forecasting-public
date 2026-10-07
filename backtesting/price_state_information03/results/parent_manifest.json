@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Exact parent branch and PRE lineage. All inherited files remain unchanged.",
+  "parent_branch": "track2/persistent-direction-state-02",
+  "parent_RESULT": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "parent_PRE": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "protected_parent_files": 2315,
+  "baseline_draw_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "parent_frozen_predictions_SHA256": "a4e166c7b67eb9ad336c144b5437bbcf422144445244b049d87631af36c1cd89",
+  "source_specification": "User uploaded PRICE-STATE-INFORMATION-AUDIT-03 frozen specification",
+  "request_SHA256": "6b7c496db1c1b9aa815cfb15a0370e741ce59f78b88a492a08eb1fc8d45f5e93"
+}

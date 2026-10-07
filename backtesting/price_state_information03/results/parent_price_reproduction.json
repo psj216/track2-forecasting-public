@@ -1,0 +1,133 @@
+{
+  "executive_summary": "Imported common scorer exactly reproduces every saved prior loss array; saved PRICE_FULL probabilities never refitted.",
+  "models": [
+    {
+      "model": "V5.1",
+      "stored_ratio": 1.0,
+      "reproduced_ratio": 1.0,
+      "difference": 0.0,
+      "prediction_SHA256": "2b59dda5f00ee18cb9f3c7605739dafb8998da2cc8c22869197878f6b9f2368b",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "SEP_DIRECTION_FIXED005",
+      "stored_ratio": 1.0033428831669795,
+      "reproduced_ratio": 1.0033428831669795,
+      "difference": 0.0,
+      "prediction_SHA256": "08f9c75cb6dd3004cada963a286928fdf1142ea680bc5640fa6671f948ebacc0",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "5BD_DELAYED",
+      "stored_ratio": 1.0033428831669795,
+      "reproduced_ratio": 1.0033428831669795,
+      "difference": 0.0,
+      "prediction_SHA256": "08f9c75cb6dd3004cada963a286928fdf1142ea680bc5640fa6671f948ebacc0",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "21BD_STALE",
+      "stored_ratio": 1.0023671790276187,
+      "reproduced_ratio": 1.0023671790276187,
+      "difference": 0.0,
+      "prediction_SHA256": "15457fcd14c2de4788068e5294672f0a863c84d61411fcd9e3e5e2bd320b5e0f",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "PERSISTENCE",
+      "stored_ratio": 0.9928173067281453,
+      "reproduced_ratio": 0.9928173067281453,
+      "difference": 0.0,
+      "prediction_SHA256": "a2e2f433ddcaef239f44fe4fbb264d417c65452ec50723f22136989aa2316065",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "PRICE_21BD",
+      "stored_ratio": 0.9965198848697143,
+      "reproduced_ratio": 0.9965198848697143,
+      "difference": 0.0,
+      "prediction_SHA256": "2ec2a118798b8c61858f68740aebc3f489d71557ae74bafbf13e8d729471af5e",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "PRICE_LOGISTIC",
+      "stored_ratio": 0.9931832249597576,
+      "reproduced_ratio": 0.9931832249597576,
+      "difference": 0.0,
+      "prediction_SHA256": "a4690d8f3ef4c4935d34747d9a679171abf1335ecb9f30184f6cfc5fc1bbca51",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "MATCHED_RANDOM",
+      "stored_ratio": 0.9936085027914082,
+      "reproduced_ratio": 0.9936085027914082,
+      "difference": 0.0,
+      "prediction_SHA256": "8651f2e4310fa24989f2db6fd8dff8872ca5f3bbab55d29cb468750fa14da850",
+      "cells": 482,
+      "origins": 52
+    },
+    {
+      "model": "PERFECT_LOCATION",
+      "stored_ratio": 0.18726613793995156,
+      "reproduced_ratio": 0.18726613793995156,
+      "difference": 0.0,
+      "prediction_SHA256": "0571d4b7c0276bc2eb64cfcaaffcc3d07f231ed676679c66963ecdfe0466cfc0",
+      "cells": 482,
+      "origins": 52
+    }
+  ],
+  "fold_parameter_reconstruction": [
+    {
+      "year": 2020,
+      "max_probability_difference": 0.0,
+      "refit": 0
+    },
+    {
+      "year": 2021,
+      "max_probability_difference": 0.0,
+      "refit": 0
+    },
+    {
+      "year": 2022,
+      "max_probability_difference": 0.0,
+      "refit": 0
+    },
+    {
+      "year": 2023,
+      "max_probability_difference": 0.0,
+      "refit": 0
+    },
+    {
+      "year": 2024,
+      "max_probability_difference": 0.0,
+      "refit": 0
+    }
+  ],
+  "tolerance": 1e-14,
+  "loss_arrays_bitwise_equal": 1,
+  "PRICE_FULL_refitted": 0,
+  "parent_input_hashes": {
+    "evaluation_ledger.parquet": "dfe6344e9eb2c062e54315c9c2c5ccccddb10aa572f9b816bfeea3fa5531f7c9",
+    "evaluation_draws.npz": "8344f1f65be2c9a496afa61f3022fa3c6ac4cde6654498a9115024d88b99505d",
+    "scored_rows.parquet": "2aafe37c1d1d582e433d073e354a07e42cf07d12a1f31cbad58475dd5b19b948",
+    "scores.npz": "3587e593e5ad518058c0a3ddc1eb27747bc0969b0af7ef94cd828361271b6d65",
+    "design_calendar.parquet": "c88e094d491524f417df0b3dbbecef562fdfdcb49a87b94dbeb440fd5dc0189d",
+    "folds/2020.json": "18791f7601b73030332cf6f878c729c976849e922580e5a2ef8e31faa181a493",
+    "folds/2020.npz": "f2e9c93479d3d16ae3de08adbe63356672dd73264f65901583582400c888ce07",
+    "folds/2021.json": "5de98f90b5b35d6ed0589922809708934627bac25ad16e259394f21cf844f796",
+    "folds/2021.npz": "cc695f06c16f7505e90593dd17145fa0abfccfd058df4c4cdba92046e35f3395",
+    "folds/2022.json": "ec496b8ecd29ee3282d6de235c93b1a64e5f4eecb6bfb75001d6e0d72c137050",
+    "folds/2022.npz": "0af4153fb1573635cd82109f2daecf4ffd72e768b7bd627b9e442041f6af6bb6",
+    "folds/2023.json": "67923be39735150d439d7978d499fac29dcc803178f45dc8347e4a9f829c93eb",
+    "folds/2023.npz": "48a544aac59a5575c6b9fc112755988b4fc974ed1a724f59ad724823990dd53a",
+    "folds/2024.json": "3c64152ce9ba0b7774d1cde1d75d084e21fa8ace14a965310681f7081b42ea84",
+    "folds/2024.npz": "7e2c2b8e8e535402e1a661bd0eff9eccea6b691e464136f1871365695bb3740a"
+  }
+}

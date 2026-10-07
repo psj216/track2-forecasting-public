@@ -1,0 +1,27 @@
+{
+  "executive_summary": "Publication lag safety is not historical vintage proof; preserve PIT C. No newer numerical price data acquired.",
+  "PRICE_DATA_PIT": "C",
+  "usable_for_validated_alpha": false,
+  "raw_hash_verified": true,
+  "historical_revisions_bounded": false,
+  "availability_rule": "Observation+1weekday EOD NY <= preceding-origin-weekday16NY",
+  "timezone": "America/New_York",
+  "source_transform": "Weekday grid, ffill(limit=3);5/21/63weekday shifts, no trading-holiday reinterpretation",
+  "official_metadata": [
+    {
+      "URL": "https://www.federalreserve.gov/releases/h15/",
+      "fact": "H15 official release schedule4:15pm weekdays; current history download does not establish historical vintage."
+    },
+    {
+      "URL": "https://alfred.stlouisfed.org/help",
+      "fact": "ALFRED release and vintage metadata distinguish past reported values; current bounded probe lacks a vintage chain."
+    },
+    {
+      "URL": "https://www.stlouisfed.org/publications/page-one-economics/2022/08/01/data-revisions-with-fred",
+      "fact": "FRED latest-vintage vs ALFRED vintage distinction."
+    }
+  ],
+  "licensing": "Public official rate data with source attribution, local offline research feasible; no contest eligibility or immutable vintage claim",
+  "new_external_numeric_source": false,
+  "competition_constraints": "Existing frozen data, canonical cutoff2024-12-18, no internet-dependent submission and no submission here"
+}
