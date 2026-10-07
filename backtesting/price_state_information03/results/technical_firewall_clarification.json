@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Necessary public serialization fix after PRE; no scientific change, no refit, no private outcome ever published.",
+  "PRE": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "change": "Suppress PERFECT_LOCATION_probability column from public predictions. Keep mathematical oracle as aggregate only.",
+  "model_feature_shift_fold_scoring_gate_changes": false,
+  "code_hash_before": "0fdd9142b39629bfbc67fbbd768047bbdf4fa5d843402b065d542076f6537802",
+  "code_hash_after": "2989c8b101f3df2d017c6c31d9812c1ece3ad6a05963fc90b92d36765d3981e9"
+}

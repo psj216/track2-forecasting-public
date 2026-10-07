@@ -30,7 +30,8 @@ def controls():
  np.savez_compressed(dest,names=names,probabilities=np.array(list(probs.values())),losses=loss,base=data['base'],oracle=data['oracle'])
  csv('fold_manifest.csv',folds_audit)
  public=ev[['origin','asset','horizon','year']].copy()
- for n,a in probs.items():public[n+'_probability']=a
+ for n,a in probs.items():
+  if n!='PERFECT_LOCATION':public[n+'_probability']=a
  public.to_csv(OUT/'diagnostic_predictions.csv',index=False)
  status('CONTROL_MODELS','diagnostic_predictions.csv')
 

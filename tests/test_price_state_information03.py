@@ -65,3 +65,8 @@ def test_pre_and_input_preservation():c.verify_pre()
 @pytest.mark.skipif(not (P/'audit_predictions.npz').exists(),reason='results gated by PRE')
 def test_full_ledger_no_subset():
  rows,ev,_=c.load();assert ev.origin.nunique()==52 and len(ev)==482;assert set(ev.year)==set(c.YEARS);assert set(ev.horizon)==set(c.HORIZONS);assert set(ev.asset)=={'UST_2Y','UST_5Y'}
+@pytest.mark.skipif(not (c.OUT/'diagnostic_predictions.csv').exists(),reason='post-PRE public serialization')
+def test_public_prediction_firewall():
+ columns=pd.read_csv(c.OUT/'diagnostic_predictions.csv',nrows=0).columns
+ assert 'PERFECT_LOCATION_probability' not in columns
+ assert not set(columns)&{'truth','y','raw_center_error','median','sd','loss'}
