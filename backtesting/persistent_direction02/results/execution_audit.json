@@ -1,0 +1,87 @@
+{
+  "executive_summary": "All fixed evaluation, controls and inference completed. Final remote RESULT/archive verification bound by external completion receipt to avoid self-reference.",
+  "parent_SHA": "6653df8c61042c4642be3e2ed37b52daeea16de7",
+  "PRE_RESULT_PERSISTENT_DIRECTION02_SHA": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "PRE_remote_verified": true,
+  "technical_geometry_repair_remote_SHA": "cd97b1ea0ebad052aaf1f81ba6152267014bc05e",
+  "implementation_exception": "Geometry diagnostic assertion only, documented after PRE. No changed model/scorer/shift; scores archive byte-identical.",
+  "model_folds_completed": 5,
+  "permutations_per_control": 2000,
+  "bootstrap_replicates_per_method": 5000,
+  "primary_reproduced_bitwise": true,
+  "baseline_reproduced_bitwise": true,
+  "prior_files_protected": 2261,
+  "main_original_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "source_gate": true,
+  "public_safe_all_units": true,
+  "no_public_truths_or_draws": true,
+  "no_next_experiment": true,
+  "no_submission": true,
+  "tests": {
+    "research": {
+      "exit_code": 0,
+      "passed": 34,
+      "skipped": 0,
+      "deselected": 0,
+      "log_SHA256": "b21dee9fdba98799d4675157acb1ca201e67b5f0aa462adaaa1cf5d5069c79a5"
+    },
+    "affected": {
+      "exit_code": 0,
+      "passed": 74,
+      "skipped": 0,
+      "deselected": 1,
+      "log_SHA256": "06deb7cb2c10302ebaf2912055762678ab07ccfa6ff727576c1300c3777fdc13"
+    },
+    "full": {
+      "exit_code": 0,
+      "passed": 782,
+      "skipped": 17,
+      "deselected": 1,
+      "log_SHA256": "94d48740a9089198b6fde8a21592321bcabaee3a22b4316bb8f88f46a8798f80"
+    },
+    "common": {
+      "exit_code": 0,
+      "passed": 250,
+      "skipped": 0,
+      "deselected": 0,
+      "log_SHA256": "db754842640fa05d301792fa96dd2fda32175f06c8c70dcfb759b20848c0c312"
+    }
+  },
+  "exclusions": "17 inherited private-input/Docker/live-CodaBench skips;1 old-branch-name-only test deselected, replaced by current research parent/main protection tests. No changed prior tests.",
+  "versions": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "pyarrow": "25.0.0",
+    "pytest": "9.1.1",
+    "qfbench2-common": "2.4.3",
+    "pypdf": "6.19.0"
+  },
+  "operational_failures": [
+    {
+      "stage": "source PDF original verification",
+      "failures": 1,
+      "corrected_retry": "PASS"
+    },
+    {
+      "stage": "draw geometry assertion",
+      "failures": 1,
+      "corrected_retry": "PASS, exact scores hash unchanged"
+    },
+    {
+      "stage": "pre research tests main ref",
+      "failures": 1,
+      "reason": "recovered repo has origin/main but no local main",
+      "corrected_retry": "PASS"
+    },
+    {
+      "stage": "old research branch-only test",
+      "failures": 1,
+      "reason": "expected previous branch name",
+      "resolution": "explicitly deselected; frozen test file not changed"
+    }
+  ],
+  "Git_and_recovery_binding": "PERSISTENT02-completion.json external receipt",
+  "private_artifacts": "Original draw caches/labels/cell losses/control replicas/bootstrap private recovery only"
+}

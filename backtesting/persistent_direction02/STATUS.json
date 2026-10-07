@@ -1,31 +1,34 @@
 {
-  "executive_summary": "Gate A completed before labels or models.",
+  "executive_summary": "Research and tests complete. Final Git/recovery completion is authoritatively bound by external PERSISTENT02-completion.json, avoiding self-referential commit/archive hashes.",
   "branch": "track2/persistent-direction-state-02",
-  "HEAD": "6653df8c61042c4642be3e2ed37b52daeea16de7",
-  "current_stage": "READY_FOR_REMOTE_PRE",
+  "parent_SHA": "6653df8c61042c4642be3e2ed37b52daeea16de7",
+  "PRE_RESULT_PERSISTENT_DIRECTION02_SHA": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "current_stage": "RESEARCH_TESTS_COMPLETE_VERIFICATION_EXTERNAL",
   "completed_stages": [
     "environment",
     "parent_recovery",
     "source_acquisition",
-    "PIT",
+    "PIT_integrity",
     "source_readiness",
     "implementation",
-    "source_model_research_tests",
-    "affected_tests",
-    "synthetic_mutation"
-  ],
-  "pending_stages": [
-    "implementation",
-    "tests",
-    "PRE",
-    "evaluation",
-    "controls",
+    "research_tests",
+    "remote_PRE",
+    "chronological_evaluation",
+    "negative_controls",
     "bootstrap",
+    "diagnostics",
     "report",
-    "Git",
-    "recovery"
+    "full_repository_tests",
+    "common_tests"
   ],
-  "last_successful_artifact": "source_readiness.json",
-  "last_update": "2026-10-07T04:51:20.703315+00:00",
-  "future_labels_loaded": false
+  "final_verification_stages": [
+    "remote_RESULT_verification",
+    "private_recovery_CRC_member_SHA_full_SHA",
+    "durable_recovery_save"
+  ],
+  "completion_receipt": "PERSISTENT02-completion.json",
+  "research_verdict": "NO",
+  "last_successful_artifact": "execution_audit.json",
+  "last_update": "2026-10-07T05:05:51.333046+00:00",
+  "resume_rule": "If completion receipt is verified, all16stages complete. Otherwise resume only final verification stages; never rerun completed evaluation."
 }

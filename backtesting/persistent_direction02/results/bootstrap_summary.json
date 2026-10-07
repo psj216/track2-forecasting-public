@@ -1,0 +1,116 @@
+{
+  "executive_summary": "5000 blocks per method; monthly source-week grouping and only five years limit inference; no independent OOS.",
+  "methods": {
+    "release": {
+      "replicates": 5000,
+      "blocks": 17,
+      "primary_ratio": [
+        0.9929954002483282,
+        1.0133485753345508
+      ],
+      "primary_minus_V51": [
+        -0.0070045997516718,
+        0.013348575334550796
+      ],
+      "primary_minus_5BD": [
+        0.0,
+        0.0
+      ],
+      "primary_minus_21BD": [
+        -0.002719266281298588,
+        0.00554958851533339
+      ],
+      "primary_minus_persistence": [
+        0.0037737738892791584,
+        0.019200685406003146
+      ],
+      "primary_minus_price21": [
+        -0.004796337641135734,
+        0.01624152841829436
+      ],
+      "primary_minus_price_logistic": [
+        -0.0030255833605539405,
+        0.021225452525342813
+      ],
+      "oracle_capture": [
+        -0.01726217801659554,
+        0.00879437379477358
+      ],
+      "sign": "Negative differences favor primary; ratios<1 favor candidate"
+    },
+    "year": {
+      "replicates": 5000,
+      "blocks": 5,
+      "primary_ratio": [
+        0.9872882473467545,
+        1.0150808136807823
+      ],
+      "primary_minus_V51": [
+        -0.012711752653245534,
+        0.01508081368078229
+      ],
+      "primary_minus_5BD": [
+        0.0,
+        0.0
+      ],
+      "primary_minus_21BD": [
+        -0.0014151588909634416,
+        0.007414249758397329
+      ],
+      "primary_minus_persistence": [
+        0.003144235305324483,
+        0.019778466079421908
+      ],
+      "primary_minus_price21": [
+        -0.00705335081737235,
+        0.017582371540383446
+      ],
+      "primary_minus_price_logistic": [
+        -0.006331013530846863,
+        0.023442517618709524
+      ],
+      "oracle_capture": [
+        -0.02084203781678902,
+        0.015353281936907118
+      ],
+      "sign": "Negative differences favor primary; ratios<1 favor candidate"
+    },
+    "week": {
+      "replicates": 5000,
+      "blocks": 52,
+      "primary_ratio": [
+        0.9969043945558278,
+        1.009584897035788
+      ],
+      "primary_minus_V51": [
+        -0.0030956054441721613,
+        0.009584897035787979
+      ],
+      "primary_minus_5BD": [
+        0.0,
+        0.0
+      ],
+      "primary_minus_21BD": [
+        -0.0016889700022157395,
+        0.004043104036574608
+      ],
+      "primary_minus_persistence": [
+        0.0057873321645735805,
+        0.015822651292868112
+      ],
+      "primary_minus_price21": [
+        -0.0017797899848475379,
+        0.014605526375280021
+      ],
+      "primary_minus_price_logistic": [
+        0.0013788185003332902,
+        0.017838402816448207
+      ],
+      "oracle_capture": [
+        -0.012154417399840807,
+        0.003771867858892914
+      ],
+      "sign": "Negative differences favor primary; ratios<1 favor candidate"
+    }
+  }
+}

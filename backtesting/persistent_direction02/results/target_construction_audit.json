@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Exact inherited targets/draw bytes; future labels first deserialized after remote PRE.",
+  "PRE": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "origins": 93,
+  "cells": 892,
+  "original_draws_unchanged": true,
+  "median_SD_match": true,
+  "target_ties": 0,
+  "outcome_firewall": true
+}

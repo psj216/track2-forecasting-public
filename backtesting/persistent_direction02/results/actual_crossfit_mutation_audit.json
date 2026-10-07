@@ -1,0 +1,32 @@
+{
+  "executive_summary": "Post-PRE frozen coefficient inference only; no refits or new scored candidates. Mutating later SEP states leaves earlier features/predictions bitwise unchanged. Outcome mutation leaves features unchanged.",
+  "folds": [
+    {
+      "fold": 2020,
+      "source_features_bitwise_unchanged": true,
+      "frozen_model_probabilities_bitwise_unchanged": true,
+      "rows": 510
+    },
+    {
+      "fold": 2021,
+      "source_features_bitwise_unchanged": true,
+      "frozen_model_probabilities_bitwise_unchanged": true,
+      "rows": 630
+    },
+    {
+      "fold": 2022,
+      "source_features_bitwise_unchanged": true,
+      "frozen_model_probabilities_bitwise_unchanged": true,
+      "rows": 720
+    },
+    {
+      "fold": 2023,
+      "source_features_bitwise_unchanged": true,
+      "frozen_model_probabilities_bitwise_unchanged": true,
+      "rows": 810
+    }
+  ],
+  "no_refits": true,
+  "outcome_side_feature_invariance": true,
+  "implementation_PRE_preserved_except_documented_geometry_assertion": true
+}

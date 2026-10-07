@@ -1,0 +1,41 @@
+{
+  "executive_summary": "Fixed-seed chronology-safe release/date/state nulls; matched random sign.",
+  "seed": 31802,
+  "controls": {
+    "STATE": {
+      "replicates": 2000,
+      "mean": 0.997062433632617,
+      "q05": 0.9904440126858582,
+      "q95": 1.0045232974483675,
+      "fraction_equal_or_better_than_primary": 0.922,
+      "Monte_Carlo_p_plus_one": 0.9220389805097451
+    },
+    "DATE": {
+      "replicates": 2000,
+      "mean": 1.0008588425805418,
+      "q05": 0.9972339339093383,
+      "q95": 1.0043132674691522,
+      "fraction_equal_or_better_than_primary": 0.8785,
+      "Monte_Carlo_p_plus_one": 0.8785607196401799
+    },
+    "RANDOM": {
+      "replicates": 2000,
+      "mean": 0.9950671749208013,
+      "q05": 0.9932683675142469,
+      "q95": 0.9969425506039444,
+      "fraction_equal_or_better_than_primary": 1.0,
+      "Monte_Carlo_p_plus_one": 1.0
+    }
+  },
+  "source_mutations": {
+    "executive_summary": "Synthetic-label pre-outcome invariance; real outcomes not loaded. Source/PIT edge tests also run.",
+    "future_source_features_bitwise_identical": true,
+    "future_source_predictions_bitwise_identical": true,
+    "outcome_side_features_unchanged": true,
+    "historical_availability_safe": true,
+    "rows": 630,
+    "label_type": "synthetic parity; never forecasting labels",
+    "seed": 31802
+  },
+  "no_future_donors": true
+}

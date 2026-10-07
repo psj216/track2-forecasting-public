@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Schemas, protected parent hashes, source hashes and exact same-ledger primary/baseline scores verified.",
+  "primary_bitwise_reproduction": true,
+  "parent_files_unchanged": 2261,
+  "source_original_fields_verified": 35,
+  "public_safe_units": true,
+  "no_forecast_refits_for_reproduction": true
+}

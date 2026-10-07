@@ -1,0 +1,25 @@
+{
+  "executive_summary": "Frozen exposed-research test; no submission, no new model redesign.",
+  "PERSISTENT_DIRECTION02_RESULT": "NO",
+  "DATASET_READY": true,
+  "primary_ratio": 1.0033428831669795,
+  "INCREMENTAL_INFORMATION": "NOT_ESTABLISHED",
+  "gates": {
+    "CRPS_le_098": false,
+    "annual_4_of_5": false,
+    "release_CI_support": false,
+    "week_CI_support": false,
+    "year_CI_support": false,
+    "concentration_safe": false,
+    "beats_timing": false,
+    "beats_price": false,
+    "beats_persistence": false,
+    "negative_controls_inferior": false,
+    "PIT_integrity": true
+  },
+  "dominant_explanation": "PRICE_REDUNDANT",
+  "independent_validation": "NOT_AVAILABLE",
+  "submission_readiness": false,
+  "V51_official_reference": 0.9541,
+  "next_axis": "PRICE-STATE-INFORMATION-AUDIT-03"
+}

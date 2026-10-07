@@ -1,0 +1,37 @@
+{
+  "executive_summary": "Fixed primary failure preserved; no retrospective model repair.",
+  "dominant": "PRICE_REDUNDANT",
+  "gates": {
+    "CRPS_le_098": false,
+    "annual_4_of_5": false,
+    "release_CI_support": false,
+    "week_CI_support": false,
+    "year_CI_support": false,
+    "concentration_safe": false,
+    "beats_timing": false,
+    "beats_price": false,
+    "beats_persistence": false,
+    "negative_controls_inferior": false,
+    "PIT_integrity": true
+  },
+  "concentration": {
+    "release_id": 0.4009647017309781,
+    "year": 1.0
+  },
+  "secondary_contributors": [
+    "NO_DIRECTION_SIGNAL",
+    "TIMING_NOT_IDENTIFIED",
+    "REGIME_INSTABILITY",
+    "WEAK_SAMPLE / LOW_POWER"
+  ],
+  "evidence": {
+    "SEP_direction_accuracy": 0.4605809128630705,
+    "release_balanced_direction_accuracy": 0.46258169934640525,
+    "Spearman_probability_direction": -0.20473994684126534,
+    "annual_folds_improved": "1/5",
+    "delay5_equal_PRIMARY": true,
+    "primary_vs_price_ratio_difference": 0.010159658207221867,
+    "matched_random_similar_to_price": true,
+    "causal_price_redundancy_proven": false
+  }
+}

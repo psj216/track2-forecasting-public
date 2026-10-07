@@ -1,0 +1,5 @@
+{
+  "executive_summary": "Unclipped fraction of same-ledger mathematical location headroom, not predictability.",
+  "primary_capture": -0.0041131338597191576,
+  "formula": "(1 - R_SEP)/(1 - R_PERFECT_LOCATION)"
+}

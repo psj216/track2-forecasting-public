@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Pure0.05SD translation; original draws, ranks and SD retained.",
+  "amplitude": 0.05,
+  "max_SD_difference": 2.220446049250313e-16,
+  "max_center_shift_error": 4.414871246360974e-16,
+  "ranks_unchanged": true,
+  "strict_order_inversions": 0,
+  "float64_tie_coalescences": 85,
+  "maximum_coalesced_gap": 4.440892098500626e-16,
+  "rank_semantics": "Monotone location translation; ties can coalesce at float64 ULP. No strict ordering inversions."
+}

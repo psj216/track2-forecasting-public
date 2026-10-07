@@ -1,0 +1,14 @@
+{
+  "executive_summary": "V51 source, parent artifacts and original cached forecast bytes remain unchanged. Official score0.9541 is inherited evidence, not rerun.",
+  "protected_parent_files": 2261,
+  "hash_preserved": true,
+  "Dockerfile_SHA256": "1ac5090744baf15a88c71817b5c2fc3572b6c273e648c668ba48d1efae8b7b94",
+  "original_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "original_cache_files": 134,
+  "new_submission": false,
+  "submission_Docker_overwritten": false,
+  "verified_official_reference_score": 0.9541,
+  "binary_Docker_package_currently_available": false,
+  "binary_image_reverification": "NOT_PERFORMED: original binary package not materialized in this workspace; no claim of a new executable image or fresh official reproduction",
+  "verified_original_draws_recovered": true
+}

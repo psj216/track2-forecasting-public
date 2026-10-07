@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Contemporary source must beat BOTH fixed timing controls.",
+  "TIMING_SIGNAL": "NOT_ESTABLISHED",
+  "primary": 1.0033428831669795,
+  "delay5": 1.0033428831669795,
+  "stale21": 1.0023671790276187,
+  "interpretation": "Timing beats alone are necessary, not sufficient for new release alpha."
+}
