@@ -1,0 +1,75 @@
+{
+  "executive_summary": "Investigated original tables before outcomes; no release chosen by performance.",
+  "documents": [
+    {
+      "round": "20150318",
+      "active": false,
+      "error": "Original policy median row not extractable"
+    },
+    {
+      "round": "20150617",
+      "active": false,
+      "error": "Original policy median row not extractable"
+    },
+    {
+      "release_id": "SEP_2015-09-17",
+      "release_date": "2015-09-17",
+      "available_at": "2015-09-17T23:59:59-04:00",
+      "CY": 0.4,
+      "NCY": 1.4,
+      "CY_target": 2015,
+      "NCY_target": 2016,
+      "value": 0.9999999999999999,
+      "aggregation": "published median",
+      "units": "percentage points",
+      "active": true,
+      "primary_scope": false,
+      "parser_fix": "Support td row-stubs and explicit median/year headers; source definition unchanged"
+    },
+    {
+      "release_id": "SEP_2015-12-16",
+      "release_date": "2015-12-16",
+      "available_at": "2015-12-16T23:59:59-05:00",
+      "CY": 0.4,
+      "NCY": 1.4,
+      "CY_target": 2015,
+      "NCY_target": 2016,
+      "value": 0.9999999999999999,
+      "aggregation": "published median",
+      "units": "percentage points",
+      "active": true,
+      "primary_scope": false,
+      "parser_fix": "Support td row-stubs and explicit median/year headers; source definition unchanged"
+    },
+    {
+      "release_id": "SEP_2016-03-16",
+      "release_date": "2016-03-16",
+      "available_at": "2016-03-16T23:59:59-04:00",
+      "CY": 0.9,
+      "NCY": 1.9,
+      "CY_target": 2016,
+      "NCY_target": 2017,
+      "value": 0.9999999999999999,
+      "aggregation": "published median",
+      "units": "percentage points",
+      "active": true,
+      "primary_scope": true,
+      "parser_fix": "Support td row-stubs and explicit median/year headers; source definition unchanged"
+    },
+    {
+      "release_id": "SEP_2016-06-15",
+      "release_date": "2016-06-15",
+      "available_at": "2016-06-15T23:59:59-04:00",
+      "CY": 0.9,
+      "NCY": 1.6,
+      "CY_target": 2016,
+      "NCY_target": 2017,
+      "value": 0.7000000000000001,
+      "aggregation": "published median",
+      "units": "percentage points",
+      "active": true,
+      "primary_scope": true,
+      "parser_fix": "Support td row-stubs and explicit median/year headers; source definition unchanged"
+    }
+  ]
+}

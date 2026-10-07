@@ -1,0 +1,31 @@
+{
+  "executive_summary": "Gate A completed before labels or models.",
+  "branch": "track2/persistent-direction-state-02",
+  "HEAD": "6653df8c61042c4642be3e2ed37b52daeea16de7",
+  "current_stage": "READY_FOR_REMOTE_PRE",
+  "completed_stages": [
+    "environment",
+    "parent_recovery",
+    "source_acquisition",
+    "PIT",
+    "source_readiness",
+    "implementation",
+    "source_model_research_tests",
+    "affected_tests",
+    "synthetic_mutation"
+  ],
+  "pending_stages": [
+    "implementation",
+    "tests",
+    "PRE",
+    "evaluation",
+    "controls",
+    "bootstrap",
+    "report",
+    "Git",
+    "recovery"
+  ],
+  "last_successful_artifact": "source_readiness.json",
+  "last_update": "2026-10-07T04:51:20.703315+00:00",
+  "future_labels_loaded": false
+}

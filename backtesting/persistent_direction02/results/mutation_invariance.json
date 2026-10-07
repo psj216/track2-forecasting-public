@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Synthetic-label pre-outcome invariance; real outcomes not loaded. Source/PIT edge tests also run.",
+  "future_source_features_bitwise_identical": true,
+  "future_source_predictions_bitwise_identical": true,
+  "outcome_side_features_unchanged": true,
+  "historical_availability_safe": true,
+  "rows": 630,
+  "label_type": "synthetic parity; never forecasting labels",
+  "seed": 31802
+}

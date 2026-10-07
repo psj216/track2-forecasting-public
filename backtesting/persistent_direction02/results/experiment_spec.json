@@ -1,0 +1,92 @@
+{
+  "executive_summary": "Binding parent direction draft preserved; all numerical and technical clarifications fixed before labels. No favorable redesign.",
+  "parent_RESULT": "6653df8c61042c4642be3e2ed37b52daeea16de7",
+  "parent_PRE": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+  "draft_SHA256": "6750076767cd03f1b8166b0003d7c6e1fc9d40757d130515338145ef358d060a",
+  "assets": [
+    "UST_2Y",
+    "UST_5Y"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "source": "FOMC_SEP_POLICY_PATH",
+  "source_variable": "same original release NCY policy median minus CY policy median; release-calendar target years, no January retargeting",
+  "source_age_max_BD": 90,
+  "availability": "release date EOD America/New_York; forecast cutoff previous weekday16:00NY",
+  "target": "sign(truth - original V51 median); exactzeros excluded only from fitting, retained scoring",
+  "features": [
+    "SEP_NCY_CY",
+    "asset_5Y_indicator",
+    "log_horizon"
+  ],
+  "model": {
+    "type": "pooled L2 LogisticRegression",
+    "C": 1.0,
+    "intercept": true,
+    "class_weight": null,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 1e-08,
+    "train_only_standardization": true,
+    "probability_threshold": 0.5
+  },
+  "shift_SD": 0.05,
+  "development": [
+    2016,
+    2017,
+    2018,
+    2019
+  ],
+  "evaluation": [
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "absolute_maturity_cutoff": "2024-12-18",
+  "origin_grid": "All recovered original monthly V51 caches source-active and fixed-price-features available; calendar fixed before labels; inherited cache gaps disclosed, no regenerated draws",
+  "purge": "actual AND weekday planned target maturity strictly before firstfold cutoff date; training2016<=year<test year; exclude testreleaseIDs, targets zero excluded from fit only",
+  "unfit_fold": "Stop if no two classes; no alternate model, record operational blocker",
+  "controls": {
+    "delay_BD": 5,
+    "stale_BD": 21,
+    "timing_fit": "Identical fixed pooled logistic separately fit to each lagged pre-outcome source mapping on same purged folds, missing mapping trainexcluded/testzero shift; primary ledger never reduced",
+    "persistence": "Sign of previous available original policy spread; newestrelease active gate applies; previousstate may intentionally be stale",
+    "own_price": "Fixed21weekday own-price difference sign, exact inherited frozen price_states representation",
+    "price_logistic": "Same fixed logistic on parent14price columns plus asset/logH, same target/folds/sharedgrid; bounded current-vintage H15 probe PIT C",
+    "random": "Primary directions permuted, identical application prevalence, seed31802",
+    "state_null": "2000 historical-only donor feature replacements perrelease, donor index<=recipient index; fit same purged chronological folds",
+    "date_null": "2000 permuted nonnegative0/5/21/42/63BD release activation delays; never symmetric or future injection; fit same purged folds",
+    "seed": 31802,
+    "permutations_each": 2000
+  },
+  "bootstrap": {
+    "replicates_each": 5000,
+    "blocks": [
+      "source_release",
+      "origin_source_week_W-FRI",
+      "calendar_year"
+    ],
+    "inference": "Primary release dependence, secondary sourceweek and5year evidence; no IID cell claim"
+  },
+  "scoring": "Exact imported qfbench2-common v2.4.3 fair CRPS normalized by each original past scale; ratio of sums on exact sameledger",
+  "success_gate": {
+    "STRONG_YES_ratio_max": 0.98,
+    "annual_improving_min": 4,
+    "release_week_year_CI_upper": "95% primary ratio upper<1",
+    "contemporary_beats": "both5BD/21BD, price logistic and persistence strictly by>1e-12",
+    "negative_controls": "primary lower than each null5th percentile",
+    "dominance": "largest single release/year fraction of gross positive gain<0.50; chosen before labels",
+    "PIT": "no material integrity issue"
+  },
+  "other_verdicts": "NO if primary>=1 or timing/price/persistence fails; INCONCLUSIVE if small benefit beats controls but evidence insufficient; BLOCKED_SOURCE_DATA if GateA fails",
+  "next_axis_tree": "Exactly frozen prompt four-way tree; never execute next study",
+  "conflicts": "No substantive conflict; unspecified operational/control choices documented here before label access",
+  "firewall": "Public forecasts and aggregate diagnostics only; labels/rawdraws/celllosses private. User-required aggregate oracle artifacts contain no per-cell realized values. No card answer keys or candidate submission."
+}

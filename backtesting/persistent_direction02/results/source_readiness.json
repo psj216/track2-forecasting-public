@@ -1,0 +1,35 @@
+{
+  "executive_summary": "Gate A based exclusively on source originals/availability. PIT B is reconstructibility, not an immutable first-download archive.",
+  "DATASET_READY": true,
+  "release_universe": 35,
+  "usable_releases": 33,
+  "releases_by_year": {
+    "2016": 4,
+    "2017": 4,
+    "2018": 4,
+    "2019": 4,
+    "2020": 3,
+    "2021": 4,
+    "2022": 3,
+    "2023": 3,
+    "2024": 4
+  },
+  "source_only_state_changes": 22,
+  "adequate_sample_criterion": {
+    "minimum_development_releases": 8,
+    "minimum_per_eval_year": 2,
+    "minimum_distinct_policy_values": 2,
+    "chosen_before_outcomes": true,
+    "does_not_claim_statistical_power": true
+  },
+  "publication_EOL_NY": true,
+  "max_source_age_business_days": 90,
+  "original_PDF_HTML_fields_agree": true,
+  "no_current_history_substitution": true,
+  "rights_evidence": "Official Board disclaimer public-domain copying/distribution with attribution + organizer DATA-LICENSE Fed projections category",
+  "offline_research_feasible": true,
+  "official_submission_readiness": false,
+  "future_labels_read": false,
+  "errata_limit": "Known corrected originals fail closed. No claim to prove nonexistence of undisclosed replacements.",
+  "PIT": "B"
+}

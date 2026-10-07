@@ -1,0 +1,357 @@
+{
+  "executive_summary": "Actual official archive links, not an assumed round count. March2020 has no SEP projection release.",
+  "release_count": 35,
+  "archive_links": [
+    {
+      "path": "documents/conference_20160316.html",
+      "SHA256": "4e822259ae146e6f9369bf090905723a866ed4526a8931f82d01f822fb61fdf7",
+      "round": "20160316"
+    },
+    {
+      "path": "documents/conference_20160316.html",
+      "SHA256": "4e822259ae146e6f9369bf090905723a866ed4526a8931f82d01f822fb61fdf7",
+      "round": "20160316"
+    },
+    {
+      "path": "documents/conference_20160615.html",
+      "SHA256": "184cf15e4cb5152495a4c84728211ee7f37a1edd636f3e416a55c6cc1125f843",
+      "round": "20160615"
+    },
+    {
+      "path": "documents/conference_20160615.html",
+      "SHA256": "184cf15e4cb5152495a4c84728211ee7f37a1edd636f3e416a55c6cc1125f843",
+      "round": "20160615"
+    },
+    {
+      "path": "documents/conference_20160921.html",
+      "SHA256": "69d708d0830607881bb0b2f80e179dcb3c04e2a64f43068338b9dbcd5436b09b",
+      "round": "20160921"
+    },
+    {
+      "path": "documents/conference_20160921.html",
+      "SHA256": "69d708d0830607881bb0b2f80e179dcb3c04e2a64f43068338b9dbcd5436b09b",
+      "round": "20160921"
+    },
+    {
+      "path": "documents/conference_20161214.html",
+      "SHA256": "e8484358a4de060cc95faf789a419689485477b53404c53096f73a4c3ec3550a",
+      "round": "20161214"
+    },
+    {
+      "path": "documents/conference_20161214.html",
+      "SHA256": "e8484358a4de060cc95faf789a419689485477b53404c53096f73a4c3ec3550a",
+      "round": "20161214"
+    },
+    {
+      "path": "documents/conference_20170315.html",
+      "SHA256": "9cc8e4126fefb4af0a0c28ef0a3f136be84107568cd234cfaa19a42477e4e082",
+      "round": "20170315"
+    },
+    {
+      "path": "documents/conference_20170315.html",
+      "SHA256": "9cc8e4126fefb4af0a0c28ef0a3f136be84107568cd234cfaa19a42477e4e082",
+      "round": "20170315"
+    },
+    {
+      "path": "documents/conference_20170614.html",
+      "SHA256": "454785c102e4ba9dfeb20b4ff6b520eeb1fed26273af1377ee7f3f3d5e7d1809",
+      "round": "20170614"
+    },
+    {
+      "path": "documents/conference_20170614.html",
+      "SHA256": "454785c102e4ba9dfeb20b4ff6b520eeb1fed26273af1377ee7f3f3d5e7d1809",
+      "round": "20170614"
+    },
+    {
+      "path": "documents/conference_20170920.html",
+      "SHA256": "49f850f50b2cf98e6c52b48a7fa7d277a825168abb0d72954bb674e46682df0b",
+      "round": "20170920"
+    },
+    {
+      "path": "documents/conference_20170920.html",
+      "SHA256": "49f850f50b2cf98e6c52b48a7fa7d277a825168abb0d72954bb674e46682df0b",
+      "round": "20170920"
+    },
+    {
+      "path": "documents/conference_20171213.html",
+      "SHA256": "26ff7926e565622d15c11a1dd844b1343b255bf48a520a025781812770226985",
+      "round": "20171213"
+    },
+    {
+      "path": "documents/conference_20171213.html",
+      "SHA256": "26ff7926e565622d15c11a1dd844b1343b255bf48a520a025781812770226985",
+      "round": "20171213"
+    },
+    {
+      "path": "documents/conference_20180321.html",
+      "SHA256": "b5f776b30c0374a0c29b1878c801a3d526579386eaa803d8430246b669c66bcd",
+      "round": "20180321"
+    },
+    {
+      "path": "documents/conference_20180321.html",
+      "SHA256": "b5f776b30c0374a0c29b1878c801a3d526579386eaa803d8430246b669c66bcd",
+      "round": "20180321"
+    },
+    {
+      "path": "documents/conference_20180613.html",
+      "SHA256": "8b0088d6c251df6d541a928db6cdd29b818484bbd44460c58665dc1c52d1c86d",
+      "round": "20180613"
+    },
+    {
+      "path": "documents/conference_20180613.html",
+      "SHA256": "8b0088d6c251df6d541a928db6cdd29b818484bbd44460c58665dc1c52d1c86d",
+      "round": "20180613"
+    },
+    {
+      "path": "documents/conference_20180926.html",
+      "SHA256": "0ded4c306836eff7017f9749f552cba6ac524b8f4d96f4ec0b9d5c1762db665f",
+      "round": "20180926"
+    },
+    {
+      "path": "documents/conference_20180926.html",
+      "SHA256": "0ded4c306836eff7017f9749f552cba6ac524b8f4d96f4ec0b9d5c1762db665f",
+      "round": "20180926"
+    },
+    {
+      "path": "documents/conference_20181219.html",
+      "SHA256": "8a75ce6a54d8a9b45124c4a255cbe5c5dd69a4e90298a08fae7fdad68d9c027f",
+      "round": "20181219"
+    },
+    {
+      "path": "documents/conference_20181219.html",
+      "SHA256": "8a75ce6a54d8a9b45124c4a255cbe5c5dd69a4e90298a08fae7fdad68d9c027f",
+      "round": "20181219"
+    },
+    {
+      "path": "documents/conference_20190320.html",
+      "SHA256": "87cf71d9215510865550dce8fae6b95fc3ac2b6de9529b26d07eabb5c3b6bbac",
+      "round": "20190320"
+    },
+    {
+      "path": "documents/conference_20190320.html",
+      "SHA256": "87cf71d9215510865550dce8fae6b95fc3ac2b6de9529b26d07eabb5c3b6bbac",
+      "round": "20190320"
+    },
+    {
+      "path": "documents/conference_20190619.html",
+      "SHA256": "1e6e850fd230025caeff23c6a12398a285551e7b2364cda26f993c821a1ca235",
+      "round": "20190619"
+    },
+    {
+      "path": "documents/conference_20190619.html",
+      "SHA256": "1e6e850fd230025caeff23c6a12398a285551e7b2364cda26f993c821a1ca235",
+      "round": "20190619"
+    },
+    {
+      "path": "documents/conference_20190918.html",
+      "SHA256": "8cced3a81f08fd2471d9635debf6a7aaf8a3f9f7f9f1879e28a6483f72057d35",
+      "round": "20190918"
+    },
+    {
+      "path": "documents/conference_20190918.html",
+      "SHA256": "8cced3a81f08fd2471d9635debf6a7aaf8a3f9f7f9f1879e28a6483f72057d35",
+      "round": "20190918"
+    },
+    {
+      "path": "documents/conference_20191211.html",
+      "SHA256": "a6349aba6edb6e9fc34d8f4fe8b7b5ce762b97afbeff07c2f45b8bb8e469995e",
+      "round": "20191211"
+    },
+    {
+      "path": "documents/conference_20191211.html",
+      "SHA256": "a6349aba6edb6e9fc34d8f4fe8b7b5ce762b97afbeff07c2f45b8bb8e469995e",
+      "round": "20191211"
+    },
+    {
+      "path": "documents/conference_20200610.html",
+      "SHA256": "c1085fff93e4da6fd5e23d1cd4b10ce9ec35c03ea28bee23159eeea0621d354c",
+      "round": "20200610"
+    },
+    {
+      "path": "documents/conference_20200610.html",
+      "SHA256": "c1085fff93e4da6fd5e23d1cd4b10ce9ec35c03ea28bee23159eeea0621d354c",
+      "round": "20200610"
+    },
+    {
+      "path": "documents/conference_20200916.html",
+      "SHA256": "d686aa7e31eb535006aec134dfeda1037673a62b70cdea10ca632a6ceac13418",
+      "round": "20200916"
+    },
+    {
+      "path": "documents/conference_20200916.html",
+      "SHA256": "d686aa7e31eb535006aec134dfeda1037673a62b70cdea10ca632a6ceac13418",
+      "round": "20200916"
+    },
+    {
+      "path": "documents/conference_20201216.html",
+      "SHA256": "caacb10ada70904cceaadb5f927ccc029ae9aac3935bcd1d7945c8be445f7474",
+      "round": "20201216"
+    },
+    {
+      "path": "documents/conference_20201216.html",
+      "SHA256": "caacb10ada70904cceaadb5f927ccc029ae9aac3935bcd1d7945c8be445f7474",
+      "round": "20201216"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240320"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240320"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240612"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240612"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240918"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20240918"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20241218"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20241218"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230322"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230322"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230614"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230614"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230920"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20230920"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20231213"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20231213"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220316"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220316"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220615"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220615"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220921"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20220921"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20221214"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20221214"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210317"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210317"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210616"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210616"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210922"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20210922"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20211215"
+    },
+    {
+      "path": "documents/fomc_calendars.html",
+      "SHA256": "fd48fce31297eebff0fe214de9c3f9901dbff0e87d0fa4e57f657a4a2929ca15",
+      "round": "20211215"
+    }
+  ],
+  "parent_links_manifest_SHA256": "809ef51cacc68395c98d4e727a35448dc2870d93b212deb29e051f5aba4b6034"
+}
