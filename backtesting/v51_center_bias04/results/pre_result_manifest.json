@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Scientific specification and implementation preserved from checkpoint; only synthetic fixture year repaired. Verified remote PRE receipt is written externally after publication, then its SHA recorded with results.",
+  "checkpoint_SHA": "6d6109ec3e0598a5654a4351e5ae351ae1025652",
+  "parent_RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "parent_PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "experiment_spec_SHA256": "b80b603827d1eda05bc7038e431b7def624fdddb1b835da6d536f66a5e1e4c78",
+  "canonical_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "canonical_manifest_SHA256": "065508b6ca318566952085623c5e71e403c19d7f3d5613b8470b61a5bf09c86b",
+  "source_caches": 1251,
+  "source_caches_verified": true,
+  "original_parent_reproduction_preserved": true,
+  "broader_outcomes_deserialized": false
+}

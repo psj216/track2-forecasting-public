@@ -30,5 +30,19 @@
     "Incomplete parent common tag-only bundle; exact official v2.4.3 source clone recovered.",
     "Synthetic fixture missing year; same command accidentally rerun before repair; two-failure STOP applied."
   ],
-  "continuation": "Fix synthetic() fixture to derive year from origin. Do not change train_bias, scientific spec, folds or thresholds. Run research tests after explicitly resuming; then affected tests and PRE publication. Start broader construct stage only after remote PRE receipt."
+  "continuation": "Fix synthetic() fixture to derive year from origin. Do not change train_bias, scientific spec, folds or thresholds. Run research tests after explicitly resuming; then affected tests and PRE publication. Start broader construct stage only after remote PRE receipt.",
+  "resumed_from": "6d6109ec3e0598a5654a4351e5ae351ae1025652",
+  "scientific_code_changed": false,
+  "scientific_specification_changed": false,
+  "fixture_only_repair": true,
+  "tests_PRE": {
+    "research": "28 passed, 3 gated skips",
+    "affected": "58 passed, 2 historical branch assertions deselected"
+  },
+  "recovery_issue": "Prior resume ZIP truncation diagnosed:25899177 bytes vs50008021 recorded; no EOCD. Discarded as authority. Exact remote code plus previously hash-verified original archives restored; no draw/ledger reconstruction or parent re-evaluation.",
+  "excluded_historical_assertions": [
+    "tests/test_price_state_information03.py::test_protected_parent_main",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation"
+  ],
+  "exclusion_reason": "Immutable tests require original PRICE03 branch; replacement current branch/main/parent/source protection tests passed."
 }

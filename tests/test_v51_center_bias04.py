@@ -7,7 +7,9 @@ from qfbench2_track_forecasting.location01.oracle_target import target
 from backtesting.v51_center_bias04 import core as c,run as r,aggregate as a,oracle as o
 P=Path(os.environ.get('BIAS04_PRIVATE','/unavailable'))
 def synthetic():
- return pd.DataFrame(dict(origin=['2007-01-02','2009-06-01','2009-12-31','2010-01-04','2011-01-03'],target_end=['2007-10-01','2009-10-01','2010-01-05','2010-10-01','2011-10-01'],asset=['A','B','A','A','B'],horizon=[5,21,5,5,21],raw_center_error=[1,-3,99,-9,10],standardized_center_error=[2,-6,99,-9,10]))
+ rows=pd.DataFrame(dict(origin=['2007-01-02','2009-06-01','2009-12-31','2010-01-04','2011-01-03'],target_end=['2007-10-01','2009-10-01','2010-01-05','2010-10-01','2011-10-01'],asset=['A','B','A','A','B'],horizon=[5,21,5,5,21],raw_center_error=[1,-3,99,-9,10],standardized_center_error=[2,-6,99,-9,10]))
+ rows["year"]=pd.to_datetime(rows["origin"]).dt.year
+ return rows
 def test_constants():assert c.PARENT=='0f5c938eeb4054518b0bde81e4de1503890fd684'and c.SEED==31804 and c.AMPLITUDE==.05 and c.WINDOWS==(1,3,5)and len(c.FOLDS)==4
 @pytest.mark.parametrize('year,era',[(2016,'<=2016'),(2017,'2017-2019'),(2020,'2020-2021'),(2024,'2022-2024')])
 def test_eras(year,era):assert c.era(year)==era

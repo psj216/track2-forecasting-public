@@ -1,29 +1,32 @@
 {
   "executive_summary": "Restartable original-baseline audit. All corrections diagnostic only.",
   "branch": "track2/v51-center-bias-audit-04",
-  "HEAD_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
-  "current_stage": "STOPPED_RESEARCH_TEST_FIXTURE",
+  "HEAD_SHA": "6d6109ec3e0598a5654a4351e5ae351ae1025652",
+  "current_stage": "research_and_affected_tests_passed",
   "completed_stages": [
     "pre_result_preparation",
-    "STOPPED_RESEARCH_TEST_FIXTURE"
+    "STOPPED_RESEARCH_TEST_FIXTURE",
+    "research_and_affected_tests_passed"
   ],
-  "last_successful_artifact": "logs/research_PRE2.log",
-  "last_update": "2026-10-07T15:01:13.704873+00:00",
+  "last_successful_artifact": "private/logs/affected-PRE.log",
+  "last_update": "2026-10-07T16:41:00.638281+00:00",
   "pending_stages": [
-    "fix_synthetic_fixture_year",
-    "research_tests",
-    "affected_tests",
-    "PRE_commit_push_remote_verify",
-    "broader_diagnostics",
+    "PRE_remote_verify",
+    "construct",
+    "merge",
+    "chronological",
+    "oracles",
     "controls",
     "bootstrap",
+    "aggregate",
     "report",
-    "full_tests",
-    "RESULT_remote_verification",
-    "final_recovery"
+    "tests",
+    "RESULT_publish",
+    "recovery"
   ],
-  "state": "STOPPED",
-  "stop_reason": "Same pre-result synthetic test command failed twice: fixture missing year. No broader outcomes loaded.",
+  "state": "PRE_READY",
+  "stop_reason": null,
   "failed_stage": "research_specific_pre_tests",
-  "failure_count": 2
+  "failure_count": 2,
+  "resume_checkpoint": "6d6109ec3e0598a5654a4351e5ae351ae1025652"
 }
