@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Incomplete checkpoint aggregate artifacts only; no private truth in public Git.",
+  "files": {
+    "backtesting/v51_center_bias04/results/parent_bias_reproduction.json": "521460ad22fce17ed68b6a58e15bd0b56e78dadad128025ed9517fa3f8affbed",
+    "backtesting/v51_center_bias04/results/canonical_ledger_manifest.json": "065508b6ca318566952085623c5e71e403c19d7f3d5613b8470b61a5bf09c86b",
+    "backtesting/v51_center_bias04/results/environment_audit.json": "0c554aaef37b0380f48b87d5185cde690d95f7c0d932b9affb8fae4f7f4fc6c5",
+    "backtesting/v51_center_bias04/results/execution_audit.json": "d1950c0e49121a467cc102c8ee40fbb3f97a38a5ca08b30b85cb8df35a1cd4e9",
+    "backtesting/v51_center_bias04/results/experiment_spec.json": "b80b603827d1eda05bc7038e431b7def624fdddb1b835da6d536f66a5e1e4c78",
+    "backtesting/v51_center_bias04/results/parent_manifest.json": "18861a20d89ee0ce0aa230c5fc07272d1f5229858c5b8a7278cb8b851cb2f5d3"
+  },
+  "completion": false
+}

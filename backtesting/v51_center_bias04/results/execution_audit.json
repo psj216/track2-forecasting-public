@@ -1,0 +1,34 @@
+{
+  "executive_summary": "Checkpoint only; audit incomplete. Safe-long-work two-failure stop.",
+  "completion": false,
+  "tests": {
+    "research_PRE": {
+      "passed": 26,
+      "failed": 2,
+      "skipped": 3,
+      "runs": 2,
+      "failure": "KeyError: year in tests/test_v51_center_bias04.py synthetic() fixture. train_bias correctly requires calendar year.",
+      "commands": [
+        "python -m pytest tests/test_v51_center_bias04.py --disable-warnings"
+      ],
+      "logs": [
+        "private/logs/research_PRE.log",
+        "private/logs/research_PRE2.log"
+      ]
+    },
+    "affected": "NOT_RUN",
+    "full": "NOT_RUN",
+    "common": "NOT_RUN"
+  },
+  "broader_outcomes_loaded": false,
+  "PRE_RESULT_V51_BIAS04_SHA": null,
+  "RESULT_SHA": null,
+  "official_score_reestimated": false,
+  "protected_parent_hashes_verified": true,
+  "scientific_evaluation_stage_failures": 0,
+  "operational_errors": [
+    "Incomplete parent common tag-only bundle; exact official v2.4.3 source clone recovered.",
+    "Synthetic fixture missing year; same command accidentally rerun before repair; two-failure STOP applied."
+  ],
+  "continuation": "Fix synthetic() fixture to derive year from origin. Do not change train_bias, scientific spec, folds or thresholds. Run research tests after explicitly resuming; then affected tests and PRE publication. Start broader construct stage only after remote PRE receipt."
+}

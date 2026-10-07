@@ -1,0 +1,69 @@
+{
+  "executive_summary": "Largest pre-existing LOCATION01 canonical ledger; no new selection. Full metadata only read before PRE.",
+  "research": "LOCATION01",
+  "ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "origins": 1250,
+  "cells": 135994,
+  "assets": [
+    "AUD",
+    "BAB",
+    "BRL",
+    "CAD",
+    "CHF",
+    "CNY",
+    "DKK",
+    "EUR",
+    "GBP",
+    "HML",
+    "INR",
+    "JPY",
+    "MKT",
+    "MOM",
+    "NOK",
+    "NZD",
+    "QMJ",
+    "SEK",
+    "SMB",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_2Y",
+    "UST_30Y",
+    "UST_5Y",
+    "UST_7Y"
+  ],
+  "groups": [
+    "FX",
+    "Factor/Equity",
+    "Rates"
+  ],
+  "date_range": [
+    "2001-01-02",
+    "2024-12-10"
+  ],
+  "years": 24,
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "draw_files": 1251,
+  "draws_verified_bitwise": true,
+  "extra_no_eligible_target_cache": 1,
+  "original_manifest_SHA256": "b797d00c139930568db90bebb39c156d0e2fb3a0dc689b1c023bf5ee68fcf4c8",
+  "original_construction_SHA256": "23088c40501e122e241e6ecd53ebb8c556b34187e6f7da7e9db1cd66c6f0397d",
+  "origin_anchor": "2001-01-02",
+  "stride_business_days": 5,
+  "target_semantics": "V13-R2 _label: calendar business horizon, next observed endpoint within 3 BDays; no gaps >5 BDays; levels convert changes to forecast levels; return increments sum",
+  "normalization": "sum CRPS/(past-only 252-row daily innovation SD * sqrt(h)), divided by baseline same sum",
+  "target_end_cutoff": "2024-12-18",
+  "prior_exposure": "RESEARCH_EXPOSED",
+  "independent_OOS": false,
+  "archives": {
+    "location01-baseline-2001-2013.zip": "b7eafe74f5409d37f01856af77b321cc5b466b05efdd4146402eb4b5652aff58",
+    "location01-baseline-2014-2024.zip": "55e024ff6db25df14ba0aab0e83302461638f2a2f49b2f15e8f5a67b1b8f0ae9",
+    "location01-frozen-inputs.zip": "7633050548befec83544af738b69591afd8c0235e7645ad974f0a1401d28a8fd",
+    "location01-private-recovery-results.zip": "1818be2975fd599075d13a6af7a679f4f677b1c3cab65c02acd5c951ca71236a"
+  }
+}

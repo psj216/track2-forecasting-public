@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Restartable original-baseline audit. All corrections diagnostic only.",
+  "branch": "track2/v51-center-bias-audit-04",
+  "HEAD_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "current_stage": "STOPPED_RESEARCH_TEST_FIXTURE",
+  "completed_stages": [
+    "pre_result_preparation",
+    "STOPPED_RESEARCH_TEST_FIXTURE"
+  ],
+  "last_successful_artifact": "logs/research_PRE2.log",
+  "last_update": "2026-10-07T15:01:13.704873+00:00",
+  "pending_stages": [
+    "fix_synthetic_fixture_year",
+    "research_tests",
+    "affected_tests",
+    "PRE_commit_push_remote_verify",
+    "broader_diagnostics",
+    "controls",
+    "bootstrap",
+    "report",
+    "full_tests",
+    "RESULT_remote_verification",
+    "final_recovery"
+  ],
+  "state": "STOPPED",
+  "stop_reason": "Same pre-result synthetic test command failed twice: fixture missing year. No broader outcomes loaded.",
+  "failed_stage": "research_specific_pre_tests",
+  "failure_count": 2
+}

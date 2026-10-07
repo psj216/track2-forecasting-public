@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Exact public parent, full byte-verified private canonical baseline and pinned official shared scorer.",
+  "runtime": "3.13.15 (main, Sep 24 2026, 17:55:50) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "common_SHA": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "branch": "track2/v51-center-bias-audit-04",
+  "parent_RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "parent_PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "protected_parent_files": 2364,
+  "all_original_draw_hashes_verified": 1251,
+  "broader_labels_opened": false,
+  "environment_recovery_note": "Parent common tag-only bundle lacked ancestors; recovered exact same commit by official tag clone. No scientific stage rerun."
+}

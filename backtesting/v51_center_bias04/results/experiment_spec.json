@@ -1,0 +1,115 @@
+{
+  "executive_summary": "Binding baseline forensic audit; diagnostics cannot become submission candidates.",
+  "parent": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "parent_PRE": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "canonical_ledger_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "data": "Full canonical ledger. No price/features.npy/text/macro/source inputs loaded.",
+  "target": "truth - original median; divide by original actual SD. Original draws, mature truths and loss normalization unchanged.",
+  "weightings": [
+    "cell",
+    "origin",
+    "year",
+    "asset",
+    "asset_horizon"
+  ],
+  "eras": [
+    "<=2016",
+    "2017-2019",
+    "2020-2021",
+    "2022-2024"
+  ],
+  "folds": [
+    [
+      2009,
+      2010,
+      2013
+    ],
+    [
+      2013,
+      2014,
+      2017
+    ],
+    [
+      2017,
+      2018,
+      2020
+    ],
+    [
+      2020,
+      2021,
+      2024
+    ]
+  ],
+  "purge": "Original LOCATION01 purged_mask: origin before Jan1(test start)-189BD and target_end before Jan1. Tests 2010\u20132013,2014\u20132017,2018\u20132020,2021\u20132024; no alternative fold selected.",
+  "amplitude": 0.05,
+  "median_delta_cap": 1.0,
+  "windows": [
+    1,
+    3,
+    5
+  ],
+  "rolling": "Calendar-year lookback; train origins before t-189BD, targets matured before t. Minimum one observation; report all eligible origins, counts and missing early windows. No tuned windows.",
+  "predictive": [
+    "GLOBAL_BIAS_SIGN005",
+    "ASSET_BIAS_SIGN005",
+    "HORIZON_BIAS_SIGN005",
+    "GLOBAL_MEDIAN_SHIFT"
+  ],
+  "oracles": [
+    "GLOBAL_ORACLE_BIAS",
+    "YEAR_ORACLE_BIAS",
+    "ASSET_ORACLE_BIAS",
+    "HORIZON_ORACLE_BIAS",
+    "ASSET_HORIZON_ORACLE_BIAS"
+  ],
+  "oracle_optimizer": "Bisection of weighted absolute-distance derivative; 80 iterations or relative bracket 1e-10. Shared scorer evaluates location-only minimum. Weights SD/scale/n_draws; no oracle value enters training.",
+  "universes": {
+    "full": "2001\u20132024 full canonical",
+    "eval": "All inherited purged-fold test cells 2010\u20132024; separate same-ledger oracles for captures."
+  },
+  "controls": {
+    "seed": 31804,
+    "replicates": 2000,
+    "matched_random": "Permutation of global predicted sign vector; exact positive frequency; zero retained.",
+    "year": "Train-only annual signs shuffled within fold. Last shuffled historical annual sign applied to whole held-out fold. Technical clarification prevents future-training leakage from permuting later fits backward.",
+    "asset": "Train-only asset signs permuted across asset labels.",
+    "horizon": "Train-only horizon signs permuted across horizon labels.",
+    "degenerate": "If matched random is degenerate, cannot establish superiority; global gate fails."
+  },
+  "bootstrap": {
+    "seed": 31804,
+    "replicates": 5000,
+    "blocks": [
+      "origin",
+      "year",
+      "asset"
+    ],
+    "sampling": "Whole original blocks sampled equally with replacement; ratios of sums. Bias stats full ledger; predictive/oracle capture matched eval ledger. Conditional on frozen fits/oracles; no refit.",
+    "oracle_capture": "Low-dimensional GLOBAL oracle headroom / perfect headroom on eval; separately predictive global capture."
+  },
+  "asset_horizon_classification": {
+    "min_cells": 200,
+    "min_years": 3,
+    "positive_fraction": 0.55,
+    "negative_fraction": 0.45,
+    "year_sign_consistency": 0.7,
+    "bootstrap_year_CI_excludes_half": true
+  },
+  "decision_gates": {
+    "global_bias_material_pp": 5,
+    "origin_year_CI_support": true,
+    "eras_same_direction_at_least": 3,
+    "primary_fold_improvement_at_least": 3,
+    "total_primary_folds": 4,
+    "year_gross_gain_share_max": 0.5,
+    "era_gross_gain_share_max": 0.7,
+    "controls_MC_p_max": 0.05,
+    "structured": "global material/robust support weak; >=2 stable assets OR >=2 stable horizons, its corresponding full test score <1 and >=3/4 folds improve; no era >70%.",
+    "episode": "Full constant-up year/era concentration plus era majority reversal, global chronological ratio >=1 and recent parent positive >=55%.",
+    "no_stable": "Full positive within5pp of50 and both origin/year CIs include50; global crossfit ratio>=1; all lowdim full oracle captures<10%; recent parent positive exceeds full UST2/5 by>=5pp.",
+    "fallback": "INCONCLUSIVE -> ALPHA-STRATEGY-RESET-05, due failure to separate global/structure/episode under exposed dependence."
+  },
+  "public_firewall": "Truth/draws/per-cell losses private. Public aggregate oracle diagnostics explicitly requested by user. No per-cell oracle estimates or realized answers published.",
+  "official_reference": 0.9541,
+  "official_score_reestimated": false
+}

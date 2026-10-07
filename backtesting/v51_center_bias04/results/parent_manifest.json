@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Parent forecasts preserved, no refit.",
+  "branch": "track2/price-state-information-audit-03",
+  "RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_archive_SHA256": "cb63f0d476c17c68ae6d9a8a416e56751bdde3a63354ad3ea526e80d976feb3a",
+  "CRC_verified": true,
+  "member_hashes_verified": 2531
+}
