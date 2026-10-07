@@ -1,0 +1,24 @@
+{
+  "executive_summary": "Post-PRE diagnostic assertion repair only; no forecast/fit/shift/scorer/ledger change. Original PRE retained.",
+  "original_PRE": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "failure": "Unstable argsort IDs failed on float64 tied/coalesced draws, not a strict-order inversion",
+  "diagnosis": {
+    "max_SD_difference": 2.220446049250313e-16,
+    "strict_order_inversions": 0,
+    "collapsed_positive_gaps": 85,
+    "collapsed_gap_max": 4.440892098500626e-16,
+    "argsort_mismatch_columns": 23,
+    "stable_argsort_equal": false,
+    "baseline_ties": 42204
+  },
+  "repair": "Verify zero strict inversions and coalesced gaps bounded by2ULP, preserve exact location translation",
+  "implementation_repair_hashes": {
+    "backtesting/persistent_direction02/evaluate.py": "1cabfa89a373c8fa689ac3e6717569c1b7becfaba7f137271b95cb2e62478634"
+  },
+  "predictions_refit": false,
+  "model_changed": false,
+  "scorer_changed": false,
+  "score_selection": false,
+  "already_written_score_SHA256": "3587e593e5ad518058c0a3ddc1eb27747bc0969b0af7ef94cd828361271b6d65",
+  "remote_repair_binding": "Private receipt, then external RESULT completion"
+}

@@ -15,7 +15,7 @@ def verify(private):
  p=Path(private);receipt=json.loads((p/'pre_receipt.json').read_text());assert receipt['remote_verified'] and receipt['PRE_RESULT_PERSISTENT_DIRECTION02_SHA']
  assert json.loads((OUT/'source_readiness.json').read_text())['DATASET_READY']
  m=json.loads((OUT/'pre_result_manifest.json').read_text())
- for n,s in m['implementation_hashes'].items():assert digest(ROOT/n)==s,n
+ for n,s in m['implementation_hashes'].items():assert digest(ROOT/n)==receipt.get('technical_repair_hashes',{}).get(n,s),n
  for n,s in m['private_input_hashes'].items():assert digest(p/n)==s,n
  return p
 def prepare(private):
@@ -84,7 +84,9 @@ def score(private):
  csv(OUT/'fold_manifest.csv',audit)
  geom={'max_SD_difference':0.,'max_center_shift_error':0.,'ranks_unchanged':True}
  shifted=translate(draws,shift(sd,direction(prob[PRIMARY])));geom['max_SD_difference']=float(np.max(abs(shifted.std(axis=0)-sd)));geom['max_center_shift_error']=float(np.max(abs(shifted-draws-shift(sd,direction(prob[PRIMARY])))))
- geom['ranks_unchanged']=bool(np.array_equal(np.argsort(draws,axis=0),np.argsort(shifted,axis=0)));assert geom['max_SD_difference']<1e-12 and geom['ranks_unchanged']
+ order=np.argsort(draws,axis=0,kind='stable');ordered=np.take_along_axis(shifted,order,axis=0);original_ordered=np.take_along_axis(draws,order,axis=0);gaps=np.diff(ordered,axis=0);original_gaps=np.diff(original_ordered,axis=0);collapsed=(gaps==0)&(original_gaps>0)
+ geom['strict_order_inversions']=int((gaps<0).sum());geom['float64_tie_coalescences']=int(collapsed.sum());geom['maximum_coalesced_gap']=float(original_gaps[collapsed].max()) if collapsed.any() else 0.;geom['ranks_unchanged']=bool(geom['strict_order_inversions']==0);geom['rank_semantics']='Monotone location translation; ties can coalesce at float64 ULP. No strict ordering inversions.'
+ assert geom['max_SD_difference']<1e-12 and geom['ranks_unchanged'] and geom['maximum_coalesced_gap']<=2*np.spacing(abs(draws).max())
  save(OUT/'draw_geometry_audit.json',{'executive_summary':'Pure0.05SD translation; original draws, ranks and SD retained.','amplitude':AMPLITUDE,**geom});status('SCORED','scores.npz')
 def null_source(states,kind,rep):
  rng=np.random.default_rng(np.random.SeedSequence([SEED,{'STATE':1,'DATE':2}[kind],rep]));s=copy.deepcopy(states)
