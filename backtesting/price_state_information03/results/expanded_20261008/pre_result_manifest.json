@@ -1,0 +1,25 @@
+{
+  "executive_summary": "New expanded protocol frozen before U1 labels. Original experiment, report and result preserved.",
+  "PARENT_RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "PRIOR_PRICE03_RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "frozen_feature_sha256": "c4c702099009e49b796ac4ce724be950b39f6765dbf75b5a8c7ab08bc8658144",
+  "canonical_ledger_sha256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "original_raw_price_sha256": "b91b17af7e74fbfa1109f6a861715db32cda062a0a638ada1d251a4dab68b909",
+  "canonical_eligibility_sha256": "6568bd2838ec0b1ad7d4b2ec0dd3669521653a7069a118423be9a6f6145eb208",
+  "broader_labels_loaded": false,
+  "original_result_reviewed": true,
+  "prior_research_exposure": true,
+  "research_tests": {
+    "passed": 24,
+    "skipped": 2,
+    "log_SHA256": "b43dfe747c4e90be895e3da15f2c04d72726c7c8bac45cb12e25139881e8b4b4",
+    "skip_reason": "Only remote PRE/final result gated tests skipped"
+  },
+  "remote_binding": "External expanded_pre_receipt.json, only after exact ref verification",
+  "affected_tests": {
+    "passed": 68,
+    "skipped": 0,
+    "log_SHA256": "903bbc8abba98980ebee6bfa9262811f0238d4399f2f5df828f371ca10df826d"
+  },
+  "operational_clarification": "Missing nested private dependency restored from exact existing archive; affected retry passed68. No scientific logic changed."
+}

@@ -1,0 +1,5 @@
+fold,train_cutoff,test_start,test_end,train_cells,test_cells,evaluable,max_train_target_end,reason
+1,2009,2010,2013,0,0,False,,NO_PAST_FIXED14_HISTORY
+2,2013,2014,2017,0,21270,False,,NO_PAST_FIXED14_HISTORY
+3,2017,2018,2020,17190,17070,True,2017-12-26,EVALUABLE
+4,2020,2021,2024,34160,19674,True,2020-12-28,EVALUABLE

@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Exact inherited source bytes; publication lag does not certify unrevised values.",
+  "raw_source_SHA256": "b91b17af7e74fbfa1109f6a861715db32cda062a0a638ada1d251a4dab68b909",
+  "original_cache_recovery": true,
+  "new_numeric_download": false,
+  "revision_chain_available": false,
+  "rights": "Official public rates, attribution retained; offline research only, no submission feasibility claim",
+  "prior_PIT_audit": "backtesting/price_state_information03/results/price_pit_audit.json"
+}

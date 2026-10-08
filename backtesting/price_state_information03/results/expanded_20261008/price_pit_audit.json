@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Publication-safe joins preserved; historical revisions unresolved.",
+  "PRICE_DATA_READY": true,
+  "PIT": "C",
+  "PIT_LIMITATION_UNRESOLVED": true,
+  "validated_alpha_ready": false,
+  "current_vintage_contamination_flag": true,
+  "availability": "Observation+1 weekday EOD NY <= previous-origin-weekday16NY",
+  "stronger_fixed14_vintage": "NOT_AVAILABLE",
+  "all_numeric_features_pre_outcome": true
+}

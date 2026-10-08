@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Separate expanded protocol; all original study files protected.",
+  "branch": "track2/price-state-information-audit-03",
+  "HEAD_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "current_stage": "READINESS_AND_SPECIFICATION",
+  "completed_stages": [
+    "READINESS_AND_SPECIFICATION"
+  ],
+  "last_successful_artifact": "/workspace/scratch/935b41f252e9/price03-repo/backtesting/price_state_information03/results/expanded_20261008/experiment_spec.json",
+  "last_update": "2026-10-08T12:39:33.793800+00:00"
+}

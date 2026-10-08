@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Original study and the requested expanded protocol differ; user selected separate extension before new evaluation.",
+  "prior_verdict": "INCONCLUSIVE",
+  "prior_next": "V5.1-CENTER-BIAS-AUDIT-04",
+  "prior_broad_transfer_executed": false,
+  "expanded_classifications": [
+    "REAL_PRICE_STATE_SIGNAL",
+    "WEAK_PRICE_STATE_SIGNAL",
+    "NULL_LIKE",
+    "CONCENTRATED_OR_UNSTABLE",
+    "PIT_BLOCKED"
+  ],
+  "expanded_original_inputs_unchanged": true,
+  "original_reports_and_gates_never_overwritten": true,
+  "broader_outcome_exposure": "Previously exposed to LOCATION01 and center-bias research; this PRE cannot create independent OOS"
+}

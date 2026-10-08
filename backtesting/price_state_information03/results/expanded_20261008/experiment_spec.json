@@ -1,0 +1,300 @@
+{
+  "executive_summary": "User-approved separate extension, prior RESULT immutable. U0 exposed; U1 prior research exposure disclosed.",
+  "prior_RESULT": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+  "parent_RESULT": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+  "parent_PRE": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+  "authorization": "2026-10-08 user selected separately frozen extension",
+  "version": "expanded_20261008",
+  "primary_features": [
+    "DGS2_level",
+    "DGS2_5BD",
+    "DGS2_21BD",
+    "DGS2_63BD",
+    "DGS5_level",
+    "DGS5_5BD",
+    "DGS5_21BD",
+    "DGS5_63BD",
+    "DGS10_level",
+    "DGS10_5BD",
+    "DGS10_21BD",
+    "DGS10_63BD",
+    "2s5s",
+    "2s10s"
+  ],
+  "asset_encoding": [
+    "BAB",
+    "BRL",
+    "CAD",
+    "CHF",
+    "CNY",
+    "DKK",
+    "EUR",
+    "GBP",
+    "HML",
+    "INR",
+    "JPY",
+    "MKT",
+    "MOM",
+    "NOK",
+    "NZD",
+    "QMJ",
+    "SEK",
+    "SMB",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_2Y",
+    "UST_30Y",
+    "UST_5Y",
+    "UST_7Y"
+  ],
+  "log_horizon": true,
+  "model": {
+    "C": 1.0,
+    "intercept": true,
+    "class_weight": null,
+    "solver": "lbfgs",
+    "max_iter": 2000,
+    "tol": 1e-08,
+    "train_only_standardization": true,
+    "threshold": 0.5,
+    "seed": 31803
+  },
+  "amplitude_SD": 0.05,
+  "folds": [
+    [
+      2009,
+      2010,
+      2013
+    ],
+    [
+      2013,
+      2014,
+      2017
+    ],
+    [
+      2017,
+      2018,
+      2020
+    ],
+    [
+      2020,
+      2021,
+      2024
+    ]
+  ],
+  "fold_eligibility": [
+    {
+      "fold": 1,
+      "train_cutoff": 2009,
+      "test_start": 2010,
+      "test_end": 2013,
+      "train_cells": 0,
+      "test_cells": 0,
+      "evaluable": false,
+      "max_train_target_end": null,
+      "reason": "NO_PAST_FIXED14_HISTORY"
+    },
+    {
+      "fold": 2,
+      "train_cutoff": 2013,
+      "test_start": 2014,
+      "test_end": 2017,
+      "train_cells": 0,
+      "test_cells": 21270,
+      "evaluable": false,
+      "max_train_target_end": null,
+      "reason": "NO_PAST_FIXED14_HISTORY"
+    },
+    {
+      "fold": 3,
+      "train_cutoff": 2017,
+      "test_start": 2018,
+      "test_end": 2020,
+      "train_cells": 17190,
+      "test_cells": 17070,
+      "evaluable": true,
+      "max_train_target_end": "2017-12-26",
+      "reason": "EVALUABLE"
+    },
+    {
+      "fold": 4,
+      "train_cutoff": 2020,
+      "test_start": 2021,
+      "test_end": 2024,
+      "train_cells": 34160,
+      "test_cells": 19674,
+      "evaluable": true,
+      "max_train_target_end": "2020-12-28",
+      "reason": "EVALUABLE"
+    }
+  ],
+  "purge": "Exact canonical purged_mask: origin < boundary-189BD AND actual target_end < boundary; no stacked embargo",
+  "cutoff": "2024-12-18",
+  "primary_information_statistic": "Cell-weighted balanced direction accuracy; origin/year/asset-balanced views mandatory",
+  "rank_endpoint": "Spearman(probability, standardized center error); direction-Spearman also reported, parent original metric unchanged",
+  "confidence_edges": [
+    0,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "secondary_groups": {
+    "RATE_LEVEL": [
+      "DGS2_level",
+      "DGS5_level",
+      "DGS10_level"
+    ],
+    "RATE_CURVE": [
+      "2s5s",
+      "2s10s"
+    ],
+    "RECENT_CHANGE": [
+      "DGS2_5BD",
+      "DGS2_21BD",
+      "DGS5_5BD",
+      "DGS5_21BD",
+      "DGS10_5BD",
+      "DGS10_21BD"
+    ],
+    "TREND": [
+      "DGS2_63BD",
+      "DGS5_63BD",
+      "DGS10_63BD"
+    ],
+    "SELF_PRICE": [
+      "O_autocorr_1",
+      "O_autocorr_126",
+      "O_autocorr_21",
+      "O_autocorr_252",
+      "O_autocorr_5",
+      "O_autocorr_63",
+      "O_daily_move_1",
+      "O_daily_move_126",
+      "O_daily_move_21",
+      "O_daily_move_252",
+      "O_daily_move_5",
+      "O_daily_move_63",
+      "O_drawdown_1",
+      "O_drawdown_126",
+      "O_drawdown_21",
+      "O_drawdown_252",
+      "O_drawdown_5",
+      "O_drawdown_63",
+      "O_level_distance_1",
+      "O_level_distance_126",
+      "O_level_distance_21",
+      "O_level_distance_252",
+      "O_level_distance_5",
+      "O_level_distance_63",
+      "O_move_1",
+      "O_move_126",
+      "O_move_21",
+      "O_move_252",
+      "O_move_5",
+      "O_move_63",
+      "O_trend_1",
+      "O_trend_126",
+      "O_trend_21",
+      "O_trend_252",
+      "O_trend_5",
+      "O_trend_63"
+    ],
+    "VOL_STATE": [
+      "O_vol_1",
+      "O_vol_126",
+      "O_vol_21",
+      "O_vol_252",
+      "O_vol_5",
+      "O_vol_63",
+      "O_vol_percentile",
+      "O_vol_ratio"
+    ]
+  },
+  "secondary_missing": "Train median; all-missing zero, exact inherited LOCATION01 convention",
+  "nulls": {
+    "N0": {
+      "replicates": 5000,
+      "kind": "Permute frozen probabilities, preserving exact signs overall; extra fold-matched and balanced-sign views"
+    },
+    "N1": {
+      "replicates": 2000,
+      "kind": "Permute TRAIN labels within training year, refit same logistic"
+    },
+    "N2": {
+      "replicates": 2000,
+      "kind": "Permute TRAIN labels within asset, refit"
+    },
+    "N3": {
+      "replicates": 2000,
+      "kind": "Reorder whole chronological quarter label sequences within TRAIN asset/horizon; no heldout donor"
+    },
+    "N4": {
+      "replicates": 2000,
+      "kind": "Earlier finite daily price-vector donor only, broadcast by origin; retain structure, train/test source donor date <= original asof date; earliest state self-maps"
+    },
+    "N5": {
+      "replicates": 2000,
+      "kind": "14 iid Gaussian columns keyed by universe/fold/rep/origin, broadcast by origin; retain structural columns; train-only scaler"
+    },
+    "N6": "TRAINING_MAJORITY",
+    "N7": "ZERO_INFORMATION_05",
+    "N8": "NOT_AVAILABLE: no matching pre-existing implementation; no new persistence rule invented",
+    "FAMILY_MATCHED_RANDOM": {
+      "replicates": 5000,
+      "kind": "Permute each frozen family probability vector; exact corresponding sign prevalence; diagnostic only"
+    }
+  },
+  "bootstrap": {
+    "replicates": 5000,
+    "blocks": [
+      "origin",
+      "year",
+      "quarter",
+      "asset"
+    ],
+    "seed": 31803,
+    "fixed_fitted_predictions": true,
+    "no_IID_cells": true
+  },
+  "PIT": "C",
+  "PIT_claim_cap": "INCONCLUSIVE confidence; REAL_PRICE_STATE_SIGNAL forbidden without revision invariance/A-B provenance",
+  "classification_priority": [
+    "PIT_BLOCKED if C/D unresolved prevents historical information claim",
+    "CONCENTRATED_OR_UNSTABLE if aggregate positive but year/asset gross gain >=50% or fold inconsistency",
+    "REAL_PRICE_STATE_SIGNAL if all user gates",
+    "WEAK_PRICE_STATE_SIGNAL if consistent suggestive direction",
+    "NULL_LIKE otherwise"
+  ],
+  "real_gates": {
+    "balanced_or_AUC": [
+      0.55,
+      0.57
+    ],
+    "Spearman": 0.1,
+    "null_p": 0.05,
+    "CRPS_lt": 1.0,
+    "CRPS_below_null_q05": true,
+    "folds": "At least 4/5 where five exist; canonical requires 3/4 prescribed folds, unavailable folds cannot become positive evidence",
+    "max_year_asset_gross_share": 0.5,
+    "PIT": "A/B or documented exact-feature revision invariance"
+  },
+  "next_axes": {
+    "REAL_broad": "PRICE-STATE-LOCATION-04",
+    "REAL_rates_only": "PRICE-STATE-TRANSFER-04",
+    "PIT_BLOCKED": "PRICE-PIT-RECOVERY-04",
+    "NULL_LIKE": "SCORE-GEOMETRY-REASSESSMENT-04",
+    "weak_no_high_value_hypothesis": "SUBMISSION-HARDENING-04"
+  },
+  "technical_clarifications": [
+    "Canonical original4folds retained; only source-covered folds can be evaluated; annual tables do not invent new model folds",
+    "Fixed14 pooled model transfers to all canonical assets with deterministic one-hot encoding fixed from metadata",
+    "N4 historical donor resampling is non-exchangeable; it cannot be treated as an exact permutation p-value",
+    "Primary PIT gate is independent of score; C sensitivity can be scored without upgrading provenance",
+    "2000 refit nulls each; cheap matched signs5000. No result-dependent replicate selection",
+    "Original gate forbidding broad C evaluation is superseded ONLY for this user-approved new extension; original experiment/result files unchanged"
+  ],
+  "independent_OOS": false,
+  "no_official_submission": true,
+  "original_result_preserved": true
+}

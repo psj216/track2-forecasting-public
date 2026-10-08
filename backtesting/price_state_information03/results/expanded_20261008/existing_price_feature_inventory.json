@@ -1,0 +1,630 @@
+{
+  "executive_summary": "Mechanical inventory before broader labels; no new indicator or lag.",
+  "features": [
+    {
+      "name": "DGS2_level",
+      "formula": "Level",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 0,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RATE_LEVEL",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS2_5BD",
+      "formula": "level(t)-level(t-5 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 5,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS2_21BD",
+      "formula": "level(t)-level(t-21 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 21,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS2_63BD",
+      "formula": "level(t)-level(t-63 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 63,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "TREND",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS5_level",
+      "formula": "Level",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 0,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RATE_LEVEL",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS5_5BD",
+      "formula": "level(t)-level(t-5 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 5,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS5_21BD",
+      "formula": "level(t)-level(t-21 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 21,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS5_63BD",
+      "formula": "level(t)-level(t-63 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 63,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "TREND",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS10_level",
+      "formula": "Level",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 0,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RATE_LEVEL",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS10_5BD",
+      "formula": "level(t)-level(t-5 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 5,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS10_21BD",
+      "formula": "level(t)-level(t-21 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 21,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RECENT_CHANGE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "DGS10_63BD",
+      "formula": "level(t)-level(t-63 weekdays)",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 63,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "TREND",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "2s5s",
+      "formula": "DGS5-DGS2",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 0,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RATE_CURVE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "2s10s",
+      "formula": "DGS10-DGS2",
+      "source_file": "backtesting/new_information_search02/analyze.py:price_states",
+      "lag_BD": 0,
+      "availability": "Observation date+1weekday23:59:59 America/New_York <= origin precedingweekday16:00NY",
+      "missing": "Weekday reindex, forward fill at most3 weekdays; no outcome-aware imputation; parent eligible states finite",
+      "PIT": "C",
+      "family": "RATE_CURVE",
+      "preprocessing": "Train-only standardization"
+    },
+    {
+      "name": "O_autocorr_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_autocorr_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_autocorr_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_autocorr_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_autocorr_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_autocorr_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_daily_move_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_drawdown_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_level_distance_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_move_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_trend_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "SELF_PRICE"
+    },
+    {
+      "name": "O_vol_1",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_126",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_21",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_252",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_5",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_63",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_percentile",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    },
+    {
+      "name": "O_vol_ratio",
+      "formula": "Exact existing history_state/own_history transformation; original cached value, no rebuild",
+      "source_file": "qfbench2_track_forecasting/location01/feature_own_history.py",
+      "availability": "Canonical original daily as-of convention; historical revisions unbounded, PIT C",
+      "missing": "Existing train-median imputation, all-missing column zero; secondary only",
+      "PIT": "C",
+      "family": "VOL_STATE"
+    }
+  ],
+  "groups": {
+    "RATE_LEVEL": [
+      "DGS2_level",
+      "DGS5_level",
+      "DGS10_level"
+    ],
+    "RATE_CURVE": [
+      "2s5s",
+      "2s10s"
+    ],
+    "RECENT_CHANGE": [
+      "DGS2_5BD",
+      "DGS2_21BD",
+      "DGS5_5BD",
+      "DGS5_21BD",
+      "DGS10_5BD",
+      "DGS10_21BD"
+    ],
+    "TREND": [
+      "DGS2_63BD",
+      "DGS5_63BD",
+      "DGS10_63BD"
+    ],
+    "SELF_PRICE": [
+      "O_autocorr_1",
+      "O_autocorr_126",
+      "O_autocorr_21",
+      "O_autocorr_252",
+      "O_autocorr_5",
+      "O_autocorr_63",
+      "O_daily_move_1",
+      "O_daily_move_126",
+      "O_daily_move_21",
+      "O_daily_move_252",
+      "O_daily_move_5",
+      "O_daily_move_63",
+      "O_drawdown_1",
+      "O_drawdown_126",
+      "O_drawdown_21",
+      "O_drawdown_252",
+      "O_drawdown_5",
+      "O_drawdown_63",
+      "O_level_distance_1",
+      "O_level_distance_126",
+      "O_level_distance_21",
+      "O_level_distance_252",
+      "O_level_distance_5",
+      "O_level_distance_63",
+      "O_move_1",
+      "O_move_126",
+      "O_move_21",
+      "O_move_252",
+      "O_move_5",
+      "O_move_63",
+      "O_trend_1",
+      "O_trend_126",
+      "O_trend_21",
+      "O_trend_252",
+      "O_trend_5",
+      "O_trend_63"
+    ],
+    "VOL_STATE": [
+      "O_vol_1",
+      "O_vol_126",
+      "O_vol_21",
+      "O_vol_252",
+      "O_vol_5",
+      "O_vol_63",
+      "O_vol_percentile",
+      "O_vol_ratio"
+    ]
+  },
+  "OTHER_EXISTING_PRICE_STATE": "NOT_AVAILABLE",
+  "previous_center_error_direction_persistence": "NOT_AVAILABLE: no existing exactly matching implementation identified",
+  "price_forecast_state_features_excluded": true
+}
