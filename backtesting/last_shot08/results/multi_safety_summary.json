@@ -1,0 +1,75 @@
+{
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "expert_multi_components": {
+    "B0": {
+      "arithmetic": 1.0,
+      "cards": 11,
+      "composite": 1.0,
+      "joint": 1.0,
+      "marginal": 1.0,
+      "tail": 1.0
+    },
+    "B_NUMERIC": {
+      "arithmetic": 0.9943305632207378,
+      "cards": 11,
+      "composite": 0.9941631684619022,
+      "joint": 0.9684950517931172,
+      "marginal": 1.0062871863245866,
+      "tail": 0.9958193615860074
+    },
+    "R1": {
+      "arithmetic": 1.1571996284104862,
+      "cards": 11,
+      "composite": 1.11729477447847,
+      "joint": 0.9300664344286921,
+      "marginal": 1.1928615316724884,
+      "tail": 1.0145493598176822
+    },
+    "R2": {
+      "arithmetic": 1.0279521234170934,
+      "cards": 11,
+      "composite": 1.0245916903052874,
+      "joint": 1.0245878219836162,
+      "marginal": 1.0327782689761487,
+      "tail": 0.9962391407844522
+    },
+    "TEXT_LOCATION": {
+      "arithmetic": 0.9808749892297446,
+      "cards": 11,
+      "composite": 0.9787564124927794,
+      "joint": 0.9161490919122156,
+      "marginal": 0.9970752987662106,
+      "tail": 0.9958193615860074
+    }
+  },
+  "oracle_diagnostic_only": {
+    "F1": {
+      "arithmetic": 0.9649374802545317,
+      "cards": 6,
+      "composite": 0.96139856772875,
+      "joint": 0.8247561108176572,
+      "marginal": 0.9946445830124921,
+      "tail": 0.9923488503952015
+    },
+    "improved": 3,
+    "joint_damage_weighted_ratio_sum": -0.20693459580361034,
+    "routed_multi_cards": 3,
+    "summary": {
+      "arithmetic": 0.9703001503954858,
+      "cards": 11,
+      "composite": 0.9680418069517877,
+      "joint": 0.9100140796638057,
+      "marginal": 0.980667776954927,
+      "tail": 0.9914818795466694
+    },
+    "worsened": 0,
+    "worst_routed_multi_ratio": 0.9749882259086536
+  },
+  "oracle_safety_does_not_validate_predictive_routing": true,
+  "primary": {
+    "not_a_predictive_failure_result": true,
+    "reason": "Library oracle 0.9277688750836486 > frozen 0.75 threshold; no router implementation or fitting permitted",
+    "replicates_executed": 0,
+    "status": "NOT_RUN_KILL_GATE"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "not_a_predictive_failure_result": true,
+  "reason": "Library oracle 0.9277688750836486 > frozen 0.75 threshold; no router implementation or fitting permitted",
+  "replicates_executed": 0,
+  "status": "NOT_RUN_KILL_GATE"
+}

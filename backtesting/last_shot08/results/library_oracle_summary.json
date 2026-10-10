@@ -1,0 +1,73 @@
+{
+  "GEOMETRIC_ONLY_HEADROOM_RISK": false,
+  "arithmetic": 0.9452019502563065,
+  "best_card_ratio": 0.34345645498572774,
+  "cards": 24,
+  "composite": 0.9277688750836486,
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "families": {
+    "T2-F1": {
+      "arithmetic": 0.9649374802545317,
+      "cards": 6,
+      "composite": 0.96139856772875,
+      "joint": 0.8247561108176572,
+      "marginal": 0.9946445830124921,
+      "tail": 0.9923488503952015
+    },
+    "T2-F2": {
+      "arithmetic": 0.9446814494692141,
+      "cards": 6,
+      "composite": 0.9396685806897458,
+      "joint": null,
+      "marginal": 0.9119361489130008,
+      "tail": 0.9999999999999999
+    },
+    "T2-F3": {
+      "arithmetic": 0.9806127954705254,
+      "cards": 6,
+      "composite": 0.9800218025773856,
+      "joint": 0.9877573117479251,
+      "marginal": 0.9700383512116963,
+      "tail": 0.9920290614289752
+    },
+    "T2-F4": {
+      "arithmetic": 0.8905760758309547,
+      "cards": 6,
+      "composite": 0.8368454910892973,
+      "joint": null,
+      "marginal": 0.8403896199632997,
+      "tail": 0.8276414296955763
+    }
+  },
+  "future_informed": true,
+  "headroom": 0.07223112491635142,
+  "joint": 0.9100140796638057,
+  "marginal": 0.9273111555377557,
+  "multi": {
+    "arithmetic": 0.9703001503954858,
+    "cards": 11,
+    "composite": 0.9680418069517877,
+    "joint": 0.9100140796638057,
+    "marginal": 0.980667776954927,
+    "tail": 0.9914818795466694
+  },
+  "predictive_result": false,
+  "single": {
+    "arithmetic": 0.923965011677001,
+    "cards": 13,
+    "composite": 0.8950032431768816,
+    "joint": null,
+    "marginal": 0.8844371456165396,
+    "tail": 0.9163914439191505
+  },
+  "tail": 0.9500746864949429,
+  "whole_card_selection": true,
+  "winner_counts": {
+    "B0": 18,
+    "B_NUMERIC": 0,
+    "R1": 4,
+    "R2": 1,
+    "TEXT_LOCATION": 1
+  },
+  "worst_card_ratio": 1.0
+}

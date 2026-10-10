@@ -1,0 +1,19 @@
+{
+  "INDEPENDENT_OOS": false,
+  "LAST_SHOT08_RESULT": "INSUFFICIENT_EXISTING_EXPERT_HEADROOM",
+  "PRE_RESULT_LAST_SHOT08_SHA": "c91e6da24d8204e15c4f1e1acdb9f48a19f3076c",
+  "delivery_complete": false,
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "library_count": 5,
+  "no_new_alpha_claim": true,
+  "official_reference_unchanged": 0.9541,
+  "operational_status": "STOP_FULL_TESTS_TWO_FAILURES",
+  "oracle_arithmetic": 0.9452019502563065,
+  "oracle_composite": 0.9277688750836486,
+  "oracle_threshold": 0.75,
+  "parent_result_sha": "8475c1ac6cd7311ea1cf32e52bdbfab12206f7a9",
+  "router_built": false,
+  "router_fits": 0,
+  "scientific_gate_decision_complete": true,
+  "submission_performed": false
+}

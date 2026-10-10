@@ -1,0 +1,73 @@
+{
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "no_refit": true,
+  "not_current_family_holdout": true,
+  "prediction_file_sha256": "4762515a000f4cb04f1c08e2adcb98ab9f1ae8743e8e2cf1e880045b59da8e2c",
+  "published_summary_sha256": "a81ebf72d7a402cc43ae684d991b1aa430a9a18a076db5587ea377a137bdb73f",
+  "score": {
+    "arithmetic": 0.966157789672676,
+    "cards": 24,
+    "composite": 0.9575201920828957,
+    "families": {
+      "T2-F1": {
+        "arithmetic": 1.0,
+        "cards": 6,
+        "composite": 1.0,
+        "joint": 1.0,
+        "marginal": 1.0,
+        "tail": 1.0
+      },
+      "T2-F2": {
+        "arithmetic": 0.9482590052437995,
+        "cards": 6,
+        "composite": 0.9441036884567247,
+        "joint": null,
+        "marginal": 0.9188447951402944,
+        "tail": 0.9999999999999999
+      },
+      "T2-F3": {
+        "arithmetic": 1.0,
+        "cards": 6,
+        "composite": 1.0,
+        "joint": 1.0,
+        "marginal": 1.0,
+        "tail": 1.0
+      },
+      "T2-F4": {
+        "arithmetic": 0.9163721534469039,
+        "cards": 6,
+        "composite": 0.8903731808192162,
+        "joint": null,
+        "marginal": 0.9102921190658093,
+        "tail": 0.8276414296955763
+      }
+    },
+    "joint": 1.0,
+    "marginal": 0.9563254986668547,
+    "multi": {
+      "arithmetic": 1.0,
+      "cards": 11,
+      "composite": 1.0,
+      "joint": 1.0,
+      "marginal": 1.0,
+      "tail": 1.0
+    },
+    "single": {
+      "arithmetic": 0.9375220732418631,
+      "cards": 13,
+      "composite": 0.9229883065680138,
+      "joint": null,
+      "marginal": 0.9208633831103656,
+      "tail": 0.9163914439191505
+    },
+    "tail": 0.9538071101658381,
+    "winner_counts": {
+      "B0": 13,
+      "B_NUMERIC": 0,
+      "R1": 0,
+      "R2": 11,
+      "TEXT_LOCATION": 0
+    }
+  },
+  "status": "EXACT_ARCHIVED_LOCO_REFERENCE_ONLY"
+}

@@ -1,0 +1,15 @@
+{
+  "B0": 1.0,
+  "LIBRARY_ORACLE": 0.9452019502563065,
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "experts": {
+    "B0": 1.0,
+    "B_NUMERIC": 1.0093397529551995,
+    "R1": 1.0440306590546138,
+    "R2": 0.992135627613609,
+    "TEXT_LOCATION": 0.9948448584896784
+  },
+  "historical_T0_RIDGE_2WAY": 0.966157789672676,
+  "primary": "NOT_RUN_KILL_GATE",
+  "training_global_best": "NOT_RUN_KILL_GATE"
+}
