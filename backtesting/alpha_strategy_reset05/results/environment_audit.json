@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "branch": "track2/alpha-strategy-reset-05",
+  "parent_RESULT_SHA": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+  "parent_PRE_SHA": "ae0bdf3faf2b2ca32205f43cd417e32ab2119d4f",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "starting_tree_clean": true,
+  "python": "3.12.14",
+  "asof_utc": "2026-10-10T02:23:43.309814+00:00",
+  "parent_remote_verified": true,
+  "common_version": "2.4.3",
+  "common_commit": "03fc89cc666354e999768381bb923e60be5c1cee",
+  "official_scorer_executed": false,
+  "source_acquisition": false,
+  "new_forecasts": false,
+  "new_candidate_CRPS": false,
+  "private_truth_loaded": false,
+  "hidden_Development_labels_used": false
+}

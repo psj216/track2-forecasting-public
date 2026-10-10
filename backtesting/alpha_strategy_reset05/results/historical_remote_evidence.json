@@ -1,0 +1,489 @@
+{
+  "executive_summary": "Remote historical branches inspected read-only. Source implementations do not establish missing score results.",
+  "branches": [
+    {
+      "branch": "track2/v6-f2-event-analog",
+      "RESULT_SHA": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+      "commits": [
+        {
+          "sha": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Prototype cutoff-safe F2 event analog with sparse-data gate"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        },
+        {
+          "sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "parent_sha": "246b7b038b3d6590546b381e01fa288912a36037",
+          "message": "docs: keep historical diagnostics outside public repository"
+        }
+      ],
+      "source_file": {
+        "content": "## Executive summary (read this first)\n\nThe first V6-F2 implementation matches current events to earlier dated events\nin the same unit's text corpus, then samples only panel paths completed before\nthe current as-of. The public F2 inputs do not contain enough mature, repeated\nsame-event episodes. The head returns Numeric V3 exactly on all 27 public F2\ncards. It is a tested research prototype, **not a submission candidate**.\n\n### What the public inputs actually contain\n\nThe 27 F2 cards have 178 indexed documents in total, split into small,\nunit-specific corpora. The interpreter's cutoff-safe selection, currentness\nfilter, and event matcher find a current signal on 11 cards. For those 11,\nno card has three independent, same-event documents whose full forecast\nhorizon is already in that card's input panel before the as-of. Thus the\nsame-event sleeve has zero actual-asof activations. This is an input coverage\nresult, not a performance result.\n\nBefore deduplication or current-event matching, only three potentially mature\nevent documents appeared in the entire F2 practice corpus, and all three were\nwithin 14 calendar days on a single card. Treating them as independent worlds\nwould invent evidence. A valid response for a 63-business-day horizon needs\nthe panel after the historical document to extend through that full horizon,\nwhile ending before the current cutoff.\n\n### Boundaries enforced by the prototype\n\n- Only this unit's mounted corpus and panel are read. No sibling unit's panel,\n  later card, public target outcome, external network, or card-name rule enters\n  the runtime route.\n- Every historical document is dated before the current as-of. Its response\n  is extracted only when the full path fits inside the input panel before\n  the current as-of. Overlapping event cycles do not count as independent.\n- F1 and F4 retain V5.1 routing, and F3 stays Numeric V3 in `v6-f2` mode.\n  A missing or sparse F2 analog returns the original Numeric V3 array.\n- The local synthetic tests cover an active same-event path, two insufficient\n  episodes, an incomplete later episode, a post-asof document, and family\n  preservation. They do not establish a leaderboard improvement.\n\n### Next experiment gate\n\nObtain a legally usable, independently collected historical document stream\nwhose publication timestamps and source provenance are verifiable. Build a\ntraining dataset from dated events and the *same training panel's* subsequent\npaths, preserving strict rolling cutoffs. Keep raw outcome rows and unit-specific\nanswers out of the submission image and this public repository. A generic\nevent-response model can enter a candidate only after older-fit/newer-holdout\nevaluation shows enough independent events for each family and horizon.\nPublished practice cards may inform model development, but overlapping sibling\npanels must never become an answer lookup. The official Development budget is\nnot a substitute for the missing historical training set.\n",
+        "encoding": "utf-8",
+        "sha": "83c05ae8a4c8a0e07f733279570a9dfdb3bd26c8",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/b6ac06cba400a508835ce6c7baf837a4fe10332d/docs/V6-F2-FEASIBILITY.md",
+        "display_title": "V6-F2-FEASIBILITY.md"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": [
+        {
+          "path": "docs/V6-F2-FEASIBILITY.md",
+          "blob_sha": "83c05ae8a4c8a0e07f733279570a9dfdb3bd26c8"
+        }
+      ]
+    },
+    {
+      "branch": "track2/v6-full-event-engine",
+      "RESULT_SHA": "4612711d429ea4cd43191051c7c23537e1af9364",
+      "commits": [
+        {
+          "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+          "parent_sha": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+          "message": "Add V6 causal event library, family heads and nested validation gates"
+        },
+        {
+          "sha": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Prototype cutoff-safe F2 event analog with sparse-data gate"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        }
+      ],
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": [
+        {
+          "path": "ARTIFACT_PROVENANCE.md",
+          "blob_sha": "6b7005ee94bb3ff648333de84865a50a06702a39"
+        },
+        {
+          "path": "docs/V6-F2-FEASIBILITY.md",
+          "blob_sha": "83c05ae8a4c8a0e07f733279570a9dfdb3bd26c8"
+        }
+      ]
+    },
+    {
+      "branch": "track2/v7-event-memory",
+      "RESULT_SHA": "1b84e18e9ad3d3691406999080cab14814d79f5f",
+      "commits": [
+        {
+          "sha": "1b84e18e9ad3d3691406999080cab14814d79f5f",
+          "parent_sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+          "message": "Add cutoff-safe V7 event memory research mode"
+        },
+        {
+          "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+          "parent_sha": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+          "message": "Add V6 causal event library, family heads and nested validation gates"
+        },
+        {
+          "sha": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Prototype cutoff-safe F2 event analog with sparse-data gate"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        }
+      ],
+      "source_file": {
+        "content": "## Executive summary (read this first)\n\nV7 extends the opt-in V5.1 baseline with a static, dated Fed/BLS/ECB event\ncatalog. Its records contain release text or bounded excerpts, observable event\nfeatures, source links and checksums. They contain **no response paths or price\nseries**. The F2 engine reconstructs matured event responses from the unit's\nmounted panel at runtime and uses a small reliability-weighted empirical sleeve.\nF1/F3/F4 retain their V5.1 forecast. This is an experimental research mode,\nnot a claimed leaderboard improvement or automatic submission.\n\nV7's builder is `tools/build_v7_catalog.py`. BLS CPI and Employment Situation\nvintages come from the official news-release archive indexes; ECB policy\ndecisions come from the official older index and the year-specific HTML listing\nfragments. Fed statements and separately released minutes reuse the checksum-\nbound V6 input. BLS publication dates are cross-checked with their release\nmastheads. The `data/v7/catalog_manifest.json` records the catalog version,\nparser and schema versions, index hashes, event counts and source exclusions.\n`data/v7/index.json` holds only dates, record paths and checksums; future record\ncontents are not opened at inference. Each historical response's final panel\nobservation must precede the forecast cutoff. CPI and payroll release changes\nare **not** labeled as forecast surprises without an as-of consensus source.\nHistorical source fetches happen at build time only; inference runs offline.\n\nV6 packages an external historical event library containing official Federal Reserve\nBoard text, publication dates, deterministic semantic features and source checksums.\nThere are no prices, forecast outcomes, Development scores, unit-specific rules,\npretrained neural weights or fitted forecasting parameters in this library.\n\nSource policy: Track 2 ARTIFACT-POLICY.md revision 2026-09-21.1 permits static\nretrieval assets subject to each task's cutoff and the no-answer-lookup rule.\nOfficial source: https://www.federalreserve.gov/monetarypolicy/fomc_historical.htm\nUsage basis: United States federal government work, Federal Reserve Board publications.\n\nEach record in data/v6 has the source URL, raw source SHA-256, extracted-text SHA-256,\nretrieval timestamp, explicit publication date, document type and meeting episode.\nThe index binds every record to a feature-file SHA-256. The deterministic builder is\nversioned with this code; it downloads only statements and publicly released minutes.\nMeeting dates are never substituted for the later publication dates of minutes.\nTranscripts and delayed archival staff materials are excluded.\n\nAt runtime the catalog loader checks the date-only index before opening a record.\nIts returned subset contains only documents published by the task's as-of. Candidate\nresponses and pre-event volatility are calculated exclusively from the current unit's\nmounted panel. Every full historical response must end before its prediction cutoff.\nThe pseudo-asof replay repeats these cutoffs, and chronologically disjoint events\nseparate candidate selection from validation. All scoring calls delegate to the\npinned common toolkit; paired local ratios are not official normalized scores.\n\nThe current catalog covers Federal Reserve communications, not a comprehensive global\nshock archive. Unknown issuers, sparse events and failed validation can return the\nexact V5.1 baseline. A large document count does not establish independent support.\nThe build report records coverage and any sources rejected during collection.\n\nV6's numerical selection is performed within the unit at runtime on its pre-cutoff\npanel. No globally fitted forecasting weights are bundled. Pure code and static\nretrieval assets are disclosed here; any future fitted artifact needs its own\ntraining/selection cutoff and models[] entry. No official submission is automated.\n\nFrozen catalog build: 456 discovered URLs, 455 downloaded documents, 353 retained\nfeature records and 102 documents without a qualifying fingerprint. One source with\nconflicting release-date metadata was excluded. Both construction and runtime use\nthe same bounded text excerpt. Rebuilding requires beautifulsoup4==4.12.3; inference\ndoes not need Beautiful Soup or network access.\n",
+        "encoding": "utf-8",
+        "sha": "79115071c02eae34d00b4d22ed7f38f92bf776e2",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/1b84e18e9ad3d3691406999080cab14814d79f5f/ARTIFACT_PROVENANCE.md",
+        "display_title": "ARTIFACT_PROVENANCE.md"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": [
+        {
+          "path": "ARTIFACT_PROVENANCE.md",
+          "blob_sha": "79115071c02eae34d00b4d22ed7f38f92bf776e2"
+        },
+        {
+          "path": "docs/V6-F2-FEASIBILITY.md",
+          "blob_sha": "83c05ae8a4c8a0e07f733279570a9dfdb3bd26c8"
+        }
+      ]
+    },
+    {
+      "branch": "track2/v8-calibration-diagnostics",
+      "RESULT_SHA": "f7b69e64926d6b7bb56eeddd9b40414c13206c75",
+      "commits": [
+        {
+          "sha": "f7b69e64926d6b7bb56eeddd9b40414c13206c75",
+          "parent_sha": "448ded02bc1ac878a12e5d9037010c298de53bbb",
+          "message": "Experiment with bounded F1/F2 V8-A calibration"
+        },
+        {
+          "sha": "448ded02bc1ac878a12e5d9037010c298de53bbb",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Add V5.1 pseudo-asof calibration diagnostics"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        }
+      ],
+      "source_file": {
+        "content": "\"\"\"## Executive summary (read this first)\n\nFit only two family-level affine V8-A maps on old pseudo-asof V5.1 cases.\nFreeze the result before chronological select/later evaluation at 500, 1000,\nand 2000 draws with three seeds. The loss imports the canonical scorer through\nthe existing paired proxy; private reference scales are unavailable. Nothing\nhere changes the submission model. Outputs with outcomes stay outside the repo.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport tomllib\nfrom dataclasses import asdict\nfrom pathlib import Path\n\nimport numpy as np\nimport pandas as pd\n\nfrom backtesting.universe_backtest import _components\nfrom backtesting.v4_ablation import assign_splits, evaluate_case, opportunities, paired_metrics\nfrom qfbench2_track_forecasting.calibration_v8 import V8AConfig, transform_v8a\nfrom qfbench2_track_forecasting.text_first_v5 import apply_text_first_v5\n\nBIAS_GRID = (-0.05, 0.0, 0.05)\nSCALE_GRID = (0.95, 1.0, 1.05, 1.10)\nFAMILIES = (\"T2-F1\", \"T2-F2\")\nSEEDS = (\"v8a-seed-17\", \"v8a-seed-43\", \"v8a-seed-71\")\nDRAWS = (500, 1000, 2000)\n\n\ndef _replay(item, root: Path, draws: int, salt: str):\n    case = item.case\n    histories, forecast, actual, seed = evaluate_case(item, draws, salt)\n    card = tomllib.loads((root / \"units\" / case.unit_id / \"card.toml\").read_text())\n    samples, text_meta = apply_text_first_v5(\n        forecast.samples,\n        histories if case.family in {\"T2-F1\", \"T2-F4\"} else {},\n        case.assets,\n        case.horizons,\n        case.target_type,\n        case.target_frequency,\n        case.family,\n        item.cutoff,\n        seed,\n        root / \"units\" / case.unit_id / \"text\",\n        card[\"targets\"].get(\"value_unit\", \"\"),\n        interpreter_version=\"v5.1\",\n    )\n    if samples.shape != (draws, len(case.assets), len(case.horizons)):\n        raise ValueError(\"V5.1 sample shape differs from the declared target\")\n    return samples, actual, bool(text_meta[\"applied\"])\n\n\ndef _ratio(samples: np.ndarray, actual: np.ndarray, baseline_scales: dict[str, float]) -> float:\n    return float(paired_metrics(samples, actual, baseline_scales)[\"ratio\"])\n\n\ndef _summary(records: list[dict]) -> dict:\n    if not records:\n        return {\"cases\": 0}\n    frame = pd.DataFrame(records)\n    ratios = frame.ratio.clip(lower=1e-12)\n    return {\n        \"cases\": len(frame),\n        \"distinct_dates\": frame.cutoff.nunique(),\n        \"geometric_ratio\": float(np.exp(np.log(ratios).mean())),\n        \"arithmetic_ratio\": float(ratios.mean()),\n        \"median_ratio\": float(ratios.median()),\n        \"win_rate\": float((ratios < 1).mean()),\n        \"q90_ratio\": float(ratios.quantile(0.90)),\n        \"by_family\": {\n            name: float(np.exp(np.log(part.ratio.clip(lower=1e-12)).mean()))\n            for name, part in frame.groupby(\"family\")\n        },\n    }\n\n\ndef _fit(items, root: Path) -> tuple[V8AConfig, dict]:\n    \"\"\"Use the first seed and 500 draws in fit only; do not inspect later labels.\"\"\"\n    grid = [(b, a) for b in BIAS_GRID for a in SCALE_GRID]\n    results: dict[str, dict[tuple[float, float], list[float]]] = {\n        family: {candidate: [] for candidate in grid} for family in FAMILIES\n    }\n    counts = {family: 0 for family in FAMILIES}\n    for index, item in enumerate(items, 1):\n        family = item.case.family\n        if item.split != \"fit\" or family not in FAMILIES:\n            continue\n        base, y, _ = _replay(item, root, 500, SEEDS[0])\n        scales = _components(base.reshape(len(base), -1), y)\n        counts[family] += 1\n        for b, a in grid:\n            config = (V8AConfig(f1_bias=b, f1_scale=a) if family == \"T2-F1\"\n                      else V8AConfig(f2_bias=b, f2_scale=a))\n            candidate = transform_v8a(base, family, config)\n            results[family][(b, a)].append(_ratio(candidate, y, scales))\n        if index % 100 == 0:\n            print(f\"fit progress: {index}/{len(items)}\", flush=True)\n    # The objective is arithmetic mean of paired canonical composite ratios,\n    # with exact identity preferred in a numerical tie; no coverage targeting.\n    choices = {}\n    fit_result = {}\n    for family in FAMILIES:\n        if counts[family] < 30:\n            raise ValueError(f\"too few independent cases for {family}\")\n        ranked = sorted(grid, key=lambda pair: (\n            float(np.mean(results[family][pair])),\n            abs(pair[0]) + abs(pair[1] - 1.0),\n        ))\n        choices[family] = ranked[0]\n        fit_result[family] = {\n            \"cases\": counts[family],\n            \"selected\": {\"bias\": ranked[0][0], \"scale\": ranked[0][1]},\n            \"selected_arithmetic_ratio\": float(np.mean(results[family][ranked[0]])),\n            \"identity_arithmetic_ratio\": float(np.mean(results[family][(0.0, 1.0)])),\n            \"grid\": [\n                {\"bias\": b, \"scale\": a, \"arithmetic_ratio\": float(np.mean(results[family][b, a]))}\n                for b, a in grid\n            ],\n        }\n    f1b, f1a = choices[\"T2-F1\"]\n    f2b, f2a = choices[\"T2-F2\"]\n    return V8AConfig(f1b, f1a, f2b, f2a), fit_result\n\n\ndef _evaluate(items, root: Path, config: V8AConfig) -> dict:\n    outcomes = {}\n    for draws in DRAWS:\n        for salt in SEEDS:\n            records = []\n            active_text = 0\n            for index, item in enumerate(items, 1):\n                if item.split not in {\"select\", \"holdout\"}:\n                    continue\n                family = item.case.family\n                # F3/F4 are exact reference for the entire experiment. One seed\n                # checks actual arrays; their ratios are 1 on the other replays.\n                if family not in FAMILIES and (draws, salt) != (500, SEEDS[0]):\n                    records.append({\"split\": item.split, \"family\": family,\n                                    \"identity\": item.identity, \"cutoff\": item.cutoff, \"ratio\": 1.0})\n                    continue\n                base, y, active = _replay(item, root, draws, salt)\n                active_text += int(active)\n                candidate = transform_v8a(base, family, config)\n                if family not in FAMILIES:\n                    if candidate is not base or candidate.tobytes() != base.tobytes():\n                        raise AssertionError(f\"frozen {family} changed samples\")\n                    ratio = 1.0\n                else:\n                    scales = _components(base.reshape(len(base), -1), y)\n                    ratio = _ratio(candidate, y, scales)\n                records.append({\"split\": item.split, \"family\": family,\n                                \"identity\": item.identity, \"cutoff\": item.cutoff, \"ratio\": ratio})\n                if index % 100 == 0:\n                    print(f\"validation {draws}/{salt}: {index}/{len(items)}\", flush=True)\n            outcome = {\n                split: {\"all\": _summary([r for r in records if r[\"split\"] == split]),\n                        \"active\": _summary([r for r in records\n                                            if r[\"split\"] == split and r[\"family\"] in FAMILIES])}\n                for split in (\"select\", \"holdout\")\n            }\n            outcome[\"text_active_replays\"] = active_text\n            outcomes[f\"{draws}:{salt}\"] = outcome\n            print(f\"done {draws}/{salt}: \" + json.dumps({\n                split: outcome[split][\"all\"][\"geometric_ratio\"]\n                for split in (\"select\", \"holdout\")\n            }), flush=True)\n    return outcomes\n\n\ndef _gate(outcomes: dict) -> dict:\n    all_rows = []\n    for key, outcome in outcomes.items():\n        split_ratios = [outcome[s][\"all\"][\"geometric_ratio\"]\n                        for s in (\"select\", \"holdout\")]\n        family_ratios = [outcome[s][\"all\"][\"by_family\"][family]\n                         for s in (\"select\", \"holdout\") for family in FAMILIES]\n        case_counts = [outcome[s][\"all\"][\"cases\"] for s in (\"select\", \"holdout\")]\n        # Both independent chronological blocks and both affected families\n        # must improve for each seed/draw configuration.\n        all_rows.append({\"configuration\": key,\n                         \"combined_ratio\": float(np.exp(np.average(\n                             np.log(split_ratios), weights=case_counts))),\n                         \"split_ratios\": split_ratios, \"family_ratios\": family_ratios})\n    worst_combined = max(row[\"combined_ratio\"] for row in all_rows)\n    return {\"pass\": bool(worst_combined <= 0.97 and all(\n        max(row[\"split_ratios\"]) < 1 and max(row[\"family_ratios\"]) <= 1\n        for row in all_rows)),\n        \"worst_combined_ratio\": worst_combined, \"details\": all_rows,\n        \"requires_exact_f3_f4\": True,\n        \"threshold\": \"combined <=0.97; select/later <1; F1/F2 <=1; every seed and draw count\",\n    }\n\n\ndef run(root: Path, out: Path, cutoffs: int = 8) -> dict:\n    root, out = root.resolve(), out.resolve()\n    if out == root or root in out.parents:\n        raise ValueError(\"write diagnostics outside the public repository\")\n    out.mkdir(parents=True, exist_ok=False)\n    items = opportunities(root, cutoffs)\n    boundaries = assign_splits(items)\n    config, fit = _fit(items, root)\n    # Persist only after fit, before any validation outcomes are generated.\n    (out / \"frozen_fit.json\").write_text(json.dumps({\"config\": asdict(config),\n        \"fit\": fit, \"fit_draws\": 500, \"fit_seed\": SEEDS[0], \"boundaries\": boundaries,\n        \"grid\": {\"bias\": BIAS_GRID, \"scale\": SCALE_GRID}}, indent=2) + \"\\n\")\n    outcomes = _evaluate(items, root, config)\n    gate = _gate(outcomes)\n    result = {\"protocol\": \"v8-a-predeclared-1\", \"baseline\": \"frozen V5.1\", \"config\": asdict(config),\n              \"fit\": fit, \"validation\": outcomes, \"gate\": gate,\n              \"limitations\": [\"Public pseudo-asof, previously inspected; no independent holdout.\",\n                              \"Private official scales unavailable; use paired proxy.\",\n                              \"F3/F4 unchanged; overlapping events/horizons remain dependent.\"]}\n    (out / \"results.json\").write_text(json.dumps(result, indent=2) + \"\\n\")\n    return result\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(\".\"))\n    parser.add_argument(\"--out\", type=Path, required=True)\n    parser.add_argument(\"--cutoffs\", type=int, default=8)\n    args = parser.parse_args()\n    result = run(args.root, args.out, args.cutoffs)\n    print(json.dumps({\"config\": result[\"config\"], \"gate\": result[\"gate\"]}, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+        "encoding": "utf-8",
+        "sha": "624f196b2ea37bf64d46fa8098ea2a2b12417b5a",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/f7b69e64926d6b7bb56eeddd9b40414c13206c75/backtesting/v8a_ablation.py",
+        "display_title": "v8a_ablation.py"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    },
+    {
+      "branch": "track2/v9-multiscale-path",
+      "RESULT_SHA": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+      "commits": [
+        {
+          "sha": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+          "parent_sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "message": "Test fixed multi-scale historical path sampler"
+        },
+        {
+          "sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Freeze date-only V9 pseudo-asof origin manifest"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        }
+      ],
+      "source_file": {
+        "content": "\"\"\"## Executive summary (read this first)\n\nReplay V5.1 and V9-A on the V9-0 origin manifest fixed before the sampler.\nUse the canonical metric components through the existing paired scorer. The\nprivate normalization scale is unavailable: these are paired public-history\nproxies, not leaderboard estimates. All case-level losses stay outside git.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport tomllib\nfrom dataclasses import dataclass\nfrom pathlib import Path\n\nimport numpy as np\nimport pandas as pd\n\nfrom backtesting.universe_backtest import (\n    _components,\n    calibration_seed,\n    future_observations,\n    load_universe,\n)\nfrom backtesting.v4_ablation import paired_metrics\nfrom backtesting.v9_manifest import verify\nfrom qfbench2_track_forecasting.numeric_v3 import forecast_numeric_v3\nfrom qfbench2_track_forecasting.numeric_v9a import apply_multiscale_paths\nfrom qfbench2_track_forecasting.text_first_v5 import apply_text_first_v5\n\nSEEDS = (\"v9a-seed-17\", \"v9a-seed-43\", \"v9a-seed-71\")\nDRAWS = (500, 1000, 2000)\n\n\n@dataclass(frozen=True)\nclass Replay:\n    \"\"\"The one dated case specified by the frozen date-only manifest.\"\"\"\n\n    case: object\n    cutoff: str\n    end: str\n    split: str\n\n\ndef _family_case(item: Replay, root: Path, draws: int, salt: str, audit_f3: bool):\n    case = item.case\n    family = case.family\n    if family == \"T2-F3\" and not audit_f3:\n        return None\n    histories = {\n        asset: series[series.index.astype(str).str.slice(0, 10) <= item.cutoff]\n        for asset, series in case.histories.items()\n    }\n    seed = calibration_seed(case.unit_id, item.cutoff, family, draws, salt)\n    baseline = forecast_numeric_v3(\n        histories, case.assets, case.horizons, case.target_type,\n        case.target_frequency, draws, seed, family,\n    )\n    alternative = apply_multiscale_paths(\n        baseline, histories, case.assets, case.target_type, draws, seed, family\n    )\n    if family == \"T2-F3\":\n        if (alternative is not baseline\n                or alternative.samples.tobytes() != baseline.samples.tobytes()):\n            raise AssertionError(\"V9-A must exactly preserve F3 Numeric V3\")\n        return None\n    card = tomllib.loads((root / \"units\" / case.unit_id / \"card.toml\").read_text())\n    common = (histories if family in {\"T2-F1\", \"T2-F4\"} else {},\n              case.assets, case.horizons, case.target_type, case.target_frequency,\n              family, item.cutoff, seed, root / \"units\" / case.unit_id / \"text\",\n              card[\"targets\"].get(\"value_unit\", \"\"))\n    base_samples, base_text = apply_text_first_v5(\n        baseline.samples, *common, interpreter_version=\"v5.1\"\n    )\n    candidate_samples, candidate_text = apply_text_first_v5(\n        alternative.samples, *common, interpreter_version=\"v5.1\"\n    )\n    if base_text[\"applied\"] != candidate_text[\"applied\"]:\n        raise AssertionError(\"text router activation must be the same\")\n    y = future_observations(case, item.cutoff)\n    base_scale = _components(base_samples.reshape(draws, -1), y)\n    metric = paired_metrics(candidate_samples, y, base_scale)\n    # Score each requested horizon independently for diagnosis. These are\n    # canonical scorer calls on a slice, not an alternate objective.\n    horizon_rows = []\n    for index, horizon in enumerate(case.horizons):\n        observed = y.reshape(len(case.assets), len(case.horizons))[:, index]\n        control = base_samples[:, :, index : index + 1]\n        modified = candidate_samples[:, :, index : index + 1]\n        scale = _components(control.reshape(draws, -1), observed)\n        value = paired_metrics(modified, observed, scale)\n        horizon_rows.append({\"horizon\": horizon,\n                             \"bucket\": \"medium\" if horizon <= 21 else \"long\",\n                             \"ratio\": value[\"ratio\"],\n                             \"marginal_ratio\": value[\"marginal_ratio\"],\n                             \"tail_ratio\": value[\"tail_ratio\"]})\n    return metric, horizon_rows, baseline.metadata[\"regime\"][\"fragility\"], base_text[\"applied\"]\n\n\ndef _stats(rows: list[dict]) -> dict:\n    frame = pd.DataFrame(rows)\n    ratio = frame.ratio.clip(lower=1e-12)\n    return {\"cases\": len(frame), \"distinct_dates\": frame.cutoff.nunique(),\n            \"geometric_ratio\": float(np.exp(np.log(ratio).mean())),\n            \"arithmetic_ratio\": float(ratio.mean()),\n            \"worst_decile\": float(ratio.quantile(0.9)),\n            \"win_rate\": float((ratio < 1).mean()),\n            \"marginal_ratio\": float(np.exp(np.log(frame.marginal_ratio.clip(lower=1e-12)).mean())),\n            \"tail_ratio\": float(np.exp(np.log(frame.tail_ratio.clip(lower=1e-12)).mean())),\n            \"joint_ratio\": float(np.exp(np.log(frame.loc[\n                frame.joint_score_active, \"joint_ratio\"].clip(lower=1e-12)).mean()))\n            if frame.joint_score_active.any() else None}\n\n\ndef _groups(frame: pd.DataFrame, key: str) -> dict:\n    return {str(name): _stats(group.to_dict(\"records\"))\n            for name, group in frame.groupby(key) if len(group) >= 1}\n\n\ndef run(root: Path, out: Path, manifest_path: Path, draws: int, salt: str) -> dict:\n    if draws not in DRAWS or salt not in SEEDS:\n        raise ValueError(\"only the predeclared draw counts and seeds are allowed\")\n    root, out = root.resolve(), out.resolve()\n    if out == root or root in out.parents:\n        raise ValueError(\"case outcomes must be written outside public git\")\n    out.mkdir(parents=True, exist_ok=False)\n    manifest = json.loads(manifest_path.read_text())\n    verify(manifest, root)\n    cases = {case.unit_id: case for case in load_universe(root)}\n    records = []\n    horizon_records = []\n    frozen_audit = 0\n    for index, row in enumerate(manifest[\"entries\"], 1):\n        if row[\"split\"] == \"purged\":\n            continue\n        case = cases[row[\"unit_id\"]]\n        item = Replay(case, row[\"cutoff\"], row[\"end\"], row[\"split\"])\n        audit = (draws, salt) == (500, SEEDS[0])\n        value = _family_case(item, root, draws, salt, audit)\n        if case.family == \"T2-F3\":\n            frozen_audit += int(audit)\n            metric = {\"ratio\": 1.0, \"marginal_ratio\": 1.0,\n                      \"tail_ratio\": 1.0, \"joint_ratio\": 1.0}\n            fragility, text_active = None, False\n        else:\n            assert value is not None\n            metric, per_horizon, fragility, text_active = value\n            for horizon in per_horizon:\n                horizon_records.append({\"family\": case.family, \"split\": item.split,\n                                        \"cutoff\": item.cutoff, **horizon})\n        records.append({\"family\": case.family, \"split\": item.split, \"cutoff\": item.cutoff,\n                        \"unit_id\": case.unit_id, \"target_type\": case.target_type,\n                        \"frequency\": case.target_frequency,\n                        \"fragility_bucket\": (\"unknown\" if fragility is None else\n                                             \"low\" if fragility < .2 else\n                                             \"mid\" if fragility < .4 else \"high\"),\n                        \"joint_score_active\": row[\"target_cells\"] > 1,\n                        \"text_active\": text_active, **metric})\n        if index % 100 == 0:\n            print(f\"V9-A {draws}/{salt}: {index}/{len(manifest['entries'])}\", flush=True)\n    detail = pd.DataFrame(records)\n    horizon = pd.DataFrame(horizon_records)\n    detail.to_parquet(out / \"case_ratios.parquet\", index=False)\n    horizon.to_parquet(out / \"horizon_ratios.parquet\", index=False)\n    summaries = {\n        \"protocol\": \"v9-a-multiscale-fixed-1\", \"manifest_sha256\": manifest[\"entries_sha256\"],\n        \"draws\": draws, \"seed\": salt, \"f3_byte_audits\": frozen_audit,\n        \"text_active_cases\": int(detail.text_active.sum()),\n        \"all\": _stats(records),\n        \"splits\": _groups(detail, \"split\"),\n        \"families\": _groups(detail, \"family\"),\n        \"family_by_split\": _groups(detail.assign(family_split=detail.family + \"/\" + detail.split),\n                                   \"family_split\"),\n        \"fragility\": _groups(detail[detail.family != \"T2-F3\"], \"fragility_bucket\"),\n        \"target_type\": _groups(detail, \"target_type\"),\n        \"horizon_buckets\": {\n            str(name): {\"cells\": len(group), \"geometric_ratio\": float(np.exp(np.log(\n                group.ratio.clip(lower=1e-12)).mean())),\n                        \"marginal_ratio\": float(np.exp(np.log(\n                            group.marginal_ratio.clip(lower=1e-12)).mean())),\n                        \"tail_ratio\": float(np.exp(np.log(\n                            group.tail_ratio.clip(lower=1e-12)).mean()))}\n            for name, group in horizon.groupby([\"split\", \"family\", \"bucket\"])\n        },\n    }\n    (out / \"summary.json\").write_text(json.dumps(summaries, indent=2) + \"\\n\")\n    return summaries\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(\".\"))\n    parser.add_argument(\"--manifest\", type=Path,\n                        default=Path(\"backtesting/v9_frozen_origins.json\"))\n    parser.add_argument(\"--out\", type=Path, required=True)\n    parser.add_argument(\"--draws\", type=int, default=500)\n    parser.add_argument(\"--seed\", choices=SEEDS, default=SEEDS[0])\n    args = parser.parse_args()\n    result = run(args.root, args.out, args.manifest, args.draws, args.seed)\n    print(json.dumps({\"all\": result[\"all\"], \"splits\": result[\"splits\"],\n                      \"families\": result[\"families\"]}, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+        "encoding": "utf-8",
+        "sha": "97b66469e8cd04aab8183f116819084eaa2d4708",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/08edc6ad82ef097c05b8f6d294fac4db4d819e9b/backtesting/v9a_replay.py",
+        "display_title": "v9a_replay.py"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    },
+    {
+      "branch": "track2/v9-vol-term-structure",
+      "RESULT_SHA": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+      "commits": [
+        {
+          "sha": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+          "parent_sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "message": "Test bounded forward volatility term structure"
+        },
+        {
+          "sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Freeze date-only V9 pseudo-asof origin manifest"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        }
+      ],
+      "source_file": {
+        "content": "\"\"\"## Executive summary (read this first)\n\nReplay V5.1 and V9-B on the V9-0 origin manifest fixed before V9-A.\nUse the canonical metric components through the existing paired scorer. The\nprivate normalization scale is unavailable: these are paired public-history\nproxies, not leaderboard estimates. All case-level losses stay outside git.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport tomllib\nfrom dataclasses import dataclass\nfrom pathlib import Path\n\nimport numpy as np\nimport pandas as pd\n\nfrom backtesting.universe_backtest import (\n    _components,\n    calibration_seed,\n    future_observations,\n    load_universe,\n)\nfrom backtesting.v4_ablation import paired_metrics\nfrom backtesting.v9_manifest import verify\nfrom qfbench2_track_forecasting.numeric_v3 import forecast_numeric_v3\nfrom qfbench2_track_forecasting.numeric_v9b import apply_vol_term_structure\nfrom qfbench2_track_forecasting.text_first_v5 import apply_text_first_v5\n\nSEEDS = (\"v9a-seed-17\", \"v9a-seed-43\", \"v9a-seed-71\")\nDRAWS = (500, 1000, 2000)\n\n\n@dataclass(frozen=True)\nclass Replay:\n    \"\"\"The one dated case specified by the frozen date-only manifest.\"\"\"\n\n    case: object\n    cutoff: str\n    end: str\n    split: str\n\n\ndef _family_case(item: Replay, root: Path, draws: int, salt: str, audit_f3: bool):\n    case = item.case\n    family = case.family\n    if family == \"T2-F3\" and not audit_f3:\n        return None\n    histories = {\n        asset: series[series.index.astype(str).str.slice(0, 10) <= item.cutoff]\n        for asset, series in case.histories.items()\n    }\n    seed = calibration_seed(case.unit_id, item.cutoff, family, draws, salt)\n    baseline = forecast_numeric_v3(\n        histories, case.assets, case.horizons, case.target_type,\n        case.target_frequency, draws, seed, family,\n    )\n    alternative = apply_vol_term_structure(baseline, case.assets, family)\n    if family == \"T2-F3\":\n        if (alternative is not baseline\n                or alternative.samples.tobytes() != baseline.samples.tobytes()):\n            raise AssertionError(\"V9-B must exactly preserve F3 Numeric V3\")\n        return None\n    card = tomllib.loads((root / \"units\" / case.unit_id / \"card.toml\").read_text())\n    common = (histories if family in {\"T2-F1\", \"T2-F4\"} else {},\n              case.assets, case.horizons, case.target_type, case.target_frequency,\n              family, item.cutoff, seed, root / \"units\" / case.unit_id / \"text\",\n              card[\"targets\"].get(\"value_unit\", \"\"))\n    base_samples, base_text = apply_text_first_v5(\n        baseline.samples, *common, interpreter_version=\"v5.1\"\n    )\n    candidate_samples, candidate_text = apply_text_first_v5(\n        alternative.samples, *common, interpreter_version=\"v5.1\"\n    )\n    if base_text[\"applied\"] != candidate_text[\"applied\"]:\n        raise AssertionError(\"text router activation must be the same\")\n    y = future_observations(case, item.cutoff)\n    base_scale = _components(base_samples.reshape(draws, -1), y)\n    metric = paired_metrics(candidate_samples, y, base_scale)\n    # Score each requested horizon independently for diagnosis. These are\n    # canonical scorer calls on a slice, not an alternate objective.\n    horizon_rows = []\n    for index, horizon in enumerate(case.horizons):\n        observed = y.reshape(len(case.assets), len(case.horizons))[:, index]\n        control = base_samples[:, :, index : index + 1]\n        modified = candidate_samples[:, :, index : index + 1]\n        scale = _components(control.reshape(draws, -1), observed)\n        value = paired_metrics(modified, observed, scale)\n        horizon_rows.append({\"horizon\": horizon,\n                             \"bucket\": \"medium\" if horizon <= 21 else \"long\",\n                             \"ratio\": value[\"ratio\"],\n                             \"marginal_ratio\": value[\"marginal_ratio\"],\n                             \"tail_ratio\": value[\"tail_ratio\"]})\n    return metric, horizon_rows, baseline.metadata[\"regime\"][\"fragility\"], base_text[\"applied\"]\n\n\ndef _stats(rows: list[dict]) -> dict:\n    frame = pd.DataFrame(rows)\n    ratio = frame.ratio.clip(lower=1e-12)\n    return {\"cases\": len(frame), \"distinct_dates\": frame.cutoff.nunique(),\n            \"geometric_ratio\": float(np.exp(np.log(ratio).mean())),\n            \"arithmetic_ratio\": float(ratio.mean()),\n            \"worst_decile\": float(ratio.quantile(0.9)),\n            \"win_rate\": float((ratio < 1).mean()),\n            \"marginal_ratio\": float(np.exp(np.log(frame.marginal_ratio.clip(lower=1e-12)).mean())),\n            \"tail_ratio\": float(np.exp(np.log(frame.tail_ratio.clip(lower=1e-12)).mean())),\n            \"joint_ratio\": float(np.exp(np.log(frame.loc[\n                frame.joint_score_active, \"joint_ratio\"].clip(lower=1e-12)).mean()))\n            if frame.joint_score_active.any() else None}\n\n\ndef _groups(frame: pd.DataFrame, key: str) -> dict:\n    return {str(name): _stats(group.to_dict(\"records\"))\n            for name, group in frame.groupby(key) if len(group) >= 1}\n\n\ndef run(root: Path, out: Path, manifest_path: Path, draws: int, salt: str) -> dict:\n    if draws not in DRAWS or salt not in SEEDS:\n        raise ValueError(\"only the predeclared draw counts and seeds are allowed\")\n    root, out = root.resolve(), out.resolve()\n    if out == root or root in out.parents:\n        raise ValueError(\"case outcomes must be written outside public git\")\n    out.mkdir(parents=True, exist_ok=False)\n    manifest = json.loads(manifest_path.read_text())\n    verify(manifest, root)\n    cases = {case.unit_id: case for case in load_universe(root)}\n    records = []\n    horizon_records = []\n    frozen_audit = 0\n    for index, row in enumerate(manifest[\"entries\"], 1):\n        if row[\"split\"] == \"purged\":\n            continue\n        case = cases[row[\"unit_id\"]]\n        item = Replay(case, row[\"cutoff\"], row[\"end\"], row[\"split\"])\n        audit = (draws, salt) == (500, SEEDS[0])\n        value = _family_case(item, root, draws, salt, audit)\n        if case.family == \"T2-F3\":\n            frozen_audit += int(audit)\n            metric = {\"ratio\": 1.0, \"marginal_ratio\": 1.0,\n                      \"tail_ratio\": 1.0, \"joint_ratio\": 1.0}\n            fragility, text_active = None, False\n        else:\n            assert value is not None\n            metric, per_horizon, fragility, text_active = value\n            for horizon in per_horizon:\n                horizon_records.append({\"family\": case.family, \"split\": item.split,\n                                        \"cutoff\": item.cutoff, **horizon})\n        records.append({\"family\": case.family, \"split\": item.split, \"cutoff\": item.cutoff,\n                        \"unit_id\": case.unit_id, \"target_type\": case.target_type,\n                        \"frequency\": case.target_frequency,\n                        \"fragility_bucket\": (\"unknown\" if fragility is None else\n                                             \"low\" if fragility < .2 else\n                                             \"mid\" if fragility < .4 else \"high\"),\n                        \"joint_score_active\": row[\"target_cells\"] > 1,\n                        \"text_active\": text_active, **metric})\n        if index % 100 == 0:\n            print(f\"V9-B {draws}/{salt}: {index}/{len(manifest['entries'])}\", flush=True)\n    detail = pd.DataFrame(records)\n    horizon = pd.DataFrame(horizon_records)\n    detail.to_parquet(out / \"case_ratios.parquet\", index=False)\n    horizon.to_parquet(out / \"horizon_ratios.parquet\", index=False)\n    summaries = {\n        \"protocol\": \"v9-b-vol-term-fixed-1\", \"manifest_sha256\": manifest[\"entries_sha256\"],\n        \"draws\": draws, \"seed\": salt, \"f3_byte_audits\": frozen_audit,\n        \"text_active_cases\": int(detail.text_active.sum()),\n        \"all\": _stats(records),\n        \"splits\": _groups(detail, \"split\"),\n        \"families\": _groups(detail, \"family\"),\n        \"family_by_split\": _groups(detail.assign(family_split=detail.family + \"/\" + detail.split),\n                                   \"family_split\"),\n        \"fragility\": _groups(detail[detail.family != \"T2-F3\"], \"fragility_bucket\"),\n        \"target_type\": _groups(detail, \"target_type\"),\n        \"horizon_buckets\": {\n            str(name): {\"cells\": len(group), \"geometric_ratio\": float(np.exp(np.log(\n                group.ratio.clip(lower=1e-12)).mean())),\n                        \"marginal_ratio\": float(np.exp(np.log(\n                            group.marginal_ratio.clip(lower=1e-12)).mean())),\n                        \"tail_ratio\": float(np.exp(np.log(\n                            group.tail_ratio.clip(lower=1e-12)).mean()))}\n            for name, group in horizon.groupby([\"split\", \"family\", \"bucket\"])\n        },\n    }\n    (out / \"summary.json\").write_text(json.dumps(summaries, indent=2) + \"\\n\")\n    return summaries\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(\".\"))\n    parser.add_argument(\"--manifest\", type=Path,\n                        default=Path(\"backtesting/v9_frozen_origins.json\"))\n    parser.add_argument(\"--out\", type=Path, required=True)\n    parser.add_argument(\"--draws\", type=int, default=500)\n    parser.add_argument(\"--seed\", choices=SEEDS, default=SEEDS[0])\n    args = parser.parse_args()\n    result = run(args.root, args.out, args.manifest, args.draws, args.seed)\n    print(json.dumps({\"all\": result[\"all\"], \"splits\": result[\"splits\"],\n                      \"families\": result[\"families\"]}, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+        "encoding": "utf-8",
+        "sha": "e14b6b4563061806ba7bb35518f6b49dffe887cf",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/1d15a4e759a92380e09fcadd12c3e9cc714951e0/backtesting/v9b_replay.py",
+        "display_title": "v9b_replay.py"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    },
+    {
+      "branch": "track2/v9-vol-term-structure-isolated",
+      "RESULT_SHA": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    },
+    {
+      "branch": "track2/v10-data",
+      "RESULT_SHA": "3e6cf26649ba11d9e78a91e866cb1b6adb6631c6",
+      "commits": [
+        {
+          "sha": "3e6cf26649ba11d9e78a91e866cb1b6adb6631c6",
+          "parent_sha": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+          "message": "Audit external F1 sources and freeze V10-DATA dates"
+        },
+        {
+          "sha": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+          "parent_sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "message": "Freeze V10 date-only shadow benchmark feasibility audit"
+        },
+        {
+          "sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Freeze date-only V9 pseudo-asof origin manifest"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        }
+      ],
+      "source_file": {
+        "content": "{\n  \"## Executive summary (read this first)\": \"Provisional F1 external-source dates only; FINAL remains unscored.\",\n  \"protocol\": \"v10-data-external-dates-1\",\n  \"outcome_magnitudes_or_scores_used\": false,\n  \"source_snapshot_sha256\": \"3309dbd251e0e84e4fc3a8a1bf522dab7825768cff7a6eab1a4f9fb719df09fd\",\n  \"exposure\": {\n    \"v9_manifest_rows_sha256\": \"d36891189569ff554bfac88e808fc8847ffb6280a81608dc47937738ef098217\",\n    \"v10_shadow_rows_sha256\": \"f4e5e28c0446fb50d5f1fcdb168579297328045708150797c05c02f74e37604a\",\n    \"legacy_years\": [\n      1993,\n      1994,\n      1995,\n      1996,\n      1997,\n      1998,\n      1999,\n      2000,\n      2001,\n      2002,\n      2003,\n      2004,\n      2005,\n      2006,\n      2007,\n      2008,\n      2009,\n      2010,\n      2011,\n      2012,\n      2013,\n      2014,\n      2015,\n      2016,\n      2017,\n      2018,\n      2019,\n      2020,\n      2021,\n      2022,\n      2023,\n      2024\n    ],\n    \"v9_scored_and_v10_inspected_years\": [\n      1993,\n      1994,\n      1995,\n      1996,\n      1997,\n      1998,\n      1999,\n      2000,\n      2001,\n      2002,\n      2003,\n      2004,\n      2005,\n      2006,\n      2007,\n      2008,\n      2009,\n      2010,\n      2011,\n      2012,\n      2013,\n      2014,\n      2015,\n      2016,\n      2017,\n      2018,\n      2019,\n      2020,\n      2021,\n      2022,\n      2023,\n      2024\n    ],\n    \"v6_v7_event_origin_ledger_complete\": false\n  },\n  \"exposed_market_years\": [\n    1993,\n    1994,\n    1995,\n    1996,\n    1997,\n    1998,\n    1999,\n    2000,\n    2001,\n    2002,\n    2003,\n    2004,\n    2005,\n    2006,\n    2007,\n    2008,\n    2009,\n    2010,\n    2011,\n    2012,\n    2013,\n    2014,\n    2015,\n    2016,\n    2017,\n    2018,\n    2019,\n    2020,\n    2021,\n    2022,\n    2023,\n    2024\n  ],\n  \"safe_years_in_2000_2025\": [\n    2025\n  ],\n  \"pre1994_provisional_split\": {\n    \"FIT\": \"1971-1980\",\n    \"embargo_1\": 1981,\n    \"SELECT\": \"1982-1987\",\n    \"embargo_2\": 1988,\n    \"FINAL\": \"1989-1993\",\n    \"prospective\": 2025\n  },\n  \"template_count\": 23,\n  \"source_grade_counts\": {\n    \"secondary_revised_factor\": 2,\n    \"provisional_current_history_market\": 19,\n    \"vintage_required_monthly\": 2\n  },\n  \"excluded_template_years\": {\n    \"PURGED_EMBARGO\": 40,\n    \"insufficient_history_or_full_horizon\": 20,\n    \"monthly_release_vintage_missing\": 2,\n    \"prior_market_episode_year\": 666\n  },\n  \"coverage\": [\n    {\n      \"reliability\": \"provisional_current_history_market\",\n      \"split\": \"FINAL\",\n      \"origins\": 72,\n      \"templates\": 18,\n      \"episode_years\": [\n        1989,\n        1990,\n        1991,\n        1992\n      ]\n    },\n    {\n      \"reliability\": \"provisional_current_history_market\",\n      \"split\": \"FIT\",\n      \"origins\": 127,\n      \"templates\": 18,\n      \"episode_years\": [\n        1972,\n        1973,\n        1974,\n        1975,\n        1976,\n        1977,\n        1978,\n        1979,\n        1980\n      ]\n    },\n    {\n      \"reliability\": \"provisional_current_history_market\",\n      \"split\": \"PROSPECTIVE_SINGLE_YEAR\",\n      \"origins\": 19,\n      \"templates\": 19,\n      \"episode_years\": [\n        2025\n      ]\n    },\n    {\n      \"reliability\": \"provisional_current_history_market\",\n      \"split\": \"SELECT\",\n      \"origins\": 108,\n      \"templates\": 18,\n      \"episode_years\": [\n        1982,\n        1983,\n        1984,\n        1985,\n        1986,\n        1987\n      ]\n    },\n    {\n      \"reliability\": \"secondary_revised_factor\",\n      \"split\": \"FINAL\",\n      \"origins\": 8,\n      \"templates\": 2,\n      \"episode_years\": [\n        1989,\n        1990,\n        1991,\n        1992\n      ]\n    },\n    {\n      \"reliability\": \"secondary_revised_factor\",\n      \"split\": \"FIT\",\n      \"origins\": 18,\n      \"templates\": 2,\n      \"episode_years\": [\n        1972,\n        1973,\n        1974,\n        1975,\n        1976,\n        1977,\n        1978,\n        1979,\n        1980\n      ]\n    },\n    {\n      \"reliability\": \"secondary_revised_factor\",\n      \"split\": \"PROSPECTIVE_SINGLE_YEAR\",\n      \"origins\": 2,\n      \"templates\": 2,\n      \"episode_years\": [\n        2025\n      ]\n    },\n    {\n      \"reliability\": \"secondary_revised_factor\",\n      \"split\": \"SELECT\",\n      \"origins\": 12,\n      \"templates\": 2,\n      \"episode_years\": [\n        1982,\n        1983,\n        1984,\n        1985,\n        1986,\n        1987\n      ]\n    }\n  ],\n  \"rows_sha256\": \"ae7dd2f14f60ffe5484c09079e86c4924c6b2fc7a10c0c41951a3e5409498724\",\n  \"strictly_eligible_asof_origin_count\": 0,\n  \"strict_split_counts\": {\n    \"SELECT\": {\n      \"episode_years\": 0,\n      \"templates\": 0\n    },\n    \"FINAL\": {\n      \"episode_years\": 0,\n      \"templates\": 0\n    }\n  },\n  \"gate\": \"FAIL: independent as-of-safe F1 validation insufficient\",\n  \"blocking_reasons\": [\n    \"1994-2024 market-year episodes already exposed by V9 and legacy studies; 2000-2025 has at most one remaining year.\",\n    \"No archived as-of snapshots are available for current-history H.10/H.15 files.\",\n    \"CPI/UNRATE ALFRED vintage retrieval requires a registered FRED API key.\",\n    \"French factor files reconstruct history and remain secondary without archives.\",\n    \"An exhaustive V6/V7 event-origin interval ledger is unavailable.\",\n    \"Pre-1994 provisional splits omit EUR and cannot represent all F1 strata.\"\n  ],\n  \"manifest_file_sha256\": \"85ff57d66bcbb63e599e561a54600ed27f3170239e04b4820abd327306fec4a3\"\n}\n",
+        "encoding": "utf-8",
+        "sha": "b95f97681e1e77e409ef800fddb72d5bef8035f1",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/3e6cf26649ba11d9e78a91e866cb1b6adb6631c6/backtesting/v10_data/v10_data_audit.json",
+        "display_title": "v10_data_audit.json"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": [
+        {
+          "path": "backtesting/v10_data/README.md",
+          "blob_sha": "27e0d19a58004b98e450a3181f2af07c8e41d5d3"
+        },
+        {
+          "path": "backtesting/v10_data/source_snapshot.json",
+          "blob_sha": "bfe4ce25f95e989c708911b2150266c0f4e58252"
+        },
+        {
+          "path": "backtesting/v10_data/v10_data_audit.json",
+          "blob_sha": "b95f97681e1e77e409ef800fddb72d5bef8035f1"
+        },
+        {
+          "path": "backtesting/v10_data/v10_data_shadow_manifest.csv",
+          "blob_sha": "bbcda3f079dc04391267f8b98cddce7503c8cbcd"
+        },
+        {
+          "path": "backtesting/v10_data_manifest.py",
+          "blob_sha": "5cf1cc135f6960ac839cab3d27055c7a2366a0a6"
+        },
+        {
+          "path": "backtesting/v10_shadow/README.md",
+          "blob_sha": "2e40b5d95febaf42264c05f12414818db7e8501e"
+        },
+        {
+          "path": "backtesting/v10_shadow/v10_shadow_audit.json",
+          "blob_sha": "4151b5f2363469b94b1304a29514fd2f0108d329"
+        },
+        {
+          "path": "backtesting/v10_shadow/v10_shadow_manifest.csv",
+          "blob_sha": "9666c7d2deb701a2d02f914af5492a14b549433d"
+        },
+        {
+          "path": "backtesting/v10_shadow_manifest.py",
+          "blob_sha": "ac7f80aca1cb98a8e1899e5bf45556017616aa12"
+        },
+        {
+          "path": "backtesting/v10_source_snapshot.py",
+          "blob_sha": "916c329f6d33628961e9ff35f370d81d2e35eeb0"
+        }
+      ]
+    },
+    {
+      "branch": "track2/v10-shadow-benchmark",
+      "RESULT_SHA": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+      "commits": [
+        {
+          "sha": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+          "parent_sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "message": "Freeze V10 date-only shadow benchmark feasibility audit"
+        },
+        {
+          "sha": "b2c3a8013e503648c754944a622f396c945a173d",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Freeze date-only V9 pseudo-asof origin manifest"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        },
+        {
+          "sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "parent_sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "message": "Prototype cutoff-safe text-first historical scenario router"
+        },
+        {
+          "sha": "0ce5c39d9b3b84fbbf3fdfd807ac01a416f46f70",
+          "parent_sha": "83babaf490db64598c1dfe9db2cb2e14a9a5a1c9",
+          "message": "experiment: gate integrated V4 specialists on Numeric V3"
+        }
+      ],
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": [
+        {
+          "path": "backtesting/v10_shadow/README.md",
+          "blob_sha": "2e40b5d95febaf42264c05f12414818db7e8501e"
+        },
+        {
+          "path": "backtesting/v10_shadow/v10_shadow_audit.json",
+          "blob_sha": "4151b5f2363469b94b1304a29514fd2f0108d329"
+        },
+        {
+          "path": "backtesting/v10_shadow/v10_shadow_manifest.csv",
+          "blob_sha": "9666c7d2deb701a2d02f914af5492a14b549433d"
+        },
+        {
+          "path": "backtesting/v10_shadow_manifest.py",
+          "blob_sha": "ac7f80aca1cb98a8e1899e5bf45556017616aa12"
+        }
+      ]
+    },
+    {
+      "branch": "track2/v14-temporal-joint",
+      "RESULT_SHA": "4f3cf96c30e216a5d8e66b4a4d0f4c59a2f620df",
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    },
+    {
+      "branch": "track2/v51-single-cell-tail",
+      "RESULT_SHA": "d543c2baf5b944d22ce8a2d5c6aad9f524b488a8",
+      "commits": [
+        {
+          "sha": "d543c2baf5b944d22ce8a2d5c6aad9f524b488a8",
+          "parent_sha": "1e2e7e3a76cb5751a3d55ec35b42248bf603cc7d",
+          "message": "Publish verified amd64 tail candidate by immutable digest"
+        },
+        {
+          "sha": "1e2e7e3a76cb5751a3d55ec35b42248bf603cc7d",
+          "parent_sha": "ae91f5bd3292e991a7c6c33be9ff360f97b86ad6",
+          "message": "Resolve inherited V5.1 mypy errors without forecast changes"
+        },
+        {
+          "sha": "ae91f5bd3292e991a7c6c33be9ff360f97b86ad6",
+          "parent_sha": "d05ffebc0cf53d248687f01e7826d367fe1679e8",
+          "message": "Keep text reasoning metadata distinct from tail activation"
+        },
+        {
+          "sha": "d05ffebc0cf53d248687f01e7826d367fe1679e8",
+          "parent_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "message": "Add isolated V5.1 single-cell tail candidate and audits"
+        },
+        {
+          "sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+          "parent_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "message": "Run V5.1 candidate gate on draft PR"
+        },
+        {
+          "sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+          "parent_sha": "761ea0f1e7142064e4a59552297d2c5268e094f8",
+          "message": "Add V5.1 document delta and temporal event routing"
+        }
+      ],
+      "source_file": {
+        "content": "\"\"\"## Executive summary (read this first)\n\nReplay frozen V5.1 and one preselected single-cell tail transform on dated public\npanel prefixes. This is a repeated public diagnostic, not a fresh or official holdout.\nWrite every result outside the repository; never publish realized card outcomes.\n\"\"\"\n\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport tomllib\nfrom pathlib import Path\n\nimport numpy as np\nimport pandas as pd\n\nfrom backtesting.universe_backtest import _components\nfrom backtesting.v4_ablation import (\n    assign_splits,\n    evaluate_case,\n    opportunities,\n    paired_metrics,\n)\nfrom qfbench2_track_forecasting.numeric_v4 import calibrate_single_cell_tails\nfrom qfbench2_track_forecasting.text_first_v5 import apply_text_first_v5\n\n\ndef metrics(records: list[dict]) -> dict:\n    if not records:\n        return {\"cases\": 0}\n    frame = pd.DataFrame(records)\n    # Random seeds are repeated measurements of one forecast case.\n    case = frame.groupby([\"identity\", \"cutoff\", \"family\"], as_index=False).ratio.mean()\n    ratios = case.ratio.clip(lower=1e-12)\n    return {\n        \"cases\": len(case),\n        \"dates\": case.cutoff.nunique(),\n        \"geometric_ratio\": float(np.exp(np.log(ratios).mean())),\n        \"q90\": float(ratios.quantile(0.9)),\n        \"win_rate\": float((ratios < 1).mean()),\n        \"by_family\": {\n            family: float(np.exp(np.log(part.ratio.clip(lower=1e-12)).mean()))\n            for family, part in case.groupby(\"family\")\n        },\n        \"by_seed\": {\n            seed: float(np.exp(np.log(part.ratio.clip(lower=1e-12)).mean()))\n            for seed, part in frame.groupby(\"seed\")\n        },\n    }\n\n\ndef run(root: Path, draws: int, seeds: tuple[str, ...], cutoffs: int) -> dict:\n    items = opportunities(root, cutoffs)\n    boundaries = assign_splits(items)\n    holdout = [item for item in items if item.split == \"holdout\"]\n    rows = []\n    text_active = 0\n    single_cases = 0\n    for index, item in enumerate(holdout, 1):\n        case = item.case\n        eligible = case.family != \"T2-F3\" and len(case.assets) * len(case.horizons) == 1\n        if eligible:\n            single_cases += 1\n        card = tomllib.loads((root / \"units\" / case.unit_id / \"card.toml\").read_text())\n        for salt in seeds:\n            histories, forecast, y, seed = evaluate_case(item, draws, salt)\n            base, head = apply_text_first_v5(\n                forecast.samples,\n                histories if case.family in {\"T2-F1\", \"T2-F4\"} else {},\n                case.assets,\n                case.horizons,\n                case.target_type,\n                case.target_frequency,\n                case.family,\n                item.cutoff,\n                seed,\n                root / \"units\" / case.unit_id / \"text\",\n                card[\"targets\"].get(\"value_unit\", \"\"),\n                interpreter_version=\"v5.1\",\n            )\n            text_active += int(head[\"applied\"])\n            if not eligible:\n                continue  # Exact V5.1 preservation is checked by the CLI parity test.\n            candidate = calibrate_single_cell_tails(base, 0.85, 0.85)\n            scales = _components(base.reshape(draws, -1), y)\n            paired = paired_metrics(candidate, y, scales)\n            rows.append(\n                {\n                    \"identity\": item.identity,\n                    \"cutoff\": item.cutoff,\n                    \"family\": case.family,\n                    \"seed\": salt,\n                    \"ratio\": paired[\"ratio\"],\n                }\n            )\n        if index % 30 == 0:\n            print(f\"{draws} draws: {index}/{len(holdout)} holdout cases\", flush=True)\n    single = metrics(rows)\n    unchanged = len(holdout) - single_cases\n    non_f3 = sum(item.case.family != \"T2-F3\" for item in holdout)\n    return {\n        \"draws\": draws,\n        \"seeds\": seeds,\n        \"split_boundaries\": boundaries,\n        \"holdout_cases\": len(holdout),\n        \"single_cell_cases\": single_cases,\n        \"unchanged_cases\": unchanged,\n        \"text_active_replays\": text_active,\n        \"tail_factors\": [0.85, 0.85],\n        \"single_cell\": single,\n        \"all_excluding_f3_ratio\": float(\n            np.exp(np.log(single[\"geometric_ratio\"]) * single_cases / max(1, non_f3))\n        ),\n        \"qualification\": (\n            \"Previously inspected public cutoffs; not independent validation \"\n            \"or a leaderboard estimate.\"\n        ),\n    }\n\n\ndef main() -> None:\n    parser = argparse.ArgumentParser(description=__doc__)\n    parser.add_argument(\"--root\", type=Path, default=Path(\".\"))\n    parser.add_argument(\"--out\", type=Path, required=True)\n    parser.add_argument(\"--cutoffs\", type=int, default=6)\n    parser.add_argument(\"--draws\", type=int, default=500)\n    parser.add_argument(\n        \"--seeds\", nargs=\"+\", default=[\"tail-seed-17\", \"tail-seed-43\", \"tail-seed-71\"]\n    )\n    args = parser.parse_args()\n    report = run(args.root.resolve(), args.draws, tuple(args.seeds), args.cutoffs)\n    args.out.parent.mkdir(parents=True, exist_ok=True)\n    args.out.write_text(json.dumps(report, indent=2) + \"\\n\")\n    print(json.dumps({k: v for k, v in report.items() if k != \"qualification\"}, indent=2))\n\n\nif __name__ == \"__main__\":\n    main()\n",
+        "encoding": "utf-8",
+        "sha": "3956f8da32b2a732b189e925b6365051fad7c0c3",
+        "display_url": "https://github.com/psj216/track2-forecasting-public/blob/d543c2baf5b944d22ce8a2d5c6aad9f524b488a8/backtesting/v51_tail_audit.py",
+        "display_title": "v51_tail_audit.py"
+      },
+      "metric_status": "MISSING_ARTIFACT_UNLESS_METRIC_IS_PRESENT_IN_SOURCE",
+      "tree_paths": []
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "dimensions": {
+    "THEORETICAL_HEADROOM": 0.2,
+    "EMPIRICAL_SIGNAL": 0.25,
+    "REPLICATION_STABILITY": 0.15,
+    "NEW_INFORMATION_NOVELTY": 0.1,
+    "VALIDATION_FEASIBILITY": 0.1,
+    "TIME_TO_RESULT": 0.1,
+    "IMPLEMENTATION_RISK": 0.05,
+    "SUBMISSION_RELEVANCE": 0.05
+  },
+  "score_range": [
+    0,
+    5
+  ],
+  "weighted_formula": "20 * sum(weight * score)",
+  "candidate_axes": {
+    "LOCATION_INFORMATION_CONTINUE": "LOCATION-NEW-INFORMATION-06",
+    "MARGINAL_SCALE_REOPEN": "MARGINAL-SCALE-RESET-06",
+    "TAIL_REOPEN": "TAIL-STRUCTURE-RESET-06",
+    "JOINT_DEPENDENCE_REOPEN": "JOINT-DEPENDENCE-RESET-06",
+    "TEXT_ROUTING_VALIDATION": "TEXT-ROUTING-VALIDATION-06",
+    "SCORE_GEOMETRY_REASSESSMENT": "SCORE-GEOMETRY-AUDIT-06",
+    "CARD_CONDITIONAL_ERROR_STRUCTURE": "CARD-CONDITIONAL-ERROR-06",
+    "NEW_HIGH_FREQUENCY_INFORMATION": "HIGH-FREQUENCY-MARKET-INFO-06",
+    "SUBMISSION_HARDENING": "SUBMISSION-HARDENING-06"
+  },
+  "scores_assigned": false,
+  "empirical_signal": {
+    "5": "Replicated predictive improvement across multiple frozen evaluations",
+    "4": "Strong frozen exposed evidence",
+    "3": "Promising exposed or unstable",
+    "2": "Weak mixed",
+    "1": "Mostly failed",
+    "0": "Repeated strong failures or no signal"
+  },
+  "oracle_alone_empirical_cap": 1,
+  "headroom": {
+    "5": "Material location or combined headroom >40% in stored proxy",
+    "4": "20–40%",
+    "3": "10–20% or large mathematical floor only",
+    "2": "3–10% or fragile constrained oracle",
+    "1": "Less than3%",
+    "0": "No new score improvement mechanism"
+  },
+  "replication": {
+    "5": "Multiple verified operational reproductions / independent predictive replications",
+    "4": "Broad frozen replications",
+    "3": "Consistent exposed tests",
+    "2": "Mixed exposed tests",
+    "1": "Single exposed or unstable test",
+    "0": "No tested evidence / parity blocked"
+  },
+  "novelty": {
+    "5": "Distinct observable licensed market-policy contract information",
+    "4": "Specific untested independent mechanism",
+    "3": "Concrete operational risk resolution",
+    "2": "Specific diagnostic unknown with partial prior coverage",
+    "1": "Closely related hypothesis",
+    "0": "Redundant variation or question already answered"
+  },
+  "validation": {
+    "AVAILABLE_NOW": [
+      4,
+      5
+    ],
+    "AVAILABLE_WITH_ACQUISITION": [
+      2,
+      3
+    ],
+    "EXPOSED_ONLY": [
+      0,
+      1
+    ],
+    "NOT_AVAILABLE": [
+      0
+    ]
+  },
+  "time": {
+    "5": "<1hour",
+    "4": "1–3hours",
+    "3": "3–8hours",
+    "2": ">8hours",
+    "1": "multi-day",
+    "0": "Unbounded acquisition / legal dependency"
+  },
+  "risk": "5 means low implementation risk; 0 high. Estimates are judgments, not measured probabilities.",
+  "submission_relevance": "5 operational delivery of verified official baseline;3 material component with uncertain transfer;0 irrelevant.",
+  "stopping_rule": {
+    "RESEARCH_CONTINUE": "Novel feasible clean-validation research >=70",
+    "ONE_LAST_SHOT": "Best eligible research55–69 and low submission downside",
+    "HARDEN_NOW": "All research<55 OR no novel feasible validation OR deadline operational risk dominates"
+  },
+  "technical_clarifications": [
+    "EXPOSED_ONLY is not a clean validation path; no prospective set is invented.",
+    "Hardening has zero novel predictive empirical signal/headroom; its benefit is preservation, not alpha.",
+    "All nine candidates receive descriptive scores; eliminated redundant candidates cannot be selected.",
+    "Tie order is the fixed candidate-list order; exactly one final axis.",
+    "Unverified current deadline does not itself prove deadline urgency.",
+    "Missing historical result metrics get D and null; missing is not a demonstrated scientific failure."
+  ]
+}

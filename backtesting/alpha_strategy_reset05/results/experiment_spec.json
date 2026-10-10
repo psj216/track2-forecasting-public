@@ -1,0 +1,36 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "study": "ALPHA-STRATEGY-RESET-05",
+  "parent": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+  "candidate_axes": {
+    "LOCATION_INFORMATION_CONTINUE": "LOCATION-NEW-INFORMATION-06",
+    "MARGINAL_SCALE_REOPEN": "MARGINAL-SCALE-RESET-06",
+    "TAIL_REOPEN": "TAIL-STRUCTURE-RESET-06",
+    "JOINT_DEPENDENCE_REOPEN": "JOINT-DEPENDENCE-RESET-06",
+    "TEXT_ROUTING_VALIDATION": "TEXT-ROUTING-VALIDATION-06",
+    "SCORE_GEOMETRY_REASSESSMENT": "SCORE-GEOMETRY-AUDIT-06",
+    "CARD_CONDITIONAL_ERROR_STRUCTURE": "CARD-CONDITIONAL-ERROR-06",
+    "NEW_HIGH_FREQUENCY_INFORMATION": "HIGH-FREQUENCY-MARKET-INFO-06",
+    "SUBMISSION_HARDENING": "SUBMISSION-HARDENING-06"
+  },
+  "no_model_fit": true,
+  "no_candidate_score": true,
+  "no_new_data_source": true,
+  "no_hidden_labels": true,
+  "quality": {
+    "A": "Official or independently validated",
+    "B": "Frozen chronological exposed",
+    "C": "Post-hoc/diagnostic exposed",
+    "D": "Missing reconstruction incomplete or parity issue"
+  },
+  "universes": [
+    "OFFICIAL",
+    "CARD_PROXY",
+    "CANONICAL_MARGINAL_PROXY",
+    "SOURCE_SPECIFIC_PROXY",
+    "DIAGNOSTIC_ONLY"
+  ],
+  "deadline_rule": "UNVERIFIED unless current exact date is proven by available repository artifacts",
+  "score_projection": "Forbidden: no proxy * official score",
+  "next_study_executed": false
+}
