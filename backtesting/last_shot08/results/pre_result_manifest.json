@@ -1,0 +1,11 @@
+{
+  "PRE_RESULT_LAST_SHOT08_SHA": "Bound externally after remote verification; cannot self-reference commit SHA",
+  "comparative_losses_opened": false,
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "features_frozen": true,
+  "library_frozen": true,
+  "model_not_implemented_before_oracle": true,
+  "parent": "8475c1ac6cd7311ea1cf32e52bdbfab12206f7a9",
+  "remote_receipt": "Private PRE_REMOTE_RECEIPT.json with frozen file hashes",
+  "truth_deserialized": false
+}

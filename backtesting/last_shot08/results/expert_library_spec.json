@@ -1,0 +1,29 @@
+{
+  "aliases": "R0 duplicates B0; duplicates on individual cards retained; no duplicate complete-library identities",
+  "eligibility": "Historical independent forecast logic, complete exact 24 whole-card draw profiles, no card truth in generation, no expert modifications; reproducibility failures exclude technically only. No partial-card dropping.",
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "identities_frozen": true,
+  "primary_library": [
+    "B0",
+    "B_NUMERIC",
+    "TEXT_LOCATION",
+    "R1",
+    "R2"
+  ],
+  "same_card_universe": {
+    "cards": 24,
+    "cells": 63,
+    "families": 4,
+    "multi": 11,
+    "single": 13
+  },
+  "scope": "B_NUMERIC and TEXT_LOCATION are existing CONTEXT01 scored forecast profiles, not newly generated experts.",
+  "selection_before_losses": true,
+  "tie_order": [
+    "B0",
+    "B_NUMERIC",
+    "TEXT_LOCATION",
+    "R1",
+    "R2"
+  ]
+}

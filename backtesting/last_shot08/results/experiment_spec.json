@@ -1,0 +1,115 @@
+{
+  "INDEPENDENT_OOS": false,
+  "PRIMARY_LIBRARY": [
+    "B0",
+    "B_NUMERIC",
+    "TEXT_LOCATION",
+    "R1",
+    "R2"
+  ],
+  "baselines": [
+    "B0",
+    "GLOBAL_BEST_EXPERT train-only minimum mean log ratio",
+    "TRAINING_FAMILY_BEST only if held-out family estimable in training; otherwise NOT_AVAILABLE",
+    "T0_RIDGE_2WAY historical reference"
+  ],
+  "bootstrap": {
+    "blocks": [
+      "whole card",
+      "whole family"
+    ],
+    "replicates": 5000,
+    "seed": 31808
+  },
+  "classifications": [
+    "MOONSHOT_SIGNAL_STRONG",
+    "MOONSHOT_SIGNAL_WEAK",
+    "ROUTER_OVERFIT",
+    "INSUFFICIENT_EXISTING_EXPERT_HEADROOM",
+    "LIBRARY_TOO_THIN",
+    "MULTI_SAFETY_FAILURE",
+    "NO_SIGNAL"
+  ],
+  "conditional_PRIMARY": "T0_MULTIEXPERT_RIDGE",
+  "controls": {
+    "families": [
+      "matched expert frequencies random",
+      "matched B0/non-B0 random",
+      "train label shuffle within each expert",
+      "train T0 row shuffle",
+      "expert identity permutation",
+      "intercept only"
+    ],
+    "replicates": 5000,
+    "seed": 31808
+  },
+  "eligibility_before_comparative_scores": true,
+  "exceptional_descriptive": {
+    "arithmetic_max": 0.9,
+    "composite_max": 0.7,
+    "multi_safe": true
+  },
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "feature_set": "T0 exact inherited 36 columns",
+  "minimum_library": 3,
+  "model": {
+    "alpha": 1.0,
+    "fit_intercept": true,
+    "route": "minimum predicted log ratio strictly <0 otherwise B0; frozen library order resolves exact ties",
+    "target": "log(expert full-card composite / B0 composite)",
+    "train_only_standard_scaler": true
+  },
+  "next_label_clarification": "Early-gate prose abbreviates V51_SAFE_DELIVERY; use phase19 full final label V51_SAFE_DELIVERY-09. No next experiment executed.",
+  "next_mapping": {
+    "MOONSHOT_SIGNAL_STRONG": "ONE-SHOT-CANDIDATE-BUILD-09",
+    "all_other": "V51_SAFE_DELIVERY-09"
+  },
+  "no_forecast_modification": true,
+  "no_router_before_oracle_pass": true,
+  "official_reference": {
+    "historical_only": true,
+    "not_multiplied_by_proxy_ratios": true,
+    "value": 0.9541
+  },
+  "oracle_entire_card_only": true,
+  "oracle_kill_if_geometric_composite_greater_than": 0.75,
+  "parent": "8475c1ac6cd7311ea1cf32e52bdbfab12206f7a9",
+  "primary_folds": "Four family holdouts; 18 train / 6 test cards",
+  "private_firewall": true,
+  "scorer_sha256": "ba7f4dd972e8445af0414d15d437bea2e537093867988f93ae18f00d71ea7b04",
+  "secondary_features": [
+    "S0",
+    "ST0"
+  ],
+  "secondary_folds": "24 LOCO; 23 train / 1 test",
+  "source_adapter": "qfbench2_track_forecasting/ceiling01/scorer_adapter.py",
+  "source_card_universe": {
+    "cards": 24,
+    "cells": 63,
+    "families": [
+      "T2-F1",
+      "T2-F2",
+      "T2-F3",
+      "T2-F4"
+    ],
+    "multi": 11,
+    "single": 13
+  },
+  "strong_gates": {
+    "arithmetic_strict_max": 1.0,
+    "families_improved_min": 3,
+    "family_bootstrap_upper_strict_max": 1.0,
+    "label_text_shuffle_MC_p_max": 0.05,
+    "largest_card_gross_gain_max": 0.4,
+    "largest_family_gross_gain_max": 0.6,
+    "matched_random_MC_p_max": 0.05,
+    "materially_beats_training_global_best": true,
+    "multi_composite_strict_max": 1.0,
+    "multi_joint_max": 1.0,
+    "no_multi_routing_exception": "Exact B0 multi composite/joint allowed",
+    "oracle_max": 0.75,
+    "primary_family_composite_max": 0.85
+  },
+  "task_input_sha256": "1f4b86fade7189989b92dec17fca5f6441917fd7740832757490e7afbdabe14f",
+  "toolkit_version": "2.4.3"
+}

@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Pre-outcome expert compatibility audit. No comparative expert-card losses opened.",
+  "parent_result_sha": "8475c1ac6cd7311ea1cf32e52bdbfab12206f7a9",
+  "branch": "track2/last-shot-08-frozen-expert-router",
+  "main_sha_before": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_remote_verified": true,
+  "clean_start": true,
+  "scorer_file": "qfbench2_track_forecasting/ceiling01/scorer_adapter.py",
+  "comparative_losses_opened": false,
+  "truth_opened": false,
+  "official_09541_reestimated": false,
+  "provenance_investigation_reopened": false,
+  "parent_meaning": "Record bounded official V51 provenance search: submission linkage not recovered",
+  "result_lineage_rule": "Direct descendant of immutable parent, no unrelated branch merges"
+}

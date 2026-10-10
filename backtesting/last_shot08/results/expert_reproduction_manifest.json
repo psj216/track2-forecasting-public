@@ -1,0 +1,425 @@
+{
+  "cards": [
+    {
+      "card_id_hash": "de7ae456e182d4fde8501f43e49a1f5326dba676f1fb22a1846cb27706956d69",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+        "B_NUMERIC": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+        "R1": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+        "R2": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17",
+        "TEXT_LOCATION": "0a318ad43f505c9b40d96b7555688d23053793a84c6869661866df5a45197b17"
+      },
+      "shape": [
+        2000,
+        2,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "d34371e46300c85ece413c0bdaca3f938cb4510f88f9d7414574365aec226a99",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+        "B_NUMERIC": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+        "R1": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+        "R2": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c",
+        "TEXT_LOCATION": "2b3bdcd2516300acffcd36bf4ea80390200797309e08c82168d9de22a0d5620c"
+      },
+      "shape": [
+        2000,
+        2,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "8b9be7ecdd6523576a3323d624822237cd6f09435ec49c788cdf61a727c2bb7b",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+        "B_NUMERIC": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+        "R1": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+        "R2": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39",
+        "TEXT_LOCATION": "eb8761b0dac3ce71e65e17d793cf1e25e1748beb7c9275a80cab429ed25ceb39"
+      },
+      "shape": [
+        2000,
+        2,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "0f5804898efeabb1bd21af816e755e323a48b2b1301b5ff013f4149ca2f6d9cd",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "a576143c9590ad359f48cbab2dea47e32e2574debc36db0b66f50313b296de03",
+        "B_NUMERIC": "093d24fae21855c9b346b090780f2363cc265194a8b1eca15846f1a2bb3498d8",
+        "R1": "a576143c9590ad359f48cbab2dea47e32e2574debc36db0b66f50313b296de03",
+        "R2": "a576143c9590ad359f48cbab2dea47e32e2574debc36db0b66f50313b296de03",
+        "TEXT_LOCATION": "a33fd6314665852a65f5fc110b2bfc976578bea3400bcb21f4193373bdf4ebb7"
+      },
+      "shape": [
+        2000,
+        2,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "8edd544ddac769037892dc9199141d99992f7533b7e65920568cc2d851f92333",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "f0098e1a2b5f153c8413e8e5eee9313bff10f28b8012fa3d7238a19eec049cba",
+        "B_NUMERIC": "f0098e1a2b5f153c8413e8e5eee9313bff10f28b8012fa3d7238a19eec049cba",
+        "R1": "bc7d9997024ceb9151def76107cac954f4698381b435e79a87227adf8defbb92",
+        "R2": "cc6609afd80ec58ca5dd81aeda4e884b606162dfe91f7067f5604f7992e8214a",
+        "TEXT_LOCATION": "f0098e1a2b5f153c8413e8e5eee9313bff10f28b8012fa3d7238a19eec049cba"
+      },
+      "shape": [
+        2000,
+        2,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "3008fa788a37cf5fcdb627556597c89381217dbfc6bdd721fa6918025b534d70",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+        "B_NUMERIC": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+        "R1": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+        "R2": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb",
+        "TEXT_LOCATION": "0ad7d6f060266e07607fedaf625c48ef1f8b3d6bef042771d593fb31ba16aedb"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "03bf0428912e2a9b86327a0b744a82a2512aea8ed6ae0870453463c7dd45ee57",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+        "B_NUMERIC": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+        "R1": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+        "R2": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0",
+        "TEXT_LOCATION": "d9d1935c937f5795fa7bdeb0f603e19418828ee35216884bc199a5dcd36f27a0"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "49695da72f918384a82ab7a6a89a350caaf6f88c5d36c0959d6e68cdf36f9736",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+        "B_NUMERIC": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+        "R1": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+        "R2": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf",
+        "TEXT_LOCATION": "ed7997091ea185aafdf8d26b7f8e1e9841b095905e2fbf915ef4a61185ccc1cf"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "5e20146c82f02e07277e5592617984ec1573bd87f63b53c58db8be1e065cd9ec",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "0839f6d934795ba186637d5145770f213cfa796aad1400a851b80202f93ade87",
+        "B_NUMERIC": "0839f6d934795ba186637d5145770f213cfa796aad1400a851b80202f93ade87",
+        "R1": "dc0397b93fe83058875869cee7f7777678e944d6dcbe51e04fa319eb2ea347e1",
+        "R2": "dc0397b93fe83058875869cee7f7777678e944d6dcbe51e04fa319eb2ea347e1",
+        "TEXT_LOCATION": "0839f6d934795ba186637d5145770f213cfa796aad1400a851b80202f93ade87"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "559e5a8259be2aaae8054d8019e1bb41f1994fd22e656c78ec37ee14ea586db3",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+        "B_NUMERIC": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+        "R1": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+        "R2": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b",
+        "TEXT_LOCATION": "cc0634907a52e8ddb7a6d7b8df4f2a5fdf28dc61002d441c687259d340840e0b"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "b2af48f37ad2fb59c67bb956c8b8a4dd2e6293f66ed831ed8f1a8370e86fe608",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+        "B_NUMERIC": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+        "R1": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+        "R2": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3",
+        "TEXT_LOCATION": "86917a042777fcb9befb30f7ab2247e56fc27bac7224f53e4023757597f8a6b3"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "32b7edfdc88c8cc77f1478017782e4242485738ad6ba4ce9101430af82d52901",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "32d35bf35d0245b2e8bfcf595edad6f95b2d1e66ea1e9cb9c07f67b7893c0c96",
+        "B_NUMERIC": "32d35bf35d0245b2e8bfcf595edad6f95b2d1e66ea1e9cb9c07f67b7893c0c96",
+        "R1": "c07a2583a24bdddb26569b633b2a4607e57375f020d745852c913ee14eeedd66",
+        "R2": "6342d3aa741d880cedc426cb45716bd67f6329e13c9b79bb284aede35cb6e011",
+        "TEXT_LOCATION": "32d35bf35d0245b2e8bfcf595edad6f95b2d1e66ea1e9cb9c07f67b7893c0c96"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "45b7469543241bfb3b880fbb09e09664c785e4152a2120574ad69a8da2054077",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+        "B_NUMERIC": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+        "R1": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+        "R2": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb",
+        "TEXT_LOCATION": "c254359c8e0328eeeba4c33176e74e121057b575744ed3b51c3a5cdae59b75fb"
+      },
+      "shape": [
+        2000,
+        2,
+        4
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "415105005c080dae97bb8a787307e30e89dbff1685c08ceca8234a47f122cba7",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+        "B_NUMERIC": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+        "R1": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+        "R2": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580",
+        "TEXT_LOCATION": "8cb4d5b365d5e3108ae0337f089e919063cdeb24443d7fefb5127c77cdde5580"
+      },
+      "shape": [
+        2000,
+        2,
+        2
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "a70024a7fe127183a9c5e2c6ad9dcb31e5bcc35d5b27a74409dc1d158df198b3",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+        "B_NUMERIC": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+        "R1": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+        "R2": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125",
+        "TEXT_LOCATION": "4c165a397e7fa6eea69e6a8cdfda3fb689055199cbdd91768a589479c7da9125"
+      },
+      "shape": [
+        2000,
+        2,
+        4
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "b9298e00baf15a7bf41023a2bfea69b57578b5f8646f3c2b4412a307780fa0ca",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "f39d3e522fd7a97015f60eb55db807dfc12d45383cb7309b602914a403c89213",
+        "B_NUMERIC": "f39d3e522fd7a97015f60eb55db807dfc12d45383cb7309b602914a403c89213",
+        "R1": "e6cdda75f695a83a97a563f2599a12232dd05ec4e995c634668d56d8556e3b47",
+        "R2": "5bc35f68a4729b220c1e3cc5149683dff267e343d191236a5fb817acb2239ac1",
+        "TEXT_LOCATION": "f39d3e522fd7a97015f60eb55db807dfc12d45383cb7309b602914a403c89213"
+      },
+      "shape": [
+        2000,
+        2,
+        4
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "498618cc64263ab193115c403b30c38ac1316fed5ebcc90934bf79b90098c8d0",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "1bd8a8c7c297278ba70004cfb513ebc65ebd956d902cbaae69c3be8cb9cce1ed",
+        "B_NUMERIC": "1bd8a8c7c297278ba70004cfb513ebc65ebd956d902cbaae69c3be8cb9cce1ed",
+        "R1": "6db6c8056d6d6eed00b3ad55028a35efef2e8e6a94c72fefb6b2fd3c5c81f13f",
+        "R2": "e8724b88013d60a8e7d3f4a71aff28c16c5d373ace83a43ab4897ec7d655b747",
+        "TEXT_LOCATION": "1bd8a8c7c297278ba70004cfb513ebc65ebd956d902cbaae69c3be8cb9cce1ed"
+      },
+      "shape": [
+        2000,
+        2,
+        4
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "d22c3813a9b907f5ec5391547d67d670e45902ff1ab45e21c24b80b25ac30ba4",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "238e121315a37b06cce2fd0108638d170824216263ad29411220ad14c666dc50",
+        "B_NUMERIC": "238e121315a37b06cce2fd0108638d170824216263ad29411220ad14c666dc50",
+        "R1": "09daf9c4906d29812d462a478f69bf5d73112682355e642a8b4220164e6ab071",
+        "R2": "a3b2f9a9be0bf88ac03ad5ec9a697ea78c510578b0818a68cc07f5ddecd85bb1",
+        "TEXT_LOCATION": "238e121315a37b06cce2fd0108638d170824216263ad29411220ad14c666dc50"
+      },
+      "shape": [
+        2000,
+        2,
+        2
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "293a67be37ec60ffe227ee0f8fa6b4439c6309e3922b0ae5fc5308766a8eaea1",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "dec1f133d911af7812550086e6816607b63630857c873e622918b671b83e22c2",
+        "B_NUMERIC": "dec1f133d911af7812550086e6816607b63630857c873e622918b671b83e22c2",
+        "R1": "e78b02e428dcce4be0097ba91a68dbae2254df787a598261ff2f746a67e4f07a",
+        "R2": "e78b02e428dcce4be0097ba91a68dbae2254df787a598261ff2f746a67e4f07a",
+        "TEXT_LOCATION": "dec1f133d911af7812550086e6816607b63630857c873e622918b671b83e22c2"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "e5b213005c1fa894ed0d92445f9e584a34a85267d2156c161c3fe13b4b3f553c",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "c4c4edb05d6b4ea667bd07235cc8d1cffe9ff6cf5ca8d87e585fff8a1d118589",
+        "B_NUMERIC": "c4c4edb05d6b4ea667bd07235cc8d1cffe9ff6cf5ca8d87e585fff8a1d118589",
+        "R1": "0bf5b6673af563e9652a7bf71d9f2671c3fb04a564c44a79d81db2f1def3ac19",
+        "R2": "0bf5b6673af563e9652a7bf71d9f2671c3fb04a564c44a79d81db2f1def3ac19",
+        "TEXT_LOCATION": "c4c4edb05d6b4ea667bd07235cc8d1cffe9ff6cf5ca8d87e585fff8a1d118589"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "26d3ea9347d351e25233307d2ea5274ad8dc452ede46335438efab13eb3c77dd",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "987892bb84199cfd5a6e4391d7a76e4d86cfcebc4a15b16f211dec307c19f1ed",
+        "B_NUMERIC": "27470bdb13485a73d1e2d102d3d9685f065895a3ada4e7a17d87cbfa1a836755",
+        "R1": "fab1d08548915e00871de3b94e055aa7dc801958a66a135d9a358f35630b5789",
+        "R2": "fab1d08548915e00871de3b94e055aa7dc801958a66a135d9a358f35630b5789",
+        "TEXT_LOCATION": "3363203fd925bb607a5974f8875a1fafa51e054193306f5fe7b0ed90ecf1a555"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "7e9883810492896eb6ebc79d83035964f1c0c9479899e42db0c41a3f86d7e219",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "d2d4057394097d5cb3f79d59ee58af617d2801762f1ed5a083890dadbafa981b",
+        "B_NUMERIC": "164b6957757c26c9cddcf841d7286dc3006c3f242fff651177615e259c72b9ed",
+        "R1": "d2d4057394097d5cb3f79d59ee58af617d2801762f1ed5a083890dadbafa981b",
+        "R2": "d2d4057394097d5cb3f79d59ee58af617d2801762f1ed5a083890dadbafa981b",
+        "TEXT_LOCATION": "c262354a5048d0e843a1445e35de546cda42d9681b90d84ff5b00c576041e62b"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "182f70018b8fbac9f4a10db76aa460aacb00772053d7f2b4ee1ad5659fe835f8",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "5d1975cdab8fbf5b0fb7686836773ecdad956a108bd76a8990cb4b2d3a8ca03b",
+        "B_NUMERIC": "5afc27b0e8179608dc7047f36ae0f0450a8c917ba21a2a4a5d9e45a19c2eca43",
+        "R1": "42ecd36f980805539fda712166daac77c20a3b08b1b28ae096c2efdeb6d1a8a3",
+        "R2": "25a4b276df46d7a813b084a4ed0fa7aba2339b457fd390097e30cb37b642365d",
+        "TEXT_LOCATION": "7aaad4284f8fd3f196157328b368a43fb962f9b76cd170e9c47aa44f3ab07dce"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    },
+    {
+      "card_id_hash": "5902783ed7db941ef4fc1e69736460becc36b6d9f81ab11ef63d85ee3b40c953",
+      "existing_R1_reconstructed_no_fit": true,
+      "forecast_hashes": {
+        "B0": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+        "B_NUMERIC": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+        "R1": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+        "R2": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808",
+        "TEXT_LOCATION": "2ced1b490c380d75532d17bec40bd977bca2cca7722a08f82172afdb72fc4808"
+      },
+      "shape": [
+        2000,
+        1,
+        1
+      ],
+      "stored_B0_R2_bitwise_equal": true
+    }
+  ],
+  "comparative_losses_opened": false,
+  "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
+  "experts": [
+    "B0",
+    "B_NUMERIC",
+    "TEXT_LOCATION",
+    "R1",
+    "R2"
+  ],
+  "historical_score_verification": "Deferred until remote PRE; exact historical components then required",
+  "refitting": false,
+  "source_members_verified": 200,
+  "truth_deserialized": false
+}
