@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "state": "FINALIZED_PENDING_REMOTE_RESULT_VERIFICATION",
+  "completed": [
+    "environment_parent",
+    "codabench_evidence_search",
+    "project_evidence_search",
+    "linkage",
+    "decision_report"
+  ],
+  "remaining": [
+    "artifact_validation",
+    "result_commit_push_verify"
+  ],
+  "verdict": "NOT_FOUND_WITHIN_TIMEBOX",
+  "started_at": "2026-10-10T04:15:27.932Z",
+  "deadline_at": "2026-10-10T05:15:27.932Z"
+}

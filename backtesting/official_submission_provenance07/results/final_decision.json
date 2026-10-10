@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "verdict": "NOT_FOUND_WITHIN_TIMEBOX",
+  "completion_status": "PROVENANCE_SEARCH_COMPLETE",
+  "provenance_recovered": false,
+  "new_official_submission_evidence": false,
+  "submission_id": null,
+  "submission_timestamp": null,
+  "uploaded_filename": null,
+  "uploaded_sha256": null,
+  "official_image_digest": null,
+  "official_source_sha": null,
+  "missing_arrows": [
+    "OFFICIAL_RESULT -> OFFICIAL_RECEIPT",
+    "OFFICIAL_RECEIPT -> SUBMISSION_ID",
+    "SUBMISSION_ID -> UPLOADED_ARTIFACT",
+    "UPLOADED_ARTIFACT -> SEALED_DESCRIPTOR",
+    "SEALED_DESCRIPTOR -> IMAGE_DIGEST"
+  ],
+  "reason": "No accessible evidence links0.9541 to a unique actual uploaded artifact; preparation explicitlyNOT_YET. New conversation leads are not official result metadata.",
+  "not_a_forecasting_failure": true,
+  "further_research_started": false
+}

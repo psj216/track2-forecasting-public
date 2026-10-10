@@ -1,0 +1,43 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "uploaded_artifact_identified": false,
+  "uploaded_filename": null,
+  "artifact_identifier": null,
+  "uploaded_sha256": null,
+  "official_download_reference": null,
+  "preparation_only": {
+    "filename": "V5.1_Text_First_Submission_Preparation.zip",
+    "size_bytes": 1819,
+    "sha256": "b3d2ba6dcd05eddaa6b13e96658683d1ca11b1d36350baff6ac5873b6a48766c",
+    "crc_verified": true,
+    "members": [
+      "README.md",
+      "image-reference.txt",
+      "submission-draft.json",
+      "validation-summary.json"
+    ],
+    "submission_status": "NOT_YET",
+    "is_official_uploaded_artifact": false
+  },
+  "other_leads": [
+    {
+      "filename": "submission.zip",
+      "status": "Conversation packaging claim only; exact uploaded bytes unavailable",
+      "official_09541_link": false
+    },
+    {
+      "filename": "submission-correct.zip",
+      "status": "Cancelled submission lead only; no original ZIP recovered",
+      "official_09541_link": false
+    }
+  ],
+  "actions_artifact": {
+    "id": 10881109209,
+    "sha256": "e01f24c48fa8e9aa877ff71fdd8d0ce3d6d118f3dc93fd5856176eba129ef7a6",
+    "kind": "Two-file image-reference/source metadata; NOT submitted ZIP"
+  },
+  "sealed_descriptor_found": false
+}

@@ -1,0 +1,61 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "unique_official_identity": false,
+  "official_image_digest": null,
+  "official_source_sha": null,
+  "conditional_candidate": {
+    "image_digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+    "source_sha": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+    "common_version": "2.4.2",
+    "run_id": 36173543967,
+    "job_id": 108198589493,
+    "original_log_path": "backtesting/submission_hardening06/results/evidence/candidate-job-108198589493-selected.log",
+    "log_sha256": "7722c16a4deb96724e32ccf67fe34e7726d77614690e08339f4645fc59b01152",
+    "official_score_link": false
+  },
+  "chain": [
+    {
+      "arrow": "OFFICIAL_RESULT -> OFFICIAL_RECEIPT",
+      "status": "MISSING",
+      "evidence": "0.9541 historical reference only"
+    },
+    {
+      "arrow": "OFFICIAL_RECEIPT -> SUBMISSION_ID",
+      "status": "MISSING",
+      "evidence": "941873 not verified as0.9541; reportedly cancelled"
+    },
+    {
+      "arrow": "SUBMISSION_ID -> UPLOADED_ARTIFACT",
+      "status": "MISSING",
+      "evidence": "No uploaded filename/identifier/download/hash for0.9541"
+    },
+    {
+      "arrow": "UPLOADED_ARTIFACT -> SEALED_DESCRIPTOR",
+      "status": "MISSING",
+      "evidence": "Only unsealed preparation draft recovered"
+    },
+    {
+      "arrow": "SEALED_DESCRIPTOR -> IMAGE_DIGEST",
+      "status": "MISSING",
+      "evidence": "Official descriptor unavailable"
+    },
+    {
+      "arrow": "PREPARATION_DRAFT -> CANDIDATE_IMAGE_DIGEST",
+      "status": "VERIFIED",
+      "evidence": "Preparation ZIP hash/CRC and image reference; explicitlyNOT_YET"
+    },
+    {
+      "arrow": "CANDIDATE_IMAGE_DIGEST -> SOURCE_SHA",
+      "status": "VERIFIED",
+      "evidence": "Original Actions job108198589493 checkout and published digest"
+    },
+    {
+      "arrow": "SOURCE_SHA -> COMMON_VERSION",
+      "status": "SUPPORTED",
+      "evidence": "Candidate build workflow/log common2.4.2"
+    }
+  ]
+}

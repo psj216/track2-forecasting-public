@@ -1,0 +1,42 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "started_at": "2026-10-10T04:15:27.932Z",
+  "search_ended_at": "2026-10-10T04:23:48.236Z",
+  "record_generated_at": "2026-10-10T04:25:04.428Z",
+  "maximum_wall_clock_minutes": 60,
+  "search_elapsed_minutes": 8.3384,
+  "remote_parent_verified": true,
+  "parent_tree_sha": "af616b45040113064e8259eafd928efa500df767",
+  "main_sha_before": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_files_preserved": 2488,
+  "inherited_protected_hashes_verified": 2450,
+  "v51_and_package_files_preserved": 132,
+  "source_changes": 0,
+  "models_fitted": 0,
+  "forecasts_run": 0,
+  "scores_computed": 0,
+  "docker_builds": 0,
+  "docker_runs": 0,
+  "submissions_sent": 0,
+  "validation": "JSON/schema, referential linkage and file preservation checks; no model/runtime tests or forecasts",
+  "remote_result_binding": "External completion receipt after commit to avoid self-referential RESULT SHA",
+  "operational_notes": [
+    "Minimal parent Git tree restored from verified recovery and79 added public files; exact tree identity verified. No canonical data recovery/evaluation.",
+    "One GitHub issue-query error corrected with required qualifier; corrected query succeeded.",
+    "CodaBench navigation returned unrelated content; no credential entry or authentication bypass attempted."
+  ],
+  "validation_checks": {
+    "seven_required_json_files": true,
+    "parent_and_branch_identity": true,
+    "honest_verdict": true,
+    "official_unknowns_not_candidate": true,
+    "candidate_matches_prior": true,
+    "valid_chain_states": true,
+    "no_credentials_or_hidden_labels": true,
+    "all_2488_parent_files_unchanged": true
+  },
+  "validation_passed": true
+}

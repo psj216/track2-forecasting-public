@@ -1,0 +1,68 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "candidate_only": true,
+  "chain": [
+    {
+      "arrow": "OFFICIAL_RESULT -> OFFICIAL_RECEIPT",
+      "status": "MISSING",
+      "evidence": "0.9541 historical reference only"
+    },
+    {
+      "arrow": "OFFICIAL_RECEIPT -> SUBMISSION_ID",
+      "status": "MISSING",
+      "evidence": "941873 not verified as0.9541; reportedly cancelled"
+    },
+    {
+      "arrow": "SUBMISSION_ID -> UPLOADED_ARTIFACT",
+      "status": "MISSING",
+      "evidence": "No uploaded filename/identifier/download/hash for0.9541"
+    },
+    {
+      "arrow": "UPLOADED_ARTIFACT -> SEALED_DESCRIPTOR",
+      "status": "MISSING",
+      "evidence": "Only unsealed preparation draft recovered"
+    },
+    {
+      "arrow": "SEALED_DESCRIPTOR -> IMAGE_DIGEST",
+      "status": "MISSING",
+      "evidence": "Official descriptor unavailable"
+    },
+    {
+      "arrow": "PREPARATION_DRAFT -> CANDIDATE_IMAGE_DIGEST",
+      "status": "VERIFIED",
+      "evidence": "Preparation ZIP hash/CRC and image reference; explicitlyNOT_YET"
+    },
+    {
+      "arrow": "CANDIDATE_IMAGE_DIGEST -> SOURCE_SHA",
+      "status": "VERIFIED",
+      "evidence": "Original Actions job108198589493 checkout and published digest"
+    },
+    {
+      "arrow": "SOURCE_SHA -> COMMON_VERSION",
+      "status": "SUPPORTED",
+      "evidence": "Candidate build workflow/log common2.4.2"
+    }
+  ],
+  "alternative_conversation_candidate": {
+    "image_digest": "sha256:c0e230a158f08d878f0004df506d29984f6aade63184a7c4c9e6f80bd80af259",
+    "reported_on": "2026-09-23",
+    "source_sha": null,
+    "evidence_quality": "Conversation lead, not original build receipt",
+    "official_score_link": false
+  },
+  "parent_recovery": {
+    "filename": "SUBMISSION-HARDENING06-4e85e4f6-FINAL-verified-recovery.zip",
+    "sha256": "f3336f6ee2bafe9ffc34101141203b6c72889f9fb05c6e615c88ddbd955cc779",
+    "crc_verified": true,
+    "member_hashes_verified": 187
+  },
+  "do_not_conflate": [
+    "Candidate build timestamp with official submission timestamp",
+    "Actions metadata ZIP with uploaded CodaBench ZIP",
+    "Conversation submission ID with official0.9541 submission ID",
+    "Different approved-image digests as interchangeable identities"
+  ]
+}

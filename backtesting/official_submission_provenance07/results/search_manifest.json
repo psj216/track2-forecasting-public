@@ -1,0 +1,67 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "started_at": "2026-10-10T04:15:27.932Z",
+  "search_ended_at": "2026-10-10T04:23:48.236Z",
+  "search_elapsed_minutes": 8.3384,
+  "maximum_wall_clock_minutes": 60,
+  "stop_reason": "Accessible scoped routes exhausted; no new official score-to-artifact evidence. Search stopped early to preserve research time.",
+  "searches": [
+    {
+      "store": "CodaBench browser",
+      "scope": "Existing browser inventory; official homepage; competition/17766 from organizer email",
+      "result": "Only blank initial browser tab. Both navigations returned unrelated literary content, no recognizable submission/account UI.",
+      "status": "UNUSABLE_SITE_RESPONSE"
+    },
+    {
+      "store": "Gmail",
+      "scope": "Four focused queries: codabench/0.9541; post-2026-09-21 candidate identifiers; submission/evaluation/result subjects; 941873/submission-correct.zip/c0e230 exact leads",
+      "result": "Participation and organizer opening emails; GitHub CI notifications. No 0.9541 receipt or submitted ZIP attachment. Exact new-lead query empty.",
+      "status": "NO_SUBMISSION_RECEIPT"
+    },
+    {
+      "store": "Prior conversations",
+      "scope": "Two targeted provenance queries, September 23–29 original result/ZIP identifiers",
+      "result": "Prior assistant output mentions cancelled submission941873/submission-correct.zip. User conversation mentions c0e230 candidate and successful packaging. No original result record links any of them to0.9541.",
+      "status": "UNVERIFIED_LEADS"
+    },
+    {
+      "store": "Persistent project artifacts",
+      "scope": "Parent recovery ZIP exact filename; exact submitted ZIP filenames; candidate digest",
+      "result": "Parent ZIP recovered/hash+CRC+187 member hashes verified. Exact submission-correct.zip ZIP-only lookup empty. Fuzzy matches were irrelevant research/tail drafts and excluded.",
+      "status": "NO_UPLOADED_ZIP"
+    },
+    {
+      "store": "Workspace / downloads",
+      "scope": "Current workspace, accessible download/artifact locations only",
+      "result": "No submitted ZIP or submission CLI log found. /root/Downloads absent; /home/oai/share denied. No permission bypass.",
+      "status": "LIMITED_ACCESS"
+    },
+    {
+      "store": "GitHub",
+      "scope": "Exact parent/main refs; existing inherited V51 receipt/build inventory; exact new digest code search;941873 issue search; Actions2026-09-22..24",
+      "result": "Candidate0b9b->47194 linkage preserved. c0e230 code search empty;941873 issues empty after correcting required query qualifier. Two September24 unrelated numeric-v4 runs, not submission receipts.",
+      "status": "NO_OFFICIAL_LINKAGE"
+    },
+    {
+      "store": "Public web",
+      "scope": "Account/score lookup; exact941873 and0.9541 Agenthon submission lookup",
+      "result": "No relevant official receipt; returned unrelated competition material was discarded.",
+      "status": "NO_RELEVANT_RESULT"
+    }
+  ],
+  "inherited_inventory_reused": {
+    "source": "backtesting/submission_hardening06/results/official_receipt_audit.json",
+    "scope": "137-commit project history; tags/releases; V51 five runs/three successful candidate jobs; PR1;121 project artifacts",
+    "unchanged_evidence_not_researched_broadly": true
+  },
+  "excluded": [
+    "Account activation link and credentials",
+    "Raw private emails/account identifiers",
+    "Unrelated forecasting branches",
+    "Tail candidate descriptors",
+    "Any new build, Docker execution, score or submission"
+  ]
+}

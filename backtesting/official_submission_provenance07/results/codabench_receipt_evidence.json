@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Evidence-only provenance recovery. The official 0.9541 submission remains unidentified; preparation and build metadata are not official receipts.",
+  "study": "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07",
+  "parent_result_sha": "4e85e4f6ea255e71b21a5166be4c799c45d66f38",
+  "branch": "track2/official-submission-provenance-recovery-07",
+  "official_score": 0.9541,
+  "score_evidence": "Historical reference inherited from parent and user; no new platform result receipt recovered",
+  "receipt_found": false,
+  "submission_id": null,
+  "submission_timestamp": null,
+  "competition_url": "https://www.codabench.org/competitions/17766/",
+  "competition_url_evidence": "Organizer opening email,2026-09-17; participation acceptance email2026-09-21. These are not result receipts.",
+  "account_history_access": "UNAVAILABLE_UNUSABLE_SITE_RESPONSE",
+  "new_official_submission_metadata": false,
+  "prior_conversation_lead": {
+    "reported_submission_id": "941873",
+    "reported_filename": "submission-correct.zip",
+    "reported_cancelled": true,
+    "evidence_type": "PRIOR_ASSISTANT_OUTPUT retrieved from conversation context",
+    "verified_official_record": false,
+    "linked_to_09541": false
+  },
+  "limitations": [
+    "No current submission history UI/receipt accessible",
+    "No original result screenshot/file ID recovered",
+    "Absence is scoped to searched accessible evidence, not proof a receipt never existed"
+  ]
+}
