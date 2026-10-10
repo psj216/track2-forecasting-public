@@ -1,5 +1,5 @@
 {
-  "HEAD_SHA": "c91e6da24d8204e15c4f1e1acdb9f48a19f3076c",
+  "HEAD_SHA": "7e7bfb0afe9cdb631d090c9248b599753885d8dc",
   "PRE_RESULT_LAST_SHOT08_SHA": "c91e6da24d8204e15c4f1e1acdb9f48a19f3076c",
   "branch": "track2/last-shot-08-frozen-expert-router",
   "completed_stages": [
@@ -19,30 +19,41 @@
     "historical_T0_reference_exact",
     "final_decision",
     "research_final_30_passed",
-    "affected_final_58_passed"
+    "affected_final_58_passed",
+    "original_NEWINFO02_PRIVATE_environment_restored_exact_hashes",
+    "origin_main_remote_tracking_ref_restored",
+    "full_final_927_passed_25_skipped_3_inherited_deselections",
+    "common_final_250_passed",
+    "research_reconfirmed_30_passed",
+    "affected_reconfirmed_58_passed"
   ],
-  "continuation_point": "Full test environment restoration only. Do not repeat completed scientific stages.",
-  "current_stage": "FULL_REPOSITORY_TESTS_STOP",
+  "continuation_point": "Scientific result and delivery tests complete. RESULT SHA, remote verification and final ZIP integrity are recorded in the external final completion receipt.",
+  "current_stage": "FINAL_RESULT_PUBLICATION",
   "deadline": "2026-10-10T10:50:59.524Z",
-  "delivery_complete": false,
+  "delivery_complete": true,
   "executive_summary": "Restartable pre-outcome library inventory; no model fitted.",
-  "failed_step_attempts": 2,
-  "failed_tests": [
-    "tests/test_new_information_search02.py::test_frozen_hash",
-    "tests/test_new_information_search02.py::test_constructed_source_schema_and_cutoff",
-    "tests/test_new_information_search02.py::test_live_source_mutation_does_not_change_earlier_asof_states",
-    "tests/test_persistent_direction02.py::test_parent_main_protection"
-  ],
+  "failed_step_attempts": 0,
+  "failed_tests": [],
+  "final_result_and_archive_receipt": "External FINAL_COMPLETION_RECEIPT.json / FINAL_ZIP_VERIFICATION.json",
   "last_successful_artifact": "final_decision.json",
-  "last_update_time": "2026-10-10T07:11:26.649443+00:00",
-  "pending_stages": [
-    "restore_existing_legacy_test_environment",
-    "full_repository_tests",
-    "common_toolkit_tests",
-    "final_RESULT_remote_verification",
-    "final_private_recovery"
-  ],
+  "last_update_time": "2026-10-10T07:32:35.472698+00:00",
+  "pending_stages": [],
+  "prior_stop_history": {
+    "continuation_point": "Full test environment restoration only. Do not repeat completed scientific stages.",
+    "current_stage": "FULL_REPOSITORY_TESTS_STOP",
+    "failed_step_attempts": 2,
+    "failed_tests": [
+      "tests/test_new_information_search02.py::test_frozen_hash",
+      "tests/test_new_information_search02.py::test_constructed_source_schema_and_cutoff",
+      "tests/test_new_information_search02.py::test_live_source_mutation_does_not_change_earlier_asof_states",
+      "tests/test_persistent_direction02.py::test_parent_main_protection"
+    ],
+    "last_update_time": "2026-10-10T07:11:26.649443+00:00",
+    "state": "STOP_FULL_TESTS_TWO_FAILURES"
+  },
+  "resume_checkpoint_SHA": "7e7bfb0afe9cdb631d090c9248b599753885d8dc",
+  "scientific_artifacts_changed": false,
   "scientific_result": "INSUFFICIENT_EXISTING_EXPERT_HEADROOM",
   "start": "2026-10-10T04:50:59.524Z",
-  "state": "STOP_FULL_TESTS_TWO_FAILURES"
+  "state": "DELIVERY_COMPLETE"
 }

@@ -2,19 +2,25 @@
   "PRE_REMOTE_VERIFIED": true,
   "PRE_RESULT_LAST_SHOT08_SHA": "c91e6da24d8204e15c4f1e1acdb9f48a19f3076c",
   "bootstrap_replicates_executed": 0,
-  "continuation_point": "Restore verified NEWINFO02_PRIVATE artifacts/environment and local remote-tracking origin/main from authoritative remote; then full repository tests and common tests. Do not redo preparation, PRE, oracle, or expert scores.",
+  "checkpoint_snapshot_note": "Retained report/final_decision/artifact_manifest contain historical stopped-checkpoint delivery metadata; current delivery authority is this audit, STATUS and the external final completion receipt.",
+  "continuation_point": "Scientific result and delivery tests complete. RESULT SHA, remote verification and final ZIP integrity are recorded in the external final completion receipt.",
   "controls_bootstrap_reason": "NOT_RUN_KILL_GATE",
   "controls_executed": 0,
-  "delivery_complete": false,
+  "delivery_complete": true,
+  "delivery_scope": "Only STATUS.json and execution_audit.json updated; all scientific files, tests, final decision, report and historical artifact manifest remain byte-identical to checkpoint.",
   "deselection_reason": "Inherited exclusions recorded in parent submission-hardening06; no additional exclusion to hide newly discovered environment failures",
+  "environment_restoration": {
+    "origin_main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "original_archive_SHA256": "c4b7a672d1e9db4cb4d4017503efea576e3779b92c68498432c5fd48cbd8d50b",
+    "original_file_and_prediction_hashes_verified": true,
+    "original_private_files_restored": 6
+  },
   "executive_summary": "Frozen exposed research; aggregate evidence only; no independent OOS claim.",
   "expert_card_reproduction_count": 120,
-  "failed_tests": [
-    "tests/test_new_information_search02.py::test_frozen_hash",
-    "tests/test_new_information_search02.py::test_constructed_source_schema_and_cutoff",
-    "tests/test_new_information_search02.py::test_live_source_mutation_does_not_change_earlier_asof_states",
-    "tests/test_persistent_direction02.py::test_parent_main_protection"
-  ],
+  "external_archive_receipt": "FINAL_ZIP_VERIFICATION.json",
+  "external_result_receipt": "FINAL_COMPLETION_RECEIPT.json",
+  "failed_tests": [],
+  "finalized_at": "2026-10-10T07:32:35.472698+00:00",
   "forecast_arrays_unchanged": true,
   "historical_components_exact": true,
   "historical_deselections": [
@@ -24,49 +30,24 @@
   ],
   "immutable_historical_tests_modified": false,
   "main_sha_remote_verified": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "new_execution_failures": 0,
   "new_expert_count": 0,
   "no_Docker_build_or_submission": true,
   "no_provenance_research_reopened": true,
   "parent": "8475c1ac6cd7311ea1cf32e52bdbfab12206f7a9",
   "parent_files_unchanged": 2497,
-  "private_matrix_hashes": {
-    "card00.json": "4ad97071bb64217645ba9e4c8103b5f41a25539357ae5d90b01cb3c56ecd957c",
-    "card01.json": "9e0cf2400f7cfe221c48ea69b7d121afd8c0fcd5e0c69233ecc2b740ad31e1fe",
-    "card02.json": "0ad3439312140a33302749ac2184ffbea7bae2c296dca5aed87f6f84f5eab552",
-    "card03.json": "e5aeac04b90ec6d728a6f91f65ba66153c05eea4462d1ecabd19c4eae4edd24e",
-    "card04.json": "2272b229118b37a08b96d46825805d7d88b5e4a567dbc76e61b766bb3c494c10",
-    "card05.json": "78db0112c506de635c6fbec51a9627d923ced09cb223e17bc34902284e67db86",
-    "card06.json": "f2ca9f18d6c77a2bd1887cf6a22c2b718d4045371e375e533ce3056b6871f2df",
-    "card07.json": "0102a4717de45d72315b2af037f5f7c05925681e929edb97a6719a88caf2c344",
-    "card08.json": "495d73000016e073ad0d4ad2bc466d664884bde2eb6d2da0fe483e8c19f447a4",
-    "card09.json": "9d44364079bdbc1771ec548da84d9affc21026a8d4672a81761f9c987d55f2c6",
-    "card10.json": "4dad2a0e10c7a30319dd94a4bb60ddbb42bcc0a5fa34fd029eb57072d3aa41ef",
-    "card11.json": "a2e468db787542c8b3a060165eb639cd3f8cfc235e71e045b4a8dfa6308fc883",
-    "card12.json": "3d63e800646446d8524693de79f631f5e1a413a5464dcd0dbd8a13081a8d38ed",
-    "card13.json": "ede807fc6ad64595b0597633f1a0ac9aebd7bb9e4f851e2cd587cc02f22a7e62",
-    "card14.json": "341c8bff1663a3007cc36aa0b1d20e98ce2033ad2271fa30ebb9ae62919d61bf",
-    "card15.json": "5caf9db0064d16742e3706009c265b52fbc2aa2d0cfea9bc110291f147a4b839",
-    "card16.json": "3088737c2f5d426abce2fafe0101b917e52162b5fe2c39380f73a3ab7ef05096",
-    "card17.json": "f71243a5a100b3050f9693ba56fcb6b9d37671290e36db37b1b46c64c527c78d",
-    "card18.json": "7b4bce410f6e15ae66171250e746359286a917bea5e7d0973d35b4a3f4c4f8d8",
-    "card19.json": "21b11379e559a311fd914a8060c5b2951471cb58c007d55a8999ddadf8f04603",
-    "card20.json": "93e766f70cc5576c31dc53b4611a14a03e4a06f0e3b490e1c2a2a8121d58eb1a",
-    "card21.json": "21515fd55817bc2dcd993cddda3dcce6002d705cb2b65cd8ba9e0f4ad04fb97b",
-    "card22.json": "4dfc6b8d7108280b2e43a041077786bec1ba85ad86674f31097a26d34c5cc491",
-    "card23.json": "336d4251a811aae002b3c1186831fb7dad55361c364f885c3f7e9cd13330b066"
+  "prior_stop_history": {
+    "continuation_point": "Restore verified NEWINFO02_PRIVATE artifacts/environment and local remote-tracking origin/main from authoritative remote; then full repository tests and common tests. Do not redo preparation, PRE, oracle, or expert scores.",
+    "failed_tests": [
+      "tests/test_new_information_search02.py::test_frozen_hash",
+      "tests/test_new_information_search02.py::test_constructed_source_schema_and_cutoff",
+      "tests/test_new_information_search02.py::test_live_source_mutation_does_not_change_earlier_asof_states",
+      "tests/test_persistent_direction02.py::test_parent_main_protection"
+    ],
+    "status": "STOP_FULL_TESTS_TWO_FAILURES",
+    "stop_rule": "Same execution step fails twice: STOP. First test collection dependency failure; one retry after dependency restore exposes legacy environment missing paths/ref. No third attempt."
   },
-  "protected_v51_files_unchanged": 132,
-  "router_fit_count": 0,
-  "runtime": {
-    "numpy": "2.3.5",
-    "python": "3.12.14",
-    "toolkit": "2.4.3"
-  },
-  "scientific_PRE_files_unchanged": true,
-  "scientific_oracle_audit_complete": true,
-  "status": "STOP_FULL_TESTS_TWO_FAILURES",
-  "stop_rule": "Same execution step fails twice: STOP. First test collection dependency failure; one retry after dependency restore exposes legacy environment missing paths/ref. No third attempt.",
-  "tests": {
+  "prior_test_attempts": {
     "affected": {
       "exit_code": 0,
       "log_file": "affected_final.log",
@@ -94,6 +75,71 @@
       "log_file": "research_final.log",
       "log_sha256": "a3876c920f7b9fcf266289f8dbccb8a48e2b862b908b2a84c04cbe6e9cf3a4bf",
       "summary": "30 passed in 0.05s"
+    }
+  },
+  "private_matrix_hashes": {
+    "card00.json": "4ad97071bb64217645ba9e4c8103b5f41a25539357ae5d90b01cb3c56ecd957c",
+    "card01.json": "9e0cf2400f7cfe221c48ea69b7d121afd8c0fcd5e0c69233ecc2b740ad31e1fe",
+    "card02.json": "0ad3439312140a33302749ac2184ffbea7bae2c296dca5aed87f6f84f5eab552",
+    "card03.json": "e5aeac04b90ec6d728a6f91f65ba66153c05eea4462d1ecabd19c4eae4edd24e",
+    "card04.json": "2272b229118b37a08b96d46825805d7d88b5e4a567dbc76e61b766bb3c494c10",
+    "card05.json": "78db0112c506de635c6fbec51a9627d923ced09cb223e17bc34902284e67db86",
+    "card06.json": "f2ca9f18d6c77a2bd1887cf6a22c2b718d4045371e375e533ce3056b6871f2df",
+    "card07.json": "0102a4717de45d72315b2af037f5f7c05925681e929edb97a6719a88caf2c344",
+    "card08.json": "495d73000016e073ad0d4ad2bc466d664884bde2eb6d2da0fe483e8c19f447a4",
+    "card09.json": "9d44364079bdbc1771ec548da84d9affc21026a8d4672a81761f9c987d55f2c6",
+    "card10.json": "4dad2a0e10c7a30319dd94a4bb60ddbb42bcc0a5fa34fd029eb57072d3aa41ef",
+    "card11.json": "a2e468db787542c8b3a060165eb639cd3f8cfc235e71e045b4a8dfa6308fc883",
+    "card12.json": "3d63e800646446d8524693de79f631f5e1a413a5464dcd0dbd8a13081a8d38ed",
+    "card13.json": "ede807fc6ad64595b0597633f1a0ac9aebd7bb9e4f851e2cd587cc02f22a7e62",
+    "card14.json": "341c8bff1663a3007cc36aa0b1d20e98ce2033ad2271fa30ebb9ae62919d61bf",
+    "card15.json": "5caf9db0064d16742e3706009c265b52fbc2aa2d0cfea9bc110291f147a4b839",
+    "card16.json": "3088737c2f5d426abce2fafe0101b917e52162b5fe2c39380f73a3ab7ef05096",
+    "card17.json": "f71243a5a100b3050f9693ba56fcb6b9d37671290e36db37b1b46c64c527c78d",
+    "card18.json": "7b4bce410f6e15ae66171250e746359286a917bea5e7d0973d35b4a3f4c4f8d8",
+    "card19.json": "21b11379e559a311fd914a8060c5b2951471cb58c007d55a8999ddadf8f04603",
+    "card20.json": "93e766f70cc5576c31dc53b4611a14a03e4a06f0e3b490e1c2a2a8121d58eb1a",
+    "card21.json": "21515fd55817bc2dcd993cddda3dcce6002d705cb2b65cd8ba9e0f4ad04fb97b",
+    "card22.json": "4dfc6b8d7108280b2e43a041077786bec1ba85ad86674f31097a26d34c5cc491",
+    "card23.json": "336d4251a811aae002b3c1186831fb7dad55361c364f885c3f7e9cd13330b066"
+  },
+  "protected_v51_files_unchanged": 132,
+  "resume_checkpoint_SHA": "7e7bfb0afe9cdb631d090c9248b599753885d8dc",
+  "router_fit_count": 0,
+  "runtime": {
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "toolkit": "2.4.3"
+  },
+  "scientific_PRE_files_unchanged": true,
+  "scientific_artifacts_changed": false,
+  "scientific_oracle_audit_complete": true,
+  "status": "DELIVERY_COMPLETE",
+  "stop_rule": "Explicit authorized resume from verified checkpoint; no new execution step failed.",
+  "tests": {
+    "affected": {
+      "exit_code": 0,
+      "log_file": "finalization_affected.log",
+      "log_sha256": "b787ef2d3c8f93ecfe5f9fc4ca48060054940ea4554bda26933f428b11469dff",
+      "summary": "58 passed in 7.92s"
+    },
+    "common": {
+      "exit_code": 0,
+      "log_file": "finalization_common.log",
+      "log_sha256": "9f29d4839435f62231057a0a1bb938114c5fa646d56aa074eb545d765a1fe420",
+      "summary": "250 passed in 1.18s"
+    },
+    "full": {
+      "exit_code": 0,
+      "log_file": "finalization_full.log",
+      "log_sha256": "8cf3671e593a243582f1fe16fffe519de3f5f55ba6baa0c93d484286a59abfd0",
+      "summary": "927 passed, 25 skipped, 3 deselected, 2 warnings in 27.94s"
+    },
+    "research": {
+      "exit_code": 0,
+      "log_file": "finalization_research.log",
+      "log_sha256": "21993a071b820aadd18881a13dcfe6842e68b9c9c98273e23fd15a68c9b7d9f1",
+      "summary": "30 passed in 0.06s"
     }
   }
 }
