@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "status": "CANDIDATE_VERSIONS_RECOVERED_IMMUTABLE_CLOSURE_INCOMPLETE",
+  "candidate_runtime_versions": {
+    "attrs": "26.1.0",
+    "jsonschema": "4.23.0",
+    "jsonschema-specifications": "2025.9.1",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pyarrow": "18.1.0",
+    "python-dateutil": "2.9.0.post0",
+    "pytz": "2026.4",
+    "qfbench2-common": "2.4.2",
+    "referencing": "0.37.0",
+    "rpds-py": "2026.6.3",
+    "scipy": "1.18.1",
+    "six": "1.17.0",
+    "tzdata": "2026.4"
+  },
+  "source": "All three original Docker build job Successfully installed lines",
+  "python": "3.13, exact container patch unresolved (CI-host3.13.15 is not container proof)",
+  "forecasting_package_version": "2.1.0 source copied into /opt; not installed as a distribution in image",
+  "ci_common_wheel_sha256": "82f1ac17a93d3ecdceb4c8255f6a3132c4050f06cd4967de64a1e1a5685ef035",
+  "ci_wheel_is_not_container_wheel": true,
+  "all_runtime_wheel_hashes_available": false,
+  "system_package_manifest_available": false,
+  "versions_not_upgraded": true,
+  "official_image_dependency_identity": false
+}

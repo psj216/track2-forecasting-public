@@ -1,0 +1,63 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "status": "VERIFIED_CURRENT_OFFICIAL_DOCUMENTS",
+  "evidence": [
+    {
+      "url": "https://github.com/Agenthon-2026/track2-forecasting-public/blob/30c8019d997f930eab9ba569d089d12298d86d8c/README.md",
+      "commit": "30c8019d997f930eab9ba569d089d12298d86d8c",
+      "sha256": "4ac72ea2b49bf7da18ad0087197b1d33b9ee3d5ed60da26d4ab61380709378b9",
+      "local_path": "backtesting/submission_hardening06/results/evidence/official_readme-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    },
+    {
+      "url": "https://github.com/Agenthon-2026/track2-forecasting-public/blob/30c8019d997f930eab9ba569d089d12298d86d8c/SUBMISSION_CLI.md",
+      "commit": "30c8019d997f930eab9ba569d089d12298d86d8c",
+      "sha256": "abc113b668968894f12c942eeb1058943c4d8d7cb933d6128c96053ea4ab4cfd",
+      "local_path": "backtesting/submission_hardening06/results/evidence/official_cli-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    },
+    {
+      "url": "https://github.com/Agenthon-2026/Agenthon2026-public/blob/bbc0d6089337d0337c20abc68297138ea6e5f1f4/docs/DEVELOPMENT-RUNTIME.md",
+      "commit": "bbc0d6089337d0337c20abc68297138ea6e5f1f4",
+      "sha256": "cb8635751beffcd176609ba15eeb0fae485d16932a0ab2b83a1d477d61b5a580",
+      "local_path": "backtesting/submission_hardening06/results/evidence/runtime-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    }
+  ],
+  "architecture": "linux/amd64",
+  "interface_version": "2.0",
+  "track": "forecasting",
+  "category": "api",
+  "artifact": "sealed ZIP with submission.json and team-claim.json referencing anonymously pullable image digest",
+  "no_team_key_in_package": true,
+  "CPU": 16,
+  "memory_GiB": 128,
+  "per_unit_seconds": 1800,
+  "ingestion_stage_seconds": 43200,
+  "development_limits_not_final_certification": true,
+  "network": "restricted House route only; numerical-only operation and offline smoke allowed",
+  "non_root": true,
+  "harness_uid": 65534,
+  "root_read_only": true,
+  "input": "/input read-only",
+  "output": "/output writable",
+  "tmp": "/tmp 64MiB noexec/nosuid/nodev",
+  "output_tree_limit_MiB": 64,
+  "pids_limit": 256,
+  "nofile": 1024,
+  "nproc": 256,
+  "swap": false,
+  "runtime": "runc",
+  "min_draws": 200,
+  "larger_card_draw_floor_mandatory": true,
+  "House_requests_per_unit": 25,
+  "House_output_tokens_max": 4000,
+  "upload_limits": {
+    "daily": 5,
+    "development_total": 20,
+    "final_per_track": 1
+  },
+  "credentials": "Team Key local hidden prompt/file; not requested or stored; House credentials injected by harness",
+  "rebuild_policy": "Immutable image with reproducible source/descriptor is permitted subject to all rules; no blanket equivalence attestation or grandfathering of unknown identity",
+  "packaging_tool_version": "current official docs refer to v2.6.0; packaging-tool version is separate from candidate installed common2.4.2"
+}

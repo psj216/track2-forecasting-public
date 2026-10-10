@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "official_score": 0.9541,
+  "score_reestimated": false,
+  "receipt_found": false,
+  "receipt_id": null,
+  "submission_timestamp": null,
+  "submitted_zip_sha256": null,
+  "unique_official_candidate": false,
+  "preparation_archive_submission_status": "NOT_YET",
+  "PROVENANCE_STATUS": "PROVENANCE_PARTIAL",
+  "official_chain_status": "MISSING",
+  "searched": [
+    "137-commit local Git history and protected reports",
+    "remote tags and release assets: empty",
+    "remote V51 branch five Actions runs; all three successful candidate jobs and per-run metadata",
+    "PR1 and repository issue search for 0.9541",
+    "local/recovered project archives: filenames/manifests, not hidden labels",
+    "121-item /agenthon artifact folder, relevant preparation ZIP and two tail JSON drafts"
+  ],
+  "tail_drafts_excluded": true,
+  "receipt_absence_scope": "Not found in accessible project evidence; not a claim that no official platform receipt exists",
+  "limitations": [
+    "No original submitted package or official CodaBench receipt was available",
+    "Connector route rejects global artifact/tag endpoints; supported per-run and matching-ref routes used"
+  ],
+  "critical_gap": "No evidence connecting official0.9541 to unique submitted descriptor/package/digest"
+}

@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "FLOATING_BASE_TAG_RISK": true,
+  "historical_tag": "python:3.13-slim-bookworm",
+  "candidate_resolved_digest": "sha256:2325bb286ec344af3e5898cc224b5844e2707ac6e26b1632516fd3edc84a5e26",
+  "evidence": [
+    "backtesting/submission_hardening06/results/evidence/candidate-job-108198132224-selected.log",
+    "backtesting/submission_hardening06/results/evidence/candidate-job-108198548403-selected.log",
+    "backtesting/submission_hardening06/results/evidence/candidate-job-108198589493-selected.log"
+  ],
+  "resolved_for_all_three": true,
+  "historical_Dockerfile_changed": false,
+  "documented_reproduction_reference": "python:3.13-slim-bookworm@sha256:2325bb286ec344af3e5898cc224b5844e2707ac6e26b1632516fd3edc84a5e26",
+  "official_receipt_base_image": null,
+  "manifest_layers_not_inspected": true
+}

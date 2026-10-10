@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "PARENT_RESULT_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "PARENT_PRE_SHA": "a80d1b431e4b9ff53d9abfd653b681b64fa006fa",
+  "branch": "track2/submission-hardening-06",
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_binding_draft": "backtesting/alpha_strategy_reset05/results/next_study_frozen_draft.md",
+  "parent_readiness_audit": "backtesting/alpha_strategy_reset05/results/submission_readiness_audit.json",
+  "protected_parent_count": 2450
+}

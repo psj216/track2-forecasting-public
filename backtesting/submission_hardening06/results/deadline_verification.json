@@ -1,0 +1,42 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "DEADLINE_STATUS": "VERIFIED",
+  "retrieved_at": "2026-10-10T03:14:35.606570+00:00",
+  "evidence": [
+    {
+      "url": "https://github.com/Agenthon-2026/track2-forecasting-public/blob/30c8019d997f930eab9ba569d089d12298d86d8c/README.md",
+      "commit": "30c8019d997f930eab9ba569d089d12298d86d8c",
+      "sha256": "4ac72ea2b49bf7da18ad0087197b1d33b9ee3d5ed60da26d4ab61380709378b9",
+      "local_path": "backtesting/submission_hardening06/results/evidence/official_readme-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    },
+    {
+      "url": "https://github.com/Agenthon-2026/track2-forecasting-public/blob/30c8019d997f930eab9ba569d089d12298d86d8c/SUBMISSION_CLI.md",
+      "commit": "30c8019d997f930eab9ba569d089d12298d86d8c",
+      "sha256": "abc113b668968894f12c942eeb1058943c4d8d7cb933d6128c96053ea4ab4cfd",
+      "local_path": "backtesting/submission_hardening06/results/evidence/official_cli-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    },
+    {
+      "url": "https://github.com/Agenthon-2026/Agenthon2026-public/blob/bbc0d6089337d0337c20abc68297138ea6e5f1f4/docs/DEVELOPMENT-RUNTIME.md",
+      "commit": "bbc0d6089337d0337c20abc68297138ea6e5f1f4",
+      "sha256": "cb8635751beffcd176609ba15eeb0fae485d16932a0ab2b83a1d477d61b5a580",
+      "local_path": "backtesting/submission_hardening06/results/evidence/runtime-policy.md",
+      "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+    }
+  ],
+  "development_close_AoE": "2026-10-12T23:59:00-12:00",
+  "development_close_UTC": "2026-10-13T11:59:00Z",
+  "development_close_KST": "2026-10-13T20:59:00+09:00",
+  "last_new_development_run_start_UTC": "2026-10-12T20:00:00Z",
+  "last_new_development_run_start_KST": "2026-10-13T05:00:00+09:00",
+  "maintenance_UTC": [
+    "2026-10-13T08:00:00Z",
+    "2026-10-13T12:00:00Z"
+  ],
+  "final_close_AoE": "2026-10-25T23:59:00-12:00",
+  "final_close_UTC": "2026-10-26T11:59:00Z",
+  "final_close_KST": "2026-10-26T20:59:00+09:00",
+  "upload_is_not_start_guarantee": true,
+  "submission_performed": false
+}

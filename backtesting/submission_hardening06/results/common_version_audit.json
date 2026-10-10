@@ -1,0 +1,425 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "candidate_intended_version": "2.4.2",
+  "official_receipt_confirmed_version": null,
+  "official_version_must_not_be_substituted": true,
+  "version242": {
+    "annotated_tag": "e780dc4dc98293c6a126a2f182ca230b5fb25127",
+    "peeled_commit": "dfa92d242908bba4a448218b9c10ae391238d10d"
+  },
+  "version243": {
+    "annotated_tag": "358656a32094b19eff6fa95fe44b6a6671dc5041",
+    "peeled_commit": "03fc89cc666354e999768381bb923e60be5c1cee"
+  },
+  "changed_paths": [
+    "AGENTS.md",
+    "README.md",
+    "common/README.md",
+    "common/pyproject.toml",
+    "common/qfbench2_common/contracts/descriptor.py",
+    "common/qfbench2_common/contracts/fixtures/c5/analysis_dev.json",
+    "common/qfbench2_common/contracts/fixtures/c5/analysis_final.json",
+    "common/qfbench2_common/contracts/fixtures/c5/analysis_verification.json",
+    "common/qfbench2_common/contracts/fixtures/c5/forecasting_dev.json",
+    "common/qfbench2_common/contracts/fixtures/c5/forecasting_final.json",
+    "common/qfbench2_common/contracts/fixtures/c5/forecasting_verification.json",
+    "common/qfbench2_common/schemas/submission.schema.json",
+    "docs/DEVELOPMENT-RUNTIME.md",
+    "docs/GLOSSARY.md",
+    "docs/HOUSE-MODEL.md",
+    "docs/IMAGE-SUBMISSIONS.md",
+    "starter-packs/CHANGELOG.md",
+    "starter-packs/track1/AGENTS.md",
+    "starter-packs/track1/RUNTIME-ENVIRONMENT.md",
+    "starter-packs/track1/SUBMISSION-DESCRIPTOR.md",
+    "starter-packs/track2/AGENTS.md",
+    "starter-packs/track2/RUNTIME-ENVIRONMENT.md",
+    "starter-packs/track2/SUBMISSION-DESCRIPTOR.md",
+    "starter-packs/track3/AGENTS.md",
+    "starter-packs/track3/RUNTIME-ENVIRONMENT.md",
+    "starter-packs/track3/SUBMISSION-DESCRIPTOR.md",
+    "starter-packs/track4/AGENTS.md",
+    "starter-packs/track4/RUNTIME-ENVIRONMENT.md",
+    "starter-packs/track4/SUBMISSION-DESCRIPTOR.md"
+  ],
+  "unchanged_python_schema_files": [
+    {
+      "path": "common/qfbench2_common/__init__.py",
+      "sha256": "06244f3193e09a596ddb6c4632d3d2840003b72a54e230f486995079ed1d63ba"
+    },
+    {
+      "path": "common/qfbench2_common/cli.py",
+      "sha256": "0391c3f26880a7da1d2446a16f701a11010d853f060e5c7b5ec0b8c070701e88"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/MIGRATIONS.md",
+      "sha256": "37ec6eb30f9080960168d015a42e35bddc0272b453f743e669262bced2e1fed6"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/__init__.py",
+      "sha256": "a5818f189ecd8b8742f3c2b59b26573348afb568dc5bb59d6dba8332f5c157bb"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/_ed25519.py",
+      "sha256": "2bb9fd1ce0c7a0d0819dc8bc04764ab1a794585eae8c72259e0e757998c91b36"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/_time.py",
+      "sha256": "20b5ab69aadd79b456ec8c01463536933b1e39409d66302f6f8e3400200d7605"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/artifact_tree.py",
+      "sha256": "f467d6f08802f743d8b267199fd762adb7b0ce0f26c7c7d9dedade7ded41b0d8"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/codes.py",
+      "sha256": "8246045aee4af3b6fa0fd83b2fb2322c8308ffd177bdeefc8377c308c6a87469"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/devattest.py",
+      "sha256": "793d2d285b7dce9812711103534d234bd1c434228393b5e887368592555b2db4"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/digest.py",
+      "sha256": "cab74e8f7d967dbf5ba946c63bd6b3d6ef303c6ee4de0e2e8e455695a373a61b"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/errors.py",
+      "sha256": "549dc08abf16d705c24cb889550ca5704bde259dc48ac9bb5baa7916127a0f92"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/README.md",
+      "sha256": "9f2c13eca862a795b8486b056c3a82aaa5e5bdcc12a838353754c8ed34f31d7a"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/__init__.py",
+      "sha256": "79ce9d1da17f70a8b110fd1156d540e955c61f3dba0a880a109355c89c825b7f"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c1/analysis_final.expanded.json",
+      "sha256": "bd3631ad96edf32ff31cab0638a6d562714ff75bdac6d9b7e8b15e5eb5ea022e"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c1/coding_final.expanded.json",
+      "sha256": "740f76c99e36df1ed1ef5457514a56ab2a9108507bc38c92410206c8154a7938"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c1/coding_final.public.json",
+      "sha256": "178f93c20359002751cca341b19a34b153f8587534d39bccc5ed29dd10e68cb8"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c1/forecasting_final.expanded.json",
+      "sha256": "d7c6e21659eaaa1a2392018be93095ceef4912d577297f57e45919051b424fea"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c1/simulation_final.expanded.json",
+      "sha256": "0f02f24cba48f82567bd5e01a65543efd417481c6177e1fd7070ba79c1fe3ed8"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c2_run_record.json",
+      "sha256": "4db62971ce550a1fd5bfc2b840e8bda11b1d609b9ab89f1413a8e03d07c2ab5a"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c3_artifact_tree.json",
+      "sha256": "f01469fbbe152a1aa028007c1d4e39bd5477217d48be8ff5b68a7802ac77147d"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c4_aggregate.json",
+      "sha256": "0b2c853987da15790c82a6c1ea3505d7a208e9d34138623d5cebc16456dff143"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c4_failure_code_registry.json",
+      "sha256": "e6e6a32b4dfec2b0ea3cbd922bf25ec0bf823bc1faa40eee8101fdb7e1590dcd"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c4_unit_result.json",
+      "sha256": "45f73e5bbc3b8f7abb97ba0deb4b4b119685e285c3f7c7247f4fcdc3d77445b9"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c4_unit_result_failure.json",
+      "sha256": "987d8037725b433ec0ed6823549b244fc42918c9c412c1ea0220d09aa6f3e6dc"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/coding_dev.json",
+      "sha256": "0ec310750c12ec3dfce2ccfa2b4689cf8da6ab2f53fd19d2962681dc60c6dba5"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/coding_final.json",
+      "sha256": "4b5b5d68e7c06316c9de38eb921769477764c6c813f3ef13dffe10430a1aef9c"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/coding_verification.json",
+      "sha256": "266ab70a28a222a84b8bfa0e0a91c11651c7652977f7170e41a6d46ad26b0276"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/argv_injection_registry.json",
+      "sha256": "1742e949e0f1c64dae9e1a0ff28a946c02959c122d6fb4e528ade9bc94ebea44"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/bare_hex_image_digest.json",
+      "sha256": "22b7b1cd0178e160d26017bd8a861bc39e165c826ef54425d564bccc2844becd"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/category_not_in_enum.json",
+      "sha256": "46053391645c7e7b96b868ad74c6867792a7e39e50851d640f9266b00ff42649"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/image_as_free_string.json",
+      "sha256": "1e143c3270c18edc8a59bdbcf2be06614ff2b950ab875f7e707e0ba3d03a517f"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/legacy_image_digest_field.json",
+      "sha256": "745adc9d6d379d5d75422854cf2b2e7a5bb65be17ed72a7b6adca3a06afa5b12"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/legacy_model_disclosure.json",
+      "sha256": "e2d0314f02bc66b5e24554aed4115c74540a1c2547fdb0ac199441103bcb6240"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/missing_category.json",
+      "sha256": "5dda439d547eeed123f5a690de06313110a1696305bb8b2705f63cf52bcec702"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/unknown_field.json",
+      "sha256": "2c1cd5da7f65d0885d068e8d15a47e5ca3bdb67486cc0a5fce5f7b51b6e1f289"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/invalid/wrong_descriptor_digest.json",
+      "sha256": "28ae2c1f4b93808fa474e37bd55aae8b3d5606e40abc2b23df9d4cc94f3c383a"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/simulation_dev.json",
+      "sha256": "3c770831f777249f340b5fbaaca9e0d1ecfac243de191dfca0070d2ea456732e"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/simulation_final.json",
+      "sha256": "bffa643d341dc429077e7cbb1339fe8b2ebbf350e4754a5e7f47395f37b3040e"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c5/simulation_verification.json",
+      "sha256": "62356c799099c7311023ed969e40b19eb4a51a2b08438f90f48b62ae78715dd4"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c6_resolver_descriptor.json",
+      "sha256": "5952c39e646108a449c46b4f0a8ff2d259786fdde43bd9a14d742bca17cb8bf5"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c6_sealed_handle.json",
+      "sha256": "859d0e27003e84807b96f407c96b07b5602e4ec297c223240b7e8f5feb217900"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c7_hardware.json",
+      "sha256": "95a4004d7134c779dcf9cd9968c6e9df435b0ea901bc95bb8b0d295ae9464d87"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c7_hardware_unmeasured.json",
+      "sha256": "9e78215f0f16fc1d767856ccdce5115057e6aad12174c76574e6bb7a56f431ed"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c7_worker_heartbeat.json",
+      "sha256": "a8c22bb9eb075a70996dba7c3aa6dc43ca1565c5f9ecc1e1223e300dc481fc38"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/c8_release_evidence.json",
+      "sha256": "f2643fc3dda8463b2e16738490101d0df4513b5e7abfcb8bfb16852ae619218f"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/dev_trust_store.json",
+      "sha256": "79d17ba99ca8d0ac392d45a82e41eed22f87c500e16b0e3f13fbc559a946ea7d"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/fixtures/make_malicious_trees.py",
+      "sha256": "70a30dc33e4125093de22030bafa87894ec6b8f2f4b056555f045ec596023814"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/hardware.py",
+      "sha256": "6cc82d976cd0b686dc82d002168d5a6522bc2d5c708ebcaf62f0760ddbf941b3"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/heartbeat.py",
+      "sha256": "f343216c9ef9561ce43d22cea1c1462822e45bd765e3ff572f0300063071acb6"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/plan.py",
+      "sha256": "98bb82b6d293ef012c53f92398e9cfd11c65a26b037bb30b8aac75e0562b3162"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/release.py",
+      "sha256": "54c6e46cb443b174cb394ce3248a7f23be90fee88078e59d9ea1154e13b225c5"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/result.py",
+      "sha256": "ab89a227ce369d80577fa1b880ae28b8417e152728b29521d0ffce0a4f0e465f"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/run_record.py",
+      "sha256": "0fb7bb5011fe0389812a1b362fa3ba07065730c74e5a70792d653f9f0049f645"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/sealed.py",
+      "sha256": "7d10083533b38c48279b2fc6b7af125e5954d44c8f586b91c42633544c5fd2e2"
+    },
+    {
+      "path": "common/qfbench2_common/contracts/signing.py",
+      "sha256": "dabc6519b65c9c88de06075c4a03977f9bdab9eb45ef2aaf672e57a7a6740c87"
+    },
+    {
+      "path": "common/qfbench2_common/dataset.py",
+      "sha256": "029bbfecaf080c1fa45f7600a0d017e4dca82d7581b7632a8494967e4dee4f70"
+    },
+    {
+      "path": "common/qfbench2_common/eval/__init__.py",
+      "sha256": "b6ddb6a9195b8db796c7887c2ad516a79e42b6fc05848f95b14f8840a0551401"
+    },
+    {
+      "path": "common/qfbench2_common/eval/models.py",
+      "sha256": "c1d2d29e4066b1d7dc960a5fcb3096742cf5a7a0afcb742a5658cc322bac4304"
+    },
+    {
+      "path": "common/qfbench2_common/failure_labels.py",
+      "sha256": "d987c9a2dd4a8307dca756459ca04ce59d789627f446b2045062dadd2f8d4719"
+    },
+    {
+      "path": "common/qfbench2_common/leakage.py",
+      "sha256": "f16b8a152f21ac1e7b181b9c2df59183a301de2161ccd8cc37e4b64d3595dbab"
+    },
+    {
+      "path": "common/qfbench2_common/manifest.py",
+      "sha256": "7604ebb739b25c37242fa31be3e87c58d341fd321a76e27fc0b65d1266439ffe"
+    },
+    {
+      "path": "common/qfbench2_common/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "common/qfbench2_common/sanitize.py",
+      "sha256": "4ed949ea5a6f69e8214a47c6b38b0ebdd2e39e830b5699bde64f1e1b3609b09c"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/analysis.schema.json",
+      "sha256": "b1352c95ca9ed4f73b7e0ff2d0fd066f4633baf3c189e25e0264760c0534f97d"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c1_evaluation_plan.schema.json",
+      "sha256": "fcda51dbf3dcfff27c54b1133943fbef12b94c5763e21f08635efe747e55b48f"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c2_run_record.schema.json",
+      "sha256": "15f1a6991c656ceb42bbc6905b3d082c0f73ac3748ac7bfe03c6a40db2c60e4a"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c3_artifact_tree.schema.json",
+      "sha256": "74e9455fc27abaa43843f4a44048948930aa6f2e419480c0a554e5314596be86"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c4_result.schema.json",
+      "sha256": "120a20e176a453f17c67772264116c3a6341d0ef79f7545e86376ed871100090"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c6_sealed_pointer.schema.json",
+      "sha256": "757ba3de0a62b03797353e4658ba1066c73d7e8e88a3c97bf16baf9e5c173672"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c7_hardware.schema.json",
+      "sha256": "6abad6cd4ffced35e340bc1689b4770399a3f7555b0d369dd2339bd57fb86a57"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c7_worker_heartbeat.schema.json",
+      "sha256": "262d15323c26956ce854d591b469d9e833a294600a69fab5a883c120e09b3b86"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/c8_release_evidence.schema.json",
+      "sha256": "0b6eb8d30395337225bcd9ce3e392f6eb8e710326a901dd3be300aaec52945ab"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/forecast.schema.json",
+      "sha256": "e573efc9df1f3f30776cfe59ab3cb918e7e1408d9f5d318136911601a78bf9e5"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/manifest.schema.json",
+      "sha256": "e7f3e1ffad07d369d5a027de535926650f01b53af25fbcfea9ee0499ed322d35"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/sim_scenario.schema.json",
+      "sha256": "f858b2beefebfa08801849cfab8ce3a22f713ae10a58b977128027af26a3795a"
+    },
+    {
+      "path": "common/qfbench2_common/schemas/taskcard.schema.json",
+      "sha256": "47ca3a21d4efda347ba835032a024ac08c542d1b8d5dee4dcbd2f2968a1048f3"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/__init__.py",
+      "sha256": "5c0f0be7f10d5a61355520f564e7b9919a8f85d5594e90f65c7db986214d069a"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/_ranking.py",
+      "sha256": "03a0a3d57c9a46de9bfb33631bcbc29aa41392b7c8dd1067a4c6147b7ca5d2c8"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/bootstrap.py",
+      "sha256": "dd3c527be95ecb8750c76f6d94fd1a823b6a99b7820369f7447bf18e69adf208"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/crps.py",
+      "sha256": "fdd8bc89bc9d219f4e09937582d3aad97dfdb5656563e4037470873d17e200cb"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/factor_replication.py",
+      "sha256": "a8cf22a79841fb007f022b445bae0a5c7b52a18286e45875c18302e0daa6752a"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/faithfulness.py",
+      "sha256": "5dd0563a37459cfd867996b9632f8967f33fca3403b0d553c853cee94fe44a1e"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/passk.py",
+      "sha256": "b787e1b8fa6cf1cdcdd9587a0dda923cc8a8b1214000b530a40d0b92f100a527"
+    },
+    {
+      "path": "common/qfbench2_common/scoring/stylized_facts.py",
+      "sha256": "4ab20048d87e57bc84751bf718a2dab8d044d34e000673de353f7dac2ee66ea3"
+    },
+    {
+      "path": "common/qfbench2_common/smoke.py",
+      "sha256": "71e5298b0c7d11b12c9db638bd8201902161db711840875f462027903119076e"
+    },
+    {
+      "path": "common/qfbench2_common/taskcard.py",
+      "sha256": "3835de9357757a73697602fff358e34a19c01efb86167e36ce6e12d2ca2f40ab"
+    },
+    {
+      "path": "common/qfbench2_common/team_claim.py",
+      "sha256": "37789a05aefda1e68be1c0859f1b10750962c3c4e9f0a898a876a12088bc3510"
+    },
+    {
+      "path": "common/qfbench2_common/track1/__init__.py",
+      "sha256": "f7ce8c1ac5b65f93dd4b8562de205b82458c24c8bca190e09cc6de2b171ef59d"
+    },
+    {
+      "path": "common/qfbench2_common/track1/harbor.py",
+      "sha256": "33685c76bd87e7d366595a3943d73731022cc3b41facc0a4a745fb8e0c451d3d"
+    },
+    {
+      "path": "common/qfbench2_common/track4/__init__.py",
+      "sha256": "6861fa780ed9f3e3f2e8b0fd0d43bb72a9ccd6a854e81867cbf89f5572754526"
+    },
+    {
+      "path": "common/qfbench2_common/track4/harbor_exec.py",
+      "sha256": "0492d5ae0a23edff8d3b185418856affd8d6181bef6fdbbfe444612d89563d3d"
+    },
+    {
+      "path": "common/qfbench2_common/verifier.py",
+      "sha256": "65190be814b03437823ef98582b238a4bf2c81a9619b8c56a4f379980d928eb9"
+    }
+  ],
+  "differences": {
+    "descriptor": "byo-small/byo-large categories removed in2.4.3",
+    "submission_schema": "byo categories removed",
+    "pyproject": "version only, runtime dependency constraints unchanged",
+    "scoring": "all common scoring source bytes unchanged",
+    "forecast_schema": "forecast/meta schema bytes unchanged",
+    "serialization": "panel/runtime source bytes unchanged; no dynamic equivalence run"
+  },
+  "host_research_environment": "common2.4.3, not original runtime",
+  "runtime_sensitivity_executed": false
+}

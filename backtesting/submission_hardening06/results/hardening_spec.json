@@ -1,0 +1,53 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "PARENT_RESULT_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "branch": "track2/submission-hardening-06",
+  "official_historical_reference": 0.9541,
+  "score_reestimated": false,
+  "PROVENANCE_STATUS": "PROVENANCE_PARTIAL",
+  "unique_official_identity": false,
+  "rebuild_allowed": false,
+  "build_target_source_sha": null,
+  "intended_candidate_common": "2.4.2",
+  "frozen_evidence": [
+    36173403535,
+    36173531198,
+    36173543967
+  ],
+  "required_gates": [
+    "official receipt linked",
+    "unique submitted artifact/image/source identity",
+    "immutable runtime dependency identity",
+    "3 measured independent offline output runs",
+    "protected output byte equivalence",
+    "schema/resources/security",
+    "valid descriptor/package",
+    "no forecast changes"
+  ],
+  "frozen_seed": 0,
+  "official_seed_unknown": true,
+  "protected_outputs_missing": true,
+  "public_fixtures": [
+    "t2-F1-patient-dropped-2015",
+    "t2-F2-eur-parity-2022",
+    "t2-F3-brexit-joint-2016",
+    "t2-F4-funding-stress-2y-2008",
+    "t2-F4-covid-nfp-2020"
+  ],
+  "gate9_fail_reason": "Unique official source/config and immutable closure unresolved; original outputs/package/receipt absent",
+  "conditional_runtime_stages": "NOT_APPLICABLE until provenance prerequisites pass in separately authorized continuation",
+  "no_hidden_answers": true,
+  "no_submission": true,
+  "no_source_change": true,
+  "no_dependency_upgrade": true,
+  "allowed_verdicts": [
+    "READY_EXACT_REFERENCE",
+    "READY_REBUILT_EQUIVALENT",
+    "NOT_READY_MISSING_PROVENANCE",
+    "NOT_READY_NONDETERMINISTIC",
+    "NOT_READY_OUTPUT_MISMATCH",
+    "NOT_READY_RUNTIME_FAILURE",
+    "NOT_READY_POLICY_OR_DEADLINE_BLOCKED",
+    "INCONCLUSIVE"
+  ]
+}

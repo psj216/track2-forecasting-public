@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Restartable evidence-only delivery hardening. No model or submission action.",
+  "state": "PRE_READY",
+  "branch": "track2/submission-hardening-06",
+  "HEAD_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "completed": [
+    "environment_lineage",
+    "historical_provenance_discovery",
+    "official_receipt_search",
+    "source_dependencies_runtime_identity",
+    "policy_deadline_verification",
+    "provenance_gate"
+  ],
+  "pending": [
+    "PRE_remote_freeze",
+    "conditional_stages_disposition",
+    "report",
+    "tests",
+    "RESULT_remote_verification",
+    "recovery"
+  ],
+  "build_allowed": false,
+  "build_executed": false,
+  "outcomes_deserialized": false,
+  "same_step_failures": {}
+}

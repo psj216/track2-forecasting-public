@@ -1,0 +1,328 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "official_source_sha": null,
+  "preparation_source_sha": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "candidate_sources": [
+    "45858fa41384b30d9a4233becba6de026c3bfa71",
+    "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+    "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+  ],
+  "historical_package_files": [
+    {
+      "path": "qfbench2_track_forecasting/__init__.py",
+      "historical_sha256": "fda9c66b0eb87161f0e2a837bd9eaf32a7a15a004c72334b4d1c24cf19f32212",
+      "current_sha256": "fda9c66b0eb87161f0e2a837bd9eaf32a7a15a004c72334b4d1c24cf19f32212",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/aggregate.py",
+      "historical_sha256": "89d71ccd3783db0f70937c278dab5f1367f482b058e6b634f76b22b68bacb211",
+      "current_sha256": "89d71ccd3783db0f70937c278dab5f1367f482b058e6b634f76b22b68bacb211",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/cli.py",
+      "historical_sha256": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+      "current_sha256": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/cutoff.py",
+      "historical_sha256": "26539064fb0889740aa0c966df0e0b2182ea4648a7b8cfaf56813ea87a3126ba",
+      "current_sha256": "26539064fb0889740aa0c966df0e0b2182ea4648a7b8cfaf56813ea87a3126ba",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/f1_center.py",
+      "historical_sha256": "d5f89077dbf172e20b1147e9820d390846b226f3588fe68c95287133358953ed",
+      "current_sha256": "d5f89077dbf172e20b1147e9820d390846b226f3588fe68c95287133358953ed",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/failures.py",
+      "historical_sha256": "92fee4de0f4b75ab4df3b84850d3e4d0a5846629c5923a2d3105c712c1b997d2",
+      "current_sha256": "92fee4de0f4b75ab4df3b84850d3e4d0a5846629c5923a2d3105c712c1b997d2",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/family_calibration.py",
+      "historical_sha256": "b902bba0215655ce7b9adae1ffde2b1a567d0d1e2a75cc00728258ce4c0b9b86",
+      "current_sha256": "b902bba0215655ce7b9adae1ffde2b1a567d0d1e2a75cc00728258ce4c0b9b86",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/family_pipeline.py",
+      "historical_sha256": "e13ab4d9f5245a13b926bca19cb42fa10961e17cfd976525bc11758119e82fde",
+      "current_sha256": "e13ab4d9f5245a13b926bca19cb42fa10961e17cfd976525bc11758119e82fde",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/grid.py",
+      "historical_sha256": "ffac56e438b447bea5fbc2fb8e766cef25ef81c79d99e7be2752a4ea532126d0",
+      "current_sha256": "ffac56e438b447bea5fbc2fb8e766cef25ef81c79d99e7be2752a4ea532126d0",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/historical_heads.py",
+      "historical_sha256": "a4e564133da57ea9d3e9cf253420aef70223b00566a3c000cf271720215152c2",
+      "current_sha256": "a4e564133da57ea9d3e9cf253420aef70223b00566a3c000cf271720215152c2",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/integrated_v4.py",
+      "historical_sha256": "517c800c8a646cb9f62fd5db1a863d9a66f8d41fda69b1733d12fe44e16c839e",
+      "current_sha256": "517c800c8a646cb9f62fd5db1a863d9a66f8d41fda69b1733d12fe44e16c839e",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/limits.py",
+      "historical_sha256": "5aa33f7d3221bc479ad02059db2296eb598de38c8f30d9c884edb3384b3fcadf",
+      "current_sha256": "5aa33f7d3221bc479ad02059db2296eb598de38c8f30d9c884edb3384b3fcadf",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/normalization.py",
+      "historical_sha256": "f933362a370e09daf6d0a9216c28684c9d84eaedc020cf1cce85fd938bb0b2eb",
+      "current_sha256": "f933362a370e09daf6d0a9216c28684c9d84eaedc020cf1cce85fd938bb0b2eb",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/numeric_v1.py",
+      "historical_sha256": "f5cd5d68b4fd1edf576117df796502cb1a38cc620bdc50f52972e6f7acbdb679",
+      "current_sha256": "f5cd5d68b4fd1edf576117df796502cb1a38cc620bdc50f52972e6f7acbdb679",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/numeric_v2.py",
+      "historical_sha256": "fa68a7f3ec0cf035ec028638e944217f86c28b40ac54f6d9dac84459f3d52d71",
+      "current_sha256": "fa68a7f3ec0cf035ec028638e944217f86c28b40ac54f6d9dac84459f3d52d71",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/numeric_v21.py",
+      "historical_sha256": "bff80dad9aae4f9dcd1af880f6fcf4ae2dd4125dae619dde9cb869316b414547",
+      "current_sha256": "bff80dad9aae4f9dcd1af880f6fcf4ae2dd4125dae619dde9cb869316b414547",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/numeric_v3.py",
+      "historical_sha256": "edb94b2c55f250b8a92ca7c6f00fa3699d0273a2fc3bf428b87337f37c880379",
+      "current_sha256": "edb94b2c55f250b8a92ca7c6f00fa3699d0273a2fc3bf428b87337f37c880379",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/numeric_v4.py",
+      "historical_sha256": "8d49f13ffd88caf1c0fae207a56639c1b4fd57add50757db04778bbb7a02e4df",
+      "current_sha256": "8d49f13ffd88caf1c0fae207a56639c1b4fd57add50757db04778bbb7a02e4df",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/official.py",
+      "historical_sha256": "d0400ade5dfb2e96fbaad70f1f2cfd0340d7f550cab295f208dfeedf443e0927",
+      "current_sha256": "d0400ade5dfb2e96fbaad70f1f2cfd0340d7f550cab295f208dfeedf443e0927",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/regime_router.py",
+      "historical_sha256": "2d4b872183b02017e899d0029b99cef247ea40665a749cdd6ba0bddfb832a1c0",
+      "current_sha256": "2d4b872183b02017e899d0029b99cef247ea40665a749cdd6ba0bddfb832a1c0",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/scenario_integration.py",
+      "historical_sha256": "5ff75008c3f6a96e2adcbd0ec59802138c89a84c10826bc9e7a5dcd405331fad",
+      "current_sha256": "5ff75008c3f6a96e2adcbd0ec59802138c89a84c10826bc9e7a5dcd405331fad",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/scoring.py",
+      "historical_sha256": "030a9d88469bc2191d1652648cff2ed67f587a3d8edaa1989f2c2c1620190633",
+      "current_sha256": "030a9d88469bc2191d1652648cff2ed67f587a3d8edaa1989f2c2c1620190633",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/tail.py",
+      "historical_sha256": "189fa879fdec703ed3ce593ac44b8a285638fe32bd42c56ee7a774fdd895d8e0",
+      "current_sha256": "189fa879fdec703ed3ce593ac44b8a285638fe32bd42c56ee7a774fdd895d8e0",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/text_evidence.py",
+      "historical_sha256": "25b68a20d8e8c9906c4775782c9e668569e5ba05ed7b6c898e11844e91c71a8e",
+      "current_sha256": "25b68a20d8e8c9906c4775782c9e668569e5ba05ed7b6c898e11844e91c71a8e",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/text_first_v5.py",
+      "historical_sha256": "c11fc835bc754b219f6a742df747a6a51f7fbdadff1ab49c4a0aaea7f081d432",
+      "current_sha256": "c11fc835bc754b219f6a742df747a6a51f7fbdadff1ab49c4a0aaea7f081d432",
+      "unchanged": true
+    },
+    {
+      "path": "qfbench2_track_forecasting/text_interpreter_v51.py",
+      "historical_sha256": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f",
+      "current_sha256": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f",
+      "unchanged": true
+    }
+  ],
+  "merge_source_remote_comparisons": [
+    {
+      "path": "Dockerfile",
+      "sha256": "1ac5090744baf15a88c71817b5c2fc3572b6c273e648c668ba48d1efae8b7b94",
+      "same_as_current": true,
+      "verified_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+    },
+    {
+      "path": "qfbench2_track_forecasting/cli.py",
+      "sha256": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+      "same_as_current": true,
+      "verified_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+    },
+    {
+      "path": "qfbench2_track_forecasting/text_interpreter_v51.py",
+      "sha256": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f",
+      "same_as_current": true,
+      "verified_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+    }
+  ],
+  "build_arg": "FORECAST_MODE=text-first-v5.1",
+  "historical_workflow_seed": 0,
+  "source_default_draws": 500,
+  "F4_draw_floor": 1000,
+  "official_invocation_seed": null,
+  "official_invocation_draws": null,
+  "seed_semantics": "Source default/CI invocation are known; official run arguments are not",
+  "entrypoint": null,
+  "command": [
+    "forecast",
+    "--help"
+  ],
+  "verb": "forecast",
+  "module": "qfbench2_track_forecasting.cli",
+  "environment": {
+    "FORECAST_MODE": "text-first-v5.1",
+    "PYTHONDONTWRITEBYTECODE": "1",
+    "PYTHONUNBUFFERED": "1",
+    "PIP_NO_CACHE_DIR": "1",
+    "PYTHONPATH": "/opt"
+  },
+  "user": "runner UID1000 in Dockerfile; official current harness overrides UID65534",
+  "workdir": "/work",
+  "output_files": [
+    "forecast.parquet",
+    "forecast_meta.json",
+    "forecast_rationale.md"
+  ],
+  "family_behavior": {
+    "T2-F1": "document-delta interpretation",
+    "T2-F4": "currentness interpretation / 1000draw floor",
+    "T2-F2/T2-F3": "preserve numericV3"
+  },
+  "additional_current_research_package_paths": [
+    "qfbench2_track_forecasting/ceiling01/__init__.py",
+    "qfbench2_track_forecasting/ceiling01/coverage_bounds.py",
+    "qfbench2_track_forecasting/ceiling01/decomposition.py",
+    "qfbench2_track_forecasting/ceiling01/joint_oracle.py",
+    "qfbench2_track_forecasting/ceiling01/location_oracle.py",
+    "qfbench2_track_forecasting/ceiling01/scale_oracle.py",
+    "qfbench2_track_forecasting/ceiling01/scorer_adapter.py",
+    "qfbench2_track_forecasting/ceiling01/tail_oracle.py",
+    "qfbench2_track_forecasting/ceiling01/zero_loss_bounds.py",
+    "qfbench2_track_forecasting/context01/__init__.py",
+    "qfbench2_track_forecasting/context01/context_router.py",
+    "qfbench2_track_forecasting/context01/context_schema.py",
+    "qfbench2_track_forecasting/context01/deterministic_annotator.py",
+    "qfbench2_track_forecasting/context01/engine.py",
+    "qfbench2_track_forecasting/context01/expert_transfer.py",
+    "qfbench2_track_forecasting/context01/residual_target.py",
+    "qfbench2_track_forecasting/context01/semantic_model.py",
+    "qfbench2_track_forecasting/context01/text_effect.py",
+    "qfbench2_track_forecasting/expectation01/__init__.py",
+    "qfbench2_track_forecasting/expectation01/engine.py",
+    "qfbench2_track_forecasting/expectation01/event_alignment.py",
+    "qfbench2_track_forecasting/expectation01/expectation_features.py",
+    "qfbench2_track_forecasting/expectation01/market_implied_features.py",
+    "qfbench2_track_forecasting/expectation01/model.py",
+    "qfbench2_track_forecasting/expectation01/normalization.py",
+    "qfbench2_track_forecasting/expectation01/source_schema.py",
+    "qfbench2_track_forecasting/expectation01/surprise_features.py",
+    "qfbench2_track_forecasting/location01/__init__.py",
+    "qfbench2_track_forecasting/location01/engine.py",
+    "qfbench2_track_forecasting/location01/feature_cross_market.py",
+    "qfbench2_track_forecasting/location01/feature_forecast_state.py",
+    "qfbench2_track_forecasting/location01/feature_metadata.py",
+    "qfbench2_track_forecasting/location01/feature_own_history.py",
+    "qfbench2_track_forecasting/location01/feature_regime.py",
+    "qfbench2_track_forecasting/location01/model.py",
+    "qfbench2_track_forecasting/location01/oracle_target.py",
+    "qfbench2_track_forecasting/location01r/__init__.py",
+    "qfbench2_track_forecasting/location01r/guard.py",
+    "qfbench2_track_forecasting/location03/__init__.py",
+    "qfbench2_track_forecasting/origin01/__init__.py",
+    "qfbench2_track_forecasting/origin01/engine.py",
+    "qfbench2_track_forecasting/origin01/innovations.py",
+    "qfbench2_track_forecasting/origin01/location_shift.py",
+    "qfbench2_track_forecasting/origin01/propagation_model.py",
+    "qfbench2_track_forecasting/origin01/shock_detector.py",
+    "qfbench2_track_forecasting/origin01/unreacted_gate.py",
+    "qfbench2_track_forecasting/positioning01/__init__.py",
+    "qfbench2_track_forecasting/positioning01/engine.py",
+    "qfbench2_track_forecasting/positioning01/flow_features.py",
+    "qfbench2_track_forecasting/positioning01/liquidity_features.py",
+    "qfbench2_track_forecasting/positioning01/model.py",
+    "qfbench2_track_forecasting/positioning01/normalization.py",
+    "qfbench2_track_forecasting/positioning01/positioning_features.py",
+    "qfbench2_track_forecasting/positioning01/publication_alignment.py",
+    "qfbench2_track_forecasting/positioning01/source_asset_map.py",
+    "qfbench2_track_forecasting/positioning01/source_schema.py",
+    "qfbench2_track_forecasting/surprise01/__init__.py",
+    "qfbench2_track_forecasting/surprise01/engine.py",
+    "qfbench2_track_forecasting/surprise01/event_schema.py",
+    "qfbench2_track_forecasting/surprise01/expectation.py",
+    "qfbench2_track_forecasting/surprise01/location_head.py",
+    "qfbench2_track_forecasting/surprise01/response_model.py",
+    "qfbench2_track_forecasting/surprise01/scale_head.py",
+    "qfbench2_track_forecasting/surprise01/surprise.py",
+    "qfbench2_track_forecasting/surprise01/vintage_loader.py",
+    "qfbench2_track_forecasting/thesis01/__init__.py",
+    "qfbench2_track_forecasting/thesis01/asset_semantics.py",
+    "qfbench2_track_forecasting/thesis01/engine.py",
+    "qfbench2_track_forecasting/thesis01/implied_value.py",
+    "qfbench2_track_forecasting/thesis01/innovations.py",
+    "qfbench2_track_forecasting/thesis01/location_alpha.py",
+    "qfbench2_track_forecasting/thesis01/scaling.py",
+    "qfbench2_track_forecasting/thesis01/tension.py",
+    "qfbench2_track_forecasting/thesis01/v51_shift.py",
+    "qfbench2_track_forecasting/v12/__init__.py",
+    "qfbench2_track_forecasting/v12/artifacts.json",
+    "qfbench2_track_forecasting/v12/artifacts.py",
+    "qfbench2_track_forecasting/v12/artifacts_v13_r.json",
+    "qfbench2_track_forecasting/v12/artifacts_v13_r2.json",
+    "qfbench2_track_forecasting/v12/asset_decoder.py",
+    "qfbench2_track_forecasting/v12/data_parity.py",
+    "qfbench2_track_forecasting/v12/engine.py",
+    "qfbench2_track_forecasting/v12/horizon_expert.py",
+    "qfbench2_track_forecasting/v12/joint_dataset.py",
+    "qfbench2_track_forecasting/v12/joint_features.py",
+    "qfbench2_track_forecasting/v12/latent_state.py",
+    "qfbench2_track_forecasting/v12/residual_model.py",
+    "qfbench2_track_forecasting/v12/state_transition.py",
+    "qfbench2_track_forecasting/v12/train.py",
+    "qfbench2_track_forecasting/v12/world_generator.py",
+    "qfbench2_track_forecasting/v13/__init__.py",
+    "qfbench2_track_forecasting/v13/artifact_sha.json",
+    "qfbench2_track_forecasting/v13/bank_manifest.json",
+    "qfbench2_track_forecasting/v13/copula_mixture.py",
+    "qfbench2_track_forecasting/v13/engine.py",
+    "qfbench2_track_forecasting/v13/historical_copula_bank.py",
+    "qfbench2_track_forecasting/v13/marginal_adapter.py",
+    "qfbench2_track_forecasting/v13/rank_copula.py",
+    "qfbench2_track_forecasting/v13/state_retrieval.py",
+    "qfbench2_track_forecasting/v13/support_gate.py",
+    "qfbench2_track_forecasting/v13/supported_target_set.json",
+    "qfbench2_track_forecasting/v13/v51_copula.py",
+    "qfbench2_track_forecasting/v13/world_generator.py"
+  ],
+  "current_tree_not_historical_build_tree": true,
+  "unchanged_used_source": true
+}

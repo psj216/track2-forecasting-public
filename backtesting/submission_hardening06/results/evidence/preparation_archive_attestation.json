@@ -1,0 +1,58 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "archive_filename": "V5.1_Text_First_Submission_Preparation.zip",
+  "archive_sha256": "b3d2ba6dcd05eddaa6b13e96658683d1ca11b1d36350baff6ac5873b6a48766c",
+  "size_bytes": 1819,
+  "members": {
+    "README.md": "90b95f77b8194bd85188fc78705e42c9053bfed4547adccf7e341a70b9f5b9fa",
+    "image-reference.txt": "72ed559b05f674f0031fa8dcb727251d75c6b714f61e2f90d05e51da66459a6a",
+    "submission-draft.json": "65df50561c45f34ead8628d7be0de1fc26ad67eb489f03976676934349560bf0",
+    "validation-summary.json": "3b355fe4ff48c25cb4b29f5e453af155db7a422a36e1764b4dd0139344eb5748"
+  },
+  "descriptor_draft": {
+    "schema_version": "1.0.0",
+    "interface_version": "2.0",
+    "competition_id": "agenthon2026-forecasting-dev",
+    "track": "forecasting",
+    "phase": "dev",
+    "category": "api",
+    "image": {
+      "registry": "docker.io",
+      "repository": "jotj216/track2-f4-approved",
+      "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+    },
+    "image_access": "public",
+    "models": [
+      {
+        "name": "nvidia/nemotron-3-super-120b-a12b",
+        "version": "rl-030326-fp8",
+        "revision": "rl-030326-fp8",
+        "training_cutoff": "unpublished",
+        "access": "api"
+      }
+    ],
+    "license": "MIT"
+  },
+  "validation_summary": {
+    "candidate": "V5.1 Text First F1/F4",
+    "source_pr": "https://github.com/psj216/track2-forecasting-public/pull/1",
+    "ci_run": "https://github.com/psj216/track2-forecasting-public/actions/runs/36173543967",
+    "image_digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+    "local_smoke": {
+      "admissible": 103,
+      "total": 103
+    },
+    "activation": {
+      "F1": "9/23",
+      "F4": "11/31"
+    },
+    "frozen_F2_F3_parquet_byte_identical": "49/49",
+    "draw_seed_stability": "324/324",
+    "docker_smoke": "PASS",
+    "anonymous_pull": "PASS",
+    "official_submission": "NOT_YET"
+  },
+  "official_submission": "NOT_YET",
+  "sealed_submission_package": false,
+  "team_credentials_not_copied": true
+}

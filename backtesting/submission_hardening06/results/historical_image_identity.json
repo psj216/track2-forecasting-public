@@ -1,0 +1,63 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "official_image": null,
+  "preparation_image": {
+    "registry": "docker.io",
+    "repository": "jotj216/track2-f4-approved",
+    "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+  },
+  "preparation_source_sha": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "candidate_builds": [
+    {
+      "run_id": 36173403535,
+      "job_id": 108198132224,
+      "source_sha": "45858fa41384b30d9a4233becba6de026c3bfa71",
+      "tag": "v51-45858fa-36173403535-1",
+      "registry": "docker.io/jotj216/track2-f4-approved",
+      "image_digest": "sha256:7e4e954255a043750b09f07e93ea7548cdc000795e2b1fef8b3322c0acb00200",
+      "image_id": "sha256:0e3af83d1771a2e7b8bb0239fb4218d99d11d79e3f677883dfce152c0057d479",
+      "actions_artifact_id": 10881138976,
+      "actions_artifact_sha256": "1f6f7e1abab27545a9efc705368ccc06a4c35f01739c9312697f91341ea88ceb",
+      "actions_artifact_kind": "2-file image reference/source commit metadata ZIP, NOT submitted ZIP",
+      "log_evidence": "backtesting/submission_hardening06/results/evidence/candidate-job-108198132224-selected.log",
+      "log_sha256": "f9185d2a0bfb10a6501103c606fb6d0ddeb6467beed60251d26fa8a7aa3b3f23",
+      "architecture": "linux/amd64 SUPPORTED by x86_64 build wheels and CI; current manifest NOT_INSPECTED",
+      "official_receipt_link": false
+    },
+    {
+      "run_id": 36173531198,
+      "job_id": 108198548403,
+      "source_sha": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+      "tag": "v51-8b926cf-36173531198-1",
+      "registry": "docker.io/jotj216/track2-f4-approved",
+      "image_digest": "sha256:f33b326076995274a22cc4c91d3e469723e491df3ce87fe3404bc0ebfde44997",
+      "image_id": "sha256:460cbe2544f541295bc32075eb7da4c0cd5c347e4e1c507b23d6eef834a893a1",
+      "actions_artifact_id": 10881229096,
+      "actions_artifact_sha256": "1d2e0f0d9fc268763a218ca5e2c28fb4a4b0c0685b919877c0826c2c236388ed",
+      "actions_artifact_kind": "2-file image reference/source commit metadata ZIP, NOT submitted ZIP",
+      "log_evidence": "backtesting/submission_hardening06/results/evidence/candidate-job-108198548403-selected.log",
+      "log_sha256": "f087afb2c4bd7833ff97f1844921f7d9bc41eb7c010fdb0f32fdf2155a489c64",
+      "architecture": "linux/amd64 SUPPORTED by x86_64 build wheels and CI; current manifest NOT_INSPECTED",
+      "official_receipt_link": false
+    },
+    {
+      "run_id": 36173543967,
+      "job_id": 108198589493,
+      "source_sha": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+      "tag": "v51-47194f2-36173543967-1",
+      "registry": "docker.io/jotj216/track2-f4-approved",
+      "image_digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+      "image_id": "sha256:1d6835db45dec0dd419b135441540b9e27e1b1218f37c051f1e13a0c2072eb74",
+      "actions_artifact_id": 10881109209,
+      "actions_artifact_sha256": "e01f24c48fa8e9aa877ff71fdd8d0ce3d6d118f3dc93fd5856176eba129ef7a6",
+      "actions_artifact_kind": "2-file image reference/source commit metadata ZIP, NOT submitted ZIP",
+      "log_evidence": "backtesting/submission_hardening06/results/evidence/candidate-job-108198589493-selected.log",
+      "log_sha256": "7722c16a4deb96724e32ccf67fe34e7726d77614690e08339f4645fc59b01152",
+      "architecture": "linux/amd64 SUPPORTED by x86_64 build wheels and CI; current manifest NOT_INSPECTED",
+      "official_receipt_link": false
+    }
+  ],
+  "original_binary_in_workspace": false,
+  "registry_availability_currently_tested": false,
+  "official_receipt_identity_resolved": false
+}

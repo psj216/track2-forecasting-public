@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
+  "repository": "psj216/track2-forecasting-public",
+  "branch": "track2/submission-hardening-06",
+  "initial_HEAD": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_remote_verified": true,
+  "main_remote_verified": true,
+  "starting_tree_clean": true,
+  "python_audit_interpreter": "/workspace/scratch/935b41f252e9/bias-final-env/bin/python",
+  "docker_executable": null,
+  "podman_executable": null,
+  "skopeo_executable": null,
+  "docker_socket": false,
+  "network_transport": "Authenticated GitHub connector; shell Git remote is a recovery bundle, not remote authority",
+  "retrieved_at": "2026-10-10T03:14:35.606570+00:00"
+}
