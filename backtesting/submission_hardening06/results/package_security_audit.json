@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "PARTIAL",
+  "new_audit_material_secret_pattern_scan": "PASS",
+  "secret_patterns_scanned": [
+    "gh[pousr]_[A-Za-z0-9]{20,}",
+    "sk-[A-Za-z0-9]{20,}",
+    "-----BEGIN (?:RSA |OPENSSH |EC )?PRIVATE KEY-----"
+  ],
+  "new_files_scanned": 32,
+  "credential_hits": [],
+  "hidden_labels_accessed": false,
+  "hidden_label_files_in_new_audit": false,
+  "no_submission_performed": true,
+  "actual_submission_package_scan": "NOT_RUN",
+  "image_layer_secret_scan": "NOT_RUN",
+  "inherited_base_VOLUME_inspection": "NOT_RUN",
+  "no_security_readiness_certification": true
+}

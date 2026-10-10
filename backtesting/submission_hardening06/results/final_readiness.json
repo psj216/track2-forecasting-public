@@ -1,0 +1,35 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "verdict": "NOT_READY_MISSING_PROVENANCE",
+  "evidence": {
+    "receipt_linked": false,
+    "unique_historical_identity": false,
+    "source_lineage": true,
+    "runtime_dependencies_frozen": false,
+    "deterministic_runtime": false,
+    "output_equivalence": false,
+    "schema_and_resources": false,
+    "security": false,
+    "descriptor_package": false,
+    "entrypoint_config_known": false,
+    "runtime_contract_known": true,
+    "source_unchanged": true,
+    "original_image": false
+  },
+  "critical_gaps": [
+    "Official0.9541 platform receipt/runID/timestamp",
+    "Actual submitted ZIP SHA256 and sealed descriptor/claim",
+    "Unique official image digest and actual source/invocation linkage",
+    "Original binary or authorized immutable rebuild input closure",
+    "Original protected fixture output bytes/hashes",
+    "Current repeated offline runtime/schema/resources/equivalence certification"
+  ],
+  "all_success_gates_pass": false,
+  "source_preserved": true,
+  "reference_score_reestimated": false,
+  "provenance_gate": "PROVENANCE_PARTIAL",
+  "rebuild_gate": "FAIL",
+  "conditional_stages_disposition": "NOT_APPLICABLE",
+  "audit_completed": true,
+  "submission_ready": false
+}

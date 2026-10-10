@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "NOT_APPLICABLE",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "runtime_comparison": false,
+  "static_comparison": "common_version_audit.json",
+  "candidate_version_preserved": "2.4.2",
+  "no_upgrade": true,
+  "static_same_bytes_not_runtime_equivalence": true
+}

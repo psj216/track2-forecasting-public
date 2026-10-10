@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "NOT_APPLICABLE",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "measured_runtime": null,
+  "measured_peak_memory": null,
+  "measured_output_size": null,
+  "limits_evidence": "competition_runtime_contract.json",
+  "Dockerfile_nonroot_config": true,
+  "actual_UID65534_output_permissions_unverified": true,
+  "resource_gates_not_certified": true
+}

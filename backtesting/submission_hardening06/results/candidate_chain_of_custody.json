@@ -1,0 +1,53 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "PROVENANCE_STATUS": "PROVENANCE_PARTIAL",
+  "unique_official_identity": false,
+  "chain": [
+    {
+      "arrow": "official0.9541receipt -> submittedartifact",
+      "status": "MISSING",
+      "evidence": "Historical0.9541 inherited; no platform receipt/run/timestamp/packageSHA"
+    },
+    {
+      "arrow": "submittedartifact -> historicalimage/digest",
+      "status": "MISSING",
+      "evidence": "Preparation ZIP explicitly NOT_YET; not submitted ZIP"
+    },
+    {
+      "arrow": "preparationZIP -> candidateimage/digest",
+      "status": "VERIFIED",
+      "evidence": "Original preparation ZIP1819bytes CRC/hash verified;0b9b08d8... referenced"
+    },
+    {
+      "arrow": "candidateimage/digest -> sourceSHA",
+      "status": "VERIFIED",
+      "evidence": "Actions checkout47194f28... (not workflow head8b926cf...) and published digest in original job log"
+    },
+    {
+      "arrow": "sourceSHA -> common/dependencies",
+      "status": "SUPPORTED",
+      "evidence": "Candidate common2.4.2 and complete pip-installed version list recovered; container Python patch/system closure/wheel hashes incomplete"
+    },
+    {
+      "arrow": "common/dependencies -> currentexecutable",
+      "status": "MISSING",
+      "evidence": "No currently recovered image binary; no authorized equivalence build"
+    },
+    {
+      "arrow": "currentexecutable -> repeatedfixtureoutputs",
+      "status": "MISSING",
+      "evidence": "Zero current executions"
+    },
+    {
+      "arrow": "repeatedfixtureoutputs -> historicaloutputequivalence",
+      "status": "MISSING",
+      "evidence": "Original fixture output files/hashes absent"
+    },
+    {
+      "arrow": "historicaloutputequivalence -> descriptor/package",
+      "status": "MISSING",
+      "evidence": "No original sealed descriptor/claim or submitted ZIP hash"
+    }
+  ],
+  "all_chain_arrows_complete": false
+}

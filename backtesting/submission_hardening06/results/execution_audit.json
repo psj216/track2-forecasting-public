@@ -1,0 +1,66 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "audit_complete": true,
+  "PRE_REMOTE_VERIFIED": true,
+  "PRE_RESULT_SUBMISSION_HARDENING06_SHA": "9a8467493908d7295bbfc70077f72f0d33a353a7",
+  "tests": {
+    "research": {
+      "summary": "39 passed in 0.13s",
+      "exit_code": 0,
+      "log_sha256": "ff3e3a0adf735ad9ff28af84012120def84aadb71d71d3476d532220cdad2771",
+      "log_file": "research.log"
+    },
+    "affected": {
+      "summary": "137 passed, 2 skipped in 2.96s",
+      "exit_code": 0,
+      "log_sha256": "e2406cdb4b1557205a86bf75797cc05c76878530cac0eb9d4afe8d9399851b87",
+      "log_file": "affected.log"
+    },
+    "full": {
+      "summary": "897 passed, 25 skipped, 3 deselected, 5 warnings in 27.55s",
+      "exit_code": 0,
+      "log_sha256": "957d3a44e65e8aea2c1305123f1de43fc52826c0fbb98ef55217a98f57e0d1ee",
+      "log_file": "full.log"
+    },
+    "common": {
+      "summary": "250 passed in 0.85s",
+      "exit_code": 0,
+      "log_sha256": "38344046398fc43bc98ee27aa7c01602d66cdf1fefa05bca05f0eb4de4af38c4",
+      "log_file": "common.log"
+    }
+  },
+  "conditional_image_build_runtime_stages": "NOT_APPLICABLE after failed provenance/rebuild prerequisites",
+  "image_recovered": false,
+  "build_executed": false,
+  "model_fit": false,
+  "forecast_score_computed": false,
+  "submission_executed": false,
+  "hidden_labels_read": false,
+  "protected_parent_count": 2450,
+  "protected_parent_files_unchanged": true,
+  "operational_repairs": [
+    {
+      "stage": "PRE protection inventory",
+      "first_attempt_error": "Git quoted non-ASCII path rendered as filename",
+      "repair": "Use git ls-tree -z and NUL-delimited filenames",
+      "attempts": 2,
+      "second_attempt": "PASS",
+      "scientific_logic_changed": false
+    },
+    {
+      "stage": "Policy bytes attestation",
+      "finding": "Scratch serialization added one trailing newline",
+      "repair": "Persist exact authenticated file-content bytes and rehash copied official policy",
+      "policy_content_or_rules_changed": false
+    }
+  ],
+  "historical_immutable_tests_deselected": [
+    "tests/test_price_state_information03.py::test_protected_parent_main",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+    "tests/test_new_information_search02.py::test_parent_main_branch"
+  ],
+  "exclusion_reason": "Unchanged inherited branch/private-path assertions; exclusions already documented and justified in parent RESET05. New audit verifies all2450 parent files unchanged. No historical test edited",
+  "runtime_gate_pass_claims": 0,
+  "all_required_test_suites_completed": true,
+  "skip_note": "25 inherited gated/integration skips;3 unchanged historical assertions deselected per parent. Related suite2 pre-existing skips; new hardening39 tests all pass"
+}

@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "NOT_APPLICABLE",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "runs": [],
+  "run1_sha256": null,
+  "run2_sha256": null,
+  "run3_sha256": null,
+  "byte_identical": null,
+  "independent_execution_count": 0,
+  "historical_324_seed_checks": "Preparation summary only; not an original-output manifest or 3 current container executions"
+}

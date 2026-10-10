@@ -1,0 +1,18 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "BLOCKED_MISSING_SEALED_DESCRIPTOR",
+  "official_descriptor_found": false,
+  "preparation_draft_available": true,
+  "draft_image_digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "missing_seal_fields": [
+    "team_id",
+    "descriptor_digest"
+  ],
+  "missing_official_team_claim": true,
+  "draft_is_not_submission": true,
+  "draft_validation_current_contract": "Not certified; official-current packer validation with valid claim not run",
+  "models_disclosure": "Historical draft preserved; no new disclosure chosen by assumption",
+  "credentials_requested": false,
+  "package_created": false,
+  "source": "evidence/preparation_archive_attestation.json"
+}

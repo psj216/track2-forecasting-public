@@ -1,0 +1,110 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "NOT_APPLICABLE",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "runtime_executions": 0,
+  "gates": [
+    {
+      "gate": "startup",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "input_discovery",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "schema",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "as_of",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "absolute_output_path",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "output_creation",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "row_card_identity",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "shape",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "finite_no_NaN_Inf",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "draw_floor_200_and_card_minimum",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "domain_semantics",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "joint_geometry",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "ranks_and_draw_order",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "family_behavior",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "offline",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "non_root_uid65534",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "read_only_root",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "tmp_noexec_64MiB",
+      "status": "NOT_RUN",
+      "passed": null
+    },
+    {
+      "gate": "resource_limits",
+      "status": "NOT_RUN",
+      "passed": null
+    }
+  ],
+  "historical_CI_smoke": "Three successful candidate workflows; evidence from September25, NOT current candidate runtime certification",
+  "historical_CI_missing_current_limits": [
+    "UID65534 override",
+    "noexec tmpfs64MiB",
+    "pid/fd/resource limits",
+    "3 independent repeats"
+  ]
+}

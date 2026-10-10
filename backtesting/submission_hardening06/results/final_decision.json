@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "SUBMISSION_HARDENING06_RESULT": "NOT_READY_MISSING_PROVENANCE",
+  "official_historical_reference": 0.9541,
+  "official_receipt_found": false,
+  "official_identity_resolved": false,
+  "rebuild_performed": false,
+  "submission_performed": false,
+  "new_models": 0,
+  "new_forecast_logic": 0,
+  "new_candidate_scores": 0,
+  "leaderboard_tuning": false,
+  "source_unchanged": true,
+  "PRE_RESULT_SUBMISSION_HARDENING06_SHA": "9a8467493908d7295bbfc70077f72f0d33a353a7",
+  "PARENT_RESULT_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "continuation": "Recover the actual official receipt and sealed submitted package linking the unique image/source/config. Continue only after immutable dependency/output evidence passes the existing gates; no new forecasting research",
+  "audit_complete": true
+}

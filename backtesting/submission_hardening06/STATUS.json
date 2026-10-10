@@ -1,26 +1,38 @@
 {
   "executive_summary": "Restartable evidence-only delivery hardening. No model or submission action.",
-  "state": "PRE_READY",
+  "state": "RESULT_READY",
   "branch": "track2/submission-hardening-06",
-  "HEAD_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "HEAD_SHA": "9a8467493908d7295bbfc70077f72f0d33a353a7",
   "completed": [
     "environment_lineage",
     "historical_provenance_discovery",
     "official_receipt_search",
     "source_dependencies_runtime_identity",
     "policy_deadline_verification",
-    "provenance_gate"
-  ],
-  "pending": [
+    "provenance_gate",
     "PRE_remote_freeze",
     "conditional_stages_disposition",
+    "readiness_decision",
     "report",
-    "tests",
+    "tests"
+  ],
+  "pending": [
     "RESULT_remote_verification",
-    "recovery"
+    "final_private_recovery"
   ],
   "build_allowed": false,
   "build_executed": false,
   "outcomes_deserialized": false,
-  "same_step_failures": {}
+  "same_step_failures": {},
+  "PRE_RESULT_SUBMISSION_HARDENING06_SHA": "9a8467493908d7295bbfc70077f72f0d33a353a7",
+  "conditional_stages": "NOT_APPLICABLE",
+  "final_verdict": "NOT_READY_MISSING_PROVENANCE",
+  "broader_outcomes_opened": false,
+  "test_results": {
+    "research": "39 passed in 0.13s",
+    "affected": "137 passed, 2 skipped in 2.96s",
+    "full": "897 passed, 25 skipped, 3 deselected, 5 warnings in 27.55s",
+    "common": "250 passed in 0.85s"
+  },
+  "result_commit_self_reference": "External final receipt after commit"
 }

@@ -1,8 +1,8 @@
 {
   "executive_summary": "Evidence-only delivery audit; candidate metadata is not an official evaluation receipt.",
   "PARENT_RESULT_SHA": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
-  "PRE_RESULT_SUBMISSION_HARDENING06_SHA": null,
-  "state": "PRE_READY",
+  "PRE_RESULT_SUBMISSION_HARDENING06_SHA": "9a8467493908d7295bbfc70077f72f0d33a353a7",
+  "state": "PRE_REMOTE_VERIFIED",
   "external_receipt_required": true,
   "broader_outcomes_opened": false,
   "build_executed": false,
@@ -140,5 +140,14 @@
     "qfbench2_track_forecasting/v13/supported_target_set.json": "33c06680c7d8607761024e43f5cefde50a15427547d667d22727e4446db2b5c2",
     "qfbench2_track_forecasting/v13/v51_copula.py": "9ba5a9d333e1a07b821e0eb3f723f199e67fd38915c218c66c5f3e3cd2008155",
     "qfbench2_track_forecasting/v13/world_generator.py": "ec0f27b5dc1ae5eab0ae6a44506860fc208a8b26587f13879f4862486e546bad"
-  }
+  },
+  "remote_ref_verified": true,
+  "remote_critical_files_byte_identical": true,
+  "time": "2026-10-10T03:16:41.922126+00:00",
+  "files": {
+    "backtesting/submission_hardening06/core.py": "3221fca87de825e447d81b9ad37c0c709ebf19b8defa165117391e68add836d3",
+    "backtesting/submission_hardening06/results/hardening_spec.json": "d9aa8fa0505bca3f0ff44882b032d3b50e963d356deca23b8eee8515cd7bc861"
+  },
+  "parent": "8d06fcff48b9cc838d502f4c7b08fa2618015112",
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8"
 }

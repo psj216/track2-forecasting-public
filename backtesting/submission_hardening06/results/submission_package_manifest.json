@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Completed evidence audit; unavailable runtime/package tests are not passing gates.",
+  "status": "NOT_APPLICABLE",
+  "reason": "Provenance gates fail: no official0.9541 receipt/submitted sealed ZIP/unique image-source invocation linkage; immutable closure and historical protected output bytes incomplete. No executable recovery or rebuild attempted.",
+  "actual_submitted_package_found": false,
+  "submitted_package_sha256": null,
+  "new_submission_zip_created": false,
+  "preparation_zip_sha256": "b3d2ba6dcd05eddaa6b13e96658683d1ca11b1d36350baff6ac5873b6a48766c",
+  "preparation_zip_not_a_submission_package": true
+}
