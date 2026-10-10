@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "label": "TARGET_GAP_ONLY",
+  "official_reference": 0.9541,
+  "absolute_reductions_required": {
+    "0.9": 0.0541,
+    "0.8": 0.1541,
+    "0.7": 0.2541,
+    "0.5": 0.4541
+  },
+  "projected_achievable_score": null
+}

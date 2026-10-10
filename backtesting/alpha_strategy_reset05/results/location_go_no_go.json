@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "decision": "EXHAUSTED_FOR_CURRENT_DATA",
+  "reopen_condition": "Genuinely different information with lawful PIT and prospective validation; not another survey/Ridge/lag",
+  "same_information_location_models": "STOP",
+  "not_a_proof_all_location_information_useless": true
+}

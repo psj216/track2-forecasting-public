@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "decision": "NO_GO_NOW",
+  "frozen_secondary_lead": "T0_RIDGE",
+  "primary_failed": true,
+  "independent_validation": "NOT_AVAILABLE",
+  "new_unexposed_card_universe_verified": false,
+  "primary_ratio": 1.007942072936086,
+  "secondary_ratio": 0.9575201920828957,
+  "R2_multi": 1.0245916903052874,
+  "T0_RIDGE_multi": 1.0,
+  "interpretation": "Specific frozen lead, but all24 cards exposed; require prospective untouched cards, unchanged E0/E1/router, whole-card joint/F1 safety; no tuning."
+}

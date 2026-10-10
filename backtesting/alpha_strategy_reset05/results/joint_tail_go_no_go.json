@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "JOINT": "NO_GO_REOPEN",
+  "TAIL": "NO_GO_REOPEN",
+  "HEADROOM_X_LEARNABILITY": "Joint has modest mathematical headroom but weak mixed learnability; tail single-cell headroom is offset by multi safety and lack of official improvement. Neither outranks reliable delivery.",
+  "joint_card_oracle": 0.9024354643379996,
+  "metric_origin": "Stored CEILING oracle, not candidate",
+  "fresh_validation_available": false,
+  "official_tail_receipt_status": "MISSING_ARTIFACT; non-improvement reported in user-provided study brief, no numeric official claim recovered"
+}

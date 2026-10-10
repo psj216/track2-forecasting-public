@@ -1,0 +1,41 @@
+study,universe,universe_detail,metric,quality,primary_result,evidence
+V5.1,OFFICIAL,Official Development; roster differs from research,official composite score,A,0.9541,backtesting/persistent_direction02/results/baseline_preservation_audit.json
+V6-F2,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V6-FULL,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V7,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V8/V8-A,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V9-A,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V9-B,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V10-DATA,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V10-SHADOW,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+SINGLE-CELL-TAIL,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json
+V11,CARD_PROXY,Original archived24 pseudo-origins;9 post-fit over2 years; not CEILING reconstructed24,baseline-relative research ratio,C,1.0730061819667216,backtesting/v13_copula/archive/full_eval_final.json
+V12,CARD_PROXY,Original archived24 pseudo-origins;9 post-fit over2 years; not CEILING reconstructed24,baseline-relative research ratio,C,0.9327725438887052,backtesting/v13_copula/archive/full_eval_final.json
+V13-A,CARD_PROXY,Original archived24 pseudo-origins;9 post-fit over2 years; not CEILING reconstructed24,baseline-relative research ratio,C,0.892886677201712,backtesting/v13_copula/archive/full_eval_final.json
+V12/V13-R/R2,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,V13-R2-DATA-FEATURE-PARITY.md
+V14-TEMPORAL-JOINT,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,V13-RECONSTRUCTION-report.md
+CEILING-01,CARD_PROXY,24 reconstructed cards/63 cells;13 single/11 multi,baseline-relative research ratio,C,0.4892090087012897,backtesting/ceiling01/results/oracle_matrix.json
+THESIS-01,CANONICAL_MARGINAL_PROXY,7450 final cells;2018–2023 revised-history no-text V51,baseline-relative research ratio,B,1.0062208500425482,backtesting/thesis01/results/crps_summary.json
+ORIGIN-01,CANONICAL_MARGINAL_PROXY,570 cells/12 origins in2024;1 information event,baseline-relative research ratio,B,0.9999438943666943,backtesting/origin01/results/final_summary.json
+SURPRISE-01-LOCATION,CANONICAL_MARGINAL_PROXY,59052 cells/376 market origins/382 events; exposed marginal,baseline-relative research ratio,B,1.0028941726493674,backtesting/surprise01/results/location_summary.json
+SURPRISE-01-SCALE,CANONICAL_MARGINAL_PROXY,Same59052 cells; no joint score,baseline-relative research ratio,B,1.0016657527703818,backtesting/surprise01/results/scale_summary.json
+LOCATION-01,CANONICAL_MARGINAL_PROXY,82184 evaluation cells/780 origins/25 assets;135994 full,baseline-relative research ratio,B,1.0057385846264797,backtesting/location01/results/crossfit_summary.json
+LOCATION-01R,CARD_PROXY,24 exposed transfer cards/144 model-card checks,baseline-relative research ratio,C,,backtesting/location01r/results/final_decision.json
+EXPECTATION-01,CANONICAL_MARGINAL_PROXY,82184 fixed cells/780 origins; active subset separately reported,baseline-relative research ratio,B,1.0125180436808925,backtesting/expectation01/results/full_ledger_summary.json
+POSITIONING-01,CANONICAL_MARGINAL_PROXY,82184 fixed evaluation cells/780 origins;25 assets,baseline-relative research ratio,B,,backtesting/positioning01/results/final_decision.json
+CONTEXT-01,CARD_PROXY,24 exposed reconstructed cards/63 cells,baseline-relative research ratio,B,,backtesting/context01/results/final_decision.json
+TEXT-ROUTE-AUDIT-02,CARD_PROXY,24 exposed cards/63 cells;5 strict oracle winners,baseline-relative research ratio,B,1.007942072936086,backtesting/text_route_audit02/results/final_decision.json
+INFO-01,DIAGNOSTIC_ONLY,Source inventory; no candidate scores,baseline-relative research ratio,C,,backtesting/info01/results/final_decision.json
+LOCATION-02-ECB,SOURCE_SPECIFIC_PROXY,EUR227 cells/48 origins/20 evaluation releases,baseline-relative research ratio,B,1.562819687489047,backtesting/location02/results/primary_score_summary.json
+LOCATION-03-SLOOS,SOURCE_SPECIFIC_PROXY,2616 cells/91 origins/33 evaluation releases;US rates,baseline-relative research ratio,B,1.1484547012248485,backtesting/location03/results/primary_score_summary.json
+LOCATION-04-SPD,SOURCE_SPECIFIC_PROXY,552 cells/59 origins/41 evaluation releases;UST2Y/5Y,baseline-relative research ratio,B,1.420833121052091,backtesting/location04/results/primary_score_summary.json
+INFORMATION-FAILURE-01,DIAGNOSTIC_ONLY,Three different source ledgers; frozen prior predictions,baseline-relative research ratio,C,,backtesting/information_failure01/results/final_decision.json
+DIRECTION-TO-LOCATION-01,SOURCE_SPECIFIC_PROXY,Same552 SPD cells/59 origins/41 releases,baseline-relative research ratio,B,0.9753436089359536,backtesting/direction_to_location01/results/primary_summary.json
+NEW-INFORMATION-SEARCH-02,DIAGNOSTIC_ONLY,33 extracted SEP reports; source audit only,baseline-relative research ratio,C,,backtesting/new_information_search02/results/final_decision.json
+PERSISTENT-DIRECTION-02,SOURCE_SPECIFIC_PROXY,482 cells/52 origins;UST2Y/5Y2020–24,baseline-relative research ratio,B,1.0033428831669795,backtesting/persistent_direction02/results/final_decision.json
+PRICE-STATE-03,SOURCE_SPECIFIC_PROXY,482 cells/52 origins; inherited14 price features,baseline-relative research ratio,B,0.9931832249597576,backtesting/price_state_information03/results/price_full_summary.json
+V51-CENTER-BIAS-04,CANONICAL_MARGINAL_PROXY,1250 origins/135994 full cells/25 assets;82184 heldout cells,baseline-relative research ratio,B,0.9977995994250116,backtesting/v51_center_bias04/results/global_sign005_summary.json
+CONTEXT-R2-SECONDARY,CARD_PROXY,See linked aggregate artifact,baseline-relative research ratio,C,0.980114855004062,backtesting/context01/results/routed_summary.json
+TEXT-T0_RIDGE-SECONDARY,CARD_PROXY,See linked aggregate artifact,baseline-relative research ratio,C,0.9575201920828957,backtesting/text_route_audit02/results/router_score_summary.json
+PRICE-MAJORITY-CONTROL,SOURCE_SPECIFIC_PROXY,See linked aggregate artifact,baseline-relative research ratio,C,,backtesting/price_state_information03/results/constant_shift_summary.json
+PRICE03-CANONICAL-EXTENSION,DIAGNOSTIC_ONLY,See linked aggregate artifact,baseline-relative research ratio,D,,backtesting/price_state_information03/results/broader_transfer_readiness.json

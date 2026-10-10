@@ -1,0 +1,10 @@
+component,failure_saturation,failure_saturation_scope,evidence
+LOCATION,4,"Current related hypothesis space, not every possible source/model",backtesting/location01/results/crossfit_summary.json
+SCALE,2,"Current related hypothesis space, not every possible source/model",backtesting/surprise01/results/scale_summary.json
+TAIL,2,"Current related hypothesis space, not every possible source/model",backtesting/ceiling01/results/oracle_matrix.json
+JOINT,3,"Current related hypothesis space, not every possible source/model",backtesting/v13_copula/archive/full_eval_final.json
+TEXT_ROUTING,2,"Current related hypothesis space, not every possible source/model",backtesting/text_route_audit02/results/router_score_summary.json
+EXTERNAL_INFORMATION,4,"Current related hypothesis space, not every possible source/model",backtesting/information_failure01/results/cross_source_failure_matrix.csv
+PRICE_STATE,2,"Current related hypothesis space, not every possible source/model",backtesting/price_state_information03/results/final_decision.json
+CENTER_BIAS,1,"Current related hypothesis space, not every possible source/model",backtesting/v51_center_bias04/results/final_decision.json
+OTHER,1,"Current related hypothesis space, not every possible source/model",backtesting/new_information_search02/results/source_scorecard.csv

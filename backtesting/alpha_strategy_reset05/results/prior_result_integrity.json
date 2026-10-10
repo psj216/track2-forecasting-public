@@ -1,0 +1,37 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "R2_cross_study_equality": {
+    "context": 0.980114855004062,
+    "text_route": 0.980114855004062,
+    "difference": 0.0,
+    "tolerance": 1e-12
+  },
+  "all_metric_values_loaded_from_stored_artifacts": true,
+  "new_candidate_CRPS": 0,
+  "private_truth_loaded": false,
+  "models_refit": 0,
+  "required_evidence_files": 518,
+  "source_original_vs_failure_audit": [
+    {
+      "source": "location02",
+      "primary_from_original": 1.562819687489047,
+      "diagnostic_reproduction": 1.562819687489047,
+      "difference": 0.0,
+      "tolerance": 1e-12
+    },
+    {
+      "source": "location03",
+      "primary_from_original": 1.1484547012248485,
+      "diagnostic_reproduction": 1.148454701224846,
+      "difference": -2.4424906541753444e-15,
+      "tolerance": 1e-12
+    },
+    {
+      "source": "location04",
+      "primary_from_original": 1.420833121052091,
+      "diagnostic_reproduction": 1.4208331210520908,
+      "difference": -2.220446049250313e-16,
+      "tolerance": 1e-12
+    }
+  ]
+}

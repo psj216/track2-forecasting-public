@@ -1,0 +1,10 @@
+axis,WHAT_IS_NEW,novelty_gate,validation,evidence
+LOCATION_INFORMATION_CONTINUE,No concrete new observable information beyond exhausted survey/price/bias mappings,ELIMINATED_REDUNDANT,EXPOSED_ONLY,backtesting/location01/results/crossfit_summary.json
+MARGINAL_SCALE_REOPEN,Another multiplier duplicates V8/V9/SURPRISE; a distinct PIT scale-error mechanism is not identified,ELIMINATED_REDUNDANT,EXPOSED_ONLY,backtesting/surprise01/results/scale_summary.json
+TAIL_REOPEN,Repeat single-tail calibration has no new validation and multi-card damage,ELIMINATED_REDUNDANT,EXPOSED_ONLY,backtesting/ceiling01/results/oracle_matrix.json
+JOINT_DEPENDENCE_REOPEN,Random copula variant is redundant; original bank/parity and independent validation unresolved,ELIMINATED_REDUNDANT,EXPOSED_ONLY,backtesting/v13_copula/archive/full_eval_final.json
+TEXT_ROUTING_VALIDATION,What is new would be untouched cards validating frozen T0_RIDGE; no such universe is present,SPECIFIC_CONDITIONAL_HYPOTHESIS,NOT_AVAILABLE,backtesting/text_route_audit02/results/router_score_summary.json
+SCORE_GEOMETRY_REASSESSMENT,CEILING already maps component/single/multi/family/horizon composition; repeated broad audit is redundant,ELIMINATED_REDUNDANT,EXPOSED_ONLY,backtesting/ceiling01/results/component_bounds.json
+CARD_CONDITIONAL_ERROR_STRUCTURE,Potential new mechanism is prospectively identifying card-level marginal–joint safety interactions; exposed24-card map already exists and cannot validate new rules,SPECIFIC_CONDITIONAL_HYPOTHESIS,EXPOSED_ONLY,backtesting/text_route_audit02/results/multi_safety_summary.json
+NEW_HIGH_FREQUENCY_INFORMATION,Genuinely distinct daily traded policy-contract path/timing data; original historical/offline rights and clean evaluation not acquired,SPECIFIC_CONDITIONAL_HYPOTHESIS,AVAILABLE_WITH_ACQUISITION,backtesting/new_information_search02/results/source_scorecard.csv
+SUBMISSION_HARDENING,Recover exact verified V51 executable/descriptor/digest and close concrete delivery reproducibility gaps without changing forecasts,SPECIFIC_CONDITIONAL_HYPOTHESIS,AVAILABLE_NOW,backtesting/persistent_direction02/results/baseline_preservation_audit.json

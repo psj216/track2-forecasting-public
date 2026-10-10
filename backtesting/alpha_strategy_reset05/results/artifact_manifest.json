@@ -1,0 +1,208 @@
+{
+  "executive_summary": "Stored aggregate evidence only; no candidate evaluation or private truth access.",
+  "files": [
+    {
+      "path": "ALPHA-STRATEGY-RESET-05-report.md",
+      "SHA256": "c5b7b662b1f0e08fc6578558fd9ce78d494b1314fcb89a6eb99c6b7ceeb8782e",
+      "bytes": 16290
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/STATUS.json",
+      "SHA256": "1151254ee2421fc97cc2be06a1fddca092817ade895a11c492fb37e5ec86d654",
+      "bytes": 751
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/__init__.py",
+      "SHA256": "bb7c123da5f559d57bbcdc5e82cd0c6c7ed179cac788d27d32167638789f5bcb",
+      "bytes": 91
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/aggregate.py",
+      "SHA256": "b58315916e20511fff7c0bc45cc506c07b64b95de98d54be8eb5bfb7bc008ba8",
+      "bytes": 56586
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/core.py",
+      "SHA256": "45c0db72711b5ea0974e97813156f20981685e892967f9947c00947ad1cff29c",
+      "bytes": 3261
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/prepare.py",
+      "SHA256": "383aa1d9caecf7068f8d53ade2646744a7bad6a4610a0b811ecf4048e78010f3",
+      "bytes": 7995
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/environment_audit.json",
+      "SHA256": "18e7570413f3f646688d094d7608c6abe93be12d54f698e96401503bba0a8be0",
+      "bytes": 765
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/evidence_quality_ledger.csv",
+      "SHA256": "cc95a349491b32bea2141cde1c6616350ed026759cb8999ce0e788a6da160859",
+      "bytes": 8836
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/execution_audit.json",
+      "SHA256": "1590030ac9bbcc7e7810d4f2c94902aa89cecb565430c531bea274aaaae12167",
+      "bytes": 2134
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/experiment_spec.json",
+      "SHA256": "7bc4f80343244489f86e16c699af8a3476f76278a54d4e19ae417edf508fd09a",
+      "bytes": 1425
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/failure_saturation.csv",
+      "SHA256": "a1ad8591ca0f0cec34b71ef777f33641998fa5c1123bfbbba887694c54c1aefe",
+      "bytes": 1316
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/final_decision.json",
+      "SHA256": "1c67bb82148a309a4379ce7391cefe6887084aeb9482ca8444e4096da70e6925",
+      "bytes": 758
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/headroom_integrity_note.json",
+      "SHA256": "58c400752be7568835afa07e87c3940960aa4b2545cfafce5a1107f9cb25dff0",
+      "bytes": 2180
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+      "SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+      "bytes": 69674
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/joint_tail_go_no_go.json",
+      "SHA256": "dee8b5cbb4f502ae61e7f19bd0edfbbd24943d11851c2a5034a86598cc45de89",
+      "bytes": 661
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/learnability_evidence_details.json",
+      "SHA256": "b88b28ced59ebb758eb6f4d483b14b435b63aa683e1cf1b7dadeb0e2d8ab9c3e",
+      "bytes": 22956
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/learnability_summary.csv",
+      "SHA256": "36a61f54e94b81b4dda2f517142baba195ed2e4adf4b20f3f50df782593cef0a",
+      "bytes": 4830
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/lineage_manifest.json",
+      "SHA256": "cb2cf39f972704257d22d3eff3590ac63cff6d10632b52eec4b02eff98fdc114",
+      "bytes": 362
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/location_go_no_go.json",
+      "SHA256": "5cf709c64fd1ae5d7cb0a4116b74a77a9200691fe880e7b8f18e1f4dd8b04a83",
+      "bytes": 375
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/next_axis_decision.json",
+      "SHA256": "3ba2d0a24bed2c438061b8b88998037c6e18be0ac1cf25ad7d17b4730f879c62",
+      "bytes": 999
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/next_study_frozen_draft.md",
+      "SHA256": "6e4b8c482e58cd34711bf644de011470d07bfead633e8ba89732d9dd876fbd4b",
+      "bytes": 2720
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/official_target_gap.json",
+      "SHA256": "ba8682b5eac93df2fe7f1f9be088ecf0da311a272294ba368379e9674ae536ee",
+      "bytes": 315
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/oracle_headroom_map.csv",
+      "SHA256": "2da1a563ad736fd1b058852747f37b4b3ccd5c6765b568ab55ca947ded5adaae",
+      "bytes": 10466
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/pre_result_manifest.json",
+      "SHA256": "5c8ff93624d39051614807ae80fe7badc35dff90c36fef68749596a79282b145",
+      "bytes": 485
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/prior_result_integrity.json",
+      "SHA256": "e0bc277442334d8e2672b8a4ac41e95a038761c5b28f6eafa7cad2c8cba4ce99",
+      "bytes": 1095
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/protected_parent_hashes.json",
+      "SHA256": "587f80edef83bd5be99de56ed4fb32c875b1829435c436c28c45c451162b340f",
+      "bytes": 308859
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/remaining_hypotheses.csv",
+      "SHA256": "3e2fdc01af4df191f9b3ab6fbbd3e1b651f5b06e5e818c06c6132095c673f9dd",
+      "bytes": 2155
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/remote_branch_inventory.json",
+      "SHA256": "b6c34aca358acd3b90b61bb77c21b259717675656dea434a9b1b7caa99442813",
+      "bytes": 7329
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/required_evidence_inventory.csv",
+      "SHA256": "df0412d49d839a062bf124589bf286a4fb597488578002bf90c5946d97a77ec3",
+      "bytes": 102263
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/research_inventory.csv",
+      "SHA256": "f4a854418d2471dea85b42f3508e5bc509b7918577eff129fe1135c8b22b5a2a",
+      "bytes": 28722
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/research_lineage.json",
+      "SHA256": "3c544abc85e84dc6a0388416cd2124849127b0e408b59eae827d8c1d243dfe80",
+      "bytes": 15835
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/research_priority_matrix.csv",
+      "SHA256": "1920a5849fefc9d86bb8c9f515615486c09ff0a6411cfa09927dba9d9389f991",
+      "bytes": 19838
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/research_priority_rationale.md",
+      "SHA256": "1b8aec4a9543a622f01ea2f98dc40765a0ab2a0ba6151e40b146b0c39b76dbad",
+      "bytes": 19751
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/research_priority_rubric.json",
+      "SHA256": "68b0f2d2d0449712d36a0cfa5a4b7afeae7a04ee86bdc284ce0fcec1a4cecd00",
+      "bytes": 3890
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/score_component_status.csv",
+      "SHA256": "346c493138bb94155e1fb814b4053f7c7e7fc0dc32c0baebc04e0ede3ea0afc0",
+      "bytes": 5038
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/score_universe_map.csv",
+      "SHA256": "6c903d806746df45312e92764d5e48650a330e344c2f511498b2cf535c680135",
+      "bytes": 7353
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/stopping_rule_decision.json",
+      "SHA256": "59451a95bc77330f958afe6510985acf2eeda5f082a2e17927190939f0747c3a",
+      "bytes": 390
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/submission_readiness_audit.json",
+      "SHA256": "5a9e26ae498b8e51ffca2b7a3ba02b15cca35f69b5824797174700cb41a3313b",
+      "bytes": 2551
+    },
+    {
+      "path": "backtesting/alpha_strategy_reset05/results/text_routing_go_no_go.json",
+      "SHA256": "5e8d809332a387c3ebf5acc1dbd198bf420dca4f4e12082e8cc75e96a98a7524",
+      "bytes": 593
+    },
+    {
+      "path": "tests/test_alpha_strategy_reset05.py",
+      "SHA256": "59a63f57c95176413a535deed7b7d4d11bba6af274e882ee1e909756dfb78d95",
+      "bytes": 5109
+    }
+  ],
+  "self_hash_excluded": true,
+  "raw_truth_or_draw_files_public": false,
+  "RESULT_and_recovery_SHA": "Bound externally after commit; no self-reference"
+}

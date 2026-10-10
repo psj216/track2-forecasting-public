@@ -1,0 +1,18 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "ALPHA_RESET05_RESULT": "HARDEN_NOW",
+  "NEXT": "SUBMISSION-HARDENING-06",
+  "selected_axis_count": 1,
+  "PRE_RESULT_ALPHA_RESET05_SHA": "a80d1b431e4b9ff53d9abfd653b681b64fa006fa",
+  "scientific_parent": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+  "official_reference": 0.9541,
+  "official_score_reestimated": false,
+  "new_models_fit": 0,
+  "new_candidate_scores": 0,
+  "new_sources_acquired": 0,
+  "hidden_labels_used": false,
+  "next_study_executed": false,
+  "independent_OOS": false,
+  "submission_created": false,
+  "missing_historical_metrics": "V6FULL/V7/V8/V9 numerical results and official tail receipt not recovered; D/unknown, never imputed"
+}

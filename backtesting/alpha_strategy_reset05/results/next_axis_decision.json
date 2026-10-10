@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "stopping_rule": "HARDEN_NOW",
+  "selected_axis": "SUBMISSION_HARDENING",
+  "NEXT": "SUBMISSION-HARDENING-06",
+  "best_research_score": 40.0,
+  "eligible_research_count": 0,
+  "next_study_executed": false,
+  "reason": "Every research axis below55; no immediately usable novel clean-validation path. Concrete official-package risks remain. Preserve V51 and harden delivery.",
+  "WHAT_IS_NEW": "Recover exact verified V51 executable/descriptor/digest and close concrete delivery reproducibility gaps without changing forecasts",
+  "killer_test": "Exact verified V51 digest/package must reproduce pinned offline deterministic outputs and mandatory gates; unresolved binary/descriptor provenance means NOT_READY, never substitute a research candidate.",
+  "expected_runtime": "1–3hours after exact image/receipt retrieval; unavailable original binary requires a separate documented provenance gate"
+}

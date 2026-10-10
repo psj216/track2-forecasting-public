@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Existing evidence inventory, rubric, candidates and stopping rule verified remotely before ranking.",
+  "PRE_RESULT_ALPHA_RESET05_SHA": "a80d1b431e4b9ff53d9abfd653b681b64fa006fa",
+  "parent": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+  "tree": "2dc653952419519329a51fa445e5a0798650b807",
+  "remote_verified": true,
+  "ranking_started_before_remote_PRE": false,
+  "new_candidate_scores": 0,
+  "private_outcomes_loaded": false,
+  "scientific_models_fit": 0
+}

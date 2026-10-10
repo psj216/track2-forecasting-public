@@ -1,0 +1,773 @@
+{
+  "executive_summary": "Stored aggregate evidence only; no candidate evaluation or private truth access.",
+  "external_source_models": [
+    {
+      "source": "location02",
+      "universe": "SOURCE_SPECIFIC_PROXY",
+      "PIT": "B",
+      "quality": "B",
+      "primary": {
+        "cells": 227,
+        "crps_ratio": 1.562819687489047,
+        "oracle_capture": -0.9524184404857229,
+        "delta_mse": 2.256341555481684,
+        "r2": -1.4316756868505522,
+        "pearson": 0.16911451763163238,
+        "spearman": 0.13788590529414288,
+        "sign_accuracy": 0.5770925110132159,
+        "calibration_slope": 0.13677511916236393,
+        "mean_abs_predicted_delta": 0.9038287822904616,
+        "actual_mean_abs_delta": 0.7778755014441845,
+        "mean_predicted_delta": -0.547858765241213
+      },
+      "effective_release_upper_bound": 20,
+      "not_iid_N": true,
+      "independent_OOS": false
+    },
+    {
+      "source": "location03",
+      "universe": "SOURCE_SPECIFIC_PROXY",
+      "PIT": "B",
+      "quality": "B",
+      "primary": {
+        "cells": 2616,
+        "crps_ratio": 1.1484547012248485,
+        "oracle_capture": -0.21426701475482549,
+        "delta_mse": 2.4779548704437935,
+        "r2": -0.3384016776258678,
+        "pearson": -0.07224058584438196,
+        "spearman": -0.04416837734043602,
+        "sign_accuracy": 0.5133792048929664,
+        "calibration_slope": -0.1405947305367015,
+        "mean_abs_predicted_delta": 0.4890229546129255,
+        "median_abs_predicted_delta": 0.33874694154506746,
+        "actual_mean_abs_delta": 0.9819540666490074
+      },
+      "effective_release_upper_bound": 33,
+      "not_iid_N": true,
+      "independent_OOS": false
+    },
+    {
+      "source": "location04",
+      "universe": "SOURCE_SPECIFIC_PROXY",
+      "PIT": "B",
+      "quality": "B",
+      "primary": {
+        "cells": 552,
+        "crps_ratio": 1.420833121052091,
+        "oracle_capture": -0.5290338867877227,
+        "delta_mse": 7.693209492597065,
+        "r2": -1.1804679264759144,
+        "pearson": 0.28797872362556226,
+        "spearman": 0.40436739676183137,
+        "sign_accuracy": 0.6612318840579711,
+        "calibration_slope": 0.23281877683891944,
+        "mean_abs_predicted_delta": 1.5552872687442305,
+        "median_abs_predicted_delta": 0.9302542742240654,
+        "actual_mean_abs_delta": 1.2413104200308447
+      },
+      "effective_release_upper_bound": 41,
+      "not_iid_N": true,
+      "independent_OOS": false
+    }
+  ],
+  "SEP_effective_events": {
+    "executive_summary": "Repeated quarterly source states, not independent cells; information-event upper bound counts unique releases, not alpha evidence.",
+    "evaluation_origins": 52,
+    "evaluation_cells": 482,
+    "unique_evaluation_releases": 17,
+    "unique_evaluation_policy_values": 12,
+    "unique_policy_state_changes_all_usable": 22,
+    "release_universe": 35,
+    "usable_releases": 33,
+    "independent_information_event_upper_bound": 17,
+    "origins_per_release": {
+      "SEP_2019-12-11": 4,
+      "SEP_2020-06-10": 3,
+      "SEP_2020-09-16": 3,
+      "SEP_2020-12-16": 3,
+      "SEP_2021-03-17": 3,
+      "SEP_2021-06-16": 3,
+      "SEP_2021-09-22": 3,
+      "SEP_2021-12-15": 3,
+      "SEP_2022-03-16": 3,
+      "SEP_2022-06-15": 3,
+      "SEP_2022-12-14": 3,
+      "SEP_2023-03-22": 3,
+      "SEP_2023-09-20": 3,
+      "SEP_2023-12-13": 3,
+      "SEP_2024-03-20": 3,
+      "SEP_2024-06-12": 3,
+      "SEP_2024-09-18": 3
+    },
+    "cells_per_release": {
+      "SEP_2019-12-11": 40,
+      "SEP_2020-06-10": 30,
+      "SEP_2020-09-16": 30,
+      "SEP_2020-12-16": 30,
+      "SEP_2021-03-17": 30,
+      "SEP_2021-06-16": 30,
+      "SEP_2021-09-22": 30,
+      "SEP_2021-12-15": 30,
+      "SEP_2022-03-16": 30,
+      "SEP_2022-06-15": 30,
+      "SEP_2022-12-14": 30,
+      "SEP_2023-03-22": 30,
+      "SEP_2023-09-20": 30,
+      "SEP_2023-12-13": 30,
+      "SEP_2024-03-20": 24,
+      "SEP_2024-06-12": 18,
+      "SEP_2024-09-18": 10
+    },
+    "releases_per_year": {
+      "2020": 3,
+      "2021": 4,
+      "2022": 3,
+      "2023": 3,
+      "2024": 4
+    },
+    "active_source_periods": 17,
+    "independent_OOS": false
+  },
+  "price": {
+    "executive_summary": "Exact inherited PRICE_LOGISTIC, never refitted. All new models are controls.",
+    "PRICE_FULL": {
+      "CRPS_ratio": 0.9931832249597576,
+      "sign_accuracy": 0.5954356846473029,
+      "balanced_accuracy": 0.5890622369380998,
+      "Brier": 0.3220344641662435,
+      "Pearson": 0.14893538607738827,
+      "Spearman": 0.15366563914840936,
+      "fraction_improved_cells": 0.5809128630705395,
+      "mean_CRPS_delta": -0.007530569183175092,
+      "cells": 482,
+      "origins": 52,
+      "prediction_ties": 0
+    },
+    "incremental_gain": {
+      "vs_intercept": -0.0033545990021883743,
+      "vs_structure": -0.0013746220040921076,
+      "vs_inherited_random": 0.0004252778316505834,
+      "vs_random_median": 0.006334301022453803
+    },
+    "gross_gain_concentration": {
+      "year": 0.6295841712672955,
+      "origin": 0.07995543166534141,
+      "horizon": 0.3244820593060368
+    },
+    "original_prediction_SHA256": "a4690d8f3ef4c4935d34747d9a679171abf1335ecb9f30184f6cfc5fc1bbca51",
+    "no_new_candidate": true
+  },
+  "price_verdict": {
+    "executive_summary": "Audit complete; no model redesign, official submission, independent OOS or next study.",
+    "PRICE_STATE03_RESULT": "INCONCLUSIVE",
+    "NEXT": "V5.1-CENTER-BIAS-AUDIT-04",
+    "PRE_RESULT_PRICE_STATE03_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+    "parent_RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+    "primary_ratio": 0.9931832249597576,
+    "PRICE_DATA_PIT": "C",
+    "BROAD_TRANSFER_READY": false,
+    "independent_validation": "NOT_AVAILABLE",
+    "submission_readiness": false,
+    "V51_reference": 0.9541,
+    "gates": {
+      "ratio_le_0990": false,
+      "increment_intercept_ge_0003": false,
+      "increment_structure_ge_0003": false,
+      "beats_majority": false,
+      "beats_random_median": true,
+      "balanced_ge_055": true,
+      "Spearman_ge_010": true,
+      "four_years_nonworse": false,
+      "permutation_support": false,
+      "origin_year_support": false,
+      "no_year_over_half_gross_gain": false,
+      "usable_PIT": false
+    }
+  },
+  "text_exposed_only": {
+    "ST0_LOG": {
+      "composite": 1.007942072936086,
+      "marginal": 1.0092108031798175,
+      "joint": 1.02318068732482,
+      "single": {
+        "cards": 13,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": null,
+        "tail": 1.0
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0174095200107558,
+        "arithmetic": 1.0190069513662687,
+        "routed_R2": 1,
+        "application_fraction": 0.09090909090909091,
+        "marginal": 1.020205737862475,
+        "joint": 1.02318068732482,
+        "tail": 1.0
+      },
+      "family": {
+        "T2-F1": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 0,
+          "application_fraction": 0.0,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F2": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 0,
+          "application_fraction": 0.0,
+          "marginal": 1.0,
+          "joint": null,
+          "tail": 1.0
+        },
+        "T2-F3": {
+          "cards": 6,
+          "composite": 1.032148758691494,
+          "arithmetic": 1.0348460775048258,
+          "routed_R2": 1,
+          "application_fraction": 0.16666666666666666,
+          "marginal": 1.037355379025675,
+          "joint": 1.0429078730025814,
+          "tail": 1.0
+        },
+        "T2-F4": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 0,
+          "application_fraction": 0.0,
+          "marginal": 1.0,
+          "joint": null,
+          "tail": 1.0
+        }
+      }
+    },
+    "T0_RIDGE": {
+      "composite": 0.9575201920828957,
+      "marginal": 0.9563254986668547,
+      "joint": 1.0,
+      "single": {
+        "cards": 13,
+        "composite": 0.9229883065680138,
+        "arithmetic": 0.9375220732418631,
+        "routed_R2": 9,
+        "application_fraction": 0.6923076923076923,
+        "marginal": 0.9208633831103656,
+        "joint": null,
+        "tail": 0.9163914439191505
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "family": {
+        "T2-F1": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 2,
+          "application_fraction": 0.3333333333333333,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F2": {
+          "cards": 6,
+          "composite": 0.9441036884567247,
+          "arithmetic": 0.9482590052437995,
+          "routed_R2": 5,
+          "application_fraction": 0.8333333333333334,
+          "marginal": 0.9188447951402944,
+          "joint": null,
+          "tail": 0.9999999999999999
+        },
+        "T2-F3": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 1,
+          "application_fraction": 0.16666666666666666,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F4": {
+          "cards": 6,
+          "composite": 0.8903731808192162,
+          "arithmetic": 0.9163721534469039,
+          "routed_R2": 3,
+          "application_fraction": 0.5,
+          "marginal": 0.9102921190658093,
+          "joint": null,
+          "tail": 0.8276414296955763
+        }
+      }
+    },
+    "R2": {
+      "composite": 0.980114855004062,
+      "marginal": 0.9799185087789347,
+      "joint": 1.0245878219836162,
+      "single": {
+        "cards": 13,
+        "composite": 0.9439920193623393,
+        "arithmetic": 0.9618293619337379,
+        "routed_R2": 13,
+        "application_fraction": 1.0,
+        "marginal": 0.9373098004676687,
+        "joint": null,
+        "tail": 0.9460601334340788
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0245916903052874,
+        "arithmetic": 1.0279521234170934,
+        "routed_R2": 11,
+        "application_fraction": 1.0,
+        "marginal": 1.0327782689761487,
+        "joint": 1.0245878219836162,
+        "tail": 0.9962391407844522
+      },
+      "family": {
+        "T2-F1": {
+          "cards": 6,
+          "composite": 1.0298852058943124,
+          "arithmetic": 1.0322090086643907,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 1.0538029543258478,
+          "joint": 1.005611877651394,
+          "tail": 1.0
+        },
+        "T2-F2": {
+          "cards": 6,
+          "composite": 0.9441036884567247,
+          "arithmetic": 0.9482590052437995,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 0.9188447951402944,
+          "joint": null,
+          "tail": 0.9999999999999999
+        },
+        "T2-F3": {
+          "cards": 6,
+          "composite": 1.0152064479282692,
+          "arithmetic": 1.019036550933614,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 1.0067467944609434,
+          "joint": 1.040674354765858,
+          "tail": 0.9931158981899322
+        },
+        "T2-F4": {
+          "cards": 6,
+          "composite": 0.9348566138448984,
+          "arithmetic": 0.9690379456126327,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 0.9458842980420714,
+          "joint": null,
+          "tail": 0.8867964395135868
+        }
+      }
+    },
+    "STRUCTURAL_EXPOSED": {
+      "composite": 0.9692619738716929,
+      "marginal": 0.9655394967917333,
+      "joint": 1.0,
+      "single": {
+        "cards": 13,
+        "composite": 0.9439920193623393,
+        "arithmetic": 0.9618293619337379,
+        "routed_R2": 13,
+        "application_fraction": 1.0,
+        "marginal": 0.9373098004676687,
+        "joint": null,
+        "tail": 0.9460601334340788
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 1.0,
+        "arithmetic": 1.0,
+        "routed_R2": 0,
+        "application_fraction": 0.0,
+        "marginal": 1.0,
+        "joint": 1.0,
+        "tail": 1.0
+      },
+      "family": {
+        "T2-F1": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 1,
+          "application_fraction": 0.16666666666666666,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F2": {
+          "cards": 6,
+          "composite": 0.9441036884567247,
+          "arithmetic": 0.9482590052437995,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 0.9188447951402944,
+          "joint": null,
+          "tail": 0.9999999999999999
+        },
+        "T2-F3": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 0,
+          "application_fraction": 0.0,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F4": {
+          "cards": 6,
+          "composite": 0.9348566138448984,
+          "arithmetic": 0.9690379456126327,
+          "routed_R2": 6,
+          "application_fraction": 1.0,
+          "marginal": 0.9458842980420714,
+          "joint": null,
+          "tail": 0.8867964395135868
+        }
+      }
+    },
+    "ORACLE_2WAY": {
+      "composite": 0.9535664428174102,
+      "marginal": 0.9491916490388045,
+      "joint": 0.998831271389191,
+      "single": {
+        "cards": 13,
+        "composite": 0.9229883065680138,
+        "arithmetic": 0.9375220732418631,
+        "routed_R2": 3,
+        "application_fraction": 0.23076923076923078,
+        "marginal": 0.9208633831103656,
+        "joint": null,
+        "tail": 0.9163914439191505
+      },
+      "multi": {
+        "cards": 11,
+        "composite": 0.9910129108089151,
+        "arithmetic": 0.991376621870248,
+        "routed_R2": 2,
+        "application_fraction": 0.18181818181818182,
+        "marginal": 0.9837961187232649,
+        "joint": 0.998831271389191,
+        "tail": 0.9962391407844522
+      },
+      "family": {
+        "T2-F1": {
+          "cards": 6,
+          "composite": 1.0,
+          "arithmetic": 1.0,
+          "routed_R2": 0,
+          "application_fraction": 0.0,
+          "marginal": 1.0,
+          "joint": 1.0,
+          "tail": 1.0
+        },
+        "T2-F2": {
+          "cards": 6,
+          "composite": 0.9441036884567247,
+          "arithmetic": 0.9482590052437995,
+          "routed_R2": 2,
+          "application_fraction": 0.3333333333333333,
+          "marginal": 0.9188447951402944,
+          "joint": null,
+          "tail": 0.9999999999999999
+        },
+        "T2-F3": {
+          "cards": 6,
+          "composite": 0.9835853983056637,
+          "arithmetic": 0.984190473428788,
+          "routed_R2": 2,
+          "application_fraction": 0.3333333333333333,
+          "marginal": 0.9704936368156875,
+          "joint": 0.9978583743640815,
+          "tail": 0.9931158981899322
+        },
+        "T2-F4": {
+          "cards": 6,
+          "composite": 0.8903731808192162,
+          "arithmetic": 0.9163721534469039,
+          "routed_R2": 1,
+          "application_fraction": 0.16666666666666666,
+          "marginal": 0.9102921190658093,
+          "joint": null,
+          "tail": 0.8276414296955763
+        }
+      }
+    }
+  },
+  "bias": {
+    "executive_summary": "RESEARCH_DIAGNOSTIC_ONLY. Complete chronological 2010\u20132024 test ledger; no candidate.",
+    "model": "GLOBAL_BIAS_SIGN005",
+    "cells": 82184,
+    "origins": 780,
+    "ratio": 0.9977995994250116,
+    "folds_improved": 3,
+    "fraction_improved": 0.5161101917648204,
+    "requested_magnitude_by_fold": null
+  },
+  "bias_blocks": {
+    "executive_summary": "Block bootstrap only. Full-ledger bias statistics; all score/capture intervals use matched 2010\u20132024 evaluation ledger. Fixed forecasts/oracles are resampled, not refitted.",
+    "seed": 31804,
+    "blocks": {
+      "origin": {
+        "block_count": 1250,
+        "replicates": 5000,
+        "metrics": {
+          "positive_fraction": {
+            "interval_95": [
+              0.5120411910709759,
+              0.5244406590083631
+            ],
+            "finite_replicates": 5000
+          },
+          "mean_standardized_error": {
+            "interval_95": [
+              -0.004829572613802789,
+              0.031190835356040298
+            ],
+            "finite_replicates": 5000
+          },
+          "global_sign005_ratio": {
+            "interval_95": [
+              0.9968478497295967,
+              0.9988272341742547
+            ],
+            "finite_replicates": 5000
+          },
+          "global_median_ratio": {
+            "interval_95": [
+              0.9991629236189964,
+              0.9999428967423338
+            ],
+            "finite_replicates": 5000
+          },
+          "global_oracle_headroom_capture": {
+            "interval_95": [
+              0.0016760287278746928,
+              0.006029336179028684
+            ],
+            "finite_replicates": 5000
+          },
+          "global_predictive_headroom_capture": {
+            "interval_95": [
+              0.0019822081491922645,
+              0.005346067820261988
+            ],
+            "finite_replicates": 5000
+          },
+          "asset_sign005_ratio": {
+            "interval_95": [
+              1.0004857589866039,
+              1.0025515081019116
+            ],
+            "finite_replicates": 5000
+          },
+          "horizon_sign005_ratio": {
+            "interval_95": [
+              0.9971081035211357,
+              0.9989969114884245
+            ],
+            "finite_replicates": 5000
+          }
+        }
+      },
+      "year": {
+        "block_count": 24,
+        "replicates": 5000,
+        "metrics": {
+          "positive_fraction": {
+            "interval_95": [
+              0.4963647013003376,
+              0.5393764279136559
+            ],
+            "finite_replicates": 5000
+          },
+          "mean_standardized_error": {
+            "interval_95": [
+              -0.05852033807508542,
+              0.08182750043676429
+            ],
+            "finite_replicates": 5000
+          },
+          "global_sign005_ratio": {
+            "interval_95": [
+              0.9944628154100495,
+              1.0014378450729873
+            ],
+            "finite_replicates": 5000
+          },
+          "global_median_ratio": {
+            "interval_95": [
+              0.9982687653499471,
+              1.0012238901178465
+            ],
+            "finite_replicates": 5000
+          },
+          "global_oracle_headroom_capture": {
+            "interval_95": [
+              -0.0041436443120970844,
+              0.011273607103183722
+            ],
+            "finite_replicates": 5000
+          },
+          "global_predictive_headroom_capture": {
+            "interval_95": [
+              -0.00245879506347044,
+              0.00941977206614815
+            ],
+            "finite_replicates": 5000
+          },
+          "asset_sign005_ratio": {
+            "interval_95": [
+              0.9984714367696955,
+              1.004403663000701
+            ],
+            "finite_replicates": 5000
+          },
+          "horizon_sign005_ratio": {
+            "interval_95": [
+              0.9946810764601707,
+              1.0016214801988543
+            ],
+            "finite_replicates": 5000
+          }
+        }
+      },
+      "asset": {
+        "block_count": 25,
+        "replicates": 5000,
+        "metrics": {
+          "positive_fraction": {
+            "interval_95": [
+              0.4974463772589555,
+              0.5394696170138846
+            ],
+            "finite_replicates": 5000
+          },
+          "mean_standardized_error": {
+            "interval_95": [
+              -0.07305539508785543,
+              0.07252839065762257
+            ],
+            "finite_replicates": 5000
+          },
+          "global_sign005_ratio": {
+            "interval_95": [
+              0.9945909080244006,
+              1.0009789006468344
+            ],
+            "finite_replicates": 5000
+          },
+          "global_median_ratio": {
+            "interval_95": [
+              0.9985646635579898,
+              1.000532652529348
+            ],
+            "finite_replicates": 5000
+          },
+          "global_oracle_headroom_capture": {
+            "interval_95": [
+              -0.0030734192602382042,
+              0.010929815191215091
+            ],
+            "finite_replicates": 5000
+          },
+          "global_predictive_headroom_capture": {
+            "interval_95": [
+              -0.001680497883022891,
+              0.009143677486411093
+            ],
+            "finite_replicates": 5000
+          },
+          "asset_sign005_ratio": {
+            "interval_95": [
+              0.9979700057026689,
+              1.0044657024567782
+            ],
+            "finite_replicates": 5000
+          },
+          "horizon_sign005_ratio": {
+            "interval_95": [
+              0.9950112264420333,
+              1.0009950159230383
+            ],
+            "finite_replicates": 5000
+          }
+        }
+      }
+    }
+  },
+  "bias_gate_failures": {
+    "executive_summary": "Frozen baseline forensic audit. No new production candidate.",
+    "V51_BIAS04_RESULT": "INCONCLUSIVE",
+    "gate_evidence": {
+      "global_gates": {
+        "material_bias": false,
+        "origin_and_year_support": false,
+        "era_consistency": true,
+        "heldout_improvement": true,
+        "fold_majority": true,
+        "no_year_dominance": true,
+        "no_era_dominance": true,
+        "controls_inferior": false
+      },
+      "global_weak": true,
+      "asset_gates": {
+        "multiple_stable": true,
+        "heldout_improvement": false,
+        "fold_majority": false,
+        "no_era_dominance": true
+      },
+      "horizon_gates": {
+        "multiple_stable": false,
+        "heldout_improvement": true,
+        "fold_majority": true,
+        "no_era_dominance": true
+      },
+      "episode_gates": {
+        "concentration": false,
+        "era_reversal": true,
+        "global_history_fails": false,
+        "recent_bias": true
+      },
+      "no_stable_gates": {
+        "approximately_centered": false,
+        "historical_sign_fails": false,
+        "low_dimensional_capture_small": true,
+        "recent_sample_bias": true
+      }
+    },
+    "independent_OOS": false,
+    "submission_readiness": false,
+    "official_reference_score": 0.9541,
+    "official_score_reestimated": false
+  },
+  "same_ledger_heads_not_aggregated_across_universes": true
+}

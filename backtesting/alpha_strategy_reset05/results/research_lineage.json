@@ -1,0 +1,367 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "studies": [
+    {
+      "study": "V5.1",
+      "branch": "track2/text-first-v5.1-candidate",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "V6-F2",
+      "branch": "track2/v6-f2-event-analog",
+      "parent_SHA": "8b926cfce029a604b6336ceef4e3bf3b39ec5246",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V6-FULL",
+      "branch": "track2/v6-full-event-engine",
+      "parent_SHA": "b6ac06cba400a508835ce6c7baf837a4fe10332d",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "4612711d429ea4cd43191051c7c23537e1af9364",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V7",
+      "branch": "track2/v7-event-memory",
+      "parent_SHA": "4612711d429ea4cd43191051c7c23537e1af9364",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "1b84e18e9ad3d3691406999080cab14814d79f5f",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V8/V8-A",
+      "branch": "track2/v8-calibration-diagnostics",
+      "parent_SHA": "448ded02bc1ac878a12e5d9037010c298de53bbb",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "f7b69e64926d6b7bb56eeddd9b40414c13206c75",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V9-A",
+      "branch": "track2/v9-multiscale-path",
+      "parent_SHA": "b2c3a8013e503648c754944a622f396c945a173d",
+      "PRE_SHA": "b2c3a8013e503648c754944a622f396c945a173d",
+      "RESULT_SHA": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V9-B",
+      "branch": "track2/v9-vol-term-structure",
+      "parent_SHA": "b2c3a8013e503648c754944a622f396c945a173d",
+      "PRE_SHA": "b2c3a8013e503648c754944a622f396c945a173d",
+      "RESULT_SHA": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V10-DATA",
+      "branch": "track2/v10-data",
+      "parent_SHA": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "3e6cf26649ba11d9e78a91e866cb1b6adb6631c6",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V10-SHADOW",
+      "branch": "track2/v10-shadow-benchmark",
+      "parent_SHA": "b2c3a8013e503648c754944a622f396c945a173d",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "SINGLE-CELL-TAIL",
+      "branch": "track2/v51-single-cell-tail",
+      "parent_SHA": "1e2e7e3a76cb5751a3d55ec35b42248bf603cc7d",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "d543c2baf5b944d22ce8a2d5c6aad9f524b488a8",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V11",
+      "branch": "track2/v11",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "MISSING_ORIGINAL_RESULT",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "V12",
+      "branch": "track2/v12-joint-native",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "123115f3a7f04450f6a525594f9e39b88aa0037b",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "V13-A",
+      "branch": "track2/v13-copula",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "253a0c733d77917599f1dbf21eae914cd136d69a",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "V12/V13-R/R2",
+      "branch": "track2/v13-r2-data-feature-parity",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "e263a37cfcbdb2fb0cbcdc0a624492d7fe0dcc47",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "V14-TEMPORAL-JOINT",
+      "branch": "track2/v14-temporal-joint",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "4f3cf96c30e216a5d8e66b4a4d0f4c59a2f620df",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "CEILING-01",
+      "branch": "track2/ceiling-01-score-headroom",
+      "parent_SHA": "0d396b84d361c752a921cf439f7f846637401cb0",
+      "PRE_SHA": "0d396b84d361c752a921cf439f7f846637401cb0",
+      "RESULT_SHA": "b24d2602fc70e4e004a6d4b5496f3b0be00948e2",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "THESIS-01",
+      "branch": "track2/thesis-01-cross-market-implied-value",
+      "parent_SHA": "39b558f6bf565a6057cd419c0975255127aa1a80",
+      "PRE_SHA": "39b558f6bf565a6057cd419c0975255127aa1a80",
+      "RESULT_SHA": "7e73f3623ec93e7efca852904ab6d656489d2b5c",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "ORIGIN-01",
+      "branch": "track2/origin-01-shock-propagation-alpha",
+      "parent_SHA": "51b4e81f4aeff1811c0990bc1532f2259ef8779f",
+      "PRE_SHA": "51b4e81f4aeff1811c0990bc1532f2259ef8779f",
+      "RESULT_SHA": "809b2e192e36db0bcb25b9d62e19b7680a4f3e91",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "SURPRISE-01-LOCATION",
+      "branch": "track2/surprise-01-external-information-alpha",
+      "parent_SHA": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+      "PRE_SHA": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+      "RESULT_SHA": "537f7b86b9094e8cf12a0aa1951e18351f0d6874",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "SURPRISE-01-SCALE",
+      "branch": "track2/surprise-01-external-information-alpha",
+      "parent_SHA": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+      "PRE_SHA": "bada39e0bc9cd4b084e7c745f5689f0a59467648",
+      "RESULT_SHA": "537f7b86b9094e8cf12a0aa1951e18351f0d6874",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "LOCATION-01",
+      "branch": "track2/location-01-predictable-oracle-shift",
+      "parent_SHA": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+      "PRE_SHA": "b05f73ace0d300968198f6563ca3eb4ba0d94257",
+      "RESULT_SHA": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "LOCATION-01R",
+      "branch": "track2/location-01r-transfer-guard",
+      "parent_SHA": "7554bb851658306172654864c10fd40d41e4edb2",
+      "PRE_SHA": "7554bb851658306172654864c10fd40d41e4edb2",
+      "RESULT_SHA": "2a110455c4d4640c8ea8a3b09dd62455104ab475",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "EXPECTATION-01",
+      "branch": "track2/expectation-01-true-market-expectation",
+      "parent_SHA": "5cf12e6380c43d272028a6def96ff9e47e1a3839",
+      "PRE_SHA": "5cf12e6380c43d272028a6def96ff9e47e1a3839",
+      "RESULT_SHA": "2ac22729875d48e59968edaa60cab927a02712d9",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "POSITIONING-01",
+      "branch": "track2/positioning-01-public-positioning-flow-liquidity",
+      "parent_SHA": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+      "PRE_SHA": "80933363f6c8fd273508c7ab30e35a43e03f37af",
+      "RESULT_SHA": "79083c298f8dede7f9113dbf058f4f55c3dfad3d",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "CONTEXT-01",
+      "branch": "track2/context-01-card-semantic-location",
+      "parent_SHA": "a57c11701ae2b9383882673b14680e16c8d9cdea",
+      "PRE_SHA": "a57c11701ae2b9383882673b14680e16c8d9cdea",
+      "RESULT_SHA": "d3618dcd9aae4ac118a5c12c0fe8f3709a72f296",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "TEXT-ROUTE-AUDIT-02",
+      "branch": "track2/text-route-audit-02",
+      "parent_SHA": "16b4e6b216141a181d5bed73eb89c7232edb0da7",
+      "PRE_SHA": "16b4e6b216141a181d5bed73eb89c7232edb0da7",
+      "RESULT_SHA": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "INFO-01",
+      "branch": "track2/info-01-new-information-audit",
+      "parent_SHA": "0bd2a1e768156d74f82a9959a62da40184d30d87",
+      "PRE_SHA": "0bd2a1e768156d74f82a9959a62da40184d30d87",
+      "RESULT_SHA": "43a154ab419b6f3e3f4fc903db40d8c2e319f6bf",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "LOCATION-02-ECB",
+      "branch": "track2/location-02-ecb-spf-alpha",
+      "parent_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+      "PRE_SHA": "d83409f414498b0cadcc508d387252b54dfd1e98",
+      "RESULT_SHA": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "LOCATION-03-SLOOS",
+      "branch": "track2/location-03-sloos-alpha",
+      "parent_SHA": "fe29b985a838261b78d207fb207519fb23f13b37",
+      "PRE_SHA": "57e9d1b5c44d3b196755e00524e778e56f220049",
+      "RESULT_SHA": "938abb88db0dc985d8468950e169098b88ed50b9",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "LOCATION-04-SPD",
+      "branch": "track2/location-04-nyfed-spd-alpha",
+      "parent_SHA": "6598fe01f56a63cc66d694c31fd9e8728ecf0025",
+      "PRE_SHA": "2e356b91dd98dae022b72494ea6d4c70a9a38ed7",
+      "RESULT_SHA": "ca9b467d48b2fc145faa5bfe549975206c8a811f",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "INFORMATION-FAILURE-01",
+      "branch": "track2/information-failure-reassessment-01",
+      "parent_SHA": "126134664887218c998a383e199dc9ad2847db40",
+      "PRE_SHA": "1a417f0522e04e2ecf1598c80e0bf0ebb1e7b5fe",
+      "RESULT_SHA": "fe62b9058ea6dc540f7548c6be96ccc4e8d04b92",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "DIRECTION-TO-LOCATION-01",
+      "branch": "track2/direction-to-location-01",
+      "parent_SHA": "5a139c1c662acd2c27b461437512f4372bc2195a",
+      "PRE_SHA": "e5058474ce1917f02fafab50e261f06f2fbf5bf2",
+      "RESULT_SHA": "16ef4d87f15151796b072e2a6f658ec076171bda",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "NEW-INFORMATION-SEARCH-02",
+      "branch": "track2/new-information-search-02",
+      "parent_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+      "PRE_SHA": "8f4ae57eebb33b6d5a60f6fd0c351df29b5f65ea",
+      "RESULT_SHA": "6653df8c61042c4642be3e2ed37b52daeea16de7",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "PERSISTENT-DIRECTION-02",
+      "branch": "track2/persistent-direction-state-02",
+      "parent_SHA": "cd97b1ea0ebad052aaf1f81ba6152267014bc05e",
+      "PRE_SHA": "2bdc6722fd5705887bee5f0695a09fe2319bf431",
+      "RESULT_SHA": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "PRICE-STATE-03",
+      "branch": "track2/price-state-information-audit-03",
+      "parent_SHA": "1ef7b0fe20349f1be1e5bf6c22a7548e4552cb3f",
+      "PRE_SHA": "b1681d58ecc75e16760904086e672490d3cc20c6",
+      "RESULT_SHA": "0f5c938eeb4054518b0bde81e4de1503890fd684",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "V51-CENTER-BIAS-04",
+      "branch": "track2/v51-center-bias-audit-04",
+      "parent_SHA": "ae0bdf3faf2b2ca32205f43cd417e32ab2119d4f",
+      "PRE_SHA": "ae0bdf3faf2b2ca32205f43cd417e32ab2119d4f",
+      "RESULT_SHA": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "CONTEXT-R2-SECONDARY",
+      "branch": "track2/text-route-audit-02",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "TEXT-T0_RIDGE-SECONDARY",
+      "branch": "track2/text-route-audit-02",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "a37f232d5fcdf8dd8fa1c44e30bde68b3dda458c",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "STORED_METRIC"
+    },
+    {
+      "study": "PRICE-MAJORITY-CONTROL",
+      "branch": "track2/price-state-information-audit-03",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "1cdcdb10de151a717b8512b455df609f433f6b8d",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    },
+    {
+      "study": "PRICE03-CANONICAL-EXTENSION",
+      "branch": "track2/price-state-information-audit-03",
+      "parent_SHA": "NOT_RECORDED",
+      "PRE_SHA": "NOT_RECORDED",
+      "RESULT_SHA": "1cdcdb10de151a717b8512b455df609f433f6b8d",
+      "artifact_storage_commit": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+      "result_status": "MISSING_METRIC_OR_QUALITATIVE"
+    }
+  ],
+  "separate_PRICE_extension_not_bias_parent": true,
+  "missing_metrics_not_imputed": true
+}

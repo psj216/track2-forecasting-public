@@ -1,23 +1,29 @@
 {
   "executive_summary": "Rubric and required evidence inventory frozen before ranking.",
   "branch": "track2/alpha-strategy-reset-05",
-  "HEAD_SHA": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
-  "state": "PRE_READY",
-  "current_stage": "PRE_REMOTE_FREEZE",
+  "HEAD_SHA": "a80d1b431e4b9ff53d9abfd653b681b64fa006fa",
+  "state": "RESULT_READY",
+  "current_stage": "RESULT_REMOTE_VERIFY",
   "completed": [
     "environment",
-    "research_evidence_discovery",
-    "rubric_implementation"
+    "inventory",
+    "PRE_remote",
+    "headroom",
+    "synthesis",
+    "ranking",
+    "decision",
+    "report",
+    "research_tests",
+    "affected_tests",
+    "full_tests",
+    "common_tests"
   ],
   "pending": [
-    "PRE_REMOTE_VERIFY",
-    "evidence_synthesis",
-    "ranking",
-    "report",
-    "tests",
-    "RESULT",
+    "RESULT_remote",
     "recovery"
   ],
-  "rankings_computed": false,
-  "new_forecasts": false
+  "rankings_computed": true,
+  "new_forecasts": false,
+  "PRE_RESULT_ALPHA_RESET05_SHA": "a80d1b431e4b9ff53d9abfd653b681b64fa006fa",
+  "last_successful_artifact": "results/execution_audit.json"
 }

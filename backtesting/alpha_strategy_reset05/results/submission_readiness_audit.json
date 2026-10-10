@@ -1,0 +1,64 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "official_reference": 0.9541,
+  "checks": [
+    {
+      "item": "V51 protected source",
+      "status": "VERIFIED_READ_ONLY",
+      "evidence": "All2409 inherited Git files byte-protected"
+    },
+    {
+      "item": "Build definition",
+      "status": "PRESENT_NOT_BUILT",
+      "evidence": "Dockerfile Python3.13 and pinned numerical dependencies; base tag not immutable digest"
+    },
+    {
+      "item": "Common pin",
+      "status": "RISK",
+      "evidence": "Submission Docker/CI v2.4.2; research common2.4.3. Preserve official candidate and verify scorer/runtime compatibility without silently upgrading"
+    },
+    {
+      "item": "Determinism",
+      "status": "HISTORICAL_TEST_EVIDENCE",
+      "evidence": "Same-seed/geometry/regression tests exist; complete image runtime repeat not performed here"
+    },
+    {
+      "item": "Docker binary",
+      "status": "MISSING_IN_WORKSPACE",
+      "evidence": "Prior preservation audit explicitly binary_Docker_package_currently_available=false"
+    },
+    {
+      "item": "Descriptor/ZIP/image receipt",
+      "status": "NOT_FULLY_VERIFIED",
+      "evidence": "Published candidate workflow exists; exact official V51 digest/package receipt needs retrieval, not reconstruction by assumption"
+    },
+    {
+      "item": "Network/read-only runtime",
+      "status": "CONFIGURATION_PRESENT",
+      "evidence": "Offline smoke CI and non-root Docker USER; no runtime build/test in this meta reset"
+    },
+    {
+      "item": "CI",
+      "status": "DEFINITION_PRESENT",
+      "evidence": "Pinned actions and family smoke gates; current live CI status not a fresh image attestation"
+    },
+    {
+      "item": "Recovery",
+      "status": "VERIFIED_PRIOR_ARCHIVE",
+      "evidence": "Parent final recovery SHA660a7b8... preserved; new reset recovery will include sources/evidence and Git bundle"
+    }
+  ],
+  "build_executed": false,
+  "submission_executed": false,
+  "V51_overwritten": false,
+  "baseline_package_fully_reverified": false,
+  "DEADLINE_STATUS": "UNVERIFIED",
+  "deadline_evidence": "Available README/SUBMISSION_CLI/project artifacts have no verified exact current submission deadline.",
+  "risk": "Concrete image/descriptor/pin gaps justify hardening without inventing deadline urgency",
+  "evidence_paths": [
+    "Dockerfile",
+    "pyproject.toml",
+    ".github/workflows/text-first-v51-candidate.yml",
+    "backtesting/persistent_direction02/results/baseline_preservation_audit.json"
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "executive_summary": "Evidence-only strategic audit; no model fitting or candidate scoring.",
+  "scientific_audit_complete": true,
+  "report_complete": true,
+  "new_models_fit": 0,
+  "new_candidate_scores": 0,
+  "new_sources_acquired": 0,
+  "no_official_score_reestimation": true,
+  "next_study_executed": false,
+  "parent_files_unchanged": true,
+  "tests": {
+    "research": {
+      "summary": "25 passed in 0.12s",
+      "exit_code": 0,
+      "log_file": "reset-research-tests.log"
+    },
+    "affected": {
+      "summary": "44 passed, 3 skipped in 7.29s",
+      "exit_code": 0,
+      "log_file": "reset-affected-tests.log"
+    },
+    "full": {
+      "summary": "858 passed, 25 skipped, 3 deselected, 5 warnings in 27.31s",
+      "exit_code": 0,
+      "log_file": "reset-full-tests-retry.log"
+    },
+    "common": {
+      "summary": "250 passed in 1.00s",
+      "exit_code": 0,
+      "log_file": "reset-common-tests.log"
+    }
+  },
+  "first_full_test_failure": {
+    "reason": "NEWINFO02_PRIVATE missing from environment;3 original source-artifact tests failed",
+    "scientific_failure": false,
+    "repair": "Connected six existing private ZIP members without downloading or constructing data; verified original parquet hashes",
+    "retry_result": "858 passed,25 skipped,3 deselected",
+    "attempts": 2
+  },
+  "historical_immutable_tests_deselected": [
+    "tests/test_price_state_information03.py::test_protected_parent_main",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+    "tests/test_new_information_search02.py::test_parent_main_branch"
+  ],
+  "exclusion_reason": "Already justified at immutable parent checkpoint: these tests require their earlier research branch/private path. New reset protection test verifies all2409 inherited files unchanged; no historical test edited.",
+  "skip_note": "25 pre-existing gated/integration tests remain skipped; affected suite3 existing bias private cache/PRE/ledger tests skipped. This meta audit does not reconstruct raw caches or run new forecast evaluation.",
+  "protected_parent_files": 2409,
+  "scorer_executed_for_new_candidate": false
+}
