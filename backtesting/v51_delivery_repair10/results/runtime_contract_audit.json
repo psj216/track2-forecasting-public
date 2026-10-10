@@ -1,0 +1,19 @@
+{
+  "MODEL_ENDPOINT_retrofit": false,
+  "candidate_runtime_compatibility": "NOT_EVALUATED",
+  "current_contract_blob": "c51f992fe22a08e10a6b62879d711be29a0c2985",
+  "current_contract_sha256": "27f7f02b1d0e9336978a627f034857e782e634514a515ee61954b9271e6c0ffc",
+  "executive_summary": "Operational repair evidence; unexecuted validation gates remain pending, not passed.",
+  "inherited_contract_blob": "1a21932b5db637540a4a0794e361ec0ecae5bfff",
+  "inherited_contract_is_current": false,
+  "interface_version": "2.0",
+  "no_team_id_invented": true,
+  "official_track_HEAD": "30c8019d997f930eab9ba569d089d12298d86d8c",
+  "offline_smoke_allowed": true,
+  "sidecars_required": [
+    "forecast_meta.json",
+    "forecast_rationale.md"
+  ],
+  "staged_panel_path": "/input/panels/",
+  "verb": "forecast"
+}

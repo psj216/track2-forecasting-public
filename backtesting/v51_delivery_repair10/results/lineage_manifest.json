@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Operational repair evidence; unexecuted validation gates remain pending, not passed.",
+  "inherited_files_unchanged": 2547,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_RESULT_SHA": "9ba448111c2988d56066bd0d6ba0e57c6120e88b",
+  "parent_research_reopened": false,
+  "protected_workflow_blob": "297121f769d05fa20ce9dcbacba1c8e0b6ab2968",
+  "scientific_parent_SHA": "6903eb83c7c84c5c6dc581c1c76820a24bbc89e6"
+}

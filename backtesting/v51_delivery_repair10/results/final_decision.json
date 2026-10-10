@@ -1,0 +1,15 @@
+{
+  "PRECHECK_REPAIRED": true,
+  "V51_DELIVERY_REPAIR10_RESULT": "INCONCLUSIVE",
+  "delivery_complete": false,
+  "dominant_blocker": "MANUAL_WORKFLOW_REGISTRATION_AND_CAPABILITY_GAP",
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "no_forecast_logic_change": true,
+  "no_image_unavailability_claim": true,
+  "no_leaderboard_tuning": true,
+  "no_new_model": true,
+  "no_new_score": true,
+  "no_submission": true,
+  "not_scientific_failure": true,
+  "not_two_failure_stop": true
+}

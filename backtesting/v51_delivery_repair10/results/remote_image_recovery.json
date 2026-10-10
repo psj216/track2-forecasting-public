@@ -1,0 +1,10 @@
+{
+  "EXACT_PREPARATION_IMAGE_RECOVERED": false,
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "image_unavailability_proven": false,
+  "pull_attempts": 0,
+  "reason": "Existing manual-only workflow is absent from default main, and has pull/inspect only. Main modification and alternate automatic triggers are forbidden; connected GitHub operations do not expose new workflow dispatch.",
+  "registry_requests": 0,
+  "run_id": null,
+  "status": "NOT_STARTED_MANUAL_WORKFLOW_BLOCKED"
+}

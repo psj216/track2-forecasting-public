@@ -1,0 +1,31 @@
+{
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "files": {
+    "V51-DELIVERY-REPAIR-10-report.md": "b6abe910c3c569c87cd7b187a0905fe59139134181d602dee271a01fded739db",
+    "backtesting/v51_delivery_repair10/STATUS.json": "accc07e32c107361bd5d4d105c01358fb66cfe1c862b094eb3f34fb85af4f23d",
+    "backtesting/v51_delivery_repair10/__init__.py": "77d617fa9ec6982993e23f287065911651c6ef252255fda13e923670e66878e9",
+    "backtesting/v51_delivery_repair10/audit.py": "a79bb94685de1e9af892cf99a00ed3adc60b0f2106d86765e02a1f7cc13c70d5",
+    "backtesting/v51_delivery_repair10/results/delivery_target.json": "9debb636c2fee94d2ffcc817e794c0ab289311e7d438c5a90612a8795d10dc1e",
+    "backtesting/v51_delivery_repair10/results/determinism_audit.json": "679e6cca6f6f7009dedc7b1130c8030f012fb3324574636e4acee89e7a5b348d",
+    "backtesting/v51_delivery_repair10/results/environment_repair_audit.json": "7e9a93f3011e403b7a6d7f03b779f67b6f923ecb0dbdab5fe5c044701adcb64d",
+    "backtesting/v51_delivery_repair10/results/execution_audit.json": "1823514864fe25b85494749a027bdb894b6f0e22d075567e37d331c28c9dcc94",
+    "backtesting/v51_delivery_repair10/results/final_decision.json": "7b94681aa5f45fb13ed24146545f27e2d71de5d2a745f8ab0e9b60f7c1fd516a",
+    "backtesting/v51_delivery_repair10/results/image_manifest.json": "1d162bbb260cdd9010b6a1285f03cbb4e6fff2e15c5d83387a551ae063fa767d",
+    "backtesting/v51_delivery_repair10/results/lineage_manifest.json": "dc269a8a4627693bd0b5113895beb5e793d4ee34df7f5c604c639422aec1156f",
+    "backtesting/v51_delivery_repair10/results/manual_workflow_audit.json": "4b6e92615ad2385db781593bef970f96bf56db8eb2bc281367b090dc9400d5d8",
+    "backtesting/v51_delivery_repair10/results/next_axis_decision.json": "d6f31ce3b606ed9eb9a89dd3cc85c89444914c60732d1fecf170d70e7e146c81",
+    "backtesting/v51_delivery_repair10/results/remote_image_recovery.json": "8603a78ca890941c63f1a694ed8968ae138a9f8241e061927ae38b7e72ce9008",
+    "backtesting/v51_delivery_repair10/results/resource_audit.json": "679e6cca6f6f7009dedc7b1130c8030f012fb3324574636e4acee89e7a5b348d",
+    "backtesting/v51_delivery_repair10/results/route_invariant_audit.json": "679e6cca6f6f7009dedc7b1130c8030f012fb3324574636e4acee89e7a5b348d",
+    "backtesting/v51_delivery_repair10/results/runtime_contract_audit.json": "6ff93d9f58378454469b127be344c11d89bfb61ba893a03ccf2acbb29a2d2f71",
+    "backtesting/v51_delivery_repair10/results/runtime_gate_results.json": "679e6cca6f6f7009dedc7b1130c8030f012fb3324574636e4acee89e7a5b348d",
+    "backtesting/v51_delivery_repair10/results/safe_candidate_identity.json": "3ec4a83fa0f5e784b33b4a56241da8cd7d4c315e4da20f1345cf2a6ea47922bc",
+    "backtesting/v51_delivery_repair10/results/safe_rebuild_manifest.json": "7cb142af3f14f67938d9ea9b99bfaa762b1feb1c207da45033c27a5a4cf49fbb",
+    "backtesting/v51_delivery_repair10/results/security_audit.json": "679e6cca6f6f7009dedc7b1130c8030f012fb3324574636e4acee89e7a5b348d",
+    "backtesting/v51_delivery_repair10/results/submission_descriptor_audit.json": "5a0c8fc506d8ba1029e45794fa02c36ca474aa1dfb5657cf5189724f5c2f2146",
+    "tests/test_v51_delivery_repair10.py": "deb5c833f919b9be10268d260f23c38f62a66f951047496b73847cd05c99ac73"
+  },
+  "private_logs_and_recovery_external": true,
+  "scope": "New operational evidence only; no candidate readiness claim",
+  "self_manifest_excluded": true
+}

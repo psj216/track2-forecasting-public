@@ -1,0 +1,10 @@
+{
+  "common_requested": "2.4.2",
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "historical_0_9541_artifact_identity_resolved": false,
+  "historical_reference": 0.9541,
+  "image_source_link_observed": false,
+  "ready": false,
+  "source_SHA": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "status": "UNVALIDATED_PREPARATION_REFERENCE"
+}

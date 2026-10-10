@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "observed_architecture": null,
+  "observed_digest": null,
+  "observed_image_ID": null,
+  "requested_reference": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "source_identity_proven": false,
+  "status": "NOT_OBSERVED"
+}

@@ -1,0 +1,36 @@
+{
+  "default_branch": "main",
+  "default_branch_workflows": [
+    ".github/workflows/ci.yml",
+    ".github/workflows/staging-integrity.yml"
+  ],
+  "dispatch_tool_available": false,
+  "docker_capable_runner": "ubuntu-latest",
+  "exact_anonymous_pull_first": true,
+  "executive_summary": "Operational repair evidence; unexecuted validation gates remain pending, not passed.",
+  "fallback_to_push_trigger_permitted": false,
+  "filename": ".github/workflows/v51-safe-delivery09-recovery.yml",
+  "forecasts_executed_by_existing_workflow": false,
+  "main_modification_permitted": false,
+  "manual_workflow_present_default_branch": false,
+  "no_score": true,
+  "no_submission": true,
+  "past_manual_runs": 0,
+  "persist_credentials": false,
+  "pinned_checkout": true,
+  "registration_rule": "GitHub workflow_dispatch requires workflow on default branch",
+  "registration_rule_URL": "https://docs.github.com/en/actions/how-tos/manage-workflow-runs/manually-run-a-workflow",
+  "remaining_workflow_capabilities": [
+    "runtime matrix",
+    "source code hash comparison",
+    "schema gates",
+    "determinism",
+    "security/resources",
+    "descriptor"
+  ],
+  "source_code_identity_validated_by_existing_workflow": false,
+  "status": "BLOCKED_MANUAL_WORKFLOW_REGISTRATION_AND_INCOMPLETE_RUNTIME_CAPABILITIES",
+  "stores_pull_inspect_artifacts": true,
+  "workflow_dispatch_only": true,
+  "workflow_modified": false
+}

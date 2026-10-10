@@ -1,0 +1,7 @@
+{
+  "candidate_execution_count": 0,
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "passed": null,
+  "reason": "Existing manual-only workflow is absent from default main, and has pull/inspect only. Main modification and alternate automatic triggers are forbidden; connected GitHub operations do not expose new workflow dispatch.",
+  "status": "NOT_EVALUATED_ACTIONS_BLOCKED"
+}

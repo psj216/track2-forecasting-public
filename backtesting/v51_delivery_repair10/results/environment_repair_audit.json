@@ -1,0 +1,36 @@
+{
+  "PRECHECK_REPAIRED": true,
+  "candidate_dependency_change": false,
+  "executive_summary": "Operational repair evidence; unexecuted validation gates remain pending, not passed.",
+  "host_test_tools_restored_only": true,
+  "import_preflight": {
+    "common_SHA": "dfa92d242908bba4a448218b9c10ae391238d10d",
+    "common_path": "/workspace/scratch/935b41f252e9/safe09-common242/common/qfbench2_common/__init__.py",
+    "common_version": "2.4.2",
+    "executive_summary": "Exact common2.4.2 worktree restored; host import preflight only, no candidate runtime executed.",
+    "host_not_candidate_runtime": true,
+    "host_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "pythonpath": [
+      "/workspace/scratch/935b41f252e9/v51-delivery-repair10",
+      "/workspace/scratch/935b41f252e9/safe09-common242/common",
+      "/workspace/scratch/935b41f252e9/repair10-test-deps"
+    ],
+    "track_path": "/workspace/scratch/935b41f252e9/v51-delivery-repair10/qfbench2_track_forecasting/__init__.py"
+  },
+  "new_preflight_failure": "pytest unavailable on first attempt; restored host test tools; retry passed",
+  "preflight_tests": {
+    "exit_code": 0,
+    "log_SHA256": "700bc0322b00f8e8db3ce495047983b54ab27ab59ed1fedac05f3aeba47dae24",
+    "passed": 6
+  },
+  "prior_failures_do_not_count_against_resume": true,
+  "restoration": {
+    "HEAD": "dfa92d242908bba4a448218b9c10ae391238d10d",
+    "already_exists": false,
+    "clean": true,
+    "exit_code": 0,
+    "package_directory": "/workspace/scratch/935b41f252e9/safe09-common242/common/qfbench2_common",
+    "stderr": "Preparing worktree (detached HEAD dfa92d2)\n",
+    "stdout": "HEAD is now at dfa92d2 Merge pull request #5 from Agenthon-2026/release/development-2.4.2-20260916\n"
+  }
+}

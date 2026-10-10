@@ -1,0 +1,50 @@
+{
+  "PRE_RESULT_V51_DELIVERY_REPAIR10_SHA": null,
+  "PRE_reason": "Manual workflow readiness condition failed; do not fabricate a PRE-certified runtime implementation.",
+  "RESULT_SHA_location": "external result receipt avoids commit self-reference",
+  "builds": 0,
+  "candidate_dependencies_changed": false,
+  "candidate_security_runtime_resources_unverified": true,
+  "delivery_package_created": false,
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "final_recovery_receipt": "external archive integrity receipt after remote result verification",
+  "forecast_runs": 0,
+  "host_test_tools_only_restored": true,
+  "inherited_files_unchanged": 2547,
+  "local_Docker_install_attempts": 0,
+  "main_unchanged": true,
+  "new_execution_step_failed_twice": false,
+  "protected_v51_package_files_unchanged": 129,
+  "registry_requests": 0,
+  "scores_computed": 0,
+  "started_UTC": "2026-10-10T16:17:00Z",
+  "status": "ENVIRONMENT_REPAIRED_DELIVERY_INCOMPLETE",
+  "submissions": 0,
+  "tests": {
+    "affected_post_actions": {
+      "reason": "Actions validation did not occur; post-validation stage not reached.",
+      "status": "NOT_RUN"
+    },
+    "common_toolkit_post_actions": {
+      "reason": "Actions validation did not occur; post-validation stage not reached.",
+      "status": "NOT_RUN"
+    },
+    "full_repository_post_actions": {
+      "reason": "Actions validation did not occur; post-validation stage not reached.",
+      "status": "NOT_RUN"
+    },
+    "original_preflight": {
+      "exit_code": 0,
+      "log_SHA256": "700bc0322b00f8e8db3ce495047983b54ab27ab59ed1fedac05f3aeba47dae24",
+      "passed": 6
+    },
+    "repair_specific": {
+      "exit_code": 0,
+      "log_SHA256": "ede79f995e2f310beccdc9410e7733dc39b02dbefaa16a04f56b0c5951bb8a9f",
+      "passed": 6
+    }
+  },
+  "updated_UTC": "2026-10-10T16:31:48.597032+00:00",
+  "workflow_dispatch_attempted": false,
+  "workflow_unchanged": true
+}

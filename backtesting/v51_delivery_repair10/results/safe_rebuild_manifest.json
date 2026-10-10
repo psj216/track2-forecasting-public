@@ -1,0 +1,6 @@
+{
+  "build_attempts": 0,
+  "executive_summary": "Operational repair result only. No unexecuted delivery gate is marked passed.",
+  "reason": "Exact image unavailability has not been proven; rebuild is therefore prohibited.",
+  "status": "NOT_ATTEMPTED"
+}
