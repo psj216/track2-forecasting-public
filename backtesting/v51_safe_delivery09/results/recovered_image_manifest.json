@@ -1,0 +1,10 @@
+{
+  "EXACT_PREPARATION_IMAGE_RECOVERED": false,
+  "current_image_ID": null,
+  "executive_summary": "Operational checkpoint only. Safe-long-work STOP after two failed new preflight test attempts; no candidate executed or certified.",
+  "historical_image_ID": "sha256:1d6835db45dec0dd419b135441540b9e27e1b1218f37c051f1e13a0c2072eb74",
+  "historical_official_identity": false,
+  "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "reason": "Local Docker executable unavailable; remote recovery implementation preserved but not executed after safe-long-work STOP. Image availability remains unknown.",
+  "status": "NOT_TESTED_REGISTRY"
+}

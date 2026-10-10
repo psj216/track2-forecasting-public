@@ -1,0 +1,10 @@
+{
+  "candidate_source_SHA": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "executive_summary": "Operational delivery only. No model, forecast logic, score or submission changes.",
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_PRE_SHA": "c91e6da24d8204e15c4f1e1acdb9f48a19f3076c",
+  "parent_reopened": false,
+  "parent_scientific_result": "INSUFFICIENT_EXISTING_EXPERT_HEADROOM",
+  "protected_parent_files": 2534,
+  "scientific_parent_RESULT_SHA": "6903eb83c7c84c5c6dc581c1c76820a24bbc89e6"
+}

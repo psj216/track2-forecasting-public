@@ -1,0 +1,23 @@
+# Executive summary: anonymously inspect the exact frozen preparation image; no forecast, build, registry publish or submission.
+name: V51 Safe Delivery09 Exact Recovery
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  exact-image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Anonymous exact image pull and inspection
+        run: python3 backtesting/v51_safe_delivery09/image_recovery.py --out recovery-evidence
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: v51-safe-delivery09-exact-recovery-${{ github.run_id }}
+          path: recovery-evidence/
+          if-no-files-found: error
+          retention-days: 14

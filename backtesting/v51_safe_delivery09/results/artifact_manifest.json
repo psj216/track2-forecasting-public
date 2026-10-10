@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Operational checkpoint only. Safe-long-work STOP after two failed new preflight test attempts; no candidate executed or certified.",
+  "files": {
+    "backtesting/v51_safe_delivery09/STATUS.json": "47f1aeeecf9837b8ed7866b8a24dce4a0b9f8408033e88d7240ff1afe4cb33f8",
+    "backtesting/v51_safe_delivery09/__init__.py": "ba311d8aa15854dc341b1279dd808b236d36e589fd5cc579f02c26c803208518",
+    "backtesting/v51_safe_delivery09/image_recovery.py": "7b721daa6499e5eb46c28207808468112de2f9dd9f0210a54c23602727fbd79e",
+    "backtesting/v51_safe_delivery09/results/environment_audit.json": "9e7b95632f3345d9982c3bb0faab5677b988c02da3abdf04dc92677282605097",
+    "backtesting/v51_safe_delivery09/results/execution_audit.json": "c7fd792f8227969f51dc8c7c8be777edaa4fad6ecf9ba7f0160d0f6b4cd0f782",
+    "backtesting/v51_safe_delivery09/results/final_decision.json": "89e82e6b278cab948c2073622d9df252c49d5b9391085e3750d5347c9f66827d",
+    "backtesting/v51_safe_delivery09/results/lineage_manifest.json": "676b2cccf2b189b58018536aebc6721eba256cbdde8ce017fe8a6fa4b7e528e3",
+    "backtesting/v51_safe_delivery09/results/next_axis_decision.json": "8afe4998c249e5c55c7e864ff5596ce892538c8d0a6a46ef4715674997be243a",
+    "backtesting/v51_safe_delivery09/results/recovered_image_manifest.json": "c1c1c7487d2ecc211081fb2f1f767161851875e9ba9284a38bfbe74e2dab2e51"
+  },
+  "status": "INCOMPLETE_CHECKPOINT"
+}

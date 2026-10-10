@@ -1,0 +1,17 @@
+{
+  "architecture": "x86_64",
+  "branch": "track2/v51-safe-delivery-09",
+  "docker_executable": null,
+  "docker_socket": false,
+  "executive_summary": "Operational delivery only. No model, forecast logic, score or submission changes.",
+  "fallback_execution_plan": "Read-only GitHub Actions Docker runner, anonymous exact-digest recovery only; no registry push or submission.",
+  "local_exact_pull": {
+    "exit_code": 127,
+    "reason": "Docker executable absent; no registry response was received"
+  },
+  "parent_RESULT_SHA": "6903eb83c7c84c5c6dc581c1c76820a24bbc89e6",
+  "repository": "psj216/track2-forecasting-public",
+  "started_at": "2026-10-10T07:57:05.544945+00:00",
+  "starting_tree_clean": true,
+  "target_timebox_seconds": 7200
+}

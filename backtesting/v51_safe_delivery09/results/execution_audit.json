@@ -1,0 +1,36 @@
+{
+  "Docker_builds": 0,
+  "PRE_RESULT_V51_SAFE_DELIVERY09_SHA": null,
+  "RESULT_V51_SAFE_DELIVERY09_SHA": null,
+  "attempt1": "common absent from PYTHONPATH",
+  "attempt2": "Operator supplied relative git -C common-repo while cwd was delivery checkout; restoration failed, and subsequent test ran without restored import path.",
+  "continuation_point": "Restore common2.4.2 using: git -C /workspace/scratch/935b41f252e9/common-repo worktree add --detach /workspace/scratch/935b41f252e9/safe09-common242 dfa92d242908bba4a448218b9c10ae391238d10d. Verify that restoration succeeds before running another command. Then set PYTHONPATH to the delivery checkout, safe09-common242/common and existing test dependencies; resume the specific preflight tests under new explicit resume authorization. No prior forecasting research must be repeated.",
+  "delivery_complete": false,
+  "executive_summary": "Operational checkpoint only. Safe-long-work STOP after two failed new preflight test attempts; no candidate executed or certified.",
+  "failed_attempts": 2,
+  "forecast_executions": 0,
+  "historical_tests_changed": false,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "new_execution_step": "V51_SAFE_DELIVERY-specific preflight tests",
+  "operator_error_acknowledged": true,
+  "registry_pulls_executed": 0,
+  "scientific_code_changed": false,
+  "scores_computed": 0,
+  "status": "STOP_PREFLIGHT_TESTS_TWO_FAILURES",
+  "submission_actions": 0,
+  "tests": {
+    "pre_specific.log": {
+      "SHA256": "0f38c39ff420e43f9c5157a96a224ff643eefba91ba5c91a584e653a8c846683",
+      "error": "ModuleNotFoundError: qfbench2_common",
+      "exit_code": 4
+    },
+    "pre_specific_retry.log": {
+      "SHA256": "0f38c39ff420e43f9c5157a96a224ff643eefba91ba5c91a584e653a8c846683",
+      "error": "ModuleNotFoundError: qfbench2_common",
+      "exit_code": 4
+    }
+  },
+  "time": "2026-10-10T07:59:35.090163+00:00",
+  "workflow_executed": false,
+  "workflow_trigger": "manual only; no automatic execution on checkpoint push"
+}

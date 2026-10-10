@@ -1,0 +1,27 @@
+{
+  "HEAD_SHA": "6903eb83c7c84c5c6dc581c1c76820a24bbc89e6",
+  "branch": "track2/v51-safe-delivery-09",
+  "completed_stages": [
+    "environment",
+    "parent_remote_identity",
+    "exact_source_Dockerfile_recovered",
+    "historical_workflow_recovered"
+  ],
+  "continuation_point": "Restore common2.4.2 using: git -C /workspace/scratch/935b41f252e9/common-repo worktree add --detach /workspace/scratch/935b41f252e9/safe09-common242 dfa92d242908bba4a448218b9c10ae391238d10d. Verify that restoration succeeds before running another command. Then set PYTHONPATH to the delivery checkout, safe09-common242/common and existing test dependencies; resume the specific preflight tests under new explicit resume authorization. No prior forecasting research must be repeated.",
+  "current_stage": "PREFLIGHT_TEST_ENVIRONMENT",
+  "delivery_complete": false,
+  "executive_summary": "Operational delivery only. No model, forecast logic, score or submission changes.",
+  "failed_step_attempts": 2,
+  "last_successful_artifact": "lineage_manifest.json",
+  "last_update_time": "2026-10-10T07:59:35.090163+00:00",
+  "pending_stages": [
+    "remote_image_recovery",
+    "delivery_target_freeze",
+    "runtime_validation",
+    "tests",
+    "report",
+    "Git_verification",
+    "recovery"
+  ],
+  "state": "STOP_PREFLIGHT_TESTS_TWO_FAILURES"
+}
