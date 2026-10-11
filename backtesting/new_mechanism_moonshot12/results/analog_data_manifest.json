@@ -1,0 +1,292 @@
+{
+  "executive_summary": "Original canonical universe and exact preserved baseline CRPS; no substitute model.",
+  "origins": 1250,
+  "cells": 135994,
+  "assets": [
+    "AUD",
+    "BAB",
+    "BRL",
+    "CAD",
+    "CHF",
+    "CNY",
+    "DKK",
+    "EUR",
+    "GBP",
+    "HML",
+    "INR",
+    "JPY",
+    "MKT",
+    "MOM",
+    "NOK",
+    "NZD",
+    "QMJ",
+    "SEK",
+    "SMB",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_2Y",
+    "UST_30Y",
+    "UST_5Y",
+    "UST_7Y"
+  ],
+  "date_range": [
+    "2001-01-02",
+    "2024-12-10"
+  ],
+  "horizons": [
+    5,
+    21,
+    63,
+    126,
+    189
+  ],
+  "canonical_SHA256": "5a421fa5c10745c69469c683797bf42f4abf54288e8082984bcf39fda76968a6",
+  "center_ledger_SHA256": "30f5113b24ee5f9e5335b39f5a224d45633307aeb0dd77621ce29addec56d05f",
+  "panel_files": {
+    "units/t2-EXAMPLE-ust-curve-1m/rates_daily.parquet": "eeb07928e3fb55dbef7d8a7db9d1c79dc02d9082b4305ae7ddd2bd6c22b7d5b3",
+    "units/t2-F1-ai-mom-2024/factors_daily.parquet": "4aeb4905e508abe4e6f69cbe4486c5fb5adf103d700b73a9852e4c1dc4df650d",
+    "units/t2-F1-aud-on-hold-2016/g10_fx_daily.parquet": "447b127f9485ef6d42c03b4c5be42e1454084db83dd47fcb8068a35fec756629",
+    "units/t2-F1-cad-boc-2017/g10_fx_daily.parquet": "04d3b42f7616aa79a2f8436d4db82b10abb3bf82f6a743c17bbfe264bdf59fa5",
+    "units/t2-F1-chf-highly-valued-2021/g10_fx_daily.parquet": "2af802b7390699093817943488dc76e3b12e92625640a17f53cf508a312a7bef",
+    "units/t2-F1-conflicting-texts-2024/rates_daily.parquet": "af5d6ca4e736f256d57b8ef1ba85d3621edf47f1376487dab5befb3bb84d7de1",
+    "units/t2-F1-considerable-period-2003/rates_daily.parquet": "01d0e6298a81fe3220f9e60756cb2e79d4fc8b9a88851c417c440a984adfb465",
+    "units/t2-F1-conundrum-2005/rates_daily.parquet": "e358971cda2ef7392a45b4fbc02b2d1354c2636b4ea68c985840d9dc5117b70b",
+    "units/t2-F1-cpi-glidepath-2023/macro_monthly.parquet": "1df69bfe7fcd231cf044f86388cf5117eea42f155c8d8ad762ff6d0f605f8a9c",
+    "units/t2-F1-dkk-peg-2019/g10_fx_daily.parquet": "eba6846ed974c7b2a36ab94875364a656aff2e7d58ea8b652bb20233ceeef40d",
+    "units/t2-F1-eur-range-2017/g10_fx_daily.parquet": "57c46def9a77ed6c231b44f2b09348aff501f3c0780ea9f64fc9445c9764d9b1",
+    "units/t2-F1-fed-put-2019/factors_daily.parquet": "4ece10b828552f9b5f460cf6b70c5d736e10d3c868d93d667cef1c926ea39aa6",
+    "units/t2-F1-greater-confidence-2024/rates_daily.parquet": "1fdb3825b1ae8f0f5e0a764a49271c9146cce40e4d4a064826ea94b4ca39ab5b",
+    "units/t2-F1-hawkish-cut-2024/rates_daily.parquet": "e22ab4b961f4653d5c960e122b5c414c718f829e9e2e25e8121aec9c3cb29aac",
+    "units/t2-F1-jpy-ycc-flex-2018/g10_fx_daily.parquet": "faa1a6b52e53313be9ea2183039ef2a91698e5726b8e607d6fafbb465ea25fad",
+    "units/t2-F1-liftoff-telegraph-2015/rates_daily.parquet": "471b3f9b0f9ed58b982f35e7fccaaac172d2a135e4335ad2e1b33c977f624444",
+    "units/t2-F1-measured-pace-2004/rates_daily.parquet": "4e09a92773503986d537c84f39db458d7def02351b1119c50affdaed389cba92",
+    "units/t2-F1-normalization-2017/rates_daily.parquet": "5db720bac0fe1a7b780c65d778c1c090548d876343d71d011fb62d64027e40c7",
+    "units/t2-F1-patient-dropped-2015/rates_daily.parquet": "e64641fb7a5a1b01dd0b20d138855508d6b1ce6d5b15f7048003d3e0c5b0b9b8",
+    "units/t2-F1-pause-2006/rates_daily.parquet": "0f323af5031a816eb05c20b97999179eb8eeddfe308d574615029f415ac99b99",
+    "units/t2-F1-qe3-end-2014/rates_daily.parquet": "6ed127dcd2e3e67616db0a7d443fb541940a779cff5bf2bac46806aa4d0834ae",
+    "units/t2-F1-sahm-watch-2024/macro_monthly.parquet": "56e8065d03cd413d49234776ba9b4782d98677b54593f2fad51441b0dc688b66",
+    "units/t2-F1-third-cut-2019/rates_daily.parquet": "a236819b647798b16d7aed3c2bdf7fe0ad1c2418fc1e7e34b2a48682f2eafca3",
+    "units/t2-F1-ust-positioning-2018/rates_daily.parquet": "372742a3aae74f662543f99178f1738dbce926c133847ba859edf2fe0a40144b",
+    "units/t2-F2-abenomics-2012/g10_fx_daily.parquet": "426272cdadfa2993cb4b7b8f092cc9a6be7f6944f96305cbcc9f50a88ba510bc",
+    "units/t2-F2-act-as-appropriate-2019/rates_daily.parquet": "796b9bc2a7bac57dd4ff879a5a47160b41f5bf32c01542b2c9f73873bd19e753",
+    "units/t2-F2-aud-taper-2013/g10_fx_daily.parquet": "2e2e59cd106b7f77bc4a29c200282eee124ce0fb2980c792308aea5dfe3c1753",
+    "units/t2-F2-boj-thin-signal-2014/g10_fx_daily.parquet": "be8a72f50f98ab9cc8e030689c90a9fcb7a673648af482647108d020bbec8cb1",
+    "units/t2-F2-cnh-stress-2015/em_transfer_early.parquet": "3c8893c562650981faa45f741efbd9aacff1fa4816320b8735cea37651ae0a82",
+    "units/t2-F2-cnh-stress-2015/g10_fx_daily.parquet": "b47ea97b0a1920e0aa5c46ea609b3a5be88744b509b5fdb1cb2e4e978275ff2d",
+    "units/t2-F2-cnh-tradewar-2018/em_transfer_early.parquet": "0f54eb5fd64a79fa638114bfbd937a102d00b3b466553a8f74beb3af66dfe605",
+    "units/t2-F2-cnh-tradewar-2018/g10_fx_daily.parquet": "da5e6113216a162b41debfa8adfc9fbc8d3942a9c0332e43c783e9b05af6edb9",
+    "units/t2-F2-considerable-removal-2004/rates_daily.parquet": "5d8bbb5f143d3255b6e122c37f19079eabe7e655830493acbd80d9638b266049",
+    "units/t2-F2-credit-crunch-2007/rates_daily.parquet": "fe309e192794c4bf3cb923be972e962904a517dbe59f074dbb471799ca5d9bcd",
+    "units/t2-F2-cut-sizing-2024/rates_daily.parquet": "7bfaff1531eb9538a927835a973ae9f4d2a23dac5ea796b76fafb60c7922f8c5",
+    "units/t2-F2-draghi-precommit-2014/g10_fx_daily.parquet": "3a0dbdcad347f1490da96f6c62ae5c36cf4c739e6ba8b0142af7ec17440ee66a",
+    "units/t2-F2-ecb-qe-telegraph-2014/g10_fx_daily.parquet": "c420fcbe9bf95e081c622f10abab47a1216ad46c816882f98af91d0f3cf5364a",
+    "units/t2-F2-eur-parity-2022/g10_fx_daily.parquet": "5155cf46fcf44e9e20927e2d8cb1c77c8fcfc8f35661cccd3d50ac97c6dda115",
+    "units/t2-F2-fragile-five-brl-2013/em_transfer_early.parquet": "06f6d8016ab9c37f5114558a3194d687c6db2ad67ae74f027e5ae22ccb6734ed",
+    "units/t2-F2-fragile-five-brl-2013/g10_fx_daily.parquet": "2e2e59cd106b7f77bc4a29c200282eee124ce0fb2980c792308aea5dfe3c1753",
+    "units/t2-F2-fragile-five-inr-2013/em_transfer_early.parquet": "dbc743a7304b46b3a361dfda36a5f7d517258f3bf996e8de6d2c1a5cb9be3f04",
+    "units/t2-F2-fragile-five-inr-2013/g10_fx_daily.parquet": "2e2e59cd106b7f77bc4a29c200282eee124ce0fb2980c792308aea5dfe3c1753",
+    "units/t2-F2-higher-for-longer-2023/rates_daily.parquet": "4b3cdd6ef1033e746f179eeb4d4d099aff055d445d543daea0587dbf7fb8f6ef",
+    "units/t2-F2-nirp-paradox-2016/g10_fx_daily.parquet": "d28fcb77fc2688d7da66ad80da0305ae40ed558845d73389de38c1abe42819bf",
+    "units/t2-F2-opec-cad-2014/g10_fx_daily.parquet": "c420fcbe9bf95e081c622f10abab47a1216ad46c816882f98af91d0f3cf5364a",
+    "units/t2-F2-powell-pivot-2019/rates_daily.parquet": "c55fd5e146dba3f2f2fde5834e1700acedd20d173016e12dd15e667ad2eac89a",
+    "units/t2-F2-qe2-jackson-hole-2010/rates_daily.parquet": "70c72875a854363df01e40e8565b13de8b4e9c5deaaf3660ba4caf7a371bd814",
+    "units/t2-F2-shunto-nirp-exit-2024/g10_fx_daily.parquet": "26d3c97b74bf0f2dd571752b4f91c9f8f58ae6386539ce4d6c1b0ae8df7aa0bb",
+    "units/t2-F2-some-pain-2022/rates_daily.parquet": "927d15b8c2197d802b79ba6c92eb283d78dfa9180cf038bfc92a3915e7935b24",
+    "units/t2-F2-taper-begins-2013/rates_daily.parquet": "d1623966994f39bdce8128e5e37069014daaccc3840df8524f9a6721360c6576",
+    "units/t2-F2-taper-testimony-2013/rates_daily.parquet": "6b551870800380d0bb16e1c6b2955772907500c796bbd10783d430158dc5d1a0",
+    "units/t2-F2-time-has-come-2024/rates_daily.parquet": "4205cc550177e1b08619e26c2129a792f984c80a0a2c13a570cfe2a5fd3ae3cb",
+    "units/t2-F2-trade-war-escalation-2019/rates_daily.parquet": "80c6c2dea6dcac1c66c20d1810c646d8d024da5ab194117e7ddba349a7e0d09e",
+    "units/t2-F2-trichet-alertness-2008/g10_fx_daily.parquet": "1b8820972f4006681b1155b0afdab592f35026ba65608bee12a2f9ba928312f9",
+    "units/t2-F2-whatever-it-takes-2012/g10_fx_daily.parquet": "4758cb5d5d37f642aa7ee89d883b33531f1b125f5cd6ac014e073cc18e99be8f",
+    "units/t2-F3-bear-flattener-2022/rates_daily.parquet": "7ee2421ef13b329c0df2a224310ca55f6702aa72c80ad6b01f4f99bc44cc270d",
+    "units/t2-F3-boj-ust-channel-2023/g10_fx_daily.parquet": "cf3aab4b6ee5f22f08f5e804a4e0e8e4d5e739e5fd527d4ad603d82e3fce6a0d",
+    "units/t2-F3-boj-ust-channel-2023/rates_daily.parquet": "bdc0ab18b0227475ab008bab0159627fc62b8d2b12a57598a7c71fbcbb21c458",
+    "units/t2-F3-brexit-joint-2016/g10_fx_daily.parquet": "c3389a8a41ea05fd5bce266e5856d0fa6ab6a18920ce04d091b6f31fda224ecf",
+    "units/t2-F3-conundrum-joint-2005/rates_daily.parquet": "e358971cda2ef7392a45b4fbc02b2d1354c2636b4ea68c985840d9dc5117b70b",
+    "units/t2-F3-covid-curve-2020/rates_daily.parquet": "50338002d4625ab2a027332b189978aabf0008f903bd2efe78951717df8c8e0b",
+    "units/t2-F3-cpi-shock-cross-2022/factors_daily.parquet": "d657185cd8475da0f20c0d17e4ecd6858ae6f24055eac63e205abfb8e3209384",
+    "units/t2-F3-cpi-shock-cross-2022/rates_daily.parquet": "f928ae7300d4bbc488c04e320d2be09de584854fb91184944e1be4957d3eed2c",
+    "units/t2-F3-divergence-2014/g10_fx_daily.parquet": "fc4c4cc39f662a40bf5902728be0bc609868b9e943b4f674dc4853189aa312a2",
+    "units/t2-F3-divergence-2014/rates_daily.parquet": "dbd088ab783f02d0dccb2dab687a5614986fdfd9242b8a6bdab21d6e268fefdb",
+    "units/t2-F3-dollar-squeeze-2020/g10_fx_daily.parquet": "3523709af3caef345e300783aaf3ebb3b05f6714f672c7b0350a221e4dc420c3",
+    "units/t2-F3-dollar-vortex-2022/g10_fx_daily.parquet": "d61f3772e839c0280a0c1ffe4163e6c57d0d6b9a9f1b420b66c978e837f28950",
+    "units/t2-F3-dollar-vortex-2022/rates_daily.parquet": "893ff1c97c158bb53f1c1850d25cd6b0b843f0445758898f9229c9bba8f91f4b",
+    "units/t2-F3-dots-vs-oil-2014/rates_daily.parquet": "ae876cecb57fe0eba9507f5e7603d0ff51834afee7921cfe6d5354a5f1cd60ab",
+    "units/t2-F3-election-2024-joint/g10_fx_daily.parquet": "c9c20e261baedc1fe7e1104017f0afefacdc0838170516ad43b43d9ef9b8b738",
+    "units/t2-F3-election-2024-joint/rates_daily.parquet": "7cbf8185d5b26e87b1c07cd34ea1a718f69dc487978dced07dd9ccfbc49c2443",
+    "units/t2-F3-fragile-five-joint-2013/em_transfer_early.parquet": "a018605ee8de0341d5f3c2551f31d0eb1975c48778d7e33d186efc1a33ca05ff",
+    "units/t2-F3-fragile-five-joint-2013/g10_fx_daily.parquet": "2e2e59cd106b7f77bc4a29c200282eee124ce0fb2980c792308aea5dfe3c1753",
+    "units/t2-F3-funding-flip-2024/g10_fx_daily.parquet": "13f83ab8444d89e2c0dbeae0b37ff154a93f89a1c3a316eecde88585efb2874b",
+    "units/t2-F3-hiking-year-curve-2018/rates_daily.parquet": "d29f22e19c60c6425d7f879485a86b70490d0696034bd19c3b582e03b617315b",
+    "units/t2-F3-inversion-persistence-2019/rates_daily.parquet": "b03aaa652d0c49a814602306176980271f72e6a16db2d486fa6cd15e4a7c6b54",
+    "units/t2-F3-oil-fx-split-2022/g10_fx_daily.parquet": "7d3ac1e5210aaaada01d847373c156bca2650944fd89680d4541419fdf82a66c",
+    "units/t2-F3-rates-into-factors-2022/factors_daily.parquet": "10179e5282d169d9fa2575e7cb865ea035c5063013373192975062cb9fdfd310",
+    "units/t2-F3-rates-into-factors-2022/rates_daily.parquet": "80c4bcccad576903b0beb893cde46d9cadca79c5998a0de1c4c8de2df58aa059",
+    "units/t2-F3-safe-haven-paradox-2011/g10_fx_daily.parquet": "3194f96c14a4136c914bf6358a23450ba96b8fa20d2884292da5bac5cfeaa5da",
+    "units/t2-F3-safe-haven-paradox-2011/rates_daily.parquet": "d1624a126444eca4e12445d8f7ebd61bcc9a2f23a4863c04620dfb821a9e43e7",
+    "units/t2-F3-scandies-stress-2022/g10_fx_daily.parquet": "815f0e9f2db092d226210b4fd4f02c2ee98d0aae85879a7e97cd1c94e930f03a",
+    "units/t2-F3-taper-steepener-2013/rates_daily.parquet": "6b551870800380d0bb16e1c6b2955772907500c796bbd10783d430158dc5d1a0",
+    "units/t2-F3-term-premium-steepener-2023/rates_daily.parquet": "d3ae03c05ebb6a99ea41dc206456cfa41b8a1f17446cea0c53984b86cc5c45e9",
+    "units/t2-F3-vaccine-rotation-2020/factors_daily.parquet": "4f00850f319412ccf6551a4b8f197ae75227f3b26f34a2c6fb3b3302a77b9917",
+    "units/t2-F4-aud-gfc-2008/g10_fx_daily.parquet": "80a8e91597bb6a443c8779c19d4b77e04ef69546600b2fb8ff740405ac2ff98e",
+    "units/t2-F4-chf-floor-strain-2015/g10_fx_daily.parquet": "1c66d697eb42927a12bc8054711c19b65025980411c76d791931ef4bca241565",
+    "units/t2-F4-china-panic-2016/factors_daily.parquet": "e06f2d52a6bdde38fbc50715f8f6830ceae4c16aba94172fec41003b4a1d12c3",
+    "units/t2-F4-china-stress-mkt-2015/factors_daily.parquet": "8c37386e1cfb8530ea83aa923fa3d1ae95e1d2b61a038a784e1ae342f2333969",
+    "units/t2-F4-covid-mkt-2020/factors_daily.parquet": "852350f204d6ac10f020ca78d9df3315e9db6cf434dd91b8a3207954ea15dda6",
+    "units/t2-F4-covid-nfp-2020/macro_monthly.parquet": "8a201c8caf6f1087af6cc0cabc59f4bfdd3240ad69dc10b012e07bd1b1d079e6",
+    "units/t2-F4-covid-rates-2020/rates_daily.parquet": "2b1e18bae89dce1a53a6d38492c314956df90a6acad403f81d833a0e8e57ac83",
+    "units/t2-F4-cpi-friday-2022/rates_daily.parquet": "1ecd6102835a6b6683b44e4ec4757580b5903e7fb55de6679e23666675db81e0",
+    "units/t2-F4-cpi-vintage-2022/macro_monthly.parquet": "0f5e2686d56f98dd47d2fcb903d121c458157208867f7a13c02cd000d4765ac8",
+    "units/t2-F4-eur-warnings-2022/g10_fx_daily.parquet": "7d3ac1e5210aaaada01d847373c156bca2650944fd89680d4541419fdf82a66c",
+    "units/t2-F4-factor-stress-2008/factors_daily.parquet": "90daad7a321440e238c4fabeaa2ae65d07b94db901896964171114d78a6e8065",
+    "units/t2-F4-funding-stress-10y-2008/rates_daily.parquet": "630ae3f5717da2fd58be9a175e676a11923cc076bb5285924e3c171dc8f0a014",
+    "units/t2-F4-funding-stress-2y-2008/rates_daily.parquet": "630ae3f5717da2fd58be9a175e676a11923cc076bb5285924e3c171dc8f0a014",
+    "units/t2-F4-gbp-brexit-2016/g10_fx_daily.parquet": "01be57a8f9f6b09f0add7c53e9900512a7ece51250b32dac3857cdf8e7257e71",
+    "units/t2-F4-gbp-conference-2016/g10_fx_daily.parquet": "9f00cbe7071bcb3d8e409cc879b55707fa58d7d571be90dd10e6396aef67856a",
+    "units/t2-F4-hike-cycle-2021Q4b/rates_daily.parquet": "b707d26772c9bbbb7b3c0e32590ddce1a18de6bea7064aa0ca5b16c3fef4798c",
+    "units/t2-F4-hml-covid-2020/factors_daily.parquet": "902625571b5d77200cc063557e41232e67fc12296549f4462cc81f0fafbf58f9",
+    "units/t2-F4-jpy-carry-2007/g10_fx_daily.parquet": "37f93c43eea74c9c6aba1c31b6754d3adce380055afe97f6a5a6a7d9b70aede3",
+    "units/t2-F4-jpy-crowding-2024/g10_fx_daily.parquet": "af3c44ad06d0b10c47bff079ef47eaec49c9d8392ff2278c522a571bf61d7e4e",
+    "units/t2-F4-mkt-selloff-2011/factors_daily.parquet": "4f9d8d735a03ad541b04ce8e66351fd526e59ca76c7acfa93d9b3906e4eef4a4",
+    "units/t2-F4-momentum-reversal-2009/factors_daily.parquet": "cdaa299e7a0678e49571b9f75b35374faf6943876e59b73c660e2c1dc7360bdf",
+    "units/t2-F4-nok-covid-2020/g10_fx_daily.parquet": "86e4b387b66bc8812c418a735b73302d28242197406251c35aa63c6737419882",
+    "units/t2-F4-powell-december-2018/factors_daily.parquet": "78bbe2dba83d2e9444c995da55b723750197144575915ae0682b37953a0c2714",
+    "units/t2-F4-qe1-expansion-2009/rates_daily.parquet": "f4f4bf035a22518921655c89b66ef6f33ff8f0aba18e7682dd23da33a8ceeca0",
+    "units/t2-F4-quant-crowding-2007/factors_daily.parquet": "86f92501d4f4f7413aca21cee7bf4ce09012f6cc6df672150afc064c02125dc0",
+    "units/t2-F4-short-vol-2018/factors_daily.parquet": "51623568bc525caa79ffe1601c0013bdd59d72336c2a6c33add2696507836b4c",
+    "units/t2-F4-svb-whiplash-2023/rates_daily.parquet": "5f02f5a186a669167f5e85216d9e94218c33b7fa553f7d8f77de524d72f167c1",
+    "units/t2-F4-taper-warning-2013/rates_daily.parquet": "1cdf35bf9f62fe427feb958aad38a89db83850fc1b76b617adcef7ef19d024f6",
+    "units/t2-F4-ust-downgrade-watch-2011/rates_daily.parquet": "d1624a126444eca4e12445d8f7ebd61bcc9a2f23a4863c04620dfb821a9e43e7",
+    "units/t2-F4-ust10y-supply-2023/rates_daily.parquet": "02d8545288515c90a5a87c680075df9071299f18b813843bb0b09489dcbe0e40",
+    "units/t2-F4-vaccine-timeline-2020/factors_daily.parquet": "4f00850f319412ccf6551a4b8f197ae75227f3b26f34a2c6fb3b3302a77b9917"
+  },
+  "baseline_source": "Frozen center_error_ledger.baseline_CRPS from exact original cache scoring. Original cache arrays not needed for unchanged marginal loss reuse; no reconstruction.",
+  "independent_OOS": false,
+  "available_series": {
+    "AUD": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "BAB": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "BRL": {
+      "start": "1995-01-02",
+      "end": "2013-05-24",
+      "kind": "level"
+    },
+    "CAD": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "CHF": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "CNY": {
+      "start": "1998-06-15",
+      "end": "2018-06-15",
+      "kind": "level"
+    },
+    "DKK": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "EUR": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "GBP": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "HML": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "INR": {
+      "start": "1993-05-24",
+      "end": "2013-05-24",
+      "kind": "level"
+    },
+    "JPY": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "MKT": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "MOM": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "NOK": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "NZD": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "QMJ": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "SEK": {
+      "start": "2000-01-03",
+      "end": "2024-10-31",
+      "kind": "level"
+    },
+    "SMB": {
+      "start": "2000-01-03",
+      "end": "2024-05-31",
+      "kind": "log_return"
+    },
+    "UST_10Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    },
+    "UST_20Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    },
+    "UST_2Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    },
+    "UST_30Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    },
+    "UST_5Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    },
+    "UST_7Y": {
+      "start": "2000-01-03",
+      "end": "2024-12-18",
+      "kind": "level"
+    }
+  }
+}

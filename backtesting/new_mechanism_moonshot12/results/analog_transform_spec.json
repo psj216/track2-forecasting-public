@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Pre-outcome technical specification.",
+  "definition": {
+    "level": "current observed level + (past realized endpoint - past observed level)/past pre-origin sigma63 * current pre-origin sigma63",
+    "log_return": "Unchanged sum of original future daily return increments; no re-scaling."
+  }
+}

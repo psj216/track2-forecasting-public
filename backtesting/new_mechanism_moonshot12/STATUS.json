@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Restartable isolated analog experiment; no safe-baseline changes.",
+  "branch": "track2/new-mechanism-moonshot-12",
+  "HEAD_SHA": "126a7c628aa60783986450037309f5f59603276a",
+  "current_stage": "environment_and_mechanism_audit",
+  "completed_stages": [
+    "environment_and_mechanism_audit"
+  ],
+  "last_update": "2026-10-11T12:54:57.072333+00:00",
+  "card_outcomes_opened": false,
+  "pending_stages": [
+    "pre_oracle_freeze",
+    "path_bank",
+    "oracle",
+    "kill_gate1",
+    "historical_selection",
+    "historical_validation",
+    "controls",
+    "bootstrap",
+    "kill_gate2",
+    "card_PRE",
+    "cards",
+    "tests",
+    "report",
+    "RESULT",
+    "recovery"
+  ]
+}

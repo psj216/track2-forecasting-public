@@ -1,0 +1,4 @@
+{
+  "executive_summary": "Pre-outcome technical specification.",
+  "definition": "Uniform K nearest; deterministic seed31812+origin index; one index per joint draw. K availability shortfall uses min(K,eligible_count), never fewer than8."
+}

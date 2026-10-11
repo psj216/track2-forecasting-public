@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Exact parent and protected baseline; existing public panels/private canonical files only.",
+  "parent": "126a7c628aa60783986450037309f5f59603276a",
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "protected_parent_files": 2691,
+  "runtime_note": "Host Python3.12 source-import audit, as in validated delivery11; no toolkit install/Requires-Python bypass. Safe candidate and its Python3.13/common2.4.2 unchanged.",
+  "scorer_module": "qfbench2_common.scoring.crps",
+  "scorer_SHA256": "fdd8bc89bc9d219f4e09937582d3aad97dfdb5656563e4037470873d17e200cb",
+  "scorer_matches_canonical_common243": true,
+  "broader_labels_opened": false,
+  "card_outcomes_opened": false
+}
