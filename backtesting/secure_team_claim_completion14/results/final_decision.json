@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Sanitized release preparation evidence; participant key and final package are not present.",
+  "SECURE_TEAM_CLAIM14_RESULT": "INCONCLUSIVE",
+  "reason": "USER_LOCAL_HIDDEN_PROMPT_ALIAS_AND_PACK_PENDING",
+  "environment_preparation_complete": true,
+  "FINAL_PACKAGE_READY": false,
+  "no_research_failure": true,
+  "no_secret_requested_in_chat": true,
+  "no_upload": true,
+  "next": "USER_LOCAL_SECRET_HANDOFF",
+  "team_number_required": false
+}

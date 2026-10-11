@@ -1,23 +1,35 @@
 {
-  "executive_summary": "Non-secret final packaging evidence; no upload or submission.",
+  "executive_summary": "Non-secret preparation and checks complete; local secret-dependent packing remains pending.",
   "branch": "track2/secure-team-claim-completion-14",
-  "state": "PRE_READY",
+  "state": "AWAITING_USER_LOCAL_CLI",
+  "parent": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+  "PRE_SHA": "9fb634209f3ab723d111c46741c111d1f07fce83",
   "completed": [
-    "actual_parent_fetch",
+    "actual_parent_recovery",
     "python313",
     "toolkit260",
-    "published_fixtures",
-    "user_team_number",
-    "draft_known_fields",
-    "specific_tests"
+    "all12_published_fixtures",
+    "model_free_contract",
+    "verified_user_team_number",
+    "private_draft",
+    "PRE_remote_verified",
+    "fresh_anonymous_exact_image_pull",
+    "completion14_tests",
+    "affected_tests",
+    "full_tests",
+    "packaging_tests",
+    "common_tests",
+    "secret_structure_scan",
+    "local_handoff_kit",
+    "report"
   ],
   "pending": [
-    "PRE_remote",
-    "image_recheck",
-    "user_local_hidden_alias_pack",
-    "final_zip",
-    "final_tests",
-    "result_recovery"
+    "user_own_terminal_official_alias",
+    "user_own_terminal_official_pack",
+    "final_zip_receipt",
+    "FINAL_PACKAGE_READY_decision"
   ],
-  "team_key_used": false
+  "participant_key_used": false,
+  "pack_performed": false,
+  "last_update": "2026-10-11T17:37:04.049087+00:00"
 }

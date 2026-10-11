@@ -1,0 +1,27 @@
+{
+  "executive_summary": "Sanitized release preparation evidence; participant key and final package are not present.",
+  "files": {
+    "SECURE-TEAM-CLAIM-COMPLETION-14-report.md": "453aea60ae45cb18d78dc068f57c7fd81e9a71c16ce65b78d0d288bebed511b3",
+    "SECURE-TEAM-CLAIM-COMPLETION-14-PRE.md": "6a0952d5b51a513403739d19767eb4e23ad9889f4062b27d21b2af34d778fa3e",
+    "tests/test_secure_team_claim_completion14.py": "f34c4e399caf3fbe66e0fea4f3d34af7534a54dd0a79f32d49288834d48aadfb",
+    ".github/workflows/secure-team-claim14-image-recheck.yml": "ebc8c81a40eeb6ad03d4a041e69ffc9770a4eaa2998899301d9c807756652fe9",
+    "backtesting/secure_team_claim_completion14/STATUS.json": "ca4060360b996a0426beca463cf3255fd5aabff07df43f22b66f1b1e183b72d3",
+    "backtesting/secure_team_claim_completion14/core.py": "b04347b75c2e2adfe6977007d93be5bf310915ab869fc5f9004f978fa3120601",
+    "backtesting/secure_team_claim_completion14/__init__.py": "4771760e0760ea69a1ac73e2b50852f8c92f1d148a90e369ccfa80ade8b8d07a",
+    "backtesting/secure_team_claim_completion14/results/next_axis_decision.json": "f7b60640e241e573e6a2ec8be98bc890e3da0f8921dddd1bcedcfbebdcdf77a7",
+    "backtesting/secure_team_claim_completion14/results/packaging_environment.json": "238839f14374ff54fd28bba868496c4f26790265b2b094ebd883899e71c363f4",
+    "backtesting/secure_team_claim_completion14/results/parent_recovery_audit.json": "b13eadcc80dce31863591897be439e349a8ac373c42c1b31e09c02bdcf5e3c62",
+    "backtesting/secure_team_claim_completion14/results/descriptor_public_audit.json": "1e2107b49adf9541b4c60249a7b37b121fa3fa44652c173394c1959e57a9f647",
+    "backtesting/secure_team_claim_completion14/results/secret_handling_audit.json": "18ffad7fc2098af2625a64519bc502477c53216f881ba6c48d9947329ce2b166",
+    "backtesting/secure_team_claim_completion14/results/official_contract_audit.json": "4a8fa6cfb643186a536cf27910eaf2ede7b13f20896150820857f8a4623d64ee",
+    "backtesting/secure_team_claim_completion14/results/pre_result_manifest.json": "cd22d02349d9c4e613a5c8f3d1e53c3d1fe1fdb9a7821b9ce100fd12303cb59c",
+    "backtesting/secure_team_claim_completion14/results/package_public_receipt.json": "d44171a2d89a7d9b1fdb4b9bd6f7b92044f4a0ceb728e463f22f174e89e3ba3a",
+    "backtesting/secure_team_claim_completion14/results/pre_remote_receipt.json": "10aeb837d642fe19bc6576b97f3dfb22993fdffc1059e7faeadd93b48f108cc9",
+    "backtesting/secure_team_claim_completion14/results/final_decision.json": "6d503aa039ac316629b91f39f7ee40a18003a63e6286245f93e57874d1c46439",
+    "backtesting/secure_team_claim_completion14/results/execution_audit.json": "3be8a86897c5fbb05f66a856165ec59ba0dcc794e342a7b7f1d5c3f6e43168d5",
+    "backtesting/secure_team_claim_completion14/results/image_recheck.json": "bcc8999bcbb5fae3e145d4b236becb964f00aab8e10b0c131806cb54346a9838"
+  },
+  "manifest_self_excluded": true,
+  "private_descriptor_not_committed": true,
+  "final_zip_not_present": true
+}

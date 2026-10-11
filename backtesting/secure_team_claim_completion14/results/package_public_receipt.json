@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Sanitized release preparation evidence; participant key and final package are not present.",
+  "pack_performed": false,
+  "final_zip_exists": false,
+  "final_zip_filename": null,
+  "final_zip_sha256": null,
+  "final_zip_size": null,
+  "alias_derived": false,
+  "user_verified_team_number_received": true,
+  "team_number_stored_privately_only": true,
+  "used_locally_with_hidden_prompt": false,
+  "local_handoff_zip_sha256": "5f6836e9043ee22526a6a932d70b10dd8dee84386becb8ba7e5d206efe16c2a9",
+  "handoff_is_submission_zip": false,
+  "uploads": 0,
+  "submissions": 0,
+  "final_attempts_consumed": 0,
+  "zip_validation": "PENDING_USER_LOCAL_OFFICIAL_PACK",
+  "claim_verification": "Official pack creates proof and enforces alias agreement; byte binding and schema verifier prepared; no independent HMAC verification without key claimed."
+}

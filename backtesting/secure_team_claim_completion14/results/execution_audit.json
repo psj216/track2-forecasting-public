@@ -1,0 +1,63 @@
+{
+  "executive_summary": "Sanitized release preparation evidence; participant key and final package are not present.",
+  "parent": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+  "delivery_parent": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "pre": "9fb634209f3ab723d111c46741c111d1f07fce83",
+  "workflow_trigger": "8bbba6fa51d0b716d8b1ffbd113dc81f0f21090f",
+  "actions_run": 38159994621,
+  "actions_conclusion": "success",
+  "actions_artifact_id": 11709729665,
+  "actions_artifact_sha256": "0d9bb1150223d7098ff11036bbb8f6b2abcab62c3ebf8454a3fdd61ad5d3928e",
+  "tests": {
+    "completion14": {
+      "passed": 8,
+      "skipped": 0
+    },
+    "affected": {
+      "passed": 84,
+      "exit_code": 0
+    },
+    "full": {
+      "passed": 987,
+      "skipped": 25,
+      "deselected": 5,
+      "exit_code": 0
+    },
+    "packaging_toolkit260": {
+      "passed": 719,
+      "exit_code": 0
+    },
+    "legacy_common242": {
+      "passed": 250,
+      "exit_code": 0
+    }
+  },
+  "historical_deselections": {
+    "tests/test_price_state_information03.py::test_protected_parent_main": "Immutable historical branch name and historical complete-change-scope assertion; not a delivery/core behavior test",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation": "Immutable historical branch name and historical complete-change-scope assertion; not a delivery/core behavior test",
+    "tests/test_new_information_search02.py::test_parent_main_branch": "Immutable historical branch name and historical complete-change-scope assertion; not a delivery/core behavior test",
+    "tests/test_new_mechanism_moonshot12.py::test_exact_parent_branch": "Immutable historical branch name and historical complete-change-scope assertion; not a delivery/core behavior test",
+    "tests/test_new_mechanism_moonshot12.py::test_ancestor_files_preserved": "Immutable historical branch name and historical complete-change-scope assertion; not a delivery/core behavior test"
+  },
+  "full_first_attempt": {
+    "failed": 2,
+    "cause": "Shallow checkout lacked actual ancestor Git objects",
+    "repair": "Fetched actual unshallow history; individual assertions and full suite then passed",
+    "historical_tests_modified": false
+  },
+  "packaging_only_tests_in_legacy_full": "2 skips; both separately passed under official Python3.13/toolkit2.6.0",
+  "main_verified": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "V51_changed": false,
+  "image_changed": false,
+  "models_added": false,
+  "features_added": false,
+  "forecast_logic_changed": false,
+  "new_score_calculated": false,
+  "leaderboard_tuning": false,
+  "uploads": 0,
+  "submissions": 0,
+  "final_attempts_consumed": 0,
+  "local_handoff_syntax": "PASS; not executed with participant credentials",
+  "result_sha_binding": "EXTERNAL_POST_COMMIT_RECEIPT",
+  "private_recovery": "POST_RESULT_CREATE_AND_VERIFY"
+}

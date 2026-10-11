@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Sanitized release preparation evidence; participant key and final package are not present.",
+  "pre_sha": "9fb634209f3ab723d111c46741c111d1f07fce83",
+  "remote_verified": true,
+  "before_participant_key_use": true,
+  "branch": "track2/secure-team-claim-completion-14",
+  "workflow_trigger_sha": "8bbba6fa51d0b716d8b1ffbd113dc81f0f21090f"
+}

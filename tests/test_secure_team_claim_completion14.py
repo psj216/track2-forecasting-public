@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import pytest
 from backtesting.secure_team_claim_completion14.core import *
+from qfbench2_common.contracts import CONTRACT_SET
 
 SCHEMA={"type":"object","additionalProperties":False,"required":["team_id","descriptor_digest","image","track","phase","competition_id","schema_version","models","license"],"properties":{k:{} for k in ["team_id","descriptor_digest","image","track","phase","competition_id","schema_version","models","license"]}}
 def fixture():
@@ -26,6 +27,7 @@ def test_no_model_rebuild_or_upload():
  text=(Path(__file__).parents[1]/"backtesting/secure_team_claim_completion14/core.py").read_text()
  assert "getpass" not in text and "subprocess" not in text and "docker build" not in text
 
+@pytest.mark.skipif(CONTRACT_SET != "1.1.0", reason="Official2.6 packaging tests run in the dedicated Python3.13 environment")
 def test_official_synthetic_pack_and_receipt(tmp_path):
  from qfbench2_common.team_claim import pack_submission
  # Synthetic contract fixture only: never a participant key.
@@ -35,6 +37,7 @@ def test_official_synthetic_pack_and_receipt(tmp_path):
  result=verify_zip(target,999999,alias)
  assert result["crc"]=="PASS" and result["claim_byte_binding"]=="PASS"
 
+@pytest.mark.skipif(CONTRACT_SET != "1.1.0", reason="Official2.6 packaging tests run in the dedicated Python3.13 environment")
 def test_extra_zip_member_refused(tmp_path):
  import zipfile
  from qfbench2_common.team_claim import pack_submission
