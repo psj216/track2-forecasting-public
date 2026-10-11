@@ -1,0 +1,33 @@
+{
+  "executive_summary": "Non-secret final packaging evidence; no upload or submission.",
+  "parent": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+  "delivery_parent": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "official_hub": "c817c36780aba74e9caeb8d86167103b66b779f1",
+  "official_track": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec",
+  "toolkit": "bd01548e34d21fd660d88fd06157078fb25ece4e",
+  "contract_set": "1.1.0",
+  "schema_sha256": "66c97b08ee7b3262d3ecdf471e93fa1a4d2143dd72d173dec3eb0b7c77257904",
+  "draft_sha256": "5e94bee08e6a97ab3d69353cb0f9a57111d2d433dd64322ee9dac334e0b9d4b8",
+  "image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "team_number_source": "USER_VERIFIED",
+  "team_number_recorded_privately": true,
+  "alias_derived": false,
+  "team_key_used": false,
+  "team_key_stored": false,
+  "pack_performed": false,
+  "submission_performed": false,
+  "pre_sha_binding": "EXTERNAL_RECEIPT_AFTER_REMOTE_VERIFY",
+  "success_gates": [
+    "exact parent",
+    "official toolkit",
+    "verified number",
+    "official local hidden alias/pack",
+    "exact immutable image",
+    "CRC and parser",
+    "claim-byte binding",
+    "secret scan",
+    "zero uploads"
+  ],
+  "technical_clarification": "Official seal_for_team supplies team_id after hidden key prompt; draft omits team_id/digest instead of inventing identity. Validate known fields before PRE, full parser during local official pack."
+}

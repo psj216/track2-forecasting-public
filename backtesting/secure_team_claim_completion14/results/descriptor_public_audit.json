@@ -1,0 +1,18 @@
+{
+  "executive_summary": "Non-secret final packaging evidence; no upload or submission.",
+  "draft_sha256": "5e94bee08e6a97ab3d69353cb0f9a57111d2d433dd64322ee9dac334e0b9d4b8",
+  "known_field_validation": "PASS",
+  "full_parser": "PENDING_LOCAL_DERIVED_ALIAS",
+  "models": [],
+  "license": "MIT",
+  "image": {
+    "registry": "docker.io",
+    "repository": "jotj216/track2-f4-approved",
+    "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+  },
+  "identity_omitted": [
+    "descriptor_digest",
+    "team_id"
+  ],
+  "private_descriptor_committed": false
+}

@@ -1,0 +1,90 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "repository": "Agenthon-2026/Agenthon2026-public",
+  "commit": "c817c36780aba74e9caeb8d86167103b66b779f1",
+  "track_repository": "Agenthon-2026/track2-forecasting-public",
+  "track_commit": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec",
+  "documents": {
+    "README.md": "cdfcd3e6094f5db0155618327a4eab7325701389c63cb820d4a0cc2bcfa351f3",
+    "AGENTS.md": "b614bd41a72da524a84b42cefb851cf9d4709e0cb4d748ccddb4b3a0638cee39",
+    "starter-packs/track2/SUBMISSION-DESCRIPTOR.md": "050e13ecf362259c2a0adf269e818049f60ebc23b2af7ff561b3f52e60ed12f0",
+    "starter-packs/track2/TEAM-CLAIM.md": "5cbd6f95bdc608713417343dd887f020bfee7c1af518b58be4225d3ebf054a8e",
+    "starter-packs/track2/RUNTIME-ENVIRONMENT.md": "2b52945bc066bb9c6c791aae749ea00f7a6db73a1214acfb8561059af249b5a8",
+    "docs/IMAGE-SUBMISSIONS.md": "cfd886051ab8f2ced9cb867fe9288b93c8b7aeb422c16ff2ce60ec8f273d8648"
+  },
+  "track_document_hashes": {
+    "official_track/README.md": "26d261ef76b164204cd2bbf3233dcf5001f7117a71c1ecdd336ba63bdc59ae17",
+    "official_track/SUBMISSION_CLI.md": "657234d1cd951c38e6acc74a6418d35a93615e42604d905f5e32c6a65e028c66",
+    "official_track/AGENTS.md": "f49bff7f9ce11a1d9e57c07e922b9e048636d594dfad90bd7ec52dac61398c6c"
+  },
+  "official_final_notice": {
+    "issue": 4,
+    "comment_id": 6103652999,
+    "updated_at": "2026-10-11T00:14:49Z",
+    "url": "https://github.com/Agenthon-2026/track2-forecasting-public/issues/4#issuecomment-6103652999"
+  },
+  "descriptor_shape_static_verified": true,
+  "development_close": {
+    "AoE": "2026-10-12T23:59:00-12:00",
+    "UTC": "2026-10-13T11:59:00+00:00",
+    "KST": "2026-10-13T20:59:00+09:00"
+  },
+  "final_open": {
+    "UTC": "2026-10-13T12:00:00+00:00",
+    "KST": "2026-10-13T21:00:00+09:00"
+  },
+  "final_close": {
+    "AoE": "2026-10-25T23:59:00-12:00",
+    "UTC": "2026-10-26T11:59:00+00:00",
+    "KST": "2026-10-26T20:59:00+09:00"
+  },
+  "FINAL_UPLOAD_IS_ONE_SHOT": true,
+  "window_run_ranked": false,
+  "ranked_run_after_close": true,
+  "retain_image_until_results": "2026-11-13; intraday publication time unspecified",
+  "final_limits": {
+    "seconds_per_unit": 1800,
+    "whole_run_seconds": 86400
+  },
+  "new_scoring_notice_2026_10_06": "Historical 0.9541 is not asserted to be a current comparable score; no rescoring performed.",
+  "toolkit_version": "2.6.0",
+  "toolkit_commit": "bd01548e34d21fd660d88fd06157078fb25ece4e",
+  "contract_set": "1.1.0",
+  "schema_required": [
+    "schema_version",
+    "interface_version",
+    "competition_id",
+    "team_id",
+    "track",
+    "phase",
+    "category",
+    "image",
+    "image_access",
+    "models",
+    "license",
+    "descriptor_digest"
+  ],
+  "additionalProperties": false,
+  "schema_sha256": "66c97b08ee7b3262d3ecdf471e93fa1a4d2143dd72d173dec3eb0b7c77257904",
+  "fixture_sha256": "183a4e4cb7a9e2b5a677c5913955da764809c9515f7e148434bb8d1c1a49ee62",
+  "published_positive_fixtures": [
+    "analysis_dev.json",
+    "analysis_final.json",
+    "analysis_verification.json",
+    "coding_dev.json",
+    "coding_final.json",
+    "coding_verification.json",
+    "forecasting_dev.json",
+    "forecasting_final.json",
+    "forecasting_verification.json",
+    "simulation_dev.json",
+    "simulation_final.json",
+    "simulation_verification.json"
+  ],
+  "fixture_parser": "PASS",
+  "model_free": "PASS",
+  "seal_available": true,
+  "pack_cli_available": true,
+  "full_participant_parser": "PENDING_LOCAL_ALIAS",
+  "technical_clarification": "Official seal_for_team supplies team_id after hidden key prompt; draft omits team_id/digest instead of inventing identity. Validate known fields before PRE, full parser during local official pack."
+}

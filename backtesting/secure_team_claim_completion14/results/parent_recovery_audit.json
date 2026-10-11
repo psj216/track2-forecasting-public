@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Non-secret final packaging evidence; no upload or submission.",
+  "method": "ACTUAL_REMOTE_GIT_OBJECT_FETCH",
+  "delivery_parent": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "delivery_tree": "e3c71064160053c5641e5b513ee548737ce8978c",
+  "delivery_parent_checkout": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "delivery_parent_clean": true,
+  "parent": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "manual_parent_serialization": false
+}
