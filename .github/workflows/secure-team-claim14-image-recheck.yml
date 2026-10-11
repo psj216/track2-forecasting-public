@@ -1,0 +1,44 @@
+# Executive summary: anonymous immutable-image recheck only; no forecasts or submission.
+name: Secure claim14 image recheck
+on:
+  push:
+    branches: [track2/secure-team-claim-completion-14]
+    paths: [.github/workflows/secure-team-claim14-image-recheck.yml]
+permissions:
+  contents: read
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Anonymous exact digest pull and inspection
+        shell: bash
+        run: |
+          mkdir -p evidence
+          export DOCKER_CONFIG="$(mktemp -d)"
+          python3 - <<'PYCODE'
+          import subprocess,json,time,os
+          from pathlib import Path
+          ref='docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874'
+          digest=ref.split('@')[1]; start=time.time(); attempts=[]
+          for i in range(2):
+              p=subprocess.run(['docker','pull',ref],capture_output=True,text=True,timeout=240)
+              attempts.append({'attempt':i+1,'exit_code':p.returncode,'stdout':p.stdout,'stderr':p.stderr})
+              if p.returncode==0:break
+              if not any(s in p.stderr.lower() for s in ['timeout','temporar','connection reset','tls handshake','429']):break
+          result={'github_sha':os.environ['GITHUB_SHA'],'run_id':os.environ['GITHUB_RUN_ID'],'anonymous':True,'attempts':attempts,'elapsed_seconds':time.time()-start,'pull_success':p.returncode==0,'no_rebuild':True,'no_forecasts':True,'no_submission':True}
+          if p.returncode==0:
+              x=json.loads(subprocess.check_output(['docker','image','inspect',ref],text=True))[0]
+              result.update(image_id=x['Id'],repo_digests=x['RepoDigests'],platform=x['Os']+'/'+x['Architecture'],user=x['Config']['User'],image_size=x['Size'],digest_match=any(v.split('@')[-1]==digest for v in x['RepoDigests']),image_id_match=x['Id']=='sha256:1d6835db45dec0dd419b135441540b9e27e1b1218f37c051f1e13a0c2072eb74')
+              result['identity_pass']=result['digest_match'] and result['image_id_match'] and result['platform']=='linux/amd64'
+          else:result['identity_pass']=False
+          Path('evidence/image-recheck.json').write_text(json.dumps(result,indent=2)+'\n')
+          print(json.dumps({k:v for k,v in result.items() if k!='attempts'}))
+          raise SystemExit(0 if result['identity_pass'] else 1)
+          PYCODE
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: secure-team-claim14-image-${{ github.run_id }}
+          path: evidence/
+          retention-days: 30
