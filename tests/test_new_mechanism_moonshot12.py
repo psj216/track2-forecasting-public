@@ -164,3 +164,28 @@ def test_no_card_loader_in_run_module():
     import backtesting.new_mechanism_moonshot12.run as run
     source=Path(run.__file__).read_text()
     assert "cards.json" not in source and 'read_parquet' in source
+
+
+def test_similarity_control_selection():
+    from backtesting.new_mechanism_moonshot12.historical import selection_indices
+    d=np.arange(12,dtype=float);donors=np.arange(12)
+    assert selection_indices(d,donors,8).tolist()==list(range(8))
+    assert selection_indices(d,donors,8,'REVERSED_SIMILARITY').tolist()==list(range(11,3,-1))
+    assert selection_indices(d,donors,8,'CONSTANT_RECENT').tolist()==list(range(11,3,-1))
+
+
+def test_nulls_have_only_past_donors_and_fixed_seed():
+    from backtesting.new_mechanism_moonshot12.historical import random_indices
+    donors=np.arange(100,700);selected=np.arange(32)
+    for kind in ['RANDOM_ANALOG','TIME_MATCHED_RANDOM','DISTANCE_SHUFFLE']:
+        a=random_indices(len(donors),32,donors,selected,kind,np.random.default_rng(SEED),900)
+        b=random_indices(len(donors),32,donors,selected,kind,np.random.default_rng(SEED),900)
+        np.testing.assert_array_equal(a,b)
+        assert len(a)==32 and len(set(a))==32 and (donors[a]<900).all()
+
+
+def test_K_selection_excludes_evaluation_years():
+    import backtesting.new_mechanism_moonshot12.historical as h
+    source=Path(h.__file__).read_text()
+    assert 'range(2009,2016)' in source
+    assert 'cards.json' not in source and 'MOONSHOT12' not in source

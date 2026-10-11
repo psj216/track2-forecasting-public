@@ -1,0 +1,79 @@
+{
+  "executive_summary": "Future-informed complete historical scenarios; not a forecast result.",
+  "marginal_ratio": 0.6360355646013904,
+  "full_composite": null,
+  "full_status": "NOT_AVAILABLE_ON_CANONICAL_MARGINAL_LEDGER; card outcomes unopened",
+  "years": [
+    {
+      "year": 2016,
+      "origins": 52,
+      "cells": 5720,
+      "ratio": 0.6232806155515047,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2017,
+      "origins": 52,
+      "cells": 5620,
+      "ratio": 0.6619736549304146,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2018,
+      "origins": 52,
+      "cells": 5620,
+      "ratio": 0.6473814806939058,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2019,
+      "origins": 53,
+      "cells": 5730,
+      "ratio": 0.6542567120007278,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2020,
+      "origins": 52,
+      "cells": 5720,
+      "ratio": 0.6055215858364624,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2021,
+      "origins": 52,
+      "cells": 5720,
+      "ratio": 0.6788981653468412,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2022,
+      "origins": 52,
+      "cells": 5720,
+      "ratio": 0.6311436154660868,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2023,
+      "origins": 52,
+      "cells": 5506,
+      "ratio": 0.6340382345335625,
+      "fallback_origins": 0
+    },
+    {
+      "year": 2024,
+      "origins": 50,
+      "cells": 2728,
+      "ratio": 0.4996684217248103,
+      "fallback_origins": 0
+    }
+  ],
+  "origins": 467,
+  "cells": 48084,
+  "fallback_origins": 0,
+  "oracle_scope": "Exact best single joint path plus frozen greedy whole-scenario sets up to8; every repeated draw is one coherent origin.",
+  "optimizer_limitation": "Greedy sets are not a certificate of the global optimum over arbitrary mixtures.",
+  "baseline": "Exact same-cell preserved LOCATION01 V5.1 normalized marginal CRPS",
+  "scorer": "qfbench2_common.scoring.crps.crps_ensemble",
+  "future_informed": true
+}

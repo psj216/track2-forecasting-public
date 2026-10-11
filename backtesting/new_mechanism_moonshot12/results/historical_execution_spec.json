@@ -1,0 +1,16 @@
+{
+  "executive_summary": "Pre-prediction computational clarification, no feature/model/gate alteration. Oracle already open; actual retrieval results not yet computed.",
+  "random_controls": {
+    "replicates": 2000,
+    "score": "shared crps_ensemble fair=False on empirical K-path distribution for BOTH primary and randomized pools. This integrates resampling noise; main1000-draw forecast remains fair=True.",
+    "seed": 31812,
+    "age_buckets_business_days": [
+      1260,
+      2520
+    ],
+    "date_rule": "Donors always from complete already-matured eligible pool. Distance shuffle only permutes already-past eligible fingerprints/ranks.",
+    "reps_chunk": 250
+  },
+  "historical_tests": "K selected only2009\u20132015; evaluation2016\u20132024. No card read.",
+  "bootstrap": "5000 ratio-of-sums blocks origin/year/asset, conditional on frozen retrieval; no refit."
+}

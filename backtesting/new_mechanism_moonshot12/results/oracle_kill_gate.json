@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Fixed threshold applied without redesign.",
+  "passed": true,
+  "marginal": 0.6360355646013904,
+  "marginal_required_max": 0.65,
+  "full_required_max": 0.7,
+  "full_available": false,
+  "card_outcomes_opened": false
+}
