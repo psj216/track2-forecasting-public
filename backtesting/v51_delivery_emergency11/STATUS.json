@@ -1,18 +1,30 @@
 {
-  "state": "PRE_READY",
-  "stage": "PRE publication",
+  "Actions_run_ID": 38124740551,
+  "PRE_SHA": "a592b20223cc6225af70658ec696737f9c1c6d09",
+  "branch": "track2/v51-delivery-emergency-11",
   "completed": [
     "environment",
-    "parent exact checkout",
-    "specification"
+    "PRE remote verification",
+    "branch push workflow",
+    "exact image",
+    "runtime",
+    "schema",
+    "routes",
+    "determinism",
+    "security",
+    "resources",
+    "artifact retrieval",
+    "local tests",
+    "validation package"
   ],
+  "delivery_complete": true,
+  "last_update_UTC": "2026-10-11T08:32:19.707921+00:00",
+  "parent_SHA": "d37c1a922b9dac750309e41e1569851bf7060db2",
   "pending": [
-    "PRE remote verify",
-    "workflow push",
-    "Actions evidence",
-    "tests",
-    "RESULT",
-    "recovery"
+    "RESULT push/verify",
+    "final recovery"
   ],
-  "last_update_UTC": "2026-10-11T08:21:41.287616+00:00"
+  "stage": "RESULT publication",
+  "state": "DELIVERY_COMPLETE",
+  "workflow_trigger_SHA": "66a07d47e4ad5a738f0b3ec613b8f8a4a1c8af5a"
 }

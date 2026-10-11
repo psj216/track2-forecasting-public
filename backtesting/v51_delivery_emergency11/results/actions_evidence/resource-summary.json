@@ -1,0 +1,177 @@
+{
+  "image_size_bytes": 538357294,
+  "limits": {
+    "cpus": 2,
+    "memory": "8g",
+    "official_fallback_timeout_seconds": 1800,
+    "output_parquet_max_bytes": 67108864,
+    "pids_limit": 256,
+    "timeout_seconds_per_container": 600,
+    "tmpfs": "/tmp:rw,nosuid,nodev,size=64m"
+  },
+  "pass": true,
+  "units": [
+    {
+      "exit_code": 0,
+      "mode": "numeric",
+      "output_bytes": 13626,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.0779286799999994
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 16071,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.0608758599999817
+    },
+    {
+      "exit_code": 0,
+      "mode": "numeric",
+      "output_bytes": 13595,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 2.020501617000008
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 12955,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 1.9931122730000084
+    },
+    {
+      "exit_code": 0,
+      "mode": "numeric",
+      "output_bytes": 48571,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.0554567519999978
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 47931,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.0404280630000073
+    },
+    {
+      "exit_code": 0,
+      "mode": "numeric",
+      "output_bytes": 13618,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 1.964565327999992
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 22158,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.069487924000015
+    },
+    {
+      "exit_code": 0,
+      "mode": "numeric",
+      "output_bytes": 11353,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F4-covid-nfp-2020",
+      "wall_seconds": 1.7822180569999944
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 16395,
+      "peak_memory_bytes": null,
+      "repetition": 1,
+      "unit": "t2-F4-covid-nfp-2020",
+      "wall_seconds": 1.8098196379999933
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 16071,
+      "peak_memory_bytes": null,
+      "repetition": 2,
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.079304023999981
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 16071,
+      "peak_memory_bytes": null,
+      "repetition": 3,
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.06404378900001
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 12955,
+      "peak_memory_bytes": null,
+      "repetition": 2,
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 2.0062986289999856
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 12955,
+      "peak_memory_bytes": null,
+      "repetition": 3,
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 1.983859965999983
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 47931,
+      "peak_memory_bytes": null,
+      "repetition": 2,
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.085600618000001
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 47931,
+      "peak_memory_bytes": null,
+      "repetition": 3,
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.109885970999983
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 22158,
+      "peak_memory_bytes": null,
+      "repetition": 2,
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.0669499500000086
+    },
+    {
+      "exit_code": 0,
+      "mode": "text-first-v5.1",
+      "output_bytes": 22158,
+      "peak_memory_bytes": null,
+      "repetition": 3,
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.0557090319999816
+    }
+  ]
+}

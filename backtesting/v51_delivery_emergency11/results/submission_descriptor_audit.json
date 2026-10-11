@@ -1,0 +1,15 @@
+{
+  "current_schema_known_fields_valid": true,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "full_upload_descriptor_validated": false,
+  "immutable_image_reference_validated": true,
+  "missing_required_fields": [
+    "team_id",
+    "descriptor_digest"
+  ],
+  "note": "No verified team alias was available. Deliberately omit identity and self-digest rather than copy example values. This evidence package is not a CodaBench submission ZIP.",
+  "sealed_or_submitted": false,
+  "status": "VALIDATION_ONLY_TEMPLATE_IDENTITY_PENDING",
+  "team_id_invented": false,
+  "team_key_accessed": false
+}

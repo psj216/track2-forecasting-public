@@ -1,0 +1,9 @@
+{
+  "CRC_verified": true,
+  "SHA256": "56a5fe04ac301e0d0b7ac56f569cbd47dda4cde951a80bc939955d835e85a55c",
+  "bytes": 16301,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "member_SHA256_verified": true,
+  "package": "/workspace/scratch/935b41f252e9/em11-private/V51-DELIVERY-EMERGENCY-11-package.zip",
+  "validation_only_not_upload_zip": true
+}

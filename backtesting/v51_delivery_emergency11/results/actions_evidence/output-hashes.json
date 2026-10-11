@@ -1,0 +1,218 @@
+[
+  {
+    "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+    "hashes": {
+      "forecast.parquet": "443c0320d6dacb5064fd368be1768c2bd9e0bb5104a36aeb37a6d3838e83d01a",
+      "forecast_meta.json": "58626f735f4b0cecb93810de505483e6cf5edc2a71ff561e5f4fcde120042007",
+      "forecast_rationale.md": "31c7acb9c01c68ba5e3335e4870482c0d2c696efdaa95065dde65d36c4343a90"
+    },
+    "mode": "numeric",
+    "numeric_array_SHA256": "17e9322d0417281d155bd6f04492b33e72503c2d385fc94576ed0bf6a19e730d",
+    "repetition": 1,
+    "unit": "t2-F1-patient-dropped-2015"
+  },
+  {
+    "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+    "hashes": {
+      "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+      "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+      "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+    "repetition": 1,
+    "unit": "t2-F1-patient-dropped-2015"
+  },
+  {
+    "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+    "hashes": {
+      "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+      "forecast_meta.json": "2e235d866b210f789a7f98f957349391fc8e1881bf85438bfa6b1a39f7c85a2d",
+      "forecast_rationale.md": "11973ea60362a2b98163ee445c2ae96975539c361af9fc2666b5e1f60dbbc4f5"
+    },
+    "mode": "numeric",
+    "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+    "repetition": 1,
+    "unit": "t2-F2-eur-parity-2022"
+  },
+  {
+    "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+    "hashes": {
+      "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+      "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+      "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+    "repetition": 1,
+    "unit": "t2-F2-eur-parity-2022"
+  },
+  {
+    "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+    "hashes": {
+      "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "forecast_meta.json": "10003d392640a2fa8a9a22a533c04eb55be850e31e360901fb207f984a1b29d0",
+      "forecast_rationale.md": "f8edad16dab6115d88e0561b979fa58278900f4e496a458868bc5b1f79f859a6"
+    },
+    "mode": "numeric",
+    "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+    "repetition": 1,
+    "unit": "t2-F3-brexit-joint-2016"
+  },
+  {
+    "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+    "hashes": {
+      "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+      "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+    "repetition": 1,
+    "unit": "t2-F3-brexit-joint-2016"
+  },
+  {
+    "draw_order_SHA256": "9f420d266ee2230a274fb2d4d1454fbfdacfbf2eebd66ca950c93439098bf49d",
+    "hashes": {
+      "forecast.parquet": "abb077b853a0aeed8b62340342392dae52507374d6c7c96fce21753465321fa4",
+      "forecast_meta.json": "42d03c39508d55b2343a1080ab9d59886a82cb8ff46befc8f6b628047035426c",
+      "forecast_rationale.md": "7775aa7f3aafd335fa5dc627fc46a8f914bc6ac1b3646c6f7a92e1c87390f6ab"
+    },
+    "mode": "numeric",
+    "numeric_array_SHA256": "6704500c1c8dc5a2418578b2a05daeafc8cc400cbf1332893ff609ec6ad78daa",
+    "repetition": 1,
+    "unit": "t2-F4-funding-stress-2y-2008"
+  },
+  {
+    "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+    "hashes": {
+      "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+      "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+      "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+    "repetition": 1,
+    "unit": "t2-F4-funding-stress-2y-2008"
+  },
+  {
+    "draw_order_SHA256": "59e97330dabb5d7f46a81cb9e2c776ec2e7a7204a8cd875c5e9762632e83e273",
+    "hashes": {
+      "forecast.parquet": "dc9ff579ce86fb5b3ebea115812ea1a0862bda2502f1d9aff44ec2b186d0d0fd",
+      "forecast_meta.json": "331f0a41d1fc13b17328c46fdb262ef862a9ed56f1ee802b3bb2fd59404e8d5a",
+      "forecast_rationale.md": "c1561daf703f15c9735262a9629a8c672e70eff57d6aa2ab6d7652ae2db16b87"
+    },
+    "mode": "numeric",
+    "numeric_array_SHA256": "580a4d8c92035f328f42b02be38b80bf7a29079dd31b56a24e0aa33794c7d9a7",
+    "repetition": 1,
+    "unit": "t2-F4-covid-nfp-2020"
+  },
+  {
+    "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+    "hashes": {
+      "forecast.parquet": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8",
+      "forecast_meta.json": "801712567bc8c6d02cf2f5afc02f8ead2e34a32fd3e23cbad2b6ce47688e006b",
+      "forecast_rationale.md": "01ecf95bfec4a7d853dea49affd75f24dedeee1f9d520ca4d092686e25e77d17"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "0a169b3a4d76be225548b811aecd7d60bd6e1454b57dfccdf3223b388d530831",
+    "repetition": 1,
+    "unit": "t2-F4-covid-nfp-2020"
+  },
+  {
+    "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+    "hashes": {
+      "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+      "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+      "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+    "repetition": 2,
+    "unit": "t2-F1-patient-dropped-2015"
+  },
+  {
+    "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+    "hashes": {
+      "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+      "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+      "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+    "repetition": 3,
+    "unit": "t2-F1-patient-dropped-2015"
+  },
+  {
+    "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+    "hashes": {
+      "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+      "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+      "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+    "repetition": 2,
+    "unit": "t2-F2-eur-parity-2022"
+  },
+  {
+    "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+    "hashes": {
+      "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+      "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+      "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+    "repetition": 3,
+    "unit": "t2-F2-eur-parity-2022"
+  },
+  {
+    "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+    "hashes": {
+      "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+      "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+    "repetition": 2,
+    "unit": "t2-F3-brexit-joint-2016"
+  },
+  {
+    "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+    "hashes": {
+      "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+      "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+    "repetition": 3,
+    "unit": "t2-F3-brexit-joint-2016"
+  },
+  {
+    "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+    "hashes": {
+      "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+      "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+      "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+    "repetition": 2,
+    "unit": "t2-F4-funding-stress-2y-2008"
+  },
+  {
+    "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+    "hashes": {
+      "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+      "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+      "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+    },
+    "mode": "text-first-v5.1",
+    "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+    "repetition": 3,
+    "unit": "t2-F4-funding-stress-2y-2008"
+  }
+]

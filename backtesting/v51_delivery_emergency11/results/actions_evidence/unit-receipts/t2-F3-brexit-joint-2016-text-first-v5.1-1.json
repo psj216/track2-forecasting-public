@@ -1,0 +1,42 @@
+{
+  "asof": "2016-06-17",
+  "assets": [
+    "GBP",
+    "EUR",
+    "CHF",
+    "JPY"
+  ],
+  "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+  "exit_code": 0,
+  "finite": true,
+  "hashes": {
+    "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+    "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+    "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+  },
+  "horizons": [
+    21,
+    63
+  ],
+  "input_cutoff_pass": true,
+  "mode": "text-first-v5.1",
+  "n_draws": 500,
+  "normalized_meta_SHA256": "544673a5a44ac0e00c851228ad38619d6c6e9314e87e6351c73fc67169e7f1d8",
+  "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+  "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F3-brexit-joint-2016/text-first-v5.1/1",
+  "output_bytes": 47931,
+  "panel_latest_dates": {
+    "g10_fx_daily.parquet": "2016-06-17"
+  },
+  "peak_memory_bytes": null,
+  "peak_memory_note": "not sampled; memory limited to 8GiB",
+  "rationale_present_nonempty": true,
+  "repetition": 1,
+  "schema_pass": true,
+  "shape": [
+    500,
+    8
+  ],
+  "unit": "t2-F3-brexit-joint-2016",
+  "wall_seconds": 2.0404280630000073
+}

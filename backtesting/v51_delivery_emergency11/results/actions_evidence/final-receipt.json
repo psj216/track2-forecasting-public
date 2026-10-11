@@ -1,0 +1,15 @@
+{
+  "GITHUB_SHA": "66a07d47e4ad5a738f0b3ec613b8f8a4a1c8af5a",
+  "completed_runs": 18,
+  "elapsed_seconds": 53.298060457999995,
+  "forecast_code_changed": false,
+  "image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "last_stage": "current contract",
+  "new_score": false,
+  "rebuilt": false,
+  "run_id": "38124740551",
+  "runner_OS": "Linux",
+  "source_SHA": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "submission": false,
+  "verdict": "SAFE_CANDIDATE_READY_EXACT_IMAGE"
+}

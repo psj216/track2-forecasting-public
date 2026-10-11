@@ -1,0 +1,13 @@
+{
+  "RESULT_push_excluded_by_paths_filter": true,
+  "SHA256": "693509b333f7f3087bbdca28260a78ff92b9dd5ec4d172ef506645589be981e2",
+  "default_branch_modified": false,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "no_secrets_no_login_no_publish_no_rebuild": true,
+  "path": ".github/workflows/v51-delivery-emergency11.yml",
+  "permissions": {
+    "contents": "read"
+  },
+  "push_branch": "track2/v51-delivery-emergency-11",
+  "trigger_SHA": "66a07d47e4ad5a738f0b3ec613b8f8a4a1c8af5a"
+}

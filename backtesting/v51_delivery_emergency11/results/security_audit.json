@@ -1,0 +1,9 @@
+{
+  "content_files_scanned": 58,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "hits": [],
+  "inventory_members": 16650,
+  "limitations": "pattern inspection is not a proof against every possible secret encoding",
+  "pass": true,
+  "scope": "full filesystem path inventory; bounded app/work/home/root contents + metadata"
+}

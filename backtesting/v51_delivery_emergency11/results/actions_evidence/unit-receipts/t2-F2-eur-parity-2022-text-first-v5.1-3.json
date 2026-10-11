@@ -1,0 +1,38 @@
+{
+  "asof": "2022-06-30",
+  "assets": [
+    "EUR"
+  ],
+  "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+  "exit_code": 0,
+  "finite": true,
+  "hashes": {
+    "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+    "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+    "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+  },
+  "horizons": [
+    64
+  ],
+  "input_cutoff_pass": true,
+  "mode": "text-first-v5.1",
+  "n_draws": 500,
+  "normalized_meta_SHA256": "fa5e587f32e2c74f278260bfedb066545495d565fd580d3b010d217260b2000e",
+  "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+  "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F2-eur-parity-2022/text-first-v5.1/3",
+  "output_bytes": 12955,
+  "panel_latest_dates": {
+    "g10_fx_daily.parquet": "2022-06-30"
+  },
+  "peak_memory_bytes": null,
+  "peak_memory_note": "not sampled; memory limited to 8GiB",
+  "rationale_present_nonempty": true,
+  "repetition": 3,
+  "schema_pass": true,
+  "shape": [
+    500,
+    1
+  ],
+  "unit": "t2-F2-eur-parity-2022",
+  "wall_seconds": 1.983859965999983
+}

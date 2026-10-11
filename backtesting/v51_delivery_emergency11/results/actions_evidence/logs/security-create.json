@@ -1,0 +1,11 @@
+{
+  "command": [
+    "docker",
+    "create",
+    "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "86fa06e6daaa678bde63e4059872b1c8c80ee7971297391f459dd1d03db25253\n",
+  "wall_seconds": 0.025337613999994346
+}

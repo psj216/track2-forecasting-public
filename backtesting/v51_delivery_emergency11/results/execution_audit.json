@@ -1,0 +1,65 @@
+{
+  "candidate_runs": 18,
+  "delivery_complete": true,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "image_builds": 0,
+  "inherited_immutable_branch_assertion_exclusions": [
+    "tests/test_price_state_information03.py::test_protected_parent_main",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+    "tests/test_new_information_search02.py::test_parent_main_branch"
+  ],
+  "manual_dispatch_attempts": 0,
+  "model_or_feature_changes": false,
+  "operational_incidents": [
+    {
+      "first_error": "API commit timezone encoding mismatch",
+      "repair": "match original +0900 git header; exact original SHA verified; no substitute parent",
+      "stage": "local parent object recovery"
+    },
+    {
+      "first_error": "nonexistent test_parse_limits.py; no tests ran",
+      "first_exit_code": 4,
+      "repair": "discover existing test_limits.py; corrected command 91 passed; no test changes",
+      "stage": "affected test invocation"
+    }
+  ],
+  "pre_SHA": "a592b20223cc6225af70658ec696737f9c1c6d09",
+  "protection": {
+    "all_unchanged": true,
+    "parent_SHA": "d37c1a922b9dac750309e41e1569851bf7060db2",
+    "protected_V51_package_blobs": 129,
+    "protected_parent_blobs": 2571
+  },
+  "scores_computed": 0,
+  "submissions": 0,
+  "test_environment": {
+    "NEWINFO02_PRIVATE_original_hashes_verified": true,
+    "checkout": "/workspace/scratch/935b41f252e9/v51-delivery-emergency11",
+    "common_path": "/workspace/scratch/935b41f252e9/safe09-common242/common",
+    "origin_main_restored": true,
+    "test_deps": "/workspace/scratch/935b41f252e9/repair10-test-deps"
+  },
+  "tests": {
+    "affected": {
+      "exit_code": 0,
+      "passed": 91
+    },
+    "common242": {
+      "exit_code": 0,
+      "passed": 250
+    },
+    "emergency_specific": {
+      "exit_code": 0,
+      "passed": 12
+    },
+    "full": {
+      "deselected": 3,
+      "exit_code": 0,
+      "passed": 951,
+      "skipped": 25,
+      "warnings": 2
+    }
+  },
+  "trigger_SHA": "66a07d47e4ad5a738f0b3ec613b8f8a4a1c8af5a",
+  "validation_artifact_receipt_verified": true
+}

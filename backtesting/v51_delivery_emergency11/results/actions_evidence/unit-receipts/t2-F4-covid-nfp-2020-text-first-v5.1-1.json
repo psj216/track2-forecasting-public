@@ -1,0 +1,38 @@
+{
+  "asof": "2020-03-31",
+  "assets": [
+    "NFP"
+  ],
+  "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+  "exit_code": 0,
+  "finite": true,
+  "hashes": {
+    "forecast.parquet": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8",
+    "forecast_meta.json": "801712567bc8c6d02cf2f5afc02f8ead2e34a32fd3e23cbad2b6ce47688e006b",
+    "forecast_rationale.md": "01ecf95bfec4a7d853dea49affd75f24dedeee1f9d520ca4d092686e25e77d17"
+  },
+  "horizons": [
+    21
+  ],
+  "input_cutoff_pass": true,
+  "mode": "text-first-v5.1",
+  "n_draws": 1000,
+  "normalized_meta_SHA256": "084990d79cdbd4d85145508ee95a4cabff8c32e718709f8588cc6957a1d5904d",
+  "numeric_array_SHA256": "0a169b3a4d76be225548b811aecd7d60bd6e1454b57dfccdf3223b388d530831",
+  "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-covid-nfp-2020/text-first-v5.1/1",
+  "output_bytes": 16395,
+  "panel_latest_dates": {
+    "macro_monthly.parquet": "2020-02-01"
+  },
+  "peak_memory_bytes": null,
+  "peak_memory_note": "not sampled; memory limited to 8GiB",
+  "rationale_present_nonempty": true,
+  "repetition": 1,
+  "schema_pass": true,
+  "shape": [
+    1000,
+    1
+  ],
+  "unit": "t2-F4-covid-nfp-2020",
+  "wall_seconds": 1.8098196379999933
+}

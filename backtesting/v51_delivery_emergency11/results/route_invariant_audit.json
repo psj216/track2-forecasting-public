@@ -1,0 +1,130 @@
+{
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "pass": true,
+  "units": [
+    {
+      "evidence": {
+        "applied": true,
+        "change_names": [
+          "extended_accommodation_removed"
+        ],
+        "confidence": 0.6,
+        "config": "text-first-v5.1",
+        "currentness": "DOCUMENT_DELTA",
+        "directions": {
+          "UST_2Y": 1
+        },
+        "document_pair": [
+          "fomc-statement-2015-01-28",
+          "fomc-statement-2015-03-18"
+        ],
+        "eligible_windows": 598,
+        "event": "policy_tightening",
+        "evidence_excerpt": "In determining how long to maintain this target range, the Committee will assess progress--both realized and expected--toward its objectives of maximum employment and 2 percent inflation.",
+        "evidence_ids": [
+          "fomc-statement-2015-01-28",
+          "fomc-statement-2015-03-18"
+        ],
+        "independent_episodes": 12,
+        "interpretation": "extended_accommodation_removed",
+        "last_world_date": "2015-03-18",
+        "numeric_fallback_exact": false,
+        "previous_excerpt": "Based on its current assessment, the Committee judges that it can be patient in beginning to normalize the stance of monetary policy.",
+        "reason": "historical_scenario_mixture",
+        "sleeve_draws": 36,
+        "sleeve_fraction": 0.072,
+        "tone_shift": 1.0
+      },
+      "expected_active": true,
+      "numeric_text_byte_identical": false,
+      "pass": true,
+      "unit": "t2-F1-patient-dropped-2015"
+    },
+    {
+      "evidence": {
+        "applied": false,
+        "config": "text-first-v5.1",
+        "numeric_fallback_exact": true,
+        "reason": "family_frozen"
+      },
+      "expected_active": false,
+      "numeric_text_byte_identical": true,
+      "pass": true,
+      "unit": "t2-F2-eur-parity-2022"
+    },
+    {
+      "evidence": {
+        "applied": false,
+        "config": "text-first-v5.1",
+        "numeric_fallback_exact": true,
+        "reason": "family_frozen"
+      },
+      "expected_active": false,
+      "numeric_text_byte_identical": true,
+      "pass": true,
+      "unit": "t2-F3-brexit-joint-2016"
+    },
+    {
+      "evidence": {
+        "applied": true,
+        "candidate_count": 1,
+        "confidence": 0.8663200000000001,
+        "config": "text-first-v5.1",
+        "currentness": "CURRENT",
+        "directions": {
+          "UST_2Y": -1
+        },
+        "eligible_windows": 215,
+        "event": "liquidity_stress",
+        "evidence_excerpt": "Asset quality deteriorated a bit further on net, with scattered reports of more severe deterioration and concerns about additional bank failures, especially among community banks that have been stressed by poorly performing construction loans.",
+        "evidence_ids": [
+          "beige_book-2008-09-03"
+        ],
+        "independent_episodes": 6,
+        "interpretation": "current_event",
+        "last_world_date": "2008-09-12",
+        "numeric_fallback_exact": false,
+        "previous_excerpt": "",
+        "reason": "historical_scenario_mixture",
+        "rejected_states": {},
+        "sleeve_draws": 155,
+        "sleeve_fraction": 0.155
+      },
+      "expected_active": true,
+      "numeric_text_byte_identical": false,
+      "pass": true,
+      "unit": "t2-F4-funding-stress-2y-2008"
+    },
+    {
+      "evidence": {
+        "applied": true,
+        "candidate_count": 1,
+        "confidence": 0.77112,
+        "config": "text-first-v5.1",
+        "currentness": "CURRENT",
+        "directions": {
+          "NFP": -1
+        },
+        "eligible_windows": 25,
+        "event": "growth_down",
+        "evidence_excerpt": "EDT Share The coronavirus outbreak has harmed communities and disrupted economic activity in many countries, including the United States.",
+        "evidence_ids": [
+          "fomc_statement_20200315"
+        ],
+        "independent_episodes": 25,
+        "interpretation": "current_event",
+        "last_world_date": "2020-02-01",
+        "numeric_fallback_exact": false,
+        "previous_excerpt": "",
+        "reason": "historical_scenario_mixture",
+        "rejected_states": {},
+        "sleeve_draws": 138,
+        "sleeve_fraction": 0.138
+      },
+      "expected_active": true,
+      "numeric_text_byte_identical": false,
+      "pass": true,
+      "unit": "t2-F4-covid-nfp-2020"
+    }
+  ]
+}

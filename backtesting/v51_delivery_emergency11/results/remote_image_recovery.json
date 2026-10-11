@@ -1,0 +1,20 @@
+{
+  "EXACT_PREPARATION_IMAGE_RECOVERED": true,
+  "anonymous": true,
+  "attempts": [
+    {
+      "command": [
+        "docker",
+        "pull",
+        "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+      ],
+      "exit_code": 0,
+      "failure_category": null,
+      "stderr": "",
+      "stdout": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874: Pulling from jotj216/track2-f4-approved\n774043ccc8cc: Pulling fs layer\n43dcef5051b0: Pulling fs layer\n2e57034c052c: Pulling fs layer\n5483d2d2a330: Pulling fs layer\n48cafc7d5769: Pulling fs layer\n799913042efb: Pulling fs layer\nce82697ff760: Pulling fs layer\n9dc003bf0b1a: Pulling fs layer\n5d01cd50cfb5: Pulling fs layer\n799913042efb: Waiting\nce82697ff760: Waiting\n9dc003bf0b1a: Waiting\n5d01cd50cfb5: Waiting\n48cafc7d5769: Waiting\n5483d2d2a330: Waiting\n43dcef5051b0: Verifying Checksum\n43dcef5051b0: Download complete\n2e57034c052c: Verifying Checksum\n2e57034c052c: Download complete\n774043ccc8cc: Verifying Checksum\n774043ccc8cc: Download complete\n5483d2d2a330: Verifying Checksum\n5483d2d2a330: Download complete\n799913042efb: Download complete\nce82697ff760: Verifying Checksum\nce82697ff760: Download complete\n774043ccc8cc: Pull complete\n9dc003bf0b1a: Verifying Checksum\n9dc003bf0b1a: Download complete\n5d01cd50cfb5: Verifying Checksum\n5d01cd50cfb5: Download complete\n43dcef5051b0: Pull complete\n2e57034c052c: Pull complete\n5483d2d2a330: Pull complete\n48cafc7d5769: Verifying Checksum\n48cafc7d5769: Download complete\n48cafc7d5769: Pull complete\n799913042efb: Pull complete\nce82697ff760: Pull complete\n9dc003bf0b1a: Pull complete\n5d01cd50cfb5: Pull complete\nDigest: sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\nStatus: Downloaded newer image for jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\ndocker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\n",
+      "wall_seconds": 8.133237445000006
+    }
+  ],
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+}

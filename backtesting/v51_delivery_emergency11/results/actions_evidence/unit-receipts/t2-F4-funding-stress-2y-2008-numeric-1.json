@@ -1,0 +1,38 @@
+{
+  "asof": "2008-09-12",
+  "assets": [
+    "UST_2Y"
+  ],
+  "draw_order_SHA256": "9f420d266ee2230a274fb2d4d1454fbfdacfbf2eebd66ca950c93439098bf49d",
+  "exit_code": 0,
+  "finite": true,
+  "hashes": {
+    "forecast.parquet": "abb077b853a0aeed8b62340342392dae52507374d6c7c96fce21753465321fa4",
+    "forecast_meta.json": "42d03c39508d55b2343a1080ab9d59886a82cb8ff46befc8f6b628047035426c",
+    "forecast_rationale.md": "7775aa7f3aafd335fa5dc627fc46a8f914bc6ac1b3646c6f7a92e1c87390f6ab"
+  },
+  "horizons": [
+    63
+  ],
+  "input_cutoff_pass": true,
+  "mode": "numeric",
+  "n_draws": 500,
+  "normalized_meta_SHA256": "1f8f608752ac70ae76c297da8cbb0d47e30069c8fe1fd867cb94fe2a4293392c",
+  "numeric_array_SHA256": "6704500c1c8dc5a2418578b2a05daeafc8cc400cbf1332893ff609ec6ad78daa",
+  "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-funding-stress-2y-2008/numeric/1",
+  "output_bytes": 13618,
+  "panel_latest_dates": {
+    "rates_daily.parquet": "2008-09-12"
+  },
+  "peak_memory_bytes": null,
+  "peak_memory_note": "not sampled; memory limited to 8GiB",
+  "rationale_present_nonempty": true,
+  "repetition": 1,
+  "schema_pass": true,
+  "shape": [
+    500,
+    1
+  ],
+  "unit": "t2-F4-funding-stress-2y-2008",
+  "wall_seconds": 1.964565327999992
+}

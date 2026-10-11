@@ -1,0 +1,125 @@
+{
+  "pass": true,
+  "units": [
+    {
+      "draw_order_identical": true,
+      "hashes": [
+        {
+          "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+          "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+          "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+        },
+        {
+          "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+          "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+          "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+        },
+        {
+          "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+          "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+          "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+        }
+      ],
+      "normalized_meta_identical": true,
+      "numeric_bitwise_identical": true,
+      "numeric_hashes": [
+        "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+        "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+        "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde"
+      ],
+      "parquet_byte_identical": true,
+      "rationale_identical": true,
+      "unit": "t2-F1-patient-dropped-2015"
+    },
+    {
+      "draw_order_identical": true,
+      "hashes": [
+        {
+          "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+          "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+          "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+        },
+        {
+          "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+          "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+          "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+        },
+        {
+          "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+          "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+          "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+        }
+      ],
+      "normalized_meta_identical": true,
+      "numeric_bitwise_identical": true,
+      "numeric_hashes": [
+        "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+        "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+        "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172"
+      ],
+      "parquet_byte_identical": true,
+      "rationale_identical": true,
+      "unit": "t2-F2-eur-parity-2022"
+    },
+    {
+      "draw_order_identical": true,
+      "hashes": [
+        {
+          "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+          "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+          "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+        },
+        {
+          "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+          "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+          "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+        },
+        {
+          "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+          "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+          "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+        }
+      ],
+      "normalized_meta_identical": true,
+      "numeric_bitwise_identical": true,
+      "numeric_hashes": [
+        "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+        "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+        "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b"
+      ],
+      "parquet_byte_identical": true,
+      "rationale_identical": true,
+      "unit": "t2-F3-brexit-joint-2016"
+    },
+    {
+      "draw_order_identical": true,
+      "hashes": [
+        {
+          "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+          "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+          "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+        },
+        {
+          "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+          "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+          "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+        },
+        {
+          "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+          "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+          "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+        }
+      ],
+      "normalized_meta_identical": true,
+      "numeric_bitwise_identical": true,
+      "numeric_hashes": [
+        "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+        "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+        "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce"
+      ],
+      "parquet_byte_identical": true,
+      "rationale_identical": true,
+      "unit": "t2-F4-funding-stress-2y-2008"
+    }
+  ]
+}

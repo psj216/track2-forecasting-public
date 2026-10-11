@@ -1,0 +1,16 @@
+{
+  "category": "api",
+  "competition_id": "agenthon2026-forecasting-dev",
+  "image": {
+    "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+    "registry": "docker.io",
+    "repository": "jotj216/track2-f4-approved"
+  },
+  "image_access": "public",
+  "interface_version": "2.0",
+  "license": "MIT",
+  "models": [],
+  "phase": "dev",
+  "schema_version": "1.1.0",
+  "track": "forecasting"
+}

@@ -1,0 +1,12 @@
+{
+  "command": [
+    "docker",
+    "rm",
+    "-f",
+    "9a5a6c36f07d9a5b6730c4857096362bd0e74e902f543e28787b5d14d8c8b8b5"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "9a5a6c36f07d9a5b6730c4857096362bd0e74e902f543e28787b5d14d8c8b8b5\n",
+  "wall_seconds": 0.015546718999999598
+}

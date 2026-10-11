@@ -1,0 +1,707 @@
+{
+  "all_five_passed": true,
+  "executive_summary": "Exact-image delivery validation evidence; no new forecasting model, score or submission.",
+  "runs": [
+    {
+      "asof": "2015-03-18",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "443c0320d6dacb5064fd368be1768c2bd9e0bb5104a36aeb37a6d3838e83d01a",
+        "forecast_meta.json": "58626f735f4b0cecb93810de505483e6cf5edc2a71ff561e5f4fcde120042007",
+        "forecast_rationale.md": "31c7acb9c01c68ba5e3335e4870482c0d2c696efdaa95065dde65d36c4343a90"
+      },
+      "horizons": [
+        129
+      ],
+      "input_cutoff_pass": true,
+      "mode": "numeric",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "91531dd3f5ecba5f57e35b5d9b1e09b4e0cbc43fcdf9daf5db0e4028435d6e42",
+      "numeric_array_SHA256": "17e9322d0417281d155bd6f04492b33e72503c2d385fc94576ed0bf6a19e730d",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F1-patient-dropped-2015/numeric/1",
+      "output_bytes": 13626,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2015-03-18"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.0779286799999994
+    },
+    {
+      "asof": "2015-03-18",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+        "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+      },
+      "horizons": [
+        129
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "04a93186da154a50d165acd5853335844e5838dab1ad5525ca5e3f0d6e630c74",
+      "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F1-patient-dropped-2015/text-first-v5.1/1",
+      "output_bytes": 16071,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2015-03-18"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.0608758599999817
+    },
+    {
+      "asof": "2022-06-30",
+      "assets": [
+        "EUR"
+      ],
+      "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "forecast_meta.json": "2e235d866b210f789a7f98f957349391fc8e1881bf85438bfa6b1a39f7c85a2d",
+        "forecast_rationale.md": "11973ea60362a2b98163ee445c2ae96975539c361af9fc2666b5e1f60dbbc4f5"
+      },
+      "horizons": [
+        64
+      ],
+      "input_cutoff_pass": true,
+      "mode": "numeric",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "77f67dcd4505c3a8186e5fcb1c295c0dc1a1555dd2ad1883177eec3ebcdff783",
+      "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F2-eur-parity-2022/numeric/1",
+      "output_bytes": 13595,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2022-06-30"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 2.020501617000008
+    },
+    {
+      "asof": "2022-06-30",
+      "assets": [
+        "EUR"
+      ],
+      "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+        "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+      },
+      "horizons": [
+        64
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "fa5e587f32e2c74f278260bfedb066545495d565fd580d3b010d217260b2000e",
+      "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F2-eur-parity-2022/text-first-v5.1/1",
+      "output_bytes": 12955,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2022-06-30"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 1.9931122730000084
+    },
+    {
+      "asof": "2016-06-17",
+      "assets": [
+        "GBP",
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "forecast_meta.json": "10003d392640a2fa8a9a22a533c04eb55be850e31e360901fb207f984a1b29d0",
+        "forecast_rationale.md": "f8edad16dab6115d88e0561b979fa58278900f4e496a458868bc5b1f79f859a6"
+      },
+      "horizons": [
+        21,
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "numeric",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "fa3e3be45bd3b6725441b78c077dd7204a7264853d16cc85d85698e66c2072ea",
+      "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F3-brexit-joint-2016/numeric/1",
+      "output_bytes": 48571,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2016-06-17"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        8
+      ],
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.0554567519999978
+    },
+    {
+      "asof": "2016-06-17",
+      "assets": [
+        "GBP",
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+        "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+      },
+      "horizons": [
+        21,
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "544673a5a44ac0e00c851228ad38619d6c6e9314e87e6351c73fc67169e7f1d8",
+      "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F3-brexit-joint-2016/text-first-v5.1/1",
+      "output_bytes": 47931,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2016-06-17"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        8
+      ],
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.0404280630000073
+    },
+    {
+      "asof": "2008-09-12",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "9f420d266ee2230a274fb2d4d1454fbfdacfbf2eebd66ca950c93439098bf49d",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "abb077b853a0aeed8b62340342392dae52507374d6c7c96fce21753465321fa4",
+        "forecast_meta.json": "42d03c39508d55b2343a1080ab9d59886a82cb8ff46befc8f6b628047035426c",
+        "forecast_rationale.md": "7775aa7f3aafd335fa5dc627fc46a8f914bc6ac1b3646c6f7a92e1c87390f6ab"
+      },
+      "horizons": [
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "numeric",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "1f8f608752ac70ae76c297da8cbb0d47e30069c8fe1fd867cb94fe2a4293392c",
+      "numeric_array_SHA256": "6704500c1c8dc5a2418578b2a05daeafc8cc400cbf1332893ff609ec6ad78daa",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-funding-stress-2y-2008/numeric/1",
+      "output_bytes": 13618,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2008-09-12"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 1.964565327999992
+    },
+    {
+      "asof": "2008-09-12",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+        "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+      },
+      "horizons": [
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 1000,
+      "normalized_meta_SHA256": "b8014877e63d141a0d61a0711cbef138e2f7e0e421aef5f162614b0b033a26d3",
+      "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-funding-stress-2y-2008/text-first-v5.1/1",
+      "output_bytes": 22158,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2008-09-12"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        1000,
+        1
+      ],
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.069487924000015
+    },
+    {
+      "asof": "2020-03-31",
+      "assets": [
+        "NFP"
+      ],
+      "draw_order_SHA256": "59e97330dabb5d7f46a81cb9e2c776ec2e7a7204a8cd875c5e9762632e83e273",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "dc9ff579ce86fb5b3ebea115812ea1a0862bda2502f1d9aff44ec2b186d0d0fd",
+        "forecast_meta.json": "331f0a41d1fc13b17328c46fdb262ef862a9ed56f1ee802b3bb2fd59404e8d5a",
+        "forecast_rationale.md": "c1561daf703f15c9735262a9629a8c672e70eff57d6aa2ab6d7652ae2db16b87"
+      },
+      "horizons": [
+        21
+      ],
+      "input_cutoff_pass": true,
+      "mode": "numeric",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "d98e75f127d4ce904b1ce391a5fd15c2d5a7d0fd9fa38a95221460db9210c24a",
+      "numeric_array_SHA256": "580a4d8c92035f328f42b02be38b80bf7a29079dd31b56a24e0aa33794c7d9a7",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-covid-nfp-2020/numeric/1",
+      "output_bytes": 11353,
+      "panel_latest_dates": {
+        "macro_monthly.parquet": "2020-02-01"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F4-covid-nfp-2020",
+      "wall_seconds": 1.7822180569999944
+    },
+    {
+      "asof": "2020-03-31",
+      "assets": [
+        "NFP"
+      ],
+      "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8",
+        "forecast_meta.json": "801712567bc8c6d02cf2f5afc02f8ead2e34a32fd3e23cbad2b6ce47688e006b",
+        "forecast_rationale.md": "01ecf95bfec4a7d853dea49affd75f24dedeee1f9d520ca4d092686e25e77d17"
+      },
+      "horizons": [
+        21
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 1000,
+      "normalized_meta_SHA256": "084990d79cdbd4d85145508ee95a4cabff8c32e718709f8588cc6957a1d5904d",
+      "numeric_array_SHA256": "0a169b3a4d76be225548b811aecd7d60bd6e1454b57dfccdf3223b388d530831",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-covid-nfp-2020/text-first-v5.1/1",
+      "output_bytes": 16395,
+      "panel_latest_dates": {
+        "macro_monthly.parquet": "2020-02-01"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 1,
+      "schema_pass": true,
+      "shape": [
+        1000,
+        1
+      ],
+      "unit": "t2-F4-covid-nfp-2020",
+      "wall_seconds": 1.8098196379999933
+    },
+    {
+      "asof": "2015-03-18",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+        "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+      },
+      "horizons": [
+        129
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "04a93186da154a50d165acd5853335844e5838dab1ad5525ca5e3f0d6e630c74",
+      "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F1-patient-dropped-2015/text-first-v5.1/2",
+      "output_bytes": 16071,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2015-03-18"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 2,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.079304023999981
+    },
+    {
+      "asof": "2015-03-18",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+        "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+      },
+      "horizons": [
+        129
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "04a93186da154a50d165acd5853335844e5838dab1ad5525ca5e3f0d6e630c74",
+      "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F1-patient-dropped-2015/text-first-v5.1/3",
+      "output_bytes": 16071,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2015-03-18"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 3,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F1-patient-dropped-2015",
+      "wall_seconds": 2.06404378900001
+    },
+    {
+      "asof": "2022-06-30",
+      "assets": [
+        "EUR"
+      ],
+      "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+        "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+      },
+      "horizons": [
+        64
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "fa5e587f32e2c74f278260bfedb066545495d565fd580d3b010d217260b2000e",
+      "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F2-eur-parity-2022/text-first-v5.1/2",
+      "output_bytes": 12955,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2022-06-30"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 2,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 2.0062986289999856
+    },
+    {
+      "asof": "2022-06-30",
+      "assets": [
+        "EUR"
+      ],
+      "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "forecast_meta.json": "1dce10cd14847700324bb9988ee821690c6ed672556e5ba2dad46f665d96a2b7",
+        "forecast_rationale.md": "d779af50e489d59858acd4a0e5667497b7532dc2ea1a774f65f4d681508b7acc"
+      },
+      "horizons": [
+        64
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "fa5e587f32e2c74f278260bfedb066545495d565fd580d3b010d217260b2000e",
+      "numeric_array_SHA256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F2-eur-parity-2022/text-first-v5.1/3",
+      "output_bytes": 12955,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2022-06-30"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 3,
+      "schema_pass": true,
+      "shape": [
+        500,
+        1
+      ],
+      "unit": "t2-F2-eur-parity-2022",
+      "wall_seconds": 1.983859965999983
+    },
+    {
+      "asof": "2016-06-17",
+      "assets": [
+        "GBP",
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+        "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+      },
+      "horizons": [
+        21,
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "544673a5a44ac0e00c851228ad38619d6c6e9314e87e6351c73fc67169e7f1d8",
+      "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F3-brexit-joint-2016/text-first-v5.1/2",
+      "output_bytes": 47931,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2016-06-17"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 2,
+      "schema_pass": true,
+      "shape": [
+        500,
+        8
+      ],
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.085600618000001
+    },
+    {
+      "asof": "2016-06-17",
+      "assets": [
+        "GBP",
+        "EUR",
+        "CHF",
+        "JPY"
+      ],
+      "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "forecast_meta.json": "e49a4a2598e66307f508e020fbe39bf60108416da7c77481c3e101cb4adba890",
+        "forecast_rationale.md": "b69c83c7759441f9286dfaeda781d0d5dc4c6e6cff14019212ae36686b6b15ab"
+      },
+      "horizons": [
+        21,
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 500,
+      "normalized_meta_SHA256": "544673a5a44ac0e00c851228ad38619d6c6e9314e87e6351c73fc67169e7f1d8",
+      "numeric_array_SHA256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F3-brexit-joint-2016/text-first-v5.1/3",
+      "output_bytes": 47931,
+      "panel_latest_dates": {
+        "g10_fx_daily.parquet": "2016-06-17"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 3,
+      "schema_pass": true,
+      "shape": [
+        500,
+        8
+      ],
+      "unit": "t2-F3-brexit-joint-2016",
+      "wall_seconds": 2.109885970999983
+    },
+    {
+      "asof": "2008-09-12",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+        "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+      },
+      "horizons": [
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 1000,
+      "normalized_meta_SHA256": "b8014877e63d141a0d61a0711cbef138e2f7e0e421aef5f162614b0b033a26d3",
+      "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-funding-stress-2y-2008/text-first-v5.1/2",
+      "output_bytes": 22158,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2008-09-12"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 2,
+      "schema_pass": true,
+      "shape": [
+        1000,
+        1
+      ],
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.0669499500000086
+    },
+    {
+      "asof": "2008-09-12",
+      "assets": [
+        "UST_2Y"
+      ],
+      "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+      "exit_code": 0,
+      "finite": true,
+      "hashes": {
+        "forecast.parquet": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "forecast_meta.json": "9c9a98ecef0a9442e3777eced740fe6c8f67a361f96de6359438a070fd6905f0",
+        "forecast_rationale.md": "a40c740dbb413e942d0bd9d6aff3c7ceff1b235f2e176f32dda5697e382fd771"
+      },
+      "horizons": [
+        63
+      ],
+      "input_cutoff_pass": true,
+      "mode": "text-first-v5.1",
+      "n_draws": 1000,
+      "normalized_meta_SHA256": "b8014877e63d141a0d61a0711cbef138e2f7e0e421aef5f162614b0b033a26d3",
+      "numeric_array_SHA256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+      "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F4-funding-stress-2y-2008/text-first-v5.1/3",
+      "output_bytes": 22158,
+      "panel_latest_dates": {
+        "rates_daily.parquet": "2008-09-12"
+      },
+      "peak_memory_bytes": null,
+      "peak_memory_note": "not sampled; memory limited to 8GiB",
+      "rationale_present_nonempty": true,
+      "repetition": 3,
+      "schema_pass": true,
+      "shape": [
+        1000,
+        1
+      ],
+      "unit": "t2-F4-funding-stress-2y-2008",
+      "wall_seconds": 2.0557090319999816
+    }
+  ],
+  "total_container_forecast_runs": 18
+}

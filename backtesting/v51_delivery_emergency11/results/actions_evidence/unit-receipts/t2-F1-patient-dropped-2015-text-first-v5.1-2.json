@@ -1,0 +1,38 @@
+{
+  "asof": "2015-03-18",
+  "assets": [
+    "UST_2Y"
+  ],
+  "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+  "exit_code": 0,
+  "finite": true,
+  "hashes": {
+    "forecast.parquet": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+    "forecast_meta.json": "5b50909887c58af36bcc5440da12319b073e0f60a1dafaa88b599561b29de734",
+    "forecast_rationale.md": "e5ef1eb772977b780f06684e462896199259e0ae2e327bc347ded2b7507ee6f2"
+  },
+  "horizons": [
+    129
+  ],
+  "input_cutoff_pass": true,
+  "mode": "text-first-v5.1",
+  "n_draws": 500,
+  "normalized_meta_SHA256": "04a93186da154a50d165acd5853335844e5838dab1ad5525ca5e3f0d6e630c74",
+  "numeric_array_SHA256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+  "out": "/home/runner/work/_temp/emergency11-work/outputs/t2-F1-patient-dropped-2015/text-first-v5.1/2",
+  "output_bytes": 16071,
+  "panel_latest_dates": {
+    "rates_daily.parquet": "2015-03-18"
+  },
+  "peak_memory_bytes": null,
+  "peak_memory_note": "not sampled; memory limited to 8GiB",
+  "rationale_present_nonempty": true,
+  "repetition": 2,
+  "schema_pass": true,
+  "shape": [
+    500,
+    1
+  ],
+  "unit": "t2-F1-patient-dropped-2015",
+  "wall_seconds": 2.079304023999981
+}
