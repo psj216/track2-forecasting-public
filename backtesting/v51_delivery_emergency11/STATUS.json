@@ -1,0 +1,18 @@
+{
+  "state": "PRE_READY",
+  "stage": "PRE publication",
+  "completed": [
+    "environment",
+    "parent exact checkout",
+    "specification"
+  ],
+  "pending": [
+    "PRE remote verify",
+    "workflow push",
+    "Actions evidence",
+    "tests",
+    "RESULT",
+    "recovery"
+  ],
+  "last_update_UTC": "2026-10-11T08:21:41.287616+00:00"
+}

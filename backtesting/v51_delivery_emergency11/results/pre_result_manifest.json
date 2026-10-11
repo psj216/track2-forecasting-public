@@ -1,0 +1,7 @@
+{
+  "Docker_results_exist": false,
+  "PRE_RESULT_V51_DELIVERY_EMERGENCY11_SHA": "EXTERNAL_RECEIPT_AFTER_REMOTE_VERIFICATION",
+  "delivery_spec_SHA256": "dae46ae60389753ccf967649a13908ce199760e6bf71a40b61e4cd11308abb9c",
+  "executive_summary": "Bind the remotely verified PRE commit externally after publication, before the workflow is added.",
+  "parent_SHA": "d37c1a922b9dac750309e41e1569851bf7060db2"
+}

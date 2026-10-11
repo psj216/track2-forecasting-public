@@ -1,0 +1,10 @@
+{
+  "checkout": "/workspace/scratch/935b41f252e9/v51-delivery-emergency11",
+  "common": "/workspace/scratch/935b41f252e9/safe09-common242/common",
+  "common_SHA": "dfa92d242908bba4a448218b9c10ae391238d10d",
+  "common_restored_exit_code": 0,
+  "executive_summary": "Restored only genuinely missing prior environment paths. Docker execution is remote only.",
+  "local_Docker_used": false,
+  "parent_tree_SHA": "32b72e07bea2b3ad47372539ada38cd6e73e8fee",
+  "test_deps": "/workspace/scratch/935b41f252e9/repair10-test-deps"
+}

@@ -1,0 +1,111 @@
+{
+  "allowed_verdicts": [
+    "SAFE_CANDIDATE_READY_EXACT_IMAGE",
+    "SAFE_CANDIDATE_READY_REBUILD",
+    "FORECAST_CORE_VALID_CURRENT_CONTRACT_GAP",
+    "SAFE_DELIVERY_BLOCKED_IMAGE_UNAVAILABLE",
+    "SAFE_DELIVERY_BLOCKED_RUNTIME",
+    "SAFE_DELIVERY_BLOCKED_NONDETERMINISM",
+    "SAFE_DELIVERY_BLOCKED_SCHEMA",
+    "SAFE_DELIVERY_BLOCKED_SECURITY",
+    "SAFE_DELIVERY_BLOCKED_RESOURCES",
+    "INCONCLUSIVE"
+  ],
+  "architecture": "linux/amd64",
+  "branch": "track2/v51-delivery-emergency-11",
+  "common_SHA": "dfa92d242908bba4a448218b9c10ae391238d10d",
+  "common_version": "2.4.2",
+  "created_UTC": "2026-10-11T08:21:41.287616+00:00",
+  "current_staged_panels": "/input/panels/",
+  "dependencies": {
+    "jsonschema": "4.23.0",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pyarrow": "18.1.0",
+    "python": "3.13"
+  },
+  "determinism": "numeric arrays bitwise identical; parquet byte equality preferred; compare draw ordering and metadata/rationale",
+  "executive_summary": "Frozen branch-push validation of the exact V5.1 preparation image; no scoring, training, publishing or submission.",
+  "forecast_mode": "text-first-v5.1",
+  "historical_0_9541_artifact_identity_proven": false,
+  "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "max_transient_pull_attempts": 2,
+  "no_image_or_forecasting_source_modification": true,
+  "numeric_route_comparisons": [
+    "t2-F1-patient-dropped-2015",
+    "t2-F2-eur-parity-2022",
+    "t2-F3-brexit-joint-2016",
+    "t2-F4-funding-stress-2y-2008",
+    "t2-F4-covid-nfp-2020"
+  ],
+  "official_contract_ref": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec",
+  "parent_RESULT_SHA": "d37c1a922b9dac750309e41e1569851bf7060db2",
+  "permissions": {
+    "contents": "read"
+  },
+  "pull_retry": "at most 2; only transient first failure",
+  "rationale_missing_policy": "core valid + missing non-scored rationale => CURRENT_CONTRACT_SIDECAR_GAP",
+  "raw_fixture_panels": "/input",
+  "ready_requires": [
+    "exact pull",
+    "linux/amd64",
+    "five runtimes",
+    "schema",
+    "routes",
+    "bitwise numeric determinism",
+    "security",
+    "resources",
+    "no candidate code change"
+  ],
+  "rebuild_allowed": false,
+  "rebuild_allowed_only_after_proven_exact_pull_unavailability": true,
+  "representatives": [
+    "t2-F1-patient-dropped-2015",
+    "t2-F2-eur-parity-2022",
+    "t2-F3-brexit-joint-2016",
+    "t2-F4-funding-stress-2y-2008"
+  ],
+  "required_repetitions": 3,
+  "resource_limits": {
+    "cpus": 2,
+    "memory": "8g",
+    "official_fallback_timeout_seconds": 1800,
+    "output_parquet_max_bytes": 67108864,
+    "pids_limit": 256,
+    "timeout_seconds_per_container": 600,
+    "tmpfs": "/tmp:rw,nosuid,nodev,size=64m"
+  },
+  "restrictions": [
+    "network none",
+    "read-only inputs",
+    "read-only root",
+    "tmpfs /tmp",
+    "writable /output only",
+    "non-root"
+  ],
+  "runner": "ubuntu-latest",
+  "schema_gates": [
+    "forecast.parquet",
+    "forecast_meta.json",
+    "forecast_rationale.md",
+    "complete assets/horizons/draw Cartesian grid",
+    "finite values",
+    "exact asof",
+    "cutoff safe",
+    "exit zero"
+  ],
+  "schema_validation": "official common2.4.2 forecast.schema.json plus repository grid/limits/cutoff utilities; no score invocation",
+  "scores_allowed": false,
+  "security_scope": "metadata, full filesystem path inventory and bounded app/config content scan; no credential bytes uploaded",
+  "source_SHA": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "source_identity_check": "container /opt package hashes against exact source checkout; pinned dependency receipt",
+  "submission_allowed": false,
+  "trigger": "push only to exact branch; workflow/runner/spec paths only to avoid result-push repeat",
+  "units": [
+    "t2-F1-patient-dropped-2015",
+    "t2-F2-eur-parity-2022",
+    "t2-F3-brexit-joint-2016",
+    "t2-F4-funding-stress-2y-2008",
+    "t2-F4-covid-nfp-2020"
+  ]
+}
