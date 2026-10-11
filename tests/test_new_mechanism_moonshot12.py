@@ -189,3 +189,21 @@ def test_K_selection_excludes_evaluation_years():
     source=Path(h.__file__).read_text()
     assert 'range(2009,2016)' in source
     assert 'cards.json' not in source and 'MOONSHOT12' not in source
+
+
+def test_private_outcomes_cannot_be_saved_inside_repository(monkeypatch):
+    from backtesting.new_mechanism_moonshot12.run import private
+    monkeypatch.setenv('MOONSHOT12_PRIVATE',str(ROOT/'forbidden-private'))
+    with pytest.raises(AssertionError):private()
+
+
+def test_tied_range_state_is_deterministic():
+    dates=pd.bdate_range('1998-01-01',periods=400)
+    series={'UST_2Y':pd.Series(np.ones(len(dates)),index=dates)}
+    states,_=fingerprint(series,{'UST_2Y':'level'},dates[-10:])
+    np.testing.assert_array_equal(states['UST_2Y:range126'],np.full(10,.5))
+
+
+def test_ancestor_files_preserved():
+    changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()
+    assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)

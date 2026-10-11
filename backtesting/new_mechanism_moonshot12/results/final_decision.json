@@ -1,0 +1,20 @@
+{
+  "executive_summary": "Frozen nearest-path mechanism failed the historical moonshot gate; card outcomes remain unopened.",
+  "NEW_MECHANISM_MOONSHOT12_RESULT": "ANALOG_NOT_PREDICTIVE",
+  "ZERO_POINT_FIVE_CLASS_SIGNAL": false,
+  "oracle_gate_passed": true,
+  "historical_gate_passed": false,
+  "oracle_marginal": 0.6360355646013904,
+  "historical_ratio": 1.040966085508083,
+  "equal_year_ratio": 1.032292672997382,
+  "selected_K": 64,
+  "no_posthoc_redesign": true,
+  "card_outcomes_opened": false,
+  "no_submission": true,
+  "independent_OOS": false,
+  "official_score_reestimated": false,
+  "biggest_failure": "The compact state fingerprint cannot reproduce hindsight path selection strongly enough; nearest-path distribution worsens the preserved V5.1 baseline.",
+  "mechanism": "Hindsight coherent scenario selection generates library headroom. Actual PIT similarity retrieval does not generate a moonshot forecast gain.",
+  "NEXT": "V51-FINAL-SAFE-SUBMISSION-13",
+  "next_axis_executed": false
+}

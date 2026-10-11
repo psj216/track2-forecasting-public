@@ -1,0 +1,59 @@
+{
+  "executive_summary": "Same complete-path eligible pools, no future donors; exact empirical population endpoint for cheap stochastic nulls.",
+  "seed": 31812,
+  "controls": {
+    "RANDOM_ANALOG": {
+      "reps": 2000,
+      "mean": 1.0212339776071355,
+      "quantiles": [
+        1.0181069752968737,
+        1.0186340687323854,
+        1.0211624692279058,
+        1.0238546963100543,
+        1.0246004998171652
+      ],
+      "primary_population_ratio": 1.0405025687243838,
+      "MC_p": 1.0,
+      "scoring": "Same K empirical-measure CRPS fair=False on primary and null; separate actual1000-draw primary score fair=True."
+    },
+    "TIME_MATCHED_RANDOM": {
+      "reps": 2000,
+      "mean": 1.0200439185185355,
+      "quantiles": [
+        1.0169186389758365,
+        1.017440780896277,
+        1.020016056757651,
+        1.0226919220432975,
+        1.0231308652783204
+      ],
+      "primary_population_ratio": 1.0405025687243838,
+      "MC_p": 1.0,
+      "scoring": "Same K empirical-measure CRPS fair=False on primary and null; separate actual1000-draw primary score fair=True."
+    },
+    "DISTANCE_SHUFFLE": {
+      "reps": 2000,
+      "mean": 1.021293527965255,
+      "quantiles": [
+        1.0179103083642822,
+        1.0184803424901392,
+        1.021261056150168,
+        1.0241032980566278,
+        1.0246012139001806
+      ],
+      "primary_population_ratio": 1.0405025687243838,
+      "MC_p": 1.0,
+      "scoring": "Same K empirical-measure CRPS fair=False on primary and null; separate actual1000-draw primary score fair=True."
+    },
+    "REVERSED_SIMILARITY": {
+      "ratio": 1.060159907495492,
+      "reps": 1,
+      "deterministic": true
+    },
+    "CONSTANT_RECENT": {
+      "ratio": 1.2047185565530643,
+      "reps": 1,
+      "deterministic": true
+    }
+  },
+  "card_outcomes_opened": false
+}

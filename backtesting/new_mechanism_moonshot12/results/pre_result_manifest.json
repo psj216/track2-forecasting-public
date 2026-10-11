@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Remote oracle and implementation freezes exist; the conditional PRE before cards was correctly never reached.",
+  "parent": "126a7c628aa60783986450037309f5f59603276a",
+  "PRE_ORACLE_SPEC_SHA": "30aa3227f36eaa4148b797a4bab605ae82b1bf71",
+  "HISTORICAL_IMPLEMENTATION_SHA": "23f211bec343d25fbc2b22d85b38e273743fab24",
+  "PRE_RESULT_MOONSHOT12_SHA": null,
+  "status": "CARD_PRE_NOT_REACHED_GATE2_FAILED",
+  "card_outcomes_opened": false,
+  "frozen_files": {
+    "backtesting/new_mechanism_moonshot12/core.py": "ddc88d791724e2b5e1e4d2427cc2127aca97a270b2d84fc2967be84eeab84500",
+    "backtesting/new_mechanism_moonshot12/run.py": "5c6ac4899b030e915a593ef8c88b65abd4bbc800db607fbeac6db3838f59a990",
+    "backtesting/new_mechanism_moonshot12/results/experiment_spec.json": "f751a995ef1d7029e5d30386f0d7eaaf8b0ece3ebf6541b3a90f9d87235dc0e5",
+    "backtesting/new_mechanism_moonshot12/historical.py": "36aa361cbd01c466977726a25dada35264cc5fd4f851f4eae1e9651209416fc5",
+    "backtesting/new_mechanism_moonshot12/results/historical_execution_spec.json": "c168a3d52ea179eae4755738b9c02df2dcad7e35772273b43e8d84efee78b860"
+  },
+  "remote_verified": true
+}

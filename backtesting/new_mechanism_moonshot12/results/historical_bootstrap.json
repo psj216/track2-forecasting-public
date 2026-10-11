@@ -1,0 +1,33 @@
+{
+  "executive_summary": "Whole origin/year/asset blocks; historical research remains exposed.",
+  "seed": 31812,
+  "blocks": {
+    "origin": {
+      "reps": 5000,
+      "blocks": 467,
+      "CI95": [
+        1.0316692474269773,
+        1.050590183641466
+      ],
+      "conditional_on_frozen_retrieval": true
+    },
+    "year": {
+      "reps": 5000,
+      "blocks": 9,
+      "CI95": [
+        1.0046187107748383,
+        1.0730022049224033
+      ],
+      "conditional_on_frozen_retrieval": true
+    },
+    "asset": {
+      "reps": 5000,
+      "blocks": 22,
+      "CI95": [
+        1.0184700655073762,
+        1.0590783035240199
+      ],
+      "conditional_on_frozen_retrieval": true
+    }
+  }
+}

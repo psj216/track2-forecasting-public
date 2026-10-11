@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Reuse original level/return and past-scale utilities. No new PCA state branch.",
+  "utilities": {
+    "qfbench2_track_forecasting/v12/data_parity.py": "14fa2c3f3fa7bdb51277ceba453aa155c49f292bc3f0f87b40c634700c3b2bc6",
+    "qfbench2_track_forecasting/thesis01/scaling.py": "3de95356a75a2e157628566a48f59a762a6ee6e82926bfdc75340572d6de1175"
+  },
+  "excluded_existing_PCA": {
+    "file": "qfbench2_track_forecasting/v12/latent_state.py",
+    "reason": "fit_factors accepts future-target y/mask as decoder data, not a standalone PIT prefix-market-state utility. Not used; primary remains frozen."
+  },
+  "current_candidate_code_frozen": true
+}

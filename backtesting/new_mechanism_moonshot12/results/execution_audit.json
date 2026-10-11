@@ -1,0 +1,143 @@
+{
+  "executive_summary": "Frozen path oracle, historical retrieval, all required historical controls and block inference completed; conditional card stage blocked honestly.",
+  "parent": "126a7c628aa60783986450037309f5f59603276a",
+  "oracle_PRE": "30aa3227f36eaa4148b797a4bab605ae82b1bf71",
+  "historical_freeze": "23f211bec343d25fbc2b22d85b38e273743fab24",
+  "tests": {
+    "research": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "tests/test_new_mechanism_moonshot12.py"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/new-mechanism-moonshot12",
+      "exit_code": 0,
+      "seconds": 2.33,
+      "summary": "30 passed in 0.61s"
+    },
+    "affected": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "tests/test_location01_card_transfer_no_refit.py",
+        "tests/test_location01_cross_market_self_exclusion.py",
+        "tests/test_location01_draw_geometry_preserved.py",
+        "tests/test_location01_f1_component_recompute.py",
+        "tests/test_location01_future_mutation.py",
+        "tests/test_location01_inner_cv_no_outer_leakage.py",
+        "tests/test_location01_integration.py",
+        "tests/test_location01_lag_safe.py",
+        "tests/test_location01_level_semantics.py",
+        "tests/test_location01_negative_controls.py",
+        "tests/test_location01_no_future_feature.py",
+        "tests/test_location01_oracle_target.py",
+        "tests/test_location01_purge.py",
+        "tests/test_location01_return_semantics.py",
+        "tests/test_location01_same_seed.py",
+        "tests/test_location01_v51_shift_only.py",
+        "tests/test_location01r_geometry_guard.py",
+        "tests/test_thesis01_future_mutation.py",
+        "tests/test_thesis01_lag_safe.py",
+        "tests/test_thesis01_leave_one_asset_out.py",
+        "tests/test_thesis01_level_semantics.py",
+        "tests/test_thesis01_negative_control.py",
+        "tests/test_thesis01_no_future_leakage.py",
+        "tests/test_thesis01_return_semantics.py",
+        "tests/test_thesis01_same_seed.py",
+        "tests/test_thesis01_unit_invariance.py",
+        "tests/test_thesis01_v51_shift_only.py",
+        "tests/test_ceiling01_baseline_exact_reproduction.py",
+        "tests/test_ceiling01_deterministic.py",
+        "tests/test_ceiling01_family_partition.py",
+        "tests/test_ceiling01_horizon_partition.py",
+        "tests/test_ceiling01_joint_preserves_marginals.py",
+        "tests/test_ceiling01_joint_rank_permutation.py",
+        "tests/test_ceiling01_location_preserves_spread.py",
+        "tests/test_ceiling01_no_predictive_model.py",
+        "tests/test_ceiling01_scale_preserves_median.py",
+        "tests/test_ceiling01_scorer_reproduction.py",
+        "tests/test_ceiling01_single_cell_no_joint_assumption.py",
+        "tests/test_ceiling01_tail_constraints.py",
+        "tests/test_ceiling01_zero_loss_component.py"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/new-mechanism-moonshot12",
+      "exit_code": 0,
+      "seconds": 17.38,
+      "summary": "56 passed in 15.66s"
+    },
+    "full": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "tests",
+        "--deselect=tests/test_price_state_information03.py::test_protected_parent_main",
+        "--deselect=tests/test_price_state_information03.py::test_pre_and_input_preservation",
+        "--deselect=tests/test_new_information_search02.py::test_parent_main_branch"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/new-mechanism-moonshot12",
+      "exit_code": 0,
+      "seconds": 61.15,
+      "summary": "981 passed, 25 skipped, 3 deselected, 2 warnings in 59.01s"
+    },
+    "common": {
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pytest",
+        "-o",
+        "addopts=",
+        "-q",
+        "common"
+      ],
+      "cwd": "/workspace/scratch/935b41f252e9/safe09-common242",
+      "exit_code": 0,
+      "seconds": 1.72,
+      "summary": "250 passed in 1.28s"
+    }
+  },
+  "card_outcomes_opened": false,
+  "hidden_development_labels_used": false,
+  "scientific_redesign": false,
+  "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "safe_V51_unchanged": true,
+  "safe_delivery_artifacts_unchanged": true,
+  "operational_notes": [
+    "The scratch .venv interpreter target was absent; reused already-restored explicit host dependencies and common source path. No package installation or historical source repair.",
+    "Host Python3.12 audit only. Safe V5.1 container Python3.13/common2.4.2 remains untouched. Common CRPS source hash matches the canonical scorer byte-for-byte."
+  ],
+  "completed_controls": {
+    "RANDOM_ANALOG": 2000,
+    "TIME_MATCHED_RANDOM": 2000,
+    "DISTANCE_SHUFFLE": 2000,
+    "REVERSED_SIMILARITY": 1,
+    "CONSTANT_RECENT": 1
+  },
+  "bootstrap_reps": 5000,
+  "historical_OUTCOME_exposure": "RESEARCH_EXPOSED, no independent OOS",
+  "git_RESULT_and_recovery": "Recorded after commit by external final receipt; no self-referential RESULT/archive hash.",
+  "research_numerical_environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pyarrow": "18.1.0",
+    "common_source": "2.4.2 dfa92d242908bba4a448218b9c10ae391238d10d",
+    "safe_image_dependencies_changed": false,
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "jsonschema": "4.23.0"
+  },
+  "operational_failures": 0,
+  "optional_metadata_lookup_note": "One optional distribution-metadata probe lacked the repaired PYTHONPATH; the explicit research environment then resolved all versions. No execution or scientific repair."
+}

@@ -1,0 +1,5 @@
+{
+  "executive_summary": "Correctly not run because historical kill gate failed.",
+  "status": "NOT_RUN_GATE2_FAILED",
+  "card_outcomes_opened": false
+}

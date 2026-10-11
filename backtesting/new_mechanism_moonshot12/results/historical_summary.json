@@ -1,0 +1,62 @@
+{
+  "executive_summary": "Untuned nearest joint historical scenarios; 2016\u20132024 held forward of K selection.",
+  "selected_K": 64,
+  "ratio": 1.040966085508083,
+  "equal_origin_ratio": 1.0347487314600359,
+  "equal_year_ratio": 1.032292672997382,
+  "asset_balanced_ratio": 1.0363518521498987,
+  "horizon_balanced_ratio": 1.040268391397904,
+  "median_origin_ratio": 1.036102253639658,
+  "fraction_origins_improved": 0.3511777301927195,
+  "origins": 467,
+  "cells": 48084,
+  "assets": 22,
+  "fallback_origins": 0,
+  "improved_years": 5,
+  "years": [
+    {
+      "year": 2016,
+      "ratio": 0.9809106423568951
+    },
+    {
+      "year": 2017,
+      "ratio": 0.9980216522233452
+    },
+    {
+      "year": 2018,
+      "ratio": 1.0904704083957275
+    },
+    {
+      "year": 2019,
+      "ratio": 1.1171756442303382
+    },
+    {
+      "year": 2020,
+      "ratio": 0.9915552221897598
+    },
+    {
+      "year": 2021,
+      "ratio": 1.0721885038483705
+    },
+    {
+      "year": 2022,
+      "ratio": 1.0626558373451322
+    },
+    {
+      "year": 2023,
+      "ratio": 0.9951071447078559
+    },
+    {
+      "year": 2024,
+      "ratio": 0.9825490016790133
+    }
+  ],
+  "max_year_gross_share": 0.15044773958937802,
+  "max_asset_gross_share": 0.07878433412465158,
+  "origin_upper95": 1.050590183641466,
+  "random_p": 1.0,
+  "population_ratio": 1.0405025687243838,
+  "card_outcomes_opened": false,
+  "independent_OOS": false,
+  "gate2_passed": false
+}
