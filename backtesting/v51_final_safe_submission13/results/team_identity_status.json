@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "identity": "REQUIRED",
+  "secret": "REQUIRED",
+  "candidate_private_configuration_count": 0,
+  "mode600_key_file_count": 0,
+  "team_number_inferred_from_memory": false,
+  "Team_Key_read": false,
+  "Team_Key_requested_in_chat": false,
+  "team_id_derived": false
+}

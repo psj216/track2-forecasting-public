@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "status": "NOT_RUN",
+  "reason": "TEAM_SECRET_INPUT_REQUIRED / SAFE_LONG_WORK_STOP",
+  "passed": null,
+  "ZIP_created": false,
+  "members": [],
+  "archive_SHA256": null,
+  "CRC_verified": null,
+  "DEV_PACKAGE_READY": false
+}

@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "status": "NOT_RUN",
+  "reason": "TEAM_SECRET_INPUT_REQUIRED / SAFE_LONG_WORK_STOP",
+  "passed": null,
+  "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "fresh_anonymous_pull": null,
+  "prior_pull_success_is_not_fresh_recheck": true,
+  "image_changed": false
+}

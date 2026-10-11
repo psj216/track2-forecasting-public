@@ -1,0 +1,40 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "UTC": "2026-10-11T14:28:50.055327+00:00",
+  "stopped": true,
+  "stop_rule": "Same new execution step failed twice; no third attempt",
+  "failed_step": "Exact local Git parent commit serialization/hash restoration",
+  "attempts": 2,
+  "expected_commit": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "observed_commit_hash": "058396297965aed8ee17b48ab1f7e9fd759dc320",
+  "tree_identity_matches": true,
+  "correct_tree": "e3c71064160053c5641e5b513ee548737ce8978c",
+  "all_parent_blob_contents_match": true,
+  "error": "AssertionError on restored commit SHA; tree check passed. Exact raw commit serialization not established.",
+  "last_verified_remote_checkpoint": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "remote_branch": "track2/v51-final-safe-submission-13",
+  "last_completed_stages": [
+    "current official documentation acquisition",
+    "remote parent/branch verification",
+    "static schema/tag/fixture inspection",
+    "safe team configuration metadata audit",
+    "prior delivery evidence read/hash"
+  ],
+  "completed_packaging_stages": [],
+  "tests": {
+    "submission13": "NOT_RUN_STOP",
+    "affected": "NOT_RUN_STOP",
+    "full": "NOT_RUN_STOP",
+    "packaging_toolkit": "NOT_RUN_PYTHON313_UNAVAILABLE"
+  },
+  "prior_validation_tests_not_new_results": true,
+  "actual_submission_attempts_consumed": 0,
+  "image_builds": 0,
+  "forecasts_executed": 0,
+  "scores_calculated": 0,
+  "private_keys_read": 0,
+  "local_working_tree_clean": false,
+  "local_HEAD": "126a7c628aa60783986450037309f5f59603276a",
+  "local_index_tree_matches_parent": true,
+  "public_stop_receipt_commit_is_not_PRE": true
+}

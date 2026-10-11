@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "status": "NOT_RUN",
+  "reason": "TEAM_SECRET_INPUT_REQUIRED / SAFE_LONG_WORK_STOP",
+  "passed": null,
+  "private_descriptor_created": false,
+  "schema_static_verified": true,
+  "parser_executed": false,
+  "reseal_executed": false
+}

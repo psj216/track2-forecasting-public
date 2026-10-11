@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "schema_version": "1.1.0",
+  "interface_version": "2.0",
+  "competition_id": "agenthon2026-forecasting-final",
+  "track": "forecasting",
+  "phase": "final",
+  "category": "api",
+  "models": [],
+  "image": {
+    "registry": "docker.io",
+    "repository": "jotj216/track2-f4-approved",
+    "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+  },
+  "image_access": "public",
+  "license": "MIT",
+  "team_id": "SECURE_DERIVATION_REQUIRED; no descriptor created",
+  "template_origin": "published C5 forecasting_final.json; 1.1.0 model-free semantic change required",
+  "required_members": [
+    "submission.json",
+    "team-claim.json"
+  ],
+  "team_secret_policy": "Hidden local CLI prompt or pre-existing mode600 key file only. Never prompt for key in chat, log it or save it.",
+  "NO_UPLOAD": true,
+  "no_image_rebuild": true,
+  "no_forecast_changes": true,
+  "requires_PRE_before_team_key_use": true,
+  "scope": "Preparation specification only; not a sealed descriptor"
+}

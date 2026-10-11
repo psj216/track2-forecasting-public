@@ -1,0 +1,48 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "tag": "v2.6.0",
+  "annotated_tag_object": "683e70c9c44eca947699a72bea79147a5d4d8c7a",
+  "commit": "bd01548e34d21fd660d88fd06157078fb25ece4e",
+  "CONTRACT_SET_static": "1.1.0",
+  "Python_required": ">=3.13",
+  "host_Python": "3.12.14",
+  "Python313_available": false,
+  "installed_or_executed": false,
+  "candidate_common_unchanged": "2.4.2",
+  "schema_SHA256": "66c97b08ee7b3262d3ecdf471e93fa1a4d2143dd72d173dec3eb0b7c77257904",
+  "fixture_SHA256": "183a4e4cb7a9e2b5a677c5913955da764809c9515f7e148434bb8d1c1a49ee62",
+  "schema_required_keys": [
+    "schema_version",
+    "interface_version",
+    "competition_id",
+    "team_id",
+    "track",
+    "phase",
+    "category",
+    "image",
+    "image_access",
+    "models",
+    "license",
+    "descriptor_digest"
+  ],
+  "additionalProperties": false,
+  "document_version_discrepancy": {
+    "current_root": "v2.6.0",
+    "track2_descriptor_guide": "v2.4.4",
+    "resolution": "v2.6.0 identified by newest root instructions; runtime acceptance NOT_VERIFIED, no installation on Python3.12"
+  },
+  "parser_import": {
+    "status": "NOT_RUN",
+    "reason": "Required Python3.13 unavailable; no patch or requires-python override",
+    "passed": null
+  },
+  "C5_fixture_execution": {
+    "status": "NOT_RUN",
+    "reason": "TEAM_SECRET_INPUT_REQUIRED / SAFE_LONG_WORK_STOP",
+    "passed": null
+  },
+  "seal_function_present_static": false,
+  "pack_cli_present_static": true,
+  "CONTRACT_SET_runtime_import": "NOT_RUN",
+  "CONTRACT_SET_declaration": "common/qfbench2_common/contracts/plan.py at pinned tag"
+}

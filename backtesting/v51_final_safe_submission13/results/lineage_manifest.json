@@ -1,0 +1,12 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "parent_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "parent_tree": "e3c71064160053c5641e5b513ee548737ce8978c",
+  "branch": "track2/v51-final-safe-submission-13",
+  "remote_branch_created_from_exact_parent": true,
+  "main_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "candidate_source_SHA": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "local_tree_verified": "e3c71064160053c5641e5b513ee548737ce8978c",
+  "local_parent_commit_recovery_verified": false,
+  "PRE_SHA": null
+}

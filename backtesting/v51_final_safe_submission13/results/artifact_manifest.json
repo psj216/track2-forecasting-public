@@ -1,0 +1,97 @@
+{
+  "executive_summary": "Sanitized final release preparation evidence; no key, team proof, package or upload.",
+  "files": [
+    {
+      "path": "V51-FINAL-SAFE-SUBMISSION-13-report.md",
+      "SHA256": "55d0fd20504161535c334e66bd40144a8b8a8336891b7d19d73046b49e57abf1",
+      "bytes": 4784
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/STATUS.json",
+      "SHA256": "db66e0f3fabd01e564f55aede8d2b2aab65437a80e004d464e5be922625c9e3e",
+      "bytes": 705
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/codabench_readonly_status.json",
+      "SHA256": "9071f57e05891e3b59a530efe03feb8222cebe06b91da94c31f7b4dd33093c3a",
+      "bytes": 299
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/descriptor_validation.json",
+      "SHA256": "58ff47a2b917ebbb5eb4a228ebabb963107426c41e0f286edf235dd928b8a820",
+      "bytes": 348
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/execution_audit.json",
+      "SHA256": "b8b193d507587bb07a878022649ee74bbba4fe52057286f809ecfca598cb4d59",
+      "bytes": 1725
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/final_decision.json",
+      "SHA256": "6190b243c342f0c17918643ffb310fd2f9ecb8b87fb4760e2c066a3edf24eb90",
+      "bytes": 546
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/final_image_recheck.json",
+      "SHA256": "005c2b39b759a35f6a64ded366860d982e420cee23aae625f3a7ad82b4050de0",
+      "bytes": 461
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/lineage_manifest.json",
+      "SHA256": "7a71f8cec79e49b79422028ce4d716fbfa2c7093176d2ff992a47d864d9e864e",
+      "bytes": 603
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/next_axis_decision.json",
+      "SHA256": "dcc3044f85deabb6b875681866a974ed50787c9bc71bc8c1bed9e2077ddd1fba",
+      "bytes": 644
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/official_contract_audit.json",
+      "SHA256": "60307cbea9c93a1ec7b7f6d4a9d79348dd1a46d1d0e8163091f9a4dcd4f1356f",
+      "bytes": 2399
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/package_integrity.json",
+      "SHA256": "f136d40d55cc7130250c09d3544a6e549fae96b04702e37e5baeca94b8e977d8",
+      "bytes": 340
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/package_security_audit.json",
+      "SHA256": "5d1c1d19f4760888ea7228774f11faf1b02b4f5896cc0b5b3ff40e74e1b2a700",
+      "bytes": 463
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/package_spec.json",
+      "SHA256": "cb4afcb478e3fe414c5203c3bf8f2b1726fc1911a0d492149bbe9fd1b5d4c654",
+      "bytes": 1117
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/packaging_toolkit_manifest.json",
+      "SHA256": "bbe4f9706225ff7cb487361e42e878397a7718a14af8c6d2cb0dcc8bf24594af",
+      "bytes": 1662
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/pre_result_manifest.json",
+      "SHA256": "df2cc85e0f2aa24dd8a73446f89beac28046b862dd6a0f72903d7c28648c3618",
+      "bytes": 359
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/safe_candidate_binding.json",
+      "SHA256": "fb8d0d1a1d2108764311fb643947f3903911df61f506df8c0e1c655ff4cef223",
+      "bytes": 2492
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/team_claim_validation.json",
+      "SHA256": "5269d5bba1f27b91819736db3f258311d82751f3c72d0bf23d76401314494d82",
+      "bytes": 271
+    },
+    {
+      "path": "backtesting/v51_final_safe_submission13/results/team_identity_status.json",
+      "SHA256": "ea896e7523c6b72543bbd92e78c1dc8b5a7b5fb5a3c174f1945505f4e2ae4584",
+      "bytes": 379
+    }
+  ],
+  "private_package_absent": true,
+  "no_secret_or_proof_in_public": true
+}
