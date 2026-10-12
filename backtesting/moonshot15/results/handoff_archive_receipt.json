@@ -1,6 +1,7 @@
 {
   "CRC_PASS": true,
-  "SHA256": "ca0443a417c592645e00551d49324fbf595cfa1b3bdb301920f4b4682072aeeb",
+  "FROZEN_SHA": "b011bd2e84d067de82c5181d41aca55666193688",
+  "SHA256": "5412a753060d8292ba53fdb8e5ecd73571072f47d4435f8e7461261559c75b0d",
   "executive_summary": "Portable five-draft handoff ZIP verified; no actual team claim, secrets or Final material.",
   "file": "MOONSHOT15-local-handoff.zip",
   "member_SHA256_PASS": true,
@@ -12,6 +13,7 @@
     "MOONSHOT15_FROZEN_5SHOT.json",
     "README.md",
     "RECOVERY.md",
+    "REMOTE_FREEZE_RECEIPT.json",
     "VALIDATION_RECEIPT.json",
     "drafts/M15-A-development.draft.json",
     "drafts/M15-B-development.draft.json",
@@ -20,5 +22,5 @@
     "drafts/M15-E-development.draft.json",
     "pack_five.py"
   ],
-  "size_bytes": 15164
+  "size_bytes": 15794
 }

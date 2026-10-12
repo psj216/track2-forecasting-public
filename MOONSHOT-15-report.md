@@ -39,3 +39,5 @@ Use318only if it is your verified website team number. Outputs: M15-A-developmen
 Development closes2026-10-12 23:59AoE, equivalent to2026-10-13 20:59KST; official daily/total caps are5/20. The account remaining allowance was not queried; user supplied five remaining shots. This task consumed0. Keep your user-local V51-final-submission.zip separate and unchanged.
 
 TEAM_KEY_USED_IN_WORK=false; CODABENCH_UPLOADS=0; DEVELOPMENT_ATTEMPTS_CONSUMED=0; V51_FINAL_SAFE_ARTIFACT_UNCHANGED=true. Historical0.9541 is preserved as a reference only; exact uploaded historical artifact identity remains unresolved.
+
+Verified five-candidate FROZEN SHA: `b011bd2e84d067de82c5181d41aca55666193688`. A subsequent completion commit only records delivery status and the handoff receipt; candidate engines, config, prompts and immutable image digests remain those of this freeze.

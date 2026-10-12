@@ -1,0 +1,13 @@
+{
+  "FROZEN_MOONSHOT15_SHA": "b011bd2e84d067de82c5181d41aca55666193688",
+  "PRE_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
+  "V51_unchanged": true,
+  "artifact_manifest_SHA256": "eb32c7e844b53b65de35652a16c18518fd7fa7f3796ac71e10ebe840f95985bf",
+  "executive_summary": "Exact frozen five-candidate commit fetched from GitHub and locally checked clean; all prior scientific/source ancestors verified.",
+  "image_source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "local_tree_clean_at_freeze": true,
+  "main_unchanged": true,
+  "remote_HEAD_verified": true,
+  "remote_branch": "track2/moonshot-15-house-location-5shot",
+  "runtime_parent_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700"
+}
