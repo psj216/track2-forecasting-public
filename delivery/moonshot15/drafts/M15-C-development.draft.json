@@ -8,7 +8,7 @@
   },
   "image_access": "public",
   "interface_version": "2.0",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "models": [
     {
       "access": "api",

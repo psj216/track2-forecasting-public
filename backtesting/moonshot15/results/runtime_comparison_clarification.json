@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Before any Development score, correct a cross-environment preservation test into exact same-runner comparisons; no candidate changes.",
+  "authorized_resume": "2026-10-12 17:32 KST user continue/finish",
+  "first_corrected_resume_run": 38224397410,
+  "evidence": "Same draw order/shape/asof, but numeric array SHA256 differs between separate Actions executions. Difference source remains unproven.",
+  "incorrect_test": "Comparing new runner outputs against prior runner parquet bytes without re-running original V51 under the same conditions.",
+  "corrected_test": "On the SAME runner with identical strict flags, repeat original V51 three times; compare every candidate fallback byte-for-byte to that V51; repeat every active candidate three times and require bitwise arrays, bytes, metadata and rationale.",
+  "cross_runner_hashes": "Retained as descriptive evidence, never hidden or called serialization-only.",
+  "unchanged": [
+    "images",
+    "forecast engine",
+    "source361018c",
+    "prompts",
+    "config",
+    "risk caps",
+    "request counts",
+    "seeds"
+  ],
+  "Development_scores_seen": 0,
+  "no_hidden_label_tuning": true
+}
