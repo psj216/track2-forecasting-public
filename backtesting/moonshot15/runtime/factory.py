@@ -15,6 +15,7 @@ import time
 import tomllib
 import numpy as np
 from backtesting.v51_delivery_emergency11 import runner as gate
+from .command_contract import validate_docker_argv
 ROOT=Path(__file__).resolve().parents[3]
 BASE='docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874'
 WORK=Path(os.environ.get('RUNNER_TEMP','/tmp'))/'m15-factory'
@@ -26,6 +27,7 @@ def save(name,obj):
  EVIDENCE.mkdir(parents=True,exist_ok=True);(EVIDENCE/name).write_text(json.dumps(obj,indent=2,sort_keys=True)+'\n')
 def command(args,name,timeout=180):
  EVIDENCE.joinpath('logs').mkdir(parents=True,exist_ok=True)
+ validate_docker_argv(args)
  t=time.monotonic();p=subprocess.run(args,capture_output=True,text=True,timeout=timeout)
  (EVIDENCE/'logs'/f'{name}.log').write_text(p.stdout+'\n'+p.stderr)
  if p.returncode:raise RuntimeError(f'{name} exit {p.returncode}')

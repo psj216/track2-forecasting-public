@@ -1,6 +1,6 @@
 {
   "Development_attempts_consumed": 0,
-  "HEAD_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "HEAD_SHA": "9645aaa1f4da601dcc9520beb4d8abf71be604fe",
   "branch": "track2/moonshot-15-house-location-5shot",
   "completed": [
     "remote_recovery",
@@ -12,18 +12,34 @@
     "unit_tests_41",
     "affected_tests_89",
     "full_tests_1020",
-    "common_tests_250"
+    "common_tests_250",
+    "image_factory_run_38222477210",
+    "five_immutable_public_images",
+    "five_dev_drafts",
+    "Windows_handoff_implementation",
+    "final_full_tests_1024"
   ],
   "executive_summary": "Scientific freeze prepared, implementation and delivery pending.",
   "pending": [
-    "remote_image_validation",
-    "registry_publication",
-    "descriptors",
-    "handoff",
-    "final_freeze"
+    "strict_contract_corrected_resume",
+    "handoff_bundle",
+    "final_remote_freeze",
+    "private_recovery"
   ],
-  "stage": "ACTIONS_VALIDATION_RUNNING",
+  "stage": "USER_AUTHORIZED_CHECKER_REPAIR",
   "uploads": 0,
   "PRE_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
-  "actions_run_id": 38222477210
+  "actions_run_id": 38222477210,
+  "resume_authorization": "User 2026-10-12 17:32 KST: connection interrupted; continue and finish",
+  "prior_step_failures": [
+    {
+      "run_id": 38223358812,
+      "error": "strict parquet byte mismatch; cause not yet confirmed"
+    },
+    {
+      "run_id": 38223684144,
+      "error": "checker-added dangling -e; Docker exit125"
+    }
+  ],
+  "scientific_engine_unchanged": true
 }
