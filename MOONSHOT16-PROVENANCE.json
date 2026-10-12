@@ -1,0 +1,89 @@
+{
+  "executive_summary": "Authoritative GitHub refs and receipts recovered; local frozen-source checkout failed twice and the requested stop rule applies.",
+  "repository": "psj216/track2-forecasting-public",
+  "branch": "track2/moonshot-16-house-transport-repair",
+  "parent_sha": "361018c14bab3cb7d8da101aa332066644921bac",
+  "main_sha": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "moonshot15_sha": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+  "frozen_tree_sha": "9c7a78e3c23078bbe7f9c50f7eb50d65451869db",
+  "remote_tree_truncated": false,
+  "remote_tree_entries": 3069,
+  "local_source_blob_entries": 2759,
+  "missing_local_blobs_recovered_from_remote": 5,
+  "local_tree_hash_reconstructed": true,
+  "local_frozen_checkout_succeeded": false,
+  "local_runtime_code_changes": [],
+  "safe_identity": {
+    "DELIVERY_REFERENCE_SHA": "a26b2b0b405ad53f87c460a72e02989ca42f8abc",
+    "MAIN_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "Team_Key_used": false,
+    "V51_RUNTIME_PARENT_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+    "actual_uploads": 0,
+    "executive_summary": "Actual remote refs resolved; restored bundle origin was not used as authority.",
+    "historical_09541_artifact_identity": "UNRESOLVED",
+    "local_docker": false,
+    "safe_image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+    "safe_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+  },
+  "previous_forensic": {
+    "remote_file_present": false,
+    "remote_fetch_error": "404 NOT_FOUND",
+    "recovered_local_report": "MOONSHOT15-POSTDEV-FORENSICS.md",
+    "prior_mock_cases": 76,
+    "classification": "REPRODUCIBLE_FALLBACK_RISK",
+    "codabench_root_cause_confirmed": false
+  },
+  "remote_receipts": {
+    "frozen_delivery_blob_sha": "3470b0b24a346dd8df7e5c08774a1d32ec5ae4e2",
+    "image_receipts_blob_sha": "6a28771aa9b6ab75b53c46a4c984127ab8bcf047",
+    "strict_receipt_blob_sha": "63a2a8690c72e3bd5131a99a641f907285e2ce44",
+    "frozen_test_blob_sha": "93339a9f1ec3d498d00c8c6fc5988b87f75bd8c1"
+  },
+  "official_sources": {
+    "readme": {
+      "repository": "Agenthon-2026/track2-forecasting-public",
+      "path": "README.md",
+      "blob_sha": "aa52c579f10529884560579bff62be59f2285aa2"
+    },
+    "house": {
+      "repository": "Agenthon-2026/Agenthon2026-public",
+      "path": "docs/HOUSE-MODEL.md",
+      "blob_sha": "935c97071b2f84a7ea6b2fe403e11ad75bdb461e"
+    },
+    "reference": {
+      "repository": "Agenthon-2026/track2-forecasting-public",
+      "path": "baselines/reasoning_agent.py",
+      "blob_sha": "d0eec4e7c0dca99c65f2e4563a86bee14550fbb5"
+    },
+    "submission": {
+      "repository": "Agenthon-2026/track2-forecasting-public",
+      "path": "SUBMISSION_CLI.md",
+      "blob_sha": "d235b8d4e00ea8878ae99bf28f050b0ed263ddc9"
+    }
+  },
+  "failures": [
+    {
+      "command": "git checkout -b track2/moonshot-16-house-transport-repair 361018c14bab3cb7d8da101aa332066644921bac",
+      "exit_code": 128,
+      "error": "fatal: unable to read tree (361018c14bab3cb7d8da101aa332066644921bac)",
+      "attempt": 1
+    },
+    {
+      "command": "git checkout -b track2/moonshot-16-house-transport-repair 361018c14bab3cb7d8da101aa332066644921bac",
+      "exit_code": 128,
+      "error": "fatal: unable to read tree (361018c14bab3cb7d8da101aa332066644921bac)",
+      "attempt": 2,
+      "after": "Remote blobs and exact frozen tree hash restored"
+    }
+  ],
+  "diagnosis": "In the new shared clone git cat-file -p reports the frozen commit is not a valid object. The donor had reported a commit object, but the new clone does not resolve it. The remote commit exists. No third checkout attempt.",
+  "runtime": {
+    "python_before": "3.12.14",
+    "python_313_installed": "3.13.16",
+    "docker_available": false
+  },
+  "protected_refs_changed": false,
+  "protected_runtime_files_changed": false,
+  "team_key_used": false,
+  "live_house_token_used": false
+}
