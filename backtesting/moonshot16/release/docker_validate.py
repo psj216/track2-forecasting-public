@@ -116,7 +116,12 @@ def main():
         receipt["temporary_registry_manifest_digest"] = None
         run(["docker", "pull", old], timeout=180)
         old_inspect = json.loads(run(["docker", "image", "inspect", old]))[0]
-        assert old in old_inspect["RepoDigests"]
+        # Docker canonicalizes Docker Hub names by dropping the docker.io/ prefix.
+        # Still require the exact repository AND immutable digest, never a tag match.
+        resolved = old_inspect["RepoDigests"]
+        receipt["old_resolved_repo_digests"] = resolved
+        expected_ref = old.removeprefix("docker.io/")
+        assert expected_ref in [ref.removeprefix("docker.io/") for ref in resolved]
         receipt["old_source_label"] = old_inspect["Config"]["Labels"].get(
             "org.opencontainers.image.revision"
         )
