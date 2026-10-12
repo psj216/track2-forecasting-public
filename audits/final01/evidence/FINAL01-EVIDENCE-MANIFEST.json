@@ -1,0 +1,27 @@
+{
+  "executive_summary": "Final audit artifacts and supporting public evidence hashed. Actual ZIP bytes/secret proofs are absent.",
+  "observed_at": "2026-10-12T17:58:56.487262+00:00",
+  "parent_SHA": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+  "files": {
+    "FINAL01-PRE.md": "615a1826f3283ebd0e630b62d5c62b12b32e70b2cf3bf949f6509d8d5db80911",
+    "FINAL01-V51-PROVENANCE.md": "fc78a205e1630c33bf894cca2868b0e9b3bf9600339a4a1d7972b48d37766828",
+    "FINAL01-V51-SAFE-ARTIFACT.md": "018599ccde3537d3ece6394fb20a77d614b82cf79dec590c46201cd4da9e6548",
+    "FINAL01-M16-EVIDENCE.md": "c6435ca4d3c5bf6612ab176a69ded8436654d57e0168025c9854e5a94b407117",
+    "FINAL01-INDEPENDENCE-LEDGER.json": "20a480537f502098db7bdedb45828a110293e8646c2975bbfd676718321ce61c",
+    "FINAL01-QUALITY-FEASIBILITY.md": "811be65f3ab412eec62f58442c553249502ed7cbbb3660ce640327d5a8bb9e8b",
+    "FINAL01-CANDIDATE-DECISION.json": "9b846112ff38b43f00b14a637d77f313155fe0eab113bfbafa1975c155a92c83",
+    "FINAL01-FINAL-READINESS.md": "4dc5f0d41ac18e07d4d3d5d32b9bb586a1982e49115570b59a24dd48d98e2bf5",
+    "FINAL01-REPORT.md": "4db02c893d8a24b79df727e43c22e04352d85c2b57ca533df96834f2cc5467c4",
+    "RECOVERY.md": "1a49a62037ba0b69547b5326fc1d1adb5eddbaf286ca408d9694a9e3f9a8d696",
+    "STATUS.json": "74fdbe85195c5bc76c12d0acc5c190691e94609ed80971b9a11ca4f126827812",
+    "audits/final01/evidence/safe-source-identity.json": "0367073053b7ac71f5bba8607748d674fb5caaeeac9a2f33f2e79b20f80e544e",
+    "audits/final01/evidence/forecast-schema-comparison.json": "ca9fd1d0766cfbea39693ba200acc4a4efd56dc5b7ddf1b345b079d8bc7ed0c8",
+    "audits/final01/evidence/official-notices.json": "45b3a4a69dcace6bc88adde1c42c41a8cacb44ca24421d5c338d58e55114d464",
+    "audits/final01/evidence/current-template-audit.json": "378b031213cb3ce1050372dc3973e6c8fac60976695a1fb73a3ebbd8e3196271",
+    "audits/final01/evidence/remote-recovery.json": "7ace10a4efda404e35fba6ab6e03cf0912121e6d78b948361c8703e2357bb03f",
+    "audits/final01/evidence/runtime-evidence-reuse.json": "0d93774ac67809e40389740c8d699b41a7d71c82e5c36606ddfb19478567de29",
+    "audits/final01/evidence/independence-source-index.json": "b541e9a7cc0bfa1ffaddc9a640e3d0978c263ac78a8593a014742e138baee7e6",
+    "audits/final01/evidence/package-record-status.json": "b83dabf3f6704364c6dc18eca52e68f776bdac024752e92e968fc59a96c58795"
+  },
+  "RESULT_binding": "Commit containing this manifest; remote SHA reported externally."
+}
