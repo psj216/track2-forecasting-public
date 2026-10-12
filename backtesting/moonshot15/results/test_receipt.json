@@ -1,0 +1,30 @@
+{
+  "executive_summary": "All actual scientific/runtime tests passed; immutable branch-only assertions left intact.",
+  "new_unit_tests": 45,
+  "affected_tests": 89,
+  "full_repository": {
+    "passed": 1020,
+    "skipped": 25,
+    "deselected": 5,
+    "failed": 0,
+    "before_handoff_tests_added": true
+  },
+  "common_242": {
+    "passed": 250,
+    "failed": 0
+  },
+  "deselections": [
+    "tests/test_price_state_information03.py::test_protected_parent_main",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+    "tests/test_new_information_search02.py::test_parent_main_branch",
+    "tests/test_new_mechanism_moonshot12.py::test_exact_parent_branch",
+    "tests/test_new_mechanism_moonshot12.py::test_ancestor_files_preserved"
+  ],
+  "deselection_reason": "Existing historical branch/scope assertions are immutable and inapplicable to this new successor. No assertions weakened. Current main and safe V51 content tested separately.",
+  "log_hashes": {
+    "common-tests.log": "7979f0f3665f4b1f187f07f49dd3cf18cc242531a3f542e7d2079358ba8c3956",
+    "unit-tests.log": "8876c9830608f9c64826246c16b2934e04138061819f176caaad11a1cf8ba140",
+    "affected-tests.log": "ff318fd72b5422a7f8e4426a337aec579546473e14a46d2842b3064af2cf6f7b",
+    "full-tests.log": "84901f4e147d116708a922f37a3e2c1585f475b22d646cc8b0f5375dfdba81ba"
+  }
+}

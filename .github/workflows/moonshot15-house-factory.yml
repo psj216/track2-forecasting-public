@@ -27,10 +27,12 @@ jobs:
           PYTHONPATH: ${{ github.workspace }}
         run: timeout 180 python -m pytest -q -o addopts='' tests/test_moonshot15.py tests/test_text_evidence.py tests/test_text_first_v5.py tests/test_text_interpreter_v51.py tests/test_scenario_cli.py tests/test_grid.py tests/test_cutoff.py tests/test_limits.py
       - name: Shared image build and incremental runtime/repeat validation
+        if: ${{ !hashFiles('backtesting/moonshot15/results/strict_image_inputs.json') }}
         env:
           PYTHONPATH: ${{ github.workspace }}
         run: python -m backtesting.moonshot15.runtime.factory validate
       - name: Publish tested unique tags and anonymous digest pulls
+        if: ${{ !hashFiles('backtesting/moonshot15/results/strict_image_inputs.json') }}
         env:
           PYTHONPATH: ${{ github.workspace }}
           DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
@@ -43,6 +45,11 @@ jobs:
           printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$auth" login docker.io -u jotj216 --password-stdin
           unset DOCKERHUB_TOKEN
           M15_DOCKER_AUTH="$auth" M15_DOCKER_ANONYMOUS="$anonymous" python -m backtesting.moonshot15.runtime.factory publish
+      - name: Strict current-contract validation of already-published digests
+        if: ${{ hashFiles('backtesting/moonshot15/results/strict_image_inputs.json') }}
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m backtesting.moonshot15.runtime.contract
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

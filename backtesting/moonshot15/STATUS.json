@@ -1,23 +1,29 @@
 {
   "Development_attempts_consumed": 0,
-  "HEAD_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "HEAD_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
   "branch": "track2/moonshot-15-house-location-5shot",
   "completed": [
     "remote_recovery",
     "contract_audit",
     "prior_mechanism_audit",
-    "5shot_specification"
+    "5shot_specification",
+    "PRE_remote_binding",
+    "implementation",
+    "unit_tests_41",
+    "affected_tests_89",
+    "full_tests_1020",
+    "common_tests_250"
   ],
   "executive_summary": "Scientific freeze prepared, implementation and delivery pending.",
   "pending": [
-    "PRE_remote_binding",
-    "implementation",
-    "tests",
-    "images",
+    "remote_image_validation",
+    "registry_publication",
     "descriptors",
     "handoff",
     "final_freeze"
   ],
-  "stage": "PRE_READY",
-  "uploads": 0
+  "stage": "ACTIONS_VALIDATION_RUNNING",
+  "uploads": 0,
+  "PRE_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
+  "actions_run_id": 38222477210
 }

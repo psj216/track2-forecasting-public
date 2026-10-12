@@ -1,0 +1,100 @@
+{
+  "executive_summary": "Previously published immutable images and fixture hashes, reused without rebuilding.",
+  "images": {
+    "A": {
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "image_id": "sha256:814883d2908e0b547a625b8acd571c7e19610c3a72dc624ebceacec0e92abf2a",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "offline": {
+        "t2-F1-patient-dropped-2015": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "t2-F2-eur-parity-2022": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "t2-F3-brexit-joint-2016": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "t2-F4-funding-stress-2y-2008": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "t2-F4-covid-nfp-2020": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8"
+      },
+      "active": {
+        "t2-F1-patient-dropped-2015": "4ed61a56f7a78413526174a8a0131b957acc22cc7a4b8e8775154778f4a81638",
+        "t2-F2-eur-parity-2022": "7ee1988ea5fa014b8fc954ccc2442e38cf1410c9f9f08f8d5a30a33dfd88eff4",
+        "t2-F3-brexit-joint-2016": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+        "t2-F4-funding-stress-2y-2008": "34410f6d37a10a8d5dff0f22d40395cf617ef65ab8b6d14e2a56ddf2fcadc55e",
+        "t2-F4-covid-nfp-2020": "2f8477fb5aada72be07bdc2e02c8c4bbf7b741de7bf565adb434b0c71c3cf1bd"
+      }
+    },
+    "B": {
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "image_id": "sha256:3664ed2ecf6ae92ed09fb87e9f4384fc517835f77687cee9adcd0124d5dbabdd",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "offline": {
+        "t2-F1-patient-dropped-2015": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "t2-F2-eur-parity-2022": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "t2-F3-brexit-joint-2016": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "t2-F4-funding-stress-2y-2008": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "t2-F4-covid-nfp-2020": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8"
+      },
+      "active": {
+        "t2-F1-patient-dropped-2015": "42b5190d020631c33fe5ab0691a7f81fe1b497ca5f479eddbfa69585517a46d7",
+        "t2-F2-eur-parity-2022": "49ed440480839cf7469712ff43893a111eba746a11d83b9eb879ca133c4b110f",
+        "t2-F3-brexit-joint-2016": "2088686c4f9b229781830c260d797abe5bcb7c909c1b2a14289299bc9f679791",
+        "t2-F4-funding-stress-2y-2008": "eaa32267339a4c3b52bee0e94b76e61869e0985770fd2acd46e76711ff0120ab",
+        "t2-F4-covid-nfp-2020": "d0eab54a64cabc8453d4c8559c9cf6849086b9645b7c265c3857faa889ad1063"
+      }
+    },
+    "C": {
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "image_id": "sha256:f0ab021bbb9abebc7878b275a4488d32afb14dd224b4579490d0bc84eea8c445",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "offline": {
+        "t2-F1-patient-dropped-2015": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "t2-F2-eur-parity-2022": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "t2-F3-brexit-joint-2016": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "t2-F4-funding-stress-2y-2008": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "t2-F4-covid-nfp-2020": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8"
+      },
+      "active": {
+        "t2-F1-patient-dropped-2015": "1e56f533185d3e27be2ff6be5e0e1b3162625ad0ef198e8c9059fe33425495fc",
+        "t2-F2-eur-parity-2022": "a1bb23c7a0e63567298a529cf73c0e970889bb7825e1c7f17a8a49deaf5ad877",
+        "t2-F3-brexit-joint-2016": "4f7bf355654cc22725455d0d718ec8b9c489a6e8e2571998710980780a331250",
+        "t2-F4-funding-stress-2y-2008": "985fd76fad8fce9d352b693d03021136e120c58154ac21b957cc0a04adb9f4cb",
+        "t2-F4-covid-nfp-2020": "69ca1f0f91ef1b10cd0803de333a75d1ccc1e75911a32f72f5943f60ed404fe1"
+      }
+    },
+    "D": {
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "image_id": "sha256:a19f847d3c2ef20e76538e5531dc0d8742fb74d3358f4dd9cf6b7f29953b5a25",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "offline": {
+        "t2-F1-patient-dropped-2015": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "t2-F2-eur-parity-2022": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "t2-F3-brexit-joint-2016": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "t2-F4-funding-stress-2y-2008": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "t2-F4-covid-nfp-2020": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8"
+      },
+      "active": {
+        "t2-F1-patient-dropped-2015": "f26cd426fe957bde7af90a535b4220506a36447a81bc156e33ecf85cbd7f0a32",
+        "t2-F2-eur-parity-2022": "fdbb6bbac3b80cddc106df96f9d3d467a5cb0577798611770fa345dffd030dc4",
+        "t2-F3-brexit-joint-2016": "a5ac1dedf0b85a056fde7b70a79e0e9b609616a30333f1b4acc506c083d5b2f2",
+        "t2-F4-funding-stress-2y-2008": "ba3b5883334e76ae72b89e9511e10c0473d5488850bfab238b8794fa58517632",
+        "t2-F4-covid-nfp-2020": "56b7e319dd958558b178b5afbfd118d93ef016de672682d91d34a7e84c1ecf06"
+      }
+    },
+    "E": {
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "image_id": "sha256:7186ce7f1a01d15f6c3c1b495ca709ee4cd3e765339eac514a79c6398088e7e4",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "offline": {
+        "t2-F1-patient-dropped-2015": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "t2-F2-eur-parity-2022": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "t2-F3-brexit-joint-2016": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "t2-F4-funding-stress-2y-2008": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "t2-F4-covid-nfp-2020": "760d83eff9fd545339c5b5fbbb18bf4125628936d5cd91f14fd63c9ea2df9ab8"
+      },
+      "active": {
+        "t2-F1-patient-dropped-2015": "699208f728becf85e8b4f420207c5e169a72e0c3af0bdbb23b5fa8578cc09ab8",
+        "t2-F2-eur-parity-2022": "559b86ed69761823d16f5f2de4c3e0b8b1772ae6cdc831249b070968363fda8f",
+        "t2-F3-brexit-joint-2016": "20cb0126496aacea2f85d6313111a0e8097ddc4f9eea991ff4941c1287efd9c9",
+        "t2-F4-funding-stress-2y-2008": "e4dcb3f2db2f81a3e08fe25c85c74a6facbd9235938bd8bf18c9c6664e4435a5",
+        "t2-F4-covid-nfp-2020": "9fa824db24e461dc13c98b7b73ecb8cf07ca241323568d04a60c642da39e7ec5"
+      }
+    }
+  }
+}
