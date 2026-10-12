@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Remote scientific PRE verified before implementation/runtime results.",
+  "PRE_RESULT_MOONSHOT15_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
+  "remote_verified": true,
+  "runtime_parent_sha": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "Development_scores_seen": 0,
+  "uploads": 0,
+  "Team_Key_used": false
+}

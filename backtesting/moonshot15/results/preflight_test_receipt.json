@@ -1,0 +1,20 @@
+{
+  "executive_summary": "Strict parser/proxy/cutoff/fallback tests and actual affected paths passed.",
+  "new_unit_tests": {
+    "passed": 41,
+    "failed": 0
+  },
+  "affected_tests": {
+    "passed": 89,
+    "failed": 0,
+    "paths": [
+      "tests/test_text_evidence.py",
+      "tests/test_text_first_v5.py",
+      "tests/test_text_interpreter_v51.py",
+      "tests/test_scenario_cli.py",
+      "tests/test_grid.py",
+      "tests/test_cutoff.py",
+      "tests/test_limits.py"
+    ]
+  }
+}

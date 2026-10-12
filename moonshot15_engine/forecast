@@ -1,0 +1,4 @@
+#!/bin/sh
+# ## Executive summary (read this first)
+# Execute the isolated frozen variant wrapper; inherited V5.1 remains intact.
+exec python3 -m moonshot15_engine.cli "$@"
