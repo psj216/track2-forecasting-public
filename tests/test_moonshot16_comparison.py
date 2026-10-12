@@ -15,9 +15,15 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import pytest
-from test_moonshot16_runtime import ROOT, grant, mock_route as mock_route
+from test_moonshot16_runtime import ROOT, grant
+from test_moonshot16_runtime import mock_route as _mock_route_fixture
 
 from moonshot15_engine import cli
+
+
+@pytest.fixture(scope="module")
+def mock_route(tmp_path_factory):
+    yield from _mock_route_fixture.__wrapped__(tmp_path_factory)
 
 
 def frozen_module(name, source, digest):

@@ -1,0 +1,35 @@
+# ## Executive summary (read this first)
+# Actual Docker validation with synthetic services only. No secrets, registry push or submission.
+name: Moonshot16 Release Docker Validation
+on:
+  push:
+    branches: [track2/moonshot-16-house-transport-repair]
+    paths:
+      - '.github/workflows/moonshot16-release-validation.yml'
+      - 'backtesting/moonshot16/release/**'
+permissions:
+  contents: read
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    strategy:
+      fail-fast: true
+      matrix:
+        variant: [A, B, C, D, E]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: '3.13'
+      - name: Actual Docker build and old/new synthetic runtime comparison
+        run: timeout 510 python backtesting/moonshot16/release/docker_validate.py --variant '${{ matrix.variant }}' --out '${{ runner.temp }}/m16-validation'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: m16-container-${{ matrix.variant }}-${{ github.run_id }}
+          path: ${{ runner.temp }}/m16-validation/container-receipt.json
+          if-no-files-found: error
+          retention-days: 30

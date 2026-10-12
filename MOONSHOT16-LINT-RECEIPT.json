@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Minimal fixture wrapper/import fix; all comparison assertions and production runtime bytes unchanged.",
+  "I001_fixed": true,
+  "F811_fixed": true,
+  "ruff_pass": true,
+  "assertion_AST_identical": true,
+  "production_runtime_hashes_unchanged": true,
+  "test_tools_lint_pass": true
+}

@@ -1,0 +1,26 @@
+{
+  "executive_summary": "Only original hash-verified historical inputs are used. No private value is synthesized.",
+  "python": "3.13.16",
+  "package_tag": "qfbench2-common v2.4.2",
+  "legacy_package_compatibility": {
+    "path": "/workspace/scratch/935b41f252e9/safe09-common242/common",
+    "matched_installed_python_modules": 44,
+    "code_identity_same": true
+  },
+  "NEWINFO02": {
+    "path": "/workspace/scratch/935b41f252e9/em11-private/newinfo02",
+    "frozen_state_manifest_hash_match": true,
+    "source_states_manifest_hash_match": true,
+    "source_count": 4
+  },
+  "PRICE03": {
+    "metadata_path": "/workspace/scratch/935b41f252e9/bias-restored/oldprice/private/protected_parent_hashes.json",
+    "required_parent": "929ca23e0a57a0529cc64d8a14d5a78b791892e6",
+    "parent_hashes_verified": 2315,
+    "parent_hash_mismatch_count": 0,
+    "use_allowed": true
+  },
+  "git_ref_repair": "origin/main fetched read-only; remote main unmodified",
+  "no_private_metadata_fabrication": true,
+  "runtime_changed": false
+}

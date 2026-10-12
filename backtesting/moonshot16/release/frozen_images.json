@@ -1,0 +1,11 @@
+{
+  "executive_summary": "Original published immutable M15 images. Pull only; no overwrite or registry push.",
+  "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "candidates": {
+    "A": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+    "B": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+    "C": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+    "D": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+    "E": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528"
+  }
+}
