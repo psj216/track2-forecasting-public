@@ -1,0 +1,12 @@
+{
+  "moonshot15_engine/Dockerfile": "b04aadd63d8430d4532dfca9a6c3f884336e4226ce90ae513fe8db6d43016117",
+  "moonshot15_engine/__init__.py": "7617447454e16f9af413665854757febc9d8ce91ee0a442506a0a65ad612159f",
+  "moonshot15_engine/cli.py": "6526e42209bd84a24252445866ee494f2496fa9302c39e95e926a4fb2a5bf2d1",
+  "moonshot15_engine/config.json": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+  "moonshot15_engine/context.py": "eb1f43616772d7d95b6c604e46f3b764464d3482c1f135fd574aee0275bad432",
+  "moonshot15_engine/engine.py": "bd30706d8b52fe1e345f21f716a485092064c252f786a0d7d94de49efcd6518e",
+  "moonshot15_engine/entrypoint.py": "0f339b29ed0c43aea36f8b8df7530bfe121f663b1b07f453cf52ccb9667b3736",
+  "moonshot15_engine/forecast": "caa83b0cd9f73a17456fca28f751cd0c7dc76e95c6c2a8726aa52f238223bf80",
+  "moonshot15_engine/official_transport.py": "2a4b89b0be0f520262807335f2602032529487e4308e38d31851f34e6952421d",
+  "moonshot15_engine/prompts.json": "788b318dde51cccf43eea6e77ab1bcd89bd2b47f9b80912f22abc9243014abe8"
+}

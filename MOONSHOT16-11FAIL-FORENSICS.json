@@ -1,0 +1,226 @@
+{
+  "executive_summary": "All original eleven failures reproduce on frozen M15 in identical environments; seven repaired, four blocked historical contracts. No actual M16 regression evidenced by these eleven.",
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "prior_result_SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+  "frozen_M15_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "original_classification_counts": {
+    "GIT_REF_ASSUMPTION": 3,
+    "MISSING_ENVIRONMENT": 4,
+    "HISTORICAL_TEST_EXPECTATION": 2,
+    "LEGACY_PATH_ASSUMPTION": 1,
+    "MISSING_DEPENDENCY": 1
+  },
+  "after_repair": {
+    "passed": 7,
+    "blocked": 4,
+    "actual_M16_regression_confirmed": 0
+  },
+  "comparison_valid": true,
+  "same_test_bytes_same_branch_same_interpreter_same_environment": true,
+  "full_suite_newly_activated_blocked": [
+    "tests/test_price_state_information03.py::test_prediction_hash_preservation",
+    "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+    "tests/test_price_state_information03.py::test_full_ledger_no_subset"
+  ],
+  "newly_activated_comparison": "Same three missing-parent failures reproduced on frozen M15 with identical repaired environment.",
+  "tests": [
+    {
+      "test_identifier": "tests/test_new_information_search02.py::test_parent_main_branch",
+      "classification_original": "GIT_REF_ASSUMPTION",
+      "classification_after_environment_repair": "HISTORICAL_TEST_EXPECTATION",
+      "status": "BLOCKED",
+      "expected_behavior": "protected main/parent and exact historical branch",
+      "observed_original": "def test_parent_main_branch():\n     assert subprocess.run(['git','merge-base','--is-ancestor',PARENT,'HEAD'],cwd=ROOT).returncode==0\n>    assert subprocess.check_output(['git','rev-parse','refs/remotes/origin/main'],cwd=ROOT,text=True).strip()==MAIN\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_new_information_search02.py:13: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:473: in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ninput = None, capture_output = False, timeout = None, check = True\npopenargs = (['git', 'rev-parse', 'refs/remotes/origin/main'],)\nkwargs = {'stdout': -1, 'cwd': PosixPath('/workspace/scratch/2ceb60fb84d7/m16-resume'), 'text': True}\n\n    def run(*popenargs,\n            input=None, capture_output=False, timeout=None, check=False, **kwargs):\n        \"\"\"Run command with arguments and return a CompletedProcess instance.\n    \n        The returned instance will have attributes args, returncode, stdout and\n        stderr. By default, stdout and stderr are not captured, and those attributes\n        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,\n        or pass capture_output=True to capture both.\n    \n        If check is True and the exit code was non-zero, it raises a\n        CalledProcessError. The CalledProcessError object will have the return code\n        in the returncode attribute, and output & stderr attributes if those streams\n        were captured.\n    \n        If timeout (seconds) is given and the process takes too long,\n         a TimeoutExpired exception will be raised.\n    \n        There is an optional argument \"input\", allowing you to\n        pass bytes or a string to the subprocess's stdin.  If you use this argument\n        you may not also use the Popen constructor's \"stdin\" argument, as\n        it will be used internally.\n    \n        By default, all communication is in bytes, and therefore any \"input\" should\n        be bytes, and the stdout and stderr will be bytes. If in text mode, any\n        \"input\" should be a string, and stdout and stderr will be strings decoded\n        according to locale encoding, or by \"encoding\" if set. Text mode is\n        triggered by setting any of text, encoding, errors or universal_newlines.\n    \n        The other arguments are the same as for the Popen constructor.\n        \"\"\"\n        if input is not None:\n            if kwargs.get('stdin') is not None:\n                raise ValueError('stdin and input arguments may not both be used.')\n            kwargs['stdin'] = PIPE\n    \n        if capture_output:\n            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:\n                raise ValueError('stdout and stderr arguments may not be used '\n                                 'with capture_output.')\n            kwargs['stdout'] = PIPE\n            kwargs['stderr'] = PIPE\n    \n        with Popen(*popenargs, **kwargs) as process:\n            try:\n                stdout, stderr = process.communicate(input, timeout=timeout)\n            except TimeoutExpired as exc:\n                process.kill()\n                if _mswindows:\n                    # Windows accumulates the output in a single blocking\n                    # read() call run on child threads, with the timeout\n                    # being done in a join() on those threads.  communicate()\n                    # _after_ kill() is required to collect that and add it\n                    # to the exception.\n                    exc.stdout, exc.stderr = process.communicate()\n                else:\n                    # POSIX _communicate already populated the output so\n                    # far into the TimeoutExpired exception.\n                    process.wait()\n                raise\n            except:  # Including KeyboardInterrupt, communicate handled that.\n                process.kill()\n                # We don't call process.wait() as .__exit__ does that for us.\n                raise\n            retcode = process.poll()\n            if check and retcode:\n>               raise CalledProcessError(retcode, process.args,\n                                         output=stdout, stderr=stderr)\nE               subprocess.CalledProcessError: Command '['git', 'rev-parse', 'refs/remotes/origin/main']' returned non-zero exit status 128.\n\n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:578: CalledProcessError",
+      "observed_after_environment_repair": "def test_parent_main_branch():\n     assert subprocess.run(['git','merge-base','--is-ancestor',PARENT,'HEAD'],cwd=ROOT).returncode==0\n     assert subprocess.check_output(['git','rev-parse','refs/remotes/origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()=='track2/new-information-search-02'\nE    AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-i...ion-search-02'\nE      \nE      - track2/new-information-search-02\nE      + track2/moonshot-16-house-transport-repair\n\ntests/test_new_information_search02.py:14: AssertionError",
+      "required_dependency_environment": "origin/main and exact historical NEWINFO02 branch",
+      "source_file_involved": "tests/test_new_information_search02.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_information_search02.py::test_frozen_hash",
+      "classification_original": "MISSING_ENVIRONMENT",
+      "classification_after_environment_repair": "MISSING_ENVIRONMENT",
+      "status": "PASSED",
+      "expected_behavior": "frozen state SHA equals public manifest",
+      "observed_original": "def test_frozen_hash():\n>    p=Path(os.environ['NEWINFO02_PRIVATE']);d=pd.read_parquet(p/'frozen_spd_direction_state.parquet');m=json.loads((ROOT/'backtesting/new_information_search02/results/frozen_spd_direction_manifest.json').read_text())\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_new_information_search02.py:16: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'NEWINFO02_PRIVATE'\n\n>   ???\nE   KeyError: 'NEWINFO02_PRIVATE'\n\n<frozen os>:717: KeyError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "NEWINFO02_PRIVATE frozen state",
+      "source_file_involved": "tests/test_new_information_search02.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_information_search02.py::test_constructed_source_schema_and_cutoff",
+      "classification_original": "MISSING_ENVIRONMENT",
+      "classification_after_environment_repair": "MISSING_ENVIRONMENT",
+      "status": "PASSED",
+      "expected_behavior": "source schema and cutoff match",
+      "observed_original": "def test_constructed_source_schema_and_cutoff():\n>    p=Path(os.environ['NEWINFO02_PRIVATE']);manifest=json.loads((p/'input_manifest.json').read_text())\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_new_information_search02.py:90: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'NEWINFO02_PRIVATE'\n\n>   ???\nE   KeyError: 'NEWINFO02_PRIVATE'\n\n<frozen os>:717: KeyError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "NEWINFO02_PRIVATE original source states",
+      "source_file_involved": "tests/test_new_information_search02.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_information_search02.py::test_live_source_mutation_does_not_change_earlier_asof_states",
+      "classification_original": "MISSING_ENVIRONMENT",
+      "classification_after_environment_repair": "MISSING_ENVIRONMENT",
+      "status": "PASSED",
+      "expected_behavior": "future source mutation does not affect earlier asof",
+      "observed_original": "def test_live_source_mutation_does_not_change_earlier_asof_states():\n>    p=Path(os.environ['NEWINFO02_PRIVATE']);d=pd.read_parquet(p/'frozen_spd_direction_state.parquet');d=d[pd.to_datetime(d.origin_date)<='2021-12-31']\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_new_information_search02.py:114: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'NEWINFO02_PRIVATE'\n\n>   ???\nE   KeyError: 'NEWINFO02_PRIVATE'\n\n<frozen os>:717: KeyError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "NEWINFO02_PRIVATE original source states",
+      "source_file_involved": "tests/test_new_information_search02.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_mechanism_moonshot12.py::test_exact_parent_branch",
+      "classification_original": "HISTORICAL_TEST_EXPECTATION",
+      "classification_after_environment_repair": "HISTORICAL_TEST_EXPECTATION",
+      "status": "BLOCKED",
+      "expected_behavior": "exact MOONSHOT12 historical branch and parent",
+      "observed_original": "def test_exact_parent_branch():\n        assert subprocess.check_output(['git','rev-parse',PARENT],cwd=ROOT,text=True).strip()==PARENT\n>       assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\nE       AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-m...m-moonshot-12'\nE         \nE         - track2/new-mechanism-moonshot-12\nE         + track2/moonshot-16-house-transport-repair\n\ntests/test_new_mechanism_moonshot12.py:36: AssertionError",
+      "observed_after_environment_repair": "def test_exact_parent_branch():\n        assert subprocess.check_output(['git','rev-parse',PARENT],cwd=ROOT,text=True).strip()==PARENT\n>       assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\nE       AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-m...m-moonshot-12'\nE         \nE         - track2/new-mechanism-moonshot-12\nE         + track2/moonshot-16-house-transport-repair\n\ntests/test_new_mechanism_moonshot12.py:36: AssertionError",
+      "required_dependency_environment": "exact historical MOONSHOT12 branch",
+      "source_file_involved": "tests/test_new_mechanism_moonshot12.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_mechanism_moonshot12.py::test_main_unchanged",
+      "classification_original": "GIT_REF_ASSUMPTION",
+      "classification_after_environment_repair": "GIT_REF_ASSUMPTION",
+      "status": "PASSED",
+      "expected_behavior": "main HEAD unchanged",
+      "observed_original": "def test_main_unchanged():\n>       assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT,text=True).strip()==MAIN\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_new_mechanism_moonshot12.py:40: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:473: in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ninput = None, capture_output = False, timeout = None, check = True\npopenargs = (['git', 'rev-parse', 'origin/main'],)\nkwargs = {'stdout': -1, 'cwd': PosixPath('/workspace/scratch/2ceb60fb84d7/m16-resume'), 'text': True}\n\n    def run(*popenargs,\n            input=None, capture_output=False, timeout=None, check=False, **kwargs):\n        \"\"\"Run command with arguments and return a CompletedProcess instance.\n    \n        The returned instance will have attributes args, returncode, stdout and\n        stderr. By default, stdout and stderr are not captured, and those attributes\n        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,\n        or pass capture_output=True to capture both.\n    \n        If check is True and the exit code was non-zero, it raises a\n        CalledProcessError. The CalledProcessError object will have the return code\n        in the returncode attribute, and output & stderr attributes if those streams\n        were captured.\n    \n        If timeout (seconds) is given and the process takes too long,\n         a TimeoutExpired exception will be raised.\n    \n        There is an optional argument \"input\", allowing you to\n        pass bytes or a string to the subprocess's stdin.  If you use this argument\n        you may not also use the Popen constructor's \"stdin\" argument, as\n        it will be used internally.\n    \n        By default, all communication is in bytes, and therefore any \"input\" should\n        be bytes, and the stdout and stderr will be bytes. If in text mode, any\n        \"input\" should be a string, and stdout and stderr will be strings decoded\n        according to locale encoding, or by \"encoding\" if set. Text mode is\n        triggered by setting any of text, encoding, errors or universal_newlines.\n    \n        The other arguments are the same as for the Popen constructor.\n        \"\"\"\n        if input is not None:\n            if kwargs.get('stdin') is not None:\n                raise ValueError('stdin and input arguments may not both be used.')\n            kwargs['stdin'] = PIPE\n    \n        if capture_output:\n            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:\n                raise ValueError('stdout and stderr arguments may not be used '\n                                 'with capture_output.')\n            kwargs['stdout'] = PIPE\n            kwargs['stderr'] = PIPE\n    \n        with Popen(*popenargs, **kwargs) as process:\n            try:\n                stdout, stderr = process.communicate(input, timeout=timeout)\n            except TimeoutExpired as exc:\n                process.kill()\n                if _mswindows:\n                    # Windows accumulates the output in a single blocking\n                    # read() call run on child threads, with the timeout\n                    # being done in a join() on those threads.  communicate()\n                    # _after_ kill() is required to collect that and add it\n                    # to the exception.\n                    exc.stdout, exc.stderr = process.communicate()\n                else:\n                    # POSIX _communicate already populated the output so\n                    # far into the TimeoutExpired exception.\n                    process.wait()\n                raise\n            except:  # Including KeyboardInterrupt, communicate handled that.\n                process.kill()\n                # We don't call process.wait() as .__exit__ does that for us.\n                raise\n            retcode = process.poll()\n            if check and retcode:\n>               raise CalledProcessError(retcode, process.args,\n                                         output=stdout, stderr=stderr)\nE               subprocess.CalledProcessError: Command '['git', 'rev-parse', 'origin/main']' returned non-zero exit status 128.\n\n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:578: CalledProcessError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "origin/main",
+      "source_file_involved": "tests/test_new_mechanism_moonshot12.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_new_mechanism_moonshot12.py::test_ancestor_files_preserved",
+      "classification_original": "HISTORICAL_TEST_EXPECTATION",
+      "classification_after_environment_repair": "HISTORICAL_TEST_EXPECTATION",
+      "status": "BLOCKED",
+      "expected_behavior": "historical parent-to-head changes restricted to MOONSHOT12 paths",
+      "observed_original": "def test_ancestor_files_preserved():\n        changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()\n>       assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)\nE       assert False\nE        +  where False = all(<generator object test_ancestor_files_preserved.<locals>.<genexpr> at 0x7f06903bd7d0>)\n\ntests/test_new_mechanism_moonshot12.py:209: AssertionError",
+      "observed_after_environment_repair": "def test_ancestor_files_preserved():\n        changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()\n>       assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)\nE       assert False\nE        +  where False = all(<generator object test_ancestor_files_preserved.<locals>.<genexpr> at 0x7fbe7ae8f440>)\n\ntests/test_new_mechanism_moonshot12.py:209: AssertionError",
+      "required_dependency_environment": "only MOONSHOT12 allowed paths changed since historical parent",
+      "source_file_involved": "tests/test_new_mechanism_moonshot12.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_persistent_direction02.py::test_parent_main_protection",
+      "classification_original": "GIT_REF_ASSUMPTION",
+      "classification_after_environment_repair": "GIT_REF_ASSUMPTION",
+      "status": "PASSED",
+      "expected_behavior": "protected main/parent",
+      "observed_original": "def test_parent_main_protection():\n     import subprocess\n>    assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=s.ROOT,text=True).strip()=='e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8'\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_persistent_direction02.py:90: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:473: in check_output\n    return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\ninput = None, capture_output = False, timeout = None, check = True\npopenargs = (['git', 'rev-parse', 'origin/main'],)\nkwargs = {'stdout': -1, 'cwd': PosixPath('/workspace/scratch/2ceb60fb84d7/m16-resume'), 'text': True}\n\n    def run(*popenargs,\n            input=None, capture_output=False, timeout=None, check=False, **kwargs):\n        \"\"\"Run command with arguments and return a CompletedProcess instance.\n    \n        The returned instance will have attributes args, returncode, stdout and\n        stderr. By default, stdout and stderr are not captured, and those attributes\n        will be None. Pass stdout=PIPE and/or stderr=PIPE in order to capture them,\n        or pass capture_output=True to capture both.\n    \n        If check is True and the exit code was non-zero, it raises a\n        CalledProcessError. The CalledProcessError object will have the return code\n        in the returncode attribute, and output & stderr attributes if those streams\n        were captured.\n    \n        If timeout (seconds) is given and the process takes too long,\n         a TimeoutExpired exception will be raised.\n    \n        There is an optional argument \"input\", allowing you to\n        pass bytes or a string to the subprocess's stdin.  If you use this argument\n        you may not also use the Popen constructor's \"stdin\" argument, as\n        it will be used internally.\n    \n        By default, all communication is in bytes, and therefore any \"input\" should\n        be bytes, and the stdout and stderr will be bytes. If in text mode, any\n        \"input\" should be a string, and stdout and stderr will be strings decoded\n        according to locale encoding, or by \"encoding\" if set. Text mode is\n        triggered by setting any of text, encoding, errors or universal_newlines.\n    \n        The other arguments are the same as for the Popen constructor.\n        \"\"\"\n        if input is not None:\n            if kwargs.get('stdin') is not None:\n                raise ValueError('stdin and input arguments may not both be used.')\n            kwargs['stdin'] = PIPE\n    \n        if capture_output:\n            if kwargs.get('stdout') is not None or kwargs.get('stderr') is not None:\n                raise ValueError('stdout and stderr arguments may not be used '\n                                 'with capture_output.')\n            kwargs['stdout'] = PIPE\n            kwargs['stderr'] = PIPE\n    \n        with Popen(*popenargs, **kwargs) as process:\n            try:\n                stdout, stderr = process.communicate(input, timeout=timeout)\n            except TimeoutExpired as exc:\n                process.kill()\n                if _mswindows:\n                    # Windows accumulates the output in a single blocking\n                    # read() call run on child threads, with the timeout\n                    # being done in a join() on those threads.  communicate()\n                    # _after_ kill() is required to collect that and add it\n                    # to the exception.\n                    exc.stdout, exc.stderr = process.communicate()\n                else:\n                    # POSIX _communicate already populated the output so\n                    # far into the TimeoutExpired exception.\n                    process.wait()\n                raise\n            except:  # Including KeyboardInterrupt, communicate handled that.\n                process.kill()\n                # We don't call process.wait() as .__exit__ does that for us.\n                raise\n            retcode = process.poll()\n            if check and retcode:\n>               raise CalledProcessError(retcode, process.args,\n                                         output=stdout, stderr=stderr)\nE               subprocess.CalledProcessError: Command '['git', 'rev-parse', 'origin/main']' returned non-zero exit status 128.\n\n/root/.local/share/uv/python/cpython-3.13.16-linux-x86_64-gnu/lib/python3.13/subprocess.py:578: CalledProcessError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "origin/main",
+      "source_file_involved": "tests/test_persistent_direction02.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_price_state_information03.py::test_protected_parent_main",
+      "classification_original": "MISSING_ENVIRONMENT",
+      "classification_after_environment_repair": "HISTORICAL_TEST_EXPECTATION",
+      "status": "BLOCKED",
+      "expected_behavior": "parent source hashes, main and exact historical PRICE03 branch match",
+      "observed_original": "def test_protected_parent_main():\n>    c.assert_protected();assert subprocess.run(['git','merge-base','--is-ancestor',c.PARENT,'HEAD'],cwd=c.ROOT).returncode==0\n     ^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbacktesting/price_state_information03/core.py:57: in assert_protected\n    hashes=json.loads((private()/'protected_parent_hashes.json').read_text())\n                       ^^^^^^^^^\nbacktesting/price_state_information03/core.py:49: in private\n    def private():return Path(os.environ['PRICE03_PRIVATE'])\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'PRICE03_PRIVATE'\n\n>   ???\nE   KeyError: 'PRICE03_PRIVATE'\n\n<frozen os>:717: KeyError",
+      "observed_after_environment_repair": "def test_protected_parent_main():\n>    c.assert_protected();assert subprocess.run(['git','merge-base','--is-ancestor',c.PARENT,'HEAD'],cwd=c.ROOT).returncode==0\n     ^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_protected():\n     hashes=json.loads((private()/'protected_parent_hashes.json').read_text())\n     assert all(digest(ROOT/f)==h for f,h in hashes.items())\n     assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE    AssertionError\n\nbacktesting/price_state_information03/core.py:60: AssertionError",
+      "required_dependency_environment": "PRICE03_PRIVATE original protected parent metadata and exact historical PRICE03 branch",
+      "source_file_involved": "tests/test_price_state_information03.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_v51_delivery_repair10.py::test_exact_common_import_source",
+      "classification_original": "LEGACY_PATH_ASSUMPTION",
+      "classification_after_environment_repair": "LEGACY_PATH_ASSUMPTION",
+      "status": "PASSED",
+      "expected_behavior": "official common import path and pinned version",
+      "observed_original": "def test_exact_common_import_source():\n        package = Path(qfbench2_common.__file__).resolve()\n        common = Path('/workspace/scratch/935b41f252e9/safe09-common242/common')\n>       assert package.is_relative_to(common)\nE       AssertionError: assert False\nE        +  where False = is_relative_to(PosixPath('/workspace/scratch/935b41f252e9/safe09-common242/common'))\nE        +    where is_relative_to = PosixPath('/workspace/scratch/2ceb60fb84d7/m16-env/lib/python3.13/site-packages/qfbench2_common/__init__.py').is_relative_to\n\ntests/test_v51_delivery_repair10.py:21: AssertionError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "official pinned qfbench2_common under original legacy path",
+      "source_file_involved": "tests/test_v51_delivery_repair10.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    },
+    {
+      "test_identifier": "tests/test_v51_delivery_repair10.py::test_preserved_manual_only_workflow",
+      "classification_original": "MISSING_DEPENDENCY",
+      "classification_after_environment_repair": "MISSING_DEPENDENCY",
+      "status": "PASSED",
+      "expected_behavior": "original manual workflow semantics",
+      "observed_original": "def test_preserved_manual_only_workflow():\n>       import yaml\nE       ModuleNotFoundError: No module named 'yaml'\n\ntests/test_v51_delivery_repair10.py:38: ModuleNotFoundError",
+      "observed_after_environment_repair": null,
+      "required_dependency_environment": "PyYAML",
+      "source_file_involved": "tests/test_v51_delivery_repair10.py",
+      "M16_production_files_implicated": false,
+      "M15_original_same_failure": true,
+      "M15_repaired_same_outcome": true,
+      "evidence": [
+        "backtesting/moonshot16/release_validation_results/AB-original-env.json",
+        "backtesting/moonshot16/release_validation_results/AB-repaired-env.json"
+      ]
+    }
+  ]
+}

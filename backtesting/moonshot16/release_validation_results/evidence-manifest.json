@@ -1,0 +1,20 @@
+{
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "files": {
+    "backtesting/moonshot16/release_validation_results/container-A.json": "7dac078fbdb15976474883296682d173afecddef0b88cf81ac1594031fa1332a",
+    "backtesting/moonshot16/release_validation_results/AB-original-env.json": "6b7a83ddb11f3bf28a1e34c7b09ac131a084e11178508250c5437027a10b7bb5",
+    "backtesting/moonshot16/release_validation_results/runtime-hashes.json": "256b7846a724d824079931ac9ef1aa3c2e9fbb647148ff0a9cd152501bde6e0c",
+    "backtesting/moonshot16/release_validation_results/prior-RECOVERY.md": "7d0eaba636d569d96e200ad0695760bf3fcb9e45f8f3ae62c5b601dcda93bcbc",
+    "backtesting/moonshot16/release_validation_results/container-B.json": "0298026d1cb1a14aac247b651b50605164875ba334f163885f4dcdbc79cbc35e",
+    "backtesting/moonshot16/release_validation_results/full-suite-outcomes.json": "e3bc20e66227349df8e16d94337f2d919a8141d168c0127242a4938414c8622a",
+    "backtesting/moonshot16/release_validation_results/prior-STATUS.json": "20dbcacb98b705d1d1cadab75a28020b74aed33c37425d75a15824901ecf1ff7",
+    "backtesting/moonshot16/release_validation_results/artifact-download-checks.json": "84fb10f06bdd5b555da84773684079f92793b58d7c1fd4099c92d9d89dd45654",
+    "backtesting/moonshot16/release_validation_results/container-C.json": "1f7142967d64bc79af2705a7487ec03482bc2838329225ce6e1a104fa356d335",
+    "backtesting/moonshot16/release_validation_results/AB-repaired-env.json": "7738d2a40ca25a391076bacb19a9ef3ba2256ee4b1877565f741c0ac2aefaf9d",
+    "backtesting/moonshot16/release_validation_results/container-E.json": "e5d4bcc74d9de9d6d8518be8277363d26fb83b016dd8bceacdaa59fc894b8bed",
+    "backtesting/moonshot16/release_validation_results/AB-additional-blocked.json": "1053686c8c8a3cced19c905ce090f791d0885b70fd2a9e25e7cf3094f6d241ff",
+    "backtesting/moonshot16/release_validation_results/container-D.json": "5a7681b409f72a87ff7cbf90d6bfa5e2ae357f5d06a81e912d798baba21e50c0"
+  },
+  "scope": "Sanitized per-test outcomes and original stack traces; no private forecast data or credentials published."
+}

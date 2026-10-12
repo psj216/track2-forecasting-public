@@ -1,0 +1,601 @@
+{
+  "executive_summary": "No M16-specific runtime regression found in evaluated controls, but global regression gate BLOCKED; seven actual pytest failures retained.",
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "parent_SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+  "validation_source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "M16_new_tests": {
+    "executed": true,
+    "collected": 265,
+    "executed_test_cases": 265,
+    "passed": 265,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0,
+    "SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+    "environment": "repaired_environment",
+    "timestamp": "2026-10-12T16:46:56.557036+00:00",
+    "duration_seconds": 53.989,
+    "failed_tests": [],
+    "skipped_tests": [],
+    "working_tree_overlay": "comparison fixture/import lint fix, committed unchanged at release PRE 2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
+    "test_file_SHA256": "41a339fab05dcd4c3a698335b9f15a9d10b4bada185054a7c1003d5f695f2833",
+    "comparison_tests_passed": 10
+  },
+  "M15_affected_tests": {
+    "executed": true,
+    "collected": 130,
+    "executed_test_cases": 130,
+    "passed": 130,
+    "failed": 0,
+    "skipped": 0,
+    "blocked": 0,
+    "SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+    "environment": "repaired_environment",
+    "timestamp": "2026-10-12T16:51:53.260090+00:00",
+    "duration_seconds": 3.246,
+    "failed_tests": [],
+    "skipped_tests": [],
+    "working_tree_overlay": "same assertion-preserving comparison lint fix; existing affected test bytes unchanged"
+  },
+  "targeted_original": {
+    "M16": {
+      "passed": 0,
+      "failed": 11
+    },
+    "M15": {
+      "passed": 0,
+      "failed": 11
+    },
+    "comparison_valid": true,
+    "environment": "original identical sanitized prerequisites"
+  },
+  "targeted_repaired": {
+    "M16": {
+      "passed": 7,
+      "failed": 4,
+      "blocked": 4
+    },
+    "M15": {
+      "passed": 7,
+      "failed": 4,
+      "blocked": 4
+    },
+    "comparison_valid": true,
+    "environment": "same repaired environment"
+  },
+  "additional_missing_parent_control": {
+    "M16": {
+      "failed": 3,
+      "blocked": 3
+    },
+    "M15": {
+      "failed": 3,
+      "blocked": 3
+    },
+    "comparison_valid": true,
+    "environment": "same repaired environment"
+  },
+  "full_repository": {
+    "executed": true,
+    "collected": 1315,
+    "executed_test_cases": 1292,
+    "passed": 1285,
+    "failed": 7,
+    "skipped": 23,
+    "blocked": 7,
+    "SHA": "2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
+    "environment": "repaired_environment",
+    "timestamp": "2026-10-12T16:52:48.443318+00:00",
+    "duration_seconds": 83.373,
+    "failed_tests": [
+      {
+        "test": "tests/test_new_information_search02.py::test_parent_main_branch",
+        "outcome": "FAIL",
+        "traceback": "def test_parent_main_branch():\n     assert subprocess.run(['git','merge-base','--is-ancestor',PARENT,'HEAD'],cwd=ROOT).returncode==0\n     assert subprocess.check_output(['git','rev-parse','refs/remotes/origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()=='track2/new-information-search-02'\nE    AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-i...ion-search-02'\nE      \nE      - track2/new-information-search-02\nE      + track2/moonshot-16-house-transport-repair\n\ntests/test_new_information_search02.py:14: AssertionError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "HISTORICAL_TEST_EXPECTATION"
+      },
+      {
+        "test": "tests/test_new_mechanism_moonshot12.py::test_exact_parent_branch",
+        "outcome": "FAIL",
+        "traceback": "def test_exact_parent_branch():\n        assert subprocess.check_output(['git','rev-parse',PARENT],cwd=ROOT,text=True).strip()==PARENT\n>       assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\nE       AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-m...m-moonshot-12'\nE         \nE         - track2/new-mechanism-moonshot-12\nE         + track2/moonshot-16-house-transport-repair\n\ntests/test_new_mechanism_moonshot12.py:36: AssertionError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "HISTORICAL_TEST_EXPECTATION"
+      },
+      {
+        "test": "tests/test_new_mechanism_moonshot12.py::test_ancestor_files_preserved",
+        "outcome": "FAIL",
+        "traceback": "def test_ancestor_files_preserved():\n        changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()\n>       assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)\nE       assert False\nE        +  where False = all(<generator object test_ancestor_files_preserved.<locals>.<genexpr> at 0x7fdf59a37780>)\n\ntests/test_new_mechanism_moonshot12.py:209: AssertionError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "HISTORICAL_TEST_EXPECTATION"
+      },
+      {
+        "test": "tests/test_price_state_information03.py::test_protected_parent_main",
+        "outcome": "FAIL",
+        "traceback": "def test_protected_parent_main():\n>    c.assert_protected();assert subprocess.run(['git','merge-base','--is-ancestor',c.PARENT,'HEAD'],cwd=c.ROOT).returncode==0\n     ^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_protected():\n     hashes=json.loads((private()/'protected_parent_hashes.json').read_text())\n     assert all(digest(ROOT/f)==h for f,h in hashes.items())\n     assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE    AssertionError\n\nbacktesting/price_state_information03/core.py:60: AssertionError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "HISTORICAL_TEST_EXPECTATION"
+      },
+      {
+        "test": "tests/test_price_state_information03.py::test_prediction_hash_preservation",
+        "outcome": "FAIL",
+        "traceback": "@pytest.mark.skipif(not (P/'audit_predictions.npz').exists(),reason='new diagnostics not executed before remote PRE')\n    def test_prediction_hash_preservation():\n>    a=np.load(P/'audit_predictions.npz');b=np.load(PP/'scores.npz');i=list(a['names']).index('PRICE_FULL');assert np.array_equal(a['probabilities'][i],b['prob_PRICE_LOGISTIC']);assert np.array_equal(a['losses'][i],b['losses'][list(b['names']).index('PRICE_LOGISTIC')])\n                                            ^^^^^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:62: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nfile = PosixPath('/unavailable/scores.npz'), mmap_mode = None\nallow_pickle = False, fix_imports = True, encoding = 'ASCII'\nmax_header_size = 10000\n\n    @set_module('numpy')\n    def load(file, mmap_mode=None, allow_pickle=False, fix_imports=True,\n             encoding='ASCII', *, max_header_size=format._MAX_HEADER_SIZE):\n        \"\"\"\n        Load arrays or pickled objects from ``.npy``, ``.npz`` or pickled files.\n    \n        .. warning:: Loading files that contain object arrays uses the ``pickle``\n                     module, which is not secure against erroneous or maliciously\n                     constructed data. Consider passing ``allow_pickle=False`` to\n                     load data that is known not to contain object arrays for the\n                     safer handling of untrusted sources.\n    \n        Parameters\n        ----------\n        file : file-like object, string, or pathlib.Path\n            The file to read. File-like objects must support the\n            ``seek()`` and ``read()`` methods and must always\n            be opened in binary mode.  Pickled files require that the\n            file-like object support the ``readline()`` method as well.\n        mmap_mode : {None, 'r+', 'r', 'w+', 'c'}, optional\n            If not None, then memory-map the file, using the given mode (see\n            `numpy.memmap` for a detailed description of the modes).  A\n            memory-mapped array is kept on disk. However, it can be accessed\n            and sliced like any ndarray.  Memory mapping is especially useful\n            for accessing small fragments of large files without reading the\n            entire file into memory.\n        allow_pickle : bool, optional\n            Allow loading pickled object arrays stored in npy files. Reasons for\n            disallowing pickles include security, as loading pickled data can\n            execute arbitrary code. If pickles are disallowed, loading object\n            arrays will fail. Default: False\n    \n            .. versionchanged:: 1.16.3\n                Made default False in response to CVE-2019-6446.\n    \n        fix_imports : bool, optional\n            Only useful when loading Python 2 generated pickled files on Python 3,\n            which includes npy/npz files containing object arrays. If `fix_imports`\n            is True, pickle will try to map the old Python 2 names to the new names\n            used in Python 3.\n        encoding : str, optional\n            What encoding to use when reading Python 2 strings. Only useful when\n            loading Python 2 generated pickled files in Python 3, which includes\n            npy/npz files containing object arrays. Values other than 'latin1',\n            'ASCII', and 'bytes' are not allowed, as they can corrupt numerical\n            data. Default: 'ASCII'\n        max_header_size : int, optional\n            Maximum allowed size of the header.  Large headers may not be safe\n            to load securely and thus require explicitly passing a larger value.\n            See :py:func:`ast.literal_eval()` for details.\n            This option is ignored when `allow_pickle` is passed.  In that case\n            the file is by definition trusted and the limit is unnecessary.\n    \n        Returns\n        -------\n        result : array, tuple, dict, etc.\n            Data stored in the file. For ``.npz`` files, the returned instance\n            of NpzFile class must be closed to avoid leaking file descriptors.\n    \n        Raises\n        ------\n        OSError\n            If the input file does not exist or cannot be read.\n        UnpicklingError\n            If ``allow_pickle=True``, but the file cannot be loaded as a pickle.\n        ValueError\n            The file contains an object array, but ``allow_pickle=False`` given.\n        EOFError\n            When calling ``np.load`` multiple times on the same file handle,\n            if all data has already been read\n    \n        See Also\n        --------\n        save, savez, savez_compressed, loadtxt\n        memmap : Create a memory-map to an array stored in a file on disk.\n        lib.format.open_memmap : Create or load a memory-mapped ``.npy`` file.\n    \n        Notes\n        -----\n        - If the file contains pickle data, then whatever object is stored\n          in the pickle is returned.\n        - If the file is a ``.npy`` file, then a single array is returned.\n        - If the file is a ``.npz`` file, then a dictionary-like object is\n          returned, containing ``{filename: array}`` key-value pairs, one for\n          each file in the archive.\n        - If the file is a ``.npz`` file, the returned value supports the\n          context manager protocol in a similar fashion to the open function::\n    \n            with load('foo.npz') as data:\n                a = data['a']\n    \n          The underlying file descriptor is closed when exiting the 'with'\n          block.\n    \n        Examples\n        --------\n        >>> import numpy as np\n    \n        Store data to disk, and load it again:\n    \n        >>> np.save('/tmp/123', np.array([[1, 2, 3], [4, 5, 6]]))\n        >>> np.load('/tmp/123.npy')\n        array([[1, 2, 3],\n               [4, 5, 6]])\n    \n        Store compressed data to disk, and load it again:\n    \n        >>> a=np.array([[1, 2, 3], [4, 5, 6]])\n        >>> b=np.array([1, 2])\n        >>> np.savez('/tmp/123.npz', a=a, b=b)\n        >>> data = np.load('/tmp/123.npz')\n        >>> data['a']\n        array([[1, 2, 3],\n               [4, 5, 6]])\n        >>> data['b']\n        array([1, 2])\n        >>> data.close()\n    \n        Mem-map the stored array, and then access the second row\n        directly from disk:\n    \n        >>> X = np.load('/tmp/123.npy', mmap_mode='r')\n        >>> X[1, :]\n        memmap([4, 5, 6])\n    \n        \"\"\"\n        if encoding not in ('ASCII', 'latin1', 'bytes'):\n            # The 'encoding' value for pickle also affects what encoding\n            # the serialized binary data of NumPy arrays is loaded\n            # in. Pickle does not pass on the encoding information to\n            # NumPy. The unpickling code in numpy._core.multiarray is\n            # written to assume that unicode data appearing where binary\n            # should be is in 'latin1'. 'bytes' is also safe, as is 'ASCII'.\n            #\n            # Other encoding values can corrupt binary data, and we\n            # purposefully disallow them. For the same reason, the errors=\n            # argument is not exposed, as values other than 'strict'\n            # result can similarly silently corrupt numerical data.\n            raise ValueError(\"encoding must be 'ASCII', 'latin1', or 'bytes'\")\n    \n        pickle_kwargs = dict(encoding=encoding, fix_imports=fix_imports)\n    \n        with contextlib.ExitStack() as stack:\n            if hasattr(file, 'read'):\n                fid = file\n                own_fid = False\n            else:\n>               fid = stack.enter_context(open(os.fspath(file), \"rb\"))\n                                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE               FileNotFoundError: [Errno 2] No such file or directory: '/unavailable/scores.npz'\n\n../m16-env/lib/python3.13/site-packages/numpy/lib/_npyio_impl.py:459: FileNotFoundError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "MISSING_ENVIRONMENT"
+      },
+      {
+        "test": "tests/test_price_state_information03.py::test_pre_and_input_preservation",
+        "outcome": "FAIL",
+        "traceback": "@pytest.mark.skipif(not (P/'pre_receipt.json').exists(),reason='remote PRE not created yet')\n>   def test_pre_and_input_preservation():c.verify_pre()\n                                          ^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:64: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbacktesting/price_state_information03/core.py:66: in verify_pre\n    for f,h in receipt['parent_input_hashes'].items():assert digest(parent_private()/f)==h,f\n                                                                    ^^^^^^^^^^^^^^^^\nbacktesting/price_state_information03/core.py:50: in parent_private\n    def parent_private():return Path(os.environ['PRICE03_PARENT_PRIVATE'])\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'PRICE03_PARENT_PRIVATE'\n\n>   ???\nE   KeyError: 'PRICE03_PARENT_PRIVATE'\n\n<frozen os>:717: KeyError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "MISSING_ENVIRONMENT"
+      },
+      {
+        "test": "tests/test_price_state_information03.py::test_full_ledger_no_subset",
+        "outcome": "FAIL",
+        "traceback": "@pytest.mark.skipif(not (P/'audit_predictions.npz').exists(),reason='results gated by PRE')\n    def test_full_ledger_no_subset():\n>    rows,ev,_=c.load();assert ev.origin.nunique()==52 and len(ev)==482;assert set(ev.year)==set(c.YEARS);assert set(ev.horizon)==set(c.HORIZONS);assert set(ev.asset)=={'UST_2Y','UST_5Y'}\n               ^^^^^^^^\n\ntests/test_price_state_information03.py:67: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \nbacktesting/price_state_information03/core.py:62: in load\n    p=parent_private();return pd.read_parquet(p/'evaluation_ledger.parquet'),pd.read_parquet(p/'scored_rows.parquet'),np.load(p/'scores.npz')\n      ^^^^^^^^^^^^^^^^\nbacktesting/price_state_information03/core.py:50: in parent_private\n    def parent_private():return Path(os.environ['PRICE03_PARENT_PRIVATE'])\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nkey = 'PRICE03_PARENT_PRIVATE'\n\n>   ???\nE   KeyError: 'PRICE03_PARENT_PRIVATE'\n\n<frozen os>:717: KeyError",
+        "skip_reason": null,
+        "release_status": "BLOCKED",
+        "classification": "MISSING_ENVIRONMENT"
+      }
+    ],
+    "skipped_tests": [
+      {
+        "test": "tests/test_direction_to_location01.py::test_all_frozen_universe",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_frozen_prediction_hash_and_sign",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_actual_draw_geometry_without_scoring",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_original_train_scaler_ood",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_control_determinism_and_prevalence",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_release_packet_matching_has_no_outcome",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_date_null_never_uses_future_donor",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_future_source_mutation",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_outcome_mutation_candidate_invariance",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_direction_to_location01.py::test_parent_lineage_main_protection",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen inputs are not distributed in public Git"
+      },
+      {
+        "test": "tests/test_information_failure01.py::test_exact_reproduction_from_frozen",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen recovery inputs are intentionally not in public repository"
+      },
+      {
+        "test": "tests/test_information_failure01.py::test_private_schema_and_spd2023",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen recovery inputs are intentionally not in public repository"
+      },
+      {
+        "test": "tests/test_information_failure01.py::test_inputs_and_parent_files_unchanged",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen recovery inputs are intentionally not in public repository"
+      },
+      {
+        "test": "tests/test_information_failure01.py::test_deterministic_aggregation",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen recovery inputs are intentionally not in public repository"
+      },
+      {
+        "test": "tests/test_information_failure01.py::test_posthoc_same_ledger_endpoints",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "Private frozen recovery inputs are intentionally not in public repository"
+      },
+      {
+        "test": "tests/test_parity.py::test_scoring_image_parity",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "needs Docker, a digest-pinned scoring image and registry credentials; this host has Docker but no image and no registry. Run in Linux CI with the image published."
+      },
+      {
+        "test": "tests/test_parity.py::test_codabench_wrapper_parity",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "needs a live CodaBench instance and a bundle upload; the remediation packet forbids mutating live CodaBench state. Run against a staging instance."
+      },
+      {
+        "test": "tests/test_persistent_direction02.py::test_source_rebuild_hashes",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "private source inputs not available"
+      },
+      {
+        "test": "tests/test_persistent_direction02.py::test_calendar_firewall",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "private design unavailable"
+      },
+      {
+        "test": "tests/test_persistent_direction02.py::test_result_hashes_purge_geometry",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "evaluation intentionally not available before PRE"
+      },
+      {
+        "test": "tests/test_v51_center_bias04.py::test_parent_main_draw_protection",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "private verified recovery unavailable"
+      },
+      {
+        "test": "tests/test_v51_center_bias04.py::test_pre_verified",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "PRE remote verification pending"
+      },
+      {
+        "test": "tests/test_v51_center_bias04.py::test_full_draw_ledger_maturity",
+        "outcome": "SKIP",
+        "traceback": null,
+        "skip_reason": "new outcomes gated by PRE"
+      }
+    ]
+  },
+  "full_suite_after_environment_repair_runs": 1,
+  "prior_historical_receipt": {
+    "SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+    "passed": 1278,
+    "failed": 11,
+    "skipped": 26,
+    "new_execution": false
+  },
+  "skip_change_explanation": "Three existing PRICE03 skipif gates activated by recovered authentic child artifacts. Parent inputs remain missing; these tests now fail and are BLOCKED rather than being hidden.",
+  "existing_CI": {
+    "id": 38280632061,
+    "jobs": [
+      {
+        "id": 114916776401,
+        "name": "Firewall (stdlib only, no secret — runs on forks)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632061,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Card, track, split and canary checks",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "No reference-side path or filename in the public tree",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114916776731,
+        "name": "Lint + type check (ruff + mypy over the CANONICAL package)",
+        "status": "completed",
+        "conclusion": "failure",
+        "run_id": 38280632061,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install tools + pinned shared toolkit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Confirm the toolkit is importable",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Ruff lint",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 6
+          },
+          {
+            "name": "Ruff format check",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 7
+          },
+          {
+            "name": "Mypy (strict) over the canonical package",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 8
+          },
+          {
+            "name": "Mypy (strict) over the shim and baselines",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 17
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 18
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 19
+          }
+        ]
+      },
+      {
+        "id": 114916776847,
+        "name": "Test the canonical scorer",
+        "status": "completed",
+        "conclusion": "failure",
+        "run_id": 38280632061,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install pinned dependencies",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Confirm the toolkit is importable",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Prove the contract set the suite was written against",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "jsonschema is installed, because g1 refuses to run without it",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 7
+          },
+          {
+            "name": "Pytest",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 8
+          },
+          {
+            "name": "Regression suite (positive AND negative controls)",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 17
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 18
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 19
+          }
+        ]
+      },
+      {
+        "id": 114916849246,
+        "name": "Validate units (+ manifests · public-safety)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632061,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Install pinned shared toolkit",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Confirm the toolkit is importable",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Validate all public units",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 6
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 12
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 13
+          }
+        ]
+      }
+    ],
+    "ruff_errors": 2288,
+    "collection_errors": 61,
+    "missing_modules": [
+      "sklearn",
+      "requests"
+    ]
+  },
+  "REGRESSION_PASS": "BLOCKED",
+  "M16_runtime_regression_confirmed": false,
+  "no_existing_assertions_relaxed": true,
+  "no_test_exclusions": true,
+  "no_full_suite_rerun_to_green": true,
+  "test_sequence_note": "Fresh M16 tests and affected tests reused after lint; targeted paired retest completed before interpreting full suite. Full suite overlaps paired targeted subprocesses in wall-clock start; same sanitized child environment and read-only sources. No background source mutation."
+}

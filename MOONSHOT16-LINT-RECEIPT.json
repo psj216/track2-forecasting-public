@@ -5,5 +5,29 @@
   "ruff_pass": true,
   "assertion_AST_identical": true,
   "production_runtime_hashes_unchanged": true,
-  "test_tools_lint_pass": true
+  "test_tools_lint_pass": true,
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "validation_source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "release_change_scope_pass": true,
+  "scope": [
+    "tests/test_moonshot16_comparison.py",
+    "tests/test_moonshot16_runtime.py",
+    "tests/test_moonshot16_transport.py",
+    "backtesting/moonshot16/release"
+  ],
+  "existing_runtime_package_lint": {
+    "passed": false,
+    "errors": 122,
+    "production_files_changed_in_release_validation": false
+  },
+  "existing_repository_CI_lint": {
+    "passed": false,
+    "errors": 2288,
+    "run_id": 38280632061
+  },
+  "comparison_tests_passed": 10,
+  "all_m16_tests_passed": 265,
+  "parquet_comparison_semantics_unchanged": true,
+  "assertion_count": 9,
+  "scope_note": "PASS refers to all release test/tool changes. Frozen current M16 production package and repository-wide legacy lint are not PASS and were not modified."
 }

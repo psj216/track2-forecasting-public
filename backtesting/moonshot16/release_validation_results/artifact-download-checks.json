@@ -1,0 +1,37 @@
+[
+  {
+    "variant": "D",
+    "artifact_id": 11761241836,
+    "archive_sha256": "sha256:50b7d8c70952f55ef6fa6ab17acc8297a752062aa2380646c846b1ef5b9b90b2",
+    "matches_github_digest": true,
+    "receipt_sha256": "5a7681b409f72a87ff7cbf90d6bfa5e2ae357f5d06a81e912d798baba21e50c0"
+  },
+  {
+    "variant": "C",
+    "artifact_id": 11760867476,
+    "archive_sha256": "sha256:f8fc4c51c6272a0d0ccd77cb4911584e16a4ffa4976cee806d1fcd1f020b7bad",
+    "matches_github_digest": true,
+    "receipt_sha256": "1f7142967d64bc79af2705a7487ec03482bc2838329225ce6e1a104fa356d335"
+  },
+  {
+    "variant": "E",
+    "artifact_id": 11760558688,
+    "archive_sha256": "sha256:505f59732c51effcab4587826d94371832fbf552d532e045a04521d8617cb517",
+    "matches_github_digest": true,
+    "receipt_sha256": "e5d4bcc74d9de9d6d8518be8277363d26fb83b016dd8bceacdaa59fc894b8bed"
+  },
+  {
+    "variant": "B",
+    "artifact_id": 11760453682,
+    "archive_sha256": "sha256:6ffaeebe03eab8a8ddff9b0e1f33e15bcc55ed984c12c7dfa6840d538c3de480",
+    "matches_github_digest": true,
+    "receipt_sha256": "0298026d1cb1a14aac247b651b50605164875ba334f163885f4dcdbc79cbc35e"
+  },
+  {
+    "variant": "A",
+    "artifact_id": 11760119822,
+    "archive_sha256": "sha256:5cf702bc437f2229a0e44308e64cae377964ce509a88d1757b2c52f08e0533ae",
+    "matches_github_digest": true,
+    "receipt_sha256": "7dac078fbdb15976474883296682d173afecddef0b88cf81ac1594031fa1332a"
+  }
+]

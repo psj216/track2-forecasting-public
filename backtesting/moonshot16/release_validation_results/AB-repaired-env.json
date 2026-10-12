@@ -1,0 +1,152 @@
+{
+  "M16": {
+    "source_SHA": "2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
+    "exit_code": 1,
+    "timestamp": "2026-10-12T16:52:48.345841+00:00",
+    "rows": [
+      {
+        "test": "tests.test_new_information_search02::test_parent_main_branch",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_parent_main_branch():\n     assert subprocess.run(['git','merge-base','--is-ancestor',PARENT,'HEAD'],cwd=ROOT).returncode==0\n     assert subprocess.check_output(['git','rev-parse','refs/remotes/origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()=='track2/new-information-search-02'\nE    AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-i...ion-search-02'\nE      \nE      - track2/new-information-search-02\nE      + track2/moonshot-16-house-transport-repair\n\ntests/test_new_information_search02.py:14: AssertionError"
+      },
+      {
+        "test": "tests.test_new_information_search02::test_frozen_hash",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_constructed_source_schema_and_cutoff",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_live_source_mutation_does_not_change_earlier_asof_states",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_exact_parent_branch",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_exact_parent_branch():\n        assert subprocess.check_output(['git','rev-parse',PARENT],cwd=ROOT,text=True).strip()==PARENT\n>       assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\nE       AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-m...m-moonshot-12'\nE         \nE         - track2/new-mechanism-moonshot-12\nE         + track2/moonshot-16-house-transport-repair\n\ntests/test_new_mechanism_moonshot12.py:36: AssertionError"
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_main_unchanged",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_ancestor_files_preserved",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_ancestor_files_preserved():\n        changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()\n>       assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)\nE       assert False\nE        +  where False = all(<generator object test_ancestor_files_preserved.<locals>.<genexpr> at 0x7fbe7ae8f440>)\n\ntests/test_new_mechanism_moonshot12.py:209: AssertionError"
+      },
+      {
+        "test": "tests.test_persistent_direction02::test_parent_main_protection",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_price_state_information03::test_protected_parent_main",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_protected_parent_main():\n>    c.assert_protected();assert subprocess.run(['git','merge-base','--is-ancestor',c.PARENT,'HEAD'],cwd=c.ROOT).returncode==0\n     ^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_protected():\n     hashes=json.loads((private()/'protected_parent_hashes.json').read_text())\n     assert all(digest(ROOT/f)==h for f,h in hashes.items())\n     assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE    AssertionError\n\nbacktesting/price_state_information03/core.py:60: AssertionError"
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_exact_common_import_source",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_preserved_manual_only_workflow",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      }
+    ]
+  },
+  "M15": {
+    "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+    "exit_code": 1,
+    "timestamp": "2026-10-12T16:52:50.469664+00:00",
+    "rows": [
+      {
+        "test": "tests.test_new_information_search02::test_parent_main_branch",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_parent_main_branch():\n     assert subprocess.run(['git','merge-base','--is-ancestor',PARENT,'HEAD'],cwd=ROOT).returncode==0\n     assert subprocess.check_output(['git','rev-parse','refs/remotes/origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()=='track2/new-information-search-02'\nE    AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-i...ion-search-02'\nE      \nE      - track2/new-information-search-02\nE      + track2/moonshot-16-house-transport-repair\n\ntests/test_new_information_search02.py:14: AssertionError"
+      },
+      {
+        "test": "tests.test_new_information_search02::test_frozen_hash",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_constructed_source_schema_and_cutoff",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_live_source_mutation_does_not_change_earlier_asof_states",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_exact_parent_branch",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_exact_parent_branch():\n        assert subprocess.check_output(['git','rev-parse',PARENT],cwd=ROOT,text=True).strip()==PARENT\n>       assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\nE       AssertionError: assert 'track2/moons...nsport-repair' == 'track2/new-m...m-moonshot-12'\nE         \nE         - track2/new-mechanism-moonshot-12\nE         + track2/moonshot-16-house-transport-repair\n\ntests/test_new_mechanism_moonshot12.py:36: AssertionError"
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_main_unchanged",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_ancestor_files_preserved",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_ancestor_files_preserved():\n        changed=subprocess.check_output(['git','diff',PARENT,'--name-only'],cwd=ROOT,text=True).splitlines()\n>       assert all(x.startswith('backtesting/new_mechanism_moonshot12/') or x=='tests/test_new_mechanism_moonshot12.py' or x=='NEW-MECHANISM-MOONSHOT-12-report.md' for x in changed)\nE       assert False\nE        +  where False = all(<generator object test_ancestor_files_preserved.<locals>.<genexpr> at 0x7fc6f6097920>)\n\ntests/test_new_mechanism_moonshot12.py:209: AssertionError"
+      },
+      {
+        "test": "tests.test_persistent_direction02::test_parent_main_protection",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_price_state_information03::test_protected_parent_main",
+        "outcome": "FAIL",
+        "type": null,
+        "traceback": "def test_protected_parent_main():\n>    c.assert_protected();assert subprocess.run(['git','merge-base','--is-ancestor',c.PARENT,'HEAD'],cwd=c.ROOT).returncode==0\n     ^^^^^^^^^^^^^^^^^^^^\n\ntests/test_price_state_information03.py:59: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def assert_protected():\n     hashes=json.loads((private()/'protected_parent_hashes.json').read_text())\n     assert all(digest(ROOT/f)==h for f,h in hashes.items())\n     assert subprocess.check_output(['git','rev-parse','origin/main'],cwd=ROOT,text=True).strip()==MAIN\n>    assert subprocess.check_output(['git','branch','--show-current'],cwd=ROOT,text=True).strip()==BRANCH\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nE    AssertionError\n\nbacktesting/price_state_information03/core.py:60: AssertionError"
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_exact_common_import_source",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_preserved_manual_only_workflow",
+        "outcome": "PASS",
+        "type": null,
+        "traceback": null
+      }
+    ]
+  },
+  "comparison_valid": true,
+  "identical_environment": true,
+  "private_parent_artifacts_unavailable": true,
+  "environment_dump_omitted": true
+}

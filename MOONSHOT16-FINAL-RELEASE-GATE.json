@@ -1,0 +1,35 @@
+{
+  "executive_summary": "RELEASE_BLOCKED: transport/container checks passed, while historical test contracts and unavailable parent inputs prevent the global regression gate. V5.1 safe artifact remains preferred.",
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "classification": "RELEASE_BLOCKED",
+  "branch": "track2/moonshot-16-house-transport-repair",
+  "parent_SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
+  "frozen_parent_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "PRE_SHA": "2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
+  "validation_source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "evidence_commit": "Git commit containing this file; remote SHA recorded externally after publication",
+  "gates": {
+    "SOURCE_RECOVERED": true,
+    "TRANSPORT_FIXED": true,
+    "LINT_PASS": true,
+    "M16_TESTS_PASS": true,
+    "REGRESSION_PASS": "BLOCKED",
+    "CONTAINER_SMOKE_PASS": true,
+    "FALLBACK_EXACT": true,
+    "PROVENANCE_VERIFIED": true,
+    "LIVE_HOUSE_VERIFIED": "UNKNOWN",
+    "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
+    "FINAL_ELIGIBLE": false
+  },
+  "LINT_PASS_scope": "New release test/tool changes; original M16 runtime package lint fails122 and repository CI lint fails2288, left unchanged under runtime freeze.",
+  "FALLBACK_EXACT_scope": "Byte-identical parquet to offline V5.1 runtime baseline on both tested units across all A-E. Container/image safety does not establish live House performance.",
+  "regression_blockers": {
+    "historical_branch_or_path_contracts": 4,
+    "missing_original_PRICE03_parent_inputs": 3
+  },
+  "Final_recommendation": "Existing V51-final-submission.zip safe artifact; not touched, requested, rebuilt or submitted.",
+  "CodaBench_low_scores_root_cause": "INCONCLUSIVE: no execution logs or actual prediction/scoring files; fixed mock risk cannot establish A-E competition failure cause.",
+  "independent_performance_evaluation": "NOT_RUN: no verified independent PIT-safe environment established in this task.",
+  "forbidden_actions_performed": false,
+  "next_action": "Preserve M16 as verified mock/runtime candidate. Recover original hash-matching PRICE03 parent inputs and run incompatible historical test contracts only in their genuine historical branch contexts. Keep regression gate BLOCKED until supported evidence closes it. Do not select M16 for Final without live House and independent PIT-safe performance evidence."
+}

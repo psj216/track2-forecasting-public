@@ -1,0 +1,825 @@
+{
+  "executive_summary": "Actual GitHub Actions Docker A-E validation succeeded: 110 old/new container forecasts on public inputs with internal authenticated HTTP/TLS mocks; no live House or registry publication.",
+  "timestamp": "2026-10-12T17:09:53.728274+00:00",
+  "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "CONTAINER_SMOKE": "PASS",
+  "runner": "ubuntu-latest GitHub Actions, actual Docker",
+  "workflow": ".github/workflows/moonshot16-release-validation.yml",
+  "successful_run": {
+    "id": 38280632093,
+    "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+    "url": "https://github.com/psj216/track2-forecasting-public/actions/runs/38280632093",
+    "jobs": [
+      {
+        "id": 114916776958,
+        "name": "container (B)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632093,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114916777134,
+        "name": "container (D)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632093,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114916777143,
+        "name": "container (E)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632093,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114916777152,
+        "name": "container (C)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632093,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114916777169,
+        "name": "container (A)",
+        "status": "completed",
+        "conclusion": "success",
+        "run_id": 38280632093,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      }
+    ],
+    "artifacts": [
+      {
+        "id": 11761241836,
+        "name": "m16-container-D-38280632093",
+        "size_in_bytes": 3594,
+        "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11761241836",
+        "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11761241836/zip",
+        "expired": false,
+        "created_at": "2026-10-12T16:55:37Z",
+        "expires_at": "2026-11-11T16:55:36Z",
+        "updated_at": "2026-10-12T16:55:37Z",
+        "digest": "sha256:50b7d8c70952f55ef6fa6ab17acc8297a752062aa2380646c846b1ef5b9b90b2",
+        "workflow_run": {
+          "id": 38280632093,
+          "repository_id": 1360311561,
+          "head_repository_id": 1360311561,
+          "head_branch": "track2/moonshot-16-house-transport-repair",
+          "head_sha": "068e357027462dc0d7139928773e4e8729ed639b"
+        }
+      },
+      {
+        "id": 11760867476,
+        "name": "m16-container-C-38280632093",
+        "size_in_bytes": 3677,
+        "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760867476",
+        "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760867476/zip",
+        "expired": false,
+        "created_at": "2026-10-12T16:55:38Z",
+        "expires_at": "2026-11-11T16:55:38Z",
+        "updated_at": "2026-10-12T16:55:38Z",
+        "digest": "sha256:f8fc4c51c6272a0d0ccd77cb4911584e16a4ffa4976cee806d1fcd1f020b7bad",
+        "workflow_run": {
+          "id": 38280632093,
+          "repository_id": 1360311561,
+          "head_repository_id": 1360311561,
+          "head_branch": "track2/moonshot-16-house-transport-repair",
+          "head_sha": "068e357027462dc0d7139928773e4e8729ed639b"
+        }
+      },
+      {
+        "id": 11760558688,
+        "name": "m16-container-E-38280632093",
+        "size_in_bytes": 3684,
+        "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760558688",
+        "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760558688/zip",
+        "expired": false,
+        "created_at": "2026-10-12T16:55:41Z",
+        "expires_at": "2026-11-11T16:55:40Z",
+        "updated_at": "2026-10-12T16:55:41Z",
+        "digest": "sha256:505f59732c51effcab4587826d94371832fbf552d532e045a04521d8617cb517",
+        "workflow_run": {
+          "id": 38280632093,
+          "repository_id": 1360311561,
+          "head_repository_id": 1360311561,
+          "head_branch": "track2/moonshot-16-house-transport-repair",
+          "head_sha": "068e357027462dc0d7139928773e4e8729ed639b"
+        }
+      },
+      {
+        "id": 11760453682,
+        "name": "m16-container-B-38280632093",
+        "size_in_bytes": 3561,
+        "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760453682",
+        "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760453682/zip",
+        "expired": false,
+        "created_at": "2026-10-12T16:55:40Z",
+        "expires_at": "2026-11-11T16:55:39Z",
+        "updated_at": "2026-10-12T16:55:40Z",
+        "digest": "sha256:6ffaeebe03eab8a8ddff9b0e1f33e15bcc55ed984c12c7dfa6840d538c3de480",
+        "workflow_run": {
+          "id": 38280632093,
+          "repository_id": 1360311561,
+          "head_repository_id": 1360311561,
+          "head_branch": "track2/moonshot-16-house-transport-repair",
+          "head_sha": "068e357027462dc0d7139928773e4e8729ed639b"
+        }
+      },
+      {
+        "id": 11760119822,
+        "name": "m16-container-A-38280632093",
+        "size_in_bytes": 3597,
+        "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760119822",
+        "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/11760119822/zip",
+        "expired": false,
+        "created_at": "2026-10-12T16:55:38Z",
+        "expires_at": "2026-11-11T16:55:38Z",
+        "updated_at": "2026-10-12T16:55:38Z",
+        "digest": "sha256:5cf702bc437f2229a0e44308e64cae377964ce509a88d1757b2c52f08e0533ae",
+        "workflow_run": {
+          "id": 38280632093,
+          "repository_id": 1360311561,
+          "head_repository_id": 1360311561,
+          "head_branch": "track2/moonshot-16-house-transport-repair",
+          "head_sha": "068e357027462dc0d7139928773e4e8729ed639b"
+        }
+      }
+    ]
+  },
+  "first_attempt": {
+    "id": 38280355545,
+    "source_SHA": "2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
+    "jobs": [
+      {
+        "id": 114915879191,
+        "name": "container (B)",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "run_id": 38280355545,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114915879511,
+        "name": "container (D)",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "run_id": 38280355545,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114915879520,
+        "name": "container (C)",
+        "status": "completed",
+        "conclusion": "failure",
+        "run_id": 38280355545,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114915879842,
+        "name": "container (E)",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "run_id": 38280355545,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      },
+      {
+        "id": 114915880253,
+        "name": "container (A)",
+        "status": "completed",
+        "conclusion": "cancelled",
+        "run_id": 38280355545,
+        "logs_url": null,
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 1
+          },
+          {
+            "name": "Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 2
+          },
+          {
+            "name": "Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 3
+          },
+          {
+            "name": "Actual Docker build and old/new synthetic runtime comparison",
+            "status": "completed",
+            "conclusion": "failure",
+            "number": 4
+          },
+          {
+            "name": "Run actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 5
+          },
+          {
+            "name": "Post Run actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+            "status": "completed",
+            "conclusion": "skipped",
+            "number": 9
+          },
+          {
+            "name": "Post Run actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 10
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success",
+            "number": 11
+          }
+        ]
+      }
+    ],
+    "conclusion": "FAIL",
+    "root_cause": "New CI tool compared docker.io-prefixed original name with canonical RepoDigests without prefix; exact repository/digest validation stopped before forecasts.",
+    "repair": "Normalize only Docker Hub prefix on both sides; retain exact repository and digest, source OCI label and source-byte checks. No existing assertion changed."
+  },
+  "attempt_count": 2,
+  "variants_passed": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "forecast_processes_passed": 110,
+  "per_variant_cases": 22,
+  "fallback_byte_identical": true,
+  "deterministic_repeat": true,
+  "normal_House_adjustment_observed": true,
+  "temporary_images_created": 5,
+  "registry_push": false,
+  "existing_images_modified": false,
+  "new_registry_manifest_digest": null,
+  "HTTPS_test_CA": "Synthetic test-only CA for internal m16-house DNS; TLS verification remained enabled. No competition CA/endpoint/token used.",
+  "credentials": "Synthetic fixed dummy grants only; no secrets or Team Key.",
+  "artifact_integrity": [
+    {
+      "variant": "D",
+      "artifact_id": 11761241836,
+      "archive_sha256": "sha256:50b7d8c70952f55ef6fa6ab17acc8297a752062aa2380646c846b1ef5b9b90b2",
+      "matches_github_digest": true,
+      "receipt_sha256": "5a7681b409f72a87ff7cbf90d6bfa5e2ae357f5d06a81e912d798baba21e50c0"
+    },
+    {
+      "variant": "C",
+      "artifact_id": 11760867476,
+      "archive_sha256": "sha256:f8fc4c51c6272a0d0ccd77cb4911584e16a4ffa4976cee806d1fcd1f020b7bad",
+      "matches_github_digest": true,
+      "receipt_sha256": "1f7142967d64bc79af2705a7487ec03482bc2838329225ce6e1a104fa356d335"
+    },
+    {
+      "variant": "E",
+      "artifact_id": 11760558688,
+      "archive_sha256": "sha256:505f59732c51effcab4587826d94371832fbf552d532e045a04521d8617cb517",
+      "matches_github_digest": true,
+      "receipt_sha256": "e5d4bcc74d9de9d6d8518be8277363d26fb83b016dd8bceacdaa59fc894b8bed"
+    },
+    {
+      "variant": "B",
+      "artifact_id": 11760453682,
+      "archive_sha256": "sha256:6ffaeebe03eab8a8ddff9b0e1f33e15bcc55ed984c12c7dfa6840d538c3de480",
+      "matches_github_digest": true,
+      "receipt_sha256": "0298026d1cb1a14aac247b651b50605164875ba334f163885f4dcdbc79cbc35e"
+    },
+    {
+      "variant": "A",
+      "artifact_id": 11760119822,
+      "archive_sha256": "sha256:5cf702bc437f2229a0e44308e64cae377964ce509a88d1757b2c52f08e0533ae",
+      "matches_github_digest": true,
+      "receipt_sha256": "7dac078fbdb15976474883296682d173afecddef0b88cf81ac1594031fa1332a"
+    }
+  ],
+  "image_identities": [
+    {
+      "variant": "A",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:9fcf2cef6ae03f3fb77740157eb40ddf681898822ed5ee5ed12eed1ce62028c3",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "B",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:b92f6b575312d0561f349fa8ca9acf0d1eb84a8730054094024dad684f6ee5ef",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "C",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:aecbcecc8b0e3d4d6a0d259be3d932be4d310272b566785fd68cd527387ef22e",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "D",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:d4307fada963c7dd38ea28fa19713f341f1c1354d9ee85f885567c8ad20a87a4",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "E",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:7d1f348723bcd907d4979af2db391a38f7e4bc16c055f69f052e8060a80f8437",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    }
+  ],
+  "scope_limits": [
+    "Two public historical units per variant; fixed synthetic House responses.",
+    "Container cases cover HTTP/HTTPS, uppercase/lowercase, authenticated proxy, malformed content, HTTP503, proxy407 and exact fallback. Other HTTP codes/timeout/schema/case-conflict conditions remain host M16 tests.",
+    "No public image published or Final package created.",
+    "No live House success or forecast alpha evidence."
+  ]
+}

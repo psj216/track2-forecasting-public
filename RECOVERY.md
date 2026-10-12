@@ -1,25 +1,15 @@
-## Executive summary (read this first)
+# M16 release recovery checkpoint
 
-Independent M16 source recovery succeeded and transport was repaired. Execution stopped after two full-repository validation failures. Resume from the existing branch and evidence, not the old incomplete shared clone. Final remains ineligible.
+Classification: RELEASE_BLOCKED. Release evidence is complete with explicit blockers; runtime and Docker validation succeeded.
 
-# Recovery
+Branch `track2/moonshot-16-house-transport-repair`; preserve prior RESULT `86dd18e8b8e3fec65d94c86d22321160eb8e735e` and original PRE `ec36fbda44ca17c1c64b0b07da7d6adffbdb721b`. Release PRE `2d09ab540a491bc6692d11b224f4ff4a9cc819cf`; actual Docker-validated source `068e357027462dc0d7139928773e4e8729ed639b`. Final evidence is the commit containing this file. Recover its remote branch HEAD and verify ancestry before continuing.
 
-Repository: psj216/track2-forecasting-public.
-Branch: track2/moonshot-16-house-transport-repair.
-Original PRE: ec36fbda44ca17c1c64b0b07da7d6adffbdb721b.
-Original stopped RESULT: 74ebc30cbec728a4a739d58064e6f9e5772182b6.
-Recovery checkpoint: 530b2c4b1eac215cd32535e3bb97d7e969f7f161.
-Implementation checkpoint: 02b581199370be1071c7887907bb6df96742c544.
-Frozen parent: 361018c14bab3cb7d8da101aa332066644921bac.
+Read MOONSHOT16-RELEASE-VALIDATION.md and the eight other release receipts. Earlier RECOVERY/STATUS are retained at backtesting/moonshot16/release_validation_results/prior-*; original M16 reports/receipts and Git history remain intact.
 
-The source is a self-contained independent official git clone with no alternates. The full parent chain and fsck passed. Original PRE/RESULT remain ancestors. Current runtime differences are confined to the three permitted files.
+Do not rerun the 265 passing tests, 130 affected tests, paired controls, full suite or successful Docker run without a material new change. Actual Docker run38280632093 passed A–E/110 forecasts. Initial run38280355545 failed only new tooling reference canonicalization and is preserved.
 
-Completed: transport 24, parser 54, fallback subset 125, integration subset 52, affected 130 and public comparisons 10. New unique M16 tests: 265 passes. Detailed synthetic receipts and frozen-source test fixtures are preserved. Do not rerun old research.
+Full suite: 1285 pass / 7 fail / 23 skip. Four historical branch/path constraints plus three missing original PRICE03 parent inputs are BLOCKED, not PASS. Frozen M15 paired controls reproduce all these failures. New release lint passes; unchanged production package122 and general repository CI2288 lint findings remain.
 
-STOP point: full pytest first failed collection for missing sklearn; after installing sklearn, its one retry returned 11 failed, 1278 passed, 26 skipped. No third attempt. Unchanged historical tests require origin/main, private metadata variables, historical branch/path assumptions and yaml. Two new comparison-test lint issues remain. No assertion was changed to pass.
+Runtime package hashes remain identical to prior RESULT. No images published or protected artifacts/branches changed. Keep V5.1 safe artifact priority, LIVE_HOUSE and INDEPENDENT_ALPHA UNKNOWN, FINAL_ELIGIBLE FALSE. No token/key request or submissions.
 
-Next run: recover the latest verified branch independently; resolve new lint and concrete historical test prerequisites before any full retry; then container smoke if a Docker-capable environment exists. Keep failure evidence. Do not silently exclude old tests or infer alpha from mocks. Actual House/independent performance remain UNKNOWN.
-
-Environment: Python 3.13.16, qfbench2-common v2.4.2 at dfa92d242908bba4a448218b9c10ae391238d10d, numpy 2.1.3, pandas 2.2.3, pyarrow 18.1.0, jsonschema 4.23.0, scikit-learn 1.6.1. Dependencies were installed before tests. No Docker/podman, image build or submission.
-
-Existing V51-final-submission.zip stays solely with the user and was not requested or recreated.
+Resume only by recovering authentic missing original parent inputs or reviewing genuine historical contract contexts; no fake data, assertion relaxation, production changes or reruns to obtain green counts.

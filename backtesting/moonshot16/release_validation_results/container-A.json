@@ -1,0 +1,1276 @@
+{
+  "actual_live_House_calls": 0,
+  "cases": [
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-new-offline",
+      "metadata_SHA256": "6e1e6d3c5311912c6478733c0d68cf5c03aa9e6a31855bcfe176dbdf6fb6003c",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "fd027a61d86092088c82b6f16b91a6890e27bad42483987298c976104a68a85e",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": "endpoint_missing",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": false,
+        "request_sent": false,
+        "requests": [
+          {
+            "failure_category": "endpoint_missing",
+            "http_status": null,
+            "request_attempted": false,
+            "request_sent": false,
+            "response_received": false,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": false,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-old-offline",
+      "metadata_SHA256": "7283637d364b2d4690e6c8d6b3f7026a658f12c9df1b3ae32cf68de1870d8a86",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "4bbfccdb0e8c6a2dbdbe05949d928346572f591b253d964ec2867b041a1e6100",
+      "receipt": {
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "failure_type": "ValueError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "no_retry": true,
+        "requests_attempted": 0
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-new-uppercase",
+      "metadata_SHA256": "0c9404009cb197ddf85dcebbfd6be1fd8e2363d45e68d23b22059fde05d3bdc5",
+      "parquet_SHA256": "9d0c034707ab45ba433eb22c4f6ac3a83728d69b870fb3403e73e36a98d75330",
+      "rationale_SHA256": "15494b2829e526426075dcba40db0688aa96f0ff1223d5d0179762f907399ef3",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-new-lowercase",
+      "metadata_SHA256": "0c9404009cb197ddf85dcebbfd6be1fd8e2363d45e68d23b22059fde05d3bdc5",
+      "parquet_SHA256": "9d0c034707ab45ba433eb22c4f6ac3a83728d69b870fb3403e73e36a98d75330",
+      "rationale_SHA256": "15494b2829e526426075dcba40db0688aa96f0ff1223d5d0179762f907399ef3",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-old-lowercase",
+      "metadata_SHA256": "ddfeda6646016b53c077bcc45118b73df27ea4ff8494279b5a9a022ff2b6c607",
+      "parquet_SHA256": "9d0c034707ab45ba433eb22c4f6ac3a83728d69b870fb3403e73e36a98d75330",
+      "rationale_SHA256": "b518487d37414b5122729a7f451cc2e9b101543e03da4bb54e7b19a6a8fcafdd",
+      "receipt": {
+        "applied": true,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "fallback": null,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "requests_attempted": 1
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-old-uppercase",
+      "metadata_SHA256": "7283637d364b2d4690e6c8d6b3f7026a658f12c9df1b3ae32cf68de1870d8a86",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "4bbfccdb0e8c6a2dbdbe05949d928346572f591b253d964ec2867b041a1e6100",
+      "receipt": {
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "failure_type": "ValueError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "no_retry": true,
+        "requests_attempted": 0
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-new-repeat",
+      "metadata_SHA256": "0c9404009cb197ddf85dcebbfd6be1fd8e2363d45e68d23b22059fde05d3bdc5",
+      "parquet_SHA256": "9d0c034707ab45ba433eb22c4f6ac3a83728d69b870fb3403e73e36a98d75330",
+      "rationale_SHA256": "15494b2829e526426075dcba40db0688aa96f0ff1223d5d0179762f907399ef3",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-new-HTTPS",
+      "metadata_SHA256": "0c9404009cb197ddf85dcebbfd6be1fd8e2363d45e68d23b22059fde05d3bdc5",
+      "parquet_SHA256": "9d0c034707ab45ba433eb22c4f6ac3a83728d69b870fb3403e73e36a98d75330",
+      "rationale_SHA256": "15494b2829e526426075dcba40db0688aa96f0ff1223d5d0179762f907399ef3",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.1310008296539557,
+          "mean_absolute_shift_sd": 0.1310008296539557,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-malformed",
+      "metadata_SHA256": "bf9b3cba9ab95da67b806d35049ac296299326a669f2d576f84bb95742a1746c",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "c269a0e7ce1b922ebecae08028032fa2a785ca86753d2fbff06f0b350733a57a",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": "malformed_model_content",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "malformed_model_content",
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-http_error",
+      "metadata_SHA256": "6a31bf6603cba40594d039d62a4e434c4d660db4016215446c9d31805bf723a4",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "12f512a256ea688422599ffd2ade34aff8fd73f223143169957a284693c02463",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": "http_503",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "http_503",
+            "http_status": 503,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F1-patient-dropped-2015-proxy-auth-failure",
+      "metadata_SHA256": "78a716997af05fdbaaa507c39723492c735313d3eadbb09dd91aa8f1ddd99af8",
+      "parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+      "rationale_SHA256": "0d952c060b71a2d56bdb7e95e19f43cce207efb942d3822cca3259b1f7ed69be",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "17ed652de05db6b9570d3bfd85b36b4c8213a9e5ce3c5a4b87fe3010b641da09",
+        "candidate_id": "M15-A",
+        "context_SHA256": "90c90371c0239b035b70653b621b3b30447cee2b4644ba5d8ffff7205f930d8b",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2015-03-18",
+            "timestamp": "2015-03-18"
+          },
+          {
+            "id": "macro_release-2015-02-26",
+            "timestamp": "2015-02-26"
+          },
+          {
+            "id": "fomc-minutes-20150128",
+            "timestamp": "2015-02-18"
+          },
+          {
+            "id": "beige_book-2015-01-31",
+            "timestamp": "2015-01-31"
+          },
+          {
+            "id": "fomc-statement-2015-01-28",
+            "timestamp": "2015-01-28"
+          }
+        ],
+        "failure_category": "proxy_authentication_failure",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "proxy_authentication_failure",
+            "http_status": 407,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-new-offline",
+      "metadata_SHA256": "42fc2957b085c033f290ca26534ceb7814dfbf6e6e917471fc7601e2fd7e08a5",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "77c31823ef0dbf955a2dee69c0eaae01c0be976261b85781e792bf1ae800cf7f",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": "endpoint_missing",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": false,
+        "request_sent": false,
+        "requests": [
+          {
+            "failure_category": "endpoint_missing",
+            "http_status": null,
+            "request_attempted": false,
+            "request_sent": false,
+            "response_received": false,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": false,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-old-offline",
+      "metadata_SHA256": "26b8ba6a4604a47942934783976888f3b4c0dd81bfeed7c4d94bdc0c8ed0b359",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "03fc827abf599bee413c4227e87f080f93c44d462b72b9105ef63fd9e69d530c",
+      "receipt": {
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "failure_type": "ValueError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "no_retry": true,
+        "requests_attempted": 0
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-new-uppercase",
+      "metadata_SHA256": "557130cdc453e8bd82675c1e47076b0b0c0905e230777ecfed8dbed43a30c00b",
+      "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+      "rationale_SHA256": "16ab0b1ab79d72e6ab87409ccb7dea757f140b957da581515d46c53631256fe8",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-new-lowercase",
+      "metadata_SHA256": "557130cdc453e8bd82675c1e47076b0b0c0905e230777ecfed8dbed43a30c00b",
+      "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+      "rationale_SHA256": "16ab0b1ab79d72e6ab87409ccb7dea757f140b957da581515d46c53631256fe8",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-old-lowercase",
+      "metadata_SHA256": "2118dca6d2ebb89a8293c7d8817507d041310a1c29374aa83b8f47880d348440",
+      "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+      "rationale_SHA256": "9b65df9d60e87562932a3ed5ec49ea076e674b1d620580c3a6fa4df87351e0b1",
+      "receipt": {
+        "applied": true,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "fallback": null,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "requests_attempted": 1
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-old-uppercase",
+      "metadata_SHA256": "26b8ba6a4604a47942934783976888f3b4c0dd81bfeed7c4d94bdc0c8ed0b359",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "03fc827abf599bee413c4227e87f080f93c44d462b72b9105ef63fd9e69d530c",
+      "receipt": {
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "failure_type": "ValueError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "no_retry": true,
+        "requests_attempted": 0
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-new-repeat",
+      "metadata_SHA256": "557130cdc453e8bd82675c1e47076b0b0c0905e230777ecfed8dbed43a30c00b",
+      "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+      "rationale_SHA256": "16ab0b1ab79d72e6ab87409ccb7dea757f140b957da581515d46c53631256fe8",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-new-HTTPS",
+      "metadata_SHA256": "557130cdc453e8bd82675c1e47076b0b0c0905e230777ecfed8dbed43a30c00b",
+      "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+      "rationale_SHA256": "16ab0b1ab79d72e6ab87409ccb7dea757f140b957da581515d46c53631256fe8",
+      "receipt": {
+        "adjustment_applied": true,
+        "applied": true,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": null,
+        "fallback": null,
+        "fallback_used": false,
+        "geometry": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "location_shift_statistics": {
+          "joint_scenario_labels_SHA256": null,
+          "location_cap_sd": 1.25,
+          "max_absolute_shift_sd": 0.29761527918313174,
+          "mean_absolute_shift_sd": 0.25543297261150266,
+          "scale_fitted": false,
+          "scenario_labels_reused_all_cells": false
+        },
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": null,
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": true
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": true,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-malformed",
+      "metadata_SHA256": "c63879668d892b111bc0f2895f065ee0fe60c6b1ca3897e78edb425b12808c99",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "d1e2cd521163daf44aa6fd0145803cf4782e335c4a5a3d47bb73031a9f6922fc",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": "malformed_model_content",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "malformed_model_content",
+            "http_status": 200,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-http_error",
+      "metadata_SHA256": "7d2dc17f7519af08b8f4b80572040b48594d0c9b4a0f800767893ad31e004abc",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "3f876b58e2db7382b7d4d2808265aec67ae66155ec565995e8ff193525a62025",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": "http_503",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "http_503",
+            "http_status": 503,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    },
+    {
+      "credential_leakage": false,
+      "exit_code": 0,
+      "label": "t2-F3-brexit-joint-2016-proxy-auth-failure",
+      "metadata_SHA256": "5be6e0e210d060f99c5ee5d0c69fcd7408356b08c8af71dde65c7b91845bce55",
+      "parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+      "rationale_SHA256": "64fc9e9e2cc8847783b72c4c4c67c5cb7e59c698d2e8d9f3e66799ff50e515ff",
+      "receipt": {
+        "adjustment_applied": false,
+        "applied": false,
+        "baseline_parquet_SHA256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "candidate_id": "M15-A",
+        "context_SHA256": "f6502e09d238910153003f69b020785bbb93932f8ad8aef2d738bfe9d5e8f824",
+        "documents_used": [
+          {
+            "id": "fomc-statement-2016-06-15",
+            "timestamp": "2016-06-15"
+          },
+          {
+            "id": "bis_yellen_2016-06-06",
+            "timestamp": "2016-06-06"
+          },
+          {
+            "id": "bis_brainard_2016-06-03",
+            "timestamp": "2016-06-03"
+          },
+          {
+            "id": "bis_draghi_2016-06-02",
+            "timestamp": "2016-06-02"
+          },
+          {
+            "id": "beige_book-2016-04-30",
+            "timestamp": "2016-04-30"
+          },
+          {
+            "id": "bis_cunliffe_2016-04-26",
+            "timestamp": "2016-04-26"
+          }
+        ],
+        "failure_category": "proxy_authentication_failure",
+        "failure_type": "HouseError",
+        "fallback": "EXACT_V51_FORECAST_PARQUET",
+        "fallback_used": true,
+        "location_shift_statistics": null,
+        "no_retry": true,
+        "request_attempted": true,
+        "request_sent": true,
+        "requests": [
+          {
+            "failure_category": "proxy_authentication_failure",
+            "http_status": 407,
+            "request_attempted": true,
+            "request_sent": true,
+            "response_received": true,
+            "response_validated": false
+          }
+        ],
+        "requests_attempted": 1,
+        "response_received": true,
+        "response_validated": false,
+        "runtime_revision": "M16_TRANSPORT_REPAIR"
+      }
+    }
+  ],
+  "deterministic_repeat": true,
+  "executive_summary": "Actual Docker synthetic validation. No live House, score, push or submission.",
+  "fallback_byte_exact": true,
+  "frozen_vs_repaired_same_fixture": true,
+  "image_source_files_match": true,
+  "internal_network": true,
+  "old_image": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+  "old_resolved_repo_digests": [
+    "jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92"
+  ],
+  "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+  "passed": true,
+  "registry_push": false,
+  "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+  "temporary_local_image_id": "sha256:9fcf2cef6ae03f3fb77740157eb40ddf681898822ed5ee5ed12eed1ce62028c3",
+  "temporary_registry_manifest_digest": null,
+  "variant": "A"
+}
