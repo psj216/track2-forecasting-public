@@ -1,6 +1,6 @@
 {
-  "executive_summary": "No M16 tests ran because authoritative source checkout failed twice before implementation. Prior M15 tests are not counted as M16 passes.",
-  "status": "NOT_RUN",
+  "executive_summary": "Resume tests have started after independent source recovery. Records are incremental, not Final quality evidence.",
+  "status": "IN_PROGRESS",
   "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
   "new_tests": {
     "passed": 0,
@@ -14,18 +14,22 @@
     "skipped": 0,
     "executed": 0
   },
-  "total_tests_executed": 0,
+  "total_tests_executed": null,
   "prior_m15_mock_cases": 76,
   "prior_m15_cases_reexecuted": 0,
   "stages": {
-    "transport_unit": "NOT_RUN",
-    "house_parser": "NOT_RUN",
-    "fallback": "NOT_RUN",
-    "M15_integration": "NOT_RUN",
-    "affected_package": "NOT_RUN",
-    "full_repository": "NOT_RUN",
-    "container_smoke": "NOT_RUN",
-    "forecast_comparison": "NOT_RUN"
+    "transport_unit": {
+      "passed": 24,
+      "failed": 0
+    },
+    "parser": {
+      "passed": 54,
+      "failed": 0
+    },
+    "baseline_red_control": {
+      "failed": 1,
+      "purpose": "Expected failure on unmodified uppercase-only implementation"
+    }
   },
   "variants": {
     "A": "NOT_RUN",

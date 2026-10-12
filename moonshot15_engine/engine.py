@@ -8,7 +8,7 @@ from pathlib import Path
 import os
 import hashlib
 import numpy as np
-from .official_transport import _house_reply
+from .official_transport import _house_reply, HouseError, new_call_receipt
 ROOT=Path(__file__).parent
 CONFIG=json.loads((ROOT/'config.json').read_text())
 PROMPTS=json.loads((ROOT/'prompts.json').read_text())
@@ -74,17 +74,39 @@ def parse(content,variant,assets,horizons):
     if not isinstance(content,str) or len(content)>100000: raise InvalidReply('response_type_size')
     obj=json.loads(content,object_pairs_hook=duplicate_guard,parse_constant=reject_constant)
     return validate(obj,variant,assets,horizons)
-def request(variant,context):
+def request(variant,context,receipt=None):
+    receipt=new_call_receipt() if receipt is None else receipt
     endpoint=os.environ.get('MODEL_ENDPOINT','')
     model=os.environ.get('MODEL_NAME','')
     token=os.environ.get('MODEL_TOKEN','')
-    if not endpoint or not model or not token: raise InvalidReply('missing_house_configuration')
-    if not os.environ.get('http_proxy'): raise InvalidReply('missing_authenticated_proxy')
-    body=json.dumps({'model':model,'temperature':CONFIG['temperature'],'max_tokens':CONFIG['max_tokens'],'chat_template_kwargs':{'enable_thinking':False},'messages':[{'role':'user','content':PROMPTS[variant]+'\nCONTEXT_JSON\n'+json.dumps(context,sort_keys=True,allow_nan=False)}]},allow_nan=False).encode()
-    payload=_house_reply(endpoint,token,body)
-    choice=payload['choices'][0]
-    if choice.get('finish_reason') not in ['stop',None]: raise InvalidReply('incomplete_response')
-    return parse(choice['message']['content'],variant,context['card']['assets'],context['card']['horizons'])
+    try:
+        if not endpoint: raise HouseError('endpoint_missing')
+        if not model: raise HouseError('model_name_missing')
+        if not token: raise HouseError('token_missing')
+        body=json.dumps({'model':model,'temperature':CONFIG['temperature'],'max_tokens':CONFIG['max_tokens'],'chat_template_kwargs':{'enable_thinking':False},'messages':[{'role':'user','content':PROMPTS[variant]+'\nCONTEXT_JSON\n'+json.dumps(context,sort_keys=True,allow_nan=False)}]},allow_nan=False).encode()
+        payload=_house_reply(endpoint,token,body,receipt)
+        try:
+            choice=payload['choices'][0]
+            content=choice['message']['content']
+            finish=choice.get('finish_reason')
+        except (KeyError,IndexError,TypeError,AttributeError):
+            raise HouseError('malformed_response') from None
+        if finish not in ['stop',None]: raise HouseError('response_incomplete')
+        try:
+            parsed=parse(content,variant,context['card']['assets'],context['card']['horizons'])
+        except json.JSONDecodeError:
+            category='code_fenced_json' if isinstance(content,str) and content.lstrip().startswith('```') else 'malformed_model_content'
+            raise HouseError(category) from None
+        except InvalidReply as exc:
+            category='duplicate_model_json_keys' if str(exc)=='duplicate_JSON_key' else 'schema_rejection'
+            raise HouseError(category) from None
+        except (TypeError,KeyError):
+            raise HouseError('schema_rejection') from None
+        receipt['response_validated']=True
+        return parsed
+    except HouseError as exc:
+        receipt['failure_category']=exc.category
+        raise
 
 def loading(asset):
     table=CONFIG['loadings']

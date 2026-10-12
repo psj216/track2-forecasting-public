@@ -2,11 +2,14 @@
   "executive_summary": "Independent recovery verified; resume at minimal transport repair.",
   "branch": "track2/moonshot-16-house-transport-repair",
   "resume_from_SHA": "74ebc30cbec728a4a739d58064e6f9e5772182b6",
-  "stage": "SOURCE_RECOVERED",
+  "stage": "TRANSPORT_REPAIR_AND_STAGED_TESTS",
   "SOURCE_RECOVERED": true,
   "completed_stages": [
     "authoritative_recovery",
-    "contract_audit"
+    "contract_audit",
+    "minimal_transport_repair",
+    "transport_unit",
+    "parser"
   ],
   "pending_stages": [
     "transport_repair",
@@ -15,5 +18,6 @@
     "container",
     "Final_gate"
   ],
-  "finished": false
+  "finished": false,
+  "last_update_time": "2026-10-12T16:11:58.491421+00:00"
 }
