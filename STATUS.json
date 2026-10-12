@@ -1,32 +1,18 @@
 {
-  "executive_summary": "RELEASE_BLOCKED: transport/container checks passed, while historical test contracts and unavailable parent inputs prevent the global regression gate. V5.1 safe artifact remains preferred.",
-  "phase": "RELEASE_VALIDATION_EVIDENCE_COMPLETE_WITH_BLOCKERS",
-  "timestamp": "2026-10-12T17:09:53.728274+00:00",
-  "branch": "track2/moonshot-16-house-transport-repair",
-  "parent_result_SHA": "86dd18e8b8e3fec65d94c86d22321160eb8e735e",
-  "release_PRE_SHA": "2d09ab540a491bc6692d11b224f4ff4a9cc819cf",
-  "validated_source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
-  "historical_M16_PRE_SHA": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
-  "classification": "RELEASE_BLOCKED",
-  "SOURCE_RECOVERED": true,
-  "TRANSPORT_FIXED": true,
-  "LINT_PASS": true,
-  "M16_TESTS_PASS": true,
-  "REGRESSION_PASS": "BLOCKED",
-  "CONTAINER_SMOKE_PASS": true,
-  "FALLBACK_EXACT": true,
-  "PROVENANCE_VERIFIED": true,
-  "LIVE_HOUSE_VERIFIED": "UNKNOWN",
-  "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
-  "FINAL_ELIGIBLE": false,
-  "full_suite": {
-    "passed": 1285,
-    "failed": 7,
-    "skipped": 23,
-    "blocked": 7
-  },
-  "container_run_id": 38280632093,
-  "container_forecast_processes": 110,
-  "legacy_evidence_preserved_at": "backtesting/moonshot16/release_validation_results/prior-* and original Git history",
-  "next_action": "Preserve M16 as verified mock/runtime candidate. Recover original hash-matching PRICE03 parent inputs and run incompatible historical test contracts only in their genuine historical branch contexts. Keep regression gate BLOCKED until supported evidence closes it. Do not select M16 for Final without live House and independent PIT-safe performance evidence."
+  "branch": "track2/final-decision-01-candidate-audit",
+  "parent_SHA": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+  "stage": "PRE_REMOTE_RECOVERY_COMPLETE",
+  "completed_stages": [
+    "remote_refs"
+  ],
+  "pending_stages": [
+    "v51_provenance",
+    "official_final_contract",
+    "independence",
+    "decision"
+  ],
+  "local_ZIP_bytes_read": false,
+  "new_forecasts": 0,
+  "submissions": 0,
+  "last_update": "2026-10-12T17:30:32.017Z"
 }
