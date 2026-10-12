@@ -1,0 +1,53 @@
+{
+  "executive_summary": "Five official Development draft structures validate; no actual team alias or claim generated in Work.",
+  "toolkit": "2.6.0",
+  "toolkit_commit": "bd01548e34d21fd660d88fd06157078fb25ece4e",
+  "CONTRACT_SET": "1.1.0",
+  "rows": [
+    {
+      "file": "delivery/moonshot15/drafts/M15-A-development.draft.json",
+      "SHA256": "a0bbb44eb1f282bbee0199b3c283cbbbfe370bc2716851e19c13db56f239d919",
+      "official_C5_structure_pass": true,
+      "phase": "dev",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "probe_identity": "public fixture placeholder only; never included in draft",
+      "team_binding": "USER_LOCAL_OFFICIAL_CLI_PENDING"
+    },
+    {
+      "file": "delivery/moonshot15/drafts/M15-B-development.draft.json",
+      "SHA256": "b0c5742fccfca6f9c36373c32e44e51dda2c0fe760686d3145ea2dcfc494eb41",
+      "official_C5_structure_pass": true,
+      "phase": "dev",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "probe_identity": "public fixture placeholder only; never included in draft",
+      "team_binding": "USER_LOCAL_OFFICIAL_CLI_PENDING"
+    },
+    {
+      "file": "delivery/moonshot15/drafts/M15-C-development.draft.json",
+      "SHA256": "69e389fe91a0f180f7d107c733eab25d88d22d8016ed13ce44ebf1128c963cdf",
+      "official_C5_structure_pass": true,
+      "phase": "dev",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "probe_identity": "public fixture placeholder only; never included in draft",
+      "team_binding": "USER_LOCAL_OFFICIAL_CLI_PENDING"
+    },
+    {
+      "file": "delivery/moonshot15/drafts/M15-D-development.draft.json",
+      "SHA256": "ffcb018aec2e43180c5ce6926c1b4795b0f637205c379e3b43631ff5d573a29f",
+      "official_C5_structure_pass": true,
+      "phase": "dev",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "probe_identity": "public fixture placeholder only; never included in draft",
+      "team_binding": "USER_LOCAL_OFFICIAL_CLI_PENDING"
+    },
+    {
+      "file": "delivery/moonshot15/drafts/M15-E-development.draft.json",
+      "SHA256": "59e44b6ab198f78a3363a576993873cbae3d3da42a4697e32ccc7ca99afcd472",
+      "official_C5_structure_pass": true,
+      "phase": "dev",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "probe_identity": "public fixture placeholder only; never included in draft",
+      "team_binding": "USER_LOCAL_OFFICIAL_CLI_PENDING"
+    }
+  ]
+}

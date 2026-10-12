@@ -1,0 +1,12 @@
+{
+  "executive_summary": "First strict-contract validation failed after checker introduced additional BLAS/OMP environment changes; no image code change.",
+  "run_id": 38223358812,
+  "trigger_SHA": "e3339ceb8b0dd23cf14742e046a728a05f9b1691",
+  "assertion": "strict output changed",
+  "unit": "t2-F1-patient-dropped-2015",
+  "phase": "offline",
+  "correction": "Remove checker-added OPENBLAS_NUM_THREADS=1 and OMP_NUM_THREADS=1; retain exact byte equality assertion, uid65534/tmpfs64/PID256 and all candidate digests.",
+  "hypothesis": "Thread configuration can affect floating-point arithmetic; tested by one corrected retry.",
+  "scientific_change": false,
+  "max_same_stage_attempts": 2
+}

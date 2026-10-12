@@ -1,0 +1,403 @@
+{
+  "executive_summary": "Published five independent immutable digests; anonymous pulls and mock/on/offline repeat validation passed.",
+  "run_id": 38222477210,
+  "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "artifact_SHA256": "20efd7f60b365432c3cb3d8597b0e8c04737ca81f2baf1898c4de8e0634a8d66",
+  "candidates": {
+    "A": {
+      "tag": "docker.io/jotj216/track2-f4-approved:m15-a-361018c14bab-38222477210-1",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "digest": "sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "image_id": "sha256:814883d2908e0b547a625b8acd571c7e19610c3a72dc624ebceacec0e92abf2a",
+      "platform": "linux/amd64",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_size": 538389640,
+      "user": "runner",
+      "anonymous_pull_verified": true,
+      "schema_pass": true,
+      "determinism_pass": true,
+      "base_preserved": true,
+      "security_pass": true,
+      "resource_policy": {
+        "cpus": 2,
+        "memory_limit_bytes": 8589934592,
+        "timeout_seconds": 180
+      },
+      "resource_observed": {
+        "max_output_bytes": 50241,
+        "max_wall_seconds": 2.2572751630000027
+      },
+      "live_House_quality": "NOT_EVALUATED",
+      "mock_only": true,
+      "runtime_units": [
+        {
+          "unit": "t2-F1-patient-dropped-2015",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "4ed61a56f7a78413526174a8a0131b957acc22cc7a4b8e8775154778f4a81638",
+          "numeric_array_SHA256": "ed90efe502102bcbadfbb2cfff1875e952ec3d025a22122d2d2784d90748a746",
+          "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+          "House_calls": 1,
+          "max_shift_sd": 0.13100082965395574
+        },
+        {
+          "unit": "t2-F2-eur-parity-2022",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "7ee1988ea5fa014b8fc954ccc2442e38cf1410c9f9f08f8d5a30a33dfd88eff4",
+          "numeric_array_SHA256": "00abf7e1077fa0645f720f6b868a93418a0ec531b4a1caed76d901386fb6dcbd",
+          "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+          "House_calls": 1,
+          "max_shift_sd": 0.2115648988373783
+        },
+        {
+          "unit": "t2-F3-brexit-joint-2016",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+          "numeric_array_SHA256": "0eac82520ce1a5e452e605f468d6afc8fbac4d712284baccd2b2fad83c33b0de",
+          "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+          "House_calls": 1,
+          "max_shift_sd": 0.29761527918313174
+        },
+        {
+          "unit": "t2-F4-funding-stress-2y-2008",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "34410f6d37a10a8d5dff0f22d40395cf617ef65ab8b6d14e2a56ddf2fcadc55e",
+          "numeric_array_SHA256": "be65a02c2f12c910c9c536a83c6d3f495be6cc0a79988478240eff06cb84fccb",
+          "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+          "House_calls": 1,
+          "max_shift_sd": 0.22118803574359092
+        },
+        {
+          "unit": "t2-F4-covid-nfp-2020",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "2f8477fb5aada72be07bdc2e02c8c4bbf7b741de7bf565adb434b0c71c3cf1bd",
+          "numeric_array_SHA256": "ed4b7edc9f7024fcec4cf8981db30f438c0daa7da0618accd77a74a627ae3688",
+          "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+          "House_calls": 1,
+          "max_shift_sd": 0.20738802259820047
+        }
+      ],
+      "offline_exact_fallback_units": 5
+    },
+    "B": {
+      "tag": "docker.io/jotj216/track2-f4-approved:m15-b-361018c14bab-38222477210-1",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "digest": "sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "image_id": "sha256:3664ed2ecf6ae92ed09fb87e9f4384fc517835f77687cee9adcd0124d5dbabdd",
+      "platform": "linux/amd64",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_size": 538389640,
+      "user": "runner",
+      "anonymous_pull_verified": true,
+      "schema_pass": true,
+      "determinism_pass": true,
+      "base_preserved": true,
+      "security_pass": true,
+      "resource_policy": {
+        "cpus": 2,
+        "memory_limit_bytes": 8589934592,
+        "timeout_seconds": 180
+      },
+      "resource_observed": {
+        "max_output_bytes": 50235,
+        "max_wall_seconds": 2.263926674000004
+      },
+      "live_House_quality": "NOT_EVALUATED",
+      "mock_only": true,
+      "runtime_units": [
+        {
+          "unit": "t2-F1-patient-dropped-2015",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "42b5190d020631c33fe5ab0691a7f81fe1b497ca5f479eddbfa69585517a46d7",
+          "numeric_array_SHA256": "7416a60872ce1892cd8dbc7b60356aaf0dec1301e9bc10b0a4dcf892c12b4225",
+          "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+          "House_calls": 1,
+          "max_shift_sd": 0.5599999999999999
+        },
+        {
+          "unit": "t2-F2-eur-parity-2022",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "49ed440480839cf7469712ff43893a111eba746a11d83b9eb879ca133c4b110f",
+          "numeric_array_SHA256": "9e9afcd2107928b6747bb67e5b64094770ba1d8cf9d3f2a19f68baf1c69f5968",
+          "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+          "House_calls": 1,
+          "max_shift_sd": 0.5599999999999999
+        },
+        {
+          "unit": "t2-F3-brexit-joint-2016",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "2088686c4f9b229781830c260d797abe5bcb7c909c1b2a14289299bc9f679791",
+          "numeric_array_SHA256": "4022c088c87f3df6dbb1ca66bf45cd80551d89aeae8b374d4007f914c4d2fba5",
+          "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+          "House_calls": 1,
+          "max_shift_sd": 0.5599999999999999
+        },
+        {
+          "unit": "t2-F4-funding-stress-2y-2008",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "eaa32267339a4c3b52bee0e94b76e61869e0985770fd2acd46e76711ff0120ab",
+          "numeric_array_SHA256": "80902bc6df5f6dfbdb7ff0faff9d0cb9108dc4454cef19fd52445fcfcbe64e37",
+          "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+          "House_calls": 1,
+          "max_shift_sd": 0.5599999999999999
+        },
+        {
+          "unit": "t2-F4-covid-nfp-2020",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "d0eab54a64cabc8453d4c8559c9cf6849086b9645b7c265c3857faa889ad1063",
+          "numeric_array_SHA256": "adf9e3c80bab010194fb5de3589de6f2f15cd8533dfd8d6ce7a7955c76c14254",
+          "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+          "House_calls": 1,
+          "max_shift_sd": 0.5599999999999999
+        }
+      ],
+      "offline_exact_fallback_units": 5
+    },
+    "C": {
+      "tag": "docker.io/jotj216/track2-f4-approved:m15-c-361018c14bab-38222477210-1",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "digest": "sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "image_id": "sha256:f0ab021bbb9abebc7878b275a4488d32afb14dd224b4579490d0bc84eea8c445",
+      "platform": "linux/amd64",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_size": 538389640,
+      "user": "runner",
+      "anonymous_pull_verified": true,
+      "schema_pass": true,
+      "determinism_pass": true,
+      "base_preserved": true,
+      "security_pass": true,
+      "resource_policy": {
+        "cpus": 2,
+        "memory_limit_bytes": 8589934592,
+        "timeout_seconds": 180
+      },
+      "resource_observed": {
+        "max_output_bytes": 50413,
+        "max_wall_seconds": 2.2785161259999995
+      },
+      "live_House_quality": "NOT_EVALUATED",
+      "mock_only": true,
+      "runtime_units": [
+        {
+          "unit": "t2-F1-patient-dropped-2015",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "1e56f533185d3e27be2ff6be5e0e1b3162625ad0ef198e8c9059fe33425495fc",
+          "numeric_array_SHA256": "8b90c6f71f71aef070fbce6c29398edd0d18be19e12eaa51a51a8cbceba64231",
+          "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+          "House_calls": 1,
+          "max_shift_sd": 0.3593165613365643
+        },
+        {
+          "unit": "t2-F2-eur-parity-2022",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "a1bb23c7a0e63567298a529cf73c0e970889bb7825e1c7f17a8a49deaf5ad877",
+          "numeric_array_SHA256": "f88a0241e34dfb2caeff93a41c9264292f165eda88bbc2a9e7ef39808107e2d8",
+          "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+          "House_calls": 1,
+          "max_shift_sd": 0.5802922939539523
+        },
+        {
+          "unit": "t2-F3-brexit-joint-2016",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "4f7bf355654cc22725455d0d718ec8b9c489a6e8e2571998710980780a331250",
+          "numeric_array_SHA256": "101673a8fe562e2fb026d1e59b998a6542c080ea2235a2a07b9538dcda8b5b62",
+          "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+          "House_calls": 1,
+          "max_shift_sd": 0.8163161943308759
+        },
+        {
+          "unit": "t2-F4-funding-stress-2y-2008",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "985fd76fad8fce9d352b693d03021136e120c58154ac21b957cc0a04adb9f4cb",
+          "numeric_array_SHA256": "c20372ffe91b14e63a87a7a39d061b8d54f241810b796eb701903044ddff12dc",
+          "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+          "House_calls": 1,
+          "max_shift_sd": 0.6066871837538494
+        },
+        {
+          "unit": "t2-F4-covid-nfp-2020",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "69ca1f0f91ef1b10cd0803de333a75d1ccc1e75911a32f72f5943f60ed404fe1",
+          "numeric_array_SHA256": "1c582cde84cc8bf1be94204c697a12388d150279f64ef520cc10cdff899288ff",
+          "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+          "House_calls": 1,
+          "max_shift_sd": 0.5688357191264928
+        }
+      ],
+      "offline_exact_fallback_units": 5
+    },
+    "D": {
+      "tag": "docker.io/jotj216/track2-f4-approved:m15-d-361018c14bab-38222477210-1",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "digest": "sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "image_id": "sha256:a19f847d3c2ef20e76538e5531dc0d8742fb74d3358f4dd9cf6b7f29953b5a25",
+      "platform": "linux/amd64",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_size": 538389640,
+      "user": "runner",
+      "anonymous_pull_verified": true,
+      "schema_pass": true,
+      "determinism_pass": true,
+      "base_preserved": true,
+      "security_pass": true,
+      "resource_policy": {
+        "cpus": 2,
+        "memory_limit_bytes": 8589934592,
+        "timeout_seconds": 180
+      },
+      "resource_observed": {
+        "max_output_bytes": 50237,
+        "max_wall_seconds": 2.293375731000026
+      },
+      "live_House_quality": "NOT_EVALUATED",
+      "mock_only": true,
+      "runtime_units": [
+        {
+          "unit": "t2-F1-patient-dropped-2015",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "f26cd426fe957bde7af90a535b4220506a36447a81bc156e33ecf85cbd7f0a32",
+          "numeric_array_SHA256": "5b94f8e330bdc96de58633ed299f4b850dafe3722772659c24cf45c2c2ea9728",
+          "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+          "House_calls": 1,
+          "max_shift_sd": 0.2340272366717356
+        },
+        {
+          "unit": "t2-F2-eur-parity-2022",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "fdbb6bbac3b80cddc106df96f9d3d467a5cb0577798611770fa345dffd030dc4",
+          "numeric_array_SHA256": "ae7abc2c76cfec8fea350d7ad0b60cce51276d0493a7c6791dc45e11a0185c7f",
+          "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+          "House_calls": 1,
+          "max_shift_sd": 0.31395688823771684
+        },
+        {
+          "unit": "t2-F3-brexit-joint-2016",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "a5ac1dedf0b85a056fde7b70a79e0e9b609616a30333f1b4acc506c083d5b2f2",
+          "numeric_array_SHA256": "f31bd5679ce14ffb659e4d054b8a48ae51be732dd334713c23ec2a3dc875537e",
+          "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+          "House_calls": 1,
+          "max_shift_sd": 0.43374321319123343
+        },
+        {
+          "unit": "t2-F4-funding-stress-2y-2008",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "ba3b5883334e76ae72b89e9511e10c0473d5488850bfab238b8794fa58517632",
+          "numeric_array_SHA256": "9d7c79e77c026be2f4ecff13598086c0d81c535f5a942c41f87fb6c4351dfa7f",
+          "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+          "House_calls": 1,
+          "max_shift_sd": 0.4227812792837838
+        },
+        {
+          "unit": "t2-F4-covid-nfp-2020",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "56b7e319dd958558b178b5afbfd118d93ef016de672682d91d34a7e84c1ecf06",
+          "numeric_array_SHA256": "2bfa8299567ff2674b60385147bba5831760401f721dd39e397997a82b2ad586",
+          "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+          "House_calls": 1,
+          "max_shift_sd": 0.18245957875390945
+        }
+      ],
+      "offline_exact_fallback_units": 5
+    },
+    "E": {
+      "tag": "docker.io/jotj216/track2-f4-approved:m15-e-361018c14bab-38222477210-1",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "digest": "sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "image_id": "sha256:7186ce7f1a01d15f6c3c1b495ca709ee4cd3e765339eac514a79c6398088e7e4",
+      "platform": "linux/amd64",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_size": 538389640,
+      "user": "runner",
+      "anonymous_pull_verified": true,
+      "schema_pass": true,
+      "determinism_pass": true,
+      "base_preserved": true,
+      "security_pass": true,
+      "resource_policy": {
+        "cpus": 2,
+        "memory_limit_bytes": 8589934592,
+        "timeout_seconds": 180
+      },
+      "resource_observed": {
+        "max_output_bytes": 50413,
+        "max_wall_seconds": 2.272296906000008
+      },
+      "live_House_quality": "NOT_EVALUATED",
+      "mock_only": true,
+      "runtime_units": [
+        {
+          "unit": "t2-F1-patient-dropped-2015",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "699208f728becf85e8b4f420207c5e169a72e0c3af0bdbb23b5fa8578cc09ab8",
+          "numeric_array_SHA256": "5a6d8dd1584e972e3da5e914ee8023854dcd235258d33b53e07fde4fc9783b98",
+          "draw_order_SHA256": "4633200671139e14321b9b9370b42732b1fd9f05016bf66f42e5bad0646d7fb1",
+          "House_calls": 2,
+          "max_shift_sd": 0.5276354993795009
+        },
+        {
+          "unit": "t2-F2-eur-parity-2022",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "559b86ed69761823d16f5f2de4c3e0b8b1772ae6cdc831249b070968363fda8f",
+          "numeric_array_SHA256": "cc8cc0b02f94511e35dec3606bcc7f1db9fd38240cbd181da2a4f6761eae9f67",
+          "draw_order_SHA256": "f51d29fcd048b7c354ddd284b10b194dd4e7ab4f75338c39d937e3757b0771f5",
+          "House_calls": 2,
+          "max_shift_sd": 0.5681169175815808
+        },
+        {
+          "unit": "t2-F3-brexit-joint-2016",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "20cb0126496aacea2f85d6313111a0e8097ddc4f9eea991ff4941c1287efd9c9",
+          "numeric_array_SHA256": "0f4103bf016039c14b3e690698c4ae43df75b6eb2f4e5548e88807a6461aa8c4",
+          "draw_order_SHA256": "9abbec35a9e6f33b2698140f437896705cb26e82fe05493b9bc51988f620e252",
+          "House_calls": 2,
+          "max_shift_sd": 0.7713686369764671
+        },
+        {
+          "unit": "t2-F4-funding-stress-2y-2008",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "e4dcb3f2db2f81a3e08fe25c85c74a6facbd9235938bd8bf18c9c6664e4435a5",
+          "numeric_array_SHA256": "e27a12827274afc0b5b05da80c55694cb1f300820edf3ec787ea660ce4933366",
+          "draw_order_SHA256": "f3b64e946db1449fe7371b4008610f4a1dea96086814641745b6350d672eb8fa",
+          "House_calls": 2,
+          "max_shift_sd": 0.659566498002053
+        },
+        {
+          "unit": "t2-F4-covid-nfp-2020",
+          "schema_pass": true,
+          "deterministic_repetitions": 3,
+          "parquet_SHA256": "9fa824db24e461dc13c98b7b73ecb8cf07ca241323568d04a60c642da39e7ec5",
+          "numeric_array_SHA256": "8eb258ede708caa42bf52cb3bd2bce1be4711cf69524b371343498900dc97625",
+          "draw_order_SHA256": "cc21988c4cb53c204bfd8355cd5cc2f5afff2884c1208954264ead8624137cc7",
+          "House_calls": 2,
+          "max_shift_sd": 0.6393790502007961
+        }
+      ],
+      "offline_exact_fallback_units": 5
+    }
+  }
+}

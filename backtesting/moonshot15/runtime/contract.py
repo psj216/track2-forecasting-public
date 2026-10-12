@@ -23,12 +23,13 @@ try:
    path=ROOT/'units'/u;asof=tomllib.loads((path/'card.toml').read_text())['provenance']['data_cutoff']
    for active in [False,True]:
     name=f'strict-{v}-{j}-'+str(active);out=W/name;out.mkdir(exist_ok=True);out.chmod(0o777)
-    cmd=['docker','run','--rm','--network','m15-internal' if active else 'none','--read-only','--user','65534:65534','--cap-drop','ALL','--security-opt','no-new-privileges','--pids-limit','256','--ulimit','nofile=1024:1024','--ulimit','nproc=256:256','--tmpfs','/tmp:rw,nosuid,nodev,size=64m','--memory','8g','--cpus','2','-e','HOME=/nonexistent','-e','OPENBLAS_NUM_THREADS=1','-e','OMP_NUM_THREADS=1','-v',str(path)+':/input:ro','-v',str(out)+':/output']
+    cmd=['docker','run','--rm','--network','m15-internal' if active else 'none','--read-only','--user','65534:65534','--cap-drop','ALL','--security-opt','no-new-privileges','--pids-limit','256','--ulimit','nofile=1024:1024','--ulimit','nproc=256:256','--tmpfs','/tmp:rw,nosuid,nodev,size=64m','--memory','8g','--cpus','2','-e','HOME=/nonexistent','-e','-v',str(path)+':/input:ro','-v',str(out)+':/output']
     if active:
      for k,val in {'MODEL_ENDPOINT':'http://house.test:8000','MODEL_NAME':'synthetic-house-contract-test','MODEL_TOKEN':'synthetic-testing-only','http_proxy':'http://testuser:testpass@m15-proxy:8080'}.items():cmd+=['-e',k+'='+val]
     cmd+=[image,'forecast','--panels','/input','--text','/input/text','--asof',asof,'--out','/output/forecast.parquet']
     _,wall=f.command(cmd,name,180)
     r=f.gate.validate_output(out,path,asof)
+    f.save('last-strict-cell.json',{'candidate':v,'unit':u,'active':active,'receipt':r,'frozen_parquet_SHA256':source['active' if active else 'offline'][u]})
     assert r['hashes']['forecast.parquet']==source['active' if active else 'offline'][u],'strict output changed'
     m=json.loads((out/'forecast_meta.json').read_text())['moonshot15'];assert m['applied']==active
     r.update({'candidate':v,'unit':u,'active_mock_House':active,'wall_seconds':wall,'matches_original_parquet':True,'uid':65534,'tmpfs_bytes':67108864,'PID_limit':256,'output_tree_bytes':sum(p.stat().st_size for p in out.iterdir() if p.is_file())})
