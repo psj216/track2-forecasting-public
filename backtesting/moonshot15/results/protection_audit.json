@@ -1,0 +1,9 @@
+{
+  "executive_summary": "V51 source and original Dockerfile unchanged; image engine identical to published source.",
+  "V51_source_protected": true,
+  "M15_image_engine_unchanged_since_build": true,
+  "scientific_PRE_config_prompts_unchanged": true,
+  "Final_safe_artifact": "User local file never requested/read/modified",
+  "main_at_start": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "parent_lineage": "6d59afdfd75c72947b1341ee6028f62672e15700"
+}

@@ -1,0 +1,26 @@
+{
+  "CONTRACT_SET": "1.1.0",
+  "account_remaining_attempts": "Not queried; user supplied five-shot allowance; this task consumed0",
+  "category": "api",
+  "competition_id": "agenthon2026-forecasting-dev",
+  "deadline_AoE": "2026-10-12T23:59:00-12:00",
+  "deadline_KST": "2026-10-13T20:59:00+09:00",
+  "executive_summary": "Current Development contract and official House disclosure verified; forecast-schema rules unchanged between inherited2.4.2 and current2.6.0.",
+  "forecast_rationale_required_and_present": true,
+  "forecast_schema_validation_rules_equal_242_260": true,
+  "model_disclosure": {
+    "access": "api",
+    "name": "nvidia/nemotron-3-super-120b-a12b",
+    "revision": "rl-030326-fp8",
+    "training_cutoff": "unpublished",
+    "version": "rl-030326-fp8"
+  },
+  "official_hub_SHA": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+  "official_track_SHA": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec",
+  "packaging_toolkit": "2.6.0",
+  "phase": "dev",
+  "schema_difference": "Description text only",
+  "toolkit_SHA": "bd01548e34d21fd660d88fd06157078fb25ece4e",
+  "total_Development_limit": 20,
+  "uploads_per_day": 5
+}

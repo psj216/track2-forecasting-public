@@ -1,0 +1,33 @@
+{
+  "actual_Development_scores": 0,
+  "actual_submissions": 0,
+  "build_conclusion": "success",
+  "build_run_id": 38222477210,
+  "build_trigger_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "candidate_source_images_unchanged": true,
+  "executive_summary": "Original build/publication passed; strict checker operational failures preserved, user-authorized resume completed same-runner strict validation.",
+  "final_test_setup": "Original V51 and published candidates compared on same runner/flags; exact byte fallback and all3repeat gates retained",
+  "generic_Track2_CI": "Not green: inherited missing research dependencies(sklearn/bs4) and historical style findings. No claim that repository generic CI is clean; M15 factory and restored local full suite passed.",
+  "historical_test_assertions_unchanged": true,
+  "no_rebuild_after_publication": true,
+  "prior_failures": [
+    {
+      "cause": "cross-run parquet mismatch; checker also changed thread environment",
+      "run_id": 38223358812
+    },
+    {
+      "cause": "operator left dangling -e; Docker exit125",
+      "run_id": 38223684144
+    },
+    {
+      "cause": "cross-run numeric hash mismatch persisted after argument repair",
+      "run_id": 38224397410
+    }
+  ],
+  "scientific_PRE_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
+  "scoring_functions_called": 0,
+  "strict_conclusion": "success",
+  "strict_run_id": 38224984410,
+  "strict_trigger_SHA": "0722ca570f62481c4d6910590c59c635f31f3b0a",
+  "user_authorized_resume": "2026-10-12 17:32 KST continue/finish"
+}

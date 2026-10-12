@@ -1,0 +1,15 @@
+{
+  "CODABENCH_UPLOADS": 0,
+  "DEVELOPMENT_ATTEMPTS_CONSUMED": 0,
+  "NEXT": "USER_LOCAL_PACK_FIVE_DEVELOPMENT_DRAFTS",
+  "READY_FOR_5_DEVELOPMENT_SHOTS": true,
+  "TEAM_KEY_USED_IN_WORK": false,
+  "V51_FINAL_SAFE_ARTIFACT_UNCHANGED": true,
+  "actual_team_bound_ZIPs": "User-local official hidden prompt pending; never generated with real key in Work",
+  "classification": "READY_FOR_5_DEVELOPMENT_SHOTS",
+  "executive_summary": "All five frozen runnable immutable Development candidates and non-secret local pack handoff are ready. No alpha/official score claim.",
+  "frozen_source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "live_House_quality": "NOT_MEASURED",
+  "no_Development_score_seen": true,
+  "no_amplitude_tuning": true
+}

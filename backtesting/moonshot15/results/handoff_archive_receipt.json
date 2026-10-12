@@ -1,0 +1,24 @@
+{
+  "CRC_PASS": true,
+  "SHA256": "ca0443a417c592645e00551d49324fbf595cfa1b3bdb301920f4b4682072aeeb",
+  "executive_summary": "Portable five-draft handoff ZIP verified; no actual team claim, secrets or Final material.",
+  "file": "MOONSHOT15-local-handoff.zip",
+  "member_SHA256_PASS": true,
+  "members": [
+    "ARTIFACT-PROVENANCE-M15.md",
+    "FROZEN_IMAGES.json",
+    "IMAGE_SOURCE.txt",
+    "LICENSE",
+    "MOONSHOT15_FROZEN_5SHOT.json",
+    "README.md",
+    "RECOVERY.md",
+    "VALIDATION_RECEIPT.json",
+    "drafts/M15-A-development.draft.json",
+    "drafts/M15-B-development.draft.json",
+    "drafts/M15-C-development.draft.json",
+    "drafts/M15-D-development.draft.json",
+    "drafts/M15-E-development.draft.json",
+    "pack_five.py"
+  ],
+  "size_bytes": 15164
+}

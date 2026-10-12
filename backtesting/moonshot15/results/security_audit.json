@@ -1,0 +1,13 @@
+{
+  "Team_Key_used": false,
+  "actual_credentials": "Only existing DockerHub secret consumed inside isolated Actions publishing step, never read by Work or put in images/artifacts",
+  "added_source_secret_signature_pass": true,
+  "base_image_security_pass": true,
+  "build_context": "moonshot15_engine only, no unit inputs or research cache",
+  "executive_summary": "Base image full-filesystem inspection passed; isolated added-source/build-context scan found no credential signatures or answer artifacts.",
+  "historical_future_paths": "NONE_ADDED",
+  "image_neural_weights": "NONE_ADDED",
+  "limitations": "Pattern scans do not prove absence of every possible encoded secret",
+  "mock_credentials": "Synthetic constants only in validation scripts outside image build context",
+  "runtime_API_credentials": "Injected only at runtime; exception texts and raw responses never logged"
+}

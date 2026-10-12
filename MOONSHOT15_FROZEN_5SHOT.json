@@ -1,47 +1,132 @@
 {
+  "CODABENCH_UPLOADS": 0,
+  "DEVELOPMENT_ATTEMPTS_CONSUMED": 0,
+  "Development_scores_seen": 0,
+  "READY_FOR_5_DEVELOPMENT_SHOTS": true,
+  "TEAM_KEY_USED_IN_WORK": false,
+  "V51_FINAL_SAFE_ARTIFACT_UNCHANGED": true,
   "candidates": {
     "A": {
+      "anonymous_pull_verified": true,
       "candidate_id": "M15-A",
+      "descriptor_draft_SHA256": "dadff44fb21b88ac325eee3cea129304a831995d2128ab0f1e7a78dac0d87551",
+      "fallback": "EXACT_V51_FORECAST_PARQUET",
+      "image_digest": "sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "image_id": "sha256:814883d2908e0b547a625b8acd571c7e19610c3a72dc624ebceacec0e92abf2a",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
       "location_cap_sd": 1.25,
       "mechanism": "HOUSE_FACTOR_FORCE",
-      "requests": 1
+      "no_hidden_label_tuning": true,
+      "platform": "linux/amd64",
+      "prompt_SHA256": "0e3975e55f66fa312be05ec60b169e0f062c9f27ca6c3d0c5dfab4231d994e10",
+      "requests": 1,
+      "scenario_settings": null,
+      "shared_config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "variant_config_SHA256": "75da69b653b12f190c50586d55b005d82b4fc757ddf4098cfdd31e9a853661b0"
     },
     "B": {
+      "anonymous_pull_verified": true,
       "candidate_id": "M15-B",
+      "descriptor_draft_SHA256": "4ef7642b870915d7ed293ee4de43d915e71e3092356e8ee566440783c19a51a4",
+      "fallback": "EXACT_V51_FORECAST_PARQUET",
+      "image_digest": "sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "image_id": "sha256:3664ed2ecf6ae92ed09fb87e9f4384fc517835f77687cee9adcd0124d5dbabdd",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
       "location_cap_sd": 2.5,
       "mechanism": "DIRECT_ASSET_HORIZON_LOCATION",
-      "requests": 1
+      "no_hidden_label_tuning": true,
+      "platform": "linux/amd64",
+      "prompt_SHA256": "f4d9c36c9fea07532639d9c31d62b59609aed8aa315b0af85d7bf5c248e8bb7a",
+      "requests": 1,
+      "scenario_settings": null,
+      "shared_config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "variant_config_SHA256": "1d63d68c5617db2af00a578758e40c65c87bd9214ff738d3ef538d5e0e189349"
     },
     "C": {
+      "anonymous_pull_verified": true,
       "candidate_id": "M15-C",
+      "descriptor_draft_SHA256": "0f4fd954cda8d651cd8035c8e64880f1ea42cf978149a746566d34e7b3adbaa0",
+      "fallback": "EXACT_V51_FORECAST_PARQUET",
+      "image_digest": "sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "image_id": "sha256:f0ab021bbb9abebc7878b275a4488d32afb14dd224b4579490d0bc84eea8c445",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
       "location_cap_sd": 3.0,
       "mechanism": "COHERENT_SCENARIO_MIXTURE",
-      "requests": 1
+      "no_hidden_label_tuning": true,
+      "platform": "linux/amd64",
+      "prompt_SHA256": "faddfd5f8af181bb2088392f7ed7014932fe564a2aaf4d3dd2bd68cbce5093f7",
+      "requests": 1,
+      "scenario_settings": {
+        "labels": "one shared scenario per joint draw",
+        "scenario_count": [
+          3,
+          5
+        ],
+        "seed": 31815
+      },
+      "shared_config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "variant_config_SHA256": "94fe21466b5de0f1d668e8801bc10e989933e905f8701976c814c6cecf03489f"
     },
     "D": {
+      "anonymous_pull_verified": true,
       "candidate_id": "M15-D",
+      "descriptor_draft_SHA256": "0c9c159ff94cba1e37a510669a741f57cadcf3721d448d3d52723be24c7a68aa",
+      "fallback": "EXACT_V51_FORECAST_PARQUET",
+      "image_digest": "sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "image_id": "sha256:a19f847d3c2ef20e76538e5531dc0d8742fb74d3358f4dd9cf6b7f29953b5a25",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
       "location_cap_sd": 2.0,
       "mechanism": "SEMANTIC_REGIME_SHIFT",
-      "requests": 1
+      "no_hidden_label_tuning": true,
+      "platform": "linux/amd64",
+      "prompt_SHA256": "ddf7f043c49372d1e267337bc69462dcb525d39a06d64c07f3a9aba6359e9912",
+      "requests": 1,
+      "scenario_settings": null,
+      "shared_config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "variant_config_SHA256": "ac98777ac7f2cd22cf1002fbcee702004a93d6e59277b1ca2d22c9dbf51bd67e"
     },
     "E": {
+      "anonymous_pull_verified": true,
       "candidate_id": "M15-E",
+      "descriptor_draft_SHA256": "c507594c38c29fc1d539c3bfcf1424595454bbf6d57709daf687d86bada7ccdd",
+      "fallback": "EXACT_V51_FORECAST_PARQUET",
+      "image_digest": "sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "image_id": "sha256:7186ce7f1a01d15f6c3c1b495ca709ee4cd3e765339eac514a79c6398088e7e4",
+      "image_reference": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
       "location_cap_sd": 4.0,
       "mechanism": "TWO_STAGE_AGGRESSIVE_HYBRID",
-      "requests": 2
+      "no_hidden_label_tuning": true,
+      "platform": "linux/amd64",
+      "prompt_SHA256": "892a8a7bd215974b3945e553ab2324a239899bf0e54213d2a8d34d0a92dc6ae2",
+      "requests": 2,
+      "scenario_settings": {
+        "labels": "one shared scenario per joint draw",
+        "scenario_count": [
+          3,
+          5
+        ],
+        "seed": 31815
+      },
+      "shared_config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+      "variant_config_SHA256": "7d83ba4ee52fcd21243eb976df95721160198ccfa1fa533963506146c830e241"
     }
   },
-  "config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
-  "executive_summary": "Initial scientific freeze; image digests and descriptor hashes bind tested delivery outputs later without scientific changes.",
+  "config_file_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+  "executive_summary": "Five mechanism definitions and tested delivery identities bound before any Development score. Final readiness awaits strict-current-contract receipt.",
+  "historical_or_Development_scoring": "NOT_RUN",
+  "independent_OOS": false,
+  "live_House_forecast_quality": "NOT_MEASURED",
+  "local_team_claim": "USER_LOCAL_OFFICIAL_CLI_PENDING",
   "no_hidden_label_tuning": true,
-  "prompt_SHA256": {
-    "A": "0e3975e55f66fa312be05ec60b169e0f062c9f27ca6c3d0c5dfab4231d994e10",
-    "B": "f4d9c36c9fea07532639d9c31d62b59609aed8aa315b0af85d7bf5c248e8bb7a",
-    "C": "faddfd5f8af181bb2088392f7ed7014932fe564a2aaf4d3dd2bd68cbce5093f7",
-    "D": "ddf7f043c49372d1e267337bc69462dcb525d39a06d64c07f3a9aba6359e9912",
-    "E1": "da131c925588b79ea59937637c8f566f0436a16b21592efc0b153b9047d8361d",
-    "E2": "83c59232fb249d6c4b0fa18d316c49f55fcdc65732ed2e834ac7e821af3f7115"
-  },
-  "ready": false,
-  "stage": "PRE"
+  "runtime_parent_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "scientific_PRE_SHA": "79915f93fb4de3463a7cd66cfc133e44658a4720",
+  "source_SHA": "361018c14bab3cb7d8da101aa332066644921bac",
+  "stage": "FINAL_DELIVERY_FREEZE",
+  "strict_validation_artifact_SHA256": "f5badaadf6b7661504f073792515bbac15565564795f806f310ba7aadd2fff9f",
+  "strict_validation_run_id": 38224984410
 }
