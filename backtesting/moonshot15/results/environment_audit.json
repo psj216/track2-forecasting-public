@@ -1,0 +1,12 @@
+{
+  "DELIVERY_REFERENCE_SHA": "a26b2b0b405ad53f87c460a72e02989ca42f8abc",
+  "MAIN_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+  "Team_Key_used": false,
+  "V51_RUNTIME_PARENT_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "actual_uploads": 0,
+  "executive_summary": "Actual remote refs resolved; restored bundle origin was not used as authority.",
+  "historical_09541_artifact_identity": "UNRESOLVED",
+  "local_docker": false,
+  "safe_image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "safe_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf"
+}

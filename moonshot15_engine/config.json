@@ -1,0 +1,268 @@
+{
+  "document_chars": 1200,
+  "enable_thinking": false,
+  "executive_summary": "Five outcome-blind House mechanisms; exact V5.1 fallback; no score selection.",
+  "factors": [
+    "Growth",
+    "Inflation",
+    "Policy",
+    "Liquidity",
+    "Risk",
+    "USD",
+    "Commodity"
+  ],
+  "fallback": "EXACT_V51_FORECAST_PARQUET",
+  "horizon_decay": "exp(-h/persistence_bd)",
+  "hybrid_confidence_gate": 0.6,
+  "hybrid_direct_weight": 0.6,
+  "hybrid_scenario_weight": 0.4,
+  "loadings": {
+    "BAB": [
+      0.2,
+      -0.2,
+      -0.4,
+      0.5,
+      -0.5,
+      0,
+      0
+    ],
+    "CPI": [
+      0.2,
+      1,
+      0.1,
+      0,
+      0,
+      0,
+      0.4
+    ],
+    "FOREIGN_PER_USD": [
+      -0.1,
+      0.1,
+      0.25,
+      -0.25,
+      0.4,
+      1,
+      -0.1
+    ],
+    "HML": [
+      0.3,
+      0.3,
+      0.2,
+      0.2,
+      -0.4,
+      -0.1,
+      0.2
+    ],
+    "MKT": [
+      0.7,
+      -0.3,
+      -0.4,
+      0.6,
+      -1,
+      -0.2,
+      0.1
+    ],
+    "MOM": [
+      0.1,
+      0,
+      0,
+      0.1,
+      -0.1,
+      0,
+      0
+    ],
+    "NFP": [
+      1,
+      0,
+      -0.2,
+      0.2,
+      -0.3,
+      0,
+      0
+    ],
+    "PCE": [
+      0.2,
+      1,
+      0.1,
+      0,
+      0,
+      0,
+      0.3
+    ],
+    "QMJ": [
+      0.2,
+      -0.1,
+      -0.1,
+      0.2,
+      0.2,
+      0,
+      0
+    ],
+    "RATE": [
+      0.5,
+      0.7,
+      1,
+      -0.2,
+      -0.4,
+      0.1,
+      0.2
+    ],
+    "SMB": [
+      0.6,
+      -0.2,
+      -0.4,
+      0.7,
+      -0.8,
+      -0.1,
+      0.1
+    ],
+    "UNRATE": [
+      -1,
+      0,
+      0.2,
+      -0.2,
+      0.3,
+      0,
+      0
+    ],
+    "USD_PER_FOREIGN": [
+      0.1,
+      -0.1,
+      -0.25,
+      0.25,
+      -0.4,
+      -1,
+      0.1
+    ]
+  },
+  "max_documents": 8,
+  "max_response_bytes": 1048576,
+  "max_tokens": 4000,
+  "no_hidden_label_tuning": true,
+  "numeric_windows": [
+    5,
+    21,
+    63
+  ],
+  "persistence_bd": [
+    5,
+    21,
+    63,
+    126,
+    252
+  ],
+  "regimes": {
+    "demand_expansion": [
+      1,
+      0.4,
+      0.4,
+      0.2,
+      -0.4,
+      0,
+      0.3
+    ],
+    "disinflation_easing": [
+      0.2,
+      -1,
+      -1,
+      0.6,
+      -0.3,
+      -0.4,
+      -0.2
+    ],
+    "inflation_tightening": [
+      -0.3,
+      1,
+      1,
+      -0.4,
+      0.3,
+      0.5,
+      0.3
+    ],
+    "liquidity_stress": [
+      -0.8,
+      -0.2,
+      -0.3,
+      -1,
+      1,
+      0.8,
+      -0.6
+    ],
+    "neutral": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "risk_recovery": [
+      0.6,
+      0,
+      -0.2,
+      1,
+      -1,
+      -0.4,
+      0.3
+    ],
+    "supply_stagflation": [
+      -0.8,
+      1,
+      0.4,
+      -0.3,
+      0.7,
+      0.3,
+      1
+    ],
+    "usd_divergence": [
+      0,
+      0,
+      0.3,
+      0,
+      0.3,
+      1,
+      -0.3
+    ]
+  },
+  "retry_count": 0,
+  "scenario_max": 5,
+  "scenario_min": 3,
+  "seed": 31815,
+  "temperature": 0,
+  "text_budget_chars": 9600,
+  "timeout_seconds": 60,
+  "unknown_asset_loading": "zero",
+  "variants": {
+    "A": {
+      "candidate_id": "M15-A",
+      "location_cap_sd": 1.25,
+      "mechanism": "HOUSE_FACTOR_FORCE",
+      "requests": 1
+    },
+    "B": {
+      "candidate_id": "M15-B",
+      "location_cap_sd": 2.5,
+      "mechanism": "DIRECT_ASSET_HORIZON_LOCATION",
+      "requests": 1
+    },
+    "C": {
+      "candidate_id": "M15-C",
+      "location_cap_sd": 3.0,
+      "mechanism": "COHERENT_SCENARIO_MIXTURE",
+      "requests": 1
+    },
+    "D": {
+      "candidate_id": "M15-D",
+      "location_cap_sd": 2.0,
+      "mechanism": "SEMANTIC_REGIME_SHIFT",
+      "requests": 1
+    },
+    "E": {
+      "candidate_id": "M15-E",
+      "location_cap_sd": 4.0,
+      "mechanism": "TWO_STAGE_AGGRESSIVE_HYBRID",
+      "requests": 2
+    }
+  }
+}

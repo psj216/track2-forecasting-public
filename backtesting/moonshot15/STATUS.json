@@ -1,0 +1,23 @@
+{
+  "Development_attempts_consumed": 0,
+  "HEAD_SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+  "branch": "track2/moonshot-15-house-location-5shot",
+  "completed": [
+    "remote_recovery",
+    "contract_audit",
+    "prior_mechanism_audit",
+    "5shot_specification"
+  ],
+  "executive_summary": "Scientific freeze prepared, implementation and delivery pending.",
+  "pending": [
+    "PRE_remote_binding",
+    "implementation",
+    "tests",
+    "images",
+    "descriptors",
+    "handoff",
+    "final_freeze"
+  ],
+  "stage": "PRE_READY",
+  "uploads": 0
+}

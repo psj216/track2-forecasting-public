@@ -1,0 +1,47 @@
+{
+  "candidates": {
+    "A": {
+      "candidate_id": "M15-A",
+      "location_cap_sd": 1.25,
+      "mechanism": "HOUSE_FACTOR_FORCE",
+      "requests": 1
+    },
+    "B": {
+      "candidate_id": "M15-B",
+      "location_cap_sd": 2.5,
+      "mechanism": "DIRECT_ASSET_HORIZON_LOCATION",
+      "requests": 1
+    },
+    "C": {
+      "candidate_id": "M15-C",
+      "location_cap_sd": 3.0,
+      "mechanism": "COHERENT_SCENARIO_MIXTURE",
+      "requests": 1
+    },
+    "D": {
+      "candidate_id": "M15-D",
+      "location_cap_sd": 2.0,
+      "mechanism": "SEMANTIC_REGIME_SHIFT",
+      "requests": 1
+    },
+    "E": {
+      "candidate_id": "M15-E",
+      "location_cap_sd": 4.0,
+      "mechanism": "TWO_STAGE_AGGRESSIVE_HYBRID",
+      "requests": 2
+    }
+  },
+  "config_SHA256": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+  "executive_summary": "Initial scientific freeze; image digests and descriptor hashes bind tested delivery outputs later without scientific changes.",
+  "no_hidden_label_tuning": true,
+  "prompt_SHA256": {
+    "A": "0e3975e55f66fa312be05ec60b169e0f062c9f27ca6c3d0c5dfab4231d994e10",
+    "B": "f4d9c36c9fea07532639d9c31d62b59609aed8aa315b0af85d7bf5c248e8bb7a",
+    "C": "faddfd5f8af181bb2088392f7ed7014932fe564a2aaf4d3dd2bd68cbce5093f7",
+    "D": "ddf7f043c49372d1e267337bc69462dcb525d39a06d64c07f3a9aba6359e9912",
+    "E1": "da131c925588b79ea59937637c8f566f0436a16b21592efc0b153b9047d8361d",
+    "E2": "83c59232fb249d6c4b0fa18d316c49f55fcdc65732ed2e834ac7e821af3f7115"
+  },
+  "ready": false,
+  "stage": "PRE"
+}

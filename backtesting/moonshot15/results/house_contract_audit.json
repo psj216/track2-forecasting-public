@@ -1,0 +1,16 @@
+{
+  "approved_model": "nvidia/nemotron-3-super-120b-a12b@rl-030326-fp8",
+  "endpoint_path": "/v1/chat/completions",
+  "executive_summary": "House-only function copied literally from current official reasoning baseline.",
+  "live_House_credentials": "NOT_PRESENT_IN_WORK",
+  "maximum_calls": 2,
+  "no_direct_vendor_fallback": true,
+  "official_file_SHA256": "fc7668dc42a757a634df37bfcc331de1377cdbf380b49c04e1137f8578cd83c9",
+  "runtime_env": [
+    "MODEL_ENDPOINT",
+    "MODEL_NAME",
+    "MODEL_TOKEN",
+    "http_proxy"
+  ],
+  "transport_function_SHA256": "67868381ea1fe0b966e98610d9acf016ff5537e200248a84f77aae7650ea3e6a"
+}
