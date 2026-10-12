@@ -1,27 +1,19 @@
 {
-  "executive_summary": "PHASE 0 recovery stopped by the two-failure rule; evidence checkpoint remains recoverable.",
+  "executive_summary": "Independent recovery verified; resume at minimal transport repair.",
   "branch": "track2/moonshot-16-house-transport-repair",
-  "parent_sha": "361018c14bab3cb7d8da101aa332066644921bac",
-  "stage": "STOPPED_PHASE_0",
+  "resume_from_SHA": "74ebc30cbec728a4a739d58064e6f9e5772182b6",
+  "stage": "SOURCE_RECOVERED",
+  "SOURCE_RECOVERED": true,
   "completed_stages": [
-    "authoritative_remote_ref_and_receipt_reads",
-    "official_contract_reads",
-    "remote_M16_branch_created_at_exact_frozen_commit"
+    "authoritative_recovery",
+    "contract_audit"
   ],
   "pending_stages": [
-    "complete_authoritative_local_checkout",
-    "PHASE_2_transport_repair",
-    "PHASE_3_controlled_tests",
-    "PHASE_4_regression_and_container",
-    "PHASE_5_comparison",
-    "PHASE_6_final_gate_with_new_evidence"
+    "transport_repair",
+    "staged_tests",
+    "comparison",
+    "container",
+    "Final_gate"
   ],
-  "same_step_failure_count": 2,
-  "last_successful_artifact": "MOONSHOT16-REPORT.md",
-  "last_update_time": "2026-10-12T15:48:37.493Z",
-  "implementation_complete": false,
-  "tests_complete": false,
-  "finished": false,
-  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
-  "result_type": "STOPPED_RECOVERY_EVIDENCE_ONLY"
+  "finished": false
 }

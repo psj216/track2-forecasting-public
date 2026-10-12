@@ -86,5 +86,23 @@
   "protected_runtime_files_changed": false,
   "team_key_used": false,
   "live_house_token_used": false,
-  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b"
+  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
+  "resume_recovery": {
+    "method": "Independent git clone --no-checkout --single-branch from official github.com origin, followed by git restore HEAD",
+    "HEAD": "74ebc30cbec728a4a739d58064e6f9e5772182b6",
+    "history_verified": true,
+    "frozen_commit_exists": true,
+    "frozen_tree_exists": true,
+    "fsck_full_passed": true,
+    "alternates_present": false,
+    "working_tree_clean_before_updates": true,
+    "protected_source_SHA256": {
+      "moonshot15_engine/config.json": "8f0e27f421fdc77364779d51c307d38eaf1264fe0f5769bc2d82cb0b85890e87",
+      "moonshot15_engine/prompts.json": "788b318dde51cccf43eea6e77ab1bcd89bd2b47f9b80912f22abc9243014abe8",
+      "moonshot15_engine/context.py": "eb1f43616772d7d95b6c604e46f3b764464d3482c1f135fd574aee0275bad432",
+      "moonshot15_engine/entrypoint.py": "0f339b29ed0c43aea36f8b8df7530bfe121f663b1b07f453cf52ccb9667b3736",
+      "tests/test_moonshot15.py": "d2df4a04d23dfd10206f2c2ca4e0b9a232cb9fb3d83094cc9108677f2d7dc14a"
+    },
+    "old_shared_object_store_used": false
+  }
 }
