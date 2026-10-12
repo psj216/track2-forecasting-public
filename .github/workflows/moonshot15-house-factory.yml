@@ -1,0 +1,52 @@
+# ## Executive summary (read this first)
+# Branch-only five-image validation/publishing; no submission or access to hidden labels.
+name: Moonshot15 House Candidate Factory
+on:
+  push:
+    branches: [track2/moonshot-15-house-location-5shot]
+    paths:
+      - '.github/workflows/moonshot15-house-factory.yml'
+      - 'moonshot15_engine/**'
+      - 'backtesting/moonshot15/runtime/**'
+permissions:
+  contents: read
+jobs:
+  validate-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - uses: actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b
+        with:
+          python-version: '3.13'
+      - name: Install exact inherited validation dependencies
+        run: |
+          python -m pip install 'qfbench2-common @ git+https://github.com/Agenthon-2026/Agenthon2026-public.git@v2.4.2#subdirectory=common' 'numpy==2.1.3' 'pandas==2.2.3' 'pyarrow==18.1.0' 'jsonschema==4.23.0' pytest
+      - name: Contract, cutoff, proxy and fallback tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: timeout 180 python -m pytest -q -o addopts='' tests/test_moonshot15.py tests/test_text_evidence.py tests/test_text_first_v5.py tests/test_text_interpreter_v51.py tests/test_scenario_cli.py tests/test_grid.py tests/test_cutoff.py tests/test_limits.py
+      - name: Shared image build and incremental runtime/repeat validation
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: python -m backtesting.moonshot15.runtime.factory validate
+      - name: Publish tested unique tags and anonymous digest pulls
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$DOCKERHUB_TOKEN"
+          auth=$(mktemp -d)
+          anonymous=$(mktemp -d)
+          trap 'rm -rf -- "$auth" "$anonymous"' EXIT
+          printf '%s' "$DOCKERHUB_TOKEN" | docker --config "$auth" login docker.io -u jotj216 --password-stdin
+          unset DOCKERHUB_TOKEN
+          M15_DOCKER_AUTH="$auth" M15_DOCKER_ANONYMOUS="$anonymous" python -m backtesting.moonshot15.runtime.factory publish
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: moonshot15-${{ github.run_id }}-${{ github.run_attempt }}
+          path: candidate-artifacts/
+          if-no-files-found: error
+          retention-days: 30
