@@ -1,0 +1,39 @@
+{
+  "executive_summary": "Public original inventory sources hashed; no private outcomes copied.",
+  "observed_at": "2026-10-12T17:53:37.724953+00:00",
+  "files": {
+    "CEILING-01-FORECAST-HEADROOM-report.md": {
+      "git_blob": "49564eac97d5637ff5fb49ab4ea94e44d3504d4e",
+      "SHA256": "d098030c63cd78de5219fbf72481274f3aa5b120bbd1993949bef5abdbca0b2e"
+    },
+    "LOCATION-01-PREDICTABLE-ORACLE-SHIFT-report.md": {
+      "git_blob": "db400f1733d0d02fddbe620b3676768e120d7c53",
+      "SHA256": "86d0d107015c866efe6d8963e2b7f222761a4b6a80f9857630f404b280f0123a"
+    },
+    "LOCATION-02-ECB-SPF-CONSENSUS-LOCATION-ALPHA-report.md": {
+      "git_blob": "15d109a7a5351606089d8ab7ce231eb39b210203",
+      "SHA256": "0da00895a7b495f174122744dbe64fe16d5a0c9849b7da423b2092e114b7094d"
+    },
+    "NEW-MECHANISM-MOONSHOT-12-report.md": {
+      "git_blob": "c8eb576c87f5616317c0dcd165ce34f50a0bf844",
+      "SHA256": "7617045933f97e3582923e6ca3a52fa3407113fbea0c2b6d5ecc455669b358d6"
+    },
+    "V5.1-CENTER-BIAS-AUDIT-04-report.md": {
+      "git_blob": "751c618926a73a6ea73876a686a9bb987bc43c90",
+      "SHA256": "7ca0d40dee0fa8338b3c56736a62d6201c7d0f417c665b0d1ce456fd877f80a9"
+    },
+    "TEXT-ROUTE-AUDIT-02-report.md": {
+      "git_blob": "3603de7af778b1adf3cd75b3b79b6cef17b52ab9",
+      "SHA256": "ce59509c14c7722e80362c0947bead349b958dd6055e9c458bbaf4d08ba8e5ae"
+    },
+    "backtesting/alpha_strategy_reset05/results/evidence_quality_ledger.csv": {
+      "git_blob": "09692c411912e5beba49e5f3844f300e3d529201",
+      "SHA256": "cc95a349491b32bea2141cde1c6616350ed026759cb8999ce0e788a6da160859"
+    },
+    "backtesting/location01/results/ledger_manifest.json": {
+      "git_blob": "a549fb968948c7c53f3318b6227a0fc73cec6db1",
+      "SHA256": "b797d00c139930568db90bebb39c156d0e2fb3a0dc689b1c023bf5ee68fcf4c8"
+    }
+  },
+  "current_reference_report_blobs_verified": true
+}

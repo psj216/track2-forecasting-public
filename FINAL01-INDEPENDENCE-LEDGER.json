@@ -1,0 +1,869 @@
+{
+  "executive_summary": "No recovered study establishes independent PIT-safe improvement of current M16 over exact safe V5.1. Chronological/PIT controls and PRE do not erase prior outcome exposure. The official prospective Final plan has no available ranked outcomes yet.",
+  "observed_at": "2026-10-12T17:53:37.724953+00:00",
+  "source_snapshot": {
+    "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "V51": "126a7c628aa60783986450037309f5f59603276a",
+    "M15": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+    "M16": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+    "Final13": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+    "Secure14": "a26b2b0b405ad53f87c460a72e02989ca42f8abc"
+  },
+  "scoring_math_executed": false,
+  "new_model_or_evaluation": false,
+  "independent_candidate_improvement_verified": false,
+  "scope_limit": "This is an inventory of recovered public project records, not proof no other private evidence exists.",
+  "studies": [
+    {
+      "study": "V5.1 historical Development0.9541",
+      "study_timing_evidence": "Original submission timestamp UNKNOWN; references preserved before this audit",
+      "input_data": "Official Development inputs, historical image/configuration and raw platform receipt NOT_RECOVERED",
+      "outcome_exposure": "Reported Development outcome has already influenced project history; no unexposed prospective candidate comparison",
+      "training_evaluation_separation": "Original training and selection history not authenticated by submission receipt",
+      "PIT_compliance": "Official input cutoff rules exist; historical execution compliance UNKNOWN",
+      "score_definition": "User-reported historical loss0.9541. Original metric revision and display transformation UNKNOWN",
+      "baseline_identity": "Uploaded digest/source UNKNOWN; safe preparation source 47194f28d5188b87cdca1d591d86b9eeda86f7cf independently established but no arrow to official result",
+      "sample_size": {
+        "official_evaluated_cards": "UNKNOWN"
+      },
+      "model_selection_contamination": "Historical reference is outcome-exposed; no score-based choice in this audit",
+      "direct_relevance_to_current_Final_candidates": "Background only. Cannot guarantee safe image score or support M16 improvement",
+      "independence_verdict": "OFFICIAL_SCORE_ARTIFACT_IDENTITY_UNKNOWN",
+      "recovered_evidence": [
+        "OFFICIAL-SUBMISSION-PROVENANCE-RECOVERY-07-report.md",
+        "backtesting/official_submission_provenance07/results/codabench_receipt_evidence.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "V5.1 exact-image runtime validation",
+      "study_timing_evidence": {
+        "SHA": "126a7c628aa60783986450037309f5f59603276a",
+        "committer_date": "2026-10-11T08:36:09Z",
+        "tree": "354a2c51c56339bac10d112b9a3ce0701aeb496b"
+      },
+      "input_data": "Five historical public raw-fixture cards, dated text and panels; offline container",
+      "outcome_exposure": "No outcomes scored in this validation; public fixture provenance does not make a performance holdout",
+      "training_evaluation_separation": "No training/evaluation; technical gates and repeated output checks",
+      "PIT_compliance": "Input cutoff checks passed in prior five-fixture receipt",
+      "score_definition": "No forecast loss computed",
+      "baseline_identity": "Exact digest0b9b08... / source 47194f28d5188b87cdca1d591d86b9eeda86f7cf / text-first-v5.1",
+      "sample_size": {
+        "fixture_cards": 5,
+        "forecast_container_runs": 18,
+        "repeated_representatives": 4
+      },
+      "model_selection_contamination": "Safe mode frozen; no new selection in delivery11; original historical forecast selection broader history not reconstructed here",
+      "direct_relevance_to_current_Final_candidates": "Direct technical evidence for safe image; no independent predictive accuracy evidence",
+      "independence_verdict": "RUNTIME_ONLY_NO_PERFORMANCE_STUDY",
+      "recovered_evidence": [
+        "V51-DELIVERY-EMERGENCY-11-report.md",
+        "backtesting/v51_delivery_emergency11/results/actions_evidence/final-receipt.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "Final13 / Secure14 package preparation",
+      "study_timing_evidence": {
+        "Final13_SHA": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+        "Secure14_SHA": "a26b2b0b405ad53f87c460a72e02989ca42f8abc",
+        "latest_public_status": "2026-10-11T17:37:04.049087+00:00"
+      },
+      "input_data": "Official toolkit2.6.0 and candidate packaging draft; no user-held ZIP bytes",
+      "outcome_exposure": "No forecast outcomes opened",
+      "training_evaluation_separation": "No performance training/evaluation",
+      "PIT_compliance": "Not applicable to packaging",
+      "score_definition": "No score",
+      "baseline_identity": "Safe digest/source unchanged; current user-held Final ZIP binding UNKNOWN",
+      "sample_size": {
+        "performance_samples": 0
+      },
+      "model_selection_contamination": "No forecast/model selection performed",
+      "direct_relevance_to_current_Final_candidates": "Nonsecret technical preparation evidence; not a completed local package receipt",
+      "independence_verdict": "PACKAGE_PREPARATION_ONLY",
+      "recovered_evidence": [
+        "remote Final13 and Secure14 reports/public receipts"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "CEILING-01",
+      "study_timing_evidence": {
+        "SHA": "b24d2602fc70e4e004a6d4b5496f3b0be00948e2",
+        "committer_date": "2026-10-01T16:07:30Z",
+        "tree": "42af901731bba27ceda331f08ee56f2854c731cf"
+      },
+      "input_data": "Revised historical public24-card reconstruction plus separate SURPRISE exposed marginal ledger",
+      "outcome_exposure": "All outcomes research-exposed; primary oracle explicitly consumes future truth",
+      "training_evaluation_separation": "Oracle is hindsight; structured crossfit diagnostic separately uses frozen train folds",
+      "PIT_compliance": "Oracle corrections NOT_PIT. Past-only baseline inputs and chronological diagnostic separation do not make oracle predictive",
+      "score_definition": "24-card geometric V5.1-relative research composite plus arithmetic sensitivity; separate volatility-normalized marginal CRPS ratio",
+      "baseline_identity": "Frozen research V5.1 caches; original official submitted image binding not established",
+      "sample_size": {
+        "cards": 24,
+        "card_cells": 63,
+        "single_cards": 13,
+        "multi_cards": 11,
+        "marginal_cells": 59052,
+        "market_origins": 376,
+        "release_events": 382
+      },
+      "model_selection_contamination": "Exposed study and oracle selection; PRE freezes an experiment but cannot remove earlier outcome exposure",
+      "direct_relevance_to_current_Final_candidates": "Explains mathematical headroom only; no predictive V51/M16 forecast evidence",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "CEILING-01-FORECAST-HEADROOM-report.md",
+        "CEILING-01-SCORER-AUDIT.md",
+        "backtesting/ceiling01/results/artifact_manifest.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "LOCATION-01",
+      "study_timing_evidence": {
+        "SHA": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+        "committer_date": "2026-10-02T01:49:53Z",
+        "tree": "b8d810e4f007e43763ed175509859eec03efc0f7"
+      },
+      "input_data": "2001–2024 canonical25-asset ledger, frozen original caches and past metadata/price features",
+      "outcome_exposure": "Research-exposed history; full continuous evaluation repeated through preserved models; no independent OOS",
+      "training_evaluation_separation": "Four chronological outer blocks2010–2024; expanding train, inner alpha selection,189BD purge and target maturity boundary",
+      "PIT_compliance": "Past-input/maturity/train separation documented. Underlying historical-vintage uncertainty and prior outcome exposure remain",
+      "score_definition": "Volatility-normalized marginal shared CRPS ratio over identical cells; not official composite",
+      "baseline_identity": "Original continuous no-text V5.1 research distributions; not the text-first submitted-image baseline",
+      "sample_size": {
+        "ledger_origins": 1250,
+        "ledger_cells": 135994,
+        "assets": 25,
+        "evaluation_origins": 780,
+        "evaluation_cells": 82184,
+        "transfer_cards": 24,
+        "transfer_blocked_cards": 13
+      },
+      "model_selection_contamination": "Multiple models evaluated on already exposed universe; no independent model-selection firewall now",
+      "direct_relevance_to_current_Final_candidates": "Failed primary continuous signal, incomplete original transfer; does not measure M16 House or Final safe image quality",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "LOCATION-01-PREDICTABLE-ORACLE-SHIFT-report.md",
+        "LOCATION-01-PRECOMMIT.md",
+        "backtesting/location01/results/ledger_manifest.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "LOCATION-02 ECB SPF",
+      "study_timing_evidence": {
+        "SHA": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+        "committer_date": "2026-10-03T03:57:39Z",
+        "tree": "03ea783b97076261dddc527e8fb40d98d0af71f0"
+      },
+      "input_data": "Original dated ECB PDFs/HTML2015Q1–2024Q4, five fixed first-release consensus features, existing EUR ledger/draw cache",
+      "outcome_exposure": "All forecast outcomes RESEARCH_EXPOSED despite source readiness before new label materialization",
+      "training_evaluation_separation": "Train2015–2019 expanding into five2020–2024 annual folds; labels matured strictly before fold cutoff; train-only scaling,189BD purge, release separation",
+      "PIT_compliance": "PIT B dated original documents; immutable historical-vintage proof unavailable; conservative intraday availability and expiry guards",
+      "score_definition": "Same-cell volatility-normalized marginal shared fair CRPS ratio, not official joint/tail composite",
+      "baseline_identity": "Frozen continuous no-text V5.1 EUR caches; original safe-image prediction equivalence UNKNOWN",
+      "sample_size": {
+        "source_releases": 40,
+        "evaluation_origins": 48,
+        "evaluation_cells": 227,
+        "evaluation_releases": 20,
+        "annual_blocks": 5
+      },
+      "model_selection_contamination": "Fixed FULL5/alpha1 before fresh materialization; broader historical outcome exposure persists; ablations not substitutes",
+      "direct_relevance_to_current_Final_candidates": "Source-specific failed research; no direct M16/V51 Final performance comparison",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "LOCATION-02-ECB-SPF-CONSENSUS-LOCATION-ALPHA-report.md",
+        "backtesting/location02/results/experiment_spec.json",
+        "backtesting/location02/results/ecb_pit_dataset_manifest.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "MOONSHOT-12 nearest-state analogs",
+      "study_timing_evidence": {
+        "SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+        "committer_date": "2026-10-11T13:19:04Z",
+        "tree": "e3c71064160053c5641e5b513ee548737ce8978c"
+      },
+      "input_data": "Frozen2001–2024 canonical ledger and fully matured historical joint paths; no text/API",
+      "outcome_exposure": "Explicit RESEARCH_EXPOSED / INDEPENDENT_OOS=false; oracle is future-informed",
+      "training_evaluation_separation": "K choice2009–2015; forward test2016–2024; complete donor path endpoints strictly before each query",
+      "PIT_compliance": "Primary retrieval past-state/maturity checks documented; hindsight oracle not PIT; inherited revised-history uncertainty",
+      "score_definition": "Same-cell volatility-normalized marginal fair CRPS ratio; control estimator differs and is kept separate; no card composite scored",
+      "baseline_identity": "Stored continuous no-text V5.1 losses/caches, not official uploaded text-first image",
+      "sample_size": {
+        "forward_origins": 467,
+        "forward_cells": 48084,
+        "forward_years": 9,
+        "card_outcomes_opened": 0
+      },
+      "model_selection_contamination": "K history separated within protocol; all history previously exposed so not independent OOS",
+      "direct_relevance_to_current_Final_candidates": "ANALOG_NOT_PREDICTIVE; no M16 House calls/candidate; cannot establish Final ranking alpha",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "NEW-MECHANISM-MOONSHOT-12-report.md",
+        "backtesting/new_mechanism_moonshot12/results/experiment_spec.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "MOONSHOT-15 five mechanisms",
+      "study_timing_evidence": {
+        "remote_HEAD": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+        "frozen_source": "361018c14bab3cb7d8da101aa332066644921bac",
+        "latest_delivery_status": "2026-10-12T08:52:06.258421+00:00"
+      },
+      "input_data": "Frozen prompts/caps and public cutoff-safe cards; immutable V5.1 image baseline; mock House validation",
+      "outcome_exposure": "Five Development outcomes are user-reported background and outcome-exposed; execution logs/predictions unavailable",
+      "training_evaluation_separation": "Mechanisms frozen before these Development results; no candidate ranking from them in this audit",
+      "PIT_compliance": "Mock context cutoffs technical checks; actual House model latent knowledge/calls and real execution compliance UNKNOWN",
+      "score_definition": "No independent quality metric; user-reported CodaBench display scores not converted or compared with0.9541",
+      "baseline_identity": "Base safe image verified by Dockerfile; A-E source361... matches immutable receipts",
+      "sample_size": {
+        "candidate_images": 5,
+        "reported_Development_submissions": 5,
+        "independent_quality_evaluations": 0
+      },
+      "model_selection_contamination": "No Development-score tuning allowed; no best A-E selected",
+      "direct_relevance_to_current_Final_candidates": "Establishes original source/image identity and reproducible fallback risk, not actual competition root cause or performance",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "MOONSHOT15_FROZEN_5SHOT.json",
+        "remote MOONSHOT15-image-receipts.json",
+        "remote actions_validation_receipt.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "MOONSHOT-16 transport repair",
+      "study_timing_evidence": {
+        "SHA": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+        "committer_date": "2026-10-12T17:11:56Z",
+        "tree": "ff4990eebc05ed1198356ac25e34a1c173bb553e"
+      },
+      "input_data": "Same frozen M15 mechanics/prompts; synthetic fixed House responses and public historical fixtures",
+      "outcome_exposure": "Mock outputs have no forecast-quality outcome interpretation; historical Development scores excluded from selection",
+      "training_evaluation_separation": "No training or score evaluation; host tests plus actual controlled old/new Docker comparisons",
+      "PIT_compliance": "Technical input cutoffs and deterministic mock behavior verified; live House historical knowledge boundary UNKNOWN",
+      "score_definition": "No forecast loss evaluation; shape/finite/shift/fallback assertions only",
+      "baseline_identity": "Same immutable safe V5.1 base image for Docker; paired old/new frozen M15 forecasts; no scored M16 artifact",
+      "sample_size": {
+        "host_M16_tests": 265,
+        "Docker_variants": 5,
+        "forecast_container_processes": 110,
+        "live_House_calls": 0,
+        "independent_quality_evaluations": 0
+      },
+      "model_selection_contamination": "Transport only, forecast semantics frozen; no alpha selection",
+      "direct_relevance_to_current_Final_candidates": "Direct runtime proof; LIVE_HOUSE/INDEPENDENT_ALPHA unknown, regression gate blocked; no published repaired registry manifest",
+      "independence_verdict": "MOCK_RUNTIME_ONLY_NO_ALPHA_EVIDENCE",
+      "recovered_evidence": [
+        "MOONSHOT16-RELEASE-VALIDATION.md",
+        "MOONSHOT16-CONTAINER-RECEIPT.json",
+        "MOONSHOT16-FINAL-RELEASE-GATE.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "V51-CENTER-BIAS-04",
+      "study_timing_evidence": {
+        "branch": "track2/v51-center-bias-audit-04",
+        "HEAD": "3c2bbfe7ff54ff9f95debf58f5bafa92d5d2ad70",
+        "exact_study_start": "UNKNOWN"
+      },
+      "input_data": "Full original25-asset canonical ledger and1251 caches2001–2024",
+      "outcome_exposure": "Explicit all2001–2024 outcomes already exposed",
+      "training_evaluation_separation": "Chronological train-only bias summaries, maturity and189BD purge; reported folds are descriptive",
+      "PIT_compliance": "Past-input chronology documented; revised-history assumption and exposed outcomes remain",
+      "score_definition": "Original research normalized marginal shared CRPS and descriptive bias/oracles",
+      "baseline_identity": "Explicit no-text V5.1 continuous distributions, not official text-first submission package",
+      "sample_size": {
+        "origins": 1250,
+        "cells": 135994,
+        "assets": 25,
+        "caches": 1251
+      },
+      "model_selection_contamination": "Precommitted diagnostic cannot erase earlier exposure; no new candidate built",
+      "direct_relevance_to_current_Final_candidates": "Clarifies baseline identity gap; cannot validate Final text or M16 quality",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "V5.1-CENTER-BIAS-AUDIT-04-report.md",
+        "backtesting/v51_center_bias04/results/canonical_ledger_manifest.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "TEXT-ROUTE-AUDIT-02",
+      "study_timing_evidence": {
+        "exact_start": "UNKNOWN",
+        "recovered_precommitted_report_blob": "3603de7af778b1adf3cd75b3b79b6cef17b52ab9"
+      },
+      "input_data": "Already exposed24 public cards/text, frozen V5.1-text and CONTEXT R2 experts",
+      "outcome_exposure": "Explicit all24 cards previously exposed",
+      "training_evaluation_separation": "Whole-card LOCO and4 family holdouts; train-only preprocessing; secondary diagnostic not acceptance-level confirmed",
+      "PIT_compliance": "Cutoff-safe text/expert inputs; chronological historical knowledge/independence not established",
+      "score_definition": "Geometric baseline-relative full card research composite plus arithmetic sensitivity, not current official M0-normalized board",
+      "baseline_identity": "Existing V5.1-text B0 research arrays; actual safe digest/scored-upload binding UNKNOWN",
+      "sample_size": {
+        "cards": 24,
+        "cells": 63,
+        "single_cards": 13,
+        "multi_cards": 11
+      },
+      "model_selection_contamination": "Structural heuristics and secondary findings outcome-exposed; no independent acceptance claim",
+      "direct_relevance_to_current_Final_candidates": "Primary NO; secondary apparent gain cannot be promoted to V51/M16 Final proof",
+      "independence_verdict": "NOT_INDEPENDENT_CANDIDATE_EVIDENCE",
+      "recovered_evidence": [
+        "TEXT-ROUTE-AUDIT-02-report.md",
+        "backtesting/text_route_audit02/results/card_route_ledger.csv"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "V6–V10 exposure / inherited quality inventory",
+      "study_timing_evidence": {
+        "standalone_V10_LEDGER_remote_reference": "NOT_RECOVERED",
+        "audit_branch_inventory_count": 72
+      },
+      "input_data": "Inherited quality CSV lists earlier outcomes and missing historical metrics; canonical later ledgers preserve known exposed2001–2024 history",
+      "outcome_exposure": "Multiple earlier study results exposed; exact per-run card/outcome exposure for missing early artifacts UNKNOWN",
+      "training_evaluation_separation": "Full original selection/exposure ledger not recovered; absence is not an unexposed holdout",
+      "PIT_compliance": "Historical per-run PIT cannot be reconstructed from summaries alone",
+      "score_definition": "Mixed qualitative/marginal/card proxies and legacy reported official reference, kept separate",
+      "baseline_identity": "Mixed historical research baselines; source/digest mapping UNKNOWN for missing runs",
+      "sample_size": {
+        "exact_original_exposure_count": "UNKNOWN"
+      },
+      "model_selection_contamination": "Cumulative outcome-informed research history; no verified untouched selection cohort",
+      "direct_relevance_to_current_Final_candidates": "Coverage gap makes independence conservative; no new favorable slice invented",
+      "independence_verdict": "INDEPENDENCE_NOT_ESTABLISHED",
+      "recovered_evidence": [
+        "backtesting/alpha_strategy_reset05/results/evidence_quality_ledger.csv",
+        "backtesting/info01/results/parent_research_ledger.json"
+      ],
+      "new_evaluation_executed": false
+    },
+    {
+      "study": "Official prospective Track2 Final plan",
+      "study_timing_evidence": {
+        "notice_updated": "2026-10-11T00:14:49Z",
+        "clarification_updated": "2026-10-12T01:39:13Z"
+      },
+      "input_data": "Ranked cards built after25October upload close; common asof23October; UST/G10FX, all4families,2–12BD targets27October–10November",
+      "outcome_exposure": "Plan prevents participant Final outcome observation before upload. Actual ranked cards/results not available during this audit",
+      "training_evaluation_separation": "One frozen submitted image before prospective targets resolve; organizer check and ranked stages distinct",
+      "PIT_compliance": "Official forward data/rules plan; individual realized execution and input-vintage receipts NOT_AVAILABLE",
+      "score_definition": "Current equal-card mean of M0-expected-error component-normalized composite; cap/failure8.0",
+      "baseline_identity": "Organizer M0 normalization is not the participant V5.1 research baseline",
+      "sample_size": {
+        "ranked_cards": "UNPUBLISHED",
+        "resolved_outcomes_now": 0
+      },
+      "model_selection_contamination": "Prospective plan provides future independence; no completed independent current candidate evidence yet",
+      "direct_relevance_to_current_Final_candidates": "Defines eventual independent ranking context. Check run is unranked; no performance evidence currently accessible",
+      "independence_verdict": "PROSPECTIVE_PLAN_RESULTS_UNAVAILABLE",
+      "recovered_evidence": [
+        "official Track2 issue4 comments6103652999 and6116227449",
+        "official shared issue2 comment6099955125"
+      ],
+      "new_evaluation_executed": false
+    }
+  ],
+  "inherited_quality_index": {
+    "source": "backtesting/alpha_strategy_reset05/results/evidence_quality_ledger.csv",
+    "rows": [
+      {
+        "study": "V5.1",
+        "quality": "A",
+        "universe": "OFFICIAL",
+        "evidence": "backtesting/persistent_direction02/results/baseline_preservation_audit.json",
+        "metric_pointer": "verified_official_reference_score",
+        "evidence_SHA256": "43f3cc53113debe181e330c934058bcb93481fd7aa4a30bb1e174d1cd630b03c",
+        "primary_result": "0.9541",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false,
+        "audit_correction": "GradeA/OFFICIAL is only inherited score reference, not authenticated official score-to-artifact provenance."
+      },
+      {
+        "study": "V6-F2",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V6-FULL",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V7",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V8/V8-A",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V9-A",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V9-B",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V10-DATA",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V10-SHADOW",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "SINGLE-CELL-TAIL",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/alpha_strategy_reset05/results/historical_remote_evidence.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "83fd2247cfaccd6ec0811368ede789b2550fba05019d8de71f85c855d41c779b",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V11",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/v13_copula/archive/full_eval_final.json",
+        "metric_pointer": "models/V11/versus_v5/geometric_ratio",
+        "evidence_SHA256": "776666c14ba145e7d0e7ba0456c386131589fcaec480923ec495a6697c62b0cb",
+        "primary_result": "1.0730061819667216",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V12",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/v13_copula/archive/full_eval_final.json",
+        "metric_pointer": "models/V12/versus_v5/geometric_ratio",
+        "evidence_SHA256": "776666c14ba145e7d0e7ba0456c386131589fcaec480923ec495a6697c62b0cb",
+        "primary_result": "0.9327725438887052",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V13-A",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/v13_copula/archive/full_eval_final.json",
+        "metric_pointer": "models/A/versus_v5/geometric_ratio",
+        "evidence_SHA256": "776666c14ba145e7d0e7ba0456c386131589fcaec480923ec495a6697c62b0cb",
+        "primary_result": "0.892886677201712",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V12/V13-R/R2",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "V13-R2-DATA-FEATURE-PARITY.md",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "8c34c31abbbb5d143b7285f7b5782965646b67630eb14824fbd3cfc1723a99db",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V14-TEMPORAL-JOINT",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "V13-RECONSTRUCTION-report.md",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "fc364917980db182ef59733d0ad36ad1814120447d43d072aaeeb7d8bcc53a5e",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "CEILING-01",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/ceiling01/results/oracle_matrix.json",
+        "metric_pointer": "V13_REVISED_PUBLIC_24/LOCATION_ORACLE/Overall/score",
+        "evidence_SHA256": "bcdc576d836c870e64e4f3cf48420a73f2b66f289c6cfac174133eadbb0cd33b",
+        "primary_result": "0.4892090087012897",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "THESIS-01",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/thesis01/results/crps_summary.json",
+        "metric_pointer": "lag_safe/final/ratio",
+        "evidence_SHA256": "9617c691b3aa9c9ad86dfb7c9518e6314a1e9ab519a832545146eb44d10959bf",
+        "primary_result": "1.0062208500425482",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "ORIGIN-01",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/origin01/results/final_summary.json",
+        "metric_pointer": "overall/ratio",
+        "evidence_SHA256": "872aa3d75210767cff5f9ce3b3365e74a7840fa08020b2a406f2069d67ae9798",
+        "primary_result": "0.9999438943666943",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "SURPRISE-01-LOCATION",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/surprise01/results/location_summary.json",
+        "metric_pointer": "ratio",
+        "evidence_SHA256": "3d98aa5fd0c801df0b522c821a6e53d9aef5bcdbd91e3343ed58bee336e20aeb",
+        "primary_result": "1.0028941726493674",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "SURPRISE-01-SCALE",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/surprise01/results/scale_summary.json",
+        "metric_pointer": "ratio",
+        "evidence_SHA256": "fd3457821f18802ddbefb2e041695044b299d22aff6577b2fe1b9afe809b3496",
+        "primary_result": "1.0016657527703818",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "LOCATION-01",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/location01/results/crossfit_summary.json",
+        "metric_pointer": "models/ridge/M1/ratio",
+        "evidence_SHA256": "33961f6763e4046e7260aded6cdd65707d2c93c866fc44e9dd10c67278e96e15",
+        "primary_result": "1.0057385846264797",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "LOCATION-01R",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/location01r/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "3c791eb0fb5e68671d0a6166b43812a3e3d0c103df6cc0d9846f0c2439681c27",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "EXPECTATION-01",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/expectation01/results/full_ledger_summary.json",
+        "metric_pointer": "models/A1/ratio",
+        "evidence_SHA256": "a5c4492892e6d02ad6f3bf1aa4017403fa3b7ec699ee4191b97fed65b2184fa1",
+        "primary_result": "1.0125180436808925",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "POSITIONING-01",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/positioning01/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "9d0e593041f42dd7bcc697ac80322595161b45e51a05e166fe54b4dae4c398c5",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "CONTEXT-01",
+        "quality": "B",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/context01/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "7b1e05ef7812aa0b595eb96925b4f6228540af591d87ca7b416d35c8332cd146",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "TEXT-ROUTE-AUDIT-02",
+        "quality": "B",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/text_route_audit02/results/final_decision.json",
+        "metric_pointer": "primary_composite",
+        "evidence_SHA256": "ba89287dabbcefb4349325fb57645994e9e161b8cd55bdfe1ea28f29352b4504",
+        "primary_result": "1.007942072936086",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "INFO-01",
+        "quality": "C",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/info01/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "97668d5852eb1be8f76188605d207751b3f70705b778165b8016fb6321aca180",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "LOCATION-02-ECB",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/location02/results/primary_score_summary.json",
+        "metric_pointer": "models/ECB_RIDGE_FULL5/crps_ratio",
+        "evidence_SHA256": "3ef59104b5a52421b816210fa056e40b751c9a8ecb24e284c976a626a13bfb14",
+        "primary_result": "1.562819687489047",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "LOCATION-03-SLOOS",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/location03/results/primary_score_summary.json",
+        "metric_pointer": "models/SLOOS_FULL5_RELEASE_BALANCED/crps_ratio",
+        "evidence_SHA256": "0b9913af37a3f38f650934508946a222f6b72685e26b88c34a7160e54a572097",
+        "primary_result": "1.1484547012248485",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "LOCATION-04-SPD",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/location04/results/primary_score_summary.json",
+        "metric_pointer": "models/SPD_FULL5_RELEASE_BALANCED/crps_ratio",
+        "evidence_SHA256": "d2fa010c3537448e34d06b4f27e989b23984ab89ef0f11c12bca96fffb4ee7fd",
+        "primary_result": "1.420833121052091",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "INFORMATION-FAILURE-01",
+        "quality": "C",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/information_failure01/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "20d5eac9962b6bbef32541b004d55fbe33bd352dffa6963d0a7c233f24ddf53e",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "DIRECTION-TO-LOCATION-01",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/direction_to_location01/results/primary_summary.json",
+        "metric_pointer": "models/DTL_PRIMARY_010/crps_ratio",
+        "evidence_SHA256": "ba0dbc1493868513314a36e4d92d22008192a12db0d8af48a005d4b4e6e5fd9f",
+        "primary_result": "0.9753436089359536",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "NEW-INFORMATION-SEARCH-02",
+        "quality": "C",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/new_information_search02/results/final_decision.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "6e24f3c5843fe2d3c1455a6f6f5996236597acbd84ec746984584d8ff22839e4",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "PERSISTENT-DIRECTION-02",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/persistent_direction02/results/final_decision.json",
+        "metric_pointer": "primary_ratio",
+        "evidence_SHA256": "54964706373e830a5cbc50a55b695d974e4f7581b0e2debe8d6f48a6205f52b4",
+        "primary_result": "1.0033428831669795",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "PRICE-STATE-03",
+        "quality": "B",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/price_state_information03/results/price_full_summary.json",
+        "metric_pointer": "PRICE_FULL/CRPS_ratio",
+        "evidence_SHA256": "459a4bd905bbf32f77685fce49546dcab378131753db7f9342ff669abc699c6f",
+        "primary_result": "0.9931832249597576",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "V51-CENTER-BIAS-04",
+        "quality": "B",
+        "universe": "CANONICAL_MARGINAL_PROXY",
+        "evidence": "backtesting/v51_center_bias04/results/global_sign005_summary.json",
+        "metric_pointer": "ratio",
+        "evidence_SHA256": "9655a8b6b46d44f1c8889206e694e6d48d34c606c5c60aaeca0825df5379323d",
+        "primary_result": "0.9977995994250116",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "CONTEXT-R2-SECONDARY",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/context01/results/routed_summary.json",
+        "metric_pointer": "models/R2/geometric_composite_ratio",
+        "evidence_SHA256": "2e235cc25db4730eb11e9296d820f4549d15fb6bf2fe57e68ad0cab74ced80a9",
+        "primary_result": "0.980114855004062",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "TEXT-T0_RIDGE-SECONDARY",
+        "quality": "C",
+        "universe": "CARD_PROXY",
+        "evidence": "backtesting/text_route_audit02/results/router_score_summary.json",
+        "metric_pointer": "models/T0_RIDGE/composite",
+        "evidence_SHA256": "a81ebf72d7a402cc43ae684d991b1aa430a9a18a076db5587ea377a137bdb73f",
+        "primary_result": "0.9575201920828957",
+        "result_status": "STORED_METRIC",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "PRICE-MAJORITY-CONTROL",
+        "quality": "C",
+        "universe": "SOURCE_SPECIFIC_PROXY",
+        "evidence": "backtesting/price_state_information03/results/constant_shift_summary.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "252bfb730d7fbf10a170e537d98238cb0244182584fbd594b90c54e49b4b6e42",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      },
+      {
+        "study": "PRICE03-CANONICAL-EXTENSION",
+        "quality": "D",
+        "universe": "DIAGNOSTIC_ONLY",
+        "evidence": "backtesting/price_state_information03/results/broader_transfer_readiness.json",
+        "metric_pointer": "qualitative / missing metric",
+        "evidence_SHA256": "09195dbeb4f2a4da39e90dca9cf488536edcc4955303173c081c726c8902951d",
+        "primary_result": "",
+        "result_status": "MISSING_METRIC_OR_QUALITATIVE",
+        "current_candidate_independence": "NOT_ESTABLISHED_FROM_INHERITED_INDEX",
+        "metric_recomputed": false
+      }
+    ],
+    "used_for_selection": false
+  },
+  "missing_evidence": [
+    "Original official0.9541 result-to-upload chain",
+    "Actual user-held ZIP verification receipt",
+    "Standalone original V10 exposure ledger",
+    "Live House paired candidate outputs on a pre-fixed unexposed cohort",
+    "Completed prospective Final results"
+  ],
+  "baseline_identity_warning": "Continuous canonical V5.1 caches are explicitly no-text; current safe image is text-first-v5.1. Do not equate them or turn research ratios into official score guarantees."
+}

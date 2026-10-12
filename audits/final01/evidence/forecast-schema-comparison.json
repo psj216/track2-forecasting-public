@@ -1,0 +1,31 @@
+{
+  "executive_summary": "Static old/current forecast schema audit. Validation keywords are unchanged; description text differs. This is not a fresh runtime check.",
+  "kind": "STATIC_SCHEMA_COMPARISON_NOT_RUNTIME_SMOKE",
+  "legacy_common_version": "2.4.2",
+  "legacy_schema_sha256": "e573efc9df1f3f30776cfe59ab3cb918e7e1408d9f5d318136911601a78bf9e5",
+  "current_schema_sha256": "292ed64058a71bdb543a0bdda22d5223d43d9b84bb5fb6847de64200ba65f3ab",
+  "schema_object_equal": false,
+  "legacy_required": [
+    "unit_id",
+    "asof",
+    "representation",
+    "asset_ids",
+    "horizons"
+  ],
+  "current_required": [
+    "unit_id",
+    "asof",
+    "representation",
+    "asset_ids",
+    "horizons"
+  ],
+  "differences": [
+    {
+      "path": "/properties/rationale/description",
+      "old": "OPTIONAL declaration of the derivation behind the submitted distribution. The FILE forecast_rationale.md is REQUIRED — gate g1 checks the filesystem directly, next to forecast.parquet, so this sidecar key is a declaration only and its absence cannot fail a submission. The file is NEVER SCORED: no submission is ranked higher or lower because of it, and no scoring code may read its content. It exists because a submission that recalled its answer and one that derived it are indistinguishable as a set of draws. Read only as a review screen over the top of the leaderboard; a flag opens a human review and cannot by itself produce a DNF or move a score.",
+      "new": "OPTIONAL declaration of the derivation behind the submitted distribution. The FILE forecast_rationale.md is REQUIRED — gate g1 checks the filesystem directly, next to forecast.parquet, so this sidecar key is a declaration only and its absence cannot fail a submission. The file is NEVER SCORED: no submission is ranked higher or lower because of it, and no scoring code may read its content. It exists because a submission that recalled its answer and one that derived it are indistinguishable as a set of draws."
+    }
+  ],
+  "validation_keywords_identical": true,
+  "raw_schema_bytes_identical": false
+}

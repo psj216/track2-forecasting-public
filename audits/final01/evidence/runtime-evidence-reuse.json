@@ -1,0 +1,101 @@
+{
+  "executive_summary": "Original image/source bindings and prior successful workflow metadata checked read-only; no Docker or forecast reruns.",
+  "observed_at": "2026-10-12T17:53:37.724953+00:00",
+  "run_status": {
+    "checkpoint": "e2b180f07ec495ec37a81841108e67cbc54d8e7c",
+    "V51_runs": [
+      {
+        "id": 38124740551,
+        "head_sha": "66a07d47e4ad5a738f0b3ec613b8f8a4a1c8af5a",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-11T08:25:24Z",
+        "updated_at": "2026-10-11T08:26:45Z",
+        "url": "https://github.com/psj216/track2-forecasting-public/actions/runs/38124740551"
+      },
+      {
+        "id": 38159994621,
+        "head_sha": "8bbba6fa51d0b716d8b1ffbd113dc81f0f21090f",
+        "status": "completed",
+        "conclusion": "success",
+        "created_at": "2026-10-11T17:31:15Z",
+        "updated_at": "2026-10-11T17:31:34Z",
+        "url": "https://github.com/psj216/track2-forecasting-public/actions/runs/38159994621"
+      }
+    ],
+    "M16_run": {
+      "id": 38280632093,
+      "head_sha": "068e357027462dc0d7139928773e4e8729ed639b",
+      "status": "completed",
+      "conclusion": "success",
+      "created_at": "2026-10-12T16:54:23Z",
+      "url": "https://github.com/psj216/track2-forecasting-public/actions/runs/38280632093"
+    }
+  },
+  "M15_M16_image_mapping": [
+    {
+      "variant": "A",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:9fcf2cef6ae03f3fb77740157eb40ddf681898822ed5ee5ed12eed1ce62028c3",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:bb8f908b98d1a6f5c76a03934eecd9acc2241fc34230e0d5ca8bf13a99eb1c92"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "B",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:b92f6b575312d0561f349fa8ca9acf0d1eb84a8730054094024dad684f6ee5ef",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:bbb9740e7f645f6b392f7bdf3eda150805049e1c9791debd61709897799e16cc"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "C",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:aecbcecc8b0e3d4d6a0d259be3d932be4d310272b566785fd68cd527387ef22e",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:0f959d0ac7dfeb206c41297b83875221f2fc05420133161fbb11315d02ae92cd"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "D",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:d4307fada963c7dd38ea28fa19713f341f1c1354d9ee85f885567c8ad20a87a4",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:aa8b1f56a1175f4c99d0352a2f2f0b1f1f6b209690c039d9dc1f377a9fe6f89f"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    },
+    {
+      "variant": "E",
+      "source_SHA": "068e357027462dc0d7139928773e4e8729ed639b",
+      "temporary_local_image_id": "sha256:7d1f348723bcd907d4979af2db391a38f7e4bc16c055f69f052e8060a80f8437",
+      "temporary_registry_manifest_digest": null,
+      "old_image": "docker.io/jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528",
+      "old_resolved_repo_digests": [
+        "jotj216/track2-f4-approved@sha256:c62b6e0406c720494dd8ff28072862caffff680e9ad5ab584c995ea5e0671528"
+      ],
+      "old_source_label": "361018c14bab3cb7d8da101aa332066644921bac",
+      "image_source_files_match": true
+    }
+  ],
+  "M16_actual_forecast_processes_in_prior_receipts": 110,
+  "new_container_processes": 0,
+  "manifest_digest_vs_config_ID_distinct": true,
+  "registry_push_performed": false
+}
