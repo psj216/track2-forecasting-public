@@ -17,9 +17,11 @@
     "PHASE_6_final_gate_with_new_evidence"
   ],
   "same_step_failure_count": 2,
-  "last_successful_artifact": "MOONSHOT16-PROVENANCE.json",
-  "last_update_time": "2026-10-12T15:46:42.261Z",
+  "last_successful_artifact": "MOONSHOT16-REPORT.md",
+  "last_update_time": "2026-10-12T15:48:37.493Z",
   "implementation_complete": false,
   "tests_complete": false,
-  "finished": false
+  "finished": false,
+  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
+  "result_type": "STOPPED_RECOVERY_EVIDENCE_ONLY"
 }

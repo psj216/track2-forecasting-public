@@ -1,0 +1,43 @@
+{
+  "executive_summary": "M16 fallback matrix is empty because no repaired-source test ran. Previous M15 76-case evidence is historical and does not validate M16.",
+  "status": "NOT_RUN",
+  "rows": [],
+  "required_variants": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E"
+  ],
+  "required_conditions": [
+    "HTTP_PROXY_only",
+    "http_proxy_only",
+    "both_equal",
+    "both_conflicting",
+    "HTTPS_PROXY_only",
+    "HTTP_endpoint",
+    "HTTPS_endpoint_supported",
+    "missing_endpoint",
+    "missing_token",
+    "invalid_proxy_credentials",
+    "HTTP_401",
+    "HTTP_403",
+    "HTTP_429",
+    "HTTP_503",
+    "timeout",
+    "malformed_outer_JSON",
+    "malformed_content",
+    "code_fence",
+    "duplicate_JSON_keys",
+    "schema_mismatch",
+    "truncation",
+    "valid_response",
+    "exact_baseline_fallback",
+    "deterministic_repeat",
+    "metadata_accuracy",
+    "credential_leakage",
+    "container_smoke"
+  ],
+  "prior_reproduction_count": 76,
+  "new_reproduction_count": 0
+}

@@ -85,5 +85,6 @@
   "protected_refs_changed": false,
   "protected_runtime_files_changed": false,
   "team_key_used": false,
-  "live_house_token_used": false
+  "live_house_token_used": false,
+  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b"
 }

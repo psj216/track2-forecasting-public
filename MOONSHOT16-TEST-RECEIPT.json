@@ -1,0 +1,44 @@
+{
+  "executive_summary": "No M16 tests ran because authoritative source checkout failed twice before implementation. Prior M15 tests are not counted as M16 passes.",
+  "status": "NOT_RUN",
+  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
+  "new_tests": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "executed": 0
+  },
+  "existing_tests": {
+    "passed": 0,
+    "failed": 0,
+    "skipped": 0,
+    "executed": 0
+  },
+  "total_tests_executed": 0,
+  "prior_m15_mock_cases": 76,
+  "prior_m15_cases_reexecuted": 0,
+  "stages": {
+    "transport_unit": "NOT_RUN",
+    "house_parser": "NOT_RUN",
+    "fallback": "NOT_RUN",
+    "M15_integration": "NOT_RUN",
+    "affected_package": "NOT_RUN",
+    "full_repository": "NOT_RUN",
+    "container_smoke": "NOT_RUN",
+    "forecast_comparison": "NOT_RUN"
+  },
+  "variants": {
+    "A": "NOT_RUN",
+    "B": "NOT_RUN",
+    "C": "NOT_RUN",
+    "D": "NOT_RUN",
+    "E": "NOT_RUN"
+  },
+  "checkout_failure_count": 2,
+  "stop_rule": "Same frozen-source checkout failed twice; no third attempt.",
+  "python_313_available": true,
+  "docker_available": false,
+  "live_house_calls": 0,
+  "codabench_submissions": 0,
+  "team_key_used": false
+}
