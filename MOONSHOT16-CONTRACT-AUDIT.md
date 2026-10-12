@@ -1,6 +1,6 @@
 ## Executive summary (read this first)
 
-Current official documentation confirms proxy aliases and origin-based House calls. The current reference implementation is narrower than that documentation. These are recovered contract findings, not M16 runtime validation. Work stopped in PHASE 0.
+Current official documentation confirms proxy aliases and origin-based House calls. The current reference implementation is narrower than that documentation. These are recovered contract findings, not M16 runtime validation. The original table below records the pre-repair snapshot; independent resume succeeded later. See the resume section for current behavior.
 
 # M16 Contract audit
 
@@ -27,3 +27,7 @@ Read from current official repositories through GitHub. Source identities are in
 Frozen reply rejection is deliberate: malformed JSON, duplicate model-content keys, nonfinite values, schema mismatch and truncation must not be treated as an applied forecast. Outer-response receipt and validation enhancements remain pending.
 
 The documentation/reference mismatch is not asserted to have caused the CodaBench scores. Public practice data contain no sealed answers and are not independent forecast-quality evidence. No performance evaluation was authorized by these recovered facts.
+
+## Resume implementation status
+
+HTTP/HTTPS proxy aliases now accept equal injected values and reject conflicts before any socket. Only HTTP proxy URLs are supported; HTTPS_PROXY denotes a variable, not TLS to the proxy. The injected HTTPS origin is handled by stdlib HTTP CONNECT and default certificate/hostname verification. Per-request and CLI receipts distinguish send/response/validation/actual adjustment/exact fallback. Nominal request bodies and forecast transforms remain frozen. Parser strictness was not relaxed. Tests are synthetic, and live/quality gates remain UNKNOWN. Full repository regression and comparison-test lint are unresolved; no image was built.

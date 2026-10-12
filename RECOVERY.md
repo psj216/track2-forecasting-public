@@ -1,19 +1,25 @@
 ## Executive summary (read this first)
 
-M16 is stopped at source recovery, not repaired. The remote branch starts from the correct frozen M15 commit. Reuse the recovered contract and receipt evidence; do not claim the old local HEAD is the frozen source.
+Independent M16 source recovery succeeded and transport was repaired. Execution stopped after two full-repository validation failures. Resume from the existing branch and evidence, not the old incomplete shared clone. Final remains ineligible.
 
 # Recovery
 
 Repository: psj216/track2-forecasting-public.
 Branch: track2/moonshot-16-house-transport-repair.
-Parent: 361018c14bab3cb7d8da101aa332066644921bac.
-Remote tree: 9c7a78e3c23078bbe7f9c50f7eb50d65451869db.
-Local shared clone stayed at e53d210ccd701e0b80bb6312b4cdebca99bc3c40. Do not edit or test that checkout as M16.
+Original PRE: ec36fbda44ca17c1c64b0b07da7d6adffbdb721b.
+Original stopped RESULT: 74ebc30cbec728a4a739d58064e6f9e5772182b6.
+Recovery checkpoint: 530b2c4b1eac215cd32535e3bb97d7e969f7f161.
+Implementation checkpoint: 02b581199370be1071c7887907bb6df96742c544.
+Frozen parent: 361018c14bab3cb7d8da101aa332066644921bac.
 
-The exact checkout command failed twice with `fatal: unable to read tree`. The second failure followed a hash-verified tree restoration. Subsequent read-only diagnosis: `git cat-file -p 361018c14bab3cb7d8da101aa332066644921bac` did not resolve a valid commit in the shared clone. No third checkout attempt was made.
+The source is a self-contained independent official git clone with no alternates. The full parent chain and fsck passed. Original PRE/RESULT remain ancestors. Current runtime differences are confined to the three permitted files.
 
-Continuation point for a new recovery run: materialize the exact remote frozen commit with a self-contained authenticated clone or a fully verified commit-and-tree import. Avoid relying on shared alternates from the incomplete donor clone. Validate source HEAD and entire tree before implementation. Do not change the specification to accommodate the recovery failure. Resume at PHASE 0 local source validation, then PHASE 2. Existing official source blob hashes and remote receipts are in MOONSHOT16-PROVENANCE.json.
+Completed: transport 24, parser 54, fallback subset 125, integration subset 52, affected 130 and public comparisons 10. New unique M16 tests: 265 passes. Detailed synthetic receipts and frozen-source test fixtures are preserved. Do not rerun old research.
 
-Git CLI remote read failed for lack of bridge authentication; GitHub connector reads/writes worked. Preserve remote checkpoints through the authenticated Git data API if CLI authentication remains unavailable. Python 3.13.16 was installed successfully. Docker is unavailable in this host. No secret was requested or used.
+STOP point: full pytest first failed collection for missing sklearn; after installing sklearn, its one retry returned 11 failed, 1278 passed, 26 skipped. No third attempt. Unchanged historical tests require origin/main, private metadata variables, historical branch/path assumptions and yaml. Two new comparison-test lint issues remain. No assertion was changed to pass.
 
-No repaired container has been built. No runtime file or assertion has changed. No model evaluation was run. Prefer the existing V5.1 safe artifact until new transport, live House and independent performance evidence justifies another candidate.
+Next run: recover the latest verified branch independently; resolve new lint and concrete historical test prerequisites before any full retry; then container smoke if a Docker-capable environment exists. Keep failure evidence. Do not silently exclude old tests or infer alpha from mocks. Actual House/independent performance remain UNKNOWN.
+
+Environment: Python 3.13.16, qfbench2-common v2.4.2 at dfa92d242908bba4a448218b9c10ae391238d10d, numpy 2.1.3, pandas 2.2.3, pyarrow 18.1.0, jsonschema 4.23.0, scikit-learn 1.6.1. Dependencies were installed before tests. No Docker/podman, image build or submission.
+
+Existing V51-final-submission.zip stays solely with the user and was not requested or recreated.

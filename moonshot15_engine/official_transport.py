@@ -2,6 +2,7 @@
 Call only the injected House origin through its authenticated audited proxy.
 Receipts record local observations without credentials, retries or redirects.
 """
+
 from __future__ import annotations
 
 import base64
@@ -39,8 +40,9 @@ def new_call_receipt() -> dict[str, Any]:
 
 def _proxy_url() -> str:
     # One audited route; never arbitrarily choose conflicting proxy grants.
-    values = [os.environ.get(k, "") for k in
-              ("http_proxy", "HTTP_PROXY", "https_proxy", "HTTPS_PROXY")]
+    values = [
+        os.environ.get(k, "") for k in ("http_proxy", "HTTP_PROXY", "https_proxy", "HTTPS_PROXY")
+    ]
     supplied = [v for v in values if v]
     if not supplied:
         raise HouseError("proxy_missing")
@@ -68,17 +70,29 @@ def _configuration(endpoint: str, token: str):
         raise
     except ValueError:
         raise HouseError("configuration_invalid") from None
-    if (target.scheme not in ("http", "https") or not target.hostname
-            or target.username is not None or target.password is not None
-            or target.path not in ("", "/") or target.query or target.fragment
-            or any(ord(c) <= 32 or ord(c) >= 127 for c in endpoint)):
+    if (
+        target.scheme not in ("http", "https")
+        or not target.hostname
+        or target.username is not None
+        or target.password is not None
+        or target.path not in ("", "/")
+        or target.query
+        or target.fragment
+        or any(ord(c) <= 32 or ord(c) >= 127 for c in endpoint)
+    ):
         raise HouseError("endpoint_invalid")
     # HTTPS must be bound to the exact organizer-injected origin.
     if target.scheme == "https" and injected is None:
         raise HouseError("endpoint_not_injected")
-    if (proxy.scheme != "http" or not proxy.hostname or not proxy_port
-            or proxy.path not in ("", "/") or proxy.query or proxy.fragment
-            or any(ord(c) <= 32 or ord(c) >= 127 for c in proxy.geturl())):
+    if (
+        proxy.scheme != "http"
+        or not proxy.hostname
+        or not proxy_port
+        or proxy.path not in ("", "/")
+        or proxy.query
+        or proxy.fragment
+        or any(ord(c) <= 32 or ord(c) >= 127 for c in proxy.geturl())
+    ):
         raise HouseError("proxy_configuration_invalid")
     if not proxy.username or not proxy.password:
         raise HouseError("proxy_credentials_invalid")
@@ -102,8 +116,9 @@ def _nonfinite(_value):
     raise HouseError("malformed_outer_json")
 
 
-def _house_reply(endpoint: str, token: str, body: bytes,
-                 receipt: dict[str, Any] | None = None) -> Any:
+def _house_reply(
+    endpoint: str, token: str, body: bytes, receipt: dict[str, Any] | None = None
+) -> Any:
     """No direct fallback, NO_PROXY bypass, redirects, retries or exception text."""
     receipt = new_call_receipt() if receipt is None else receipt
     connection = None
@@ -114,15 +129,19 @@ def _house_reply(endpoint: str, token: str, body: bytes,
             # HTTP CONNECT via the granted proxy; TLS checks certificate and hostname.
             # Proxy auth is on CONNECT only, never exposed to the House origin.
             connection = http.client.HTTPSConnection(
-                proxy.hostname, proxy_port, timeout=_TIMEOUT_SEC,
+                proxy.hostname,
+                proxy_port,
+                timeout=_TIMEOUT_SEC,
                 context=ssl.create_default_context(),
             )
-            connection.set_tunnel(target.hostname, target_port or 443,
-                                  headers={"Proxy-Authorization": proxy_auth})
+            connection.set_tunnel(
+                target.hostname, target_port or 443, headers={"Proxy-Authorization": proxy_auth}
+            )
             path = "/v1/chat/completions"
         else:
-            connection = http.client.HTTPConnection(proxy.hostname, proxy_port,
-                                                    timeout=_TIMEOUT_SEC)
+            connection = http.client.HTTPConnection(
+                proxy.hostname, proxy_port, timeout=_TIMEOUT_SEC
+            )
             headers["Proxy-Authorization"] = proxy_auth
             path = target.scheme + "://" + target.netloc + "/v1/chat/completions"
         receipt["request_attempted"] = True
@@ -134,9 +153,13 @@ def _house_reply(endpoint: str, token: str, body: bytes,
         receipt["response_received"] = True
         receipt["http_status"] = response.status
         if response.status != 200:
-            category = ("proxy_authentication_failure" if response.status == 407 else
-                        "redirect_rejected" if 300 <= response.status < 400 else
-                        "http_" + str(response.status))
+            category = (
+                "proxy_authentication_failure"
+                if response.status == 407
+                else "redirect_rejected"
+                if 300 <= response.status < 400
+                else "http_" + str(response.status)
+            )
             raise HouseError(category, response.status)
         raw = response.read(_RESPONSE_BYTES + 1)
         if len(raw) > _RESPONSE_BYTES:
@@ -169,8 +192,13 @@ def _house_reply(endpoint: str, token: str, body: bytes,
         # Only inspect the stdlib CONNECT status. Never persist proxy-controlled text.
         match = re.match(r"^Tunnel connection failed: ([0-9]{3})\b", str(exc))
         status = int(match[1]) if match else None
-        category = ("proxy_authentication_failure" if status == 407 else
-                    "proxy_connect_http_error" if status else "network_error")
+        category = (
+            "proxy_authentication_failure"
+            if status == 407
+            else "proxy_connect_http_error"
+            if status
+            else "network_error"
+        )
         if status:
             receipt["proxy_connect_status"] = status
         receipt["failure_category"] = category

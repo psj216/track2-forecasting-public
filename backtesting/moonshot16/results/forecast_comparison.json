@@ -1,0 +1,437 @@
+{
+  "executive_summary": "Ten public-input comparisons with fixed synthetic replies; not independent OOS performance.",
+  "rows": [
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F1-patient-dropped-2015",
+      "variant": "A",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 500,
+      "draw_shape": [
+        500,
+        1
+      ],
+      "finite": true,
+      "mean": [
+        0.6933668714190383
+      ],
+      "standard_deviation": [
+        0.47174489571014233
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 1.25,
+        "max_absolute_shift_sd": 0.13100082965395574,
+        "mean_absolute_shift_sd": 0.13100082965395574,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "4ed61a56f7a78413526174a8a0131b957acc22cc7a4b8e8775154778f4a81638",
+        "repaired_normal": "4ed61a56f7a78413526174a8a0131b957acc22cc7a4b8e8775154778f4a81638",
+        "original_uppercase": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "repaired_uppercase": "4ed61a56f7a78413526174a8a0131b957acc22cc7a4b8e8775154778f4a81638",
+        "V51_fallback": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F3-brexit-joint-2016",
+      "variant": "A",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 4000,
+      "draw_shape": [
+        500,
+        8
+      ],
+      "finite": true,
+      "mean": [
+        1.4154903811273465,
+        1.4092844136418523,
+        1.1178066748306241,
+        1.118636082939845,
+        0.9642602270823315,
+        0.9592012248193432,
+        104.51167968187647,
+        103.34925343466217
+      ],
+      "standard_deviation": [
+        0.04118175932858223,
+        0.06976431553641624,
+        0.03240184457056075,
+        0.057207043150308765,
+        0.030383186195681252,
+        0.05379805154037641,
+        3.814144574694412,
+        6.742763222358068
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 1.25,
+        "max_absolute_shift_sd": 0.29761527918313174,
+        "mean_absolute_shift_sd": 0.25543297261150266,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+        "repaired_normal": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+        "original_uppercase": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "repaired_uppercase": "1959efa86047835d1d5b9ae2dcf482f7c41c0a5d3801a1630eb90f08a4950c33",
+        "V51_fallback": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F1-patient-dropped-2015",
+      "variant": "B",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 500,
+      "draw_shape": [
+        500,
+        1
+      ],
+      "finite": true,
+      "mean": [
+        0.8957450402936704
+      ],
+      "standard_deviation": [
+        0.47174489571014233
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 2.5,
+        "max_absolute_shift_sd": 0.5599999999999999,
+        "mean_absolute_shift_sd": 0.5599999999999999,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "42b5190d020631c33fe5ab0691a7f81fe1b497ca5f479eddbfa69585517a46d7",
+        "repaired_normal": "42b5190d020631c33fe5ab0691a7f81fe1b497ca5f479eddbfa69585517a46d7",
+        "original_uppercase": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "repaired_uppercase": "42b5190d020631c33fe5ab0691a7f81fe1b497ca5f479eddbfa69585517a46d7",
+        "V51_fallback": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F3-brexit-joint-2016",
+      "variant": "B",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 4000,
+      "draw_shape": [
+        500,
+        8
+      ],
+      "finite": true,
+      "mean": [
+        1.450808487151181,
+        1.463229717096204,
+        1.1455949918080544,
+        1.1628714671579932,
+        0.9722323109098122,
+        0.9778556633593216,
+        105.51245294126286,
+        105.68730209106562
+      ],
+      "standard_deviation": [
+        0.04118175932858223,
+        0.06976431553641624,
+        0.03240184457056076,
+        0.057207043150308765,
+        0.03038318619568127,
+        0.05379805154037641,
+        3.814144574694412,
+        6.742763222358069
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 2.5,
+        "max_absolute_shift_sd": 0.5599999999999999,
+        "mean_absolute_shift_sd": 0.5599999999999999,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "2088686c4f9b229781830c260d797abe5bcb7c909c1b2a14289299bc9f679791",
+        "repaired_normal": "2088686c4f9b229781830c260d797abe5bcb7c909c1b2a14289299bc9f679791",
+        "original_uppercase": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "repaired_uppercase": "2088686c4f9b229781830c260d797abe5bcb7c909c1b2a14289299bc9f679791",
+        "V51_fallback": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F1-patient-dropped-2015",
+      "variant": "C",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 500,
+      "draw_shape": [
+        500,
+        1
+      ],
+      "finite": true,
+      "mean": [
+        0.682419624822384
+      ],
+      "standard_deviation": [
+        0.4931499247687738
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": "5ff1d95aafa22c614263543fb35a07b551a48b68715bd11b298c7c49ca8ae2fb",
+        "location_cap_sd": 3.0,
+        "max_absolute_shift_sd": 0.3593165613365643,
+        "mean_absolute_shift_sd": 0.2694874210024232,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": true
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "1e56f533185d3e27be2ff6be5e0e1b3162625ad0ef198e8c9059fe33425495fc",
+        "repaired_normal": "1e56f533185d3e27be2ff6be5e0e1b3162625ad0ef198e8c9059fe33425495fc",
+        "original_uppercase": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "repaired_uppercase": "1e56f533185d3e27be2ff6be5e0e1b3162625ad0ef198e8c9059fe33425495fc",
+        "V51_fallback": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F3-brexit-joint-2016",
+      "variant": "C",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 4000,
+      "draw_shape": [
+        500,
+        8
+      ],
+      "finite": true,
+      "mean": [
+        1.4176615008118867,
+        1.411919818723982,
+        1.1195149137137979,
+        1.1207971266065504,
+        0.9626584127183022,
+        0.957168958647906,
+        104.31059637458664,
+        103.09453994213851
+      ],
+      "standard_deviation": [
+        0.048065640247753526,
+        0.07532469919907911,
+        0.03871550347469631,
+        0.0626127798839777,
+        0.03668905266842482,
+        0.06013108575877478,
+        4.689013375267419,
+        7.6741950950633155
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": "5ff1d95aafa22c614263543fb35a07b551a48b68715bd11b298c7c49ca8ae2fb",
+        "location_cap_sd": 3.0,
+        "max_absolute_shift_sd": 0.8163161943308759,
+        "mean_absolute_shift_sd": 0.5254621150865199,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": true
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "4f7bf355654cc22725455d0d718ec8b9c489a6e8e2571998710980780a331250",
+        "repaired_normal": "4f7bf355654cc22725455d0d718ec8b9c489a6e8e2571998710980780a331250",
+        "original_uppercase": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "repaired_uppercase": "4f7bf355654cc22725455d0d718ec8b9c489a6e8e2571998710980780a331250",
+        "V51_fallback": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F1-patient-dropped-2015",
+      "variant": "D",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 500,
+      "draw_shape": [
+        500,
+        1
+      ],
+      "finite": true,
+      "mean": [
+        0.7419690530530314
+      ],
+      "standard_deviation": [
+        0.47174489571014233
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 2.0,
+        "max_absolute_shift_sd": 0.2340272366717356,
+        "mean_absolute_shift_sd": 0.2340272366717356,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "f26cd426fe957bde7af90a535b4220506a36447a81bc156e33ecf85cbd7f0a32",
+        "repaired_normal": "f26cd426fe957bde7af90a535b4220506a36447a81bc156e33ecf85cbd7f0a32",
+        "original_uppercase": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "repaired_uppercase": "f26cd426fe957bde7af90a535b4220506a36447a81bc156e33ecf85cbd7f0a32",
+        "V51_fallback": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F3-brexit-joint-2016",
+      "variant": "D",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 4000,
+      "draw_shape": [
+        500,
+        8
+      ],
+      "finite": true,
+      "mean": [
+        1.4098843933111271,
+        1.402091934552534,
+        1.1133958786711824,
+        1.112738218702853,
+        0.9683962274477339,
+        0.9647476328615523,
+        105.03089130283786,
+        104.04441088167717
+      ],
+      "standard_deviation": [
+        0.04118175932858223,
+        0.06976431553641622,
+        0.03240184457056076,
+        0.057207043150308765,
+        0.03038318619568127,
+        0.05379805154037641,
+        3.814144574694412,
+        6.742763222358069
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": null,
+        "location_cap_sd": 2.0,
+        "max_absolute_shift_sd": 0.43374321319123343,
+        "mean_absolute_shift_sd": 0.3750453496731664,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": false
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "a5ac1dedf0b85a056fde7b70a79e0e9b609616a30333f1b4acc506c083d5b2f2",
+        "repaired_normal": "a5ac1dedf0b85a056fde7b70a79e0e9b609616a30333f1b4acc506c083d5b2f2",
+        "original_uppercase": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "repaired_uppercase": "a5ac1dedf0b85a056fde7b70a79e0e9b609616a30333f1b4acc506c083d5b2f2",
+        "V51_fallback": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F1-patient-dropped-2015",
+      "variant": "E",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 500,
+      "draw_shape": [
+        500,
+        1
+      ],
+      "finite": true,
+      "mean": [
+        0.7967867079775731
+      ],
+      "standard_deviation": [
+        0.48490539059539106
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": "5ff1d95aafa22c614263543fb35a07b551a48b68715bd11b298c7c49ca8ae2fb",
+        "location_cap_sd": 4.0,
+        "max_absolute_shift_sd": 0.5276354993795009,
+        "mean_absolute_shift_sd": 0.35022914033414104,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": true
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "699208f728becf85e8b4f420207c5e169a72e0c3af0bdbb23b5fa8578cc09ab8",
+        "repaired_normal": "699208f728becf85e8b4f420207c5e169a72e0c3af0bdbb23b5fa8578cc09ab8",
+        "original_uppercase": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "repaired_uppercase": "699208f728becf85e8b4f420207c5e169a72e0c3af0bdbb23b5fa8578cc09ab8",
+        "V51_fallback": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7"
+      }
+    },
+    {
+      "executive_summary": "Public-input synthetic comparison; no realized targets or quality claim.",
+      "unit": "t2-F3-brexit-joint-2016",
+      "variant": "E",
+      "passed": true,
+      "original_normal_equals_repaired_normal": true,
+      "uppercase_repair_changes_original_fallback": true,
+      "row_count": 4000,
+      "draw_shape": [
+        500,
+        8
+      ],
+      "finite": true,
+      "mean": [
+        1.4360001775685622,
+        1.4373363987673937,
+        1.1339438007644587,
+        1.1416388331451535,
+        0.969330080057313,
+        0.9696046039104875,
+        105.14812222264493,
+        104.65315794264173
+      ],
+      "standard_deviation": [
+        0.042800446279557446,
+        0.07164775915087573,
+        0.03412766648190627,
+        0.05904787681805467,
+        0.03258502356493301,
+        0.05654967127748706,
+        4.141283136892078,
+        7.175727820179272
+      ],
+      "geometry": {
+        "joint_scenario_labels_SHA256": "5ff1d95aafa22c614263543fb35a07b551a48b68715bd11b298c7c49ca8ae2fb",
+        "location_cap_sd": 4.0,
+        "max_absolute_shift_sd": 0.7713686369764671,
+        "mean_absolute_shift_sd": 0.3213029628283331,
+        "scale_fitted": false,
+        "scenario_labels_reused_all_cells": true
+      },
+      "old_and_new_cross_asset_and_horizon_distribution": "BYTE_IDENTICAL",
+      "forecast_SHA256": {
+        "original_normal": "20cb0126496aacea2f85d6313111a0e8097ddc4f9eea991ff4941c1287efd9c9",
+        "repaired_normal": "20cb0126496aacea2f85d6313111a0e8097ddc4f9eea991ff4941c1287efd9c9",
+        "original_uppercase": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "repaired_uppercase": "20cb0126496aacea2f85d6313111a0e8097ddc4f9eea991ff4941c1287efd9c9",
+        "V51_fallback": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95"
+      }
+    }
+  ],
+  "independent_OOS": false,
+  "score_evaluation": "NOT_RUN"
+}

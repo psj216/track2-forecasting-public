@@ -1,14 +1,25 @@
 {
-  "executive_summary": "Recovery stopped before implementation after two frozen-checkout failures. No M16 technical or forecast gate is established.",
-  "classification": "INCONCLUSIVE",
-  "TRANSPORT_FIXED": "UNKNOWN",
-  "HOUSE_MOCK_SUCCESS": "UNKNOWN",
-  "FALLBACK_EXACT": "UNKNOWN",
-  "REGRESSION_PASS": "UNKNOWN",
+  "executive_summary": "Transport is mock-repaired, but full repository regression failed and live House/independent alpha are unknown. Final is not eligible.",
+  "classification": "TECHNICALLY_REPAIRED_BUT_UNPROVEN",
+  "SOURCE_RECOVERED": true,
+  "TRANSPORT_FIXED": true,
+  "HOUSE_MOCK_SUCCESS": true,
+  "TESTS_PASSED": false,
+  "M16_SPECIFIC_TESTS_PASSED": true,
+  "FALLBACK_EXACT": true,
+  "REGRESSION_PASS": false,
+  "PROVENANCE_VERIFIED": true,
   "IMAGE_BUILD_READY": "UNKNOWN",
+  "LIVE_HOUSE_VERIFIED": "UNKNOWN",
   "LIVE_HOUSE_SUCCESS_VERIFIED": "UNKNOWN",
+  "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
   "INDEPENDENT_FORECAST_IMPROVEMENT_VERIFIED": "UNKNOWN",
-  "final_recommendation": "Preserve and prefer the existing user-held V51-final-submission.zip; do not recreate or submit it in this work.",
-  "new_submissions": 0,
-  "reason": "PHASE_0_STOP_TWO_CHECKOUT_FAILURES"
+  "FINAL_ELIGIBLE": false,
+  "new_Docker_image": false,
+  "final_recommendation": "Preserve and prefer existing user-held V51-final-submission.zip. Do not request, recreate, modify or submit it.",
+  "stop_reason": "Two full repository execution failures; no third execution.",
+  "unresolved_new_lint": [
+    "Comparison test I001",
+    "Comparison test F811"
+  ]
 }

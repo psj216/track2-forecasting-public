@@ -1,5 +1,5 @@
 {
-  "executive_summary": "Authoritative GitHub refs and receipts recovered; local frozen-source checkout failed twice and the requested stop rule applies.",
+  "executive_summary": "Independent recovery succeeded and transport was minimally repaired. Full regression remains failed, no live/alpha evidence, no Final release.",
   "repository": "psj216/track2-forecasting-public",
   "branch": "track2/moonshot-16-house-transport-repair",
   "parent_sha": "361018c14bab3cb7d8da101aa332066644921bac",
@@ -11,8 +11,12 @@
   "local_source_blob_entries": 2759,
   "missing_local_blobs_recovered_from_remote": 5,
   "local_tree_hash_reconstructed": true,
-  "local_frozen_checkout_succeeded": false,
-  "local_runtime_code_changes": [],
+  "local_frozen_checkout_succeeded": true,
+  "local_runtime_code_changes": [
+    "moonshot15_engine/official_transport.py",
+    "moonshot15_engine/engine.py",
+    "moonshot15_engine/cli.py"
+  ],
   "safe_identity": {
     "DELIVERY_REFERENCE_SHA": "a26b2b0b405ad53f87c460a72e02989ca42f8abc",
     "MAIN_SHA": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
@@ -76,7 +80,7 @@
       "after": "Remote blobs and exact frozen tree hash restored"
     }
   ],
-  "diagnosis": "In the new shared clone git cat-file -p reports the frozen commit is not a valid object. The donor had reported a commit object, but the new clone does not resolve it. The remote commit exists. No third checkout attempt.",
+  "diagnosis": "Independent official clone recovered full history and clean tree without old objects/alternates. Runtime repair passed specific tests; full regression failed and STOP applied.",
   "runtime": {
     "python_before": "3.12.14",
     "python_313_installed": "3.13.16",
@@ -103,6 +107,26 @@
       "moonshot15_engine/entrypoint.py": "0f339b29ed0c43aea36f8b8df7530bfe121f663b1b07f453cf52ccb9667b3736",
       "tests/test_moonshot15.py": "d2df4a04d23dfd10206f2c2ca4e0b9a232cb9fb3d83094cc9108677f2d7dc14a"
     },
-    "old_shared_object_store_used": false
-  }
+    "old_shared_object_store_used": false,
+    "verified_transport_blob_SHA": "cec8fc3ebbaccc57e8121db4e7a526ebfe2409bb",
+    "recovery_checkpoint": "530b2c4b1eac215cd32535e3bb97d7e969f7f161",
+    "implementation_checkpoint": "02b581199370be1071c7887907bb6df96742c544"
+  },
+  "resume_result": {
+    "runtime_changed_files": [
+      "moonshot15_engine/official_transport.py",
+      "moonshot15_engine/engine.py",
+      "moonshot15_engine/cli.py"
+    ],
+    "frozen_forecast_functions_AST_identical": true,
+    "config_prompt_context_entrypoint_unchanged": true,
+    "existing_test_assertions_changed": false,
+    "full_regression_gate": false,
+    "docker_image_created": false,
+    "live_House_verified": "UNKNOWN",
+    "independent_alpha_verified": "UNKNOWN",
+    "actual_CodaBench_root_cause_confirmed": false,
+    "request_body_and_nominal_parquet_equal_to_frozen_M15": true
+  },
+  "prior_attempt_diagnosis": "In the new shared clone git cat-file -p reports the frozen commit is not a valid object. The donor had reported a commit object, but the new clone does not resolve it. The remote commit exists. No third checkout attempt."
 }

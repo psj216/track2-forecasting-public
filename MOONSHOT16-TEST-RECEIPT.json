@@ -1,48 +1,424 @@
 {
-  "executive_summary": "Resume tests have started after independent source recovery. Records are incremental, not Final quality evidence.",
-  "status": "IN_PROGRESS",
-  "pre_sha": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
-  "new_tests": {
-    "passed": 0,
-    "failed": 0,
-    "skipped": 0,
-    "executed": 0
-  },
-  "existing_tests": {
-    "passed": 0,
-    "failed": 0,
-    "skipped": 0,
-    "executed": 0
-  },
-  "total_tests_executed": null,
-  "prior_m15_mock_cases": 76,
-  "prior_m15_cases_reexecuted": 0,
+  "executive_summary": "M16-specific 265 tests pass; full repository retry has 11 failures, 1278 passes and 26 skips. STOP rule prevents another full execution.",
+  "status": "STOPPED_FULL_REGRESSION",
+  "new_M16_unique_passed": 265,
+  "new_M16_unique_failed": 0,
+  "new_M16_unique_skipped": 0,
   "stages": {
-    "transport_unit": {
+    "transport": {
+      "tests": 24,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
       "passed": 24,
-      "failed": 0
+      "failures_by_test": []
     },
     "parser": {
+      "tests": 54,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
       "passed": 54,
-      "failed": 0
+      "failures_by_test": []
     },
-    "baseline_red_control": {
-      "failed": 1,
-      "purpose": "Expected failure on unmodified uppercase-only implementation"
+    "fallback": {
+      "tests": 125,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 125,
+      "failures_by_test": []
+    },
+    "integration": {
+      "tests": 52,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 52,
+      "failures_by_test": []
+    },
+    "affected": {
+      "tests": 130,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 130,
+      "failures_by_test": []
+    },
+    "comparison": {
+      "tests": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 10,
+      "failures_by_test": []
+    },
+    "full": {
+      "tests": 56,
+      "failures": 0,
+      "errors": 56,
+      "skipped": 0,
+      "passed": 0,
+      "failures_by_test": [
+        {
+          "test": "::tests.test_context01_card_block_cv",
+          "type": null
+        },
+        {
+          "test": "::tests.test_context01_expert_asof",
+          "type": null
+        },
+        {
+          "test": "::tests.test_context01_no_card_refit",
+          "type": null
+        },
+        {
+          "test": "::tests.test_context01_no_same_card_leakage",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_control_dispatch",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_event_permutation_control",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_first_release_only",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_future_mutation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_inactive_zero_shift",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_inner_cv",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_market_implied_tminus1",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_no_future_consensus",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_post_release_activation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_pre_release_leakage_guard",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_purge",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_revised_actual_rejected",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_revision_same_target",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_same_day_not_primary",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_shift_only",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_source_class_separation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_source_timestamp",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_source_timestamp_mutation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_surprise_past_scale",
+          "type": null
+        },
+        {
+          "test": "::tests.test_expectation01_true_surprise_definition",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location01_inner_cv_no_outer_leakage",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location01_integration",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location01_purge",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location02_controls",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location02_model",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location02_validation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location03",
+          "type": null
+        },
+        {
+          "test": "::tests.test_location04",
+          "type": null
+        },
+        {
+          "test": "::tests.test_persistent_direction02",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_direct_mapping_only",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_draw_geometry",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_flow_pit",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_future_mutation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_inactive_zero_shift",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_inner_cv",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_liquidity_pit",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_mapping_permutation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_net_share",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_no_future_report",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_observation_not_release",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_open_interest_pit",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_original_archive",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_past_only_zscore",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_publication_date",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_purge",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_report_permutation",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_shift_only",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_source_asset_map",
+          "type": null
+        },
+        {
+          "test": "::tests.test_positioning01_stale_guard",
+          "type": null
+        },
+        {
+          "test": "::tests.test_price_state_information03",
+          "type": null
+        },
+        {
+          "test": "::tests.test_text_route_audit02",
+          "type": null
+        },
+        {
+          "test": "::tests.test_v51_center_bias04",
+          "type": null
+        }
+      ]
+    },
+    "full-retry": {
+      "tests": 1315,
+      "failures": 11,
+      "errors": 0,
+      "skipped": 26,
+      "passed": 1278,
+      "failures_by_test": [
+        {
+          "test": "tests.test_new_information_search02::test_parent_main_branch",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_information_search02::test_frozen_hash",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_information_search02::test_constructed_source_schema_and_cutoff",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_information_search02::test_live_source_mutation_does_not_change_earlier_asof_states",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_mechanism_moonshot12::test_exact_parent_branch",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_mechanism_moonshot12::test_main_unchanged",
+          "type": null
+        },
+        {
+          "test": "tests.test_new_mechanism_moonshot12::test_ancestor_files_preserved",
+          "type": null
+        },
+        {
+          "test": "tests.test_persistent_direction02::test_parent_main_protection",
+          "type": null
+        },
+        {
+          "test": "tests.test_price_state_information03::test_protected_parent_main",
+          "type": null
+        },
+        {
+          "test": "tests.test_v51_delivery_repair10::test_exact_common_import_source",
+          "type": null
+        },
+        {
+          "test": "tests.test_v51_delivery_repair10::test_preserved_manual_only_workflow",
+          "type": null
+        }
+      ]
     }
   },
-  "variants": {
-    "A": "NOT_RUN",
-    "B": "NOT_RUN",
-    "C": "NOT_RUN",
-    "D": "NOT_RUN",
-    "E": "NOT_RUN"
+  "no_sum_of_repeated_stage_counts": true,
+  "baseline_red_control": {
+    "expected_failed": 1,
+    "passed_on_repaired_transport": true
   },
-  "checkout_failure_count": 2,
-  "stop_rule": "Same frozen-source checkout failed twice; no third attempt.",
-  "python_313_available": true,
-  "docker_available": false,
-  "live_house_calls": 0,
-  "codabench_submissions": 0,
-  "team_key_used": false
+  "full_repository_attempt_1": {
+    "collection_errors": 56,
+    "root_cause": "missing sklearn"
+  },
+  "full_repository_attempt_2": {
+    "tests": 1315,
+    "failures": 11,
+    "errors": 0,
+    "skipped": 26,
+    "passed": 1278,
+    "failures_by_test": [
+      {
+        "test": "tests.test_new_information_search02::test_parent_main_branch",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_frozen_hash",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_constructed_source_schema_and_cutoff",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_information_search02::test_live_source_mutation_does_not_change_earlier_asof_states",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_exact_parent_branch",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_main_unchanged",
+        "type": null
+      },
+      {
+        "test": "tests.test_new_mechanism_moonshot12::test_ancestor_files_preserved",
+        "type": null
+      },
+      {
+        "test": "tests.test_persistent_direction02::test_parent_main_protection",
+        "type": null
+      },
+      {
+        "test": "tests.test_price_state_information03::test_protected_parent_main",
+        "type": null
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_exact_common_import_source",
+        "type": null
+      },
+      {
+        "test": "tests.test_v51_delivery_repair10::test_preserved_manual_only_workflow",
+        "type": null
+      }
+    ]
+  },
+  "same_full_stage_failures": 2,
+  "regression_script": "ALL REGRESSION CHECKS PASSED",
+  "stdlib_unit_validation": {
+    "passed_units": 104,
+    "public_safety_check": "NOT_INCLUDED_IN_STDLIB_CHECK"
+  },
+  "lint": {
+    "transport_and_initial_two_test_files": "PASS",
+    "new_comparison_file": "FAIL",
+    "errors": [
+      "I001 import ordering",
+      "F811 fixture import/parameter redefinition"
+    ],
+    "no_post_STOP_fix": true
+  },
+  "container_smoke": "UNKNOWN: Docker and podman unavailable on host; no image created",
+  "actual_House_calls": 0,
+  "actual_CodaBench_submissions": 0,
+  "independent_forecast_evaluation": "NOT_RUN"
 }

@@ -1,23 +1,31 @@
 {
-  "executive_summary": "Independent recovery verified; resume at minimal transport repair.",
+  "executive_summary": "M16 transport-specific validation passed; full regression failed twice, so execution stopped with evidence preserved.",
   "branch": "track2/moonshot-16-house-transport-repair",
   "resume_from_SHA": "74ebc30cbec728a4a739d58064e6f9e5772182b6",
-  "stage": "TRANSPORT_REPAIR_AND_STAGED_TESTS",
-  "SOURCE_RECOVERED": true,
+  "PRE_SHA": "ec36fbda44ca17c1c64b0b07da7d6adffbdb721b",
+  "stage": "STOPPED_FULL_REGRESSION",
   "completed_stages": [
-    "authoritative_recovery",
-    "contract_audit",
-    "minimal_transport_repair",
+    "independent_source_recovery",
+    "transport_repair",
     "transport_unit",
-    "parser"
+    "parser",
+    "fallback",
+    "M15_integration",
+    "affected_package",
+    "public_synthetic_forecast_comparison"
   ],
   "pending_stages": [
-    "transport_repair",
-    "staged_tests",
-    "comparison",
-    "container",
-    "Final_gate"
+    "full_repository_regression_resolution",
+    "comparison_test_lint",
+    "container_smoke",
+    "live_House_verification",
+    "independent_alpha_evidence"
   ],
+  "same_stage_failure_count": 2,
+  "last_successful_artifact": "MOONSHOT16-TEST-RECEIPT.json",
+  "last_update_time": "2026-10-12T16:22:22.896851+00:00",
+  "implementation_complete": true,
+  "tests_complete": false,
   "finished": false,
-  "last_update_time": "2026-10-12T16:11:58.491421+00:00"
+  "Final_eligible": false
 }

@@ -1,43 +1,2675 @@
 {
-  "executive_summary": "M16 fallback matrix is empty because no repaired-source test ran. Previous M15 76-case evidence is historical and does not validate M16.",
-  "status": "NOT_RUN",
-  "rows": [],
-  "required_variants": [
-    "A",
-    "B",
-    "C",
-    "D",
-    "E"
+  "executive_summary": "166 A-E mock conditions passed. Exact fallback and safe call receipts are tested; no quality claim.",
+  "rows": [
+    {
+      "variant": "A",
+      "case": "both_conflicting",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_conflict",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "both_equal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "code_fence",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "code_fenced_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "duplicate_model_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_model_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "duplicate_outer_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_outer_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "endpoint_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "endpoint_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "http_401",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_401",
+      "HTTP_statuses": [
+        401
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "http_403",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_403",
+      "HTTP_statuses": [
+        403
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "http_429",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_429",
+      "HTTP_statuses": [
+        429
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "http_503",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        503
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "http_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "https_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "https_proxy_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "https_proxy_scheme",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "invalid_proxy_credentials",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_credentials_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "length",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "lowercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "malformed_envelope",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_response",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "malformed_json",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_model_content",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "malformed_outer",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_outer_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "model_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "model_name_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "normal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "normal_adjustment",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "proxy_auth_failure",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_authentication_failure",
+      "HTTP_statuses": [
+        407
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "proxy_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "redirect",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "redirect_rejected",
+      "HTTP_statuses": [
+        307
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "response_too_large",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_too_large",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "schema_mismatch",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "schema_rejection",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "socket_truncation",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "timeout",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "timeout",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "tls_invalid",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": "unknown",
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "tls_validation_failure",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "token_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "token_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "A",
+      "case": "uppercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "both_conflicting",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_conflict",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "both_equal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "code_fence",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "code_fenced_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "duplicate_model_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_model_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "duplicate_outer_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_outer_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "endpoint_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "endpoint_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "http_401",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_401",
+      "HTTP_statuses": [
+        401
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "http_403",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_403",
+      "HTTP_statuses": [
+        403
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "http_429",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_429",
+      "HTTP_statuses": [
+        429
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "http_503",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        503
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "http_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "https_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "https_proxy_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "https_proxy_scheme",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "invalid_proxy_credentials",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_credentials_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "length",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "lowercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "malformed_envelope",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_response",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "malformed_json",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_model_content",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "malformed_outer",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_outer_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "model_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "model_name_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "normal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "normal_adjustment",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "proxy_auth_failure",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_authentication_failure",
+      "HTTP_statuses": [
+        407
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "proxy_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "redirect",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "redirect_rejected",
+      "HTTP_statuses": [
+        307
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "response_too_large",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_too_large",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "schema_mismatch",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "schema_rejection",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "socket_truncation",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "timeout",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "timeout",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "tls_invalid",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": "unknown",
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "tls_validation_failure",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "token_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "token_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "B",
+      "case": "uppercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "both_conflicting",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_conflict",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "both_equal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "code_fence",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "code_fenced_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "duplicate_model_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_model_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "duplicate_outer_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_outer_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "endpoint_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "endpoint_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "http_401",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_401",
+      "HTTP_statuses": [
+        401
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "http_403",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_403",
+      "HTTP_statuses": [
+        403
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "http_429",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_429",
+      "HTTP_statuses": [
+        429
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "http_503",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        503
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "http_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "https_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "https_proxy_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "https_proxy_scheme",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "invalid_proxy_credentials",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_credentials_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "length",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "lowercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "malformed_envelope",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_response",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "malformed_json",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_model_content",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "malformed_outer",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_outer_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "model_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "model_name_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "normal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "normal_adjustment",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "proxy_auth_failure",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_authentication_failure",
+      "HTTP_statuses": [
+        407
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "proxy_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "redirect",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "redirect_rejected",
+      "HTTP_statuses": [
+        307
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "response_too_large",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_too_large",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "schema_mismatch",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "schema_rejection",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "socket_truncation",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "timeout",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "timeout",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "tls_invalid",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": "unknown",
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "tls_validation_failure",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "token_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "token_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "C",
+      "case": "uppercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "both_conflicting",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_conflict",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "both_equal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "code_fence",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "code_fenced_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "duplicate_model_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_model_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "duplicate_outer_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_outer_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "endpoint_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "endpoint_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "http_401",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_401",
+      "HTTP_statuses": [
+        401
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "http_403",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_403",
+      "HTTP_statuses": [
+        403
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "http_429",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_429",
+      "HTTP_statuses": [
+        429
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "http_503",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        503
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "http_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "https_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "https_proxy_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "https_proxy_scheme",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "invalid_proxy_credentials",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_credentials_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "length",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "lowercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "malformed_envelope",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_response",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "malformed_json",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_model_content",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "malformed_outer",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_outer_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "model_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "model_name_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "normal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "normal_adjustment",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "proxy_auth_failure",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_authentication_failure",
+      "HTTP_statuses": [
+        407
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "proxy_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "redirect",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "redirect_rejected",
+      "HTTP_statuses": [
+        307
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "response_too_large",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_too_large",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "schema_mismatch",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "schema_rejection",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "socket_truncation",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "timeout",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "timeout",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "tls_invalid",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": "unknown",
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "tls_validation_failure",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "token_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "token_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "D",
+      "case": "uppercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "both_conflicting",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_conflict",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "both_equal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "code_fence",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "code_fenced_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "duplicate_model_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_model_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "duplicate_outer_keys",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "duplicate_outer_json_keys",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "endpoint_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "endpoint_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "http_401",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_401",
+      "HTTP_statuses": [
+        401
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "http_403",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_403",
+      "HTTP_statuses": [
+        403
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "http_429",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_429",
+      "HTTP_statuses": [
+        429
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "http_503",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        503
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "http_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "https_endpoint",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "https_proxy_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "https_proxy_scheme",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_configuration_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "invalid_proxy_credentials",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_credentials_invalid",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "length",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "lowercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "malformed_envelope",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_response",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "malformed_json",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_model_content",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "malformed_outer",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "malformed_outer_json",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "model_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "model_name_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "normal",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "normal_adjustment",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "proxy_auth_failure",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_authentication_failure",
+      "HTTP_statuses": [
+        407
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "proxy_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "proxy_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "redirect",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "redirect_rejected",
+      "HTTP_statuses": [
+        307
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "response_too_large",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_too_large",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "schema_mismatch",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "schema_rejection",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "second_call_error",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "http_503",
+      "HTTP_statuses": [
+        200,
+        503
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "socket_truncation",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "response_incomplete",
+      "HTTP_statuses": [
+        200
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "timeout",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "timeout",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "tls_invalid",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": true,
+      "request_sent": "unknown",
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "tls_validation_failure",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "token_missing",
+      "passed": true,
+      "baseline_exact": true,
+      "request_attempted": false,
+      "request_sent": false,
+      "response_received": false,
+      "response_validated": false,
+      "adjustment_applied": false,
+      "fallback_used": true,
+      "failure_category": "token_missing",
+      "HTTP_statuses": [
+        null
+      ]
+    },
+    {
+      "variant": "E",
+      "case": "uppercase_only",
+      "passed": true,
+      "baseline_exact": false,
+      "request_attempted": true,
+      "request_sent": true,
+      "response_received": true,
+      "response_validated": true,
+      "adjustment_applied": true,
+      "fallback_used": false,
+      "failure_category": null,
+      "HTTP_statuses": [
+        200,
+        200
+      ]
+    }
   ],
-  "required_conditions": [
-    "HTTP_PROXY_only",
-    "http_proxy_only",
-    "both_equal",
-    "both_conflicting",
-    "HTTPS_PROXY_only",
-    "HTTP_endpoint",
-    "HTTPS_endpoint_supported",
-    "missing_endpoint",
-    "missing_token",
-    "invalid_proxy_credentials",
-    "HTTP_401",
-    "HTTP_403",
-    "HTTP_429",
-    "HTTP_503",
-    "timeout",
-    "malformed_outer_JSON",
-    "malformed_content",
-    "code_fence",
-    "duplicate_JSON_keys",
-    "schema_mismatch",
-    "truncation",
-    "valid_response",
-    "exact_baseline_fallback",
-    "deterministic_repeat",
-    "metadata_accuracy",
-    "credential_leakage",
-    "container_smoke"
-  ],
-  "prior_reproduction_count": 76,
-  "new_reproduction_count": 0
+  "detail_path": "backtesting/moonshot16/results/full_mock_receipts.json.gz",
+  "detail_uncompressed_SHA256": "a0cd5e3d3a49fc03faefbdf4a190a36fbc6eab05a24c60ddb978523c0308d15f",
+  "historical_76_condition_equivalents_covered": true,
+  "timeout_test_deadline_seconds": 0.1,
+  "production_timeout_seconds": 60
 }
