@@ -1,0 +1,99 @@
+{
+  "executive_summary": "Read-only candidate audit evidence. No secret, local ZIP bytes, forecast evaluation or submission.",
+  "observed_at": "2026-10-12T17:45:23.200195+00:00",
+  "remote_refs": {
+    "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "V51": "126a7c628aa60783986450037309f5f59603276a",
+    "M15": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+    "M16": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+    "Final13": "c4f29969dfa3ca3a8993e7f44f58cd0cc61aa6a8",
+    "Secure14": "a26b2b0b405ad53f87c460a72e02989ca42f8abc"
+  },
+  "PRE": "f22edb36a87a389cf4158c1e296967e8fa99a7e8",
+  "research_dates": {
+    "CEILING01": {
+      "SHA": "b24d2602fc70e4e004a6d4b5496f3b0be00948e2",
+      "committer_date": "2026-10-01T16:07:30Z",
+      "tree": "42af901731bba27ceda331f08ee56f2854c731cf"
+    },
+    "LOCATION01": {
+      "SHA": "4c35ef22e9b1bafe2d9fc009e6b3151e09afb723",
+      "committer_date": "2026-10-02T01:49:53Z",
+      "tree": "b8d810e4f007e43763ed175509859eec03efc0f7"
+    },
+    "LOCATION02": {
+      "SHA": "6a9bf9a3507b3dd5b2ef2b8b687b4bfedf89e267",
+      "committer_date": "2026-10-03T03:57:39Z",
+      "tree": "03ea783b97076261dddc527e8fb40d98d0af71f0"
+    },
+    "MOONSHOT12": {
+      "SHA": "6d59afdfd75c72947b1341ee6028f62672e15700",
+      "committer_date": "2026-10-11T13:19:04Z",
+      "tree": "e3c71064160053c5641e5b513ee548737ce8978c"
+    },
+    "V51": {
+      "SHA": "126a7c628aa60783986450037309f5f59603276a",
+      "committer_date": "2026-10-11T08:36:09Z",
+      "tree": "354a2c51c56339bac10d112b9a3ce0701aeb496b"
+    },
+    "M16": {
+      "SHA": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+      "committer_date": "2026-10-12T17:11:56Z",
+      "tree": "ff4990eebc05ed1198356ac25e34a1c173bb553e"
+    }
+  },
+  "official_index": {
+    "track2": {
+      "head": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec"
+    },
+    "shared": {
+      "head": "6181b9c9f45c93ee526a6692406367a4042da7ad"
+    },
+    "documents": [
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "common/qfbench2_common/contracts/descriptor.py",
+        "blob_sha": "a73f7d49613f9f7944b8f99c5f8c3b97306f6eb2"
+      },
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "common/qfbench2_common/contracts/release.py",
+        "blob_sha": "8ac1f9d15079b3ccd4ec8dd4cb396d65ddda3856"
+      },
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "common/qfbench2_common/schemas/forecast.schema.json",
+        "blob_sha": "ee936a1db89484ff969a245b02deb7cdf998a1ca"
+      },
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "common/qfbench2_common/schemas/submission.schema.json",
+        "blob_sha": "9c71b5252d930d314c9898629ca9f5153f39b948"
+      },
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "starter-packs/track2/SUBMISSION-DESCRIPTOR.md",
+        "blob_sha": "fdbd9c374e108553bd8c448cf54cd5fde37c6978"
+      },
+      {
+        "repository": "Agenthon-2026/Agenthon2026-public",
+        "ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+        "path": "starter-packs/track2/TEAM-CLAIM.md",
+        "blob_sha": "1f6e84587a90c1e455b8eaf7978507f7fb094fea"
+      }
+    ]
+  },
+  "memory_reference_differences": [],
+  "independent_official_remote_clone": true,
+  "object_alternates": false,
+  "fsck_pass": true,
+  "safe_source_recovery": "Preparation source is not in the audit branch ancestry. Explicit official SHA fetch recovered its complete tree; no manual object reconstruction.",
+  "safe_source_tree": "f2f9163372ab179c3e58a0dbac00acee119a41cf",
+  "frozen_M15_tree": "9c7a78e3c23078bbe7f9c50f7eb50d65451869db",
+  "protected_refs_modified": false
+}

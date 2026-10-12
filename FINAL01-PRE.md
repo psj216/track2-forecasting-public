@@ -1,3 +1,7 @@
+## Executive summary (read this first)
+
+This precommits a read-only candidate, provenance and independence audit. No score optimization or submission.
+
 # FINAL-DECISION-01 PRE
 
 Read-only provenance, contract and independence audit. No new model, scoring experiment, Docker build, submission, secret use or local ZIP access.

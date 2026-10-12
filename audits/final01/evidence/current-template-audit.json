@@ -1,0 +1,39 @@
+{
+  "executive_summary": "Read-only candidate audit evidence. No secret, local ZIP bytes, forecast evaluation or submission.",
+  "observed_at": "2026-10-12T17:45:23.200195+00:00",
+  "kind": "NEW_STATIC_AUDIT_OF_EXISTING_PUBLIC_TEMPLATE_ONLY",
+  "official_schema_errors": [
+    {
+      "validator": "required",
+      "message": "'team_id' is a required property",
+      "path": []
+    },
+    {
+      "validator": "required",
+      "message": "'descriptor_digest' is a required property",
+      "path": []
+    }
+  ],
+  "template_is_final": false,
+  "template_competition_matches_final": false,
+  "not_actual_local_ZIP_descriptor": true,
+  "template_sha256": "4035a29f76e8703d1d70929f925feac896d33304061981667a590fc94b7179ac",
+  "Final_expected_fields": {
+    "schema_version": "1.1.0",
+    "interface_version": "2.0",
+    "competition_id": "agenthon2026-forecasting-final",
+    "track": "forecasting",
+    "phase": "final",
+    "category": "api",
+    "models": [],
+    "image": {
+      "registry": "docker.io",
+      "repository": "jotj216/track2-f4-approved",
+      "digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+    },
+    "license": "MIT"
+  },
+  "Team_Key_used": false,
+  "official_schema_ref": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+  "official_schema_blob": "9c71b5252d930d314c9898629ca9f5153f39b948"
+}

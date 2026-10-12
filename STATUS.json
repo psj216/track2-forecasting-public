@@ -1,18 +1,29 @@
 {
+  "executive_summary": "Provenance and current official contract audit complete; independence and final evidence decision pending.",
   "branch": "track2/final-decision-01-candidate-audit",
   "parent_SHA": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
-  "stage": "PRE_REMOTE_RECOVERY_COMPLETE",
+  "PRE_SHA": "f22edb36a87a389cf4158c1e296967e8fa99a7e8",
+  "stage": "PROVENANCE_CONTRACT_CHECKPOINT",
   "completed_stages": [
-    "remote_refs"
+    "remote_recovery",
+    "PRE",
+    "v51_score_provenance",
+    "safe_image_and_package_records",
+    "m16_evidence",
+    "official_current_contract"
   ],
   "pending_stages": [
-    "v51_provenance",
-    "official_final_contract",
-    "independence",
-    "decision"
+    "independence_ledger",
+    "limited_quality_feasibility",
+    "candidate_decision",
+    "final_readiness_report",
+    "RESULT_remote_verification"
   ],
-  "local_ZIP_bytes_read": false,
+  "last_successful_artifact": "FINAL01-M16-EVIDENCE.md",
+  "last_update": "2026-10-12T17:45:23.200195+00:00",
   "new_forecasts": 0,
-  "submissions": 0,
-  "last_update": "2026-10-12T17:30:32.017Z"
+  "new_scores": 0,
+  "local_ZIP_bytes_read": false,
+  "keys_or_tokens_used": false,
+  "submissions": 0
 }
