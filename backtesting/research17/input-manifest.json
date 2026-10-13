@@ -1,0 +1,2777 @@
+{
+  "executive_summary": "Public previous-day ALFRED input retrieval manifests only; no observations, forecast draws or outcomes in this repository.",
+  "records": [
+    {
+      "origin": "2022-01-03",
+      "vintage": "2022-01-02",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-01-02,2022-01-02,2022-01-02&cosd=2000-01-01&coed=2022-01-02",
+      "sha256": "21a6366b9b2fcc67f885a77a8674ac030f806f24612b4d04486eba369405a10e",
+      "bytes": 363871,
+      "headers": [
+        "observation_date",
+        "DGS2_20220102",
+        "DGS5_20220102",
+        "DGS10_20220102"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5502,
+      "observed_at": "2026-10-13T15:03:23.254641+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-01-10",
+      "vintage": "2022-01-09",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-01-09,2022-01-09,2022-01-09&cosd=2000-01-01&coed=2022-01-09",
+      "sha256": "4243f750014ad14821f64ae7918b3fc431367d7042d8749b1dccfc961f1ce178",
+      "bytes": 364027,
+      "headers": [
+        "observation_date",
+        "DGS2_20220109",
+        "DGS5_20220109",
+        "DGS10_20220109"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5508,
+      "observed_at": "2026-10-13T15:03:23.822460+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-01-17",
+      "vintage": "2022-01-16",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-01-16,2022-01-16,2022-01-16&cosd=2000-01-01&coed=2022-01-16",
+      "sha256": "b3a8dbd68997b8ca3d924d3fadcd0662e6d0114035de0a407d8695dd8c87aeea",
+      "bytes": 364157,
+      "headers": [
+        "observation_date",
+        "DGS2_20220116",
+        "DGS5_20220116",
+        "DGS10_20220116"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5513,
+      "observed_at": "2026-10-13T15:03:22.150282+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-01-24",
+      "vintage": "2022-01-23",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-01-23,2022-01-23,2022-01-23&cosd=2000-01-01&coed=2022-01-23",
+      "sha256": "0656aa58ca853612c4172ff49bae36658d9fead5db678330e6d614642c694aa5",
+      "bytes": 364275,
+      "headers": [
+        "observation_date",
+        "DGS2_20220123",
+        "DGS5_20220123",
+        "DGS10_20220123"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5517,
+      "observed_at": "2026-10-13T15:03:23.322407+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-01-31",
+      "vintage": "2022-01-30",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-01-30,2022-01-30,2022-01-30&cosd=2000-01-01&coed=2022-01-30",
+      "sha256": "62a4651b8e7cd011edf0cc5869242f750fa7b78584d1d3255d3622e90dac9aee",
+      "bytes": 364405,
+      "headers": [
+        "observation_date",
+        "DGS2_20220130",
+        "DGS5_20220130",
+        "DGS10_20220130"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5522,
+      "observed_at": "2026-10-13T15:03:23.623986+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-02-07",
+      "vintage": "2022-02-06",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-02-06,2022-02-06,2022-02-06&cosd=2000-01-01&coed=2022-02-06",
+      "sha256": "b9a4f0e28d9945a2ec58496898a3f8a82892897c3795daa0d28eed078ca0307b",
+      "bytes": 364535,
+      "headers": [
+        "observation_date",
+        "DGS2_20220206",
+        "DGS5_20220206",
+        "DGS10_20220206"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5527,
+      "observed_at": "2026-10-13T15:03:24.212811+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-02-14",
+      "vintage": "2022-02-13",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-02-13,2022-02-13,2022-02-13&cosd=2000-01-01&coed=2022-02-13",
+      "sha256": "cadd652b56251f4c0d751cf2bbe3a81a0cb9af7d9feabfe5eab1a3812aa35ac1",
+      "bytes": 364665,
+      "headers": [
+        "observation_date",
+        "DGS2_20220213",
+        "DGS5_20220213",
+        "DGS10_20220213"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5532,
+      "observed_at": "2026-10-13T15:03:24.222588+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-02-21",
+      "vintage": "2022-02-20",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-02-20,2022-02-20,2022-02-20&cosd=2000-01-01&coed=2022-02-20",
+      "sha256": "32351c2a2763da8fd7827b98becae2401129bcffbccb7e09865d6bb9953103be",
+      "bytes": 364795,
+      "headers": [
+        "observation_date",
+        "DGS2_20220220",
+        "DGS5_20220220",
+        "DGS10_20220220"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5537,
+      "observed_at": "2026-10-13T15:03:23.491624+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-02-28",
+      "vintage": "2022-02-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-02-27,2022-02-27,2022-02-27&cosd=2000-01-01&coed=2022-02-27",
+      "sha256": "8106b76062a6ce89601f692f3227c6ddafa28a9097d0c5187f63ab3bcb37a950",
+      "bytes": 364913,
+      "headers": [
+        "observation_date",
+        "DGS2_20220227",
+        "DGS5_20220227",
+        "DGS10_20220227"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5541,
+      "observed_at": "2026-10-13T15:03:36.698626+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-03-07",
+      "vintage": "2022-03-06",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-03-06,2022-03-06,2022-03-06&cosd=2000-01-01&coed=2022-03-06",
+      "sha256": "f0213f78cf6b09cb79467e5612517b9eef97b2f155362020e83f811aba4cebce",
+      "bytes": 365043,
+      "headers": [
+        "observation_date",
+        "DGS2_20220306",
+        "DGS5_20220306",
+        "DGS10_20220306"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5546,
+      "observed_at": "2026-10-13T15:03:38.304474+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-03-14",
+      "vintage": "2022-03-13",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-03-13,2022-03-13,2022-03-13&cosd=2000-01-01&coed=2022-03-13",
+      "sha256": "01b13e18e67106e714821ade7424892e24749f65484e6e3ede9ff4fc41c5d159",
+      "bytes": 365173,
+      "headers": [
+        "observation_date",
+        "DGS2_20220313",
+        "DGS5_20220313",
+        "DGS10_20220313"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5551,
+      "observed_at": "2026-10-13T15:03:35.345775+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-03-21",
+      "vintage": "2022-03-20",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-03-20,2022-03-20,2022-03-20&cosd=2000-01-01&coed=2022-03-20",
+      "sha256": "f2c337fcc867f853fbaf82fdec80f052093e221c9cb89070c705794563b31a93",
+      "bytes": 365303,
+      "headers": [
+        "observation_date",
+        "DGS2_20220320",
+        "DGS5_20220320",
+        "DGS10_20220320"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5556,
+      "observed_at": "2026-10-13T15:03:38.494658+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-03-28",
+      "vintage": "2022-03-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-03-27,2022-03-27,2022-03-27&cosd=2000-01-01&coed=2022-03-27",
+      "sha256": "f7b1da24d842146be07c7392ec0f68b214238ec2de375d541a6de6ae4bcb4371",
+      "bytes": 365433,
+      "headers": [
+        "observation_date",
+        "DGS2_20220327",
+        "DGS5_20220327",
+        "DGS10_20220327"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5561,
+      "observed_at": "2026-10-13T15:03:35.963069+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-04-04",
+      "vintage": "2022-04-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-04-03,2022-04-03,2022-04-03&cosd=2000-01-01&coed=2022-04-03",
+      "sha256": "1b77b83cfd2abf97da935ec10c63404a7bcdb26a260d4961df945b13a19eda8f",
+      "bytes": 365563,
+      "headers": [
+        "observation_date",
+        "DGS2_20220403",
+        "DGS5_20220403",
+        "DGS10_20220403"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5566,
+      "observed_at": "2026-10-13T15:03:34.884313+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-04-11",
+      "vintage": "2022-04-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-04-10,2022-04-10,2022-04-10&cosd=2000-01-01&coed=2022-04-10",
+      "sha256": "a9bcbdbe5d06f212278eaf57c43ec3af239ef833069e63cc5ef81ed0a726af7f",
+      "bytes": 365693,
+      "headers": [
+        "observation_date",
+        "DGS2_20220410",
+        "DGS5_20220410",
+        "DGS10_20220410"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5571,
+      "observed_at": "2026-10-13T15:03:35.466860+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-04-18",
+      "vintage": "2022-04-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-04-17,2022-04-17,2022-04-17&cosd=2000-01-01&coed=2022-04-17",
+      "sha256": "bc9c0ea323a8686a61fed8ceae80ae5a8ec5927ec867249468a37032d50f489e",
+      "bytes": 365823,
+      "headers": [
+        "observation_date",
+        "DGS2_20220417",
+        "DGS5_20220417",
+        "DGS10_20220417"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5576,
+      "observed_at": "2026-10-13T15:03:36.093407+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-04-25",
+      "vintage": "2022-04-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-04-24,2022-04-24,2022-04-24&cosd=2000-01-01&coed=2022-04-24",
+      "sha256": "0e9d3482e99cc86b3bc7ccd7edce191c2fa0f98e8c85bad7519cd7cbe0fd6674",
+      "bytes": 365941,
+      "headers": [
+        "observation_date",
+        "DGS2_20220424",
+        "DGS5_20220424",
+        "DGS10_20220424"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5580,
+      "observed_at": "2026-10-13T15:03:45.515460+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-05-02",
+      "vintage": "2022-05-01",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-05-01,2022-05-01,2022-05-01&cosd=2000-01-01&coed=2022-05-01",
+      "sha256": "19d3c4240154e5dc2f7d1a7ed36d93fd5d991872a839f17181e9f0cf50e52828",
+      "bytes": 366071,
+      "headers": [
+        "observation_date",
+        "DGS2_20220501",
+        "DGS5_20220501",
+        "DGS10_20220501"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5585,
+      "observed_at": "2026-10-13T15:03:44.810582+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-05-09",
+      "vintage": "2022-05-08",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-05-08,2022-05-08,2022-05-08&cosd=2000-01-01&coed=2022-05-08",
+      "sha256": "779538a0cf6bd6d2c37aba6701c793ccd759f5e86f1d2ab01c4d58dbf9730656",
+      "bytes": 366201,
+      "headers": [
+        "observation_date",
+        "DGS2_20220508",
+        "DGS5_20220508",
+        "DGS10_20220508"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5590,
+      "observed_at": "2026-10-13T15:03:45.896784+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-05-16",
+      "vintage": "2022-05-15",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-05-15,2022-05-15,2022-05-15&cosd=2000-01-01&coed=2022-05-15",
+      "sha256": "f78728156daa67ca758c12b916ad8c006d78ea144fbd70db8a2f01fd7fc81867",
+      "bytes": 366331,
+      "headers": [
+        "observation_date",
+        "DGS2_20220515",
+        "DGS5_20220515",
+        "DGS10_20220515"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5595,
+      "observed_at": "2026-10-13T15:03:46.579812+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-05-23",
+      "vintage": "2022-05-22",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-05-22,2022-05-22,2022-05-22&cosd=2000-01-01&coed=2022-05-22",
+      "sha256": "9d1ec59d2929533e171ab2b777160469b5a37aebb5fe2d02cc755e208be7badb",
+      "bytes": 366461,
+      "headers": [
+        "observation_date",
+        "DGS2_20220522",
+        "DGS5_20220522",
+        "DGS10_20220522"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5600,
+      "observed_at": "2026-10-13T15:03:46.449860+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-05-30",
+      "vintage": "2022-05-29",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-05-29,2022-05-29,2022-05-29&cosd=2000-01-01&coed=2022-05-29",
+      "sha256": "5dfea8f4e795cf04e985be81201ed1791477d3670df0a48212c67878038e6c34",
+      "bytes": 366591,
+      "headers": [
+        "observation_date",
+        "DGS2_20220529",
+        "DGS5_20220529",
+        "DGS10_20220529"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5605,
+      "observed_at": "2026-10-13T15:03:46.586395+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-06-06",
+      "vintage": "2022-06-05",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-06-05,2022-06-05,2022-06-05&cosd=2000-01-01&coed=2022-06-05",
+      "sha256": "292cd4f8f447d449a75b2db27215bade3ae993ee28c848a79f4f54e95954dc22",
+      "bytes": 366709,
+      "headers": [
+        "observation_date",
+        "DGS2_20220605",
+        "DGS5_20220605",
+        "DGS10_20220605"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5609,
+      "observed_at": "2026-10-13T15:03:46.082744+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-06-13",
+      "vintage": "2022-06-12",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-06-12,2022-06-12,2022-06-12&cosd=2000-01-01&coed=2022-06-12",
+      "sha256": "e4f90cd6fd144936598dbb207c030f018b8fdd59e64ade70a1f3d73debccd745",
+      "bytes": 366839,
+      "headers": [
+        "observation_date",
+        "DGS2_20220612",
+        "DGS5_20220612",
+        "DGS10_20220612"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5614,
+      "observed_at": "2026-10-13T15:03:46.581628+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-06-20",
+      "vintage": "2022-06-19",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-06-19,2022-06-19,2022-06-19&cosd=2000-01-01&coed=2022-06-19",
+      "sha256": "ffb22b58ae5262b625ab1ff095cf87a590f08a55ea3d2b877ab7d7c629a9d475",
+      "bytes": 366969,
+      "headers": [
+        "observation_date",
+        "DGS2_20220619",
+        "DGS5_20220619",
+        "DGS10_20220619"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5619,
+      "observed_at": "2026-10-13T15:03:55.711344+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-06-27",
+      "vintage": "2022-06-26",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-06-26,2022-06-26,2022-06-26&cosd=2000-01-01&coed=2022-06-26",
+      "sha256": "395d9ac5142b18cd92389f4fa107711c1645d269f9a29443ad86897487611b0d",
+      "bytes": 367087,
+      "headers": [
+        "observation_date",
+        "DGS2_20220626",
+        "DGS5_20220626",
+        "DGS10_20220626"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5623,
+      "observed_at": "2026-10-13T15:03:56.981615+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-07-04",
+      "vintage": "2022-07-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-07-03,2022-07-03,2022-07-03&cosd=2000-01-01&coed=2022-07-03",
+      "sha256": "b05a49049a53cb2cf13f1e781daccce2b63df601f032c4fd4dc1663bc2329fe5",
+      "bytes": 367217,
+      "headers": [
+        "observation_date",
+        "DGS2_20220703",
+        "DGS5_20220703",
+        "DGS10_20220703"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5628,
+      "observed_at": "2026-10-13T15:03:57.410270+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-07-11",
+      "vintage": "2022-07-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-07-10,2022-07-10,2022-07-10&cosd=2000-01-01&coed=2022-07-10",
+      "sha256": "d1812bf2c9aaef35f5ade9cebce47de4ec723db2af8d92c8a8f7ed8ee31a37fb",
+      "bytes": 367335,
+      "headers": [
+        "observation_date",
+        "DGS2_20220710",
+        "DGS5_20220710",
+        "DGS10_20220710"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5632,
+      "observed_at": "2026-10-13T15:03:57.301205+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-07-18",
+      "vintage": "2022-07-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-07-17,2022-07-17,2022-07-17&cosd=2000-01-01&coed=2022-07-17",
+      "sha256": "5fcb1973dd80d78016c35732061341093a0629c7cb6406b485dd3bab41b2efe0",
+      "bytes": 367465,
+      "headers": [
+        "observation_date",
+        "DGS2_20220717",
+        "DGS5_20220717",
+        "DGS10_20220717"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5637,
+      "observed_at": "2026-10-13T15:03:57.002922+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-07-25",
+      "vintage": "2022-07-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-07-24,2022-07-24,2022-07-24&cosd=2000-01-01&coed=2022-07-24",
+      "sha256": "697daa14764b05bb5140dfbcae15773058ee53b871064044fc961b366cca243d",
+      "bytes": 367595,
+      "headers": [
+        "observation_date",
+        "DGS2_20220724",
+        "DGS5_20220724",
+        "DGS10_20220724"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5642,
+      "observed_at": "2026-10-13T15:03:57.418546+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-08-01",
+      "vintage": "2022-07-31",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-07-31,2022-07-31,2022-07-31&cosd=2000-01-01&coed=2022-07-31",
+      "sha256": "808c1cda2c1ec879c8394e66390ab98e614af19a170be1de3c6c4124e51ae8e3",
+      "bytes": 367725,
+      "headers": [
+        "observation_date",
+        "DGS2_20220731",
+        "DGS5_20220731",
+        "DGS10_20220731"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5647,
+      "observed_at": "2026-10-13T15:03:57.242508+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-08-08",
+      "vintage": "2022-08-07",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-08-07,2022-08-07,2022-08-07&cosd=2000-01-01&coed=2022-08-07",
+      "sha256": "2de131f99c37e6c7a663065f0e40d27c1b220d75bcc37320114e4440add234e5",
+      "bytes": 367855,
+      "headers": [
+        "observation_date",
+        "DGS2_20220807",
+        "DGS5_20220807",
+        "DGS10_20220807"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5652,
+      "observed_at": "2026-10-13T15:03:57.563287+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-08-15",
+      "vintage": "2022-08-14",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-08-14,2022-08-14,2022-08-14&cosd=2000-01-01&coed=2022-08-14",
+      "sha256": "944afb73748a8c148ba7183e20f9f1fb72ec52c90915707341b7cdc60b263ecb",
+      "bytes": 367985,
+      "headers": [
+        "observation_date",
+        "DGS2_20220814",
+        "DGS5_20220814",
+        "DGS10_20220814"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5657,
+      "observed_at": "2026-10-13T15:04:07.534704+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-08-22",
+      "vintage": "2022-08-21",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-08-21,2022-08-21,2022-08-21&cosd=2000-01-01&coed=2022-08-21",
+      "sha256": "38a3526e6b788252c6db00597fa94bcec535cf1e8075b79100378511d62d3ce6",
+      "bytes": 368115,
+      "headers": [
+        "observation_date",
+        "DGS2_20220821",
+        "DGS5_20220821",
+        "DGS10_20220821"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5662,
+      "observed_at": "2026-10-13T15:04:07.189875+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-08-29",
+      "vintage": "2022-08-28",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-08-28,2022-08-28,2022-08-28&cosd=2000-01-01&coed=2022-08-28",
+      "sha256": "325b1a3f6daef3732bf1733ee7dada5278ee781538f66d1ee650e2ea8aa984c7",
+      "bytes": 368245,
+      "headers": [
+        "observation_date",
+        "DGS2_20220828",
+        "DGS5_20220828",
+        "DGS10_20220828"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5667,
+      "observed_at": "2026-10-13T15:04:08.233535+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-09-05",
+      "vintage": "2022-09-04",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-09-04,2022-09-04,2022-09-04&cosd=2000-01-01&coed=2022-09-04",
+      "sha256": "db7be53894eb69719be0698054c5e299885bab8c1604c04310d7625c7e8eb7c7",
+      "bytes": 368375,
+      "headers": [
+        "observation_date",
+        "DGS2_20220904",
+        "DGS5_20220904",
+        "DGS10_20220904"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5672,
+      "observed_at": "2026-10-13T15:04:07.340735+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-09-12",
+      "vintage": "2022-09-11",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-09-11,2022-09-11,2022-09-11&cosd=2000-01-01&coed=2022-09-11",
+      "sha256": "ee42773af3567613f69b567e8b9c889d3545aaab29b5a80a09426452fee0768e",
+      "bytes": 368493,
+      "headers": [
+        "observation_date",
+        "DGS2_20220911",
+        "DGS5_20220911",
+        "DGS10_20220911"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5676,
+      "observed_at": "2026-10-13T15:04:07.451820+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-09-19",
+      "vintage": "2022-09-18",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-09-18,2022-09-18,2022-09-18&cosd=2000-01-01&coed=2022-09-18",
+      "sha256": "a6b0a7ff9670b8a103d28b6589243a64c6e94ba60101f27569ef5af87c4e86ec",
+      "bytes": 368623,
+      "headers": [
+        "observation_date",
+        "DGS2_20220918",
+        "DGS5_20220918",
+        "DGS10_20220918"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5681,
+      "observed_at": "2026-10-13T15:04:08.294969+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-09-26",
+      "vintage": "2022-09-25",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-09-25,2022-09-25,2022-09-25&cosd=2000-01-01&coed=2022-09-25",
+      "sha256": "2014f2c086fedd65ce43d9ccd3ffe693b67bdcf72ddea36eed83ad64ff3cb34d",
+      "bytes": 368753,
+      "headers": [
+        "observation_date",
+        "DGS2_20220925",
+        "DGS5_20220925",
+        "DGS10_20220925"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5686,
+      "observed_at": "2026-10-13T15:04:05.926433+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-10-03",
+      "vintage": "2022-10-02",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-10-02,2022-10-02,2022-10-02&cosd=2000-01-01&coed=2022-10-02",
+      "sha256": "381c2d591f6ab639ec97b455bb31ca3794692d3bb91ea431cfb4995d66cfc89a",
+      "bytes": 368883,
+      "headers": [
+        "observation_date",
+        "DGS2_20221002",
+        "DGS5_20221002",
+        "DGS10_20221002"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5691,
+      "observed_at": "2026-10-13T15:04:07.288282+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-10-10",
+      "vintage": "2022-10-09",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-10-09,2022-10-09,2022-10-09&cosd=2000-01-01&coed=2022-10-09",
+      "sha256": "04f79fbce2c76119633463f13b1373e678dff2ff5001d87bc5d5620508e75810",
+      "bytes": 369013,
+      "headers": [
+        "observation_date",
+        "DGS2_20221009",
+        "DGS5_20221009",
+        "DGS10_20221009"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5696,
+      "observed_at": "2026-10-13T15:04:19.475167+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-10-17",
+      "vintage": "2022-10-16",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-10-16,2022-10-16,2022-10-16&cosd=2000-01-01&coed=2022-10-16",
+      "sha256": "e20d10176d629ab695c7983f970ff7820712aa40c7805477003f06b71583937b",
+      "bytes": 369131,
+      "headers": [
+        "observation_date",
+        "DGS2_20221016",
+        "DGS5_20221016",
+        "DGS10_20221016"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5700,
+      "observed_at": "2026-10-13T15:04:19.872682+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-10-24",
+      "vintage": "2022-10-23",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-10-23,2022-10-23,2022-10-23&cosd=2000-01-01&coed=2022-10-23",
+      "sha256": "08a00322b634e4b1ad616ca8646ebd45e0bc99d1cf273d326b584f123c72f3c4",
+      "bytes": 369261,
+      "headers": [
+        "observation_date",
+        "DGS2_20221023",
+        "DGS5_20221023",
+        "DGS10_20221023"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5705,
+      "observed_at": "2026-10-13T15:04:16.297348+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-10-31",
+      "vintage": "2022-10-30",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-10-30,2022-10-30,2022-10-30&cosd=2000-01-01&coed=2022-10-30",
+      "sha256": "dcdee321a4efb82a89f5534575a4b0db4f5f581792a6b7debe8167426ea7bed3",
+      "bytes": 369391,
+      "headers": [
+        "observation_date",
+        "DGS2_20221030",
+        "DGS5_20221030",
+        "DGS10_20221030"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5710,
+      "observed_at": "2026-10-13T15:04:18.315606+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-11-07",
+      "vintage": "2022-11-06",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-11-06,2022-11-06,2022-11-06&cosd=2000-01-01&coed=2022-11-06",
+      "sha256": "551aaa0d16c1a4f25ba91e68fd427dcc3d64160b928abe2d6998a5db6d6b69ee",
+      "bytes": 369521,
+      "headers": [
+        "observation_date",
+        "DGS2_20221106",
+        "DGS5_20221106",
+        "DGS10_20221106"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5715,
+      "observed_at": "2026-10-13T15:04:18.567063+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-11-14",
+      "vintage": "2022-11-13",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-11-13,2022-11-13,2022-11-13&cosd=2000-01-01&coed=2022-11-13",
+      "sha256": "0be8517e1b75d189be1daf670973aeecf86aa347d9d72eddac7dad29b0cb558f",
+      "bytes": 369625,
+      "headers": [
+        "observation_date",
+        "DGS2_20221113",
+        "DGS5_20221113",
+        "DGS10_20221113"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5719,
+      "observed_at": "2026-10-13T15:04:19.766747+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-11-21",
+      "vintage": "2022-11-20",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-11-20,2022-11-20,2022-11-20&cosd=2000-01-01&coed=2022-11-20",
+      "sha256": "f2d59827fb67ffd5ad5d67f636d80a70c5f162e78e1d74655c157b0aa9ccfb1d",
+      "bytes": 369769,
+      "headers": [
+        "observation_date",
+        "DGS2_20221120",
+        "DGS5_20221120",
+        "DGS10_20221120"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5724,
+      "observed_at": "2026-10-13T15:04:19.425829+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-11-28",
+      "vintage": "2022-11-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-11-27,2022-11-27,2022-11-27&cosd=2000-01-01&coed=2022-11-27",
+      "sha256": "4223e902328135fbfccb3196f5a6ece36853f7fa422edfea7f98404b797a82fa",
+      "bytes": 369873,
+      "headers": [
+        "observation_date",
+        "DGS2_20221127",
+        "DGS5_20221127",
+        "DGS10_20221127"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5728,
+      "observed_at": "2026-10-13T15:04:18.278978+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-12-05",
+      "vintage": "2022-12-04",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-12-04,2022-12-04,2022-12-04&cosd=2000-01-01&coed=2022-12-04",
+      "sha256": "3029e3b7cac17df2483075aff094c42d8d3a1c9aa52ea09a2387eb7d0a3e7e28",
+      "bytes": 370017,
+      "headers": [
+        "observation_date",
+        "DGS2_20221204",
+        "DGS5_20221204",
+        "DGS10_20221204"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5733,
+      "observed_at": "2026-10-13T15:04:27.048284+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-12-12",
+      "vintage": "2022-12-11",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-12-11,2022-12-11,2022-12-11&cosd=2000-01-01&coed=2022-12-11",
+      "sha256": "51975a835b63cd20af5f86875f76be6963230e77d31ed35e3f7e1cb8bc8e9827",
+      "bytes": 370147,
+      "headers": [
+        "observation_date",
+        "DGS2_20221211",
+        "DGS5_20221211",
+        "DGS10_20221211"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5738,
+      "observed_at": "2026-10-13T15:04:26.018315+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-12-19",
+      "vintage": "2022-12-18",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-12-18,2022-12-18,2022-12-18&cosd=2000-01-01&coed=2022-12-18",
+      "sha256": "fd44f77dcf9b6ca2653e9ac43d9c0534052d298248256224ef0dbe5685b69850",
+      "bytes": 370277,
+      "headers": [
+        "observation_date",
+        "DGS2_20221218",
+        "DGS5_20221218",
+        "DGS10_20221218"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5743,
+      "observed_at": "2026-10-13T15:04:28.520775+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2022-12-26",
+      "vintage": "2022-12-25",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2022-12-25,2022-12-25,2022-12-25&cosd=2000-01-01&coed=2022-12-25",
+      "sha256": "2359c804232dbb686d09b595ddea476f5c1e1ce2561cd4d5e8ed746e62875310",
+      "bytes": 370407,
+      "headers": [
+        "observation_date",
+        "DGS2_20221225",
+        "DGS5_20221225",
+        "DGS10_20221225"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5748,
+      "observed_at": "2026-10-13T15:04:27.385545+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-01-02",
+      "vintage": "2023-01-01",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-01-01,2023-01-01,2023-01-01&cosd=2000-01-01&coed=2023-01-01",
+      "sha256": "f12171c69df759f69e461a0607c03c105883a65e8ffcdbabc33ce7e900a2f983",
+      "bytes": 370525,
+      "headers": [
+        "observation_date",
+        "DGS2_20230101",
+        "DGS5_20230101",
+        "DGS10_20230101"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5752,
+      "observed_at": "2026-10-13T15:04:36.377385+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-01-09",
+      "vintage": "2023-01-08",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-01-08,2023-01-08,2023-01-08&cosd=2000-01-01&coed=2023-01-08",
+      "sha256": "41802fc337e03ba86ac8b1de58924120154c55a6e9c8f7e67fd7198595baef93",
+      "bytes": 370643,
+      "headers": [
+        "observation_date",
+        "DGS2_20230108",
+        "DGS5_20230108",
+        "DGS10_20230108"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5756,
+      "observed_at": "2026-10-13T15:04:36.656337+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-01-16",
+      "vintage": "2023-01-15",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-01-15,2023-01-15,2023-01-15&cosd=2000-01-01&coed=2023-01-15",
+      "sha256": "60ae59715e1f96f3207fa5198af3e97e4f40e78ebd461aab55b5a39315779177",
+      "bytes": 370773,
+      "headers": [
+        "observation_date",
+        "DGS2_20230115",
+        "DGS5_20230115",
+        "DGS10_20230115"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5761,
+      "observed_at": "2026-10-13T15:04:37.801880+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-01-23",
+      "vintage": "2023-01-22",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-01-22,2023-01-22,2023-01-22&cosd=2000-01-01&coed=2023-01-22",
+      "sha256": "7f0a3c6cecdb11d9593795fc21936e404c0b45953019d1dfe0053a4dfc89cb3f",
+      "bytes": 370891,
+      "headers": [
+        "observation_date",
+        "DGS2_20230122",
+        "DGS5_20230122",
+        "DGS10_20230122"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5765,
+      "observed_at": "2026-10-13T15:04:37.443786+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-01-30",
+      "vintage": "2023-01-29",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-01-29,2023-01-29,2023-01-29&cosd=2000-01-01&coed=2023-01-29",
+      "sha256": "48df83e0fef6fb49aee3911e39b501221b9f9c520aade4973075e77433739aad",
+      "bytes": 371021,
+      "headers": [
+        "observation_date",
+        "DGS2_20230129",
+        "DGS5_20230129",
+        "DGS10_20230129"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5770,
+      "observed_at": "2026-10-13T15:04:37.579762+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-02-06",
+      "vintage": "2023-02-05",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-02-05,2023-02-05,2023-02-05&cosd=2000-01-01&coed=2023-02-05",
+      "sha256": "8c9ea1be92027a31795dcb1ba25085a22aeceda9fe01d47270ca84f9fa800912",
+      "bytes": 371151,
+      "headers": [
+        "observation_date",
+        "DGS2_20230205",
+        "DGS5_20230205",
+        "DGS10_20230205"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5775,
+      "observed_at": "2026-10-13T15:04:37.870362+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-02-13",
+      "vintage": "2023-02-12",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-02-12,2023-02-12,2023-02-12&cosd=2000-01-01&coed=2023-02-12",
+      "sha256": "9d36db41d2ff6a63f8e8e9ae9306542d9c91c732e6e6b0d8c3a327b5ea78cb09",
+      "bytes": 371281,
+      "headers": [
+        "observation_date",
+        "DGS2_20230212",
+        "DGS5_20230212",
+        "DGS10_20230212"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5780,
+      "observed_at": "2026-10-13T15:04:37.407954+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-02-20",
+      "vintage": "2023-02-19",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-02-19,2023-02-19,2023-02-19&cosd=2000-01-01&coed=2023-02-19",
+      "sha256": "287a561d18ba2a2b200ed2696b34c2294fdb398dc079c2038b389ef8b9e2a8c8",
+      "bytes": 371411,
+      "headers": [
+        "observation_date",
+        "DGS2_20230219",
+        "DGS5_20230219",
+        "DGS10_20230219"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5785,
+      "observed_at": "2026-10-13T15:04:37.440412+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-02-27",
+      "vintage": "2023-02-26",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-02-26,2023-02-26,2023-02-26&cosd=2000-01-01&coed=2023-02-26",
+      "sha256": "141a9862c7ebf0ec5ede418386e7ccf5a4ac3c5315a78d50203708ff54aad68d",
+      "bytes": 371529,
+      "headers": [
+        "observation_date",
+        "DGS2_20230226",
+        "DGS5_20230226",
+        "DGS10_20230226"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5789,
+      "observed_at": "2026-10-13T15:04:47.658799+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-03-06",
+      "vintage": "2023-03-05",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-03-05,2023-03-05,2023-03-05&cosd=2000-01-01&coed=2023-03-05",
+      "sha256": "51fa3715135bb5398fe7007b5764dfc169c0267ab320e80f0994261b6d08b6cf",
+      "bytes": 371659,
+      "headers": [
+        "observation_date",
+        "DGS2_20230305",
+        "DGS5_20230305",
+        "DGS10_20230305"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5794,
+      "observed_at": "2026-10-13T15:04:48.596405+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-03-13",
+      "vintage": "2023-03-12",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-03-12,2023-03-12,2023-03-12&cosd=2000-01-01&coed=2023-03-12",
+      "sha256": "fddbeceb0529f4d4c75337e9b4570e46e69fd9bb318bfaf6653a7939c3ae902f",
+      "bytes": 371789,
+      "headers": [
+        "observation_date",
+        "DGS2_20230312",
+        "DGS5_20230312",
+        "DGS10_20230312"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5799,
+      "observed_at": "2026-10-13T15:04:48.271788+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-03-20",
+      "vintage": "2023-03-19",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-03-19,2023-03-19,2023-03-19&cosd=2000-01-01&coed=2023-03-19",
+      "sha256": "c210e337678299a6fc8fc77c12f7732b560ce1d66b5bc6391fdcc598c2707a18",
+      "bytes": 371919,
+      "headers": [
+        "observation_date",
+        "DGS2_20230319",
+        "DGS5_20230319",
+        "DGS10_20230319"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5804,
+      "observed_at": "2026-10-13T15:04:48.020585+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-03-27",
+      "vintage": "2023-03-26",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-03-26,2023-03-26,2023-03-26&cosd=2000-01-01&coed=2023-03-26",
+      "sha256": "bcf2c3ffbe06b257a35a38244d2055cae616446bea5f9ce502c092f00d08b038",
+      "bytes": 372049,
+      "headers": [
+        "observation_date",
+        "DGS2_20230326",
+        "DGS5_20230326",
+        "DGS10_20230326"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5809,
+      "observed_at": "2026-10-13T15:04:48.250216+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-04-03",
+      "vintage": "2023-04-02",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-04-02,2023-04-02,2023-04-02&cosd=2000-01-01&coed=2023-04-02",
+      "sha256": "aa58b3ae098e115060c01dc08b8f8db70c57fcf008a49846db705f2e7b099646",
+      "bytes": 372179,
+      "headers": [
+        "observation_date",
+        "DGS2_20230402",
+        "DGS5_20230402",
+        "DGS10_20230402"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5814,
+      "observed_at": "2026-10-13T15:04:47.783107+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-04-10",
+      "vintage": "2023-04-09",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-04-09,2023-04-09,2023-04-09&cosd=2000-01-01&coed=2023-04-09",
+      "sha256": "4982a917222b8b112b586f30ba2b23ad474c479b4cf9317739350e654b1eae97",
+      "bytes": 372309,
+      "headers": [
+        "observation_date",
+        "DGS2_20230409",
+        "DGS5_20230409",
+        "DGS10_20230409"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5819,
+      "observed_at": "2026-10-13T15:04:48.483631+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-04-17",
+      "vintage": "2023-04-16",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-04-16,2023-04-16,2023-04-16&cosd=2000-01-01&coed=2023-04-16",
+      "sha256": "02f7047c5a63e98ac0f412c808ee0f7bb67034d4e00557080f3068c53ea9d210",
+      "bytes": 372439,
+      "headers": [
+        "observation_date",
+        "DGS2_20230416",
+        "DGS5_20230416",
+        "DGS10_20230416"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5824,
+      "observed_at": "2026-10-13T15:04:47.098331+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-04-24",
+      "vintage": "2023-04-23",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-04-23,2023-04-23,2023-04-23&cosd=2000-01-01&coed=2023-04-23",
+      "sha256": "bd42866e2664e67dc482141bd350c54c05ad25871b847c5cc1fecfc055ce636c",
+      "bytes": 372569,
+      "headers": [
+        "observation_date",
+        "DGS2_20230423",
+        "DGS5_20230423",
+        "DGS10_20230423"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5829,
+      "observed_at": "2026-10-13T15:04:59.562888+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-05-01",
+      "vintage": "2023-04-30",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-04-30,2023-04-30,2023-04-30&cosd=2000-01-01&coed=2023-04-30",
+      "sha256": "c9b5bb49c929ebf2d1bc4feb6dec8421fbfe266fd4b5ea917e14f58b84b0dad3",
+      "bytes": 372699,
+      "headers": [
+        "observation_date",
+        "DGS2_20230430",
+        "DGS5_20230430",
+        "DGS10_20230430"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5834,
+      "observed_at": "2026-10-13T15:04:59.140005+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-05-08",
+      "vintage": "2023-05-07",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-05-07,2023-05-07,2023-05-07&cosd=2000-01-01&coed=2023-05-07",
+      "sha256": "aaa5398fe04a33c25f4571b5e678535b94ac13edb0ea49d5fe34334172978051",
+      "bytes": 372829,
+      "headers": [
+        "observation_date",
+        "DGS2_20230507",
+        "DGS5_20230507",
+        "DGS10_20230507"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5839,
+      "observed_at": "2026-10-13T15:04:59.954841+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-05-15",
+      "vintage": "2023-05-14",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-05-14,2023-05-14,2023-05-14&cosd=2000-01-01&coed=2023-05-14",
+      "sha256": "78df4021f87e6270e03d17a51f2a77a44c78cfd31884c4ca61c5b1ecc5f9c1d4",
+      "bytes": 372959,
+      "headers": [
+        "observation_date",
+        "DGS2_20230514",
+        "DGS5_20230514",
+        "DGS10_20230514"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5844,
+      "observed_at": "2026-10-13T15:04:58.101678+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-05-22",
+      "vintage": "2023-05-21",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-05-21,2023-05-21,2023-05-21&cosd=2000-01-01&coed=2023-05-21",
+      "sha256": "cbe53e29b7019a88b0360d722dc82f576c53f8aa029bf21a9ec7bbb0967b8a20",
+      "bytes": 373089,
+      "headers": [
+        "observation_date",
+        "DGS2_20230521",
+        "DGS5_20230521",
+        "DGS10_20230521"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5849,
+      "observed_at": "2026-10-13T15:04:58.563219+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-05-29",
+      "vintage": "2023-05-28",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-05-28,2023-05-28,2023-05-28&cosd=2000-01-01&coed=2023-05-28",
+      "sha256": "2776cb3003e3f7c8c0528280ba3ce9b9bf3a689105e8ce6f0e3b2dc5610f9b60",
+      "bytes": 373219,
+      "headers": [
+        "observation_date",
+        "DGS2_20230528",
+        "DGS5_20230528",
+        "DGS10_20230528"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5854,
+      "observed_at": "2026-10-13T15:04:59.131780+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-06-05",
+      "vintage": "2023-06-04",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-06-04,2023-06-04,2023-06-04&cosd=2000-01-01&coed=2023-06-04",
+      "sha256": "4e765407d601ae05ea97925aa15c5a0a65029b7cafe094d3ccd668b193999ab9",
+      "bytes": 373337,
+      "headers": [
+        "observation_date",
+        "DGS2_20230604",
+        "DGS5_20230604",
+        "DGS10_20230604"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5858,
+      "observed_at": "2026-10-13T15:05:00.183521+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-06-12",
+      "vintage": "2023-06-11",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-06-11,2023-06-11,2023-06-11&cosd=2000-01-01&coed=2023-06-11",
+      "sha256": "826c18e24b3183428d99e1454c02a79b2c8d21edd32dc2f8a3134b028e2b22f5",
+      "bytes": 373467,
+      "headers": [
+        "observation_date",
+        "DGS2_20230611",
+        "DGS5_20230611",
+        "DGS10_20230611"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5863,
+      "observed_at": "2026-10-13T15:04:59.056487+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-06-19",
+      "vintage": "2023-06-18",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-06-18,2023-06-18,2023-06-18&cosd=2000-01-01&coed=2023-06-18",
+      "sha256": "3726054ac5dc5988e8649d2c4e2a0367b5b470d42ba092ef5cb2b96abf00932e",
+      "bytes": 373597,
+      "headers": [
+        "observation_date",
+        "DGS2_20230618",
+        "DGS5_20230618",
+        "DGS10_20230618"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5868,
+      "observed_at": "2026-10-13T15:05:10.157753+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-06-26",
+      "vintage": "2023-06-25",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-06-25,2023-06-25,2023-06-25&cosd=2000-01-01&coed=2023-06-25",
+      "sha256": "6e36e11396cbd4474cb42acc85d83423a6eedc34c367a0767064d9268596861c",
+      "bytes": 373715,
+      "headers": [
+        "observation_date",
+        "DGS2_20230625",
+        "DGS5_20230625",
+        "DGS10_20230625"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5872,
+      "observed_at": "2026-10-13T15:05:08.918113+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-07-03",
+      "vintage": "2023-07-02",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-07-02,2023-07-02,2023-07-02&cosd=2000-01-01&coed=2023-07-02",
+      "sha256": "ab6bf56a744c1f41b4d60ca73169b5d0402f9afa9f5ab206c8f474faf63731db",
+      "bytes": 373845,
+      "headers": [
+        "observation_date",
+        "DGS2_20230702",
+        "DGS5_20230702",
+        "DGS10_20230702"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5877,
+      "observed_at": "2026-10-13T15:05:11.366153+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-07-10",
+      "vintage": "2023-07-09",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-07-09,2023-07-09,2023-07-09&cosd=2000-01-01&coed=2023-07-09",
+      "sha256": "d05fc8f0273814128946bedfe04a745e92b215b852563e9a3866152c5e7de8d4",
+      "bytes": 373963,
+      "headers": [
+        "observation_date",
+        "DGS2_20230709",
+        "DGS5_20230709",
+        "DGS10_20230709"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5881,
+      "observed_at": "2026-10-13T15:05:09.839142+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-07-17",
+      "vintage": "2023-07-16",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-07-16,2023-07-16,2023-07-16&cosd=2000-01-01&coed=2023-07-16",
+      "sha256": "e35f2569a77672a2cfaf277f1174acd13cd5a60c25e188211e35e53e1c9410eb",
+      "bytes": 374093,
+      "headers": [
+        "observation_date",
+        "DGS2_20230716",
+        "DGS5_20230716",
+        "DGS10_20230716"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5886,
+      "observed_at": "2026-10-13T15:05:09.841018+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-07-24",
+      "vintage": "2023-07-23",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-07-23,2023-07-23,2023-07-23&cosd=2000-01-01&coed=2023-07-23",
+      "sha256": "4cff529d1f6f409d51569f0f4a9596e6b003cb3307e2ff03ee45751558311b9e",
+      "bytes": 374223,
+      "headers": [
+        "observation_date",
+        "DGS2_20230723",
+        "DGS5_20230723",
+        "DGS10_20230723"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5891,
+      "observed_at": "2026-10-13T15:05:11.199858+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-07-31",
+      "vintage": "2023-07-30",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-07-30,2023-07-30,2023-07-30&cosd=2000-01-01&coed=2023-07-30",
+      "sha256": "b58c24ec02ed3250ed019ae3fb9386a97e6c6684f0560a1e614b628c90dc4ff5",
+      "bytes": 374353,
+      "headers": [
+        "observation_date",
+        "DGS2_20230730",
+        "DGS5_20230730",
+        "DGS10_20230730"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5896,
+      "observed_at": "2026-10-13T15:05:09.964573+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-08-07",
+      "vintage": "2023-08-06",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-08-06,2023-08-06,2023-08-06&cosd=2000-01-01&coed=2023-08-06",
+      "sha256": "01befc7d5e07e1f21e15a8bc692f3fa54cc40628b08ea5178d052c4ed3426ae7",
+      "bytes": 374483,
+      "headers": [
+        "observation_date",
+        "DGS2_20230806",
+        "DGS5_20230806",
+        "DGS10_20230806"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5901,
+      "observed_at": "2026-10-13T15:05:09.966423+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-08-14",
+      "vintage": "2023-08-13",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-08-13,2023-08-13,2023-08-13&cosd=2000-01-01&coed=2023-08-13",
+      "sha256": "ffe6776e2877bc6697faa700390403e4ac1ad1eea6b00de23ad2acaf4cdfd54d",
+      "bytes": 374613,
+      "headers": [
+        "observation_date",
+        "DGS2_20230813",
+        "DGS5_20230813",
+        "DGS10_20230813"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5906,
+      "observed_at": "2026-10-13T15:05:26.829970+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-08-21",
+      "vintage": "2023-08-20",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-08-20,2023-08-20,2023-08-20&cosd=2000-01-01&coed=2023-08-20",
+      "sha256": "a2bea29d37ec1a9230e4e3717488f6d6b1d430d6e7ed74485b6a7e59c6830a31",
+      "bytes": 374743,
+      "headers": [
+        "observation_date",
+        "DGS2_20230820",
+        "DGS5_20230820",
+        "DGS10_20230820"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5911,
+      "observed_at": "2026-10-13T15:05:26.495276+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-08-28",
+      "vintage": "2023-08-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-08-27,2023-08-27,2023-08-27&cosd=2000-01-01&coed=2023-08-27",
+      "sha256": "46f7d2e56c3a3748dd490a1068f33484da6f035aea006c32c5cd4ac09fe6cd9a",
+      "bytes": 374873,
+      "headers": [
+        "observation_date",
+        "DGS2_20230827",
+        "DGS5_20230827",
+        "DGS10_20230827"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5916,
+      "observed_at": "2026-10-13T15:05:27.229393+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-09-04",
+      "vintage": "2023-09-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-09-03,2023-09-03,2023-09-03&cosd=2000-01-01&coed=2023-09-03",
+      "sha256": "b3699bbacf48888a938a042a72696f0fba9d9bf1d827d251ac6ef8faa71057bc",
+      "bytes": 375003,
+      "headers": [
+        "observation_date",
+        "DGS2_20230903",
+        "DGS5_20230903",
+        "DGS10_20230903"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5921,
+      "observed_at": "2026-10-13T15:05:27.773711+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-09-11",
+      "vintage": "2023-09-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-09-10,2023-09-10,2023-09-10&cosd=2000-01-01&coed=2023-09-10",
+      "sha256": "fe21e4ee942491aeb5a61792be8ce45b2a50f9b43093992b1276bbfd766253b3",
+      "bytes": 375121,
+      "headers": [
+        "observation_date",
+        "DGS2_20230910",
+        "DGS5_20230910",
+        "DGS10_20230910"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5925,
+      "observed_at": "2026-10-13T15:05:26.391274+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-09-18",
+      "vintage": "2023-09-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-09-17,2023-09-17,2023-09-17&cosd=2000-01-01&coed=2023-09-17",
+      "sha256": "bae0eb3c97ce27b78a799f80ba143387cfa5dd03cb18b8e3fcfea0ee1cecbc6d",
+      "bytes": 375251,
+      "headers": [
+        "observation_date",
+        "DGS2_20230917",
+        "DGS5_20230917",
+        "DGS10_20230917"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5930,
+      "observed_at": "2026-10-13T15:05:29.155534+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-09-25",
+      "vintage": "2023-09-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-09-24,2023-09-24,2023-09-24&cosd=2000-01-01&coed=2023-09-24",
+      "sha256": "017e5fb712b91ffa3a63aafb2e06f50b66f0217fec43d8ebf216bb2c63410182",
+      "bytes": 375381,
+      "headers": [
+        "observation_date",
+        "DGS2_20230924",
+        "DGS5_20230924",
+        "DGS10_20230924"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5935,
+      "observed_at": "2026-10-13T15:05:27.029471+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-10-02",
+      "vintage": "2023-10-01",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-10-01,2023-10-01,2023-10-01&cosd=2000-01-01&coed=2023-10-01",
+      "sha256": "4286d0b208a029a7b259a138b7fa42c8a8fcce2e4be00eb04d056a5d031d6828",
+      "bytes": 375511,
+      "headers": [
+        "observation_date",
+        "DGS2_20231001",
+        "DGS5_20231001",
+        "DGS10_20231001"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5940,
+      "observed_at": "2026-10-13T15:05:29.948456+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-10-09",
+      "vintage": "2023-10-08",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-10-08,2023-10-08,2023-10-08&cosd=2000-01-01&coed=2023-10-08",
+      "sha256": "c1291ba852b76c7bbf904f839353bc164f85223b636de6dd006fae1f482f4a89",
+      "bytes": 375641,
+      "headers": [
+        "observation_date",
+        "DGS2_20231008",
+        "DGS5_20231008",
+        "DGS10_20231008"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5945,
+      "observed_at": "2026-10-13T15:05:37.727878+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-10-16",
+      "vintage": "2023-10-15",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-10-15,2023-10-15,2023-10-15&cosd=2000-01-01&coed=2023-10-15",
+      "sha256": "9c64ebfb25995f60dd5e37f3779127d4c2866d6d1ee922a87e184458ea9b96f7",
+      "bytes": 375759,
+      "headers": [
+        "observation_date",
+        "DGS2_20231015",
+        "DGS5_20231015",
+        "DGS10_20231015"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5949,
+      "observed_at": "2026-10-13T15:05:37.231973+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-10-23",
+      "vintage": "2023-10-22",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-10-22,2023-10-22,2023-10-22&cosd=2000-01-01&coed=2023-10-22",
+      "sha256": "132db6558c6c1fb51be8e2202db9fe5668725244636fb465cf2b15f827bfd1e1",
+      "bytes": 375889,
+      "headers": [
+        "observation_date",
+        "DGS2_20231022",
+        "DGS5_20231022",
+        "DGS10_20231022"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5954,
+      "observed_at": "2026-10-13T15:05:37.018189+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-10-30",
+      "vintage": "2023-10-29",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-10-29,2023-10-29,2023-10-29&cosd=2000-01-01&coed=2023-10-29",
+      "sha256": "90c04a29b9f8d57475fed38f46096dd72ccaa076fe2891db931f3247fe86d5ff",
+      "bytes": 376019,
+      "headers": [
+        "observation_date",
+        "DGS2_20231029",
+        "DGS5_20231029",
+        "DGS10_20231029"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5959,
+      "observed_at": "2026-10-13T15:05:36.961386+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-11-06",
+      "vintage": "2023-11-05",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-11-05,2023-11-05,2023-11-05&cosd=2000-01-01&coed=2023-11-05",
+      "sha256": "93b3e62eefdf6ea272df67ad240526dbe2615dd3871d157a5acd8661fd714e9e",
+      "bytes": 376149,
+      "headers": [
+        "observation_date",
+        "DGS2_20231105",
+        "DGS5_20231105",
+        "DGS10_20231105"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5964,
+      "observed_at": "2026-10-13T15:05:37.973906+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-11-13",
+      "vintage": "2023-11-12",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-11-12,2023-11-12,2023-11-12&cosd=2000-01-01&coed=2023-11-12",
+      "sha256": "5a1a1f36faa59fee2ee65a80b043d825d44d3b6e6bef1a4baf09a7ae42361b8e",
+      "bytes": 376253,
+      "headers": [
+        "observation_date",
+        "DGS2_20231112",
+        "DGS5_20231112",
+        "DGS10_20231112"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5968,
+      "observed_at": "2026-10-13T15:05:37.580380+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-11-20",
+      "vintage": "2023-11-19",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-11-19,2023-11-19,2023-11-19&cosd=2000-01-01&coed=2023-11-19",
+      "sha256": "0b50bc33c8df5e1a5821c4bd9027db1e8230552fad6c0b7f36739f1d2c0f6cbe",
+      "bytes": 376409,
+      "headers": [
+        "observation_date",
+        "DGS2_20231119",
+        "DGS5_20231119",
+        "DGS10_20231119"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5974,
+      "observed_at": "2026-10-13T15:05:39.679638+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-11-27",
+      "vintage": "2023-11-26",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-11-26,2023-11-26,2023-11-26&cosd=2000-01-01&coed=2023-11-26",
+      "sha256": "df9d38f81d8ae5be21ecb2a71e8704b155fa15b1e380ac285b4bf71d85f98fe0",
+      "bytes": 376513,
+      "headers": [
+        "observation_date",
+        "DGS2_20231126",
+        "DGS5_20231126",
+        "DGS10_20231126"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5978,
+      "observed_at": "2026-10-13T15:05:37.316084+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-12-04",
+      "vintage": "2023-12-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-12-03,2023-12-03,2023-12-03&cosd=2000-01-01&coed=2023-12-03",
+      "sha256": "3b6c6b32fc6c692c5b67862934ca835715dcaab6033783e066354e58142b412c",
+      "bytes": 376657,
+      "headers": [
+        "observation_date",
+        "DGS2_20231203",
+        "DGS5_20231203",
+        "DGS10_20231203"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5983,
+      "observed_at": "2026-10-13T15:05:47.454326+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-12-11",
+      "vintage": "2023-12-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-12-10,2023-12-10,2023-12-10&cosd=2000-01-01&coed=2023-12-10",
+      "sha256": "3b4f076f978afe06113b6ab9caafb4b9f02148cf6a5c916fc2132ed8eb3c141e",
+      "bytes": 376787,
+      "headers": [
+        "observation_date",
+        "DGS2_20231210",
+        "DGS5_20231210",
+        "DGS10_20231210"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5988,
+      "observed_at": "2026-10-13T15:05:49.808682+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-12-18",
+      "vintage": "2023-12-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-12-17,2023-12-17,2023-12-17&cosd=2000-01-01&coed=2023-12-17",
+      "sha256": "0748767597ed4c394d1d4d5267b93a1e457af4871a188c7fc916d6cdd38bd64f",
+      "bytes": 376917,
+      "headers": [
+        "observation_date",
+        "DGS2_20231217",
+        "DGS5_20231217",
+        "DGS10_20231217"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5993,
+      "observed_at": "2026-10-13T15:05:50.162013+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2023-12-25",
+      "vintage": "2023-12-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-12-24,2023-12-24,2023-12-24&cosd=2000-01-01&coed=2023-12-24",
+      "sha256": "27d9e061298207ba74f257288da131ce523322275c4d6d40593181bd012c1e6f",
+      "bytes": 377047,
+      "headers": [
+        "observation_date",
+        "DGS2_20231224",
+        "DGS5_20231224",
+        "DGS10_20231224"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 5998,
+      "observed_at": "2026-10-13T15:05:49.688084+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-01-01",
+      "vintage": "2023-12-31",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2023-12-31,2023-12-31,2023-12-31&cosd=2000-01-01&coed=2023-12-31",
+      "sha256": "fc9e4fd8db2dd45c20b68dbd79309bc71de149dd0ea79034dc516b739f70d84e",
+      "bytes": 377165,
+      "headers": [
+        "observation_date",
+        "DGS2_20231231",
+        "DGS5_20231231",
+        "DGS10_20231231"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6002,
+      "observed_at": "2026-10-13T15:07:59.210109+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-01-08",
+      "vintage": "2024-01-07",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-01-07,2024-01-07,2024-01-07&cosd=2000-01-01&coed=2024-01-07",
+      "sha256": "b34dfa2eea7279dfb6bbe429d31fd636b14a4c02c53da8ce69e3a5c80fce18aa",
+      "bytes": 377283,
+      "headers": [
+        "observation_date",
+        "DGS2_20240107",
+        "DGS5_20240107",
+        "DGS10_20240107"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6006,
+      "observed_at": "2026-10-13T15:08:00.023820+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-01-15",
+      "vintage": "2024-01-14",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-01-14,2024-01-14,2024-01-14&cosd=2000-01-01&coed=2024-01-14",
+      "sha256": "7ae1422bc11f82e4d2f41e4c7350b83ae6caa1e8f8062700545f73a890040b9c",
+      "bytes": 377413,
+      "headers": [
+        "observation_date",
+        "DGS2_20240114",
+        "DGS5_20240114",
+        "DGS10_20240114"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6011,
+      "observed_at": "2026-10-13T15:08:00.490251+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-01-22",
+      "vintage": "2024-01-21",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-01-21,2024-01-21,2024-01-21&cosd=2000-01-01&coed=2024-01-21",
+      "sha256": "0810914304f2fe753fa208f7cccf1b6f900b22c4d3b4f294c11ebbf847df25a5",
+      "bytes": 377531,
+      "headers": [
+        "observation_date",
+        "DGS2_20240121",
+        "DGS5_20240121",
+        "DGS10_20240121"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6015,
+      "observed_at": "2026-10-13T15:07:59.893189+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-01-29",
+      "vintage": "2024-01-28",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-01-28,2024-01-28,2024-01-28&cosd=2000-01-01&coed=2024-01-28",
+      "sha256": "79e561af2ac91dc0000aa993b5cf2b8a02b0c0360ee5f54d6df4da58920ea992",
+      "bytes": 377661,
+      "headers": [
+        "observation_date",
+        "DGS2_20240128",
+        "DGS5_20240128",
+        "DGS10_20240128"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6020,
+      "observed_at": "2026-10-13T15:07:59.986084+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-02-05",
+      "vintage": "2024-02-04",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-02-04,2024-02-04,2024-02-04&cosd=2000-01-01&coed=2024-02-04",
+      "sha256": "8cf2c4057a5332e7dd06daa6bdb27007f894bde20794c3cdeb805f72ce31f1b2",
+      "bytes": 377791,
+      "headers": [
+        "observation_date",
+        "DGS2_20240204",
+        "DGS5_20240204",
+        "DGS10_20240204"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6025,
+      "observed_at": "2026-10-13T15:07:59.563387+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-02-12",
+      "vintage": "2024-02-11",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-02-11,2024-02-11,2024-02-11&cosd=2000-01-01&coed=2024-02-11",
+      "sha256": "118590a7844d9ecd6c34ea0edd6bf24b3f8f661515d169755fc8e4ac1bd79710",
+      "bytes": 377921,
+      "headers": [
+        "observation_date",
+        "DGS2_20240211",
+        "DGS5_20240211",
+        "DGS10_20240211"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6030,
+      "observed_at": "2026-10-13T15:08:00.441645+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-02-19",
+      "vintage": "2024-02-18",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-02-18,2024-02-18,2024-02-18&cosd=2000-01-01&coed=2024-02-18",
+      "sha256": "e8b462fbb08d2dff8d98a76ee2d94930b32898c607a297a56485892f33efa0c2",
+      "bytes": 378051,
+      "headers": [
+        "observation_date",
+        "DGS2_20240218",
+        "DGS5_20240218",
+        "DGS10_20240218"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6035,
+      "observed_at": "2026-10-13T15:07:59.010188+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-02-26",
+      "vintage": "2024-02-25",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-02-25,2024-02-25,2024-02-25&cosd=2000-01-01&coed=2024-02-25",
+      "sha256": "79134529fc08bac049d2e25efe619eb457351c796d38d9870b1bef84e7366a5d",
+      "bytes": 378169,
+      "headers": [
+        "observation_date",
+        "DGS2_20240225",
+        "DGS5_20240225",
+        "DGS10_20240225"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6039,
+      "observed_at": "2026-10-13T15:08:11.504749+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-03-04",
+      "vintage": "2024-03-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-03-03,2024-03-03,2024-03-03&cosd=2000-01-01&coed=2024-03-03",
+      "sha256": "3ba78f176a5f23c97f6c3b57128045a94c33c85c144926ff78d49815e5f8555e",
+      "bytes": 378299,
+      "headers": [
+        "observation_date",
+        "DGS2_20240303",
+        "DGS5_20240303",
+        "DGS10_20240303"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6044,
+      "observed_at": "2026-10-13T15:08:10.400152+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-03-11",
+      "vintage": "2024-03-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-03-10,2024-03-10,2024-03-10&cosd=2000-01-01&coed=2024-03-10",
+      "sha256": "1f545d6613d59b870114ada0993b04ae04f79c1fe3b8cb8191f29b167e6f43f0",
+      "bytes": 378429,
+      "headers": [
+        "observation_date",
+        "DGS2_20240310",
+        "DGS5_20240310",
+        "DGS10_20240310"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6049,
+      "observed_at": "2026-10-13T15:08:12.285969+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-03-18",
+      "vintage": "2024-03-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-03-17,2024-03-17,2024-03-17&cosd=2000-01-01&coed=2024-03-17",
+      "sha256": "121613b6d7c780b04e0f2cc2171733c21f3974013a7be415ac1dbbbe82763f81",
+      "bytes": 378559,
+      "headers": [
+        "observation_date",
+        "DGS2_20240317",
+        "DGS5_20240317",
+        "DGS10_20240317"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6054,
+      "observed_at": "2026-10-13T15:08:10.682229+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-03-25",
+      "vintage": "2024-03-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-03-24,2024-03-24,2024-03-24&cosd=2000-01-01&coed=2024-03-24",
+      "sha256": "ec41672210a86578d58ffc33402fd906d8278a26494c16ed395de559b441e682",
+      "bytes": 378689,
+      "headers": [
+        "observation_date",
+        "DGS2_20240324",
+        "DGS5_20240324",
+        "DGS10_20240324"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6059,
+      "observed_at": "2026-10-13T15:08:10.331393+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-04-01",
+      "vintage": "2024-03-31",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-03-31,2024-03-31,2024-03-31&cosd=2000-01-01&coed=2024-03-31",
+      "sha256": "19177bb7e119d22ed2973598993b528b6854bf91556c9f61fa62be46a9d6108b",
+      "bytes": 378819,
+      "headers": [
+        "observation_date",
+        "DGS2_20240331",
+        "DGS5_20240331",
+        "DGS10_20240331"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6064,
+      "observed_at": "2026-10-13T15:08:12.345778+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-04-08",
+      "vintage": "2024-04-07",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-04-07,2024-04-07,2024-04-07&cosd=2000-01-01&coed=2024-04-07",
+      "sha256": "26ac8192521b920515608486e9e1a9dac6dca4eb80021a0053a523ad6448451d",
+      "bytes": 378937,
+      "headers": [
+        "observation_date",
+        "DGS2_20240407",
+        "DGS5_20240407",
+        "DGS10_20240407"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6068,
+      "observed_at": "2026-10-13T15:08:11.811220+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-04-15",
+      "vintage": "2024-04-14",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-04-14,2024-04-14,2024-04-14&cosd=2000-01-01&coed=2024-04-14",
+      "sha256": "2fd1a1d0228fd36e6720e0266458b5533247bf21a014dd9ebe850870418ce325",
+      "bytes": 379067,
+      "headers": [
+        "observation_date",
+        "DGS2_20240414",
+        "DGS5_20240414",
+        "DGS10_20240414"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6073,
+      "observed_at": "2026-10-13T15:08:12.599127+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-04-22",
+      "vintage": "2024-04-21",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-04-21,2024-04-21,2024-04-21&cosd=2000-01-01&coed=2024-04-21",
+      "sha256": "a75cdb17aa3ca59bd0621eeef05b34b612cd320f7bd7a99119a706dd52cff1b1",
+      "bytes": 379197,
+      "headers": [
+        "observation_date",
+        "DGS2_20240421",
+        "DGS5_20240421",
+        "DGS10_20240421"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6078,
+      "observed_at": "2026-10-13T15:08:22.299097+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-04-29",
+      "vintage": "2024-04-28",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-04-28,2024-04-28,2024-04-28&cosd=2000-01-01&coed=2024-04-28",
+      "sha256": "b5bf2865b8ef3401847d5050265efb72c26a9fbfa8e4d71046f5a11c6a8a8489",
+      "bytes": 379327,
+      "headers": [
+        "observation_date",
+        "DGS2_20240428",
+        "DGS5_20240428",
+        "DGS10_20240428"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6083,
+      "observed_at": "2026-10-13T15:08:21.681955+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-05-06",
+      "vintage": "2024-05-05",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-05-05,2024-05-05,2024-05-05&cosd=2000-01-01&coed=2024-05-05",
+      "sha256": "9e6a530caaada5b10b149351c82f6dd1ad9e2d8921d15ba085b8cf82bfeadce1",
+      "bytes": 379457,
+      "headers": [
+        "observation_date",
+        "DGS2_20240505",
+        "DGS5_20240505",
+        "DGS10_20240505"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6088,
+      "observed_at": "2026-10-13T15:08:22.283654+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-05-13",
+      "vintage": "2024-05-12",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-05-12,2024-05-12,2024-05-12&cosd=2000-01-01&coed=2024-05-12",
+      "sha256": "6cf9d9ab85c7aeaff84c02f816602e1c71297ad3d3019c867c5920f00c64b6f5",
+      "bytes": 379587,
+      "headers": [
+        "observation_date",
+        "DGS2_20240512",
+        "DGS5_20240512",
+        "DGS10_20240512"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6093,
+      "observed_at": "2026-10-13T15:08:22.582212+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-05-20",
+      "vintage": "2024-05-19",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-05-19,2024-05-19,2024-05-19&cosd=2000-01-01&coed=2024-05-19",
+      "sha256": "c099fb01300121fc1ae05fea89230fbebddd9272086faddf172f42f012a4da5d",
+      "bytes": 379717,
+      "headers": [
+        "observation_date",
+        "DGS2_20240519",
+        "DGS5_20240519",
+        "DGS10_20240519"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6098,
+      "observed_at": "2026-10-13T15:08:21.478628+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-05-27",
+      "vintage": "2024-05-26",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-05-26,2024-05-26,2024-05-26&cosd=2000-01-01&coed=2024-05-26",
+      "sha256": "1c48d0118deb7f01601a0fccbc9b16d9100d87c152575893d9367bdb269f559a",
+      "bytes": 379847,
+      "headers": [
+        "observation_date",
+        "DGS2_20240526",
+        "DGS5_20240526",
+        "DGS10_20240526"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6103,
+      "observed_at": "2026-10-13T15:08:19.643411+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-06-03",
+      "vintage": "2024-06-02",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-06-02,2024-06-02,2024-06-02&cosd=2000-01-01&coed=2024-06-02",
+      "sha256": "c909cdd75a782751f795b0995ff2b9555f168f1feac6c2f05e9607d0e894a01f",
+      "bytes": 379965,
+      "headers": [
+        "observation_date",
+        "DGS2_20240602",
+        "DGS5_20240602",
+        "DGS10_20240602"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6107,
+      "observed_at": "2026-10-13T15:08:22.514836+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-06-10",
+      "vintage": "2024-06-09",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-06-09,2024-06-09,2024-06-09&cosd=2000-01-01&coed=2024-06-09",
+      "sha256": "465568c0eec1fc6364e967ce5def7b913f47d7c2e550d4ed05e4b5939afb3fe5",
+      "bytes": 380095,
+      "headers": [
+        "observation_date",
+        "DGS2_20240609",
+        "DGS5_20240609",
+        "DGS10_20240609"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6112,
+      "observed_at": "2026-10-13T15:08:20.881711+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-06-17",
+      "vintage": "2024-06-16",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-06-16,2024-06-16,2024-06-16&cosd=2000-01-01&coed=2024-06-16",
+      "sha256": "c08df2ac1a6fcb646a4656ea3a876d9a384af05697c4ba3f5a601461576bf4fe",
+      "bytes": 380225,
+      "headers": [
+        "observation_date",
+        "DGS2_20240616",
+        "DGS5_20240616",
+        "DGS10_20240616"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6117,
+      "observed_at": "2026-10-13T15:08:30.190010+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-06-24",
+      "vintage": "2024-06-23",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-06-23,2024-06-23,2024-06-23&cosd=2000-01-01&coed=2024-06-23",
+      "sha256": "6fd28dc41221202370afeb47ce3640366968cd85810dcf11fa3cd4a43ca22ebd",
+      "bytes": 380343,
+      "headers": [
+        "observation_date",
+        "DGS2_20240623",
+        "DGS5_20240623",
+        "DGS10_20240623"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6121,
+      "observed_at": "2026-10-13T15:08:30.253021+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-07-01",
+      "vintage": "2024-06-30",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-06-30,2024-06-30,2024-06-30&cosd=2000-01-01&coed=2024-06-30",
+      "sha256": "c826612fafd9d88b67fbaa1e9398986b50c1e3b505b3d694e3fdf2ea2a403e76",
+      "bytes": 380473,
+      "headers": [
+        "observation_date",
+        "DGS2_20240630",
+        "DGS5_20240630",
+        "DGS10_20240630"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6126,
+      "observed_at": "2026-10-13T15:08:29.557138+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-07-08",
+      "vintage": "2024-07-07",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-07-07,2024-07-07,2024-07-07&cosd=2000-01-01&coed=2024-07-07",
+      "sha256": "1f881f41933899793bd18e7d35b9e167ad387fe545d05faeef0f568af3da70b6",
+      "bytes": 380577,
+      "headers": [
+        "observation_date",
+        "DGS2_20240707",
+        "DGS5_20240707",
+        "DGS10_20240707"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6130,
+      "observed_at": "2026-10-13T15:08:29.710581+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-07-15",
+      "vintage": "2024-07-14",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-07-14,2024-07-14,2024-07-14&cosd=2000-01-01&coed=2024-07-14",
+      "sha256": "14c5bd3162e4fbd9b084b62a7487f5d048644bcd3428efff298d98b74379e3b9",
+      "bytes": 380721,
+      "headers": [
+        "observation_date",
+        "DGS2_20240714",
+        "DGS5_20240714",
+        "DGS10_20240714"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6135,
+      "observed_at": "2026-10-13T15:08:30.531086+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-07-22",
+      "vintage": "2024-07-21",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-07-21,2024-07-21,2024-07-21&cosd=2000-01-01&coed=2024-07-21",
+      "sha256": "731a4ccff11a6b09fe4b5e817c9e768f52f41c6d600ae10449c88e4ce2e7bc43",
+      "bytes": 380851,
+      "headers": [
+        "observation_date",
+        "DGS2_20240721",
+        "DGS5_20240721",
+        "DGS10_20240721"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6140,
+      "observed_at": "2026-10-13T15:08:31.325677+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-07-29",
+      "vintage": "2024-07-28",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-07-28,2024-07-28,2024-07-28&cosd=2000-01-01&coed=2024-07-28",
+      "sha256": "de85b96f0226150b5d5d23c1c0a1584ea4e349bd36cb82888006029675fe5b11",
+      "bytes": 380981,
+      "headers": [
+        "observation_date",
+        "DGS2_20240728",
+        "DGS5_20240728",
+        "DGS10_20240728"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6145,
+      "observed_at": "2026-10-13T15:08:28.966687+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-08-05",
+      "vintage": "2024-08-04",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-08-04,2024-08-04,2024-08-04&cosd=2000-01-01&coed=2024-08-04",
+      "sha256": "0f2a15ecc29a629982ff14c2ec9ee9ea32a18a89a7eda8fd3a0ae1ca5e9accf9",
+      "bytes": 381111,
+      "headers": [
+        "observation_date",
+        "DGS2_20240804",
+        "DGS5_20240804",
+        "DGS10_20240804"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6150,
+      "observed_at": "2026-10-13T15:08:28.913753+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-08-12",
+      "vintage": "2024-08-11",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-08-11,2024-08-11,2024-08-11&cosd=2000-01-01&coed=2024-08-11",
+      "sha256": "b109dff1da5a4e1da26a7f3264b0547c075acab7b582c377b988366e46c9aaf9",
+      "bytes": 381241,
+      "headers": [
+        "observation_date",
+        "DGS2_20240811",
+        "DGS5_20240811",
+        "DGS10_20240811"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6155,
+      "observed_at": "2026-10-13T15:08:39.052246+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-08-19",
+      "vintage": "2024-08-18",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-08-18,2024-08-18,2024-08-18&cosd=2000-01-01&coed=2024-08-18",
+      "sha256": "c1b94bda1f4ff2b9c1f64d906c8ece7d1ddef309c1896e24a1aa2be9a54bb561",
+      "bytes": 381371,
+      "headers": [
+        "observation_date",
+        "DGS2_20240818",
+        "DGS5_20240818",
+        "DGS10_20240818"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6160,
+      "observed_at": "2026-10-13T15:08:39.135323+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-08-26",
+      "vintage": "2024-08-25",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-08-25,2024-08-25,2024-08-25&cosd=2000-01-01&coed=2024-08-25",
+      "sha256": "5c8f585cd9b6465170687323729e7e7836be6b5d2981775bb99062a3c1c9b859",
+      "bytes": 381501,
+      "headers": [
+        "observation_date",
+        "DGS2_20240825",
+        "DGS5_20240825",
+        "DGS10_20240825"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6165,
+      "observed_at": "2026-10-13T15:08:40.198879+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-09-02",
+      "vintage": "2024-09-01",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-09-01,2024-09-01,2024-09-01&cosd=2000-01-01&coed=2024-09-01",
+      "sha256": "f3f9060f9986ef2d83f0865874800c8fa0ea0cd92cbd2a7451a2790ab6d61ae4",
+      "bytes": 381631,
+      "headers": [
+        "observation_date",
+        "DGS2_20240901",
+        "DGS5_20240901",
+        "DGS10_20240901"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6170,
+      "observed_at": "2026-10-13T15:08:38.556560+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-09-09",
+      "vintage": "2024-09-08",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-09-08,2024-09-08,2024-09-08&cosd=2000-01-01&coed=2024-09-08",
+      "sha256": "4adc13bd39b8537ff696153b5040c03eeb6a50463b9ebfc13560ca7d2e165a8c",
+      "bytes": 381749,
+      "headers": [
+        "observation_date",
+        "DGS2_20240908",
+        "DGS5_20240908",
+        "DGS10_20240908"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6174,
+      "observed_at": "2026-10-13T15:08:39.344065+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-09-16",
+      "vintage": "2024-09-15",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-09-15,2024-09-15,2024-09-15&cosd=2000-01-01&coed=2024-09-15",
+      "sha256": "1248d29debe83e280eb7a265c867479e4df3f2f97c45bb2ff56d1b2817608791",
+      "bytes": 381879,
+      "headers": [
+        "observation_date",
+        "DGS2_20240915",
+        "DGS5_20240915",
+        "DGS10_20240915"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6179,
+      "observed_at": "2026-10-13T15:08:38.795273+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-09-23",
+      "vintage": "2024-09-22",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-09-22,2024-09-22,2024-09-22&cosd=2000-01-01&coed=2024-09-22",
+      "sha256": "74b3c5e0fea84906c9008109a17c2b7155b563b8588009b746443f34f90df856",
+      "bytes": 382009,
+      "headers": [
+        "observation_date",
+        "DGS2_20240922",
+        "DGS5_20240922",
+        "DGS10_20240922"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6184,
+      "observed_at": "2026-10-13T15:08:39.477401+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-09-30",
+      "vintage": "2024-09-29",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-09-29,2024-09-29,2024-09-29&cosd=2000-01-01&coed=2024-09-29",
+      "sha256": "c87e82ed588abf76eb2471696cfb436aa7c98c7a9e16f2ac650aef04030a9257",
+      "bytes": 382139,
+      "headers": [
+        "observation_date",
+        "DGS2_20240929",
+        "DGS5_20240929",
+        "DGS10_20240929"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6189,
+      "observed_at": "2026-10-13T15:08:38.082564+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-10-07",
+      "vintage": "2024-10-06",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-10-06,2024-10-06,2024-10-06&cosd=2000-01-01&coed=2024-10-06",
+      "sha256": "3045b8f1d7449a9e2ab95cfc174bc5e94c3da10678a8343265c8e8edee93abcb",
+      "bytes": 382269,
+      "headers": [
+        "observation_date",
+        "DGS2_20241006",
+        "DGS5_20241006",
+        "DGS10_20241006"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6194,
+      "observed_at": "2026-10-13T15:08:49.041404+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-10-14",
+      "vintage": "2024-10-13",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-10-13,2024-10-13,2024-10-13&cosd=2000-01-01&coed=2024-10-13",
+      "sha256": "fa01af34218e80d0c23487741d2961a90f721eae958ca7b31aaddc6fe6c81bd9",
+      "bytes": 382399,
+      "headers": [
+        "observation_date",
+        "DGS2_20241013",
+        "DGS5_20241013",
+        "DGS10_20241013"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6199,
+      "observed_at": "2026-10-13T15:08:49.692722+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-10-21",
+      "vintage": "2024-10-20",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-10-20,2024-10-20,2024-10-20&cosd=2000-01-01&coed=2024-10-20",
+      "sha256": "17a91f49b9aea966f15f2a50ab5b28fc250d652dd7e00d90524d1878f8e7ba37",
+      "bytes": 382517,
+      "headers": [
+        "observation_date",
+        "DGS2_20241020",
+        "DGS5_20241020",
+        "DGS10_20241020"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6203,
+      "observed_at": "2026-10-13T15:08:49.595977+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-10-28",
+      "vintage": "2024-10-27",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-10-27,2024-10-27,2024-10-27&cosd=2000-01-01&coed=2024-10-27",
+      "sha256": "604b6a51a1d39742b5ef232eb4dcbde8a44416b6a5c687d342cea3c92f399ef6",
+      "bytes": 382647,
+      "headers": [
+        "observation_date",
+        "DGS2_20241027",
+        "DGS5_20241027",
+        "DGS10_20241027"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6208,
+      "observed_at": "2026-10-13T15:08:48.868956+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-11-04",
+      "vintage": "2024-11-03",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-11-03,2024-11-03,2024-11-03&cosd=2000-01-01&coed=2024-11-03",
+      "sha256": "f24e79986f1614491fbdd2f536628c59682098d005965bae204ceb2a6073117d",
+      "bytes": 382777,
+      "headers": [
+        "observation_date",
+        "DGS2_20241103",
+        "DGS5_20241103",
+        "DGS10_20241103"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6213,
+      "observed_at": "2026-10-13T15:08:49.930964+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-11-11",
+      "vintage": "2024-11-10",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-11-10,2024-11-10,2024-11-10&cosd=2000-01-01&coed=2024-11-10",
+      "sha256": "1713f25bfb00f4c7bce3a64dc10d4d841542965b7871ad6d5dbca540e4c59e90",
+      "bytes": 382907,
+      "headers": [
+        "observation_date",
+        "DGS2_20241110",
+        "DGS5_20241110",
+        "DGS10_20241110"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6218,
+      "observed_at": "2026-10-13T15:08:50.100659+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-11-18",
+      "vintage": "2024-11-17",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-11-17,2024-11-17,2024-11-17&cosd=2000-01-01&coed=2024-11-17",
+      "sha256": "948090f8f276911d6857f7989c8ffb7322c8ee45656c121df736f230aa8f2586",
+      "bytes": 383025,
+      "headers": [
+        "observation_date",
+        "DGS2_20241117",
+        "DGS5_20241117",
+        "DGS10_20241117"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6222,
+      "observed_at": "2026-10-13T15:08:50.079084+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-11-25",
+      "vintage": "2024-11-24",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-11-24,2024-11-24,2024-11-24&cosd=2000-01-01&coed=2024-11-24",
+      "sha256": "8592e93f58289ee807a299edff3dc25f53857380d0b3f87fe3c719b4d48515e8",
+      "bytes": 383155,
+      "headers": [
+        "observation_date",
+        "DGS2_20241124",
+        "DGS5_20241124",
+        "DGS10_20241124"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6227,
+      "observed_at": "2026-10-13T15:08:48.387420+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-12-02",
+      "vintage": "2024-12-01",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-12-01,2024-12-01,2024-12-01&cosd=2000-01-01&coed=2024-12-01",
+      "sha256": "9608256e8eb84f1cd797c1e488fffafc5be7e1de1002f5915de18272ab321c8f",
+      "bytes": 383259,
+      "headers": [
+        "observation_date",
+        "DGS2_20241201",
+        "DGS5_20241201",
+        "DGS10_20241201"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6231,
+      "observed_at": "2026-10-13T15:08:59.116532+00:00",
+      "cached": false
+    },
+    {
+      "origin": "2024-12-09",
+      "vintage": "2024-12-08",
+      "url": "https://alfred.stlouisfed.org/graph/alfredgraph.csv?id=DGS2,DGS5,DGS10&vintage_date=2024-12-08,2024-12-08,2024-12-08&cosd=2000-01-01&coed=2024-12-08",
+      "sha256": "064f46a400a3f2d208db0a35097f322376a02a932c2bf47702983fcae024c764",
+      "bytes": 383403,
+      "headers": [
+        "observation_date",
+        "DGS2_20241208",
+        "DGS5_20241208",
+        "DGS10_20241208"
+      ],
+      "strictly_previous_day": true,
+      "future_nonmissing_values": 0,
+      "usable_complete_past_rows": 6236,
+      "observed_at": "2026-10-13T15:08:59.120312+00:00",
+      "cached": false
+    }
+  ]
+}

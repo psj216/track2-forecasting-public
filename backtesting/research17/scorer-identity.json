@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Current official Track2 scorer imported under separate namespace; pinned shared242 CRPS source is byte-identical to freshly recovered current shared6181 source. No scoring implementation rewritten.",
+  "track2_commit": "a2c93e7b66b8c6a6c429fda81d6bc7873b7c5dec",
+  "scorer_sha256": "cbb541ef25665b401b1891e67d0bb300aef0014919e900a500e6f9128546c031",
+  "shared_current_commit": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+  "shared_forecast_runtime_commit": "dfa92d242908bba4a448218b9c10ae391238d10d",
+  "shared_CRPS_byte_identical": true,
+  "shared_CRPS_sha256": "fdd8bc89bc9d219f4e09937582d3aad97dfdb5656563e4037470873d17e200cb",
+  "M0_normalization": "UNAVAILABLE_NOT_REIMPLEMENTED"
+}

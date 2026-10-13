@@ -1,6 +1,6 @@
 {
   "executive_summary": "Calendar originals and ALFRED previous-day multi-vintage route recovered; all experimental response headers must be validated before use. Current FX series is not accepted as PIT.",
-  "status": "PRE_OUTCOME_ROUTE_VERIFIED_DATA_COLLECTION_PENDING",
+  "status": "154_PIT_VINTAGES_VALIDATED_BEFORE_SCORE",
   "calendar_originals": [
     {
       "year": 2022,
@@ -36,5 +36,12 @@
   "FX_performance": "NOT_RUN_PIT_VINTAGE_UNVERIFIED",
   "raw_retrieval_manifest_sha256": "13c872824d427b7c1e97f4ef5b38557669749ec78ab02f17116a2291061a8245",
   "no_api_key_or_House_token": true,
-  "future_Final_truth_accessed": false
+  "future_Final_truth_accessed": false,
+  "market_vintages_recovered": 154,
+  "market_series": 3,
+  "all_headers_match": true,
+  "all_future_nonmissing_values_zero": true,
+  "input_manifest_sha256": "c907dd973e93092fc48212b5a628826f7885a4d67ec5d12c42490097e0fb69c3",
+  "strict_original_calendar_features_verified": true,
+  "independent_history": false
 }
