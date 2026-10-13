@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Protected refs directly re-read after experiment; unchanged at observation. No protected writes or image/ZIP operations.",
+  "remote_refs": {
+    "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "V51": "126a7c628aa60783986450037309f5f59603276a",
+    "M15": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+    "M16": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+    "FINAL01": "78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20"
+  },
+  "all_unchanged_at_observation": true,
+  "observation": "Last successful executor clock2026-10-13T15:37:03Z and preceding GitHub reads",
+  "self_contained_clone_fsck": true,
+  "object_alternates": false,
+  "local_final_post_stall_verification": "NOT_RUN"
+}

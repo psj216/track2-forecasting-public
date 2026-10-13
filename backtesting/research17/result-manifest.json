@@ -1,0 +1,144 @@
+{
+  "executive_summary": "All12 required R17 artifacts and reproducible core records are present in the authoritative Git tree. Recorded Git blob hashes verify remote publication, not inaccessible local final bytes.",
+  "required_artifacts": 12,
+  "publication": "Connector fallback from observed aggregate results and verified pre-score checkpoints",
+  "private_result_hash": "UNKNOWN_RETRIEVAL_BLOCKED",
+  "RESULT_binding": "Enclosing commit",
+  "files": [
+    {
+      "path": "R17-BASELINE-INFORMATION-GAP.md",
+      "git_blob_sha": "45192e8bf8c2f659c8af9609d12d88e1bd80ed2e",
+      "bytes": 4679
+    },
+    {
+      "path": "R17-FALSIFICATION.md",
+      "git_blob_sha": "015081b5bba7f330e1f4d4ca2b2cf067809d06fc",
+      "bytes": 1999
+    },
+    {
+      "path": "R17-FEASIBILITY-RESULT.json",
+      "git_blob_sha": "590093c9d3b83df0b04c757769f44aa19569b1aa",
+      "bytes": 11835
+    },
+    {
+      "path": "R17-LOCKED-HYPOTHESIS.json",
+      "git_blob_sha": "2ddf3934f110e984616b18a93865b09269e283b6",
+      "bytes": 9084
+    },
+    {
+      "path": "R17-PIT-DATA-AUDIT.json",
+      "git_blob_sha": "21926441d5bf6cd25ac05e1a5ced8765e11b96db",
+      "bytes": 2458
+    },
+    {
+      "path": "R17-PRE.md",
+      "git_blob_sha": "cd53fc7df24c60a329a51187bc2b4bc9ed1f4a0d",
+      "bytes": 3208
+    },
+    {
+      "path": "R17-REPORT.md",
+      "git_blob_sha": "629650b557b930be50d3ecae9bcb0ef5bc5e6749",
+      "bytes": 9896
+    },
+    {
+      "path": "R17-RESEARCH-GATE.json",
+      "git_blob_sha": "c20316057ea25fc1ea8a81c382b3ccf222d686ca",
+      "bytes": 1845
+    },
+    {
+      "path": "R17-RESEARCH-HISTORY.md",
+      "git_blob_sha": "63db4f126ea04681cf8f9805238664ff97e305e5",
+      "bytes": 8435
+    },
+    {
+      "path": "R17-SIGNAL-CANDIDATES.md",
+      "git_blob_sha": "865fe5464192d5c3dfc5e8a8e867e38d12417e5d",
+      "bytes": 3348
+    },
+    {
+      "path": "RECOVERY.md",
+      "git_blob_sha": "96051d688f99451dbe5be6b8128b54fe1cafe716",
+      "bytes": 2031
+    },
+    {
+      "path": "STATUS.json",
+      "git_blob_sha": "1709be7563952015e0b20887dea540820cc369d9",
+      "bytes": 1807
+    },
+    {
+      "path": "backtesting/research17/README.md",
+      "git_blob_sha": "9e76512c00782ba36b5c208f0413516ba3c88391",
+      "bytes": 2073
+    },
+    {
+      "path": "backtesting/research17/collect_vintages.py",
+      "git_blob_sha": "43b60dad7a69bd80fe1203178ad7965687f84edb",
+      "bytes": 4223
+    },
+    {
+      "path": "backtesting/research17/execution-receipt.json",
+      "git_blob_sha": "44701965cb0c5b28720a4597cfd20b61e9980702",
+      "bytes": 2386
+    },
+    {
+      "path": "backtesting/research17/experiment.py",
+      "git_blob_sha": "6f9e2fd9b0ff9d33d1d571d292348f239a9127de",
+      "bytes": 21447
+    },
+    {
+      "path": "backtesting/research17/fitted-parameter.json",
+      "git_blob_sha": "7a179bdecff43500a28be8b7033b437108900dbc",
+      "bytes": 749
+    },
+    {
+      "path": "backtesting/research17/frozen_calendar.json",
+      "git_blob_sha": "245eedb6d81699a3fc245626cc5ea50228d5a63f",
+      "bytes": 11964
+    },
+    {
+      "path": "backtesting/research17/history-actions.json",
+      "git_blob_sha": "9f3348b5325ada993858d79f1b98d0a488ff2a5d",
+      "bytes": 2961
+    },
+    {
+      "path": "backtesting/research17/history-evidence.json",
+      "git_blob_sha": "a34a51e2eb90dc855b7a31ef89c6314a17a6fc83",
+      "bytes": 22178
+    },
+    {
+      "path": "backtesting/research17/input-manifest.json",
+      "git_blob_sha": "be16782cb85d9dd106c5a1ae67e5aafc72ac59ea",
+      "bytes": 103505
+    },
+    {
+      "path": "backtesting/research17/official-final-notice.json",
+      "git_blob_sha": "57bfb395a21709fe701562855d24bcccb24b3ae6",
+      "bytes": 951
+    },
+    {
+      "path": "backtesting/research17/output-algebra-audit.json",
+      "git_blob_sha": "b7f80abd02658f023dd7ef5ed88066a979bc8e2c",
+      "bytes": 397
+    },
+    {
+      "path": "backtesting/research17/protection-receipt.json",
+      "git_blob_sha": "e30434333ee63859dacdae90eeb7f94b49c26681",
+      "bytes": 710
+    },
+    {
+      "path": "backtesting/research17/scorer-identity.json",
+      "git_blob_sha": "22fdf03f2bc6b65c8a1714332fb0648fac656cf2",
+      "bytes": 713
+    },
+    {
+      "path": "backtesting/research17/source-runtime-bridge.json",
+      "git_blob_sha": "f4fdac197762ed56e7b461af8835ee0a107e60ed",
+      "bytes": 5002
+    },
+    {
+      "path": "backtesting/research17/test_pit_controls.py",
+      "git_blob_sha": "de25db49896c96c54586873e4f1623b6773dcb90",
+      "bytes": 1654
+    }
+  ]
+}

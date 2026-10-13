@@ -1,0 +1,325 @@
+{
+  "executive_summary": "One locked exposed-history FOMC-calendar variance experiment failed five of nine research gates. Aggregate values below were directly observed before executor access stalled; source/code/input manifests remain in verified Git checkpoints.",
+  "protocol": "R17-FOMC-CALENDAR-VARIANCE-1",
+  "classification": "NO_PREDICTABLE_SIGNAL",
+  "contamination_status": "EXPLORATORY_EXPOSED_HISTORY",
+  "independent_alpha_verified": "UNKNOWN",
+  "Final_eligible": false,
+  "official_M0_score": "NOT_COMPUTED",
+  "fit": {
+    "executive_summary": "Single frozen-rule coefficient fit on matured2022-23 primary data; no2024 outcomes used.",
+    "beta": 3.898501592263374,
+    "unclipped_beta": 3.898501592263374,
+    "training_origins_used": 101,
+    "training_origins_blocked": 3,
+    "training_event_origins": 16,
+    "fit_denominator": 15,
+    "primary_training_scales": {
+      "marginal": 0.10039070365383976,
+      "joint": 0.8971563698073659,
+      "tail": 0.015875459094203886
+    },
+    "secondary_training_scales": {
+      "marginal": 0.15964644588795734,
+      "joint": 1.6181184495913996,
+      "tail": 0.024302911858704812
+    },
+    "secondary_training_origins": 69,
+    "official_M0_normalization": false,
+    "lock_sha256": "7d1e31485f1e2a4f728332370653a0276a073d5353ac8da13f3814c75f27df45"
+  },
+  "source_bridge": {
+    "executive_summary": "New host environment bridge to four preserved safe Docker outputs, not a new Docker execution or quality score. Exact source and dependency pins checked.",
+    "source_file_matches": {
+      "__init__.py": true,
+      "aggregate.py": true,
+      "cli.py": true,
+      "cutoff.py": true,
+      "f1_center.py": true,
+      "failures.py": true,
+      "family_calibration.py": true,
+      "family_pipeline.py": true,
+      "grid.py": true,
+      "historical_heads.py": true,
+      "integrated_v4.py": true,
+      "limits.py": true,
+      "normalization.py": true,
+      "numeric_v1.py": true,
+      "numeric_v2.py": true,
+      "numeric_v21.py": true,
+      "numeric_v3.py": true,
+      "numeric_v4.py": true,
+      "official.py": true,
+      "regime_router.py": true,
+      "scenario_integration.py": true,
+      "scoring.py": true,
+      "tail.py": true,
+      "text_evidence.py": true,
+      "text_first_v5.py": true,
+      "text_interpreter_v51.py": true
+    },
+    "runtime": {
+      "python": "3.13.15 (main, Sep 29 2026, 15:01:28) [Clang 22.1.3 ]",
+      "numpy": "2.1.3",
+      "pandas": "2.2.3",
+      "pyarrow": "18.1.0"
+    },
+    "runs": [
+      {
+        "unit": "t2-F1-patient-dropped-2015",
+        "asof": "2015-03-18",
+        "exit_code": 0,
+        "value_sha256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+        "archived_value_sha256": "0c6ee0225a75ff66af53c6879e455756a2c35a95d9580812fa2ec108471a0cde",
+        "value_exact": true,
+        "parquet_sha256": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "archived_parquet_sha256": "384c59406afe5aca5bbbc6cdeb9a283f9249866a2b38896ba2a430e719330bd7",
+        "parquet_exact": true,
+        "command": [
+          "--panels",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F1-patient-dropped-2015",
+          "--text",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F1-patient-dropped-2015/text",
+          "--asof",
+          "2015-03-18",
+          "--out",
+          "/workspace/scratch/2ceb60fb84d7/r17-work/private/bridge/t2-F1-patient-dropped-2015/forecast.parquet"
+        ]
+      },
+      {
+        "unit": "t2-F2-eur-parity-2022",
+        "asof": "2022-06-30",
+        "exit_code": 0,
+        "value_sha256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+        "archived_value_sha256": "26fad1ccdc934399a1babe18f0c769c82a95f32652b923f1b4d957e4c73d0172",
+        "value_exact": true,
+        "parquet_sha256": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "archived_parquet_sha256": "8c47d3b7adfc39c0e3d48566a3c530cd9f1292abada7755a9c7102209387b33e",
+        "parquet_exact": true,
+        "command": [
+          "--panels",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F2-eur-parity-2022",
+          "--text",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F2-eur-parity-2022/text",
+          "--asof",
+          "2022-06-30",
+          "--out",
+          "/workspace/scratch/2ceb60fb84d7/r17-work/private/bridge/t2-F2-eur-parity-2022/forecast.parquet"
+        ]
+      },
+      {
+        "unit": "t2-F3-brexit-joint-2016",
+        "asof": "2016-06-17",
+        "exit_code": 0,
+        "value_sha256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+        "archived_value_sha256": "44158565d29d206c02f367be30a3503da39cb3c034bff2640ff25a747b6a922b",
+        "value_exact": true,
+        "parquet_sha256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "archived_parquet_sha256": "56303276d6b3078c655a632b180e5e9b8ff913f013fb4caba9da32a9cff7ca95",
+        "parquet_exact": true,
+        "command": [
+          "--panels",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F3-brexit-joint-2016",
+          "--text",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F3-brexit-joint-2016/text",
+          "--asof",
+          "2016-06-17",
+          "--out",
+          "/workspace/scratch/2ceb60fb84d7/r17-work/private/bridge/t2-F3-brexit-joint-2016/forecast.parquet"
+        ]
+      },
+      {
+        "unit": "t2-F4-funding-stress-2y-2008",
+        "asof": "2008-09-12",
+        "exit_code": 0,
+        "value_sha256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+        "archived_value_sha256": "63cfdcabdbdc50e3f8cce5e57d6f7d298c3c92a55157b9bc3f0b63c90533fdce",
+        "value_exact": true,
+        "parquet_sha256": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "archived_parquet_sha256": "b169a58aef562d43b66bad3dc1c12fa1995896e3240ae6fa0c1e76175c74383a",
+        "parquet_exact": true,
+        "command": [
+          "--panels",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F4-funding-stress-2y-2008",
+          "--text",
+          "/workspace/scratch/2ceb60fb84d7/r17-baseline/src/units/t2-F4-funding-stress-2y-2008/text",
+          "--asof",
+          "2008-09-12",
+          "--out",
+          "/workspace/scratch/2ceb60fb84d7/r17-work/private/bridge/t2-F4-funding-stress-2y-2008/forecast.parquet"
+        ]
+      }
+    ],
+    "passed": true,
+    "new_Docker_run": false
+  },
+  "primary": {
+    "n": 48,
+    "marginal": {
+      "baseline_mean": 0.07102813466713892,
+      "candidate_mean": 0.07112891996647903,
+      "ratio": 1.0014189489814485
+    },
+    "joint": {
+      "baseline_mean": 0.726930930410305,
+      "candidate_mean": 0.7130030719904269,
+      "ratio": 0.9808401901236796
+    },
+    "tail": {
+      "baseline_mean": 0.009755127810070593,
+      "candidate_mean": 0.009649516887050139,
+      "ratio": 0.9891738042723102
+    },
+    "composite": {
+      "baseline_mean": 0.719732557594481,
+      "candidate_mean": 0.7142466953203407,
+      "ratio": 0.992377915635114
+    }
+  },
+  "primary_composite_ratio_ci95_block4": [
+    0.9658738795887444,
+    1.0131911866859078
+  ],
+  "primary_event_exposed": {
+    "n": 7,
+    "marginal_ratio": 1.0102624919277163,
+    "joint_ratio": 0.9264150097430106,
+    "tail_ratio": 0.9377433969296549,
+    "composite_ratio": 0.9589306674721724
+  },
+  "primary_no_event": {
+    "n": 41,
+    "note": "41 origins derived by subtracting7 event origins from48; zero-event exactness verified separately."
+  },
+  "primary_single_cells": {
+    "n": 432,
+    "baseline_composite_mean": 0.6809345997006139,
+    "candidate_composite_mean": 0.6797509889338097,
+    "composite_ratio": 0.9982617849536144
+  },
+  "per_asset": {
+    "UST_2Y": {
+      "n": 144,
+      "marginal_ratio": 1.0019019590656193,
+      "tail_ratio": 0.9970813101199032,
+      "single_cell_composite_ratio": 1.0005966508076258
+    },
+    "UST_5Y": {
+      "n": 144,
+      "marginal_ratio": 1.0025698464326465,
+      "tail_ratio": 0.9909793548892512,
+      "single_cell_composite_ratio": 0.9995615435726564
+    },
+    "UST_10Y": {
+      "n": 144,
+      "marginal_ratio": 0.9997230380642219,
+      "tail_ratio": 0.9777596098248335,
+      "single_cell_composite_ratio": 0.9944012467489441
+    }
+  },
+  "per_horizon": {
+    "1": {
+      "n": 144,
+      "marginal_ratio": 1,
+      "tail_ratio": 1,
+      "single_cell_composite_ratio": 1
+    },
+    "2": {
+      "n": 144,
+      "marginal_ratio": 1.0074711264786946,
+      "tail_ratio": 1.0403095182038082,
+      "single_cell_composite_ratio": 1.015552018991941
+    },
+    "4": {
+      "n": 144,
+      "marginal_ratio": 0.9978399433463372,
+      "tail_ratio": 0.9455784335157612,
+      "single_cell_composite_ratio": 0.9845400324718087
+    }
+  },
+  "per_quarter": {
+    "2024Q1": {
+      "n": 12,
+      "composite_ratio": 1.0164228099451715
+    },
+    "2024Q2": {
+      "n": 12,
+      "composite_ratio": 0.982946418905154
+    },
+    "2024Q3": {
+      "n": 14,
+      "composite_ratio": 0.9690888934372315
+    },
+    "2024Q4": {
+      "n": 10,
+      "composite_ratio": 1.0112252492621834
+    }
+  },
+  "secondary": {
+    "n": 36,
+    "cells": 324,
+    "baseline_composite_mean": 0.6418870659163808,
+    "candidate_composite_mean": 0.6404157628458407,
+    "marginal_ratio": 1.0004578864097222,
+    "joint_ratio": 1.0046880458925427,
+    "tail_ratio": 0.9759559134995222,
+    "composite_ratio": 0.9977078474568737
+  },
+  "lag_control": {
+    "n": 48,
+    "composite_ratio": 0.992377915635114,
+    "changed_baseline_origins": 0,
+    "status": "INCONCLUSIVE_DEGENERATE"
+  },
+  "placebo_calendar": {
+    "n": 48,
+    "marginal_ratio": 0.9983096428229341,
+    "joint_ratio": 1.0307138815146846,
+    "tail_ratio": 0.9787490664012615,
+    "composite_ratio": 1.0059136587980635
+  },
+  "leave_one_quarter_out": {
+    "2024Q1": 0.9848549910732941,
+    "2024Q2": 0.9950355049726709,
+    "2024Q3": 1.003804758420974,
+    "2024Q4": 0.9872859570752606
+  },
+  "remove_largest_gain_origin": {
+    "n": 47,
+    "baseline_composite_mean": 0.6761402311121274,
+    "candidate_composite_mean": 0.6796024906727287,
+    "composite_ratio": 1.0051206235057282
+  },
+  "primary_missing_quote_origins": 2,
+  "secondary_incomplete_origins": 14,
+  "execution_controls": {
+    "all_finite_shapes": true,
+    "zero_event_exact": true,
+    "location_preserved": true,
+    "deterministic_repeat": true,
+    "max_mean_difference": 4.707345624410664e-14,
+    "max_sd_ratio": 1.7173382882040766,
+    "extra_lag_changes_baseline_origins": 0
+  },
+  "acceptance_checks": {
+    "enough_origins": true,
+    "enough_event_origins": true,
+    "primary_2pct_gain": false,
+    "bootstrap_upper_below_one": false,
+    "joint_not_worse_5pct": true,
+    "tail_not_worse_5pct": true,
+    "two_assets_improve": false,
+    "leave_quarter_out_robust": false,
+    "remove_largest_gain_robust": false
+  },
+  "performance_gate_pass": false,
+  "private_evaluation_sha256": "UNKNOWN_RETRIEVAL_BLOCKED_AT_PUBLICATION",
+  "publication_provenance": "Connector fallback after two unanswered executor calls. Numbers are recorded from already observed execution output, not recomputed or inferred. Rich local JSON/receipt bytes could not be re-read; this is an authored aggregate recovery record, not a claim to byte-identical local publication.",
+  "limits": [
+    "UST-only controlled F3/empty-text path, not complete Final text-corpus quality",
+    "2022–24 exposed history; one2024 evaluation fold",
+    "Input quotes lag origin4–5calendar days; fresh-close Final comparability limited",
+    "No FX,3BD,extra bills/EM/macro performance or liveHouse proof",
+    "Training-error divisors are not official expected-error M0 scales"
+  ]
+}

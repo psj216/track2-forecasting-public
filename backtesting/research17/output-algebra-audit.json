@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Actual post-score descriptive output audit; no further score, fitting or target opening.",
+  "origins": 50,
+  "zero_event_asset_horizon_blocks_byte_exact": 243,
+  "zero_event_cells_byte_exact": 729,
+  "max_joint_Pearson_correlation_change": 2.220446049250313e-15,
+  "baseline_horizon_variance_descents": 0,
+  "candidate_horizon_variance_descents": 1,
+  "new_scores": 0
+}

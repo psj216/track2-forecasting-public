@@ -1,0 +1,75 @@
+{
+  "executive_summary": "Actual observed execution counts, recovered from tool outputs; missing local final hashes are not invented.",
+  "experiment_count": 1,
+  "parameter_sweep": false,
+  "baseline_CLI_outputs": 204,
+  "training_baseline_outputs": 104,
+  "evaluation_baseline_outputs": 50,
+  "evaluation_lag_outputs": 50,
+  "extra_deterministic_CLI_repeat": 1,
+  "source_bridge_CLI_runs": 4,
+  "total_new_CLI_calls": 209,
+  "new_Docker_executions": 0,
+  "training_primary_origins": 101,
+  "training_event_origins": 16,
+  "evaluation_primary_origins": 48,
+  "evaluation_primary_cells": 432,
+  "primary_event_origins": 7,
+  "evaluation_secondary_origins": 36,
+  "latest_input_age_calendar_days": {
+    "4": 147,
+    "5": 7
+  },
+  "lag_control_effective": false,
+  "runtime_checks": {
+    "all_finite_shapes": true,
+    "zero_event_exact": true,
+    "location_preserved": true,
+    "deterministic_repeat": true,
+    "max_mean_difference": 4.707345624410664e-14,
+    "max_sd_ratio": 1.7173382882040766,
+    "extra_lag_changes_baseline_origins": 0
+  },
+  "unique_PIT_tests": {
+    "passed": 5,
+    "failed": 0,
+    "skipped": 0,
+    "scope": "new research controls only"
+  },
+  "lint": {
+    "passed": true,
+    "scope": "new research I/F checks only"
+  },
+  "observed_stdout": {
+    "evaluation": {
+      "primary_complete_origins": 48,
+      "blocked": 2,
+      "primary_event_exposed_origins": 7,
+      "secondary_complete_origins": 36,
+      "single_cells": 432
+    },
+    "summary": {
+      "classification": "NO_PREDICTABLE_SIGNAL",
+      "primary_ratio": 0.992377915635114,
+      "CI95": [
+        0.9658738795887444,
+        1.0131911866859078
+      ],
+      "acceptance_checks": {
+        "enough_origins": true,
+        "enough_event_origins": true,
+        "primary_2pct_gain": false,
+        "bootstrap_upper_below_one": false,
+        "joint_not_worse_5pct": true,
+        "tail_not_worse_5pct": true,
+        "two_assets_improve": false,
+        "leave_quarter_out_robust": false,
+        "remove_largest_gain_robust": false
+      }
+    }
+  },
+  "local_final_hashes": "UNKNOWN_RETRIEVAL_BLOCKED",
+  "raw_inputs_in_Git": false,
+  "per_origin_losses_in_Git": false,
+  "command_template": "timeout300 <Python3.13.15> backtesting/research17/experiment.py --repo<R17> --safe-source<471archive> --official<a2c93> --work<private-work> --stage{generate,train,evaluate,summarize}"
+}

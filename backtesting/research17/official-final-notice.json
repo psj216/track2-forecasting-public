@@ -1,7 +1,31 @@
 {
-  "executive_summary": "Latest official Final notice recovered verbatim; supersedes older FINAL01 assumptions.",
+  "executive_summary": "Official Final correction summarized; the linked original supersedes FINAL01.",
   "comment_id": 6129776242,
   "updated_at": "2026-10-12T18:11:11Z",
   "url": "https://github.com/Agenthon-2026/track2-forecasting-public/issues/4#issuecomment-6129776242",
-  "body": "**Track 2 Final: the ranked cards change; results in early November**\n\nA correction to our [11 October notice](https://github.com/Agenthon-2026/track2-forecasting-public/issues/4#issuecomment-6103652999), before the Final opens on 13 October at 12:00 UTC. So that the Final can be scored by the end of October, the ranked cards change. Your upload doesn't: you still make one Final upload, any time from 13 October 12:00 UTC to 25 October 23:59 AoE, and it still gets an unranked check run in the window.\n\n**What changes on the ranked cards**\n- **As-of Monday 26 October**, not Friday 23 October. The daily history ends with Monday's data: that day's ECB rates (fixed at 13:10 UTC) and Treasury close, both after the upload deadline (26 October, 11:59 UTC). So no image can hold market data that the cards don't.\n- **Horizons of 1 to 4 business days**, so every target date falls between **Tuesday 27 and Friday 30 October**, not between 27 October and 10 November.\n- **Exchange rates come from the ECB's euro foreign exchange reference rates**, published every business day, instead of the Federal Reserve's weekly H.10 release. Rates against the US dollar are computed from the ECB's euro rates: the G10 rates are quoted the same way as on the practice cards, and the emerging-market rates as units of the currency per US dollar. A ranked card's history and targets both come from this source.\n- **More series:**\n  - Treasury yields: the practice cards' tenors plus the **3-month, 6-month and 1-year** bills, from the Treasury's daily par yield curve (the same series as on the practice cards);\n  - currencies: the practice cards' ten G10 exchange rates plus **five emerging-market currencies (MXN, BRL, ZAR, KRW, INR)** against the US dollar, from the ECB rates;\n  - **a few cards on official data released between 27 and 30 October** (for example GDP, inflation or jobless-claims releases), each scored against its official release. A card whose release doesn't happen by 30 October is dropped before scoring.\n\n  Some of these series aren't on the current practice cards, so they also test how well your agent generalizes.\n- **A short-horizon practice set, which we plan to publish by Friday 16 October:** about 30 historical cards at horizons of a few business days, covering the new series, with their realized values so you can test locally. We'll post here when it's published.\n- **Results in early November**, not 13 November. **There are no provisional standings**: this replaces \"provisional standings from 28 October\". The Track 2 Final board stays hidden until results are published, as on the other tracks.\n- Keep your image pullable until the results are published. This replaces \"13 November\" in our 11 October notice and in our 12 October note on Agenthon-2026/Agenthon2026-public#2.\n\nThe practice cards keep their H.10 exchange rates. The two sources are fixed a few hours apart (ECB 14:10 CET, H.10 noon in New York), so their levels differ slightly, which is why a ranked card uses one source throughout.\n\n**What stays the same:** all four families; the F4 definition; the limits (1,800 seconds per unit, 24 hours for the whole run); and the scoring rule (each component divided by the error M0 expects on that card, scores clipped at 8.0, an unscored card counts 8.0).\n\nThis also corrects our answers to @logxio above: every ranked card's as-of is Monday 26 October (question 1); its targets are 1 to 4 business days later, all between 27 and 30 October (question 2); the series are as listed here, not only UST and G10 FX (question 3); and the daily history ends on 26 October with that day's ECB rate and Treasury close (question 4).\n\n\u2014 The Agenthon 2026 organizers"
+  "ranked_asof": "2026-10-26",
+  "horizons_BD": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "upload_deadline_UTC": "2026-10-26 11:59 UTC, minute-level notice",
+  "upload_limit": "one per team/track",
+  "FX_source": "ECB daily euro rates converted to G10/USD conventions",
+  "extra_series": [
+    "UST3M",
+    "UST6M",
+    "UST1Y",
+    "MXN",
+    "BRL",
+    "ZAR",
+    "KRW",
+    "INR",
+    "some macro-release cards"
+  ],
+  "planned_practice": "about30 cards planned by2026-10-16, publication not observed",
+  "results": "earlyNovember, no provisional standings",
+  "runtime": "1800seconds/unit,24hours whole-run",
+  "score": "M0 expected component errors; clip8, unscoredcard8"
 }
