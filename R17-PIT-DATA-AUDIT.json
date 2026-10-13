@@ -1,0 +1,40 @@
+{
+  "executive_summary": "Calendar originals and ALFRED previous-day multi-vintage route recovered; all experimental response headers must be validated before use. Current FX series is not accepted as PIT.",
+  "status": "PRE_OUTCOME_ROUTE_VERIFIED_DATA_COLLECTION_PENDING",
+  "calendar_originals": [
+    {
+      "year": 2022,
+      "published_at": "2021-06-04T11:00:00-04:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715"
+    },
+    {
+      "year": 2023,
+      "published_at": "2022-06-24T14:00:00-04:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7"
+    },
+    {
+      "year": 2024,
+      "published_at": "2023-06-23T11:30:00-04:00",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2"
+    }
+  ],
+  "events": 24,
+  "market_route_probe": {
+    "one_vintage_parameter_mixed_series": "REJECTED: DGS2_20240102 with DGS5/DGS10 latest20261013",
+    "comma_vintage_parameters": "HTTP200, all three headers20240102; input values not used in evaluation",
+    "header_guard_required": true,
+    "date_level_intraday_lag": "previous calendar-day vintage, observations strictly before origin"
+  },
+  "publication_evidence": {
+    "H15": "Daily release16:15 ET, current release displays previous observation day; ALFRED typically updates within one business day. Never equate observation date with release date.",
+    "ECB": "Reference fixing around14:10/14:15 European local time and publication around16:00; current full history alone is not an original vintage.",
+    "H10": "Weekly publication; not accepted as same-day daily history"
+  },
+  "FX_performance": "NOT_RUN_PIT_VINTAGE_UNVERIFIED",
+  "raw_retrieval_manifest_sha256": "13c872824d427b7c1e97f4ef5b38557669749ec78ab02f17116a2291061a8245",
+  "no_api_key_or_House_token": true,
+  "future_Final_truth_accessed": false
+}

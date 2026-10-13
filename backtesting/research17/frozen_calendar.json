@@ -1,0 +1,245 @@
+{
+  "executive_summary": "Twenty-four preannounced dates from three dated original Fed releases; no policy outcome or surprise. All releases precede experimental origins.",
+  "events": [
+    {
+      "scheduled_date": "2022-01-26",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "January 25-26"
+    },
+    {
+      "scheduled_date": "2022-03-16",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "March 15-16"
+    },
+    {
+      "scheduled_date": "2022-05-04",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "May 3-4"
+    },
+    {
+      "scheduled_date": "2022-06-15",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "June 14-15"
+    },
+    {
+      "scheduled_date": "2022-07-27",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "July 26-27"
+    },
+    {
+      "scheduled_date": "2022-09-21",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "September 20-21"
+    },
+    {
+      "scheduled_date": "2022-11-02",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "November 1-2"
+    },
+    {
+      "scheduled_date": "2022-12-14",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2021-06-04T11:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210604a.htm",
+      "source_sha256": "dcdcf875b6201862709b4199b7678a1d2a42a5179327e195f653c168db5e5715",
+      "original_line": "December 13-14"
+    },
+    {
+      "scheduled_date": "2023-02-01",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "January 31-February 1"
+    },
+    {
+      "scheduled_date": "2023-03-22",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "March 21-22"
+    },
+    {
+      "scheduled_date": "2023-05-03",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "May 2-3"
+    },
+    {
+      "scheduled_date": "2023-06-14",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "June 13-14"
+    },
+    {
+      "scheduled_date": "2023-07-26",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "July 25-26"
+    },
+    {
+      "scheduled_date": "2023-09-20",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "September 19-20"
+    },
+    {
+      "scheduled_date": "2023-11-01",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "October 31-November 1"
+    },
+    {
+      "scheduled_date": "2023-12-13",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2022-06-24T14:00:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220624a.htm",
+      "source_sha256": "81f215aec594b874efb2dac38c90cd6f2fc11c0a1cc9fda95f7668d9dcdf00b7",
+      "original_line": "December 12-13"
+    },
+    {
+      "scheduled_date": "2024-01-31",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "January 30-31"
+    },
+    {
+      "scheduled_date": "2024-03-20",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "March 19-20"
+    },
+    {
+      "scheduled_date": "2024-05-01",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "April 30-May 1"
+    },
+    {
+      "scheduled_date": "2024-06-12",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "June 11-12"
+    },
+    {
+      "scheduled_date": "2024-07-31",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "July 30-31"
+    },
+    {
+      "scheduled_date": "2024-09-18",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "September 17-18"
+    },
+    {
+      "scheduled_date": "2024-11-07",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "November 6-7"
+    },
+    {
+      "scheduled_date": "2024-12-18",
+      "expected_release_local_time": "14:00:00",
+      "timezone": "America/New_York",
+      "schedule_status": "preannounced_tentative_not_actual_decision",
+      "available_at": "2023-06-23T11:30:00-04:00",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230623a.htm",
+      "source_sha256": "1e0c98c77c90ca0b7cb8d5ac5902800faf43bb4dd949cf2311b8eebc0407a5a2",
+      "original_line": "December 17-18"
+    }
+  ]
+}

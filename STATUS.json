@@ -1,24 +1,17 @@
 {
-  "executive_summary": "R17 recovery and selection rules frozen before outcomes; input and novelty triage pending.",
-  "branch": "track2/research-17-predictable-information-alpha",
-  "parent_SHA": "78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20",
-  "stage": "PRE_SELECTION_CRITERIA_FROZEN",
-  "completed": [
-    "remote_ref_recovery",
-    "official_latest_notice",
-    "independent_clone"
-  ],
+  "executive_summary": "R17 selection and exact experiment protocol frozen before forecast scores; safe artifacts untouched.",
+  "stage": "HYPOTHESIS_LOCKED_PRE_OUTCOME",
+  "parent": "78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20",
+  "PRE": "23bfb46bf4e59b086483c72e76f3ae45f77cad46",
   "pending": [
-    "research_history",
-    "baseline_gap",
-    "three_candidate_PIT_triage",
-    "locked_hypothesis",
-    "one_feasibility_experiment",
+    "LOCK_remote_commit_verification",
+    "PIT_input_collection",
+    "source_runtime_bridge",
+    "single_experiment",
     "falsification",
-    "gate"
+    "report"
   ],
-  "last_update": "2026-10-13T14:39:51.042Z",
-  "baseline_source": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
-  "House_or_Team_Key_used": false,
-  "submissions": 0
+  "experiments_evaluated": 0,
+  "independent_alpha_verified": "UNKNOWN",
+  "Final_submissions": 0
 }
