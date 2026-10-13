@@ -1,0 +1,108 @@
+{
+  "executive_summary": "Actual historical Actions run statuses, not predictive quality verdicts.",
+  "runs": {
+    "V6": [
+      {
+        "id": 36329405449,
+        "name": "Track 2 CI",
+        "conclusion": "success",
+        "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+        "created": "2026-09-27T15:24:02Z"
+      },
+      {
+        "id": 36284562989,
+        "name": "V6 Full Candidate",
+        "conclusion": "success",
+        "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+        "created": "2026-09-27T01:07:15Z"
+      },
+      {
+        "id": 36284542977,
+        "name": "Track 2 CI",
+        "conclusion": "success",
+        "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+        "created": "2026-09-27T01:06:54Z"
+      },
+      {
+        "id": 36284543069,
+        "name": "V6 Full Candidate",
+        "conclusion": "success",
+        "sha": "4612711d429ea4cd43191051c7c23537e1af9364",
+        "created": "2026-09-27T01:06:54Z"
+      }
+    ],
+    "V7": [
+      {
+        "id": 36329534729,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "1b84e18e9ad3d3691406999080cab14814d79f5f",
+        "created": "2026-09-27T15:26:08Z"
+      },
+      {
+        "id": 36329534866,
+        "name": "V7 Event Memory Research",
+        "conclusion": "success",
+        "sha": "1b84e18e9ad3d3691406999080cab14814d79f5f",
+        "created": "2026-09-27T15:26:08Z"
+      }
+    ],
+    "V8": [
+      {
+        "id": 36442584825,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "f7b69e64926d6b7bb56eeddd9b40414c13206c75",
+        "created": "2026-09-28T15:18:34Z"
+      }
+    ],
+    "V9A": [
+      {
+        "id": 36448258092,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+        "created": "2026-09-28T16:03:37Z"
+      },
+      {
+        "id": 36447744673,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+        "created": "2026-09-28T15:59:30Z"
+      }
+    ],
+    "V9B": [
+      {
+        "id": 36448365294,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+        "created": "2026-09-28T16:04:30Z"
+      },
+      {
+        "id": 36448351632,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "1d15a4e759a92380e09fcadd12c3e9cc714951e0",
+        "created": "2026-09-28T16:04:23Z"
+      }
+    ],
+    "V10": [
+      {
+        "id": 36535175665,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+        "created": "2026-09-29T07:11:26Z"
+      },
+      {
+        "id": 36525358803,
+        "name": "Track 2 CI",
+        "conclusion": "failure",
+        "sha": "3b2adfe64f48d318a4612a823e6c3cda7cdc5cdd",
+        "created": "2026-09-29T05:15:57Z"
+      }
+    ]
+  }
+}

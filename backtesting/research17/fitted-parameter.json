@@ -1,0 +1,22 @@
+{
+  "executive_summary": "Single frozen-rule coefficient fit on matured2022-23 primary data; no2024 outcomes used.",
+  "beta": 3.898501592263374,
+  "unclipped_beta": 3.898501592263374,
+  "training_origins_used": 101,
+  "training_origins_blocked": 3,
+  "training_event_origins": 16,
+  "fit_denominator": 15.0,
+  "primary_training_scales": {
+    "marginal": 0.10039070365383976,
+    "joint": 0.8971563698073659,
+    "tail": 0.015875459094203886
+  },
+  "secondary_training_scales": {
+    "marginal": 0.15964644588795734,
+    "joint": 1.6181184495913996,
+    "tail": 0.024302911858704812
+  },
+  "secondary_training_origins": 69,
+  "official_M0_normalization": false,
+  "lock_sha256": "7d1e31485f1e2a4f728332370653a0276a073d5353ac8da13f3814c75f27df45"
+}
