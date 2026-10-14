@@ -1,0 +1,1330 @@
+{
+  "anonymous_pull": true,
+  "completed": true,
+  "determinism": {
+    "monthly-a": true,
+    "monthly-b": true,
+    "official-cpi": true,
+    "official-nfp": true
+  },
+  "executive_summary": "Actual exact-image Docker evidence; synthetic tests are not predictive performance evidence.",
+  "forecast_processes": [
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-a",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1042,
+          "sha256": "eb0adbf288262438b12ecaff844b74474b1021d0b44e27b6169b17c725ca8aac"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2314,
+          "sha256": "d399269de3caac569673e3d1c731d73d50f3f7204eb28a4db8964b9cdaf8e60f"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "documents": 1,
+          "numeric_fallback_exact": true,
+          "reason": "no_same_series_pair"
+        },
+        "hashes": {
+          "forecast.parquet": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7",
+          "forecast_meta.json": "eb0adbf288262438b12ecaff844b74474b1021d0b44e27b6169b17c725ca8aac",
+          "forecast_rationale.md": "d399269de3caac569673e3d1c731d73d50f3f7204eb28a4db8964b9cdaf8e60f"
+        },
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 1,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 2,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 3,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 4,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9947562990000023
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-a",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1042,
+          "sha256": "eb0adbf288262438b12ecaff844b74474b1021d0b44e27b6169b17c725ca8aac"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2314,
+          "sha256": "d399269de3caac569673e3d1c731d73d50f3f7204eb28a4db8964b9cdaf8e60f"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "documents": 1,
+          "numeric_fallback_exact": true,
+          "reason": "no_same_series_pair"
+        },
+        "hashes": {
+          "forecast.parquet": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7",
+          "forecast_meta.json": "eb0adbf288262438b12ecaff844b74474b1021d0b44e27b6169b17c725ca8aac",
+          "forecast_rationale.md": "d399269de3caac569673e3d1c731d73d50f3f7204eb28a4db8964b9cdaf8e60f"
+        },
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 1,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 2,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 3,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 4,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9498244089999872
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-b",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1042,
+          "sha256": "8f49b0fceb18c6a5ac08e7689af12c8115ec88dae906c907d4389ca88742f55c"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2314,
+          "sha256": "e1f8f32ef6a4707e100fecf97b89a1c818bbf0e469ed27ec5613d20d934f32bb"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "documents": 1,
+          "numeric_fallback_exact": true,
+          "reason": "no_same_series_pair"
+        },
+        "hashes": {
+          "forecast.parquet": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7",
+          "forecast_meta.json": "8f49b0fceb18c6a5ac08e7689af12c8115ec88dae906c907d4389ca88742f55c",
+          "forecast_rationale.md": "e1f8f32ef6a4707e100fecf97b89a1c818bbf0e469ed27ec5613d20d934f32bb"
+        },
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 1,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 2,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 3,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 4,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9371602149999774
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-b",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1042,
+          "sha256": "8f49b0fceb18c6a5ac08e7689af12c8115ec88dae906c907d4389ca88742f55c"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2314,
+          "sha256": "e1f8f32ef6a4707e100fecf97b89a1c818bbf0e469ed27ec5613d20d934f32bb"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "documents": 1,
+          "numeric_fallback_exact": true,
+          "reason": "no_same_series_pair"
+        },
+        "hashes": {
+          "forecast.parquet": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7",
+          "forecast_meta.json": "8f49b0fceb18c6a5ac08e7689af12c8115ec88dae906c907d4389ca88742f55c",
+          "forecast_rationale.md": "e1f8f32ef6a4707e100fecf97b89a1c818bbf0e469ed27ec5613d20d934f32bb"
+        },
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 1,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 2,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 3,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 4,
+            "max": 251.3215273653009,
+            "mean": 250.90920037115058,
+            "min": 250.43630739238213,
+            "std": 0.2678346898397298
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9423465309999983
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-cpi",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 15091,
+          "sha256": "83528930be2a83fc98acf8f17a45fb768b648c9a2890654365c97e5600894b80"
+        },
+        "forecast_meta.json": {
+          "bytes": 1204,
+          "sha256": "498773c6c62081aec32fac1cdd83bff7d62a74c9c6041dd0bb3df4cab45efa9b"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2302,
+          "sha256": "57f41aef70a1fb83e536777146ecda5f0d5cadf4419684df793698b0105ef00a"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            8.0,
+            9.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "document_pair": [
+            "macro_release-2023-06-13",
+            "macro_release-2023-07-12"
+          ],
+          "numeric_fallback_exact": true,
+          "reason": "no_meaningful_delta"
+        },
+        "hashes": {
+          "forecast.parquet": "83528930be2a83fc98acf8f17a45fb768b648c9a2890654365c97e5600894b80",
+          "forecast_meta.json": "498773c6c62081aec32fac1cdd83bff7d62a74c9c6041dd0bb3df4cab45efa9b",
+          "forecast_rationale.md": "57f41aef70a1fb83e536777146ecda5f0d5cadf4419684df793698b0105ef00a"
+        },
+        "horizons": [
+          140,
+          160
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2023-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          2
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 140,
+            "max": 316.3206763497237,
+            "mean": 304.74079068187206,
+            "min": 294.8904653815224,
+            "std": 3.255686178785048
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 160,
+            "max": 316.5264213334119,
+            "mean": 304.9386007319443,
+            "min": 294.9010765828996,
+            "std": 3.458255938646669
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9738877169999967
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-cpi",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 15091,
+          "sha256": "83528930be2a83fc98acf8f17a45fb768b648c9a2890654365c97e5600894b80"
+        },
+        "forecast_meta.json": {
+          "bytes": 1204,
+          "sha256": "498773c6c62081aec32fac1cdd83bff7d62a74c9c6041dd0bb3df4cab45efa9b"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2302,
+          "sha256": "57f41aef70a1fb83e536777146ecda5f0d5cadf4419684df793698b0105ef00a"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            8.0,
+            9.0
+          ]
+        ],
+        "fallback": {
+          "applied": false,
+          "config": "text-first-v5.1",
+          "document_pair": [
+            "macro_release-2023-06-13",
+            "macro_release-2023-07-12"
+          ],
+          "numeric_fallback_exact": true,
+          "reason": "no_meaningful_delta"
+        },
+        "hashes": {
+          "forecast.parquet": "83528930be2a83fc98acf8f17a45fb768b648c9a2890654365c97e5600894b80",
+          "forecast_meta.json": "498773c6c62081aec32fac1cdd83bff7d62a74c9c6041dd0bb3df4cab45efa9b",
+          "forecast_rationale.md": "57f41aef70a1fb83e536777146ecda5f0d5cadf4419684df793698b0105ef00a"
+        },
+        "horizons": [
+          140,
+          160
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2023-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          2
+        ],
+        "statistics": [
+          {
+            "asset": "CPI_ALL",
+            "horizon": 140,
+            "max": 316.3206763497237,
+            "mean": 304.74079068187206,
+            "min": 294.8904653815224,
+            "std": 3.255686178785048
+          },
+          {
+            "asset": "CPI_ALL",
+            "horizon": 160,
+            "max": 316.5264213334119,
+            "mean": 304.9386007319443,
+            "min": 294.9010765828996,
+            "std": 3.458255938646669
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9885378980000041
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F4",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-nfp",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11398,
+          "sha256": "fde60450786633b9aab2d3ef2d91de2113a279b3b2fce9a5b892eb9e1f7380da"
+        },
+        "forecast_meta.json": {
+          "bytes": 2343,
+          "sha256": "431033a971da19de5603bf1f087b1f9a6e37618453f7dfd481d077dad38f77e9"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2766,
+          "sha256": "a128c60e5fbad61d6219afa642a552ec6e855256de2d6e6a7f9b7903834b6bfc"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": true,
+        "assets": [
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0
+          ]
+        ],
+        "fallback": {
+          "applied": true,
+          "candidate_count": 1,
+          "confidence": 0.77112,
+          "config": "text-first-v5.1",
+          "currentness": "CURRENT",
+          "directions": {
+            "NFP": -1
+          },
+          "eligible_windows": 25,
+          "event": "growth_down",
+          "evidence_excerpt": "EDT Share The coronavirus outbreak has harmed communities and disrupted economic activity in many countries, including the United States.",
+          "evidence_ids": [
+            "fomc_statement_20200315"
+          ],
+          "independent_episodes": 25,
+          "interpretation": "current_event",
+          "last_world_date": "2020-02-01",
+          "numeric_fallback_exact": false,
+          "previous_excerpt": "",
+          "reason": "historical_scenario_mixture",
+          "rejected_states": {
+            "UNRESOLVED": 1
+          },
+          "sleeve_draws": 138,
+          "sleeve_fraction": 0.138
+        },
+        "hashes": {
+          "forecast.parquet": "fde60450786633b9aab2d3ef2d91de2113a279b3b2fce9a5b892eb9e1f7380da",
+          "forecast_meta.json": "431033a971da19de5603bf1f087b1f9a6e37618453f7dfd481d077dad38f77e9",
+          "forecast_rationale.md": "a128c60e5fbad61d6219afa642a552ec6e855256de2d6e6a7f9b7903834b6bfc"
+        },
+        "horizons": [
+          21
+        ],
+        "latest_input_dates": {
+          "NFP": "2020-02-01"
+        },
+        "n_draws": 1000,
+        "shape": [
+          1000,
+          1
+        ],
+        "statistics": [
+          {
+            "asset": "NFP",
+            "horizon": 21,
+            "max": 153118.50959233433,
+            "mean": 152516.60198909268,
+            "min": 151516.15428107156,
+            "std": 252.9130654930207
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9650847700000043
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F4",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-nfp",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11398,
+          "sha256": "fde60450786633b9aab2d3ef2d91de2113a279b3b2fce9a5b892eb9e1f7380da"
+        },
+        "forecast_meta.json": {
+          "bytes": 2343,
+          "sha256": "431033a971da19de5603bf1f087b1f9a6e37618453f7dfd481d077dad38f77e9"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2766,
+          "sha256": "a128c60e5fbad61d6219afa642a552ec6e855256de2d6e6a7f9b7903834b6bfc"
+        }
+      },
+      "pass": true,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "validation": {
+        "adjustment_applied": true,
+        "assets": [
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0
+          ]
+        ],
+        "fallback": {
+          "applied": true,
+          "candidate_count": 1,
+          "confidence": 0.77112,
+          "config": "text-first-v5.1",
+          "currentness": "CURRENT",
+          "directions": {
+            "NFP": -1
+          },
+          "eligible_windows": 25,
+          "event": "growth_down",
+          "evidence_excerpt": "EDT Share The coronavirus outbreak has harmed communities and disrupted economic activity in many countries, including the United States.",
+          "evidence_ids": [
+            "fomc_statement_20200315"
+          ],
+          "independent_episodes": 25,
+          "interpretation": "current_event",
+          "last_world_date": "2020-02-01",
+          "numeric_fallback_exact": false,
+          "previous_excerpt": "",
+          "reason": "historical_scenario_mixture",
+          "rejected_states": {
+            "UNRESOLVED": 1
+          },
+          "sleeve_draws": 138,
+          "sleeve_fraction": 0.138
+        },
+        "hashes": {
+          "forecast.parquet": "fde60450786633b9aab2d3ef2d91de2113a279b3b2fce9a5b892eb9e1f7380da",
+          "forecast_meta.json": "431033a971da19de5603bf1f087b1f9a6e37618453f7dfd481d077dad38f77e9",
+          "forecast_rationale.md": "a128c60e5fbad61d6219afa642a552ec6e855256de2d6e6a7f9b7903834b6bfc"
+        },
+        "horizons": [
+          21
+        ],
+        "latest_input_dates": {
+          "NFP": "2020-02-01"
+        },
+        "n_draws": 1000,
+        "shape": [
+          1000,
+          1
+        ],
+        "statistics": [
+          {
+            "asset": "NFP",
+            "horizon": 21,
+            "max": 153118.50959233433,
+            "mean": 152516.60198909268,
+            "min": 151516.15428107156,
+            "std": 252.9130654930207
+          }
+        ],
+        "valid": true
+      },
+      "wall_seconds": 1.9890195529999914
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-missing",
+      "network": "none",
+      "observed_error": "",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1048,
+          "sha256": "c57392c89c9c11ffd1aac39aafacdb7015998dad159491e5b58380a0bc9ecd47"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2320,
+          "sha256": "410b5c84e581f097bfd50eac23dca4aafdc63be42dd7dc05dcd914bdcf8040be"
+        }
+      },
+      "pass": false,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 1.9236886159999926
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-conflict",
+      "network": "none",
+      "observed_error": "",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 9140,
+          "sha256": "50e4deb7c3099bd73afb44ab58c04af771ecfcb5d3309684c5c59cee56833fc7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1049,
+          "sha256": "ec2c585353c6bd7f0c93713af35c3fd36f0c06e9faa8d11c61632714caea3883"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2321,
+          "sha256": "dbf1e4bd16de2a71fc40850907e8f5a43157ec8ae7af9585769d65e82720c033"
+        }
+      },
+      "pass": false,
+      "peak_memory": "NOT_MEASURED",
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 1.965346550000021
+    }
+  ],
+  "group": "monthly",
+  "image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "input_manifest": [
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "59103879df863fdcc9c4b151267e8b763a4d8022a639a8a3b6a645d35f5759d3",
+        "forecast_spec.json": "39ca76788bca27c1ff8f10e60b029764e486c52c41cf5cd7f9dbd21aa09f58ca",
+        "synthetic_history.parquet": "977322d85126cd89c20cce654e27f05bf5df718aaa07bfa2f563e546ee0327e2",
+        "text/corpus_index.json": "b38319344f1ed2e5121187e115aadc44719bf637916b42c56f35afe793a4d8eb",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f1-ust",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "EUR"
+      ],
+      "expected_failure": false,
+      "family": "T2-F2",
+      "files": {
+        "card.toml": "93e620e0dcedefa4ba11b4461cb7d9d94426f1375790a8d574c4311e46da40f3",
+        "forecast_spec.json": "cc124e018c32f61752eb3f49f3cb70317a4d38d712f2c52656bdd8a08413e372",
+        "synthetic_history.parquet": "1c227a0c2d74b4a4059cdf0bda1225e99f4c09458138f8a6e86aa5196c2725f1",
+        "text/corpus_index.json": "35bb8a3bb00434e7053ba8427001b61db86b6da548ce6420257ae013884ea50d",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f2-eur",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F2-draghi-precommit-2014",
+      "units": "usd_per_eur"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_10Y",
+        "UST_30Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "676d7c6eccc0bd4c3aa49ff6c0d9d73b56b4414bd4339e7c298c7dab6df4a279",
+        "forecast_spec.json": "b55f9e7bcaae50d85f667a9c55a887f8631339c27cf72d67a288d4cb470380ff",
+        "synthetic_history.parquet": "d3ee7943d003dcea6ba14d057b1682d739c4f1e4c9fe5c37e90b450bd7bbe67c",
+        "text/corpus_index.json": "56132c226d78e2c1f134164fd38a4f755cd46c81a8bb0204db5aa85183574b20",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f3-ust",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F3-sep-dots-curve-2023",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "JPY"
+      ],
+      "expected_failure": false,
+      "family": "T2-F4",
+      "files": {
+        "card.toml": "7dff4441bd59eeca52e0455dfd8c3ecd44850ec0d4490b39670d83a7a4ad8f9f",
+        "forecast_spec.json": "03b33b92b230633947223a98268feef7fce05274eaaf02d3f9c32cd3f7d687c7",
+        "synthetic_history.parquet": "18b3f0a01fbb81d2f500eb873822f9223e13c3d591d5c2d69ce38b7108b8925f",
+        "text/corpus_index.json": "13a60aab84df6d10bdb3a888db876527ba129d14772193a34e034fb2ae304f4d",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 1000,
+      "name": "f4-jpy",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F4-jpy-carry-2007",
+      "units": "jpy_per_usd"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "INR",
+        "BRL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "b71549586f535c82a171c98786db115446db9679bca2a7cfa0a999243554af2d",
+        "forecast_spec.json": "8781a51679bde6370b8f76f1f944c2a79de75a0fa16387108b0e2631a02b48ff",
+        "synthetic_history.parquet": "1bf827534c05deeb2e87a054b3fce2280e24dec3049db7d7e226dc99e9dfe8d5",
+        "text/corpus_index.json": "ecd340147835b5fc6cc9568833e3be380792d656523ccc5ae49595eed6c8a711",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f3-em",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F3-em-transfer-joint-2013",
+      "units": "inr_per_usd; brl_per_usd"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "f1bc10e6e7b6f9df2bd6e57f0dc75df1ccc44430cc1e85056a0d797d6977d413",
+        "forecast_spec.json": "d833005226091aad866c30eb047fdfc5652a1f51f79155e996b48a19cf6091dc",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "44425baee5b41c549162d792929fed1f800806998cb1b157a78a5ec5aebf00c3",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-a",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "712218f76330d427c3c70834c9ef887e9483d87002ddfd8fbed9b9adaf3974c7",
+        "forecast_spec.json": "49e9b0634fd929ed983822fc2b05e02b34fe84ae0855b8baf55cf60c146c6681",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "2b564b467888e06154d4bbc9c1039580589a1b4a89062b3116891020f238a124",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-b",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "394673b411c7626239bddda3e4bce1fd41b1ca56c337f4964806b47b3f040aa3",
+        "forecast_spec.json": "0ce1cee9cc3866373ccfb7dc56d22896aaf6f92c3fe35a5fcd99fda36d83360a",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "cebe08d32bf033457cd95b7d8055444c1e72eb95bdefcfc92a948e799989ae76",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-missing",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "e9296aba1c2fb7d8ec4c25f5fa001b3194194655235fb2541e7aedafe5d78255",
+        "forecast_spec.json": "4654ef05ca0b474d5aad21c99814da2ff1e875e539f195b6a3284ba221e4263d",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "2b4609fca5f56edf5bb817389f02bdfb14d82a2c18e5a641a45fbb534841bb4a",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-conflict",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "16c1ca8ec53d20516511ca6d57386e29a48f8d9a2ddb139fa5c426d301014c88",
+        "forecast_spec.json": "d0c26db86134b43fe91b4762fd3589353ffb164c17503b9213e2ccf78b9deab4",
+        "synthetic_history.parquet": "474c1bbe45023efdf82176c7fbff260ec294ae2c9970f2cff3d3aa23cc4bec5e",
+        "text/corpus_index.json": "8b778374296d5d4700b8fdd7416c87b4deedcbbbeeb319842904a83ecf6ccb26",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "missing-history",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "7522b44663e748e654162c9997bea2d551c70df3aa235303cd4e7da2885d60fb",
+        "forecast_spec.json": "14c34f3d78e467d0c2d1c92d13b0e5d62b6b6961c8868192d1446262df35f8c7",
+        "synthetic_history.parquet": "11af404fbd6f087e01b1ff895ca6b9081a524f3e8e726daf5251cfd46e48c659",
+        "text/corpus_index.json": "777023ee0447f1881e6efa2cab11c05017e9b70e8e3cd6901aed7c1f8b14c815",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "future-sentinel",
+      "post_cutoff_sentinel": true,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    }
+  ],
+  "monthly_distinct_horizons": {
+    "monthly-a": false,
+    "monthly-b": false
+  },
+  "monthly_mapping_changes_forecast": false,
+  "oci": {
+    "architecture": "amd64",
+    "config": {
+      "ArgsEscaped": true,
+      "AttachStderr": false,
+      "AttachStdin": false,
+      "AttachStdout": false,
+      "Cmd": [
+        "forecast",
+        "--help"
+      ],
+      "Domainname": "",
+      "Entrypoint": null,
+      "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.13.15",
+        "PYTHON_SHA256=1e66a7945a48390ee4c2a4268a0e4185884059a13c4aab6d148aa208deea4a76",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1",
+        "PIP_NO_CACHE_DIR=1",
+        "FORECAST_MODE=text-first-v5.1",
+        "PYTHONPATH=/opt"
+      ],
+      "Hostname": "",
+      "Image": "",
+      "Labels": {
+        "qfbench2.forecast_mode": "text-first-v5.1",
+        "qfbench2.interface_version": "2.0",
+        "qfbench2.track": "forecasting",
+        "qfbench2.verb": "forecast"
+      },
+      "OnBuild": null,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Tty": false,
+      "User": "runner",
+      "Volumes": null,
+      "WorkingDir": "/work"
+    },
+    "id": "sha256:1d6835db45dec0dd419b135441540b9e27e1b1218f37c051f1e13a0c2072eb74",
+    "os": "linux",
+    "repo_digests": [
+      "jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+    ]
+  },
+  "official_inputs": {
+    "official-cpi": {
+      "card.toml": "c65ae43766ba6c3dc0721edd49a011c23ec9cf9afc5e188b2c3bc723a7bd6b47",
+      "forecast_spec.json": "11a0c19e6d5945a4e5e1d2ed6b53d50cc14419009785cbfeb04a6b97e2dbfbad",
+      "macro_monthly.parquet": "c5d02a2dc6ac8fde5fa4a64b08c6a93201a365b81e8b78f42a3636da74c5f4d8",
+      "text/beigebook_202305.txt": "96f06b18df20126299a9b558bccc88b7ac0b9bb08161d720de5963af331042a0",
+      "text/bis_bowman_2023-03-14.txt": "fa1973a53d2d6d2b93c8c3ad653ebf275f78182fcc9b8d89632cef040de67017",
+      "text/bis_waller_2023-04-20.txt": "d9d277598c47dda31a3659041d5b06b8be9a9cb66272a2c271665f12cad59d2a",
+      "text/corpus_index.json": "f557e1337122a8d5935d550f3b086851aece4035e1234772dc2eb5f496ed0122",
+      "text/cpi_2022-11-10.txt": "494d4f77e0e9b4722b2d72cacaec3d8e8e1b60ec978aff70da46fe08878248bf",
+      "text/cpi_2023-06-13.txt": "862f233182a2b74748329e7664933a9f79beb642d23ffb58d4be980654fbe882",
+      "text/cpi_2023-07-12.txt": "b66a0936b627b36aaeeb075188cbd40ba54abb74e0d207acffb3e7f9ef08dca6",
+      "text/fomc_minutes_20230614_released_2023-07-05.txt": "a62dd36b0d3b0bba545cd257a10d8346d2003b68233229a1e193bd414764f2d2",
+      "text/fomc_statement_20230614.txt": "27f2f97d789b01f3212ea4916ecfcfc48d681a777bc9bd1cae7328dc9ddd6a44"
+    },
+    "official-nfp": {
+      "card.toml": "45caa13111ccc32b757422698c5791aa2bd3f7f2acb47c2533c0a14b855ab289",
+      "forecast_spec.json": "2addeee2d7928b9e8509f6e9a256e5065a623967c4d7818ee034c8093ac746f1",
+      "macro_monthly.parquet": "c3cec155193d5c71ce50ccf2bd280fe416a29d87ed65e9946513166785aec129",
+      "text/beigebook_202001.txt": "2c6c66f4da41ee6383237821882a0fc72ecae7ac78f286c994e5835466d82449",
+      "text/bis_panetta_2020-02-27.txt": "f3741b68afc6ad8d3577e2060a7c8fe576cfd2cef2477ae8bd751d1b64f4066a",
+      "text/bis_quarles_2020-01-17.txt": "66e293f950812f452ef39121ee5295eb1f6e0d183680c28d8a85ceece8f52e3a",
+      "text/corpus_index.json": "0321e35a933e6de5c3365bf3aa78f427218967a89ddc1ac4e465d787054520a5",
+      "text/empsit_2020-02-07.txt": "491a187605bf1c3ab1578b41704fde25fb96bc0239c1c8b96a62eb75e57e3b0c",
+      "text/empsit_2020-03-06.txt": "03e6c03e218df07b2eaec65eb3f01666af72406eaaf7dd84fca1befd44d556b7",
+      "text/fomc_statement_20200303.txt": "aa047e062aec77b4d24f9799556e860db0a2a2006cf746ab5b258c10ea899985",
+      "text/fomc_statement_20200315.txt": "d699b9078c1fc411ff9767975ad614a60d069ccc43276ae5d52b5ed99761e9ea",
+      "text/fomc_statement_20200323.txt": "2fd790603e5715d3a7d47441924851968df9ae57cb7cd99b0c08f57bd31465ef"
+    }
+  },
+  "official_source_sha": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+  "pull": {
+    "command": [
+      "docker",
+      "pull",
+      "--platform=linux/amd64",
+      "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+    ],
+    "exit_code": 0,
+    "stderr": "",
+    "stdout": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874: Pulling from jotj216/track2-f4-approved\n774043ccc8cc: Pulling fs layer\n43dcef5051b0: Pulling fs layer\n2e57034c052c: Pulling fs layer\n5483d2d2a330: Pulling fs layer\n48cafc7d5769: Pulling fs layer\n799913042efb: Pulling fs layer\nce82697ff760: Pulling fs layer\n9dc003bf0b1a: Pulling fs layer\n5d01cd50cfb5: Pulling fs layer\n5483d2d2a330: Waiting\n48cafc7d5769: Waiting\n799913042efb: Waiting\nce82697ff760: Waiting\n9dc003bf0b1a: Waiting\n5d01cd50cfb5: Waiting\n43dcef5051b0: Download complete\n2e57034c052c: Verifying Checksum\n2e57034c052c: Download complete\n774043ccc8cc: Verifying Checksum\n774043ccc8cc: Download complete\n5483d2d2a330: Verifying Checksum\n5483d2d2a330: Download complete\n799913042efb: Verifying Checksum\n799913042efb: Download complete\nce82697ff760: Verifying Checksum\nce82697ff760: Download complete\n9dc003bf0b1a: Verifying Checksum\n9dc003bf0b1a: Download complete\n48cafc7d5769: Verifying Checksum\n48cafc7d5769: Download complete\n5d01cd50cfb5: Verifying Checksum\n5d01cd50cfb5: Download complete\n774043ccc8cc: Pull complete\n43dcef5051b0: Pull complete\n2e57034c052c: Pull complete\n5483d2d2a330: Pull complete\n48cafc7d5769: Pull complete\n799913042efb: Pull complete\nce82697ff760: Pull complete\n9dc003bf0b1a: Pull complete\n5d01cd50cfb5: Pull complete\nDigest: sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\nStatus: Downloaded newer image for jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\ndocker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874\n",
+    "wall_seconds": 8.610987699000006
+  },
+  "run_id": "38588467433",
+  "safe_image_modified": false,
+  "shared_source_sha": "6181b9c9f45c93ee526a6692406367a4042da7ad",
+  "source_files": {
+    "__init__.py": "fda9c66b0eb87161f0e2a837bd9eaf32a7a15a004c72334b4d1c24cf19f32212",
+    "aggregate.py": "89d71ccd3783db0f70937c278dab5f1367f482b058e6b634f76b22b68bacb211",
+    "cli.py": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+    "cutoff.py": "26539064fb0889740aa0c966df0e0b2182ea4648a7b8cfaf56813ea87a3126ba",
+    "f1_center.py": "d5f89077dbf172e20b1147e9820d390846b226f3588fe68c95287133358953ed",
+    "failures.py": "92fee4de0f4b75ab4df3b84850d3e4d0a5846629c5923a2d3105c712c1b997d2",
+    "family_calibration.py": "b902bba0215655ce7b9adae1ffde2b1a567d0d1e2a75cc00728258ce4c0b9b86",
+    "family_pipeline.py": "e13ab4d9f5245a13b926bca19cb42fa10961e17cfd976525bc11758119e82fde",
+    "grid.py": "ffac56e438b447bea5fbc2fb8e766cef25ef81c79d99e7be2752a4ea532126d0",
+    "historical_heads.py": "a4e564133da57ea9d3e9cf253420aef70223b00566a3c000cf271720215152c2",
+    "integrated_v4.py": "517c800c8a646cb9f62fd5db1a863d9a66f8d41fda69b1733d12fe44e16c839e",
+    "limits.py": "5aa33f7d3221bc479ad02059db2296eb598de38c8f30d9c884edb3384b3fcadf",
+    "normalization.py": "f933362a370e09daf6d0a9216c28684c9d84eaedc020cf1cce85fd938bb0b2eb",
+    "numeric_v1.py": "f5cd5d68b4fd1edf576117df796502cb1a38cc620bdc50f52972e6f7acbdb679",
+    "numeric_v2.py": "fa68a7f3ec0cf035ec028638e944217f86c28b40ac54f6d9dac84459f3d52d71",
+    "numeric_v21.py": "bff80dad9aae4f9dcd1af880f6fcf4ae2dd4125dae619dde9cb869316b414547",
+    "numeric_v3.py": "edb94b2c55f250b8a92ca7c6f00fa3699d0273a2fc3bf428b87337f37c880379",
+    "numeric_v4.py": "8d49f13ffd88caf1c0fae207a56639c1b4fd57add50757db04778bbb7a02e4df",
+    "official.py": "d0400ade5dfb2e96fbaad70f1f2cfd0340d7f550cab295f208dfeedf443e0927",
+    "regime_router.py": "2d4b872183b02017e899d0029b99cef247ea40665a749cdd6ba0bddfb832a1c0",
+    "scenario_integration.py": "5ff75008c3f6a96e2adcbd0ec59802138c89a84c10826bc9e7a5dcd405331fad",
+    "scoring.py": "030a9d88469bc2191d1652648cff2ed67f587a3d8edaa1989f2c2c1620190633",
+    "tail.py": "189fa879fdec703ed3ce593ac44b8a285638fe32bd42c56ee7a774fdd895d8e0",
+    "text_evidence.py": "25b68a20d8e8c9906c4775782c9e668569e5ba05ed7b6c898e11844e91c71a8e",
+    "text_first_v5.py": "c11fc835bc754b219f6a742df747a6a51f7fbdadff1ab49c4a0aaea7f081d432",
+    "text_interpreter_v51.py": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f"
+  },
+  "source_identity_verified": true,
+  "source_sha": "a0492d09dd56f3262f2bed6f10d49ffd82080319"
+}

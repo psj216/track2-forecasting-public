@@ -5,7 +5,13 @@ on:
     branches: [track2/final-fit-02-short-horizon-compatibility]
     paths:
       - '.github/workflows/finalfit02-compatibility.yml'
-      - 'backtesting/finalfit02/**'
+      - 'backtesting/finalfit02/container_tools.py'
+      - 'backtesting/finalfit02/docker_validate.py'
+      - 'backtesting/finalfit02/candidate_monthly.py'
+      - 'backtesting/finalfit02/official_horizons.py'
+concurrency:
+  group: finalfit02-${{ github.ref }}
+  cancel-in-progress: true
 permissions:
   contents: read
 jobs:
@@ -39,7 +45,7 @@ jobs:
           git archive 47194f28d5188b87cdca1d591d86b9eeda86f7cf | tar -x -C frozen-safe
           test "$(git rev-parse 47194f28d5188b87cdca1d591d86b9eeda86f7cf^{tree})" = f2f9163372ab179c3e58a0dbac00acee119a41cf
       - name: Actual immutable Docker execution and current official output validation
-        run: timeout 510 python3 backtesting/finalfit02/docker_validate.py --group '${{ matrix.group }}' --out '${{ runner.temp }}/fit02-evidence'
+        run: timeout 510 python3 backtesting/finalfit02/docker_validate.py --candidate --group '${{ matrix.group }}' --out '${{ runner.temp }}/fit02-evidence'
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:
