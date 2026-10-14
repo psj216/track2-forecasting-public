@@ -1,0 +1,23 @@
++{
+  "executive_summary": "Original immutable-image red evidence under the new monthly mapping contract. Structural output success is not semantic compatibility.",
+  "run_id": 38588467433,
+  "source_sha": "a0492d09dd56f3262f2bed6f10d49ffd82080319",
+  "monthly_mapping_changes_forecast": false,
+  "monthly_distinct_horizons": {
+    "monthly-a": false,
+    "monthly-b": false
+  },
+  "negative_results": [
+    {
+      "name": "monthly-missing",
+      "forecast_exit_code": 0,
+      "pass": false
+    },
+    {
+      "name": "monthly-conflict",
+      "forecast_exit_code": 0,
+      "pass": false
+    }
+  ],
+  "candidate_created": false
+}
