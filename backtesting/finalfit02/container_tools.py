@@ -40,7 +40,9 @@ def write_toml(value, path):
 
 
 def prepare(root):
-    official = pathlib.Path("/official")
+    official = pathlib.Path(sys.argv[3]) if len(sys.argv) > 3 else pathlib.Path("/official")
+    (root / "inputs").mkdir(exist_ok=True)
+    (root / "inputs").chmod(0o777)
     definitions = [
         ("f1-ust", "t2-F1-ust-positioning-2018", ["UST_10Y"], "daily", "percent_per_annum"),
         ("f2-eur", "t2-F2-draghi-precommit-2014", ["EUR"], "daily", "usd_per_eur"),
@@ -60,7 +62,7 @@ def prepare(root):
         dest.mkdir(parents=True)
         card = tomllib.loads((official / "units" / source / "card.toml").read_text())
         asof = "2018-09-14"
-        card["task"].update(id="fit02-" + name, title="Synthetic contract test " + name, split="validation")
+        card["task"].update(id="t2-fit02-" + name, title="Synthetic contract test " + name, split="validation")
         card["metadata"].update(description="SYNTHETIC_CONTRACT_TEST; no market outcomes", horizons=[1, 2, 3, 4], n_assets=len(assets), target_frequency=frequency)
         card["provenance"].update(data_cutoff=asof, data_source="Deterministic synthetic inputs; no actual market observations", license="MIT")
         card["contamination"]["canary_guid"] = str(uuid.uuid4())
@@ -153,5 +155,11 @@ def validate(out, unit):
 if __name__ == "__main__":
     if sys.argv[1] == "prepare":
         prepare(pathlib.Path(sys.argv[2]))
+    elif sys.argv[1] == "validate-inputs":
+        import jsonschema
+        from qfbench2_common.taskcard import load_schema
+        for path in pathlib.Path(sys.argv[2]).glob("inputs/*/card.toml"):
+            jsonschema.validate(tomllib.loads(path.read_text()), load_schema("taskcard.schema.json"))
+        print("all synthetic input cards match the current official schema")
     else:
         validate(pathlib.Path(sys.argv[2]), pathlib.Path(sys.argv[3]))

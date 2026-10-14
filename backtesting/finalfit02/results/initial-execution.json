@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Preserve failed audit harness execution. These results are not compatibility PASS evidence.",
+  "run_id": 38587909227,
+  "source_sha": "6700e9542febd6d3d24c9ff4e9389fb9df328f8d",
+  "monthly": {
+    "forecast_processes": 0,
+    "failure": "Host/container UID mismatch prevented creating official input directories."
+  },
+  "daily": {
+    "forecast_processes": 12,
+    "positive_forecast_exit_zero": 11,
+    "positive_validation_failed": 11,
+    "reason": "Synthetic fixture IDs lacked mandatory t2- prefix; no output validation PASS claimed.",
+    "negative_missing_history_pass": true,
+    "repeat_parquet_byte_identical": true
+  },
+  "repair_scope": "Audit fixture prefix and folder permissions only; no safe image or source modification.",
+  "retry_limit": "Second corrected execution; stop corresponding stage on another harness failure."
+}

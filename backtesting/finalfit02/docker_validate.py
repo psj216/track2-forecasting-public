@@ -86,6 +86,7 @@ def main():
         assert command(docker() + ["forecast", "--help"], "forecast-interface")["exit_code"] == 0
         assert command(docker(), "default-image-command")["exit_code"] == 0
         assert command(docker() + ["python3", "/audit/container_tools.py", "prepare", "/work-test"], "prepare")["exit_code"] == 0
+        assert command(docker(validator=True) + ["python3", "/audit/container_tools.py", "validate-inputs", "/work-test"], "input-schema-preflight")["exit_code"] == 0
         manifest = json.loads((work / "synthetic-input-manifest.json").read_text())
         evidence["input_manifest"] = manifest
         normal = ["f1-ust", "f2-eur", "f3-ust", "f4-jpy", "f3-em"] if args.group == "daily" else ["monthly-a", "monthly-b", "official-cpi", "official-nfp"]
