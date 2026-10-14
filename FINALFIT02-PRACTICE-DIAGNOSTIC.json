@@ -1,0 +1,13 @@
+{
+  "executive_summary": "No announced new short-horizon practice set found; scoring was not run.",
+  "status": "NOT_RUN",
+  "reason": "New announced practice inputs/targets and current M0 normalization not recovered because set not found at availability check.",
+  "official_score": null,
+  "crps": null,
+  "joint_variogram": null,
+  "tail_pinball": null,
+  "practice_optimization": false,
+  "independent_oos": false,
+  "independent_alpha_verified": "UNKNOWN",
+  "existing_public_monthly_examples": "Compatibility ingestion only, not new practice or PIT/OOS evidence. Current-vintage historical availability unknown."
+}

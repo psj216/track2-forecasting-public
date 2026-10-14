@@ -1,0 +1,45 @@
+{
+  "executive_summary": "Original safe image fails the newly published monthly horizon semantics. Isolated repair passes covered Docker tests; Final suitability remains unverified.",
+  "classification": "CANDIDATE_REPAIR_NEEDS_VALIDATION",
+  "safe_subclassification": "SAFE_INCOMPATIBLE_FOR_EXPLICIT_MONTHLY_CONTRACT",
+  "gates": {
+    "SOURCE_IDENTITY_VERIFIED": "TRUE",
+    "IMMUTABLE_IMAGE_VERIFIED": "TRUE",
+    "OFFICIAL_CONTRACT_VERIFIED": "TRUE",
+    "SHORT_HORIZON_COMPATIBLE": "TRUE",
+    "NEW_UST_COMPATIBLE": "BLOCKED",
+    "ECB_FX_COMPATIBLE": "BLOCKED",
+    "EM_FX_COMPATIBLE": "BLOCKED",
+    "MACRO_RELEASE_COMPATIBLE": "FALSE",
+    "FAMILY_ROUTING_PASS": "TRUE",
+    "CONTAINER_RUNTIME_PASS": "TRUE",
+    "OUTPUT_CONTRACT_PASS": "TRUE",
+    "DETERMINISM_PASS": "TRUE",
+    "DATA_CUTOFF_PASS": "TRUE",
+    "PRACTICE_DATA_AVAILABLE": "FALSE",
+    "PRACTICE_DIAGNOSTIC_COMPLETED": "NOT_APPLICABLE",
+    "SAFE_IMAGE_UNCHANGED": "TRUE"
+  },
+  "gate_scope": {
+    "SHORT_HORIZON_COMPATIBLE": "Existing daily asset IDs only; synthetic inputs. Monthly h keys require explicit periods, not daily offset conversion.",
+    "OFFICIAL_CONTRACT_VERIFIED": "Published source/schema/announcements verified; unpublished Final target schemas remain BLOCKED.",
+    "MACRO_RELEASE_COMPATIBLE": "FALSE for original monthly explicit mapping; candidate TRUE only for covered single-target monthly tests. New GDP/claims unknown.",
+    "OUTPUT_CONTRACT_PASS": "Structural schema/grid/finite/sidecars for normal covered outputs. It does not override the failed monthly semantic gate.",
+    "DATA_CUTOFF_PASS": "Clean synthetic dates and text <= historical cutoff; adversarial numeric sentinel ignored. Historical official macro vintage availability is UNKNOWN; not a PIT validation."
+  },
+  "candidate": {
+    "docker_overlay_tests": "PASS",
+    "monthly_semantic_assertions": "4/4 PASS",
+    "daily_ab_byte_identical": true,
+    "exact_synthetic_ab_inputs": true,
+    "standalone_image": "NOT_BUILT",
+    "full_release_validation": "NOT_RUN",
+    "new_final_targets": "BLOCKED",
+    "different_monthly_asset_step_grids": "BLOCKED_EXPLICIT_REFUSAL",
+    "independent_alpha_verified": "UNKNOWN",
+    "final_eligible": false
+  },
+  "final_submission_performed": false,
+  "final_recommendation": "Preserve V5.1 safe ZIP/image. Do not claim unrestricted Final compatibility; inspect actual published practice/Final target schemas before selecting original or a separately validated repair. No automatic promotion.",
+  "official_historical_09541_identity": "UNKNOWN"
+}

@@ -1,0 +1,69 @@
+{
+  "executive_summary": "Coverage-specific compatibility, not global Final PASS.",
+  "rows": [
+    {
+      "target": "Daily 1\u20134 BD, F1/F2/F3/F4",
+      "safe": "PASS_TESTED_SCOPE",
+      "candidate": "PASS_BYTE_IDENTICAL",
+      "input": "Synthetic, exact existing official identifiers and units"
+    },
+    {
+      "target": "UST_2Y/5Y/10Y/30Y",
+      "safe": "PASS_TESTED_SCOPE",
+      "candidate": "PASS_BYTE_IDENTICAL",
+      "input": "Synthetic yield levels, percent_per_annum"
+    },
+    {
+      "target": "UST 3M/6M/1Y",
+      "safe": "BLOCKED",
+      "candidate": "BLOCKED",
+      "reason": "Announcement gives maturities, not canonical Final identifiers/panel fields"
+    },
+    {
+      "target": "H.10-style EUR/JPY and BRL/INR",
+      "safe": "PASS_TESTED_SCOPE",
+      "candidate": "PASS_BYTE_IDENTICAL",
+      "input": "Synthetic levels using authored native USD quote units"
+    },
+    {
+      "target": "ECB Final G10/EM",
+      "safe": "BLOCKED",
+      "candidate": "BLOCKED",
+      "reason": "ECB raw source quotes against EUR; organizer Final transformation/asset IDs not published"
+    },
+    {
+      "target": "Monthly explicit-period CPI/NFP",
+      "safe": "FAIL_HORIZON_HANDLING",
+      "candidate": "PASS_TESTED_SCOPE",
+      "reason": "Original ignores mappings; candidate preserves output keys and resolves requested observation months"
+    },
+    {
+      "target": "Monthly missing/conflicting mapping",
+      "safe": "FAIL_SILENT_ACCEPTANCE",
+      "candidate": "PASS_CLEAR_REFUSAL"
+    },
+    {
+      "target": "GDP / jobless claims / unknown new macro",
+      "safe": "BLOCKED",
+      "candidate": "BLOCKED",
+      "reason": "No authored identifier, unit, cadence, release/vintage schema"
+    },
+    {
+      "target": "Different per-asset monthly step grids",
+      "safe": "UNVERIFIED",
+      "candidate": "BLOCKED_EXPLICIT_REFUSAL",
+      "reason": "Minimal candidate intentionally does not invent a joint adaptation"
+    },
+    {
+      "target": "Missing history",
+      "safe": "PASS_CLEAR_REFUSAL",
+      "candidate": "PASS_CLEAR_REFUSAL"
+    },
+    {
+      "target": "Post-cutoff numeric sentinel",
+      "safe": "FILTERING_OBSERVED_VALIDATOR_FIXTURE_ERROR",
+      "candidate": "PASS_FILTERING_PROBE",
+      "reason": "Byte-identical clean output; sentinel fixture itself does not pass input cutoff"
+    }
+  ]
+}

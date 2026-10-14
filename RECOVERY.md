@@ -11,3 +11,11 @@ Thirteen detailed study entries plus40-row inherited quality index show no recov
 User reports WindowsV51-final-submission.zip exists; no bytes were accessed or requested. Earlier Final13/Secure14 records await local receipt; do not infer the current ZIP is absent/invalid. Current public dev template is not a Final upload descriptor. Actual numeric CodaBench Final destination remainsUNKNOWN. Current official Final window13October21:00KST–26October20:59KST, one upload, prospective ranked cards after close; retain image through13November. Official identifiers are final/agenthon2026-forecasting-final.
 
 Next action is read-only local validation of the existing ZIP and independent official platform destination confirmation. No repacking, key use/request, live House access, model change or upload. Reassess readiness only with sanitized byte-bound evidence; do not replace missing arrows with repeated summaries or mock scores.
+
+## FINALFIT02 recovery checkpoint
+
+Executive summary: monthly adapter compatibility tested; Final target coverage blocked. Preserve safe ZIP/image.
+
+Parent 78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20; PRE 32fdc3931d36adf471813203431dd7226c76a8d7; RED 696c938c7e5ca6dd831a3037c8eabbd40c32bdab; executable candidate 9108ba25737dc88fcdeb478d45c749dddc2bbcb0. Original run 38588467433, overlay run 38589731625. Reports and receipts are in this branch; use remote HEAD as RESULT. Independent local clone finalfit02 has no alternates; frozen safe tree was archived separately and matched in actual Docker.
+
+Resume only the canonical new-asset/ECB/release schemas after organizer publication. Do not rerun R17 or optimize practice scores. A standalone candidate image/full release remains NOT_RUN; heterogeneous monthly grids explicitly refused. No submission authorized.

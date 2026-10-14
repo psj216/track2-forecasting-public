@@ -1,0 +1,61 @@
+{
+  "executive_summary": "Actual Docker: original 22 processes; candidate overlay 22 processes. Expected negative exits count as test passes, not successful forecast outputs.",
+  "classification": "CANDIDATE_REPAIR_NEEDS_VALIDATION",
+  "original_run": 38588467433,
+  "candidate_run": 38589731625,
+  "summary": {
+    "original": {
+      "forecast_processes": 22,
+      "exit_zero": 21,
+      "exit_nonzero": 1,
+      "receipt_expectations_pass": 19,
+      "receipt_expectations_fail": 3,
+      "max_forecast_seconds": 1.9947562990000023,
+      "max_output_total_bytes": 41258
+    },
+    "candidate": {
+      "forecast_processes": 22,
+      "exit_zero": 19,
+      "exit_nonzero": 3,
+      "receipt_expectations_pass": 22,
+      "receipt_expectations_fail": 0,
+      "max_forecast_seconds": 2.069092542000007,
+      "max_output_total_bytes": 41258
+    }
+  },
+  "original_monthly_semantic_assertions": {
+    "passed": 0,
+    "failed": 4
+  },
+  "candidate_monthly_semantic_assertions": {
+    "passed": 4,
+    "failed": 0
+  },
+  "assertions_unchanged": true,
+  "red_sha": "696c938c7e5ca6dd831a3037c8eabbd40c32bdab",
+  "candidate_sha": "9108ba25737dc88fcdeb478d45c749dddc2bbcb0",
+  "candidate_actual_docker": true,
+  "candidate_is_read_only_code_overlay_not_release_image": true,
+  "groups": {
+    "original_daily": "backtesting/finalfit02/results/safe-daily-receipt.json",
+    "original_monthly": "backtesting/finalfit02/results/safe-monthly-receipt.json",
+    "candidate_daily": "backtesting/finalfit02/results/candidate-daily-receipt.json",
+    "candidate_monthly": "backtesting/finalfit02/results/candidate-monthly-receipt.json"
+  },
+  "artifact_receipts": [
+    {
+      "id": 11906852461,
+      "name": "finalfit02-daily-38589731625",
+      "digest": "sha256:78337ac1bc7607c28a19ecfdc1c3594e5a5c0a634b6324782b8fe491ffd57cb3",
+      "bytes": 323286
+    },
+    {
+      "id": 11906652900,
+      "name": "finalfit02-monthly-38589731625",
+      "digest": "sha256:feafae850db7248a41440a7de8047b5aab3cb591974af8563e948290da536387",
+      "bytes": 495675
+    }
+  ],
+  "initial_failed_run": 38587909227,
+  "initial_failures_preserved": "backtesting/finalfit02/results/initial-execution.json"
+}
