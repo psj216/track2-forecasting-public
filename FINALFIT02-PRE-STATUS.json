@@ -1,0 +1,15 @@
+{
+  "executive_summary": "PRE only; no new Docker forecasts have run.",
+  "task": "FINAL-FIT-02",
+  "stage": "PRE",
+  "completed": false,
+  "parent_sha": "78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20",
+  "safe_image_unchanged": true,
+  "container_test": "NOT_RUN",
+  "protected_refs": {
+    "main": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+    "safe": "126a7c628aa60783986450037309f5f59603276a",
+    "FINAL01": "78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20",
+    "R17": "48952090e6e4a31add9fbcb40b3d0a0fcd3a6b6b"
+  }
+}
