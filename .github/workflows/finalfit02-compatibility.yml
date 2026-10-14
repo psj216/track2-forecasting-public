@@ -1,0 +1,49 @@
+# Executive summary: anonymous exact-image audit. No secrets, build, registry push or submission.
+name: FinalFit02 Immutable Image Compatibility
+on:
+  push:
+    branches: [track2/final-fit-02-short-horizon-compatibility]
+    paths:
+      - '.github/workflows/finalfit02-compatibility.yml'
+      - 'backtesting/finalfit02/**'
+permissions:
+  contents: read
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [daily, monthly]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/track2-forecasting-public
+          ref: f43655cdb624a3e5e5fed772ed9313ef57a54bc5
+          path: official-current
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/Agenthon2026-public
+          ref: 6181b9c9f45c93ee526a6692406367a4042da7ad
+          path: common-current
+          persist-credentials: false
+      - name: Recover exact frozen source without shared objects
+        run: |
+          timeout 60 git fetch --no-tags origin 47194f28d5188b87cdca1d591d86b9eeda86f7cf
+          mkdir frozen-safe
+          git archive 47194f28d5188b87cdca1d591d86b9eeda86f7cf | tar -x -C frozen-safe
+          test "$(git rev-parse 47194f28d5188b87cdca1d591d86b9eeda86f7cf^{tree})" = f2f9163372ab179c3e58a0dbac00acee119a41cf
+      - name: Actual immutable Docker execution and current official output validation
+        run: timeout 510 python3 backtesting/finalfit02/docker_validate.py --group '${{ matrix.group }}' --out '${{ runner.temp }}/fit02-evidence'
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: finalfit02-${{ matrix.group }}-${{ github.run_id }}
+          path: ${{ runner.temp }}/fit02-evidence
+          if-no-files-found: error
+          retention-days: 30
