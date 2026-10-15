@@ -1,0 +1,88 @@
+{
+  "executive_summary": "Standalone candidate versus preserved original inputs; no scoring.",
+  "group": "daily",
+  "candidate_run": "38798442114",
+  "original_run": "38796987425",
+  "completed": true,
+  "kernel_checks": [],
+  "ab": [
+    {
+      "name": "f1-ust",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f1-ust",
+      "repetition": 2,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f2-eur",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f2-eur",
+      "repetition": 2,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-ust",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-ust",
+      "repetition": 2,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f4-jpy",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f4-jpy",
+      "repetition": 2,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-em",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-em",
+      "repetition": 2,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "future-sentinel",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    },
+    {
+      "name": "missing-history",
+      "repetition": 1,
+      "same_files": true,
+      "same_exit": true
+    }
+  ],
+  "official_v261_card_cli": {
+    "exit_code": 0,
+    "stdout": "OK   card /input\n",
+    "stderr": ""
+  },
+  "exact_ab_inputs": true
+}

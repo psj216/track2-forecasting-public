@@ -1,0 +1,583 @@
+{
+  "executive_summary": "Monthly distributions change only through explicit monthly step selection from the frozen kernel; predictive quality is unmeasured.",
+  "candidate_run": 38798442114,
+  "original_run": 38796987425,
+  "original_reused": true,
+  "exact_input_manifest": true,
+  "comparisons": [
+    {
+      "name": "monthly-a",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "monthly-a",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "monthly-b",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "monthly-b",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "official-cpi",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "official-cpi",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "official-nfp",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "official-nfp",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "month-start",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "month-start",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "month-end",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "month-end",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "lagged-anchor",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "lagged-anchor",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "nonconsecutive",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "nonconsecutive",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "multi-monthly",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "multi-monthly",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "heterogeneous",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "heterogeneous",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "repetition": 2,
+      "same_files": false,
+      "same_exit": true
+    },
+    {
+      "name": "monthly-missing",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "monthly-conflict",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "duplicate-mapping",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "malformed",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "duplicate-observations",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "duplicate-no-mapping",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    },
+    {
+      "name": "mixed-cadence",
+      "repetition": 1,
+      "same_files": false,
+      "same_exit": false
+    }
+  ],
+  "kernel_cells_exact": [
+    {
+      "name": "monthly-a",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "monthly-b",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.5405490049156092,
+            0.784364611773678,
+            0.9895209412774653,
+            1.1440354565445996
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "month-start",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "month-end",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "lagged-anchor",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "monthly_union": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cell_std": [
+          [
+            0.9263436129267352,
+            1.0864826438720157,
+            1.1083092389193192,
+            1.1930479228092108
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "nonconsecutive",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            3,
+            6,
+            10
+          ]
+        ],
+        "monthly_union": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "cell_std": [
+          [
+            0.2627228086202086,
+            0.7555040210288231,
+            1.1543278305577513,
+            1.622118406853163
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "multi-monthly",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492001,
+            0.9676244218498118
+          ],
+          [
+            135.86693314914095,
+            266.3916137898041,
+            384.43919377460116,
+            483.8122109249075
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "heterogeneous",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            4,
+            5,
+            6
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "cell_std": [
+          [
+            0.2627228086202086,
+            0.518773215730486,
+            0.7555040210288233,
+            0.9601261859632672
+          ],
+          [
+            259.3866078652434,
+            480.0630929816345,
+            560.6536305128406,
+            577.1639152788764
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.2732097352577181,
+            0.5397632064327847,
+            0.7839162094517798,
+            0.9907573385107682
+          ],
+          [
+            269.8816032163935,
+            391.9581047258919,
+            495.378669255385,
+            574.2059771244441
+          ]
+        ],
+        "covariance_exact": true
+      }
+    }
+  ],
+  "variance_and_dependence": "Nine neutral-text outputs equal the unchanged frozen joint kernel at the official helper step matrix. This verifies monthly accumulation/selection, not a new scale or dependence model. A correlated bootstrap need not have exactly sqrt(s) spread at every horizon.",
+  "original_invalid_mapping_acceptances": 7,
+  "candidate_invalid_mapping_refusals": 7,
+  "independent_alpha_verified": "UNKNOWN",
+  "performance_evaluation": "NOT_RUN"
+}

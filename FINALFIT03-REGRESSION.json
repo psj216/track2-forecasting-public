@@ -1,0 +1,268 @@
+{
+  "executive_summary": "Release-scoped tests pass; inherited full repository CI is separately blocked and not passed.",
+  "candidate_run": 38798442114,
+  "candidate_source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "candidate_frozen_package_tests": {
+    "executed": 35,
+    "passed": 35,
+    "failed": 0,
+    "skipped": 0
+  },
+  "official_helper_tests": {
+    "executed": 25,
+    "passed": 25,
+    "failed": 0,
+    "skipped": 0,
+    "count_evidence": "25 pytest passed progress markers with successful exit; unmodified official test file"
+  },
+  "original_frozen_tests_reused": {
+    "run_id": 38796987425,
+    "passed": 35,
+    "environment": "Same original immutable base and pinned test dependencies; reused, not new execution"
+  },
+  "steps": [
+    {
+      "name": "test-only-dependencies",
+      "exit_code": 0,
+      "wall_seconds": 3.5621540049999965,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--user",
+        "0",
+        "-v",
+        "/home/runner/work/_temp/ff03-regression:/test-work",
+        "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+        "python3",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "--target",
+        "/test-work/deps",
+        "pytest==8.4.2",
+        "iniconfig==2.3.0",
+        "packaging==25.0",
+        "pluggy==1.6.0",
+        "pygments==2.19.2"
+      ],
+      "summary": "Collecting pytest==8.4.2\n  Downloading pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)\nCollecting iniconfig==2.3.0\n  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting packaging==25.0\n  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting pluggy==1.6.0\n  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)\nCollecting pygments==2.19.2\n  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)\nDownloading pytest-8.4.2-py3-none-any.whl (365 kB)\nDownloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)\nDownloading packaging-25.0-py3-none-any.whl (66 kB)\nDownloading pluggy-1.6.0-py3-none-any.whl (20 kB)\nDownloading pygments-2.19.2-py3-none-any.whl (1.2 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 1.2/1.2 MB 25.9 MB/s  0:00:00\nInstalling collected packages: pytest, pygments, pluggy, packaging, iniconfig\n\nSuccessfully installed iniconfig-2.3.0 packaging-25.0 pluggy-1.6.0 pygments-2.19.2 pytest-8.4.2\n"
+    },
+    {
+      "name": "candidate-frozen-tests",
+      "exit_code": 0,
+      "wall_seconds": 2.951919048999997,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp",
+        "-v",
+        "/home/runner/work/_temp/ff03-regression/deps:/testdeps:ro",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/frozen-safe/tests:/tests:ro",
+        "-e",
+        "PYTHONPATH=/testdeps:/opt",
+        "finalfit03-local:c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+        "python3",
+        "-m",
+        "pytest",
+        "-q",
+        "-p",
+        "no:cacheprovider",
+        "/tests/test_numeric_v1.py",
+        "/tests/test_numeric_v3.py",
+        "/tests/test_text_first_v5.py",
+        "/tests/test_cutoff.py"
+      ],
+      "summary": "...................................                                      [100%]\n35 passed in 1.14s\n"
+    },
+    {
+      "name": "official-unmodified-helper-tests",
+      "exit_code": 0,
+      "wall_seconds": 1.7022564610000188,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp",
+        "-v",
+        "/home/runner/work/_temp/ff03-regression/deps:/testdeps:ro",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current:/official:ro",
+        "-e",
+        "PYTHONPATH=/testdeps:/opt",
+        "finalfit03-local:c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+        "python3",
+        "-c",
+        "import importlib.util,sys,pytest; p='/opt/finalfit03/official_horizons.py'; s=importlib.util.spec_from_file_location('qfbench2_track_forecasting.horizons',p); m=importlib.util.module_from_spec(s);sys.modules[s.name]=m;s.loader.exec_module(m);raise SystemExit(pytest.main(['-q','-p','no:cacheprovider','/official/tests/test_monthly_horizons.py']))"
+      ],
+      "summary": ".........................                                                [100%]\n"
+    }
+  ],
+  "original_environment_receipt": {
+    "executive_summary": "Identical frozen tests for both runtimes; history suite is separate.",
+    "steps": [
+      {
+        "name": "test-only-dependencies",
+        "exit_code": 0,
+        "wall_seconds": 2.198701104999998,
+        "command": [
+          "docker",
+          "run",
+          "--rm",
+          "--user",
+          "0",
+          "-v",
+          "/home/runner/work/_temp/ff03-regression:/test-work",
+          "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+          "python3",
+          "-m",
+          "pip",
+          "install",
+          "--no-deps",
+          "--target",
+          "/test-work/deps",
+          "pytest==8.4.2",
+          "iniconfig==2.3.0",
+          "packaging==25.0",
+          "pluggy==1.6.0",
+          "pygments==2.19.2"
+        ],
+        "summary": "Collecting pytest==8.4.2\n  Downloading pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)\nCollecting iniconfig==2.3.0\n  Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)\nCollecting packaging==25.0\n  Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)\nCollecting pluggy==1.6.0\n  Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)\nCollecting pygments==2.19.2\n  Downloading pygments-2.19.2-py3-none-any.whl.metadata (2.5 kB)\nDownloading pytest-8.4.2-py3-none-any.whl (365 kB)\nDownloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)\nDownloading packaging-25.0-py3-none-any.whl (66 kB)\nDownloading pluggy-1.6.0-py3-none-any.whl (20 kB)\nDownloading pygments-2.19.2-py3-none-any.whl (1.2 MB)\n   \u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501\u2501 1.2/1.2 MB 43.0 MB/s  0:00:00\nInstalling collected packages: pytest, pygments, pluggy, packaging, iniconfig\n\nSuccessfully installed iniconfig-2.3.0 packaging-25.0 pluggy-1.6.0 pygments-2.19.2 pytest-8.4.2\n"
+      },
+      {
+        "name": "original-frozen-tests",
+        "exit_code": 0,
+        "wall_seconds": 1.6692978600000004,
+        "command": [
+          "docker",
+          "run",
+          "--rm",
+          "--network=none",
+          "--read-only",
+          "--tmpfs",
+          "/tmp",
+          "-v",
+          "/home/runner/work/_temp/ff03-regression/deps:/testdeps:ro",
+          "-v",
+          "/home/runner/work/track2-forecasting-public/track2-forecasting-public/frozen-safe/tests:/tests:ro",
+          "-e",
+          "PYTHONPATH=/testdeps:/opt",
+          "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+          "python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "/tests/test_numeric_v1.py",
+          "/tests/test_numeric_v3.py",
+          "/tests/test_text_first_v5.py",
+          "/tests/test_cutoff.py"
+        ],
+        "summary": "...................................                                      [100%]\n35 passed in 0.56s\n"
+      },
+      {
+        "name": "candidate-frozen-tests",
+        "exit_code": 0,
+        "wall_seconds": 1.6211995020000032,
+        "command": [
+          "docker",
+          "run",
+          "--rm",
+          "--network=none",
+          "--read-only",
+          "--tmpfs",
+          "/tmp",
+          "-v",
+          "/home/runner/work/_temp/ff03-regression/deps:/testdeps:ro",
+          "-v",
+          "/home/runner/work/track2-forecasting-public/track2-forecasting-public/frozen-safe/tests:/tests:ro",
+          "-e",
+          "PYTHONPATH=/testdeps:/opt",
+          "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+          "python3",
+          "-m",
+          "pytest",
+          "-q",
+          "-p",
+          "no:cacheprovider",
+          "/tests/test_numeric_v1.py",
+          "/tests/test_numeric_v3.py",
+          "/tests/test_text_first_v5.py",
+          "/tests/test_cutoff.py"
+        ],
+        "summary": "...................................                                      [100%]\n35 passed in 0.56s\n"
+      },
+      {
+        "name": "official-unmodified-helper-tests",
+        "exit_code": 0,
+        "wall_seconds": 1.0114865689999917,
+        "command": [
+          "docker",
+          "run",
+          "--rm",
+          "--network=none",
+          "--read-only",
+          "--tmpfs",
+          "/tmp",
+          "-v",
+          "/home/runner/work/_temp/ff03-regression/deps:/testdeps:ro",
+          "-v",
+          "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current:/official:ro",
+          "-e",
+          "PYTHONPATH=/testdeps:/opt",
+          "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+          "python3",
+          "-c",
+          "import importlib.util,sys,pytest; p='/opt/finalfit03/official_horizons.py'; s=importlib.util.spec_from_file_location('qfbench2_track_forecasting.horizons',p); m=importlib.util.module_from_spec(s);sys.modules[s.name]=m;s.loader.exec_module(m);raise SystemExit(pytest.main(['-q','-p','no:cacheprovider','/official/tests/test_monthly_horizons.py']))"
+        ],
+        "summary": ".........................                                                [100%]\n"
+      }
+    ],
+    "completed": true
+  },
+  "full_repository_ci": {
+    "executive_summary": "Inherited broad CI errors reproduced at parent and candidate checkpoints; no claim of full repository PASS.",
+    "parent_ci": 38795936637,
+    "candidate_ci": 38798442040,
+    "same_collection_test_ids": true,
+    "collection_errors_count": 61,
+    "missing_dependencies": [
+      "scikit-learn",
+      "requests",
+      "beautifulsoup4"
+    ],
+    "python": "3.13.16 in both CI logs",
+    "lint_errors_parent": 2288,
+    "lint_errors_candidate": 2288,
+    "production_image_contains_research_modules": false,
+    "scope": "Candidate image retains only the original 26 production files; sklearn/bs4 research modules are not shipped. Related frozen image tests are separate.",
+    "missing_dependencies_parent": [
+      "bs4",
+      "requests",
+      "sklearn"
+    ],
+    "missing_dependencies_candidate": [
+      "bs4",
+      "requests",
+      "sklearn"
+    ],
+    "same_successfully_installed_dependency_lines": true
+  },
+  "lint": {
+    "command": "python -m ruff check backtesting/finalfit03",
+    "version": "0.4.7",
+    "passed": true
+  },
+  "syntax_compile_pass": true,
+  "original_test_assertions_modified": false
+}

@@ -1,0 +1,3138 @@
+{
+  "executive_summary": "Exact-image Docker evidence; synthetic tests do not prove performance.",
+  "source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "run_id": "38798442114",
+  "group": "monthly",
+  "image": "finalfit03-local:c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "completed": true,
+  "source_identity_verified": true,
+  "input_manifest": [
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "59103879df863fdcc9c4b151267e8b763a4d8022a639a8a3b6a645d35f5759d3",
+        "forecast_spec.json": "39ca76788bca27c1ff8f10e60b029764e486c52c41cf5cd7f9dbd21aa09f58ca",
+        "synthetic_history.parquet": "977322d85126cd89c20cce654e27f05bf5df718aaa07bfa2f563e546ee0327e2",
+        "text/corpus_index.json": "b38319344f1ed2e5121187e115aadc44719bf637916b42c56f35afe793a4d8eb",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f1-ust",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "EUR"
+      ],
+      "expected_failure": false,
+      "family": "T2-F2",
+      "files": {
+        "card.toml": "93e620e0dcedefa4ba11b4461cb7d9d94426f1375790a8d574c4311e46da40f3",
+        "forecast_spec.json": "cc124e018c32f61752eb3f49f3cb70317a4d38d712f2c52656bdd8a08413e372",
+        "synthetic_history.parquet": "1c227a0c2d74b4a4059cdf0bda1225e99f4c09458138f8a6e86aa5196c2725f1",
+        "text/corpus_index.json": "35bb8a3bb00434e7053ba8427001b61db86b6da548ce6420257ae013884ea50d",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f2-eur",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F2-draghi-precommit-2014",
+      "units": "usd_per_eur"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_2Y",
+        "UST_5Y",
+        "UST_10Y",
+        "UST_30Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "676d7c6eccc0bd4c3aa49ff6c0d9d73b56b4414bd4339e7c298c7dab6df4a279",
+        "forecast_spec.json": "b55f9e7bcaae50d85f667a9c55a887f8631339c27cf72d67a288d4cb470380ff",
+        "synthetic_history.parquet": "d3ee7943d003dcea6ba14d057b1682d739c4f1e4c9fe5c37e90b450bd7bbe67c",
+        "text/corpus_index.json": "56132c226d78e2c1f134164fd38a4f755cd46c81a8bb0204db5aa85183574b20",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f3-ust",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F3-sep-dots-curve-2023",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "JPY"
+      ],
+      "expected_failure": false,
+      "family": "T2-F4",
+      "files": {
+        "card.toml": "7dff4441bd59eeca52e0455dfd8c3ecd44850ec0d4490b39670d83a7a4ad8f9f",
+        "forecast_spec.json": "03b33b92b230633947223a98268feef7fce05274eaaf02d3f9c32cd3f7d687c7",
+        "synthetic_history.parquet": "18b3f0a01fbb81d2f500eb873822f9223e13c3d591d5c2d69ce38b7108b8925f",
+        "text/corpus_index.json": "13a60aab84df6d10bdb3a888db876527ba129d14772193a34e034fb2ae304f4d",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 1000,
+      "name": "f4-jpy",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F4-jpy-carry-2007",
+      "units": "jpy_per_usd"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "INR",
+        "BRL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "b71549586f535c82a171c98786db115446db9679bca2a7cfa0a999243554af2d",
+        "forecast_spec.json": "8781a51679bde6370b8f76f1f944c2a79de75a0fa16387108b0e2631a02b48ff",
+        "synthetic_history.parquet": "1bf827534c05deeb2e87a054b3fce2280e24dec3049db7d7e226dc99e9dfe8d5",
+        "text/corpus_index.json": "ecd340147835b5fc6cc9568833e3be380792d656523ccc5ae49595eed6c8a711",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "f3-em",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F3-em-transfer-joint-2013",
+      "units": "inr_per_usd; brl_per_usd"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "f1bc10e6e7b6f9df2bd6e57f0dc75df1ccc44430cc1e85056a0d797d6977d413",
+        "forecast_spec.json": "d833005226091aad866c30eb047fdfc5652a1f51f79155e996b48a19cf6091dc",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "44425baee5b41c549162d792929fed1f800806998cb1b157a78a5ec5aebf00c3",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-a",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "712218f76330d427c3c70834c9ef887e9483d87002ddfd8fbed9b9adaf3974c7",
+        "forecast_spec.json": "49e9b0634fd929ed983822fc2b05e02b34fe84ae0855b8baf55cf60c146c6681",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "2b564b467888e06154d4bbc9c1039580589a1b4a89062b3116891020f238a124",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-b",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "394673b411c7626239bddda3e4bce1fd41b1ca56c337f4964806b47b3f040aa3",
+        "forecast_spec.json": "0ce1cee9cc3866373ccfb7dc56d22896aaf6f92c3fe35a5fcd99fda36d83360a",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "cebe08d32bf033457cd95b7d8055444c1e72eb95bdefcfc92a948e799989ae76",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-missing",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "e9296aba1c2fb7d8ec4c25f5fa001b3194194655235fb2541e7aedafe5d78255",
+        "forecast_spec.json": "4654ef05ca0b474d5aad21c99814da2ff1e875e539f195b6a3284ba221e4263d",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "2b4609fca5f56edf5bb817389f02bdfb14d82a2c18e5a641a45fbb534841bb4a",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "monthly",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "monthly-conflict",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-cpi-glidepath-2023",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "16c1ca8ec53d20516511ca6d57386e29a48f8d9a2ddb139fa5c426d301014c88",
+        "forecast_spec.json": "d0c26db86134b43fe91b4762fd3589353ffb164c17503b9213e2ccf78b9deab4",
+        "synthetic_history.parquet": "474c1bbe45023efdf82176c7fbff260ec294ae2c9970f2cff3d3aa23cc4bec5e",
+        "text/corpus_index.json": "8b778374296d5d4700b8fdd7416c87b4deedcbbbeeb319842904a83ecf6ccb26",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "missing-history",
+      "post_cutoff_sentinel": false,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "UST_10Y"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "7522b44663e748e654162c9997bea2d551c70df3aa235303cd4e7da2885d60fb",
+        "forecast_spec.json": "14c34f3d78e467d0c2d1c92d13b0e5d62b6b6961c8868192d1446262df35f8c7",
+        "synthetic_history.parquet": "11af404fbd6f087e01b1ff895ca6b9081a524f3e8e726daf5251cfd46e48c659",
+        "text/corpus_index.json": "777023ee0447f1881e6efa2cab11c05017e9b70e8e3cd6901aed7c1f8b14c815",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "frequency": "daily",
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "n_draws": 500,
+      "name": "future-sentinel",
+      "post_cutoff_sentinel": true,
+      "source_card": "t2-F1-ust-positioning-2018",
+      "units": "percent_per_annum"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "f822a0df3abfce07868151dee5a6bbc32d3189ce7670dd3ca85ed0dcf7ccbfc8",
+        "forecast_spec.json": "107e8c7729c1efaa1afaf36ae5ce3a88dcb994207daf90a687607ef0d103ce74",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "48fe875111a3022dfb03527db86535fd6732391b768c80c33e9f3ddecc4d3dc2",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "month-start",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "5804586f506830d5079ddeb95ee16b7a742a75153c23d77a85cb8fd8f21325b2",
+        "forecast_spec.json": "48e92dd84a80c5fa66267bf091f3acf5d4517dd1d96407846c90f25757b3b2e5",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "c3982af84bbf1b6dc93efd01063256ee158d444564460f3ced1defb40ff6a5c3",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "month-end",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "de6a52e7c91b503b4a3dcc93ac5ee3468c613f8f417d82873e55206f1f4f525d",
+        "forecast_spec.json": "8acedf1c511801f39d8c4c0ddc56ec05ac167e78b7c08b1f600f01d01bc6811f",
+        "synthetic_history.parquet": "1749e758fbad88ce513b5a48b1b07885a8cf020e836f820d09fe0b28eaaf7c11",
+        "text/corpus_index.json": "5b18a960d5a2441a768a74fdfc7e5f660769b0eb5d8e2e7b6d48bd6567dd3556",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "lagged-anchor",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": false,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "6d7bb459277c00746d6176113a66826ba9969ceddfdb8ab917025a56284e77f0",
+        "forecast_spec.json": "f5500cb25b63c5e7343b42ffd969b0656294cb57a14f5cf64a32b9abe2db9954",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "9fc17bfaf6f73897cfb50801b26f4287c44a405748840ef55b998c2b83b5758f",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "nonconsecutive",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL",
+        "NFP"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "46df19d51780b0caa324be7eb90178505f3899a82cd57020b310b6fb3d465e74",
+        "forecast_spec.json": "f4414c9b58cae7c945aca5bb98850c334413327823f032e74e87c8e7fca74bed",
+        "synthetic_history.parquet": "b381f4c6793b81e6a6a14d71a708de91ab0bba522652dc8e6456ee9b93fe449b",
+        "text/corpus_index.json": "f95426e085ebc0a95e2deafbcd8e00b98f0b5914cb4e87ae57c1f8ee93e7acfe",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "multi-monthly",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes) (CPI_ALL); thousands of jobs (PAYEMS, as-published first-release vintage) (NFP)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL",
+        "NFP"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "79633394f0c8cdc9d9fc9215747f2c218661adc473558f3ac50a79a20226c434",
+        "forecast_spec.json": "e23b1d58eb9adaff144a663e241e6603d8b7fa230d9c9f051837a9b56662cd6b",
+        "synthetic_history.parquet": "b381f4c6793b81e6a6a14d71a708de91ab0bba522652dc8e6456ee9b93fe449b",
+        "text/corpus_index.json": "532a272a141a904d31298fcc0151314b8433459a4c481054d9fff66bfc19eeac",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "heterogeneous",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes) (CPI_ALL); thousands of jobs (PAYEMS, as-published first-release vintage) (NFP)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL",
+        "NFP"
+      ],
+      "expected_failure": false,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "2c53ba6c32a0bd80094ebccaa156bd222a0423727632a46a194e9cf18d67d812",
+        "forecast_spec.json": "a9c766a701b02897f4ad599f32f8db29dc5c765e867dbc460b236a881e7344bc",
+        "synthetic_history.parquet": "0d4a1115870fee3773719e6eda6655044ca56c2af2d2a133a20fa4d0804ff44c",
+        "text/corpus_index.json": "939ecaf24c2af9915d37d662f42d3581701fc65ad83736e3af360ad0b491fffc",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "heterogeneous-anchor",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes) (CPI_ALL); thousands of jobs (PAYEMS, as-published first-release vintage) (NFP)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "520fc72b6127cf076ce2fd9acfb6ae2a92b20ba381f19c5c42b3c5cd280c15c7",
+        "forecast_spec.json": "4ef749db68dbd85b48b2fe539328d64858fb3c790e00e690d0e0396a05fcc6a1",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "78fb4afb2d5b4762a19e1ad052acc69165ecb97847e0de34ee82db409152835a",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "duplicate-mapping",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "3ceb06d16dcaaed2a5c0a02b488f343d6d3f54538b4aa4745ec4dc15b969d4d5",
+        "forecast_spec.json": "2795dc465ce1cfd02b8a0d81cb08934c1c9d8e59a2e771e92c5213502de4c376",
+        "synthetic_history.parquet": "1525e6feb1ea474fdc8034e6f93398ca988195586a666def95ec2d7f945482b1",
+        "text/corpus_index.json": "ef820e44ba83ec8af0643fb0c83174419776f517d3e502bc886d4771411b120c",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "malformed",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "c2c410ee3b1e6ec792a9e098513122e401a784d2798b8ebfdff909cd846e7f46",
+        "forecast_spec.json": "d72082572ce50ba3a4bae14464c3f1234a535f866b9f69c8d515524c17b6c306",
+        "synthetic_history.parquet": "d54818c41fc5e877e6f885c1b49b8f3b5d2e8b7c98e55c3e5fa5a8110572b43e",
+        "text/corpus_index.json": "74c8f87f6ca7029525bf14af40d350ed2039d6c0b3d00f149bfdb389d45a79ec",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "duplicate-observations",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL"
+      ],
+      "expected_failure": true,
+      "family": "T2-F1",
+      "files": {
+        "card.toml": "a9ea70c66890d5f7d7d73f46e36fe450fd7f1ac4d5fed9b1823af37e60a7bc7e",
+        "forecast_spec.json": "a83bc2be19abc0371a6c678cb874f9ca7ca514abadb66f4011a8e3e6ae923c5c",
+        "synthetic_history.parquet": "d54818c41fc5e877e6f885c1b49b8f3b5d2e8b7c98e55c3e5fa5a8110572b43e",
+        "text/corpus_index.json": "cbc16adae8b9473a7f0ad3378e12561811246098c470d626dcc7e59477c1ff70",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "duplicate-no-mapping",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes)"
+    },
+    {
+      "asof": "2018-09-14",
+      "assets": [
+        "CPI_ALL",
+        "NFP"
+      ],
+      "expected_failure": true,
+      "family": "T2-F3",
+      "files": {
+        "card.toml": "ea1d1cd03c03dee8517614dd8953ee423dd9c4b43a011c1c4fda759e9e57ddd9",
+        "forecast_spec.json": "cceeb5682a3857c50ce0bf8108b0422ea815360b4c7a923e3e3e7e6095ba3092",
+        "synthetic_history.parquet": "5b5213b8ca6b237179743a9e236df361de744fdfbb3a05f74463dcc0d6bcc089",
+        "text/corpus_index.json": "93680bc35fde579514aae660bedf43e9c93ca06dfafe0c23c2a96b4a04a06d1d",
+        "text/doc.txt": "96a9b3380cc13b1cac7c9dc26749b7f2b11185cc7168d4d35fd630d6d3cd42b4"
+      },
+      "horizons": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "name": "mixed-cadence",
+      "units": "cpi_index_1982_84_100 (current vintage; see notes) (CPI_ALL); thousands of jobs (PAYEMS, as-published first-release vintage) (NFP)"
+    }
+  ],
+  "official_inputs": {
+    "official-cpi": {
+      "card.toml": "c65ae43766ba6c3dc0721edd49a011c23ec9cf9afc5e188b2c3bc723a7bd6b47",
+      "forecast_spec.json": "11a0c19e6d5945a4e5e1d2ed6b53d50cc14419009785cbfeb04a6b97e2dbfbad",
+      "macro_monthly.parquet": "c5d02a2dc6ac8fde5fa4a64b08c6a93201a365b81e8b78f42a3636da74c5f4d8",
+      "text/beigebook_202305.txt": "96f06b18df20126299a9b558bccc88b7ac0b9bb08161d720de5963af331042a0",
+      "text/bis_bowman_2023-03-14.txt": "fa1973a53d2d6d2b93c8c3ad653ebf275f78182fcc9b8d89632cef040de67017",
+      "text/bis_waller_2023-04-20.txt": "d9d277598c47dda31a3659041d5b06b8be9a9cb66272a2c271665f12cad59d2a",
+      "text/corpus_index.json": "f557e1337122a8d5935d550f3b086851aece4035e1234772dc2eb5f496ed0122",
+      "text/cpi_2022-11-10.txt": "494d4f77e0e9b4722b2d72cacaec3d8e8e1b60ec978aff70da46fe08878248bf",
+      "text/cpi_2023-06-13.txt": "862f233182a2b74748329e7664933a9f79beb642d23ffb58d4be980654fbe882",
+      "text/cpi_2023-07-12.txt": "b66a0936b627b36aaeeb075188cbd40ba54abb74e0d207acffb3e7f9ef08dca6",
+      "text/fomc_minutes_20230614_released_2023-07-05.txt": "a62dd36b0d3b0bba545cd257a10d8346d2003b68233229a1e193bd414764f2d2",
+      "text/fomc_statement_20230614.txt": "27f2f97d789b01f3212ea4916ecfcfc48d681a777bc9bd1cae7328dc9ddd6a44"
+    },
+    "official-nfp": {
+      "card.toml": "45caa13111ccc32b757422698c5791aa2bd3f7f2acb47c2533c0a14b855ab289",
+      "forecast_spec.json": "2addeee2d7928b9e8509f6e9a256e5065a623967c4d7818ee034c8093ac746f1",
+      "macro_monthly.parquet": "c3cec155193d5c71ce50ccf2bd280fe416a29d87ed65e9946513166785aec129",
+      "text/beigebook_202001.txt": "2c6c66f4da41ee6383237821882a0fc72ecae7ac78f286c994e5835466d82449",
+      "text/bis_panetta_2020-02-27.txt": "f3741b68afc6ad8d3577e2060a7c8fe576cfd2cef2477ae8bd751d1b64f4066a",
+      "text/bis_quarles_2020-01-17.txt": "66e293f950812f452ef39121ee5295eb1f6e0d183680c28d8a85ceece8f52e3a",
+      "text/corpus_index.json": "0321e35a933e6de5c3365bf3aa78f427218967a89ddc1ac4e465d787054520a5",
+      "text/empsit_2020-02-07.txt": "491a187605bf1c3ab1578b41704fde25fb96bc0239c1c8b96a62eb75e57e3b0c",
+      "text/empsit_2020-03-06.txt": "03e6c03e218df07b2eaec65eb3f01666af72406eaaf7dd84fca1befd44d556b7",
+      "text/fomc_statement_20200303.txt": "aa047e062aec77b4d24f9799556e860db0a2a2006cf746ab5b258c10ea899985",
+      "text/fomc_statement_20200315.txt": "d699b9078c1fc411ff9767975ad614a60d069ccc43276ae5d52b5ed99761e9ea",
+      "text/fomc_statement_20200323.txt": "2fd790603e5715d3a7d47441924851968df9ae57cb7cd99b0c08f57bd31465ef"
+    }
+  },
+  "determinism": {
+    "heterogeneous": true,
+    "heterogeneous-anchor": true,
+    "lagged-anchor": true,
+    "month-end": true,
+    "month-start": true,
+    "monthly-a": true,
+    "monthly-b": true,
+    "multi-monthly": true,
+    "nonconsecutive": true,
+    "official-cpi": true,
+    "official-nfp": true
+  },
+  "ab_original_run_id": "38796987425",
+  "forecast_processes": [
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-a",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "54a788253fe0d8ba5a5d137d333c58ac16080c58991cca9bc322ac104b102f8c"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "59cd9dc3413f7d360b25e1edc26f56401c0de54d0205c8142edaf0f492c91217"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190176,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0819511440000156,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-a",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "54a788253fe0d8ba5a5d137d333c58ac16080c58991cca9bc322ac104b102f8c"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "59cd9dc3413f7d360b25e1edc26f56401c0de54d0205c8142edaf0f492c91217"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190180,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0760577679999983,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-b",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10061,
+          "sha256": "0957ec825229cb5d9900653bcc2788524dc6efd9404769c8711d4fb25bcac522"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "ef5f3d1a4ce7659a415944870d5b40b27b50f6feee3e831317db8831dc8703c5"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "97764f3f40ca39ceeb75bfbb7bf4678d51a33ec3d4f1aedf17814dae1b93ebe2"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190380,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0878113559999747,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "sampling_step_union": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "monthly-b",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10061,
+          "sha256": "0957ec825229cb5d9900653bcc2788524dc6efd9404769c8711d4fb25bcac522"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "ef5f3d1a4ce7659a415944870d5b40b27b50f6feee3e831317db8831dc8703c5"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "97764f3f40ca39ceeb75bfbb7bf4678d51a33ec3d4f1aedf17814dae1b93ebe2"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 193124,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1100608109999826,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "sampling_step_union": [
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-cpi",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 15097,
+          "sha256": "afb8ebb7385263216e3f1dfc1fd0e68376fdbf2790a6840a820b4497dfcf2289"
+        },
+        "forecast_meta.json": {
+          "bytes": 1760,
+          "sha256": "b984a618272877223f81d26a5f058caf4d741d49b78bb42b42fbfaf11f9cf881"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2713,
+          "sha256": "7d4fe2a1aa5541d1f3afdae47396b7bb04bc81cdbe54c41c3f0117a37d47c477"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 194672,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1167684920000056,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            140,
+            160
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2023-05-01"
+          },
+          "numeric_observation_steps": [
+            8,
+            9
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            8,
+            9
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              8,
+              9
+            ]
+          ],
+          "sampling_step_union": [
+            8,
+            9
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            8.0,
+            9.0
+          ]
+        ],
+        "horizons": [
+          140,
+          160
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2023-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          2
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-cpi",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 15097,
+          "sha256": "afb8ebb7385263216e3f1dfc1fd0e68376fdbf2790a6840a820b4497dfcf2289"
+        },
+        "forecast_meta.json": {
+          "bytes": 1760,
+          "sha256": "b984a618272877223f81d26a5f058caf4d741d49b78bb42b42fbfaf11f9cf881"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2713,
+          "sha256": "7d4fe2a1aa5541d1f3afdae47396b7bb04bc81cdbe54c41c3f0117a37d47c477"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 192536,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1381624050000028,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            140,
+            160
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2023-05-01"
+          },
+          "numeric_observation_steps": [
+            8,
+            9
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            8,
+            9
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              8,
+              9
+            ]
+          ],
+          "sampling_step_union": [
+            8,
+            9
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            8.0,
+            9.0
+          ]
+        ],
+        "horizons": [
+          140,
+          160
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2023-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          2
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F4",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-nfp",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11478,
+          "sha256": "aa74f438ec8bb9b8c26fac7cf0bc881c2bbc15771f9c1be6404b42ed26e66a10"
+        },
+        "forecast_meta.json": {
+          "bytes": 2845,
+          "sha256": "1de74a6cfee4c38cf56c30026f9945fef27cea4faea1702c196dd4719209d721"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3155,
+          "sha256": "2d20c3b1d02abfe50aca7f20ec4cffc09376adcc442383ccaf024b62a31c30a5"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 191560,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.138515620000021,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            21
+          ],
+          "last_observation_dates": {
+            "NFP": "2020-02-01"
+          },
+          "numeric_observation_steps": [
+            2
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            2
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              2
+            ]
+          ],
+          "sampling_step_union": [
+            2
+          ]
+        },
+        "adjustment_applied": true,
+        "assets": [
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0
+          ]
+        ],
+        "horizons": [
+          21
+        ],
+        "latest_input_dates": {
+          "NFP": "2020-02-01"
+        },
+        "n_draws": 1000,
+        "shape": [
+          1000,
+          1
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F4",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "official-nfp",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11478,
+          "sha256": "aa74f438ec8bb9b8c26fac7cf0bc881c2bbc15771f9c1be6404b42ed26e66a10"
+        },
+        "forecast_meta.json": {
+          "bytes": 2845,
+          "sha256": "1de74a6cfee4c38cf56c30026f9945fef27cea4faea1702c196dd4719209d721"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3155,
+          "sha256": "2d20c3b1d02abfe50aca7f20ec4cffc09376adcc442383ccaf024b62a31c30a5"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 191568,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1171973400000184,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            21
+          ],
+          "last_observation_dates": {
+            "NFP": "2020-02-01"
+          },
+          "numeric_observation_steps": [
+            2
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            2
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              2
+            ]
+          ],
+          "sampling_step_union": [
+            2
+          ]
+        },
+        "adjustment_applied": true,
+        "assets": [
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            2.0
+          ]
+        ],
+        "horizons": [
+          21
+        ],
+        "latest_input_dates": {
+          "NFP": "2020-02-01"
+        },
+        "n_draws": 1000,
+        "shape": [
+          1000,
+          1
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "month-start",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1690,
+          "sha256": "fe9a93107eff6fcfe38cecec4341d8c352b748b076cebd5b4988ec2d725386f3"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2753,
+          "sha256": "c2726442e49265ad99b47e74b28b9b482b48869f79c9e23ec8566e9b93480ae6"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 193076,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0951249430000303,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "month-start",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1690,
+          "sha256": "fe9a93107eff6fcfe38cecec4341d8c352b748b076cebd5b4988ec2d725386f3"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2753,
+          "sha256": "c2726442e49265ad99b47e74b28b9b482b48869f79c9e23ec8566e9b93480ae6"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190192,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0924977409999883,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "month-end",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "a212c643c79169f64de9316c9d2a605dab60c000d63390746bd32b4cfc6825e9"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "be74303b1404f9aae2b0a01a5542f114b2b0f0e12fe55e3dcd78f7111c476365"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190540,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1230657220000353,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "month-end",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 10097,
+          "sha256": "5514a5e11a8ed53b1ae6da65b01d5346e38817de2733363d40b61185eebb0311"
+        },
+        "forecast_meta.json": {
+          "bytes": 1688,
+          "sha256": "a212c643c79169f64de9316c9d2a605dab60c000d63390746bd32b4cfc6825e9"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2751,
+          "sha256": "be74303b1404f9aae2b0a01a5542f114b2b0f0e12fe55e3dcd78f7111c476365"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190388,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.090043693000041,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "lagged-anchor",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 17983,
+          "sha256": "1a84e216caf5959625799c3152344247b5b391e95f0be26f061fa7cbf9b6e7a7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1692,
+          "sha256": "033205aefa4dd3203477071e87bfd6c9448a1d43bebcc0ed0ef4c674f7219b38"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2754,
+          "sha256": "67f25878f7a4ba4024d8ce16853aa1f55be2fda987cca5f90bbde69012ea15d2"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 192684,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1058524179999836,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-05-01"
+          },
+          "numeric_observation_steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              4,
+              5,
+              6,
+              7
+            ]
+          ],
+          "sampling_step_union": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "lagged-anchor",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 17983,
+          "sha256": "1a84e216caf5959625799c3152344247b5b391e95f0be26f061fa7cbf9b6e7a7"
+        },
+        "forecast_meta.json": {
+          "bytes": 1692,
+          "sha256": "033205aefa4dd3203477071e87bfd6c9448a1d43bebcc0ed0ef4c674f7219b38"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2754,
+          "sha256": "67f25878f7a4ba4024d8ce16853aa1f55be2fda987cca5f90bbde69012ea15d2"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 192664,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.10598517599999,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-05-01"
+          },
+          "numeric_observation_steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              4,
+              5,
+              6,
+              7
+            ]
+          ],
+          "sampling_step_union": [
+            4,
+            5,
+            6,
+            7
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            4.0,
+            5.0,
+            6.0,
+            7.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-05-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "nonconsecutive",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 17863,
+          "sha256": "6d236e006f5cbcb622ba72f6fbb1ae2f28b67fd1e1240737c23bcf362fb8956d"
+        },
+        "forecast_meta.json": {
+          "bytes": 1697,
+          "sha256": "8e2563fa70afaefcc1372472ea82d1d5efe958d4d9208f35f1f3799ddac726eb"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2760,
+          "sha256": "d34f95ffa915f7197c752fcea644173ad1943bfcfa1ce015c3417a483db34ed6"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 190332,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.081296930999997,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            3,
+            6,
+            10
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            3,
+            6,
+            10
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              3,
+              6,
+              10
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            3,
+            6,
+            10
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            3.0,
+            6.0,
+            10.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F1",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "nonconsecutive",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 17863,
+          "sha256": "6d236e006f5cbcb622ba72f6fbb1ae2f28b67fd1e1240737c23bcf362fb8956d"
+        },
+        "forecast_meta.json": {
+          "bytes": 1697,
+          "sha256": "8e2563fa70afaefcc1372472ea82d1d5efe958d4d9208f35f1f3799ddac726eb"
+        },
+        "forecast_rationale.md": {
+          "bytes": 2760,
+          "sha256": "d34f95ffa915f7197c752fcea644173ad1943bfcfa1ce015c3417a483db34ed6"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 192140,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0761623939999936,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            3,
+            6,
+            10
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            3,
+            6,
+            10
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              3,
+              6,
+              10
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            3,
+            6,
+            10
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            3.0,
+            6.0,
+            10.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          4
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "multi-monthly",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11994,
+          "sha256": "555e3c7847bf4ac3df6f7bd48f69fafa71baa8fb990bd1c992eb867e352f635f"
+        },
+        "forecast_meta.json": {
+          "bytes": 1718,
+          "sha256": "cfaf55c3acca8292b5784752a021711ee2a397b641e3249f6c15ae6a6ea36eea"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3115,
+          "sha256": "3d7a3b488d6ed86604203523ba49985fa2d1fbb1e0b434e996c917bc31bf7fcf"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 196684,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.129902527000013,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "multi-monthly",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11994,
+          "sha256": "555e3c7847bf4ac3df6f7bd48f69fafa71baa8fb990bd1c992eb867e352f635f"
+        },
+        "forecast_meta.json": {
+          "bytes": 1718,
+          "sha256": "cfaf55c3acca8292b5784752a021711ee2a397b641e3249f6c15ae6a6ea36eea"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3115,
+          "sha256": "3d7a3b488d6ed86604203523ba49985fa2d1fbb1e0b434e996c917bc31bf7fcf"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 196172,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1370452219999834,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              1,
+              2,
+              3,
+              4
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "heterogeneous",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 16330,
+          "sha256": "5227aee590514e4d8960fde74c07ffdbd0069f9ad5c2824dac9d794443a6f87d"
+        },
+        "forecast_meta.json": {
+          "bytes": 1838,
+          "sha256": "c5085aa2639486ad36c8aacbbeaeb01b563b7775b1751de29ff2f41c602b8b57"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3143,
+          "sha256": "f8e9eeb2ef5418f66b68bf6e1dc200c7207df9a9f3d13bb8eac5e17050ffa518"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 196956,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.124477237999997,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              5,
+              6
+            ]
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              5,
+              6
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            2.0,
+            4.0,
+            5.0,
+            6.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "heterogeneous",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 16330,
+          "sha256": "5227aee590514e4d8960fde74c07ffdbd0069f9ad5c2824dac9d794443a6f87d"
+        },
+        "forecast_meta.json": {
+          "bytes": 1838,
+          "sha256": "c5085aa2639486ad36c8aacbbeaeb01b563b7775b1751de29ff2f41c602b8b57"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3143,
+          "sha256": "f8e9eeb2ef5418f66b68bf6e1dc200c7207df9a9f3d13bb8eac5e17050ffa518"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 194024,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.11147846800003,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-08-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              5,
+              6
+            ]
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              4,
+              5,
+              6
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            2.0,
+            4.0,
+            5.0,
+            6.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-08-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "heterogeneous-anchor",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11854,
+          "sha256": "ebfef82f5b098d59d92f46f2f71ab0b1549ec423547fdcba7f76e082fa8a2911"
+        },
+        "forecast_meta.json": {
+          "bytes": 1827,
+          "sha256": "028e3d65ed4205ff617a32df3e26daea99127a8811fc00a38c143f6bf5c2fe21"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3144,
+          "sha256": "8d8e9946a8eb9f5d980d74ccf61f26051206482ae60bfd215c3c8aaa8aa22d95"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 194756,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.126203776000011,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-07-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-07-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": false,
+      "family": "T2-F3",
+      "forecast_exit_code": 0,
+      "memory_limit": "4g",
+      "name": "heterogeneous-anchor",
+      "network": "none",
+      "output_files": {
+        "forecast.parquet": {
+          "bytes": 11854,
+          "sha256": "ebfef82f5b098d59d92f46f2f71ab0b1549ec423547fdcba7f76e082fa8a2911"
+        },
+        "forecast_meta.json": {
+          "bytes": 1827,
+          "sha256": "028e3d65ed4205ff617a32df3e26daea99127a8811fc00a38c143f6bf5c2fe21"
+        },
+        "forecast_rationale.md": {
+          "bytes": 3144,
+          "sha256": "8d8e9946a8eb9f5d980d74ccf61f26051206482ae60bfd215c3c8aaa8aa22d95"
+        }
+      },
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 192288,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 2,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.1071934970000257,
+      "validation": {
+        "actual_monthly_mapping": {
+          "authored_horizon_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "last_observation_dates": {
+            "CPI_ALL": "2018-08-01",
+            "NFP": "2018-07-01"
+          },
+          "numeric_observation_steps": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "numeric_period_business_days": 22,
+          "observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "official_helper_source": "f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
+          "output_keys_preserved": true,
+          "per_asset_observation_steps": [
+            [
+              1,
+              2,
+              3,
+              4
+            ],
+            [
+              2,
+              3,
+              4,
+              5
+            ]
+          ],
+          "sampling_step_union": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        },
+        "adjustment_applied": false,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "current_schema_pass": true,
+        "cutoff_pass": true,
+        "expected_monthly_steps": [
+          [
+            1.0,
+            2.0,
+            3.0,
+            4.0
+          ],
+          [
+            2.0,
+            3.0,
+            4.0,
+            5.0
+          ]
+        ],
+        "horizons": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "latest_input_dates": {
+          "CPI_ALL": "2018-08-01",
+          "NFP": "2018-07-01"
+        },
+        "n_draws": 500,
+        "shape": [
+          500,
+          8
+        ],
+        "valid": true
+      }
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "monthly-missing",
+      "network": "none",
+      "observed_error": "Monthly target periods are missing; request the task's explicit observation-period mapping.\nFF03_RESOURCE={\"peak_rss_kib\": 188080}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 188080,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.067497731000003,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "monthly-conflict",
+      "network": "none",
+      "observed_error": "Conflicting monthly observation periods; correct the task inputs.\nFF03_RESOURCE={\"peak_rss_kib\": 185560}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 185560,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0339919559999657,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "duplicate-mapping",
+      "network": "none",
+      "observed_error": "Each monthly question must have a unique grid key.\nFF03_RESOURCE={\"peak_rss_kib\": 185784}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 185784,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.0439474159999804,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "malformed",
+      "network": "none",
+      "observed_error": "The observation period or date label is invalid.\nFF03_RESOURCE={\"peak_rss_kib\": 188144}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 188144,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.03152275299999,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "duplicate-observations",
+      "network": "none",
+      "observed_error": "Monthly target series need unique monthly observations.\nFF03_RESOURCE={\"peak_rss_kib\": 187312}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 187312,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.070285104999982,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F1",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "duplicate-no-mapping",
+      "network": "none",
+      "observed_error": "Monthly target series need unique monthly observations.\nFF03_RESOURCE={\"peak_rss_kib\": 187916}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 187916,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.082342935999975,
+      "validation": {}
+    },
+    {
+      "cpu_limit": 2,
+      "credential_pattern_leakage": false,
+      "expected_failure": true,
+      "family": "T2-F3",
+      "forecast_exit_code": 1,
+      "memory_limit": "4g",
+      "name": "mixed-cadence",
+      "network": "none",
+      "observed_error": "Monthly target series need unique monthly observations.\nFF03_RESOURCE={\"peak_rss_kib\": 186136}\n",
+      "output_files": {},
+      "pass": true,
+      "peak_memory": "MEASURED_CHILD_RUSAGE",
+      "peak_rss_kib": 186136,
+      "read_only_input": true,
+      "read_only_root": true,
+      "repetition": 1,
+      "runtime_limit_seconds": 90,
+      "wall_seconds": 2.075896876999991,
+      "validation": {}
+    }
+  ]
+}

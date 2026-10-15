@@ -1,0 +1,28 @@
+{
+  "executive_summary": "Inherited broad CI errors reproduced at parent and candidate checkpoints; no claim of full repository PASS.",
+  "parent_ci": 38795936637,
+  "candidate_ci": 38798442040,
+  "same_collection_test_ids": true,
+  "collection_errors_count": 61,
+  "missing_dependencies": [
+    "scikit-learn",
+    "requests",
+    "beautifulsoup4"
+  ],
+  "python": "3.13.16 in both CI logs",
+  "lint_errors_parent": 2288,
+  "lint_errors_candidate": 2288,
+  "production_image_contains_research_modules": false,
+  "scope": "Candidate image retains only the original 26 production files; sklearn/bs4 research modules are not shipped. Related frozen image tests are separate.",
+  "missing_dependencies_parent": [
+    "bs4",
+    "requests",
+    "sklearn"
+  ],
+  "missing_dependencies_candidate": [
+    "bs4",
+    "requests",
+    "sklearn"
+  ],
+  "same_successfully_installed_dependency_lines": true
+}

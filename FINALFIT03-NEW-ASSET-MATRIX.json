@@ -1,0 +1,36 @@
+{
+  "executive_summary": "Only demonstrated scope is passed; announcement asset labels are not invented card schemas.",
+  "official_source_sha": "b9c663d239a0e6b86ebd3f3f2d5aead88516067d",
+  "rows": [
+    {
+      "group": "Existing UST_2Y/5Y/10Y/30Y",
+      "status": "TRUE",
+      "scope": "Synthetic daily 1\u20134 BD, exact original/candidate equality"
+    },
+    {
+      "group": "UST 3M/6M/1Y",
+      "status": "BLOCKED",
+      "reason": "No published canonical new practice identifiers/panels"
+    },
+    {
+      "group": "ECB G10",
+      "status": "BLOCKED",
+      "reason": "Quote convention verified as practice-compatible USD quotes. EUR/JPY native quote fixtures pass; actual ECB Final input cards not yet published."
+    },
+    {
+      "group": "EM FX",
+      "status": "BLOCKED",
+      "reason": "Existing BRL/INR fixtures pass. New MXN/ZAR/KRW canonical card metadata and ECB input fixtures unavailable."
+    },
+    {
+      "group": "CPI/NFP monthly",
+      "status": "TRUE",
+      "scope": "Public existing inputs plus synthetic official-contract tests; includes F3 multi-asset and heterogeneous step/anchor mapping"
+    },
+    {
+      "group": "GDP/jobless claims/new releases",
+      "status": "BLOCKED",
+      "reason": "Actual target IDs, release/vintage representation and cadence not published"
+    }
+  ]
+}

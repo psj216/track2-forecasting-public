@@ -1,0 +1,56 @@
+{
+  "executive_summary": "All 41 final standalone runtime expectations pass; 33 zero exits include one deliberately contaminated filtering probe, and 8 are correct refusals.",
+  "run_id": 38798442114,
+  "source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "base_image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "standalone": true,
+  "forecast_host_python_mounts": false,
+  "source_identity_verified": true,
+  "summary": {
+    "processes": 41,
+    "expectations_pass": 41,
+    "expectations_failed": 0,
+    "exit_zero": 33,
+    "correct_nonzero_refusals": 8,
+    "max_wall_seconds": 2.138515620000021,
+    "max_forecast_peak_rss_kib": 200608,
+    "max_output_total_bytes": 41258
+  },
+  "valid_normal_forecasts": 32,
+  "adversarial_filtering_probe": 1,
+  "resource_limits": {
+    "cpu": 2,
+    "memory": "4 GiB",
+    "tmpfs": "/tmp,512 MiB",
+    "network": "none",
+    "read_only_root": true,
+    "read_only_input": true,
+    "pids_limit": 256,
+    "per_process_timeout_seconds": 90,
+    "official_per_unit_seconds": 1800,
+    "official_whole_run_seconds": 43200,
+    "actual_full_final_batch": "UNKNOWN"
+  },
+  "peak_rss_measurement": "Linux resource.getrusage(RUSAGE_CHILDREN).ru_maxrss measured for each forecast child; this is process RSS, not cgroup peak memory.",
+  "official_cli": [
+    {
+      "exit_code": 0,
+      "stdout": "OK   card /input\n",
+      "stderr": ""
+    },
+    {
+      "exit_code": 0,
+      "stdout": "OK   card /input\n",
+      "stderr": ""
+    }
+  ],
+  "artifacts": {
+    "build_receipt": 12002703010,
+    "image_archive": 12003002655,
+    "daily": 12003925970,
+    "monthly": 12003067939,
+    "regression": 12002817997
+  },
+  "original_baseline_reuse_explicit": true
+}

@@ -1,80 +1,99 @@
 {
-  "executive_summary": "Fresh standalone original/candidate daily comparison; all produced files identical including metadata and rationale.",
-  "run_id": 38796987425,
+  "executive_summary": "Final standalone candidate daily outputs, metadata and rationale are byte-identical to the unchanged original on exactly identical inputs.",
+  "candidate_run": 38798442114,
+  "candidate_source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "original_run": 38796987425,
+  "original_reused": true,
+  "comparison_environment": "Same pinned immutable original runtime/base and identical fixtures; original receipt reused from prior runner. First standalone build also ran a same-run original/candidate A/B; both were identical.",
+  "exact_inputs": true,
+  "all_files_identical": true,
   "rows": [
     {
       "name": "f1-ust",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f1-ust",
       "repetition": 2,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f2-eur",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f2-eur",
       "repetition": 2,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f3-ust",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f3-ust",
       "repetition": 2,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f4-jpy",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f4-jpy",
       "repetition": 2,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f3-em",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "f3-em",
       "repetition": 2,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "future-sentinel",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     },
     {
       "name": "missing-history",
       "repetition": 1,
-      "same_outputs": true,
+      "same_files": true,
       "same_exit": true
     }
   ],
-  "all_identical": true,
-  "original_input_manifest_identical": true
+  "fresh_candidate_processes": 12,
+  "correct_missing_history_refusal": 1,
+  "post_cutoff_sentinel_filtered": true,
+  "determinism": {
+    "f1-ust": true,
+    "f2-eur": true,
+    "f3-em": true,
+    "f3-ust": true,
+    "f4-jpy": true
+  },
+  "official_v261_card_cli": {
+    "exit_code": 0,
+    "stdout": "OK   card /input\n",
+    "stderr": ""
+  }
 }

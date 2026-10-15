@@ -1,0 +1,495 @@
+{
+  "executive_summary": "Standalone monthly boundaries pass after preserved RED findings; successful refusals are not successful forecasts.",
+  "run_id": 38798442114,
+  "source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "monthly_processes": 29,
+  "expected_positive_processes": 22,
+  "correct_refusals": 7,
+  "expectations_pass": 29,
+  "expectations_fail": 0,
+  "semantic_assertions": [
+    {
+      "file": "backtesting/finalfit02/test_monthly_contract.py",
+      "exit_code": 0,
+      "results": {
+        "tests": {
+          "explicit_observation_mapping_changes_forecast": true,
+          "distinct_monthly_steps_produce_distinct_forecasts": true,
+          "missing_monthly_mapping_is_rejected": true,
+          "conflicting_monthly_mapping_is_rejected": true
+        },
+        "passed": 4,
+        "failed": 0
+      }
+    },
+    {
+      "file": "backtesting/finalfit03/test_release_boundaries.py",
+      "exit_code": 0,
+      "results": {
+        "monthly_f3_multiple_assets_complete": true,
+        "heterogeneous_target_grids_complete": true,
+        "heterogeneous_anchors_complete": true,
+        "duplicate_monthly_without_mapping_refuses": true
+      }
+    }
+  ],
+  "kernel_checks": [
+    {
+      "name": "monthly-a",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "monthly-b",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.5405490049156092,
+            0.784364611773678,
+            0.9895209412774653,
+            1.1440354565445996
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "month-start",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "month-end",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492,
+            0.967624421849811
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "lagged-anchor",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "monthly_union": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cell_std": [
+          [
+            0.9263436129267352,
+            1.0864826438720157,
+            1.1083092389193192,
+            1.1930479228092108
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "nonconsecutive",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            3,
+            6,
+            10
+          ]
+        ],
+        "monthly_union": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "cell_std": [
+          [
+            0.2627228086202086,
+            0.7555040210288231,
+            1.1543278305577513,
+            1.622118406853163
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "multi-monthly",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.27173386629828067,
+            0.5327832275796056,
+            0.7688783875492001,
+            0.9676244218498118
+          ],
+          [
+            135.86693314914095,
+            266.3916137898041,
+            384.43919377460116,
+            483.8122109249075
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "heterogeneous",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            4,
+            5,
+            6
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "cell_std": [
+          [
+            0.2627228086202086,
+            0.518773215730486,
+            0.7555040210288233,
+            0.9601261859632672
+          ],
+          [
+            259.3866078652434,
+            480.0630929816345,
+            560.6536305128406,
+            577.1639152788764
+          ]
+        ],
+        "covariance_exact": true
+      }
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "exit_code": 0,
+      "result": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.2732097352577181,
+            0.5397632064327847,
+            0.7839162094517798,
+            0.9907573385107682
+          ],
+          [
+            269.8816032163935,
+            391.9581047258919,
+            495.378669255385,
+            574.2059771244441
+          ]
+        ],
+        "covariance_exact": true
+      }
+    }
+  ],
+  "first_standalone_red": {
+    "executive_summary": "First standalone image RED findings, before any FF03 runtime repair.",
+    "source_sha": "81b9c692c0c49943255fb32e804ac92674891ca3",
+    "run_id": 38796987425,
+    "processes": 29,
+    "expectations_pass": 22,
+    "failed": [
+      {
+        "name": "multi-monthly",
+        "repetition": 1,
+        "forecast_exit_code": 1,
+        "observed_error": "Traceback (most recent call last):\n  File \"/opt/finalfit03/candidate_monthly.py\", line 204, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 189, in main\n    result = cli.main(argv)\n  File \"/opt/qfbench2_track_forecasting/cli.py\", line 491, in main\n    adjusted, head_meta = apply_text_first_v5(\n                          ~~~~~~~~~~~~~~~~~~~^\n        samples,\n        ^^^^^^^^\n    ...<12 lines>...\n        interpreter_version=\"v5.1\" if forecast_mode == \"text-first-v5.1\" else \"v5\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 152, in apply\n    history_steps = _history_steps(histories, assets, target_type, asof)\n  File \"/opt/qfbench2_track_forecasting/integrated_v4.py\", line 51, in _history_steps\n    series = histories[asset].sort_index().astype(float)\n             ~~~~~~~~~^^^^^^^\nKeyError: 'CPI_ALL'\nFF03_RESOURCE={\"peak_rss_kib\": 191516}\n",
+        "validation_error": null
+      },
+      {
+        "name": "multi-monthly",
+        "repetition": 2,
+        "forecast_exit_code": 1,
+        "observed_error": "Traceback (most recent call last):\n  File \"/opt/finalfit03/candidate_monthly.py\", line 204, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 189, in main\n    result = cli.main(argv)\n  File \"/opt/qfbench2_track_forecasting/cli.py\", line 491, in main\n    adjusted, head_meta = apply_text_first_v5(\n                          ~~~~~~~~~~~~~~~~~~~^\n        samples,\n        ^^^^^^^^\n    ...<12 lines>...\n        interpreter_version=\"v5.1\" if forecast_mode == \"text-first-v5.1\" else \"v5\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 152, in apply\n    history_steps = _history_steps(histories, assets, target_type, asof)\n  File \"/opt/qfbench2_track_forecasting/integrated_v4.py\", line 51, in _history_steps\n    series = histories[asset].sort_index().astype(float)\n             ~~~~~~~~~^^^^^^^\nKeyError: 'CPI_ALL'\nFF03_RESOURCE={\"peak_rss_kib\": 191876}\n",
+        "validation_error": null
+      },
+      {
+        "name": "heterogeneous",
+        "repetition": 1,
+        "forecast_exit_code": 1,
+        "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184924}\n",
+        "validation_error": null
+      },
+      {
+        "name": "heterogeneous",
+        "repetition": 2,
+        "forecast_exit_code": 1,
+        "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184612}\n",
+        "validation_error": null
+      },
+      {
+        "name": "heterogeneous-anchor",
+        "repetition": 1,
+        "forecast_exit_code": 1,
+        "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 185208}\n",
+        "validation_error": null
+      },
+      {
+        "name": "heterogeneous-anchor",
+        "repetition": 2,
+        "forecast_exit_code": 1,
+        "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184888}\n",
+        "validation_error": null
+      },
+      {
+        "name": "duplicate-no-mapping",
+        "repetition": 1,
+        "forecast_exit_code": 0,
+        "observed_error": "Legacy dense-daily input declared monthly; original daily-cadence behavior retained.\nFF03_RESOURCE={\"peak_rss_kib\": 190328}\n",
+        "validation_error": null
+      }
+    ],
+    "daily_ab": "All produced files identical; preserved in FINALFIT03-DAILY-AB.json",
+    "regression": "35 original + 35 candidate frozen tests passed; official helper tests passed",
+    "allowed_repair": "Wrapper cadence guard, explicit monthly-step selection and frozen-family bypass only; no original model changes."
+  },
+  "publication_vs_observation": "Start/end day labels for the same observation month produce identical parquet. No release day is inferred from an observation month.",
+  "vintage": "Organizer manifests declare as-of ALFRED inputs and separate target vintages. No target values or revisions are substituted by the wrapper.",
+  "helper_blob": "04650003bac311fd5c0cee7cb2c8d17484ddcbe6"
+}

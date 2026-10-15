@@ -1,0 +1,14 @@
+{
+  "executive_summary": "No new practice publication found; no scoring, target reading or tuning.",
+  "status": "NOT_RUN",
+  "publication_status": "PRACTICE_NOT_YET_PUBLISHED",
+  "exposure_label_if_future_scoring": "EXPOSED_PRACTICE_DIAGNOSTIC",
+  "marginal_crps": null,
+  "joint_variogram": null,
+  "tail_pinball": null,
+  "official_composite": null,
+  "M0_normalization": "NOT_RUN",
+  "independent_alpha_verified": "UNKNOWN",
+  "future_tool": "backtesting/finalfit03/replay_practice.py",
+  "future_tool_execution": "NOT_RUN_NEW_PRACTICE_ABSENT"
+}
