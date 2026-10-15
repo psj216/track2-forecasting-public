@@ -1,0 +1,100 @@
+# Executive summary: standalone local build and secret-free validation; no registry push.
+name: FinalFit03 Standalone Monthly Release
+on:
+  push:
+    branches: [track2/final-fit-03-monthly-repair-release]
+    paths:
+      - '.github/workflows/finalfit03-release.yml'
+      - 'backtesting/finalfit03/Dockerfile'
+      - 'backtesting/finalfit03/*.py'
+permissions:
+  contents: read
+concurrency:
+  group: finalfit03-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Frozen source recovery
+        run: |
+          timeout 60 git fetch --no-tags origin 47194f28d5188b87cdca1d591d86b9eeda86f7cf
+          mkdir frozen-safe
+          git archive 47194f28d5188b87cdca1d591d86b9eeda86f7cf | tar -x -C frozen-safe
+          test "$(git rev-parse 47194f28d5188b87cdca1d591d86b9eeda86f7cf^{tree})" = f2f9163372ab179c3e58a0dbac00acee119a41cf
+      - name: Build standalone candidate and inspect internal source
+        run: timeout 510 python3 backtesting/finalfit03/build_image.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: ff03-build-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/ff03-build/*.json
+            ${{ runner.temp }}/ff03-build/*.log
+          if-no-files-found: error
+          retention-days: 30
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: ff03-image-${{ github.run_id }}
+          path: ${{ runner.temp }}/ff03-build/candidate-image.tar.gz
+          compression-level: 0
+          if-no-files-found: error
+          retention-days: 30
+  tests:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [daily, monthly, regression]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/track2-forecasting-public
+          ref: b9c663d239a0e6b86ebd3f3f2d5aead88516067d
+          path: official-current
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/Agenthon2026-public
+          ref: 03c50a0036aaf72675d353aef4c7c01ca86d1fcf
+          path: common-current
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: ff03-image-${{ github.run_id }}
+          path: ${{ runner.temp }}/image
+      - name: Restore original source and standalone image
+        run: |
+          timeout 60 git fetch --no-tags origin 47194f28d5188b87cdca1d591d86b9eeda86f7cf
+          mkdir frozen-safe
+          git archive 47194f28d5188b87cdca1d591d86b9eeda86f7cf | tar -x -C frozen-safe
+          timeout 120 bash -o pipefail -c 'gzip -dc "$RUNNER_TEMP/image/candidate-image.tar.gz" | docker load'
+          timeout 150 docker pull docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874
+      - name: Original versus standalone candidate regression
+        run: |
+          if [ '${{ matrix.group }}' = regression ]; then
+            timeout 510 python3 backtesting/finalfit03/regression.py
+          else
+            timeout 240 python3 backtesting/finalfit03/docker_validate.py --group '${{ matrix.group }}' --out "$RUNNER_TEMP/ff03-original"
+            timeout 240 python3 backtesting/finalfit03/docker_validate.py --candidate --group '${{ matrix.group }}' --out "$RUNNER_TEMP/ff03-candidate"
+          fi
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: ff03-tests-${{ matrix.group }}-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/ff03-original
+            ${{ runner.temp }}/ff03-candidate
+            ${{ runner.temp }}/ff03-regression/*.json
+            ${{ runner.temp }}/ff03-regression/*.log
+          if-no-files-found: error
+          retention-days: 30

@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Reuse the exact prior synthetic card UUIDs for original/candidate A/B inputs; every UUID is v4 and unique within a matrix.",
+  "daily": {
+    "f3-ust": "1e565e4d-4910-4735-9a8e-d35cc6e6cc63",
+    "f4-jpy": "b1893b84-9bd7-4718-ace4-b473126c933b",
+    "future-sentinel": "c22fe097-e70c-4be5-adc6-eadc7cc576d3",
+    "monthly-missing": "f6fc919a-4c9e-4143-96bf-0b572adcd8f2",
+    "missing-history": "b9bdd65f-c332-4f87-98ff-72882e68801f",
+    "monthly-conflict": "59d4345e-3464-41ee-ba68-48cdc561e085",
+    "f1-ust": "689d7c46-b9fd-45de-a592-f1f187f58ea7",
+    "monthly-b": "e1b76fbc-5a7c-4540-b2c9-d21da61dfe70",
+    "f2-eur": "4fa4ce6f-6031-4eb0-bfe9-f5b14c955305",
+    "monthly-a": "6228fe2f-a644-472f-b36a-ab4f37ba2229",
+    "f3-em": "571e0f22-2e02-49e3-855e-5f0b46940933"
+  },
+  "monthly": {
+    "f3-ust": "cac01e99-c78f-426e-95bf-519f4ad364d3",
+    "f4-jpy": "4abc3197-2016-46df-a786-276e9d47fe5d",
+    "future-sentinel": "e456dfa7-284a-474f-9f06-bd9966748814",
+    "monthly-missing": "8062c6d9-c803-4510-8baa-cff1e2fd2865",
+    "missing-history": "835eadc2-5e15-4948-a0b0-99bfc0dfcc11",
+    "monthly-conflict": "13c96330-d32c-4f1e-a924-11acd75a9bf1",
+    "f1-ust": "8a93d3a9-f4c4-48bd-b24d-d6ab3ef1582e",
+    "monthly-b": "9576f40e-0c85-4d00-9b92-775f934cdd95",
+    "f2-eur": "73935669-34d9-4674-8f76-443cedacd98a",
+    "monthly-a": "4001f4a3-7914-4f38-84c7-0b0942b42d4a",
+    "f3-em": "68685363-b3c5-4f09-9cf9-1af9249f31ff"
+  }
+}
