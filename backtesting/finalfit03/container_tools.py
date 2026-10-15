@@ -301,6 +301,12 @@ def validate(out, unit):
             card=card,
             forecast_spec=spec,
         ).tolist()
+    mapping = meta.get("monthly_horizon_mapping")
+    if monthly is not None and mapping is not None:
+        actual_steps = mapping.get("per_asset_observation_steps")
+        if actual_steps is None:
+            actual_steps = [mapping["numeric_observation_steps"]] * len(grid.assets)
+        assert np.array_equal(np.asarray(actual_steps), np.asarray(monthly))
     values = pd.read_parquet(out / "forecast.parquet")
     statistics = (
         values.groupby(["asset", "horizon"])["value"]

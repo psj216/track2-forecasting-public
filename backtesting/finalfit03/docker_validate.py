@@ -362,9 +362,9 @@ def main():
                 )
         evidence["completed"] = True
         if args.candidate:
-            baseline = json.loads(
-                (TOOLS / "results" / ("safe-" + args.group + "-receipt.json")).read_text()
-            )
+            baseline_path = TOOLS / "results" / ("baseline-current-" + args.group + ".json")
+            baseline = json.loads(baseline_path.read_text())
+            evidence["ab_original_run_id"] = baseline["run_id"]
             before = {x["name"]: x for x in baseline["forecast_processes"] if x["repetition"] == 1}
             after = {x["name"]: x for x in evidence["forecast_processes"] if x["repetition"] == 1}
             evidence["ab_parquet_identical"] = {

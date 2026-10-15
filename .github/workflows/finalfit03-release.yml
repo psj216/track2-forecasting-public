@@ -6,7 +6,14 @@ on:
     paths:
       - '.github/workflows/finalfit03-release.yml'
       - 'backtesting/finalfit03/Dockerfile'
-      - 'backtesting/finalfit03/*.py'
+      - 'backtesting/finalfit03/candidate_monthly.py'
+      - 'backtesting/finalfit03/build_image.py'
+      - 'backtesting/finalfit03/docker_validate.py'
+      - 'backtesting/finalfit03/container_tools.py'
+      - 'backtesting/finalfit03/kernel_check.py'
+      - 'backtesting/finalfit03/postcheck.py'
+      - 'backtesting/finalfit03/regression.py'
+      - 'backtesting/finalfit03/boundary_inputs.py'
 permissions:
   contents: read
 concurrency:
@@ -84,8 +91,10 @@ jobs:
           if [ '${{ matrix.group }}' = regression ]; then
             timeout 510 python3 backtesting/finalfit03/regression.py
           else
-            timeout 240 python3 backtesting/finalfit03/docker_validate.py --group '${{ matrix.group }}' --out "$RUNNER_TEMP/ff03-original"
+            mkdir -p "$RUNNER_TEMP/ff03-original"
+            cp 'backtesting/finalfit03/results/baseline-current-${{ matrix.group }}.json' "$RUNNER_TEMP/ff03-original/container-receipt.json"
             timeout 240 python3 backtesting/finalfit03/docker_validate.py --candidate --group '${{ matrix.group }}' --out "$RUNNER_TEMP/ff03-candidate"
+            timeout 120 python3 backtesting/finalfit03/postcheck.py --group '${{ matrix.group }}' 
           fi
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()

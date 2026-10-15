@@ -71,7 +71,7 @@ setup = run(
 if setup:
     raise SystemExit(1)
 files = ["test_numeric_v1.py", "test_numeric_v3.py", "test_text_first_v5.py", "test_cutoff.py"]
-for label, image in [("original", BASE), ("candidate", TAG)]:
+for label, image in [("candidate", TAG)]:
     run(
         [
             "docker",

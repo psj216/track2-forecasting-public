@@ -2,7 +2,7 @@
 Isolated candidate entrypoint for the official explicit-month horizon contract.
 The original package, immutable image, model constants and daily route are unchanged.
 Only monthly sampling lengths are translated; original authored keys remain in outputs.
-Different per-asset step grids fail explicitly rather than invent a joint adaptation.
+Per-asset monthly cells select from the unchanged kernel on the union of required steps.
 """
 
 from __future__ import annotations
@@ -56,29 +56,35 @@ def main(argv=None):
     keys = card["targets"]["horizons"]
     panels = cli._read_panels(args.panels)
     histories = {a: cli._series(panels, a, args.asof) for a in assets}
-    dense = []
-    for history in histories.values():
-        dates = pd.DatetimeIndex(history.index)
-        dense.append(len(dates.to_period("M").unique()) != len(dates))
-    explicit = any(
-        field in source.get("targets", {})
-        for source in (card, spec or {})
-        for field in ["observation_periods", "target_dates"]
-    ) or any(
-        q.get("observation_period") or q.get("target_date")
-        for q in (spec or {}).get("questions", [])
-    )
-    if any(dense):
-        if all(dense) and not explicit:
-            print(
-                "Legacy dense-daily input declared monthly; "
-                "original daily-cadence behavior retained.",
-                file=sys.stderr,
-            )
-            return cli.main(argv)
-        raise SystemExit(
-            "Monthly mapping requires one observation per month for every target asset."
+
+    def daily_cadence(history):
+        dates = pd.DatetimeIndex(pd.to_datetime(history.index))
+        if len(dates) < 30 or dates.has_duplicates:
+            return False
+        gaps = np.diff(dates.to_numpy()).astype("timedelta64[D]").astype(float)
+        per_month = pd.Series(1, index=dates.to_period("M")).groupby(level=0).sum()
+        return bool(0 < np.median(gaps) <= 3 and per_month.median() >= 8)
+
+    explicit_periods = any(
+        "observation_periods" in source.get("targets", {}) for source in (card, spec or {})
+    ) or any(q.get("observation_period") for q in (spec or {}).get("questions", []))
+    if all(daily_cadence(history) for history in histories.values()):
+        if explicit_periods:
+            raise SystemExit("Monthly observation periods conflict with daily target observations.")
+        print(
+            "Legacy dense-daily input declared monthly; daily sampling retained.", file=sys.stderr
         )
+        return cli.main(argv)
+    if card["targets"].get("target_type", "level") != "level":
+        raise SystemExit("Explicit monthly mapping requires monthly level targets.")
+    for history in histories.values():
+        periods = pd.DatetimeIndex(history.index).to_period("M")
+        if periods.has_duplicates or len(periods) < 3:
+            raise SystemExit("Monthly target series need unique monthly observations.")
+        if not np.isfinite(history.to_numpy()).all():
+            raise SystemExit("Monthly target observations must be finite.")
+        if np.median(np.diff(periods.asi8)) != 1:
+            raise SystemExit("The selected target series do not have monthly cadence.")
     try:
         monthly = monthly_horizon_steps(
             assets,
@@ -90,12 +96,13 @@ def main(argv=None):
         ).astype(int)
     except HorizonMetadataError as error:
         raise SystemExit(str(error)) from None
-    if not np.all(monthly == monthly[0]):
-        raise SystemExit(
-            "Different per-asset monthly step grids require separate validation; "
-            "unsupported by this minimal candidate."
-        )
-    steps = monthly[0].tolist()
+    steps = sorted(set(monthly.ravel().tolist()))
+    indices = [[steps.index(int(value)) for value in row] for row in monthly]
+    memo = {}
+
+    def select_cells(full):
+        return np.stack([full[:, ai, positions] for ai, positions in enumerate(indices)], axis=1)
+
     original_draw, original_apply, original_rationale = (
         cli._draw,
         cli.apply_text_first_v5,
@@ -104,7 +111,11 @@ def main(argv=None):
     receipt = dict(
         official_helper_source="f43655cdb624a3e5e5fed772ed9313ef57a54bc5",
         authored_horizon_keys=keys,
-        observation_steps=steps,
+        observation_steps=monthly[0].tolist()
+        if np.all(monthly == monthly[0])
+        else monthly.tolist(),
+        per_asset_observation_steps=monthly.tolist(),
+        sampling_step_union=steps,
         last_observation_dates={a: str(s.index[-1])[:10] for a, s in histories.items()},
         output_keys_preserved=True,
     )
@@ -133,7 +144,8 @@ def main(argv=None):
             raise SystemExit("Monthly adapter sampling-step mismatch; refuse output.")
         receipt["numeric_observation_steps"] = stats["observation_horizons"]
         receipt["numeric_period_business_days"] = period
-        return samples, stats
+        memo["full_numeric_samples"] = samples
+        return select_cells(samples), stats
 
     def apply(
         samples,
@@ -149,10 +161,25 @@ def main(argv=None):
         value_unit,
         interpreter_version="v5",
     ):
+        if family not in {"T2-F1", "T2-F4"}:
+            return original_apply(
+                samples,
+                histories,
+                assets,
+                horizons,
+                target_type,
+                target_frequency,
+                family,
+                asof,
+                seed,
+                text_dir,
+                value_unit,
+                interpreter_version,
+            )
         history_steps = _history_steps(histories, assets, target_type, asof)
         period = _observation_period_business_days(history_steps)
-        return original_apply(
-            samples,
+        adjusted, metadata = original_apply(
+            memo["full_numeric_samples"],
             histories,
             assets,
             [s * period for s in steps],
@@ -165,6 +192,7 @@ def main(argv=None):
             value_unit,
             interpreter_version,
         )
+        return select_cells(adjusted), metadata
 
     def rationale(*a, **kw):
         original = original_rationale(*a, **kw)
