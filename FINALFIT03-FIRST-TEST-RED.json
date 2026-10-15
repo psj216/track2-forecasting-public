@@ -1,0 +1,61 @@
+{
+  "executive_summary": "First standalone image RED findings, before any FF03 runtime repair.",
+  "source_sha": "81b9c692c0c49943255fb32e804ac92674891ca3",
+  "run_id": 38796987425,
+  "processes": 29,
+  "expectations_pass": 22,
+  "failed": [
+    {
+      "name": "multi-monthly",
+      "repetition": 1,
+      "forecast_exit_code": 1,
+      "observed_error": "Traceback (most recent call last):\n  File \"/opt/finalfit03/candidate_monthly.py\", line 204, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 189, in main\n    result = cli.main(argv)\n  File \"/opt/qfbench2_track_forecasting/cli.py\", line 491, in main\n    adjusted, head_meta = apply_text_first_v5(\n                          ~~~~~~~~~~~~~~~~~~~^\n        samples,\n        ^^^^^^^^\n    ...<12 lines>...\n        interpreter_version=\"v5.1\" if forecast_mode == \"text-first-v5.1\" else \"v5\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 152, in apply\n    history_steps = _history_steps(histories, assets, target_type, asof)\n  File \"/opt/qfbench2_track_forecasting/integrated_v4.py\", line 51, in _history_steps\n    series = histories[asset].sort_index().astype(float)\n             ~~~~~~~~~^^^^^^^\nKeyError: 'CPI_ALL'\nFF03_RESOURCE={\"peak_rss_kib\": 191516}\n",
+      "validation_error": null
+    },
+    {
+      "name": "multi-monthly",
+      "repetition": 2,
+      "forecast_exit_code": 1,
+      "observed_error": "Traceback (most recent call last):\n  File \"/opt/finalfit03/candidate_monthly.py\", line 204, in <module>\n    raise SystemExit(main())\n                     ~~~~^^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 189, in main\n    result = cli.main(argv)\n  File \"/opt/qfbench2_track_forecasting/cli.py\", line 491, in main\n    adjusted, head_meta = apply_text_first_v5(\n                          ~~~~~~~~~~~~~~~~~~~^\n        samples,\n        ^^^^^^^^\n    ...<12 lines>...\n        interpreter_version=\"v5.1\" if forecast_mode == \"text-first-v5.1\" else \"v5\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"/opt/finalfit03/candidate_monthly.py\", line 152, in apply\n    history_steps = _history_steps(histories, assets, target_type, asof)\n  File \"/opt/qfbench2_track_forecasting/integrated_v4.py\", line 51, in _history_steps\n    series = histories[asset].sort_index().astype(float)\n             ~~~~~~~~~^^^^^^^\nKeyError: 'CPI_ALL'\nFF03_RESOURCE={\"peak_rss_kib\": 191876}\n",
+      "validation_error": null
+    },
+    {
+      "name": "heterogeneous",
+      "repetition": 1,
+      "forecast_exit_code": 1,
+      "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184924}\n",
+      "validation_error": null
+    },
+    {
+      "name": "heterogeneous",
+      "repetition": 2,
+      "forecast_exit_code": 1,
+      "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184612}\n",
+      "validation_error": null
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "repetition": 1,
+      "forecast_exit_code": 1,
+      "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 185208}\n",
+      "validation_error": null
+    },
+    {
+      "name": "heterogeneous-anchor",
+      "repetition": 2,
+      "forecast_exit_code": 1,
+      "observed_error": "Different per-asset monthly step grids require separate validation; unsupported by this minimal candidate.\nFF03_RESOURCE={\"peak_rss_kib\": 184888}\n",
+      "validation_error": null
+    },
+    {
+      "name": "duplicate-no-mapping",
+      "repetition": 1,
+      "forecast_exit_code": 0,
+      "observed_error": "Legacy dense-daily input declared monthly; original daily-cadence behavior retained.\nFF03_RESOURCE={\"peak_rss_kib\": 190328}\n",
+      "validation_error": null
+    }
+  ],
+  "daily_ab": "All produced files identical; preserved in FINALFIT03-DAILY-AB.json",
+  "regression": "35 original + 35 candidate frozen tests passed; official helper tests passed",
+  "allowed_repair": "Wrapper cadence guard, explicit monthly-step selection and frozen-family bypass only; no original model changes."
+}

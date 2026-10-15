@@ -1,0 +1,80 @@
+{
+  "executive_summary": "Fresh standalone original/candidate daily comparison; all produced files identical including metadata and rationale.",
+  "run_id": 38796987425,
+  "rows": [
+    {
+      "name": "f1-ust",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f1-ust",
+      "repetition": 2,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f2-eur",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f2-eur",
+      "repetition": 2,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-ust",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-ust",
+      "repetition": 2,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f4-jpy",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f4-jpy",
+      "repetition": 2,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-em",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "f3-em",
+      "repetition": 2,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "future-sentinel",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    },
+    {
+      "name": "missing-history",
+      "repetition": 1,
+      "same_outputs": true,
+      "same_exit": true
+    }
+  ],
+  "all_identical": true,
+  "original_input_manifest_identical": true
+}
