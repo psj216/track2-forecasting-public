@@ -1,0 +1,11 @@
+{
+  "executive_summary": "The announced new short-horizon practice set is not identified in the fresh official tree or publication comments. Do not wait or score old inputs as new practice.",
+  "status": "PRACTICE_NOT_YET_PUBLISHED",
+  "checked_at": "2026-10-15T19:43:02.537080+00:00",
+  "official_sha": "b9c663d239a0e6b86ebd3f3f2d5aead88516067d",
+  "new_practice_found": false,
+  "official_tree_complete": true,
+  "source": "Track issue 4 all comments plus full repository tree",
+  "diagnostic": "NOT_RUN",
+  "quote_correction": "Official comment 6129776242 explicitly defines ECB-derived USD quotes: G10 same convention as existing practice; EM currency units per USD. FF02 quote ambiguity is corrected; exact new card identifiers/release schemas remain unavailable."
+}
