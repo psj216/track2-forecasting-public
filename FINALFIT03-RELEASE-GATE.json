@@ -1,0 +1,56 @@
+{
+  "executive_summary": "Standalone repair validated in the tested technical scope. New Final schemas and distribution quality remain unverified; no registry or submission action.",
+  "classification": "REPAIR_VALIDATED_WITH_SCHEMA_GAPS",
+  "gates": {
+    "ORIGINAL_SAFE_IMAGE_PRESERVED": "TRUE",
+    "CANDIDATE_SOURCE_PROVENANCE": "TRUE",
+    "STANDALONE_IMAGE_BUILT": "TRUE",
+    "IMAGE_INTERNAL_CODE_COMPLETE": "TRUE",
+    "IMAGE_ARCHITECTURE_VALID": "TRUE",
+    "OFFICIAL_ENTRYPOINT_PASS": "TRUE",
+    "MONTHLY_CONTRACT_PASS": "TRUE",
+    "DAILY_BYTE_IDENTICAL": "TRUE",
+    "MONTHLY_SEMANTICS_CORRECT": "TRUE",
+    "F1_F4_RUNTIME_PASS": "TRUE",
+    "NEW_UST_COMPATIBLE": "BLOCKED",
+    "ECB_G10_COMPATIBLE": "BLOCKED",
+    "EM_FX_COMPATIBLE": "BLOCKED",
+    "MACRO_RELEASE_COMPATIBLE": "BLOCKED",
+    "OFFICIAL_PRACTICE_PASS": "NOT_RUN",
+    "CONTAINER_LIMITS_PASS": "TRUE",
+    "REGRESSION_PASS": "TRUE",
+    "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
+    "REGISTRY_IMAGE_AVAILABLE": "NOT_RUN",
+    "FINAL_PACKAGE_READY": "NOT_RUN"
+  },
+  "scope": {
+    "MONTHLY_CONTRACT_PASS": "Declared monthly level targets with explicit helper-supported mappings tested, including per-asset grids/anchors; invalid mappings and mixed cadence refuse. Not a universal promise for unpublished schema variants.",
+    "REGRESSION_PASS": "35 related frozen production tests, 25 official helper cases, 41 container expectations, 8 semantic assertions, 9 exact-kernel comparisons and 2 official CLI card checks. Inherited whole-repository CI is NOT PASS.",
+    "CONTAINER_LIMITS_PASS": "Observed cases under stricter 2 CPU/4 GiB test limits and bounded forecasts; actual whole Final batch runtime UNKNOWN.",
+    "MACRO_RELEASE_COMPATIBLE": "Existing CPI/NFP examples and synthetic monthly cases pass; GDP/jobless-claims/new release target metadata remains BLOCKED."
+  },
+  "source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "test_checkpoint": "b7f4f3307556ccbe0aa5822b541bdb086f1c8f11",
+  "run_id": 38798442114,
+  "image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "candidate_local_archive": true,
+  "release_test_checks": {
+    "total": 120,
+    "passed": 120,
+    "failed": 0,
+    "components": {
+      "forecast_expectations": 41,
+      "package_pytest": 35,
+      "official_helper_pytest": 25,
+      "semantic_assertions": 8,
+      "kernel_comparisons": 9,
+      "official_card_cli": 2
+    }
+  },
+  "not_independent_observations": true,
+  "full_repository_ci_status": "BLOCKED_MISSING_RESEARCH_DEPENDENCIES_AND_INHERITED_LINT",
+  "global_final_eligible": false,
+  "actual_final_candidate_selection": "DEFERRED",
+  "registry_push": false,
+  "submission": false
+}

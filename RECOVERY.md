@@ -19,3 +19,13 @@ Executive summary: monthly adapter compatibility tested; Final target coverage b
 Parent 78e438c0aeb7ce888a1b8e9ba4f90b99dcf3ed20; PRE 32fdc3931d36adf471813203431dd7226c76a8d7; RED 696c938c7e5ca6dd831a3037c8eabbd40c32bdab; executable candidate 9108ba25737dc88fcdeb478d45c749dddc2bbcb0. Original run 38588467433, overlay run 38589731625. Reports and receipts are in this branch; use remote HEAD as RESULT. Independent local clone finalfit02 has no alternates; frozen safe tree was archived separately and matched in actual Docker.
 
 Resume only the canonical new-asset/ECB/release schemas after organizer publication. Do not rerun R17 or optimize practice scores. A standalone candidate image/full release remains NOT_RUN; heterogeneous monthly grids explicitly refused. No submission authorized.
+
+## FINALFIT03 recovery
+
+Executive summary: standalone repair validated with schema gaps; no deployment or submission.
+
+PRE a4475063928d1698646cb498c620148feb4898ba; initial build source 81b9c692c0c49943255fb32e804ac92674891ca3; RED 458d219862ce198604b7e89073c1d01d1202f62f; repaired executable c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6; TEST b7f4f3307556ccbe0aa5822b541bdb086f1c8f11. Use enclosing remote RESULT HEAD for the final report.
+
+Actual image sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c; source and archive receipts in FINALFIT03-IMAGE-BUILD.json; Actions run 38798442114 / image artifact 12003002655. All original production files unchanged. Candidate 41/41 runtime expectations, 8 semantic, 9 kernel, 35 frozen-package, 25 official helper and 2 official card CLI checks pass. Global repository CI is not passed.
+
+Resume only when canonical new practice/Final schemas are available. Preserve original ZIP/image; no registry push or Final package/submission is authorized by this task.
