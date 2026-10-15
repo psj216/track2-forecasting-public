@@ -1,0 +1,246 @@
+{
+  "executive_summary": "Standalone local candidate image build; no registry push.",
+  "source_sha": "81b9c692c0c49943255fb32e804ac92674891ca3",
+  "base_image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "local_tag": "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+  "registry_push": false,
+  "completed": true,
+  "steps": [
+    {
+      "name": "anonymous-pull",
+      "command": [
+        "docker",
+        "pull",
+        "--platform=linux/amd64",
+        "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 8.718905793000005
+    },
+    {
+      "name": "standalone-build",
+      "command": [
+        "docker",
+        "build",
+        "--platform=linux/amd64",
+        "--build-arg",
+        "SOURCE_SHA=81b9c692c0c49943255fb32e804ac92674891ca3",
+        "-t",
+        "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+        "-f",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/backtesting/finalfit03/Dockerfile",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/backtesting/finalfit03"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 11.204446032999996
+    },
+    {
+      "name": "image-inspect",
+      "command": [
+        "docker",
+        "image",
+        "inspect",
+        "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.017027017000003752
+    },
+    {
+      "name": "internal-code-and-dependencies",
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp",
+        "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+        "python3",
+        "-c",
+        "import json,pathlib,hashlib,importlib.metadata as m; p=pathlib.Path('/opt/qfbench2_track_forecasting'); q=pathlib.Path('/opt/finalfit03'); print(json.dumps({'production':{str(f.relative_to(p)):hashlib.sha256(f.read_bytes()).hexdigest() for f in p.rglob('*.py')},'wrapper':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in q.glob('*.py')},'dependencies':{d.metadata['Name']:d.version for d in m.distributions()}}))"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 0.8675440290000012
+    },
+    {
+      "name": "official-command-interface",
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp",
+        "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3",
+        "forecast",
+        "--help"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 1.8883840060000097
+    },
+    {
+      "name": "preserve-image",
+      "command": [
+        "docker",
+        "save",
+        "--output",
+        "/home/runner/work/_temp/ff03-build/candidate-image.tar",
+        "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 3.02984515
+    },
+    {
+      "name": "compress-image",
+      "command": [
+        "gzip",
+        "-1",
+        "/home/runner/work/_temp/ff03-build/candidate-image.tar"
+      ],
+      "exit_code": 0,
+      "wall_seconds": 7.020310930999997
+    }
+  ],
+  "image_id": "sha256:2409ba660362a0a7d13239270dbae226cf840e1c4b14cd919aa9f144e8ed903a",
+  "oci": {
+    "Id": "sha256:2409ba660362a0a7d13239270dbae226cf840e1c4b14cd919aa9f144e8ed903a",
+    "RepoTags": [
+      "finalfit03-local:81b9c692c0c49943255fb32e804ac92674891ca3"
+    ],
+    "RepoDigests": [],
+    "Parent": "",
+    "Comment": "buildkit.dockerfile.v0",
+    "Created": "2026-10-15T19:49:48.892245121Z",
+    "DockerVersion": "",
+    "Author": "",
+    "Config": {
+      "Hostname": "",
+      "Domainname": "",
+      "User": "1000",
+      "AttachStdin": false,
+      "AttachStdout": false,
+      "AttachStderr": false,
+      "Tty": false,
+      "OpenStdin": false,
+      "StdinOnce": false,
+      "Env": [
+        "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+        "GPG_KEY=7169605F62C751356D054A26A821E680E5FA6305",
+        "PYTHON_VERSION=3.13.15",
+        "PYTHON_SHA256=1e66a7945a48390ee4c2a4268a0e4185884059a13c4aab6d148aa208deea4a76",
+        "PYTHONDONTWRITEBYTECODE=1",
+        "PYTHONUNBUFFERED=1",
+        "PIP_NO_CACHE_DIR=1",
+        "FORECAST_MODE=text-first-v5.1",
+        "PYTHONPATH=/opt"
+      ],
+      "Cmd": [
+        "forecast",
+        "--help"
+      ],
+      "ArgsEscaped": true,
+      "Image": "",
+      "Volumes": null,
+      "WorkingDir": "/work",
+      "Entrypoint": null,
+      "OnBuild": null,
+      "Labels": {
+        "org.opencontainers.image.base.digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+        "org.opencontainers.image.revision": "81b9c692c0c49943255fb32e804ac92674891ca3",
+        "qfbench2.forecast_mode": "text-first-v5.1",
+        "qfbench2.interface_version": "2.0",
+        "qfbench2.track": "forecasting",
+        "qfbench2.verb": "forecast"
+      }
+    },
+    "Architecture": "amd64",
+    "Os": "linux",
+    "Size": 538371385,
+    "GraphDriver": {
+      "Data": {
+        "LowerDir": "/var/lib/docker/overlay2/9acs3skkmhsm86jzrfdehkdwt/diff:/var/lib/docker/overlay2/yj2fe5ybiwfcrwwy7azvbk6s4/diff:/var/lib/docker/overlay2/b8d0d6154c438751b74eec75489ac5a343cbfa5c2c03cef544e40ddcbd6035d9/diff:/var/lib/docker/overlay2/2e85294a92c94266ff17daeece52905e2868c4dd4f86458a941046e31e2f6a72/diff:/var/lib/docker/overlay2/89f296186dcf59e619a60b42d1cdb97cd14e7c8b0022173cda87f56d1dc55dbb/diff:/var/lib/docker/overlay2/e9723e17f02852400a543f726151139badd3f13271111d3b7e5e0d9f55205dcd/diff:/var/lib/docker/overlay2/9e3a8bd2b8d5938b6f781a6269a2477086d84a896ec03b2b5f5b175042951eb3/diff:/var/lib/docker/overlay2/f147753c150e5f6e3b6817f19dfcf459b431fa0b85946fa79240d7715273c46e/diff:/var/lib/docker/overlay2/8b0258d7cf946cd0f98dae578a64e17ee7c45d59a29aebe93eb44ff4c30bd2b5/diff:/var/lib/docker/overlay2/7ed834e5ffc3dd230dfff42e5a86e784b072239513f5d4ea10ebc51c3477256b/diff:/var/lib/docker/overlay2/4b89cd2f20b58d693a9d891cff000fbd6073d023e0287aee8a87aada0eb7c38c/diff",
+        "MergedDir": "/var/lib/docker/overlay2/thrlf81b6tvgp3c1glgtapj4j/merged",
+        "UpperDir": "/var/lib/docker/overlay2/thrlf81b6tvgp3c1glgtapj4j/diff",
+        "WorkDir": "/var/lib/docker/overlay2/thrlf81b6tvgp3c1glgtapj4j/work"
+      },
+      "Name": "overlay2"
+    },
+    "RootFS": {
+      "Type": "layers",
+      "Layers": [
+        "sha256:34467cc93912af891dfee8a3902adf9b4f355a9bca4eaa46f658d1181a21de0d",
+        "sha256:0229d3e3d668de7c1d42c1e23d30f4bc5c5e93d68c8fe897e94a6fe9b0262491",
+        "sha256:d119e31e71d7a4e8b81f78a0e11901e1a2b3252619eac69266aa157d943b4763",
+        "sha256:1095031acd1c984ad93c83dadab1d79a3b2fd93d5086537b16593c47a3e3ee06",
+        "sha256:b545d0ddfb46c2ef1a3209798bd79349414a7f1266f9707e5df6f4da6c6f19ef",
+        "sha256:ba57ed86867ae578b6eb307d1bc53fd223611a7d1bb318d0ce5b5c351801de99",
+        "sha256:b86144bad2056969db57a063305003811df7998ba9bbd0a05a75d2cd4210fb62",
+        "sha256:38c05bc95ed1a5147d4a50cfd10c7ffe5c98dbd8169ff2b7dadd8a0696d32596",
+        "sha256:1eba5b5cb64f42b00e97c2c77907fd83b57247f9610eb1dfaf8abb8df50d2aa0",
+        "sha256:6798f13935355df78e3e53d26c61d1f0b0b3c8d6a579f79dac79b119ef64f311",
+        "sha256:33275d6ef1b32ba2a30b386b0617aff751186b062f1305144347aa1aae71cb42",
+        "sha256:5f70bf18a086007016e948b04aed3b82103a36bea41755b6cddfaf10ace3c6ef"
+      ]
+    },
+    "Metadata": {
+      "LastTagTime": "2026-10-15T19:49:49.692914123Z"
+    }
+  },
+  "registry_digest": null,
+  "identity": {
+    "production": {
+      "grid.py": "ffac56e438b447bea5fbc2fb8e766cef25ef81c79d99e7be2752a4ea532126d0",
+      "cli.py": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+      "family_pipeline.py": "e13ab4d9f5245a13b926bca19cb42fa10961e17cfd976525bc11758119e82fde",
+      "numeric_v3.py": "edb94b2c55f250b8a92ca7c6f00fa3699d0273a2fc3bf428b87337f37c880379",
+      "family_calibration.py": "b902bba0215655ce7b9adae1ffde2b1a567d0d1e2a75cc00728258ce4c0b9b86",
+      "numeric_v1.py": "f5cd5d68b4fd1edf576117df796502cb1a38cc620bdc50f52972e6f7acbdb679",
+      "normalization.py": "f933362a370e09daf6d0a9216c28684c9d84eaedc020cf1cce85fd938bb0b2eb",
+      "text_evidence.py": "25b68a20d8e8c9906c4775782c9e668569e5ba05ed7b6c898e11844e91c71a8e",
+      "regime_router.py": "2d4b872183b02017e899d0029b99cef247ea40665a749cdd6ba0bddfb832a1c0",
+      "aggregate.py": "89d71ccd3783db0f70937c278dab5f1367f482b058e6b634f76b22b68bacb211",
+      "tail.py": "189fa879fdec703ed3ce593ac44b8a285638fe32bd42c56ee7a774fdd895d8e0",
+      "official.py": "d0400ade5dfb2e96fbaad70f1f2cfd0340d7f550cab295f208dfeedf443e0927",
+      "numeric_v21.py": "bff80dad9aae4f9dcd1af880f6fcf4ae2dd4125dae619dde9cb869316b414547",
+      "numeric_v4.py": "8d49f13ffd88caf1c0fae207a56639c1b4fd57add50757db04778bbb7a02e4df",
+      "text_interpreter_v51.py": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f",
+      "historical_heads.py": "a4e564133da57ea9d3e9cf253420aef70223b00566a3c000cf271720215152c2",
+      "text_first_v5.py": "c11fc835bc754b219f6a742df747a6a51f7fbdadff1ab49c4a0aaea7f081d432",
+      "f1_center.py": "d5f89077dbf172e20b1147e9820d390846b226f3588fe68c95287133358953ed",
+      "integrated_v4.py": "517c800c8a646cb9f62fd5db1a863d9a66f8d41fda69b1733d12fe44e16c839e",
+      "cutoff.py": "26539064fb0889740aa0c966df0e0b2182ea4648a7b8cfaf56813ea87a3126ba",
+      "scoring.py": "030a9d88469bc2191d1652648cff2ed67f587a3d8edaa1989f2c2c1620190633",
+      "limits.py": "5aa33f7d3221bc479ad02059db2296eb598de38c8f30d9c884edb3384b3fcadf",
+      "numeric_v2.py": "fa68a7f3ec0cf035ec028638e944217f86c28b40ac54f6d9dac84459f3d52d71",
+      "__init__.py": "fda9c66b0eb87161f0e2a837bd9eaf32a7a15a004c72334b4d1c24cf19f32212",
+      "failures.py": "92fee4de0f4b75ab4df3b84850d3e4d0a5846629c5923a2d3105c712c1b997d2",
+      "scenario_integration.py": "5ff75008c3f6a96e2adcbd0ec59802138c89a84c10826bc9e7a5dcd405331fad"
+    },
+    "wrapper": {
+      "official_horizons.py": "e82af15975f89bb3f49331bafd63e701a4da6951b9a962936532ca9ac282642c",
+      "candidate_monthly.py": "0f3eeb045fc64a2da1e070a6dc0b60df536b3017444b80feee10400d550e0057"
+    },
+    "dependencies": {
+      "pip": "26.2.1",
+      "jsonschema-specifications": "2025.9.1",
+      "python-dateutil": "2.9.0.post0",
+      "six": "1.17.0",
+      "pyarrow": "18.1.0",
+      "numpy": "2.1.3",
+      "rpds-py": "2026.6.3",
+      "tzdata": "2026.4",
+      "jsonschema": "4.23.0",
+      "referencing": "0.37.0",
+      "attrs": "26.1.0",
+      "qfbench2-common": "2.4.2",
+      "scipy": "1.18.1",
+      "pandas": "2.2.3",
+      "pytz": "2026.4"
+    }
+  },
+  "production_source_match": true,
+  "archive_sha256": "0ca316c0388a8a87c600d8586ad9ca4bfb6a87b68773f6968d6a550c138351e1",
+  "archive_bytes": 195501260
+}
