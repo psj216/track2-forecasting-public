@@ -1,6 +1,7 @@
 """## Executive summary (read this first)
 Execute the locked parameter-free observation-clock hypothesis with unchanged safe CLI code.
-Generation never reads target tables. Evaluation imports official score math and is exposed research.
+Generation never reads target tables.
+Evaluation imports official score math and is exposed research.
 """
 
 from __future__ import annotations
