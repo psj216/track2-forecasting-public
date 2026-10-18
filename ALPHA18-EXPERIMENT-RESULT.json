@@ -1,0 +1,308 @@
+{
+  "proxy": 0.935407741061433,
+  "ratios": {
+    "marginal": 0.954670967069198,
+    "joint": 0.9876887742263677,
+    "tail": 0.8088281262946182
+  },
+  "baseline_mean": {
+    "marginal": 0.09299271729582227,
+    "joint": 1.5215013517816203,
+    "tail": 0.013879104970641452
+  },
+  "candidate_mean": {
+    "marginal": 0.08877744735119518,
+    "joint": 1.50276980512495,
+    "tail": 0.011225810468050247
+  },
+  "block95": [
+    0.9218436641418792,
+    0.9519777656668865
+  ],
+  "remove_best_origin": {
+    "proxy": 0.9351241249069968,
+    "ratios": {
+      "marginal": 0.9538801313857879,
+      "joint": 0.9880011886656167,
+      "tail": 0.8089185130720895
+    },
+    "baseline_mean": {
+      "marginal": 0.08968175629438131,
+      "joint": 1.467564423445775,
+      "tail": 0.012619601655713424
+    },
+    "candidate_mean": {
+      "marginal": 0.08554564547699266,
+      "joint": 1.4499553948077961,
+      "tail": 0.010208229406901782
+    }
+  },
+  "remove_best_quarter": {
+    "quarter": "2023Q1",
+    "proxy": 0.9367966717050321,
+    "ratios": {
+      "marginal": 0.9530708310274179,
+      "joint": 0.988587402353883,
+      "tail": 0.8184251774257915
+    },
+    "baseline_mean": {
+      "marginal": 0.08736923860247993,
+      "joint": 1.4351091586775515,
+      "tail": 0.012099479984668433
+    },
+    "candidate_mean": {
+      "marginal": 0.0832690728410983,
+      "joint": 1.418730835271307,
+      "tail": 0.009902519053212076
+    }
+  },
+  "by_year": {
+    "2022": {
+      "origins": 49,
+      "proxy": 0.9056061298237641,
+      "ratios": {
+        "marginal": 0.934213541840502,
+        "joint": 0.9732317078904559,
+        "tail": 0.732649232681882
+      },
+      "baseline_mean": {
+        "marginal": 0.10241495488544275,
+        "joint": 1.7721926537369193,
+        "tail": 0.015763622337365352
+      },
+      "candidate_mean": {
+        "marginal": 0.0956774377409647,
+        "joint": 1.7247540831073012,
+        "tail": 0.0115492058097577
+      }
+    },
+    "2023": {
+      "origins": 50,
+      "proxy": 0.9456423412009536,
+      "ratios": {
+        "marginal": 0.957568447432895,
+        "joint": 0.9992598607502876,
+        "tail": 0.8354007962970991
+      },
+      "baseline_mean": {
+        "marginal": 0.10440147503023868,
+        "joint": 1.5201267834640686,
+        "tail": 0.01568035535194628
+      },
+      "candidate_mean": {
+        "marginal": 0.09997155835440981,
+        "joint": 1.5190016779670878,
+        "tail": 0.013099381347237402
+      }
+    },
+    "2024": {
+      "origins": 46,
+      "proxy": 0.9675147265888981,
+      "ratios": {
+        "marginal": 0.9816424956710779,
+        "joint": 0.9941958404747607,
+        "tail": 0.8921736330546548
+      },
+      "baseline_mean": {
+        "marginal": 0.07055516232599128,
+        "joint": 1.255954713087446,
+        "tail": 0.009913803448147665
+      },
+      "candidate_mean": {
+        "marginal": 0.0692599456281641,
+        "joint": 1.2486649515762103,
+        "tail": 0.008844834039723666
+      }
+    }
+  },
+  "leave_one_year_out": {
+    "2022": {
+      "proxy": 0.9537766969480269,
+      "ratios": {
+        "marginal": 0.9667979316984221,
+        "joint": 0.9970729290244561,
+        "tail": 0.8562792619573952
+      },
+      "baseline_mean": {
+        "marginal": 0.08818345019278678,
+        "joint": 1.393544333075271,
+        "tail": 0.012917215898042783
+      },
+      "candidate_mean": {
+        "marginal": 0.08525557725641708,
+        "joint": 1.3894653299047928,
+        "tail": 0.011060744095720406
+      }
+    },
+    "2023": {
+      "proxy": 0.9292762941086341,
+      "ratios": {
+        "marginal": 0.952840703436929,
+        "joint": 0.9816071223686768,
+        "tail": 0.7918690283978328
+      },
+      "baseline_mean": {
+        "marginal": 0.08698810796191886,
+        "joint": 1.5222248087908599,
+        "tail": 0.012931078454165216
+      },
+      "candidate_mean": {
+        "marginal": 0.08288580998108229,
+        "joint": 1.494226714155405,
+        "tail": 0.01023972053163596
+      }
+    },
+    "2024": {
+      "proxy": 0.9255561869950738,
+      "ratios": {
+        "marginal": 0.9461210910440703,
+        "joint": 0.9853801892383975,
+        "tail": 0.7844079235075968
+      },
+      "baseline_mean": {
+        "marginal": 0.10341824788786494,
+        "joint": 1.6448866586496211,
+        "tail": 0.015721568304325428
+      },
+      "candidate_mean": {
+        "marginal": 0.0978461855255329,
+        "joint": 1.620838726975879,
+        "tail": 0.012332122747878758
+      }
+    }
+  },
+  "lag": {
+    "proxy": 0.9160731606165371,
+    "ratios": {
+      "marginal": 0.9413576983805102,
+      "joint": 0.9840128118803946,
+      "tail": 0.7509523393108178
+    },
+    "baseline_mean": {
+      "marginal": 0.10165672732127845,
+      "joint": 1.6281692632852438,
+      "tail": 0.016832760693829885
+    },
+    "candidate_mean": {
+      "marginal": 0.09569534285605381,
+      "joint": 1.6021394149825432,
+      "tail": 0.012640601020090738
+    }
+  },
+  "placebo": {
+    "proxy": 0.9359990222827135,
+    "ratios": {
+      "marginal": 0.9545884604480283,
+      "joint": 0.9876591268964321,
+      "tail": 0.8120352699488486
+    },
+    "baseline_mean": {
+      "marginal": 0.09299271729582227,
+      "joint": 1.5215013517816203,
+      "tail": 0.013879104970641452
+    },
+    "candidate_mean": {
+      "marginal": 0.08876977483629771,
+      "joint": 1.5027246966723762,
+      "tail": 0.011270322751483238
+    },
+    "changed_complete_origins": 14,
+    "mechanism_identification": "UNKNOWN_LOW_CHANGED_SAMPLE"
+  },
+  "by_asset": {
+    "UST_2Y": {
+      "cells": 607,
+      "marginal_ratio": 0.952244339222141,
+      "tail_ratio": 0.8230081935030584,
+      "single_cell_proxy": 0.9153197261595459
+    },
+    "UST_5Y": {
+      "cells": 607,
+      "marginal_ratio": 0.9558362067785952,
+      "tail_ratio": 0.8029191612067909,
+      "single_cell_proxy": 0.9121456223295082
+    },
+    "UST_10Y": {
+      "cells": 607,
+      "marginal_ratio": 0.9630423900467314,
+      "tail_ratio": 0.8103573211909191,
+      "single_cell_proxy": 0.9194180846593565
+    }
+  },
+  "by_horizon": {
+    "1": {
+      "cells": 459,
+      "marginal_ratio": 0.9327178439047932,
+      "tail_ratio": 0.7247286548776913,
+      "single_cell_proxy": 0.8732923613256212
+    },
+    "2": {
+      "cells": 459,
+      "marginal_ratio": 0.9598006022919059,
+      "tail_ratio": 0.8460889087643132,
+      "single_cell_proxy": 0.9273115469983081
+    },
+    "3": {
+      "cells": 450,
+      "marginal_ratio": 0.9636224366291422,
+      "tail_ratio": 0.8211590831756072,
+      "single_cell_proxy": 0.9229186213567034
+    },
+    "4": {
+      "cells": 453,
+      "marginal_ratio": 0.9660362281711304,
+      "tail_ratio": 0.8612697176489391,
+      "single_cell_proxy": 0.9361029394505043
+    }
+  },
+  "all_available_single_cell_proxy": 0.915616502080265,
+  "executive_summary": "One locked original-kernel support-alignment experiment on exposed stale-vintage UST; no fresh-close alpha demonstrated.",
+  "classification": "EXPLORATORY_IMPROVEMENT_ONLY",
+  "protocol": "ALPHA18-OBSERVATION-CLOCK-1",
+  "lock_sha256": "51d3e6a35cd4fd12ad3798fb07591d83987a76df1629e2e8767282f516fb9d16",
+  "origins_requested": 154,
+  "complete_origins": 145,
+  "incomplete_origins": 9,
+  "observed_marginal_cells": 1821,
+  "assets": [
+    "UST_2Y",
+    "UST_5Y",
+    "UST_10Y"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "dates": [
+    "2022-01-03",
+    "2024-12-09"
+  ],
+  "checks": {
+    "enough_complete_origins": true,
+    "primary_2percent": true,
+    "CI_upper_below_one": true,
+    "joint_no5percent_damage": true,
+    "tail_no5percent_damage": true,
+    "two_assets_improve": true,
+    "horizon_no5percent_damage": true,
+    "best_origin_removed": true,
+    "best_quarter_removed": true,
+    "all_leave_year_out": true,
+    "lag_improves": true,
+    "age_specific_placebo": "UNKNOWN"
+  },
+  "contamination": "EXPLORATORY_EXPOSED_HISTORY",
+  "independent_OOS": false,
+  "independent_alpha_verified": "UNKNOWN",
+  "official_M0_normalization": false,
+  "official_composite": null,
+  "metric": "Same-complete-origin ratio-of-means raw CRPS/variogram/pinball research proxy, weights .5/.3/.2. Not M0 and not an official score.",
+  "parameters_fitted": 0,
+  "candidate_models": 1,
+  "fresh_close_effect": "EXACT_BASELINE_AGE0",
+  "Final_promotion": false,
+  "individual_result_sha256": "fef164885c9a80b65a8f963a1b09a49cfb354eb852f3a91c6f96edb290643f1e",
+  "fresh_close_control_evidence": "All78authoredbaseline outputs preserved by reference without candidate re-execution;12earliercontrols include4FF03dailywrapperidentity probes. No new78-candidateforecastclaim."
+}

@@ -1,0 +1,476 @@
+{
+  "executive_summary": "All78 authored age0 baseline outputs preserved by reference, without candidate re-execution. Four family daily wrapper controls are in the diagnostic audit.",
+  "candidate_not_applied": true,
+  "new_AB_forecast_calls": 0,
+  "pass_count": 78,
+  "records": [
+    {
+      "id": "card-t2-F1-aud-on-hold-2016",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "a497f95e9c5058553b52b95cfd7cc62dcb26dca90fbca189c971b487cac36473"
+    },
+    {
+      "id": "card-t2-F1-cad-boc-2017",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "e94bbe1400c52b71fb596e84cb41efde919673fa0c3e87b5734e69a5bfc0050b"
+    },
+    {
+      "id": "card-t2-F1-chf-highly-valued-2021",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ecef06459f835c71d90c495bd585c29a7324db301b0b59f81b028fd8df4e9414"
+    },
+    {
+      "id": "card-t2-F1-conflicting-texts-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "e15d0782f216a67e40002b7663950704754faa6db140e2bb3c475e3bb22c82ff"
+    },
+    {
+      "id": "card-t2-F1-considerable-period-2003",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "361fa3caab9efea0d03f335037aa1e18bdfc1794623481371f96443c08bb7587"
+    },
+    {
+      "id": "card-t2-F1-conundrum-2005",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "b641617e1a216407af74b3127642832173d06b5b03159513c9e99d8a749de397"
+    },
+    {
+      "id": "card-t2-F1-dkk-peg-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "c03cdf373508af565d0cf6de6e11a0170336a525767af769cdb4e64775cfeff3"
+    },
+    {
+      "id": "card-t2-F1-eur-range-2017",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ed87c1512fa70653f0f55467ebf5f5efce0735c84a237f6b492fe8bfcc45a274"
+    },
+    {
+      "id": "card-t2-F1-greater-confidence-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "b62ae1b7867d4f1d70c3209203d2741f9596bc04136ec29ac6951b2c89d0dfd6"
+    },
+    {
+      "id": "card-t2-F1-hawkish-cut-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "09bb9f1cf2aeea67f0e77f504657b2941d3e60ada8074bb7b33d5c74e97d4338"
+    },
+    {
+      "id": "card-t2-F1-jpy-ycc-flex-2018",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "a23bb60e94e7d2ccdf929595301a861d8d7687e97c8f41dc42f2e64dc496205c"
+    },
+    {
+      "id": "card-t2-F1-liftoff-telegraph-2015",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ce767d122efccc09a9d9f58e8897c45f262ed609d357fe040cde21cfab301b4b"
+    },
+    {
+      "id": "card-t2-F1-measured-pace-2004",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "87933bc846f9ccb346da02d4b9ec923c68fea69d6b7720c3aa1d7d75c0a573d4"
+    },
+    {
+      "id": "card-t2-F1-normalization-2017",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "b5be3f89318973497408690245046b16bbe05ca8c71ad339c3885664ab84b666"
+    },
+    {
+      "id": "card-t2-F1-patient-dropped-2015",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "a697f5006b6a2fe633b2c51c95a4849d13f7c809dec126cf3797ab1f8d948024"
+    },
+    {
+      "id": "card-t2-F1-pause-2006",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "60a7de30deddd88fac98db0b06f61c66d1c8703f82e090ae72680a76af660f90"
+    },
+    {
+      "id": "card-t2-F1-qe3-end-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "fe4d862745b633639f5ad2a1883d22ba08da5ac56e4e35d15ff72716039cae9b"
+    },
+    {
+      "id": "card-t2-F1-third-cut-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "28c351ca19b80bb979850f16acd1b5b89ac792885627a52d49833b00195e7cb8"
+    },
+    {
+      "id": "card-t2-F1-ust-positioning-2018",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "40f18500134ac873454495ebce3d3fba941159b83f6b60bd9f66c7bf8a2230ea"
+    },
+    {
+      "id": "card-t2-F2-abenomics-2012",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "4769bd33f51a09ce20a3a542cbc4dc883cf5be12d4118eed5b91cb10345bd430"
+    },
+    {
+      "id": "card-t2-F2-act-as-appropriate-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "782ce3c822414b0f3acad66c517be0a81e0747362cc5709598e5169889f3000d"
+    },
+    {
+      "id": "card-t2-F2-aud-taper-2013",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "f4da8bfcae74a1f73975b7c18808ccd997414b54097679d084a614197279dea4"
+    },
+    {
+      "id": "card-t2-F2-boj-thin-signal-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "f77a604f7cca148b1a3015c717b02fa2cfe64754cfc744e4d9a73c50ab35cd84"
+    },
+    {
+      "id": "card-t2-F2-considerable-removal-2004",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ba040df4a6aa6480014e7023615e46cd4551964f5abe8df4ac484ca6c00511e9"
+    },
+    {
+      "id": "card-t2-F2-credit-crunch-2007",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "03606f9724cfb622f08e5de0bbf935499e354a07262cbe0d38b677b14f2ac84a"
+    },
+    {
+      "id": "card-t2-F2-cut-sizing-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "14aef5714f3a02ba95b0943ac430e0176f54b1e3c0ce234855f62b103f94e2e9"
+    },
+    {
+      "id": "card-t2-F2-draghi-precommit-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "898e98896d124781aaaefa20c0a4d4ef657c455c4c7ceb16ac16c2b4bd699b36"
+    },
+    {
+      "id": "card-t2-F2-ecb-qe-telegraph-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "23988070395e53583614818bd22ee3eb0fcca4ad6448431de466662fc51236fb"
+    },
+    {
+      "id": "card-t2-F2-eur-energy-divergence-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "153fe334ce7c3fc7d2a5fe3b9ae9d456c3d5a23bdc63c941106580e6fb329986"
+    },
+    {
+      "id": "card-t2-F2-higher-for-longer-2023",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "91bd777b0067255e27518b62a3ca541237c187cc6e55fd07c4bdf3c29a78b5e2"
+    },
+    {
+      "id": "card-t2-F2-nirp-paradox-2016",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "3b3efe0530e4cff541eeef0d27210cec682699da8811ae8dd12e6c31dfb2b72f"
+    },
+    {
+      "id": "card-t2-F2-opec-cad-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "826194ccc3f9b18c6568827430ed107da30d5b8c9d940c9e84e016b5ea27addb"
+    },
+    {
+      "id": "card-t2-F2-powell-pivot-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "83b9f042730f11839a351d7ab77f2508464af784e990a280a80888eac3bdeccd"
+    },
+    {
+      "id": "card-t2-F2-qe2-jackson-hole-2010",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "b082d3f9e5e0b10528d0780eca556075771f3186d3713c4bcc0ba32ff99b0472"
+    },
+    {
+      "id": "card-t2-F2-shunto-nirp-exit-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "1c5bf04b75ccf0ad319559639ce284258bc46285ca79828a87b540f0cefe5a6b"
+    },
+    {
+      "id": "card-t2-F2-some-pain-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "1b541f77a2dda6cc22153eed91276d64001442b5381f9f562be9e83c29eabe2c"
+    },
+    {
+      "id": "card-t2-F2-taper-begins-2013",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "9b67c13fa69e651cd207bbc2a0b96838060ac06d539318ad41d7dcbe8735b05b"
+    },
+    {
+      "id": "card-t2-F2-taper-testimony-2013",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "520c2648867344c9c92adac0c4179ea79bb2a475b8d223052e6f6ace41114ca4"
+    },
+    {
+      "id": "card-t2-F2-time-has-come-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "c8134f03cc06aeb1aa8a051e450395d10e38aad695ed11929765cee9dec1af99"
+    },
+    {
+      "id": "card-t2-F2-trade-war-escalation-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "e15ca6df60d1899c5b2ae42b45d4b60dd6f89a52c648129d9cde4d3b367246a3"
+    },
+    {
+      "id": "card-t2-F2-trichet-alertness-2008",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "cf5748c0004c8209c902bb5dfacc73054a427af2796da1748343055277821f12"
+    },
+    {
+      "id": "card-t2-F2-whatever-it-takes-2012",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "52f6640d5eb3e0495888315fbc301ffdee6195f33a8f116cf0efcfeba4f7c54a"
+    },
+    {
+      "id": "card-t2-F3-boj-ust-channel-2023",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "58fb087cc86ca17cef23803cb29f7b115d734332107bbce697d086e8190674e9"
+    },
+    {
+      "id": "card-t2-F3-brexit-joint-2016",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "6f7aa2cb1ea7bfde5d59e557d5489504d3c5a1639d7d73af14b87103e922c547"
+    },
+    {
+      "id": "card-t2-F3-conundrum-joint-2005",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "54ecf053fea7560b1746b99700f50ade302f3e9326e5ff2994e17a9ff401aa26"
+    },
+    {
+      "id": "card-t2-F3-covid-curve-2020",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "e8a854585ecc41b7c92551f3f703e2e3be34f72d666153cc1374d48ec524594e"
+    },
+    {
+      "id": "card-t2-F3-divergence-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "64fac682c43729a6f7bd812d2d040314eb89bad035b81dd7dd2f842c3ad23887"
+    },
+    {
+      "id": "card-t2-F3-dollar-squeeze-2020",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ae8978c65d8a5cfa1a5ebac85d472cff879f7d6032fce427667bf8a7f90b684d"
+    },
+    {
+      "id": "card-t2-F3-dollar-vortex-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "c52cbad1217f424cd9a67da9baa9b7fc750681c0ff9ee0954029ba80ce9768e6"
+    },
+    {
+      "id": "card-t2-F3-dots-vs-oil-2014",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "752ba1b20c2f76afaac300519d159d8c0c25a916ad12d89cc949703393018a59"
+    },
+    {
+      "id": "card-t2-F3-election-2024-joint",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ebe5adbde4fb1162b251a72d8570da1d19949b3aad1a31f6a3c4f7e82ce87c18"
+    },
+    {
+      "id": "card-t2-F3-energy-escalation-fx-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "465e860118141994270cc69ac86c951190c70e95a31f7e202b9b787cf052d2e2"
+    },
+    {
+      "id": "card-t2-F3-fiscal-risk-joint-2011",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "9b7e8299606ae8da219b9262d64efab49560321874ba6db58759d65c729b96b0"
+    },
+    {
+      "id": "card-t2-F3-front-loaded-hikes-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "02e34245a6064fe1b6e22a13c720c5ba924246c22efaaca9567a78f6f09342f1"
+    },
+    {
+      "id": "card-t2-F3-funding-carry-fx-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "bdbc714f20f02e8f1a7ffa7bf83e6971816ae97d73da098306be0551c6982292"
+    },
+    {
+      "id": "card-t2-F3-hiking-year-curve-2018",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "0f9961291464ff129d20403f98fab81bca19387e2803fea49477c25de5945b3d"
+    },
+    {
+      "id": "card-t2-F3-inversion-persistence-2019",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "bc4789ef2316f5c3603fb22e863ed31932e99f71f9660e8e31234318083fef42"
+    },
+    {
+      "id": "card-t2-F3-scandies-stress-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "57e77227b8adb9140b71d2c96007ae6d27c8e6d36324ae9e7b37f71a900d911a"
+    },
+    {
+      "id": "card-t2-F3-sep-dots-curve-2023",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "dc559d910e935b39d80e9adb7cee8d0b82e3a81f9255ddb41a74c7daeaaa562d"
+    },
+    {
+      "id": "card-t2-F3-taper-testimony-curve-2013",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "d3c6f439d3ae1f68027b797e8d5d4f1e7aca2c07b93e37a57712e732585f3371"
+    },
+    {
+      "id": "card-t2-F4-aud-gfc-2008",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ffffa9b354e362ab6b78685b54417f4f0f3a4e212c595bb8524f77e47a4d7cbd"
+    },
+    {
+      "id": "card-t2-F4-chf-defended-floor-2015",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "9cd9b04bf0764ea617e262b96d5e1d0215f8153123af7dcc9837406dbb17e799"
+    },
+    {
+      "id": "card-t2-F4-covid-rates-2020",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "02e3e30db9f5615df259649d25786163d9a7e1f248d006d963128cc5ff255326"
+    },
+    {
+      "id": "card-t2-F4-cpi-friday-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "a16cc55fc2b30fedd1bbd6a4d94b352896c7353edb994ecbc64ee21e28b37076"
+    },
+    {
+      "id": "card-t2-F4-eur-warnings-2022",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "20eb5dc526fef0c6276f97e25531de42dbd9ba7cd166354585e41c82a0d6d317"
+    },
+    {
+      "id": "card-t2-F4-funding-stress-10y-2008",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "29a791049e475ceea0677bba4bc0e58652ece6bd9a08aa8cdbbb418f2a31f722"
+    },
+    {
+      "id": "card-t2-F4-funding-stress-2y-2008",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "97a709d3680569a643ff70049089dc53332ad67f7c9c3b0726c937182ed6366d"
+    },
+    {
+      "id": "card-t2-F4-gbp-brexit-2016",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "0a976215ee2183f11669ee5b63a3d2371f2650a38dc53943a1702c14eade9e5a"
+    },
+    {
+      "id": "card-t2-F4-gbp-conference-2016",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "fe217972798943dbdaafede8c8971a642dd26c853ea0289247d1f7bd35ed3dee"
+    },
+    {
+      "id": "card-t2-F4-jpy-carry-2007",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "5968bb44467c15e150d66a8a983e232a73e8480feaf58ef9370c4232cf82da48"
+    },
+    {
+      "id": "card-t2-F4-jpy-crowding-2024",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "bcdcba2e254e846de2400a9d4131e57d511704fb1fe2d4fabe0c224593a7fd29"
+    },
+    {
+      "id": "card-t2-F4-nok-covid-2020",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "3112aba4765eb9458e992d8640e112dc99c65cf84e4715440158ad330c5d0257"
+    },
+    {
+      "id": "card-t2-F4-same-week-texts-2023",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "fa5ef5f986bc766f01d1953e23b962ea177fffab579bc93e12311a4a49a03937"
+    },
+    {
+      "id": "card-t2-F4-taper-warning-2013",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "7095b3d365bc13dff8c04e65f22f7ae3e64f03c3b4662549acf6ce149c31f880"
+    },
+    {
+      "id": "card-t2-F4-ust-downgrade-watch-2011",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "842113f26fbeb3f37b796ce4c09e507ee632e5a3cfea8f06d7408c8aed56556a"
+    },
+    {
+      "id": "card-t2-F4-ust10y-january-fomc-2009",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "b604c40510c803a3bfb6c192aed22e670911e35ab0b2c7359b4f564ae9501d3a"
+    },
+    {
+      "id": "card-t2-F4-ust10y-supply-2023",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "4298409845567e36d2938899f4a8d0010d59e201b83630a12d6116c3882fe528"
+    },
+    {
+      "id": "card-t2-F4-ust2y-december-fomc-2021",
+      "input_age_zero": true,
+      "baseline_forecast_unchanged": true,
+      "forecast_sha256": "ac32174cd07812472f7556d0c2583ba74cf1fdd70988afb737022774be569acf"
+    }
+  ]
+}

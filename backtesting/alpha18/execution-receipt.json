@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Actual new exact-safe host CLI calls and bounded experiment generation counts; no image deployment or submission.",
+  "diagnostic_forecast_calls": 232,
+  "baseline_identity_bridge_calls": 4,
+  "diagnostic_control_calls": 12,
+  "experiment_forecast_calls": 477,
+  "total_new_host_forecast_calls": 725,
+  "new_container_runs": 0,
+  "actual_Docker_evidence": "Reused FF03 only, not counted as new",
+  "outputs_private": "alpha18-private",
+  "experiment_evaluation_log": "experiment-evaluate.log",
+  "per_command_timeout_seconds_max": 240,
+  "source_checkpoint": "f4c7fdd8e492f0bae7b72d35eb658579803455f8",
+  "hypothesis_lock": "155c10cecbc332e3e5a2605604705e712d38a4c7",
+  "registry_push": false,
+  "submission": false
+}

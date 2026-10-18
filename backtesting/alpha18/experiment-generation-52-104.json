@@ -1,0 +1,3511 @@
+{
+  "executive_summary": "Locked candidate, lag and permuted-age generation; no targets read.",
+  "lock_sha256": "51d3e6a35cd4fd12ad3798fb07591d83987a76df1629e2e8767282f516fb9d16",
+  "new_forecast_processes": 163,
+  "origins": 52,
+  "passed": true,
+  "receipts": [
+    {
+      "origin": "2023-01-02",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "ea27630d5c19375d84f223a38f0fd44f32702dffaf6a1517cabf0b79c0acef3c",
+          "raw_kernel_parquet_sha256": "4156a27cd20d2ab8e2a761250bf0a0ff996d54e20814ed23cf57c0d27af62bd9",
+          "sample_sha256": "7db9b52fa65815bf449026702f4877a8ffb3a2ecc950ae56ee34e416b84a5124"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "a7fdc19fa52e04444c8f1e83cefbd3be7d3e853855af88a122e6cf27296b7f09",
+          "raw_kernel_parquet_sha256": "82277240e92be4e1c060bbe2fe6f8bafd460e6b2e1cc1d032c2bf8340692aa6d",
+          "sample_sha256": "cde41e0222b1641e2f6e9a05f5d4ee1ed4868145555048e9465d2c1f5ca0550a"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "a7fdc19fa52e04444c8f1e83cefbd3be7d3e853855af88a122e6cf27296b7f09",
+          "raw_kernel_parquet_sha256": "74bae1a0ea55a88cbbdced3811c765df53268718173ae90793c77f063d01f014",
+          "sample_sha256": "5e138fa708662d77e249875d184c3e436975cae69f7dff30c1ef87750e6adfde"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2022-12-29"
+    },
+    {
+      "origin": "2023-01-09",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "1fb8c11cce642998970368238f1a37af3f5adc4c7e67b773f9f66af1e76e4f07",
+          "raw_kernel_parquet_sha256": "5676e5b1e8cf9a19dfa215c9a1307adb4a0f8e4182d4c725b679e6b146a752e8",
+          "sample_sha256": "e0bcd97a71e736bc304555379a0c173cb29ebb4ad47294d73bc802b64e080cd6"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "35e2a168e15cd1df586901d42fc3fb848e8d181ddad6f7e6327aecd88e15932d",
+          "raw_kernel_parquet_sha256": "78b7d4dbd8b9212200ed8496c31cfdcb64e9ae9dad5782e71d78b7c0c2778f33",
+          "sample_sha256": "7cea4023deaa37fbd98818955ae4cc32a4d9496ad18323f4da146e73bbe34b09"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "35e2a168e15cd1df586901d42fc3fb848e8d181ddad6f7e6327aecd88e15932d",
+          "raw_kernel_parquet_sha256": "eeee9c49d15e6528d267f7469bc0fb18d2ed0d479a011ecdab12371902f249a1",
+          "sample_sha256": "93b579b4cad521cc1c2d91dc70042bbdded0f5ab9a3c3171220b35cacfc6c99b"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-01-05"
+    },
+    {
+      "origin": "2023-01-16",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "32687ace9ab7791e2f09031c02083f4f37bdc632eb3788e516a190a9df42fb13",
+          "raw_kernel_parquet_sha256": "b11d83285d6a1e5d808c4a05553b9bc4f5889135a0253d4dbe65226cd1a50fe0",
+          "sample_sha256": "c9b0cd8d06f41bb258cbd55d23614fef6c35302210665055b21703861fc56d20"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "76ebc5c4b9f4fa61e09e7898f940d0da49ae9a7291d0a3e2a6cab0b7a08b9b86",
+          "raw_kernel_parquet_sha256": "e568e078c9cde92fc9de3f31b6cc3a76aaf4ec03fcc1c7f0fe640289d1bc8ef5",
+          "sample_sha256": "aa237f515b834975e35cf13cacaaa4d4922f12170797e8f3a99a14b8ef3fa085"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "76ebc5c4b9f4fa61e09e7898f940d0da49ae9a7291d0a3e2a6cab0b7a08b9b86",
+          "raw_kernel_parquet_sha256": "5ee1fab5a20be5e9742e08894ae84f4a21c25217f16789000aefe601b3c8ec0a",
+          "sample_sha256": "222bf23ec8737f59073af17913ddfbce847620393f9581db85d379b7816fbf48"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-01-12"
+    },
+    {
+      "origin": "2023-01-23",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "03d3dd081ed4ef977c1f50a5e7e74b46b650033026c9489a43329f70a5e9ee72",
+          "raw_kernel_parquet_sha256": "0e2507ce4032c15c19162a91c4b0a0df0363a95767da87b6932429b0b964d203",
+          "sample_sha256": "ee9c52c59badb3a6ea92e1dd43550e77476a2a9e45080725a5ddc390f4cba6f8"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "bb9335eaf1c63c2bed0b921ff513acde8b933823d617f10d3f5ef4fff76cebe4",
+          "raw_kernel_parquet_sha256": "bdef6a95abd6991bdd647bf3a0bcf7285cc4fca03c8631d7c408e7855de3e367",
+          "sample_sha256": "f81a121bd46869b4065bc165b15722e43bd9eca2ebae17ac19e9d8ee60f063c3"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "bb9335eaf1c63c2bed0b921ff513acde8b933823d617f10d3f5ef4fff76cebe4",
+          "raw_kernel_parquet_sha256": "82df398df090d0f009d95a7db7a3404c57db91cb2b0ba73622bc89e140911f21",
+          "sample_sha256": "154704c6151924ff0e1734778c50c2305f029950213e66302c019fb86e9c512b"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-01-19"
+    },
+    {
+      "origin": "2023-01-30",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "82ad22e48a657e91683cb70a6915bf6d8a6ef10fae154e81f8c7277069c4a3fb",
+          "raw_kernel_parquet_sha256": "f9820836adb9be03378846f3ef2f76fbbecec4653414c6832d5aa55c57383091",
+          "sample_sha256": "31843afa29601f4f18f1c4d3b739bbea6e876b724845e6947e2f62aa3b784e9a"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "9af7686a91f57200dbf23cf5b433da7e6480cd35b542786eda593079801b40b4",
+          "raw_kernel_parquet_sha256": "b17325f8a28dbfd0bc0f2f984e4ba6f933c3b186c01d55864eaf8eedf126aff3",
+          "sample_sha256": "e971b65285ec048f7cdc5e0734f40c4e679877d3c042481dc0b7e79780bc7adb"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "9af7686a91f57200dbf23cf5b433da7e6480cd35b542786eda593079801b40b4",
+          "raw_kernel_parquet_sha256": "36f84c52bfd9c2972a3c1f81888a454be26a3984ce4cd2a77794b2bd82dda84b",
+          "sample_sha256": "715508478a56c084747ee5f747d068764f04b308b474ea2f3e13c11d4b37df3a"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-01-26"
+    },
+    {
+      "origin": "2023-02-06",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "bb9588737c0a64a83d29a756adf01adff1eec80461b19be6860db0c1d0db34fc",
+          "raw_kernel_parquet_sha256": "6ec1e020964654e4b3a9a567c92443a4791089677143f3371983b3cbc12262c5",
+          "sample_sha256": "eb56007e8a93e887a32759d7abf4c3e3b43256aebda875e7265a3463b04a667c"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "6791aeed85808f01d18b7ddea2ee11a6862f403b58bc607001cade8dbd4d702c",
+          "raw_kernel_parquet_sha256": "1c807e9f11b75afc4769bc54134543098621193be01a3378a7fbebd1c5d15067",
+          "sample_sha256": "bc7616743b66643867170c7022f815c696089cb1e675f9e1b9e7be6b216a244e"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "6791aeed85808f01d18b7ddea2ee11a6862f403b58bc607001cade8dbd4d702c",
+          "raw_kernel_parquet_sha256": "0e0950150f7f0965c3b55e0ae2183745b10e0bcc8bc729384246191650b71e19",
+          "sample_sha256": "6b7a38ca339f120ab5c5dd53f10b761db8544f92bc78e7ed1630caae462aacf6"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-02-02"
+    },
+    {
+      "origin": "2023-02-13",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "6e8a741eae5ac5756477cec6933d2d266b441f4b17a1289dc9d668efe10dae43",
+          "raw_kernel_parquet_sha256": "d27bf4ad294856dc1a033f81d68d484a87046023c2a434e4dcd728a94ca06129",
+          "sample_sha256": "9353e4161067c1565229e7194dd9748b0f3aa8964cbb4ff1131e3b0001e859f8"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2bb45c7e5d67fd130e5d272b985a9737df011767c9d4415ac10caaaf4ef50a6e",
+          "raw_kernel_parquet_sha256": "6322855355af545d2f3ddfbf52a382fd1bb2966631509b8564bea9b09d2880cc",
+          "sample_sha256": "2e69be10f627c6508ef2f09120833f5c003ea434076bbc84fa2c5586ebc51db2"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2bb45c7e5d67fd130e5d272b985a9737df011767c9d4415ac10caaaf4ef50a6e",
+          "raw_kernel_parquet_sha256": "eb20bd070a70ecd83dc48c3b83892efb85dce19f94e94dacca1cf150ebe7f41d",
+          "sample_sha256": "67506ad19d034745b58842e3b82ba5ea65aca7f75a08db92045754444e86a170"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-02-09"
+    },
+    {
+      "origin": "2023-02-20",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "d6808d7e48e155db73835f71a7eb9fbd671881043ac9180cddd9b0c58b1506b9",
+          "raw_kernel_parquet_sha256": "f7b5eac4fd428eb0d0b9de30624b2ed6a757f356d9d536bc8521f5acf8cb47ee",
+          "sample_sha256": "131eefe0694395e08b5ef4e3ac3aa2eefeb1dc2108512cefb82d250d862f82d4"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "427f246426aea4f2981f273670d49075e0b2d3c6b4372266e4cf57761b61f40b",
+          "raw_kernel_parquet_sha256": "6efa502cccbfc9d25e49b245fa7c542e22130c61941b6f334963f96024f1837f",
+          "sample_sha256": "df5f447dc1295b9fb40776345257061df45d3c1d399cd2117b92d6e25251131c"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "427f246426aea4f2981f273670d49075e0b2d3c6b4372266e4cf57761b61f40b",
+          "raw_kernel_parquet_sha256": "938ce02e5a39e2d2b45dbbd73a1c4330dd5e06b93691e97812782dcda73239b4",
+          "sample_sha256": "3daf820e20002289d0e0ff6b0acd7e18f78577dad082c5654b3586880fa26257"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-02-16"
+    },
+    {
+      "origin": "2023-02-27",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "777d8cce8c4f05e3c3942403fb5b1c6f00262246d90455a6298a630d95dbc468",
+          "raw_kernel_parquet_sha256": "fb11ffd3574a039bc4e16a6c96d7bfe4bd55deb3968e4155575f53f18dc278a5",
+          "sample_sha256": "158db6aa4758eca71fdb9cfb2fc3618862f1c9fdbac6cc1021bf377c99ad02fd"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "a1fc3c5d490fa5e63005036e0a9e054214e13f4138a872b849c440539ae4ee78",
+          "raw_kernel_parquet_sha256": "444d71462be43294d78549f9a2c323da687b7b07dd4a66fafb82000fc7fc58f4",
+          "sample_sha256": "3e6a22f2dbc6a5498928fca2b0e0244a4a6023f5816c4699cdb20885773370e0"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "a1fc3c5d490fa5e63005036e0a9e054214e13f4138a872b849c440539ae4ee78",
+          "raw_kernel_parquet_sha256": "45d4c1ac6a83bd9180e0c3ccdfdbd4da30eec0da5081fb93dc51718c6ff207bc",
+          "sample_sha256": "463b0acbcb860468c18089893ce0fa4e5e59acf6bfad5f51b6e624a5b8152d1d"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-02-23"
+    },
+    {
+      "origin": "2023-03-06",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "36e57b0e3981b3237d9bea317f237d1f3d77a0e397265d2983e3d829081d5c46",
+          "raw_kernel_parquet_sha256": "fabbee47e319f37ed11d2798a4e553dbfe8fe320d0dda7735152bba2517bc35e",
+          "sample_sha256": "af63d405215771050156d3dd64fd2c1b937d8984b47babc7c7a0c04d8008cc90"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5082ed9f1c25c8ba6862eef8a5403e63adc1a97c2cdbe0119a529f3c1f97b0bc",
+          "raw_kernel_parquet_sha256": "b72b8718281a89bfa63aa1cf6efeda49aa701acab15de0fde4f2e9145f64d482",
+          "sample_sha256": "c3ac8cedbc4cc15fd3f36e64cd18d85790fe2e0cf87a0715a24d7aa35fb44ab8"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5082ed9f1c25c8ba6862eef8a5403e63adc1a97c2cdbe0119a529f3c1f97b0bc",
+          "raw_kernel_parquet_sha256": "2488f55e06e6a6a2b3525a46a1a48f9e871156fa376cab09fa18a43ca1f26685",
+          "sample_sha256": "a1833b58003fb495bbae6bd42141d738aa7d1de51d78ac676596b62411e9ced5"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-03-02"
+    },
+    {
+      "origin": "2023-03-13",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5beb55441c2a80c4465cea64af49cac8de2089165ba77f78a5e37264a949834f",
+          "raw_kernel_parquet_sha256": "51fa84e433730edf1ff4ad4ce1c804202dc5d45bb39540d615499e7a5aa5dc9b",
+          "sample_sha256": "1ee038df0849832245b83ac8810bff6e3ea80d673506f50edd07af96591ee040"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "580dc485b212c01a837194faead4f0bd5cd6d446502a37aadbc8055c37dd952a",
+          "raw_kernel_parquet_sha256": "f24627a15efe766d5379dc4979ce32f1bbe7a8d5f61951fc0b79d432852474e4",
+          "sample_sha256": "c2d364e560a07e8db48bc2a52d32fe655bcb22d682077b70c7ce55e30f7572c3"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "580dc485b212c01a837194faead4f0bd5cd6d446502a37aadbc8055c37dd952a",
+          "raw_kernel_parquet_sha256": "324da59d2b010428006c86386e3b6ca515cd29124b8ced79a1d7f05db748d43b",
+          "sample_sha256": "1f8e306ad8d3436c0750bb1e95ef0d936a7a3682ba8f8d6fa640826557d6f916"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-03-09"
+    },
+    {
+      "origin": "2023-03-20",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "dd309c1902af2d9ba75f324b0f4eda49b0fb3159ae0ab7fbfeeab39d4479dd97",
+          "raw_kernel_parquet_sha256": "697cede69ab7080e0cea0dce099697c48b8b13a349dfb2328abbd90e4f5290ce",
+          "sample_sha256": "7e51497cf872401895495b3436a3a55b72180c04d2a559051ac5b5346fbb4132"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "23b855f1c7598c8070fcbbde442d96bd548dfdff73fb6e2fa59cf70ff4c78a8f",
+          "raw_kernel_parquet_sha256": "4c42ccc45a152002c7eeca10b2fc20648c1a6f94c1d5240e13a08a0ba2196de8",
+          "sample_sha256": "9bbb821b64d2e28ee829bd752eaa93f4732cbf3b36c515977a14f982d2e4dcd5"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "23b855f1c7598c8070fcbbde442d96bd548dfdff73fb6e2fa59cf70ff4c78a8f",
+          "raw_kernel_parquet_sha256": "a46187de0ade1740f4b00e7049d2e629d74a0ee7dbef2d8f59d1e2374fa3f3d0",
+          "sample_sha256": "e04cf03695647ea1fefbeddea317592c310e97cf9b15ddf3d2abcc02468999f1"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-03-16"
+    },
+    {
+      "origin": "2023-03-27",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "be8cc6164ad4626551d36d8444c75a3e14e4938a15bebaa24e6a635e0d66771c",
+          "raw_kernel_parquet_sha256": "6f6130cdb9390476fa1400af00d480b879d2ea34b1ca301534bd2c62aa046015",
+          "sample_sha256": "06ab4ad94f0445c9c321f40fa53cd40612496f42f67287fa81866d1fa9525cfa"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "735a6736ca4fbb4c9f7e319828f371d9e546ec246b4a3213f454d8d01bc6c86b",
+          "raw_kernel_parquet_sha256": "970decc2262f035a721b96d70a274d7da30b1f1e9660535ba7aae487ca83e27b",
+          "sample_sha256": "7cb34b2cada81707d26197a8a834725277195394b370c9eb725ac4fb0bb7b3e5"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "735a6736ca4fbb4c9f7e319828f371d9e546ec246b4a3213f454d8d01bc6c86b",
+          "raw_kernel_parquet_sha256": "05a0a29593d57fe422c3134c0ad1f537efea3e8d3a449e19f048504701dcff07",
+          "sample_sha256": "04b2bc505f38806cdf67c5a742fc8ab7de60e508adc551ccebc5e6b666242c5c"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-03-23"
+    },
+    {
+      "origin": "2023-04-03",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2a235297fac43861ff3b7405b844014d77a6d0cc383770e62774da4569b1b4f0",
+          "raw_kernel_parquet_sha256": "5a089fa1042fc96866a80abd846d06d8da8ab13564bb1a397f125c70b81e806b",
+          "sample_sha256": "482e82046cc9bc0aa9ad3d3d1c09705540cd8dcbce6a0e18df9f9798fea1bc48"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0c0ebba7cce683a34da50f5547026b256cda75696811cd35a642a2e9a6be613b",
+          "raw_kernel_parquet_sha256": "7a82efe0c7a88f556a6b9d9cf2b185a1ae44466e271c564aef2485d78ccc8286",
+          "sample_sha256": "41d46d2daf7e59ed1e08868d2f0af96a1eb60baa7726a9222dec35b18e84846f"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0c0ebba7cce683a34da50f5547026b256cda75696811cd35a642a2e9a6be613b",
+          "raw_kernel_parquet_sha256": "c30c598b78ce9d4ed1d78dc9221aae0fa60d57775c401ae19975cf9aa1145e9b",
+          "sample_sha256": "c163ed0c0f18d015df909696d7c9c86e325f7fa3a15d726105a2757558f79863"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-03-30"
+    },
+    {
+      "origin": "2023-04-10",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "30b0d0855b5a10c162d41339da76b01b53c97addea17c2a3d1f1cd4c85e706f6",
+          "raw_kernel_parquet_sha256": "92fd665149fe6f2e5967c52d200221700be60884b22502e794b329f6b938ab0c",
+          "sample_sha256": "cd0e7f40864d5d7aadbd91e797b5059e99c8e2ecfdb257660e077ea6842e0bef"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "6325e64375a2bf50dc8e02562f3e0e7135cafd2aabade0b2b715acd0b6c2c682",
+          "raw_kernel_parquet_sha256": "e98d61d0d6f30dbe6cb0c9e2a74373bd5ed603dfe76664b532d86b85b468ad70",
+          "sample_sha256": "fee297153b5ea71ca1786cf2447e2a1f041aa6cf05fb52be12684359f329f2a0"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "6325e64375a2bf50dc8e02562f3e0e7135cafd2aabade0b2b715acd0b6c2c682",
+          "raw_kernel_parquet_sha256": "84771fd79916d454feee22b586c50a8b3f27113025897b0e381d4f3f79bc775b",
+          "sample_sha256": "79d7766cb10d2a6797a99886f32c9f71c7a487927c31947e7730f8fb937cf29a"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-04-06"
+    },
+    {
+      "origin": "2023-04-17",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "aad237be01cc5c2da6fc0796ba0f7a2e5db81ec2d0c25275a2bb23882d2bd540",
+          "raw_kernel_parquet_sha256": "9591cc41b718b4e9b6af0417b34750359be2117d11f0e02d6e8d0a8c47cb162b",
+          "sample_sha256": "162b74c8a685c54907b1a8143086232336054b259c62234c1fb472cdef0a5136"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "d7057d4913c01e6e45f763e3e63ed9a92b65517d04d97788cb76b608989672a6",
+          "raw_kernel_parquet_sha256": "c8de1429c3468aef35b0d8a7913a421c7c761f916ba95f32b8d7da26d7cf77f3",
+          "sample_sha256": "46c0731e9a0268c8fff55599b084b71ed7d33f4f05a94d9ffc2c45b2ba8ddf39"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "d7057d4913c01e6e45f763e3e63ed9a92b65517d04d97788cb76b608989672a6",
+          "raw_kernel_parquet_sha256": "7b4eb1703e38e059d6b4eac1efde8e1cf4a5c4388502df885a83e25be8948a46",
+          "sample_sha256": "39c835f049b5a4ee79d9550b64942341b7e9d0cd3707fea5c8ba63c9232aa271"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-04-13"
+    },
+    {
+      "origin": "2023-04-24",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "4364bcf56cb7bb1db4d1e549b9dce7b5b6158b321bf2a7c9c8689aa60db2d5d2",
+          "raw_kernel_parquet_sha256": "4bb2f1929cc41f046245bb9b92ebc8c56ab5580b67083de261a0119bb9ba2fef",
+          "sample_sha256": "d80c007530988cedb2eb14d4376fe4ea25ab811764f322ffa103aadb9e8b4be3"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "70c737ac91b098b6a5afe6f2cde04339efb06ff4dbf435caf7a452add08a5c55",
+          "raw_kernel_parquet_sha256": "7565a636791f696bef27868817436e41677657912f0cc15d63b40b488d2f4f68",
+          "sample_sha256": "ae0d31a45a0053844c8b77202b3abcdb5fed59c04705b059009ba0583d2ec244"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "70c737ac91b098b6a5afe6f2cde04339efb06ff4dbf435caf7a452add08a5c55",
+          "raw_kernel_parquet_sha256": "76fb85d34f5bb7f6791d6aca4e06aec0a527f938092da2e0c19f3a4516594fe2",
+          "sample_sha256": "7539f271f0c7f4817027e830e0f22f19d4db6cae1aa3bd7052c8abfe5995a65e"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-04-20"
+    },
+    {
+      "origin": "2023-05-01",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "06b865863b4628a9107496422ba566ba10188a460f547f6dc97c81e82c53de64",
+          "raw_kernel_parquet_sha256": "003c1f46b5da569027db8ab8e709772dbd0a5cee08f912d034368c5bfa13e785",
+          "sample_sha256": "0e43da2e3387289cd661274fcf4d50a2e2367a644d21f33e981a9fcd1b21b56f"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e8dad0e592ea0625f205f0b4f31d3c89b02fee0149b7c081c06f0e1867ad2422",
+          "raw_kernel_parquet_sha256": "27ce1e6f033c5a2400933385e76ae6502a08b1679441b75be2de3d438fee2617",
+          "sample_sha256": "fed89e73a7416bfe48617ca328105b0fe6b5d861b540e58f54bf560d3ffef133"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e8dad0e592ea0625f205f0b4f31d3c89b02fee0149b7c081c06f0e1867ad2422",
+          "raw_kernel_parquet_sha256": "e37bbdfe56bc712ac197d0d3a736ff2a9dfdddbd00c9d29c3122267be9ee9f55",
+          "sample_sha256": "8bee5641e1e2f09c2a3ba53dc66218825e54bf6b18c0b7eee9a873943a923a78"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-04-27"
+    },
+    {
+      "origin": "2023-05-08",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "fec276bcdd3e8f9861470bab8430c1cae51235731cd0edaf3bf28c80a88fa2e5",
+          "raw_kernel_parquet_sha256": "cf1b2a3796aef296638f013de5359bd64b3f0380c18a420a7f379d90168b6a22",
+          "sample_sha256": "c2073905db4e02a1cb406413b7d33f421167149cdf17ebd46dfbd8e0db908763"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5a9ed3bc309e403af2866e9d5f70551690f8a9b7eab7f2a2b03b814f04a2d395",
+          "raw_kernel_parquet_sha256": "a792b3bff14602e9f6540daf7fdc90281694dc588a954f7122fa7f1393ae7514",
+          "sample_sha256": "5b273064e3a393a06095c25d72b77f255e481be55e3db2e9c44b0d9832eb6c36"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5a9ed3bc309e403af2866e9d5f70551690f8a9b7eab7f2a2b03b814f04a2d395",
+          "raw_kernel_parquet_sha256": "57623ee582f9c2339d9cbe1d15005b93e93ae703b82b0d8553dced089c806686",
+          "sample_sha256": "dc9b1738604118cabe7c3a88b06ef9047b751ffe3e4a5418609b754b8afb9b56"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-05-04"
+    },
+    {
+      "origin": "2023-05-15",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "bef09ec0b79af16b7252812e42d8a96f1e6ebc264223ab71727698ec1591384b",
+          "raw_kernel_parquet_sha256": "2c932e4db777a563d75da709e41e46127152e7fbf90c66abf5ecb6600e695996",
+          "sample_sha256": "dc3ef27ea7805bfc7ef2a0f9ee88a2d2f0b60d40462d9a5fa9dd05e2db85b2a6"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e15ae33c0e685d68e205dd7b2a495be87ee7d01cbed9388519a35e71be813b3c",
+          "raw_kernel_parquet_sha256": "fb3f9c19f1a3ace7936cb9b39771dfb51d1f6973ff18d5a04d885bd6aeb27d04",
+          "sample_sha256": "edb06f5fa47525c3df27dca09d61fd13b55b4a110945176d0fc183dae5cb3b94"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e15ae33c0e685d68e205dd7b2a495be87ee7d01cbed9388519a35e71be813b3c",
+          "raw_kernel_parquet_sha256": "7dee53d271d400699075a7df0e37bf3461a1a8d9766a3ae23243b11d0043dbd1",
+          "sample_sha256": "6735fecb30795cfd6d6d58b1f61375cc298bd8c0990d52f694cf22f08a1b1641"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-05-11"
+    },
+    {
+      "origin": "2023-05-22",
+      "actual_gap": 2,
+      "placebo_gap": 3,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0ddcc72353a52c56a429326b992fc945dbc9a6bec6cac036a7523a11106583ac",
+          "raw_kernel_parquet_sha256": "0d60068ed3aa702f9f4922f1760f21083435da9c406f6ba6ccd97db58f1299d6",
+          "sample_sha256": "028f2c4d9bf6f6ec89a096b2dd5f108ba0957671848bdc280534157a26cdaada"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0ddcc72353a52c56a429326b992fc945dbc9a6bec6cac036a7523a11106583ac",
+          "raw_kernel_parquet_sha256": "2d0ed3bc6c0a1ec75baf82751eeb9fe316f593ecd6c2da6697b997978fbcda6b",
+          "sample_sha256": "40d27789512ccb1daf8a86c16c769a99fa8be01eececb1e295ae61e82e7964ed"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "abcf054bfa0da9b89bc1b02dfa31757d26daaf1091770ac13524f1c0c280812b",
+          "raw_kernel_parquet_sha256": "03fe7e7356eb024173328ba5ca20ed18eaa82d87682149b0cf82583e37e44c24",
+          "sample_sha256": "c308b577e871bd1964bedf7a31b74b1d1e0519905827861a31eca36c8df39ef5"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "abcf054bfa0da9b89bc1b02dfa31757d26daaf1091770ac13524f1c0c280812b",
+          "raw_kernel_parquet_sha256": "e54bdd546ec136a73ebb24ee35235b932e235260b1a1956f06132a93fd2b4728",
+          "sample_sha256": "a9d5da24179b0863144ffb3a9cee38ce4c2bb86c29ce4aeefd78192d2b220e9c"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-05-18"
+    },
+    {
+      "origin": "2023-05-29",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8aa0971db34b9009e129cb0713bcce57d246e5172739bafc9192a9d9010dc70d",
+          "raw_kernel_parquet_sha256": "b28f8db664430b670a8627f73068989b287c803a54588c2fe2eccbbf403c1317",
+          "sample_sha256": "85eeb10f18f53d6aa81e5c88716f346389500a963cfd24a72703e635411db0f9"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8bf7f1878ea192043d4b14e399262f8d1094abc175e576784903078fa695da57",
+          "raw_kernel_parquet_sha256": "4e9cfe36051d645b6ddbf8cb18b4363f298a964b0840023236e6ef5608aaa75e",
+          "sample_sha256": "714ab2f5749048c7839170799c76b410d93ae170cd596fa597011cce07bc6d25"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8bf7f1878ea192043d4b14e399262f8d1094abc175e576784903078fa695da57",
+          "raw_kernel_parquet_sha256": "60d283da15d1e5cdd38fb68367139e101daf81c935d5bcbbc113e460bae5c02d",
+          "sample_sha256": "e0b6c97966392246afcd3b10e439da09e5021d85b733a4479ff8a7e3ebd775e4"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-05-25"
+    },
+    {
+      "origin": "2023-06-05",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "a51fd8c3088bc0411205fc792308fa65c8ad95f61cd7e9fea3df572c6f3fdf31",
+          "raw_kernel_parquet_sha256": "14c48a11dfbfaef128966ec887212b75f0eafd2515f5ec961bb0716de59a1905",
+          "sample_sha256": "b4e4f3af8927f3ca83dfb82ca4f4535206c1070025becd9b41caac7f33d68a6d"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c0d6885bbc6bd6c9d8977f22e29066dca856d02d97c95ce6fa76333e3b22a7b3",
+          "raw_kernel_parquet_sha256": "902ed00bb8ac651bcc00e33223e350b02b20775aa3a5d703ce729fe3fd2b575c",
+          "sample_sha256": "a530c2d462099c28584fad3cee1efb12049504eb619b5874681bc4cdfedf4077"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c0d6885bbc6bd6c9d8977f22e29066dca856d02d97c95ce6fa76333e3b22a7b3",
+          "raw_kernel_parquet_sha256": "8d11e545c2e1c095436ab1fd41ad6154bef73983a148336facabf9d054abbaa3",
+          "sample_sha256": "c4058d390d75dea90c5c77dd6cb53f65606148bbf1dc37dbb9dd37e284a0a394"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-06-01"
+    },
+    {
+      "origin": "2023-06-12",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b420ee37b8e9f147ffa9ba8321719f95825c13970e23e7fb386ded798d6816d0",
+          "raw_kernel_parquet_sha256": "fda9d64f1d622b33e5ac9b1307e13e4ff23d6f8924170a4ff3c7ee7cf6751d04",
+          "sample_sha256": "6b98d291d485bdba8e73d7e584e9f3b57a5aacf71b9a9e93ba284aea35137f61"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8de8ffd191cfba4698386113717d6b590b522e848bac61a32463eb620b208e6e",
+          "raw_kernel_parquet_sha256": "d285b26d39afd242dfc8a1047c3af45c72579f1fc1c2c941cc6986eea7178f36",
+          "sample_sha256": "a76f62b21cae6424938216fbd1bc401c36eb7189c8d5bdd7c9afa2a4e4602dc9"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8de8ffd191cfba4698386113717d6b590b522e848bac61a32463eb620b208e6e",
+          "raw_kernel_parquet_sha256": "32752a0a40d3fe6b17a88454b8b2c704371212c9926fef0bd1b0ad19ba8e60e9",
+          "sample_sha256": "e521126d44529ca593f2c8324c48677715d21db5389ee2814a6e5ee8a7695d52"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-06-08"
+    },
+    {
+      "origin": "2023-06-19",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5121cb4c25536ffdde549c2449f63f7b4c80da31c300882472d51a8eb5eac063",
+          "raw_kernel_parquet_sha256": "20e1ed4e11424395623994628f62ab2c49917e76089ed2fe2915dd874f516741",
+          "sample_sha256": "8b96d816fe2f14f6e9df375bc9f484e2d0afdd70d09d7446b8f815c9e1c06cb4"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c58baeba8449b588da4d6fa566fbce1c94b7362fc52d451f0b56dd3d0dd1bb05",
+          "raw_kernel_parquet_sha256": "d361266a4929689d7663f02f39add367651b2550c4e1a34379c3e07fe833ef7e",
+          "sample_sha256": "2669158538642c502d63fb6140b58a1e9e3be13b21419e2e1dfa2c846281987c"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c58baeba8449b588da4d6fa566fbce1c94b7362fc52d451f0b56dd3d0dd1bb05",
+          "raw_kernel_parquet_sha256": "d0acc050d980ee1a60fba3e95a9195520d85d0e6180562e6395b4a7501fb7788",
+          "sample_sha256": "d1ca60e76c37f4bf813efa7d026f1a4410e8385e28e81cf0327356bbbb408aa9"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-06-15"
+    },
+    {
+      "origin": "2023-06-26",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c7c133d49da79e1d05ede484a6d865c3fa19d96c7ca112dc3cc9cac5b4871454",
+          "raw_kernel_parquet_sha256": "f87b74154f25aa69520586224b49aacb59a9a8f9033f5905677c3bb4c008cfbe",
+          "sample_sha256": "8cec412da4a86b321a2b2741405ca1e56d22ef1d7a505b4d1a1ee3d5a3ba2f32"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8b93067e4659db8a7d44cf25d6e4f37a99d6acf55f70fdcb53110b801069140a",
+          "raw_kernel_parquet_sha256": "bfb7b12ac63e4d0abadaf0c7ac21ee3204fdd767549a6a40b7b51e62dfbe162c",
+          "sample_sha256": "ab9caef3fe5feb637ebf674a61a962b934c24876a561cb43662459d0d2714664"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "8b93067e4659db8a7d44cf25d6e4f37a99d6acf55f70fdcb53110b801069140a",
+          "raw_kernel_parquet_sha256": "8eb11141f57e52fc8be346d6bd4b06911ff801665c9ad4aa5f9951f44debd878",
+          "sample_sha256": "d6578a077b1d95e421ee85bc6e4414c861ed85ef4f115a0a922ce65ffad3a326"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-06-22"
+    },
+    {
+      "origin": "2023-07-03",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "16c1f4a44b420dd7d6878c6b90b69bfd14b2de9de3b01703d8c52ad6f3ba2d8e",
+          "raw_kernel_parquet_sha256": "13491a7baeecccdae2ed3811ec485097ed25f74cd61c2fff2f71597105ef24a2",
+          "sample_sha256": "b35e2c449b1c44ae15dfde4d7e15edfb83ab71d7d515fca2f9fa2c4449b2a3f3"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "4e14ae4018a0255ad1e7583a1487c90143a42d818262562fce417afa0408f7fc",
+          "raw_kernel_parquet_sha256": "117d6b58ca83eea3eed4ff3622d3284e5b4f2d23c1eb0bc4bf0d57e82db561a1",
+          "sample_sha256": "f4ad8e8a9cb2354626603c99004246fe3a62589ed1967200ad9553a00a0b3ea7"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "4e14ae4018a0255ad1e7583a1487c90143a42d818262562fce417afa0408f7fc",
+          "raw_kernel_parquet_sha256": "6afa8b393a3e6ae493b3f00086d0985e21e1393428582c295bc22eba1d6b302a",
+          "sample_sha256": "fabcecfceb286eb2314bb06df84aa0dd4d30c72982c67beaa443d26a4f6b3240"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-06-29"
+    },
+    {
+      "origin": "2023-07-10",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b87aebe8ba51fef0b1c9aed89126565be00b902e9bbdd9378125fb80f63f9b1f",
+          "raw_kernel_parquet_sha256": "78c8b2c3da06e6a87479a46487da2f9cac4a906fa2fc9a9b9d85e20bf05e170f",
+          "sample_sha256": "325ac708af08a0013047e1089494bfb1a1da7aa37584ef2a2aaf3911225b94a8"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0e79c0d3f722b2978db9b492b6169c4409e3efb1a6af1b615ce07a88c829dac3",
+          "raw_kernel_parquet_sha256": "2b3cc2e1eae573202a6a7cd7cdae36bb2b91abffc3a256bafb118d0a21563d37",
+          "sample_sha256": "9f852b9ae08997b8c3123cea57d5167cd0723056bbbd820b76ff0bdf8217f2d9"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0e79c0d3f722b2978db9b492b6169c4409e3efb1a6af1b615ce07a88c829dac3",
+          "raw_kernel_parquet_sha256": "7754c9507bbaf36a9705fe8a7f5fb2b531d5d439e619edb27b3e2ee05f67bd37",
+          "sample_sha256": "581da26e56e9976a199e4e152fbdf18be877e9c34cab6f14b61bdd53e8093c0d"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-07-06"
+    },
+    {
+      "origin": "2023-07-17",
+      "actual_gap": 2,
+      "placebo_gap": 3,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f95209cce6cb91356da3a11cf37b7bf00e56a9409a49113aba90f01910cae4ef",
+          "raw_kernel_parquet_sha256": "350d3e84cf0c8330afb2bb3c54f28c36d5b5c84d3502197f0fd221ffb007a207",
+          "sample_sha256": "c9f6d3db06f7232d1098e4dc80a3792a0932912f8c7028d972a3f03aa8edc18e"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f95209cce6cb91356da3a11cf37b7bf00e56a9409a49113aba90f01910cae4ef",
+          "raw_kernel_parquet_sha256": "297d864bcf708b587fef5b42de335b511be5fb1251190f3f1d77c2dae8630404",
+          "sample_sha256": "18defd7bd558288881b8290559f15c0f24b90f4dc412190c003312a8c965e590"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "90553a08069c49c0b2a0c15805c373eae0a061414b38548707b59c43be9bd2fd",
+          "raw_kernel_parquet_sha256": "8b5be4825d98c3a1bbd122bbfb54a78d702ad4368cd752c79a23ada3e867a009",
+          "sample_sha256": "f6e4545c1afd62a0ed728d422e1f2ce751ecce81203cde26ef8430af22ea3cd9"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "90553a08069c49c0b2a0c15805c373eae0a061414b38548707b59c43be9bd2fd",
+          "raw_kernel_parquet_sha256": "da45eb302f0f186ff2979d5c88673284e8a56e54bce4f85709687a67bc4c70a9",
+          "sample_sha256": "b9c7ed5752df4542cd5ec9f7324730b6f991de98ee4dac74ccdd6aefc734cd39"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-07-13"
+    },
+    {
+      "origin": "2023-07-24",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c39f68d885603659377b5658c361a6bb5ce75bcff507b87430216243ea33dcef",
+          "raw_kernel_parquet_sha256": "a42c0c08b443a5c768c54c69f07d747527a36167fe8b4a48baedc2280096c8a5",
+          "sample_sha256": "0cec8e6527266f41c77cc03bb33f8c8a83ee1e357f77d0d7a7386bd38fae4576"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c6fab30d923be510641f141ab9fa44be6116301285e585cb8cdc2ba9c6323f40",
+          "raw_kernel_parquet_sha256": "8cea1d09ee3a00abd5f51c632426b0ba156b8f20b538f04779e033c0cedb992d",
+          "sample_sha256": "03de68fd799cf0e10636e469d67505d2788acee0540eb6f1efd49c9b511573c1"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c6fab30d923be510641f141ab9fa44be6116301285e585cb8cdc2ba9c6323f40",
+          "raw_kernel_parquet_sha256": "c50ccdd9a22968ce1b325c433fe970ca616b44c60c3b1d7c3d881e6c56bab036",
+          "sample_sha256": "9aad9bb710deec52ebd91a99c0fd5013d6d2e2e54b02532ac653123bcf10278e"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-07-20"
+    },
+    {
+      "origin": "2023-07-31",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b1e43fecf4f23f2d4102299b159ebe3d695dd01de26ce30f1c55ae2448109ae5",
+          "raw_kernel_parquet_sha256": "541f6f2627a25b1d6cf5ca392e67a7b97c46b6ca7e3de0ceb87af4ab2226f5b9",
+          "sample_sha256": "a6db9e7cc7a222fa25215a4cbaf67346bca254821efca5e936d55bcc0324fd89"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "3b472008560ab75c74429104ff93b061a3b5af6d32b0d7e95a629db754b8f2c2",
+          "raw_kernel_parquet_sha256": "482fe64c5f580b016d70847dbace13d7bc3972a8db826ac8bd48a0ea1db2e166",
+          "sample_sha256": "b09ed46c5bdc0eb9552a3d0cfd4dab607c376ff7ad8bd477120779892115f518"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "3b472008560ab75c74429104ff93b061a3b5af6d32b0d7e95a629db754b8f2c2",
+          "raw_kernel_parquet_sha256": "a916684003c0eaf5adefef67fddcadc506e671b28dc5ccffe13b0a112567cbaa",
+          "sample_sha256": "7c2bb3b2365b4a175e0739d91442979fa157214a5f5cc27a4422fa7d74ba0142"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-07-27"
+    },
+    {
+      "origin": "2023-08-07",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0820658fb6bd525b948952358adb08da4118a4413aec21b63e61b83c28a7c12a",
+          "raw_kernel_parquet_sha256": "c66586139005aa953b45f38321415b1298249966b7a83bbea574849a690e4dd8",
+          "sample_sha256": "6b0c5d72e668da994628a9d84199093e4d2a578ed74a5b6cdbe11b5d5b10a8f9"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "ebdb594209c85301e2d9f62d9d8890cd6d675d2fb50d43da35edc3d4a3df8c30",
+          "raw_kernel_parquet_sha256": "b4da9a98a5e9c07c69af761d20fe47b82832c6cd1921bbc8fd73838a95068ae2",
+          "sample_sha256": "2192794b268a7b4621c1ba77522eba5d156d80205d1a0edc028e72233e4c6c30"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "ebdb594209c85301e2d9f62d9d8890cd6d675d2fb50d43da35edc3d4a3df8c30",
+          "raw_kernel_parquet_sha256": "8a08751803e3059f03d4da7a6a15ab4e1a90d4de2a8d953affe73c3adb3c8671",
+          "sample_sha256": "1fb0d3ad892624379a7fc82c73b8c2c6ddb2b828af5fa147e8a50bd8d899f463"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-08-03"
+    },
+    {
+      "origin": "2023-08-14",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "fb2c925cc3edf56b547ff3ade56349cc49065cc42960f7f708887b48e329ec97",
+          "raw_kernel_parquet_sha256": "b3a1f1fa10bb5068fa061e2d0547c1cfa9afefca7dd95d339a4811cb35cda954",
+          "sample_sha256": "291948b2faa9bfd806752c254b60260dee74ea324ef18e21c2eadb5d5e44abd4"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "003595c7117b1f16b1a16fac6a88ba957808b4fa931560a0bf31b9ffb09dbd99",
+          "raw_kernel_parquet_sha256": "3eb9a68f935e00890825dbf3e70e3c4fd9232041bedd020ab0a4bf19b7915538",
+          "sample_sha256": "a87261858c1d4ab4a9db56fba8a7e62cbb366fa1abfcbeaebc54c78b30823931"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "003595c7117b1f16b1a16fac6a88ba957808b4fa931560a0bf31b9ffb09dbd99",
+          "raw_kernel_parquet_sha256": "46e421abd0831c1b7485e9c35faad586a755c82127d4dbc2538acf98184e50db",
+          "sample_sha256": "38eb30ee7b436995b270ca3aa97342028ce0b5a2e287c69f7ebf174db823d3ab"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-08-10"
+    },
+    {
+      "origin": "2023-08-21",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2909612095531f47d94d659a6d6c0e022aae8220f59750395aee71fb80b7b855",
+          "raw_kernel_parquet_sha256": "595bca70ee1ec876223136d096d27f8fdb142c56a635c4360d0d479be10c2c9f",
+          "sample_sha256": "1e3300ba9ba268547f943a1838c70d44cfcc92ff5eb6584df842ca3a088426a9"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "4059f8c163e44452225366df6a90267f10377d11d43d08421818534e9b5ec133",
+          "raw_kernel_parquet_sha256": "cb8df26c364922066a6e141cb0944e6faf6e3c69520178c0fbabebbdaf8fa398",
+          "sample_sha256": "376c16fa0d084374387e4826f79e26260ae706f57dedac667f35cf144248baa4"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "4059f8c163e44452225366df6a90267f10377d11d43d08421818534e9b5ec133",
+          "raw_kernel_parquet_sha256": "0ec7fa2c9118b7f68707ef4c45a0df950aaba57f02a667116c2e8a209eef8bde",
+          "sample_sha256": "e7980185d53ff3ce89931bd4605be613468f6475d56e7812b034e6c8447d1cda"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-08-17"
+    },
+    {
+      "origin": "2023-08-28",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "d6e964f1bc51712d0885fb541f5dccdf238ddf96d1c5648eb94c695e8893b165",
+          "raw_kernel_parquet_sha256": "7627474404804c75a5b83d61b9a210581fb60297d0c720b697c4586a9dc8a37e",
+          "sample_sha256": "7298d0eb0a13bda66975020a14dbd7a0bbc5e60121b61ea1f6c4aa176c6f05c5"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "1c14184cd715e98700bb913b82e1013102420305d91ac1153e5efb6a9b69942f",
+          "raw_kernel_parquet_sha256": "5e2a3815e9aabd1166461d9f0718e9578d629c72b68258a639e8ba8336aa901c",
+          "sample_sha256": "275cb958cb1e593eb86fde8024aefba4c6ce15e99d6f898806a7504e6a7c245c"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "1c14184cd715e98700bb913b82e1013102420305d91ac1153e5efb6a9b69942f",
+          "raw_kernel_parquet_sha256": "dfd4836b4c0a82c75dabd708c43304917951a7033b28090562c17ee2c717a4b4",
+          "sample_sha256": "061d5ca0cd95925ffecb533b3334d8a809464a8652dc4a3fb36f5816c5afcb62"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-08-24"
+    },
+    {
+      "origin": "2023-09-04",
+      "actual_gap": 2,
+      "placebo_gap": 3,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2af5bbac98fe40d368dde6de6af64896498be5ed629780127c2a421dfb42f470",
+          "raw_kernel_parquet_sha256": "24873ae25ac4b11151f5007d996fc52e22936b3f5fa74add3b46a1a9252ea1bf",
+          "sample_sha256": "35303ed8a0832a54d3d4cbebc6a9ccae593b8fdccd1398d1a149bcfe2aebc9c7"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2af5bbac98fe40d368dde6de6af64896498be5ed629780127c2a421dfb42f470",
+          "raw_kernel_parquet_sha256": "f10d118ce8d2ec8aa9b3b36e8330afc9a7b9a96eec00c957e1fab51cd2a336a6",
+          "sample_sha256": "16a37950eddf55781810d6fbcf786fd2af711721f6a56479b82c579ddeec7d88"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "79f091db659d6a67187dc93eee041999ec370d1c549077d81dfb438a546c2b0a",
+          "raw_kernel_parquet_sha256": "4fa779ffa9e7bda36ae040c58c22665df17cb481f20e08836546875893e1c7b9",
+          "sample_sha256": "0e8f8804a14bfaf8fea174fb352be960db8af5801fee6d023de8a8caf72a7b21"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "79f091db659d6a67187dc93eee041999ec370d1c549077d81dfb438a546c2b0a",
+          "raw_kernel_parquet_sha256": "1cc0d5f8b701323915eaf6bd169d57155e50448e329d6d74e511d32243a77260",
+          "sample_sha256": "28bf4a615a38ccae38791fecc7e0d8369c4a450b342c793931c351a307738737"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-08-31"
+    },
+    {
+      "origin": "2023-09-11",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "db7c925c3f00cf31e1c7f71505d82d82d09c2445a9d72e8d0d8f37890e46e9a8",
+          "raw_kernel_parquet_sha256": "bb1ce13a2080007e6b8ed1d23440bf8838e13252e2419978951c7441034d0977",
+          "sample_sha256": "e1357ae223313d21ca371414d0a1070b2c4e659be28fb759967139a3c6f76425"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "26dbcdea80f93a5f6fc8a897840551a6b44110c7a4c56d89275ec08adc8f1936",
+          "raw_kernel_parquet_sha256": "2061f25227336c120f9ca937cf68faac9fbc0ae5a7ff994a69a64cfb79357550",
+          "sample_sha256": "8f1184dbb8ef963c73bf79786a4034cc03dcfa71071b006d32fd4dabc838988a"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "26dbcdea80f93a5f6fc8a897840551a6b44110c7a4c56d89275ec08adc8f1936",
+          "raw_kernel_parquet_sha256": "b050c20a60489422f341786c8dfef40bb1792af720a032a8cc7b32c4a8f9ecae",
+          "sample_sha256": "27dd31228faed65d597fb6353096a3ed6a2627e821807b31e3a5b49d6539d395"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-09-07"
+    },
+    {
+      "origin": "2023-09-18",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "3614c792a1222640edb50bb68c74c561ad2f61f6df6bcbd6b48525498c9a8bd5",
+          "raw_kernel_parquet_sha256": "f83e89ee563dd0fd2e302b6ebcac057245158cd8bc7ebbf992bd506cd10be42e",
+          "sample_sha256": "0032c01a3554541140feefbaed08156885c15357d41c35859c3c872a5089728d"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5efe1c4c5dca023b6df3b7e3d822be1e16051f6ded8bcef105c15e177615ff40",
+          "raw_kernel_parquet_sha256": "13fe40fb6b6cf994149c8f593df4ae61285e605ec194e151f681051b88e028f4",
+          "sample_sha256": "fb01ba29b583334493318de292545f9d9611798c214ecce95eab8e84d389d249"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5efe1c4c5dca023b6df3b7e3d822be1e16051f6ded8bcef105c15e177615ff40",
+          "raw_kernel_parquet_sha256": "e8e6bb4f736ed2c26deba2299e9ac7ceb966154a95188be8649cd05535a6b313",
+          "sample_sha256": "02d41a434d9addbdeea482d3e1adc0416dfc9d179286b2d3fd496600b5d81c8d"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-09-14"
+    },
+    {
+      "origin": "2023-09-25",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "787e687812767af67d11f44baae382179b21762fba7c399ef8a2005e2524660c",
+          "raw_kernel_parquet_sha256": "655eee614482f1ea3ddf1f2cb1da2c6c853a4cae411e2c2c36028bec26e1b852",
+          "sample_sha256": "ebbcf46af28ade336f81bab6b500e7a687597c68d392d337b6d2c82b8998f5ca"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "3ee991892b8c7d6b6e225165e7b80b526a4462a3763adbb0c247df318c96bf59",
+          "raw_kernel_parquet_sha256": "8a61a3654db6fa3e434145698915b159311db99b2a8b11e68f2c30e2fcaa35ae",
+          "sample_sha256": "2d51f1a574129a90bcdb338ec73a832f4d339e2f88f1f191f854d4a0c9ebfa0f"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "3ee991892b8c7d6b6e225165e7b80b526a4462a3763adbb0c247df318c96bf59",
+          "raw_kernel_parquet_sha256": "d04c9d364c6af9f66d397427a832ee956f7dba98c9edf44821d6e07b24b555c9",
+          "sample_sha256": "70d71470dec7f09891d78e3f0a0c6b620396c4a50c303a55802b34273a9723ea"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-09-21"
+    },
+    {
+      "origin": "2023-10-02",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "7d9e71896df216b92fb21b34f63089f6f05c980999ac89ac3aeb35363edcc1b9",
+          "raw_kernel_parquet_sha256": "c23c210ee21efe60d41f5fa6ae6bdbac484937dc0ff23fc6633f841840cebf24",
+          "sample_sha256": "e24fd3a1adba6cb0c3ce168ebe3e80ce9e968ab5b70879e380f92460ade82fbf"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2b0c0d018b80ddd362652ea5a0576107c617fb8c63974f8a9ea5b25612385f45",
+          "raw_kernel_parquet_sha256": "ba136ad0e1e22bc9e1ecdb9e57372cf23ae627438f81658277f6aa7e1bd49003",
+          "sample_sha256": "f1b4f944d0802c1802ac1d8b6295da684e747eb900f5df5c8c2e4c63a309e909"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "2b0c0d018b80ddd362652ea5a0576107c617fb8c63974f8a9ea5b25612385f45",
+          "raw_kernel_parquet_sha256": "f6ac35e18ef06d5842d1e8a59d6284835f71614151f137ce8a398af82a2c789a",
+          "sample_sha256": "9cda09a25b8502d3f24207a058c01463f99bfebab3dc8bfbaa27ab60be09fd96"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-09-28"
+    },
+    {
+      "origin": "2023-10-09",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c446b930f28a305619444dae2020be975214d4d54dcaed0fc524f580fba87547",
+          "raw_kernel_parquet_sha256": "9a063e90d744f0a23ef3e13bec9b8c9a7ebd8cd06ebced4ed641078e788e979f",
+          "sample_sha256": "589e7fae791ac9a1a0fe06869a4cb8ba4d6f7e8a67005ad9f58c6d364ee0a00e"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0627095a9f79c55d3d7fa8d2e92947cb29e935c6b8214099703f56f972ffa983",
+          "raw_kernel_parquet_sha256": "17e6de6ea7acc0c8b8034e192b2a5cfb36efd6ba5f7044673584af1f1d0b2fe1",
+          "sample_sha256": "389610b90816b4fb02f6039b3a7dfeff471bcfa323d80da4424315592c737393"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0627095a9f79c55d3d7fa8d2e92947cb29e935c6b8214099703f56f972ffa983",
+          "raw_kernel_parquet_sha256": "51d85fb974f4a4c321d5f17ed86de575c9037b5ffed34c5b99f7bfa8bc1c41e1",
+          "sample_sha256": "22188c2b0f8491706b747ee86e1919d12cbf564c503e4006c988fe5f2413d7bc"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-10-05"
+    },
+    {
+      "origin": "2023-10-16",
+      "actual_gap": 2,
+      "placebo_gap": 3,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f3603c3d8f6e5e3013dfc799272b27ca1a577be744e97678ddbdd27766021014",
+          "raw_kernel_parquet_sha256": "a2861e55afe1f8cb758aef8dde20209958cc07e3456ae1d987825b5537b78f25",
+          "sample_sha256": "787aac3c4c3da4c1e5416045a0819cd773f56adbf5f82b289a4d15f7950e1a4f"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f3603c3d8f6e5e3013dfc799272b27ca1a577be744e97678ddbdd27766021014",
+          "raw_kernel_parquet_sha256": "8274758cac853862e2421456fcbe667b1543879105c2558ba395f032ab897230",
+          "sample_sha256": "06d9f5b83d195babb46058e94e22075d7ddd2d3ddd9cda7fd3044efa5dd89647"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "eb4470ca28f7d79e361fe04230813d51dd49e87412c0041e514b9114a0623e26",
+          "raw_kernel_parquet_sha256": "c527cdf4504966f8af9459460f469185927956cee90481d04ce5b747f04abe36",
+          "sample_sha256": "f28c74c49daf251e67c67b43903ac4f4f5c18a7c1fd7ddae8d44b34ba2079d73"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "eb4470ca28f7d79e361fe04230813d51dd49e87412c0041e514b9114a0623e26",
+          "raw_kernel_parquet_sha256": "f1e5f4994d15db940cae02f8756586dded27cf240e50a9f29375113f46ffb421",
+          "sample_sha256": "1547c690b0c9f9e6864b489e4ad6bb2894d0204c2dbc54a86c44914a17f09738"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-10-12"
+    },
+    {
+      "origin": "2023-10-23",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "17a3d1e58bb6fffed2425e48d01a23759b60dfd2e7efa9c4a2ba2a507f60851d",
+          "raw_kernel_parquet_sha256": "0f3127e510a1833fcd0c87da5b28f738d536ad3566dca65e2985d92d5c1d1c30",
+          "sample_sha256": "22aab0caea165ac0e83c016fb8cc8d17c36451ec102961d6800f31b95f97067f"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c23f249a363cce012804799f7b17b5bbaf7b83e86182e43d73d69a8699aacdc6",
+          "raw_kernel_parquet_sha256": "0918b169ddbb96f0ae9e6c4851926f04d4733e7dfb473b1e928e96f61beb7066",
+          "sample_sha256": "de5563482e29601787251cd742b4136d3d0431cc73f42aa984e2124ae32c50d6"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c23f249a363cce012804799f7b17b5bbaf7b83e86182e43d73d69a8699aacdc6",
+          "raw_kernel_parquet_sha256": "a916ca8f971b301d8d173c55b1f447ffbbf92020c4ae15d0c05377d08a9dbe48",
+          "sample_sha256": "27fae86d0c6c0a669b5e454c129ffed1da601950daa59621d8d77406c8888f04"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-10-19"
+    },
+    {
+      "origin": "2023-10-30",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5389a5abfa47c97dd7db0faf7f5101233bfb56699f1c31850f82df502a28bed2",
+          "raw_kernel_parquet_sha256": "be8fc1db1d28acb91d59394e9639ac2d1e1da78fbb4fb54d24d8e720836deb21",
+          "sample_sha256": "96bc8ccf219777110f62cb598c3cb6b40a5cd545d1e20cdc665438c793fdd1a0"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e8f1902d55985358dc5a1ace775558fbac03fe4e458e35baf5553ba326b652a7",
+          "raw_kernel_parquet_sha256": "8934f7203771fe45a880c8946f1f5b37a83c2c3c3b74ff0cdb28b4859bce323b",
+          "sample_sha256": "bf7c4cf5cf768eb8bc3d62a7d9f252e1844ffc3bf56af60cc980f3cd1208f962"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "e8f1902d55985358dc5a1ace775558fbac03fe4e458e35baf5553ba326b652a7",
+          "raw_kernel_parquet_sha256": "025cf349e49f7ef0a1c91ec8d8c54cf5b779b364ec1f2850d1c175dff7c6120b",
+          "sample_sha256": "c4d5c68202ce9d1a769de190e7d82b4ec006ab5b4744f1562ba1c8351b0adf66"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-10-26"
+    },
+    {
+      "origin": "2023-11-06",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "cb8fce1e8aaedc9743600b1348e13575012edeef9403520ea23110c020baf68a",
+          "raw_kernel_parquet_sha256": "059909e8414cae9a8d8d9c2944fd6d51cfe86133ac4eaaf83bfeeeefd89b6540",
+          "sample_sha256": "51f35bcda867b59bd2085dc1192dea1f3fa143f04d872d3b3bf3b5b86dec003b"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "286407d1ee211c3f8b1a21e355cd17577b2494fe2c7abb08640da79f352aadf1",
+          "raw_kernel_parquet_sha256": "2b0238d03892e34d9320ae2d114271745a172e5f4805b455cdb42f484dfd7416",
+          "sample_sha256": "e825831ae3ef1c1d490c42db96751f282dab9cfd20f94cbfc818f6d65eafdda2"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "286407d1ee211c3f8b1a21e355cd17577b2494fe2c7abb08640da79f352aadf1",
+          "raw_kernel_parquet_sha256": "943d70909a88fc7628200915834189f3738489dd7540613df3ded72cf9602a3f",
+          "sample_sha256": "0fda46c728320f59e6a6b3faa212b461e03c443843ec3658187f2132a5e59785"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-11-02"
+    },
+    {
+      "origin": "2023-11-13",
+      "actual_gap": 3,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0cf714be929f943115cf83240af644e85c2c8f4f82b7b2194f038e8e6a224d7e",
+          "raw_kernel_parquet_sha256": "d00d3675d270b99490efcc359d4620be30930a1fb0023a5deb15043fabe12137",
+          "sample_sha256": "89bc5e780772225a27f62213780cbc9e691877ed1b15d4be5e0f9f8921942026"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "0cf714be929f943115cf83240af644e85c2c8f4f82b7b2194f038e8e6a224d7e",
+          "raw_kernel_parquet_sha256": "b372be33ffafd130d48a029d07bf7b0ef58c9ffdce5056a9ac0a3e150cc3f506",
+          "sample_sha256": "4e77960bb1d71632b1b5ecdfa6b8074c04ab97bf444d7219aace0a4d007a3219"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b353f7f85566ee6d0e7f8b75eccdca4bfca269f784e6b8de471e8ac29adcc2bd",
+          "raw_kernel_parquet_sha256": "b46318ce9114e920b554e82579d90782bbd6eee67ed84e93917c6fcaae7d3db0",
+          "sample_sha256": "69cc820fe7dfbe460f888e3eb9abb8b6f6ae93c3b7d40ecda7ba8d3c7832c24e"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b353f7f85566ee6d0e7f8b75eccdca4bfca269f784e6b8de471e8ac29adcc2bd",
+          "raw_kernel_parquet_sha256": "c7d6ae6df4fb106607b9c00aaf83f9d24095af5dc7a0d7c6e226d3c082a6a761",
+          "sample_sha256": "7235ff8b993174e9bf1226d2e9b2ce1ea0b443a9990b73d34f2f3935a1bd78e3"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 4,
+      "lag_dropped_observation_date": "2023-11-08"
+    },
+    {
+      "origin": "2023-11-20",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "80e12f7a8b486624f2c7e298240d2d43de857452ab826cb04faf0596a05346e3",
+          "raw_kernel_parquet_sha256": "41743ead7ccc13148336d9b593057b68c458bdcdb2bc7c97345e9298e534775c",
+          "sample_sha256": "016613f8eb055d143d4276f5c76b0948fba3e8d46f6234a6c67b05224a278833"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5315836c71202db10eaed3a0dfa9f6024e468f58605b0a6bcb9fd37f68588a4a",
+          "raw_kernel_parquet_sha256": "a9ab5f771f3182edd1058440a3aadf7165224267374e37855ded09b5a19b722e",
+          "sample_sha256": "0415703bcd3b5cf6ff612b1bd444f9acef4a52785df64cefb574d9805068150f"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5315836c71202db10eaed3a0dfa9f6024e468f58605b0a6bcb9fd37f68588a4a",
+          "raw_kernel_parquet_sha256": "fcc8e37938ec474f2b2fefe7837e3f25fe9127ce992ca9368845ee3c110159f6",
+          "sample_sha256": "3c40c34adca74ac4da1b61e8e3bac5ff41daa46ba3807d92923ae9ecd685d035"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-11-16"
+    },
+    {
+      "origin": "2023-11-27",
+      "actual_gap": 3,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5346f8f33b8c7bf5f32ead1c92ab72d2379e1f56c29ad42eec706e4dfec72873",
+          "raw_kernel_parquet_sha256": "920798cfa178cc2d04887672b07e74bc31078d0cff48be51f776de15256b9ee7",
+          "sample_sha256": "8800a99f3299e0cb00ab691a1e51523ca80099759f976ad07c10689b4a919856"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "5346f8f33b8c7bf5f32ead1c92ab72d2379e1f56c29ad42eec706e4dfec72873",
+          "raw_kernel_parquet_sha256": "9dd8d5d6fc9e170995eb1dc004760e372ec76ea43b3d34ae2561fd2c00d801de",
+          "sample_sha256": "19ef6514b9ea6317de27e15c597d0303cfe897f40108032dd40f9d4b44b6a51b"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "989ee7a48eced42b64d42e8d9a2dc8b40dca5c9c371dde3c0bd52c265c80c3a3",
+          "raw_kernel_parquet_sha256": "71ff4e736b3541e199d0c54dd3809b4c2063039d93afbcd27b617fa95b3e027d",
+          "sample_sha256": "0c84be0b7561e2ba33c330e64cb2beec99039ba9633b0d8954da06559ecf7477"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "989ee7a48eced42b64d42e8d9a2dc8b40dca5c9c371dde3c0bd52c265c80c3a3",
+          "raw_kernel_parquet_sha256": "fbd9cd5d5292bd0e04f2946625838cdc3a14e964a4de4938b1a95ba69357c53d",
+          "sample_sha256": "0ec4117afc2b32056e8afa42d8b7a76bd0f192a91c0a3ea0f1727006a4542cd0"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 4,
+      "lag_dropped_observation_date": "2023-11-22"
+    },
+    {
+      "origin": "2023-12-04",
+      "actual_gap": 2,
+      "placebo_gap": 3,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f23927dcf2969300da4436b42fb5c8b319fdfaf5544161dde0eb17687957c656",
+          "raw_kernel_parquet_sha256": "4b2569c11b591d2d121fdcf448fb043aae85f5cefb0cf8ed18bed78503b7a66e",
+          "sample_sha256": "e9234b762c7d5808fb6e2b39ce7262463d0a68a047efc853aa2727e7281c1338"
+        },
+        {
+          "name": "placebo",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f23927dcf2969300da4436b42fb5c8b319fdfaf5544161dde0eb17687957c656",
+          "raw_kernel_parquet_sha256": "cc259e76437b241c11eea1ba6bfe4ac35f0232b11a72554a377012ff07910fd0",
+          "sample_sha256": "c483e93c0bca09f6fa86307090f54a069e931441b72fcd1184082b29a14bf0ba"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b2e3b069777407b40db58c4db916e7f915284c68a5963a15654fe93de1d459f4",
+          "raw_kernel_parquet_sha256": "804dad82a99af47284275c018c597ca76f1d451a3b4d431168f35f7e8649d639",
+          "sample_sha256": "93ff40cfb184cfc21f0a707ae17201fc7c147890762b51e42ddeff1b65e77574"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b2e3b069777407b40db58c4db916e7f915284c68a5963a15654fe93de1d459f4",
+          "raw_kernel_parquet_sha256": "3ad3891b87c3bf5b4a1a60856f469a725a2abce5a10aaf82149d1562d7c23a8f",
+          "sample_sha256": "2b3d34c403cc99aa1b9031e5c0e6a4eee6a04289161c1439b952555dd3624af7"
+        }
+      ],
+      "passed": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-11-30"
+    },
+    {
+      "origin": "2023-12-11",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "c11d5ec6329b7a1cf6b438992771de43a68818368220df28fc42e4911b25a759",
+          "raw_kernel_parquet_sha256": "3009c09eaa27b6f2a276a775063ed46265360aca3a9bc8ef6ee0bc96142b6dfc",
+          "sample_sha256": "e7230ad51036459243902d249b090de51de626a87393436ef535ada7d0890682"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "90b9991b803b3453fa1c462053dc6ea6c8b394d7cadf83de1905cdade6ba3d1d",
+          "raw_kernel_parquet_sha256": "0dd6ae2f04646f580a429bf9355de064095e5e849f88a8a1d445afc697dc65bd",
+          "sample_sha256": "b59cfc71388e0bedc878de0b572a486724b5bb43c7fe2c105c0e754a8b9c23e5"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "90b9991b803b3453fa1c462053dc6ea6c8b394d7cadf83de1905cdade6ba3d1d",
+          "raw_kernel_parquet_sha256": "b65c569dad2c070266a4579d69662e24def050f448ce383d16c466b8e52f1e96",
+          "sample_sha256": "811b6333c207873585e28a2b18dd7ea3c593dc28885c39bdf93233bb416018d0"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-12-07"
+    },
+    {
+      "origin": "2023-12-18",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "9a5c90887aa2843c1b6264dcf248e232204a1ae28a69ad20200b65a271f0a466",
+          "raw_kernel_parquet_sha256": "463c928c7c6476bd158d672e69df98c209a9a703e9467b5bc0f46e1924fdc16c",
+          "sample_sha256": "0f8769b52da02b8c72cead4ffc5120ab895bfd0bc45e7352a904a7e718efbf5b"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b93ef0835b934e4f5c257baa671ea4fd86f40d8ab1d30e11279dbb338b28716a",
+          "raw_kernel_parquet_sha256": "38a66934a65fc8fd30eeb5bbea5c31e5c4b2b4ed5427a4887a5b27ee78eea343",
+          "sample_sha256": "87d7b2f528d9b812a47e97a306ae64ccab3c12348b3dd1ebf92c5d96b4c2f4b1"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "b93ef0835b934e4f5c257baa671ea4fd86f40d8ab1d30e11279dbb338b28716a",
+          "raw_kernel_parquet_sha256": "0b45d481cc1c9babfd2ea82a7024d32fd7dd22c1e9cb6e5041c2387309afb0f1",
+          "sample_sha256": "b54e5f6c23f4aa1109b26eafc149a027978b75a1a03e1b9ac824b30f444ff739"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-12-14"
+    },
+    {
+      "origin": "2023-12-25",
+      "actual_gap": 2,
+      "placebo_gap": 2,
+      "runs": [
+        {
+          "name": "candidate",
+          "steps": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "91af818b67977fb81c942657292b9bf30bdd491135ba540c7636af727be7d884",
+          "raw_kernel_parquet_sha256": "f714057c9fca2e8ca8fccd7b6ddd1375eec532c2cfde7e5cd5c131c1f37801bc",
+          "sample_sha256": "582ead4ae331dbaf0a019c47c46ed359a0ed5145bd7c0ddfd34b942ae2019829"
+        },
+        {
+          "name": "lag_baseline",
+          "steps": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f939ff22ce3be1527988589bb335d165a79fe19df80e7740d1d05078179722c1",
+          "raw_kernel_parquet_sha256": "dd89c0e7e7761ea54e88f760de8543ce064adf504c3b23d85d47a5dd274816c5",
+          "sample_sha256": "0b1889f0bb9a3b8389e89caf6e6a619a617e16e1b88e305273f9593ca713cfdf"
+        },
+        {
+          "name": "lag_candidate",
+          "steps": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "requested_keys": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "input_sha256": "f939ff22ce3be1527988589bb335d165a79fe19df80e7740d1d05078179722c1",
+          "raw_kernel_parquet_sha256": "7b086e82273fcd3f0c69f867eef7414907f1503a0969989a756f9e55545c33c9",
+          "sample_sha256": "93effea053b5ede006e7462814afa960e84d90cfa2bc0a915eb8146a76ed8c1a"
+        }
+      ],
+      "passed": true,
+      "placebo_reuses_candidate_exactly": true,
+      "lag_gap": 3,
+      "lag_dropped_observation_date": "2023-12-21"
+    }
+  ],
+  "new_Docker_execution": false,
+  "full_generation_receipt_sha256": "2c8d3ff468e715c5266ccd297acad8a593ae8c0aa019e9c68958091142e66c48",
+  "public_projection": "Full commands/logs preserved in private per-origin receipts; public run entries retain steps/input/output hashes. Reconstruct commands from frozen experiment source."
+}

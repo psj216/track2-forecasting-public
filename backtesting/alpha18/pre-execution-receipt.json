@@ -1,0 +1,33 @@
+{
+  "executive_summary": "One locked experiment source preserved remotely before candidate generation. New adapter tests7passed; official tail tests12passed;12baselinecontrols passed. Scope only.",
+  "source_checkpoint": "f4c7fdd8e492f0bae7b72d35eb658579803455f8",
+  "hypothesis_lock": "155c10cecbc332e3e5a2605604705e712d38a4c7",
+  "source_sha256": {
+    "backtesting/alpha18/audit.py": "135f74d32c85ca1f5d467237170fdf102ff52c36bfbd3a442edadb82fd08f919",
+    "backtesting/alpha18/diagnostic.py": "2ea6157451fc35159d4665b64bb5ecf10a2a3eb37bb61b59242d92174ab6846a",
+    "backtesting/alpha18/experiment.py": "0985e113d485e36aa7205ed1da77808ca05bf81a06b6eb8a34cd9ee9f35e03d6",
+    "backtesting/alpha18/test_experiment.py": "bc22374a9daf197477b9fd51b93723487353014f095d986cb13303d0cab76fe5"
+  },
+  "tests": {
+    "new_adapter": {
+      "passed": 7,
+      "failed": 0,
+      "skipped": 0
+    },
+    "official_tail_metric": {
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    },
+    "baseline_controls": {
+      "passed": 12,
+      "failed": 0
+    },
+    "original_Docker_bridge": {
+      "passed": 4,
+      "production_file_matches": 26
+    }
+  },
+  "lint": "Ruff0.4.7 E/F/I pass; module-summary wrapping corrected before execution.",
+  "whole_repository_tests": "NOT_RUN_UNRELATED_HISTORICAL_DEBT_NOT_TOUCHED"
+}
