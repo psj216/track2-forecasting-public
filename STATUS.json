@@ -1,12 +1,14 @@
 {
   "executive_summary": "ALPHA18 PRE and diagnostic source/roster fixed before errors; safe baselines untouched.",
   "branch": "track2/alpha-18-short-horizon-distribution",
-  "stage": "DIAGNOSTIC_COMPLETE",
+  "stage": "HYPOTHESIS_SELECTED_LOCK_PENDING",
   "parent": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
   "PRE": "d8ee8424a679256b3bca85e7e8586dc99357b1a2",
   "pending": [
-    "hypothesis_lock_or_rejection",
-    "final_evidence"
+    "LOCK_remote_verify",
+    "one_parameter_free_experiment",
+    "falsification",
+    "result"
   ],
   "DIAGNOSTIC_PRE_RESULT": "0d1c37f6c74c4e1e72222fbda49d484273c51a20",
   "forecast_processes": 232,
@@ -14,5 +16,7 @@
   "observed_cells": 2307,
   "blocked_cells": 69,
   "controls_passed": 12,
-  "metric_tests_passed": 12
+  "metric_tests_passed": 12,
+  "hypothesis": "ALPHA18-OBSERVATION-CLOCK-1",
+  "candidate_forecasts": 0
 }
