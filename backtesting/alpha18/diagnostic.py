@@ -113,7 +113,10 @@ def bridge(a):
         pandas=pd.__version__,
         pyarrow=importlib.import_module("pyarrow").__version__,
         common=importlib.import_module("qfbench2_common").__version__,
-        dependency_note="Math libraries match image; common2.6.1 vs image2.4.2. Exact four-output bridge required.",
+        dependency_note=(
+            "Math libraries match image; common2.6.1 vs image2."
+            "4.2. Exact four-output bridge required."
+        ),
     )
     put(a.repo / "ALPHA18-BASELINE-IDENTITY.json", result)
     assert result["passed"]
@@ -197,7 +200,10 @@ def prepare(a):
                 text_hashes={
                     p.name: sha(p) for p in sorted((dest / "text").glob("*")) if p.is_file()
                 },
-                availability="Organizer staged cutoff; independent historical H10/H15 release-vintage proof UNKNOWN",
+                availability=(
+                    "Organizer staged cutoff; independent historical H1"
+                    "0/H15 release-vintage proof UNKNOWN"
+                ),
             )
         )
     # The previous study's existing vintages are reused only as input data, never its forecasts.
@@ -253,11 +259,17 @@ def prepare(a):
                             rows=len(f),
                         )
                     },
-                    availability="Previous-calendar-day ALFRED vintage; observations strictly before origin. Original R17 retrieval receipt reused.",
+                    availability=(
+                        "Previous-calendar-day ALFRED vintage; observations"
+                        " strictly before origin. Original R17 retrieval re"
+                        "ceipt reused."
+                    ),
                 )
             )
     manifest = dict(
-        executive_summary="Complete deterministic diagnostic roster frozen before forecasts/errors.",
+        executive_summary=(
+            "Complete deterministic diagnostic roster frozen be" "fore forecasts/errors."
+        ),
         official_commit="24582e957b0cbb9ea7268bec9636188a0e2c21fa",
         horizons=HORIZONS,
         seed=0,
@@ -268,7 +280,10 @@ def prepare(a):
         contamination="EXPLORATORY_EXPOSED_HISTORY",
         labels_never_forecast_inputs=True,
         target_calendar="pandas BDay (Mon–Fri); exact-date missing labels blocked, never imputed",
-        inference_clock_note="Authored historical card dates do not independently prove publication-time vintage authenticity.",
+        inference_clock_note=(
+            "Authored historical card dates do not independentl"
+            "y prove publication-time vintage authenticity."
+        ),
     )
     put(a.repo / "backtesting/alpha18/input-manifest.json", manifest)
     print(
@@ -532,7 +547,8 @@ def score(a):
                 tail_metric="pinball",
                 ref_scale=None,
             )
-            # Mixed raw units cannot form an interpretable aggregate; standardization is diagnostic only.
+            # Mixed raw units cannot form an interpretable aggregate.
+            # Standardization is diagnostic only.
             center = s.mean(axis=0)
             z = (s - center) / np.array(scales)
             yz = (y - center) / np.array(scales)
@@ -556,13 +572,22 @@ def score(a):
     put(a.work / "grid-diagnostics.json", grids)
     put(a.work / "blocked-cells.json", blocked)
     out = dict(
-        executive_summary="Exact-safe CLI short-horizon diagnostics on exposed history; no alpha experiment yet.",
+        executive_summary=(
+            "Exact-safe CLI short-horizon diagnostics on expose"
+            "d history; no alpha experiment yet."
+        ),
         status="DIAGNOSTICS_EXECUTED",
         contamination="EXPLORATORY_EXPOSED_HISTORY",
         independent_alpha_verified="UNKNOWN",
         official_M0_normalization=False,
         official_composite=None,
-        score_definition="Imported official fair ensemble CRPS, variogram p=.5, tail pinball .01/.05/.95/.99. SD diagnostics divide by pre-asof 252-observation daily SD*sqrt(h), not M0. Raw composites stay private because units differ; no cross-unit official score.",
+        score_definition=(
+            "Imported official fair ensemble CRPS, variogram p="
+            ".5, tail pinball .01/.05/.95/.99. SD diagnostics d"
+            "ivide by pre-asof 252-observation daily SD*sqrt(h)"
+            ", not M0. Raw composites stay private because unit"
+            "s differ; no cross-unit official score."
+        ),
         requested_forecasts=len(m["cards"]),
         forecasts_completed=len(grids),
         cells=len(cells),
@@ -599,7 +624,11 @@ def score(a):
     )
     out["single_cell_diagnostic"] = dict(
         n=len(f),
-        note="Each marginal is evaluated separately; the projected full grids all have4+horizon cells. No actual one-cell authored card performance is claimed.",
+        note=(
+            "Each marginal is evaluated separately; the project"
+            "ed full grids all have4+horizon cells. No actual o"
+            "ne-cell authored card performance is claimed."
+        ),
     )
     out["joint_diagnostic"] = {
         g: dict(

@@ -1,0 +1,61 @@
+{
+  "executive_summary": "Fresh official Track/common source and issue evidence; no new short-horizon practice corpus observed. Final schedule unchanged; M0 documentation clarified.",
+  "checked_at_utc": "2026-10-18T13:55:45.369689+00:00",
+  "track_commit": "24582e957b0cbb9ea7268bec9636188a0e2c21fa",
+  "previous_FF03_track_commit": "b9c663d239a0e6b86ebd3f3f2d5aead88516067d",
+  "common_version": "2.6.1",
+  "common_commit": "03c50a0036aaf72675d353aef4c7c01ca86d1fcf",
+  "interface": "2.0",
+  "contract_set": "1.1.0",
+  "scorer_version": "3.1.0",
+  "Final_deadline_KST": "2026-10-26T20:59:00+09:00",
+  "asof": "2026-10-26",
+  "target_dates": [
+    "2026-10-27",
+    "2026-10-28",
+    "2026-10-29",
+    "2026-10-30"
+  ],
+  "horizons_BD": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "weights": [
+    0.5,
+    0.3,
+    0.2
+  ],
+  "single_cell_weights": [
+    0.7142857142857143,
+    0,
+    0.2857142857142857
+  ],
+  "normalization": "Per-card M0 expected errors; no verified local scale bundle",
+  "Final_attempt_limit": 1,
+  "per_unit_seconds": 1800,
+  "total_run_seconds": 43200,
+  "new_documentation": "M0 declared horizon retained when date-derived/declared step ratio equals2; override only strictly>2. Official change says no existing scale value changes.",
+  "practice_status": "PRACTICE_NOT_YET_PUBLISHED_AT_CHECK",
+  "tree_entries": 1981,
+  "historical_units": 104,
+  "new_practice_data_files_found": 0,
+  "latest_track_comment": {
+    "id": 6250449674,
+    "created_at": "2026-10-18T13:25:00Z",
+    "role": "Participant asks whether promised set will be published; not organizer publication."
+  },
+  "source_links": [
+    "https://github.com/Agenthon-2026/track2-forecasting-public/tree/24582e957b0cbb9ea7268bec9636188a0e2c21fa",
+    "https://github.com/Agenthon-2026/track2-forecasting-public/issues/4#issuecomment-6129776242",
+    "https://github.com/Agenthon-2026/Agenthon2026-public/issues/2#issuecomment-6150553933"
+  ],
+  "notice_hashes": {
+    "6129776242": "383babe3dbcc2742eef54ec6ffd5081a41a693d28b79a2058e81b724cbb3b543",
+    "6150556139": "d5281154ecb1071207922afe831df38d4f2642342a4aec98188fcf7a06d9e1f3",
+    "6250449674": "2b01ad31bf3f37a52557bea30544b0a01905b5d8d739d03673366813cb59b18d"
+  },
+  "rules_context": "H10 historical practice quotes differ from ranked ECB histories/targets; canonical new release schemas are still not inferred.",
+  "prohibited_actions_performed": false
+}

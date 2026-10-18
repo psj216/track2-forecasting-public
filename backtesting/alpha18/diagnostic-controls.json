@@ -1,0 +1,311 @@
+{
+  "executive_summary": "Descriptive origin-block uncertainty and twelve baseline controls, not candidate falsification.",
+  "bootstrap_seed": 18018,
+  "bootstrap_repetitions": 1000,
+  "block_origins": 4,
+  "uncertainty": {
+    "authored_market_projection": {
+      "origins": 69,
+      "origin_weighted_mean": {
+        "z_error": -0.17284750146730665,
+        "positive_error": 0.46328502415458933,
+        "coverage90": 0.7742954911433172,
+        "coverage98": 0.9265700483091788
+      },
+      "moving_block95": {
+        "z_error": [
+          -0.4564476374993301,
+          0.06559888385795609
+        ],
+        "positive_error": [
+          0.3649984903381643,
+          0.5449320652173912
+        ],
+        "coverage90": [
+          0.6951650563607085,
+          0.8367919685990338
+        ],
+        "coverage98": [
+          0.8814598429951692,
+          0.9658876811594204
+        ]
+      },
+      "calendar_note": "Authored market cards are sparse/event-selected, so four adjacent sampled origins are not fixed calendar blocks. Interval is descriptive, not an iid/selection-adjusted confidence guarantee.",
+      "per_year": {
+        "2003": {
+          "n": 4,
+          "mean_error": 1.7775518593482453,
+          "coverage90": 0.75
+        },
+        "2004": {
+          "n": 7,
+          "mean_error": -0.6660114628576715,
+          "coverage90": 0.8571428571428571
+        },
+        "2005": {
+          "n": 15,
+          "mean_error": 0.19552140691011205,
+          "coverage90": 1.0
+        },
+        "2006": {
+          "n": 8,
+          "mean_error": 0.539834266050016,
+          "coverage90": 1.0
+        },
+        "2007": {
+          "n": 8,
+          "mean_error": -0.7938492808968924,
+          "coverage90": 1.0
+        },
+        "2008": {
+          "n": 15,
+          "mean_error": -1.8140144408610233,
+          "coverage90": 0.4
+        },
+        "2009": {
+          "n": 4,
+          "mean_error": -0.059177943620024834,
+          "coverage90": 1.0
+        },
+        "2010": {
+          "n": 3,
+          "mean_error": 2.148606515482365,
+          "coverage90": 0.0
+        },
+        "2011": {
+          "n": 16,
+          "mean_error": -0.3470116239021218,
+          "coverage90": 1.0
+        },
+        "2012": {
+          "n": 8,
+          "mean_error": -0.756290178093551,
+          "coverage90": 0.875
+        },
+        "2013": {
+          "n": 26,
+          "mean_error": 1.1517147100681562,
+          "coverage90": 0.8076923076923077
+        },
+        "2014": {
+          "n": 47,
+          "mean_error": 0.025453768329783636,
+          "coverage90": 0.8297872340425532
+        },
+        "2015": {
+          "n": 8,
+          "mean_error": 0.7284123274212403,
+          "coverage90": 0.875
+        },
+        "2016": {
+          "n": 32,
+          "mean_error": -0.004455549940128534,
+          "coverage90": 0.6875
+        },
+        "2017": {
+          "n": 12,
+          "mean_error": -0.4199778686856219,
+          "coverage90": 1.0
+        },
+        "2018": {
+          "n": 24,
+          "mean_error": -0.5531844217997852,
+          "coverage90": 1.0
+        },
+        "2019": {
+          "n": 28,
+          "mean_error": -0.6381312650770846,
+          "coverage90": 0.8214285714285714
+        },
+        "2020": {
+          "n": 63,
+          "mean_error": -0.2112290772920273,
+          "coverage90": 0.2857142857142857
+        },
+        "2021": {
+          "n": 8,
+          "mean_error": 1.3335704257802319,
+          "coverage90": 0.625
+        },
+        "2022": {
+          "n": 62,
+          "mean_error": 0.006338903795155574,
+          "coverage90": 0.8064516129032258
+        },
+        "2023": {
+          "n": 36,
+          "mean_error": -0.13995898961064715,
+          "coverage90": 0.6944444444444444
+        },
+        "2024": {
+          "n": 52,
+          "mean_error": -0.19450754328188674,
+          "coverage90": 0.8653846153846154
+        }
+      },
+      "leave_one_era_out": {
+        "2017-2019": {
+          "cells": 422,
+          "mean_error": -0.02328893311802063,
+          "coverage90": 0.7227488151658767
+        },
+        "2020-2021": {
+          "cells": 415,
+          "mean_error": -0.10451300549934818,
+          "coverage90": 0.8216867469879519
+        },
+        "2022-2024": {
+          "cells": 336,
+          "mean_error": -0.09301149376203455,
+          "coverage90": 0.7261904761904762
+        },
+        "<=2016": {
+          "cells": 285,
+          "mean_error": -0.18800915183887124,
+          "coverage90": 0.7087719298245614
+        }
+      },
+      "error_without_largest_absolute_origin": -0.10661497739445322
+    },
+    "past_vintage_UST": {
+      "origins": 154,
+      "origin_weighted_mean": {
+        "z_error": 0.2370350328440283,
+        "positive_error": 0.5665584415584416,
+        "coverage90": 0.7012987012987013,
+        "coverage98": 0.8843795093795095
+      },
+      "moving_block95": {
+        "z_error": [
+          -0.018175542643574804,
+          0.47589478909159105
+        ],
+        "positive_error": [
+          0.4983540764790764,
+          0.6315025252525254
+        ],
+        "coverage90": [
+          0.6529356060606059,
+          0.7525613275613277
+        ],
+        "coverage98": [
+          0.8473980880230882,
+          0.920093795093795
+        ]
+      },
+      "calendar_note": "Authored market cards are sparse/event-selected, so four adjacent sampled origins are not fixed calendar blocks. Interval is descriptive, not an iid/selection-adjusted confidence guarantee.",
+      "per_year": {
+        "2022": {
+          "n": 615,
+          "mean_error": 0.6991004532640053,
+          "coverage90": 0.608130081300813
+        },
+        "2023": {
+          "n": 618,
+          "mean_error": 0.0035098604278487855,
+          "coverage90": 0.6974110032362459
+        },
+        "2024": {
+          "n": 588,
+          "mean_error": 0.023060188482469605,
+          "coverage90": 0.7993197278911565
+        }
+      },
+      "leave_one_era_out": {},
+      "error_without_largest_absolute_origin": 0.2721307475663314
+    }
+  },
+  "controls": [
+    {
+      "family": "T2-F1",
+      "control": "repeat",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F1",
+      "control": "ff03_daily",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F1",
+      "control": "future_panel_mutation",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F2",
+      "control": "repeat",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F2",
+      "control": "ff03_daily",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F2",
+      "control": "future_panel_mutation",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F3",
+      "control": "repeat",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F3",
+      "control": "ff03_daily",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F3",
+      "control": "future_panel_mutation",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F4",
+      "control": "repeat",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F4",
+      "control": "ff03_daily",
+      "parquet_identical": true,
+      "passed": true
+    },
+    {
+      "family": "T2-F4",
+      "control": "future_panel_mutation",
+      "parquet_identical": true,
+      "passed": true
+    }
+  ],
+  "controls_passed": 12,
+  "input_hashes_passed": true,
+  "input_date_cutoff_passed": true,
+  "scorer_identity": {
+    "common_installed_tree_digest": "sha256:a8890de2d5fc720ddfe37c42367bdff81e6375804610de13e4d142c8a0d315b7",
+    "common_source_tree_digest": "sha256:a8890de2d5fc720ddfe37c42367bdff81e6375804610de13e4d142c8a0d315b7",
+    "crps_source_sha256": "fdd8bc89bc9d219f4e09937582d3aad97dfdb5656563e4037470873d17e200cb",
+    "crps_source_matches": true,
+    "track_scoring_sha256": "cbb541ef25665b401b1891e67d0bb300aef0014919e900a500e6f9128546c031",
+    "track_tail_sha256": "235bfdf08eccf2ebaf691976097cf9f04d554c11166be4f7742e6246cf34098e",
+    "metric_impl": "Official source functions imported, no rewritten score math",
+    "official_M0_scales": false
+  },
+  "limitations": [
+    "No release vintage authentication for original H10/H15 panel rows",
+    "Exposed selected events; raw metrics are not a random population sample",
+    "No independent candidate performance",
+    "No placebo/lag candidate tested because no alpha adapter selected yet"
+  ]
+}

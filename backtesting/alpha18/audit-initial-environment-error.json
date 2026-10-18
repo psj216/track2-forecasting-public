@@ -1,0 +1,9 @@
+{
+  "executive_summary": "First diagnostic provenance audit refused uv hard-linked installed package files; no score or model was changed.",
+  "stage": "diagnostic_controls",
+  "attempt": 1,
+  "error": "qfbench2_common.sanitize.TreeRefused: common/__init__.py is hard-linked (2 links)",
+  "repair": "Reinstall exact same common source with uv --link-mode copy; no assertion changes.",
+  "second_attempt_pending": false,
+  "second_attempt": "PASS12_CONTROLS_NO_ASSERTION_CHANGE"
+}

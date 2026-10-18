@@ -1,0 +1,43 @@
+{
+  "executive_summary": "One fixed calendar variance hypothesis fails its preregistered gate. Keep V5.1; no Final promotion.",
+  "classification": "NO_PREDICTABLE_SIGNAL",
+  "scope": "R17-FOMC-CALENDAR-VARIANCE-1",
+  "SOURCE_RECOVERED": true,
+  "EXACT_SAFE_SOURCE_FROZEN": true,
+  "SOURCE_RUNTIME_BRIDGE_PASS": true,
+  "PIT_CALENDAR_VERIFIED": true,
+  "PIT_MARKET_VINTAGE_VERIFIED": true,
+  "R17_PIT_CONTROLS_PASS": true,
+  "ONE_LOCKED_EXPERIMENT_EXECUTED": true,
+  "PARAMETER_SEARCH_PERFORMED": false,
+  "RESEARCH_ACCEPTANCE_PASS": false,
+  "acceptance_checks": {
+    "enough_origins": true,
+    "enough_event_origins": true,
+    "primary_2pct_gain": false,
+    "bootstrap_upper_below_one": false,
+    "joint_not_worse_5pct": true,
+    "tail_not_worse_5pct": true,
+    "two_assets_improve": false,
+    "leave_quarter_out_robust": false,
+    "remove_largest_gain_robust": false
+  },
+  "research_gate_checks": {
+    "passed": 4,
+    "failed": 5
+  },
+  "additional_lag_falsification": "INCONCLUSIVE_DEGENERATE",
+  "NEW_DOCKER_EXECUTION": "NOT_RUN",
+  "LIVE_HOUSE_VERIFIED": "UNKNOWN",
+  "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
+  "INDEPENDENT_OOS": false,
+  "FINAL_ELIGIBLE": false,
+  "preferred_safety_candidate": "Unchanged existing V5.1, with FINAL01 package and historical-score-identity caveats",
+  "Team_Key_or_House_token_used": false,
+  "submissions": 0,
+  "image_builds": 0,
+  "protected_branch_writes": 0,
+  "local_ZIP_bytes_read": false,
+  "publication": "Connector recovery of observed aggregates; local final hashes inaccessible",
+  "NEXT_ACTION": "Close this specification without tuning. Preserve V5.1. After actual publication of the announced short-horizon practice set, separately check exact-safe runtime/contract coverage for new series and1–4BD. Revealed practice outcomes are exposed validation, not independent alpha."
+}

@@ -1,0 +1,54 @@
+{
+  "executive_summary": "All ALPHA18 diagnostic histories are already exposed. Input vintage authenticity and evaluation independence are separate.",
+  "classification": "EXPLORATORY_EXPOSED_HISTORY",
+  "independent_OOS": false,
+  "independent_alpha_verified": "UNKNOWN",
+  "official_new_practice": "PRACTICE_NOT_YET_PUBLISHED_AT_CHECK",
+  "input_manifest_sha256": "2466fda06bf45cfe2a1b7a9ffd3f4e5d24a7967e6a2f0b459498b21aa341e1db",
+  "cohorts": [
+    {
+      "name": "authored_market_projection",
+      "forecast_units": 78,
+      "scorable_units": 77,
+      "observed_cells": 486,
+      "observed_origins": 69,
+      "inputs": "Official historical card daily panels/text, truncated to authored as-of; targets.horizons research-projected to1/2/3/4. No original files edited.",
+      "input_PIT": "Organizer-declared cutoff only; H10 publication vintages not independently verified.",
+      "labels": "Later public input panels, physically separate from forecast inputs; already research exposed."
+    },
+    {
+      "name": "past_vintage_UST",
+      "forecast_units": 154,
+      "observed_cells": 1821,
+      "observed_origins": 154,
+      "inputs": "Existing original R17 ALFRED previous-calendar-day vintage CSVs; all154SHA256 match authenticated R17 RESULT manifest.",
+      "raw_hashes_verified": 154,
+      "input_PIT": "Header vintage binding and strictly-before-origin observation guards pass. Date-level availability conservatively lagged; actual last quote2or3businessdays before origin.",
+      "labels": "Same exposed public H15 historical label source. Existing R17 forecasts/scores not reused or retuned."
+    }
+  ],
+  "label_only_sources": {
+    "rates_daily": {
+      "path": "units/t2-F1-hawkish-cut-2024/rates_daily.parquet",
+      "sha256": "e22ab4b961f4653d5c960e122b5c414c718f829e9e2e25e8121aec9c3cb29aac",
+      "last_date": "2024-12-18",
+      "rows": 37470
+    },
+    "g10_fx_daily": {
+      "path": "units/t2-F3-election-2024-joint/g10_fx_daily.parquet",
+      "sha256": "c9c20e261baedc1fe7e1104017f0afefacdc0838170516ad43b43d9ef9b8b738",
+      "last_date": "2024-10-31",
+      "rows": 62280
+    }
+  },
+  "blocked_cells": 69,
+  "missing_label_rule": "Exact Monday-Friday target date only; never fill labels. Source panels may contain organizer gap-fill; no claim of first-release target reconstruction.",
+  "prohibited_inputs_used": false,
+  "Final_2026_outcomes_accessed": false,
+  "limitations": [
+    "Overlapping cells, repeated families/origins, and event-selected cards are not independent observations.",
+    "Chronological vintage dates do not create an untouched outcome holdout.",
+    "Historical G10H10 differs from Final ECB.",
+    "No3M/6M/1Y/newEM/macro release quality data in this daily experiment."
+  ]
+}

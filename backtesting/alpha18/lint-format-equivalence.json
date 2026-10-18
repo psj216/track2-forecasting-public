@@ -1,0 +1,13 @@
+{
+  "executive_summary": "Style-only literal wrapping after diagnostic execution, AST identical including all assertions and formulas.",
+  "files": {
+    "diagnostic.py": {
+      "AST_identical": true,
+      "wrapped_literals": 8
+    },
+    "audit.py": {
+      "AST_identical": true,
+      "wrapped_literals": 2
+    }
+  }
+}
