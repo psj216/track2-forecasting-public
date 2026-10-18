@@ -29,3 +29,14 @@ PRE a4475063928d1698646cb498c620148feb4898ba; initial build source 81b9c692c0c49
 Actual image sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c; source and archive receipts in FINALFIT03-IMAGE-BUILD.json; Actions run 38798442114 / image artifact 12003002655. All original production files unchanged. Candidate 41/41 runtime expectations, 8 semantic, 9 kernel, 35 frozen-package, 25 official helper and 2 official card CLI checks pass. Global repository CI is not passed.
 
 Resume only when canonical new practice/Final schemas are available. Preserve original ZIP/image; no registry push or Final package/submission is authorized by this task.
+
+
+## ALPHA18 recovery
+
+Executive summary: EXPLORATORY_IMPROVEMENT_ONLY for a single frozen stale-observation clock experiment; no fresh-close Final alpha and no FF03/V51 change.
+
+Branch track2/alpha-18-short-horizon-distribution; parent71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006; PREd8ee8424a679256b3bca85e7e8586dc99357b1a2; diagnosticfreeze0d1c37f6c74c4e1e72222fbda49d484273c51a20; diagnosticresult269e2411e4fd195c3b493731a8122f9b73ff796b; LOCK155c10cecbc332e3e5a2605604705e712d38a4c7; executablef4c7fdd8e492f0bae7b72d35eb658579803455f8; experimentresultb1f36912613aa7d5f00d2df5e7754918def340b3. Use enclosing final remote RESULT for the completed report.
+
+232new baseline forecasts,2307observedcells/69missing. One zero-fit-parameter adapter evaluated on145complete12cellUST grids; researchproxy0.93540774, CI0.92184366–0.95197777. Eleven research checks pass, age-specific placeboUNKNOWN (14changedorigins). All history exposed.725totalnewhostforecasts include diagnostic/identity/lag/placebo controls, not725independent samples. No new Docker or image deployment. Source26hashes and4archivedsafeDockerparquetmatches pass;12baselinecontrols,7adapterpytest and12officialtailtests pass.
+
+All required ALPHA18 reports, input/source hashes, environment, code, generation receipts and aggregate metrics are in this branch. Rawtarget values, individual losses and draws remain outside Git; reconstruction uses pinned public panels plus originalR17ALFREDreceipt URLs/hashes. New independent clone has no shared/reference/alternates. Do not rerun completed R17/FF03/ALPHA18 studies or select a revised parameter. Keep FF03 technical priority with its existing new-schema gaps and retain the original V51 image/Windows ZIP. No registry push or submission is authorized. Resume only new officially published contract strata, or a separately preregistered independent nonzero-gap validation if actual inputs justify it.

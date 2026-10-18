@@ -1,13 +1,10 @@
 {
   "executive_summary": "ALPHA18 PRE and diagnostic source/roster fixed before errors; safe baselines untouched.",
   "branch": "track2/alpha-18-short-horizon-distribution",
-  "stage": "EXPERIMENT_COMPLETE_RESULT_PENDING",
+  "stage": "COMPLETED_AVAILABLE_SCOPE",
   "parent": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
   "PRE": "d8ee8424a679256b3bca85e7e8586dc99357b1a2",
-  "pending": [
-    "falsification_report",
-    "RESULT_remote_verify"
-  ],
+  "pending": [],
   "DIAGNOSTIC_PRE_RESULT": "0d1c37f6c74c4e1e72222fbda49d484273c51a20",
   "forecast_processes": 232,
   "scorable_units": 231,
@@ -22,5 +19,27 @@
   "classification": "EXPLORATORY_IMPROVEMENT_ONLY",
   "experiment_complete_origins": 145,
   "total_host_forecast_calls": 725,
-  "independent_alpha_verified": "UNKNOWN"
+  "independent_alpha_verified": "UNKNOWN",
+  "experiment_result": "b1f36912613aa7d5f00d2df5e7754918def340b3",
+  "research_gate_passed": 11,
+  "research_gate_unknown": 1,
+  "Final_eligible": false,
+  "protected_artifacts_changed": false,
+  "completed_stages": [
+    "remote_recovery",
+    "PRE",
+    "mechanics_history",
+    "diagnostics",
+    "LOCK",
+    "one_experiment",
+    "falsification",
+    "final_integrity_review"
+  ],
+  "no_more_experiments": true,
+  "result_sha": "enclosing Git commit, reported after remote confirmation",
+  "remote_result_confirmation": "Exact enclosing RESULT SHA confirmed after publication and returned in delivery.",
+  "future_work": [
+    "FF03 new-schema compatibility only when official publication exists",
+    "Independent nonzero-gap validation only under a separately frozen protocol"
+  ]
 }

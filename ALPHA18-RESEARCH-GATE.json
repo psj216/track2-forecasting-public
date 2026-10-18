@@ -1,0 +1,51 @@
+{
+  "executive_summary": "An exposed stale-input research improvement is observed; exact age information is not identified by the weak placebo and fresh-close Final has no intervention.",
+  "classification": "EXPLORATORY_IMPROVEMENT_ONLY",
+  "completed_at_UTC": "2026-10-18T14:08:18.835507+00:00",
+  "source_recovered": true,
+  "baseline_identity_bridge": "PASS_26_FILES_4_PARQUETS",
+  "diagnostic_forecasts": 232,
+  "diagnostic_observed_cells": 2307,
+  "diagnostic_blocked_cells": 69,
+  "candidate_mechanisms_implemented": 1,
+  "parameters_fitted": 0,
+  "parameter_search": false,
+  "research_checks": {
+    "passed": 11,
+    "failed": 0,
+    "unknown": 1
+  },
+  "checks": {
+    "enough_complete_origins": true,
+    "primary_2percent": true,
+    "CI_upper_below_one": true,
+    "joint_no5percent_damage": true,
+    "tail_no5percent_damage": true,
+    "two_assets_improve": true,
+    "horizon_no5percent_damage": true,
+    "best_origin_removed": true,
+    "best_quarter_removed": true,
+    "all_leave_year_out": true,
+    "lag_improves": true,
+    "age_specific_placebo": "UNKNOWN"
+  },
+  "research_proxy": 0.935407741061433,
+  "proxy95": [
+    0.9218436641418792,
+    0.9519777656668865
+  ],
+  "official_M0_normalization": false,
+  "official_score": null,
+  "INDEPENDENT_ALPHA_VERIFIED": "UNKNOWN",
+  "INDEPENDENT_OOS": false,
+  "FRESH_CLOSE_ALPHA_VERIFIED": "UNKNOWN",
+  "FINAL_ELIGIBLE": false,
+  "FINAL_CANDIDATE": "FF03_RETAINED_TECHNICAL_PRIORITY_WITH_EXISTING_SCHEMA_GAPS",
+  "FF03_modified": false,
+  "V51_modified": false,
+  "new_registry_push": false,
+  "CodaBench_submission": false,
+  "new_Docker_run": "NOT_RUN",
+  "scope": "Old-observation controlled F3UST inputs only; no fresh-close Final quality gain.",
+  "next_action": "Do not apply ALPHA18 to FF03. Close the locked experiment. On actual publication of new official practice/contracts, resume only FF03 blocked compatibility strata. Investigate age repair separately only if real input dates show nonzero gaps; obtain a preregistered independent cohort before any promotion."
+}

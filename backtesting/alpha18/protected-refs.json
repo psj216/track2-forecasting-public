@@ -1,0 +1,47 @@
+{
+  "executive_summary": "Actual protected remote refs re-queried before final audit delivery; only the new ALPHA18 branch was written.",
+  "refs": [
+    {
+      "branch": "main",
+      "expected": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+      "observed": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/v51-delivery-emergency-11",
+      "expected": "126a7c628aa60783986450037309f5f59603276a",
+      "observed": "126a7c628aa60783986450037309f5f59603276a",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/final-fit-03-monthly-repair-release",
+      "expected": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+      "observed": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/research-17-predictable-information-alpha",
+      "expected": "48952090e6e4a31add9fbcb40b3d0a0fcd3a6b6b",
+      "observed": "48952090e6e4a31add9fbcb40b3d0a0fcd3a6b6b",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/moonshot-16-house-transport-repair",
+      "expected": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+      "observed": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/moonshot-15-house-location-5shot",
+      "expected": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+      "observed": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/final-fit-02-short-horizon-compatibility",
+      "expected": "d611cff8c2a674f962cecb8cf52f9f8f8cc91c41",
+      "observed": "d611cff8c2a674f962cecb8cf52f9f8f8cc91c41",
+      "unchanged": true
+    }
+  ]
+}
