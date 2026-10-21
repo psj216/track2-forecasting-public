@@ -1,22 +1,40 @@
 {
-  "executive_summary": "FF04 pre-execution checkpoint.",
+  "executive_summary": "FF04 available execution and evidence complete; release gaps explicitly retained.",
   "branch": "track2/final-fit-04-official-practice-replay",
-  "stage": "DOCKER_IN_PROGRESS",
-  "completed": [
-    "recovery",
-    "PRE remote verified",
-    "22-card inventory",
-    "278 input hashes",
-    "22 answer hash/grid checks",
-    "new runner lint/syntax"
-  ],
-  "pending": [
-    "Docker A/B",
-    "official raw scoring",
-    "forensics",
-    "release decision"
-  ],
-  "head": "e774e9bdea9a689995614a063efddce894e7b054",
+  "phase": "RESULT_WITH_GAPS",
+  "classification": "FF03_RETAINED_WITH_GAPS",
+  "parent": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
   "pre": "62b289aa4b90bb398a68388aa528fa3bc95aee4f",
-  "run_id": 39552405145
+  "last_executable": "9d7b2f29d62db94def796fd51cef12d52e1c1986",
+  "runs": [
+    39552405145,
+    39552900342,
+    39553274096
+  ],
+  "completed": [
+    "source recovery",
+    "PRE frozen and remote verified",
+    "22-card inventory",
+    "actual44Docker A/B",
+    "44officialrawscorecalls",
+    "22cardbyteidentity",
+    "37officialpytest",
+    "resource measurement",
+    "bounded portability falsification",
+    "candidate decision",
+    "report"
+  ],
+  "pending_execution": [],
+  "release_blockers": [
+    "shared cross-runner numerical portability risk",
+    "unseen macro/vintage schema",
+    "unseen ranked ECB G10 bytes",
+    "FF03 registry availability and complete descriptor/claim not performed"
+  ],
+  "final_ready": false,
+  "registry_push": false,
+  "submission": false,
+  "windows_zip_accessed": false,
+  "latest_timestamp": "2026-10-21T06:11:22.704859+00:00",
+  "no_more_experiments": true
 }

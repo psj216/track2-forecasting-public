@@ -1,0 +1,68 @@
+{
+  "executive_summary": "Actual scoped regression passes; cross-runner determinism fails; inherited global CI is separate.",
+  "environment": {
+    "host_python": "3.13.16",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "pyarrow": "18.1.0",
+    "scipy": "1.18.1",
+    "common": "2.6.1",
+    "docker_python": "3.13.15"
+  },
+  "official_pytest": {
+    "command": "timeout 180 env PYTHONPATH=ff04-official ff04-env/bin/python -m pytest -q ff04-official/tests/test_tail_metric.py ff04-official/tests/test_monthly_horizons.py",
+    "executed": 37,
+    "passed": 37,
+    "failed": 0,
+    "skipped": 0,
+    "source": "3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56"
+  },
+  "actual_docker": {
+    "main": 44,
+    "main_passed": 44,
+    "same_runner_ff03_repeats": 6,
+    "resource": 2,
+    "portability": 5,
+    "total_forecast_processes": 57,
+    "zero_exits": 57,
+    "official_gate_calls": 44,
+    "official_scoring_calls": 44,
+    "paired_daily_identity_cards": 22
+  },
+  "determinism": {
+    "same_runner": "PASS_IN_TESTED_CASES",
+    "cross_runner": "FAIL_OBSERVED",
+    "new_candidate_regression": false
+  },
+  "prior_ff03_scoped_checks": {
+    "passed": 120,
+    "reexecuted": false,
+    "source": "FINALFIT03-REGRESSION.json"
+  },
+  "lint": {
+    "scope": "new FF04 Python files",
+    "tool": "ruff 0.4.7",
+    "rules": "E,F,I",
+    "passed": true
+  },
+  "descriptor": {
+    "known_fields_checked": 7,
+    "known_fields_passed": 7,
+    "complete_descriptor": "BLOCKED"
+  },
+  "whole_repository": {
+    "ci_run": 39552900129,
+    "lint_errors": 2288,
+    "pytest_collection_errors": 61,
+    "missing": [
+      "sklearn",
+      "requests",
+      "bs4"
+    ],
+    "same_known_parent_failures": true,
+    "passed": false
+  },
+  "forecasting_source_changes": [],
+  "test_assertions_changed": false,
+  "timestamp": "2026-10-21T06:11:22.704859+00:00"
+}

@@ -29,3 +29,12 @@ PRE a4475063928d1698646cb498c620148feb4898ba; initial build source 81b9c692c0c49
 Actual image sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c; source and archive receipts in FINALFIT03-IMAGE-BUILD.json; Actions run 38798442114 / image artifact 12003002655. All original production files unchanged. Candidate 41/41 runtime expectations, 8 semantic, 9 kernel, 35 frozen-package, 25 official helper and 2 official card CLI checks pass. Global repository CI is not passed.
 
 Resume only when canonical new practice/Final schemas are available. Preserve original ZIP/image; no registry push or Final package/submission is authorized by this task.
+
+
+## FINAL-FIT-04 recovery checkpoint
+
+Executive summary: all available FF04 replay/scoring completed; classification FF03_RETAINED_WITH_GAPS. Preserve parent FF03 and V5.1. Do not rerun completed batches.
+
+Branch track2/final-fit-04-official-practice-replay; PRE62b289aa4b90bb398a68388aa528fa3bc95aee4f. Main executable e774e9bdea9a689995614a063efddce894e7b054 /run39552405145; resource run39552900342; portability run39553274096. Required output files and complete artifact manifest are in this branch. Raw forecasts, complete logs/inspect, CPU fingerprints and retained RED are in authenticated Actions artifacts. No answers copied to audit branch; official answers remain in the separate official checkout.
+
+Stop here: do not tune, publish, pack, submit, or silently harden deterministic ordering. Next work must address documented portability/macro gaps under a separate release decision. Windows ZIP untouched.

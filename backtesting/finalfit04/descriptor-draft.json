@@ -1,0 +1,21 @@
+{
+  "executive_summary": "Partial structural draft only; not a packable descriptor and not submitted.",
+  "descriptor_fields": {
+    "schema_version": "1.1.0",
+    "interface_version": "2.0",
+    "competition_id": "agenthon2026-forecasting-final",
+    "track": "forecasting",
+    "phase": "final",
+    "category": "api",
+    "image_access": "public"
+  },
+  "missing": [
+    "team_id (do not request key in this task)",
+    "published FF03 registry manifest digest",
+    "models/license provenance finalization",
+    "descriptor_digest",
+    "team-claim.json via official secret-safe pack workflow"
+  ],
+  "full_validation": "BLOCKED_INCOMPLETE_BY_DESIGN",
+  "zip_created": false
+}

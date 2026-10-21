@@ -1,0 +1,40 @@
+{
+  "executive_summary": "Remote protected refs verified unchanged on completion.",
+  "refs": [
+    {
+      "branch": "main",
+      "sha": "e1b5cf3b3a87966e902332ef3cc5c0ed2dbffee8",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/v51-delivery-emergency-11",
+      "sha": "126a7c628aa60783986450037309f5f59603276a",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/final-fit-03-monthly-repair-release",
+      "sha": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/alpha-18-short-horizon-distribution",
+      "sha": "4a4f791ea52fbcb3193d7c600e1ccfb05468f2c9",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/moonshot-16-house-transport-repair",
+      "sha": "6b9cac6eaadd419f8bc3fec07a52e6d8f99e1334",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/moonshot-15-house-location-5shot",
+      "sha": "e53d210ccd701e0b80bb6312b4cdebca99bc3c40",
+      "unchanged": true
+    },
+    {
+      "branch": "track2/final-fit-02-short-horizon-compatibility",
+      "sha": "d611cff8c2a674f962cecb8cf52f9f8f8cc91c41",
+      "unchanged": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "executive_summary": "Restored exact archived images, actual network-none forecasts; no registry push or new build.",
+  "main_run": 39552405145,
+  "resource_run": 39552900342,
+  "portability_run": 39553274096,
+  "original_image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "ff03_image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "ff03_registry_manifest_digest": null,
+  "ff03_archive_sha256": "df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c",
+  "architecture": "linux/amd64",
+  "new_build": false,
+  "registry_push": false,
+  "original_anonymous_pull_verified": true,
+  "ff03_archive_verified": true,
+  "max_main_wall_seconds": 2.2415660200000502,
+  "max_main_output_bytes": 35907,
+  "forecast_child_resource_measurements": [
+    {
+      "candidate": "ff03",
+      "forecast_exit": 0,
+      "wall_seconds": 1.2456617169999973,
+      "forecast_child_peak_rss_kib": 199692
+    },
+    {
+      "candidate": "original",
+      "forecast_exit": 0,
+      "wall_seconds": 1.244981881000001,
+      "forecast_child_peak_rss_kib": 199184
+    }
+  ],
+  "peak_scope": "Child process maxrss on one representative card, not total container/cgroup peak or all-card peak.",
+  "whole_final_batch": "UNKNOWN",
+  "container_limits": {
+    "cpus": 2,
+    "memory_bytes": 4294967296,
+    "pids": 256,
+    "tmpfs_bytes": 536870912,
+    "network": "none",
+    "root_readonly": true
+  },
+  "total_forecast_processes": 57,
+  "forecast_zero_exits": 57,
+  "resource_replay_crossrunner_identity": false
+}
