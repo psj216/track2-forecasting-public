@@ -1,0 +1,208 @@
+{
+  "executive_summary": "DAILY_IDENTITY_CONFIRMED across all 22 official daily cards.",
+  "status": "DAILY_IDENTITY_CONFIRMED",
+  "cards": [
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "bytes": {
+        "forecast.parquet": true,
+        "forecast_meta.json": true,
+        "forecast_rationale.md": true
+      },
+      "status": "DAILY_IDENTITY_CONFIRMED"
+    }
+  ],
+  "all_file_bytes_equal": true,
+  "all_numeric_draws_equal": true,
+  "ff03_repeat_count": 6,
+  "ff03_deterministic_repeats": 6
+}

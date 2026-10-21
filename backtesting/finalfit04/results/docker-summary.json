@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Actual processes, not host simulations.",
+  "main_forecasts": 44,
+  "repeated_forecasts": 6,
+  "all_exited_zero": true,
+  "official_gate_calls": 44,
+  "official_score_calls": 44,
+  "families": {
+    "T2-F1": 6,
+    "T2-F2": 7,
+    "T2-F3": 5,
+    "T2-F4": 4
+  },
+  "max_wall_seconds": 2.2415660200000502,
+  "max_output_bytes": 35907,
+  "peak_rss": "NOT_MEASURED_IN_MAIN_BATCH",
+  "whole_final_run_seconds": "UNKNOWN",
+  "failed": []
+}
