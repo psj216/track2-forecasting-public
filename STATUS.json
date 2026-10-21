@@ -1,34 +1,16 @@
 {
-  "executive_summary": "FF03 available-scope implementation/build/test/report completed; Final schema/deployment gates remain explicitly unresolved.",
-  "task": "FINAL-FIT-03",
-  "stage": "RESULT",
-  "classification": "REPAIR_VALIDATED_WITH_SCHEMA_GAPS",
-  "branch": "track2/final-fit-03-monthly-repair-release",
-  "head_before_result": "b7f4f3307556ccbe0aa5822b541bdb086f1c8f11",
-  "pre_sha": "a4475063928d1698646cb498c620148feb4898ba",
-  "candidate_source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
-  "test_checkpoint": "b7f4f3307556ccbe0aa5822b541bdb086f1c8f11",
-  "image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
-  "run_id": 38798442114,
-  "completed_stages": [
-    "authoritative recovery",
-    "PRE",
-    "standalone build",
-    "RED preservation",
-    "minimal wrapper repair",
-    "standalone A/B and regression",
-    "gate",
-    "report"
+  "executive_summary": "FF04 pre-execution checkpoint.",
+  "branch": "track2/final-fit-04-official-practice-replay",
+  "stage": "PRE",
+  "completed": [
+    "source recovery",
+    "official publication confirmation"
   ],
-  "pending_stages": [
-    "new practice contract verification when published",
-    "registry publication only if later authorized",
-    "Final package/submission outside current scope"
-  ],
-  "last_successful_artifact": "FINALFIT03-REPORT.md",
-  "last_update": "2026-10-15T20:13:39.263485+00:00",
-  "global_final_eligible": false,
-  "safe_image_preserved": true,
-  "registry_push": false,
-  "submission": false
+  "pending": [
+    "inventory",
+    "Docker A/B",
+    "score",
+    "failure forensics",
+    "release gate"
+  ]
 }
