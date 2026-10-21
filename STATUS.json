@@ -1,16 +1,22 @@
 {
   "executive_summary": "FF04 pre-execution checkpoint.",
   "branch": "track2/final-fit-04-official-practice-replay",
-  "stage": "PRE",
+  "stage": "DOCKER_IN_PROGRESS",
   "completed": [
-    "source recovery",
-    "official publication confirmation"
+    "recovery",
+    "PRE remote verified",
+    "22-card inventory",
+    "278 input hashes",
+    "22 answer hash/grid checks",
+    "new runner lint/syntax"
   ],
   "pending": [
-    "inventory",
     "Docker A/B",
-    "score",
-    "failure forensics",
-    "release gate"
-  ]
+    "official raw scoring",
+    "forensics",
+    "release decision"
+  ],
+  "head": "e774e9bdea9a689995614a063efddce894e7b054",
+  "pre": "62b289aa4b90bb398a68388aa528fa3bc95aee4f",
+  "run_id": 39552405145
 }

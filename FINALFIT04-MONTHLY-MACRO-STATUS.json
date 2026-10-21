@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Reuse unchanged FF03 monthly Docker evidence; new 22-card set has no macro targets.",
+  "status": "MACRO_FINAL_SCHEMA_UNVERIFIED",
+  "new_monthly_macro_cards": 0,
+  "prior_result": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+  "prior_docker_run": 38798442114,
+  "prior_scoped_checks": 120,
+  "prior_checks_newly_executed": false,
+  "current_helper_git_blob": "04650003bac311fd5c0cee7cb2c8d17484ddcbe6",
+  "wrapper_changed": false,
+  "existing_CPI_NFP": "Prior tested scope PASS",
+  "GDP": "BLOCKED",
+  "jobless_claims": "BLOCKED",
+  "unseen_release_vintage_metadata": "UNKNOWN",
+  "monthly_period_contract": "Prior FF03 explicit-period, heterogeneous asset/anchor and rejection tests PASS; unchanged helper and exact restored image.",
+  "windows_zip_accessed": false
+}
