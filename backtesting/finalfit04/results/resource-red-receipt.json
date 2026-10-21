@@ -1,0 +1,97 @@
+{
+  "executive_summary": "Resource executions passed; cross-runner numeric discrepancy retained as RED evidence.",
+  "run_id": 39552900342,
+  "source_sha": "9a3eaf17ecce98cf5ea16dd579793cd45ae409b9",
+  "rows": [
+    {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust3m-008-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04-resources/ff03:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "python3",
+        "-c",
+        "import subprocess,resource,json,time,pathlib; t=time.monotonic(); p=subprocess.run(['forecast','--panels','/input','--text','/input/text','--asof','2017-04-17','--out','/output/forecast.parquet','--seed','17','--n-draws','1000']); pathlib.Path('/output/resource.json').write_text(json.dumps({'forecast_exit':p.returncode,'wall_seconds':time.monotonic()-t,'forecast_child_peak_rss_kib':resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss})); raise SystemExit(p.returncode)"
+      ],
+      "exit": 0,
+      "stdout": "wrote forecast.parquet, forecast_meta.json and forecast_rationale.md to /output\n  1 asset(s) x 2 horizon(s), 1000 draws\n  forecast mode: text-first-v5.1\n  text route: {\"applied\": false, \"config\": \"text-first-v5.1\", \"numeric_fallback_exact\": true, \"reason\": \"no_current_event\", \"rejected_states\": {}}\n  scenario integration: applied=False, fallback=no_current_event\n",
+      "stderr": "",
+      "wall_seconds": 1.4449867699999999,
+      "candidate": "ff03",
+      "unit": "t2-F4-curve-ust3m-008-ps1",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "scope": "RSS is forecast child maxrss, not total container/cgroup peak.",
+      "resource": {
+        "forecast_exit": 0,
+        "wall_seconds": 1.2456617169999973,
+        "forecast_child_peak_rss_kib": 199692
+      },
+      "hashes": {
+        "forecast_rationale.md": "a0ac41fd3fec6ef78c3bd1fb5c679429125add2004f608f1f69a8fdd47c357d1",
+        "forecast_meta.json": "8ffa4b4800bfe76abbae241ea2a16de6110c9ab9aa4063a58f505a218003f8eb",
+        "forecast.parquet": "eb36814c1df66ee77fec13b6d28fc32c70ce3041930e2db757fd33fed2fea258"
+      },
+      "same_as_main_batch": false,
+      "newly_executed": true
+    },
+    {
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust3m-008-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04-resources/original:/output:rw",
+        "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+        "python3",
+        "-c",
+        "import subprocess,resource,json,time,pathlib; t=time.monotonic(); p=subprocess.run(['forecast','--panels','/input','--text','/input/text','--asof','2017-04-17','--out','/output/forecast.parquet','--seed','17','--n-draws','1000']); pathlib.Path('/output/resource.json').write_text(json.dumps({'forecast_exit':p.returncode,'wall_seconds':time.monotonic()-t,'forecast_child_peak_rss_kib':resource.getrusage(resource.RUSAGE_CHILDREN).ru_maxrss})); raise SystemExit(p.returncode)"
+      ],
+      "exit": 0,
+      "stdout": "wrote forecast.parquet, forecast_meta.json and forecast_rationale.md to /output\n  1 asset(s) x 2 horizon(s), 1000 draws\n  forecast mode: text-first-v5.1\n  text route: {\"applied\": false, \"config\": \"text-first-v5.1\", \"numeric_fallback_exact\": true, \"reason\": \"no_current_event\", \"rejected_states\": {}}\n  scenario integration: applied=False, fallback=no_current_event\n",
+      "stderr": "",
+      "wall_seconds": 1.4963732060000012,
+      "candidate": "original",
+      "unit": "t2-F4-curve-ust3m-008-ps1",
+      "image": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+      "scope": "RSS is forecast child maxrss, not total container/cgroup peak.",
+      "resource": {
+        "forecast_exit": 0,
+        "wall_seconds": 1.244981881000001,
+        "forecast_child_peak_rss_kib": 199184
+      },
+      "hashes": {
+        "forecast_rationale.md": "a0ac41fd3fec6ef78c3bd1fb5c679429125add2004f608f1f69a8fdd47c357d1",
+        "forecast_meta.json": "8ffa4b4800bfe76abbae241ea2a16de6110c9ab9aa4063a58f505a218003f8eb",
+        "forecast.parquet": "eb36814c1df66ee77fec13b6d28fc32c70ce3041930e2db757fd33fed2fea258"
+      },
+      "same_as_main_batch": false,
+      "newly_executed": true
+    }
+  ],
+  "paired_same": true,
+  "same_as_main_batch": false,
+  "root_cause": "UNDER_INVESTIGATION",
+  "production_changed": false
+}
