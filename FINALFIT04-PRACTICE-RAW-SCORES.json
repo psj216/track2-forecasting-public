@@ -1,0 +1,2276 @@
+{
+  "executive_summary": "OFFICIAL_RAW_PRACTICE_SCORE, EXPOSED_PRACTICE_DIAGNOSTIC. No cross-unit raw mean.",
+  "official_scores": [
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F1-curve-ust1y-001-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.008074996821248851,
+      "joint_variogram": 0.023996294599714935,
+      "tail_penalty": 0.001493246791993736,
+      "tail_metric": "pinball",
+      "composite_score": 0.011535036148937654,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F1-curve-ust1y-001-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.008074996821248851,
+      "joint_variogram": 0.023996294599714935,
+      "tail_penalty": 0.001493246791993736,
+      "tail_metric": "pinball",
+      "composite_score": 0.011535036148937654,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F1-curve-ust3m-002-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.005959308605836671,
+      "joint_variogram": 0.011174419401294036,
+      "tail_penalty": 0.0007912158550268317,
+      "tail_metric": "pinball",
+      "composite_score": 0.006490223294311913,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F1-curve-ust3m-002-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.005959308605836671,
+      "joint_variogram": 0.011174419401294036,
+      "tail_penalty": 0.0007912158550268317,
+      "tail_metric": "pinball",
+      "composite_score": 0.006490223294311913,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "usd_per_eur",
+      "card_id": "t2-F1-fx-eur-020-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.007575170040561227,
+      "joint_variogram": 0.004463151587380461,
+      "tail_penalty": 0.0008563107836028772,
+      "tail_metric": "pinball",
+      "composite_score": 0.005297792653215328,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "usd_per_eur",
+      "card_id": "t2-F1-fx-eur-020-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.007575170040561227,
+      "joint_variogram": 0.004463151587380461,
+      "tail_penalty": 0.0008563107836028772,
+      "tail_metric": "pinball",
+      "composite_score": 0.005297792653215328,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "INR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "inr_per_usd",
+      "card_id": "t2-F1-fx-inr-010-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.17330210156154185,
+      "joint_variogram": 0.11972643080102906,
+      "tail_penalty": 0.016652930802669164,
+      "tail_metric": "pinball",
+      "composite_score": 0.12589956618161346,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "INR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "inr_per_usd",
+      "card_id": "t2-F1-fx-inr-010-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.17330210156154185,
+      "joint_variogram": 0.11972643080102906,
+      "tail_penalty": 0.016652930802669164,
+      "tail_metric": "pinball",
+      "composite_score": 0.12589956618161346,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "krw_per_usd",
+      "card_id": "t2-F1-fx-krw-011-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 4.032576897893591,
+      "joint_variogram": 1.654911506859815,
+      "tail_penalty": 0.5603753550108,
+      "tail_metric": "pinball",
+      "composite_score": 2.6248369720069,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "krw_per_usd",
+      "card_id": "t2-F1-fx-krw-011-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 4.032576897893591,
+      "joint_variogram": 1.654911506859815,
+      "tail_penalty": 0.5603753550108,
+      "tail_metric": "pinball",
+      "composite_score": 2.6248369720069,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "candidate": "original",
+      "family": "T2-F1",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "units": "zar_per_usd",
+      "card_id": "t2-F1-fx-zar-009-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.10631112672380741,
+      "joint_variogram": 0.002748946934234302,
+      "tail_penalty": 0.0066527464665572,
+      "tail_metric": "pinball",
+      "composite_score": 0.05531079673548543,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "units": "zar_per_usd",
+      "card_id": "t2-F1-fx-zar-009-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.10631112672380741,
+      "joint_variogram": 0.002748946934234302,
+      "tail_penalty": 0.0066527464665572,
+      "tail_metric": "pinball",
+      "composite_score": 0.05531079673548543,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F2-curve-ust1y-003-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.007452234965956065,
+      "joint_variogram": 0.00042846127008597706,
+      "tail_penalty": 0.002476603018812564,
+      "tail_metric": "pinball",
+      "composite_score": 0.004349976467766339,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F2-curve-ust1y-003-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.007452234965956065,
+      "joint_variogram": 0.00042846127008597706,
+      "tail_penalty": 0.002476603018812564,
+      "tail_metric": "pinball",
+      "composite_score": 0.004349976467766339,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F2-curve-ust6m-004-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.06275608108937962,
+      "joint_variogram": 0.00801142583914544,
+      "tail_penalty": 0.005905408537437079,
+      "tail_metric": "pinball",
+      "composite_score": 0.03496255000392086,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F2-curve-ust6m-004-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.06275608108937962,
+      "joint_variogram": 0.00801142583914544,
+      "tail_penalty": 0.005905408537437079,
+      "tail_metric": "pinball",
+      "composite_score": 0.03496255000392086,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "brl_per_usd",
+      "card_id": "t2-F2-fx-brl-012-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.03506146243538546,
+      "joint_variogram": 0.004757555403582522,
+      "tail_penalty": 0.003020634484687674,
+      "tail_metric": "pinball",
+      "composite_score": 0.01956212473570502,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "brl_per_usd",
+      "card_id": "t2-F2-fx-brl-012-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.03506146243538546,
+      "joint_variogram": 0.004757555403582522,
+      "tail_penalty": 0.003020634484687674,
+      "tail_metric": "pinball",
+      "composite_score": 0.01956212473570502,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "units": "usd_per_eur",
+      "card_id": "t2-F2-fx-eur-021-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.012466934681926348,
+      "joint_variogram": 0.01758335466760008,
+      "tail_penalty": 0.0012218044009334795,
+      "tail_metric": "pinball",
+      "composite_score": 0.011752834621429892,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "units": "usd_per_eur",
+      "card_id": "t2-F2-fx-eur-021-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.012466934681926348,
+      "joint_variogram": 0.01758335466760008,
+      "tail_penalty": 0.0012218044009334795,
+      "tail_metric": "pinball",
+      "composite_score": 0.011752834621429892,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "units": "krw_per_usd",
+      "card_id": "t2-F2-fx-krw-015-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 3.301358703123343,
+      "joint_variogram": 1.0754242430563303,
+      "tail_penalty": 0.40498536332560886,
+      "tail_metric": "pinball",
+      "composite_score": 2.0543036971436925,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "units": "krw_per_usd",
+      "card_id": "t2-F2-fx-krw-015-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 3.301358703123343,
+      "joint_variogram": 1.0754242430563303,
+      "tail_penalty": 0.40498536332560886,
+      "tail_metric": "pinball",
+      "composite_score": 2.0543036971436925,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "mxn_per_usd",
+      "card_id": "t2-F2-fx-mxn-013-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.049828252368488576,
+      "joint_variogram": 0.021873054809800507,
+      "tail_penalty": 0.009785487037963555,
+      "tail_metric": "pinball",
+      "composite_score": 0.03343314003477715,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "mxn_per_usd",
+      "card_id": "t2-F2-fx-mxn-013-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.049828252368488576,
+      "joint_variogram": 0.021873054809800507,
+      "tail_penalty": 0.009785487037963555,
+      "tail_metric": "pinball",
+      "composite_score": 0.03343314003477715,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "candidate": "original",
+      "family": "T2-F2",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "zar_per_usd",
+      "card_id": "t2-F2-fx-zar-014-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.16314914559824636,
+      "joint_variogram": 0.06024097799820177,
+      "tail_penalty": 0.014482486827791113,
+      "tail_metric": "pinball",
+      "composite_score": 0.10254336356414193,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "zar_per_usd",
+      "card_id": "t2-F2-fx-zar-014-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.16314914559824636,
+      "joint_variogram": 0.06024097799820177,
+      "tail_penalty": 0.014482486827791113,
+      "tail_metric": "pinball",
+      "composite_score": 0.10254336356414193,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "candidate": "original",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.009612046241724298,
+      "joint_variogram": 0.005000073415752516,
+      "tail_penalty": 0.0011526369345213376,
+      "tail_metric": "pinball",
+      "composite_score": 0.006536572532492171,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.009612046241724298,
+      "joint_variogram": 0.005000073415752516,
+      "tail_penalty": 0.0011526369345213376,
+      "tail_metric": "pinball",
+      "composite_score": 0.006536572532492171,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "candidate": "original",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y",
+        "UST_2Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.026525917965976205,
+      "joint_variogram": 0.02301110527535525,
+      "tail_penalty": 0.0024097651468874457,
+      "tail_metric": "pinball",
+      "composite_score": 0.02064824359497217,
+      "n_draws": 1000,
+      "cell_count": 4
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y",
+        "UST_2Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.026525917965976205,
+      "joint_variogram": 0.02301110527535525,
+      "tail_penalty": 0.0024097651468874457,
+      "tail_metric": "pinball",
+      "composite_score": 0.02064824359497217,
+      "n_draws": 1000,
+      "cell_count": 4
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "candidate": "original",
+      "family": "T2-F3",
+      "assets": [
+        "EUR",
+        "JPY",
+        "CHF"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "card_id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.252801648012224,
+      "joint_variogram": 0.016072516759364327,
+      "tail_penalty": 0.020210092727124318,
+      "tail_metric": "pinball",
+      "composite_score": 0.13526459757934614,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "assets": [
+        "EUR",
+        "JPY",
+        "CHF"
+      ],
+      "horizons": [
+        3
+      ],
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "card_id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.252801648012224,
+      "joint_variogram": 0.016072516759364327,
+      "tail_penalty": 0.020210092727124318,
+      "tail_metric": "pinball",
+      "composite_score": 0.13526459757934614,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "candidate": "original",
+      "family": "T2-F3",
+      "assets": [
+        "KRW",
+        "INR",
+        "ZAR"
+      ],
+      "horizons": [
+        4
+      ],
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "card_id": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.7641036467855625,
+      "joint_variogram": 0.0042922084453313495,
+      "tail_penalty": 0.20085805935545853,
+      "tail_metric": "pinball",
+      "composite_score": 0.42351109779747237,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "assets": [
+        "KRW",
+        "INR",
+        "ZAR"
+      ],
+      "horizons": [
+        4
+      ],
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "card_id": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.7641036467855625,
+      "joint_variogram": 0.0042922084453313495,
+      "tail_penalty": 0.20085805935545853,
+      "tail_metric": "pinball",
+      "composite_score": 0.42351109779747237,
+      "n_draws": 1000,
+      "cell_count": 3
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "candidate": "original",
+      "family": "T2-F3",
+      "assets": [
+        "MXN",
+        "BRL",
+        "ZAR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "card_id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.058763964193475675,
+      "joint_variogram": 0.04658924625835169,
+      "tail_penalty": 0.010139960630194107,
+      "tail_metric": "pinball",
+      "composite_score": 0.04538674810028217,
+      "n_draws": 1000,
+      "cell_count": 6
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "assets": [
+        "MXN",
+        "BRL",
+        "ZAR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "card_id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.058763964193475675,
+      "joint_variogram": 0.04658924625835169,
+      "tail_penalty": 0.010139960630194107,
+      "tail_metric": "pinball",
+      "composite_score": 0.04538674810028217,
+      "n_draws": 1000,
+      "cell_count": 6
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "candidate": "original",
+      "family": "T2-F4",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F4-curve-ust3m-008-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.0176088460844613,
+      "joint_variogram": 0.002261857424996939,
+      "tail_penalty": 0.001877178689182346,
+      "tail_metric": "pinball",
+      "composite_score": 0.009858416007566201,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F4-curve-ust3m-008-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.0176088460844613,
+      "joint_variogram": 0.002261857424996939,
+      "tail_penalty": 0.001877178689182346,
+      "tail_metric": "pinball",
+      "composite_score": 0.009858416007566201,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "candidate": "original",
+      "family": "T2-F4",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F4-curve-ust6m-007-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.004792778164108624,
+      "joint_variogram": 0.0002445983820457239,
+      "tail_penalty": 0.0015564679910198655,
+      "tail_metric": "pinball",
+      "composite_score": 0.0027810621948720026,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "units": "percent_per_annum",
+      "card_id": "t2-F4-curve-ust6m-007-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.004792778164108624,
+      "joint_variogram": 0.0002445983820457239,
+      "tail_penalty": 0.0015564679910198655,
+      "tail_metric": "pinball",
+      "composite_score": 0.0027810621948720026,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "candidate": "original",
+      "family": "T2-F4",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "brl_per_usd",
+      "card_id": "t2-F4-fx-brl-019-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.10984073346630964,
+      "joint_variogram": 0.09098660872573529,
+      "tail_penalty": 0.024129351126726834,
+      "tail_metric": "pinball",
+      "composite_score": 0.08704221957622077,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "units": "brl_per_usd",
+      "card_id": "t2-F4-fx-brl-019-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.10984073346630964,
+      "joint_variogram": 0.09098660872573529,
+      "tail_penalty": 0.024129351126726834,
+      "tail_metric": "pinball",
+      "composite_score": 0.08704221957622077,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "candidate": "original",
+      "family": "T2-F4",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "mxn_per_usd",
+      "card_id": "t2-F4-fx-mxn-018-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.06562338642669649,
+      "joint_variogram": 0.03325363732334218,
+      "tail_penalty": 0.009139158099462343,
+      "tail_metric": "pinball",
+      "composite_score": 0.04461561603024337,
+      "n_draws": 1000,
+      "cell_count": 2
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "units": "mxn_per_usd",
+      "card_id": "t2-F4-fx-mxn-018-ps1",
+      "admissible": true,
+      "gates": {
+        "g0_integrity": "pass",
+        "g1_schema": "pass",
+        "g2_cutoff_resource": "pass",
+        "g3_domain_semantics": "pass"
+      },
+      "failure_labels": [],
+      "normalization_mode": "raw_unrankable",
+      "rankable": false,
+      "marginal_crps": 0.06562338642669649,
+      "joint_variogram": 0.03325363732334218,
+      "tail_penalty": 0.009139158099462343,
+      "tail_metric": "pinball",
+      "composite_score": 0.04461561603024337,
+      "n_draws": 1000,
+      "cell_count": 2
+    }
+  ],
+  "slices": [
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "kind": "asset",
+      "key": "UST_1Y",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.008074996821248836,
+      "joint_variogram": 0.02399629459971488,
+      "tail_pinball": 0.001493246791993736,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.007333719168522983,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0014205525669388967,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.008816274473974688,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.001565941017048575,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "kind": "asset",
+      "key": "UST_3M",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.0059593086058366395,
+      "joint_variogram": 0.011174419401293996,
+      "tail_pinball": 0.0007912158550268317,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.006028446276329376,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.000764430194736751,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.005890170935343903,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0008180015153169122,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "kind": "asset",
+      "key": "EUR",
+      "cells": 2,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.007575170040561537,
+      "joint_variogram": 0.004463151587380472,
+      "tail_pinball": 0.0008563107836028772,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.0020549500922359635,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0006856824601814646,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.01309538998888711,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0010269391070242898,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "kind": "asset",
+      "key": "INR",
+      "cells": 2,
+      "units": "inr_per_usd",
+      "marginal_crps": 0.17330210156153708,
+      "joint_variogram": 0.11972643080102857,
+      "tail_pinball": 0.016652930802669164,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "inr_per_usd",
+      "marginal_crps": 0.04684819657977224,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.012550171540988949,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "inr_per_usd",
+      "marginal_crps": 0.2997560065433019,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.02075569006434938,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "kind": "asset",
+      "key": "KRW",
+      "cells": 2,
+      "units": "krw_per_usd",
+      "marginal_crps": 4.032576897893719,
+      "joint_variogram": 1.6549115068597955,
+      "tail_pinball": 0.5603753550108,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "krw_per_usd",
+      "marginal_crps": 2.532137825378501,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.37700660450576107,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "krw_per_usd",
+      "marginal_crps": 5.533015970408938,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.7437441055158389,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "kind": "asset",
+      "key": "ZAR",
+      "cells": 2,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.10631112672380943,
+      "joint_variogram": 0.002748946934234302,
+      "tail_pinball": 0.0066527464665572,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.07490233182370581,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.005423814502597306,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 1,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.13771992162391306,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.007881678430517096,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "kind": "asset",
+      "key": "UST_1Y",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.007452234965956057,
+      "joint_variogram": 0.0004284612700860396,
+      "tail_pinball": 0.002476603018812564,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.006378215874252635,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.002191195314325624,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.008526254057659478,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.002762010723299504,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "kind": "asset",
+      "key": "UST_6M",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.06275608108937858,
+      "joint_variogram": 0.00801142583914525,
+      "tail_pinball": 0.005905408537437079,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.058036660156922715,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.006926650866945532,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.06747550202183446,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.004884166207928625,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "kind": "asset",
+      "key": "BRL",
+      "cells": 2,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.03506146243538624,
+      "joint_variogram": 0.004757555403582537,
+      "tail_pinball": 0.003020634484687674,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.04855857952507925,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0028355178251603832,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.021564345345693244,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0032057511442149644,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "kind": "asset",
+      "key": "EUR",
+      "cells": 2,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.012466934681926254,
+      "joint_variogram": 0.01758335466760009,
+      "tail_pinball": 0.0012218044009334795,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 1,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.0027630847300764965,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0006490022127028285,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "usd_per_eur",
+      "marginal_crps": 0.02217078463377601,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.00179460658916413,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "kind": "asset",
+      "key": "KRW",
+      "cells": 2,
+      "units": "krw_per_usd",
+      "marginal_crps": 3.301358703123465,
+      "joint_variogram": 1.0754242430563354,
+      "tail_pinball": 0.40498536332560886,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "krw_per_usd",
+      "marginal_crps": 2.525325831371614,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.29315517812179015,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "krw_per_usd",
+      "marginal_crps": 4.077391574875316,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.5168155485294276,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "kind": "asset",
+      "key": "MXN",
+      "cells": 2,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.049828252368486294,
+      "joint_variogram": 0.021873054809800577,
+      "tail_pinball": 0.009785487037963555,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.04927060669630316,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.005949539494018012,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.050385898040669425,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.013621434581909097,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "kind": "asset",
+      "key": "ZAR",
+      "cells": 2,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.1631491455982476,
+      "joint_variogram": 0.060240977998202466,
+      "tail_pinball": 0.014482486827791113,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.06187492993235969,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.005968836593543784,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "zar_per_usd",
+      "marginal_crps": 0.2644233612641355,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.02299613706203844,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "kind": "asset",
+      "key": "UST_3M",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.0028144986624098305,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0010796752185898326,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "kind": "asset",
+      "key": "UST_6M",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.005755170097388733,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0010537845930278682,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "kind": "asset",
+      "key": "UST_1Y",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.020266469965374567,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0013244509919463114,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 3,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.009612046241724377,
+      "joint_variogram": 0.005000073415752844,
+      "tail_pinball": 0.0011526369345213376,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "kind": "asset",
+      "key": "UST_3M",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.006004113052174017,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0016936808678908203,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "kind": "asset",
+      "key": "UST_6M",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.014442986847193452,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0015546519156928362,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "kind": "asset",
+      "key": "UST_1Y",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.0349344113342313,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.002376280536088134,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "kind": "asset",
+      "key": "UST_2Y",
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.0507221606303069,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.004014447267877991,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 4,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.02652591796597642,
+      "joint_variogram": 0.023011105275354382,
+      "tail_pinball": 0.0024097651468874457,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "kind": "asset",
+      "key": "EUR",
+      "cells": 1,
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "marginal_crps": 0.008254825202789903,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0006711457106940875,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "kind": "asset",
+      "key": "JPY",
+      "cells": 1,
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "marginal_crps": 0.7435392278131377,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.059348104672319914,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "kind": "asset",
+      "key": "CHF",
+      "cells": 1,
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "marginal_crps": 0.006610891020756248,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0006110277983589598,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 3,
+      "units": "usd_per_eur; jpy_per_usd; chf_per_usd",
+      "marginal_crps": 0.252801648012228,
+      "joint_variogram": 0.01607251675936558,
+      "tail_pinball": 0.020210092727124318,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "kind": "asset",
+      "key": "KRW",
+      "cells": 1,
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "marginal_crps": 1.9328030454205232,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.5365944266625248,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "kind": "asset",
+      "key": "INR",
+      "cells": 1,
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "marginal_crps": 0.2793812762781231,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.05731721907811618,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "kind": "asset",
+      "key": "ZAR",
+      "cells": 1,
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "marginal_crps": 0.08012661865791285,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0086625323257347,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 3,
+      "units": "krw_per_usd; inr_per_usd; zar_per_usd",
+      "marginal_crps": 0.7641036467855197,
+      "joint_variogram": 0.004292208445327904,
+      "tail_pinball": 0.20085805935545853,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "kind": "asset",
+      "key": "MXN",
+      "cells": 2,
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "marginal_crps": 0.09294772279027123,
+      "joint_variogram": 0.019986815341645908,
+      "tail_pinball": 0.01645874218361597,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "kind": "asset",
+      "key": "BRL",
+      "cells": 2,
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "marginal_crps": 0.017183117932335484,
+      "joint_variogram": 6.795192685316078e-05,
+      "tail_pinball": 0.0022666147802412077,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "kind": "asset",
+      "key": "ZAR",
+      "cells": 2,
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "marginal_crps": 0.0661610518578189,
+      "joint_variogram": 0.016803260205203497,
+      "tail_pinball": 0.011694524926725139,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 3,
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "marginal_crps": 0.06371852351864721,
+      "joint_variogram": 0.0018494122590054104,
+      "tail_pinball": 0.008028874195835095,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 3,
+      "units": "mxn_per_usd; brl_per_usd; zar_per_usd",
+      "marginal_crps": 0.05380940486830321,
+      "joint_variogram": 0.0007831508542309242,
+      "tail_pinball": 0.012251047064553117,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "kind": "asset",
+      "key": "UST_3M",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.01760884608446114,
+      "joint_variogram": 0.0022618574249969278,
+      "tail_pinball": 0.001877178689182346,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.007286270914273351,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0013519374209471076,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.02793142125464893,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0024024199574175847,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "kind": "asset",
+      "key": "UST_6M",
+      "cells": 2,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.004792778164108708,
+      "joint_variogram": 0.00024459838204569933,
+      "tail_pinball": 0.0015564679910198655,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.005372242947193158,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0012300911065297804,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "kind": "horizon",
+      "key": 2,
+      "cells": 1,
+      "units": "percent_per_annum",
+      "marginal_crps": 0.004213313381024257,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0018828448755099506,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "kind": "asset",
+      "key": "BRL",
+      "cells": 2,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.10984073346630918,
+      "joint_variogram": 0.0909866087257353,
+      "tail_pinball": 0.024129351126726834,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "kind": "horizon",
+      "key": 3,
+      "cells": 1,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.0508653316977621,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0030938534878998543,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "brl_per_usd",
+      "marginal_crps": 0.16881613523485628,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.04516484876555382,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "kind": "asset",
+      "key": "MXN",
+      "cells": 2,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.06562338642669592,
+      "joint_variogram": 0.033253637323342494,
+      "tail_pinball": 0.009139158099462343,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "kind": "horizon",
+      "key": 1,
+      "cells": 1,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.03127204395441938,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.0062867531042419015,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "kind": "horizon",
+      "key": 4,
+      "cells": 1,
+      "units": "mxn_per_usd",
+      "marginal_crps": 0.09997472889897245,
+      "joint_variogram": 0.0,
+      "tail_pinball": 0.011991563094682783,
+      "both_candidates_equal": true,
+      "scope": "Official component functions on a research subset; no normalized score or synthetic single-cell official card."
+    }
+  ],
+  "normalization": "NOT_REPRODUCED_NO_AUTHENTICATED_SCALE_BUNDLE",
+  "m0_procedure_reviewed": true,
+  "m0_generator_not_run": true,
+  "overall_normalized_score": null,
+  "cross_unit_raw_average": null,
+  "score_deltas": {
+    "marginal_crps": 0,
+    "joint_variogram": 0,
+    "tail_pinball": 0,
+    "raw_composite": 0
+  },
+  "all_22_scored_each": true,
+  "unscored_cards": 0,
+  "single_cell_cards": 0,
+  "multi_cell_cards": 22
+}

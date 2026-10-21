@@ -1,0 +1,122 @@
+{
+  "executive_summary": "Authenticated GitHub Docker receipt artifacts; archives retain full stdout, stderr, inspect and forecasts. No answers copied into this audit repository.",
+  "run_id": 39552405145,
+  "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+  "artifacts": [
+    {
+      "id": 12324610909,
+      "name": "ff04-batch-3-39552405145",
+      "size_in_bytes": 206121,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324610909",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324610909/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:58:01Z",
+      "expires_at": "2026-11-20T05:58:00Z",
+      "updated_at": "2026-10-21T05:58:01Z",
+      "digest": "sha256:9ea7db033d822b5535e41d54c60606dd529621c36ce7a27def9925672e2a7c21",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    },
+    {
+      "id": 12324366556,
+      "name": "ff04-batch-5-39552405145",
+      "size_in_bytes": 177014,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324366556",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324366556/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:57:49Z",
+      "expires_at": "2026-11-20T05:57:48Z",
+      "updated_at": "2026-10-21T05:57:49Z",
+      "digest": "sha256:70cbf8eaf93902c65c261cc04b59f8583f97818e242829bf42edc6a855cd028c",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    },
+    {
+      "id": 12324197544,
+      "name": "ff04-batch-1-39552405145",
+      "size_in_bytes": 158446,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324197544",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12324197544/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:57:54Z",
+      "expires_at": "2026-11-20T05:57:54Z",
+      "updated_at": "2026-10-21T05:57:54Z",
+      "digest": "sha256:5502f85757f44cb562a29a8f7ee7adb6ab232aaeb926eb5a5ddf2bca907209be",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    },
+    {
+      "id": 12323963868,
+      "name": "ff04-batch-0-39552405145",
+      "size_in_bytes": 163186,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323963868",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323963868/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:57:57Z",
+      "expires_at": "2026-11-20T05:57:57Z",
+      "updated_at": "2026-10-21T05:57:57Z",
+      "digest": "sha256:f77d385b051479e49b2f2f41645779ae76c5b8508828c90c8a2e28bc8a68635a",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    },
+    {
+      "id": 12323864188,
+      "name": "ff04-batch-4-39552405145",
+      "size_in_bytes": 162081,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323864188",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323864188/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:57:36Z",
+      "expires_at": "2026-11-20T05:57:35Z",
+      "updated_at": "2026-10-21T05:57:36Z",
+      "digest": "sha256:375249344a581a0261b01b8c7ab03d9966ec86fb4d4f1afb47c6457e82390888",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    },
+    {
+      "id": 12323699263,
+      "name": "ff04-batch-2-39552405145",
+      "size_in_bytes": 198017,
+      "url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323699263",
+      "archive_download_url": "https://api.github.com/repos/psj216/track2-forecasting-public/actions/artifacts/12323699263/zip",
+      "expired": false,
+      "created_at": "2026-10-21T05:57:40Z",
+      "expires_at": "2026-11-20T05:57:39Z",
+      "updated_at": "2026-10-21T05:57:40Z",
+      "digest": "sha256:add41e95125089dd253ebd43b762de8bd6f0cbf4fdbba6ea634d4c384808e6bd",
+      "workflow_run": {
+        "id": 39552405145,
+        "repository_id": 1360311561,
+        "head_repository_id": 1360311561,
+        "head_branch": "track2/final-fit-04-official-practice-replay",
+        "head_sha": "e774e9bdea9a689995614a063efddce894e7b054"
+      }
+    }
+  ],
+  "zip_sha256_verified": true
+}

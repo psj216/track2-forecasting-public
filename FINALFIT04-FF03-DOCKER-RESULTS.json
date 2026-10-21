@@ -1,0 +1,3027 @@
+{
+  "executive_summary": "22 actual forecast processes and official gate checks; no answer mounts.",
+  "executed": 22,
+  "passed": 22,
+  "failed": 0,
+  "blocked": 0,
+  "run_id": 39552405145,
+  "cards": [
+    {
+      "card": "t2-F1-curve-ust1y-001-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-0-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-curve-ust1y-001-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-curve-ust1y-001-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2019-01-07",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-curve-ust1y-001-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.162527720000014,
+      "output_bytes": 15105,
+      "hashes": {
+        "forecast_rationale.md": "3551b95a4c48adb65ba6f637398f8c8206a579de45b8a98b72f3c6810bdcdb24",
+        "forecast_meta.json": "40eab607e63f6b8e53b9921dc124faf52b62ba91d8fbc9aed254f249333bdeca",
+        "forecast.parquet": "33efc2668cecfc4cfd7a1645878ea60b0fdd487f778017ee4ebea50d97fd585e"
+      },
+      "numeric_sha256": "53d76a425ac6896790db2912a3c62ad1c849b8c2499b4abb1a2633dbe0be0c34",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-curve-ust1y-001-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-curve-ust1y-001-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:00.070463296Z",
+        "FinishedAt": "2026-10-21T05:57:02.167166387Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-curve-ust1y-001-ps1",
+        "asof": "2019-01-07",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_1Y"
+        ],
+        "horizons": [
+          2,
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_same_series_pair",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 6
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 6
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F1-curve-ust3m-002-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-1-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-curve-ust3m-002-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-curve-ust3m-002-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2021-06-07",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-curve-ust3m-002-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.0881865039999923,
+      "output_bytes": 15648,
+      "hashes": {
+        "forecast_rationale.md": "8d34639c1d9fb77047c441988e15168f8f07ef9356386ce73af477a0335d2367",
+        "forecast_meta.json": "c8948cd86aef9c5aa9c22314e52890554af19dbef6efe9cb6da92c348371cba7",
+        "forecast.parquet": "cb976b10434edcabe94866261db4ad4fdb4d0630e5702507fcaa05d9c687c9e7"
+      },
+      "numeric_sha256": "8a3904c037a34def10e13ac8f2f6011b3b240bdaf8ac328a88e9d7e3250cd84f",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-curve-ust3m-002-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-curve-ust3m-002-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:56:59.843432282Z",
+        "FinishedAt": "2026-10-21T05:57:01.867892793Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-curve-ust3m-002-ps1",
+        "asof": "2021-06-07",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_3M"
+        ],
+        "horizons": [
+          2,
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_same_series_pair",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 6
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 6
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F1-fx-eur-020-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-2-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-eur-020-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-fx-eur-020-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2009-08-17",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-fx-eur-020-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.2904599230000002,
+      "output_bytes": 20512,
+      "hashes": {
+        "forecast_rationale.md": "1205ef951e6a78143bf11a20f2b55343a7cd7f574429fb9c00cc01d098070a16",
+        "forecast.parquet": "fd4aec95a326f4ec89fdb883a249b383e35364ec5c178d9d232027a9b481ef3b",
+        "forecast_meta.json": "b9842817e88e6c9b8cd3d6633a897b33b74b09d22fdf8302fb65df054b9037a2"
+      },
+      "numeric_sha256": "641b2a3a1877649212c08a22421df6e7e30799786f813179f774c6d49286ffec",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-eur-020-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-fx-eur-020-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:04.561437856Z",
+        "FinishedAt": "2026-10-21T05:57:05.804168747Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-fx-eur-020-ps1",
+        "asof": "2009-08-17",
+        "representation": "samples",
+        "asset_ids": [
+          "EUR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_same_series_pair",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 7
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_same_series_pair",
+            "documents": 7
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F1-fx-inr-010-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-3-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-inr-010-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-fx-inr-010-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2015-07-20",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-fx-inr-010-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.0465931909999995,
+      "output_bytes": 21193,
+      "hashes": {
+        "forecast_rationale.md": "e6f6ef5a2380c93427b2e271341078711cb6174b79ce7ec02991b8dab82419cd",
+        "forecast.parquet": "b837599f2ce5c8dc3030a368b2f1dd68c302c9f98e48e5dc1c52bb6c0082e97a",
+        "forecast_meta.json": "a15577a02771ec6a362d7baf0f52b3eb07e51d64d959c02c67433442028f1c6b"
+      },
+      "numeric_sha256": "866ce3fa7f6e0fb90d0d1225799cec5d0fe821c48ee5168c2ce69943ab56e2f8",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-inr-010-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-fx-inr-010-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:05.266966093Z",
+        "FinishedAt": "2026-10-21T05:57:07.245881313Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-fx-inr-010-ps1",
+        "asof": "2015-07-20",
+        "representation": "samples",
+        "asset_ids": [
+          "INR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_comparable_exposure",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F1-fx-krw-011-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-4-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-krw-011-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-fx-krw-011-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2017-03-27",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-fx-krw-011-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.5403093849999934,
+      "output_bytes": 20605,
+      "hashes": {
+        "forecast_rationale.md": "5bfce92d3380b9de413e90be75f7913aafbd09ec01b376ebea713a8e606341e5",
+        "forecast.parquet": "75fa2afc10b054c690981ab0b444e4a36057f5cad5ec4e676046393150deb380",
+        "forecast_meta.json": "a2edf66f994f9194de952d22032d7e30158a8bbcdb9fa3c4ce6d499c2f8e30ad"
+      },
+      "numeric_sha256": "fc27dc869f0b3dc3885d2503a6d0cca51e7dc739cfa6d087e90ec1df839645d3",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-krw-011-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-fx-krw-011-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:05.551353252Z",
+        "FinishedAt": "2026-10-21T05:57:07.039218096Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-fx-krw-011-ps1",
+        "asof": "2017-03-27",
+        "representation": "samples",
+        "asset_ids": [
+          "KRW"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_comparable_exposure",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F1-fx-zar-009-ps1",
+      "candidate": "ff03",
+      "family": "T2-F1",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-5-0-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-zar-009-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F1-fx-zar-009-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2011-12-19",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F1-fx-zar-009-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.863960844999994,
+      "output_bytes": 19603,
+      "hashes": {
+        "forecast_rationale.md": "51d0b9fa02eff8e241a9832fb4f2e208f1bab42c5a032e8934542eb89fd95f85",
+        "forecast.parquet": "05d0184d218c790785bda65b01ef57804e0e729916d4477f0a904750a2e7bc18",
+        "forecast_meta.json": "ff3bbada399e99f506bf1c23c4f5c1341c476e2c954e0de0aa1dd0e60d3f6c62"
+      },
+      "numeric_sha256": "6f6ccbb0c70526ffebab7651936f57a4ad8a098a222a91811f7472b2b07225ef",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F1-fx-zar-009-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F1-fx-zar-009-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:13.189569077Z",
+        "FinishedAt": "2026-10-21T05:57:14.990609353Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F1-fx-zar-009-ps1",
+        "asof": "2011-12-19",
+        "representation": "samples",
+        "asset_ids": [
+          "ZAR"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_comparable_exposure",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_comparable_exposure"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-curve-ust1y-003-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-0-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-curve-ust1y-003-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-curve-ust1y-003-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2011-04-25",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-curve-ust1y-003-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.2136405100000047,
+      "output_bytes": 16814,
+      "hashes": {
+        "forecast_rationale.md": "316e7649f33c5c3a903cdc030287d2d2c9f902c6eb4786482838056e998e782c",
+        "forecast_meta.json": "acf0792782066173852473358c3bb4c8729a49b5e37188f64c7a93e7ed992dff",
+        "forecast.parquet": "734f181f989aef93cc94c72f3f63441366b95f12bd738aaef1df0c250faeb3df"
+      },
+      "numeric_sha256": "de557c9293818f44c4bf4d75c80a9e3458b801b8f208fe3d09366a4af71da369",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-curve-ust1y-003-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-curve-ust1y-003-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:10.688374358Z",
+        "FinishedAt": "2026-10-21T05:57:12.835592872Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-curve-ust1y-003-ps1",
+        "asof": "2011-04-25",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_1Y"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-curve-ust6m-004-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-1-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-curve-ust6m-004-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-curve-ust6m-004-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2022-12-12",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-curve-ust6m-004-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.100509623999983,
+      "output_bytes": 15687,
+      "hashes": {
+        "forecast_rationale.md": "a5a05b6104c771224584d3347ddcaaa8647181064ba38b7d6c4a1514374b8ea0",
+        "forecast_meta.json": "d070792c9e8914617180a4133e2b8536e4b3d9f2e81887359693c6f06b62e54b",
+        "forecast.parquet": "5685fcb08d692538688d164ed562d74ec47bd2b4124303cd72f266ca9d64dda2"
+      },
+      "numeric_sha256": "0bb8421799f38aee80857bdd4138c2a6d8b0282aab269c7e76fc470c3cc23cd5",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-curve-ust6m-004-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-curve-ust6m-004-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:10.066869214Z",
+        "FinishedAt": "2026-10-21T05:57:12.106425767Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-curve-ust6m-004-ps1",
+        "asof": "2022-12-12",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_6M"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-fx-brl-012-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-2-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-brl-012-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-fx-brl-012-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2018-07-30",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-fx-brl-012-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.2780211620000017,
+      "output_bytes": 21300,
+      "hashes": {
+        "forecast_rationale.md": "ff653161337ebe842d67b92cb4a996fdf54f49a87a8511baa1d9682176e1c1c4",
+        "forecast.parquet": "ae429c73b54a6b89980a8b69d6bd3b6c2ca49dc71a3c8e9529f2ca21b3391e63",
+        "forecast_meta.json": "5d50451dbad6d1e47c53ad5458ee065af1f2a5d4369066ed2e2e55cd9cba95b5"
+      },
+      "numeric_sha256": "3a3d238212a3e48ecdd5a6fb54ec645e8a7ad2b20b657dd68c5408876509ade4",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-brl-012-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-fx-brl-012-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:11.011636796Z",
+        "FinishedAt": "2026-10-21T05:57:12.244411313Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-fx-brl-012-ps1",
+        "asof": "2018-07-30",
+        "representation": "samples",
+        "asset_ids": [
+          "BRL"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-fx-eur-021-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-3-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-eur-021-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-fx-eur-021-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2015-10-19",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-fx-eur-021-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.13767982600001,
+      "output_bytes": 20329,
+      "hashes": {
+        "forecast_rationale.md": "0f26aad1c9410493dbd22cfb4ab9b9887eed92984776250e08b7e6ce8641f980",
+        "forecast.parquet": "9ff2c43674eb1c288464814652f88505472194bc98c269c285c6721b8d3bf668",
+        "forecast_meta.json": "be53eb0125197638dda01c061ab20d35dc9744c28ac23ac4628ddef4331d10ee"
+      },
+      "numeric_sha256": "802a3b642d08acf652354a8a4f5ff74d5b34958d2a33e539d9e8972e4cb97b52",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-eur-021-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-fx-eur-021-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:15.611853731Z",
+        "FinishedAt": "2026-10-21T05:57:17.682010011Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-fx-eur-021-ps1",
+        "asof": "2015-10-19",
+        "representation": "samples",
+        "asset_ids": [
+          "EUR"
+        ],
+        "horizons": [
+          2,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-fx-krw-015-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-4-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-krw-015-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-fx-krw-015-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2021-03-15",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-fx-krw-015-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.6816557140000015,
+      "output_bytes": 20983,
+      "hashes": {
+        "forecast_rationale.md": "74838868d4539df4f6842bb8cdf0193d523a9fb46731bc087a62ce0677f84ad9",
+        "forecast.parquet": "930df5a0eb9bab150a612860346c037911ef33dd764052804bba8a98e92d21ba",
+        "forecast_meta.json": "e2d77a2b44ac560d4e42918640752b7e84f75514df15120f0980fb27bd829d08"
+      },
+      "numeric_sha256": "c8efc7af0b9aff16c53a5df72ad355b9921e0340b2136a5292b1412efddb2892",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-krw-015-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-fx-krw-015-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:13.352700631Z",
+        "FinishedAt": "2026-10-21T05:57:14.838402455Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-fx-krw-015-ps1",
+        "asof": "2021-03-15",
+        "representation": "samples",
+        "asset_ids": [
+          "KRW"
+        ],
+        "horizons": [
+          1,
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-fx-mxn-013-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-5-1-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-mxn-013-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-fx-mxn-013-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2019-06-24",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-fx-mxn-013-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.7634539329999939,
+      "output_bytes": 21046,
+      "hashes": {
+        "forecast_rationale.md": "f89401fac945d8e95f5cee0a1edb25bab21d3f7583def4134bc56764d36a134a",
+        "forecast.parquet": "f59c603b4b2fa8dd7f9c8b198a579259e1ca7973787bbc6a84bff2eda604d278",
+        "forecast_meta.json": "713a69673dfece194a2f1aaa59e5e7b18d8de7a845493abb4edd34209306b498"
+      },
+      "numeric_sha256": "692971c33b27404ad7820a84a3aca2478ed75b8e974092904e7aec2979cca158",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-mxn-013-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-fx-mxn-013-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:22.269820777Z",
+        "FinishedAt": "2026-10-21T05:57:23.971212974Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-fx-mxn-013-ps1",
+        "asof": "2019-06-24",
+        "representation": "samples",
+        "asset_ids": [
+          "MXN"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F2-fx-zar-014-ps1",
+      "candidate": "ff03",
+      "family": "T2-F2",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-0-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-zar-014-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F2-fx-zar-014-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2020-01-27",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F2-fx-zar-014-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.165205603000004,
+      "output_bytes": 21157,
+      "hashes": {
+        "forecast_rationale.md": "fad0fbe53408d322261f129f83925754a4bdb85beec537a0fd509e3c68f6fbc6",
+        "forecast_meta.json": "2959ef3670bc7cb35b9433806c49fc175b627d59a099076dc96e5820cdcda2b9",
+        "forecast.parquet": "3014922d35bad2eae111ef0124d43398fb0fcd4aa4d71b737dbaf36291e60fdf"
+      },
+      "numeric_sha256": "7646445f438df8e94a9771b5b04de05308f67c918c06e0ec109044bf6abe4509",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F2-fx-zar-014-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F2-fx-zar-014-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:21.381468002Z",
+        "FinishedAt": "2026-10-21T05:57:23.485925924Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F2-fx-zar-014-ps1",
+        "asof": "2020-01-27",
+        "representation": "samples",
+        "asset_ids": [
+          "ZAR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-1-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-curve-ust3m-ust6m-ust1y-006-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F3-curve-ust3m-ust6m-ust1y-006-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2014-12-15",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.1842890979999936,
+      "output_bytes": 19408,
+      "hashes": {
+        "forecast_rationale.md": "635e76e134dc7af3ddf03f771327ffdf1732fcd23a447d6d9d291296203cae5b",
+        "forecast_meta.json": "41543a8623bcd88c62f58f716c36bbfa52c79dd7eebb7488fa027cbcf799596c",
+        "forecast.parquet": "dc9dfbae57a865093d06fe09fbc4491f325be7f0dbd2ac1ea81acefad6e6265c"
+      },
+      "numeric_sha256": "d619fbe4a288983481eb7581d259bed7c60c74b8c5243abecd0f454c4e0ff453",
+      "grid_cells": 3,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F3-curve-ust3m-ust6m-ust1y-006-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:20.262327517Z",
+        "FinishedAt": "2026-10-21T05:57:22.386149985Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+        "asof": "2014-12-15",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_3M",
+          "UST_6M",
+          "UST_1Y"
+        ],
+        "horizons": [
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "F3-routed dynamic latent-factor transmission v3",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-2-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2010-04-26",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.3345041159999766,
+      "output_bytes": 21786,
+      "hashes": {
+        "forecast_rationale.md": "764627753dc34b8d60c3965288e49e21fab64374f8650c62d5f07998ce813b10",
+        "forecast.parquet": "082ce47971503f2e837f24f41bcc3279af495957f33fc126c0e77a90a71e35be",
+        "forecast_meta.json": "4c5d5d1714a13916f09ba138948f6b1a33a7e6e55ff26c83475de924ad04a2d3"
+      },
+      "numeric_sha256": "cf964610a76863664328aa96b392c6322e95fa9a982169f9ae1ec38dc2fd0e84",
+      "grid_cells": 4,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:17.469403293Z",
+        "FinishedAt": "2026-10-21T05:57:18.756842795Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+        "asof": "2010-04-26",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_3M",
+          "UST_6M",
+          "UST_1Y",
+          "UST_2Y"
+        ],
+        "horizons": [
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "F3-routed dynamic latent-factor transmission v3",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-3-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-eur-jpy-chf-022-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F3-fx-eur-jpy-chf-022-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2010-04-05",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.137707747999997,
+      "output_bytes": 26408,
+      "hashes": {
+        "forecast_rationale.md": "4e0dbd00fb84ffe617f195120d4dabadcca71cbf59b19822dcba13be86894d79",
+        "forecast.parquet": "51def7c487011710dc9e50d898e89b156dd5e3a9453a13334010b0078657ba37",
+        "forecast_meta.json": "6cc5bc35969c0585f0d58011655d742b8583a80e89b70d1498408eefd2b618c5"
+      },
+      "numeric_sha256": "d38fd22410600184c1183a073e036a6d834542fb143cbbcd6e9eeb2f4b9909c9",
+      "grid_cells": 3,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-eur-jpy-chf-022-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F3-fx-eur-jpy-chf-022-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:26.025946866Z",
+        "FinishedAt": "2026-10-21T05:57:28.097022269Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+        "asof": "2010-04-05",
+        "representation": "samples",
+        "asset_ids": [
+          "EUR",
+          "JPY",
+          "CHF"
+        ],
+        "horizons": [
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "F3-routed dynamic latent-factor transmission v3",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-4-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-krw-inr-zar-017-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F3-fx-krw-inr-zar-017-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2014-01-27",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F3-fx-krw-inr-zar-017-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.4852249010000094,
+      "output_bytes": 26420,
+      "hashes": {
+        "forecast_rationale.md": "e6eaff50ef9119f097ac1f6b112d3678e5135eadf7de6029a80962667c28cc41",
+        "forecast.parquet": "2e43271f322f9d6e2f9c80d282b35143e9dd6855a9b224a1ff0843ab2f46fd62",
+        "forecast_meta.json": "b7ad7c00c511ea6f82937308b9331e7f753f63ae3bd63fb4385980b868b63fac"
+      },
+      "numeric_sha256": "c660bd64a8c88a1db8456212ef40cce35495febcce2f8e573538a4fe55239b90",
+      "grid_cells": 3,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-krw-inr-zar-017-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F3-fx-krw-inr-zar-017-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:20.988402153Z",
+        "FinishedAt": "2026-10-21T05:57:22.422454145Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F3-fx-krw-inr-zar-017-ps1",
+        "asof": "2014-01-27",
+        "representation": "samples",
+        "asset_ids": [
+          "KRW",
+          "INR",
+          "ZAR"
+        ],
+        "horizons": [
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "F3-routed dynamic latent-factor transmission v3",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "candidate": "ff03",
+      "family": "T2-F3",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-5-2-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-mxn-brl-zar-016-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F3-fx-mxn-brl-zar-016-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2009-08-10",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.6623374339999941,
+      "output_bytes": 35907,
+      "hashes": {
+        "forecast_rationale.md": "0a153cd59a3b289681417d1ea5877cdfaf7c5cf324db4bbeee8ce42ec72c2380",
+        "forecast.parquet": "a85cc1506afeb5b72fded993268b62045d6118215f083301640dfd5f48b9d62f",
+        "forecast_meta.json": "c6fe9ae19907302482eb679f290b4e9163778b2ce4625b6226487962c9606703"
+      },
+      "numeric_sha256": "a91a05f60af42e89cab09359a23882efc80095ebb11027e3fc35119e3ccab701",
+      "grid_cells": 6,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F3-fx-mxn-brl-zar-016-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F3-fx-mxn-brl-zar-016-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:31.598260906Z",
+        "FinishedAt": "2026-10-21T05:57:33.198918831Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+        "asof": "2009-08-10",
+        "representation": "samples",
+        "asset_ids": [
+          "MXN",
+          "BRL",
+          "ZAR"
+        ],
+        "horizons": [
+          2,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "F3-routed dynamic latent-factor transmission v3",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "family_frozen",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "family_frozen"
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F4-curve-ust3m-008-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-0-3-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust3m-008-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F4-curve-ust3m-008-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2017-04-17",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F4-curve-ust3m-008-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.2415660200000502,
+      "output_bytes": 15653,
+      "hashes": {
+        "forecast_rationale.md": "c5ff50153d7fbc1678d5ae4eb6314c04a2764a7f835dd662fae536db83e58734",
+        "forecast_meta.json": "8ffa4b4800bfe76abbae241ea2a16de6110c9ab9aa4063a58f505a218003f8eb",
+        "forecast.parquet": "749af9f99891e86606bb9d606cebf653f31114369d33262a56f48ec6919841d3"
+      },
+      "numeric_sha256": "764e77b2814ce3534f7d231f884a992bb35adf42f09aa2c68dd49981ab652a37",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F4-curve-ust3m-008-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust3m-008-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:32.266933107Z",
+        "FinishedAt": "2026-10-21T05:57:34.44195803Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F4-curve-ust3m-008-ps1",
+        "asof": "2017-04-17",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_3M"
+        ],
+        "horizons": [
+          1,
+          3
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_current_event",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F4-curve-ust6m-007-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-1-3-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust6m-007-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F4-curve-ust6m-007-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2013-11-04",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F4-curve-ust6m-007-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.117596849999984,
+      "output_bytes": 16039,
+      "hashes": {
+        "forecast_rationale.md": "178d77057ef587de64b25f39fc897299673d073aaa7a70eec8a7efbc5860f495",
+        "forecast_meta.json": "9810177ace28f3ef9e9973adae1fa14ead200096f322f98413d8fd224068410b",
+        "forecast.parquet": "d398f1459600cbd01c8437a03e18df9bb2f7ce1d2a4690788312a6020f54204f"
+      },
+      "numeric_sha256": "01d84c2761f4107ecb920a404d047f65f1a5a3716175b946e4f3fad8ee0bfc12",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F4-curve-ust6m-007-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust6m-007-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:30.563375915Z",
+        "FinishedAt": "2026-10-21T05:57:32.621448559Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F4-curve-ust6m-007-ps1",
+        "asof": "2013-11-04",
+        "representation": "samples",
+        "asset_ids": [
+          "UST_6M"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_current_event",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {
+              "RETROSPECTIVE": 1
+            }
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {
+              "RETROSPECTIVE": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F4-fx-brl-019-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-2-3-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-fx-brl-019-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F4-fx-brl-019-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2016-11-07",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F4-fx-brl-019-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 1.2679545590000032,
+      "output_bytes": 21363,
+      "hashes": {
+        "forecast_rationale.md": "7d32950929d6f8c1373c9de4e79a7de37013dcbcc0d3270e890627590f8028c9",
+        "forecast.parquet": "e397beee3a94deb40e96f2c85855866555646680857a5e78b727b58997e9ef00",
+        "forecast_meta.json": "72b8902a5442223551a32d2c454fcb51e5bcab4f02a06809386125faebef0731"
+      },
+      "numeric_sha256": "419171b218e67915bd59c293193c7b0fb6c27708c77d20756d98d29bd4405af9",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-fx-brl-019-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F4-fx-brl-019-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:24.048822283Z",
+        "FinishedAt": "2026-10-21T05:57:25.272716791Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F4-fx-brl-019-ps1",
+        "asof": "2016-11-07",
+        "representation": "samples",
+        "asset_ids": [
+          "BRL"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_current_event",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          }
+        }
+      }
+    },
+    {
+      "card": "t2-F4-fx-mxn-018-ps1",
+      "candidate": "ff03",
+      "family": "T2-F4",
+      "source_sha": "e774e9bdea9a689995614a063efddce894e7b054",
+      "image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+      "command": [
+        "docker",
+        "run",
+        "--name",
+        "ff04-3-3-ff03",
+        "--platform=linux/amd64",
+        "--network=none",
+        "--read-only",
+        "--tmpfs",
+        "/tmp:rw,size=512m",
+        "--cpus=2",
+        "--memory=4g",
+        "--pids-limit=256",
+        "-v",
+        "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-fx-mxn-018-ps1:/input:ro",
+        "-v",
+        "/home/runner/work/_temp/ff04/t2-F4-fx-mxn-018-ps1/ff03/output:/output:rw",
+        "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+        "forecast",
+        "--panels",
+        "/input",
+        "--text",
+        "/input/text",
+        "--asof",
+        "2012-11-05",
+        "--out",
+        "/output/forecast.parquet",
+        "--seed",
+        "17",
+        "--n-draws",
+        "1000"
+      ],
+      "forecast_exit": 0,
+      "gates": {
+        "card_id": "t2-F4-fx-mxn-018-ps1",
+        "admissible": true,
+        "gates": {
+          "g0_integrity": "pass",
+          "g1_schema": "pass",
+          "g2_cutoff_resource": "pass",
+          "g3_domain_semantics": "pass"
+        },
+        "scored": false,
+        "note": "no --realized supplied: gates only, no score"
+      },
+      "wall_seconds": 2.0471016440000085,
+      "output_bytes": 20883,
+      "hashes": {
+        "forecast_rationale.md": "5cf1f4d0778262f6154975bb8a2becc6456f8b85dfb150badbb9677836d6df3a",
+        "forecast.parquet": "f3d7cdb5cc988e77ea99b0c3e4d92a638a1b777228c21716d9b1bdf5a51030d9",
+        "forecast_meta.json": "57e2df263aaeb7213713cb9a55045c0a2e4ef913104c3fd5b7a031ae2602d398"
+      },
+      "numeric_sha256": "4178c7902ab345e934021ca13305fee32e77eda39faae1d97348b588c4f7d6ae",
+      "grid_cells": 2,
+      "n_draws": 1000,
+      "finite": true,
+      "network": "none",
+      "input_answer_firewall": true,
+      "mounts": [
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-fx-mxn-018-ps1",
+          "Destination": "/input",
+          "Mode": "ro",
+          "RW": false,
+          "Propagation": "rprivate"
+        },
+        {
+          "Type": "bind",
+          "Source": "/home/runner/work/_temp/ff04/t2-F4-fx-mxn-018-ps1/ff03/output",
+          "Destination": "/output",
+          "Mode": "rw",
+          "RW": true,
+          "Propagation": "rprivate"
+        }
+      ],
+      "memory_limit_bytes": 4294967296,
+      "oom_killed": false,
+      "container_state": {
+        "Status": "exited",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "2026-10-21T05:57:36.282933884Z",
+        "FinishedAt": "2026-10-21T05:57:38.261321571Z"
+      },
+      "metadata": {
+        "unit_id": "t2-F4-fx-mxn-018-ps1",
+        "asof": "2012-11-05",
+        "representation": "samples",
+        "asset_ids": [
+          "MXN"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "n_draws": 1000,
+        "target": "level",
+        "forecast_mode": "text-first-v5.1",
+        "numeric_variant": "v3",
+        "numeric_model": "frequency-aware regime-matched joint block bootstrap v2.1",
+        "numeric_experiment": null,
+        "reasoning_applied": false,
+        "reasoning_skipped_reason": "no_current_event",
+        "family_heads": null,
+        "forecast_adjustment_applied": false,
+        "rationale": {
+          "file": "forecast_rationale.md",
+          "method": "Numeric v3 + explicit text-integration fallback",
+          "text_evidence": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          },
+          "scenario_integration": {
+            "config": "text-first-v5.1",
+            "applied": false,
+            "numeric_fallback_exact": true,
+            "reason": "no_current_event",
+            "rejected_states": {}
+          }
+        }
+      }
+    }
+  ]
+}
