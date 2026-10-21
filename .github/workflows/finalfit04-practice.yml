@@ -1,0 +1,61 @@
+# Executive summary: isolated archived-image Docker A/B, separate raw official scoring, no push.
+name: FinalFit04 Official Practice Replay
+on:
+  push:
+    branches: [track2/final-fit-04-official-practice-replay]
+    paths:
+      - '.github/workflows/finalfit04-practice.yml'
+      - 'backtesting/finalfit04/replay.py'
+      - 'backtesting/finalfit04/score.py'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    strategy:
+      fail-fast: false
+      matrix:
+        batch: [0, 1, 2, 3, 4, 5]
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/track2-forecasting-public
+          ref: 3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56
+          path: official-current
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/Agenthon2026-public
+          ref: 03c50a0036aaf72675d353aef4c7c01ca86d1fcf
+          path: common-current
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          github-token: ${{ github.token }}
+          repository: psj216/track2-forecasting-public
+          run-id: 38798442114
+          artifact-ids: 12003002655
+          path: ${{ runner.temp }}/ff03-image
+          merge-multiple: true
+      - name: Authenticate archive and original immutable image
+        run: |
+          test "$(sha256sum "$RUNNER_TEMP/ff03-image/candidate-image.tar.gz" | cut -d' ' -f1)" = df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c
+          timeout 120 bash -o pipefail -c 'gzip -dc "$RUNNER_TEMP/ff03-image/candidate-image.tar.gz" | docker load'
+          mkdir -p "$RUNNER_TEMP/anonymous-docker"
+          DOCKER_CONFIG="$RUNNER_TEMP/anonymous-docker" timeout 150 docker pull --platform=linux/amd64 docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874
+      - name: Actual forecast A/B with input-only mounts
+        run: timeout 360 python3 backtesting/finalfit04/replay.py --official official-current --common common-current --out "$RUNNER_TEMP/ff04" --batch '${{ matrix.batch }}'
+      - name: Separate official raw scoring
+        run: timeout 120 python3 backtesting/finalfit04/score.py --official official-current --common common-current --out "$RUNNER_TEMP/ff04"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: ff04-batch-${{ matrix.batch }}-${{ github.run_id }}
+          path: ${{ runner.temp }}/ff04
+          if-no-files-found: error
+          retention-days: 30

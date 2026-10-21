@@ -1,0 +1,2046 @@
+{
+  "executive_summary": "22 official exposed-practice input inventories; labels withheld.",
+  "cards": [
+    {
+      "id": "t2-F1-curve-ust1y-001-ps1",
+      "family": "T2-F1",
+      "asof": "2019-01-07",
+      "targets": {
+        "asset_ids": [
+          "UST_1Y"
+        ],
+        "horizons": [
+          2,
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 42804,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2019-01-07",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "U.S. Department of the Treasury; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2019-01-07",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from U.S. Department of the Treasury, Federal Reserve Board and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. They are background for a one-week continuation of the panel."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "0f0224628907283003fabd752f41dafebc12229a3023be551e34e05ddf4ba96f",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2019-01-09",
+        "2019-01-10"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F1-curve-ust3m-002-ps1",
+      "family": "T2-F1",
+      "asof": "2021-06-07",
+      "targets": {
+        "asset_ids": [
+          "UST_3M"
+        ],
+        "horizons": [
+          2,
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 48249,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2021-06-07",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Department of the Treasury; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2021-06-07",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from Federal Reserve Board, U.S. Department of the Treasury and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. They are background for a one-week continuation of the panel."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "454e34e1bb2bad190e2dfa0bd5b9a53957530e49d8ed6c3504306245bb1f759f",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2021-06-09",
+        "2021-06-10"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F1-fx-eur-020-ps1",
+      "family": "T2-F1",
+      "asof": "2009-08-17",
+      "targets": {
+        "asset_ids": [
+          "EUR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "usd_per_eur",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "g10_fx_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 24240,
+          "assets": [
+            "AUD",
+            "CAD",
+            "CHF",
+            "DKK",
+            "EUR",
+            "GBP",
+            "JPY",
+            "NOK",
+            "NZD",
+            "SEK"
+          ],
+          "start": "2000-01-03",
+          "end": "2009-08-17",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "European Central Bank; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2009-08-17",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 central-bank policy decisions, 1 set of FOMC minutes and 2 statistical releases, from European Central Bank, Federal Reserve Board and U.S. Bureau of Labor Statistics. They are euro-area and U.S. official texts bearing on EUR against the U.S. dollar. They are background for a one-week continuation of the panel."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "60c416afa4e795f18401e86fe83dfd8346564bd40607de089997846e7c2c62c7",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2009-08-18",
+        "2009-08-21"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F1-fx-inr-010-ps1",
+      "family": "T2-F1",
+      "asof": "2015-07-20",
+      "targets": {
+        "asset_ids": [
+          "INR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "inr_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 8380,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2015-07-20",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2015-07-20",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 sets of FOMC minutes and 2 statistical releases, from Federal Reserve Board and U.S. Bureau of Labor Statistics. They are U.S. official texts, context for INR against the U.S. dollar. They are background for a one-week continuation of the panel. The text signal for INR is thin: the corpus carries no Reserve Bank of India text, whose reuse terms are not established, and the documents are context from other issuers."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "6aa30ccbfcd28e0346121e8e679d134f88a7a4badb3a151492cec34f3c1aeea0",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2015-07-21",
+        "2015-07-24"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F1-fx-krw-011-ps1",
+      "family": "T2-F1",
+      "asof": "2017-03-27",
+      "targets": {
+        "asset_ids": [
+          "KRW"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "krw_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 10555,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2017-03-27",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Bureau of Labor Statistics; Korea Policy Briefing (korea.kr)",
+        "path": "text/",
+        "cutoff": "2017-03-27",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "government_press_release",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 government press releases, 1 set of FOMC minutes and 2 statistical releases, from Federal Reserve Board, U.S. Bureau of Labor Statistics and Korea Policy Briefing (korea.kr). They are the official texts available for KRW against the U.S. dollar, together with U.S. monetary-policy documents. They are background for a one-week continuation of the panel. Some documents are in their original language (Korean). The text signal for KRW is thin: the corpus carries no Bank of Korea text, whose reuse terms are not established, and 2 of the 7 documents come from Korean official sources."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "259044c73b9635c5837557bfd0bd637545982f61aea78f9319c456cdeeb619ad",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2017-03-28",
+        "2017-03-31"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F1-fx-zar-009-ps1",
+      "family": "T2-F1",
+      "asof": "2011-12-19",
+      "targets": {
+        "asset_ids": [
+          "ZAR"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "zar_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 3815,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2011-12-19",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "National Treasury (South Africa); Federal Reserve Board; U.S. Bureau of Labor Statistics; Statistics South Africa",
+        "path": "text/",
+        "cutoff": "2011-12-19",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "government_speech",
+          "macro_release",
+          "statistical_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 government speech, 1 set of FOMC minutes and 3 statistical releases, from National Treasury (South Africa), Federal Reserve Board, U.S. Bureau of Labor Statistics and Statistics South Africa. They are the official texts available for ZAR against the U.S. dollar, together with U.S. monetary-policy documents. They are background for a one-week continuation of the panel. The text signal for ZAR is thin: the corpus carries no South African Reserve Bank text, whose reuse terms are not established, and 2 of the 7 documents come from South African official sources."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "46174e4e164942b8526683af9f414ec203785aac610cdb82ad6a8e95e0e7d915",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2011-12-20",
+        "2011-12-21"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-curve-ust1y-003-ps1",
+      "family": "T2-F2",
+      "asof": "2011-04-25",
+      "targets": {
+        "asset_ids": [
+          "UST_1Y"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 25470,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2011-04-25",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "U.S. Department of the Treasury; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2011-04-25",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from U.S. Department of the Treasury, Federal Reserve Board and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "ab20dbdf39964fbaf0965ee3a165c49a67f74f90811c4796c4e7437309d0530a",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2011-04-28",
+        "2011-04-29"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-curve-ust6m-004-ps1",
+      "family": "T2-F2",
+      "asof": "2022-12-12",
+      "targets": {
+        "asset_ids": [
+          "UST_6M"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 51660,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2022-12-12",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2022-12-12",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 sets of FOMC minutes and 2 statistical releases, from Federal Reserve Board and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy and U.S. economic data as known before the week starts. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "76cc72407e2832998fdd18b1a28381345fe5f2024ac9bd7b8253c31d809990d5",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2022-12-13",
+        "2022-12-16"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-fx-brl-012-ps1",
+      "family": "T2-F2",
+      "asof": "2018-07-30",
+      "targets": {
+        "asset_ids": [
+          "BRL"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "brl_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 12260,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2018-07-30",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; Banco Central do Brasil; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2018-07-30",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "central_bank_minutes",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 central-bank policy decision, 1 set of FOMC minutes, 1 set of central-bank minutes and 2 statistical releases, from Federal Reserve Board, Banco Central do Brasil and U.S. Bureau of Labor Statistics. They are the official texts available for BRL against the U.S. dollar, together with U.S. monetary-policy documents. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result. Some documents are in their original language (Portuguese)."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "595f29d3a1849dfd5ee19f332dd4bbf4444ec67a09ea9097b069a18aa8baf341",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2018-08-02",
+        "2018-08-03"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-fx-eur-021-ps1",
+      "family": "T2-F2",
+      "asof": "2015-10-19",
+      "targets": {
+        "asset_ids": [
+          "EUR"
+        ],
+        "horizons": [
+          2,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "usd_per_eur",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "g10_fx_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 39710,
+          "assets": [
+            "AUD",
+            "CAD",
+            "CHF",
+            "DKK",
+            "EUR",
+            "GBP",
+            "JPY",
+            "NOK",
+            "NZD",
+            "SEK"
+          ],
+          "start": "2000-01-03",
+          "end": "2015-10-19",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "European Central Bank; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2015-10-19",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 central-bank policy decisions, 1 set of FOMC minutes and 2 statistical releases, from European Central Bank, Federal Reserve Board and U.S. Bureau of Labor Statistics. They are euro-area and U.S. official texts bearing on EUR against the U.S. dollar. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "280f1fb85504858160c82c418493f05efab9ab64e41135970f1719c14498a058",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2015-10-21",
+        "2015-10-23"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-fx-krw-015-ps1",
+      "family": "T2-F2",
+      "asof": "2021-03-15",
+      "targets": {
+        "asset_ids": [
+          "KRW"
+        ],
+        "horizons": [
+          1,
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "krw_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 15615,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2021-03-15",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Bureau of Labor Statistics; Korea Policy Briefing (korea.kr)",
+        "path": "text/",
+        "cutoff": "2021-03-15",
+        "cutoff_checked": true,
+        "doc_types": [
+          "fomc_minutes",
+          "fomc_statement",
+          "government_press_release",
+          "macro_release"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 FOMC statement, 2 government press releases, 1 set of FOMC minutes and 2 statistical releases, from Federal Reserve Board, U.S. Bureau of Labor Statistics and Korea Policy Briefing (korea.kr). They are the official texts available for KRW against the U.S. dollar, together with U.S. monetary-policy documents. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result. Some documents are in their original language (Korean). The text signal for KRW is thin: the corpus carries no Bank of Korea text, whose reuse terms are not established, and 2 of the 6 documents come from Korean official sources."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "086771dc5a4df1a0c68cb5823af4190e36fef4a32de824d9a8056abf90297b99",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2021-03-16",
+        "2021-03-18"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-fx-mxn-013-ps1",
+      "family": "T2-F2",
+      "asof": "2019-06-24",
+      "targets": {
+        "asset_ids": [
+          "MXN"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "mxn_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 13405,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2019-06-24",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Banco de M\u00e9xico; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2019-06-24",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "central_bank_minutes",
+          "fomc_minutes",
+          "macro_release"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 central-bank policy decision, 1 set of FOMC minutes, 1 set of central-bank minutes and 2 statistical releases, from Banco de M\u00e9xico, Federal Reserve Board and U.S. Bureau of Labor Statistics. They are the official texts available for MXN against the U.S. dollar, together with U.S. monetary-policy documents. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result. Some documents are in their original language (Spanish)."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "a42a45084f3dee9ac50389f52c9578885653afb538b72275c57f0c3a15aeabca",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2019-06-25",
+        "2019-06-28"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F2-fx-zar-014-ps1",
+      "family": "T2-F2",
+      "asof": "2020-01-27",
+      "targets": {
+        "asset_ids": [
+          "ZAR"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "zar_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 14165,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2020-01-27",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "National Treasury (South Africa); Federal Reserve Board; U.S. Bureau of Labor Statistics; Statistics South Africa",
+        "path": "text/",
+        "cutoff": "2020-01-27",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "government_speech",
+          "macro_release",
+          "statistical_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 government speech, 1 set of FOMC minutes and 3 statistical releases, from National Treasury (South Africa), Federal Reserve Board, U.S. Bureau of Labor Statistics and Statistics South Africa. They are the official texts available for ZAR against the U.S. dollar, together with U.S. monetary-policy documents. The window holds a scheduled policy decision or data release; the corpus covers the run-up to it, not its result. The text signal for ZAR is thin: the corpus carries no South African Reserve Bank text, whose reuse terms are not established, and 2 of the 7 documents come from South African official sources."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "82700c5cf7589a93cc4903e9b9a19d458477ba4086b514d88ded3fcd780731ff",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2020-01-28",
+        "2020-01-31"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "family": "T2-F3",
+      "asof": "2014-12-15",
+      "targets": {
+        "asset_ids": [
+          "UST_3M",
+          "UST_6M",
+          "UST_1Y"
+        ],
+        "horizons": [
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 33669,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2014-12-15",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Department of the Treasury; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2014-12-15",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from Federal Reserve Board, U.S. Department of the Treasury and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. The targets are forecast as one joint distribution."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "ea55123582343f59029bed50bc897f74ab3c8588ec9d34aee412eeae24f546e0",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2014-12-18"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "family": "T2-F3",
+      "asof": "2010-04-26",
+      "targets": {
+        "asset_ids": [
+          "UST_3M",
+          "UST_6M",
+          "UST_1Y",
+          "UST_2Y"
+        ],
+        "horizons": [
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 23220,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2010-04-26",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "U.S. Department of the Treasury; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2010-04-26",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from U.S. Department of the Treasury, Federal Reserve Board and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. The targets are forecast as one joint distribution."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "3cbb766d7b2f789f118d3e91c13864f3c6ee1ac24abef8709ac42e10389c7994",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2010-04-29"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "family": "T2-F3",
+      "asof": "2010-04-05",
+      "targets": {
+        "asset_ids": [
+          "EUR",
+          "JPY",
+          "CHF"
+        ],
+        "horizons": [
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "usd_per_eur; jpy_per_usd; chf_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "g10_fx_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 25810,
+          "assets": [
+            "AUD",
+            "CAD",
+            "CHF",
+            "DKK",
+            "EUR",
+            "GBP",
+            "JPY",
+            "NOK",
+            "NZD",
+            "SEK"
+          ],
+          "start": "2000-01-03",
+          "end": "2010-04-05",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "European Central Bank; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2010-04-05",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 central-bank policy decisions, 1 set of FOMC minutes and 2 statistical releases, from European Central Bank, Federal Reserve Board and U.S. Bureau of Labor Statistics. They are euro-area and U.S. official texts bearing on EUR, JPY and CHF against the U.S. dollar. The targets are forecast as one joint distribution. The text signal for JPY and CHF is thin: the corpus carries no Bank of Japan text, whose reuse terms are not established, and no Swiss National Bank text, whose published terms allow non-commercial use only."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "aac403ced270353559bd296e7a8f49d6cb93543c0380dbe8949a14cc595d5d48",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2010-04-08"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "family": "T2-F3",
+      "asof": "2014-01-27",
+      "targets": {
+        "asset_ids": [
+          "KRW",
+          "INR",
+          "ZAR"
+        ],
+        "horizons": [
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "krw_per_usd; inr_per_usd; zar_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 6500,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2014-01-27",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Press Information Bureau (India); Prime Minister's Office archive (India); Federal Reserve Board; U.S. Bureau of Labor Statistics; Statistics South Africa",
+        "path": "text/",
+        "cutoff": "2014-01-27",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "government_press_release",
+          "government_statement",
+          "macro_release",
+          "statistical_release"
+        ],
+        "n_documents": 8,
+        "notes": "8 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 government press release, 1 government statement, 1 set of FOMC minutes and 3 statistical releases, from Press Information Bureau (India), Prime Minister's Office archive (India), Federal Reserve Board, U.S. Bureau of Labor Statistics and Statistics South Africa. They are the official texts available for KRW, INR and ZAR against the U.S. dollar, together with U.S. monetary-policy documents. The targets are forecast as one joint distribution. The text signal for KRW is thin: the corpus carries no Bank of Korea text, whose reuse terms are not established, and the documents are context from other issuers. The text signal for INR is thin: the corpus carries no Reserve Bank of India text, whose reuse terms are not established, and 2 of the 8 documents come from Indian official sources. The text signal for ZAR is thin: the corpus carries no South African Reserve Bank text, whose reuse terms are not established, and 1 of the 8 documents comes from South African official sources."
+      },
+      "input_files": 14,
+      "manifest_pass": true,
+      "answer_sha256": "2fb2c5f30491978aec4e8435a331fbc556ac0518ea4b233725b529e77ff51206",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2014-01-31"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "family": "T2-F3",
+      "asof": "2009-08-10",
+      "targets": {
+        "asset_ids": [
+          "MXN",
+          "BRL",
+          "ZAR"
+        ],
+        "horizons": [
+          2,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "mxn_per_usd; brl_per_usd; zar_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 770,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2009-08-10",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "National Treasury (South Africa); Federal Reserve Board; Banco de M\u00e9xico; Banco Central do Brasil; Statistics South Africa",
+        "path": "text/",
+        "cutoff": "2009-08-10",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "central_bank_minutes",
+          "fomc_minutes",
+          "fomc_statement",
+          "government_speech",
+          "statistical_release"
+        ],
+        "n_documents": 8,
+        "notes": "8 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 2 central-bank policy decisions, 1 government speech, 1 set of FOMC minutes, 1 set of central-bank minutes and 1 statistical release, from National Treasury (South Africa), Federal Reserve Board, Banco de M\u00e9xico, Banco Central do Brasil and Statistics South Africa. They are the official texts available for MXN, BRL and ZAR against the U.S. dollar, together with U.S. monetary-policy documents. The targets are forecast as one joint distribution. Some documents are in their original language (Portuguese and Spanish). The text signal for ZAR is thin: the corpus carries no South African Reserve Bank text, whose reuse terms are not established, and 2 of the 8 documents come from South African official sources."
+      },
+      "input_files": 14,
+      "manifest_pass": true,
+      "answer_sha256": "43e99e580c61bc56bde523088b911243e372aefc41652e20d408f6cec8b00abd",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2009-08-12",
+        "2009-08-14"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F4-curve-ust3m-008-ps1",
+      "family": "T2-F4",
+      "asof": "2017-04-17",
+      "targets": {
+        "asset_ids": [
+          "UST_3M"
+        ],
+        "horizons": [
+          1,
+          3
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 38925,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2017-04-17",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Department of the Treasury; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2017-04-17",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_extraordinary_measures"
+        ],
+        "n_documents": 6,
+        "notes": "6 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury description of extraordinary measures, 1 set of FOMC minutes and 2 statistical releases, from Federal Reserve Board, U.S. Department of the Treasury and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. As an F4 card, the corpus carries a live risk channel or a scheduled event inside the window; it doesn't promise that a shock happens."
+      },
+      "input_files": 12,
+      "manifest_pass": true,
+      "answer_sha256": "8a0f287915c76b85ae37ff61a34a6fde760edca729456079edc85ba845d118b5",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2017-04-18",
+        "2017-04-20"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F4-curve-ust6m-007-ps1",
+      "family": "T2-F4",
+      "asof": "2013-11-04",
+      "targets": {
+        "asset_ids": [
+          "UST_6M"
+        ],
+        "horizons": [
+          1,
+          2
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "percent_per_annum",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "rates_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 31176,
+          "assets": [
+            "UST_10Y",
+            "UST_1Y",
+            "UST_20Y",
+            "UST_2Y",
+            "UST_30Y",
+            "UST_3M",
+            "UST_5Y",
+            "UST_6M",
+            "UST_7Y"
+          ],
+          "start": "2000-01-03",
+          "end": "2013-11-04",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "U.S. Department of the Treasury; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2013-11-04",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release",
+          "treasury_borrowing_estimate",
+          "treasury_refunding_statement"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 Treasury borrowing estimate, 1 Treasury quarterly refunding statement, 1 set of FOMC minutes and 2 statistical releases, from U.S. Department of the Treasury, Federal Reserve Board and U.S. Bureau of Labor Statistics. They cover U.S. monetary policy, U.S. economic data and Treasury financing as known before the week starts. As an F4 card, the corpus carries a live risk channel or a scheduled event inside the window; it doesn't promise that a shock happens."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "eddb399a775befe5ce88e20700b6b257d5b413aa75a2fb1feb05e0333b8eea98",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2013-11-05",
+        "2013-11-06"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F4-fx-brl-019-ps1",
+      "family": "T2-F4",
+      "asof": "2016-11-07",
+      "targets": {
+        "asset_ids": [
+          "BRL"
+        ],
+        "horizons": [
+          3,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "brl_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 10060,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2016-11-07",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Federal Reserve Board; U.S. Bureau of Labor Statistics; Banco Central do Brasil",
+        "path": "text/",
+        "cutoff": "2016-11-07",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "central_bank_minutes",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 central-bank policy decision, 1 set of FOMC minutes, 1 set of central-bank minutes and 2 statistical releases, from Federal Reserve Board, U.S. Bureau of Labor Statistics and Banco Central do Brasil. They are the official texts available for BRL against the U.S. dollar, together with U.S. monetary-policy documents. As an F4 card, the corpus carries a live risk channel or a scheduled event inside the window; it doesn't promise that a shock happens. Some documents are in their original language (Portuguese)."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "95751fc39d6bdf18a13438b19a8d44a662c6cb0c0e9a60301513c1e47f436225",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2016-11-10",
+        "2016-11-11"
+      ],
+      "frequency": "daily"
+    },
+    {
+      "id": "t2-F4-fx-mxn-018-ps1",
+      "family": "T2-F4",
+      "asof": "2012-11-05",
+      "targets": {
+        "asset_ids": [
+          "MXN"
+        ],
+        "horizons": [
+          1,
+          4
+        ],
+        "target_type": "level",
+        "target_frequency": "daily",
+        "value_unit": "mxn_per_usd",
+        "leakage_checked": true
+      },
+      "panels": [
+        {
+          "panel": "em_fx_ecb_daily",
+          "columns": [
+            "date",
+            "asset",
+            "value",
+            "panel_id"
+          ],
+          "rows": 4945,
+          "assets": [
+            "BRL",
+            "INR",
+            "KRW",
+            "MXN",
+            "ZAR"
+          ],
+          "start": "2009-01-02",
+          "end": "2012-11-05",
+          "finite": true
+        }
+      ],
+      "scoring": {
+        "verifier": "t2.crps_composite",
+        "metric": "crps_composite",
+        "admissibility_gates": [
+          "g0_integrity",
+          "g1_schema",
+          "g2_cutoff_resource",
+          "g3_domain_semantics"
+        ],
+        "params": {
+          "tail_levels": [
+            0.01,
+            0.05,
+            0.95,
+            0.99
+          ],
+          "joint": "variogram",
+          "representation": "samples",
+          "n_draws_min": 200,
+          "weights": {
+            "marginal": 0.5,
+            "joint": 0.3,
+            "tail": 0.2
+          }
+        }
+      },
+      "text": {
+        "source": "Banco de M\u00e9xico; Federal Reserve Board; U.S. Bureau of Labor Statistics",
+        "path": "text/",
+        "cutoff": "2012-11-05",
+        "cutoff_checked": true,
+        "doc_types": [
+          "beige_book",
+          "central_bank_decision",
+          "central_bank_minutes",
+          "fomc_minutes",
+          "fomc_statement",
+          "macro_release"
+        ],
+        "n_documents": 7,
+        "notes": "7 official documents, all published before the as-of: 1 Beige Book, 1 FOMC statement, 1 central-bank policy decision, 1 set of FOMC minutes, 1 set of central-bank minutes and 2 statistical releases, from Banco de M\u00e9xico, Federal Reserve Board and U.S. Bureau of Labor Statistics. They are the official texts available for MXN against the U.S. dollar, together with U.S. monetary-policy documents. As an F4 card, the corpus carries a live risk channel or a scheduled event inside the window; it doesn't promise that a shock happens. Some documents are in their original language (Spanish)."
+      },
+      "input_files": 13,
+      "manifest_pass": true,
+      "answer_sha256": "6e1c8da3bba13a1c2e04e8a77bfbf2fd316865b001859848607571246fc1556c",
+      "answer_grid_pass": true,
+      "target_dates": [
+        "2012-11-06",
+        "2012-11-09"
+      ],
+      "frequency": "daily"
+    }
+  ],
+  "count": 22,
+  "errors": [],
+  "all_integrity_pass": true,
+  "answers_not_forecast_inputs": true
+}
