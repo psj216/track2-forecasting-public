@@ -1,0 +1,33 @@
+{
+  "executive_summary": "Final code/report inventory excluding this manifest; no raw answers.",
+  "files": {
+    "FINALALPHA19-CANDIDATE-DECISION.md": "5dbafe74a4de3775906e29f29e74a18e213758c14859774baee5d35ff39424e3",
+    "FINALALPHA19-DATA-EXPOSURE.json": "d9fce84d99c041133ef44a12bd99248b5be5d381406d5a9da46548f4b18e43f8",
+    "FINALALPHA19-EXPERIMENT-RESULT.json": "3b6355a56d80bf6ed70109f345f2f8ebd8138992bed308b80f1537323484ddcc",
+    "FINALALPHA19-FALSIFICATION.md": "cd02ced24fce25e781b076a565c7eca2fafba2cb46c19372431d410abb3b5f24",
+    "FINALALPHA19-FF03-NORMALIZED-DIAGNOSTICS.json": "3a11149d646b350b2c211346a377367d7d0c64f924c4f32fbdd8bf33d98ba415",
+    "FINALALPHA19-HISTORY-AUDIT.md": "2a814677951ed094b5fc510070d5ec6d43f74bb81bde28646ee540bd06e0f9c1",
+    "FINALALPHA19-INPUT-MANIFEST.json": "51554417be56096979ecbf474bb66c8629a9f2e304fcb48dc7b1c6846ff18b08",
+    "FINALALPHA19-LOCKED-HYPOTHESIS.json": "9437a1150dae3c7c622c81e22d7d30857bf7fb5600475d952db4c5b610c71953",
+    "FINALALPHA19-M0-SPEC-REPRODUCTION.md": "643b4b98f3e246c92804756b24b675ccf7d0fa12ea5e0e190c200d699bc7dc80",
+    "FINALALPHA19-M0-VALIDATION.json": "4f0675673b193b998564eb645f04c6c2317e93734a73a1829cbc288d433f4411",
+    "FINALALPHA19-PRE.md": "027a43b74b4d0032a23af7dc8ca8a1b49d5f13ab6c8dbc09b529f22973143245",
+    "FINALALPHA19-PROMOTION-GATE.json": "f242a669f466402286a7ff21826e6a5df3eabc864aaa07d039725375353e0cea",
+    "FINALALPHA19-REPORT.md": "41e94f652f59b4b02b3e412ce9e64237f1796d40a16180d48d6356658837369e",
+    "backtesting/finalalpha19/evaluate.py": "3ef067a4febb470c04c26185136515843e12d7520f19f61e2136013d22b449c1",
+    "backtesting/finalalpha19/evaluate_ecb.py": "41946d615b8e49a4a481deda9f00ea300afbb932e243e3dc87264c8c3499959e",
+    "backtesting/finalalpha19/export_adapter.py": "dd4d6d75498cf7dee09f7a013c0b9ee507bf7d697b97a93e0973b7d7c5bb790b",
+    "backtesting/finalalpha19/falsify.py": "5bf8c0a5e604b4fb013bed83ed72cc68d3bf990ba183ec40e89431715dc377be",
+    "backtesting/finalalpha19/m0.py": "cd569b808016f6f140941de80377f018687feada5276e696aaa76e5427a9a508",
+    "backtesting/finalalpha19/prepare_ecb.py": "1e64f7151e14949e10db38bcdb27b39ce3271a6671f50ff8e14a332b5601fedd",
+    "backtesting/finalalpha19/results/docker-execution-summary.json": "9684f813adda178037cf0a5b0411eefd8d7f0366ab74eabdf9ff4b5d207c9bc4",
+    "backtesting/finalalpha19/results/ecb2025-cards.csv": "ed4ea3a27bedab3bffa5ab0494a8f94806e53909e3d8ddb90f6f27eeb8a5b031",
+    "backtesting/finalalpha19/results/ecb2025-summary.json": "ae546811a0319a52018845e2e0ff7f586327cea31db8c1ebb6983a4b27b80820",
+    "backtesting/finalalpha19/results/falsification.json": "a01bd10801656c3e49984ca16762dd192e0492b69a7c8a4b4ffc9ed828caa94a",
+    "backtesting/finalalpha19/results/new-input-manifest.json": "35a78a7197ab92e4a5605c9009932a594a9fb9955b57e33fdcc1f5ea7ed2cc6f",
+    "backtesting/finalalpha19/results/practice-cards.csv": "7856656f3d0b31f5551bc8f91c1301e169c5c83f03ad2eb9b34886c8fdbd41e7",
+    "backtesting/finalalpha19/results/practice-summary.json": "7125234af42290cc1b4f208b7559d1a7f89f077e87bcc48df7df48e9c339f79b",
+    "backtesting/finalalpha19/run_ecb.py": "94978cc0ba57acfdcb37f03153efc7bd01b8c446d48f6de352751a9cd28ab500",
+    "backtesting/finalalpha19/validate.py": "7ece2e0f701ac11e3ec62863706bdd53e4bff564457514e562a5b2e432828e80"
+  }
+}
