@@ -14,7 +14,7 @@ Random pool-draw sequences, intermediate RNG states and final RNG states are ide
 
 ## Impact
 
-Across runners: 13/2000 cells; mean changes -0.0000420574 and -0.0000946290 percentage points at horizons 1 and 3. Medians and 1/5/50/95/99% quantiles unchanged. Empirical Wasserstein-1 (mean sorted absolute sample difference) is 0.187% and 0.297% of baseline IQR. Paired RMS is 4.176% and 5.599% of IQR. Pairwise differences are not identical to marginal distribution distortion. On 7763 the toggle raw composite changes -0.04925%; on 9V74 +0.01548%. The scores are exposed Practice diagnostics, not normalized ranking scores or independent alpha evidence. No method was selected for improving these scores.
+Across runners: 13/2000 cells; mean changes -0.0000420574 and -0.0000946290 percentage points at horizons 1 and 3. Medians and 1/5/50/95/99% quantiles unchanged. Empirical Wasserstein-1 (mean sorted absolute sample difference) is 0.187% and 0.297% of baseline IQR. Paired RMS is 4.176% and 5.599% of IQR. Pairwise differences are not identical to marginal distribution distortion. On 7763 the toggle raw composite changes -0.04925%; on 9V74 +0.01548%. Across the two default-dispatch runners, raw composite relative change is -0.06472%. The scores are exposed Practice diagnostics, not normalized ranking scores or independent alpha evidence. No method was selected for improving these scores.
 
 ## Analysis infrastructure failure and recovery
 

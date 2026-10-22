@@ -1,0 +1,8 @@
+{
+  "layers_audit": {
+    "layers_opened": 12,
+    "files_enumerated": 14256,
+    "findings": [],
+    "scope": "All layer filenames; bounded text/config files <=2MB credential-pattern scan, not proof against arbitrary hidden secrets."
+  }
+}

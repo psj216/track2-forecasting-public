@@ -4,7 +4,7 @@ NO_PATCH. Retain the exact existing FF03 image. HARDENING_RESULT = NOT_APPLICABL
 
 ## Decision before release regression
 
-The PRE threshold flags B when paired-draw RMS exceeds 5% of IQR; measured maximum is 5.599%. It requires review, not an automatic production alteration. All outputs remain valid, repeats deterministic, raw-score sensitivity below 0.05%, central/tail test quantiles unchanged and empirical distribution movement below 0.3% of IQR. A universal byte-reproducibility requirement was not found in the T2 statistical rerun contract. No A trigger is observed.
+The PRE threshold flags B when paired-draw RMS exceeds 5% of IQR; measured maximum is 5.599%. It requires review, not an automatic production alteration. All outputs remain valid, repeats deterministic, raw-score sensitivity below 0.065% across the observed environments, central/tail test quantiles unchanged and empirical distribution movement below 0.3% of IQR. A universal byte-reproducibility requirement was not found in the T2 statistical rerun contract. No A trigger is observed.
 
 A stable secondary ordering would remove the exact-tie component in these measured pools; traces show identical stable orders. It is not proof of universal near-tie portability, and adopting it would reorder many historical pool positions and replace a broad set of legacy fixed-seed draws. That larger behavioral change would buy CPU byte consistency without demonstrated improvement in output validity or material distribution stability. Avoid it this close to release.
 

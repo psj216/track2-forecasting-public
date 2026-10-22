@@ -826,6 +826,7 @@
         "sorted_sample_rms_over_iqr": 0.024805729541975307
       }
     ],
-    "input_hashes_equal": true
+    "input_hashes_equal": true,
+    "raw_score_relative_change": -0.0006472003524289129
   }
 }

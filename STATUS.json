@@ -1,19 +1,31 @@
 {
-  "executive_summary": "PRE frozen before new Docker execution",
+  "executive_summary": "FINAL-FIT-05 investigation complete; exact FF03 retained with nonblocking risks. Publication/package/submission not performed.",
   "branch": "track2/final-fit-05-numerical-release-readiness",
-  "parent": "c6fcb0eec71e0442ed6d73a70c7cb958c221374b",
-  "stage": "DECISION",
+  "parent_sha": "c6fcb0eec71e0442ed6d73a70c7cb958c221374b",
+  "PRE_sha": "e2d6105b83af836ac34a49bf3885da029e42c900",
+  "result_sha_resolution": "remote branch HEAD; self-referential SHA not embedded",
+  "stage": "RESULT",
+  "classification": "FF03_RETAINED_WITH_NONBLOCKING_RISKS",
   "completed": [
     "PRE",
     "PORTABILITY",
-    "SEVERITY_DECISION"
-  ],
-  "pending": [
-    "MONTHLY",
-    "RUNTIME",
+    "DECISION",
+    "REGRESSION",
     "RELEASE",
-    "RESULT"
+    "REPORT"
   ],
-  "updated_at": "2026-10-22T06:13:44.512663+00:00",
-  "last_successful_artifact": "FINALFIT05-SEVERITY-GATE.json"
+  "last_successful_artifact": "FINALFIT05-RELEASE-GATE.json",
+  "pending_authorized_steps": [
+    "registry publication",
+    "anonymous digest verification",
+    "team descriptor sealing",
+    "ZIP packing",
+    "Final upload"
+  ],
+  "pending_unknown_metadata": [
+    "Macro Final",
+    "ranked ECB G10"
+  ],
+  "HARDENING_RESULT": "NOT_APPLICABLE",
+  "updated_at": "2026-10-22T06:34:04.340268+00:00"
 }

@@ -1,0 +1,23 @@
+{
+  "executive_summary": "Secret-free release preparation manifest; registry digest null.",
+  "candidate": "FF03",
+  "candidate_executable_source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "original_source_sha": "47194f28d5188b87cdca1d591d86b9eeda86f7cf",
+  "local_image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "image_archive_sha256": "df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c",
+  "registry_manifest_digest": null,
+  "base_image_digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "build_environment": "Inherited GitHub ubuntu-latest Docker FF03 build 38798442114; exact archive restored here, no rebuild",
+  "dependencies": "backtesting/finalfit05/results/source-dependencies.json",
+  "validation_receipts": [
+    "FINALFIT05-PORTABILITY-RED.json",
+    "FINALFIT05-MONTHLY-DOCKER-RESULTS.json",
+    "FINALFIT05-CONCURRENT-RUNTIME.json",
+    "FINALFIT05-CONTAINER-RELEASE-GATE.json"
+  ],
+  "proposed_registry_repository": "docker.io/jotj216/track2-ff03-final",
+  "proposed_new_tag": "ff03-c5b8bbbd-20261022",
+  "publication_and_postpull_commands": "FINALFIT05-REGISTRY-PREPARATION.md",
+  "rollback_fallback": "docker.io/jotj216/track2-f4-approved@sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+  "rollback_monthly_caveat": "Original lacks FF03 explicit-month repair; do not silently swap."
+}

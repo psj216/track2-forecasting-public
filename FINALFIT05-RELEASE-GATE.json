@@ -1,0 +1,56 @@
+{
+  "executive_summary": "Retain exact FF03 as the selected technical candidate with explicit residual risks; no publication or submission.",
+  "classification": "FF03_RETAINED_WITH_NONBLOCKING_RISKS",
+  "selected_technical_candidate": "Existing FF03 archived standalone image",
+  "gates": {
+    "SOURCE_IDENTITY": "PASS_26_PRODUCTION_2_WRAPPER",
+    "FF03_ARCHIVE_RESTORE": "PASS",
+    "PROTECTED_REFERENCES": "PASS",
+    "OFFICIAL_RULES_CURRENT": "PASS_3b51e16",
+    "NUMERICAL_RED_REPRODUCED": "PASS_TWO_DISTINCT_CPU_MODELS",
+    "NUMERICAL_SEVERITY": "B_CONSERVATIVE_SCREEN_NONBLOCKING_REVIEW",
+    "SAME_RUNNER_DETERMINISM": "PASS_TESTED_SCOPE",
+    "CROSS_RUNNER_BYTE_DETERMINISM": "FAIL_KNOWN_NONBLOCKING",
+    "OFFICIAL_OUTPUT_VALIDITY": "PASS_TESTED_SCOPE",
+    "OFFICIAL_22_CARD_AB": "PASS_INHERITED_FF04",
+    "DAILY_IMPLEMENTATION_CHANGED": false,
+    "MONTHLY_KNOWN_CONTRACT": "PASS_11_ACCEPT_5_SAFE_REJECT",
+    "UNSEEN_MACRO_FINAL": "BLOCKED_METADATA_NOT_PUBLISHED",
+    "RANKED_ECB_G10_SCHEMA": "UNKNOWN",
+    "CONTAINER_QUALIFICATION": "PASS",
+    "16_CARD_SEQUENTIAL": "PASS",
+    "4_CONTAINER_CONCURRENT": "PASS",
+    "ALL_48_FINAL_RUNTIME": "NOT_RUN_UNPUBLISHED_INPUTS",
+    "SOURCE_REBUILD_BYTE_REPRODUCIBILITY": "NOT_RUN_UNPROVEN",
+    "LAYER_SCAN": "PASS_12_LAYERS_STATED_BOUNDED_TEXT_SCOPE",
+    "FULL_REPOSITORY_CI": "FAIL_INHERITED_2288_LINT_61_COLLECTION",
+    "REGISTRY_MANIFEST_DIGEST": null,
+    "FF03_ANONYMOUS_REGISTRY_PULL": "NOT_RUN_NOT_PUBLISHED",
+    "DESCRIPTOR_PARSER_CONTROLS": "PASS",
+    "ACTUAL_FINAL_DESCRIPTOR": "NOT_READY",
+    "ZIP_PACKING": "NOT_RUN_PROHIBITED",
+    "CODABENCH_SUBMISSION": "NOT_RUN_PROHIBITED",
+    "INDEPENDENT_ALPHA": "UNVERIFIED",
+    "V51_DEV_09541_IMAGE_LINK": "UNKNOWN"
+  },
+  "HARDENING_RESULT": "NOT_APPLICABLE",
+  "NO_PATCH_REASON": "Sparse numerical draw coupling; no material measured distribution/output failure, avoid broad fixed-seed daily behavior replacement.",
+  "actual_submission_ready": false,
+  "pending_external_metadata": [
+    "Unseen Macro Final metadata",
+    "Ranked ECB G10 exact metadata"
+  ],
+  "pending_authorized_operations": [
+    "Public registry publication of exact FF03",
+    "Fresh anonymous pull by registry manifest digest",
+    "Descriptor team identity and sealing",
+    "Separately authorized packing and designated-account Final upload"
+  ],
+  "runs": {
+    "numerical": 39732916469,
+    "monthly_runtime_descriptor": 39733727450,
+    "all_layers": 39734270566
+  },
+  "forbidden_actions_performed": false,
+  "timestamp": "2026-10-22T06:34:04.339806+00:00"
+}

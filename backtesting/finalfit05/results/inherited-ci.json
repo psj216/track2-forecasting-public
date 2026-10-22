@@ -1,0 +1,25 @@
+{
+  "executive_summary": "Whole-repository CI remains inherited red; release Docker tests pass separately. No full-repo lint/dependency cleanup attempted.",
+  "run_id": 39733727243,
+  "source_sha": "2e3d24228e0c0ac773fb4a11ada396b5b02256de",
+  "lint_errors": 2288,
+  "pytest_collection_errors": 61,
+  "missing_modules": [
+    "sklearn",
+    "requests",
+    "bs4"
+  ],
+  "jobs": {
+    "firewall": "PASS",
+    "unit_manifests": "PASS",
+    "canonical_lint": "FAIL",
+    "canonical_tests": "FAIL"
+  },
+  "log_excerpt": [
+    "2026-10-22T06:24:43.4849759Z Found 2288 errors.",
+    "2026-10-22T06:25:04.1251229Z E   ModuleNotFoundError: No module named 'sklearn'",
+    "2026-10-22T06:25:04.1260228Z E   ModuleNotFoundError: No module named 'sklearn'",
+    "2026-10-22T06:25:04.1267670Z E   ModuleNotFoundError: No module named 'sklearn'",
+    "2026-10-22T06:25:04.1273721Z E   ModuleNotFoundError: No module named 'sklearn'"
+  ]
+}

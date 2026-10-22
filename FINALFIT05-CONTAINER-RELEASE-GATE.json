@@ -32,7 +32,15 @@
   "multiple_independent_runs_pass": true,
   "archive_restorable": true,
   "source_rebuild_reproducibility": "NOT_RUN_UNPROVEN_DO_NOT_REBUILD_UNCHANGED_CANDIDATE",
-  "full_layer_audit": "PENDING_SUPPLEMENTAL_SMALL_LAYER_COVERAGE",
+  "full_layer_audit": {
+    "status": "PASS_WITH_STATED_SCAN_SCOPE",
+    "actions_run": 39734270566,
+    "artifact_id": 12406307364,
+    "layers_opened": 12,
+    "files_enumerated": 14256,
+    "findings": [],
+    "scope": "All layer filenames; bounded text/config files <=2MB credential-pattern scan, not proof against arbitrary hidden secrets."
+  },
   "inherited_build_record": "FINALFIT03-IMAGE-BUILD.json",
   "previous_4_large_layer_scan": {
     "layers_opened": 4,

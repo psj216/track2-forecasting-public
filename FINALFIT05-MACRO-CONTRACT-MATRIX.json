@@ -26,11 +26,14 @@
   "new_macro": {
     "inflation": "UNSEEN_FINAL_SCHEMA_BLOCKED; historical CPI supported",
     "economic_sentiment": "BLOCKED_NO_CARD_METADATA",
-    "unemployment": "BLOCKED_NO_CARD_METADATA",
+    "unemployment": "UNSEEN_FINAL_SCHEMA_BLOCKED; historical UNRATE supported",
     "GDP": "BLOCKED_NO_CONFIRMED_RANKED_TARGET",
     "claims": "BLOCKED_NO_CONFIRMED_RANKED_TARGET"
   },
   "valid_input_rejection_risk": "If organizer supplies a correct monthly card without explicit mapping, FF03 refuses; card may receive 8.0. Public helper documentation explicitly requires metadata to accompany inputs; sealed inputs not verified.",
   "silent_wrong_distribution_risk": "Tested missing/conflicting/cadence inputs reject rather than silently converting horizons. Unknown undeclared release conventions still cannot be guaranteed.",
-  "ranked_ECB_G10": "Quoted direction publicly specified; exact sealed target IDs/panel metadata NOT VERIFIED. H10 practice is not ECB fixing validation."
+  "ranked_ECB_G10": "Quoted direction publicly specified; exact sealed target IDs/panel metadata NOT VERIFIED. H10 practice is not ECB fixing validation.",
+  "known_unemployment_practice": "t2-F1-sahm-watch-2024, UNRATE, PASS_DOCKER",
+  "official_helper_embedded_sha256": "e82af15975f89bb3f49331bafd63e701a4da6951b9a962936532ca9ac282642c",
+  "official_helper_equals_embedded_FF03": true
 }
