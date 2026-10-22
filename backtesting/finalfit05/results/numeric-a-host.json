@@ -1,0 +1,28 @@
+{
+  "cpu": {
+    "command": [
+      "lscpu"
+    ],
+    "exit": 0,
+    "stdout": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           48 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  4\nOn-line CPU(s) list:                     0-3\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7763 64-Core Processor\nCPU family:                              25\nModel:                                   1\nThread(s) per core:                      2\nCore(s) per socket:                      2\nSocket(s):                               1\nStepping:                                1\nBogoMIPS:                                4890.86\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf tsc_known_freq pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves user_shstk clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm\nVirtualization:                          AMD-V\nHypervisor vendor:                       Microsoft\nVirtualization type:                     full\nL1d cache:                               64 KiB (2 instances)\nL1i cache:                               64 KiB (2 instances)\nL2 cache:                                1 MiB (2 instances)\nL3 cache:                                32 MiB (1 instance)\nNUMA node(s):                            1\nNUMA node0 CPU(s):                       0-3\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Not affected\nVulnerability Spec rstack overflow:      Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:         Vulnerable\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Vulnerable: No microcode\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Not affected\n",
+    "stderr": "",
+    "wall_seconds": 0.004457880000003911
+  },
+  "run_id": "39732916469",
+  "job": "a",
+  "source": "258a09ef9978344937cca31d8b1832db6e210ac1",
+  "inputs": {
+    "manifest.json": "77882c6ce8677992fc4f9b41c3b851e93c8b5520e0ee848efed996aa600464cf",
+    "card.toml": "c7dc27f50fac8f6271df079ab2af0b2a06af84ac61781d5e0e8d902ec0b22e31",
+    "forecast_card.md": "0ada3673f5f580efdf42a29244083cc708ef640b023a939fc0286e5fab918bda",
+    "rates_daily.parquet": "92807227ce206fe19963a791f6467453d84e86bd3b3e75044c384bfdd1d400cb",
+    "forecast_spec.json": "e476464b4cceb04739201c69ddb79dcdfadf14f67b984bfcafa4cf46a583c4a5",
+    "text/beigebook_201703.txt": "9695404ffa70cbf222b74d3c44b5cdb992c9e1888a7e758d19c735c4c163729d",
+    "text/cpi_2017-04-14.txt": "49be0fe25eece5ade9d1b56431c0e323d6b357893e2a76f13dd46de635fdc9a9",
+    "text/fomc_statement_20170315.txt": "5043ee71532a6a47db2c07079ea08af0cf5fc45291b561b2b4e95f999dcc94eb",
+    "text/ust_extraordinary_measures_2017-03-16.txt": "6fa1b17dc29745d7a56a8a4caa00cb8a119c03e0108006e6211a09b32a4de4c7",
+    "text/fomc_minutes_20170315_released_2017-04-05.txt": "9f86fb4818eea661c928de3fc67749c2db7d1ab4ba2363f772b377650eedd8e1",
+    "text/corpus_index.json": "c0e1be898b7a7c3ee855b92893ad64e5dc6712f7578eabb60e17abbd770904e0",
+    "text/empsit_2017-04-07.txt": "e2cbedb12ee02469a4f9548d8847e627e8dacdd69d4a00ac6a3da4b4c96c7938"
+  }
+}

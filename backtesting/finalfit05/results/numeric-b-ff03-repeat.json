@@ -1,0 +1,43 @@
+{
+  "command": [
+    "docker",
+    "run",
+    "--rm",
+    "--platform=linux/amd64",
+    "--network=none",
+    "--read-only",
+    "--tmpfs",
+    "/tmp:rw,size=512m",
+    "--cpus=2",
+    "--memory=4g",
+    "--pids-limit=256",
+    "--security-opt=no-new-privileges",
+    "-v",
+    "/home/runner/work/track2-forecasting-public/track2-forecasting-public/official-current/units/t2-F4-curve-ust3m-008-ps1:/input:ro",
+    "-v",
+    "/home/runner/work/_temp/ff05-numerical/ff03-repeat:/output:rw",
+    "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+    "forecast",
+    "--panels",
+    "/input",
+    "--text",
+    "/input/text",
+    "--asof",
+    "2017-04-17",
+    "--out",
+    "/output/forecast.parquet",
+    "--seed",
+    "17",
+    "--n-draws",
+    "1000"
+  ],
+  "exit": 0,
+  "stdout": "wrote forecast.parquet, forecast_meta.json and forecast_rationale.md to /output\n  1 asset(s) x 2 horizon(s), 1000 draws\n  forecast mode: text-first-v5.1\n  text route: {\"applied\": false, \"config\": \"text-first-v5.1\", \"numeric_fallback_exact\": true, \"reason\": \"no_current_event\", \"rejected_states\": {}}\n  scenario integration: applied=False, fallback=no_current_event\n",
+  "stderr": "",
+  "wall_seconds": 1.6934460589999958,
+  "hashes": {
+    "forecast_rationale.md": "a0ac41fd3fec6ef78c3bd1fb5c679429125add2004f608f1f69a8fdd47c357d1",
+    "forecast_meta.json": "8ffa4b4800bfe76abbae241ea2a16de6110c9ab9aa4063a58f505a218003f8eb",
+    "forecast.parquet": "eb36814c1df66ee77fec13b6d28fc32c70ce3041930e2db757fd33fed2fea258"
+  }
+}

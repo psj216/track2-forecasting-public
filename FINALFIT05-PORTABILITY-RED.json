@@ -1,0 +1,831 @@
+{
+  "executive_summary": "RED reproduced on EPYC 7763 and EPYC 9V74 using unchanged frozen images. Forecast/gate evidence succeeded; final Docker analysis-write failed and was recovered offline without reforecasting.",
+  "run_id": 39732916469,
+  "source_sha": "258a09ef9978344937cca31d8b1832db6e210ac1",
+  "artifact_ids": [
+    12405747784,
+    12406420225
+  ],
+  "runners": {
+    "a": {
+      "executive_summary": "Same frozen numerical code; raw scoring is diagnostic only.",
+      "comparisons": {
+        "original-normal__ff03-normal": {
+          "changed": 0,
+          "total": 2000,
+          "max_abs": 0.0,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.022521337913006922,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": true
+        },
+        "ff03-normal__ff03-repeat": {
+          "changed": 0,
+          "total": 2000,
+          "max_abs": 0.0,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.022521337913006922,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": true
+        },
+        "ff03-normal__ff03-disabled": {
+          "changed": 8,
+          "total": 2000,
+          "max_abs": 0.06308603200308704,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.022521337913006922,
+              "mean_delta": -1.051433866716689e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.010514338667181211,
+              "rms_delta": 0.0005758940465263952,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": -6.308603200311236e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.06308603200308704,
+              "rms_delta": 0.002102867733436234,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 1,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": false
+        },
+        "original-normal__original-disabled": {
+          "changed": 8,
+          "total": 2000,
+          "max_abs": 0.06308603200308704,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.022521337913006922,
+              "mean_delta": -1.051433866716689e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.010514338667181211,
+              "rms_delta": 0.0005758940465263952,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": -6.308603200311236e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.06308603200308704,
+              "rms_delta": 0.002102867733436234,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 1,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": false
+        }
+      },
+      "state_comparisons": [
+        {
+          "distance_changed": 0,
+          "distance_max_abs": 0.0,
+          "default_order_changed": 265,
+          "stable_order_changed": 0,
+          "exact_tie_groups_normal": 198,
+          "exact_tied_positions_normal": 442,
+          "pool_same_members": true,
+          "pool_changed_positions": 39,
+          "feature_matrix_equal": true,
+          "current_equal": true,
+          "scale_equal": true,
+          "ordering_examples": [
+            {
+              "position": 19,
+              "normal_index": 604,
+              "disabled_index": 605,
+              "normal_distance_a": 0.05079218542402231,
+              "normal_distance_b": 0.05079218542402231,
+              "disabled_distance_a": 0.05079218542402231,
+              "disabled_distance_b": 0.05079218542402231,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 20,
+              "normal_index": 605,
+              "disabled_index": 604,
+              "normal_distance_a": 0.05079218542402231,
+              "normal_distance_b": 0.05079218542402231,
+              "disabled_distance_a": 0.05079218542402231,
+              "disabled_distance_b": 0.05079218542402231,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 24,
+              "normal_index": 614,
+              "disabled_index": 615,
+              "normal_distance_a": 0.056385910952551854,
+              "normal_distance_b": 0.056385910952551854,
+              "disabled_distance_a": 0.056385910952551854,
+              "disabled_distance_b": 0.056385910952551854,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 25,
+              "normal_index": 615,
+              "disabled_index": 614,
+              "normal_distance_a": 0.056385910952551854,
+              "normal_distance_b": 0.056385910952551854,
+              "disabled_distance_a": 0.056385910952551854,
+              "disabled_distance_b": 0.056385910952551854,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 50,
+              "normal_index": 1361,
+              "disabled_index": 1360,
+              "normal_distance_a": 0.1345198357631989,
+              "normal_distance_b": 0.1345198357631989,
+              "disabled_distance_a": 0.1345198357631989,
+              "disabled_distance_b": 0.1345198357631989,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 51,
+              "normal_index": 1360,
+              "disabled_index": 1361,
+              "normal_distance_a": 0.1345198357631989,
+              "normal_distance_b": 0.1345198357631989,
+              "disabled_distance_a": 0.1345198357631989,
+              "disabled_distance_b": 0.1345198357631989,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 62,
+              "normal_index": 607,
+              "disabled_index": 606,
+              "normal_distance_a": 0.15853297158124974,
+              "normal_distance_b": 0.15853297158124974,
+              "disabled_distance_a": 0.15853297158124974,
+              "disabled_distance_b": 0.15853297158124974,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 63,
+              "normal_index": 606,
+              "disabled_index": 607,
+              "normal_distance_a": 0.15853297158124974,
+              "normal_distance_b": 0.15853297158124974,
+              "disabled_distance_a": 0.15853297158124974,
+              "disabled_distance_b": 0.15853297158124974,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            }
+          ]
+        }
+      ],
+      "random_pool_draw_sequence_equal": true,
+      "rng_states_equal": true,
+      "rng_final_state_equal": true,
+      "selected_blocks_changed": 8,
+      "versions": {
+        "python": "3.13.15",
+        "numpy": "2.1.3",
+        "pandas": "2.2.3"
+      },
+      "raw_score_relative_change": -0.0004924851993995401,
+      "official_gates_all_pass": true
+    },
+    "b": {
+      "executive_summary": "Same frozen numerical code; raw scoring is diagnostic only.",
+      "comparisons": {
+        "original-normal__ff03-normal": {
+          "changed": 0,
+          "total": 2000,
+          "max_abs": 0.0,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.026788176444502154,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": true
+        },
+        "ff03-normal__ff03-repeat": {
+          "changed": 0,
+          "total": 2000,
+          "max_abs": 0.0,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.026788176444502154,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 0.0,
+              "median_delta": 0.0,
+              "max_abs": 0.0,
+              "rms_delta": 0.0,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": true
+        },
+        "ff03-normal__ff03-disabled": {
+          "changed": 15,
+          "total": 2000,
+          "max_abs": 0.02102867733436231,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.026788176444502154,
+              "mean_delta": 3.154301600150067e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.02102867733436231,
+              "rms_delta": 0.001102753142679718,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 3.154301600161169e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.010514338667181211,
+              "rms_delta": 0.0008796926868272023,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": false
+        },
+        "original-normal__original-disabled": {
+          "changed": 15,
+          "total": 2000,
+          "max_abs": 0.02102867733436231,
+          "cells": [
+            {
+              "asset": "UST_3M",
+              "horizon": 1,
+              "iqr": 0.026788176444502154,
+              "mean_delta": 3.154301600150067e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.02102867733436231,
+              "rms_delta": 0.001102753142679718,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            },
+            {
+              "asset": "UST_3M",
+              "horizon": 3,
+              "iqr": 0.03894060427809598,
+              "mean_delta": 3.154301600161169e-05,
+              "median_delta": 0.0,
+              "max_abs": 0.010514338667181211,
+              "rms_delta": 0.0008796926868272023,
+              "quantile_delta": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "quantiles": [
+                0.01,
+                0.05,
+                0.5,
+                0.95,
+                0.99
+              ],
+              "tail_count_delta": {
+                "0.01": 0,
+                "0.05": 0,
+                "0.95": 0,
+                "0.99": 0
+              }
+            }
+          ],
+          "finite": true,
+          "file_hashes_equal": false
+        }
+      },
+      "state_comparisons": [
+        {
+          "distance_changed": 1,
+          "distance_max_abs": 1.1102230246251565e-16,
+          "default_order_changed": 261,
+          "stable_order_changed": 0,
+          "exact_tie_groups_normal": 198,
+          "exact_tied_positions_normal": 442,
+          "pool_same_members": true,
+          "pool_changed_positions": 48,
+          "feature_matrix_equal": false,
+          "current_equal": true,
+          "scale_equal": true,
+          "ordering_examples": [
+            {
+              "position": 24,
+              "normal_index": 614,
+              "disabled_index": 615,
+              "normal_distance_a": 0.056385910952551854,
+              "normal_distance_b": 0.056385910952551854,
+              "disabled_distance_a": 0.056385910952551854,
+              "disabled_distance_b": 0.056385910952551854,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 25,
+              "normal_index": 615,
+              "disabled_index": 614,
+              "normal_distance_a": 0.056385910952551854,
+              "normal_distance_b": 0.056385910952551854,
+              "disabled_distance_a": 0.056385910952551854,
+              "disabled_distance_b": 0.056385910952551854,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 50,
+              "normal_index": 1361,
+              "disabled_index": 1360,
+              "normal_distance_a": 0.1345198357631989,
+              "normal_distance_b": 0.1345198357631989,
+              "disabled_distance_a": 0.1345198357631989,
+              "disabled_distance_b": 0.1345198357631989,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 51,
+              "normal_index": 1360,
+              "disabled_index": 1361,
+              "normal_distance_a": 0.1345198357631989,
+              "normal_distance_b": 0.1345198357631989,
+              "disabled_distance_a": 0.1345198357631989,
+              "disabled_distance_b": 0.1345198357631989,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 60,
+              "normal_index": 1088,
+              "disabled_index": 1087,
+              "normal_distance_a": 0.1529444319837895,
+              "normal_distance_b": 0.1529444319837895,
+              "disabled_distance_a": 0.1529444319837895,
+              "disabled_distance_b": 0.1529444319837895,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 61,
+              "normal_index": 1087,
+              "disabled_index": 1088,
+              "normal_distance_a": 0.1529444319837895,
+              "normal_distance_b": 0.1529444319837895,
+              "disabled_distance_a": 0.1529444319837895,
+              "disabled_distance_b": 0.1529444319837895,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 73,
+              "normal_index": 1092,
+              "disabled_index": 1093,
+              "normal_distance_a": 0.1894026554100786,
+              "normal_distance_b": 0.1894026554100786,
+              "disabled_distance_a": 0.1894026554100786,
+              "disabled_distance_b": 0.1894026554100786,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            },
+            {
+              "position": 74,
+              "normal_index": 1093,
+              "disabled_index": 1092,
+              "normal_distance_a": 0.1894026554100786,
+              "normal_distance_b": 0.1894026554100786,
+              "disabled_distance_a": 0.1894026554100786,
+              "disabled_distance_b": 0.1894026554100786,
+              "exact_tie_normal": true,
+              "exact_tie_disabled": true
+            }
+          ]
+        }
+      ],
+      "random_pool_draw_sequence_equal": true,
+      "rng_states_equal": true,
+      "rng_final_state_equal": true,
+      "selected_blocks_changed": 20,
+      "versions": {
+        "python": "3.13.15",
+        "numpy": "2.1.3",
+        "pandas": "2.2.3"
+      },
+      "raw_score_relative_change": 0.00015481534957818125,
+      "official_gates_all_pass": true
+    }
+  },
+  "cross_runner": {
+    "changed": 13,
+    "total": 2000,
+    "max_abs": 0.06308603200308704,
+    "cells": [
+      {
+        "asset": "UST_3M",
+        "horizon": 1,
+        "iqr": 0.022521337913006922,
+        "mean_delta": -4.205735466866756e-05,
+        "median_delta": 0.0,
+        "quantile_delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rms_over_iqr": 0.041757334469358094,
+        "empirical_wasserstein_1_over_iqr": 0.0018674447686536037,
+        "sorted_sample_rms_over_iqr": 0.02046181729409311
+      },
+      {
+        "asset": "UST_3M",
+        "horizon": 3,
+        "iqr": 0.03894060427809598,
+        "mean_delta": -9.462904800472405e-05,
+        "median_delta": 0.0,
+        "quantile_delta": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "rms_over_iqr": 0.05599039131081737,
+        "empirical_wasserstein_1_over_iqr": 0.002970106075216966,
+        "sorted_sample_rms_over_iqr": 0.024805729541975307
+      }
+    ],
+    "input_hashes_equal": true
+  }
+}
