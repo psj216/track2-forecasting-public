@@ -1,6 +1,8 @@
 {
-  "executive_summary": "Normalization verified; one hypothesis locked, candidate evaluation pending.",
-  "phase": "LOCK",
-  "candidate": "M0-HEDGE-10",
+  "executive_summary": "Full frozen A/B complete; no promotion, awaiting final gate/report checkpoint.",
+  "phase": "EXPERIMENT",
+  "classification": "EXPLORATORY_GAIN_ONLY",
+  "alpha_research_finished": true,
+  "selected": "EXISTING_FF03",
   "production_changed": false
 }

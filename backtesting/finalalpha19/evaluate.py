@@ -29,7 +29,7 @@ def matrix(path,cells):
 def metrics(x,y,scale):
     weights=(5/7,0,2/7) if x.shape[1]==1 else (.5,.3,.2)
     raw=_composite(x,y,weights=weights,tail_levels=(.01,.05,.95,.99),joint='variogram',tail_metric='pinball',ref_scale=scale)
-    return dict(raw=raw,normalized={k:raw[k]/scale[k] for k in ('marginal','joint','tail')},score=min(8.,raw['composite']),
+    return dict(raw=raw,normalized={k:raw[k]/scale[k] for k in ('marginal','joint','tail')},score=max(0.,min(8.,raw['composite'])),
         coverage90=float(np.mean((y>=np.quantile(x,.05,axis=0))&(y<=np.quantile(x,.95,axis=0)))),
         coverage98=float(np.mean((y>=np.quantile(x,.01,axis=0))&(y<=np.quantile(x,.99,axis=0)))))
 

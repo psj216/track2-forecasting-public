@@ -1,0 +1,43 @@
+{
+  "executive_summary": "Complete roster outcomes as metrics/hashes only, no answer values. Raw losses never pooled across units.",
+  "summary": {
+    "cards": 22,
+    "origins": 22,
+    "ff03": {
+      "score": 1.1548184258534022,
+      "normalized": {
+        "marginal": 0.972329771716199,
+        "joint": 1.4911028945643359,
+        "tail": 1.1066133581300095
+      },
+      "coverage90": 0.9090909090909091,
+      "coverage98": 0.9772727272727273
+    },
+    "candidate": {
+      "score": 1.1438771789317943,
+      "normalized": {
+        "marginal": 0.9712232826530282,
+        "joint": 1.4795838269770571,
+        "tail": 1.0719519475608144
+      },
+      "coverage90": 0.9090909090909091,
+      "coverage98": 0.9772727272727273
+    },
+    "m0": {
+      "score": 1.1422381765644671,
+      "normalized": {
+        "marginal": 0.9979009433056943,
+        "joint": 1.5160123158421468,
+        "tail": 0.94242005079488
+      },
+      "coverage90": 0.8484848484848484,
+      "coverage98": 0.9772727272727273
+    },
+    "improvement": 0.010941246921607917,
+    "relative_improvement": 0.009474430504970871
+  },
+  "requested_cards": 22,
+  "missing_grids": [],
+  "full_local_analysis_sha256": "1688ca459d1923a69a8c70aeb371e7aab18d2057bdf47918a2b8720e9bcf45e4",
+  "table": "backtesting/finalalpha19/results/practice-cards.csv"
+}

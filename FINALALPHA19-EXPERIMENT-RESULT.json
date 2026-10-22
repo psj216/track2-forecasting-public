@@ -1,0 +1,222 @@
+{
+  "executive_summary": "EXPLORATORY_GAIN_ONLY; strict improvement and independence gates not met. Preserve FF03. Scores reconstruct published input-only M0 expected scales, not a signed leaderboard result.",
+  "candidate": "M0-HEDGE-10",
+  "alpha": 0.1,
+  "practice": {
+    "cards": 22,
+    "origins": 22,
+    "ff03": {
+      "score": 1.1548184258534022,
+      "normalized": {
+        "marginal": 0.972329771716199,
+        "joint": 1.4911028945643359,
+        "tail": 1.1066133581300095
+      },
+      "coverage90": 0.9090909090909091,
+      "coverage98": 0.9772727272727273
+    },
+    "candidate": {
+      "score": 1.1438771789317943,
+      "normalized": {
+        "marginal": 0.9712232826530282,
+        "joint": 1.4795838269770571,
+        "tail": 1.0719519475608144
+      },
+      "coverage90": 0.9090909090909091,
+      "coverage98": 0.9772727272727273
+    },
+    "m0": {
+      "score": 1.1422381765644671,
+      "normalized": {
+        "marginal": 0.9979009433056943,
+        "joint": 1.5160123158421468,
+        "tail": 0.94242005079488
+      },
+      "coverage90": 0.8484848484848484,
+      "coverage98": 0.9772727272727273
+    },
+    "improvement": 0.010941246921607917,
+    "relative_improvement": 0.009474430504970871
+  },
+  "ecb2025": {
+    "cards": 96,
+    "origins": 48,
+    "ff03": {
+      "score": 0.9418927387445168,
+      "normalized": {
+        "marginal": 0.9304027015120374,
+        "joint": 0.9519596758097967,
+        "tail": 0.9555174262277956
+      },
+      "coverage90": 0.9083333333333332,
+      "coverage98": 0.9791666666666666
+    },
+    "candidate": {
+      "score": 0.9389304033687583,
+      "normalized": {
+        "marginal": 0.9289741482663953,
+        "joint": 0.950244686172574,
+        "tail": 0.9468496169189417
+      },
+      "coverage90": 0.9086805555555556,
+      "coverage98": 0.9805555555555555
+    },
+    "m0": {
+      "score": 0.9530760199456237,
+      "normalized": {
+        "marginal": 0.9377819041079573,
+        "joint": 0.9691309388041015,
+        "tail": 0.9672289312520737
+      },
+      "coverage90": 0.8960069444444444,
+      "coverage98": 0.9541666666666666
+    },
+    "improvement": 0.002962335375758518,
+    "relative_improvement": 0.003145087815102092
+  },
+  "requested_cards": {
+    "practice": 22,
+    "ecb2025": 100
+  },
+  "missing_exact_grids": [
+    {
+      "id": "a19-research-ECB_EM-2025-04-14",
+      "origin": "2025-04-14",
+      "missing": [
+        {
+          "asset": "MXN",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "BRL",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "ZAR",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "KRW",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "INR",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        }
+      ],
+      "forecast_success": true,
+      "status": "MISSING_EXACT_LABEL_GRID"
+    },
+    {
+      "id": "a19-research-ECB_EM-2025-04-28",
+      "origin": "2025-04-28",
+      "missing": [
+        {
+          "asset": "MXN",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "BRL",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "ZAR",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "KRW",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "INR",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        }
+      ],
+      "forecast_success": true,
+      "status": "MISSING_EXACT_LABEL_GRID"
+    },
+    {
+      "id": "a19-research-ECB_G10-2025-04-14",
+      "origin": "2025-04-14",
+      "missing": [
+        {
+          "asset": "EUR",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "JPY",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        },
+        {
+          "asset": "CHF",
+          "horizon": 4,
+          "target_date": "2025-04-18"
+        }
+      ],
+      "forecast_success": true,
+      "status": "MISSING_EXACT_LABEL_GRID"
+    },
+    {
+      "id": "a19-research-ECB_G10-2025-04-28",
+      "origin": "2025-04-28",
+      "missing": [
+        {
+          "asset": "EUR",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "JPY",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        },
+        {
+          "asset": "CHF",
+          "horizon": 3,
+          "target_date": "2025-05-01"
+        }
+      ],
+      "forecast_success": true,
+      "status": "MISSING_EXACT_LABEL_GRID"
+    }
+  ],
+  "score_convention": "positive improvement = FF03 minus candidate; lower better; clip[0,8] per card then equal mean",
+  "delta_components": {
+    "practice": {
+      "marginal": -0.0011064890631709012,
+      "joint": -0.01151906758727872,
+      "tail": -0.03466141056919514
+    },
+    "ecb2025": {
+      "marginal": -0.0014285532456420613,
+      "joint": -0.0017149896372227191,
+      "tail": -0.008667809308853913
+    }
+  },
+  "uncertainty": {
+    "practice": [
+      0.004572252527759157,
+      0.030411240504246265
+    ],
+    "ecb2025": [
+      -0.0002479893435270925,
+      0.006430783860513083
+    ]
+  },
+  "independent_OOS": false,
+  "PIT": "PIT_AUTHENTICITY_LIMITED",
+  "candidate_Docker": "NOT_RUN_CONDITIONAL_GATE_FAILED",
+  "raw_labels_in_repository": false
+}

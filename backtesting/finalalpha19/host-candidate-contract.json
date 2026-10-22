@@ -1,0 +1,19 @@
+{
+  "executive_summary": "STOPPED after repeated extra audit-file output gate failure. Do not claim22/22 candidate gate success.",
+  "status": "FAIL",
+  "first_failure": {
+    "card": "t2-F1-fx-eur-020-ps1",
+    "gate": "g0_integrity",
+    "extra_count": 1
+  },
+  "second_failure": {
+    "card": "t2-F1-curve-ust1y-001-ps1",
+    "gate": "g0_integrity",
+    "extra_count": 1
+  },
+  "passed_before_stop": 7,
+  "cause": "adapter-receipt.json present inside strict three-file output directory",
+  "assertions_relaxed": false,
+  "candidate_Docker": "NOT_RUN",
+  "next": "Retain FF03; no further retries of the failed contract path in this study."
+}

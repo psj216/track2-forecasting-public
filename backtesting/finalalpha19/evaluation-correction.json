@@ -1,0 +1,8 @@
+{
+  "executive_summary": "Postlock audit added documented lower score bound0 to existing upper cap8; no candidate or selection rule changed.",
+  "change": "score=max(0,min(8,composite))",
+  "reason": "official aggregate domain[0,W]",
+  "practice_results_changed": false,
+  "all_observed_raw_composites_nonnegative": true,
+  "new2025_results_seen_before_fix": false
+}
