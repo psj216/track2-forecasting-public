@@ -1,0 +1,1247 @@
+{
+  "executive_summary": "Local reconstructed official-formula normalized exposed practice; not authenticated leaderboard scores. Lower is better.",
+  "exposure": "EXPOSED_PRACTICE",
+  "summary": {
+    "cards": 22,
+    "origins": 22,
+    "ff03": {
+      "score": 1.1548184258534022,
+      "normalized": {
+        "marginal": 0.972329771716199,
+        "joint": 1.4911028945643359,
+        "tail": 1.1066133581300095
+      },
+      "coverage90": 0.9090909090909091,
+      "coverage98": 0.9772727272727273
+    },
+    "m0": {
+      "score": 1.1422381765644671,
+      "normalized": {
+        "marginal": 0.9979009433056943,
+        "joint": 1.5160123158421468,
+        "tail": 0.94242005079488
+      },
+      "coverage90": 0.8484848484848484,
+      "coverage98": 0.9772727272727273
+    }
+  },
+  "cards": [
+    {
+      "id": "t2-F1-fx-eur-020-ps1",
+      "origin": "2009-08-17",
+      "family": "T2-F1",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "G10",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.011550749148227598,
+        "joint": 0.005773765608323059,
+        "tail": 0.0013285836559102885
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.007575170040561537,
+          "joint": 0.004463151587380472,
+          "tail": 0.0008563107836028772,
+          "composite": 0.6887155826377636
+        },
+        "normalized": {
+          "marginal": 0.6558163408581951,
+          "joint": 0.7730053296494585,
+          "tail": 0.6445290665691427
+        },
+        "score": 0.6887155826377636,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.009103306507295423,
+          "joint": 0.0010133941330620643,
+          "tail": 0.001127298039883778,
+          "composite": 0.6164112980849898
+        },
+        "normalized": {
+          "marginal": 0.7881139474570165,
+          "joint": 0.17551701988061758,
+          "tail": 0.8484960919614819
+        },
+        "score": 0.6164112980849898,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "fd4aec95a326f4ec89fdb883a249b383e35364ec5c178d9d232027a9b481ef3b",
+      "label_sha256": "60c416afa4e795f18401e86fe83dfd8346564bd40607de089997846e7c2c62c7",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-fx-brl-012-ps1",
+      "origin": "2018-07-30",
+      "family": "T2-F2",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.027405854055800212,
+        "joint": 0.006357102305381043,
+        "tail": 0.0031522604557978756
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.03506146243538624,
+          "joint": 0.004757555403582537,
+          "tail": 0.003020634484687674,
+          "composite": 1.0558351129171715
+        },
+        "normalized": {
+          "marginal": 1.279342083775192,
+          "joint": 0.7483842755771681,
+          "tail": 0.9582439417821249
+        },
+        "score": 1.0558351129171715,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.03153021462814476,
+          "joint": 0.004893502976225247,
+          "tail": 0.0025982349877920656,
+          "composite": 0.9710258091763919
+        },
+        "normalized": {
+          "marginal": 1.150491955621856,
+          "joint": 0.7697694234184471,
+          "tail": 0.8242450216996491
+        },
+        "score": 0.9710258091763919,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "ae429c73b54a6b89980a8b69d6bd3b6c2ca49dc71a3c8e9529f2ca21b3391e63",
+      "label_sha256": "595f29d3a1849dfd5ee19f332dd4bbf4444ec67a09ea9097b069a18aa8baf341",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "origin": "2010-04-26",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y",
+        "UST_2Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "cells": 4,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.02485754217588109,
+        "joint": 0.019187217205610896,
+        "tail": 0.0028591499856131714
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.02652591796597642,
+          "joint": 0.023011105275354382,
+          "tail": 0.0024097651468874457,
+          "composite": 1.0619119443615332
+        },
+        "normalized": {
+          "marginal": 1.0671174880561656,
+          "joint": 1.1992935207209345,
+          "tail": 0.8428257205858506
+        },
+        "score": 1.0619119443615332,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.02434243136092787,
+          "joint": 0.02130518303979142,
+          "tail": 0.0024148218435843245,
+          "composite": 0.9916728697352896
+        },
+        "normalized": {
+          "marginal": 0.9792774840204022,
+          "joint": 1.1103842110861792,
+          "tail": 0.844594321996173
+        },
+        "score": 0.9916728697352896,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "082ce47971503f2e837f24f41bcc3279af495957f33fc126c0e77a90a71e35be",
+      "label_sha256": "3cbb766d7b2f789f118d3e91c13864f3c6ee1ac24abef8709ac42e10389c7994",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F4-fx-brl-019-ps1",
+      "origin": "2016-11-07",
+      "family": "T2-F4",
+      "assets": [
+        "BRL"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.05143109158594386,
+        "joint": 0.011920695346159554,
+        "tail": 0.005915677572929989
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.10984073346630918,
+          "joint": 0.0909866087257353,
+          "tail": 0.024129351126726834,
+          "composite": 4.1734179579180255
+        },
+        "normalized": {
+          "marginal": 2.1356873844055975,
+          "joint": 7.632659512185932,
+          "tail": 4.0788820602972375
+        },
+        "score": 4.1734179579180255,
+        "coverage90": 0.5,
+        "coverage98": 0.5
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.10647182900770794,
+          "joint": 0.05699561707920348,
+          "tail": 0.01075308921612308,
+          "composite": 2.8330073162831146
+        },
+        "normalized": {
+          "marginal": 2.070184118682146,
+          "joint": 4.78123258955406,
+          "tail": 1.817727400379118
+        },
+        "score": 2.8330073162831146,
+        "coverage90": 0.5,
+        "coverage98": 0.5
+      },
+      "forecast_sha256": "e397beee3a94deb40e96f2c85855866555646680857a5e78b727b58997e9ef00",
+      "label_sha256": "95751fc39d6bdf18a13438b19a8d44a662c6cb0c0e9a60301513c1e47f436225",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F1-fx-krw-011-ps1",
+      "origin": "2017-03-27",
+      "family": "T2-F1",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 6.718738557650725,
+        "joint": 3.3611990027230725,
+        "tail": 0.7727989000088994
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 4.032576897893719,
+          "joint": 1.6549115068597955,
+          "tail": 0.5603753550108,
+          "composite": 0.5928313884190339
+        },
+        "normalized": {
+          "marginal": 0.6001985139460093,
+          "joint": 0.49235749074037877,
+          "tail": 0.7251244211195783
+        },
+        "score": 0.5928313884190339,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 4.2920235854991144,
+          "joint": 2.294685167782348,
+          "tail": 0.6295436208524495,
+          "composite": 0.6871420687477932
+        },
+        "normalized": {
+          "marginal": 0.63881390065576,
+          "joint": 0.6826983959959856,
+          "tail": 0.8146279981055872
+        },
+        "score": 0.6871420687477932,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "75fa2afc10b054c690981ab0b444e4a36057f5cad5ec4e676046393150deb380",
+      "label_sha256": "259044c73b9635c5837557bfd0bd637545982f61aea78f9319c456cdeeb619ad",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-fx-krw-015-ps1",
+      "origin": "2021-03-15",
+      "family": "T2-F2",
+      "assets": [
+        "KRW"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 4.609308352248218,
+        "joint": 2.0624918127592586,
+        "tail": 0.5301692265377816
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 3.301358703123465,
+          "joint": 1.0754242430563354,
+          "tail": 0.40498536332560886,
+          "composite": 0.6673205147045397
+        },
+        "normalized": {
+          "marginal": 0.7162373290806651,
+          "joint": 0.5214198846285858,
+          "tail": 0.7638794238781572
+        },
+        "score": 0.6673205147045397,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 3.3397791107492676,
+          "joint": 1.6444629772808836,
+          "tail": 0.42904055241082256,
+          "composite": 0.7633323437833048
+        },
+        "normalized": {
+          "marginal": 0.7245727244783419,
+          "joint": 0.7973185479368645,
+          "tail": 0.8092520858153726
+        },
+        "score": 0.7633323437833048,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "930df5a0eb9bab150a612860346c037911ef33dd764052804bba8a98e92d21ba",
+      "label_sha256": "086771dc5a4df1a0c68cb5823af4190e36fef4a32de824d9a8056abf90297b99",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F3-fx-krw-inr-zar-017-ps1",
+      "origin": "2014-01-27",
+      "family": "T2-F3",
+      "assets": [
+        "KRW",
+        "INR",
+        "ZAR"
+      ],
+      "horizons": [
+        4
+      ],
+      "cells": 3,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 1.9653824982314925,
+        "joint": 0.08753245785587183,
+        "tail": 0.22606110056187687
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.7641036467855197,
+          "joint": 0.004292208445327904,
+          "tail": 0.20085805935545853,
+          "composite": 0.38680370799527053
+        },
+        "normalized": {
+          "marginal": 0.3887811392810723,
+          "joint": 0.04903562119088806,
+          "tail": 0.88851225998734
+        },
+        "score": 0.38680370799527053,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.9123014933373375,
+          "joint": 0.008094863018077212,
+          "tail": 0.19567151698000146,
+          "composite": 0.43294996317943046
+        },
+        "normalized": {
+          "marginal": 0.4641852128826081,
+          "joint": 0.09247841562276199,
+          "tail": 0.8655691602564889
+        },
+        "score": 0.43294996317943046,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "2e43271f322f9d6e2f9c80d282b35143e9dd6855a9b224a1ff0843ab2f46fd62",
+      "label_sha256": "2fb2c5f30491978aec4e8435a331fbc556ac0518ea4b233725b529e77ff51206",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F1-curve-ust1y-001-ps1",
+      "origin": "2019-01-07",
+      "family": "T2-F1",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.017741739331150634,
+        "joint": 0.004962158382156981,
+        "tail": 0.002040680184488672
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.008074996821248836,
+          "joint": 0.02399629459971488,
+          "tail": 0.001493246791993736,
+          "composite": 1.824676034653172
+        },
+        "normalized": {
+          "marginal": 0.45514121645733446,
+          "joint": 4.835858259986459,
+          "tail": 0.731739742142836
+        },
+        "score": 1.824676034653172,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.007153892403320521,
+          "joint": 0.028503009059071084,
+          "tail": 0.0016436009136030275,
+          "composite": 2.0859180079741684
+        },
+        "normalized": {
+          "marginal": 0.4032238480000573,
+          "joint": 5.744074828720244,
+          "tail": 0.8054181767903333
+        },
+        "score": 2.0859180079741684,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "33efc2668cecfc4cfd7a1645878ea60b0fdd487f778017ee4ebea50d97fd585e",
+      "label_sha256": "0f0224628907283003fabd752f41dafebc12229a3023be551e34e05ddf4ba96f",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-curve-ust1y-003-ps1",
+      "origin": "2011-04-25",
+      "family": "T2-F2",
+      "assets": [
+        "UST_1Y"
+      ],
+      "horizons": [
+        3,
+        4
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.015816548186974942,
+        "joint": 0.0036640152729105237,
+        "tail": 0.0018192419508441012
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.007452234965956057,
+          "joint": 0.0004284612700860396,
+          "tail": 0.002476603018812564,
+          "composite": 0.542932351075051
+        },
+        "normalized": {
+          "marginal": 0.47116696246612355,
+          "joint": 0.11693763212555877,
+          "tail": 1.3613379010216078
+        },
+        "score": 0.542932351075051,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.007318568562340499,
+          "joint": 9.24457302404602e-06,
+          "tail": 0.0014494770748854555,
+          "composite": 0.391464444674957
+        },
+        "normalized": {
+          "marginal": 0.4627159147384257,
+          "joint": 0.0025230716401197094,
+          "tail": 0.7967478290685412
+        },
+        "score": 0.391464444674957,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "734f181f989aef93cc94c72f3f63441366b95f12bd738aaef1df0c250faeb3df",
+      "label_sha256": "ab20dbdf39964fbaf0965ee3a165c49a67f74f90811c4796c4e7437309d0530a",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-fx-zar-014-ps1",
+      "origin": "2020-01-27",
+      "family": "T2-F2",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.0987243738933733,
+        "joint": 0.04928630542340823,
+        "tail": 0.011355418415855608
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.1631491455982476,
+          "joint": 0.060240977998202466,
+          "tail": 0.014482486827791113,
+          "composite": 1.4480420984984743
+        },
+        "normalized": {
+          "marginal": 1.6525720970837043,
+          "joint": 1.2222660530280158,
+          "tail": 1.2753811702410869
+        },
+        "score": 1.4480420984984743,
+        "coverage90": 0.5,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.15296903364456868,
+          "joint": 0.047612316635052485,
+          "tail": 0.009163315762196983,
+          "composite": 1.2259294956267908
+        },
+        "normalized": {
+          "marginal": 1.5494555965458137,
+          "joint": 0.9660354174658689,
+          "tail": 0.8069553605706167
+        },
+        "score": 1.2259294956267908,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "3014922d35bad2eae111ef0124d43398fb0fcd4aa4d71b737dbaf36291e60fdf",
+      "label_sha256": "82700c5cf7589a93cc4903e9b9a19d458477ba4086b514d88ded3fcd780731ff",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F4-curve-ust3m-008-ps1",
+      "origin": "2017-04-17",
+      "family": "T2-F4",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        1,
+        3
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.016465881156212805,
+        "joint": 0.007418924222717602,
+        "tail": 0.0018939291558991516
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.01760884608446114,
+          "joint": 0.0022618574249969278,
+          "tail": 0.001877178689182346,
+          "composite": 0.8244012313313228
+        },
+        "normalized": {
+          "marginal": 1.0694141368691392,
+          "joint": 0.3048767391464735,
+          "tail": 0.9911557057640558
+        },
+        "score": 0.8244012313313228,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.017489154596307795,
+          "joint": 0.0018964224695703223,
+          "tail": 0.0014486733449505618,
+          "composite": 0.760739151426175
+        },
+        "normalized": {
+          "marginal": 1.0621450762572093,
+          "joint": 0.25561960368367936,
+          "tail": 0.7649036609623328
+        },
+        "score": 0.760739151426175,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "749af9f99891e86606bb9d606cebf653f31114369d33262a56f48ec6919841d3",
+      "label_sha256": "8a0f287915c76b85ae37ff61a34a6fde760edca729456079edc85ba845d118b5",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F1-curve-ust3m-002-ps1",
+      "origin": "2021-06-07",
+      "family": "T2-F1",
+      "assets": [
+        "UST_3M"
+      ],
+      "horizons": [
+        2,
+        3
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.012134138941655692,
+        "joint": 0.0033333294297602546,
+        "tail": 0.0013956859827487498
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.0059593086058366395,
+          "joint": 0.011174419401293996,
+          "tail": 0.0007912158550268317,
+          "composite": 1.3646387345530915
+        },
+        "normalized": {
+          "marginal": 0.4911191996803934,
+          "joint": 3.352329746207443,
+          "tail": 0.5669010542533088
+        },
+        "score": 1.3646387345530915,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.006911415563425176,
+          "joint": 0.018019917470450744,
+          "tail": 0.0011226345133323783,
+          "composite": 2.067458720188935
+        },
+        "normalized": {
+          "marginal": 0.5695843435333302,
+          "joint": 5.405981571928462,
+          "tail": 0.804360384218657
+        },
+        "score": 2.067458720188935,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "cb976b10434edcabe94866261db4ad4fdb4d0630e5702507fcaa05d9c687c9e7",
+      "label_sha256": "454e34e1bb2bad190e2dfa0bd5b9a53957530e49d8ed6c3504306245bb1f759f",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-curve-ust6m-004-ps1",
+      "origin": "2022-12-12",
+      "family": "T2-F2",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.03949012556402874,
+        "joint": 0.022519521927825747,
+        "tail": 0.004542210615167266
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.06275608108937858,
+          "joint": 0.00801142583914525,
+          "tail": 0.005905408537437079,
+          "composite": 1.1613293630055066
+        },
+        "normalized": {
+          "marginal": 1.5891588135780106,
+          "joint": 0.3557547031780506,
+          "tail": 1.3001177263154307
+        },
+        "score": 1.1613293630055066,
+        "coverage90": 0.5,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.09032261739311889,
+          "joint": 0.02635315786474378,
+          "tail": 0.007888161116815494,
+          "composite": 1.8420079557925564
+        },
+        "normalized": {
+          "marginal": 2.287220314016755,
+          "joint": 1.170236115544757,
+          "tail": 1.736634820603759
+        },
+        "score": 1.8420079557925564,
+        "coverage90": 0.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "5685fcb08d692538688d164ed562d74ec47bd2b4124303cd72f266ca9d64dda2",
+      "label_sha256": "76cc72407e2832998fdd18b1a28381345fe5f2024ac9bd7b8253c31d809990d5",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "origin": "2014-12-15",
+      "family": "T2-F3",
+      "assets": [
+        "UST_3M",
+        "UST_6M",
+        "UST_1Y"
+      ],
+      "horizons": [
+        3
+      ],
+      "cells": 3,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.009494130299471314,
+        "joint": 0.0049051754917567025,
+        "tail": 0.0010920284200696849
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.009612046241724377,
+          "joint": 0.005000073415752844,
+          "tail": 0.0011526369345213376,
+          "composite": 1.0231140574677324
+        },
+        "normalized": {
+          "marginal": 1.012419878233568,
+          "joint": 1.0193464890615271,
+          "tail": 1.0555008581624508
+        },
+        "score": 1.0231140574677324,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.009831402940094484,
+          "joint": 0.004560278770776345,
+          "tail": 0.0010353811155735123,
+          "composite": 0.9862936260430314
+        },
+        "normalized": {
+          "marginal": 1.0355243324016683,
+          "joint": 0.9296871800896895,
+          "tail": 0.9481265290764522
+        },
+        "score": 0.9862936260430314,
+        "coverage90": 0.6666666666666666,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "dc9dfbae57a865093d06fe09fbc4491f325be7f0dbd2ac1ea81acefad6e6265c",
+      "label_sha256": "ea55123582343f59029bed50bc897f74ab3c8588ec9d34aee412eeae24f546e0",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F4-curve-ust6m-007-ps1",
+      "origin": "2013-11-04",
+      "family": "T2-F4",
+      "assets": [
+        "UST_6M"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "cells": 2,
+      "market": "UST",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.006945565403860831,
+        "joint": 0.0024867572887152297,
+        "tail": 0.0007988888476589759
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.004792778164108708,
+          "joint": 0.00024459838204569933,
+          "tail": 0.0015564679910198655,
+          "composite": 0.7641906572318531
+        },
+        "normalized": {
+          "marginal": 0.6900486692479415,
+          "joint": 0.09836037604299928,
+          "tail": 1.948291048974913
+        },
+        "score": 0.7641906572318531,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.0046137178817035,
+          "joint": 0.0005938287976078842,
+          "tail": 0.0006626214746470089,
+          "composite": 0.5696587823288783
+        },
+        "normalized": {
+          "marginal": 0.6642681500254641,
+          "joint": 0.2387964439885819,
+          "tail": 0.8294288705978584
+        },
+        "score": 0.5696587823288783,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "d398f1459600cbd01c8437a03e18df9bb2f7ce1d2a4690788312a6020f54204f",
+      "label_sha256": "eddb399a775befe5ce88e20700b6b257d5b413aa75a2fb1feb05e0333b8eea98",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F1-fx-zar-009-ps1",
+      "origin": "2011-12-19",
+      "family": "T2-F1",
+      "assets": [
+        "ZAR"
+      ],
+      "horizons": [
+        1,
+        2
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.055688476533756075,
+        "joint": 0.019970898477098167,
+        "tail": 0.006405368067113192
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.10631112672380943,
+          "joint": 0.002748946934234302,
+          "tail": 0.0066527464665572,
+          "composite": 1.2035347726492596
+        },
+        "normalized": {
+          "marginal": 1.9090327719661713,
+          "joint": 0.13764763450110595,
+          "tail": 1.0386204815792104
+        },
+        "score": 1.2035347726492596,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.11323782249718271,
+          "joint": 0.005127397521460613,
+          "tail": 0.007463671652610088,
+          "composite": 1.3267751580632428
+        },
+        "normalized": {
+          "marginal": 2.03341570007832,
+          "joint": 0.2567434573532337,
+          "tail": 1.1652213540905634
+        },
+        "score": 1.3267751580632428,
+        "coverage90": 0.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "05d0184d218c790785bda65b01ef57804e0e729916d4477f0a904750a2e7bc18",
+      "label_sha256": "46174e4e164942b8526683af9f414ec203785aac610cdb82ad6a8e95e0e7d915",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-fx-mxn-013-ps1",
+      "origin": "2019-06-24",
+      "family": "T2-F2",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.1257559060494201,
+        "joint": 0.06277402312464414,
+        "tail": 0.014464623832393284
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.049828252368486294,
+          "joint": 0.021873054809800577,
+          "tail": 0.009785487037963555,
+          "composite": 0.4379496506213725
+        },
+        "normalized": {
+          "marginal": 0.3962299182107962,
+          "joint": 0.348441181894132,
+          "tail": 0.676511684738674
+        },
+        "score": 0.4379496506213725,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.0574550876179694,
+          "joint": 0.050802046046329555,
+          "tail": 0.011368525408305975,
+          "composite": 0.6284150346294528
+        },
+        "normalized": {
+          "marginal": 0.4568778471159076,
+          "joint": 0.8092845339139245,
+          "tail": 0.7859537544866083
+        },
+        "score": 0.6284150346294528,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "f59c603b4b2fa8dd7f9c8b198a579259e1ca7973787bbc6a84bff2eda604d278",
+      "label_sha256": "a42a45084f3dee9ac50389f52c9578885653afb538b72275c57f0c3a15aeabca",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F3-fx-mxn-brl-zar-016-ps1",
+      "origin": "2009-08-10",
+      "family": "T2-F3",
+      "assets": [
+        "MXN",
+        "BRL",
+        "ZAR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "cells": 6,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.10994681931160363,
+        "joint": 0.17887020560243722,
+        "tail": 0.012646240108082728
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.05876396419347521,
+          "joint": 0.04658924625835231,
+          "tail": 0.010139960630194107,
+          "composite": 0.5057405693217405
+        },
+        "normalized": {
+          "marginal": 0.5344762546238875,
+          "joint": 0.26046398337520277,
+          "tail": 0.8018162349861794
+        },
+        "score": 0.5057405693217405,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.06489347802595802,
+          "joint": 0.034042379190181875,
+          "tail": 0.010174001749256048,
+          "composite": 0.5131103041132815
+        },
+        "normalized": {
+          "marginal": 0.5902260604924043,
+          "joint": 0.1903188911508582,
+          "tail": 0.8045080326091095
+        },
+        "score": 0.5131103041132815,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "a85cc1506afeb5b72fded993268b62045d6118215f083301640dfd5f48b9d62f",
+      "label_sha256": "43e99e580c61bc56bde523088b911243e372aefc41652e20d408f6cec8b00abd",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F1-fx-inr-010-ps1",
+      "origin": "2015-07-20",
+      "family": "T2-F1",
+      "assets": [
+        "INR"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.18186061774838802,
+        "joint": 0.09162345270120309,
+        "tail": 0.02091786786239157
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.17330210156153708,
+          "joint": 0.11972643080102857,
+          "tail": 0.016652930802669164,
+          "composite": 1.0277084014207545
+        },
+        "normalized": {
+          "marginal": 0.9529391448637219,
+          "joint": 1.3067225396042783,
+          "tail": 0.7961103355380508
+        },
+        "score": 1.0277084014207545,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.1523905327387551,
+          "joint": 0.087492305790396,
+          "tail": 0.016518525741040315,
+          "composite": 0.8633866760063807
+        },
+        "normalized": {
+          "marginal": 0.8379523539812999,
+          "joint": 0.9549116870297463,
+          "tail": 0.7896849645340348
+        },
+        "score": 0.8633866760063807,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "b837599f2ce5c8dc3030a368b2f1dd68c302c9f98e48e5dc1c52bb6c0082e97a",
+      "label_sha256": "6aa30ccbfcd28e0346121e8e679d134f88a7a4badb3a151492cec34f3c1aeea0",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F2-fx-eur-021-ps1",
+      "origin": "2015-10-19",
+      "family": "T2-F2",
+      "assets": [
+        "EUR"
+      ],
+      "horizons": [
+        2,
+        4
+      ],
+      "cells": 2,
+      "market": "G10",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.007406152233922734,
+        "joint": 0.0026721678503235403,
+        "tail": 0.0008518662023478421
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.012466934681926254,
+          "joint": 0.01758335466760009,
+          "tail": 0.0012218044009334795,
+          "composite": 3.102569336639985
+        },
+        "normalized": {
+          "marginal": 1.6833214182154386,
+          "joint": 6.5801834512271125,
+          "tail": 1.4342679608206603
+        },
+        "score": 3.102569336639985,
+        "coverage90": 0.5,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.011343107597035103,
+          "joint": 0.018685251451420366,
+          "tail": 0.0010691454111592146,
+          "composite": 3.1145652652219424
+        },
+        "normalized": {
+          "marginal": 1.5315790492503996,
+          "joint": 6.992544068351843,
+          "tail": 1.2550626004559469
+        },
+        "score": 3.1145652652219424,
+        "coverage90": 0.5,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "9ff2c43674eb1c288464814652f88505472194bc98c269c285c6721b8d3bf668",
+      "label_sha256": "280f1fb85504858160c82c418493f05efab9ab64e41135970f1719c14498a058",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "origin": "2010-04-05",
+      "family": "T2-F3",
+      "assets": [
+        "EUR",
+        "JPY",
+        "CHF"
+      ],
+      "horizons": [
+        3
+      ],
+      "cells": 3,
+      "market": "G10",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.2501570142295921,
+        "joint": 0.019868532770733305,
+        "tail": 0.028773416879869784
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.252801648012228,
+          "joint": 0.01607251675936558,
+          "tail": 0.020210092727124318,
+          "composite": 0.888446472556907
+        },
+        "normalized": {
+          "marginal": 1.010571895378511,
+          "joint": 0.808943314779674,
+          "tail": 0.7023876521687465
+        },
+        "score": 0.888446472556907,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.24399230032694538,
+          "joint": 0.016416606014417537,
+          "tail": 0.021813265351086124,
+          "composite": 0.8871777553337797
+        },
+        "normalized": {
+          "marginal": 0.9753566218335626,
+          "joint": 0.826261616992649,
+          "tail": 0.7581047965960184
+        },
+        "score": 0.8871777553337797,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "51def7c487011710dc9e50d898e89b156dd5e3a9453a13334010b0078657ba37",
+      "label_sha256": "aac403ced270353559bd296e7a8f49d6cb93543c0380dbe8949a14cc595d5d48",
+      "status": "SCORED"
+    },
+    {
+      "id": "t2-F4-fx-mxn-018-ps1",
+      "origin": "2012-11-05",
+      "family": "T2-F4",
+      "assets": [
+        "MXN"
+      ],
+      "horizons": [
+        1,
+        4
+      ],
+      "cells": 2,
+      "market": "ECB_EM",
+      "text_active": false,
+      "scales": {
+        "marginal": 0.10408772132928878,
+        "joint": 0.05196076159062396,
+        "tail": 0.011972318294199782
+      },
+      "ff03": {
+        "raw": {
+          "marginal": 0.06562338642669592,
+          "joint": 0.033253637323342494,
+          "tail": 0.009139158099462343,
+          "composite": 0.6598954287952875
+        },
+        "normalized": {
+          "marginal": 0.6304623214787434,
+          "joint": 0.6399759415640077,
+          "tail": 0.7633574279335675
+        },
+        "score": 0.6598954287952875,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "m0": {
+        "raw": {
+          "marginal": 0.07063769573790343,
+          "joint": 0.01038455862582687,
+          "tail": 0.01026767450488271,
+          "composite": 0.5707978380043894
+        },
+        "normalized": {
+          "marginal": 0.6786362006565226,
+          "joint": 0.1998538571786582,
+          "tail": 0.8576179026126528
+        },
+        "score": 0.5707978380043894,
+        "coverage90": 1.0,
+        "coverage98": 1.0
+      },
+      "forecast_sha256": "f3d7cdb5cc988e77ea99b0c3e4d92a638a1b777228c21716d9b1bdf5a51030d9",
+      "label_sha256": "6e1c8da3bba13a1c2e04e8a77bfbf2fd316865b001859848607571246fc1556c",
+      "status": "SCORED"
+    }
+  ]
+}

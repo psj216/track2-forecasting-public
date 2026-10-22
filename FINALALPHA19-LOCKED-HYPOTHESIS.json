@@ -1,0 +1,63 @@
+{
+  "executive_summary": "One frozen candidate and complete fixed evaluation protocol before candidate outcomes.",
+  "candidate": "M0-HEDGE-10",
+  "alpha": 0.1,
+  "seed_salt": 17,
+  "n_draws": 1000,
+  "original_rows": 900,
+  "m0_rows": 100,
+  "official_m0_draws": 500,
+  "mixture_unit": "complete joint row",
+  "monthly": "FF03 exact fallback",
+  "no_retuning": true,
+  "practice22": "EXPOSED_PRACTICE",
+  "new_evaluation": {
+    "origins": "2025-01-06 through 2025-12-15 Mondays",
+    "requested_origins": 50,
+    "cards_per_origin": 2,
+    "requested_cards": 100,
+    "family": "T2-F3 empty text",
+    "groups": {
+      "ECB_EM": [
+        "MXN",
+        "BRL",
+        "ZAR",
+        "KRW",
+        "INR"
+      ],
+      "ECB_G10": [
+        "EUR",
+        "JPY",
+        "CHF"
+      ]
+    },
+    "quote": "currency units per USD = ECB currency/EUR divided by USD/EUR; EUR=1/USD",
+    "horizons": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "source": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip",
+    "source_sha256": "93bac351c4a60e612e641150f2392db9f85fe497336ee9d71c4d241f70063eda",
+    "input_history": "all available history through origin only, per-container read-only mount",
+    "labels": "exact calendar business-day target, unavailable dates excluded with missing-grid denominator retained",
+    "PIT": "PIT_AUTHENTICITY_LIMITED",
+    "independent_OOS": "UNKNOWN: incomplete early exposure ledger and unauthenticated publication vintages",
+    "UST": "NOT_AVAILABLE: Treasury two endpoints404; FRED HTML then404; stop acquisition path",
+    "official_final_schema_claim": false
+  },
+  "uncertainty": {
+    "method": "four consecutive origins moving-block bootstrap,2000 draws",
+    "seed": 19019,
+    "level": 0.95
+  },
+  "code_hashes": {
+    "backtesting/finalalpha19/m0.py": "cd569b808016f6f140941de80377f018687feada5276e696aaa76e5427a9a508",
+    "backtesting/finalalpha19/validate.py": "7ece2e0f701ac11e3ec62863706bdd53e4bff564457514e562a5b2e432828e80",
+    "backtesting/finalalpha19/prepare_ecb.py": "1e64f7151e14949e10db38bcdb27b39ce3271a6671f50ff8e14a332b5601fedd",
+    "backtesting/finalalpha19/evaluate.py": "32b64afe453b5ee8afcf658461842183cc4b51b05fc63256e95f6c5803ca80f9",
+    "backtesting/finalalpha19/run_ecb.py": "94978cc0ba57acfdcb37f03153efc7bd01b8c446d48f6de352751a9cd28ab500"
+  },
+  "selection_gate": "all PRE gates required; >=0.010 independent normalized reduction; no promotion on exposed/current-vintage diagnostics"
+}

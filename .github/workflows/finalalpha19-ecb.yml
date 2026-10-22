@@ -1,0 +1,45 @@
+# Executive summary: isolated baseline forecasts on locked 2025 ECB research inputs, no publication.
+name: FinalAlpha19 Frozen ECB Research
+on:
+  push:
+    branches: [track2/final-alpha-19-m0-distribution-hedge]
+    paths: ['.github/workflows/finalalpha19-ecb.yml', 'backtesting/finalalpha19/run_ecb.py', 'backtesting/finalalpha19/prepare_ecb.py']
+permissions:
+  contents: read
+  actions: read
+jobs:
+  baseline:
+    strategy:
+      fail-fast: false
+      matrix:
+        group: [ECB_EM, ECB_G10]
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          github-token: ${{ github.token }}
+          repository: psj216/track2-forecasting-public
+          run-id: 38798442114
+          artifact-ids: 12003002655
+          path: ${{ runner.temp }}/ff03-image
+          merge-multiple: true
+      - name: Restore exact FF03 archive
+        run: |
+          test "$(sha256sum "$RUNNER_TEMP/ff03-image/candidate-image.tar.gz" | cut -d' ' -f1)" = df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c
+          timeout 120 bash -o pipefail -c 'gzip -dc "$RUNNER_TEMP/ff03-image/candidate-image.tar.gz" | docker load'
+      - name: Frozen independent container inputs
+        run: timeout 420 python3 backtesting/finalalpha19/run_ecb.py ${{ matrix.group }}
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: a19-ecb-${{ matrix.group }}-${{ github.run_id }}
+          path: |
+            ${{ runner.temp }}/a19-ecb/outputs
+            ${{ runner.temp }}/a19-ecb/inputs/input-manifest.json
+            ${{ runner.temp }}/a19-ecb/execution.json
+          if-no-files-found: error
+          retention-days: 30

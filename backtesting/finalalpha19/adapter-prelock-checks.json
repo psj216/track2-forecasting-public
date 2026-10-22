@@ -1,0 +1,9 @@
+{
+  "executive_summary": "Prelock checks without candidate outcome scoring.",
+  "joint_rows": "PASS",
+  "seed_repeat": "PASS",
+  "monthly_preservation": "PASS",
+  "bad_draw_count_fallback": "PASS",
+  "ff04_raw_score_parity_max_abs": 1.2789769243681803e-13,
+  "initial_audit_error": "Used wrong raw metric alias; corrected parser to published marginal_crps/joint_variogram/tail_penalty without changing scorer or predictions."
+}

@@ -1,9 +1,6 @@
 {
-  "executive_summary": "ALPHA19 pre-experiment recovery complete.",
-  "phase": "PRE",
-  "classification": "PENDING",
-  "parent": "122ad52b3ba28bca06f480b723a0e82502bc77d4",
+  "executive_summary": "Normalization verified; one hypothesis locked, candidate evaluation pending.",
+  "phase": "LOCK",
   "candidate": "M0-HEDGE-10",
-  "alpha": 0.1,
   "production_changed": false
 }
