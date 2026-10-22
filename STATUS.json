@@ -1,8 +1,10 @@
 {
-  "executive_summary": "Full frozen A/B complete; no promotion, awaiting final gate/report checkpoint.",
-  "phase": "EXPERIMENT",
+  "executive_summary": "Strict promotion NO_GO; FF03 retained; research closed.",
+  "phase": "GATE",
   "classification": "EXPLORATORY_GAIN_ONLY",
-  "alpha_research_finished": true,
+  "promotion": false,
   "selected": "EXISTING_FF03",
-  "production_changed": false
+  "alpha_research_finished": true,
+  "registry_push": "NOT_RUN",
+  "submission": "NOT_RUN"
 }

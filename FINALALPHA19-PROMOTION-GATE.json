@@ -1,0 +1,52 @@
+{
+  "executive_summary": "NO_GO. Exploratory gains fail strict promotion. Keep existing FF03; close alpha research.",
+  "classification": "EXPLORATORY_GAIN_ONLY",
+  "promotion": false,
+  "selected": "EXISTING_FF03",
+  "gates": {
+    "A_normalization": {
+      "status": "PASS",
+      "scope": "Published daily formulas, rounded exemplar and quadrature; sealed generator identity UNKNOWN"
+    },
+    "B_main_improvement": {
+      "status": "FAIL",
+      "required": 0.01,
+      "observed_new_set": 0.002962335375758518
+    },
+    "C_statistical_evidence": {
+      "status": "UNKNOWN",
+      "reason": "No authenticated independent OOS; conditional diagnostic interval also crosses zero.",
+      "conditional_ci95": [
+        -0.0002479893435270925,
+        0.006430783860513083
+      ]
+    },
+    "D_robustness": {
+      "status": "FAIL",
+      "reason": "2025 MXN subgrid harm0.01040165 exceeds frozen0.010 subgroup threshold; Q3 worsens; one-year/one-family sample limits removals; seed sensitivity."
+    },
+    "E_component_damage": {
+      "status": "PASS",
+      "scope": "All-card mean normalized components only",
+      "relative_changes": {
+        "marginal": -0.0015354139055275828,
+        "joint": -0.001801536011243221,
+        "tail": -0.009071325201333913
+      }
+    },
+    "F_operational_safety": {
+      "status": "FAIL",
+      "reason": "Host export path stopped after repeated extra audit-file g0 failures.100 new baseline Docker runs succeeded; candidate arrays finite, but output contract is not certified."
+    },
+    "G_deployment_readiness": {
+      "status": "NOT_RUN",
+      "reason": "Substantive gates failed; conditional candidate image build not performed."
+    }
+  },
+  "production_modified": false,
+  "registry_push": "NOT_RUN",
+  "team_key_access": "NOT_RUN",
+  "final_packing": "NOT_RUN",
+  "codabench": "NOT_RUN",
+  "alpha_research_closed": true
+}
