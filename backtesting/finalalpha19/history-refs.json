@@ -1,0 +1,10 @@
+{
+  "executive_summary": "Recovered exact historical commits, not independent evidence.",
+  "refs": {
+    "alpha18": "4a4f791ea52fbcb3193d7c600e1ccfb05468f2c9",
+    "r17": "48952090e6e4a31add9fbcb40b3d0a0fcd3a6b6b",
+    "v8": "f7b69e64926d6b7bb56eeddd9b40414c13206c75",
+    "v9a": "08edc6ad82ef097c05b8f6d294fac4db4d819e9b",
+    "v9b": "1d15a4e759a92380e09fcadd12c3e9cc714951e0"
+  }
+}
