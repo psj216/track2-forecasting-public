@@ -1,0 +1,75 @@
+{
+  "executive_summary": "Input-only documented M0 reproduction checks; no outcomes consumed.",
+  "tests": {
+    "worked_example": {
+      "status": "PASS",
+      "actual": {
+        "marginal": 0.05260379952830959,
+        "joint": 0.17715198314610472,
+        "tail": 0.006050564114520442
+      },
+      "printed": {
+        "marginal": 0.0526,
+        "joint": 0.1772,
+        "tail": 0.006051
+      },
+      "precision": "within half last displayed unit"
+    },
+    "joint_independent_quadrature": {
+      "status": "PASS",
+      "max_abs_error": 3.1327718197360355e-12,
+      "cases": 4
+    },
+    "single_cell_zero_and_tail": {
+      "status": "PASS",
+      "scales": {
+        "marginal": 0.05641895835477564,
+        "joint": 1.0,
+        "tail": 0.006489389128941471
+      }
+    },
+    "official_composite_single_weights_clip": {
+      "status": "PASS",
+      "metric_source": "official._composite; clipping official aggregation rule"
+    },
+    "strict_horizon_override": {
+      "status": "PASS"
+    },
+    "monthly_t2-F1-cpi-glidepath-2023": {
+      "status": "PASS",
+      "steps": [
+        8.0,
+        9.0
+      ]
+    },
+    "monthly_t2-F4-covid-nfp-2020": {
+      "status": "PASS",
+      "steps": [
+        2.0
+      ]
+    },
+    "monthly_t2-F4-cpi-vintage-2022": {
+      "status": "PASS",
+      "steps": [
+        2.0
+      ]
+    },
+    "monthly_sahm_m0": {
+      "status": "NOT_VERIFIED",
+      "reason": "M0 uses sealed-date conversion per documentation; do not hardcode published example counts. Monthly mixture disabled."
+    },
+    "future_input_truncation": {
+      "status": "PASS"
+    },
+    "repeatability": {
+      "status": "PASS"
+    }
+  },
+  "status": "VERIFIED_DOCUMENTED_DAILY_FORMULAS",
+  "sealed_generator_bit_identity": "UNKNOWN: generator and sealed scales unpublished",
+  "exemplar_scale": {
+    "marginal": 0.05260379952830959,
+    "joint": 0.17715198314610472,
+    "tail": 0.006050564114520442
+  }
+}

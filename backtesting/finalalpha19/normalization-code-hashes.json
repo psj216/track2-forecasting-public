@@ -1,0 +1,7 @@
+{
+  "executive_summary": "Pre-score reconstruction code hashes.",
+  "files": {
+    "m0.py": "cd569b808016f6f140941de80377f018687feada5276e696aaa76e5427a9a508",
+    "validate.py": "7ece2e0f701ac11e3ec62863706bdd53e4bff564457514e562a5b2e432828e80"
+  }
+}
