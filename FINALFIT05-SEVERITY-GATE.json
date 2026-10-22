@@ -1,0 +1,19 @@
+{
+  "executive_summary": "Frozen B screen crossed; reviewed distribution evidence does not justify hardening. No release-blocking numerical failure observed.",
+  "severity": "B",
+  "screening_trigger": "paired_draw_rms_over_baseline_iqr >= 0.05",
+  "max_observed": 0.05599039131081737,
+  "release_blocker": false,
+  "material_distribution_degradation_observed": false,
+  "max_empirical_wasserstein_1_over_iqr": 0.002970106075216966,
+  "all_tested_quantile_deltas_zero": true,
+  "official_gate_pass": true,
+  "same_runner_deterministic": true,
+  "cross_runner_byte_deterministic": false,
+  "patch_required": false,
+  "patch_implemented": false,
+  "HARDENING_RESULT": "NOT_APPLICABLE",
+  "NO_PATCH_REASON": "Sparse draw-coupling change; statistical contract, no meaningful measured distribution degradation; avoid broad legacy draw replacement.",
+  "decision_is_not_severity_C": true,
+  "test_scope": "One representative card on two distinct CPU models, default and disabled dispatch. Not universal CPU/card coverage."
+}

@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Fresh official source files read; no forecast or truth copied into release image.",
+  "official_sha": "3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56",
+  "common_v2_6_1_sha": "03c50a0036aaf72675d353aef4c7c01ca86d1fcf",
+  "files": {
+    "official/SUBMISSION_CLI.md": "73f74b21631f75e60b3587b731d8e0d7424a65f30940bf8ef5d65f8e0e4e5090",
+    "official/docs/MONTHLY-HORIZONS.md": "fd6addc9698ce61a24a63f87e53ebfaca65acac79b365566dbf9de1e5718ea44",
+    "official/qfbench2_track_forecasting/horizons.py": "e82af15975f89bb3f49331bafd63e701a4da6951b9a962936532ca9ac282642c",
+    "official/scoring/scoring.py": "7f30f804f8c3b173bf894dd28db21cd0ec440357168e2aaee9aee6d8e0405b80",
+    "official/qfbench2_track_forecasting/scoring.py": "cbb541ef25665b401b1891e67d0bb300aef0014919e900a500e6f9128546c031",
+    "common-official/common/qfbench2_common/schemas/submission.schema.json": "66c97b08ee7b3262d3ecdf471e93fa1a4d2143dd72d173dec3eb0b7c77257904",
+    "common-official/common/qfbench2_common/contracts/descriptor.py": "43781fbd78794766da005e1845646853907d3691acae2ce86838191ee0b32d97",
+    "common-official/common/qfbench2_common/team_claim.py": "713e74c9c6ca12fa4276db8c9ef4c9f636afbfe829f8d3a4f660ed4928047d56"
+  }
+}
