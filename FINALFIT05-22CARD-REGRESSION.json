@@ -1,0 +1,17 @@
+{
+  "executive_summary": "Inherited FF04 full A/B replay; exact FF03 identity verified anew. No redundant full replay.",
+  "status": "PASS_INHERITED",
+  "newly_executed_full_22": false,
+  "reason": "NO_PATCH; exact image preserved",
+  "parent_result": "c6fcb0eec71e0442ed6d73a70c7cb958c221374b",
+  "actions_run": 39552405145,
+  "original_pass": 22,
+  "FF03_pass": 22,
+  "paired_daily_parquet_metadata_rationale_identical": 22,
+  "official_raw_scores_equal": 22,
+  "UST_added_pass": "8/8",
+  "ECB_EM_pass": "11/11",
+  "H10_G10_pass": "3/3",
+  "future_final_score_equality": "UNKNOWN",
+  "independent_alpha": "UNVERIFIED"
+}

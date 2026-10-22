@@ -1,0 +1,36 @@
+{
+  "executive_summary": "Published monthly contract verified; unseen ranked metadata remains BLOCKED, never inferred from synthetic fixtures.",
+  "official_source_sha": "3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56",
+  "axes": {
+    "target_observation_month": "Explicit observation_period/target_date; October per ranked announcement",
+    "publication_date": "Separate first publication on 2026-10-27..30; not substituted for observation month",
+    "data_vintage": "Use authored first-release/fixed snapshot; not inferred from period",
+    "asof": "2026-10-26 for ranked; historical dates for these tests",
+    "last_valid_observation": "Per-asset latest dated observation <= asof; lagged anchor tested",
+    "horizon_key": "Authored business-day integer preserved",
+    "sampling_steps": "Calendar-month transitions from each asset anchor to explicit target period"
+  },
+  "tests": {
+    "A_known_CPI": "PASS_DOCKER",
+    "B_known_NFP_employment": "PASS_DOCKER",
+    "C_explicit_periods": "PASS_DOCKER_KERNEL_EXACT",
+    "D_multi_asset_monthly": "PASS_DOCKER_KERNEL_EXACT",
+    "E_heterogeneous_monthly_grids": "PASS_DOCKER_KERNEL_EXACT",
+    "F_lagged_anchors": "PASS_DOCKER_KERNEL_EXACT",
+    "G_missing_conflicting_duplicate_mappings": "PASS_SAFE_REJECTION",
+    "H_unsupported_selected_target_cadence": "PASS_SAFE_REJECTION",
+    "I_multiple_release_vintages_in_one_grid": "NOT_RUN_NO_GENERAL_OFFICIAL_DEFINITION",
+    "J_new_ranked_release_schema": "BLOCKED_NOT_PUBLISHED"
+  },
+  "known_vintage_practice": "t2-F4-cpi-vintage-2022 PASS; not a general multi-vintage guarantee",
+  "new_macro": {
+    "inflation": "UNSEEN_FINAL_SCHEMA_BLOCKED; historical CPI supported",
+    "economic_sentiment": "BLOCKED_NO_CARD_METADATA",
+    "unemployment": "BLOCKED_NO_CARD_METADATA",
+    "GDP": "BLOCKED_NO_CONFIRMED_RANKED_TARGET",
+    "claims": "BLOCKED_NO_CONFIRMED_RANKED_TARGET"
+  },
+  "valid_input_rejection_risk": "If organizer supplies a correct monthly card without explicit mapping, FF03 refuses; card may receive 8.0. Public helper documentation explicitly requires metadata to accompany inputs; sealed inputs not verified.",
+  "silent_wrong_distribution_risk": "Tested missing/conflicting/cadence inputs reject rather than silently converting horizons. Unknown undeclared release conventions still cannot be guaranteed.",
+  "ranked_ECB_G10": "Quoted direction publicly specified; exact sealed target IDs/panel metadata NOT VERIFIED. H10 practice is not ECB fixing validation."
+}

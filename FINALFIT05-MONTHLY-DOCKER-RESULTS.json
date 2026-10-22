@@ -1,0 +1,593 @@
+{
+  "executive_summary": "Exact FF03 monthly Docker: four published Practice and twelve synthetic boundary probes.",
+  "actions_run": 39733727450,
+  "source_sha": "2e3d24228e0c0ac773fb4a11ada396b5b02256de",
+  "artifact_id": 12406416612,
+  "published_pass": 4,
+  "synthetic_accept_pass": 7,
+  "synthetic_expected_reject_pass": 5,
+  "cases": [
+    {
+      "label": "monthly-t2-F1-cpi-glidepath-2023",
+      "input_kind": "PUBLISHED_PRACTICE",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184984
+      },
+      "wall_seconds": 1.792366512000001,
+      "output_bytes": 32108,
+      "hashes": {
+        "forecast_rationale.md": "25fb042a270ea0981d9a5beaa804a6cecee9a4653b7494d40930950cc013ff13",
+        "forecast.parquet": "231ddf33e0aa944a0ad46fab0f0ae0820fb4469854bb893e9a4eb52564a479c2",
+        "forecast_meta.json": "bb5d60aaed2ab0cd7e8ef595f1c53b7a9db7adfed3e906a71f0bef0573642c76"
+      }
+    },
+    {
+      "label": "monthly-t2-F4-cpi-vintage-2022",
+      "input_kind": "PUBLISHED_PRACTICE",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184592
+      },
+      "wall_seconds": 1.7372665679999955,
+      "output_bytes": 17243,
+      "hashes": {
+        "forecast_rationale.md": "3524f01642ad7ba7b98b3bfe6558984d4e5f64f505d7a958329158910a874fd8",
+        "forecast.parquet": "95794f500a4192767b2a181fd22bc7d2c7cae403a5904c05fefbcc2850260c5a",
+        "forecast_meta.json": "97e16bab1e2e6417b3e051f7d14a3702ab750cd36ccf1dcdf660b61ac67f45b4"
+      }
+    },
+    {
+      "label": "monthly-t2-F4-covid-nfp-2020",
+      "input_kind": "PUBLISHED_PRACTICE",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 183940
+      },
+      "wall_seconds": 1.7255322999999976,
+      "output_bytes": 17478,
+      "hashes": {
+        "forecast_rationale.md": "2d20c3b1d02abfe50aca7f20ec4cffc09376adcc442383ccaf024b62a31c30a5",
+        "forecast.parquet": "aa74f438ec8bb9b8c26fac7cf0bc881c2bbc15771f9c1be6404b42ed26e66a10",
+        "forecast_meta.json": "1de74a6cfee4c38cf56c30026f9945fef27cea4faea1702c196dd4719209d721"
+      }
+    },
+    {
+      "label": "monthly-t2-F1-sahm-watch-2024",
+      "input_kind": "PUBLISHED_PRACTICE",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184644
+      },
+      "wall_seconds": 1.7185814829999941,
+      "output_bytes": 23532,
+      "hashes": {
+        "forecast_rationale.md": "ffe1952381c75e052164c110c3b2783bc743fd1d50e81e9f99d34563f456de9c",
+        "forecast.parquet": "0090b012854e85d96bf40e5fdb68c41b43924eb023413a09a9469b137a43af5f",
+        "forecast_meta.json": "30367d348fc2956cecc9bd95a22e4119348c6c0ba13b2cbdc04ff20bfd5b3727"
+      }
+    },
+    {
+      "label": "monthly-monthly-a",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.2671459053096652,
+            0.5244849884624466,
+            0.7590000261365842,
+            0.9587583850691865
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184604
+      },
+      "wall_seconds": 1.7483527879999912,
+      "output_bytes": 19043,
+      "hashes": {
+        "forecast_rationale.md": "50e1b356daa1a442b05eb00ba11ce657fec6a8bcf563f5620fee618926c83157",
+        "forecast.parquet": "7555c7bb2469b0de21b63c7933b12f4a8e10a396c9fe49d0244ff77772372429",
+        "forecast_meta.json": "fb19f8a97afce3723e24b2a4606768fa46c6a06b2dc562c12c0e94607441776d"
+      }
+    },
+    {
+      "label": "monthly-monthly-b",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.5286576485503656,
+            0.7678792352396129,
+            0.9718664899433734,
+            1.1292618530623422
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 183736
+      },
+      "wall_seconds": 1.7338353530000035,
+      "output_bytes": 19014,
+      "hashes": {
+        "forecast_rationale.md": "d1d8f099a233ca0e8a0f4ef5434fdb133a671d224f9c74aa35e901af42310c2d",
+        "forecast.parquet": "259e0c9e0366a3d655049e7df7472722bff8b8f9edc54f2907e2d61dff0a0a0d",
+        "forecast_meta.json": "56ac6281c098f6e72ff7235177c7b658546da0a1b99300785a64b94da95e4982"
+      }
+    },
+    {
+      "label": "monthly-monthly-missing",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 1,
+      "expected_rejection": true,
+      "rejection_safe": true,
+      "error": "Monthly target periods are missing; request the task's explicit observation-period mapping.",
+      "official_gate_pass": null,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 181360
+      },
+      "wall_seconds": 1.633929032999987,
+      "output_bytes": 0,
+      "hashes": {}
+    },
+    {
+      "label": "monthly-monthly-conflict",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 1,
+      "expected_rejection": true,
+      "rejection_safe": true,
+      "error": "Conflicting monthly observation periods; correct the task inputs.",
+      "official_gate_pass": null,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 181884
+      },
+      "wall_seconds": 1.7189445329999984,
+      "output_bytes": 0,
+      "hashes": {}
+    },
+    {
+      "label": "monthly-lagged-anchor",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            4,
+            5,
+            6,
+            7
+          ]
+        ],
+        "monthly_union": [
+          4,
+          5,
+          6,
+          7
+        ],
+        "cell_std": [
+          [
+            0.9531287175550431,
+            1.1166813021785496,
+            1.138198273117383,
+            1.2191347845858114
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184136
+      },
+      "wall_seconds": 1.7207594340000014,
+      "output_bytes": 35064,
+      "hashes": {
+        "forecast_rationale.md": "2b81db753278fb89dc97c9eb60575867d362bc91c3913787e67973e7dff0295b",
+        "forecast.parquet": "dd9bc53046c9d5ed666ed6f8a7adab90ff19d12c65cb28ed88ecd535e3f3031e",
+        "forecast_meta.json": "48cf0997f4282d066ef3ebe79dae1a6be9e914db7e019af2bd8a0cbc98e34a09"
+      }
+    },
+    {
+      "label": "monthly-multi-monthly",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            1,
+            2,
+            3,
+            4
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "cell_std": [
+          [
+            0.2671459053096652,
+            0.5244849884624466,
+            0.7590000261365845,
+            0.9587583850691876
+          ],
+          [
+            133.57295265483285,
+            262.24249423122336,
+            379.50001306829336,
+            479.3791925345951
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 185844
+      },
+      "wall_seconds": 1.7183381159999982,
+      "output_bytes": 21412,
+      "hashes": {
+        "forecast_rationale.md": "124a6c5ff6ca8cc87773ba748bdc8499bfe99d9cd3a6b85cf1a2efaf0d0a977f",
+        "forecast.parquet": "79ee0ea5962ae718dfe14a749948fe6ed7d6faf20765a4d625f4b7d09004421b",
+        "forecast_meta.json": "5059726c12e9045dac32239e536cae94f3bb4f4a06cac648d7960ed1759c0ecd"
+      }
+    },
+    {
+      "label": "monthly-heterogeneous",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            4,
+            5,
+            6
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "cell_std": [
+          [
+            0.2667734913676938,
+            0.5251927825005279,
+            0.7617548263983172,
+            0.9633413919548018
+          ],
+          [
+            262.59639125026393,
+            481.6706959774015,
+            559.497049079435,
+            574.296062617369
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 186936
+      },
+      "wall_seconds": 1.709735694999992,
+      "output_bytes": 30708,
+      "hashes": {
+        "forecast_rationale.md": "3cbdcbcefeb6b181c5e7ebc930b967816df0bbb64ab9d8daac000008a585e2a2",
+        "forecast.parquet": "bd2643c591ce013c28aa38d7ce55b9783e6fbd4d40a86c008f26cfb46acbea0a",
+        "forecast_meta.json": "33d6ea0b4a6cad6fb1b7483e8175829d69cf1a237aec12b4cf9f96197951fb5a"
+      }
+    },
+    {
+      "label": "monthly-heterogeneous-anchor",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL",
+          "NFP"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            2,
+            3,
+            4
+          ],
+          [
+            2,
+            3,
+            4,
+            5
+          ]
+        ],
+        "monthly_union": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "cell_std": [
+          [
+            0.26799402830100255,
+            0.5289463972687056,
+            0.7689492796058767,
+            0.9745087861437928
+          ],
+          [
+            264.47319863435393,
+            384.47463980293884,
+            487.2543930718966,
+            567.1863808278508
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 186008
+      },
+      "wall_seconds": 1.7459746580000086,
+      "output_bytes": 21415,
+      "hashes": {
+        "forecast_rationale.md": "c9108dd63f9acee9be3930ecd2fd1f3436f0b4e582fb24152bcb359d93ef4838",
+        "forecast.parquet": "b0b759b0385f5ec4710fb18e9e22f585ed7a6941ed8c63459d3ab886fa20cccb",
+        "forecast_meta.json": "122fddffbe5c9c52654753c00fa61d1368f8ed13ebbe869ea51b0b66e603fa72"
+      }
+    },
+    {
+      "label": "monthly-nonconsecutive",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 0,
+      "expected_rejection": false,
+      "rejection_safe": null,
+      "error": "",
+      "official_gate_pass": true,
+      "kernel": {
+        "kernel_exact": true,
+        "assets": [
+          "CPI_ALL"
+        ],
+        "output_keys": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "step_matrix": [
+          [
+            1,
+            3,
+            6,
+            10
+          ]
+        ],
+        "monthly_union": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "cell_std": [
+          [
+            0.2667734913676938,
+            0.761754826398317,
+            1.1485921252347344,
+            1.596403683718577
+          ]
+        ],
+        "covariance_exact": true
+      },
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 184236
+      },
+      "wall_seconds": 1.7411268159999906,
+      "output_bytes": 34651,
+      "hashes": {
+        "forecast_rationale.md": "09de3d210154d01986d2dc155cb844961a810062f87cab62f71bcca8c688a01d",
+        "forecast.parquet": "76161cddf27e40eac2f6ba6b4735b2abdde279d57a3c383d519b94995a6e5cc3",
+        "forecast_meta.json": "c34d8a528ca23c959c4033b0e91f077cd79e7549c8e79a1bf78ac09ca936df71"
+      }
+    },
+    {
+      "label": "monthly-duplicate-mapping",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 1,
+      "expected_rejection": true,
+      "rejection_safe": true,
+      "error": "Each monthly question must have a unique grid key.",
+      "official_gate_pass": null,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 181728
+      },
+      "wall_seconds": 1.727535704999994,
+      "output_bytes": 0,
+      "hashes": {}
+    },
+    {
+      "label": "monthly-mixed-cadence",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 1,
+      "expected_rejection": true,
+      "rejection_safe": true,
+      "error": "Monthly target series need unique monthly observations.",
+      "official_gate_pass": null,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 181092
+      },
+      "wall_seconds": 1.6993501229999879,
+      "output_bytes": 0,
+      "hashes": {}
+    },
+    {
+      "label": "monthly-unsupported-cadence",
+      "input_kind": "SYNTHETIC_CONTRACT_TEST",
+      "exit": 1,
+      "expected_rejection": true,
+      "rejection_safe": true,
+      "error": "Monthly target series need unique monthly observations.",
+      "official_gate_pass": null,
+      "kernel": null,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 181480
+      },
+      "wall_seconds": 1.6877611870000067,
+      "output_bytes": 0,
+      "hashes": {}
+    }
+  ],
+  "new_final_cards_tested": 0,
+  "full_previous_120_checks_rerun": false
+}

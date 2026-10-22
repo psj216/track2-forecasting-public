@@ -1,0 +1,277 @@
+{
+  "executive_summary": "Sixteen public cards sequential plus four concurrent isolated exact-image containers passed; actual Final roster remains unavailable.",
+  "actions_run": 39733727450,
+  "sequential_cards": 16,
+  "sequential_total_wall_seconds": 27.668362911000003,
+  "after_batch_identity": true,
+  "sequential": [
+    {
+      "label": "seq-0",
+      "unit": "t2-F1-curve-ust1y-001-ps1",
+      "exit": 0,
+      "wall_seconds": 1.8053159190000088,
+      "output_bytes": 15116,
+      "hashes": {
+        "forecast_rationale.md": "a17a805e6c0a0853401531e1d7df5e3429c949e513af25f0d2fb76b101a12271",
+        "forecast.parquet": "5e1d11d8edd93ee35ffc1ed2b1e72782c22a4fbabe2782312ee91b72d7e4afa1",
+        "forecast_meta.json": "40eab607e63f6b8e53b9921dc124faf52b62ba91d8fbc9aed254f249333bdeca"
+      }
+    },
+    {
+      "label": "seq-1",
+      "unit": "t2-F1-curve-ust3m-002-ps1",
+      "exit": 0,
+      "wall_seconds": 1.8021895229999814,
+      "output_bytes": 15652,
+      "hashes": {
+        "forecast_rationale.md": "8d34639c1d9fb77047c441988e15168f8f07ef9356386ce73af477a0335d2367",
+        "forecast.parquet": "f150fd592e61ee3bde5ec9060c52b27b18affe2673f17bb53c8f13ac4acb9fe0",
+        "forecast_meta.json": "c8948cd86aef9c5aa9c22314e52890554af19dbef6efe9cb6da92c348371cba7"
+      }
+    },
+    {
+      "label": "seq-2",
+      "unit": "t2-F1-fx-eur-020-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7080421169999909,
+      "output_bytes": 20512,
+      "hashes": {
+        "forecast_rationale.md": "1205ef951e6a78143bf11a20f2b55343a7cd7f574429fb9c00cc01d098070a16",
+        "forecast.parquet": "fd4aec95a326f4ec89fdb883a249b383e35364ec5c178d9d232027a9b481ef3b",
+        "forecast_meta.json": "b9842817e88e6c9b8cd3d6633a897b33b74b09d22fdf8302fb65df054b9037a2"
+      }
+    },
+    {
+      "label": "seq-3",
+      "unit": "t2-F1-fx-inr-010-ps1",
+      "exit": 0,
+      "wall_seconds": 1.644778242000001,
+      "output_bytes": 21193,
+      "hashes": {
+        "forecast_rationale.md": "e6f6ef5a2380c93427b2e271341078711cb6174b79ce7ec02991b8dab82419cd",
+        "forecast.parquet": "b837599f2ce5c8dc3030a368b2f1dd68c302c9f98e48e5dc1c52bb6c0082e97a",
+        "forecast_meta.json": "a15577a02771ec6a362d7baf0f52b3eb07e51d64d959c02c67433442028f1c6b"
+      }
+    },
+    {
+      "label": "seq-4",
+      "unit": "t2-F1-fx-krw-011-ps1",
+      "exit": 0,
+      "wall_seconds": 1.6888703660000033,
+      "output_bytes": 20605,
+      "hashes": {
+        "forecast_rationale.md": "5bfce92d3380b9de413e90be75f7913aafbd09ec01b376ebea713a8e606341e5",
+        "forecast.parquet": "75fa2afc10b054c690981ab0b444e4a36057f5cad5ec4e676046393150deb380",
+        "forecast_meta.json": "a2edf66f994f9194de952d22032d7e30158a8bbcdb9fa3c4ce6d499c2f8e30ad"
+      }
+    },
+    {
+      "label": "seq-5",
+      "unit": "t2-F1-fx-zar-009-ps1",
+      "exit": 0,
+      "wall_seconds": 1.687023264000004,
+      "output_bytes": 19603,
+      "hashes": {
+        "forecast_rationale.md": "51d0b9fa02eff8e241a9832fb4f2e208f1bab42c5a032e8934542eb89fd95f85",
+        "forecast.parquet": "05d0184d218c790785bda65b01ef57804e0e729916d4477f0a904750a2e7bc18",
+        "forecast_meta.json": "ff3bbada399e99f506bf1c23c4f5c1341c476e2c954e0de0aa1dd0e60d3f6c62"
+      }
+    },
+    {
+      "label": "seq-6",
+      "unit": "t2-F2-curve-ust1y-003-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7444063100000164,
+      "output_bytes": 16815,
+      "hashes": {
+        "forecast_rationale.md": "316e7649f33c5c3a903cdc030287d2d2c9f902c6eb4786482838056e998e782c",
+        "forecast.parquet": "d07a94a2150d0e8b0b6f0bd701be179f5c4356bf2dbfa72fd7d3464f8d1aa6e9",
+        "forecast_meta.json": "acf0792782066173852473358c3bb4c8729a49b5e37188f64c7a93e7ed992dff"
+      }
+    },
+    {
+      "label": "seq-7",
+      "unit": "t2-F2-curve-ust6m-004-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7465699569999913,
+      "output_bytes": 15684,
+      "hashes": {
+        "forecast_rationale.md": "a5a05b6104c771224584d3347ddcaaa8647181064ba38b7d6c4a1514374b8ea0",
+        "forecast.parquet": "a118a904a7064f11d170eea7dabe6e306dff261225dd4bba5599ca204ea11684",
+        "forecast_meta.json": "d070792c9e8914617180a4133e2b8536e4b3d9f2e81887359693c6f06b62e54b"
+      }
+    },
+    {
+      "label": "seq-8",
+      "unit": "t2-F2-fx-brl-012-ps1",
+      "exit": 0,
+      "wall_seconds": 1.6873161679999953,
+      "output_bytes": 21300,
+      "hashes": {
+        "forecast_rationale.md": "ff653161337ebe842d67b92cb4a996fdf54f49a87a8511baa1d9682176e1c1c4",
+        "forecast.parquet": "ae429c73b54a6b89980a8b69d6bd3b6c2ca49dc71a3c8e9529f2ca21b3391e63",
+        "forecast_meta.json": "5d50451dbad6d1e47c53ad5458ee065af1f2a5d4369066ed2e2e55cd9cba95b5"
+      }
+    },
+    {
+      "label": "seq-9",
+      "unit": "t2-F2-fx-eur-021-ps1",
+      "exit": 0,
+      "wall_seconds": 1.685196392000023,
+      "output_bytes": 20329,
+      "hashes": {
+        "forecast_rationale.md": "0f26aad1c9410493dbd22cfb4ab9b9887eed92984776250e08b7e6ce8641f980",
+        "forecast.parquet": "9ff2c43674eb1c288464814652f88505472194bc98c269c285c6721b8d3bf668",
+        "forecast_meta.json": "be53eb0125197638dda01c061ab20d35dc9744c28ac23ac4628ddef4331d10ee"
+      }
+    },
+    {
+      "label": "seq-10",
+      "unit": "t2-F2-fx-krw-015-ps1",
+      "exit": 0,
+      "wall_seconds": 1.6633883849999904,
+      "output_bytes": 20983,
+      "hashes": {
+        "forecast_rationale.md": "74838868d4539df4f6842bb8cdf0193d523a9fb46731bc087a62ce0677f84ad9",
+        "forecast.parquet": "930df5a0eb9bab150a612860346c037911ef33dd764052804bba8a98e92d21ba",
+        "forecast_meta.json": "e2d77a2b44ac560d4e42918640752b7e84f75514df15120f0980fb27bd829d08"
+      }
+    },
+    {
+      "label": "seq-11",
+      "unit": "t2-F2-fx-mxn-013-ps1",
+      "exit": 0,
+      "wall_seconds": 1.692285523999999,
+      "output_bytes": 21046,
+      "hashes": {
+        "forecast_rationale.md": "f89401fac945d8e95f5cee0a1edb25bab21d3f7583def4134bc56764d36a134a",
+        "forecast.parquet": "f59c603b4b2fa8dd7f9c8b198a579259e1ca7973787bbc6a84bff2eda604d278",
+        "forecast_meta.json": "713a69673dfece194a2f1aaa59e5e7b18d8de7a845493abb4edd34209306b498"
+      }
+    },
+    {
+      "label": "seq-12",
+      "unit": "t2-F2-fx-zar-014-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7855228409999881,
+      "output_bytes": 21157,
+      "hashes": {
+        "forecast_rationale.md": "fad0fbe53408d322261f129f83925754a4bdb85beec537a0fd509e3c68f6fbc6",
+        "forecast.parquet": "3014922d35bad2eae111ef0124d43398fb0fcd4aa4d71b737dbaf36291e60fdf",
+        "forecast_meta.json": "2959ef3670bc7cb35b9433806c49fc175b627d59a099076dc96e5820cdcda2b9"
+      }
+    },
+    {
+      "label": "seq-13",
+      "unit": "t2-F3-curve-ust3m-ust6m-ust1y-006-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7417817230000026,
+      "output_bytes": 19408,
+      "hashes": {
+        "forecast_rationale.md": "635e76e134dc7af3ddf03f771327ffdf1732fcd23a447d6d9d291296203cae5b",
+        "forecast.parquet": "6829da8d64ee73b82d1da04168902c464ebbab5147cde8026482fe6bd884cbb1",
+        "forecast_meta.json": "41543a8623bcd88c62f58f716c36bbfa52c79dd7eebb7488fa027cbcf799596c"
+      }
+    },
+    {
+      "label": "seq-14",
+      "unit": "t2-F3-curve-ust3m-ust6m-ust1y-ust2y-005-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7324938570000086,
+      "output_bytes": 21786,
+      "hashes": {
+        "forecast_rationale.md": "764627753dc34b8d60c3965288e49e21fab64374f8650c62d5f07998ce813b10",
+        "forecast.parquet": "082ce47971503f2e837f24f41bcc3279af495957f33fc126c0e77a90a71e35be",
+        "forecast_meta.json": "4c5d5d1714a13916f09ba138948f6b1a33a7e6e55ff26c83475de924ad04a2d3"
+      }
+    },
+    {
+      "label": "seq-15",
+      "unit": "t2-F3-fx-eur-jpy-chf-022-ps1",
+      "exit": 0,
+      "wall_seconds": 1.7894988239999918,
+      "output_bytes": 26408,
+      "hashes": {
+        "forecast_rationale.md": "4e0dbd00fb84ffe617f195120d4dabadcca71cbf59b19822dcba13be86894d79",
+        "forecast.parquet": "51def7c487011710dc9e50d898e89b156dd5e3a9453a13334010b0078657ba37",
+        "forecast_meta.json": "6cc5bc35969c0585f0d58011655d742b8583a80e89b70d1498408eefd2b618c5"
+      }
+    }
+  ],
+  "concurrent_containers": 4,
+  "concurrent_total_wall_seconds": 3.7911859710000044,
+  "concurrent_repeat_equal": true,
+  "concurrent": [
+    {
+      "label": "parallel-0",
+      "unit": "t2-F1-curve-ust1y-001-ps1",
+      "exit": 0,
+      "wall_seconds": 3.1807856909999828,
+      "output_bytes": 15116,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 188140
+      },
+      "hashes": {
+        "forecast_rationale.md": "a17a805e6c0a0853401531e1d7df5e3429c949e513af25f0d2fb76b101a12271",
+        "forecast.parquet": "5e1d11d8edd93ee35ffc1ed2b1e72782c22a4fbabe2782312ee91b72d7e4afa1",
+        "forecast_meta.json": "40eab607e63f6b8e53b9921dc124faf52b62ba91d8fbc9aed254f249333bdeca"
+      }
+    },
+    {
+      "label": "parallel-1",
+      "unit": "t2-F3-dollar-squeeze-2020",
+      "exit": 0,
+      "wall_seconds": 3.532325224999994,
+      "output_bytes": 211735,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 203632
+      },
+      "hashes": {
+        "forecast_rationale.md": "8ff95c192aaad21c9cbc9055e87f4c206543f1b6896b8c4b8ee2a9808fdaa28a",
+        "forecast.parquet": "c68f091a488acd23ced9c8c228292d022227d0051e0eb628e69184feea230734",
+        "forecast_meta.json": "857694a414b7c1549d15c488e0e7bce7dfbe4de71b148901f825e910e8d9d80f"
+      }
+    },
+    {
+      "label": "parallel-2",
+      "unit": "t2-F1-curve-ust1y-001-ps1",
+      "exit": 0,
+      "wall_seconds": 3.1756163329999936,
+      "output_bytes": 15116,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 187932
+      },
+      "hashes": {
+        "forecast_rationale.md": "a17a805e6c0a0853401531e1d7df5e3429c949e513af25f0d2fb76b101a12271",
+        "forecast.parquet": "5e1d11d8edd93ee35ffc1ed2b1e72782c22a4fbabe2782312ee91b72d7e4afa1",
+        "forecast_meta.json": "40eab607e63f6b8e53b9921dc124faf52b62ba91d8fbc9aed254f249333bdeca"
+      }
+    },
+    {
+      "label": "parallel-3",
+      "unit": "t2-F3-dollar-squeeze-2020",
+      "exit": 0,
+      "wall_seconds": 3.781667055000014,
+      "output_bytes": 211735,
+      "child_memory": {
+        "forecast_child_peak_rss_kib": 203712
+      },
+      "hashes": {
+        "forecast_rationale.md": "8ff95c192aaad21c9cbc9055e87f4c206543f1b6896b8c4b8ee2a9808fdaa28a",
+        "forecast.parquet": "c68f091a488acd23ced9c8c228292d022227d0051e0eb628e69184feea230734",
+        "forecast_meta.json": "857694a414b7c1549d15c488e0e7bce7dfbe4de71b148901f825e910e8d9d80f"
+      }
+    }
+  ],
+  "largest_public_grid_card": "t2-F3-dollar-squeeze-2020",
+  "first_forecast_after_archive_restore_seconds": 1.792366512000001,
+  "subsequent_forecast_seconds": 1.7372665679999955,
+  "cold_warm_scope": "Fresh per-card containers; Docker startup plus inference. OS page cache not cleared. Pull/restore excluded from per-card measurements; not a pure cold-cache benchmark.",
+  "peak_forecast_child_rss_kib_observed": 203712,
+  "memory_scope": "resource.RUSAGE_CHILDREN.ru_maxrss for forecast child; not full-container cgroup peak.",
+  "observed_max_card_wall_seconds": 3.781667055000014,
+  "observed_max_output_bytes": 211735,
+  "full_final_48_card_measurement": "NOT_RUN_INPUTS_NOT_PUBLISHED",
+  "three_set_estimate_seconds_excluding_pull": 83.00508873300001,
+  "estimate_scope": "Linear estimate from 16 public short-horizon cards, not guarantee for unseen Final/Macro; 12h run and 1800s card caps independently apply."
+}

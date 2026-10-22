@@ -1,0 +1,52 @@
+{
+  "python": "3.13.15 (main, Sep 19 2026, 01:05:56) [GCC 12.2.0]",
+  "source": {
+    "official.py": "d0400ade5dfb2e96fbaad70f1f2cfd0340d7f550cab295f208dfeedf443e0927",
+    "numeric_v21.py": "bff80dad9aae4f9dcd1af880f6fcf4ae2dd4125dae619dde9cb869316b414547",
+    "text_interpreter_v51.py": "c60466ddd4b32c51a7754a97945cc17f2fc278d81d248dd0f48f48f8fa4d4f3f",
+    "numeric_v4.py": "8d49f13ffd88caf1c0fae207a56639c1b4fd57add50757db04778bbb7a02e4df",
+    "cli.py": "ee02f3722e369befe181299d3f6da2d1c594e33d48671e51a49263a16d788fa0",
+    "grid.py": "ffac56e438b447bea5fbc2fb8e766cef25ef81c79d99e7be2752a4ea532126d0",
+    "regime_router.py": "2d4b872183b02017e899d0029b99cef247ea40665a749cdd6ba0bddfb832a1c0",
+    "normalization.py": "f933362a370e09daf6d0a9216c28684c9d84eaedc020cf1cce85fd938bb0b2eb",
+    "historical_heads.py": "a4e564133da57ea9d3e9cf253420aef70223b00566a3c000cf271720215152c2",
+    "tail.py": "189fa879fdec703ed3ce593ac44b8a285638fe32bd42c56ee7a774fdd895d8e0",
+    "scenario_integration.py": "5ff75008c3f6a96e2adcbd0ec59802138c89a84c10826bc9e7a5dcd405331fad",
+    "integrated_v4.py": "517c800c8a646cb9f62fd5db1a863d9a66f8d41fda69b1733d12fe44e16c839e",
+    "scoring.py": "030a9d88469bc2191d1652648cff2ed67f587a3d8edaa1989f2c2c1620190633",
+    "family_calibration.py": "b902bba0215655ce7b9adae1ffde2b1a567d0d1e2a75cc00728258ce4c0b9b86",
+    "cutoff.py": "26539064fb0889740aa0c966df0e0b2182ea4648a7b8cfaf56813ea87a3126ba",
+    "family_pipeline.py": "e13ab4d9f5245a13b926bca19cb42fa10961e17cfd976525bc11758119e82fde",
+    "failures.py": "92fee4de0f4b75ab4df3b84850d3e4d0a5846629c5923a2d3105c712c1b997d2",
+    "__init__.py": "fda9c66b0eb87161f0e2a837bd9eaf32a7a15a004c72334b4d1c24cf19f32212",
+    "numeric_v2.py": "fa68a7f3ec0cf035ec028638e944217f86c28b40ac54f6d9dac84459f3d52d71",
+    "numeric_v1.py": "f5cd5d68b4fd1edf576117df796502cb1a38cc620bdc50f52972e6f7acbdb679",
+    "numeric_v3.py": "edb94b2c55f250b8a92ca7c6f00fa3699d0273a2fc3bf428b87337f37c880379",
+    "f1_center.py": "d5f89077dbf172e20b1147e9820d390846b226f3588fe68c95287133358953ed",
+    "text_evidence.py": "25b68a20d8e8c9906c4775782c9e668569e5ba05ed7b6c898e11844e91c71a8e",
+    "text_first_v5.py": "c11fc835bc754b219f6a742df747a6a51f7fbdadff1ab49c4a0aaea7f081d432",
+    "aggregate.py": "89d71ccd3783db0f70937c278dab5f1367f482b058e6b634f76b22b68bacb211",
+    "limits.py": "5aa33f7d3221bc479ad02059db2296eb598de38c8f30d9c884edb3384b3fcadf"
+  },
+  "wrapper": {
+    "candidate_monthly.py": "c8abb643042c21df7e471febf1cee24324cddf29b0717f508de0639887574a55",
+    "official_horizons.py": "e82af15975f89bb3f49331bafd63e701a4da6951b9a962936532ca9ac282642c"
+  },
+  "dependencies": {
+    "pip": "26.2.1",
+    "jsonschema-specifications": "2025.9.1",
+    "six": "1.17.0",
+    "jsonschema": "4.23.0",
+    "pyarrow": "18.1.0",
+    "pytz": "2026.4",
+    "attrs": "26.1.0",
+    "rpds-py": "2026.6.3",
+    "scipy": "1.18.1",
+    "referencing": "0.37.0",
+    "qfbench2-common": "2.4.2",
+    "pandas": "2.2.3",
+    "numpy": "2.1.3",
+    "python-dateutil": "2.9.0.post0",
+    "tzdata": "2026.4"
+  }
+}

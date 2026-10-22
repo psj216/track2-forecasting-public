@@ -1,0 +1,50 @@
+{
+  "executive_summary": "Exact restored FF03 image passes measured container/runtime gates. Registry publication and package remain separate.",
+  "actions_run": 39733727450,
+  "local_image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "registry_manifest_digest": null,
+  "os": "linux",
+  "architecture": "amd64",
+  "interface_version": "2.0",
+  "user": "1000",
+  "entrypoint": null,
+  "cmd": [
+    "forecast",
+    "--help"
+  ],
+  "volumes": null,
+  "labels": {
+    "org.opencontainers.image.base.digest": "sha256:0b9b08d8a6b59eca262d77778d2b2a9b33bb938ab68c4db8f71538302f3bf874",
+    "org.opencontainers.image.revision": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+    "qfbench2.forecast_mode": "text-first-v5.1",
+    "qfbench2.interface_version": "2.0",
+    "qfbench2.track": "forecasting",
+    "qfbench2.verb": "forecast"
+  },
+  "readonly_input_and_root": true,
+  "output_writable": true,
+  "network_none": true,
+  "nonroot": true,
+  "source_hash_verification": "26 production files and 2 wrapper files PASS",
+  "shared_mutable_cache": "No persistent mount; independent tmpfs and output dirs; read-only root",
+  "cross_card_leakage_observed": false,
+  "output_collision_observed": false,
+  "multiple_independent_runs_pass": true,
+  "archive_restorable": true,
+  "source_rebuild_reproducibility": "NOT_RUN_UNPROVEN_DO_NOT_REBUILD_UNCHANGED_CANDIDATE",
+  "full_layer_audit": "PENDING_SUPPLEMENTAL_SMALL_LAYER_COVERAGE",
+  "inherited_build_record": "FINALFIT03-IMAGE-BUILD.json",
+  "previous_4_large_layer_scan": {
+    "layers_opened": 4,
+    "files_enumerated": 14186,
+    "findings": [],
+    "scope": "All layer filenames; bounded text/config files <=2MB credential-pattern scan, not proof against arbitrary hidden secrets."
+  },
+  "limits": {
+    "cpus": 2,
+    "memory_bytes": 4294967296,
+    "pids_limit": 256,
+    "tmpfs_bytes": 536870912
+  },
+  "unexpected_network_dependency_observed": false
+}
