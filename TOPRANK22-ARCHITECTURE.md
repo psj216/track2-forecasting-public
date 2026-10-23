@@ -1,0 +1,3 @@
+# Architecture status: PLANNED_NOT_IMPLEMENTED
+Requested model: TOPRANK22-ECP-JOINT, hierarchical regularized conditional factor model +Student-t innovations+event-state mixture. A:past-only market features. B:supervised released-policy information and changes. C:schedule information demonstrably published before origin. Joint paths across assets and1–4BD horizons. Monthly:unmodified FF03 safety module.
+No forecasting source, feature schema, hyperparameter lock, fitted scalers, factor loadings, Student-t degrees-of-freedom choice, model weights or ablation engine were created. Only executable data/source auditing code exists. Inventing arbitrary coefficients after a failed data gate would not satisfy the request.

@@ -1,0 +1,16 @@
+{
+  "status": "NOT_RUN",
+  "reason": "DATA_READINESS_GATE_NOT_PASSED",
+  "classification": "DATA_BLOCKED",
+  "new_forecasting_engine_implemented": false,
+  "training_rows_used": 0,
+  "model_weights": null,
+  "new_candidate_score": null,
+  "paired_ff03_score": null,
+  "independent_alpha": "UNKNOWN",
+  "promotion": false,
+  "model_name": "TOPRANK22-ECP-JOINT",
+  "architecture_status": "PLANNED_ONLY",
+  "image_id": null,
+  "registry_manifest_digest": null
+}

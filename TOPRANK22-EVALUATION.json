@@ -1,0 +1,17 @@
+{
+  "status": "NOT_RUN",
+  "reason": "DATA_READINESS_GATE_NOT_PASSED",
+  "classification": "DATA_BLOCKED",
+  "new_forecasting_engine_implemented": false,
+  "training_rows_used": 0,
+  "model_weights": null,
+  "new_candidate_score": null,
+  "paired_ff03_score": null,
+  "independent_alpha": "UNKNOWN",
+  "promotion": false,
+  "historical_ff03_2025_ecb_score": 0.9418927387445168,
+  "historical_score_scope": "Already-exposed ALPHA19 research cohort; NOT a TOPRANK22 paired baseline or authenticated Final score",
+  "absolute_improvement": null,
+  "relative_improvement": null,
+  "components": null
+}

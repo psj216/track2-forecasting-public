@@ -1,0 +1,18 @@
+# PIT audit — data gate not passed
+Actual data inventory and bounded primary-source acquisitions were executed. This is not an access-denied or empty-data result.
+126official cards,128distinct panel byte hashes,3,639,108rows across overlapping files and179,547distinct panel/asset/date keys were enumerated. Repeated copies are not independent observations.1139document references reduce to822distinct text byte hashes, not necessarily822distinct economic events. All index timestamps inspected are date-only. Dates alone can support conservative next-business-day activation, but do not prove original contents, revisions or complete publication coverage.
+
+## Important corrections to the initial mechanical audit
+1541different values at equal panel/asset/date are cross-card differences, not1541errors.1045are macro_monthly, whose card-specific ALFRED vintages are documented;496are rates_daily and were not adjudicated. Do not merge copies by choosing the newest or averaging them. The original example panel has an acknowledged source-label contradiction. Three identical document bodies have multiple index dates; official provenance explicitly permits later conservative Beige Book dates. Do not call those proven leakage.
+The246URL count is header-only. Manifest source fields and LANDMARKS.md carry further sources.79Fed-domain header candidates are a conservative screen, not the complete eligible corpus. No raw-body learning was done.
+
+## Official provenance limitations
+At pinned official3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56,data/PROVENANCE.md documents unresolved retrieval URLs for649files in the original set, reuse terms for369files, unsettled rights for8regional-Fed files,5unverified early-EM panels and private factor-library rights. These counts describe that document's original corpus and must not be silently combined with today's deduplicated822. Public-domain US government subsets are usable candidates; unresolved foreign/corporate works were not copied to the new branch or trained on.
+
+## New acquisitions
+Fed calendar, Jan29,2025statement, current ECB history, Treasury2026table and original Aug9,2024Fed schedule announcement acquired with byte hashes. The first Treasury request used an incorrect path and returned404; the corrected official /resource-center/data-chart-center path returned200. This is not an unavailable-source finding. The old file receipts/alpha19-newdata/ust.csv is HTML, not a training CSV; never parse it as numeric data.
+The Aug9,2024announcement supports2025/2026tentative dates, not a complete training-era schedule-availability ledger. The current ECB snapshot reaches2026; existence is not proof of untouched OOS or first-publication vintages. ECB's published framework permits correction/republication; current download is not automatically an original snapshot. Currency quote direction remains separate by panel; no unverified H.10/ECB ticker merge or FX conversion was performed.
+
+## Stop interpretation
+A fully validated market/text/schedule training join and chronological evaluation was NOT established. Training samples used=0; certified eligible count=UNKNOWN, not an assertion of zero possible samples. A narrower US-only/date-lagged/current-vintage exploratory study could potentially be designed, but it was not substituted for the requested full engine or used to bypass the registered data gate. DATA_BLOCKED applies to this execution's readiness, not a theorem of unavailable or useless information.
+No model was trained; no future labels were used for forecasts; absence of a trained model cannot be described as a successful PIT leakage test. Independence remains UNKNOWN.

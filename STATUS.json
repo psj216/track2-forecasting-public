@@ -1,31 +1,33 @@
 {
-  "executive_summary": "FINAL-FIT-05 investigation complete; exact FF03 retained with nonblocking risks. Publication/package/submission not performed.",
-  "branch": "track2/final-fit-05-numerical-release-readiness",
-  "parent_sha": "c6fcb0eec71e0442ed6d73a70c7cb958c221374b",
-  "PRE_sha": "e2d6105b83af836ac34a49bf3885da029e42c900",
-  "result_sha_resolution": "remote branch HEAD; self-referential SHA not embedded",
-  "stage": "RESULT",
-  "classification": "FF03_RETAINED_WITH_NONBLOCKING_RISKS",
+  "stage": "RESULT_DATA_GATE_STOP",
+  "classification": "DATA_BLOCKED",
+  "branch": "track2/top-rank-22-event-conditioned-probabilistic-engine",
+  "parent": "122ad52b3ba28bca06f480b723a0e82502bc77d4",
+  "pre": "817bd6bc1b71c314999a4f4cebbd535d9dba6be5",
+  "result_sha": "ENCLOSING_COMMIT_VERIFIED_EXTERNALLY",
+  "scope_authorization": "USER_EXPLICITLY_APPROVED_AFTER_INITIAL_AUTO_REVIEW_REJECTION",
   "completed": [
-    "PRE",
-    "PORTABILITY",
-    "DECISION",
-    "REGRESSION",
-    "RELEASE",
-    "REPORT"
+    "recovery",
+    "official_rules",
+    "history_review",
+    "actual_data_inventory",
+    "public_source_acquisition",
+    "pit_rights_exposure_audit",
+    "report"
   ],
-  "last_successful_artifact": "FINALFIT05-RELEASE-GATE.json",
-  "pending_authorized_steps": [
-    "registry publication",
-    "anonymous digest verification",
-    "team descriptor sealing",
-    "ZIP packing",
-    "Final upload"
+  "not_run": [
+    "forecast_engine",
+    "training",
+    "evaluation",
+    "ablation",
+    "robustness",
+    "candidate_Docker"
   ],
-  "pending_unknown_metadata": [
-    "Macro Final",
-    "ranked ECB G10"
-  ],
-  "HARDENING_RESULT": "NOT_APPLICABLE",
-  "updated_at": "2026-10-22T06:34:04.340268+00:00"
+  "selected_candidate": "ORIGINAL_FF03",
+  "registry_push": "NOT_RUN",
+  "team_key": "NOT_ACCESSED",
+  "final_zip": "NOT_CREATED",
+  "codabench": "NOT_SUBMITTED",
+  "next_action": "Existing FF03 release preparation; no automatic further model research",
+  "updated": "2026-10-23 Asia/Seoul"
 }

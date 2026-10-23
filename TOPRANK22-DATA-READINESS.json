@@ -1,0 +1,476 @@
+{
+  "official_units": 126,
+  "unique_panel_bytes": 128,
+  "rows_across_unique_panel_files_not_independent": 3639108,
+  "deduplicated_panel_asset_date_cells": 179547,
+  "conflicting_panel_asset_date_cells": 1541,
+  "documents_references": 1139,
+  "unique_text_byte_hashes": 822,
+  "distinct_document_dates": 687,
+  "unique_text_by_year": {
+    "2002": 1,
+    "2003": 10,
+    "2004": 10,
+    "2005": 3,
+    "2006": 5,
+    "2007": 22,
+    "2008": 34,
+    "2009": 26,
+    "2010": 21,
+    "2011": 28,
+    "2012": 25,
+    "2013": 39,
+    "2014": 71,
+    "2015": 60,
+    "2016": 48,
+    "2017": 41,
+    "2018": 59,
+    "2019": 61,
+    "2020": 47,
+    "2021": 30,
+    "2022": 64,
+    "2023": 36,
+    "2024": 78
+  },
+  "unique_text_by_type": {
+    "fomc_statement": 111,
+    "fomc_minutes": 73,
+    "cb_speech": 304,
+    "beige_book": 75,
+    "macro_release": 101,
+    "central_bank_decision": 74,
+    "landmark": 49,
+    "treasury_refunding_statement": 6,
+    "government_press_release": 5,
+    "government_speech": 3,
+    "statistical_release": 4,
+    "positioning_report": 5,
+    "central_bank_minutes": 5,
+    "government_statement": 1,
+    "corporate_8k": 5,
+    "treasury_extraordinary_measures": 1,
+    "treasury_borrowing_estimate": 1
+  },
+  "source_url_present": 246,
+  "date_only_timestamps": 822,
+  "issues": [
+    {
+      "sha256": "5a8929f8aa4e515300370d16c17416e0d74ad8e0dbabf4efb79673e5bafbc50a",
+      "issue": "conflicting_document_timestamps",
+      "timestamps": [
+        "2019-01-31",
+        "2019-01-16"
+      ]
+    },
+    {
+      "sha256": "563116e6f20a07bdecb3106d8719bcafaecbba9fa36b4f4b5231ba536e26b233",
+      "issue": "conflicting_document_timestamps",
+      "timestamps": [
+        "2014-10-15",
+        "2014-10-31"
+      ]
+    },
+    {
+      "sha256": "6addfbc8168ebdb5d914e4c44b82ec44a7619d2491adf912c121acd90bcfeaa5",
+      "issue": "conflicting_document_timestamps",
+      "timestamps": [
+        "2021-12-31",
+        "2021-12-01"
+      ]
+    }
+  ],
+  "market_coverage": {
+    "rates_daily/UST_10Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6250
+    },
+    "rates_daily/UST_2Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6250
+    },
+    "rates_daily/UST_30Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6250
+    },
+    "rates_daily/UST_5Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6250
+    },
+    "factors_daily/BAB": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6370
+    },
+    "factors_daily/HML": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6142
+    },
+    "factors_daily/MKT": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6142
+    },
+    "factors_daily/MOM": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6142
+    },
+    "factors_daily/QMJ": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6370
+    },
+    "factors_daily/SMB": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-05-31",
+      "observations": 6142
+    },
+    "g10_fx_daily/AUD": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/CAD": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/CHF": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/DKK": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/EUR": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/GBP": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/JPY": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/NOK": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/NZD": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "g10_fx_daily/SEK": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-10-31",
+      "observations": 6228
+    },
+    "rates_daily/UST_20Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6245
+    },
+    "rates_daily/UST_7Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2024-12-18",
+      "observations": 6245
+    },
+    "macro_monthly/CPI_ALL": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "macro_monthly/CPI_CORE": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "macro_monthly/NFP": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "macro_monthly/PCE_ALL": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "macro_monthly/PCE_CORE": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "macro_monthly/UNRATE": {
+      "date_min": "2000-01-01",
+      "date_max": "2024-06-01",
+      "observations": 294
+    },
+    "rates_daily/UST_1Y": {
+      "date_min": "2000-01-03",
+      "date_max": "2022-12-12",
+      "observations": 5740
+    },
+    "rates_daily/UST_3M": {
+      "date_min": "2000-01-03",
+      "date_max": "2022-12-12",
+      "observations": 5740
+    },
+    "rates_daily/UST_6M": {
+      "date_min": "2000-01-03",
+      "date_max": "2022-12-12",
+      "observations": 5740
+    },
+    "em_fx_ecb_daily/BRL": {
+      "date_min": "2009-01-02",
+      "date_max": "2021-03-15",
+      "observations": 3123
+    },
+    "em_fx_ecb_daily/INR": {
+      "date_min": "2009-01-02",
+      "date_max": "2021-03-15",
+      "observations": 3123
+    },
+    "em_fx_ecb_daily/KRW": {
+      "date_min": "2009-01-02",
+      "date_max": "2021-03-15",
+      "observations": 3123
+    },
+    "em_fx_ecb_daily/MXN": {
+      "date_min": "2009-01-02",
+      "date_max": "2021-03-15",
+      "observations": 3123
+    },
+    "em_fx_ecb_daily/ZAR": {
+      "date_min": "2009-01-02",
+      "date_max": "2021-03-15",
+      "observations": 3123
+    },
+    "em_transfer_early/BRL": {
+      "date_min": "1995-01-02",
+      "date_max": "2013-05-24",
+      "observations": 2110
+    },
+    "em_transfer_early/CNY": {
+      "date_min": "1995-07-31",
+      "date_max": "2018-06-15",
+      "observations": 3243
+    },
+    "em_transfer_early/INR": {
+      "date_min": "1993-05-24",
+      "date_max": "2013-05-24",
+      "observations": 2517
+    }
+  },
+  "inherited_ecb_snapshot": {
+    "file": "ecb",
+    "sha256": "93bac351c4a60e612e641150f2392db9f85fe497336ee9d71c4d241f70063eda",
+    "bytes": 641589,
+    "historical_vintage": "NOT_AUTHENTICATED_CURRENT_SNAPSHOT",
+    "members": [
+      "eurofxref-hist.csv"
+    ],
+    "rows": 7119,
+    "columns": [
+      "Date",
+      "USD",
+      "JPY",
+      "BGN",
+      "CYP",
+      "CZK",
+      "DKK",
+      "EEK",
+      "GBP",
+      "HUF",
+      "LTL",
+      "LVL",
+      "MTL",
+      "PLN",
+      "ROL",
+      "RON",
+      "SEK",
+      "SIT",
+      "SKK",
+      "CHF",
+      "ISK",
+      "NOK",
+      "HRK",
+      "RUB",
+      "TRL",
+      "TRY",
+      "AUD",
+      "BRL",
+      "CAD",
+      "CNY",
+      "HKD",
+      "IDR",
+      "ILS",
+      "INR",
+      "KRW",
+      "MXN",
+      "MYR",
+      "NZD",
+      "PHP",
+      "SGD",
+      "THB",
+      "ZAR",
+      "Unnamed: 42"
+    ],
+    "first_column_min": "1999-01-04",
+    "first_column_max": "2026-10-21",
+    "missing_by_column": {
+      "Date": 0,
+      "USD": 0,
+      "JPY": 0,
+      "BGN": 604,
+      "CYP": 4815,
+      "CZK": 0,
+      "DKK": 0,
+      "EEK": 4045,
+      "GBP": 0,
+      "HUF": 0,
+      "LTL": 3022,
+      "LVL": 3277,
+      "MTL": 4815,
+      "PLN": 0,
+      "ROL": 5455,
+      "RON": 1664,
+      "SEK": 0,
+      "SIT": 5070,
+      "SKK": 4559,
+      "CHF": 0,
+      "ISK": 2341,
+      "NOK": 0,
+      "HRK": 2571,
+      "RUB": 2786,
+      "TRL": 5582,
+      "TRY": 1537,
+      "AUD": 0,
+      "BRL": 2304,
+      "CAD": 0,
+      "CNY": 1599,
+      "HKD": 0,
+      "IDR": 1599,
+      "ILS": 3074,
+      "INR": 2560,
+      "KRW": 0,
+      "MXN": 2304,
+      "MYR": 1599,
+      "NZD": 0,
+      "PHP": 1599,
+      "SGD": 0,
+      "THB": 1599,
+      "ZAR": 0,
+      "Unnamed: 42": 7119
+    }
+  },
+  "vintage_columns_present_panels": 0,
+  "training_executed": false,
+  "new_outcome_scores_computed": false,
+  "classification": "DATA_BLOCKED",
+  "scope": "Readiness for the requested full A+B+C engine; not a claim that public data do not exist or every possible smaller study is impossible",
+  "fed_header_screen_candidates": 79,
+  "training_rows_certified": null,
+  "training_rows_actually_used": 0,
+  "trained_weights_exist": false,
+  "gates": [
+    {
+      "gate": "M_MARKET_HISTORICAL_AVAILABILITY",
+      "status": "INCOMPLETE",
+      "evidence": "Current ECB history and Treasury2026 table retrieved. Current retrieval is not original per-origin vintage authentication; local raw panels have no per-observation availability/vintage columns. Monthly ALFRED vintages exist by card and must NOT be described as missing or as corrupt."
+    },
+    {
+      "gate": "B_POLICY_TEXT_TRAINING_JOIN",
+      "status": "INCOMPLETE",
+      "evidence": "79 unique-byte Fed-domain header candidates have unambiguous index dates,2007-2024; they are source-screen candidates, not fully verified independent releases or a trained dataset. Official corpus2025/2026 text count is zero; one2025statement was acquired. Full chronological text-change/outcome alignment and lawful multi-agency coverage remain unbuilt."
+    },
+    {
+      "gate": "C_SCHEDULE_KNOWN_AT_ORIGIN",
+      "status": "PARTIAL",
+      "evidence": "Original Fed2024-08-09 announcement of2025/2026 tentative meetings retrieved. This proves that schedule was published then; it does not recover the complete schedule-publication/change history across training years. Current calendar alone is insufficient."
+    },
+    {
+      "gate": "EVALUATION_INDEPENDENCE",
+      "status": "UNKNOWN",
+      "evidence": "2001-2024 histories exposed;2025ECB96-card cohort already exposed.2026data exist but have not been authenticated as an untouched, PIT-supported paired evaluation. Lack of independent data alone would limit promotion, not prohibit exploratory fitting; the combined training-join prerequisites also remain incomplete."
+    }
+  ],
+  "raw_conflicts_interpretation": "1541 differing panel/asset/date values:1045macro_monthly,496rates_daily. These are cross-card differences, not proven data errors. Original metadata describes card-specific ALFRED macro vintages and an example-panel provenance contradiction; no arbitrary deduplication was done.",
+  "timestamp_conflicts_interpretation": "3identical text bodies have differing index dates; conservative later timestamps are documented for Beige Books. Not proof of future leakage.",
+  "source_url_count_scope": "246 counts URLs in first1500 characters only. It is NOT total provenance coverage: manifests and LANDMARKS.md also hold URLs.",
+  "source_probes": [
+    {
+      "name": "fed2026",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "final_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 164813,
+      "sha256": "219ad6b5822d73cb5e8efa7fab354e02c42b4846d1427283780a8f470afb5085",
+      "local_path": "/tmp/toprank22-primary-probes/fed2026",
+      "seconds": 4.63450692699999,
+      "PIT": "NOT_ESTABLISHED_BY_CURRENT_FETCH"
+    },
+    {
+      "name": "fed2025statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm",
+      "final_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm",
+      "status": 200,
+      "content_type": "text/html",
+      "bytes": 81280,
+      "sha256": "ec972fbce2433e397ed6af193ebd691f5d639c5018c543b70f14f0bee2168edb",
+      "local_path": "/tmp/toprank22-primary-probes/fed2025statement",
+      "seconds": 4.629300645000001,
+      "PIT": "NOT_ESTABLISHED_BY_CURRENT_FETCH"
+    },
+    {
+      "name": "ecb_current_history",
+      "url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip",
+      "final_url": "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-hist.zip",
+      "status": 200,
+      "content_type": "application/zip",
+      "bytes": 641688,
+      "sha256": "ee0863afc160274357f17454f0201da28d3fd3218fe8ccd476fed88d2bde840a",
+      "local_path": "/tmp/toprank22-primary-probes/ecb_current_history",
+      "seconds": 7.308265422999995,
+      "PIT": "NOT_ESTABLISHED_BY_CURRENT_FETCH"
+    },
+    {
+      "name": "treasury2026",
+      "url": "https://home.treasury.gov/resource-center-data-chart-center/interest-rates/pages/xml?data=daily_treasury_yield_curve&field_tdr_date_value=2026",
+      "error": "HTTPError: HTTP Error 404: Not Found",
+      "seconds": 4.715327925999986,
+      "PIT": "NOT_VERIFIED"
+    },
+    {
+      "name": "treasury2026_corrected",
+      "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
+      "status": 200,
+      "sha256": "9b825747b7a7024dd55220c854f816097c3fed765330f17518f2625db5330eac",
+      "bytes": 1305718,
+      "local_path": "/tmp/toprank22-primary-probes/treasury2026_corrected"
+    },
+    {
+      "name": "fed2026_schedule_original",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240809a.htm",
+      "status": 200,
+      "sha256": "559550ed0e28453b9867ce4000f26c8e71baa11c27df6cbac64aed5aa0fdcb1b",
+      "bytes": 80650,
+      "local_path": "/tmp/toprank22-primary-probes/fed2026_schedule_original"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# DATA_BLOCKED
+Phase1stopped because the requested joint market/policy/schedule training data and defensible evaluation were not established. This is NOT NO_ALPHA or REGRESSION: neither has been measured. Public source access works after explicit user authorization; the blocker is research readiness.
+No new forecasting engine, learned weights, candidate predictions or Docker image. No0.85/0.80/0.70/0.60achievement. No change to FF03or any protected branch/image/archive/tag. Original FF03remains selected technical candidate. Actual registry publication, Team Key, packing and submission remain NOT_RUN.
+Exact next action: continue the separate original FF03release preparation. Do not allocate more Final-deadline work to this incomplete data pipeline or automatically start another model. Any later resumption must start from the uncompleted authenticated chronological training join, not rerun the inventory or invent a performance result.
