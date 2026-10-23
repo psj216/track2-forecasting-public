@@ -1,0 +1,22 @@
+{
+  "executive_summary": "100 host research forecasts finite, complete and repeat-identical; no Docker/CLI submission claim.",
+  "count": 100,
+  "repeats_identical": 100,
+  "post_asof_perturbation": "PASS_ONE_G10_UNIT",
+  "post2023_training_rejection": "PASS",
+  "official_cli": "NOT_RUN",
+  "docker": "NOT_RUN",
+  "dependency_versions": {
+    "python_forecast": "3.12.14",
+    "python_scoring": "3.13.16",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0",
+    "common": "2.6.1"
+  },
+  "source_hashes": {
+    "check.py": "5ed818de053a4ff6bc958ef8f5ff06e7deefb1d9bab344bb10f269ad63f33d44",
+    "model.py": "afbed61c3d74a8bc2f46715f1ae40256e6d367dfe8bc37e31e913748a42a6673",
+    "score.py": "6d46fe987621eab634828b847b1813b4dd27c8cfe93bdd1147cde717caec76f4"
+  }
+}

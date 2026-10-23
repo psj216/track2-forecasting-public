@@ -1,0 +1,66 @@
+{
+  "executive_summary": "Fixed full cohort diagnostics, no favorable-subset candidate selection.",
+  "best_quarter": "2",
+  "remove_best_quarter_gain": -0.004654037828872862,
+  "subset_scores": {
+    "asset:BRL": {
+      "ff03": 0.8012386238129389,
+      "candidate": 0.8227657707067207
+    },
+    "asset:CHF": {
+      "ff03": 1.2175578543918075,
+      "candidate": 1.2015211400834196
+    },
+    "asset:EUR": {
+      "ff03": 1.1791566759097944,
+      "candidate": 1.1407071438727607
+    },
+    "asset:INR": {
+      "ff03": 1.697869644326383,
+      "candidate": 1.668374968396849
+    },
+    "asset:JPY": {
+      "ff03": 0.8244219515183596,
+      "candidate": 0.8174153145937044
+    },
+    "asset:KRW": {
+      "ff03": 1.0726175352930054,
+      "candidate": 1.073987263466839
+    },
+    "asset:MXN": {
+      "ff03": 0.6542810142731604,
+      "candidate": 0.605839276597256
+    },
+    "asset:ZAR": {
+      "ff03": 0.9140489718828745,
+      "candidate": 0.8545040108910467
+    },
+    "horizon:1": {
+      "ff03": 0.9646247205201383,
+      "candidate": 0.9558248539963147
+    },
+    "horizon:2": {
+      "ff03": 0.8878169649298249,
+      "candidate": 0.8904301731861036
+    },
+    "horizon:3": {
+      "ff03": 0.8770059836584331,
+      "candidate": 0.8738801503429118
+    },
+    "horizon:4": {
+      "ff03": 0.9213099246548163,
+      "candidate": 0.9063669219196236
+    }
+  },
+  "remove_best_origin_gain": 0.0019045480247835782,
+  "worst_card_gain": -0.16687673172464734,
+  "ci95": [
+    -0.012936357877157011,
+    0.02680333861436472
+  ],
+  "independent_OOS": "NOT_ESTABLISHED",
+  "PIT": "PIT_AUTHENTICITY_LIMITED",
+  "only_one_evaluation_year": "LEAVE_ONE_YEAR_OUT_NOT_APPLICABLE",
+  "text_active_evaluation": "NOT_AVAILABLE_EMPTY_TEXT_INPUTS",
+  "new_candidate_parameter_search": "NOT_RUN"
+}
