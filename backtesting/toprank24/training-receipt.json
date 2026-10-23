@@ -1,0 +1,29 @@
+{
+  "executive_summary": "Frozen models trained only pre2024. Binary holds training paths and stays outside public repository.",
+  "training_file_sha256": "69c76d2218dafd51fb1529d93cc842d2b787ba79f2bfadc255a24f056338dfb6",
+  "model_sha256": "d94613b8e7afe0ecb13b08903d25abef13df400f1a35389b22eea10817f2c2db",
+  "models": [
+    {
+      "group": "ECB_EM",
+      "training_origins": 3597,
+      "first_origin": "2009-03-27",
+      "last_origin": "2023-12-18",
+      "last_target": "2023-12-22",
+      "features": 25,
+      "target_dimensions": 25,
+      "dates_sha256": "6f89f711cc77fc8eb75ff190e4e097aa27f4f5bfcb2e7a54eb16fca14fe592c0",
+      "paths_sha256": "0f819e1cdd3bbc51a6275d33293e9a4a7aa021281013277c87c5b5ad6edf3a91"
+    },
+    {
+      "group": "ECB_G10",
+      "training_origins": 4627,
+      "first_origin": "2005-01-03",
+      "last_origin": "2023-12-18",
+      "last_target": "2023-12-22",
+      "features": 15,
+      "target_dimensions": 15,
+      "dates_sha256": "b383f145015a21b7c38c9bac1970c99a9b1500e0449451a2ea317df9eb146bfe",
+      "paths_sha256": "cefd949dbff87528c551af93bca5c901f4b3755bf4135890fee2b0d993739139"
+    }
+  ]
+}

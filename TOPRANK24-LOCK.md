@@ -1,0 +1,2 @@
+## Executive summary (read this first)
+One candidate frozen before 2025 score evaluation. Training and four relevant checks PASS. EM3597 origins starts2009-03-27 due common history availability; G104627 starts2005-01-03. Last origin2023-12-18, last target2023-12-22. Source-derived leaf path model is private scratch only; model hash in receipt. Python3.12.14/sklearn1.8.0/numpy2.3.5/pandas2.2.3. No candidate outcome seen or parameter changed. Full evaluation imports unchanged official scoring via reused helpers. FF03 remains frozen.
