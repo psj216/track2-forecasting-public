@@ -1,0 +1,7 @@
+# TOPRANK23 PRE
+Separate research only. Frozen FF03 safety remains first submission choice.
+Parent e060f64350470328809f7f1c33ae2799d6af78b7.
+One learned joint distribution: pooled ridge mean and log squared residual scale, Student-t df7 innovations, trailing120 correlation shrunk20% to identity. Features normalized latest,5,20,60-day log returns and log vol20/60 ratio. Ridge penalty100, intercept unpenalized. Train 2005-2023 only; no hyperparameter search. Scale log regression corrected using training residual second moment, clipped [0.25,4] variance multiplier. Mean clipped +/-0.5 trailing60 daily standard deviations for numerical protection.
+Forecast fixed origin conditional parameters for4 daily steps,1000 joint paths seed17. No FF03 predictions used in construction. Scope current-vintage ECB currency units/USD groups from ALPHA19, same100 inputs,96 complete label grids. Monthly/UST/text NOT_IMPLEMENTED; this is an exploratory executable research model, not a submission adapter.
+2025 outcomes already exposed in prior research; no independent OOS claim. Current vintage PIT_AUTHENTICITY_LIMITED. Goal paired normalized gain>=0.010, block uncertainty interval positive; insufficient for promotion without independent evidence.
+Candidate and code frozen before evaluation. No outcome-driven adjustment or second model. Reuse exact archived FF03 Docker forecasts, verify receipts. No Registry, keys, ZIP, submission, protected ref changes.
