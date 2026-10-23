@@ -1,0 +1,80 @@
+{
+  "executive_summary": "Actual purged chronological training; final fit ends2023; validation-only penalty choice and risk fitting.",
+  "fit_origins": 4138,
+  "validation_origins": 407,
+  "final_fit_origins": 4545,
+  "samples_by_year": {
+    "2001": 200,
+    "2002": 206,
+    "2003": 206,
+    "2004": 206,
+    "2005": 206,
+    "2006": 210,
+    "2007": 211,
+    "2008": 207,
+    "2009": 206,
+    "2010": 215,
+    "2011": 206,
+    "2012": 206,
+    "2013": 206,
+    "2014": 206,
+    "2015": 211,
+    "2016": 206,
+    "2017": 210,
+    "2018": 201,
+    "2019": 206,
+    "2020": 207,
+    "2021": 215,
+    "2022": 192
+  },
+  "feature_count": 125,
+  "models": {
+    "full": {
+      "validation": [
+        {
+          "alpha": 100,
+          "normalized_mse": 1.2625116975372128
+        },
+        {
+          "alpha": 1000,
+          "normalized_mse": 1.2163728919287413
+        },
+        {
+          "alpha": 10000,
+          "normalized_mse": 1.2336235587944624
+        }
+      ],
+      "selected_alpha": 1000,
+      "model_sha256": "9bbbb81d01fc8a4e2fd42a48acc8deb4691c3f8b105194960420db1db8abd2bc",
+      "policy_columns": 25,
+      "constant_policy_columns": [
+        "policy_conflict",
+        "policy_schedule_available",
+        "policy_scheduled_event4"
+      ]
+    },
+    "ablation": {
+      "validation": [
+        {
+          "alpha": 100,
+          "normalized_mse": 1.1896963438222066
+        },
+        {
+          "alpha": 1000,
+          "normalized_mse": 1.1913371460697237
+        },
+        {
+          "alpha": 10000,
+          "normalized_mse": 1.2284478020136809
+        }
+      ],
+      "selected_alpha": 100,
+      "model_sha256": "9575396ba72a0644a89bc475ee7b08325b6418cb09d0abafd1a592254666d8c7",
+      "policy_columns": 0,
+      "constant_policy_columns": []
+    }
+  },
+  "training_matrix_sha256": "d64b818d6c9b416a064dc65f7a281481819648921d0450936198d910eee0b54a",
+  "max_feature_date": "2022-12-06",
+  "max_target_date": "2022-12-12"
+}

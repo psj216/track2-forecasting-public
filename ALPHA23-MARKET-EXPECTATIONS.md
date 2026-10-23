@@ -1,0 +1,2 @@
+## Executive summary (read this first)
+Curve levels, spreads, curvature and algebraic par-yield forward proxies are market-implied state features. They are NOT zero-coupon forward curves, OIS or futures-implied expected policy paths. Risk/term premia remain inseparable. Genuine FedFunds/SOFR/OIS histories NOT_ACQUIRED and not used. Policy lexical changes are information-state proxies, not identified surprise against market consensus.

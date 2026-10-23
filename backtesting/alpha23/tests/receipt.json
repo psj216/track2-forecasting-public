@@ -1,0 +1,14 @@
+{
+  "executive_summary": "Tests executed before scoring.",
+  "status": "PASS",
+  "checks": [
+    "finite1000x36",
+    "same_input_repeat",
+    "postasof_price_invariance",
+    "postasof_text_invariance",
+    "nextBD_activation",
+    "121row_feature_equivalence",
+    "positive_definite_covariance",
+    "training_target_cutoff"
+  ]
+}
