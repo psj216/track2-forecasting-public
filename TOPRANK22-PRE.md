@@ -1,0 +1,14 @@
+# TOP-RANK-22 PRE — data gate before model development
+Branch: track2/top-rank-22-event-conditioned-probabilistic-engine.
+Parent:122ad52b3ba28bca06f480b723a0e82502bc77d4. Original FF03 safety ref71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006 preserved.
+User requests a new hierarchical regularized conditional factor model, Student-t innovations and event-state mixture, not a postprocessor. Exact architecture/model parameters must be frozen before training if data readiness passes. No fitting or new target scoring has occurred at PRE.
+
+## Prerequisite gate
+Inventory actual panel rows/assets/date spans and deduplicated original documents; verify publication-date evidence, source rights, quote semantics, vintages and chronological exposure. Distinguish date truncation from historical availability. Current revised histories may be exploratory but cannot certify PIT. Duplicated card copies do not count as independent releases or observations. A named source or public website is not an acquired authenticated training corpus.
+Attempt bounded acquisition/verification of primary sources for uncovered2025/2026 and historical schedule publication evidence. Do not invent missing text or schedule features. Do not turn current calendars into proof of what was announced at earlier origins.
+Proceed only if a usable market/text training join and a defensible chronological evaluation protocol can be formed without treating unverifiable revisions, excerpts or unknown exposure as PIT/independence. If prerequisites cannot be established, use the user's explicit Phase1 DATA_BLOCKED stop: save executable audit, manifests, evidence and all requested status artifacts, mark model/training/evaluation/Docker NOT_RUN, retain FF03. Absence of data is not evidence against the scientific hypothesis.
+
+## Conditional model and comparison scope
+One model only: train-only market-state standardization, learned published-text information and changes, conditionally estimated mean/scale, shrinkage factor covariance, Student-t path innovations and availability-verified scheduled-event state. Joint1–4BD paths; monthly exact FF03 module. No external pretrained LM without verified provenance/license. Full model and predeclared event-removed ablation, no parameter search. Parameters/splits require a remote lock before fitting. Independent performance gates remain exactly user's0.80 breakthrough / >=0.05 absolute improvement competitive criteria with uncertainty and component stability; no relaxation.
+Known2001–2024 data and2025ECB evaluation already exposed. Official22Practice is exposed, never independent selection. Old FF030.94189274 is not a new paired baseline or official Final score.
+No protected refs, original images, secrets, registry, packing or submissions modified. Local Docker absent; Actions available only if promotion later justifies it. All commands bounded; no repeated prior studies. Attached agenthon-safe-long-work skill applies.
