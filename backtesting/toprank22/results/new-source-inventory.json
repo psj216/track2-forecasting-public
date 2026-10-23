@@ -1,0 +1,45 @@
+{
+  "ecb": {
+    "rows": 7120,
+    "date_min": "1999-01-04",
+    "date_max": "2026-10-22",
+    "rows2026": 207,
+    "vintage_status": "CURRENT_SNAPSHOT"
+  },
+  "treasury": {
+    "tables": [
+      {
+        "rows": 203,
+        "columns": [
+          "Date",
+          "20 YR",
+          "30 YR",
+          "Extrapolation Factor",
+          "6 WEEKS BANK DISCOUNT",
+          "COUPON EQUIVALENT",
+          "8 WEEKS BANK DISCOUNT",
+          "COUPON EQUIVALENT.1",
+          "17 WEEKS BANK DISCOUNT",
+          "COUPON EQUIVALENT.2",
+          "52 WEEKS BANK DISCOUNT",
+          "COUPON EQUIVALENT.3",
+          "1 Mo",
+          "1.5 Mo",
+          "2 Mo",
+          "3 Mo",
+          "4 Mo",
+          "6 Mo",
+          "1 Yr",
+          "2 Yr",
+          "3 Yr",
+          "5 Yr",
+          "7 Yr",
+          "10 Yr",
+          "20 Yr",
+          "30 Yr"
+        ]
+      }
+    ],
+    "vintage_status": "CURRENT_TABLE_NOT_ORIGINAL_PER_ORIGIN_SNAPSHOT"
+  }
+}

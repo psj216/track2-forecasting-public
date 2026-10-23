@@ -1,0 +1,62 @@
+[
+  {
+    "source_path": "finalalpha19/ALPHA-STRATEGY-RESET-05-report.md",
+    "sha256": "c5b7b662b1f0e08fc6578558fd9ce78d494b1314fcb89a6eb99c6b7ceeb8782e"
+  },
+  {
+    "source_path": "finalalpha19/NEW-INFORMATION-SEARCH-02-report.md",
+    "sha256": "4ee21bfb376871356c520e3a2548239045f5a1083706b77c9c03a92aa9d32b0f"
+  },
+  {
+    "source_path": "finalalpha19/PRICE-STATE-INFORMATION-AUDIT-03-report.md",
+    "sha256": "6b0ed2f07b2d21f0ba649d8b2d5f9075d1028352d4edb896fa967202d28c7992"
+  },
+  {
+    "source_path": "finalalpha19/LOCATION-01-PREDICTABLE-ORACLE-SHIFT-report.md",
+    "sha256": "86d0d107015c866efe6d8963e2b7f222761a4b6a80f9857630f404b280f0123a"
+  },
+  {
+    "source_path": "finalalpha19/LOCATION-02-ECB-SPF-CONSENSUS-LOCATION-ALPHA-report.md",
+    "sha256": "0da00895a7b495f174122744dbe64fe16d5a0c9849b7da423b2092e114b7094d"
+  },
+  {
+    "source_path": "finalalpha19/LOCATION-03-FED-SLOOS-CREDIT-CONDITIONS-LOCATION-ALPHA-report.md",
+    "sha256": "590b106cafb7473eadc3182259f12f034fbcbc7b3c45acdf0a0fa4ac56e371f8"
+  },
+  {
+    "source_path": "finalalpha19/LOCATION-04-NYFED-SPD-POLICY-EXPECTATIONS-LOCATION-ALPHA-report.md",
+    "sha256": "db26596226209dd391b8c5055b5ee113176beace33e402ea5fbcf7d1156fd5ff"
+  },
+  {
+    "source_path": "finalalpha19/EXPECTATION-01-TRUE-MARKET-EXPECTATION-report.md",
+    "sha256": "6ef16084dfdc03074728710be7157b42c544793bb842739f05276305200c1e61"
+  },
+  {
+    "source_path": "finalalpha19/SURPRISE-01-EXTERNAL-INFORMATION-ALPHA-report.md",
+    "sha256": "22499af265fd6d4c6e0b51516be9a3f4b0534fc7cb63c5d34d51e654d90c39a3"
+  },
+  {
+    "source_path": "finalalpha19/FINALALPHA19-REPORT.md",
+    "sha256": "41e94f652f59b4b02b3e412ce9e64237f1796d40a16180d48d6356658837369e"
+  },
+  {
+    "source_path": "finalalpha19/FINALALPHA19-DATA-EXPOSURE.json",
+    "sha256": "d9fce84d99c041133ef44a12bd99248b5be5d381406d5a9da46548f4b18e43f8"
+  },
+  {
+    "source_path": "finalalpha19/backtesting/finalalpha19/history/r17__R17-RESEARCH-HISTORY.md",
+    "sha256": "cf8b4e6d67bb13a7a53ffcf9dfd3c6746636be68893476e68da8c6cf1f9d251e"
+  },
+  {
+    "source_path": "finalalpha19/backtesting/finalalpha19/history/r17__R17-REPORT.md",
+    "sha256": "9066ac6719209dc958af7ba51b16065319b935dd0cce1ad88fac418f9623380b"
+  },
+  {
+    "source_path": "finalalpha19/backtesting/finalalpha19/history/alpha18__ALPHA18-REPORT.md",
+    "sha256": "25583cff08bacb145dcec3a3c66aa2174be1aa4b48ebf5d84634bf0ba4dc0c9c"
+  },
+  {
+    "source_path": "moonshot20/MOONSHOT20-REPORT.md",
+    "sha256": "721f71da7b737514e0e2c52f4365bf89ab245dbde6ef10d53d22fee4673832e7"
+  }
+]
