@@ -1,31 +1,29 @@
 {
-  "executive_summary": "FINAL-FIT-05 investigation complete; exact FF03 retained with nonblocking risks. Publication/package/submission not performed.",
-  "branch": "track2/final-fit-05-numerical-release-readiness",
-  "parent_sha": "c6fcb0eec71e0442ed6d73a70c7cb958c221374b",
-  "PRE_sha": "e2d6105b83af836ac34a49bf3885da029e42c900",
-  "result_sha_resolution": "remote branch HEAD; self-referential SHA not embedded",
   "stage": "RESULT",
-  "classification": "FF03_RETAINED_WITH_NONBLOCKING_RISKS",
+  "classification": "MOONSHOT20_TECHNICALLY_VALID_HIGH_RISK",
+  "branch": "track2/final-moonshot-20-anchor-spike",
+  "parent": "122ad52b3ba28bca06f480b723a0e82502bc77d4",
+  "pre": "039c888943c153f791de7a641384f5a571221aed",
+  "source": "fea15f037f8e085a084aa356cbd1eea2e78dc7c8",
+  "result_sha": "ENCLOSING_COMMIT_VERIFIED_EXTERNALLY",
   "completed": [
-    "PRE",
-    "PORTABILITY",
-    "DECISION",
-    "REGRESSION",
-    "RELEASE",
-    "REPORT"
+    "pre",
+    "implementation",
+    "local_joint_test",
+    "archive_hash_restore",
+    "docker_build",
+    "daily_gate",
+    "monthly_identity_gate",
+    "layer_audit",
+    "artifact_preservation",
+    "report"
   ],
-  "last_successful_artifact": "FINALFIT05-RELEASE-GATE.json",
-  "pending_authorized_steps": [
-    "registry publication",
-    "anonymous digest verification",
-    "team descriptor sealing",
-    "ZIP packing",
-    "Final upload"
-  ],
-  "pending_unknown_metadata": [
-    "Macro Final",
-    "ranked ECB G10"
-  ],
-  "HARDENING_RESULT": "NOT_APPLICABLE",
-  "updated_at": "2026-10-22T06:34:04.340268+00:00"
+  "performance": "NOT_EVALUATED",
+  "default_candidate": "ORIGINAL_FF03",
+  "next_action": "Keep separate high-risk artifact; original FF03 release path remains first choice; no further research",
+  "registry_push": "NOT_RUN",
+  "team_key": "NOT_ACCESSED",
+  "final_zip": "NOT_CREATED",
+  "codabench": "NOT_SUBMITTED",
+  "updated": "2026-10-23 Asia/Seoul"
 }

@@ -1,0 +1,9 @@
+# Risk register
+Performance NOT_EVALUATED. No normalized loss of 0.7 or 0.6 has been observed or inferred. The approximately 0.941893 result belongs to the prior 2025 ECB FF03 research cohort, not Final or this candidate.
+The user has explicitly requested a high-risk last candidate after ALPHA19 failed promotion. Prior dispersion-calibration failures remain failures; this is not independent evidence of improvement.
+The strategy compresses 70% of scenarios by 80% around observed anchors. Policy surprises, large trends, stale anchors and shocks can make CRPS/Tail/Joint substantially worse. The unchanged 30% component does not preserve full tail calibration or all original extreme draws.
+Federal Reserve official calendar confirms the 27-28 October 2026 FOMC meeting, inside the ranked 1-4 business-day forecast period after October 26. Source: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm (checked 2026-10-23). No FOMC outcome or market prediction was used for routing or parameter changes.
+Official Final source 3b51e16b3f7c0fa0e56bcba323c2bb5e81b8bd56 and issue4 comment6301021850: up to48 cards, three sets up to16, 1800s/card,12h/run including pull, failure8.0. Unknown sealed macro metadata remains unknown; this candidate inherits FF03 monthly behavior unchanged.
+Official issue4 comment6340647621 reports CodaBench outage without a restoration time. No assumption of deadline extension.
+Cross-CPU FF03 numerical differences remain inherited, not repaired. One daily and one monthly contract cannot prove all Final compatibility. Bounded image secret scanning cannot prove absence of all arbitrary hidden secrets.
+The default first-choice technical candidate remains the exact original FF03. Registry digest remains NULL; local image ID must not be used as a published manifest digest.

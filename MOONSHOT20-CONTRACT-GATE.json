@@ -1,0 +1,31 @@
+{
+  "classification": "MOONSHOT20_TECHNICALLY_VALID_HIGH_RISK",
+  "archive_authentication": "PASS",
+  "original_image_restore": "PASS",
+  "linux_amd64_build": "PASS",
+  "daily_official_g0_g3": "PASS",
+  "daily_complete_finite_grid": "PASS",
+  "daily_changed_cells": 2800,
+  "daily_total_cells": 4000,
+  "selected_joint_draws": 700,
+  "unchanged_joint_draws": 300,
+  "same_runner_repeatability": "PASS",
+  "monthly_official_g0_g3": "PASS",
+  "monthly_three_file_byte_identity": "PASS",
+  "nonroot_readonly_network_none": "PASS",
+  "no_volume": "PASS",
+  "layer_scan": {
+    "layers": 14,
+    "files": 14258,
+    "findings": [],
+    "scope": "all layer paths, text/config <=2MB pattern scan; not proof against arbitrary hidden secrets"
+  },
+  "performance": "NOT_EVALUATED",
+  "cross_runner": "NOT_RUN",
+  "full_22_card_regression": "NOT_RUN_USER_MINIMUM_SCOPE",
+  "all_final_cards": "UNKNOWN",
+  "peak_memory": "NOT_MEASURED_4G_CONTAINER_LIMIT_ENFORCED",
+  "observed_daily_seconds": 3.592517658,
+  "observed_monthly_seconds": 3.158897932,
+  "technical_failures": []
+}
