@@ -1,0 +1,2317 @@
+{
+  "executive_summary": "Previously frozen paired inputs; hashes only, no outcomes.",
+  "groups": {
+    "ECB_EM": {
+      "executive_summary": "Current ECB history truncated per origin; PIT authenticity limited, research cards not official Final cards.",
+      "source_sha256": "93bac351c4a60e612e641150f2392db9f85fe497336ee9d71c4d241f70063eda",
+      "inputs": [
+        {
+          "id": "a19-research-ECB_EM-2025-01-06",
+          "origin": "2025-01-06",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "746cc22b915ab14bd6c6c7d646bb1c60ae0bd5177ca92e7ad7e2a9d5c6c29cdf",
+            "em_fx_ecb_daily.parquet": "72997b2a8330f06a3a0c8cec3ac25cf106c20035b31d2e9af24a645208394e04"
+          },
+          "observation_max": "2025-01-06",
+          "rows": 26137
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-01-13",
+          "origin": "2025-01-13",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "3e037ff5de5c8c335638bc3a673afc6b70942a6c071ae205f8fe739c430562d8",
+            "em_fx_ecb_daily.parquet": "b98779320b7f02c6fd078c0cfbc14876c191ab756acf678867ea4a06db5ee54d"
+          },
+          "observation_max": "2025-01-13",
+          "rows": 26162
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-01-20",
+          "origin": "2025-01-20",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "500d3f1eb43da2a01c404230b900804cd01d7e72b34eb969546d0835cb49c03e",
+            "em_fx_ecb_daily.parquet": "cdfaab770729df87dd04f30fd46812c2c87f1ea1186f0ffc05bf2a1ceda9acc7"
+          },
+          "observation_max": "2025-01-20",
+          "rows": 26187
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-01-27",
+          "origin": "2025-01-27",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "b2857165267332a84bfe00e8adb6cc587f73d62a12fbf7e2fce5989fcd000217",
+            "em_fx_ecb_daily.parquet": "a52925a5eb8f058542c1a63d9d5ed887e6dc703147f8a1ca8f1da2a6869e04c9"
+          },
+          "observation_max": "2025-01-27",
+          "rows": 26212
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-02-03",
+          "origin": "2025-02-03",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "dd7f1cf4045bb33de12d6c5d503dbd9122cbfea431d90d8463a494b2e9e206ad",
+            "em_fx_ecb_daily.parquet": "045e1bc82d40f83c369a5cd952cf566a21b83c43ae5595dc053fbab9cf55e203"
+          },
+          "observation_max": "2025-02-03",
+          "rows": 26237
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-02-10",
+          "origin": "2025-02-10",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "95638cc179f58d09f24f6b9f84b3c018c4f7d18d5361454fcd688fd47ff58d18",
+            "em_fx_ecb_daily.parquet": "dbb9212c173321581778a73e4c61204072534c775038223d662aa8ada64a9d52"
+          },
+          "observation_max": "2025-02-10",
+          "rows": 26262
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-02-17",
+          "origin": "2025-02-17",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "212f22e052a439f191b246b7817d3aa15b7bc31ab50d3778e8951c2b114581da",
+            "em_fx_ecb_daily.parquet": "649c9622cb190a0ca216ca75305a775596cd0a6781e10ec4d04f35158375a812"
+          },
+          "observation_max": "2025-02-17",
+          "rows": 26287
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-02-24",
+          "origin": "2025-02-24",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "599358032875bcfd5f5cc6cf86adcd53dced5d15b9ad8e3093b56413a5b912b3",
+            "em_fx_ecb_daily.parquet": "b39b7aafc85c91ff8c6aadde7e4647dd8abbf93feae30b65efb6051ce620cd8e"
+          },
+          "observation_max": "2025-02-24",
+          "rows": 26312
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-03-03",
+          "origin": "2025-03-03",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "59cf5753be48ebaa598f14329e2052073c0cc17c0c42ed1d6481f30dbc9e76a7",
+            "em_fx_ecb_daily.parquet": "c6ff1cc7e0c527803f8929fd65e643820adbc7edc8fa967138b6538f4b31882a"
+          },
+          "observation_max": "2025-03-03",
+          "rows": 26337
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-03-10",
+          "origin": "2025-03-10",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "f96fb42f36f39074aa678074a1bf24ee3cb01e76d8e38026748ce8b881b9a716",
+            "em_fx_ecb_daily.parquet": "0f3e0147ceed8f72b73439b10d5e1bcf3176b6705972c04136eedf9cd43ddd02"
+          },
+          "observation_max": "2025-03-10",
+          "rows": 26362
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-03-17",
+          "origin": "2025-03-17",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6d92bda45ecb8b8e4ea22e04756e4f7dfd0ff4412dd6f90d8311aa20a3303294",
+            "em_fx_ecb_daily.parquet": "a2a6d62a09db57c3f20b87383a780b4feeec49b11f6d36233115cf23e335c0f1"
+          },
+          "observation_max": "2025-03-17",
+          "rows": 26387
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-03-24",
+          "origin": "2025-03-24",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "96fc7622e6b8149ef24794a438a35f06ba473806f638998f1ace21c8ae2ec007",
+            "em_fx_ecb_daily.parquet": "942a489986a1468f11d7368020193a4760505509f98ff324d4d916f2fc90c2ff"
+          },
+          "observation_max": "2025-03-24",
+          "rows": 26412
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-03-31",
+          "origin": "2025-03-31",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6a5f71be54f26f91742f5515f994bf181ca3cedb3805d030a3edb97808ac23e6",
+            "em_fx_ecb_daily.parquet": "8a508ce153cd0b531bea2ce956d32bb0cda7cef949fb61d774da6916506ec508"
+          },
+          "observation_max": "2025-03-31",
+          "rows": 26437
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-04-07",
+          "origin": "2025-04-07",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "78555c0f7a3628286a347a3555e35ddfe119865f273eaaf9c68d7145086e2291",
+            "em_fx_ecb_daily.parquet": "d5039113f82b0283539776cc03be8b846f4f9f99ade625f8c94af02825d49d5a"
+          },
+          "observation_max": "2025-04-07",
+          "rows": 26462
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-04-14",
+          "origin": "2025-04-14",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "616d43719b5fefcba0e89c20d0adeb041d57c3a3d2fd5ecdc228abe158ea9c1f",
+            "em_fx_ecb_daily.parquet": "199881d7feb6917ae986300cc2879cfbd89606603ea909723598201553d23e1a"
+          },
+          "observation_max": "2025-04-14",
+          "rows": 26487
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-04-21",
+          "origin": "2025-04-21",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "95c5daef50d9320ad5a6d765cca926fb02fa7d69f34ce63827a8a250eda93906",
+            "em_fx_ecb_daily.parquet": "7d8a8a422384dc3b343e564d5afca6c168b14e8e1f3e86a84ae89934006370ff"
+          },
+          "observation_max": "2025-04-17",
+          "rows": 26502
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-04-28",
+          "origin": "2025-04-28",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "af3152f70d018ae6734aefedbedc89e5cfdd6a305cc6bbc22e9bc541105f9a2b",
+            "em_fx_ecb_daily.parquet": "9282627ce5590eba50748c25a815104848af9bb7030928cd0206a2b80ee5058c"
+          },
+          "observation_max": "2025-04-28",
+          "rows": 26527
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-05-05",
+          "origin": "2025-05-05",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "dce1fb3d82a76a56ca711ac165d173ce75ed46fb03f713624e8f21540b1e0107",
+            "em_fx_ecb_daily.parquet": "1dc0b6f5f1922adfc7911adca0d54bfb355f724ca6aa0fb6086ea0d5163a16ac"
+          },
+          "observation_max": "2025-05-05",
+          "rows": 26547
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-05-12",
+          "origin": "2025-05-12",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d9a2cddf58d6c04b9267efa22ac0e2a717269d1ec2ddaf8c1f9a683e145b0ff2",
+            "em_fx_ecb_daily.parquet": "b881b7c51f6ceefa570a7a676c1fd106955d03cb828e3cf36fe17bbfc568eb8c"
+          },
+          "observation_max": "2025-05-12",
+          "rows": 26572
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-05-19",
+          "origin": "2025-05-19",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "273657a8eb1ea5d9240a327161adb7ca79643a95b3c0e152490f2dfd1b018e08",
+            "em_fx_ecb_daily.parquet": "490fdacd721e83363a739edca0b7572f364795c04bae40712869f21a8eafcc2e"
+          },
+          "observation_max": "2025-05-19",
+          "rows": 26597
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-05-26",
+          "origin": "2025-05-26",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "cc6d3730afa92e5fe550632527c0c2f7d9a0befa4977c8d5f5ae27fc5d64771d",
+            "em_fx_ecb_daily.parquet": "2c0296270352625e5f6c089adad34abb7d2ed365b4729d1504077ea34f489139"
+          },
+          "observation_max": "2025-05-26",
+          "rows": 26622
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-06-02",
+          "origin": "2025-06-02",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "4f8109c148136cc741ff6dbe9f02e7e6576d5aa67daefecb844c490292428176",
+            "em_fx_ecb_daily.parquet": "4967d2deb067bbc846569aefc327a7c4bf66e3789e19fc86db8bf582406b347f"
+          },
+          "observation_max": "2025-06-02",
+          "rows": 26647
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-06-09",
+          "origin": "2025-06-09",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "0294d1ccc2a8c9b37d1cba18edf128cdf447e14fbd60ac46a3f38529dc566837",
+            "em_fx_ecb_daily.parquet": "b16820991291edcf066afb815b1b87a6b9e8cd52a459570efa76d1d674543e9f"
+          },
+          "observation_max": "2025-06-09",
+          "rows": 26672
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-06-16",
+          "origin": "2025-06-16",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "7e3f50c07322b4d7dac89e277b2ecc28dacc4ada7590815d9147b21f9b1ec9e9",
+            "em_fx_ecb_daily.parquet": "f541bd664dbf331dd1c69db79070847154f9d44787b8a9c1939120afdf8caaa2"
+          },
+          "observation_max": "2025-06-16",
+          "rows": 26697
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-06-23",
+          "origin": "2025-06-23",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "dc26241a9a0f27dba999fb0c9c36ae436d6691c49a8d1bd57c1e9bf03c8d57c9",
+            "em_fx_ecb_daily.parquet": "0eaca887c63b55dc97f3201aced91c77742b79e4d3cd0b8ab5dff0773d0bf7b3"
+          },
+          "observation_max": "2025-06-23",
+          "rows": 26722
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-06-30",
+          "origin": "2025-06-30",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "38c8e88d498cad1e099cb8ff7a91c4c21c2558340c3c73793bf7c424c5d6cc33",
+            "em_fx_ecb_daily.parquet": "663da3fbcf002cdd4b435ff513cd6d733d26be7c7cb3736baaddcd0f7f519004"
+          },
+          "observation_max": "2025-06-30",
+          "rows": 26747
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-07-07",
+          "origin": "2025-07-07",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e0cc8298a1a44dd1fc7eb378d424ad48b6ad365fe0f7d77f6813612b90956d8d",
+            "em_fx_ecb_daily.parquet": "2d56069f2d4bc1b9894271a35ef7038ad7e58effddd5ce1a2f6f36a9bea593b3"
+          },
+          "observation_max": "2025-07-07",
+          "rows": 26772
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-07-14",
+          "origin": "2025-07-14",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "93f9547e72db13ff1127e96d52887cae15fc9b768539a2963493b408ea430ade",
+            "em_fx_ecb_daily.parquet": "21520945cf1f0214da6a3e352cea01a63770500eca10cfecff79a8effa46f908"
+          },
+          "observation_max": "2025-07-14",
+          "rows": 26797
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-07-21",
+          "origin": "2025-07-21",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d2cef328bb6bd428da2200df397375010ebf10e2ab45103894dcf6a6b32adf93",
+            "em_fx_ecb_daily.parquet": "1aabf41ddf07b8ecfb2791af0af80b5282fe630ff4e6428ddca0a983a0d452cb"
+          },
+          "observation_max": "2025-07-21",
+          "rows": 26822
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-07-28",
+          "origin": "2025-07-28",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "45a8bb469bb8b1560bd14cba5ecc89a7f580fbe46c3003ddeb9007ce6435970a",
+            "em_fx_ecb_daily.parquet": "3fb3bdfb27e0a50b54cc18da804e3763f2de8ccb1d5a0e53b6c885387d5b2036"
+          },
+          "observation_max": "2025-07-28",
+          "rows": 26847
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-08-04",
+          "origin": "2025-08-04",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d6d103ab901d7a0a2a5b6e8421d7f6292a976876807a6b23ccd1403db3e9d7c2",
+            "em_fx_ecb_daily.parquet": "fa542bbe6a8a7c028683beb5003d58fa5cb8efe6b589a75c8d2065355cf5fa22"
+          },
+          "observation_max": "2025-08-04",
+          "rows": 26872
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-08-11",
+          "origin": "2025-08-11",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "7eaff64c227b5c2fc98c629db8b9b1876dca8d539467fe16197a7533b81afe70",
+            "em_fx_ecb_daily.parquet": "6017b0e4585fd0d7bdc71b4d8de0de1e8c1ef4789892c289010430e6c5abaaa4"
+          },
+          "observation_max": "2025-08-11",
+          "rows": 26897
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-08-18",
+          "origin": "2025-08-18",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "686f7d0c2ef3a872d8fd06d14e3ab1772bb3083c121c0d0b9cfd6ec075810152",
+            "em_fx_ecb_daily.parquet": "0e595aa8b211d7412e5ae1066ee845b9dbb51e1d934131c4c5e64c31ffdf634c"
+          },
+          "observation_max": "2025-08-18",
+          "rows": 26922
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-08-25",
+          "origin": "2025-08-25",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6e533dbe619f7de797c4169d1c8747c55199ee5739171d1b2648b699efef980f",
+            "em_fx_ecb_daily.parquet": "313a410c6e1d9e02b825cba8a58817f5c282edbe3bfaffe967151a36501e4613"
+          },
+          "observation_max": "2025-08-25",
+          "rows": 26947
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-09-01",
+          "origin": "2025-09-01",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "027ffeaa7c5514a1a0fb543df1aeebfd5e12f1e58a20419593612a650d276c40",
+            "em_fx_ecb_daily.parquet": "2893eb55b7893a75563c42c69b45e7e70d98dfe2d7247e5bd528dbc4e0a7c15b"
+          },
+          "observation_max": "2025-09-01",
+          "rows": 26972
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-09-08",
+          "origin": "2025-09-08",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "55e63494923c1f10d7e15113b6fb89618ec93da246396e6951ba6e09e75563f0",
+            "em_fx_ecb_daily.parquet": "a1ecbc6892ce458d5ee464ccacca8e6099e8e69ca16c8b379bc02fa955ff8ae7"
+          },
+          "observation_max": "2025-09-08",
+          "rows": 26997
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-09-15",
+          "origin": "2025-09-15",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "c06425f16f7ce95e937427da5f65db14aad71b322e0e4f36bd1f614ee7c4ae4e",
+            "em_fx_ecb_daily.parquet": "25faf0210f69d3a0da9561fd0de85ab3c6b7c92e0c0b093662920f47c857bf4a"
+          },
+          "observation_max": "2025-09-15",
+          "rows": 27022
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-09-22",
+          "origin": "2025-09-22",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6a98606cf34992bd09bd8e9cafc9ebd05eaacf380b676a2c5d6091a9c97a14e9",
+            "em_fx_ecb_daily.parquet": "852d068b215ef70c7ce2c5e46386631ef23d484fc1e52f328f52ea43285200af"
+          },
+          "observation_max": "2025-09-22",
+          "rows": 27047
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-09-29",
+          "origin": "2025-09-29",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6158db3e5b0155e37820e07ed454a535ee43907d9dc0c921f2978a466ccc120e",
+            "em_fx_ecb_daily.parquet": "f07496e7dd58fe2ff3323d6f86985c45226c72b68fc9f368c9c800ddd9ca0c33"
+          },
+          "observation_max": "2025-09-29",
+          "rows": 27072
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-10-06",
+          "origin": "2025-10-06",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "92bd4257694313c4095223d3de9f258837b23fec15dd5da64b6d7c7e74a7afbe",
+            "em_fx_ecb_daily.parquet": "07d0376e6b50a18e066dd32096ece6f69c88884a3141c5c2f96b6a640e42d13c"
+          },
+          "observation_max": "2025-10-06",
+          "rows": 27097
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-10-13",
+          "origin": "2025-10-13",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "f2be27738b524823f83c8b769e328c1fb3ef1940aff03c297bcb4914f3281c0f",
+            "em_fx_ecb_daily.parquet": "c82a67f730aa2f56e06313423bd0d7dddfdcea992853da8bbd10412aa38cb896"
+          },
+          "observation_max": "2025-10-13",
+          "rows": 27122
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-10-20",
+          "origin": "2025-10-20",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "ecad8eee61fd4c3a4ff08bf76fdc1c794ef68388334a554a35cc866d0a39773b",
+            "em_fx_ecb_daily.parquet": "e57d3c85843cf8afccd1b58f7401bf08b8369ae0f8e1f4eded49a2b57d9d31ed"
+          },
+          "observation_max": "2025-10-20",
+          "rows": 27147
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-10-27",
+          "origin": "2025-10-27",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "aef93b461e13906f9e4f030cd9bce4d40969b1f84f99561be9276a3723ba88e8",
+            "em_fx_ecb_daily.parquet": "755c287faf32110be8d850caebf3bc161b2173a700bfe84b85bc5d2d67e65743"
+          },
+          "observation_max": "2025-10-27",
+          "rows": 27172
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-11-03",
+          "origin": "2025-11-03",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "4057cc10faa8282a2f87978ea6d14ca64aca5db42e4684e75b97d21d34819a34",
+            "em_fx_ecb_daily.parquet": "afbc9a8903485906eb41a2283dc65939e60c1e5b393b5a8e5c3f73a3ee5289da"
+          },
+          "observation_max": "2025-11-03",
+          "rows": 27197
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-11-10",
+          "origin": "2025-11-10",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "8a202e8e56ea6ef37f0742cd49a3720a08abd03c991590e1a536c699e2e33c2d",
+            "em_fx_ecb_daily.parquet": "517cc6ecfd95387e8fd2bd4318ce3be8dafab5fab704709fcc35529342cff342"
+          },
+          "observation_max": "2025-11-10",
+          "rows": 27222
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-11-17",
+          "origin": "2025-11-17",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "5985c1e895cc8d116cce61b7bb14c47975dcd5b4a31082325609ae17ef9ad821",
+            "em_fx_ecb_daily.parquet": "4d030d715d0b1d880a20d3e9a3734c75b6e19badb15106128441308a0d3996eb"
+          },
+          "observation_max": "2025-11-17",
+          "rows": 27247
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-11-24",
+          "origin": "2025-11-24",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d043786cae9e29501e2ddf074f3bf515599ac358da756196f141a8f216c8e652",
+            "em_fx_ecb_daily.parquet": "44f6e5aff6ef4c212151551777865c4c412d29f57b3fc830fb5a88d3378f732b"
+          },
+          "observation_max": "2025-11-24",
+          "rows": 27272
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-12-01",
+          "origin": "2025-12-01",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "c0e823660e81d8ef343e4b0095e0a4f0c0c1848836efed216a00742479e31b7e",
+            "em_fx_ecb_daily.parquet": "6796552354676f38d1c43ae2029121d02cb0e84c358d7d203c78f20dc3ebcc0d"
+          },
+          "observation_max": "2025-12-01",
+          "rows": 27297
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-12-08",
+          "origin": "2025-12-08",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "4b8dd38523a71a18e00f68673d432102fdb795c36ac4ed80038b5fe045f5781b",
+            "em_fx_ecb_daily.parquet": "52a655d679f23c6047977b9920b11a6361dbb723066eb8088507cb50dc5d340f"
+          },
+          "observation_max": "2025-12-08",
+          "rows": 27322
+        },
+        {
+          "id": "a19-research-ECB_EM-2025-12-15",
+          "origin": "2025-12-15",
+          "group": "ECB_EM",
+          "assets": [
+            "MXN",
+            "BRL",
+            "ZAR",
+            "KRW",
+            "INR"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "766ec9d2b0ba406f1feec7a08b5a1112df4ce5c789ec9e071217a9451b4567b1",
+            "em_fx_ecb_daily.parquet": "a544d9065c8adfa04f7e2e43f38c66d7b833858faa2d4d238558d8a8803bf622"
+          },
+          "observation_max": "2025-12-15",
+          "rows": 27347
+        }
+      ]
+    },
+    "ECB_G10": {
+      "executive_summary": "Current ECB history truncated per origin; PIT authenticity limited, research cards not official Final cards.",
+      "source_sha256": "93bac351c4a60e612e641150f2392db9f85fe497336ee9d71c4d241f70063eda",
+      "inputs": [
+        {
+          "id": "a19-research-ECB_G10-2025-01-06",
+          "origin": "2025-01-06",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "45c84a82aed1830ae7c50c6b136fca656e2881dd2a695e39f81939f60266e70e",
+            "em_fx_ecb_daily.parquet": "da013c6b239cc6d305dba5010cbe0b31296525872948fe3917a1c81ae9fed3df"
+          },
+          "observation_max": "2025-01-06",
+          "rows": 19983
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-01-13",
+          "origin": "2025-01-13",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "64537c53c7fa946504294619a16263aa29fa84c3c0847c6e8479a08700b45283",
+            "em_fx_ecb_daily.parquet": "d3be9ef3179997087605bf749d2261b331fddbce59ca02a3420074828dbeaca0"
+          },
+          "observation_max": "2025-01-13",
+          "rows": 19998
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-01-20",
+          "origin": "2025-01-20",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "b1b25d8b48cedc47fb1cc41f26223143db2c573929f04e600090172df2cc876f",
+            "em_fx_ecb_daily.parquet": "454610a35965dc2ed6d5f4c99431ebdd13808ab0fef38dace64dd4fe1e28cc4b"
+          },
+          "observation_max": "2025-01-20",
+          "rows": 20013
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-01-27",
+          "origin": "2025-01-27",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "a9d7d468e690a1815695c96a745d5f89537cacfccb47dd05bb2e63f37598bed8",
+            "em_fx_ecb_daily.parquet": "bb56c1e8e2f9ad30f67ba2504940181f75a8ff56f9844f3896504bdc3c9f6c50"
+          },
+          "observation_max": "2025-01-27",
+          "rows": 20028
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-02-03",
+          "origin": "2025-02-03",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "7fefe24d897a4c4b4e2f8c9740ac88b1e2d4a0e6118f3f43619e285d18c193b0",
+            "em_fx_ecb_daily.parquet": "f4fca8d9e3f3573b203c0f2e75f5826b2a5231ef88429673abaf6fb779259bd4"
+          },
+          "observation_max": "2025-02-03",
+          "rows": 20043
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-02-10",
+          "origin": "2025-02-10",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6059b06bdd708d76b17514a710d3363362ace9f752f7fde7914c3dac9768bd26",
+            "em_fx_ecb_daily.parquet": "2313f2053de1fecd3ffef213c254fc913937e582522ced4662f6fec89af62ec3"
+          },
+          "observation_max": "2025-02-10",
+          "rows": 20058
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-02-17",
+          "origin": "2025-02-17",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e7b343ef4c2cd400d986ad3630b9d475d7471a7b11f58cb37d11350bd08b26e5",
+            "em_fx_ecb_daily.parquet": "e8e81907e1483ea1bbe4ab0a596c48b571ad27c9347570ee6669b70bcc2c17dd"
+          },
+          "observation_max": "2025-02-17",
+          "rows": 20073
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-02-24",
+          "origin": "2025-02-24",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "b7a535e00961f24a2195cff3f2df6dd6a8aefc1dc44ec71ec68e228d271ebe1b",
+            "em_fx_ecb_daily.parquet": "b832e39528e16a834a215406181c96cc8f7d1386dd41e9442d68b00d0b1cf281"
+          },
+          "observation_max": "2025-02-24",
+          "rows": 20088
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-03-03",
+          "origin": "2025-03-03",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "cccf784abf1f6712d907c015438931992314f187f89f4ddb8e45bf4a2ced2f40",
+            "em_fx_ecb_daily.parquet": "aa760a909a05fba6a01c609319b5cbff0266870bd45bdc9579faaf3be5710ad9"
+          },
+          "observation_max": "2025-03-03",
+          "rows": 20103
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-03-10",
+          "origin": "2025-03-10",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e2836ee444353d4d62adc41f68b85996db272ed09ad06f18c7b5c4b93726bf7f",
+            "em_fx_ecb_daily.parquet": "15b72c02b5265d86d2e5f4b59dce2525d2a18996c35891f8ac3d44fa67a38ebe"
+          },
+          "observation_max": "2025-03-10",
+          "rows": 20118
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-03-17",
+          "origin": "2025-03-17",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "7c0268d7dcfa9fd763526f38804950a7369f73d8e877bb5d086a76755b9996c4",
+            "em_fx_ecb_daily.parquet": "9e05f527c50eb982ca50d2ca3e39547c989fb15bb698d10866b661e0116a5730"
+          },
+          "observation_max": "2025-03-17",
+          "rows": 20133
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-03-24",
+          "origin": "2025-03-24",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "9d670f9452fd4f1833841237b938cd45d5ac99ff127d140b3e1595c7b5e032a1",
+            "em_fx_ecb_daily.parquet": "c635b4f024b837372ddf1a97020b4c59fb6ec17cff8123fbe4c121898fffa42e"
+          },
+          "observation_max": "2025-03-24",
+          "rows": 20148
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-03-31",
+          "origin": "2025-03-31",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "6a8184a0193f58a4fad4500811745cd1a7e7c7f05a4e8e918e7a3cc799784685",
+            "em_fx_ecb_daily.parquet": "9bc8e0b273357fc8c52944873a52282d3744c917dbe978ab24bca422030f415c"
+          },
+          "observation_max": "2025-03-31",
+          "rows": 20163
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-04-07",
+          "origin": "2025-04-07",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "2d26f5de3ca3b28d5f98bd3c79f5c435f47eb7400a4ed46c600fcbc87b379628",
+            "em_fx_ecb_daily.parquet": "873a5d60f9a457617d524f1d4baa4e030ea7fd0d9ec909215a8f51e9eaf3e77c"
+          },
+          "observation_max": "2025-04-07",
+          "rows": 20178
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-04-14",
+          "origin": "2025-04-14",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "225d2331bea86d87ba601815ba029a0ff727dce8c415e6e08e50cb1af50e127d",
+            "em_fx_ecb_daily.parquet": "e8a354b5fa26f8773686b8ac6dfec9b8e489f81d28d24953618ae8caebd460e6"
+          },
+          "observation_max": "2025-04-14",
+          "rows": 20193
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-04-21",
+          "origin": "2025-04-21",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "0591fda81b977807a388e88e281c619d02808b5f23f88b389ad64a863d4eb799",
+            "em_fx_ecb_daily.parquet": "59b822cd1e19a0c2b440b0076cfd46c75853cfeb8a7b72cf41fc607fc6754010"
+          },
+          "observation_max": "2025-04-17",
+          "rows": 20202
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-04-28",
+          "origin": "2025-04-28",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "0a9d81d983a38a2f941a091bd771a2bc3565d04fd032530174aa89b754da1463",
+            "em_fx_ecb_daily.parquet": "932a3c2998a858540365370c839ec037e92d4eba5b8e40832c8b26e1868b8049"
+          },
+          "observation_max": "2025-04-28",
+          "rows": 20217
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-05-05",
+          "origin": "2025-05-05",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d54b7fdee9f5e59633e4bcd16db4ce93d17bc0f9f59c11d983134f1485af0fc8",
+            "em_fx_ecb_daily.parquet": "2e0267a59ff84ea04ad2b92b0a76e40ddf8e77f0c7e34dcbf7cb0e7f587972b1"
+          },
+          "observation_max": "2025-05-05",
+          "rows": 20229
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-05-12",
+          "origin": "2025-05-12",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "2e1e651eb831771d2bafc92f24954d95aeefd4b16e5e72f2f010fd94465b698b",
+            "em_fx_ecb_daily.parquet": "e83055dccb5d41cc1b189717cd1761ceea4415713eb7c9f7e8e35fa80aeaf165"
+          },
+          "observation_max": "2025-05-12",
+          "rows": 20244
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-05-19",
+          "origin": "2025-05-19",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "590ad689f5ee34bb425a4515399f1d5ce40f6b98de37f36cdbe8ec6f70d9b6bb",
+            "em_fx_ecb_daily.parquet": "153488225749bab1d1bb9bd7f68b2dbdbcff43fdc821459473f57eda07afee27"
+          },
+          "observation_max": "2025-05-19",
+          "rows": 20259
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-05-26",
+          "origin": "2025-05-26",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "cccb56711703afd1e0607fd135fbd31805988761c91dba14049a7bf8e564e66c",
+            "em_fx_ecb_daily.parquet": "5a95634e47123cf90101da3a235f457b4d852d835d2d3fd197936f9c941da0e6"
+          },
+          "observation_max": "2025-05-26",
+          "rows": 20274
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-06-02",
+          "origin": "2025-06-02",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "463ebb5179b7fc1a193de4274a1debbbb75eff43e6eec03c200c3de31f3f6810",
+            "em_fx_ecb_daily.parquet": "9ddaa06e614dc384ac59aeed7df7e1f90978e1fffee0762eeedf363447d3a965"
+          },
+          "observation_max": "2025-06-02",
+          "rows": 20289
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-06-09",
+          "origin": "2025-06-09",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "af56e0b8fbabbc1c521b4fd86b19c3c5e7bd2c41ee649d781b440b12f1fc1833",
+            "em_fx_ecb_daily.parquet": "3d82831c0feda3c6057586f758310e22b5e6fda7f8d151da94b482832ae61bfc"
+          },
+          "observation_max": "2025-06-09",
+          "rows": 20304
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-06-16",
+          "origin": "2025-06-16",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "9c3ca9c6362c922b20a005fbf5e0f145d31406d4f9c4148934d889087114ffd5",
+            "em_fx_ecb_daily.parquet": "bc01f2b031eb1f6c6f5db1bdc543e6a581a67e5091a5c508317a6acf94282f02"
+          },
+          "observation_max": "2025-06-16",
+          "rows": 20319
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-06-23",
+          "origin": "2025-06-23",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "7ea576be38aaa689435493d80d02d3aa281d457351ee5d8cd25d621a4c8e85eb",
+            "em_fx_ecb_daily.parquet": "4267a9b85e11290ff8805a4ea607efc374451445065f6c9e5c2baa86c4dd48f0"
+          },
+          "observation_max": "2025-06-23",
+          "rows": 20334
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-06-30",
+          "origin": "2025-06-30",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "ff3d58bdd69c9dc28cff3ca6a851dded424be1930865309424fa8b9a43e492fc",
+            "em_fx_ecb_daily.parquet": "72e6a3c434bb262a6a64b678b6ebfd1ae18eef50121b32f2a989f04291c53ba1"
+          },
+          "observation_max": "2025-06-30",
+          "rows": 20349
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-07-07",
+          "origin": "2025-07-07",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "73d81a784cba2f7cddd75c5a7fb037a028be07b01906500e76278a4eaae7e97e",
+            "em_fx_ecb_daily.parquet": "6fb403d643ea131e2f3cac21989d4b56a6132facda46bd8839acba338a41e8f0"
+          },
+          "observation_max": "2025-07-07",
+          "rows": 20364
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-07-14",
+          "origin": "2025-07-14",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "66043059601f1b6d45d6fd39c59e20477709beeffc53102c70daa08331eee98b",
+            "em_fx_ecb_daily.parquet": "1d1b897420223edcccfdb58d4c0fbcffcdab8bb7682e0bd0e7394c3408188762"
+          },
+          "observation_max": "2025-07-14",
+          "rows": 20379
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-07-21",
+          "origin": "2025-07-21",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d3e693a187098d4e2803a801acacdf06c4fe89b4c729bbb69b76ab373bd87d7c",
+            "em_fx_ecb_daily.parquet": "cbcf092a0ad8fd79191d86ef7d46665cedc4d89a89f5cb0411c0013b363dcb80"
+          },
+          "observation_max": "2025-07-21",
+          "rows": 20394
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-07-28",
+          "origin": "2025-07-28",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e4b696f3efcf8b97bc73f55bf01079757b3d9236e94e5a8be9543c23933d6f5c",
+            "em_fx_ecb_daily.parquet": "132b7cf021b6f1c9a8c0be0a4d872b0ed33240dbdc3529ee915d33cfcd0e9a70"
+          },
+          "observation_max": "2025-07-28",
+          "rows": 20409
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-08-04",
+          "origin": "2025-08-04",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "687f7331ba72f356836ad39ef258fdb167c35fcefafd08e890504efda068d3e6",
+            "em_fx_ecb_daily.parquet": "43900d85453896608c373ff45d05b3331cd5b0795d43ed36a0a6e99d55658ced"
+          },
+          "observation_max": "2025-08-04",
+          "rows": 20424
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-08-11",
+          "origin": "2025-08-11",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "73dfdda9b9df87d577103acd545afbaf29e29d32d8337e6a2c7c3f64372ff10a",
+            "em_fx_ecb_daily.parquet": "247ac0881828f52fcd9a077a65a6a5a0e143f0605ff96c8528a37993ba2288d3"
+          },
+          "observation_max": "2025-08-11",
+          "rows": 20439
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-08-18",
+          "origin": "2025-08-18",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "993ed83037ceb0c47bf7c026fee6b0346af2bff678dc6d2522a0237e03e01950",
+            "em_fx_ecb_daily.parquet": "89e669bc1680a996a7fbd2d4f3d86013c84d9ccc781cf2e73dc8a9e4c7c2642e"
+          },
+          "observation_max": "2025-08-18",
+          "rows": 20454
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-08-25",
+          "origin": "2025-08-25",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "48893d3e590264b7b9519d768ef05a8e525f9b50ec23d2e1b7b0381c728bc81e",
+            "em_fx_ecb_daily.parquet": "025ca4298d749ba46b5d248301bb814b5751d3d3c01e33430875416dba5f1728"
+          },
+          "observation_max": "2025-08-25",
+          "rows": 20469
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-09-01",
+          "origin": "2025-09-01",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "d77b70735e31ab40dd209d351e2240aa31c5ce791ec1ecca47994798fe7297c0",
+            "em_fx_ecb_daily.parquet": "04ac332cb80a2c5e873ecdb3d0241925c5468aa97b15f6f08330fe06e52d117d"
+          },
+          "observation_max": "2025-09-01",
+          "rows": 20484
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-09-08",
+          "origin": "2025-09-08",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "8c82c44b6e8204c0f36637a47a7ea0bc9948162a7d55013459637860104781dc",
+            "em_fx_ecb_daily.parquet": "ddd1edcae76a1f0cf0b9bbcf50c6bab038cd231b0a918ae088460a8b40b80479"
+          },
+          "observation_max": "2025-09-08",
+          "rows": 20499
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-09-15",
+          "origin": "2025-09-15",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "fbac608703b0f9c6edee15ea58f4a986a78a80b86e211bda38ade02c538260b2",
+            "em_fx_ecb_daily.parquet": "94e74876236c7cdc6f0e3418e9190bc841f20b05acfaf815a98f6aea5da81c40"
+          },
+          "observation_max": "2025-09-15",
+          "rows": 20514
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-09-22",
+          "origin": "2025-09-22",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e497d00450862361843c0c692187f1f3150d374f0bc1c65fb639ed8f22c9abbb",
+            "em_fx_ecb_daily.parquet": "82c002378286887afe75371ef33b823c8f5d16ec4a2d38323cdce27d6cce1be1"
+          },
+          "observation_max": "2025-09-22",
+          "rows": 20529
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-09-29",
+          "origin": "2025-09-29",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "27d944895226877ee2dda417f986b953f048104295d119aa4ec327543f9843b0",
+            "em_fx_ecb_daily.parquet": "c25e6cb97270dd05afe452c10593fa6eaed75135d769e29721426204e5aa043c"
+          },
+          "observation_max": "2025-09-29",
+          "rows": 20544
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-10-06",
+          "origin": "2025-10-06",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "46fda77dd0ab74bf3a20519d920e601446d8f147397c18ce700f96aae9d584d3",
+            "em_fx_ecb_daily.parquet": "40c52b2ff0759a5f2052429521eb3fa6e707f307d58c82db696d2dcc8feb3803"
+          },
+          "observation_max": "2025-10-06",
+          "rows": 20559
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-10-13",
+          "origin": "2025-10-13",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "550f6e8c1afd2267435d03136c72c496b0aaf2a06ff8865c72849ce08a728d27",
+            "em_fx_ecb_daily.parquet": "78154f524ddb4d94f7f4f352e4d91f1a434569915293740aae5710e7d6931832"
+          },
+          "observation_max": "2025-10-13",
+          "rows": 20574
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-10-20",
+          "origin": "2025-10-20",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "72a407ce3f77c15661de5a9c703487a91bd3a544e8413e523e043ecc6c8d8fe5",
+            "em_fx_ecb_daily.parquet": "6f588cf74b64664399cbe479d067ca21a78f39ed6e5d560ec1fa61033272d8c3"
+          },
+          "observation_max": "2025-10-20",
+          "rows": 20589
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-10-27",
+          "origin": "2025-10-27",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "e17423e10bfad451e4c7b9b869b27fa2fe8dafa1db25ca1702658cec2997021f",
+            "em_fx_ecb_daily.parquet": "ef56acc447685b8819fcdd8f5ef062e9f54f049b54e578aab19bba58dbec65d7"
+          },
+          "observation_max": "2025-10-27",
+          "rows": 20604
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-11-03",
+          "origin": "2025-11-03",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "fddc9874d568ba61ed78f36f995d9267beeeca661e66f011235ce0716bb26a15",
+            "em_fx_ecb_daily.parquet": "d797d1367f034fe276124d884de58cfa9e37d55509915a23a1889b05cbb14fb9"
+          },
+          "observation_max": "2025-11-03",
+          "rows": 20619
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-11-10",
+          "origin": "2025-11-10",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "59f3b0fec1cc5da6ddf8aeb0ae5153d603ed3d9da4dfc3418bc97ddd824b7ab1",
+            "em_fx_ecb_daily.parquet": "1c5775abfddd47fe1a851313f187ad23d155498c3a7f4667cc6560cfff044aeb"
+          },
+          "observation_max": "2025-11-10",
+          "rows": 20634
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-11-17",
+          "origin": "2025-11-17",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "28592592770f2268141291fc29b32675e240a3a3a893c0473162191a0969f127",
+            "em_fx_ecb_daily.parquet": "3897e2e0f7a94fdc727832c42d7d1fa71cf721806387fba5aaa204081b1c9bc9"
+          },
+          "observation_max": "2025-11-17",
+          "rows": 20649
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-11-24",
+          "origin": "2025-11-24",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "70cb28c749c2031b65c6ad9bb574e6b9e28f1732e9cc92295d2f4ae2bd847618",
+            "em_fx_ecb_daily.parquet": "6a58197b72b25f5079ebfde65799e7b84528afccbca96401bf09f10033eb4202"
+          },
+          "observation_max": "2025-11-24",
+          "rows": 20664
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-12-01",
+          "origin": "2025-12-01",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "c8e6e8b01c5512305cbd7b59dfe5ea3d7dd21316609467b548ae0098c7207feb",
+            "em_fx_ecb_daily.parquet": "60af05fb0185b313af9e7da029484c77b8bfb14275e3272bcbfa683f6927df19"
+          },
+          "observation_max": "2025-12-01",
+          "rows": 20679
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-12-08",
+          "origin": "2025-12-08",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "1201dd8d3cc46a1682e9c06ed455e6459d41c464e1d5fd2631f886a120cde0cc",
+            "em_fx_ecb_daily.parquet": "7b5bdbbc0b580b46599d86f89c1ac7d2b392139aff12e23b13408d100126815b"
+          },
+          "observation_max": "2025-12-08",
+          "rows": 20694
+        },
+        {
+          "id": "a19-research-ECB_G10-2025-12-15",
+          "origin": "2025-12-15",
+          "group": "ECB_G10",
+          "assets": [
+            "EUR",
+            "JPY",
+            "CHF"
+          ],
+          "horizons": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "files": {
+            "card.toml": "a4114ca23a436955abcd60954aad2c26a952f4d36ad3525c2b5ad1413b29bc80",
+            "em_fx_ecb_daily.parquet": "088dc10b7f8aa338dfb57339be37edb4b2809d76efc81164b14bad1b532c58a4"
+          },
+          "observation_max": "2025-12-15",
+          "rows": 20709
+        }
+      ]
+    }
+  }
+}
