@@ -1,11 +1,29 @@
 {
-  "executive_summary": "Implemented and trained; paired Docker evaluation pending. FF03 preserved.",
-  "stage": "SOURCE",
-  "pre_sha": "a85ed6b852f72e29bac1527b42a2fb996d6235fa",
+  "executive_summary": "Actual implementation/training/paired Docker evaluation complete; REGRESSION. FF03 preserved.",
   "branch": "track2/final-alpha-23-forward-expectations-engine",
-  "classification": "IMPLEMENTED_BUT_UNVERIFIED",
+  "stage": "RESULT",
+  "classification": "REGRESSION",
+  "parent_sha": "122ad52b3ba28bca06f480b723a0e82502bc77d4",
+  "PRE": "a85ed6b852f72e29bac1527b42a2fb996d6235fa",
+  "SOURCE": "c190da62afe6bc1489cdece3229a7422c30ef9d2",
   "training_origins": 4545,
-  "paired_evaluation": "PENDING",
-  "Docker_release": "NOT_RUN",
-  "selected_candidate": "FF03"
+  "forecasted": 81,
+  "scored": 74,
+  "run_id": 40008576484,
+  "selected_candidate": "FF03",
+  "new_release_image": "NOT_RUN_PERFORMANCE_GATE_FAILED",
+  "registry": "NOT_RUN",
+  "submission": "NOT_RUN",
+  "completed_stages": [
+    "PRE",
+    "IMPLEMENT",
+    "TRAIN",
+    "TEST",
+    "SOURCE",
+    "DOCKER_PAIRED",
+    "INPUT_RECOVERY",
+    "EVALUATE",
+    "GATE"
+  ],
+  "last_update_time": "2026-10-23T19:13:24.127313+00:00"
 }

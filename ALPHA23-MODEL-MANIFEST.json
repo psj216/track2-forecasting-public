@@ -1,0 +1,47 @@
+{
+  "executive_summary": "Two frozen structures: one full research candidate, one policy-free scientific control. No release image built.",
+  "source_sha": "c190da62afe6bc1489cdece3229a7422c30ef9d2",
+  "models": {
+    "full": {
+      "file": "backtesting/alpha23/weights/full.json",
+      "sha256": "9bbbb81d01fc8a4e2fd42a48acc8deb4691c3f8b105194960420db1db8abd2bc",
+      "bytes": 223943,
+      "features": 125,
+      "selected_ridge": 1000,
+      "nominal_training_cutoff_guard": "2023-12-31",
+      "actual_last_training_target": "2022-12-12"
+    },
+    "ablation": {
+      "file": "backtesting/alpha23/weights/ablation.json",
+      "sha256": "9575396ba72a0644a89bc475ee7b08325b6418cb09d0abafd1a592254666d8c7",
+      "bytes": 185814,
+      "features": 100,
+      "selected_ridge": 100,
+      "nominal_training_cutoff_guard": "2023-12-31",
+      "actual_last_training_target": "2022-12-12"
+    }
+  },
+  "assets": [
+    "UST_3M",
+    "UST_6M",
+    "UST_1Y",
+    "UST_2Y",
+    "UST_5Y",
+    "UST_7Y",
+    "UST_10Y",
+    "UST_20Y",
+    "UST_30Y"
+  ],
+  "horizons": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "forecast_draws": 1000,
+  "M0_reference_draws": 500,
+  "seed": 17,
+  "training_feature_matrix": "receipts/alpha23/data/training-matrices.npz",
+  "training_feature_matrix_sha256": "d64b818d6c9b416a064dc65f7a281481819648921d0450936198d910eee0b54a",
+  "independent_OOS": "NOT_ESTABLISHED"
+}

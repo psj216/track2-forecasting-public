@@ -1,0 +1,38 @@
+{
+  "executive_summary": "81paired research executions succeeded inside exact original FF03 runtime with new frozen code mounted read-only. This is not a newly built deployable candidate image.",
+  "run": "https://github.com/psj216/track2-forecasting-public/actions/runs/40008576484",
+  "run_status": "SUCCESS_4_OF_4_CHUNKS",
+  "artifact_ids": [
+    12525770867,
+    12525536516,
+    12524489739,
+    12524084860
+  ],
+  "restored_image": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "verified_archive_sha256": "df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c",
+  "runs": 81,
+  "new_engine_repeats_identical": 81,
+  "nonroot": 1000,
+  "network": "none",
+  "root_and_input": "read_only",
+  "candidate_source_mount": "read_only",
+  "cpus": 2,
+  "memory_limit": "4g",
+  "measured_peak_memory": "NOT_MEASURED",
+  "timing_scored_subset": {
+    "ff03": {
+      "median": 2.24319161599999,
+      "maximum": 5.423689534999994
+    },
+    "full_and_ablation": {
+      "median": 1.5091708534999952,
+      "maximum": 1.6357186699999886
+    }
+  },
+  "new_image_build": "NOT_RUN_PERFORMANCE_GATE_FAILED",
+  "official_G0_G3_candidate_release": "NOT_RUN",
+  "official_22card_candidate_release": "NOT_RUN",
+  "monthly_candidate_fallback": "NOT_RUN_NO_DEPLOYABLE_CANDIDATE",
+  "full_multi_card_release_concurrency": "NOT_RUN_RESEARCH_CHUNKS_ONLY",
+  "registry_push": "NOT_RUN"
+}

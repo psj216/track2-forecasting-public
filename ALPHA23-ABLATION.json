@@ -1,0 +1,52 @@
+{
+  "executive_summary": "Policy features did not improve full-cohort normalized loss; ablation is a control, not a selected candidate.",
+  "full": {
+    "score": 0.9571335108062773,
+    "normalized": {
+      "marginal": 0.8899600603874834,
+      "joint": 1.004897919143847,
+      "tail": 1.0534205243469066
+    },
+    "raw": {
+      "marginal": 0.034083280662369105,
+      "joint": 5.965763643423715,
+      "tail": 0.004646558982199506
+    },
+    "coverage90": 0.8963963963963963,
+    "coverage98": 0.9699699699699701
+  },
+  "price_only": {
+    "score": 0.9396544630560673,
+    "normalized": {
+      "marginal": 0.8811792759186833,
+      "joint": 0.9862455078188943,
+      "tail": 1.0159558637552866
+    },
+    "raw": {
+      "marginal": 0.03373804696179329,
+      "joint": 5.8786083710912855,
+      "tail": 0.004477887431359248
+    },
+    "coverage90": 0.8978978978978981,
+    "coverage98": 0.97484984984985
+  },
+  "ablation_minus_full": -0.01747904775021003,
+  "ci95": [
+    -0.03716543775941173,
+    0.0018284473426122708
+  ],
+  "direction": {
+    "ff03": 0.4752252252252252,
+    "full": 0.5052552552552552,
+    "ablation": 0.4748498498498498,
+    "m0": 0.4669669669669669
+  },
+  "center_rmse": {
+    "ff03": 0.057783196683987195,
+    "full": 0.05900521177234114,
+    "ablation": 0.058539440396211305,
+    "m0": 0.058473594367769464
+  },
+  "causal_interpretation": "NOT_IDENTIFIED",
+  "training_schedule_effect": "NOT_IDENTIFIABLE_CONSTANT_COLUMNS"
+}

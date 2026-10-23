@@ -1,0 +1,22 @@
+{
+  "executive_summary": "REGRESSION. Keep FF03 unchanged.",
+  "classification": "REGRESSION",
+  "implemented": "PASS",
+  "trained": "PASS",
+  "same_byte_input_paired_comparison": "PASS_81",
+  "scored": 74,
+  "missing_origin_observations": 10,
+  "missing_target_grids": 7,
+  "improvement_over_ff03": "FAIL",
+  "policy_contribution": "NOT_SUPPORTED",
+  "goal_thresholds": {
+    "0.85": false,
+    "0.8": false,
+    "0.7": false,
+    "0.6": false
+  },
+  "independent_OOS": "UNKNOWN",
+  "PIT": "LIMITED",
+  "Docker_release": "NOT_RUN_PERFORMANCE_GATE_FAILED",
+  "selected_candidate": "FF03"
+}

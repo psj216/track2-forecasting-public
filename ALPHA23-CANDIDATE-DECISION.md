@@ -1,0 +1,2 @@
+## Executive summary (read this first)
+REGRESSION. Actual overall UST loss FF03=0.9073992869433809;ALPHA23=0.9571335108062773;ablation=0.9396544630560673;M0=0.9142992452619277. Do not promote or build a release image. All0.85/0.80/0.70/0.60full-cohort goals fail. This is a different UST cohort from previous ECB0.9419, not directly comparable. FF03 original remains selected. No claim that all policy information is useless; this specific lexical/curve model failed. No Registry, credentials, ZIP or actual submission action.

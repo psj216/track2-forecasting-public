@@ -1,0 +1,1315 @@
+{
+  "executive_summary": "Research cards, not official Final metadata; each input cutoff enforced.",
+  "requested_origins": 91,
+  "prepared": 81,
+  "missing_origin_observations": [
+    "2025-01-20",
+    "2025-02-17",
+    "2025-05-26",
+    "2025-09-01",
+    "2025-10-13",
+    "2026-01-19",
+    "2026-02-16",
+    "2026-05-25",
+    "2026-09-07",
+    "2026-10-12"
+  ],
+  "inputs": [
+    {
+      "id": "a23-ust-2025-01-06",
+      "origin": "2025-01-06",
+      "files": {
+        "card.toml": "9b232ca8ac064d86652af71ab7f781e41e88a330b614a4ffcbfc8a602ba6ffbb",
+        "policy.json": "d1771e53f6067558f508e27121c980b768cf543368e0be8e6cd4a1118dad6fbe",
+        "rates_daily.parquet": "593f3efe5d360f6f4e6b088be3201c67c3a36106450fac94e26ddbe461a6cbd8",
+        "text/corpus_index.json": "716e0a82124908d7dbcaa0d089cbc8d98a1410c6208b336089d1a3438d3be79d",
+        "text/policy-0.txt": "4aebcf865ae8071d8da9ec9f1a79d11c08db0164c83fdf8448f332b9ba2eb90c",
+        "text/policy-1.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-01-06",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-01-13",
+      "origin": "2025-01-13",
+      "files": {
+        "card.toml": "15562dd2101f9f503ae2dbad6804e66f2dba01e2b58570586dff391496a822e0",
+        "policy.json": "d1771e53f6067558f508e27121c980b768cf543368e0be8e6cd4a1118dad6fbe",
+        "rates_daily.parquet": "acb5e7e12b0a2967c57c1b51a05ec2b82ee510ac94ef483db2ea24e0ee079b35",
+        "text/corpus_index.json": "d9215c4998499a64ad2ff3a2a137a0ad06cd1d949c1fc740c47d008e236030a3",
+        "text/policy-0.txt": "4aebcf865ae8071d8da9ec9f1a79d11c08db0164c83fdf8448f332b9ba2eb90c",
+        "text/policy-1.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-01-13",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-01-27",
+      "origin": "2025-01-27",
+      "files": {
+        "card.toml": "b8959540410cea2645d2ecb13f762df02df1a3a9b4f98087bf0d4fc0eeced38a",
+        "policy.json": "d1771e53f6067558f508e27121c980b768cf543368e0be8e6cd4a1118dad6fbe",
+        "rates_daily.parquet": "e82eecab3da9986ce22152ab10dbe45105aeb9b61e028db2da16bd1fda883195",
+        "text/corpus_index.json": "ed5bf51659a1f59909635fdca3c1c1497ab8540e67c03ceb1f81159815ed85c4",
+        "text/policy-0.txt": "4aebcf865ae8071d8da9ec9f1a79d11c08db0164c83fdf8448f332b9ba2eb90c",
+        "text/policy-1.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-01-27",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-02-03",
+      "origin": "2025-02-03",
+      "files": {
+        "card.toml": "8babc8aefdff2791de8d8d0942942b90d53f4ec360d13509c774039fc3b90085",
+        "policy.json": "a29ba42fda8bf9623842a123d19f05552e514090ac7739cf86b9d4157623bc94",
+        "rates_daily.parquet": "b203892892e803882b4b130f41e3231f1c81d95e4f979ff5b1a1b36fc70594c1",
+        "text/corpus_index.json": "d90e0eb2c2b59bbc971ce8f897f73e87db610765bd899d8206435b9493a7cda7",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-02-03",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-02-10",
+      "origin": "2025-02-10",
+      "files": {
+        "card.toml": "7adb80845e725e06bc45fc8cfe51683bd1f5b8cced02bc74850793ee118ec3d5",
+        "policy.json": "11ddf1d4190ccacf4017c8be797b4bddae78ccd6088d7de027869c5bd54d671e",
+        "rates_daily.parquet": "80146b7928a3512826cbda73b1a9ed8b0d4299c7fb9b08f7ba960d12a5ec8b0b",
+        "text/corpus_index.json": "2a38a99ecb2f5dec68ba949311b1df2459df7450764fe82dbe6cb0b36233f4e0",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-02-10",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-02-24",
+      "origin": "2025-02-24",
+      "files": {
+        "card.toml": "623f5a72bc7cb00a3003d8de4d4909823e848148557d40b33d42be94e36b042b",
+        "policy.json": "a55461a45ff799ccfbf881629d526a8a2eb035a2fd2e93c6feb028e72c57491b",
+        "rates_daily.parquet": "01d4d173a8860690584a337b335b07c6c11c8c3f6b769de051d5c048c8dcf123",
+        "text/corpus_index.json": "940c5fc83acd357ac52e691e80e91f9bdf3158d55303373c24c597fa4abe988f",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-02-24",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-03-03",
+      "origin": "2025-03-03",
+      "files": {
+        "card.toml": "fc1d0fa94474edc54fbf196863d0dacb110f0928db16cac39780650cc3832d3d",
+        "policy.json": "0568b863a6313cbbf88a73f52db07fb7eb657629eb3d3523dd5cc634513e9881",
+        "rates_daily.parquet": "5f451839f9b34ddaf3953a186001e1bcd43cd70adc12ff85b0cba731d3faecbc",
+        "text/corpus_index.json": "4ff3937206d0ab21ce5f0bec1e2a8377bee8b676f4b4756eb9abdd52b6febc2a",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-03-03",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-03-10",
+      "origin": "2025-03-10",
+      "files": {
+        "card.toml": "38c77fe41e525fdf382bce37684a59442465b2909c849d8bd4024319cd144ece",
+        "policy.json": "a29ba42fda8bf9623842a123d19f05552e514090ac7739cf86b9d4157623bc94",
+        "rates_daily.parquet": "8e71573c4b595a0bb44162b89aaac35bef6b5888516291530fdd46aad3341a8b",
+        "text/corpus_index.json": "9b77019e94512f14cb6cb69d72386417838f4306d17c5c6ee3304c441d310f8c",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-03-10",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-03-17",
+      "origin": "2025-03-17",
+      "files": {
+        "card.toml": "0dfe27eec4a0ae672e57aaa695d61b9c81dfdbd3468593ecba10fbeb13a50acd",
+        "policy.json": "11ddf1d4190ccacf4017c8be797b4bddae78ccd6088d7de027869c5bd54d671e",
+        "rates_daily.parquet": "97e375818a8936e09562c07e7bd8a623c2f2d242db85392bbcbee0f1f3997eb2",
+        "text/corpus_index.json": "082d9e1dd799517e9231ceb2ad8ec68ee40395e9576f561c99b9034998f5305c",
+        "text/policy-0.txt": "16f1bb98b4bba2aaaa6864d24dc614ebb89e67ae49fdff07ee9c3d1ce5771789",
+        "text/policy-1.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-03-17",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-03-24",
+      "origin": "2025-03-24",
+      "files": {
+        "card.toml": "41ac19f384626c233854aad9553ebcd6857a01834951870ebd87dd9c1f9d0f93",
+        "policy.json": "cb29e3265020cfa93d9587bc02a488886490c76c08d26624bfa7e7a1174bd542",
+        "rates_daily.parquet": "35b3dda054398d87e6284cf321ea4580308f8faa098e4d7f50900c38ed47f5ec",
+        "text/corpus_index.json": "8d0cfc2d0d5b31c6da5672d9fc45c5d4e3b749ab3bbd59ec05d852c552a304e1",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-03-24",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-03-31",
+      "origin": "2025-03-31",
+      "files": {
+        "card.toml": "453428e9d777923d0152e1e06f146faf49bb0a3a5a1ff45efef13e238dbd9f40",
+        "policy.json": "097cbdb9cc8b3e2670a84710a2216512b6b3ea130f774a9891c0e5d16028545b",
+        "rates_daily.parquet": "92acec1cf6d530297e16d91c9a184cfb3cffa88af80b1f52d5eac65afb7bf9d1",
+        "text/corpus_index.json": "84b77ef72dabfd7c85f0d7901a21b6734e4e947117731d6a8f6e5a9766bad11c",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-03-31",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-04-07",
+      "origin": "2025-04-07",
+      "files": {
+        "card.toml": "de6449ac9f66e26dd68bbb86a8c1cf101cab246e770e09fcfa192f952ca504a1",
+        "policy.json": "e7511424328ec8ea4f3810008366cede55047f1377cb231212a849cd2446b220",
+        "rates_daily.parquet": "7ff1bad49d2ac579a270c72e32de9f7d7f59f855326291df840d63f8f68379d8",
+        "text/corpus_index.json": "91b9965a5ad2c92620791f30ad0737051ee8e45b40812faf7273fd12d5fc8500",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-04-07",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-04-14",
+      "origin": "2025-04-14",
+      "files": {
+        "card.toml": "47dc6afda9ecdfe4cbf30394dafbb0ace68f58b88858b063a304f0a55f17f739",
+        "policy.json": "b0a3f43174a2556a79dfbce6abd99e0c0e39bfb320cb6f5087f93433ad70956f",
+        "rates_daily.parquet": "8518a31365167fc322feb36e2e232994364a13aa622190a7d6aa9bf7883c72c7",
+        "text/corpus_index.json": "ea664e53fd5ac945116d00f2848db6815fac346dff6d5e193b0cc4fb9c946890",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-04-14",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-04-21",
+      "origin": "2025-04-21",
+      "files": {
+        "card.toml": "9dea2a49f8c1a2bd33151e901df66a9c06f247818a81b16f02a19a5d43160ea5",
+        "policy.json": "cb29e3265020cfa93d9587bc02a488886490c76c08d26624bfa7e7a1174bd542",
+        "rates_daily.parquet": "728e97cc3ba174cc5b2bf9e9175f093ba14871e037c0ce9626dea4e06518e2e3",
+        "text/corpus_index.json": "768fa1ee3e67b3f9ecd68439f3a8c0a80d51e2ff67fd3bb67bce6ae3decf18b6",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-04-21",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-04-28",
+      "origin": "2025-04-28",
+      "files": {
+        "card.toml": "9055f7a38939981d3432b6e9ca33e0caf974b1d8583f2d0e188e6ac033cfb4f2",
+        "policy.json": "097cbdb9cc8b3e2670a84710a2216512b6b3ea130f774a9891c0e5d16028545b",
+        "rates_daily.parquet": "b27d71486792d9e21450a07bc65e1beb7aa7edc0e1d7ec20417b76908ab81361",
+        "text/corpus_index.json": "e011583a48c71ff39994ebe9bd3fe97cc9cc23ad0e9f9bb2ac58e06394a7b5b1",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-04-28",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-05-05",
+      "origin": "2025-05-05",
+      "files": {
+        "card.toml": "7b303711b08360e550e3348dd4728de0446e41faeedc4d779d0c374f925e503a",
+        "policy.json": "e7511424328ec8ea4f3810008366cede55047f1377cb231212a849cd2446b220",
+        "rates_daily.parquet": "41f9cd8e032a7526b93e52b603ad4499a7eda34a7550353800dafbdae3990135",
+        "text/corpus_index.json": "afddb75827e9504c22d0a4ae8249f2cd28187fc2d0019e8a3ee5fe1df8d7849b",
+        "text/policy-0.txt": "b11ec5bee6a3e94b8e40c90889be04694400218fc89ef53f0d918ef8e26f533c",
+        "text/policy-1.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-05-05",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-05-12",
+      "origin": "2025-05-12",
+      "files": {
+        "card.toml": "a958e7f8c757f92699e3141e4af0a70abb92f4cf13e9ef729432f02d3079ca72",
+        "policy.json": "dc3562776bab3bdd99457ddcdb3883570b8bb09abb26e17e82a080e757817530",
+        "rates_daily.parquet": "9bc60827eac876beccb0b23e386df73a348f45435a998c3c7f98fae7b1186d15",
+        "text/corpus_index.json": "554429b0ea1012c793fc72aa00aad105b7a72e73ee26e9742889ab14286ce7ea",
+        "text/policy-0.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-1.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-05-12",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-05-19",
+      "origin": "2025-05-19",
+      "files": {
+        "card.toml": "bf81939120d6e957102be7c93bcef71fbb3694a9792d47a6a144d59f68ccfa93",
+        "policy.json": "4f42b9a77978eeeaae61fa372da0279d4bc3bcf5efe7ba2d4722cebe05f0cf03",
+        "rates_daily.parquet": "2ddd1d434c6f8b7638efbc998d56bfd02852f475e1b5e220ea28cf84aee7be2c",
+        "text/corpus_index.json": "0b9c841396888d72b90d4e69d8f70a383228f9e23f14a78035558d85c101eeb5",
+        "text/policy-0.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-1.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-05-19",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-06-02",
+      "origin": "2025-06-02",
+      "files": {
+        "card.toml": "1911371279d1a4102834e99c5463873d3bc0f7f9295b4ed7e42f0169efa27446",
+        "policy.json": "3e99b045d8bebe893bcac14255ab7bc181179f9663a147baf0889e1373c2d13e",
+        "rates_daily.parquet": "35ca6ecad2f83e22dcbdc1fc3086796c1e1b79d83810f13b7670e8b537682d8b",
+        "text/corpus_index.json": "dbbdbd7711c485dfbe7f46cf60ee623718b3e5956ffeb8edd9ac988e4673d0e6",
+        "text/policy-0.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-1.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-06-02",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-06-09",
+      "origin": "2025-06-09",
+      "files": {
+        "card.toml": "b58314c7a8bba29f01f15cdf544dd33b5af03b5b0d523c21dac92af2560fe1c9",
+        "policy.json": "42f8443efcfccbc506988c6838e141f61c8c30a593d72613c922c892c494549d",
+        "rates_daily.parquet": "c157cc97218db0c161831941f95a4ce19c474c7549b0ff2b15844cc88e23ca5a",
+        "text/corpus_index.json": "66b2abb66a0015a8669f206d803a56a73fac2c121bcded604b556008b9b10e18",
+        "text/policy-0.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-1.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-06-09",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-06-16",
+      "origin": "2025-06-16",
+      "files": {
+        "card.toml": "95676e69dc485bbe161b5a87d03e8e3fb5608203b8d8efb34a7d37d31496a1e5",
+        "policy.json": "dc3562776bab3bdd99457ddcdb3883570b8bb09abb26e17e82a080e757817530",
+        "rates_daily.parquet": "83bfc77c4726b74c95241c4b4e0da0a5879710b78bf8a52b14622fa056f582be",
+        "text/corpus_index.json": "a538c2eb53ff82f41c29e113c0d6d33abd4a3db47534f0fe9f1e5e8a47b8dc72",
+        "text/policy-0.txt": "07281ebffac29f85fe802971e140d3c4cb2a1c1ba51173f80cedb5da58c6257d",
+        "text/policy-1.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-06-16",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-06-23",
+      "origin": "2025-06-23",
+      "files": {
+        "card.toml": "85a9a5e4e289a449642bf81e66af5eb673289dfec350cbbff2aabc0908fc6b2e",
+        "policy.json": "715d187710ec428716d8eb7a1fb6df89e01841ec71133f00764e0555d2ffee5e",
+        "rates_daily.parquet": "5d5c2b156c7ac95b43fdea6c11dd8af89944ba58cc0a489a2d2d3bfa476e1a18",
+        "text/corpus_index.json": "8bf4e794d356935707ab05288827b8732c43e3bc4d5baa42ddcd92c9af7655d2",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-06-23",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-06-30",
+      "origin": "2025-06-30",
+      "files": {
+        "card.toml": "6ceb67c484de12064614317b24f868551df19e62324928cf798f0a41b99415ca",
+        "policy.json": "5908d95f5586e388db275f234d2b0a1a8839e072e6739e4078d33a83ca20d36a",
+        "rates_daily.parquet": "908e614ab59dad02a9d07bd9e9de20c8669fc488e6b61c728cba9264b78f6f6a",
+        "text/corpus_index.json": "577b33a6c74f906e1be9f06ff3701cbd834d4f778f3d674afe2a92d3a5da444d",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-06-30",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-07-07",
+      "origin": "2025-07-07",
+      "files": {
+        "card.toml": "a3aa252d107929c4bd9549aec167ffac6286ae060c2198cac714fc29c211f17f",
+        "policy.json": "369f613e75798f5aed2f48b88b93cbe61e036eb34ac887a7890e539722bb2d58",
+        "rates_daily.parquet": "a43d28c47b20e1fa0c92c5d4993f6c100c41abe3e11e3df65325c1787064c1e9",
+        "text/corpus_index.json": "947ea8ecd82ec0d47e29dac1fd5ed6233836a0432f0c008f5971020ea8feda05",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-07-07",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-07-14",
+      "origin": "2025-07-14",
+      "files": {
+        "card.toml": "8cde9fb7f85fb4b0b5d878da53e86f4c079329ef11f52fccfd7e49a240274b11",
+        "policy.json": "ec490d12f46de70362ae1f40e360cdfded8f2ca3cadd206277334e423db735bc",
+        "rates_daily.parquet": "be177611d256096edcfad820d995b1618a9f569bf83cd9d5fd08296e2cb2e66c",
+        "text/corpus_index.json": "38fdfd269aa56d00461d4b5792826d0307a17d825f18c15c5c09647430b597d8",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-07-14",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-07-21",
+      "origin": "2025-07-21",
+      "files": {
+        "card.toml": "926ea7968f48879c1fe38c1af0ae6e3ab096500bad3b29418fbfda76528253b3",
+        "policy.json": "715d187710ec428716d8eb7a1fb6df89e01841ec71133f00764e0555d2ffee5e",
+        "rates_daily.parquet": "f7aeaf11709d0271bc0e93b5d19ef5be2c340b85012d5895ffc933e7fe90ea12",
+        "text/corpus_index.json": "8d6f7e5a0fc8c8eb04215365ca32046d515d18ded8963b43ff0e0b7a100e5fc3",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-07-21",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-07-28",
+      "origin": "2025-07-28",
+      "files": {
+        "card.toml": "d7870a5988512e278221dfb108840cc032a225adf053065ea7d433d8fb2ffc24",
+        "policy.json": "5908d95f5586e388db275f234d2b0a1a8839e072e6739e4078d33a83ca20d36a",
+        "rates_daily.parquet": "17d90c1e6b76c6f73c6d1cd379cfd12ce30778ecf71c2efd6090ae50146fe8b9",
+        "text/corpus_index.json": "11abe5575cbe594b1dc960300a378cc59d21c940934d247f8c5fee2c522430e6",
+        "text/policy-0.txt": "bb619cb59746109690ff27c1e38732baeb1b52d99d9ca8f43768470ea2c2cb3b",
+        "text/policy-1.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-07-28",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-08-04",
+      "origin": "2025-08-04",
+      "files": {
+        "card.toml": "68c12b664cfe16230c47d14822ca6b74b092ea63e40c9d87b5e000a717e91b02",
+        "policy.json": "ff57a54ae4e812f78c02f588db0a31cd69d80f79b5f08febcec6352f046d33e2",
+        "rates_daily.parquet": "8aa2f806baefe172e328bb22acf51410078f783a1e6b39cf6eb5820e66b7fea2",
+        "text/corpus_index.json": "0f9c7958b6a54ba1fcf30928543f6143c1a6a64d475d6aaec3073d3575bebcf6",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-08-04",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-08-11",
+      "origin": "2025-08-11",
+      "files": {
+        "card.toml": "4ab4e220d37dd2a2bd6729587045a33f726753b1254509abd456e2f2a0d7d18c",
+        "policy.json": "9ca8c38e88f56a79f775235872ff1f66399ab972ea2cbbf70270e307afbd43af",
+        "rates_daily.parquet": "4ccf81ef0ce1d5f763c5e3f253462a96edb957d45c3f3e8e7b7bdd4c309791f2",
+        "text/corpus_index.json": "e863db1611a6737bc0520c66747a85febf83b4c16e65caa5dd4beec683a83201",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-08-11",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-08-18",
+      "origin": "2025-08-18",
+      "files": {
+        "card.toml": "a3be9898140ec18e3407fb9812898c94fb033cbb10ee33adb1695f102bc11f3f",
+        "policy.json": "0ab8345e77c424cc9ff3c7f8df5768365c7a7d24de4f6996800843af6e131c8c",
+        "rates_daily.parquet": "50eb1858b32e7ae609cc61eb2351a436685a798128712edfd2873833171ee71a",
+        "text/corpus_index.json": "1809c60cd0c78a90aab63d60435dfdaccb7727880a31b2973a797a4eeeaee333",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-08-18",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-08-25",
+      "origin": "2025-08-25",
+      "files": {
+        "card.toml": "0380d2e89ae678ac4a94f5fd48f07123a3041e77a3fbf8e884cf978c06d6816c",
+        "policy.json": "601c4f6cbe3342fee739ffc3ff9bf59b6fa1f7bdcc25b7fefc9fa46cbdb10294",
+        "rates_daily.parquet": "836ba0554e4f20c68d011d068def7e0159a5a3fc3011b871c05400346265fa3c",
+        "text/corpus_index.json": "f5dfcde8fc80bb7241cd99760eda21b175bb84ff12dcc2a95ccfa234ddc2efff",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-08-25",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-09-08",
+      "origin": "2025-09-08",
+      "files": {
+        "card.toml": "bb7935d108af068549332560a681308cc8bfd6e18bc8bac1c5d5dbea045186a5",
+        "policy.json": "ff57a54ae4e812f78c02f588db0a31cd69d80f79b5f08febcec6352f046d33e2",
+        "rates_daily.parquet": "ab36c8e5313654b84b77bff2055b15793cae7630cfb732d568a7166199149397",
+        "text/corpus_index.json": "ed91a392c29c8e835b1cde9cebfccf1dfe4c31eade7d80a39c5115298ded79e4",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-09-08",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-09-15",
+      "origin": "2025-09-15",
+      "files": {
+        "card.toml": "8c3e881534bdb237e6dac0748a4200e314fd6686d11a726edf7c5e3322b0a0b0",
+        "policy.json": "9ca8c38e88f56a79f775235872ff1f66399ab972ea2cbbf70270e307afbd43af",
+        "rates_daily.parquet": "ce85ab7cd1ed54b049cdb48b131739fded30fc9e62b08774b9dd6e3b556c0390",
+        "text/corpus_index.json": "6f15c2dddbc3fd53afeeb12b84b3acf8e8398d19e6e0acb38a1c912757ce816e",
+        "text/policy-0.txt": "5c5116633a67622efa3382e692edeaaae765531fd6be6422901d9f48e9685186",
+        "text/policy-1.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-09-15",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-09-22",
+      "origin": "2025-09-22",
+      "files": {
+        "card.toml": "ca36522bb31f4ea64580dc6e082d0e32fce7084eed29847ba8e3ccb071a09157",
+        "policy.json": "621cfd69ecb2da55f8c9c9c7cf64d0e6af6f629c3bddf6a1dfa186fc99716732",
+        "rates_daily.parquet": "3d714dbd9a995ef147f847bc28bd1f1c61a4177ff705ae5c724654300c1ad29a",
+        "text/corpus_index.json": "ee34212a9ccef7e56ecd942987676b63ff869d9f3500ca710f044ed06d906022",
+        "text/policy-0.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-1.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-09-22",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-09-29",
+      "origin": "2025-09-29",
+      "files": {
+        "card.toml": "cdf701de782f612b878331d36770a9c99cfd6fb6619e1f14e3b437e9832e4a2e",
+        "policy.json": "59e99dd9f18c5a71c1c18b48aadb35398666f7370036a622387d1220a42ad10a",
+        "rates_daily.parquet": "6d460a0fd023bafea7b676176bb3faa54e908f28dc36a4cdca6e55eb4ff9eb9c",
+        "text/corpus_index.json": "2f0cacdc871881a89fafdca0d3b2b088ea30bdb23ad4c5e9c09dcd72fc06c4e0",
+        "text/policy-0.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-1.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-09-29",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-10-06",
+      "origin": "2025-10-06",
+      "files": {
+        "card.toml": "180379a6a21f9c32bea94bb2be72fc20e828458b63f2f1eab80b45d9abe9df20",
+        "policy.json": "0475c02f4ab669b75d501389d5b000b912de305fcfeb99aa78c3e29c60cdc026",
+        "rates_daily.parquet": "01f8a8e17534ab60fd9718248d63d2858134f3bceae5f7dce19f58683a9a0911",
+        "text/corpus_index.json": "3b0d51a5c8ec470db9c2495ac46fcb00641a87fc03e360fffba142103baecf96",
+        "text/policy-0.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-1.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-10-06",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-10-20",
+      "origin": "2025-10-20",
+      "files": {
+        "card.toml": "76db1918fe43e1bce5950a1cfdf54bee2ecba02b32a95a9321a584461878e462",
+        "policy.json": "cdf3d3956cddf5d2b48e13374999c5c067d718ef63a02907fdec6d721995d686",
+        "rates_daily.parquet": "cb77ef424e830d88c83256c5f3bcf9c0a4a94f05934051baf6245560b84bd10e",
+        "text/corpus_index.json": "c13a29f33e0746997ecb7066aa6ff0d8b3e763534a73dc9ddac720e5da99b288",
+        "text/policy-0.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-1.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-10-20",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-10-27",
+      "origin": "2025-10-27",
+      "files": {
+        "card.toml": "16f5efb5d8aec6eab14feb13e8c4c3105c6ecbbec5bfa000d88052d5572c2043",
+        "policy.json": "621cfd69ecb2da55f8c9c9c7cf64d0e6af6f629c3bddf6a1dfa186fc99716732",
+        "rates_daily.parquet": "a967e993f679f045710e4e008a018afd47bc564c606f67dadf575a94b6108a86",
+        "text/corpus_index.json": "f9562d9f5e3972a9e35d4676923756086f1356c48f208d113f9c43474c2a3aee",
+        "text/policy-0.txt": "a1a666ccbbc4728a80171390dce97e0419cd70e9f903b95f0be844d2b04ebae2",
+        "text/policy-1.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-10-27",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-11-03",
+      "origin": "2025-11-03",
+      "files": {
+        "card.toml": "03d91429d0258d0c7c3fc7a5f2e3aa5d7fc98be394af96d0d74a938b2dfc6c25",
+        "policy.json": "3f6a4972737612d0a203bd72203e401a8845b31df2757d9cffc7ad0def783cdb",
+        "rates_daily.parquet": "68c25e441cba14597bac1b2a5229e37d16641e6400fd0d349470f357f2ca8397",
+        "text/corpus_index.json": "535d5197818184477bb1366f4e2aa2bef17eb2559abaabde940ff511207c7de1",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-11-03",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-11-10",
+      "origin": "2025-11-10",
+      "files": {
+        "card.toml": "624f6814e4ecf2d49f11616764fe6fe42c24f63d9ab7435fa2e21992c059a088",
+        "policy.json": "6af4917e14a54d354b73f3f72912bba0f77c3b2c81612747bb38a3351d4ce610",
+        "rates_daily.parquet": "d3831aa18e2ce503fe8c8e6d1c467c9fc23fbe7bf852f7e12733d61d7e0fbede",
+        "text/corpus_index.json": "813ef256e62a6566510f01dc3c74db44e0788db54370486cb90c8accb30c50db",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-11-10",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-11-17",
+      "origin": "2025-11-17",
+      "files": {
+        "card.toml": "0f0e1a94a276fe8c90b352cad278a9cbd4196e67786cc9630f4ffd070a862a06",
+        "policy.json": "37c08c2ce8c5ca0eb51edc04d79f1302818203780c3b8df0d7cbe01692e3a8df",
+        "rates_daily.parquet": "7f1bd74e7423ec380e73231e4711f5c36bbbb984dddc53828224e86a88f748b9",
+        "text/corpus_index.json": "1326abdb490227f1aef633f3526f292c33e59a228f476dccc10409a1bde14636",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-11-17",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-11-24",
+      "origin": "2025-11-24",
+      "files": {
+        "card.toml": "f0fd87b232fcabf6e64ed562a17144dd4ac71bbac2f8b9f47b1330fa937221d4",
+        "policy.json": "74114386fde00d5d7458144b9e56bfd6e405556c0eacc3641b55ac4eb9ac9194",
+        "rates_daily.parquet": "9d1b30d89fe662d98246656bc3f4b073f0dfd3b7d604f73dc3dfee6d9cba3479",
+        "text/corpus_index.json": "d8c6c48f780345a5761953ba31768def7d12441bea2c1f22e1954516efd6de06",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-11-24",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-12-01",
+      "origin": "2025-12-01",
+      "files": {
+        "card.toml": "6e80bfe97b1cd07477f7eba41011779f1cd9afb7d40a9b0576ffde4c582bcde9",
+        "policy.json": "3f6a4972737612d0a203bd72203e401a8845b31df2757d9cffc7ad0def783cdb",
+        "rates_daily.parquet": "bf8ef344b286660cba684e1db199843d8fa90b78e4b10f31c2b468b90ceffd6d",
+        "text/corpus_index.json": "137175a41d61fc4594cb39278f29c225124e79e64b4e04a11989296e29f96441",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-12-01",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-12-08",
+      "origin": "2025-12-08",
+      "files": {
+        "card.toml": "780fe73b4189e925e4b056828595e659bd233363648cd61240bfe86bf613d7f6",
+        "policy.json": "6af4917e14a54d354b73f3f72912bba0f77c3b2c81612747bb38a3351d4ce610",
+        "rates_daily.parquet": "c7a314eab330de14f9958321630ce349a9609dba2a269cc65fa6a90e0b909501",
+        "text/corpus_index.json": "ecef96fc33a8708640d491c02f6615c581a75813463b080498ad9d4b21ee3a14",
+        "text/policy-0.txt": "ff164c3c580a527283428710edb27d87457b93ab4314ef635991599fa9f86045",
+        "text/policy-1.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-12-08",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2025-12-15",
+      "origin": "2025-12-15",
+      "files": {
+        "card.toml": "9125a5d8c683b8c7d5d03690fc145851d025ad085e4865ce90eeb5c629f7ff4e",
+        "policy.json": "b9c48f4d81f3d8f204815b8982db6244dbb44c808f0013e65e54bb8881e205a2",
+        "rates_daily.parquet": "f389fa4604eb4fc8ab8f6130e8445a20720f04c3fd018941796fd64dbb2f8c94",
+        "text/corpus_index.json": "1ad6642efd724f9a38348d66e4a3be473f9e99fcddc21462f901e2d2bdb1759b",
+        "text/policy-0.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-1.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2025-12-15",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-01-05",
+      "origin": "2026-01-05",
+      "files": {
+        "card.toml": "04bebb731629d8f2cea7a58642ae28fed3311de8bb357d2663cab38430fa150d",
+        "policy.json": "e22b80a7c6dc60bec8cff211df09b89907b52658070438d740f10261326c97ba",
+        "rates_daily.parquet": "8168fc8a2b6c051806cc52414d4f64888bd6f3e64bb7e101bc18a4af024b389e",
+        "text/corpus_index.json": "534a17a4a66f6ab2fe68e5b80a14d73f0cb4b23319f9b532500706f175629906",
+        "text/policy-0.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-1.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-01-05",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-01-12",
+      "origin": "2026-01-12",
+      "files": {
+        "card.toml": "faf17f3a653ac33eedb395eec89e1d410aad8d86943036d85de2940b7df6279d",
+        "policy.json": "0c6bbd23d71e658dfbae71d1942f0286ad5cfafe6ac5340a41abd7c758c20cdb",
+        "rates_daily.parquet": "53ebea16d93080e22aa754132971924b4534f7f4e735b5c9d49ed4abc954ae8d",
+        "text/corpus_index.json": "f3e997a656bb3d6ab87add8cc6c79740d2d89c3af748b3a97cd0e742fd1d720b",
+        "text/policy-0.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-1.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-01-12",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-01-26",
+      "origin": "2026-01-26",
+      "files": {
+        "card.toml": "121069df1427db805e559ba8d60daaa66ad6ae67b2779249bf41022569bceae2",
+        "policy.json": "6209d6da7d31b33efb6bb4861af8caf6594b2ff2498dff59a29be55b9ca9d9f4",
+        "rates_daily.parquet": "71a3acc30f9f273f1c2e337fb8e9672737b535ec61431bee8d6534362897f446",
+        "text/corpus_index.json": "80e836b5e82dcbaf93807177c174c4d9e31262cc8b64c3da12395a9c9ec2e8ec",
+        "text/policy-0.txt": "65e6dcfd7803c9c927c186dd21c595377463127f4d20c0200e7e7f7086b272f9",
+        "text/policy-1.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-01-26",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-02-02",
+      "origin": "2026-02-02",
+      "files": {
+        "card.toml": "e51428da23315c622bba0a81e2f715dae2f8d333b288ebaae938c8457e804ff8",
+        "policy.json": "7914e803aa9c904ed82c63576e3e4e7a643720f2457ce767e0ff15cecf030a25",
+        "rates_daily.parquet": "67f9529100e551fda314ef5bcd023038876866b4c2842e050ab716a82b44d78b",
+        "text/corpus_index.json": "ae7c6c54da87be9173823d037dcb78bcaf5f5e11261a4ba11fe04f0c03aa9c0e",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-02-02",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-02-09",
+      "origin": "2026-02-09",
+      "files": {
+        "card.toml": "030cf17c9dd25233828b07434a081a9603612eb401f09287626d460020f305dd",
+        "policy.json": "7c1aae378c64576d14c51bfe4c65c81738c7e564f9c2472bf54ea2898b48eff7",
+        "rates_daily.parquet": "a71b18da1c0ed9a7bfcf22fdeeb0d1176573e97c2ccca2f5b34e082289d18f71",
+        "text/corpus_index.json": "9e721e47f9d2efdd3ff0763ab140476cebefebff0ee4fcec2262ca990c3cf2a3",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-02-09",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-02-23",
+      "origin": "2026-02-23",
+      "files": {
+        "card.toml": "dcdfff8466123b6b1b5f53c3efb247168eca7fead13d60ced06e98b91e572760",
+        "policy.json": "c8bc2a380afe1ad33aa40c74c1a80bf93fc7fd8a9cc4948f4497aa965a63a916",
+        "rates_daily.parquet": "e3648e9cf6d9b078bf93e706197f6f68bec287a55772331e10d5c95b504307e2",
+        "text/corpus_index.json": "dc234a994578028136145c5e475e8b752bb5c84ad7fb0d6550afec26d6b24b15",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-02-23",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-03-02",
+      "origin": "2026-03-02",
+      "files": {
+        "card.toml": "f91ead91ceb38ffa75a56003a19e7c3f7f1859ac5aa1758241f9cdc215e02bb3",
+        "policy.json": "814f495ee36a3b788912cf729e6f7cc369e65bd469d45617e9d9488d9f2d8fad",
+        "rates_daily.parquet": "3290bbb00c10c6191845b21def64f0770eba90ed1b0860a9842b4f6aeeae048f",
+        "text/corpus_index.json": "d59e67b3ebf3360a6646ed69e473020a86639e248a6325585f98972d1d60fabe",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-03-02",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-03-09",
+      "origin": "2026-03-09",
+      "files": {
+        "card.toml": "945d18a5698e2fdb4000408ea601f7ebc783e4bea6ff7ee42b0d9a070da0cf3c",
+        "policy.json": "7914e803aa9c904ed82c63576e3e4e7a643720f2457ce767e0ff15cecf030a25",
+        "rates_daily.parquet": "7f9cfc03f4d481dd9b7640ba7c20ab06b67341410b2787dda301a001b8f14a14",
+        "text/corpus_index.json": "d04c92f63c73a85663c94ed514866670fad5f0295d4033b7352fbc7252721e64",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-03-09",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-03-16",
+      "origin": "2026-03-16",
+      "files": {
+        "card.toml": "0ff11fa5d3bb80e66ba419d8af48cbaf3156a40991674e5eb89772b29305c8f9",
+        "policy.json": "7c1aae378c64576d14c51bfe4c65c81738c7e564f9c2472bf54ea2898b48eff7",
+        "rates_daily.parquet": "b51a1ed137ca33dc29e7cfc65e5083572c846fa1838f1d69d26131ab67446d18",
+        "text/corpus_index.json": "7a36645d2336f31c224c22e59fb6c82a6c5426575e963f3356de723c3481937a",
+        "text/policy-0.txt": "85a1c826147066d5f5929a29f55bc81301ef5e1b486514fec127f117e3f927dc",
+        "text/policy-1.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-03-16",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-03-23",
+      "origin": "2026-03-23",
+      "files": {
+        "card.toml": "29b9a17f69aaf398c885e7728a7dbeadae97b52301b430a6df42390b162cb785",
+        "policy.json": "031d7fe3c99545d62b6aced6b97ca86d0a4cde4dfae6690ea13fc4fef887f779",
+        "rates_daily.parquet": "afb50956f49d27e6538d9b767f789c9c461021ec6ab8479a96aeb52f698a9ab1",
+        "text/corpus_index.json": "8d35ed200cb8718e89d0a47c3c683a7b9f969b6aee6459862add387c684a5e0d",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-03-23",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-03-30",
+      "origin": "2026-03-30",
+      "files": {
+        "card.toml": "c4f652820eb1d14b9ac56189ecd7dda9f414a985450eacfa48777d33e069322b",
+        "policy.json": "b9c4267a81620a61333ae6bfc1f9dfa2c258775b0010c50b05ae141db8c7d040",
+        "rates_daily.parquet": "6266da158aa1b539ed50f31c0e89868885a8eccea988e7b86e771fd38dfbcac6",
+        "text/corpus_index.json": "7eb62b2259ed336773cb9d0549f055b7e3492a211cf4e09f2f18669be9571338",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-03-30",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-04-06",
+      "origin": "2026-04-06",
+      "files": {
+        "card.toml": "ee5fc876d07da46c4b8653d4586d7cabcba3fe4cf35c81ee0c719e0c62aa2bc0",
+        "policy.json": "bcc97766e96c22f61cedbdb04548f2e9f90bfae6262ed7a1af323fc024cfef72",
+        "rates_daily.parquet": "68730c8452fbb836f9bd899e18fa950fc9a9216486e62791abc8b2cff384e4e3",
+        "text/corpus_index.json": "646e41cba921b1ef6ac4369a3288b57a9cb8fec45abe9b0de7bc0dd2dbd5cb17",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-04-06",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-04-13",
+      "origin": "2026-04-13",
+      "files": {
+        "card.toml": "249204805adca9a75e5d81f6be633fcaf5275da5db0314d9503e8405316549dd",
+        "policy.json": "5f01c9fb173fe5b503a6db74600edb9eef9e86c5c74d7edaa2bf1e123d134607",
+        "rates_daily.parquet": "e7373fa4230b3e455ef080eb6f57934bc4c733a63bdb4ef86ec4ca430b07735f",
+        "text/corpus_index.json": "c0deacb7d67cf88ce2756628303effebd494e6d269eb14f3878df08e137acf3c",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-04-13",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-04-20",
+      "origin": "2026-04-20",
+      "files": {
+        "card.toml": "dbc9e5f5eb9db74a89e80a9280d26a8e1431d88497522da9c9a165e9fd324e81",
+        "policy.json": "031d7fe3c99545d62b6aced6b97ca86d0a4cde4dfae6690ea13fc4fef887f779",
+        "rates_daily.parquet": "dcd7d635fc0daedaa9968ba5a851071eb364c5d674126a1a0322d696c207a38d",
+        "text/corpus_index.json": "4c9219b86f228f59d8060b0c52c900f03dcb9ea39d7887fb8a89a18251b01975",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-04-20",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-04-27",
+      "origin": "2026-04-27",
+      "files": {
+        "card.toml": "eec02fe0dd32b73d75a44f16e6d70c645ae18d460991a4e654815b9ecbad8af1",
+        "policy.json": "b9c4267a81620a61333ae6bfc1f9dfa2c258775b0010c50b05ae141db8c7d040",
+        "rates_daily.parquet": "400928360b8ed564351a55ada0f74b5c45fe6535b6e8ea725c8efcd5440c9481",
+        "text/corpus_index.json": "35915a2f1a12b644936e1eacbaeb7346403299ed6c0a822d170c6fd6d397eba6",
+        "text/policy-0.txt": "f41c3bbdfa098c74ec801a51030183b68089a74104d9294dff5a686d2f001047",
+        "text/policy-1.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-04-27",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-05-04",
+      "origin": "2026-05-04",
+      "files": {
+        "card.toml": "f87ee99037a85a8cac8263ee6648745552e1a4c313a0c5a71ab9feadfba8b709",
+        "policy.json": "187f1a52620311fdf41922e48b6bd6838339b9882d7d93cb4bf64fe62d40453e",
+        "rates_daily.parquet": "483c664c6e8e4cc055bcc1e7f0615e039ad6cc07e12db3400b831c33fa58d134",
+        "text/corpus_index.json": "86dc94dedfee720a49017b8e64764189e99fbdf3e0e914b3e114a9e4291958c8",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-05-04",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-05-11",
+      "origin": "2026-05-11",
+      "files": {
+        "card.toml": "3a5fc587188d3b7f340f217960e1e000c267a4d379a6c1ffdae99056ccd6eb3e",
+        "policy.json": "2176cebd14e8ed579d3c8f348e3d699ad0438af91c5cffe0fbfd1f2d368235a7",
+        "rates_daily.parquet": "bc81c02c39e2d0cfede705fbed525876405a9ec6d79177d1b7de65072ccf41c7",
+        "text/corpus_index.json": "70b63ae1de669f7599ed97637d7fa6f336d0703adfa8225fae07c9af4d913561",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-05-11",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-05-18",
+      "origin": "2026-05-18",
+      "files": {
+        "card.toml": "4c779f69ab997d103bae6d63ecf94203a4d022feaeec4131ead36f4e579b6f49",
+        "policy.json": "2c4968d1c40d9410ee14c6161a584f17381db840f630afcaaf5d760351bfc750",
+        "rates_daily.parquet": "67ee2e7f6d36d8e34b5bf88dfc108fe6a4ea8fbbe8eb16c042553f55d211ddad",
+        "text/corpus_index.json": "f7a2cf8c8422231d9b1f1224ea96b369664c5b35f1fcddd283d3996ba540e1e6",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-05-18",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-06-01",
+      "origin": "2026-06-01",
+      "files": {
+        "card.toml": "0c773b47f67df4946d7aba542de03b01cf9e13508182483257ef5378ce93827b",
+        "policy.json": "468df2458d683ba4dc458f3c608d2e86f10736f46bac02b7e938dcb8e7dabe8c",
+        "rates_daily.parquet": "e899e13ae252cca5b63a3b805cea6258b893b7243af10cc8b970024dadb02fc0",
+        "text/corpus_index.json": "2bd0d7819e79226126a7e6ee48e250d7c3ae7c33bc06d73d31ce46a1d2131dd7",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-06-01",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-06-08",
+      "origin": "2026-06-08",
+      "files": {
+        "card.toml": "1b275c921a4550f71e7673f300ee99ee080f86275f869c8db4afc8c05cab6022",
+        "policy.json": "187f1a52620311fdf41922e48b6bd6838339b9882d7d93cb4bf64fe62d40453e",
+        "rates_daily.parquet": "e47e448b7592db6925d79a8b1e7c77ebfd1b039b47aca8669ff22a26943443f4",
+        "text/corpus_index.json": "bfb86cd37c077e50f6b5b2d9f02c3d1b0eebce56851aed9b608defbf831b6a62",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-06-08",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-06-15",
+      "origin": "2026-06-15",
+      "files": {
+        "card.toml": "be10cc8017f2688b46517f7d11cd34d45a9567fd9756de97475dc001638cd114",
+        "policy.json": "2176cebd14e8ed579d3c8f348e3d699ad0438af91c5cffe0fbfd1f2d368235a7",
+        "rates_daily.parquet": "378643d5dd02c32e1b60301355a6082a82d694caa8e4de191ade67da89dfbe9a",
+        "text/corpus_index.json": "6e0aaaaeae713ca30177997970d51cb155b5d0324ba8b034e101f02cf96a406c",
+        "text/policy-0.txt": "5eba37803feb7b65402fde39e6162c4252f78943b4f831abc7de858237be0344",
+        "text/policy-1.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-06-15",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-06-22",
+      "origin": "2026-06-22",
+      "files": {
+        "card.toml": "f60a745b3c68f86e27ff55e809b1da7b8e1b620eb056ba0f4977cd387842c488",
+        "policy.json": "575b12edd21978fe50f33aa6459a7810d925a15f7cb528db2a2755a99c2a3f39",
+        "rates_daily.parquet": "d7d284409482731879e32225168563e329dfed6b2a2bb9feaeddf4dbbd38e6f0",
+        "text/corpus_index.json": "f323c87968f9e23ae813dbfb7d9fea46c9f7046e84de4b2bd4b394343a75b3e1",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-06-22",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-06-29",
+      "origin": "2026-06-29",
+      "files": {
+        "card.toml": "db2118034cab3965110b464c65f0c7ee8a6379eda595c55c568f609c8308c2c4",
+        "policy.json": "37422483faecf773efc965db14296b0763670088ea07ec00d26cd3b10e66ed22",
+        "rates_daily.parquet": "1a9240757389ece47afbac785a535b6d4282e86a95f5ce938594e710f6a104e0",
+        "text/corpus_index.json": "aea9ad81c47752f66964e6906ee6cc9d91ba7df5ebe82793fffc6450435e4e01",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-06-29",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-07-06",
+      "origin": "2026-07-06",
+      "files": {
+        "card.toml": "da95d2f861c19995001cd11cdcc2248cb511e3347bf29594d40738d21b1033f2",
+        "policy.json": "8fb955db245302c6f170eac6daed66ccae2f8200403ed7f0cd78d86ae2ba408c",
+        "rates_daily.parquet": "ed7dad2798a0251242039f0b19b6963b980eb3453159fe6dfe5eff09aaf4ae6d",
+        "text/corpus_index.json": "ab6970f8cbb8742f08f2010576b2581a2052a305dae9241f5d36b51c3af78505",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-07-06",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-07-13",
+      "origin": "2026-07-13",
+      "files": {
+        "card.toml": "59271457ffacb6e07c232ceebc65b35a113827464c3edcb253ebbd336fd6fbce",
+        "policy.json": "4f93e1a9a4f5f5c687a8a6f844e20ee55765168e0d1976f3d275dfb84e3696d1",
+        "rates_daily.parquet": "181485fab385bcc9a5e87f3860c0bcaccd2a65a52f4b1eb1860a04233e07813a",
+        "text/corpus_index.json": "81dfd43089f4c54289be7e5bd0e3c77eafbc76fd66a3400f76ff11521878cf78",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-07-13",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-07-20",
+      "origin": "2026-07-20",
+      "files": {
+        "card.toml": "c32992f71137bf945893cd4b46e66ceef5c8081b8e1ceb2927e09b304c23d66f",
+        "policy.json": "575b12edd21978fe50f33aa6459a7810d925a15f7cb528db2a2755a99c2a3f39",
+        "rates_daily.parquet": "5451f00ebdf7f55801af14d8371464d32d41d73e7802b47be2a8615506e380da",
+        "text/corpus_index.json": "f8e96d581360e0a07607700ac6fea01588385dce8b5f493869dd95a73a5dcdec",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-07-20",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-07-27",
+      "origin": "2026-07-27",
+      "files": {
+        "card.toml": "7ba50da28b8784d32230b177feecae4fe8014a768158a3aa02ea6c0559146623",
+        "policy.json": "37422483faecf773efc965db14296b0763670088ea07ec00d26cd3b10e66ed22",
+        "rates_daily.parquet": "5d128a2a885344279b38a4486df4926b86f3faaf3985ff6e66f34d8ce7e177b7",
+        "text/corpus_index.json": "4d30bc4f9d4d7c7395482720c02607a07098e476763f40914b12537307564dde",
+        "text/policy-0.txt": "8b0413b0fc28efdabf3f9e9403935721d9fb58df3991ae4d6e81a556a9261156",
+        "text/policy-1.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-07-27",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-08-03",
+      "origin": "2026-08-03",
+      "files": {
+        "card.toml": "33ab52256d5ed15d86685c3480fe40209bc681dd0dd97a4bc6bdd36a245a0a21",
+        "policy.json": "9be33001739de47b99a6672975f256c368de4c67b589dd269a9e5bfd0786a2e7",
+        "rates_daily.parquet": "7fdc802c6e7cc465aa728101e5dd4f4b351cae78ad6c6cb9189e5bd7bc3e3d09",
+        "text/corpus_index.json": "edfc083cb9a195fbca85a5bd89b81df5e7d750744a07eb6b18872186b34d0d68",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-08-03",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-08-10",
+      "origin": "2026-08-10",
+      "files": {
+        "card.toml": "683243a2616d01a203ec369da614e196874a726fd8ca0cf07983afa44b985a1f",
+        "policy.json": "b131141332a3df14ba24119f8427e076a2fc447bb762414e78fae8abf8c61c03",
+        "rates_daily.parquet": "58677a55bdd201b6a8b0e06b3173d28a2fe926f820717df8ec345941df8b2ff2",
+        "text/corpus_index.json": "67871de5e399bcd2510304776b40f2604e69a6d1b79e9de4981601a4d7d249e2",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-08-10",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-08-17",
+      "origin": "2026-08-17",
+      "files": {
+        "card.toml": "bc59037fb2b56a5ea380b28c87a9d7d0a1fcfcc9eb1ea66520166e00304d14b6",
+        "policy.json": "d2d6b6d2427021851494dcc95851653e9c0a1767163dc109d24d3e69c3e9472f",
+        "rates_daily.parquet": "0bf736bc78db114ee60ad41f3533fa6412706404aeb66e79596206e63be279b6",
+        "text/corpus_index.json": "10fe1ed25a0575f94d1d529d52f92eb90bb25d6aee984f02a3bdc860688a3362",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-08-17",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-08-24",
+      "origin": "2026-08-24",
+      "files": {
+        "card.toml": "84b789d14cf9b5a811cf1d30a94ea2241651f37f558e9d1580f3f22b9eb7681a",
+        "policy.json": "e5c63d9ba337488437fec961ecdf9737bb0d86c4ba32c16746e6fe6bf3d4c80f",
+        "rates_daily.parquet": "ac089be0fb1edab9bb1b44745a531bd091b7e8ece286124ddf79d1c07a0d07c1",
+        "text/corpus_index.json": "c55bda77dcfc9787b6a3c697f131343f044cc272cc93c9f936746fbc22a08558",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-08-24",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-08-31",
+      "origin": "2026-08-31",
+      "files": {
+        "card.toml": "ee5efdbc2c2e17a01442d31ad740a2f8acc9f9550e6df8cb0b6c305d8c5c70e9",
+        "policy.json": "9be33001739de47b99a6672975f256c368de4c67b589dd269a9e5bfd0786a2e7",
+        "rates_daily.parquet": "f0b47a67331a21111e4834b6d568fb38d8b08f032ab7a5a6c72243e807cb76d7",
+        "text/corpus_index.json": "657216b275fe7302ee68abbbbf71c3b0a88f82646929d388f5a82d3e86989d61",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-08-31",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-09-14",
+      "origin": "2026-09-14",
+      "files": {
+        "card.toml": "208351ec7437096f4311d9afed096c71745c14dbcf68bcf137bdbb531abd6945",
+        "policy.json": "b131141332a3df14ba24119f8427e076a2fc447bb762414e78fae8abf8c61c03",
+        "rates_daily.parquet": "02bcf737f40e8ed4a0107368688abea279d46492819615fd8b8461368f28a143",
+        "text/corpus_index.json": "325d1ce6bf72993e73140954eb27658a4b34611b52af42093c1bfcaed36722f9",
+        "text/policy-0.txt": "1fa4f22ce44b4d1259080fb6d56ad191800a18f4c757b90c79bd3345029bf530",
+        "text/policy-1.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-09-14",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-09-21",
+      "origin": "2026-09-21",
+      "files": {
+        "card.toml": "f9352916517184125fb175b4d58d2f38a3bc9ac9e1889bf846132a12694b180e",
+        "policy.json": "1ea5de6ba9ab8fb98de2c4205d0490754da70292e32473815d5f7fd50b34be37",
+        "rates_daily.parquet": "2cc2acfb7b1fbe4d842b54bf7a17969526a5f8af97073389639600ee2f72c740",
+        "text/corpus_index.json": "c1f9159f2bd0bfc54a308544b6a3b0d2f56cf7a4fb8348a1bf8a0e25a9b805df",
+        "text/policy-0.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-1.txt": "c98ba29458a2ed7de5d5aa60cc67c7743fbb363ac89ce30b8183a088d30527b2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-09-21",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-09-28",
+      "origin": "2026-09-28",
+      "files": {
+        "card.toml": "06b9f6df4bf70ff0a8b8fa920fa00efd2c4837809e4ed64b71d07ac8e3bc4491",
+        "policy.json": "29e8b1fd71b7cd8ef5d5d19019066ec5b2551988600126668cc233273040debe",
+        "rates_daily.parquet": "3aaba4dda2129e434954d9edb290aabbdecdd741abf9cf1444a10288c8396079",
+        "text/corpus_index.json": "3c2e646ee0b6c049dbf8f02e28647e5751f5f09a079a79e2d262a572f2f04a90",
+        "text/policy-0.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-1.txt": "c98ba29458a2ed7de5d5aa60cc67c7743fbb363ac89ce30b8183a088d30527b2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-09-28",
+      "docs": 4
+    },
+    {
+      "id": "a23-ust-2026-10-05",
+      "origin": "2026-10-05",
+      "files": {
+        "card.toml": "e44d63081eccbf842005293d089a192ea7594f99679ac7ff4e10a3a63ac2d11c",
+        "policy.json": "dace0db5d90ad7235a99301dcd3686e7fb290c296e69bc8345ed7e22b4ffcba6",
+        "rates_daily.parquet": "24e43910ec6c6858c609d0b27eff77b210b3d015dcee99bec4c5a2f0ea0e608d",
+        "text/corpus_index.json": "c3f38c0beb8193a53342178265c810dcc636e3cfc311c9d59926c93262f717be",
+        "text/policy-0.txt": "739a36ee1f061e296bad6ca1e433ba26f94e299e524915cccb8f3f5e2044bc39",
+        "text/policy-1.txt": "c98ba29458a2ed7de5d5aa60cc67c7743fbb363ac89ce30b8183a088d30527b2",
+        "text/policy-2.txt": "7056a5a2c46b7c48159a200f0c9597155f9f763b323154195be49c9acca07b2c",
+        "text/policy-3.txt": "93ad9c06666f10631930d87c8301022d05268f8f653b39cd2faa3d12157a94f9"
+      },
+      "last_observation": "2026-10-05",
+      "docs": 4
+    }
+  ]
+}
