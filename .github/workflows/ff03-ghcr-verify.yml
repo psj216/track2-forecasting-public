@@ -1,0 +1,22 @@
+name: Verify FF03 anonymous GHCR pull
+on:
+  push:
+    branches: [track2/ff03-final-ghcr-release-20261026]
+    paths: ['.github/workflows/ff03-ghcr-verify.yml']
+permissions:
+  contents: read
+jobs:
+  anonymous:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Pull by manifest digest without any registry login
+        shell: bash
+        run: |
+          set -euo pipefail
+          export DOCKER_CONFIG="$(mktemp -d)"
+          ref='ghcr.io/psj216/track2-forecasting-ff03@sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c'
+          timeout 360 docker pull --platform linux/amd64 "$ref"
+          test "$(docker image inspect --format '{{.Id}}' "$ref")" = 'sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c'
+          test "$(docker image inspect --format '{{.Os}}/{{.Architecture}}' "$ref")" = 'linux/amd64'
+          echo "FRESH_RUNNER_ANONYMOUS_PULL_PASS=$ref"
