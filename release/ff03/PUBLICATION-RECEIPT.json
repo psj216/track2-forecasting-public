@@ -1,0 +1,17 @@
+{
+  "status": "PUBLISHED_AND_ANONYMOUS_PULL_VERIFIED",
+  "source_branch": "track2/final-fit-03-monthly-repair-release",
+  "source_sha": "c5b8bbbd6227888b7a3dc0bbd05dc414d2d7c3f6",
+  "safe_branch_sha_before_release": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+  "archive_run_id": 38798442114,
+  "archive_artifact_id": 12003002655,
+  "archive_sha256": "df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c",
+  "local_image_id": "sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c",
+  "image_reference": "ghcr.io/psj216/track2-forecasting-ff03@sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c",
+  "registry_manifest_digest": "sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c",
+  "architecture": "linux/amd64",
+  "publication_action": "https://github.com/psj216/track2-forecasting-public/actions/runs/40212633398",
+  "fresh_anonymous_pull_action": "https://github.com/psj216/track2-forecasting-public/actions/runs/40212739147",
+  "packaging": "NOT_RUN; Team Key remains with operator",
+  "codabench_upload": "NOT_RUN"
+}
