@@ -1,0 +1,55 @@
+name: Publish exact FF03 archive to GHCR
+on:
+  push:
+    branches: [track2/ff03-final-ghcr-release-20261026]
+    paths: ['.github/workflows/ff03-ghcr-publication.yml']
+permissions:
+  contents: read
+  actions: read
+  packages: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Download archived image from original run
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093
+        with:
+          name: ff03-image-38798442114
+          run-id: 38798442114
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: ${{ runner.temp }}/ff03
+      - name: Verify exact archive and image identity
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/ff03"
+          printf '%s  %s\n' df232487177cb56cb0ae945b2613fbbebbb24eff702f21712662e589d04f636c candidate-image.tar.gz | sha256sum -c -
+          timeout 180 bash -o pipefail -c 'gzip -dc candidate-image.tar.gz | docker load'
+          image_id="$(docker image inspect --format '{{.Id}}' sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c)"
+          test "$image_id" = 'sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c'
+          test "$(docker image inspect --format '{{.Os}}/{{.Architecture}}' "$image_id")" = 'linux/amd64'
+          docker image inspect --format 'Image ID: {{.Id}} architecture: {{.Os}}/{{.Architecture}}' "$image_id"
+      - name: Publish new immutable tag
+        shell: bash
+        env:
+          GHCR_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          image='ghcr.io/psj216/track2-forecasting-ff03:ff03-c5b8bbbd-20261026'
+          printf '%s' "$GHCR_TOKEN" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+          if docker manifest inspect "$image" >/dev/null 2>&1; then
+            echo 'Refusing to overwrite existing registry tag' >&2
+            exit 1
+          fi
+          docker tag sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c "$image"
+          timeout 420 docker push "$image"
+          digest="$(docker image inspect --format '{{index .RepoDigests 0}}' "$image")"
+          echo "PUSH_REPO_DIGEST=$digest"
+          test "${digest#*@}" != "$digest"
+          docker logout ghcr.io
+          mkdir -p "$RUNNER_TEMP/ff03-anonymous-config"
+          export DOCKER_CONFIG="$RUNNER_TEMP/ff03-anonymous-config"
+          timeout 300 docker pull --platform=linux/amd64 "$digest"
+          test "$(docker image inspect --format '{{.Id}}' "$digest")" = 'sha256:23f226ced859978d7a3f16a23c6d1515a1a3bdb14338297f4818d114bcfa2c1c'
+          echo "ANONYMOUS_PULL_VERIFIED=$digest"
