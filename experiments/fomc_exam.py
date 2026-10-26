@@ -15,7 +15,7 @@ def get(url):
     r=requests.get(url,timeout=60);r.raise_for_status();return r.text
 frames=[];sources=[]
 for year in [2025,2026]:
-    url=f'https://home.treasury.gov/resource-center-data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value={year}'
+    url=f'https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value={year}'
     html=get(url);tables=pd.read_html(io.StringIO(html))
     df=next(t for t in tables if 'Date' in t.columns and '2 Yr' in t.columns)
     df=df[['Date']+list(ASSETS)].rename(columns={'Date':'date',**ASSETS})
