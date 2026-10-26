@@ -1,0 +1,43 @@
+# Executive summary: fixed historical FF03 evaluation, never deploys or submits.
+name: FF03 historical FOMC examiner
+on:
+  push:
+    branches: [track2/ff03-fomc-historical-exam-20261027]
+    paths: ['.github/workflows/ff03-historical-exam.yml']
+permissions:
+  contents: read
+jobs:
+  exam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          repository: Agenthon-2026/Agenthon2026-public
+          ref: 03c50a0036aaf72675d353aef4c7c01ca86d1fcf
+          path: common-current
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Dependencies, focused tests and immutable image
+        run: |
+          timeout 180 python -m pip install numpy==2.1.3 pandas==2.2.3 pyarrow==18.1.0 requests beautifulsoup4 lxml pytest
+          timeout 30 python -m pytest -q experiments/tests/test_fomc_exam.py
+          timeout 180 docker pull ghcr.io/psj216/track2-forecasting-ff03@sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c
+      - name: Prepare limited-reconstruction inputs
+        run: timeout 300 python experiments/fomc_historical_exam.py prepare
+      - name: Forecast and seal all prediction hashes
+        run: timeout 540 python experiments/fomc_historical_exam.py forecast
+      - name: Open evaluator observations only after seal and score
+        run: timeout 120 python experiments/fomc_historical_exam.py evaluate
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: ff03-historical-exam-evidence
+          path: /tmp/ff03-historical-exam/
+          if-no-files-found: warn
+          retention-days: 90
