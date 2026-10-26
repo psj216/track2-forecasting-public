@@ -1,0 +1,28 @@
+# Executive summary: execute two fixed market-yield forecasts; no publication or submission.
+name: FF03 FOMC exam
+on:
+  push:
+    branches: [track2/ff03-fomc-exam-20261027]
+    paths: ['.github/workflows/ff03-fomc-exam.yml']
+permissions:
+  contents: read
+jobs:
+  exam:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          persist-credentials: false
+      - name: Dependencies and exact image
+        run: |
+          timeout 120 python -m pip install pandas==2.2.3 numpy==2.1.3 pyarrow==18.1.0 requests beautifulsoup4 lxml
+          timeout 240 docker pull ghcr.io/psj216/track2-forecasting-ff03@sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c
+      - name: Two predictions then retrospective comparison
+        run: timeout 540 python experiments/fomc_exam.py
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: ff03-fomc-exam
+          path: /tmp/fomc-exam/
+          retention-days: 30
