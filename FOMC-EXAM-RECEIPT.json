@@ -1,0 +1,15 @@
+{
+  "executive_summary": "Historical examiner execution completed. Retrospective limited reconstruction, not independent OOS or Final score. Numeric observations and performance are retained outside public source.",
+  "branch": "track2/ff03-fomc-historical-exam-20261027",
+  "pre_sha": "155297f9fc5428453be4357b8567b23cde625ca1",
+  "execution_source_sha": "cc82ff0240a8707eefd19518fb7ec09fe3fab3bb",
+  "workflow_run": 40364921032,
+  "artifact_id": 12671140273,
+  "artifact_zip_sha256": "7f1578b0cdbe9b5586888fe61617acfa769582a06fff1f540023b1316da861e7",
+  "prediction_seal_sha256": "74ac4e4ab70b5eb2839a84c4520a428688f3d8635e28ccdb5931af142c2198a9",
+  "image": "ghcr.io/psj216/track2-forecasting-ff03@sha256:daddaf6222ebeea0c8951643db525eb73e7d856af9c5ac23b09772f3d1b8b81c",
+  "safe_branch_sha": "71c6ab1aa349a3cea01ca61e2b1a5f999c6b3006",
+  "model_modified": false,
+  "submission_accessed": false,
+  "report_location": "Examiner report and full evidence bundle delivered separately. Actions artifact expires 2027-01-24."
+}
